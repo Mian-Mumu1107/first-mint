@@ -259,24 +259,37 @@ label {
 	margin: 0;
 }
 
-.reward-item {
+.reward-card {
+	position: relative;
+	width: 92px;
+	height: 92px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	gap: 8px;
-	padding: 6px 10px;
+	justify-content: center;
+	padding: 10px;
 	border: 1px solid var(--border);
-	border-radius: 10px;
+	border-radius: 14px;
 	background: var(--bg);
-	font-size: 14px;
-}
-
-.reward-name {
 	color: var(--text);
+	text-decoration: none;
 }
 
-.reward-count {
+.reward-card:hover {
+	border-color: var(--accent);
+}
+
+.reward-card-icon {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+}
+
+.reward-card-count {
+	margin-top: 4px;
+	font-size: 16px;
+	font-weight: 700;
 	color: var(--accent-light);
-	font-weight: bold;
 }
 
 .custom-tooltip {
@@ -301,6 +314,27 @@ label {
 	display: block;
 }
 
+.tooltip-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 10px;
+}
+
+.tooltip-icon {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+.tooltip-title-group {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	min-width: 0;
+}
+
 .tooltip-title {
 	font-size: 18px;
 	font-weight: bold;
@@ -308,7 +342,18 @@ label {
 	word-break: break-word;
 }
 
-.tooltip-meta-list {
+.tooltip-id {
+	font-size: 13px;
+	color: var(--muted);
+}
+
+.tooltip-rarity {
+	font-size: 14px;
+	color: #d6a14d;
+	font-weight: bold;
+}
+
+.npc-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
@@ -425,6 +470,185 @@ label {
 	gap: 12px;
 }
 
+.adventure-glossary-button {
+	width: 42px;
+	height: 42px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	padding: 6px;
+	border: 1px solid var(--border);
+	border-radius: 10px;
+	background: var(--bg);
+	cursor: pointer;
+}
+
+.adventure-glossary-button:hover {
+	background: var(--border);
+}
+
+.adventure-glossary-button-icon {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.adventure-glossary-overlay {
+	position: fixed;
+	z-index: 1000;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	background: rgba(0, 0, 0, 0.65);
+}
+
+.adventure-glossary-popup {
+	width: min(100%, 760px);
+	max-height: min(90vh, 760px);
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--border);
+	border-radius: 16px;
+	background: var(--card);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+.adventure-glossary-popup-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 16px 18px;
+	border-bottom: 1px solid var(--border);
+}
+
+.adventure-glossary-popup-header h2 {
+	margin: 0;
+	color: var(--accent);
+}
+
+.adventure-glossary-close-button {
+	width: 34px;
+	height: 34px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--bg);
+	color: var(--text);
+	font-size: 24px;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.adventure-glossary-close-button:hover {
+	background: var(--border);
+}
+
+.adventure-glossary-tab-bar {
+	display: flex;
+	gap: 8px;
+	padding: 12px 18px;
+	border-bottom: 1px solid var(--border);
+}
+
+.adventure-glossary-tab-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 12px;
+	border: 1px solid var(--border);
+	border-radius: 10px;
+	background: var(--bg);
+	color: var(--text);
+	cursor: pointer;
+}
+
+.adventure-glossary-tab-button.active,
+.adventure-glossary-tab-button:hover {
+	background: var(--border);
+	color: var(--accent-light);
+}
+
+.adventure-glossary-tab-icon {
+	width: 28px;
+	height: 28px;
+	object-fit: contain;
+}
+
+.adventure-glossary-content {
+	display: grid;
+	gap: 12px;
+	padding: 18px;
+	overflow-y: auto;
+}
+
+.adventure-glossary-item {
+	display: grid;
+	gap: 14px;
+	align-items: start;
+	padding: 14px;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	background: var(--bg);
+}
+
+.adventure-glossary-item.has-image {
+	grid-template-columns: 96px 1fr;
+}
+
+.adventure-glossary-image {
+	width: 96px;
+	height: 96px;
+	object-fit: contain;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	background: var(--card);
+}
+
+.adventure-glossary-area-image {
+	width: 100%;
+	max-height: 260px;
+	object-fit: cover;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	background: var(--card);
+	display: block;
+}
+
+.adventure-glossary-body {
+	display: grid;
+	gap: 10px;
+	min-width: 0;
+}
+
+.adventure-glossary-item h3 {
+	margin: 0;
+	color: var(--accent-light);
+}
+
+.adventure-glossary-item p {
+	margin: 0;
+	color: var(--muted);
+	line-height: 1.6;
+}
+
+.adventure-glossary-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.adventure-glossary-meta span {
+	padding: 5px 7px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	color: var(--muted);
+	font-size: 13px;
+}
+
 .chapter-change-list {
 	display: grid;
 	gap: 8px;
@@ -463,6 +687,13 @@ label {
 	display: flex;
 	align-items: center;
 	gap: 12px;
+}
+
+.chapter-change-icon {
+	width: 72px;
+	height: 72px;
+	flex: 0 0 auto;
+	object-fit: contain;
 }
 
 .chapter-change-text {
@@ -791,6 +1022,18 @@ label {
 	color: var(--muted);
 }
 
+.selection-card.has-selection-card-icon {
+	display: grid;
+	grid-template-columns: 56px 1fr;
+	align-items: center;
+}
+
+.selection-card-icon {
+	width: 48px;
+	height: 48px;
+	object-fit: contain;
+}
+
 .selection-card-content {
 	display: grid;
 	gap: 6px;
@@ -801,6 +1044,13 @@ label {
 	display: flex;
 	align-items: center;
 	gap: 12px;
+}
+
+.chapter-title-icon {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+	flex: 0 0 auto;
 }
 
 .card-tooltip-title {
@@ -841,16 +1091,24 @@ label {
 }
 
 .card-tooltip-reward {
-	display: flex;
-	align-items: center;
-	gap: 6px;
-	padding: 5px 8px;
+	width: 54px;
+	min-height: 64px;
+	display: grid;
+	justify-items: center;
+	gap: 4px;
+	padding: 6px;
 	border: 1px solid var(--border);
 	border-radius: 10px;
 	background: var(--bg);
 	color: var(--accent-light);
 	font-size: 13px;
 	font-weight: bold;
+}
+
+.card-tooltip-reward img {
+	width: 38px;
+	height: 38px;
+	object-fit: contain;
 }
 
 .card-tooltip-change {
@@ -924,3 +1182,67 @@ label {
 	font-weight: bold;
 }
 
+.quest-step-map {
+	margin-top: 24px;
+	display: grid;
+	gap: 12px;
+}
+
+.quest-step-map:empty {
+	display: none;
+}
+
+.quest-step-map-title {
+	margin: 0;
+	color: var(--accent);
+}
+
+.quest-step-map-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	height: 420px;
+	overflow: hidden;
+	border: 1px solid var(--border);
+	border-radius: 14px;
+	background-color: #101010;
+	background-image: url("https://whiteineffa.gitlab.io/gi-images-4/Map/UI_MapBack_None.png");
+	background-size: 256px 256px;
+}
+
+.quest-step-map-plane {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform-origin: 0 0;
+	user-select: none;
+}
+
+.quest-step-map-tile {
+	position: absolute;
+	width: 256px;
+	height: 256px;
+	object-fit: fill;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.quest-step-map-marker {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	transform: translate(-50%, -50%);
+	filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.65));
+	z-index: 5;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.quest-step-map-wrapper {
+	cursor: default;
+}
+
+.quest-step-map-marker {
+	pointer-events: none;
+}
