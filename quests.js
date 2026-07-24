@@ -3,6 +3,22 @@ const NEW_CHAPTERS_FILE = "./gi-data/generated/quests/chapters_with_quests_new.j
 const MATERIALS_FILE = "./gi-data/generated/materials/materials.json";
 const QUEST_SUBORDER_BASE = "./gi-quests/QuestSubOrders";
 const QUEST_SUBORDER_CHS_BASE = "./gi-quests-chs/QuestSubOrders";
+const ITEM_ICON_BASE_URL = "./gi-images-1/Item/";
+const CHAPTER_ICON_BASE_URL = "./gi-images-2/ChapterIcon/";
+const QUEST_MAP_BIGWORLD_SCENES_FILE = "./gi-data/generated/locations/scenes_bigworld.json";
+const QUEST_MAP_ICON_BASE_URL = "./gi-images-4/UI/";
+const QUEST_MAP_TILE_SIZE = 256;
+const QUEST_MAP_WORLD_UNITS_PER_TILE = 1024;
+const QUEST_MAP_MIN_TILE_X = -10;
+const QUEST_MAP_MAX_TILE_X = 10;
+const QUEST_MAP_MIN_TILE_Y = -10;
+const QUEST_MAP_MAX_TILE_Y = 20;
+const QUEST_MAP_ORIGIN_X = 1024;
+const QUEST_MAP_ORIGIN_Z = 1024;
+const QUEST_MAP_SKIP_TILES = new Set([
+	"5_2",
+	"5_6"
+]);
 
 const tooltip = document.getElementById("tooltip");
 
@@ -19,6 +35,7 @@ const chapterQuestList = document.getElementById("chapter-quest-list");
 const questInfo = document.getElementById("quest-info");
 const lineCounts = document.getElementById("line-counts");
 const dialogueLines = document.getElementById("dialogue-lines");
+const questStepMap = document.getElementById("quest-step-map");
 const settingsButton = document.getElementById("settings-button");
 const settingsPanel = document.getElementById("settings-panel");
 const nicknameInput = document.getElementById("nickname-input");
@@ -44,6 +61,8 @@ let activeSelectionTooltipEvent = null;
 let chapterQuestIdsCache = null;
 let currentQuestSubOrders = null;
 let currentQuestSubOrdersChs = null;
+let questMapBigworldSceneIds = null;
+let activeQuestRenderId = 0;
 let isNpcSearchResultMode = false;
 
 function shouldShowQuestExtraInfo() {
@@ -754,6 +773,7 @@ function renderNpcSearchQuestCards(npcSearch) {
 					() => {
 						openChapter(chapter);
 					},
+					chapter.chapterIcon ? `${CHAPTER_ICON_BASE_URL}${chapter.chapterIcon}.png` : "",
 					{
 						type: "chapter",
 						item: chapter
@@ -868,10 +888,21 @@ function getSelectionCardUrl(tooltipData) {
 	return window.location.href;
 }
 
-function createSelectionCard(title, preview, searchParts, onClick, tooltipData = null) {
+function createSelectionCard(title, preview, searchParts, onClick, iconUrl = "", tooltipData = null) {
 	const button = document.createElement("a");
 	button.className = "selection-card";
 	button.href = getSelectionCardUrl(tooltipData);
+
+	if (iconUrl) {
+		button.classList.add("has-selection-card-icon");
+
+		const icon = document.createElement("img");
+		icon.className = "selection-card-icon";
+		icon.src = iconUrl;
+		icon.alt = "";
+
+		button.appendChild(icon);
+	}
 
 	const content = document.createElement("div");
 	content.className = "selection-card-content";
@@ -934,12 +965,12 @@ function getTooltipRewardsHtml(rewards = []) {
 
 	const rewardItems = rewards.map(reward => {
 		const material = materialsById.get(Number(reward.itemId));
-		const name = escapeHtml(getLocalizedValue(material, "name", `Item ${reward.itemId}`));
+		const iconUrl = `${ITEM_ICON_BASE_URL}${material?.icon || reward.itemId}.png`;
 
 		return `
 			<div class="card-tooltip-reward">
-				<span>${name}</span>
-				<span>×${escapeHtml(reward.itemCount)}</span>
+				<img src="${iconUrl}" alt="${escapeHtml(getLocalizedValue(material, "name", `Item ${reward.itemId}`))}">
+				<span>${escapeHtml(reward.itemCount)}</span>
 			</div>
 		`;
 	}).join("");
@@ -1107,6 +1138,7 @@ function showListView() {
 	dialogueLines.innerHTML = "";
 	chapterInfo.innerHTML = "";
 	chapterQuestList.innerHTML = "";
+	clearQuestStepMap();
 }
 
 function showDetailView() {
@@ -1163,6 +1195,7 @@ function renderChapterCards() {
 				() => {
 					openChapter(chapter);
 				},
+				chapter.chapterIcon ? `${CHAPTER_ICON_BASE_URL}${chapter.chapterIcon}.png` : "",
 				{
 					type: "chapter",
 					item: chapter
@@ -1228,7 +1261,16 @@ function renderChapterInfo(chapter) {
 	const titleWrapper = document.createElement("div");
 	titleWrapper.className = "chapter-title-wrapper";
 
+	if (displayChapter.chapterIcon) {
+		const icon = document.createElement("img");
+		icon.className = "chapter-title-icon";
+		icon.src = `${CHAPTER_ICON_BASE_URL}${displayChapter.chapterIcon}.png`;
+		icon.alt = displayChapter.chapterIcon;
 
+		titleWrapper.appendChild(icon);
+	}
+
+	const title = document.createElement("h2");
 	title.innerHTML = getChapterTitleHtml(chapter);
 
 	titleWrapper.appendChild(title);
@@ -1268,6 +1310,15 @@ function renderChapterInfo(chapter) {
 			const oldContent = document.createElement("div");
 			oldContent.className = "chapter-change-content";
 
+			if (chapter.chapterIcon) {
+				const oldIcon = document.createElement("img");
+				oldIcon.className = "chapter-change-icon";
+				oldIcon.src = `${CHAPTER_ICON_BASE_URL}${chapter.chapterIcon}.png`;
+				oldIcon.alt = chapter.chapterIcon;
+
+				oldContent.appendChild(oldIcon);
+			}
+
 			const oldText = document.createElement("div");
 			oldText.className = "chapter-change-text";
 			oldText.innerHTML = `${getLocalizedHtml(chapter, "title", `Chapter ${chapter.id}`)}${getLocalizedPlain(chapter, "imageTitle", "") ? `<span class="localized-line">${getLocalizedHtml(chapter, "imageTitle", "")}</span>` : ""}`;
@@ -1284,6 +1335,15 @@ function renderChapterInfo(chapter) {
 
 			const newContent = document.createElement("div");
 			newContent.className = "chapter-change-content";
+
+			if (chapterChange.chapterIcon) {
+				const newIcon = document.createElement("img");
+				newIcon.className = "chapter-change-icon";
+				newIcon.src = `${CHAPTER_ICON_BASE_URL}${chapterChange.chapterIcon}.png`;
+				newIcon.alt = chapterChange.chapterIcon;
+
+				newContent.appendChild(newIcon);
+			}
 
 			const newText = document.createElement("div");
 			newText.className = "chapter-change-text";
@@ -1349,6 +1409,7 @@ function openChapter(chapter) {
 		questInfo.innerHTML = "";
 		lineCounts.innerHTML = "";
 		dialogueLines.textContent = "No quests found";
+		clearQuestStepMap();
 	}
 }
 
@@ -1362,6 +1423,79 @@ function openQuest(quest, fromView) {
 	backButton.dataset.backTo = fromView;
 
 	renderQuest(quest);
+}
+
+function createRewardCard({
+	id,
+	name,
+	nameHtml = "",
+	iconUrl,
+	count = "",
+	rarity = 4
+}) {
+	const rewardCard = document.createElement("a");
+	rewardCard.className = "reward-card";
+	rewardCard.href = `https://whiteineffa.gitlab.io/gi/materials/?id=${id}`;
+
+	const icon = document.createElement("img");
+	icon.className = "reward-card-icon";
+	icon.src = iconUrl;
+	icon.alt = name;
+
+	const text = document.createElement("span");
+	text.className = "reward-card-count";
+	text.textContent = count;
+
+	rewardCard.appendChild(icon);
+
+	if (count) {
+		rewardCard.appendChild(text);
+	}
+
+	rewardCard.addEventListener("mouseenter", event => {
+		showRewardTooltip(event, {
+			id,
+			name,
+			nameHtml,
+			iconUrl,
+			rarity
+		});
+	});
+
+	rewardCard.addEventListener("mousemove", moveTooltip);
+	rewardCard.addEventListener("mouseleave", hideTooltip);
+
+	return rewardCard;
+}
+
+function showRewardTooltip(event, reward) {
+	tooltip.innerHTML = `
+		<div class="tooltip-header">
+			<img
+				class="tooltip-icon"
+				src="${reward.iconUrl}"
+				alt="${escapeHtml(reward.name)}"
+			>
+
+			<div class="tooltip-title-group">
+				<div class="tooltip-title">
+					${reward.nameHtml || escapeHtml(reward.name)}
+				</div>
+
+				<div class="tooltip-id">
+					ID: ${reward.id}
+				</div>
+
+				<div class="tooltip-rarity">
+					${reward.rarity}★
+				</div>
+			</div>
+		</div>
+	`;
+
+	tooltip.classList.add("show");
+
+	moveTooltip(event);
 }
 
 function moveTooltip(event) {
@@ -1550,12 +1684,17 @@ function renderQuestInfo(quest) {
 
 		for (const reward of quest.rewards) {
 			const material = materialsById.get(Number(reward.itemId));
-			const name = getLocalizedValue(material, "name", `Item ${reward.itemId}`);
 
-			const rewardItem = document.createElement("div");
-			rewardItem.className = "reward-item";
-			rewardItem.innerHTML = `<span class="reward-name">${escapeHtml(name)}</span><span class="reward-count">×${escapeHtml(reward.itemCount)}</span>`;
-			rewards.appendChild(rewardItem);
+			rewards.appendChild(
+				createRewardCard({
+					id: reward.itemId,
+					name: getLocalizedValue(material, "name", `Item ${reward.itemId}`),
+					nameHtml: getLocalizedHtml(material, "name", `Item ${reward.itemId}`),
+					iconUrl: `${ITEM_ICON_BASE_URL}${material?.icon || reward.itemId}.png`,
+					count: reward.itemCount,
+					rarity: material?.rarity || 4
+				})
+			);
 		}
 
 		rewardsBlock.append(rewardsTitle, rewards);
@@ -1776,6 +1915,13 @@ function getDialoguePath(dialogs, startDialogId, selectedBranches = {}) {
 	return path;
 }
 
+const ADVENTURE_GLOSSARY_BUTTON_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_Answer.png";
+const ADVENTURE_GLOSSARY_AVATAR_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_AdventureGlossaryAvatar.png";
+const ADVENTURE_GLOSSARY_AREA_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_AdventureGlossaryArea.png";
+const ADVENTURE_GLOSSARY_SCENERY_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-5/Codex/Scenery/";
+const ADVENTURE_GLOSSARY_NPC_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-3/NPC/";
+const ADVENTURE_GLOSSARY_AVATAR_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-1/Avatar/";
+
 function getLocalizedBlockHtml(item, field, fallback = "") {
 	return getLocalizedHtml(item, field, fallback)
 		.replaceAll("\\n", "<br>");
@@ -1797,6 +1943,227 @@ function splitAdventureGlossaryEntries(entries) {
 		avatars: entries.filter(entry => entry.firstMetId !== undefined && entry.firstMetId !== null),
 		areas: entries.filter(entry => entry.tabType)
 	};
+}
+
+function createAdventureGlossaryTabButton(iconUrl, label, active, onClick) {
+	const button = document.createElement("button");
+	button.className = "adventure-glossary-tab-button";
+	button.classList.toggle("active", active);
+	button.type = "button";
+
+	const icon = document.createElement("img");
+	icon.className = "adventure-glossary-tab-icon";
+	icon.src = iconUrl;
+	icon.alt = label;
+
+	const text = document.createElement("span");
+	text.textContent = label;
+
+	button.append(icon, text);
+	button.addEventListener("click", onClick);
+
+	return button;
+}
+
+function getAdventureGlossaryImageInfo(entry) {
+	if (entry.imageName) {
+		return {
+			url: `${ADVENTURE_GLOSSARY_SCENERY_BASE_URL}${entry.imageName}.png`,
+			type: "area"
+		};
+	}
+
+	if (entry.iconName?.startsWith("UI_NPC")) {
+		return {
+			url: `${ADVENTURE_GLOSSARY_NPC_BASE_URL}${entry.iconName}.png`,
+			type: "avatar"
+		};
+	}
+
+	if (entry.iconName?.startsWith("UI_AvatarIcon")) {
+		return {
+			url: `${ADVENTURE_GLOSSARY_AVATAR_BASE_URL}${entry.iconName}.png`,
+			type: "avatar"
+		};
+	}
+
+	return null;
+}
+
+function renderAdventureGlossaryPopupContent(content, entries) {
+	content.innerHTML = "";
+
+	for (const entry of entries) {
+		const item = document.createElement("article");
+		item.className = "adventure-glossary-item";
+
+		const imageInfo = getAdventureGlossaryImageInfo(entry);
+
+		if (imageInfo?.type === "avatar") {
+			item.classList.add("has-image");
+
+			const image = document.createElement("img");
+			image.className = "adventure-glossary-image";
+			image.src = imageInfo.url;
+			image.alt = getLocalizedPlain(entry, "name", `Entry ${entry.id}`);
+			item.appendChild(image);
+		}
+
+		const body = document.createElement("div");
+		body.className = "adventure-glossary-body";
+
+		if (imageInfo?.type === "area") {
+			const image = document.createElement("img");
+			image.className = "adventure-glossary-area-image";
+			image.src = imageInfo.url;
+			image.alt = getLocalizedPlain(entry, "name", `Entry ${entry.id}`);
+			body.appendChild(image);
+		}
+
+		const title = document.createElement("h3");
+		title.innerHTML = getLocalizedHtml(entry, "name", `Entry ${entry.id}`);
+
+		const description = document.createElement("p");
+		description.innerHTML = getLocalizedBlockHtml(entry, "description", "");
+
+		const meta = document.createElement("div");
+		meta.className = "adventure-glossary-meta";
+
+		if (entry.firstMetId !== undefined && entry.firstMetId !== null) {
+			const firstMet = document.createElement("span");
+			firstMet.textContent = `First Met ID: ${entry.firstMetId}`;
+			meta.appendChild(firstMet);
+		}
+
+		if (entry.tabType) {
+			const tabType = document.createElement("span");
+			tabType.textContent = entry.tabType;
+			meta.appendChild(tabType);
+		}
+
+		const entryId = document.createElement("span");
+		entryId.textContent = `ID: ${entry.id}`;
+		meta.appendChild(entryId);
+
+		body.append(title, description, meta);
+		item.appendChild(body);
+		content.appendChild(item);
+	}
+}
+
+function openAdventureGlossaryPopup(entries) {
+	const oldPopup = document.querySelector(".adventure-glossary-overlay");
+
+	if (oldPopup) {
+		oldPopup.remove();
+	}
+
+	const splitEntries = splitAdventureGlossaryEntries(entries);
+	const tabs = [];
+
+	if (splitEntries.avatars.length) {
+		tabs.push({
+			key: "avatars",
+			label: "Avatar",
+			icon: ADVENTURE_GLOSSARY_AVATAR_ICON,
+			entries: splitEntries.avatars
+		});
+	}
+
+	if (splitEntries.areas.length) {
+		tabs.push({
+			key: "areas",
+			label: "Area",
+			icon: ADVENTURE_GLOSSARY_AREA_ICON,
+			entries: splitEntries.areas
+		});
+	}
+
+	if (!tabs.length) {
+		return;
+	}
+
+	let activeTab = tabs[0];
+
+	const overlay = document.createElement("div");
+	overlay.className = "adventure-glossary-overlay";
+
+	const popup = document.createElement("div");
+	popup.className = "adventure-glossary-popup";
+
+	const header = document.createElement("div");
+	header.className = "adventure-glossary-popup-header";
+
+	const title = document.createElement("h2");
+	title.textContent = "Adventure Glossary";
+
+	const closeButton = document.createElement("button");
+	closeButton.className = "adventure-glossary-close-button";
+	closeButton.type = "button";
+	closeButton.textContent = "×";
+
+	header.append(title, closeButton);
+
+	const tabBar = document.createElement("div");
+	tabBar.className = "adventure-glossary-tab-bar";
+
+	const content = document.createElement("div");
+	content.className = "adventure-glossary-content";
+
+	const renderTabs = () => {
+		tabBar.innerHTML = "";
+
+		for (const tab of tabs) {
+			tabBar.appendChild(
+				createAdventureGlossaryTabButton(
+					tab.icon,
+					tab.label,
+					tab.key === activeTab.key,
+					() => {
+						activeTab = tab;
+						renderTabs();
+						renderAdventureGlossaryPopupContent(content, activeTab.entries);
+					}
+				)
+			);
+		}
+	};
+
+	renderTabs();
+	renderAdventureGlossaryPopupContent(content, activeTab.entries);
+
+	closeButton.addEventListener("click", () => {
+		overlay.remove();
+	});
+
+	overlay.addEventListener("click", event => {
+		if (event.target === overlay) {
+			overlay.remove();
+		}
+	});
+
+	popup.append(header, tabBar, content);
+	overlay.appendChild(popup);
+	document.body.appendChild(overlay);
+}
+
+function createAdventureGlossaryButton(entries) {
+	const button = document.createElement("button");
+	button.className = "adventure-glossary-button";
+	button.type = "button";
+	button.title = "Adventure Glossary";
+
+	const icon = document.createElement("img");
+	icon.className = "adventure-glossary-button-icon";
+	icon.src = ADVENTURE_GLOSSARY_BUTTON_ICON;
+	icon.alt = "Adventure Glossary";
+
+	button.appendChild(icon);
+	button.addEventListener("click", () => {
+		openAdventureGlossaryPopup(entries);
+	});
+
+	return button;
 }
 
 function renderSubQuestDialogue(subQuest, selectedBranches = {}, chsSubQuest = null) {
@@ -1821,6 +2188,14 @@ function renderSubQuestDialogue(subQuest, selectedBranches = {}, chsSubQuest = n
 	subQuestHeader.className = "subquest-header";
 
 	subQuestHeader.appendChild(subQuestTitle);
+
+	const adventureGlossaryEntries = getAdventureGlossaryForSubQuest(subQuest.subId);
+
+	if (adventureGlossaryEntries.length) {
+		subQuestHeader.appendChild(
+			createAdventureGlossaryButton(adventureGlossaryEntries)
+		);
+	}
 
 	subQuestBlock.appendChild(subQuestHeader);
 
@@ -1909,6 +2284,362 @@ function renderLineCounts(questSubOrders, questSubOrdersChs = null) {
 	lineCounts.append(title, list);
 }
 
+async function loadQuestMapBigworldSceneIds() {
+	if (questMapBigworldSceneIds) {
+		return questMapBigworldSceneIds;
+	}
+
+	const response = await fetch(QUEST_MAP_BIGWORLD_SCENES_FILE);
+
+	if (!response.ok) {
+		throw new Error(`Failed to load scenes_bigworld.json: ${response.status}`);
+	}
+
+	const sceneIds = await response.json();
+
+	questMapBigworldSceneIds = new Set(sceneIds.map(sceneId => String(sceneId)));
+
+	return questMapBigworldSceneIds;
+}
+
+function getQuestMapSceneIdFromMarkerId(markerId) {
+	const text = String(markerId);
+
+	const wrappedParamMatch = text.match(/\((\d+)_/);
+
+	if (wrappedParamMatch) {
+		return wrappedParamMatch[1];
+	}
+
+	const directParamMatch = text.match(/^(\d+)_/);
+
+	if (directParamMatch) {
+		return directParamMatch[1];
+	}
+
+	return null;
+}
+
+function getQuestMapSceneId(location, subQuest = null) {
+	return String(
+		location.sceneId
+		|| location.sceneID
+		|| location.scene
+		|| subQuest?.sceneId
+		|| subQuest?.sceneID
+		|| subQuest?.scene
+		|| getQuestMapSceneIdFromMarkerId(location.id)
+		|| ""
+	);
+}
+
+function collectQuestStepMapLocations(questSubOrders, sceneIds) {
+	const seen = new Set();
+	const locations = [];
+
+	for (const subQuest of questSubOrders?.subQuests || []) {
+		for (const location of subQuest.locations || []) {
+			const sceneId = getQuestMapSceneId(location, subQuest);
+
+			if (!sceneId || !sceneIds.has(sceneId)) {
+				continue;
+			}
+
+			const x = Number(location.x);
+			const y = Number(location.y || 0);
+			const z = Number(location.z);
+
+			if (!Number.isFinite(x) || !Number.isFinite(z)) {
+				continue;
+			}
+
+			const key = `${sceneId}:${x}:${y}:${z}`;
+
+			if (seen.has(key)) {
+				continue;
+			}
+
+			seen.add(key);
+
+			locations.push({
+				...location,
+				id: location.id || `${sceneId}_${subQuest.subId}`,
+				sceneId,
+				subId: subQuest.subId,
+				subQuestName: subQuest.subQuestName || "",
+				x,
+				y,
+				z
+			});
+		}
+	}
+
+	return locations;
+}
+
+function questMapWorldToPixel(x, z) {
+	return {
+		left: (QUEST_MAP_MAX_TILE_Y - ((z - QUEST_MAP_ORIGIN_Z) / QUEST_MAP_WORLD_UNITS_PER_TILE)) * QUEST_MAP_TILE_SIZE,
+		top: (QUEST_MAP_MAX_TILE_X - ((x - QUEST_MAP_ORIGIN_X) / QUEST_MAP_WORLD_UNITS_PER_TILE)) * QUEST_MAP_TILE_SIZE
+	};
+}
+
+function getQuestStepMapTilePosition(x, y) {
+	return {
+		left: (QUEST_MAP_MAX_TILE_Y - y) * QUEST_MAP_TILE_SIZE,
+		top: (QUEST_MAP_MAX_TILE_X - x) * QUEST_MAP_TILE_SIZE
+	};
+}
+
+function createQuestStepMapTile(x, y) {
+	const tile = document.createElement("img");
+	const pos = getQuestStepMapTilePosition(x, y);
+
+	tile.className = "quest-step-map-tile";
+	tile.src = `https://whiteineffa.gitlab.io/gi-images-4/Map/UI_MapBack_${x}_${y}.png`;
+	tile.alt = "";
+	tile.loading = "lazy";
+	tile.decoding = "async";
+	tile.draggable = false;
+	tile.style.left = `${pos.left}px`;
+	tile.style.top = `${pos.top}px`;
+
+	let failedLoads = 0;
+
+	tile.addEventListener("error", () => {
+		failedLoads++;
+
+		if (failedLoads >= 3) {
+			tile.remove();
+		} else {
+			const currentSrc = tile.src;
+			tile.src = "";
+			requestAnimationFrame(() => {
+				tile.src = currentSrc;
+			});
+		}
+	});
+
+	return tile;
+}
+
+function tileIntersectsQuestMapViewport(tileX, tileY, translateX, translateY, scale) {
+	const tilePos = getQuestStepMapTilePosition(tileX, tileY);
+
+	const left = (tilePos.left * scale) + translateX;
+	const top = (tilePos.top * scale) + translateY;
+	const right = left + (QUEST_MAP_TILE_SIZE * scale);
+	const bottom = top + (QUEST_MAP_TILE_SIZE * scale);
+
+	return !(
+		right < 0
+		|| bottom < 0
+		|| left > 1000
+		|| top > 420
+	);
+}
+
+function showQuestStepMapMarkerTooltip(event, location, index) {
+	tooltip.innerHTML = `
+		<div class="tooltip-title">
+			${escapeHtml(location.id)}
+		</div>
+
+		<div class="tooltip-meta-list">
+			<div class="tooltip-meta-row">
+				<span class="tooltip-meta-label">Marker:</span>
+				<span class="tooltip-meta-value">${escapeHtml(index + 1)}</span>
+			</div>
+
+			<div class="tooltip-meta-row">
+				<span class="tooltip-meta-label">Subquest ID:</span>
+				<span class="tooltip-meta-value">${escapeHtml(location.subId || "")}</span>
+			</div>
+
+			<div class="tooltip-meta-row">
+				<span class="tooltip-meta-label">Scene ID:</span>
+				<span class="tooltip-meta-value">${escapeHtml(location.sceneId || "")}</span>
+			</div>
+
+			<div class="tooltip-meta-row">
+				<span class="tooltip-meta-label">Position:</span>
+				<span class="tooltip-meta-value">x=${escapeHtml(location.x)}, y=${escapeHtml(location.y)}, z=${escapeHtml(location.z)}</span>
+			</div>
+		</div>
+	`;
+
+	tooltip.classList.add("show");
+	moveTooltip(event);
+}
+
+function createQuestStepMapMarker(location, index) {
+	const pos = questMapWorldToPixel(location.x, location.z);
+	const markerElement = document.createElement("img");
+
+	markerElement.className = "quest-step-map-marker";
+	markerElement.src = `${QUEST_MAP_ICON_BASE_URL}UI_MarkQuest_Branch_Proce.png`;
+	markerElement.alt = location.id;
+	markerElement.draggable = false;
+	markerElement.style.left = `${pos.left}px`;
+	markerElement.style.top = `${pos.top}px`;
+	markerElement.questStepMapLocation = location;
+	markerElement.questStepMapIndex = index;
+
+	return markerElement;
+}
+
+function getClosestQuestStepMapMarker(event, wrapper) {
+	const markers = [...wrapper.querySelectorAll(".quest-step-map-marker")];
+	let closestMarker = null;
+	let closestDistance = Infinity;
+
+	for (const marker of markers) {
+		const rect = marker.getBoundingClientRect();
+		const centerX = rect.left + (rect.width / 2);
+		const centerY = rect.top + (rect.height / 2);
+		const distance = Math.hypot(event.clientX - centerX, event.clientY - centerY);
+		const hitRadius = Math.max(18, Math.min(rect.width, rect.height) * 0.55);
+
+		if (distance > hitRadius || distance >= closestDistance) {
+			continue;
+		}
+
+		closestMarker = marker;
+		closestDistance = distance;
+	}
+
+	return closestMarker;
+}
+
+function handleQuestStepMapMouseMove(event) {
+	const wrapper = event.currentTarget;
+	const marker = getClosestQuestStepMapMarker(event, wrapper);
+
+	if (!marker) {
+		wrapper.dataset.activeMarkerKey = "";
+		hideTooltip();
+		return;
+	}
+
+	const markerKey = `${marker.questStepMapIndex}:${marker.questStepMapLocation?.id}`;
+
+	if (wrapper.dataset.activeMarkerKey !== markerKey) {
+		wrapper.dataset.activeMarkerKey = markerKey;
+		showQuestStepMapMarkerTooltip(
+			event,
+			marker.questStepMapLocation,
+			marker.questStepMapIndex
+		);
+	} else {
+		moveTooltip(event);
+	}
+}
+function fitQuestStepMapToLocations(locations) {
+	const markerPixels = locations.map(location => questMapWorldToPixel(location.x, location.z));
+	const minLeft = Math.min(...markerPixels.map(pos => pos.left));
+	const maxLeft = Math.max(...markerPixels.map(pos => pos.left));
+	const minTop = Math.min(...markerPixels.map(pos => pos.top));
+	const maxTop = Math.max(...markerPixels.map(pos => pos.top));
+	const padding = 420;
+	const targetWidth = Math.max(maxLeft - minLeft + padding, 900);
+	const targetHeight = Math.max(maxTop - minTop + padding, 620);
+	const scale = Math.min(1000 / targetWidth, 420 / targetHeight, 0.42);
+	const centerLeft = (minLeft + maxLeft) / 2;
+	const centerTop = (minTop + maxTop) / 2;
+
+	return {
+		scale,
+		translateX: 500 - (centerLeft * scale),
+		translateY: 210 - (centerTop * scale)
+	};
+}
+
+async function renderQuestStepMap(questSubOrders, renderId) {
+	clearQuestStepMap();
+
+	const sceneIds = await loadQuestMapBigworldSceneIds();
+
+	if (renderId !== activeQuestRenderId) {
+		return;
+	}
+
+	const locations = collectQuestStepMapLocations(questSubOrders, sceneIds);
+
+	if (renderId !== activeQuestRenderId) {
+		return;
+	}
+
+	if (!locations.length) {
+		clearQuestStepMap();
+		return;
+	}
+
+	const title = document.createElement("h2");
+	title.className = "quest-step-map-title";
+	title.textContent = "Quest Step Map";
+
+	const wrapper = document.createElement("div");
+	wrapper.className = "quest-step-map-wrapper";
+
+	const mapPlane = document.createElement("div");
+	mapPlane.className = "quest-step-map-plane";
+
+	const mapWidth = (QUEST_MAP_MAX_TILE_Y - QUEST_MAP_MIN_TILE_Y + 1) * QUEST_MAP_TILE_SIZE;
+	const mapHeight = (QUEST_MAP_MAX_TILE_X - QUEST_MAP_MIN_TILE_X + 1) * QUEST_MAP_TILE_SIZE;
+	const fit = fitQuestStepMapToLocations(locations);
+	const fragment = document.createDocumentFragment();
+
+	mapPlane.style.width = `${mapWidth}px`;
+	mapPlane.style.height = `${mapHeight}px`;
+	mapPlane.style.transform = `translate(${fit.translateX}px, ${fit.translateY}px) scale(${fit.scale})`;
+
+	for (let y = QUEST_MAP_MIN_TILE_Y; y <= QUEST_MAP_MAX_TILE_Y; y++) {
+		for (let x = QUEST_MAP_MIN_TILE_X; x <= QUEST_MAP_MAX_TILE_X; x++) {
+			if (QUEST_MAP_SKIP_TILES.has(`${x}_${y}`)) {
+				continue;
+			}
+
+			if (
+				!tileIntersectsQuestMapViewport(
+					x,
+					y,
+					fit.translateX,
+					fit.translateY,
+					fit.scale
+				)
+			) {
+				continue;
+			}
+
+			fragment.appendChild(createQuestStepMapTile(x, y));
+		}
+	}
+
+	locations.forEach((location, index) => {
+		fragment.appendChild(createQuestStepMapMarker(location, index));
+	});
+
+	mapPlane.appendChild(fragment);
+	wrapper.appendChild(mapPlane);
+
+	wrapper.addEventListener("mousemove", handleQuestStepMapMouseMove);
+	wrapper.addEventListener("mouseleave", () => {
+		wrapper.dataset.activeMarkerKey = "";
+		hideTooltip();
+	});
+
+	if (renderId !== activeQuestRenderId) {
+		return;
+	}
+
+	clearQuestStepMap();
+	questStepMap.append(title, wrapper);
+}
+
+function clearQuestStepMap() {
+	questStepMap.innerHTML = "";
+}
+
 function renderQuestDialogue(questSubOrders, questSubOrdersChs = null) {
 	currentQuestSubOrders = questSubOrders;
 	currentQuestSubOrdersChs = questSubOrdersChs;
@@ -1941,8 +2672,11 @@ function renderQuestDialogue(questSubOrders, questSubOrdersChs = null) {
 }
 
 async function renderQuest(quest) {
+	const renderId = ++activeQuestRenderId;
+
 	renderQuestInfo(quest);
 	window.questSelectedBranches = {};
+	clearQuestStepMap();
 
 	dialogueLines.textContent = "Loading dialogue...";
 
@@ -1959,11 +2693,21 @@ async function renderQuest(quest) {
 		currentQuestSubOrders = await response.json();
 		currentQuestSubOrdersChs = chsResponse.ok ? await chsResponse.json() : null;
 
+		if (renderId !== activeQuestRenderId) {
+			return;
+		}
+
 		renderLineCounts(currentQuestSubOrders, currentQuestSubOrdersChs);
 		renderQuestDialogue(currentQuestSubOrders, currentQuestSubOrdersChs);
+		await renderQuestStepMap(currentQuestSubOrders, renderId);
 	} catch (error) {
+		if (renderId !== activeQuestRenderId) {
+			return;
+		}
+
 		lineCounts.innerHTML = "";
 		dialogueLines.textContent = error.message;
+		clearQuestStepMap();
 	}
 }
 
