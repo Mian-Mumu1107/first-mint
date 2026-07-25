@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chapters & Quests</title>
+	<link rel="stylesheet" href="quests.css">
+</head>
+<body>
+	<div class="credit">
+		Credits: All game data is sourced from <a href="https://gitlab.com/GuraFoundation/YuanShenResources/" target="_blank" rel="noopener noreferrer">GuraFoundation/YuanShenResources</a>.
+	</div>
+
+	<div id="tooltip" class="custom-tooltip"></div>
+
+	<main class="page">
+		<div class="page-top-bar">
+			<button id="settings-button" class="settings-button" type="button">Settings</button>
+
+			<div id="settings-panel" class="settings-panel">
+				<label for="nickname-input">Traveler Name</label>
+				<input id="nickname-input" class="nickname-input" type="text" placeholder="Enter name...">
+
+				<label for="language-select">Language</label>
+				<select id="language-select" class="settings-select">
+					<option value="en">EN</option>
+					<option value="chs">CHS</option>
+					<option value="both">Both</option>
+				</select>
+
+				<label class="settings-checkbox-label">
+					<input id="always-show-quest-extra-info" class="settings-checkbox" type="checkbox">
+					<span>Always Show Extra Information</span>
+				</label>
+			</div>
+		</div>
+
+		<section class="card">
+			<h1>Chapters & Quests</h1>
+
+			<div class="top-bar">
+				<div id="quest-type-buttons" class="quest-type-buttons">
+					<button class="quest-type-button active" type="button" data-type="New">New</button>
+					<div class="quest-type-divider"></div>
+					<button class="quest-type-button" type="button" data-type="All" data-all-view="chapters">All Chapters</button>
+					<button class="quest-type-button" type="button" data-type="All" data-all-view="quests">All Quests</button>
+					<div class="quest-type-divider"></div>
+					<button class="quest-type-button" type="button" data-type="AQ">Archon Quests</button>
+					<button class="quest-type-button" type="button" data-type="LQ">Story Quests</button>
+					<button class="quest-type-button" type="button" data-type="WQ">World Quests</button>
+					<button class="quest-type-button" type="button" data-type="EQ">Event Quests</button>
+					<div class="quest-type-divider"></div>
+					<button class="quest-type-button" type="button" data-type="Other">Other Quests</button>
+				</div>
+
+				<button id="back-button" class="back-button" type="button" hidden>Back</button>
+			</div>
+
+			<section id="list-view" class="view-section">
+				<div class="list-header">
+					<h2 id="list-title" class="view-title"></h2>
+					<div class="card-search-wrapper">
+						<input id="card-search" class="card-search" type="text" placeholder="Search...">
+						<div id="card-search-help" class="card-search-help" hidden>
+							Search quest/category names normally, or use <span>npc id:1005</span> / <span>npc name:Paimon</span> to find quests where that character speaks in Line Counts.
+						</div>
+					</div>
+				</div>
+				<div id="card-list" class="card-list"></div>
+			</section>
+
+			<section id="detail-view" class="view-section" hidden>
+				<div id="chapter-info" class="chapter-info"></div>
+				<div id="chapter-quest-list" class="chapter-quest-list"></div>
+				<div id="quest-info" class="dialogue-info"></div>
+				<div id="line-counts" class="line-counts"></div>
+				<div id="dialogue-lines" class="dialogue-lines"></div>
+				<div id="quest-step-map" class="quest-step-map"></div>
+			</section>
+		</section>
+	</main>
+
+	<script src="quests.js"></script>
+</body>
+</html>
