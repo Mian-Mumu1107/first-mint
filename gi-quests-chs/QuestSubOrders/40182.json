@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "兰卡亚": 2
+  },
+  "subQuests": [
+    {
+      "subId": "4018201",
+      "subQuestName": "(test)子任务描述Test$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401820101"
+        ],
+        "dialogs": {
+          "401820101": {
+            "id": "401820101",
+            "speakerId": 1000,
+            "speakerName": "兰卡亚",
+            "text": "秘密…秘密…",
+            "nextDialogs": [
+              "401820102"
+            ]
+          },
+          "401820102": {
+            "id": "401820102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "秘密？",
+            "nextDialogs": [
+              "401820103"
+            ]
+          },
+          "401820103": {
+            "id": "401820103",
+            "speakerId": 1000,
+            "speakerName": "兰卡亚",
+            "text": "唔！兰卡亚什么都没说！"
+          }
+        }
+      }
+    }
+  ]
+}

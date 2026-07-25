@@ -1,0 +1,445 @@
+{
+  "lineCounts": {
+    "Black Screen": 7,
+    "Player": 7,
+    "派蒙": 20,
+    "研察终端": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7401201",
+      "subQuestName": "隐藏-首环任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401202",
+      "subQuestName": "隐藏-森中塔3F$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401203",
+      "subQuestName": "探索高塔",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401204",
+      "subQuestName": "(test)废弃环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401205",
+      "subQuestName": "前往附近的营地搜寻线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120501"
+        ],
+        "dialogs": {
+          "740120501": {
+            "id": "740120501",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜哇，好严格！我可绝对不想在这家伙手下工作！",
+            "nextDialogs": [
+              "740120502"
+            ]
+          },
+          "740120502": {
+            "id": "740120502",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "还说什么「集体荣誉感」…连饭都不让人吃，还有什么荣誉感嘛！",
+            "nextDialogs": [
+              "740120504",
+              "740120506"
+            ]
+          },
+          "740120504": {
+            "id": "740120504",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "唔，纪律确实很重要啦…不过也没必要做到这种地步吧？",
+            "nextDialogs": [
+              "740120507"
+            ]
+          },
+          "740120507": {
+            "id": "740120507",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？仔细想想的话，要是我们也敲锅的话，说不定就能把那个叫舒米洛夫的小队长给引下来了吧？",
+            "nextDialogs": [
+              "740120508"
+            ]
+          },
+          "740120508": {
+            "id": "740120508",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#这样一来，我们说不定就能上去了…{NICKNAME}，我们快去试试看吧！"
+          },
+          "740120506": {
+            "id": "740120506",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "就是啊！越是不知道怎么才能做实事的家伙，就越喜欢搞这种奇怪的纪律和规定…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401206",
+      "subQuestName": "敲击烹饪用的锅",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120601"
+        ],
+        "dialogs": {
+          "740120601": {
+            "id": "740120601",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "「咚——咚——咚——」\\n没过多久，一阵急匆匆的脚步声从塔楼上方传来…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401207",
+      "subQuestName": "击败愚人众",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120701"
+        ],
+        "dialogs": {
+          "740120701": {
+            "id": "740120701",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "小队长带着下属悻悻地逃走了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401208",
+      "subQuestName": "继续探索高塔",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401209",
+      "subQuestName": "调查终端",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121001"
+        ],
+        "dialogs": {
+          "740121001": {
+            "id": "740121001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拉动拉杆。",
+            "nextDialogs": [
+              "740121002"
+            ]
+          },
+          "740121002": {
+            "id": "740121002",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#呜哇！{NICKNAME}，你在干什么啦！",
+            "nextDialogs": [
+              "740121003"
+            ]
+          },
+          "740121003": {
+            "id": "740121003",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "你毫不犹豫地拉动了拉杆。\\n下一个瞬间，伴随着宛若雷霆的震耳轰鸣，整座高塔开始剧烈地晃动起来，仿佛天为之崩、地为之裂…",
+            "nextDialogs": [
+              "740121004"
+            ]
+          },
+          "740121004": {
+            "id": "740121004",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "然后…噗地一声，机器吐出了一叠纸带，正好掉在你的手中。\\n一切重归沉寂。",
+            "nextDialogs": [
+              "740121005"
+            ]
+          },
+          "740121005": {
+            "id": "740121005",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "就…就只是这样吗？",
+            "nextDialogs": [
+              "740121006"
+            ]
+          },
+          "740121006": {
+            "id": "740121006",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "唔…完全看不懂上面刻了什么东西，但看上去好像挺重要的…",
+            "nextDialogs": [
+              "740121007"
+            ]
+          },
+          "740121007": {
+            "id": "740121007",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们还是先留着这些纸带吧？说不定之后会在什么地方用上…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401209",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120901"
+        ],
+        "dialogs": {
+          "740120901": {
+            "id": "740120901",
+            "speakerId": 1002,
+            "speakerName": "研察终端",
+            "text": "（控制台右侧的拉杆旁贴着一张便签，上面用整洁漂亮的字体写着：「千万不要动！」）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401211",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121101"
+        ],
+        "dialogs": {
+          "740121101": {
+            "id": "740121101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "最好还是不要动它…",
+            "nextDialogs": [
+              "740121102"
+            ]
+          },
+          "740121102": {
+            "id": "740121102",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#是…是呀，总觉得是很危险的东西…{NICKNAME}，我们还是离它远一些比较好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121201"
+        ],
+        "dialogs": {
+          "740121201": {
+            "id": "740121201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？是和之前在另外那座塔里一样的控制台…",
+            "nextDialogs": [
+              "740121202"
+            ]
+          },
+          "740121202": {
+            "id": "740121202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拉动拉杆。",
+            "nextDialogs": [
+              "740121203"
+            ]
+          },
+          "740121203": {
+            "id": "740121203",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "你拉动了拉杆。\\n与之前一样，一阵轰鸣和晃动后，机器吐出了一叠纸带…",
+            "nextDialogs": [
+              "740121204"
+            ]
+          },
+          "740121204": {
+            "id": "740121204",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "唔，是和之前一样的纸带…",
+            "nextDialogs": [
+              "740121205"
+            ]
+          },
+          "740121205": {
+            "id": "740121205",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "虽然还是完全看不懂，但之后说不定会在什么地方用上，还是先带在身上吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401213",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121301"
+        ],
+        "dialogs": {
+          "740121301": {
+            "id": "740121301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "让我看看…嗯，应该就是这个啦，写着「千万不要动！」的拉杆！",
+            "nextDialogs": [
+              "740121302"
+            ]
+          },
+          "740121302": {
+            "id": "740121302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拉动拉杆。",
+            "nextDialogs": [
+              "740121303"
+            ]
+          },
+          "740121303": {
+            "id": "740121303",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "你拉动了拉杆。\\n一阵轰鸣和晃动后，机器吐出了一叠纸带…",
+            "nextDialogs": [
+              "740121304"
+            ]
+          },
+          "740121304": {
+            "id": "740121304",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好耶！这样一来，就拿到「桔桔薄饼站」的监测数据啦！",
+            "nextDialogs": [
+              "740121305"
+            ]
+          },
+          "740121305": {
+            "id": "740121305",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#接下来就只剩下「果果软糖站」那边了，{NICKNAME}，我们去那边吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401214",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121401"
+        ],
+        "dialogs": {
+          "740121401": {
+            "id": "740121401",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "让我看看…嗯，应该就是这个啦，写着「千万不要动！」的拉杆！",
+            "nextDialogs": [
+              "740121402"
+            ]
+          },
+          "740121402": {
+            "id": "740121402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拉动拉杆。",
+            "nextDialogs": [
+              "740121403"
+            ]
+          },
+          "740121403": {
+            "id": "740121403",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "你拉动了拉杆。\\n一阵轰鸣和晃动后，机器吐出了一叠纸带…",
+            "nextDialogs": [
+              "740121404"
+            ]
+          },
+          "740121404": {
+            "id": "740121404",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好耶！这样一来，就拿到「果果软糖站」和「桔桔薄饼站」的监测数据啦！",
+            "nextDialogs": [
+              "740121405"
+            ]
+          },
+          "740121405": {
+            "id": "740121405",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们快点回去找布罗意吧！"
+          }
+        }
+      }
+    }
+  ]
+}

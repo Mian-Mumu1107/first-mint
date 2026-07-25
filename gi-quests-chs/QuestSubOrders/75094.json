@@ -1,0 +1,221 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 3,
+    "Player": 13,
+    "派蒙": 25
+  },
+  "subQuests": [
+    {
+      "subId": "7509401",
+      "subQuestName": "(test)（隐藏）打开房间$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509402",
+      "subQuestName": "调查隐藏房间",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751260601"
+        ],
+        "dialogs": {
+          "751260601": {
+            "id": "751260601",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "没想到还发生过这样的事…密力奇，还有留下这篇笔记的人，大家真的都好勇敢…",
+            "nextDialogs": [
+              "751260602"
+            ]
+          },
+          "751260602": {
+            "id": "751260602",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751260603"
+            ]
+          },
+          "751260603": {
+            "id": "751260603",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "这个是…是刚才手记里提到的，那颗休眠的龙蛋！",
+            "nextDialogs": [
+              "751260604"
+            ]
+          },
+          "751260604": {
+            "id": "751260604",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}，你是想让我们用孵化器把它孵出来吗？",
+            "nextDialogs": [
+              "751260605"
+            ]
+          },
+          "751260605": {
+            "id": "751260605",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀！",
+            "nextDialogs": [
+              "751260606"
+            ]
+          },
+          "751260606": {
+            "id": "751260606",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#——唔，龙蛋看起来状态蛮不错的，孵化器上正好也有操作指南。{NICKNAME}，要不我们就试试吧！",
+            "nextDialogs": [
+              "751260609"
+            ]
+          },
+          "751260609": {
+            "id": "751260609",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7509405",
+      "subQuestName": "调查隐藏房间",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509404",
+      "subQuestName": "调查隐藏房间",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509406",
+      "subQuestName": "启动孵化器",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750940601"
+        ],
+        "dialogs": {
+          "750940601": {
+            "id": "750940601",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呼——吓死我了，突然就有怪物袭击过来了，还好我们足够厉害！",
+            "nextDialogs": [
+              "750940603",
+              "750940605"
+            ]
+          },
+          "750940603": {
+            "id": "750940603",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "啊？不行不行不行，我不行的！我才不要跟那么可怕的怪物战斗呢！",
+            "nextDialogs": [
+              "750940606"
+            ]
+          },
+          "750940606": {
+            "id": "750940606",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀！",
+            "nextDialogs": [
+              "750940607"
+            ]
+          },
+          "750940607": {
+            "id": "750940607",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，你看小家伙都着急了。我们还是先想办法孵化龙蛋吧！",
+            "nextDialogs": [
+              "750940608"
+            ]
+          },
+          "750940608": {
+            "id": "750940608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "启动孵化器。",
+            "nextDialogs": [
+              "750940609"
+            ]
+          },
+          "750940609": {
+            "id": "750940609",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "孵化器恢复了工作…\\n接下来需要做的，似乎只有等待…\\n然而，时间过去了很久…龙蛋没有发生任何的变化，一丝一毫都没有…",
+            "nextDialogs": [
+              "750940610"
+            ]
+          },
+          "750940610": {
+            "id": "750940610",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯…嗯？",
+            "nextDialogs": [
+              "750940611"
+            ]
+          },
+          "750940611": {
+            "id": "750940611",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好奇怪，感觉好像没有任何反应欸？难道是我们的操作有问题吗？我们要不再试一遍吧！"
+          },
+          "750940605": {
+            "id": "750940605",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "就是！张牙舞爪的，我还以为是什么特别厉害的角色呢！结果就这，这样的攻击还不如小家伙撞人痛呢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7509403",
+      "subQuestName": "(test)破碎地板表现$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750940301"
+        ],
+        "dialogs": {
+          "750940301": {
+            "id": "750940301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "(test)破碎地板对话表现"
+          }
+        }
+      }
+    }
+  ]
+}

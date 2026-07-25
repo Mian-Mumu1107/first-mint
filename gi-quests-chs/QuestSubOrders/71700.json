@@ -1,0 +1,91 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "畅畅": 6
+  },
+  "subQuests": [
+    {
+      "subId": "7170001",
+      "subQuestName": "将三朵霓裳花交给畅畅",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717000101"
+        ],
+        "dialogs": {
+          "717000101": {
+            "id": "717000101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于霓裳花…",
+            "nextDialogs": [
+              "717000102"
+            ]
+          },
+          "717000102": {
+            "id": "717000102",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "咦？你是看到我写的那个东西了吗？哇…真的有用…",
+            "nextDialogs": [
+              "717000103"
+            ]
+          },
+          "717000103": {
+            "id": "717000103",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "那你把三朵霓裳花都搜集齐了吗？",
+            "nextDialogs": [
+              "717000106"
+            ]
+          },
+          "717000106": {
+            "id": "717000106",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "好吧…那你搜集齐了之后，记得快点带来给我呀，我要快点把花环编好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170002",
+      "subQuestName": "与畅畅对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717000201"
+        ],
+        "dialogs": {
+          "717000201": {
+            "id": "717000201",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "这些霓裳花就够啦，我的花环应该很快就能编好了。",
+            "nextDialogs": [
+              "717000202"
+            ]
+          },
+          "717000202": {
+            "id": "717000202",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "谢谢你，这些东西请你收下吧。",
+            "nextDialogs": [
+              "717000203"
+            ]
+          },
+          "717000203": {
+            "id": "717000203",
+            "speakerId": 1000,
+            "speakerName": "畅畅",
+            "text": "等爸爸回来看见这个花环，他一定会很高兴的…"
+          }
+        }
+      }
+    }
+  ]
+}

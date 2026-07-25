@@ -1,0 +1,64 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "秘源龙仆": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7520801",
+      "subQuestName": "(test)接取环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7520803",
+      "subQuestName": "(test)和小机器人对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501101"
+        ],
+        "dialogs": {
+          "751501101": {
+            "id": "751501101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在什么地方能够获得许可…",
+            "nextDialogs": [
+              "751501102"
+            ]
+          },
+          "751501102": {
+            "id": "751501102",
+            "speakerId": 1000,
+            "speakerName": "秘源龙仆",
+            "text": "根据协议和修库特尔大人制订的谕令，想要进入…圣山之心亦即「维奇洛波奇特利」…的族裔…",
+            "nextDialogs": [
+              "751501103"
+            ]
+          },
+          "751501103": {
+            "id": "751501103",
+            "speakerId": 1000,
+            "speakerName": "秘源龙仆",
+            "text": "请前往「审议之庭」进行申请，并等待许可的下达。",
+            "nextDialogs": [
+              "751501104"
+            ]
+          },
+          "751501104": {
+            "id": "751501104",
+            "speakerId": 1000,
+            "speakerName": "秘源龙仆",
+            "text": "那么，如果您需要前往的话，这就为您标记「审议之庭」所在的位置。"
+          }
+        }
+      }
+    }
+  ]
+}

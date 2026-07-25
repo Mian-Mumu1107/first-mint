@@ -1,0 +1,46 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7509201",
+      "subQuestName": "(test)（隐藏）打开房间$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509202",
+      "subQuestName": "(test)（隐藏）注入燃素$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509203",
+      "subQuestName": "(test)讨论恐龙蛋$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750920301"
+        ],
+        "dialogs": {
+          "750920301": {
+            "id": "750920301",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "(test)讨论恐龙蛋$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

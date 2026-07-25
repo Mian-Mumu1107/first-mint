@@ -1,0 +1,880 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 16,
+    "<UNKNOWN>": 1,
+    "Black Screen": 2,
+    "Player": 24,
+    "塔卢加": 5,
+    "奥伯龙": 12,
+    "拉密萨纳": 5,
+    "毛球": 1,
+    "派蒙": 58,
+    "特马乔": 7,
+    "琪希可": 5,
+    "葵莉娅": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7508701",
+      "subQuestName": "魂附暝视龙，追踪奇妙的气息",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508708",
+      "subQuestName": "到高处观察一下情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508709",
+      "subQuestName": "调查附近的线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870901"
+        ],
+        "dialogs": {
+          "750870901": {
+            "id": "750870901",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "怎么又是龙龙饼干？而且旁边的信是…",
+            "nextDialogs": [
+              "750870902"
+            ]
+          },
+          "750870902": {
+            "id": "750870902",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "果然就是葵莉娅在后面捣鬼！不过没想到居然是出于这种理由…帕朗也真够倒霉的。",
+            "nextDialogs": [
+              "750870903"
+            ]
+          },
+          "750870903": {
+            "id": "750870903",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "但是想到塔卢加和奥伯龙说不定就被关在前面的营地里，不管的话也有点良心难安…而且说到底，他们又没错。",
+            "nextDialogs": [
+              "750870904"
+            ]
+          },
+          "750870904": {
+            "id": "750870904",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#唔…{NICKNAME}，我们还是想办法把他们救出来吧？",
+            "nextDialogs": [
+              "750870905"
+            ]
+          },
+          "750870905": {
+            "id": "750870905",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "如果能<color=#00E1FFFF>混进暝视龙的巡逻队伍</color>里，说不定能很轻松地潜入进去呢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508702",
+      "subQuestName": "进行伪装，跟随暝视龙的巡逻队伍潜入营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508703",
+      "subQuestName": "调查营地内部",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870301"
+        ],
+        "dialogs": {
+          "750870301": {
+            "id": "750870301",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750870302"
+            ]
+          },
+          "750870302": {
+            "id": "750870302",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "呜？",
+            "nextDialogs": [
+              "750870303"
+            ]
+          },
+          "750870303": {
+            "id": "750870303",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "难道…难道是奥伯龙？",
+            "nextDialogs": [
+              "750870304"
+            ]
+          },
+          "750870304": {
+            "id": "750870304",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "啊呜！",
+            "nextDialogs": [
+              "750870305"
+            ]
+          },
+          "750870305": {
+            "id": "750870305",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呃，一会儿不见，你成长了很多呢…",
+            "nextDialogs": [
+              "750870306"
+            ]
+          },
+          "750870306": {
+            "id": "750870306",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "塔卢加说它容易发胖，真的一点不假。对了，他人呢？怎么没和你在一起？",
+            "nextDialogs": [
+              "750870307"
+            ]
+          },
+          "750870307": {
+            "id": "750870307",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "呜…呜呜…",
+            "nextDialogs": [
+              "750870308"
+            ]
+          },
+          "750870308": {
+            "id": "750870308",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "唔，总之先带它离开这里吧！",
+            "nextDialogs": [
+              "750870309"
+            ]
+          },
+          "750870309": {
+            "id": "750870309",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说起来，反正已经找到奥伯龙了，我们也不用东躲西藏了吧？塔卢加的下落也很叫人担心…得快些才行！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508704",
+      "subQuestName": "设法离开",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508705",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870501"
+        ],
+        "dialogs": {
+          "750870501": {
+            "id": "750870501",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "既然你们都找到这里了，那我也不用再扮演什么善良的商人了吧？我已经受够了和笨蛋打交道，是时候透透气了。",
+            "nextDialogs": [
+              "750870502"
+            ]
+          },
+          "750870502": {
+            "id": "750870502",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "你这家伙，居然把自己干的坏事说成是别人干的！害我们被白白误会！",
+            "nextDialogs": [
+              "750870503"
+            ]
+          },
+          "750870503": {
+            "id": "750870503",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "我是坏人，当然要干坏事。再说了，你们被那三个笨蛋误会，不正说明我的坏事干得不错？",
+            "nextDialogs": [
+              "750870504"
+            ]
+          },
+          "750870504": {
+            "id": "750870504",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "呵呵，现在我要干更坏的事了，你们可别逃跑哦。",
+            "nextDialogs": [
+              "750870505"
+            ]
+          },
+          "750870505": {
+            "id": "750870505",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "上吧！毛球！",
+            "nextDialogs": [
+              "750870506"
+            ]
+          },
+          "750870506": {
+            "id": "750870506",
+            "speakerId": 1004,
+            "speakerName": "毛球",
+            "text": "吼——",
+            "nextDialogs": [
+              "750870507"
+            ]
+          },
+          "750870507": {
+            "id": "750870507",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750870508"
+            ]
+          },
+          "750870508": {
+            "id": "750870508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#上吧！{REALNAME[ID(2)|SHOWHOST(true)]}！",
+            "nextDialogs": [
+              "750870509"
+            ]
+          },
+          "750870509": {
+            "id": "750870509",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}！居然要挑战比自己大得多的对手！",
+            "nextDialogs": [
+              "750870510"
+            ]
+          },
+          "750870510": {
+            "id": "750870510",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "呜呜…",
+            "nextDialogs": [
+              "750870511"
+            ]
+          },
+          "750870511": {
+            "id": "750870511",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750870512"
+            ]
+          },
+          "750870512": {
+            "id": "750870512",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "奥伯龙没什么精神的样子，也不知道是因为和塔卢加分开而感到不安，还是单纯的龙龙饼干吃得太多…",
+            "nextDialogs": [
+              "750870513"
+            ]
+          },
+          "750870513": {
+            "id": "750870513",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}会不会是想给它打气，所以才勇敢地站出来保护我们？",
+            "nextDialogs": [
+              "750870514"
+            ]
+          },
+          "750870514": {
+            "id": "750870514",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "这世上多得是光靠勇气无可奈何的事，比起那些虚无缥缈的东西，还是绝对的支配力更可靠。",
+            "nextDialogs": [
+              "750870515"
+            ]
+          },
+          "750870515": {
+            "id": "750870515",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "攻击！",
+            "nextDialogs": [
+              "750870516"
+            ]
+          },
+          "750870516": {
+            "id": "750870516",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#居然！{REALNAME[ID(2)|SHOWHOST(true)]}躲过了对方的攻击！这正是嵴锋龙的特长，就算是天空的王者也拿它没有办法！",
+            "nextDialogs": [
+              "750870518",
+              "750870520",
+              "750870523",
+              "750870527"
+            ]
+          },
+          "750870518": {
+            "id": "750870518",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}摆出了进攻的架势！",
+            "nextDialogs": [
+              "750870530"
+            ]
+          },
+          "750870530": {
+            "id": "750870530",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750870531"
+            ]
+          },
+          "750870531": {
+            "id": "750870531",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "攻击命中了！并且造成了…造成了微量伤害？",
+            "nextDialogs": [
+              "750870532"
+            ]
+          },
+          "750870532": {
+            "id": "750870532",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀呀！",
+            "nextDialogs": [
+              "750870533"
+            ]
+          },
+          "750870533": {
+            "id": "750870533",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好好，没有被对方闪避而是成功命中已经很了不起了！呼——虽然才进行了一回合，但是已经觉得很累了，怎么回事…",
+            "nextDialogs": [
+              "750870534"
+            ]
+          },
+          "750870534": {
+            "id": "750870534",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "那么接下来轮到我的回合了吧？攻击！",
+            "nextDialogs": [
+              "750870535"
+            ]
+          },
+          "750870535": {
+            "id": "750870535",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#面对对手凌厉的进攻，{REALNAME[ID(2)|SHOWHOST(true)]}紧急采取防御态势！它防住了！",
+            "nextDialogs": [
+              "750870536"
+            ]
+          },
+          "750870536": {
+            "id": "750870536",
+            "speakerId": 1003,
+            "speakerName": "葵莉娅",
+            "text": "居然在进攻之后又自主选择了防御，可恶的规则破坏者…",
+            "nextDialogs": [
+              "750870537"
+            ]
+          },
+          "750870537": {
+            "id": "750870537",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "回合制取胜的方法就是不要回合制！",
+            "nextDialogs": [
+              "750870538"
+            ]
+          },
+          "750870538": {
+            "id": "750870538",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "接下来该怎么做呢？",
+            "nextDialogs": [
+              "750870539"
+            ]
+          },
+          "750870539": {
+            "id": "750870539",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "…呜！",
+            "nextDialogs": [
+              "750870540"
+            ]
+          },
+          "750870540": {
+            "id": "750870540",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？奥伯龙好像振作起来了？",
+            "nextDialogs": [
+              "750870541"
+            ]
+          },
+          "750870541": {
+            "id": "750870541",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750870542"
+            ]
+          },
+          "750870542": {
+            "id": "750870542",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "虽然听不懂这是在说什么，但是看样子，它们之间好像达成了某种默契…"
+          },
+          "750870520": {
+            "id": "750870520",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀！",
+            "nextDialogs": [
+              "750870521"
+            ]
+          },
+          "750870521": {
+            "id": "750870521",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}似乎认为防御的策略太过保守，会浪费大好机会，于是摆出了进攻的架势！"
+          },
+          "750870523": {
+            "id": "750870523",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们哪有可以现在用的道具啊！就算是想要设置捕兽夹也太晚了吧？",
+            "nextDialogs": [
+              "750870524"
+            ]
+          },
+          "750870524": {
+            "id": "750870524",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀！",
+            "nextDialogs": [
+              "750870525"
+            ]
+          },
+          "750870525": {
+            "id": "750870525",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#哦！{REALNAME[ID(2)|SHOWHOST(true)]}摆出了进攻的架势！"
+          },
+          "750870527": {
+            "id": "750870527",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "现在不是逃跑的时候吧！",
+            "nextDialogs": [
+              "750870528"
+            ]
+          },
+          "750870528": {
+            "id": "750870528",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜呜…呀！",
+            "nextDialogs": [
+              "750870529"
+            ]
+          },
+          "750870529": {
+            "id": "750870529",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#就连{REALNAME[ID(2)|SHOWHOST(true)]}都知道呢，看，它摆出了进攻的架势！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508706",
+      "subQuestName": "返回飞行学校",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508707",
+      "subQuestName": "与塔卢加对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870701"
+        ],
+        "dialogs": {
+          "750870701": {
+            "id": "750870701",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？塔卢加！你已经回来了！",
+            "nextDialogs": [
+              "750870702"
+            ]
+          },
+          "750870702": {
+            "id": "750870702",
+            "speakerId": 1005,
+            "speakerName": "塔卢加",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}！幸好你们也没事…我已经向姐姐他们说明情况了，拉密萨纳就跟我想的一样，是个笨蛋…",
+            "nextDialogs": [
+              "750870703"
+            ]
+          },
+          "750870703": {
+            "id": "750870703",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "啊呜…",
+            "nextDialogs": [
+              "750870704"
+            ]
+          },
+          "750870704": {
+            "id": "750870704",
+            "speakerId": 1005,
+            "speakerName": "塔卢加",
+            "text": "是啊，比你还要笨呢！",
+            "nextDialogs": [
+              "750870705"
+            ]
+          },
+          "750870705": {
+            "id": "750870705",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "呜呜…",
+            "nextDialogs": [
+              "750870706"
+            ]
+          },
+          "750870706": {
+            "id": "750870706",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#好啦好啦，它和你分开这么久肯定也很不安。而且刚才它和{REALNAME[ID(2)|SHOWHOST(true)]}的配合也很不错呢！",
+            "nextDialogs": [
+              "750870707"
+            ]
+          },
+          "750870707": {
+            "id": "750870707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还有教化的余地。",
+            "nextDialogs": [
+              "750870708"
+            ]
+          },
+          "750870708": {
+            "id": "750870708",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯，它还是只小龙嘛，只要塔卢加好好和它相处，之后肯定能成长为一只出色的绒翼龙！",
+            "nextDialogs": [
+              "750870709"
+            ]
+          },
+          "750870709": {
+            "id": "750870709",
+            "speakerId": 1002,
+            "speakerName": "奥伯龙",
+            "text": "呜！",
+            "nextDialogs": [
+              "750870710"
+            ]
+          },
+          "750870710": {
+            "id": "750870710",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说起来你是怎么回来的？是其他人找到你，先把你救出来了吗？",
+            "nextDialogs": [
+              "750870711"
+            ]
+          },
+          "750870711": {
+            "id": "750870711",
+            "speakerId": 1005,
+            "speakerName": "塔卢加",
+            "text": "我是自己逃出来的。本来想带奥伯龙一起走，但它贪吃龙龙饼干，怎么劝都不肯动，我太生气了就自己一个人走了。",
+            "nextDialogs": [
+              "750870712"
+            ]
+          },
+          "750870712": {
+            "id": "750870712",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？这么容易吗？",
+            "nextDialogs": [
+              "750870713"
+            ]
+          },
+          "750870713": {
+            "id": "750870713",
+            "speakerId": 1005,
+            "speakerName": "塔卢加",
+            "text": "摸清看守龙的行动路线之后，我发现还是有可趁之机，很顺利就逃出来了。",
+            "nextDialogs": [
+              "750870714"
+            ]
+          },
+          "750870714": {
+            "id": "750870714",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "搞不好塔卢加才是这里最可靠的一个…",
+            "nextDialogs": [
+              "750870715"
+            ]
+          },
+          "750870715": {
+            "id": "750870715",
+            "speakerId": 1006,
+            "speakerName": "拉密萨纳",
+            "text": "你们怎么来了！我正准备去找那个骗子算账…还有、还有向你们正式道歉…是我太武断了，险些诬陷了好人。",
+            "nextDialogs": [
+              "750870717",
+              "750870719"
+            ]
+          },
+          "750870717": {
+            "id": "750870717",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "就是！事情都结束了才现身，不是抢功又是什么？",
+            "nextDialogs": [
+              "750870720"
+            ]
+          },
+          "750870720": {
+            "id": "750870720",
+            "speakerId": 1006,
+            "speakerName": "拉密萨纳",
+            "text": "我无话可说。之前约定的报酬也好现在的赔偿也好，我都不会吝啬。对了，如果这样能让你们解气，给我一拳也行！",
+            "nextDialogs": [
+              "750870721"
+            ]
+          },
+          "750870721": {
+            "id": "750870721",
+            "speakerId": 1006,
+            "speakerName": "拉密萨纳",
+            "text": "我也是个男子汉，该负责任的时候不会推脱。"
+          },
+          "750870719": {
+            "id": "750870719",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "原来你还记得参与奖啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508712",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750871221"
+        ],
+        "dialogs": {
+          "750871221": {
+            "id": "750871221",
+            "speakerId": 1007,
+            "speakerName": "<UNKNOWN>",
+            "text": "在被发现之前小心地退回到之前的位置，下次要更加谨慎一些…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508759",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750875901"
+        ],
+        "dialogs": {
+          "750875901": {
+            "id": "750875901",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "我们这儿还有几项飞行挑战，具体内容都写在告示牌上了，如果你感兴趣不妨试试，当然也会有对应的奖励。",
+            "nextDialogs": [
+              "750875903",
+              "750875906",
+              "750875910"
+            ]
+          },
+          "750875903": {
+            "id": "750875903",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "其实我也不知道为什么会叫这个名字，说起帕帕卡…你听过昆图尔和坏巫师茹米的故事吗？",
+            "nextDialogs": [
+              "750875904"
+            ]
+          },
+          "750875904": {
+            "id": "750875904",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "部族的战士输给了坏巫师茹米，被他变成了帕帕卡…听起来好像不是什么好事？可能帕帕卡真的飞得很快吧，谁知道呢。"
+          },
+          "750875906": {
+            "id": "750875906",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "哈哈…他是个好手，但不擅长教人。当飞行竞赛的对手…还算说得过去？",
+            "nextDialogs": [
+              "750875907"
+            ]
+          },
+          "750875907": {
+            "id": "750875907",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "要不是飞得不好，谁会来这里呢？这时候如果太过严厉…唉，以前可不是没发生过这种事。",
+            "nextDialogs": [
+              "750875908"
+            ]
+          },
+          "750875908": {
+            "id": "750875908",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "所以现在的方针已经改成鼓励为主了，相信多夸夸也能有进步的。"
+          },
+          "750875910": {
+            "id": "750875910",
+            "speakerId": 1008,
+            "speakerName": "特马乔",
+            "text": "再见，也欢迎你随时回来。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508763",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750876301"
+        ],
+        "dialogs": {
+          "750876301": {
+            "id": "750876301",
+            "speakerId": 1009,
+            "speakerName": "琪希可",
+            "text": "欢迎来到帕帕卡飞行学校！",
+            "nextDialogs": [
+              "750876304",
+              "750876307"
+            ]
+          },
+          "750876304": {
+            "id": "750876304",
+            "speakerId": 1009,
+            "speakerName": "琪希可",
+            "text": "给学员必要的指引和帮助。现在和以前可真不一样了，要知道以前可是没有这些贴心的服务的。",
+            "nextDialogs": [
+              "750876305"
+            ]
+          },
+          "750876305": {
+            "id": "750876305",
+            "speakerId": 1009,
+            "speakerName": "琪希可",
+            "text": "但是有一次因为教练在指导时言辞有些…严厉？偏偏那个学员也是个脾气火爆的人物…唉，当时的场面我都不愿再提。",
+            "nextDialogs": [
+              "750876306"
+            ]
+          },
+          "750876306": {
+            "id": "750876306",
+            "speakerId": 1009,
+            "speakerName": "琪希可",
+            "text": "总之自那之后飞行学校就改变了指导的方针。伸手不打笑脸人，谁也不会讨厌被夸吧？"
+          },
+          "750876307": {
+            "id": "750876307",
+            "speakerId": 1009,
+            "speakerName": "琪希可",
+            "text": "祝你度过愉快的一天！"
+          }
+        }
+      }
+    }
+  ]
+}

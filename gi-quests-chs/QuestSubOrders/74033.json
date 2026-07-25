@@ -1,0 +1,301 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "卡特皮拉": 10,
+    "派蒙": 10,
+    "米图尔": 16
+  },
+  "subQuests": [
+    {
+      "subId": "7403302",
+      "subQuestName": "前往废弃生产区",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403301",
+      "subQuestName": "与卡特皮拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740330101"
+        ],
+        "dialogs": {
+          "740330101": {
+            "id": "740330101",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "晶簇矿坑道封锁之后，这里就不太有人来了，这里的机械装置也不适合外行摆弄。",
+            "nextDialogs": [
+              "740330102"
+            ]
+          },
+          "740330102": {
+            "id": "740330102",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "不过这次就是有人随意摆弄传动机阀，把自己的同伴关了起来…",
+            "nextDialogs": [
+              "740330103"
+            ]
+          },
+          "740330103": {
+            "id": "740330103",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "总之，我们先操作传动机阀打开通向<color=#00E1FFFF>一号备品仓库</color>的连通路吧。如果待会儿他要请你喝什么饮料，最好还是婉拒。",
+            "nextDialogs": [
+              "740330104"
+            ]
+          },
+          "740330104": {
+            "id": "740330104",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "谁要请我们喝饮料？为什么不喝呢？",
+            "nextDialogs": [
+              "740330105"
+            ]
+          },
+          "740330105": {
+            "id": "740330105",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "待会儿你就知道了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7403305",
+      "subQuestName": "操作传动机阀，打开通向一号备品仓库的连通路",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403303",
+      "subQuestName": "进入一号备品仓库",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403304",
+      "subQuestName": "和被困的人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740330401"
+        ],
+        "dialogs": {
+          "740330401": {
+            "id": "740330401",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "米图尔，你还好吗？应该没被困太久吧。",
+            "nextDialogs": [
+              "740330402"
+            ]
+          },
+          "740330402": {
+            "id": "740330402",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "我的救星！你们可算来了！",
+            "nextDialogs": [
+              "740330403"
+            ]
+          },
+          "740330403": {
+            "id": "740330403",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "科布伦茨呢？他没跟你们一起吗？",
+            "nextDialogs": [
+              "740330404"
+            ]
+          },
+          "740330404": {
+            "id": "740330404",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "是他向我求助，说你被困在这里了。不过中途被看守打断，他就先行离开了。",
+            "nextDialogs": [
+              "740330405"
+            ]
+          },
+          "740330405": {
+            "id": "740330405",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "我就知道他不是个靠得住的生意伙伴！他肯定是怕了，自己心虚理亏，所以逃跑。",
+            "nextDialogs": [
+              "740330406"
+            ]
+          },
+          "740330406": {
+            "id": "740330406",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "你说，做生意，不胆大点能有收益吗？",
+            "nextDialogs": [
+              "740330407"
+            ]
+          },
+          "740330407": {
+            "id": "740330407",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "他笨手笨脚也就算了，还瞻前顾后的…你猜怎么着，现在别说是「纯洁之水」了，枫达都进来了！",
+            "nextDialogs": [
+              "740330408"
+            ]
+          },
+          "740330408": {
+            "id": "740330408",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "枫达进来了，我们还能有活路吗？",
+            "nextDialogs": [
+              "740330409"
+            ]
+          },
+          "740330409": {
+            "id": "740330409",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哦…",
+            "nextDialogs": [
+              "740330410"
+            ]
+          },
+          "740330410": {
+            "id": "740330410",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "怎么，你们也喜欢枫达吗？",
+            "nextDialogs": [
+              "740330412",
+              "740330414"
+            ]
+          },
+          "740330412": {
+            "id": "740330412",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "我当然喜欢！我必须承认，它是相当强力的竞争对手…",
+            "nextDialogs": [
+              "740330415"
+            ]
+          },
+          "740330415": {
+            "id": "740330415",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "不多说了，我得去找科布伦茨这家伙算账去了。对了，他是不是没有支付报酬？",
+            "nextDialogs": [
+              "740330416"
+            ]
+          },
+          "740330416": {
+            "id": "740330416",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "的确没有。",
+            "nextDialogs": [
+              "740330417"
+            ]
+          },
+          "740330417": {
+            "id": "740330417",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "…有时我真想把他塞进桶里让他好好反省反省。总之，请你们收下这些特许券。",
+            "nextDialogs": [
+              "740330418"
+            ]
+          },
+          "740330418": {
+            "id": "740330418",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "#请{NICKNAME}和派蒙收下吧。",
+            "nextDialogs": [
+              "740330419"
+            ]
+          },
+          "740330419": {
+            "id": "740330419",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸？全都给我们吗？",
+            "nextDialogs": [
+              "740330420"
+            ]
+          },
+          "740330420": {
+            "id": "740330420",
+            "speakerId": 1000,
+            "speakerName": "卡特皮拉",
+            "text": "当然。",
+            "nextDialogs": [
+              "740330421"
+            ]
+          },
+          "740330421": {
+            "id": "740330421",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，那我们就收下啦。之后有机会也可以去破烂骨头商店看看有没有什么好东西！",
+            "nextDialogs": [
+              "740330422"
+            ]
+          },
+          "740330422": {
+            "id": "740330422",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "对了，既然给你们添了不少麻烦，作为赔礼，我这儿有几瓶新鲜的健康饮料，你们要不要尝尝？",
+            "nextDialogs": [
+              "740330423"
+            ]
+          },
+          "740330423": {
+            "id": "740330423",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "新鲜的…健康饮料？",
+            "nextDialogs": [
+              "740330424"
+            ]
+          },
+          "740330424": {
+            "id": "740330424",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "比「纯洁之水」健康多了！"
+          },
+          "740330414": {
+            "id": "740330414",
+            "speakerId": 1002,
+            "speakerName": "米图尔",
+            "text": "哦？看来是有品位的顾客。"
+          }
+        }
+      }
+    }
+  ]
+}

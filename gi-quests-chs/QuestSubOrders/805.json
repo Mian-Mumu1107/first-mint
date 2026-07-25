@@ -1,0 +1,482 @@
+{
+  "lineCounts": {
+    "Player": 21,
+    "「仆人」": 14,
+    "「翡翠」": 2
+  },
+  "subQuests": [
+    {
+      "subId": "80501",
+      "subQuestName": "(test)龙交互测试任务$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050101"
+        ],
+        "dialogs": {
+          "8050101": {
+            "id": "8050101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)龙交互测试1$UNRELEASED",
+            "nextDialogs": [
+              "8050102"
+            ]
+          },
+          "8050102": {
+            "id": "8050102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)龙交互测试2$UNRELEASED",
+            "nextDialogs": [
+              "8050103"
+            ]
+          },
+          "8050103": {
+            "id": "8050103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)龙交互测试3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80502",
+      "subQuestName": "(test)踩圈触发交互测试任务$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050201"
+        ],
+        "dialogs": {
+          "8050201": {
+            "id": "8050201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)无视龙规则交互1$UNRELEASED",
+            "nextDialogs": [
+              "8050202"
+            ]
+          },
+          "8050202": {
+            "id": "8050202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)无视龙规则交互2$UNRELEASED",
+            "nextDialogs": [
+              "8050203"
+            ]
+          },
+          "8050203": {
+            "id": "8050203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)无视龙规则交互3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80503",
+      "subQuestName": "(test)任务实例测试Test$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050301"
+        ],
+        "dialogs": {
+          "8050301": {
+            "id": "8050301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话强制主角1$UNRELEASED",
+            "nextDialogs": [
+              "8050302"
+            ]
+          },
+          "8050302": {
+            "id": "8050302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话强制主角2$UNRELEASED",
+            "nextDialogs": [
+              "8050303"
+            ]
+          },
+          "8050303": {
+            "id": "8050303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话强制主角3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80504",
+      "subQuestName": "(test)子任务描述Test$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050401"
+        ],
+        "dialogs": {
+          "8050401": {
+            "id": "8050401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话文件对话1$UNRELEASED",
+            "nextDialogs": [
+              "8050402"
+            ]
+          },
+          "8050402": {
+            "id": "8050402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话文件对话2$UNRELEASED",
+            "nextDialogs": [
+              "8050403"
+            ]
+          },
+          "8050403": {
+            "id": "8050403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)对话文件对话3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80505",
+      "subQuestName": "(test)测试瞬间锁定玩家队伍$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050501"
+        ],
+        "dialogs": {
+          "8050501": {
+            "id": "8050501",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "#(test)第一个数据是：{ABYSSWAR#1001}。$UNRELEASED",
+            "nextDialogs": [
+              "8050502"
+            ]
+          },
+          "8050502": {
+            "id": "8050502",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "#(test)第二个数据是：{ABYSSWAR#1002}。$UNRELEASED",
+            "nextDialogs": [
+              "8050503"
+            ]
+          },
+          "8050503": {
+            "id": "8050503",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "#(test)第三个数据是：{ABYSSWAR#1003}。$UNRELEASED",
+            "nextDialogs": [
+              "8050504"
+            ]
+          },
+          "8050504": {
+            "id": "8050504",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "#(test)第四个数据是：{ABYSSWAR#1004}。$UNRELEASED",
+            "nextDialogs": [
+              "8050505"
+            ]
+          },
+          "8050505": {
+            "id": "8050505",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "#(test)第五个数据是：{ABYSSWAR#1005}。$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80506",
+      "subQuestName": "(test)(test)测试瞬间解锁玩家队伍$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050601"
+        ],
+        "dialogs": {
+          "8050601": {
+            "id": "8050601",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)对话中会屏蔽掉旁边的gadget$UNRELEASED",
+            "nextDialogs": [
+              "8050602"
+            ]
+          },
+          "8050602": {
+            "id": "8050602",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)对话结束后，会恢复旁边的gadget显示$UNRELEASED",
+            "nextDialogs": [
+              "8050603"
+            ]
+          },
+          "8050603": {
+            "id": "8050603",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)若在对话过程中完成任务，则会删掉gadget$UNRELEASED",
+            "nextDialogs": [
+              "8050604"
+            ]
+          },
+          "8050604": {
+            "id": "8050604",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)此时，对话结束后就不应该再恢复gadget的显示了$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80507",
+      "subQuestName": "(test)测试战争玩法通配符$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8050701"
+        ],
+        "dialogs": {
+          "8050701": {
+            "id": "8050701",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)测试天气改变$UNRELEASED",
+            "nextDialogs": [
+              "8050702"
+            ]
+          },
+          "8050702": {
+            "id": "8050702",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)改成雨天$UNRELEASED",
+            "nextDialogs": [
+              "8050703"
+            ]
+          },
+          "8050703": {
+            "id": "8050703",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)下雨$UNRELEASED",
+            "nextDialogs": [
+              "8050704"
+            ]
+          },
+          "8050704": {
+            "id": "8050704",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)改回成晴天$UNRELEASED",
+            "nextDialogs": [
+              "8050705"
+            ]
+          },
+          "8050705": {
+            "id": "8050705",
+            "speakerId": 1000,
+            "speakerName": "「仆人」",
+            "text": "(test)恢复大世界天气$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80508",
+      "subQuestName": "(test)测试ban gadget$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "80509",
+      "subQuestName": "(test)测试新的weather相关接口$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "80511",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8051101"
+        ],
+        "dialogs": {
+          "8051101": {
+            "id": "8051101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话1$UNRELEASED",
+            "nextDialogs": [
+              "8051102"
+            ]
+          },
+          "8051102": {
+            "id": "8051102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话2$UNRELEASED",
+            "nextDialogs": [
+              "8051103"
+            ]
+          },
+          "8051103": {
+            "id": "8051103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80512",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8051201"
+        ],
+        "dialogs": {
+          "8051201": {
+            "id": "8051201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话1$UNRELEASED",
+            "nextDialogs": [
+              "8051202"
+            ]
+          },
+          "8051202": {
+            "id": "8051202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话2$UNRELEASED",
+            "nextDialogs": [
+              "8051203"
+            ]
+          },
+          "8051203": {
+            "id": "8051203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80513",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8051301"
+        ],
+        "dialogs": {
+          "8051301": {
+            "id": "8051301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话1$UNRELEASED",
+            "nextDialogs": [
+              "8051302"
+            ]
+          },
+          "8051302": {
+            "id": "8051302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话2$UNRELEASED",
+            "nextDialogs": [
+              "8051303"
+            ]
+          },
+          "8051303": {
+            "id": "8051303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)踩圈对话3$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80521",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8052101"
+        ],
+        "dialogs": {
+          "8052101": {
+            "id": "8052101",
+            "speakerId": 1001,
+            "speakerName": "「翡翠」",
+            "text": "(test)任务得闲置对话$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "80522",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "8052201"
+        ],
+        "dialogs": {
+          "8052201": {
+            "id": "8052201",
+            "speakerId": 1001,
+            "speakerName": "「翡翠」",
+            "text": "(test)推进任务得对话$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

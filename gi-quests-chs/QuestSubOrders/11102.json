@@ -1,0 +1,493 @@
+{
+  "lineCounts": {
+    "Player": 8,
+    "商人信众": 1,
+    "女性信众": 1,
+    "掇星攫辰天君": 1,
+    "派蒙": 21,
+    "男性信众": 1,
+    "魈": 31
+  },
+  "subQuests": [
+    {
+      "subId": "1110201",
+      "subQuestName": "利用「元素视野」，追踪「邪气」丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110202",
+      "subQuestName": "与魈对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020201"
+        ],
+        "dialogs": {
+          "111020201": {
+            "id": "111020201",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "是你们…我还记得你们。",
+            "nextDialogs": [
+              "111020202"
+            ]
+          },
+          "111020202": {
+            "id": "111020202",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "我正在这一带清理沾染了「妖邪」的生物，看来，是妨碍到你们了。",
+            "nextDialogs": [
+              "111020203"
+            ]
+          },
+          "111020203": {
+            "id": "111020203",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "（咦，他的语气是不是有点太客气了…）",
+            "nextDialogs": [
+              "111020204"
+            ]
+          },
+          "111020204": {
+            "id": "111020204",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "你在这里降妖除魔，怎么能说是妨碍我们呢？",
+            "nextDialogs": [
+              "111020205"
+            ]
+          },
+          "111020205": {
+            "id": "111020205",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "因为这些魔物的异变，也是由我而起——是沾染我的「业障」所致。",
+            "nextDialogs": [
+              "111020206"
+            ]
+          },
+          "111020206": {
+            "id": "111020206",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "异变、业障…啊，难道…？",
+            "nextDialogs": [
+              "111020209"
+            ]
+          },
+          "111020209": {
+            "id": "111020209",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "是呀，我好像还记得魈有着「护法夜叉」的称呼…",
+            "nextDialogs": [
+              "111020210"
+            ]
+          },
+          "111020210": {
+            "id": "111020210",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "原来是这样…呜、呜呜…",
+            "nextDialogs": [
+              "111020211"
+            ]
+          },
+          "111020211": {
+            "id": "111020211",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "魈真是太可怜了哇…",
+            "nextDialogs": [
+              "111020212"
+            ]
+          },
+          "111020212": {
+            "id": "111020212",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "……？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110203",
+      "subQuestName": "前往散发「业障」气息的洞天",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110204",
+      "subQuestName": "(test)地城对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020401"
+        ],
+        "dialogs": {
+          "111020401": {
+            "id": "111020401",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这里邪恶的气息让人汗毛直立呢！",
+            "nextDialogs": [
+              "111020402"
+            ]
+          },
+          "111020402": {
+            "id": "111020402",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "我会用「靖妖傩舞」之仪，断除此地的「业障」。",
+            "nextDialogs": [
+              "111020403"
+            ]
+          },
+          "111020403": {
+            "id": "111020403",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "你们要尽量平心静气，当心不要被魔神邪念所扰。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110207",
+      "subQuestName": "(test)弹引导图$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110206",
+      "subQuestName": "清剿「邪气」丘丘人聚集的洞天",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020601"
+        ],
+        "dialogs": {
+          "111020601": {
+            "id": "111020601",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "沾染「妖邪」的生物如此之多，实属异常…若不是早来清剿，后果不堪设想。",
+            "nextDialogs": [
+              "111020602"
+            ]
+          },
+          "111020602": {
+            "id": "111020602",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "方才你们提到的「掇星攫辰天君」，是怎么回事？",
+            "nextDialogs": [
+              "111020603"
+            ]
+          },
+          "111020603": {
+            "id": "111020603",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我来说给你听！",
+            "nextDialogs": [
+              "111020604"
+            ]
+          },
+          "111020604": {
+            "id": "111020604",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "那些人…居然会被「实现愿望的仙人」这般诳语所骗…",
+            "nextDialogs": [
+              "111020605"
+            ]
+          },
+          "111020605": {
+            "id": "111020605",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那么作为仙人的魈，会有实现愿望的能力吗？",
+            "nextDialogs": [
+              "111020606"
+            ]
+          },
+          "111020606": {
+            "id": "111020606",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "曾经的璃月，可不会对我们提出这种不劳而获的要求。",
+            "nextDialogs": [
+              "111020607"
+            ]
+          },
+          "111020607": {
+            "id": "111020607",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "数千年前璃月先民需要的，是可以守护这片栖身之地的力量。",
+            "nextDialogs": [
+              "111020608"
+            ]
+          },
+          "111020608": {
+            "id": "111020608",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "可是对这个时代的人们来说，确实是实现愿望的仙人更有吸引力吧…",
+            "nextDialogs": [
+              "111020609"
+            ]
+          },
+          "111020609": {
+            "id": "111020609",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "但，不论这个时代有多软弱，都与我无关。我只会尊奉帝君最初的意旨。",
+            "nextDialogs": [
+              "111020610"
+            ]
+          },
+          "111020610": {
+            "id": "111020610",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "派蒙好像又说错话啦…",
+            "nextDialogs": [
+              "111020611"
+            ]
+          },
+          "111020611": {
+            "id": "111020611",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊…啊对了！那个假仙人身上可是带着「百无禁忌箓」的，还用那个来驱魔！",
+            "nextDialogs": [
+              "111020612"
+            ]
+          },
+          "111020612": {
+            "id": "111020612",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "有这种事？哼…蠢材。驱魔而不除魔，怪不得妖异都来此聚集。",
+            "nextDialogs": [
+              "111020613"
+            ]
+          },
+          "111020613": {
+            "id": "111020613",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "如此下去，恐怕会超出我掌控的范畴…必须从他手中回收「百无禁忌箓」。",
+            "nextDialogs": [
+              "111020616"
+            ]
+          },
+          "111020616": {
+            "id": "111020616",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不愧是我的好伙伴！派蒙也是这么想的，一定要好好教训那个骗了我们的家伙！",
+            "nextDialogs": [
+              "111020617"
+            ]
+          },
+          "111020617": {
+            "id": "111020617",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "正巧我们这里有位真正的仙人…如果魈出手的话，他一定再也不敢假冒仙人之名！",
+            "nextDialogs": [
+              "111020618"
+            ]
+          },
+          "111020618": {
+            "id": "111020618",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "不行。我只斩妖魔，不杀凡人。",
+            "nextDialogs": [
+              "111020619"
+            ]
+          },
+          "111020619": {
+            "id": "111020619",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "没有叫你杀他啦！",
+            "nextDialogs": [
+              "111020620"
+            ]
+          },
+          "111020620": {
+            "id": "111020620",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "……",
+            "nextDialogs": [
+              "111020621"
+            ]
+          },
+          "111020621": {
+            "id": "111020621",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "若是能令他不再作奸为恶，确实对璃月有益。",
+            "nextDialogs": [
+              "111020622"
+            ]
+          },
+          "111020622": {
+            "id": "111020622",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "我有一法，曰「梦游诸境法」，本应用于睡梦之中，使魂魄离体修行…",
+            "nextDialogs": [
+              "111020623"
+            ]
+          },
+          "111020623": {
+            "id": "111020623",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "但也可动用此法，招来他人魂魄。",
+            "nextDialogs": [
+              "111020624"
+            ]
+          },
+          "111020624": {
+            "id": "111020624",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇，是真正的仙法！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110205",
+      "subQuestName": "(test)地城完成$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110220",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022001"
+        ],
+        "dialogs": {
+          "111022001": {
+            "id": "111022001",
+            "speakerId": 1002,
+            "speakerName": "男性信众",
+            "text": "「星辰天君」大人居然会失手，一定是状态不好吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110221",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022101"
+        ],
+        "dialogs": {
+          "111022101": {
+            "id": "111022101",
+            "speakerId": 1003,
+            "speakerName": "女性信众",
+            "text": "到底怎么回事，还好有你们在…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110222",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022201"
+        ],
+        "dialogs": {
+          "111022201": {
+            "id": "111022201",
+            "speakerId": 1004,
+            "speakerName": "商人信众",
+            "text": "这些丘丘人，以「星辰天君」的法力居然也制服不了吗…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110223",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022301"
+        ],
+        "dialogs": {
+          "111022301": {
+            "id": "111022301",
+            "speakerId": 1005,
+            "speakerName": "掇星攫辰天君",
+            "text": "本仙真的只是身体有恙，这次的事还望不要到处宣扬…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110224",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022401"
+        ],
+        "dialogs": {
+          "111022401": {
+            "id": "111022401",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "做好准备就进去吧，不要放任那些妖魔太久。"
+          }
+        }
+      }
+    }
+  ]
+}

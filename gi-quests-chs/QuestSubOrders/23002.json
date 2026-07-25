@@ -1,0 +1,303 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 18,
+    "派蒙": 11,
+    "范兵卫": 42
+  },
+  "subQuests": [
+    {
+      "subId": "2300201",
+      "subQuestName": "与范兵卫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230020101"
+        ],
+        "dialogs": {
+          "230020101": {
+            "id": "230020101",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这家店的蘑菇质量看来还可以，先放在采购名单上好了…",
+            "nextDialogs": [
+              "230020102"
+            ]
+          },
+          "230020102": {
+            "id": "230020102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "范兵卫？这个名字好熟悉啊，好像在哪听人提起过…",
+            "nextDialogs": [
+              "230020105"
+            ]
+          },
+          "230020105": {
+            "id": "230020105",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜哇！他是那个拖拖拉拉，把「御影炉心」弄得一团糟的家伙！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2300202",
+      "subQuestName": "前往采摘蘑菇",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230020201"
+        ],
+        "dialogs": {
+          "230020201": {
+            "id": "230020201",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "怎么样，您采到蘑菇了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2300203",
+      "subQuestName": "采摘蘑菇",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230020301"
+        ],
+        "dialogs": {
+          "230020301": {
+            "id": "230020301",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "太好了，这些就足够了。这些蘑菇看起来就不错…",
+            "nextDialogs": [
+              "230020302"
+            ]
+          },
+          "230020302": {
+            "id": "230020302",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这些酬劳请您收好，多谢您帮忙了。",
+            "nextDialogs": [
+              "230020303"
+            ]
+          },
+          "230020303": {
+            "id": "230020303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这是税前还是税后？",
+            "nextDialogs": [
+              "230020304"
+            ]
+          },
+          "230020304": {
+            "id": "230020304",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "当然是税后了，您放心吧，我不会让您专门回稻妻去补税的。",
+            "nextDialogs": [
+              "230020305"
+            ]
+          },
+          "230020305": {
+            "id": "230020305",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "不过，也不知道幕府那边的税务政策有没有修改…",
+            "nextDialogs": [
+              "230020306"
+            ]
+          },
+          "230020306": {
+            "id": "230020306",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "唔，还是找个时间再给阳介写封信吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2300204",
+      "subQuestName": "将蘑菇带给范兵卫",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230020401"
+        ],
+        "dialogs": {
+          "230020401": {
+            "id": "230020401",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "太好了，这些就足够了。这些蘑菇看起来就不错…",
+            "nextDialogs": [
+              "230020402"
+            ]
+          },
+          "230020402": {
+            "id": "230020402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我还多采了一些蘑菇。",
+            "nextDialogs": [
+              "230020403"
+            ]
+          },
+          "230020403": {
+            "id": "230020403",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "哈哈哈，那更好了，请您把这些蘑菇也给我吧，我会多给您算一些报酬的。",
+            "nextDialogs": [
+              "230020404"
+            ]
+          },
+          "230020404": {
+            "id": "230020404",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这些酬劳请您收好，多谢您帮忙了。",
+            "nextDialogs": [
+              "230020405"
+            ]
+          },
+          "230020405": {
+            "id": "230020405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这是税前还是税后？",
+            "nextDialogs": [
+              "230020406"
+            ]
+          },
+          "230020406": {
+            "id": "230020406",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这些都是税后了，您放心吧，我不会让您专门回稻妻去补税的。",
+            "nextDialogs": [
+              "230020407"
+            ]
+          },
+          "230020407": {
+            "id": "230020407",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "不过，也不知道幕府那边的税务政策有没有修改…",
+            "nextDialogs": [
+              "230020408"
+            ]
+          },
+          "230020408": {
+            "id": "230020408",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "唔，还是找个时间再给阳介写封信吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2300206",
+      "subQuestName": "与范兵卫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2300205",
+      "subQuestName": "与范兵卫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2300205",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230020501"
+        ],
+        "dialogs": {
+          "230020501": {
+            "id": "230020501",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这家的蘑菇看起来也不太靠谱啊…",
+            "nextDialogs": [
+              "230020502"
+            ]
+          },
+          "230020502": {
+            "id": "230020502",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "他怎么一副犯愁的样子…不会又惹上什么麻烦了吧…",
+            "nextDialogs": [
+              "230020503"
+            ]
+          },
+          "230020503": {
+            "id": "230020503",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "旅行者，您来了。上次您拿来的蘑菇质量真是不错。",
+            "nextDialogs": [
+              "230020504"
+            ]
+          },
+          "230020504": {
+            "id": "230020504",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "这次能请您再去采一些来吗？我想拿来和其他供货商的蘑菇做对比。",
+            "nextDialogs": [
+              "230020506",
+              "230020508"
+            ]
+          },
+          "230020506": {
+            "id": "230020506",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "那就拜托您了。"
+          },
+          "230020508": {
+            "id": "230020508",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "唔，五六家吧，但这些供货商的蘑菇质量都不太稳定，我实在是有些不安。",
+            "nextDialogs": [
+              "230020509"
+            ]
+          },
+          "230020509": {
+            "id": "230020509",
+            "speakerId": 1000,
+            "speakerName": "范兵卫",
+            "text": "我还会继续找其他供货商，采蘑菇的事情就拜托您了。"
+          }
+        }
+      }
+    }
+  ]
+}

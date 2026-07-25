@@ -1,0 +1,444 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 8,
+    "Player": 12,
+    "派蒙": 14,
+    "蒂图": 32,
+    "？？？": 7
+  },
+  "subQuests": [
+    {
+      "subId": "7505701",
+      "subQuestName": "(test)完成消灭怪物$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7505702",
+      "subQuestName": "(test)长钉砸下镜头$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750013201"
+        ],
+        "dialogs": {
+          "750013201": {
+            "id": "750013201",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "居然真的成功了…这之前只是出现在「故事」中的场景，真是了不起。",
+            "nextDialogs": [
+              "750013202"
+            ]
+          },
+          "750013202": {
+            "id": "750013202",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "原本聒噪不休的声音也安静了下去…「小缝影针」又回归了原本的样貌。那么大的东西，「轰隆」一下砸了下去…",
+            "nextDialogs": [
+              "750013203"
+            ]
+          },
+          "750013203": {
+            "id": "750013203",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "呼…真的有人能做到…这不会是一场梦吧，你们都真实存在？不会是我的臆想吧…",
+            "nextDialogs": [
+              "750013204"
+            ]
+          },
+          "750013204": {
+            "id": "750013204",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "梦醒了…该你自己解决啦！",
+            "nextDialogs": [
+              "750013205"
+            ]
+          },
+          "750013205": {
+            "id": "750013205",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "别说这么残忍的话啦。",
+            "nextDialogs": [
+              "750013206"
+            ]
+          },
+          "750013206": {
+            "id": "750013206",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#怎么样，我就说，{NICKNAME}是很强的！",
+            "nextDialogs": [
+              "750013207"
+            ]
+          },
+          "750013207": {
+            "id": "750013207",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750013208"
+            ]
+          },
+          "750013208": {
+            "id": "750013208",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#嘿嘿，{REALNAME[ID(2)|SHOWHOST(true)]}也觉得很了不起吧。",
+            "nextDialogs": [
+              "750013209"
+            ]
+          },
+          "750013209": {
+            "id": "750013209",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "#{NICKNAME}，了不起的异邦勇士啊，你可没有被深渊影响到吧？",
+            "nextDialogs": [
+              "750013212"
+            ]
+          },
+          "750013212": {
+            "id": "750013212",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "#就连部族里最强的勇士面对深渊都得打起十二分精神，{NICKNAME}果然不是一般人。",
+            "nextDialogs": [
+              "750013213"
+            ]
+          },
+          "750013213": {
+            "id": "750013213",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "哎呀，说不定以这个题材写出的故事，能够比桑哈杰记录的故事更加精彩。",
+            "nextDialogs": [
+              "750013214"
+            ]
+          },
+          "750013214": {
+            "id": "750013214",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "啊嗯？",
+            "nextDialogs": [
+              "750013215"
+            ]
+          },
+          "750013215": {
+            "id": "750013215",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "虽然不知道桑哈杰是谁，但是听上去很了不起？",
+            "nextDialogs": [
+              "750013216"
+            ]
+          },
+          "750013216": {
+            "id": "750013216",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "哈哈，对于所有「讲故事的部族人」来说，烟谜主的桑哈杰都是值得崇敬的人物…",
+            "nextDialogs": [
+              "750013217"
+            ]
+          },
+          "750013217": {
+            "id": "750013217",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "不过现在情况紧急，等有空的时候，再和你们说桑哈杰的故事吧！",
+            "nextDialogs": [
+              "750013218"
+            ]
+          },
+          "750013218": {
+            "id": "750013218",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "好了，我们到下一根浮起的「小缝影针」那边去吧，快些解决问题，我今晚就能开始动笔啦！",
+            "nextDialogs": [
+              "750013219"
+            ]
+          },
+          "750013219": {
+            "id": "750013219",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "出发出发！",
+            "nextDialogs": [
+              "750013220"
+            ]
+          },
+          "750013220": {
+            "id": "750013220",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500108",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750010801"
+        ],
+        "dialogs": {
+          "750010801": {
+            "id": "750010801",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "哇，刚才听到了些可怕的动静，所以想过来看看…",
+            "nextDialogs": [
+              "750010802"
+            ]
+          },
+          "750010802": {
+            "id": "750010802",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "过来的时候还安慰自己「别乱想啦，蒂图，还能有什么事呢」，结果根本就发生了了不起的大事啊！",
+            "nextDialogs": [
+              "750010803"
+            ]
+          },
+          "750010803": {
+            "id": "750010803",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750010804"
+            ]
+          },
+          "750010804": {
+            "id": "750010804",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "这里居然还有一只小嵴锋龙…是你把这两位异邦人引到这里来的吗？",
+            "nextDialogs": [
+              "750010805"
+            ]
+          },
+          "750010805": {
+            "id": "750010805",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "以及，这个「缝影针」…是你们钻下去的？",
+            "nextDialogs": [
+              "750010807",
+              "750010810"
+            ]
+          },
+          "750010807": {
+            "id": "750010807",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#啊？那，{NICKNAME}，我们岂不是做了很糟糕的事…不如趁目击者只有一位…",
+            "nextDialogs": [
+              "750010808"
+            ]
+          },
+          "750010808": {
+            "id": "750010808",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "#哈哈，别说那么恐怖的话啦，情况没那么严重，不如说你们做了好事？这位{M#兄弟}{F#小姐}是{NICKNAME}，你呢？",
+            "nextDialogs": [
+              "750010813"
+            ]
+          },
+          "750010813": {
+            "id": "750010813",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750010814"
+            ]
+          },
+          "750010814": {
+            "id": "750010814",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#这是{REALNAME[ID(2)|SHOWHOST(true)]}。",
+            "nextDialogs": [
+              "750010815"
+            ]
+          },
+          "750010815": {
+            "id": "750010815",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "嗯，而我的名字是蒂图，我是部族里负责讲故{RUBY#[D]叙事人}事的人。同时，也负责「照看」山谷里的这几条石柱子。",
+            "nextDialogs": [
+              "750010816"
+            ]
+          },
+          "750010816": {
+            "id": "750010816",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "当然了，你们钻下去的这块石柱，是三根「小缝影针」其中之一，也在我的看管范围之内。",
+            "nextDialogs": [
+              "750010817"
+            ]
+          },
+          "750010817": {
+            "id": "750010817",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "看、看管…果然，我们把那个什么石柱子弄掉了，纳塔本地人就会以此来向我们索要赔偿。",
+            "nextDialogs": [
+              "750010818"
+            ]
+          },
+          "750010818": {
+            "id": "750010818",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜，早知道刚才就不应该报真名的。",
+            "nextDialogs": [
+              "750010819"
+            ]
+          },
+          "750010819": {
+            "id": "750010819",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "赔偿…「蒂图灵光一闪，说不定能够以这样的方式要挟眼前的人达成自己的目的…」",
+            "nextDialogs": [
+              "750010820"
+            ]
+          },
+          "750010820": {
+            "id": "750010820",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "感觉如果是这样的情节的话，就该插入这样的叙事…",
+            "nextDialogs": [
+              "750010821"
+            ]
+          },
+          "750010821": {
+            "id": "750010821",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯？",
+            "nextDialogs": [
+              "750010822"
+            ]
+          },
+          "750010822": {
+            "id": "750010822",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "啊，抱歉，光顾着想些故事的事。我是部族里负责讲故{RUBY#[D]叙事人}事的人，讲了许多年的故事，最近到了需要自己想故事的时候了。",
+            "nextDialogs": [
+              "750010823"
+            ]
+          },
+          "750010823": {
+            "id": "750010823",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "这几天一直在为此烦心，结果「缝影针」也出了问题…老话说得好啊，人倒霉的时候龙也跟着一起倒霉。",
+            "nextDialogs": [
+              "750010824"
+            ]
+          },
+          "750010824": {
+            "id": "750010824",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "咳咳，我是不会要挟你们的啦，毕竟如果我真的想要要挟你们，就、就不会把脑海里的句子说出口了不是吗。",
+            "nextDialogs": [
+              "750010825"
+            ]
+          },
+          "750010825": {
+            "id": "750010825",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "哎呀，你看，我们互相报上了名字，却又没有大打出手，这就说明我们已经是朋友啦。",
+            "nextDialogs": [
+              "750010826"
+            ]
+          },
+          "750010826": {
+            "id": "750010826",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "不知道你们能不能听听朋友我这边的请求啊。",
+            "nextDialogs": [
+              "750010827"
+            ]
+          },
+          "750010827": {
+            "id": "750010827",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "只要…不是索要赔偿的话？",
+            "nextDialogs": [
+              "750010828"
+            ]
+          },
+          "750010828": {
+            "id": "750010828",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "当然不是啦，该怎么说好呢，对了，你们在山谷里漫步的时候，有没有看到一块超级大，还刻有金色花纹的固态燃素块…",
+            "nextDialogs": [
+              "750010829"
+            ]
+          },
+          "750010829": {
+            "id": "750010829",
+            "speakerId": 1000,
+            "speakerName": "蒂图",
+            "text": "就在这片区域的中心，应该很显眼哦。"
+          },
+          "750010810": {
+            "id": "750010810",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇，这种时候你总是这样，我也是会生气的哦！",
+            "nextDialogs": [
+              "750010811"
+            ]
+          },
+          "750010811": {
+            "id": "750010811",
+            "speakerId": 1003,
+            "speakerName": "？？？",
+            "text": "#哈哈，不用那么紧张，不如说，真是让人松了口气。这位小小的女士叫派蒙，那这位{M#兄弟}{F#小姐}的名字呢？",
+            "nextDialogs": [
+              "750010812"
+            ]
+          },
+          "750010812": {
+            "id": "750010812",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#我叫{NICKNAME}。"
+          }
+        }
+      }
+    }
+  ]
+}

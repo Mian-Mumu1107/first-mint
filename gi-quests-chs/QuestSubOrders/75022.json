@@ -1,0 +1,861 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 8,
+    "Black Screen": 3,
+    "Player": 13,
+    "奇怪的匿叶龙": 15,
+    "派蒙": 41,
+    "瓦伊纳": 8
+  },
+  "subQuests": [
+    {
+      "subId": "7502201",
+      "subQuestName": "(test)发现宝箱与龙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750221001"
+        ],
+        "dialogs": {
+          "750221001": {
+            "id": "750221001",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "……",
+            "nextDialogs": [
+              "750221002"
+            ]
+          },
+          "750221002": {
+            "id": "750221002",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜哇，虽然洞穴内有宝藏，但是这家伙把洞穴的入口堵得严严实实，完全不肯让开…",
+            "nextDialogs": [
+              "750221003"
+            ]
+          },
+          "750221003": {
+            "id": "750221003",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "昂呜？",
+            "nextDialogs": [
+              "750221004"
+            ]
+          },
+          "750221004": {
+            "id": "750221004",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯，怎么了？",
+            "nextDialogs": [
+              "750221005"
+            ]
+          },
+          "750221005": {
+            "id": "750221005",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "昂呜…",
+            "nextDialogs": [
+              "750221006"
+            ]
+          },
+          "750221006": {
+            "id": "750221006",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#它是在说什么？唔，完全听不懂啦，{REALNAME[ID(2)|SHOWHOST(true)]}你能听懂这只匿叶龙想说什么吗？",
+            "nextDialogs": [
+              "750221007"
+            ]
+          },
+          "750221007": {
+            "id": "750221007",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯唔？",
+            "nextDialogs": [
+              "750221008"
+            ]
+          },
+          "750221008": {
+            "id": "750221008",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "？",
+            "nextDialogs": [
+              "750221009"
+            ]
+          },
+          "750221009": {
+            "id": "750221009",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#看上去好像不行呢…哎，不过就算它们互相理解，我们也没办法和{REALNAME[ID(2)|SHOWHOST(true)]}说话。",
+            "nextDialogs": [
+              "750221010"
+            ]
+          },
+          "750221010": {
+            "id": "750221010",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "要是能知道匿叶龙想要什么就好了，说不定给它想要的东西，它就能把路让开了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502206",
+      "subQuestName": "寻找与匿叶龙沟通的方法",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220606"
+        ],
+        "dialogs": {
+          "750220606": {
+            "id": "750220606",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "你们刚才叽里咕噜的说什么呀？",
+            "nextDialogs": [
+              "750220607"
+            ]
+          },
+          "750220607": {
+            "id": "750220607",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "（咕——）",
+            "nextDialogs": [
+              "750220608"
+            ]
+          },
+          "750220608": {
+            "id": "750220608",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "咦，难道是肚子饿了？",
+            "nextDialogs": [
+              "750220609"
+            ]
+          },
+          "750220609": {
+            "id": "750220609",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "它一只龙孤零零地在这里，主人也不见了，估计也没有办法自己去觅食…",
+            "nextDialogs": [
+              "750220610"
+            ]
+          },
+          "750220610": {
+            "id": "750220610",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们找点吃的喂给它吧！",
+            "nextDialogs": [
+              "750220611"
+            ]
+          },
+          "750220611": {
+            "id": "750220611",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "等它吃饱了乖乖让开，宝藏就是我们的啦，嘿嘿…",
+            "nextDialogs": [
+              "750220612"
+            ]
+          },
+          "750220612": {
+            "id": "750220612",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "喂它点什么好呢？",
+            "nextDialogs": [
+              "750220613"
+            ]
+          },
+          "750220613": {
+            "id": "750220613",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "让我想想，纳塔这边的龙好像什么都会吃一点，也不知道匿叶龙都喜欢吃什么，看它的颜色，总觉得会喜欢吃什么草啊，叶子什么的…",
+            "nextDialogs": [
+              "750220614"
+            ]
+          },
+          "750220614": {
+            "id": "750220614",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "先简单找一样试试看好了，饿了的家伙，大概不会挑食吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502202",
+      "subQuestName": "给匿叶龙投喂食物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220701"
+        ],
+        "dialogs": {
+          "750220701": {
+            "id": "750220701",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯！嘿嘿，看上去就不错，这个它一定会喜欢吧！",
+            "nextDialogs": [
+              "750220702"
+            ]
+          },
+          "750220702": {
+            "id": "750220702",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750220703"
+            ]
+          },
+          "750220703": {
+            "id": "750220703",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "眼前的匿叶龙一骨碌咽下了眼前的食物。\\n你甚至没看清它是怎么吃下去的…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502203",
+      "subQuestName": "与匿叶龙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220304"
+        ],
+        "dialogs": {
+          "750220304": {
+            "id": "750220304",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "它它它…好能吃！",
+            "nextDialogs": [
+              "750220306",
+              "750220308"
+            ]
+          },
+          "750220306": {
+            "id": "750220306",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "什么呀！我对美食可是很讲究的，才不会这样狼吞虎咽、囫囵吞枣…根本连味道都吃不出来吧！",
+            "nextDialogs": [
+              "750220309"
+            ]
+          },
+          "750220309": {
+            "id": "750220309",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，它是真的饿坏了吧！好可怜，不然再给它一份好了。",
+            "nextDialogs": [
+              "750220310"
+            ]
+          },
+          "750220310": {
+            "id": "750220310",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "啊呜…",
+            "nextDialogs": [
+              "750220311"
+            ]
+          },
+          "750220311": {
+            "id": "750220311",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}也想吃吗？我们先把这只龙龙喂饱，就给你吃好吃的！",
+            "nextDialogs": [
+              "750220312"
+            ]
+          },
+          "750220312": {
+            "id": "750220312",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "很饿的龙一骨碌咽下了眼前的食物。\\n你眨眨眼睛，还以为是同样的画面出现了两次…",
+            "nextDialogs": [
+              "750220313"
+            ]
+          },
+          "750220313": {
+            "id": "750220313",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯嗯，这下总应该吃饱了——",
+            "nextDialogs": [
+              "750220314"
+            ]
+          },
+          "750220314": {
+            "id": "750220314",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂！等等，你怎么又坐下来了！难道两份也不够吗？",
+            "nextDialogs": [
+              "750220315"
+            ]
+          },
+          "750220315": {
+            "id": "750220315",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇，吃饱了就趴下去睡，一点都不想让开这个洞穴的样子嘛！",
+            "nextDialogs": [
+              "750220316"
+            ]
+          },
+          "750220316": {
+            "id": "750220316",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#怎么办呀{NICKNAME}，这家伙的行为我已经看不懂了…就算吃饱了要睡觉，也不要堵在洞口睡嘛！"
+          },
+          "750220308": {
+            "id": "750220308",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#是…是喔！没看出来，这家伙原来是只「大胃龙」，还好{REALNAME[ID(2)|SHOWHOST(true)]}没有这么能吃…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502204",
+      "subQuestName": "尝试与匿叶龙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220404"
+        ],
+        "dialogs": {
+          "750220404": {
+            "id": "750220404",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔…没办法把它叫醒吗，真是，气死人了！它不会是在故意装睡吧！",
+            "nextDialogs": [
+              "750220405"
+            ]
+          },
+          "750220405": {
+            "id": "750220405",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯唔？",
+            "nextDialogs": [
+              "750220408"
+            ]
+          },
+          "750220408": {
+            "id": "750220408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（将梦话的内容说了出来…）",
+            "nextDialogs": [
+              "750220409"
+            ]
+          },
+          "750220409": {
+            "id": "750220409",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "你是说，它是故意堵在洞口要吃的？完全就是骗吃骗喝嘛…有种上当了的感觉…",
+            "nextDialogs": [
+              "750220410"
+            ]
+          },
+          "750220410": {
+            "id": "750220410",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哼哼！不过既然这样，就别怪我们不客气了！",
+            "nextDialogs": [
+              "750220411"
+            ]
+          },
+          "750220411": {
+            "id": "750220411",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#不如就让{REALNAME[ID(2)|SHOWHOST(true)]}钻进去，把那个宝箱取出来吧！",
+            "nextDialogs": [
+              "750220412"
+            ]
+          },
+          "750220412": {
+            "id": "750220412",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750220413"
+            ]
+          },
+          "750220413": {
+            "id": "750220413",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "它不仁，也不能怪我们不义啦！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502205",
+      "subQuestName": "让龙伙伴取走宝箱",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502208",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220801"
+        ],
+        "dialogs": {
+          "750220801": {
+            "id": "750220801",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀！",
+            "nextDialogs": [
+              "750220802"
+            ]
+          },
+          "750220802": {
+            "id": "750220802",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，干得好！让我们看看宝箱里都有什么宝贝吧！",
+            "nextDialogs": [
+              "750220803"
+            ]
+          },
+          "750220803": {
+            "id": "750220803",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊，什么都没有，怎么只有一张纸条？",
+            "nextDialogs": [
+              "750220804"
+            ]
+          },
+          "750220804": {
+            "id": "750220804",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "原来留下纸条的才是它真正的主人？那，我们不是被这条龙骗了，是被它的主人骗了？",
+            "nextDialogs": [
+              "750220806",
+              "750220809"
+            ]
+          },
+          "750220806": {
+            "id": "750220806",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "是啊，虽然他重病缠身，也不能把匿叶龙扔在这种地方！",
+            "nextDialogs": [
+              "750220807"
+            ]
+          },
+          "750220807": {
+            "id": "750220807",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "居然这样利用别人的贪心…不对，是利用对龙的同情心…",
+            "nextDialogs": [
+              "750220810"
+            ]
+          },
+          "750220810": {
+            "id": "750220810",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唉，总而言之，总不能继续让它骗吃骗喝，不如去找悬木人的首领，告诉他这件事吧。",
+            "nextDialogs": [
+              "750220811"
+            ]
+          },
+          "750220811": {
+            "id": "750220811",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "向「悬木人」的首领瓦伊纳述说此事，并将他带了过来。",
+            "nextDialogs": [
+              "750220812"
+            ]
+          },
+          "750220812": {
+            "id": "750220812",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "哎呀呀，你们找我的时候我就有所预感…",
+            "nextDialogs": [
+              "750220813"
+            ]
+          },
+          "750220813": {
+            "id": "750220813",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "没想到是「那个家伙」留下的龙。",
+            "nextDialogs": [
+              "750220814"
+            ]
+          },
+          "750220814": {
+            "id": "750220814",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「那个家伙」？",
+            "nextDialogs": [
+              "750220815"
+            ]
+          },
+          "750220815": {
+            "id": "750220815",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "750220816"
+            ]
+          },
+          "750220816": {
+            "id": "750220816",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "是个做了错事的人，因为害怕被惩罚，主动离开了部族。",
+            "nextDialogs": [
+              "750220817"
+            ]
+          },
+          "750220817": {
+            "id": "750220817",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "不过，罪人的名字这里就不作赘述了。可能他也觉得不是什么好事吧，你看，他自己也未在这样的信件后留下名字。",
+            "nextDialogs": [
+              "750220818"
+            ]
+          },
+          "750220818": {
+            "id": "750220818",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "原来他的龙选择了和他一起…",
+            "nextDialogs": [
+              "750220819"
+            ]
+          },
+          "750220819": {
+            "id": "750220819",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "不，不能说是选择，龙是单纯的生灵，不擅长衡量对错，大多数时候依照情感，信任着自己的伙伴。",
+            "nextDialogs": [
+              "750220820"
+            ]
+          },
+          "750220820": {
+            "id": "750220820",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "…果然，他还是本性难移，有点小聪明都用在欺骗的伎俩上，用这种手段骗别人，也骗自己的龙。",
+            "nextDialogs": [
+              "750220821"
+            ]
+          },
+          "750220821": {
+            "id": "750220821",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "我们会派人定期给这只匿叶龙喂点吃的，毕竟是部族的孩子…",
+            "nextDialogs": [
+              "750220822"
+            ]
+          },
+          "750220822": {
+            "id": "750220822",
+            "speakerId": 1004,
+            "speakerName": "瓦伊纳",
+            "text": "至于「那个家伙」…哎呀呀，这还真是个悲惨的结局，不过我也不会同情他，人应该对自己的所作所为负责。"
+          },
+          "750220809": {
+            "id": "750220809",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇！不要开这种玩笑啦！它也有点无辜呢，说不定还在原地呆呆地等着主人回来，这才不肯挪开的…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502207",
+      "subQuestName": "(test)击败头套人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502209",
+      "subQuestName": "(test)打开宝箱",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220901"
+        ],
+        "dialogs": {
+          "750220901": {
+            "id": "750220901",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸…不喜欢吗？它不肯吃呢…",
+            "nextDialogs": [
+              "750220902"
+            ]
+          },
+          "750220902": {
+            "id": "750220902",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "什么呀，都饿成这样了还挑食…唔，它到底想要吃什么样的东西呀？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220101"
+        ],
+        "dialogs": {
+          "750220101": {
+            "id": "750220101",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "昂呜？",
+            "nextDialogs": [
+              "750220102"
+            ]
+          },
+          "750220102": {
+            "id": "750220102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔，你是有什么想要的东西吗…如果能知道它想要什么就好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502202",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750220201"
+        ],
+        "dialogs": {
+          "750220201": {
+            "id": "750220201",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "昂呜昂呜…咕咕…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502211",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750221101"
+        ],
+        "dialogs": {
+          "750221101": {
+            "id": "750221101",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "呼噜——呼噜——",
+            "nextDialogs": [
+              "750221102"
+            ]
+          },
+          "750221102": {
+            "id": "750221102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好不讲道理的龙！居然睡得这么熟…啊啊，不光是只「大胃龙」，还是一只「赖皮龙」。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750221201"
+        ],
+        "dialogs": {
+          "750221201": {
+            "id": "750221201",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "想起来了，咕呜…想吃…有肉的那种…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502213",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750221301"
+        ],
+        "dialogs": {
+          "750221301": {
+            "id": "750221301",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "想吃…",
+            "nextDialogs": [
+              "750221302"
+            ]
+          },
+          "750221302": {
+            "id": "750221302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "想吃？",
+            "nextDialogs": [
+              "750221303"
+            ]
+          },
+          "750221303": {
+            "id": "750221303",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "肚子扁扁，肚子，热热…",
+            "nextDialogs": [
+              "750221304"
+            ]
+          },
+          "750221304": {
+            "id": "750221304",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "想吃——"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502214",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750221401"
+        ],
+        "dialogs": {
+          "750221401": {
+            "id": "750221401",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "呼呼…他说得对，只要堵在洞口…呼呼…就可以吃有肉的东西…",
+            "nextDialogs": [
+              "750221402"
+            ]
+          },
+          "750221402": {
+            "id": "750221402",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "（匿叶龙沉沉睡去，看来无法将它唤醒。）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750229901"
+        ],
+        "dialogs": {
+          "750229901": {
+            "id": "750229901",
+            "speakerId": 1000,
+            "speakerName": "奇怪的匿叶龙",
+            "text": "呼噜——呼噜——",
+            "nextDialogs": [
+              "750229902"
+            ]
+          },
+          "750229902": {
+            "id": "750229902",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好不讲道理的龙！居然睡得这么熟…啊啊，不光是只「大胃龙」，还是一只「赖皮龙」。"
+          }
+        }
+      }
+    }
+  ]
+}

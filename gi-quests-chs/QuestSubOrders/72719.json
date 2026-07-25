@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "矢田幸喜": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7271901",
+      "subQuestName": "将五份白铁块交给矢田幸喜",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727190101"
+        ],
+        "dialogs": {
+          "727190101": {
+            "id": "727190101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于白铁块…",
+            "nextDialogs": [
+              "727190102"
+            ]
+          },
+          "727190102": {
+            "id": "727190102",
+            "speakerId": 1000,
+            "speakerName": "矢田幸喜",
+            "text": "要是等到临阵再磨枪，那就太迟了，得早点请天目师傅打个新枪尖。",
+            "nextDialogs": [
+              "727190103"
+            ]
+          },
+          "727190103": {
+            "id": "727190103",
+            "speakerId": 1000,
+            "speakerName": "矢田幸喜",
+            "text": "你是接下我委托的那位吗？那五份白铁块，你也准备好了吧。",
+            "nextDialogs": [
+              "727190105"
+            ]
+          },
+          "727190105": {
+            "id": "727190105",
+            "speakerId": 1000,
+            "speakerName": "矢田幸喜",
+            "text": "那你准备好了之后，再拿给我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7271902",
+      "subQuestName": "与矢田幸喜对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727190201"
+        ],
+        "dialogs": {
+          "727190201": {
+            "id": "727190201",
+            "speakerId": 1000,
+            "speakerName": "矢田幸喜",
+            "text": "十分感谢，一点报酬，不成敬意。"
+          }
+        }
+      }
+    }
+  ]
+}

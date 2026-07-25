@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "三田": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7271201",
+      "subQuestName": "将五份电气水晶交给三田",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727120101"
+        ],
+        "dialogs": {
+          "727120101": {
+            "id": "727120101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于电气水晶…",
+            "nextDialogs": [
+              "727120102"
+            ]
+          },
+          "727120102": {
+            "id": "727120102",
+            "speakerId": 1000,
+            "speakerName": "三田",
+            "text": "你是看到了我发的委托才过来的吗？",
+            "nextDialogs": [
+              "727120103"
+            ]
+          },
+          "727120103": {
+            "id": "727120103",
+            "speakerId": 1000,
+            "speakerName": "三田",
+            "text": "你已经搜集齐了五份电气水晶吗？",
+            "nextDialogs": [
+              "727120105"
+            ]
+          },
+          "727120105": {
+            "id": "727120105",
+            "speakerId": 1000,
+            "speakerName": "三田",
+            "text": "那你准备好了之后，再拿给我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7271202",
+      "subQuestName": "与三田对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727120201"
+        ],
+        "dialogs": {
+          "727120201": {
+            "id": "727120201",
+            "speakerId": 1000,
+            "speakerName": "三田",
+            "text": "谢谢你，这下我就可以开始制作颜料了，这些报酬请你收下吧。"
+          }
+        }
+      }
+    }
+  ]
+}

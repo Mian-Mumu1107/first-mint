@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "兰齐塔": 2
+  },
+  "subQuests": [
+    {
+      "subId": "4018101",
+      "subQuestName": "(test)子任务描述Test$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401810101"
+        ],
+        "dialogs": {
+          "401810101": {
+            "id": "401810101",
+            "speakerId": 1000,
+            "speakerName": "兰齐塔",
+            "text": "节日，节日…",
+            "nextDialogs": [
+              "401810102"
+            ]
+          },
+          "401810102": {
+            "id": "401810102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你好呀。",
+            "nextDialogs": [
+              "401810103"
+            ]
+          },
+          "401810103": {
+            "id": "401810103",
+            "speakerId": 1000,
+            "speakerName": "兰齐塔",
+            "text": "呀…！"
+          }
+        }
+      }
+    }
+  ]
+}

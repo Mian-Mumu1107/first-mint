@@ -1,0 +1,112 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "塞琉斯": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7081301",
+      "subQuestName": "与塞琉斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081302",
+      "subQuestName": "击败晨曦酒庄附近的盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081303",
+      "subQuestName": "击败驻守营地的盗宝团成员",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081304",
+      "subQuestName": "与塞琉斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708130501"
+        ],
+        "dialogs": {
+          "708130501": {
+            "id": "708130501",
+            "speakerId": 1000,
+            "speakerName": "塞琉斯",
+            "text": "你回来了，那些盗宝团的营地扫清了吗？",
+            "nextDialogs": [
+              "708130502"
+            ]
+          },
+          "708130502": {
+            "id": "708130502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "全部扫清了。",
+            "nextDialogs": [
+              "708130503"
+            ]
+          },
+          "708130503": {
+            "id": "708130503",
+            "speakerId": 1000,
+            "speakerName": "塞琉斯",
+            "text": "不愧是荣誉骑士，这么点小事果然不在话下。",
+            "nextDialogs": [
+              "708130504"
+            ]
+          },
+          "708130504": {
+            "id": "708130504",
+            "speakerId": 1000,
+            "speakerName": "塞琉斯",
+            "text": "哼…这群盗宝团倒是有点「毅力」，风暴的时候全城都在避难，他们居然还敢顶着风暴进来偷东西。",
+            "nextDialogs": [
+              "708130505"
+            ]
+          },
+          "708130505": {
+            "id": "708130505",
+            "speakerId": 1000,
+            "speakerName": "塞琉斯",
+            "text": "有这种「毅力」，做点正经的事不是更好吗…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081304",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708130401"
+        ],
+        "dialogs": {
+          "708130401": {
+            "id": "708130401",
+            "speakerId": 1000,
+            "speakerName": "塞琉斯",
+            "text": "哼，盗宝团…真是一帮扫不净赶不走的老鼠。"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "古剑铭文": 2,
+    "古老的摹刻": 3,
+    "文四爷": 3,
+    "歪歪扭扭的摹刻": 2,
+    "派蒙": 11,
+    "碑铭": 2,
+    "黄三爷": 6
+  },
+  "subQuests": [
+    {
+      "subId": "7110901",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7110902",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711090201"
+        ],
+        "dialogs": {
+          "711090201": {
+            "id": "711090201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哇啊，没想到这破破烂烂的王山厅里，居然还真的藏了这么深的秘密…",
+            "nextDialogs": [
+              "711090204"
+            ]
+          },
+          "711090204": {
+            "id": "711090204",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "而且，黄三爷好像也不知道有这种地方…等等，难道这里就是传说中的「古华藏宝室」吗？！",
+            "nextDialogs": [
+              "711090205"
+            ]
+          },
+          "711090205": {
+            "id": "711090205",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#而且…{NICKNAME}你看，那边的台子上好像有什么东西在发光！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7110903",
+      "subQuestName": "调查机关",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7110904",
+      "subQuestName": "完成试炼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7110905",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711090501"
+        ],
+        "dialogs": {
+          "711090501": {
+            "id": "711090501",
+            "speakerId": 1001,
+            "speakerName": "碑铭",
+            "text": "「…天其难谌，臻而见眷者罕。命其靡常，盛而未衰者鲜…获目于天，犹有径路所穷之时，况复天目未及者…」",
+            "nextDialogs": [
+              "711090502"
+            ]
+          },
+          "711090502": {
+            "id": "711090502",
+            "speakerId": 1001,
+            "speakerName": "碑铭",
+            "text": "「…遗此碑宇，且问来许。行至绝处，自当何如？」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7110906",
+      "subQuestName": "调查古剑",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711090601"
+        ],
+        "dialogs": {
+          "711090601": {
+            "id": "711090601",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？这把剑上好像写了什么？让我看看…",
+            "nextDialogs": [
+              "711090602"
+            ]
+          },
+          "711090602": {
+            "id": "711090602",
+            "speakerId": 1002,
+            "speakerName": "古剑铭文",
+            "text": "「…抚剑长歌去，斫龙歃血还。神光似游电，寒浪欲摧山…」",
+            "nextDialogs": [
+              "711090603"
+            ]
+          },
+          "711090603": {
+            "id": "711090603",
+            "speakerId": 1002,
+            "speakerName": "古剑铭文",
+            "text": "「…斩虎天衡下，刺蛟云海间。功成拂衣后，永同烟水闲…」",
+            "nextDialogs": [
+              "711090604"
+            ]
+          },
+          "711090604": {
+            "id": "711090604",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "旁边好像还有一块石碑…咦，这下面的字迹好像不太一样？",
+            "nextDialogs": [
+              "711090605"
+            ]
+          },
+          "711090605": {
+            "id": "711090605",
+            "speakerId": 1003,
+            "speakerName": "古老的摹刻",
+            "text": "「…本欲遗鱼羊丰肴于此，奈何日久必腐。且留食谱于此，足下可自烹之。甚美。」",
+            "nextDialogs": [
+              "711090606"
+            ]
+          },
+          "711090606": {
+            "id": "711090606",
+            "speakerId": 1003,
+            "speakerName": "古老的摹刻",
+            "text": "「…此外别无他物，唯此剑与此景。」",
+            "nextDialogs": [
+              "711090607"
+            ]
+          },
+          "711090607": {
+            "id": "711090607",
+            "speakerId": 1003,
+            "speakerName": "古老的摹刻",
+            "text": "「…行至绝处，当何如？足下已知。」",
+            "nextDialogs": [
+              "711090608"
+            ]
+          },
+          "711090608": {
+            "id": "711090608",
+            "speakerId": 1004,
+            "speakerName": "歪歪扭扭的摹刻",
+            "text": "「…不取…遗宝，仅留一…自此…」",
+            "nextDialogs": [
+              "711090609"
+            ]
+          },
+          "711090609": {
+            "id": "711090609",
+            "speakerId": 1004,
+            "speakerName": "歪歪扭扭的摹刻",
+            "text": "「请从绝处…读我…」",
+            "nextDialogs": [
+              "711090610"
+            ]
+          },
+          "711090610": {
+            "id": "711090610",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜哇…下面这几行字儿歪歪扭扭的，根本看不懂写了什么！",
+            "nextDialogs": [
+              "711090613"
+            ]
+          },
+          "711090613": {
+            "id": "711090613",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜呜，到头来都没找到什么价值连城的宝藏，白期待一场了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7110925",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711092501"
+        ],
+        "dialogs": {
+          "711092501": {
+            "id": "711092501",
+            "speakerId": 1005,
+            "speakerName": "文四爷",
+            "text": "唉，不想我古华派千年传承，到头来竟落到了门长带头骗吃骗喝的境地…奈何，奈何啊…",
+            "nextDialogs": [
+              "711092502"
+            ]
+          },
+          "711092502": {
+            "id": "711092502",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "嗨…行了行了，我这不是舍不得师弟守着这师门饿死嘛？",
+            "nextDialogs": [
+              "711092503"
+            ]
+          },
+          "711092503": {
+            "id": "711092503",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "#你也别露出那种表情了。你一天到晚郁郁寡欢的…看到刚才那个{M#小伙子}{F#小姑娘}活跃的表现，你也挺欣慰的不是？",
+            "nextDialogs": [
+              "711092504"
+            ]
+          },
+          "711092504": {
+            "id": "711092504",
+            "speakerId": 1005,
+            "speakerName": "文四爷",
+            "text": "#就那{M#傻小子}{F#傻姑娘}？进去转一圈给你做个腊肉饭？我还欣慰？我要年轻几岁先一掌拍死你…",
+            "nextDialogs": [
+              "711092505"
+            ]
+          },
+          "711092505": {
+            "id": "711092505",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "嘿，年轻几岁你掌法还不如我呢！",
+            "nextDialogs": [
+              "711092506"
+            ]
+          },
+          "711092506": {
+            "id": "711092506",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "行了，你听我说…就剩下咱们几个老家伙了，若不像这样试探有缘人的底细，总不能真让那些藏书陪着咱们进棺材吧？",
+            "nextDialogs": [
+              "711092507"
+            ]
+          },
+          "711092507": {
+            "id": "711092507",
+            "speakerId": 1005,
+            "speakerName": "文四爷",
+            "text": "……",
+            "nextDialogs": [
+              "711092508"
+            ]
+          },
+          "711092508": {
+            "id": "711092508",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "哈哈，罢了，罢了，这等让人难受的丧气话，不说也罢。",
+            "nextDialogs": [
+              "711092509"
+            ]
+          },
+          "711092509": {
+            "id": "711092509",
+            "speakerId": 1006,
+            "speakerName": "黄三爷",
+            "text": "对了，那两个孩子刚才做给我的美食，你也尝尝看吧？嘿嘿，我觉得比万民堂做得还美味呢！来，尝一口，尝一口嘛！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7110999",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711099902"
+        ],
+        "dialogs": {
+          "711099902": {
+            "id": "711099902",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好耶！这样一来水位就降下去了，我们快点去里面看看吧！"
+          }
+        }
+      }
+    }
+  ]
+}

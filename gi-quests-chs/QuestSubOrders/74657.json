@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "伽拉蒂雅": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7465701",
+      "subQuestName": "将10瓶盐交给伽拉蒂雅",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746570101"
+        ],
+        "dialogs": {
+          "746570101": {
+            "id": "746570101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于盐…",
+            "nextDialogs": [
+              "746570102"
+            ]
+          },
+          "746570102": {
+            "id": "746570102",
+            "speakerId": 1000,
+            "speakerName": "伽拉蒂雅",
+            "text": "你好，你是来讨论食盐供应的事情的吗？",
+            "nextDialogs": [
+              "746570103"
+            ]
+          },
+          "746570103": {
+            "id": "746570103",
+            "speakerId": 1000,
+            "speakerName": "伽拉蒂雅",
+            "text": "那你一定已经准备好了足够多的盐吧？",
+            "nextDialogs": [
+              "746570105"
+            ]
+          },
+          "746570105": {
+            "id": "746570105",
+            "speakerId": 1000,
+            "speakerName": "伽拉蒂雅",
+            "text": "食盐数量不够多可不行，我们一船人到处航行，每次都得准备好够多的盐才行。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465702",
+      "subQuestName": "与伽拉蒂雅对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746570201"
+        ],
+        "dialogs": {
+          "746570201": {
+            "id": "746570201",
+            "speakerId": 1000,
+            "speakerName": "伽拉蒂雅",
+            "text": "这个数量应该够我们一次短途航行吃的了，你看起来挺靠谱的，以后有这方面的需求我会优先联络你的。"
+          }
+        }
+      }
+    }
+  ]
+}

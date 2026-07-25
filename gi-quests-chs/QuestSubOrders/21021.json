@@ -1,0 +1,1778 @@
+{
+  "lineCounts": {
+    "Player": 24,
+    "凯叔": 4,
+    "小六": 3,
+    "小星": 3,
+    "残缺的文字": 6,
+    "派蒙": 28,
+    "胭儿": 28,
+    "若心": 69,
+    "路爷": 4,
+    "遗迹考察日志": 7,
+    "阿佐": 4,
+    "阿佑": 4,
+    "阿芷": 3
+  },
+  "subQuests": [
+    {
+      "subId": "2102101",
+      "subQuestName": "留空任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102102",
+      "subQuestName": "搜寻轻策石刻碎片$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102103",
+      "subQuestName": "在轻策地区寻找碎片$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102104",
+      "subQuestName": "在轻策地区寻找碎片$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210210401"
+        ],
+        "dialogs": {
+          "210210401": {
+            "id": "210210401",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「…帝君伏螭，然其身不全死，故渐次镇之，束其神于<color=#00E1FFFF>正北</color>，钉其骨于<color=#00E1FFFF>东南</color>，锁其身于<color=#00E1FFFF>西北</color>，缚其魂于<color=#00E1FFFF>东北</color>，压其形于<color=#00E1FFFF>西南</color>…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102105",
+      "subQuestName": "在轻策地区寻找碎片$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210210501"
+        ],
+        "dialogs": {
+          "210210501": {
+            "id": "210210501",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「…其骨已销，其神已失，其形已灭，其魂已灭…其身仍存…」",
+            "nextDialogs": [
+              "210210502"
+            ]
+          },
+          "210210502": {
+            "id": "210210502",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「…置此尊像，<color=#00E1FFFF>遥望四方</color>…<color=#00E1FFFF>狂风隔蔽之墟</color>、<color=#00E1FFFF>冰雪不化之峰</color>、<color=#00E1FFFF>绝云隐仙之地</color>、<color=#00E1FFFF>璃月众人之城</color>…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102116",
+      "subQuestName": "回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102106",
+      "subQuestName": "假扮考古学家的盗宝团干部指引线开启$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210210601"
+        ],
+        "dialogs": {
+          "210210601": {
+            "id": "210210601",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "唉，运气真差…",
+            "nextDialogs": [
+              "210210602"
+            ]
+          },
+          "210210602": {
+            "id": "210210602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "发生什么了？",
+            "nextDialogs": [
+              "210210603"
+            ]
+          },
+          "210210603": {
+            "id": "210210603",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "是旅行者啊，你来得正好，我正在…呃，研究呢。",
+            "nextDialogs": [
+              "210210604"
+            ]
+          },
+          "210210604": {
+            "id": "210210604",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "你知道这片地方的名字吧——「轻策庄」。",
+            "nextDialogs": [
+              "210210605"
+            ]
+          },
+          "210210605": {
+            "id": "210210605",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "怎么说呢，你了解「轻策」这个名字吗？",
+            "nextDialogs": [
+              "210210607",
+              "210210609"
+            ]
+          },
+          "210210607": {
+            "id": "210210607",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "当然是来历和含义咯，一看你就没见识…",
+            "nextDialogs": [
+              "210210610"
+            ]
+          },
+          "210210610": {
+            "id": "210210610",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "你知道「螭」这个字吗？在传说里，「螭」是一只盘踞在这附近的龙形魔物。",
+            "nextDialogs": [
+              "210210611"
+            ]
+          },
+          "210210611": {
+            "id": "210210611",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "在被岩王帝君「摩拉克斯」击败之后，它的身体蜷曲成了顽石，血液化为了碧水，鳞片则变成了梯田…",
+            "nextDialogs": [
+              "210210612"
+            ]
+          },
+          "210210612": {
+            "id": "210210612",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "而在很久之前，「螭」其实也就是「轻策」的意思。",
+            "nextDialogs": [
+              "210210613"
+            ]
+          },
+          "210210613": {
+            "id": "210210613",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "然后，经过我长久、认真，严谨地研究之后…",
+            "nextDialogs": [
+              "210210614"
+            ]
+          },
+          "210210614": {
+            "id": "210210614",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "我认为，「螭」的遗骸，说不定还在这座山里。"
+          },
+          "210210609": {
+            "id": "210210609",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "就光一句「挺有特色」就完了？真没见识…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102107",
+      "subQuestName": "调查遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210210701"
+        ],
+        "dialogs": {
+          "210210701": {
+            "id": "210210701",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "…这样就可以…呃啊！你，你怎么还在这？",
+            "nextDialogs": [
+              "210210702"
+            ]
+          },
+          "210210702": {
+            "id": "210210702",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "我要再休息一会，再休息一会我…我就走了。",
+            "nextDialogs": [
+              "210210703"
+            ]
+          },
+          "210210703": {
+            "id": "210210703",
+            "speakerId": 1001,
+            "speakerName": "胭儿",
+            "text": "你自己注意安全啊，别太逞强了，说不定…真就只是个传说而已啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102108",
+      "subQuestName": "在轻策庄向人们询问关于碎片的线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210210801"
+        ],
+        "dialogs": {
+          "210210801": {
+            "id": "210210801",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210210802"
+            ]
+          },
+          "210210802": {
+            "id": "210210802",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "碎片？是什么稀奇物件吗？我来看看…",
+            "nextDialogs": [
+              "210210803"
+            ]
+          },
+          "210210803": {
+            "id": "210210803",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵…怪不得你们认不出来，这上面的不是「字」，而是「画」。",
+            "nextDialogs": [
+              "210210804"
+            ]
+          },
+          "210210804": {
+            "id": "210210804",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "在很久之前，先民们还没有「字」，所以只能用「画」来记事。",
+            "nextDialogs": [
+              "210210805"
+            ]
+          },
+          "210210805": {
+            "id": "210210805",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你看，这里是一个「螭」字。看起来，用来表达「螭」的「画」想必很大，也很复杂，这里也只有一部分，但也足够让我认出来了。",
+            "nextDialogs": [
+              "210210806"
+            ]
+          },
+          "210210806": {
+            "id": "210210806",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "我猜啊，这大概是记载着岩王爷和「螭」的那场战斗吧。但是，其他的地方就看不清喽…",
+            "nextDialogs": [
+              "210210807"
+            ]
+          },
+          "210210807": {
+            "id": "210210807",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "如果完整的话，您能看懂吗？",
+            "nextDialogs": [
+              "210210808"
+            ]
+          },
+          "210210808": {
+            "id": "210210808",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵，我可不能打包票说，肯定能看懂，",
+            "nextDialogs": [
+              "210210809"
+            ]
+          },
+          "210210809": {
+            "id": "210210809",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "不过，如果不完整，那就是肯定看不懂了。",
+            "nextDialogs": [
+              "210210810"
+            ]
+          },
+          "210210810": {
+            "id": "210210810",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们这就去找剩下的部分。",
+            "nextDialogs": [
+              "210210811"
+            ]
+          },
+          "210210811": {
+            "id": "210210811",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵，年轻人可真有干劲，好事，好事啊。",
+            "nextDialogs": [
+              "210210812"
+            ]
+          },
+          "210210812": {
+            "id": "210210812",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "按照这枚碎片上面记载的事情，依我看，如果你们真想找有关的东西…",
+            "nextDialogs": [
+              "210210813"
+            ]
+          },
+          "210210813": {
+            "id": "210210813",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "传说，岩王爷和「螭」的那场战斗发生在<color=#00E1FFFF>「高处」</color>，你们可以先去周围的山上碰碰运气。",
+            "nextDialogs": [
+              "210210814"
+            ]
+          },
+          "210210814": {
+            "id": "210210814",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "然后，这场战斗也留下了许多痕迹，在这片留意一下<color=#00E1FFFF>「遗迹」</color>准没错。",
+            "nextDialogs": [
+              "210210815"
+            ]
+          },
+          "210210815": {
+            "id": "210210815",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "争斗么…必然有落败的一方，按照传说，在击败「螭」之后，岩王爷教先民们做出了一种名为<color=#00E1FFFF>「岩尊像」</color>的东西，用来镇压「螭」剩余的力量。",
+            "nextDialogs": [
+              "210210816"
+            ]
+          },
+          "210210816": {
+            "id": "210210816",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "我猜，一个地方的<color=#00E1FFFF>「岩尊像」</color>越多，能够找到有关「螭」的线索的机会，应该也就越多吧。",
+            "nextDialogs": [
+              "210210817"
+            ]
+          },
+          "210210817": {
+            "id": "210210817",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "比如，我知道在「轻策庄」的<color=#00E1FFFF>西边</color>，就有一个地方供奉着许多<color=#00E1FFFF>「岩尊像」</color>，传说啊，那里就是岩王爷镇压「螭」的一处地方…你们不如去那里碰碰运气。",
+            "nextDialogs": [
+              "210210818"
+            ]
+          },
+          "210210818": {
+            "id": "210210818",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵，我就在这等着你们，等你们找齐了碎片之后，再拿来我看看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102109",
+      "subQuestName": "向若心询问与碎片相关的线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102125",
+      "subQuestName": "前往轻策庄，向村民们询问与碎片相关的线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212501"
+        ],
+        "dialogs": {
+          "210212501": {
+            "id": "210212501",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你好，欢迎来到轻策庄，请问有什么事吗？",
+            "nextDialogs": [
+              "210212502"
+            ]
+          },
+          "210212502": {
+            "id": "210212502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "您好。",
+            "nextDialogs": [
+              "210212503"
+            ]
+          },
+          "210212503": {
+            "id": "210212503",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "在一个瀑布的后面，找到了一个密室？",
+            "nextDialogs": [
+              "210212504"
+            ]
+          },
+          "210212504": {
+            "id": "210212504",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你们在里面…发现什么了吗？",
+            "nextDialogs": [
+              "210212506",
+              "210212508"
+            ]
+          },
+          "210212506": {
+            "id": "210212506",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "没什么特别的…好啊，好啊…没什么特别的最好…",
+            "nextDialogs": [
+              "210212511"
+            ]
+          },
+          "210212511": {
+            "id": "210212511",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵，我看你们这个孩子，灰头土脸的…也准是在里面好好折腾了一顿。",
+            "nextDialogs": [
+              "210212512"
+            ]
+          },
+          "210212512": {
+            "id": "210212512",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "来，这些拿着，去买点好吃的，休息休息。"
+          },
+          "210212508": {
+            "id": "210212508",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "盗宝团？你们把他们全都赶走了？",
+            "nextDialogs": [
+              "210212509"
+            ]
+          },
+          "210212509": {
+            "id": "210212509",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "这群不成器的毛贼，成天偷鸡摸狗的，实在烦人，让他们吃点教训也好。",
+            "nextDialogs": [
+              "210212510"
+            ]
+          },
+          "210212510": {
+            "id": "210212510",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "里面…没什么特别的？好啊，好啊…没什么特别的最好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102120",
+      "subQuestName": "前往「遗迹」寻找碎片",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212001"
+        ],
+        "dialogs": {
+          "210212001": {
+            "id": "210212001",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "唔…完全看不懂呢。",
+            "nextDialogs": [
+              "210212002"
+            ]
+          },
+          "210212002": {
+            "id": "210212002",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "这是画吗？还是铭文，或者是其他东西…",
+            "nextDialogs": [
+              "210212003"
+            ]
+          },
+          "210212003": {
+            "id": "210212003",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "说不定，本地人会知道上面记录了什么。",
+            "nextDialogs": [
+              "210212004"
+            ]
+          },
+          "210212004": {
+            "id": "210212004",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "我们去轻策庄里问问看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102121",
+      "subQuestName": "前往轻策庄的「最高处」寻找碎片",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212101"
+        ],
+        "dialogs": {
+          "210212101": {
+            "id": "210212101",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "这样子就有三枚碎片了，好像能拼起来…",
+            "nextDialogs": [
+              "210212102"
+            ]
+          },
+          "210212102": {
+            "id": "210212102",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "嗯…拼起来之后，也看不懂上面是什么意思。",
+            "nextDialogs": [
+              "210212103"
+            ]
+          },
+          "210212103": {
+            "id": "210212103",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "果然还是要去找本地人问问看吗…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102122",
+      "subQuestName": "沿着「岩尊像」寻找碎片",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212201"
+        ],
+        "dialogs": {
+          "210212201": {
+            "id": "210212201",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "呼，这样就结束了吧…可是，可是「宝器」和「遗骸」都不见踪影。",
+            "nextDialogs": [
+              "210212202"
+            ]
+          },
+          "210212202": {
+            "id": "210212202",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "这么大一片地方，总不可能真的什么都没有吧，而且我们还费了这么大的力气…",
+            "nextDialogs": [
+              "210212203"
+            ]
+          },
+          "210212203": {
+            "id": "210212203",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "唔…不然，我们再到处找找看吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102117",
+      "subQuestName": "桥接任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102118",
+      "subQuestName": "桥接任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102119",
+      "subQuestName": "桥接任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102111",
+      "subQuestName": "解读碎片",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210211101"
+        ],
+        "dialogs": {
+          "210211101": {
+            "id": "210211101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这些碎片…",
+            "nextDialogs": [
+              "210211102"
+            ]
+          },
+          "210211102": {
+            "id": "210211102",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "我看看…这些碎片，是可以拼起来的。",
+            "nextDialogs": [
+              "210211103"
+            ]
+          },
+          "210211103": {
+            "id": "210211103",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "唔…你看这里，是一个「螭」字，这个「螭」在一场大战中被击败。",
+            "nextDialogs": [
+              "210211104"
+            ]
+          },
+          "210211104": {
+            "id": "210211104",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "然后，「螭」的遗骸被钉在了某个极低的地方…",
+            "nextDialogs": [
+              "210211105"
+            ]
+          },
+          "210211105": {
+            "id": "210211105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「螭」是什么？",
+            "nextDialogs": [
+              "210211106"
+            ]
+          },
+          "210211106": {
+            "id": "210211106",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "哦，在传说里，「螭」是一只龙型的魔兽，这片轻策山啊，之前就是它的巢穴。",
+            "nextDialogs": [
+              "210211107"
+            ]
+          },
+          "210211107": {
+            "id": "210211107",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "多亏了岩王帝君将它击败，「螭」的身体蜷曲成了顽石，血液化为了碧水，鳞片则变成了梯田。",
+            "nextDialogs": [
+              "210211108"
+            ]
+          },
+          "210211108": {
+            "id": "210211108",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你看见轻策庄旁边那些粗壮的大树了吗？那些是「螭血木」，传说里，它们被「螭」的血滋养着生长。",
+            "nextDialogs": [
+              "210211109"
+            ]
+          },
+          "210211109": {
+            "id": "210211109",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "但是传说也只是传说，如今，谁又真能找到「螭」的痕迹呢？",
+            "nextDialogs": [
+              "210211110"
+            ]
+          },
+          "210211110": {
+            "id": "210211110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "然后呢？",
+            "nextDialogs": [
+              "210211111"
+            ]
+          },
+          "210211111": {
+            "id": "210211111",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "然后…为了封住「螭」的遗骸，不让它再为祸世间…用「水」将「螭」的遗骸封堵…又用「宝器」将它镇在了「密藏」的中心…",
+            "nextDialogs": [
+              "210211112"
+            ]
+          },
+          "210211112": {
+            "id": "210211112",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "唔，剩下的就完全看不清了。",
+            "nextDialogs": [
+              "210211114",
+              "210211117"
+            ]
+          },
+          "210211114": {
+            "id": "210211114",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "这件事，除了岩王帝君之外，只怕谁都不知道了。",
+            "nextDialogs": [
+              "210211115"
+            ]
+          },
+          "210211115": {
+            "id": "210211115",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "怎么？年轻人，你觉得这三枚碎片记载的东西是真的？",
+            "nextDialogs": [
+              "210211119"
+            ]
+          },
+          "210211119": {
+            "id": "210211119",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "不过年轻人嘛，到处跑跑也不是坏事。",
+            "nextDialogs": [
+              "210211120"
+            ]
+          },
+          "210211120": {
+            "id": "210211120",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "如果你们真想按着这三枚碎片找过去的话，按我想，你们要找的地方一定与<color=#00E1FFFF>「水」</color>有关。",
+            "nextDialogs": [
+              "210211121"
+            ]
+          },
+          "210211121": {
+            "id": "210211121",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "而且，是能够封堵住某个<color=#00E1FFFF>「入口」</color>的<color=#00E1FFFF>「水」</color>。"
+          },
+          "210211117": {
+            "id": "210211117",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "呵呵，年轻人…一听到「宝」字，这颗心就摁不住了。",
+            "nextDialogs": [
+              "210211118"
+            ]
+          },
+          "210211118": {
+            "id": "210211118",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "怎么，你觉得这三枚碎片记载的东西是真的？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102112",
+      "subQuestName": "寻找进入「密藏」的方法",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102113",
+      "subQuestName": "使用碎片打开遗迹门$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102110",
+      "subQuestName": "使用碎片打开遗迹门$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102114",
+      "subQuestName": "在「密藏」中搜索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210211401"
+        ],
+        "dialogs": {
+          "210211401": {
+            "id": "210211401",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你们回来了，怎么样，有什么发现吗？",
+            "nextDialogs": [
+              "210211403",
+              "210211407"
+            ]
+          },
+          "210211403": {
+            "id": "210211403",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "哈哈哈，好，好，没关系，没关系，年轻人多跑跑没坏处。",
+            "nextDialogs": [
+              "210211404"
+            ]
+          },
+          "210211404": {
+            "id": "210211404",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "来，这些给你们，跑了这么久，拿去买点好吃的，休息休息吧。",
+            "nextDialogs": [
+              "210211405"
+            ]
+          },
+          "210211405": {
+            "id": "210211405",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "什么都没有，什么都没有…好啊，好啊…"
+          },
+          "210211407": {
+            "id": "210211407",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "",
+            "nextDialogs": [
+              "210211408"
+            ]
+          },
+          "210211408": {
+            "id": "210211408",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "这群不成器的毛贼，成天偷鸡摸狗的，实在烦人，让他们吃点教训也好。",
+            "nextDialogs": [
+              "210211409"
+            ]
+          },
+          "210211409": {
+            "id": "210211409",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "里面…什么也没有？哈哈哈，没关系，没关系，年轻人多跑跑没坏处。",
+            "nextDialogs": [
+              "210211410"
+            ]
+          },
+          "210211410": {
+            "id": "210211410",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "来，这些给你们，跑了这么久，拿去买点好吃的，休息休息吧。",
+            "nextDialogs": [
+              "210211411"
+            ]
+          },
+          "210211411": {
+            "id": "210211411",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "什么都没有，什么都没有…好啊，好啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102126",
+      "subQuestName": "搜索宝藏",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212601"
+        ],
+        "dialogs": {
+          "210212601": {
+            "id": "210212601",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "好难读的三段话…不过，里面说「镇之以螭木，其数为三」…",
+            "nextDialogs": [
+              "210212602"
+            ]
+          },
+          "210212602": {
+            "id": "210212602",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "螭木…唔，难道是在说<color=#00E1FFFF>某种树</color>吗？",
+            "nextDialogs": [
+              "210212603"
+            ]
+          },
+          "210212603": {
+            "id": "210212603",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "我们四处找找，留意一下周围的<color=#00E1FFFF>树</color>吧，说不定能找到什么线索。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102115",
+      "subQuestName": "前往轻策庄，向村长若心报告",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102129",
+      "subQuestName": "/$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2102123",
+      "subQuestName": "在「密藏」中搜索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212301"
+        ],
+        "dialogs": {
+          "210212301": {
+            "id": "210212301",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "「螭」的遗骸，这种阴魂不散的东西，居然还有人想要打它的主意。",
+            "nextDialogs": [
+              "210212302"
+            ]
+          },
+          "210212302": {
+            "id": "210212302",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "…唉，希望只是些不成器的小毛贼。但如果那里面真的还有东西的话…",
+            "nextDialogs": [
+              "210212303"
+            ]
+          },
+          "210212303": {
+            "id": "210212303",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "…岩王爷保佑，岩王爷保佑…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102127",
+      "subQuestName": "搜索宝藏",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212701"
+        ],
+        "dialogs": {
+          "210212701": {
+            "id": "210212701",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "所以，我们忙活了一顿，到头来还是什么也没找到。",
+            "nextDialogs": [
+              "210212702"
+            ]
+          },
+          "210212702": {
+            "id": "210212702",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "什么「螭」啦，「宝器」啦，肯定都是传说而已吧。",
+            "nextDialogs": [
+              "210212703"
+            ]
+          },
+          "210212703": {
+            "id": "210212703",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "不过，为什么村长奶奶会这么高兴呢？真奇怪呀…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102130",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212205"
+        ],
+        "dialogs": {
+          "210212205": {
+            "id": "210212205",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "呼，这样就结束了。不过，感觉这里面也没什么东西啊…",
+            "nextDialogs": [
+              "210212206"
+            ]
+          },
+          "210212206": {
+            "id": "210212206",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "我们再到处看看吧，总不能费这么大功夫白跑了一趟。",
+            "nextDialogs": [
+              "210212207"
+            ]
+          },
+          "210212207": {
+            "id": "210212207",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "而且，外面那群盗宝团感觉也很危险，我记得「轻策庄」就在旁边…",
+            "nextDialogs": [
+              "210212208"
+            ]
+          },
+          "210212208": {
+            "id": "210212208",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "我们等会去那里找个人，说说这件事吧，让他们提高点警惕也好。",
+            "nextDialogs": [
+              "210212209"
+            ]
+          },
+          "210212209": {
+            "id": "210212209",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "免得让这帮家伙的坏主意得逞。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102124",
+      "subQuestName": "前往轻策庄，向村长询问情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2100601",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210060101"
+        ],
+        "dialogs": {
+          "210060101": {
+            "id": "210060101",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「…根据调查，这片遗迹有着久远的历史，非常老。比轻策庄所有老头老太太加起来还老。」",
+            "nextDialogs": [
+              "210060102"
+            ]
+          },
+          "210060102": {
+            "id": "210060102",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「也就是说和所有遗迹一样，没什么创意。」",
+            "nextDialogs": [
+              "210060103"
+            ]
+          },
+          "210060103": {
+            "id": "210060103",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「不过既然和所有遗迹一样的话，其中多半也有宝藏了。虽然之前被这里的遗迹猎者撵走了，但只要有宝藏，就决不能放弃。这才是盗宝团的精气神。」",
+            "nextDialogs": [
+              "210060104"
+            ]
+          },
+          "210060104": {
+            "id": "210060104",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「住在山上的常九爷提到说，下边曾经有一座古城，覆灭后有…有什么来着，被封印在了地下。还说了跟什么金色石头…有关的什么事情来着。」",
+            "nextDialogs": [
+              "210060105"
+            ]
+          },
+          "210060105": {
+            "id": "210060105",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「但因为他是个穷文人，说话总爱引经据典，绕一堆弯子。加上当时为了套话，跟他喝了不少酒，具体说了啥都记不清了。总之，要点应该和啥金色石头，以及遗迹猎者有关吧…老头子真能喝。」",
+            "nextDialogs": [
+              "210060106"
+            ]
+          },
+          "210060106": {
+            "id": "210060106",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「结果喝多了，加上受了风寒，现在我的头感觉像被丘丘人打过一样难受。」",
+            "nextDialogs": [
+              "210060107"
+            ]
+          },
+          "210060107": {
+            "id": "210060107",
+            "speakerId": 1004,
+            "speakerName": "遗迹考察日志",
+            "text": "「仔细想想，昨晚下山的时候好像真的被丘丘人袭击了？记不清了。头疼。总之先去璃月港求医，回头再考虑遗迹的事。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2100602",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210060201"
+        ],
+        "dialogs": {
+          "210060201": {
+            "id": "210060201",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「轻策即已无螭，缚龙妙法亦无用。…」",
+            "nextDialogs": [
+              "210060202"
+            ]
+          },
+          "210060202": {
+            "id": "210060202",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「…然螭身不死，其血凝于地，结之为石，污害世间…」",
+            "nextDialogs": [
+              "210060203"
+            ]
+          },
+          "210060203": {
+            "id": "210060203",
+            "speakerId": 1000,
+            "speakerName": "残缺的文字",
+            "text": "「…故镇之以尊像，其数为三…」",
+            "nextDialogs": [
+              "210060204"
+            ]
+          },
+          "210060204": {
+            "id": "210060204",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "…好难读的三段话，璃月的传说都这么难懂的吗…",
+            "nextDialogs": [
+              "210060205"
+            ]
+          },
+          "210060205": {
+            "id": "210060205",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "不过，里面说<color=#00E1FFFF>「…其血凝于地，结之为石…」</color>，难道是在说某种<color=#00E1FFFF>奇怪的石头</color>吗？",
+            "nextDialogs": [
+              "210060206"
+            ]
+          },
+          "210060206": {
+            "id": "210060206",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "唔，我们四处找找，留意一下周围的<color=#00E1FFFF>石头</color>吧，说不定能找到什么线索呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102115",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210211501"
+        ],
+        "dialogs": {
+          "210211501": {
+            "id": "210211501",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "test平安回来就好，有什么事吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102128",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210212801"
+        ],
+        "dialogs": {
+          "210212801": {
+            "id": "210212801",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "轻策庄的人可真好客呀，嘿嘿，这趟我们总算没白跑。",
+            "nextDialogs": [
+              "210212802"
+            ]
+          },
+          "210212802": {
+            "id": "210212802",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "不过…你有没有觉得，那位奶奶有点太高兴了呢？",
+            "nextDialogs": [
+              "210212803"
+            ]
+          },
+          "210212803": {
+            "id": "210212803",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "怎么说呢，只是赶跑了盗宝团而已，能让人这么高兴吗…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102133",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210213301"
+        ],
+        "dialogs": {
+          "210213301": {
+            "id": "210213301",
+            "speakerId": 1005,
+            "speakerName": "路爷",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210213302"
+            ]
+          },
+          "210213302": {
+            "id": "210213302",
+            "speakerId": 1005,
+            "speakerName": "路爷",
+            "text": "碎片？什么碎片，是什么小玩意坏了吗？",
+            "nextDialogs": [
+              "210213303"
+            ]
+          },
+          "210213303": {
+            "id": "210213303",
+            "speakerId": 1005,
+            "speakerName": "路爷",
+            "text": "这个碎片…我还真没见过。",
+            "nextDialogs": [
+              "210213304"
+            ]
+          },
+          "210213304": {
+            "id": "210213304",
+            "speakerId": 1005,
+            "speakerName": "路爷",
+            "text": "不然，你去问问村长吧，说不定她能看明白。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102144",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210214401"
+        ],
+        "dialogs": {
+          "210214401": {
+            "id": "210214401",
+            "speakerId": 1006,
+            "speakerName": "阿佐",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210214402"
+            ]
+          },
+          "210214402": {
+            "id": "210214402",
+            "speakerId": 1006,
+            "speakerName": "阿佐",
+            "text": "碎片？嗯…不知道，看不明白。",
+            "nextDialogs": [
+              "210214403"
+            ]
+          },
+          "210214403": {
+            "id": "210214403",
+            "speakerId": 1006,
+            "speakerName": "阿佐",
+            "text": "而且，之前也从来没见过…",
+            "nextDialogs": [
+              "210214404"
+            ]
+          },
+          "210214404": {
+            "id": "210214404",
+            "speakerId": 1006,
+            "speakerName": "阿佐",
+            "text": "你去问问若心奶奶吧，说不定她知道。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102145",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210214501"
+        ],
+        "dialogs": {
+          "210214501": {
+            "id": "210214501",
+            "speakerId": 1007,
+            "speakerName": "阿芷",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210214502"
+            ]
+          },
+          "210214502": {
+            "id": "210214502",
+            "speakerId": 1007,
+            "speakerName": "阿芷",
+            "text": "碎片？我看看…对不起，我没见过这种东西。",
+            "nextDialogs": [
+              "210214503"
+            ]
+          },
+          "210214503": {
+            "id": "210214503",
+            "speakerId": 1007,
+            "speakerName": "阿芷",
+            "text": "不过，我想若心奶奶也许会知道，你去问问她吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102155",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210215501"
+        ],
+        "dialogs": {
+          "210215501": {
+            "id": "210215501",
+            "speakerId": 1008,
+            "speakerName": "小星",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210215502"
+            ]
+          },
+          "210215502": {
+            "id": "210215502",
+            "speakerId": 1008,
+            "speakerName": "小星",
+            "text": "碎片？嗯…不知道呢。",
+            "nextDialogs": [
+              "210215503"
+            ]
+          },
+          "210215503": {
+            "id": "210215503",
+            "speakerId": 1008,
+            "speakerName": "小星",
+            "text": "你去问问若心奶奶吧，也许她知道。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102166",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210216601"
+        ],
+        "dialogs": {
+          "210216601": {
+            "id": "210216601",
+            "speakerId": 1009,
+            "speakerName": "小六",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210216602"
+            ]
+          },
+          "210216602": {
+            "id": "210216602",
+            "speakerId": 1009,
+            "speakerName": "小六",
+            "text": "哇！别吓我啊！什么碎片…",
+            "nextDialogs": [
+              "210216603"
+            ]
+          },
+          "210216603": {
+            "id": "210216603",
+            "speakerId": 1009,
+            "speakerName": "小六",
+            "text": "这是什么呀？不明白，你要问的话，就去问若心奶奶吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102177",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210217701"
+        ],
+        "dialogs": {
+          "210217701": {
+            "id": "210217701",
+            "speakerId": 1010,
+            "speakerName": "阿佑",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210217702"
+            ]
+          },
+          "210217702": {
+            "id": "210217702",
+            "speakerId": 1010,
+            "speakerName": "阿佑",
+            "text": "碎片？什么东西呀…",
+            "nextDialogs": [
+              "210217703"
+            ]
+          },
+          "210217703": {
+            "id": "210217703",
+            "speakerId": 1010,
+            "speakerName": "阿佑",
+            "text": "我看看，嗯…我不认识，之前也没见过。",
+            "nextDialogs": [
+              "210217704"
+            ]
+          },
+          "210217704": {
+            "id": "210217704",
+            "speakerId": 1010,
+            "speakerName": "阿佑",
+            "text": "不然，你去问问若心奶奶吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102188",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210218801"
+        ],
+        "dialogs": {
+          "210218801": {
+            "id": "210218801",
+            "speakerId": 1011,
+            "speakerName": "凯叔",
+            "text": "关于碎片…",
+            "nextDialogs": [
+              "210218802"
+            ]
+          },
+          "210218802": {
+            "id": "210218802",
+            "speakerId": 1011,
+            "speakerName": "凯叔",
+            "text": "什么东西，我瞧瞧。",
+            "nextDialogs": [
+              "210218803"
+            ]
+          },
+          "210218803": {
+            "id": "210218803",
+            "speakerId": 1011,
+            "speakerName": "凯叔",
+            "text": "这上面字不是字的…看不懂。",
+            "nextDialogs": [
+              "210218804"
+            ]
+          },
+          "210218804": {
+            "id": "210218804",
+            "speakerId": 1011,
+            "speakerName": "凯叔",
+            "text": "你去问问村长吧，她也许能看明白。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2102199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210219901"
+        ],
+        "dialogs": {
+          "210219901": {
+            "id": "210219901",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "…没想到，还能看见这东西。",
+            "nextDialogs": [
+              "210219902"
+            ]
+          },
+          "210219902": {
+            "id": "210219902",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "罢了，罢了，也算是缘分到了吧…",
+            "nextDialogs": [
+              "210219904",
+              "210219909"
+            ]
+          },
+          "210219904": {
+            "id": "210219904",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "你们是记不清了吗？也是啊，絮絮叨叨一大堆，太难记了。",
+            "nextDialogs": [
+              "210219905"
+            ]
+          },
+          "210219905": {
+            "id": "210219905",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "如果你们想要找到有关于那场战斗的碎片，可以先去<color=#00E1FFFF>「高处」</color>碰碰运气。",
+            "nextDialogs": [
+              "210219906"
+            ]
+          },
+          "210219906": {
+            "id": "210219906",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "然后，你们可以再去<color=#00E1FFFF>西边</color>，沿着<color=#00E1FFFF>「岩尊像」</color>仔细看看。",
+            "nextDialogs": [
+              "210219907"
+            ]
+          },
+          "210219907": {
+            "id": "210219907",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "最后，再留意一下周围的<color=#00E1FFFF>「遗迹」</color>吧。"
+          },
+          "210219909": {
+            "id": "210219909",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "知道？哈哈哈，谈不上「知道」。",
+            "nextDialogs": [
+              "210219910"
+            ]
+          },
+          "210219910": {
+            "id": "210219910",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "只不过年纪大了点，见识多了点，记性好了点。勉强记得些老掉牙的东西",
+            "nextDialogs": [
+              "210219911"
+            ]
+          },
+          "210219911": {
+            "id": "210219911",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "在我那个年代啊，岩王爷镇压「螭」的故事，可是人尽皆知啊。",
+            "nextDialogs": [
+              "210219912"
+            ]
+          },
+          "210219912": {
+            "id": "210219912",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "不过，还有人说，连岩王爷都不能把「螭」彻底消灭，只能用「岩尊像」把它镇压在这里，慢慢把他磨灭。",
+            "nextDialogs": [
+              "210219913"
+            ]
+          },
+          "210219913": {
+            "id": "210219913",
+            "speakerId": 1002,
+            "speakerName": "若心",
+            "text": "哈哈哈，不过啊，这也只是传说，假如「螭」真的还活着，那咱们这轻策庄，可就不得安稳喽。"
+          }
+        }
+      }
+    }
+  ]
+}

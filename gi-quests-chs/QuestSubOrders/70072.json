@@ -1,0 +1,102 @@
+{
+  "lineCounts": {
+    "躺倒的雪精": 4,
+    "雪精侍者": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7007201",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700720101"
+        ],
+        "dialogs": {
+          "700720101": {
+            "id": "700720101",
+            "speakerId": 1000,
+            "speakerName": "雪精侍者",
+            "text": "您已经喝得太多了，还请先在这里稍作休憩…",
+            "nextDialogs": [
+              "700720103"
+            ]
+          },
+          "700720103": {
+            "id": "700720103",
+            "speakerId": 1001,
+            "speakerName": "躺倒的雪精",
+            "text": "呃，我、我还能喝…呜…",
+            "nextDialogs": [
+              "700720105"
+            ]
+          },
+          "700720105": {
+            "id": "700720105",
+            "speakerId": 1001,
+            "speakerName": "躺倒的雪精",
+            "text": "我的…奇怪，我的凭证呢？等等，你刚才扶我…从那边的拐角…是不是在那里？",
+            "nextDialogs": [
+              "700720104"
+            ]
+          },
+          "700720104": {
+            "id": "700720104",
+            "speakerId": 1000,
+            "speakerName": "雪精侍者",
+            "text": "唉…这位小姐，您喝得太多了，得先在这里休息一会儿，我会看着您的，您的凭证我也会为您找到并取来，好吗？",
+            "nextDialogs": [
+              "700720106"
+            ]
+          },
+          "700720106": {
+            "id": "700720106",
+            "speakerId": 1001,
+            "speakerName": "躺倒的雪精",
+            "text": "好…好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7007202",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7007203",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7007201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700720102"
+        ],
+        "dialogs": {
+          "700720102": {
+            "id": "700720102",
+            "speakerId": 1001,
+            "speakerName": "躺倒的雪精",
+            "text": "呜，我还没喝够…"
+          }
+        }
+      }
+    }
+  ]
+}

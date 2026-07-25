@@ -1,0 +1,46 @@
+{
+  "lineCounts": {
+    "派蒙": 1,
+    "魈": 1
+  },
+  "subQuests": [
+    {
+      "subId": "1110401",
+      "subQuestName": "(test)结尾处理魈$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110308",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030810"
+        ],
+        "dialogs": {
+          "111030810": {
+            "id": "111030810",
+            "speakerId": 1000,
+            "speakerName": "魈",
+            "text": "……",
+            "nextDialogs": [
+              "111030811"
+            ]
+          },
+          "111030811": {
+            "id": "111030811",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "（魈看上去有些沉浸在了回忆里…还是不要打搅他比较好…）"
+          }
+        }
+      }
+    }
+  ]
+}

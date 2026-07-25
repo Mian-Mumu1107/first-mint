@@ -1,0 +1,185 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "艾拉·马斯克": 6,
+    "饿肚子的丘丘人": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7000601",
+      "subQuestName": "与丘丘人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700060102"
+        ],
+        "dialogs": {
+          "700060102": {
+            "id": "700060102",
+            "speakerId": 1000,
+            "speakerName": "饿肚子的丘丘人",
+            "text": "Mi muhe mosi! Mi muhe mita, <color=#00E1FFFF>mita movo lata</color>!",
+            "nextDialogs": [
+              "700060103"
+            ]
+          },
+          "700060103": {
+            "id": "700060103",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "唔，它是饿了呢…我们来看看它想要什么吧？",
+            "nextDialogs": [
+              "700060104"
+            ]
+          },
+          "700060104": {
+            "id": "700060104",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "似乎是…某种肉类吧？不过我不太确定，查查我的手册看看吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000602",
+      "subQuestName": "向丘丘人交付物品",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700060301"
+        ],
+        "dialogs": {
+          "700060301": {
+            "id": "700060301",
+            "speakerId": 1000,
+            "speakerName": "饿肚子的丘丘人",
+            "text": "yeye tomo! Mosi mita!",
+            "nextDialogs": [
+              "700060302"
+            ]
+          },
+          "700060302": {
+            "id": "700060302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mosi mita!",
+            "nextDialogs": [
+              "700060303"
+            ]
+          },
+          "700060303": {
+            "id": "700060303",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "呼，大功告成！",
+            "nextDialogs": [
+              "700060304"
+            ]
+          },
+          "700060304": {
+            "id": "700060304",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "Du odomu tomo dala?",
+            "nextDialogs": [
+              "700060305"
+            ]
+          },
+          "700060305": {
+            "id": "700060305",
+            "speakerId": 1000,
+            "speakerName": "饿肚子的丘丘人",
+            "text": "mi mito nye. Ya zido mito, mi mito! Mi zido!",
+            "nextDialogs": [
+              "700060306"
+            ]
+          },
+          "700060306": {
+            "id": "700060306",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "它的意思是…它也不知道，但它知道有人知道，而且给我们标明了位置！",
+            "nextDialogs": [
+              "700060307"
+            ]
+          },
+          "700060307": {
+            "id": "700060307",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "接下来我们去找到它吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000603",
+      "subQuestName": "（test）成功交付$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7000604",
+      "subQuestName": "（test）失败交付回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700060401"
+        ],
+        "dialogs": {
+          "700060401": {
+            "id": "700060401",
+            "speakerId": 1000,
+            "speakerName": "饿肚子的丘丘人",
+            "text": "Gusha! Mani nye!",
+            "nextDialogs": [
+              "700060402"
+            ]
+          },
+          "700060402": {
+            "id": "700060402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "似乎哪里搞错了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000602",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700060201"
+        ],
+        "dialogs": {
+          "700060201": {
+            "id": "700060201",
+            "speakerId": 1000,
+            "speakerName": "饿肚子的丘丘人",
+            "text": "Mani mi <color=#00E1FFFF>mita movo lata</color>!",
+            "nextDialogs": [
+              "700060202"
+            ]
+          },
+          "700060202": {
+            "id": "700060202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（是这个吗？）"
+          }
+        }
+      }
+    }
+  ]
+}

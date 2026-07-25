@@ -1,0 +1,277 @@
+{
+  "lineCounts": {
+    "Player": 5,
+    "大坤": 6,
+    "百闻": 11
+  },
+  "subQuests": [
+    {
+      "subId": "7181401",
+      "subQuestName": "(test)【隐藏】与大坤对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181402",
+      "subQuestName": "在北面码头清理水面上的漂浮物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718140201"
+        ],
+        "dialogs": {
+          "718140201": {
+            "id": "718140201",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "唉，挺好的一个群玉阁，就这么没了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181403",
+      "subQuestName": "在南面码头清理水面上的漂浮物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718140301"
+        ],
+        "dialogs": {
+          "718140301": {
+            "id": "718140301",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "你们已经清扫完了吗？",
+            "nextDialogs": [
+              "718140302"
+            ]
+          },
+          "718140302": {
+            "id": "718140302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "发现了这些东西…",
+            "nextDialogs": [
+              "718140303"
+            ]
+          },
+          "718140303": {
+            "id": "718140303",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "嗯…这些摩拉你就自己收着吧，数量也不太多，就当做你帮忙的报酬吧。",
+            "nextDialogs": [
+              "718140304"
+            ]
+          },
+          "718140304": {
+            "id": "718140304",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "这个盒子我就不知道是什么了，不然你把它拿给百闻看看吧。",
+            "nextDialogs": [
+              "718140305"
+            ]
+          },
+          "718140305": {
+            "id": "718140305",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "她就在月海亭那边办公，也许她知道这是什么。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181404",
+      "subQuestName": "向大坤回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181405",
+      "subQuestName": "把盒子交给百闻",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718140401"
+        ],
+        "dialogs": {
+          "718140401": {
+            "id": "718140401",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "您好，有什么事吗？",
+            "nextDialogs": [
+              "718140402"
+            ]
+          },
+          "718140402": {
+            "id": "718140402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在海上捡到了这个…",
+            "nextDialogs": [
+              "718140403"
+            ]
+          },
+          "718140403": {
+            "id": "718140403",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "嗯？请给我看看。",
+            "nextDialogs": [
+              "718140404"
+            ]
+          },
+          "718140404": {
+            "id": "718140404",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "没错，这确实是群玉阁上的东西。",
+            "nextDialogs": [
+              "718140405"
+            ]
+          },
+          "718140405": {
+            "id": "718140405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那具体是…",
+            "nextDialogs": [
+              "718140406"
+            ]
+          },
+          "718140406": {
+            "id": "718140406",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "是一些文册，还有一些没有审阅过的公文。居然还这么完好，真是出乎意料。",
+            "nextDialogs": [
+              "718140407"
+            ]
+          },
+          "718140407": {
+            "id": "718140407",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "不过，能找到这些，确实也能节省一点工作量，毕竟现在这个情况，善后工作真是做不完。",
+            "nextDialogs": [
+              "718140408"
+            ]
+          },
+          "718140408": {
+            "id": "718140408",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "哦对了，谢谢您帮忙把这些拿来，这些给您，就当是谢礼吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181407",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718140701"
+        ],
+        "dialogs": {
+          "718140701": {
+            "id": "718140701",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "您好，有什么事吗？",
+            "nextDialogs": [
+              "718140702"
+            ]
+          },
+          "718140702": {
+            "id": "718140702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在海上捡到了这个…",
+            "nextDialogs": [
+              "718140703"
+            ]
+          },
+          "718140703": {
+            "id": "718140703",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "嗯？请给我看看。",
+            "nextDialogs": [
+              "718140704"
+            ]
+          },
+          "718140704": {
+            "id": "718140704",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "没错，这确实是群玉阁上的东西。",
+            "nextDialogs": [
+              "718140705"
+            ]
+          },
+          "718140705": {
+            "id": "718140705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那具体是…",
+            "nextDialogs": [
+              "718140706"
+            ]
+          },
+          "718140706": {
+            "id": "718140706",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "是一些文册，还有一些没有审阅过的公文。居然还这么完好，真是出乎意料。",
+            "nextDialogs": [
+              "718140707"
+            ]
+          },
+          "718140707": {
+            "id": "718140707",
+            "speakerId": 1001,
+            "speakerName": "百闻",
+            "text": "虽然这些文件都已经过期了…但还是谢谢您帮忙把这些拿来，这些给您，就当是谢礼吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181408",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718140801"
+        ],
+        "dialogs": {
+          "718140801": {
+            "id": "718140801",
+            "speakerId": 1000,
+            "speakerName": "大坤",
+            "text": "那么大一个群玉阁…居然还真重建好了…"
+          }
+        }
+      }
+    }
+  ]
+}

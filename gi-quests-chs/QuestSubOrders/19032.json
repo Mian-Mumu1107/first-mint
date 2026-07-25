@@ -1,0 +1,94 @@
+{
+  "lineCounts": {
+    "Player": 9,
+    "芊芊": 15
+  },
+  "subQuests": [
+    {
+      "subId": "1903201",
+      "subQuestName": "(test)废弃",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903202",
+      "subQuestName": "(test)废弃",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903203",
+      "subQuestName": "与重云分头行动，寻找妖邪",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903205",
+      "subQuestName": "与芊芊交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1903203101"
+        ],
+        "dialogs": {
+          "1903203101": {
+            "id": "1903203101",
+            "speakerId": 1000,
+            "speakerName": "芊芊",
+            "text": "唔…唔唔…",
+            "nextDialogs": [
+              "1903203102"
+            ]
+          },
+          "1903203102": {
+            "id": "1903203102",
+            "speakerId": 1000,
+            "speakerName": "芊芊",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，芊芊有件事，需要你帮忙。",
+            "nextDialogs": [
+              "1903203105"
+            ]
+          },
+          "1903203105": {
+            "id": "1903203105",
+            "speakerId": 1000,
+            "speakerName": "芊芊",
+            "text": "那个蓝色头发的方士，很可怕！",
+            "nextDialogs": [
+              "1903203106"
+            ]
+          },
+          "1903203106": {
+            "id": "1903203106",
+            "speakerId": 1000,
+            "speakerName": "芊芊",
+            "text": "芊芊害怕，能不能把他带走？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1903204",
+      "subQuestName": "将芊芊的事告诉重云",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

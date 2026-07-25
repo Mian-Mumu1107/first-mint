@@ -1,0 +1,438 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "卢卡": 11,
+    "查尔斯": 13,
+    "派蒙": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7050201",
+      "subQuestName": "与卢卡对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020116"
+        ],
+        "dialogs": {
+          "705020116": {
+            "id": "705020116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好吧，那就试试。",
+            "nextDialogs": [
+              "705020117"
+            ]
+          },
+          "705020117": {
+            "id": "705020117",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "欢迎欢迎。请进，查尔斯先生会教你基本的调制手法。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050202",
+      "subQuestName": "和卢卡对话，进入酒馆",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020201"
+        ],
+        "dialogs": {
+          "705020201": {
+            "id": "705020201",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "没想到是老面孔，今天想喝点儿什么？",
+            "nextDialogs": [
+              "705020202"
+            ]
+          },
+          "705020202": {
+            "id": "705020202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你好，查尔斯。",
+            "nextDialogs": [
+              "705020203"
+            ]
+          },
+          "705020203": {
+            "id": "705020203",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "查尔斯，我们是来当酒保的！",
+            "nextDialogs": [
+              "705020204"
+            ]
+          },
+          "705020204": {
+            "id": "705020204",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "当酒保…啊，原来卢卡招揽到了你们吗，他运气真够好的。",
+            "nextDialogs": [
+              "705020205"
+            ]
+          },
+          "705020205": {
+            "id": "705020205",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "#{NICKNAME}，我很信任你处理问题的能力，不过，调酒毕竟是个技术活，希望你不要掉以轻心。",
+            "nextDialogs": [
+              "705020206"
+            ]
+          },
+          "705020206": {
+            "id": "705020206",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "原料的配比，混合的手法…都会影响出品的质量。",
+            "nextDialogs": [
+              "705020207"
+            ]
+          },
+          "705020207": {
+            "id": "705020207",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#没事，{M#他}{F#她}做的菜可好吃了，美食的原理是相通的！",
+            "nextDialogs": [
+              "705020208"
+            ]
+          },
+          "705020208": {
+            "id": "705020208",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "好，还有一件事…",
+            "nextDialogs": [
+              "705020209"
+            ]
+          },
+          "705020209": {
+            "id": "705020209",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "之前活动中有位实习生，凭自己的理解混合了三种烈酒，结果一杯就灌倒了客人。",
+            "nextDialogs": [
+              "705020210"
+            ]
+          },
+          "705020210": {
+            "id": "705020210",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "从那之后，我们就不敢再向新人提供含酒精的材料了，这点请你见谅。",
+            "nextDialogs": [
+              "705020211"
+            ]
+          },
+          "705020211": {
+            "id": "705020211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "能够理解。",
+            "nextDialogs": [
+              "705020212"
+            ]
+          },
+          "705020212": {
+            "id": "705020212",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "好，那就全部交待完了。手法和技巧，就在实际调制过程中教你吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050203",
+      "subQuestName": "与查尔斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7050204",
+      "subQuestName": "学习并调制指定饮品",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020401"
+        ],
+        "dialogs": {
+          "705020401": {
+            "id": "705020401",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "怎么样，你意下如何？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050205",
+      "subQuestName": "与查尔斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020301"
+        ],
+        "dialogs": {
+          "705020301": {
+            "id": "705020301",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "你学得很快，味道也确实不错。",
+            "nextDialogs": [
+              "705020302"
+            ]
+          },
+          "705020302": {
+            "id": "705020302",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嗯嗯，我也觉得好喝！",
+            "nextDialogs": [
+              "705020303"
+            ]
+          },
+          "705020303": {
+            "id": "705020303",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "刚才只是情景模拟。实际上，顾客可能也会有一些个性化点单。",
+            "nextDialogs": [
+              "705020304"
+            ]
+          },
+          "705020304": {
+            "id": "705020304",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "浓一点、酸一点，诸如此类。你只需要将对应口味的辅料加量就好。",
+            "nextDialogs": [
+              "705020305"
+            ]
+          },
+          "705020305": {
+            "id": "705020305",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我想要一杯焦糖松果，甜一点，最大的杯子！",
+            "nextDialogs": [
+              "705020306"
+            ]
+          },
+          "705020306": {
+            "id": "705020306",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "差不多就类似这样。但对一个优秀的酒保来说，除了具备调制技术，还需要掌握和客人聊天的技巧…",
+            "nextDialogs": [
+              "705020309"
+            ]
+          },
+          "705020309": {
+            "id": "705020309",
+            "speakerId": 1001,
+            "speakerName": "查尔斯",
+            "text": "那好，这吧台的位置就交给你们了。遇到问题或者有什么需要，可以随时找我。",
+            "nextDialogs": [
+              "705020310"
+            ]
+          },
+          "705020310": {
+            "id": "705020310",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "呼…终于学完了！不对…我的焦糖松果呢？",
+            "nextDialogs": [
+              "705020311"
+            ]
+          },
+          "705020311": {
+            "id": "705020311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "原来你真的在点单…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050206",
+      "subQuestName": "(test)传送进入酒馆$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7050207",
+      "subQuestName": "(test)失败回滚传送任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7050201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020101"
+        ],
+        "dialogs": {
+          "705020101": {
+            "id": "705020101",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "你好，想必你就是那位大名鼎鼎的旅行者吧。",
+            "nextDialogs": [
+              "705020104"
+            ]
+          },
+          "705020104": {
+            "id": "705020104",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "喂，还有我呢，我是大名鼎鼎的派蒙！",
+            "nextDialogs": [
+              "705020105"
+            ]
+          },
+          "705020105": {
+            "id": "705020105",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "是这样的。最近「天使的馈赠」酒馆在举行「酒保体验周」的活动，我想你或许会感兴趣。",
+            "nextDialogs": [
+              "705020106"
+            ]
+          },
+          "705020106": {
+            "id": "705020106",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "简单来说，你可以亲自参与调酒…或者调别的什么，原料随便用。",
+            "nextDialogs": [
+              "705020107"
+            ]
+          },
+          "705020107": {
+            "id": "705020107",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "只要不浪费，成品也供你们无限畅饮。",
+            "nextDialogs": [
+              "705020108"
+            ]
+          },
+          "705020108": {
+            "id": "705020108",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "无限畅饮！",
+            "nextDialogs": [
+              "705020109"
+            ]
+          },
+          "705020109": {
+            "id": "705020109",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "另外，如果能让顾客们满意，报酬肯定也不会少你们的。",
+            "nextDialogs": [
+              "705020110"
+            ]
+          },
+          "705020110": {
+            "id": "705020110",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "哇，还有报酬！",
+            "nextDialogs": [
+              "705020111"
+            ]
+          },
+          "705020111": {
+            "id": "705020111",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙彻底沦陷了…",
+            "nextDialogs": [
+              "705020112"
+            ]
+          },
+          "705020112": {
+            "id": "705020112",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我们参加吧！好不好？",
+            "nextDialogs": [
+              "705020113"
+            ]
+          },
+          "705020113": {
+            "id": "705020113",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "虽说是「体验周」，其实对考勤没有要求…",
+            "nextDialogs": [
+              "705020114"
+            ]
+          },
+          "705020114": {
+            "id": "705020114",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "现在做不了决定也没关系，可以先来试一次。",
+            "nextDialogs": [
+              "705020115"
+            ]
+          },
+          "705020115": {
+            "id": "705020115",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "怎么样，你意下如何？"
+          },
+          "705020118": {
+            "id": "705020118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "请稍等一下。",
+            "nextDialogs": [
+              "705020119"
+            ]
+          },
+          "705020119": {
+            "id": "705020119",
+            "speakerId": 1000,
+            "speakerName": "卢卡",
+            "text": "没问题，要是你想好了，随时来找我就行。"
+          }
+        }
+      }
+    }
+  ]
+}

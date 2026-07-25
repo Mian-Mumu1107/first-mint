@@ -1,0 +1,578 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "派蒙": 9,
+    "温迪": 35,
+    "琴": 9,
+    "迪卢克": 21
+  },
+  "subQuests": [
+    {
+      "subId": "38401",
+      "subQuestName": "(test)等待夜幕降临后（18~6点时前往摘星崖）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38402",
+      "subQuestName": "前往摘星崖",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3840201"
+        ],
+        "dialogs": {
+          "3840201": {
+            "id": "3840201",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "哦，这下人都到齐了。",
+            "nextDialogs": [
+              "3840202"
+            ]
+          },
+          "3840202": {
+            "id": "3840202",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这个地方，风景真漂亮啊。",
+            "nextDialogs": [
+              "3840203"
+            ]
+          },
+          "3840203": {
+            "id": "3840203",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "和「命运的再会」这个主题很配吧？",
+            "nextDialogs": [
+              "3840204"
+            ]
+          },
+          "3840204": {
+            "id": "3840204",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "那么，该准备开始了。",
+            "nextDialogs": [
+              "3840205"
+            ]
+          },
+          "3840205": {
+            "id": "3840205",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "嗯，不论结果如何，至少已经看到了转机。",
+            "nextDialogs": [
+              "3840206"
+            ]
+          },
+          "3840206": {
+            "id": "3840206",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "这段时间，整座蒙德城都背负了太多…",
+            "nextDialogs": [
+              "3840207"
+            ]
+          },
+          "3840207": {
+            "id": "3840207",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "只是到头来，解决问题的却是旅行者和一个歌手。",
+            "nextDialogs": [
+              "3840208"
+            ]
+          },
+          "3840208": {
+            "id": "3840208",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "呵。骑士团勉强算是有些苦劳吧。",
+            "nextDialogs": [
+              "3840209"
+            ]
+          },
+          "3840209": {
+            "id": "3840209",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "好啦好啦。大家都站开一些——",
+            "nextDialogs": [
+              "3840210"
+            ]
+          },
+          "3840210": {
+            "id": "3840210",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "尘世间最好的吟游诗人，要开始拨动他的琴弦了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "38403",
+      "subQuestName": "与温迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38404",
+      "subQuestName": "(test)等待温迪召唤风魔龙$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3840401"
+        ],
+        "dialogs": {
+          "3840401": {
+            "id": "3840401",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "巴——温迪阁下，请注意保护好自己。",
+            "nextDialogs": [
+              "3840402"
+            ]
+          },
+          "3840402": {
+            "id": "3840402",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "哈哈…其实你不是现在才猜出那个身份的吧，琴？",
+            "nextDialogs": [
+              "3840403"
+            ]
+          },
+          "3840403": {
+            "id": "3840403",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "不过，谢谢你继续用这个名字叫我。",
+            "nextDialogs": [
+              "3840404"
+            ]
+          },
+          "3840404": {
+            "id": "3840404",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "天空之琴怎么样了？",
+            "nextDialogs": [
+              "3840405"
+            ]
+          },
+          "3840405": {
+            "id": "3840405",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "还能弹奏吗？…或者，还能用龙的泪滴修复吗？",
+            "nextDialogs": [
+              "3840406"
+            ]
+          },
+          "3840406": {
+            "id": "3840406",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "唔…",
+            "nextDialogs": [
+              "3840407"
+            ]
+          },
+          "3840407": {
+            "id": "3840407",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "坏成这副样子的话…可能就没办法了呢。",
+            "nextDialogs": [
+              "3840409",
+              "3840411"
+            ]
+          },
+          "3840409": {
+            "id": "3840409",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "没错，如果不能击败腐蚀的源头，就无法减轻特瓦林所受的痛苦。",
+            "nextDialogs": [
+              "3840413"
+            ]
+          },
+          "3840413": {
+            "id": "3840413",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "那么，我召集侦察骑士来追踪…",
+            "nextDialogs": [
+              "3840414"
+            ]
+          },
+          "3840414": {
+            "id": "3840414",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "不必了。",
+            "nextDialogs": [
+              "3840415"
+            ]
+          },
+          "3840415": {
+            "id": "3840415",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "嗯？",
+            "nextDialogs": [
+              "3840416"
+            ]
+          },
+          "3840416": {
+            "id": "3840416",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "不久前我在四风守护的神庙遗迹，亲手斩杀过它的一只同类。",
+            "nextDialogs": [
+              "3840417"
+            ]
+          },
+          "3840417": {
+            "id": "3840417",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "咦？！是什么时候…",
+            "nextDialogs": [
+              "3840418"
+            ]
+          },
+          "3840418": {
+            "id": "3840418",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "想要追踪那些怪物的话，可以借助我的情报网和手段。",
+            "nextDialogs": [
+              "3840419"
+            ]
+          },
+          "3840419": {
+            "id": "3840419",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "迪卢克…",
+            "nextDialogs": [
+              "3840420"
+            ]
+          },
+          "3840420": {
+            "id": "3840420",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "虽然讨厌骑士团，但会用自己的方式来守护蒙德呢。",
+            "nextDialogs": [
+              "3840421"
+            ]
+          },
+          "3840421": {
+            "id": "3840421",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "小派蒙的语气，突然变得溺爱了起来…！",
+            "nextDialogs": [
+              "3840422"
+            ]
+          },
+          "3840422": {
+            "id": "3840422",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "哼。",
+            "nextDialogs": [
+              "3840423"
+            ]
+          },
+          "3840423": {
+            "id": "3840423",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "总之，等我消息吧。",
+            "nextDialogs": [
+              "3840424"
+            ]
+          },
+          "3840424": {
+            "id": "3840424",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "我要让它们明白，不论深渊教团再怎么无法无天…",
+            "nextDialogs": [
+              "3840425"
+            ]
+          },
+          "3840425": {
+            "id": "3840425",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "在蒙德，有些事也是不可以做的。"
+          },
+          "3840411": {
+            "id": "3840411",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "但首先要让罪魁祸首付出代价。",
+            "nextDialogs": [
+              "3840412"
+            ]
+          },
+          "3840412": {
+            "id": "3840412",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "如果不能击败腐蚀的源头，就无法减轻特瓦林所受的痛苦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "38405",
+      "subQuestName": "(test)突然出现的不速之客是…$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38406",
+      "subQuestName": "(test)cutscene哥哥/妹妹登场$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3840601"
+        ],
+        "dialogs": {
+          "3840601": {
+            "id": "3840601",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "咦？这是什么…",
+            "nextDialogs": [
+              "3840602"
+            ]
+          },
+          "3840602": {
+            "id": "3840602",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "深渊法师被击败以后，散逸出了某种能量…",
+            "nextDialogs": [
+              "3840603"
+            ]
+          },
+          "3840603": {
+            "id": "3840603",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "这种能量原本的用途，似乎是隔绝我和特瓦林之间的联系。",
+            "nextDialogs": [
+              "3840604"
+            ]
+          },
+          "3840604": {
+            "id": "3840604",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "……",
+            "nextDialogs": [
+              "3840605"
+            ]
+          },
+          "3840605": {
+            "id": "3840605",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "#{NICKNAME}，你知道「<color=#00E1FFFF>风龙废墟</color>」吗？",
+            "nextDialogs": [
+              "3840607",
+              "3840609",
+              "3840611"
+            ]
+          },
+          "3840607": {
+            "id": "3840607",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "嗯，但琴团长和迪卢克老爷想必都是知道的。",
+            "nextDialogs": [
+              "3840612"
+            ]
+          },
+          "3840612": {
+            "id": "3840612",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "没错。",
+            "nextDialogs": [
+              "3840613"
+            ]
+          },
+          "3840613": {
+            "id": "3840613",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "现在的特瓦林，正居住在一片被它当作巢穴的废墟里。",
+            "nextDialogs": [
+              "3840614"
+            ]
+          },
+          "3840614": {
+            "id": "3840614",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "与封锁蒙德四方的暴风一样，巢穴的入口也有很难通过的特殊障壁。",
+            "nextDialogs": [
+              "3840615"
+            ]
+          },
+          "3840615": {
+            "id": "3840615",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "但现在，从深渊法师散逸的能量里，我能读出编织魔力的韵律。",
+            "nextDialogs": [
+              "3840616"
+            ]
+          },
+          "3840616": {
+            "id": "3840616",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "虽然那种韵律比丘丘人的合唱还要难听，但…",
+            "nextDialogs": [
+              "3840617"
+            ]
+          },
+          "3840617": {
+            "id": "3840617",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "也足够让我们破除暴风障壁、抵达特瓦林的「<color=#00E1FFFF>风龙废墟</color>」了。",
+            "nextDialogs": [
+              "3840618"
+            ]
+          },
+          "3840618": {
+            "id": "3840618",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "那么，是要正面挑战特瓦林了么？",
+            "nextDialogs": [
+              "3840619"
+            ]
+          },
+          "3840619": {
+            "id": "3840619",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "我倒是没有意见…话说回来，琴才是那个想要避免开战的人。",
+            "nextDialogs": [
+              "3840620"
+            ]
+          },
+          "3840620": {
+            "id": "3840620",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "不。在没有更好的选择时，就由我承担改变方针的责任。",
+            "nextDialogs": [
+              "3840621"
+            ]
+          },
+          "3840621": {
+            "id": "3840621",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "如果讨伐风龙是唯一的方案，那我就会成为冲锋在前的骑士。",
+            "nextDialogs": [
+              "3840622"
+            ]
+          },
+          "3840622": {
+            "id": "3840622",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "现在还没到那一步喔。",
+            "nextDialogs": [
+              "3840623"
+            ]
+          },
+          "3840623": {
+            "id": "3840623",
+            "speakerId": 1000,
+            "speakerName": "迪卢克",
+            "text": "嗯？",
+            "nextDialogs": [
+              "3840624"
+            ]
+          },
+          "3840624": {
+            "id": "3840624",
+            "speakerId": 1003,
+            "speakerName": "琴",
+            "text": "温迪阁下的意思是…",
+            "nextDialogs": [
+              "3840625"
+            ]
+          },
+          "3840625": {
+            "id": "3840625",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "我的意思是，天空之琴不是我们的底牌。",
+            "nextDialogs": [
+              "3840626"
+            ]
+          },
+          "3840626": {
+            "id": "3840626",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "#真正的底牌——是{NICKNAME}呀。",
+            "nextDialogs": [
+              "3840627"
+            ]
+          },
+          "3840627": {
+            "id": "3840627",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}？"
+          },
+          "3840609": {
+            "id": "3840609",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "嗯，同样来自蒙德的各位，想必都是知道的。"
+          },
+          "3840611": {
+            "id": "3840611",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "之前试着进入时，被暴风的障壁挡住了前进的道路。"
+          }
+        }
+      }
+    }
+  ]
+}

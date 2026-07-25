@@ -1,0 +1,1155 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 6,
+    "<UNKNOWN>": 1,
+    "Player": 19,
+    "加勒弗大汪": 1,
+    "塔卢加": 25,
+    "奥伯龙": 5,
+    "帕朗": 2,
+    "拉密萨纳": 11,
+    "派蒙": 16,
+    "特马乔": 17,
+    "琪希可": 6,
+    "莉瓦": 4,
+    "葵莉娅": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7507906",
+      "subQuestName": "(test)隐藏飞行挑战玩法前置$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7507903",
+      "subQuestName": "与特马乔对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790301"
+        ],
+        "dialogs": {
+          "750790301": {
+            "id": "750790301",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "#欢迎…呃，看来你们之中至少有一个已经熟练掌握了翱翔的要义，那么是这位{M#小兄弟}{F#小妹}想学习飞行技巧？",
+            "nextDialogs": [
+              "750790303"
+            ]
+          },
+          "750790303": {
+            "id": "750790303",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "飞行执照？这倒是个新鲜词儿。",
+            "nextDialogs": [
+              "750790305"
+            ]
+          },
+          "750790305": {
+            "id": "750790305",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "咱们这儿主打一个人和龙共同进步，你的伙伴…",
+            "nextDialogs": [
+              "750790306"
+            ]
+          },
+          "750790306": {
+            "id": "750790306",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔，呀！",
+            "nextDialogs": [
+              "750790307"
+            ]
+          },
+          "750790307": {
+            "id": "750790307",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "…嗯，小家伙，看来帕帕卡飞行学校不是能让你一展身手的地方。别太介怀了，这当然不是你的问题。",
+            "nextDialogs": [
+              "750790308"
+            ]
+          },
+          "750790308": {
+            "id": "750790308",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜嗯？",
+            "nextDialogs": [
+              "750790309"
+            ]
+          },
+          "750790309": {
+            "id": "750790309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}还小，还有潜力。",
+            "nextDialogs": [
+              "750790310"
+            ]
+          },
+          "750790310": {
+            "id": "750790310",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嵴锋龙的潜力怎么想也不会是和绒翼龙暝视龙比飞行吧！",
+            "nextDialogs": [
+              "750790311"
+            ]
+          },
+          "750790311": {
+            "id": "750790311",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "#不管怎么说，{M#小兄弟}{F#小妹}如果对咱们这儿的飞行训练感兴趣，不妨试试开放的训练赛道！",
+            "nextDialogs": [
+              "750790313"
+            ]
+          },
+          "750790313": {
+            "id": "750790313",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "不管是躲避障碍物还是灵活转向，都是驾驭绒翼龙所需的必备能力，到底有几分本事，训练赛道一试便知！",
+            "nextDialogs": [
+              "750790312"
+            ]
+          },
+          "750790312": {
+            "id": "750790312",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "#实话说为了推广，咱们也是费了不少心思，又是准备奖品又是筹办比赛。{M#小兄弟}{F#小妹}顺利通过的话就去找拉密萨纳领奖吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507911",
+      "subQuestName": "前往训练赛道",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7507910",
+      "subQuestName": "与琪希可对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790201"
+        ],
+        "dialogs": {
+          "750790201": {
+            "id": "750790201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "让我试试。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507902",
+      "subQuestName": "试试训练赛道",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7507907",
+      "subQuestName": "找到拉密萨纳领取奖励",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790701"
+        ],
+        "dialogs": {
+          "750790701": {
+            "id": "750790701",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "这里就让我作为人生的前辈、你的兄长，来好好教教你怎样融入集体并且成为一个受欢迎的人。",
+            "nextDialogs": [
+              "750790702"
+            ]
+          },
+          "750790702": {
+            "id": "750790702",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "多谢你的好意，但是我不需要。再说了，你也不是我的兄长…",
+            "nextDialogs": [
+              "750790703"
+            ]
+          },
+          "750790703": {
+            "id": "750790703",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "还有，能请你不要再给奥伯龙喂饼干了吗？",
+            "nextDialogs": [
+              "750790704"
+            ]
+          },
+          "750790704": {
+            "id": "750790704",
+            "speakerId": 1005,
+            "speakerName": "奥伯龙",
+            "text": "呜呜，啊呜…",
+            "nextDialogs": [
+              "750790705"
+            ]
+          },
+          "750790705": {
+            "id": "750790705",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "不懂事的小鬼，要不是看在你姐的面子上…",
+            "nextDialogs": [
+              "750790706"
+            ]
+          },
+          "750790706": {
+            "id": "750790706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "打扰了，我来领奖品。",
+            "nextDialogs": [
+              "750790707"
+            ]
+          },
+          "750790707": {
+            "id": "750790707",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750790708"
+            ]
+          },
+          "750790708": {
+            "id": "750790708",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "哦，这还真是稀罕的客人，我们这儿可不常见小嵴锋龙。还有这边的…你的伙伴品种真是多样啊。",
+            "nextDialogs": [
+              "750790709"
+            ]
+          },
+          "750790709": {
+            "id": "750790709",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#品种…我跟{REALNAME[ID(2)|SHOWHOST(true)]}可不是一回事啊！",
+            "nextDialogs": [
+              "750790710"
+            ]
+          },
+          "750790710": {
+            "id": "750790710",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯？呜…",
+            "nextDialogs": [
+              "750790711"
+            ]
+          },
+          "750790711": {
+            "id": "750790711",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#欸？不是，我们都是{NICKNAME}的伙伴没错，但是也不完全一样吧，呃，不一样的意思不是说谁更好谁不好，所以别难过啦。",
+            "nextDialogs": [
+              "750790712"
+            ]
+          },
+          "750790712": {
+            "id": "750790712",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "无意说出的真心话才致命…",
+            "nextDialogs": [
+              "750790713"
+            ]
+          },
+          "750790713": {
+            "id": "750790713",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}明明知道我不是那个意思，就别让问题变得更复杂啦。{REALNAME[ID(2)|SHOWHOST(true)]}也是我们的好伙伴哦！",
+            "nextDialogs": [
+              "750790714"
+            ]
+          },
+          "750790714": {
+            "id": "750790714",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}也是好伙伴。",
+            "nextDialogs": [
+              "750790715"
+            ]
+          },
+          "750790715": {
+            "id": "750790715",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜呜？呀！",
+            "nextDialogs": [
+              "750790716"
+            ]
+          },
+          "750790716": {
+            "id": "750790716",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#嘿嘿，我就知道{REALNAME[ID(2)|SHOWHOST(true)]}是聪明小龙，一定不会误会我的！",
+            "nextDialogs": [
+              "750790717"
+            ]
+          },
+          "750790717": {
+            "id": "750790717",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "真是叫人羡慕的默契。看你们的装束也不是本地人，却能和小嵴锋龙有这样深厚的信赖和友谊，是不是有什么诀窍？",
+            "nextDialogs": [
+              "750790718"
+            ]
+          },
+          "750790718": {
+            "id": "750790718",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "实不相瞒，塔卢加和他的小绒翼龙虽然是搭档，相处得却并不好。如果有什么融洽相处的诀窍，真想让他学学。",
+            "nextDialogs": [
+              "750790719"
+            ]
+          },
+          "750790719": {
+            "id": "750790719",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "比起我的事…他们的奖品呢？总不会还没准备好吧。",
+            "nextDialogs": [
+              "750790720"
+            ]
+          },
+          "750790720": {
+            "id": "750790720",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "当然准备好了！你倒是会转移话题，算了，这个先不提…",
+            "nextDialogs": [
+              "750790721"
+            ]
+          },
+          "750790721": {
+            "id": "750790721",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "近期还会举办飞行竞赛，如果几位感兴趣的话，千万不要错过观赛的机会，不要错过我精彩的表演！我还有事，就先告辞了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507908",
+      "subQuestName": "领取奖励",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790801"
+        ],
+        "dialogs": {
+          "750790801": {
+            "id": "750790801",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "拉密萨纳那家伙到底给你吃了多少龙龙饼干呀…",
+            "nextDialogs": [
+              "750790802"
+            ]
+          },
+          "750790802": {
+            "id": "750790802",
+            "speakerId": 1005,
+            "speakerName": "奥伯龙",
+            "text": "啊呜！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507909",
+      "subQuestName": "与塔卢加对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790901"
+        ],
+        "dialogs": {
+          "750790901": {
+            "id": "750790901",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "居然这么轻松就能拿到奖品…要是冒险家协会的委托也都这么容易就好了！",
+            "nextDialogs": [
+              "750790902"
+            ]
+          },
+          "750790902": {
+            "id": "750790902",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}你们是冒险家吗？",
+            "nextDialogs": [
+              "750790903"
+            ]
+          },
+          "750790903": {
+            "id": "750790903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我有冒险之证，派蒙没有。",
+            "nextDialogs": [
+              "750790904"
+            ]
+          },
+          "750790904": {
+            "id": "750790904",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#哼哼，就算没有文件，我也可以有冒险家之心嘛。就像我虽然没有飞行执照，但要论飞行技巧，肯定不会输给{NICKNAME}哦！",
+            "nextDialogs": [
+              "750790905"
+            ]
+          },
+          "750790905": {
+            "id": "750790905",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "你这么问是有什么委托想要交给我们吗？等一等，你先不要说，让我猜猜看，答案只有一个——",
+            "nextDialogs": [
+              "750790906"
+            ]
+          },
+          "750790906": {
+            "id": "750790906",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#你看到我们和{REALNAME[ID(2)|SHOWHOST(true)]}关系这么好，想要请教和小龙融洽相处的诀窍！对不对？",
+            "nextDialogs": [
+              "750790907"
+            ]
+          },
+          "750790907": {
+            "id": "750790907",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750790908"
+            ]
+          },
+          "750790908": {
+            "id": "750790908",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "唉，根本不对。",
+            "nextDialogs": [
+              "750790909"
+            ]
+          },
+          "750790909": {
+            "id": "750790909",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸欸？可是刚才拉密萨纳他明明就说…",
+            "nextDialogs": [
+              "750790910"
+            ]
+          },
+          "750790910": {
+            "id": "750790910",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "问题就出在他身上。那可是个擅长笼络人心的家伙，就连奥伯龙也因为吃了他给的龙龙饼干变得对他言听计从。",
+            "nextDialogs": [
+              "750790911"
+            ]
+          },
+          "750790911": {
+            "id": "750790911",
+            "speakerId": 1005,
+            "speakerName": "奥伯龙",
+            "text": "啊呜，呜呜…",
+            "nextDialogs": [
+              "750790912"
+            ]
+          },
+          "750790912": {
+            "id": "750790912",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "摆出一副委屈的样子也没用，一流的绒翼龙就是要严格控制饮食的，而且你原本就容易发胖。",
+            "nextDialogs": [
+              "750790913"
+            ]
+          },
+          "750790913": {
+            "id": "750790913",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "那家伙还隔三岔五对莉瓦姐姐献殷勤，肯定是别有用心…莉瓦姐姐也是，一点警惕性也没有，还跟他有说有笑的。",
+            "nextDialogs": [
+              "750790914"
+            ]
+          },
+          "750790914": {
+            "id": "750790914",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嗯？怎么听起来感觉他人还挺好的？难道不是因为你不喜欢他，所以对他有偏见吗？",
+            "nextDialogs": [
+              "750790915"
+            ]
+          },
+          "750790915": {
+            "id": "750790915",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "不是，还不止是这样，那家伙最近一段时间鬼鬼祟祟的，不知道在忙活些什么…",
+            "nextDialogs": [
+              "750790916"
+            ]
+          },
+          "750790916": {
+            "id": "750790916",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "大人总是有很多事要忙的。",
+            "nextDialogs": [
+              "750790917"
+            ]
+          },
+          "750790917": {
+            "id": "750790917",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "是呀，他不是说过要举办什么飞行竞赛吗？说不定是在筹备那个呢。",
+            "nextDialogs": [
+              "750790918"
+            ]
+          },
+          "750790918": {
+            "id": "750790918",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "之前提过要举办飞行竞赛…",
+            "nextDialogs": [
+              "750790919"
+            ]
+          },
+          "750790919": {
+            "id": "750790919",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "可是他又没出多少力气，准备工作都是帕朗在做，这阵子总能看到他和加勒弗大汪四处奔忙，辛苦的是帕朗才对。",
+            "nextDialogs": [
+              "750790920"
+            ]
+          },
+          "750790920": {
+            "id": "750790920",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "而且我昨天听到了！他和外边来的人小声商量些什么危险的事，我不敢靠太近所以没有听得特别完整，但是…",
+            "nextDialogs": [
+              "750790921"
+            ]
+          },
+          "750790921": {
+            "id": "750790921",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "「飞行竞赛当天准时」、「下手…分寸」、「人命」，「事成之后再付另一半」，「具体安排明天深夜北部营地详谈」…",
+            "nextDialogs": [
+              "750790922"
+            ]
+          },
+          "750790922": {
+            "id": "750790922",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么只有后半听得格外清楚？",
+            "nextDialogs": [
+              "750790923"
+            ]
+          },
+          "750790923": {
+            "id": "750790923",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "那还不是多亏了奥伯龙，那时候不知道为什么特别不安分，一直想往拉密萨纳那边去，最后我实在没拦住…",
+            "nextDialogs": [
+              "750790924"
+            ]
+          },
+          "750790924": {
+            "id": "750790924",
+            "speakerId": 1005,
+            "speakerName": "奥伯龙",
+            "text": "啊呜！",
+            "nextDialogs": [
+              "750790925"
+            ]
+          },
+          "750790925": {
+            "id": "750790925",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "笨蛋，我可没在夸你啊。总之，看到我追着龙过去，另一个人很快离开了，剩下的拉密萨纳也表现得很不自然。",
+            "nextDialogs": [
+              "750790926"
+            ]
+          },
+          "750790926": {
+            "id": "750790926",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "他一定是担心事情败露，所以今天才来找我的茬，用着冠冕堂皇的借口，其实只是为了监视我…",
+            "nextDialogs": [
+              "750790927"
+            ]
+          },
+          "750790927": {
+            "id": "750790927",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "哇，你明明还是个小孩子，想的事情却很复杂呢。",
+            "nextDialogs": [
+              "750790928"
+            ]
+          },
+          "750790928": {
+            "id": "750790928",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "我知道，你也觉得小孩子的话不可信，对吧？",
+            "nextDialogs": [
+              "750790929"
+            ]
+          },
+          "750790929": {
+            "id": "750790929",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "#所以我想拜托{NICKNAME}{M#哥哥}{F#姐姐}晚上和我一起去北部营地调查看看，万一他真的在秘密推进什么危险的计划…",
+            "nextDialogs": [
+              "750790930"
+            ]
+          },
+          "750790930": {
+            "id": "750790930",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "#必须想办法阻止他！有{NICKNAME}{M#哥哥}{F#姐姐}帮我作证，其他人…莉瓦姐姐也一定会相信我的。",
+            "nextDialogs": [
+              "750790931"
+            ]
+          },
+          "750790931": {
+            "id": "750790931",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "#要是{NICKNAME}{M#哥哥}{F#姐姐}觉得我说的这些都是小孩子的胡思乱想，不值得亲自去一次，那至少帮我带个信吧。",
+            "nextDialogs": [
+              "750790932"
+            ]
+          },
+          "750790932": {
+            "id": "750790932",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "我已经写好了一封说明情况的短信，如果我明天还没有回来，就请把这封信转交给莉瓦姐姐，之后奥伯龙也要拜托她照看了…",
+            "nextDialogs": [
+              "750790933"
+            ]
+          },
+          "750790933": {
+            "id": "750790933",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "等一下等一下！你怎么越说越吓人了，应该不会真的有这样的事吧…唔，可是万一是真的…",
+            "nextDialogs": [
+              "750790934"
+            ]
+          },
+          "750790934": {
+            "id": "750790934",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，要不我们还是调查看看？要是现在置之不理，结果真的出了什么事，之后一定会做噩梦的！",
+            "nextDialogs": [
+              "750790935"
+            ]
+          },
+          "750790935": {
+            "id": "750790935",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "#你们愿意帮我吗？太好了！那{NICKNAME}{M#哥哥}{F#姐姐}，晚上我们一起…",
+            "nextDialogs": [
+              "750790936"
+            ]
+          },
+          "750790936": {
+            "id": "750790936",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "交给我们就行了，你留下。",
+            "nextDialogs": [
+              "750790937"
+            ]
+          },
+          "750790937": {
+            "id": "750790937",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嗯，像调查这类委托，人多反而误事呢，所以你就留在这里等我们消息好啦。你瞧，我是不是很有冒险家的心得！",
+            "nextDialogs": [
+              "750790938"
+            ]
+          },
+          "750790938": {
+            "id": "750790938",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "你这么一说…确实很有道理。那我就留在这里照看奥伯龙好了，还要劝一下莉瓦姐姐不要和拉密萨纳走得太近…",
+            "nextDialogs": [
+              "750790939"
+            ]
+          },
+          "750790939": {
+            "id": "750790939",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "那就拜托你们了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507901",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790101"
+        ],
+        "dialogs": {
+          "750790101": {
+            "id": "750790101",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "只要通过那个圈…只用通过那个圈…",
+            "nextDialogs": [
+              "750790102"
+            ]
+          },
+          "750790102": {
+            "id": "750790102",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "现在的训练赛道应该够简单了吧？唔，还是要再简单点吗？人人都能参与，人人都能通过，这样才最好？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507904",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750790401"
+        ],
+        "dialogs": {
+          "750790401": {
+            "id": "750790401",
+            "speakerId": 1006,
+            "speakerName": "<UNKNOWN>",
+            "text": "等会儿再来。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507915",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750791501"
+        ],
+        "dialogs": {
+          "750791501": {
+            "id": "750791501",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "恭喜通过挑战，奖品的话需要到拉密萨纳那儿领取，就在附近，很显眼的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507916",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750791601"
+        ],
+        "dialogs": {
+          "750791601": {
+            "id": "750791601",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "别碰，这是奖品。如果你对奖品有兴趣，就先通过特马乔准备的开放训练赛道吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507917",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750791701"
+        ],
+        "dialogs": {
+          "750791701": {
+            "id": "750791701",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "嘿，你真该改改你那臭脾气，我这么说也是为你好，你也过了不懂事的年纪了，不说为了你姐，就算为了自己也该考虑考虑。",
+            "nextDialogs": [
+              "750791702"
+            ]
+          },
+          "750791702": {
+            "id": "750791702",
+            "speakerId": 1005,
+            "speakerName": "奥伯龙",
+            "text": "呜，啊呜。",
+            "nextDialogs": [
+              "750791703"
+            ]
+          },
+          "750791703": {
+            "id": "750791703",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "你看，它也觉得我说得对呢。",
+            "nextDialogs": [
+              "750791704"
+            ]
+          },
+          "750791704": {
+            "id": "750791704",
+            "speakerId": 1004,
+            "speakerName": "塔卢加",
+            "text": "我们之中如果有谁不懂事那也一定不会是我。",
+            "nextDialogs": [
+              "750791705"
+            ]
+          },
+          "750791705": {
+            "id": "750791705",
+            "speakerId": 1003,
+            "speakerName": "拉密萨纳",
+            "text": "哎！你这臭小子…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507918",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750791801"
+        ],
+        "dialogs": {
+          "750791801": {
+            "id": "750791801",
+            "speakerId": 1007,
+            "speakerName": "帕朗",
+            "text": "抱歉，葵莉娅小姐，刚才加勒弗大汪没伤到你吧？它很少对陌生人这么热情的，真的有点反常。",
+            "nextDialogs": [
+              "750791802"
+            ]
+          },
+          "750791802": {
+            "id": "750791802",
+            "speakerId": 1008,
+            "speakerName": "葵莉娅",
+            "text": "呵呵，不碍事。我很习惯跟动物打交道，它这么亲近我不如说叫我很高兴呢。",
+            "nextDialogs": [
+              "750791803"
+            ]
+          },
+          "750791803": {
+            "id": "750791803",
+            "speakerId": 1008,
+            "speakerName": "葵莉娅",
+            "text": "话说回来，豪卡可是很挂念你呢，他一听说我最近会来这边，就拜托我来打听一下你的近况。",
+            "nextDialogs": [
+              "750791804"
+            ]
+          },
+          "750791804": {
+            "id": "750791804",
+            "speakerId": 1007,
+            "speakerName": "帕朗",
+            "text": "…豪卡叔叔？他关心我做什么？呃，不好意思，我们之间有些矛盾，也不是什么值得一提的事…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507919",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750791901"
+        ],
+        "dialogs": {
+          "750791901": {
+            "id": "750791901",
+            "speakerId": 1009,
+            "speakerName": "莉瓦",
+            "text": "真伤脑筋呀…",
+            "nextDialogs": [
+              "750791903",
+              "750791906"
+            ]
+          },
+          "750791903": {
+            "id": "750791903",
+            "speakerId": 1009,
+            "speakerName": "莉瓦",
+            "text": "是这样，我有一个年纪差得比较多的弟弟，可能正是叛逆的年纪吧，和谁都处不来…",
+            "nextDialogs": [
+              "750791904"
+            ]
+          },
+          "750791904": {
+            "id": "750791904",
+            "speakerId": 1009,
+            "speakerName": "莉瓦",
+            "text": "哎呀，说给你听也是徒增烦恼吧。等他再长大些说不定就好了，嗯！"
+          },
+          "750791906": {
+            "id": "750791906",
+            "speakerId": 1009,
+            "speakerName": "莉瓦",
+            "text": "没事，再见。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507920",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750792001"
+        ],
+        "dialogs": {
+          "750792001": {
+            "id": "750792001",
+            "speakerId": 1010,
+            "speakerName": "加勒弗大汪",
+            "text": "呜…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7507930",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750793001"
+        ],
+        "dialogs": {
+          "750793001": {
+            "id": "750793001",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "要试试训练赛道吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508751",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750875101"
+        ],
+        "dialogs": {
+          "750875101": {
+            "id": "750875101",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "我们这儿还有几项飞行挑战，具体内容都写在告示牌上了，如果你感兴趣不妨试试，当然也会有对应的奖励。",
+            "nextDialogs": [
+              "750875105",
+              "750875107",
+              "750875110"
+            ]
+          },
+          "750875105": {
+            "id": "750875105",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "其实我也不知道为什么会叫这个名字，说起帕帕卡…你听过昆图尔和坏巫师茹米的故事吗？",
+            "nextDialogs": [
+              "750875106"
+            ]
+          },
+          "750875106": {
+            "id": "750875106",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "部族的战士输给了坏巫师茹米，被他变成了帕帕卡…听起来好像不是什么好事？可能帕帕卡真的飞得很快吧，谁知道呢。"
+          },
+          "750875107": {
+            "id": "750875107",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "哈哈…他是个好手，但不擅长教人。当飞行竞赛的对手…还算说得过去？",
+            "nextDialogs": [
+              "750875108"
+            ]
+          },
+          "750875108": {
+            "id": "750875108",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "要不是飞得不好，谁会来这里呢？这时候如果太过严厉…唉，以前可不是没发生过这种事。",
+            "nextDialogs": [
+              "750875109"
+            ]
+          },
+          "750875109": {
+            "id": "750875109",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "所以现在的方针已经改成鼓励为主了，相信多夸夸也能有进步的。"
+          },
+          "750875110": {
+            "id": "750875110",
+            "speakerId": 1000,
+            "speakerName": "特马乔",
+            "text": "再见，也欢迎你随时回来。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508760",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750876001"
+        ],
+        "dialogs": {
+          "750876001": {
+            "id": "750876001",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "欢迎来到帕帕卡飞行学校！",
+            "nextDialogs": [
+              "750876004",
+              "750876007"
+            ]
+          },
+          "750876004": {
+            "id": "750876004",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "给学员必要的指引和帮助。现在和以前可真不一样了，要知道以前可是没有这些贴心的服务的。",
+            "nextDialogs": [
+              "750876005"
+            ]
+          },
+          "750876005": {
+            "id": "750876005",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "但是有一次因为教练在指导时言辞有些…严厉？偏偏那个学员也是个脾气火爆的人物…唉，当时的场面我都不愿再提。",
+            "nextDialogs": [
+              "750876006"
+            ]
+          },
+          "750876006": {
+            "id": "750876006",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "总之自那之后飞行学校就改变了指导的方针。伸手不打笑脸人，谁也不会讨厌被夸吧？"
+          },
+          "750876007": {
+            "id": "750876007",
+            "speakerId": 1011,
+            "speakerName": "琪希可",
+            "text": "祝你度过愉快的一天！"
+          }
+        }
+      }
+    }
+  ]
+}

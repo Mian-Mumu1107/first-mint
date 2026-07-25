@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "一柱": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7171401",
+      "subQuestName": "将一份杏仁豆腐交给一柱",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717140101"
+        ],
+        "dialogs": {
+          "717140101": {
+            "id": "717140101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于杏仁豆腐…",
+            "nextDialogs": [
+              "717140102"
+            ]
+          },
+          "717140102": {
+            "id": "717140102",
+            "speakerId": 1000,
+            "speakerName": "一柱",
+            "text": "你好，你是看到我的委托了吧。怎么样，你准备好一份杏仁豆腐了吗？",
+            "nextDialogs": [
+              "717140105"
+            ]
+          },
+          "717140105": {
+            "id": "717140105",
+            "speakerId": 1000,
+            "speakerName": "一柱",
+            "text": "那你准备好了之后，就请快点拿给我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7171402",
+      "subQuestName": "与一柱对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717140201"
+        ],
+        "dialogs": {
+          "717140201": {
+            "id": "717140201",
+            "speakerId": 1000,
+            "speakerName": "一柱",
+            "text": "好的，这份杏仁豆腐我就收下了。",
+            "nextDialogs": [
+              "717140202"
+            ]
+          },
+          "717140202": {
+            "id": "717140202",
+            "speakerId": 1000,
+            "speakerName": "一柱",
+            "text": "这些请你收下吧，谢谢你帮我的忙。",
+            "nextDialogs": [
+              "717140203"
+            ]
+          },
+          "717140203": {
+            "id": "717140203",
+            "speakerId": 1000,
+            "speakerName": "一柱",
+            "text": "希望这份杏仁豆腐能让一弦的心情好一些…"
+          }
+        }
+      }
+    }
+  ]
+}

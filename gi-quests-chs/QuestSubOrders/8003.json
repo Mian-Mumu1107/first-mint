@@ -1,0 +1,659 @@
+{
+  "lineCounts": {
+    "Player": 32,
+    "Sibling": 14,
+    "戴因斯雷布": 38,
+    "派蒙": 52,
+    "深渊使徒": 5
+  },
+  "subQuests": [
+    {
+      "subId": "800301",
+      "subQuestName": "与戴因对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030101"
+        ],
+        "dialogs": {
+          "80030101": {
+            "id": "80030101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呀，戴因在这里。你有见过琴团长吗？",
+            "nextDialogs": [
+              "80030102"
+            ]
+          },
+          "80030102": {
+            "id": "80030102",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "我见到她了，但刻意避开了她。",
+            "nextDialogs": [
+              "80030103"
+            ]
+          },
+          "80030103": {
+            "id": "80030103",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "她是「狮牙骑士」，又是代理团长，必然会对我抱有戒心。",
+            "nextDialogs": [
+              "80030104"
+            ]
+          },
+          "80030104": {
+            "id": "80030104",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "若我不谨慎，总有一天会变成她的调查对象。",
+            "nextDialogs": [
+              "80030105"
+            ]
+          },
+          "80030105": {
+            "id": "80030105",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "话说回来，我这边只是解决了些魔物，没找到什么情报。你们那边，有收获吗？",
+            "nextDialogs": [
+              "80030106"
+            ]
+          },
+          "80030106": {
+            "id": "80030106",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "原来如此…",
+            "nextDialogs": [
+              "80030107"
+            ]
+          },
+          "80030107": {
+            "id": "80030107",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "那么，「世上第一座耕地机」动向的全貌，大致就已经能够拼凑齐了。",
+            "nextDialogs": [
+              "80030108"
+            ]
+          },
+          "80030108": {
+            "id": "80030108",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？真的吗？就凭「王狼」说的那些话？",
+            "nextDialogs": [
+              "80030109"
+            ]
+          },
+          "80030109": {
+            "id": "80030109",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "不止是凭这一条信息，而是更综合的考虑。",
+            "nextDialogs": [
+              "80030110"
+            ]
+          },
+          "80030110": {
+            "id": "80030110",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "比如，你们之前告诉我说，教会传下的那个「老故事」…",
+            "nextDialogs": [
+              "80030111"
+            ]
+          },
+          "80030111": {
+            "id": "80030111",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「暴君的遗怨」！",
+            "nextDialogs": [
+              "80030112"
+            ]
+          },
+          "80030112": {
+            "id": "80030112",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "没错。正是你口中那位修女提到的，曾被误认为暴君遗怨的奇怪事件。",
+            "nextDialogs": [
+              "80030115"
+            ]
+          },
+          "80030115": {
+            "id": "80030115",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "啊，我懂了！所以「暴君的遗怨」，其实是从奔狼领逃走的那座机器，自动发射的导弹！",
+            "nextDialogs": [
+              "80030116"
+            ]
+          },
+          "80030116": {
+            "id": "80030116",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "它在「狼的试炼」里损坏以后，游荡到了「旧蒙德」的废墟，住了下来…",
+            "nextDialogs": [
+              "80030117"
+            ]
+          },
+          "80030117": {
+            "id": "80030117",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "只要有人接近，就咚咚咚——地发射。直到有一天，它终于坏掉了，所以从天而降的火球也消失了。",
+            "nextDialogs": [
+              "80030118"
+            ]
+          },
+          "80030118": {
+            "id": "80030118",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那时候的蒙德人还没大量接触过「遗迹守卫」，就只能解读成是「暴君的遗怨」了！",
+            "nextDialogs": [
+              "80030119"
+            ]
+          },
+          "80030119": {
+            "id": "80030119",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "看来，我们该去那个现在叫做<color=#00E1FFFF>「风龙废墟」</color>的地方，开始地毯式搜查了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800306",
+      "subQuestName": "前往风龙废墟",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030601"
+        ],
+        "dialogs": {
+          "80030601": {
+            "id": "80030601",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "他们走了…",
+            "nextDialogs": [
+              "80030602"
+            ]
+          },
+          "80030602": {
+            "id": "80030602",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#呜…{NICKNAME}，别这么伤心…我们会找到他们的！往好的一面想吧！这次至少已经找到很有用的线索了！",
+            "nextDialogs": [
+              "80030604",
+              "80030606"
+            ]
+          },
+          "80030604": {
+            "id": "80030604",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？真的吗？唔…",
+            "nextDialogs": [
+              "80030607"
+            ]
+          },
+          "80030607": {
+            "id": "80030607",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "总之，以目前的情形而言，寻找亲人的突破口，除了「七神」以外，又多了一个「戴因」吧？"
+          },
+          "80030606": {
+            "id": "80030606",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯，是吧是吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800307",
+      "subQuestName": "与戴因对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030301"
+        ],
+        "dialogs": {
+          "80030301": {
+            "id": "80030301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "就是这个吗？好，用元素视野看看吧！",
+            "nextDialogs": [
+              "80030302"
+            ]
+          },
+          "80030302": {
+            "id": "80030302",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "唔唔唔唔——怎么样，有什么发现吗？",
+            "nextDialogs": [
+              "80030303"
+            ]
+          },
+          "80030303": {
+            "id": "80030303",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？你说什么都没发生？明明我还这么期待…",
+            "nextDialogs": [
+              "80030304"
+            ]
+          },
+          "80030304": {
+            "id": "80030304",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "怎么会，是不是哪里搞错了？",
+            "nextDialogs": [
+              "80030305"
+            ]
+          },
+          "80030305": {
+            "id": "80030305",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "是方法的问题。",
+            "nextDialogs": [
+              "80030306"
+            ]
+          },
+          "80030306": {
+            "id": "80030306",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "对「耕地机」用元素视野是不可行的，因为驱动它的能源从来不是「元素」。",
+            "nextDialogs": [
+              "80030307"
+            ]
+          },
+          "80030307": {
+            "id": "80030307",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "交给我吧，我来尝试。",
+            "nextDialogs": [
+              "80030308"
+            ]
+          },
+          "80030308": {
+            "id": "80030308",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "…好了。",
+            "nextDialogs": [
+              "80030309"
+            ]
+          },
+          "80030309": {
+            "id": "80030309",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哇，这就是…！",
+            "nextDialogs": [
+              "80030310"
+            ]
+          },
+          "80030310": {
+            "id": "80030310",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "深渊使徒一直寻找的关键，「世上第一座耕地机的眼睛」。",
+            "nextDialogs": [
+              "80030311"
+            ]
+          },
+          "80030311": {
+            "id": "80030311",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "如今留存的所有遗迹守卫，都是这台机器的仿制品。作为「原型机」，它的战斗力不受控制。",
+            "nextDialogs": [
+              "80030312"
+            ]
+          },
+          "80030312": {
+            "id": "80030312",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "「原型机」…难懂的词，是坎瑞亚人的术语吗。",
+            "nextDialogs": [
+              "80030313"
+            ]
+          },
+          "80030313": {
+            "id": "80030313",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "正如深渊教团所想，若能将「眼」置于「污秽逆位神像」之手…",
+            "nextDialogs": [
+              "80030314"
+            ]
+          },
+          "80030314": {
+            "id": "80030314",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "以此作为基底，接合「漩涡之魔神」奥赛尔的肢体，制造机械魔神…",
+            "nextDialogs": [
+              "80030315"
+            ]
+          },
+          "80030315": {
+            "id": "80030315",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "就能为新诞生的污秽魔神，赋予「动摇天空岛上神座」的力量。",
+            "nextDialogs": [
+              "80030318"
+            ]
+          },
+          "80030318": {
+            "id": "80030318",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "没错。",
+            "nextDialogs": [
+              "80030319"
+            ]
+          },
+          "80030319": {
+            "id": "80030319",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那那那，这「眼睛」该怎么处理？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800302",
+      "subQuestName": "再次进入遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030201"
+        ],
+        "dialogs": {
+          "80030201": {
+            "id": "80030201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那，那个人，难道就是…？！",
+            "nextDialogs": [
+              "80030202"
+            ]
+          },
+          "80030202": {
+            "id": "80030202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_YING|INFO_FEMALE_PRONOUN_BROTHER]}！",
+            "nextDialogs": [
+              "80030203"
+            ]
+          },
+          "80030203": {
+            "id": "80030203",
+            "speakerId": 1002,
+            "speakerName": "Sibling",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BROTHER|INFO_FEMALE_PRONOUN_YING]}…",
+            "nextDialogs": [
+              "80030206"
+            ]
+          },
+          "80030206": {
+            "id": "80030206",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#等…等等，{NICKNAME}，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_SHE|INFO_FEMALE_PRONOUN_HE]}刚才替深渊使徒挡住了攻击…",
+            "nextDialogs": [
+              "80030207"
+            ]
+          },
+          "80030207": {
+            "id": "80030207",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#你的{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_SISTER|INFO_FEMALE_PRONOUN_BROTHER]}，好像和「深渊」…",
+            "nextDialogs": [
+              "80030208"
+            ]
+          },
+          "80030208": {
+            "id": "80030208",
+            "speakerId": 1002,
+            "speakerName": "Sibling",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BROTHER|INFO_FEMALE_PRONOUN_YING]}，为什么你和戴因在一起？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800308",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030401"
+        ],
+        "dialogs": {
+          "80030401": {
+            "id": "80030401",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "没想到，这一路上兜兜转转，最后又走回来了呀。",
+            "nextDialogs": [
+              "80030402"
+            ]
+          },
+          "80030402": {
+            "id": "80030402",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好不容易逃出险境，现在又要钻进去！",
+            "nextDialogs": [
+              "80030403"
+            ]
+          },
+          "80030403": {
+            "id": "80030403",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哎，像我们这样勇敢的冒险家，整个提瓦特大陆都找不出多少啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800309",
+      "subQuestName": "再次进入遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800303",
+      "subQuestName": "找到「污秽逆位神像」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800310",
+      "subQuestName": "与戴因对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80030501"
+        ],
+        "dialogs": {
+          "80030501": {
+            "id": "80030501",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "看来，我们到了。",
+            "nextDialogs": [
+              "80030502"
+            ]
+          },
+          "80030502": {
+            "id": "80030502",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "怪异、枯萎…令人不快的房间。我理解你们所说的恶质气氛了。",
+            "nextDialogs": [
+              "80030503"
+            ]
+          },
+          "80030503": {
+            "id": "80030503",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜呜呜…还是这么恐怖的环境…",
+            "nextDialogs": [
+              "80030504"
+            ]
+          },
+          "80030504": {
+            "id": "80030504",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "小心，不要被「污秽逆位神像」的力量压倒了——「深渊使徒」就在这里。",
+            "nextDialogs": [
+              "80030505"
+            ]
+          },
+          "80030505": {
+            "id": "80030505",
+            "speakerId": 1003,
+            "speakerName": "深渊使徒",
+            "text": "呵呵呵呵…敏锐的嗅觉…",
+            "nextDialogs": [
+              "80030506"
+            ]
+          },
+          "80030506": {
+            "id": "80030506",
+            "speakerId": 1003,
+            "speakerName": "深渊使徒",
+            "text": "你还是这么讨人厌啊，教团之敌，戴因斯雷布！",
+            "nextDialogs": [
+              "80030507"
+            ]
+          },
+          "80030507": {
+            "id": "80030507",
+            "speakerId": 1003,
+            "speakerName": "深渊使徒",
+            "text": "我能感受到，你身上有股可怕的血腥味。是来自漆黑的噩梦，亦或是…嗯？",
+            "nextDialogs": [
+              "80030508"
+            ]
+          },
+          "80030508": {
+            "id": "80030508",
+            "speakerId": 1003,
+            "speakerName": "深渊使徒",
+            "text": "噢噢…真危险。你也有那种「腐朽」的味道，让我熟悉…",
+            "nextDialogs": [
+              "80030509"
+            ]
+          },
+          "80030509": {
+            "id": "80030509",
+            "speakerId": 1003,
+            "speakerName": "深渊使徒",
+            "text": "你和我们一样，都是危险的事物。但「教团」以外的危险之物，都该被放在笼子里才对…",
+            "nextDialogs": [
+              "80030510"
+            ]
+          },
+          "80030510": {
+            "id": "80030510",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "啧。",
+            "nextDialogs": [
+              "80030511"
+            ]
+          },
+          "80030511": {
+            "id": "80030511",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "你的舌头，恐怕也「腐朽」了太久…",
+            "nextDialogs": [
+              "80030512"
+            ]
+          },
+          "80030512": {
+            "id": "80030512",
+            "speakerId": 1001,
+            "speakerName": "戴因斯雷布",
+            "text": "该切了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800304",
+      "subQuestName": "击败深渊使徒",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800305",
+      "subQuestName": "#与{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_YING|INFO_FEMALE_PRONOUN_KONG]}相会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800311",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

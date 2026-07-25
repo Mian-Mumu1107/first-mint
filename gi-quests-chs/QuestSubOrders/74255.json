@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「木偶」": 1,
+    "娜维娅": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7425501",
+      "subQuestName": "前往千织屋附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7425502",
+      "subQuestName": "前往千织屋附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7425503",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742550301"
+        ],
+        "dialogs": {
+          "742550301": {
+            "id": "742550301",
+            "speakerId": 1000,
+            "speakerName": "娜维娅",
+            "text": "怎么样？桑多涅小姐。还喜欢「桌上剧团」吗？",
+            "nextDialogs": [
+              "742550302"
+            ]
+          },
+          "742550302": {
+            "id": "742550302",
+            "speakerId": 1001,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "742550304"
+            ]
+          },
+          "742550304": {
+            "id": "742550304",
+            "speakerId": 1000,
+            "speakerName": "娜维娅",
+            "text": "好啊，我们下次接着玩！"
+          }
+        }
+      }
+    }
+  ]
+}

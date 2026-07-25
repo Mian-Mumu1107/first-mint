@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1914201",
+      "subQuestName": "前往鸣神大社向八重神子道歉",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1914201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191420198"
+        ],
+        "dialogs": {
+          "191420198": {
+            "id": "191420198",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "千万不能被她带着走！",
+            "nextDialogs": [
+              "191420199"
+            ]
+          },
+          "191420199": {
+            "id": "191420199",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "姑且顺从她的意思吧…"
+          }
+        }
+      }
+    }
+  ]
+}

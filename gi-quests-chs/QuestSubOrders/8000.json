@@ -1,0 +1,616 @@
+{
+  "lineCounts": {
+    "Player": 14,
+    "岚姐": 16,
+    "派蒙": 27,
+    "深渊使徒": 8,
+    "甘雨": 10,
+    "观察「大盗宝家」": 1,
+    "？？？": 2
+  },
+  "subQuests": [
+    {
+      "subId": "800010",
+      "subQuestName": "（test）任务前置提示$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800001",
+      "subQuestName": "接近协会公告板",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000101"
+        ],
+        "dialogs": {
+          "80000101": {
+            "id": "80000101",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "是的，是的。我知道他们什么都敢碰。",
+            "nextDialogs": [
+              "80000102"
+            ]
+          },
+          "80000102": {
+            "id": "80000102",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "七神、魔神、恶龙…就连带上这些背景的古物，他们也没有不敢下手的。",
+            "nextDialogs": [
+              "80000103"
+            ]
+          },
+          "80000103": {
+            "id": "80000103",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "但这一次，是谁给他们的胆子，去动深渊教团的东西…",
+            "nextDialogs": [
+              "80000104"
+            ]
+          },
+          "80000104": {
+            "id": "80000104",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "啊，旅行者，是你们。",
+            "nextDialogs": [
+              "80000105"
+            ]
+          },
+          "80000105": {
+            "id": "80000105",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "咦？甘雨怎么在岚姐这里？是要发布什么委托吗？",
+            "nextDialogs": [
+              "80000106"
+            ]
+          },
+          "80000106": {
+            "id": "80000106",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "#你好，{NICKNAME}。",
+            "nextDialogs": [
+              "80000107"
+            ]
+          },
+          "80000107": {
+            "id": "80000107",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "我们刚才在聊盗宝团的事。",
+            "nextDialogs": [
+              "80000108"
+            ]
+          },
+          "80000108": {
+            "id": "80000108",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "嗯，我们刚才谈到，即使是什么都敢碰的盗宝团，原本也都知道，最好别去接触「深渊」——因为那实在太邪门了。",
+            "nextDialogs": [
+              "80000109"
+            ]
+          },
+          "80000109": {
+            "id": "80000109",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "但我最近从总务司接到情报，蒙德璃月一带的盗宝团南北两大巨头，正准备联合起来做一件大事。",
+            "nextDialogs": [
+              "80000110"
+            ]
+          },
+          "80000110": {
+            "id": "80000110",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "盗宝团…南北两大巨头？",
+            "nextDialogs": [
+              "80000111"
+            ]
+          },
+          "80000111": {
+            "id": "80000111",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "嗯，江湖人称「南长姊」，「北怪鸟」。",
+            "nextDialogs": [
+              "80000112"
+            ]
+          },
+          "80000112": {
+            "id": "80000112",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊，「怪鸟」！我有印象，他在蒙德和安柏交过手…但「南长姊」是谁呢？",
+            "nextDialogs": [
+              "80000116",
+              "80000115"
+            ]
+          },
+          "80000116": {
+            "id": "80000116",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "没错，璃月一带的盗宝团首领，据我所知，那伙人都称她为「大姐头」。",
+            "nextDialogs": [
+              "80000117"
+            ]
+          },
+          "80000117": {
+            "id": "80000117",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "也有人说她的手艺得到过盗宝之神的恩赐，所以是「神之长姊」…但这大概只是以讹传讹。",
+            "nextDialogs": [
+              "80000118"
+            ]
+          },
+          "80000118": {
+            "id": "80000118",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "总而言之，盗宝团发现一座无人发掘过的遗迹，这座遗迹暗中被深渊教团严密守护着。",
+            "nextDialogs": [
+              "80000119"
+            ]
+          },
+          "80000119": {
+            "id": "80000119",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "虽然这是非常危险的征兆，但以盗宝团的思维，只会觉得有宝物…",
+            "nextDialogs": [
+              "80000120"
+            ]
+          },
+          "80000120": {
+            "id": "80000120",
+            "speakerId": 1002,
+            "speakerName": "甘雨",
+            "text": "他们制定了计划，派一批炮灰引开深渊教团的兵力，然后只靠一位最精英的专家深入遗迹，取宝逃离。",
+            "nextDialogs": [
+              "80000121"
+            ]
+          },
+          "80000121": {
+            "id": "80000121",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "为此，据说「大姐头」和「怪鸟」从枫丹请来了一位「大盗宝家」…",
+            "nextDialogs": [
+              "80000122"
+            ]
+          },
+          "80000122": {
+            "id": "80000122",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "「大盗宝家」？是个听起来很有气势的称号呢。",
+            "nextDialogs": [
+              "80000123"
+            ]
+          },
+          "80000123": {
+            "id": "80000123",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "是的，那是一位非常传奇的人物。",
+            "nextDialogs": [
+              "80000124"
+            ]
+          },
+          "80000124": {
+            "id": "80000124",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "所谓「大盗宝家」，在盗宝团的地位，等同于我们冒险家心目中的「大冒险家」。"
+          },
+          "80000115": {
+            "id": "80000115",
+            "speakerId": 1000,
+            "speakerName": "岚姐",
+            "text": "你知道得不少嘛，看来是和盗宝团打过很多交道。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800002",
+      "subQuestName": "前往遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000201"
+        ],
+        "dialogs": {
+          "80000201": {
+            "id": "80000201",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这…好像是个人！",
+            "nextDialogs": [
+              "80000202"
+            ]
+          },
+          "80000202": {
+            "id": "80000202",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "难道是…「大盗宝家」？",
+            "nextDialogs": [
+              "80000203"
+            ]
+          },
+          "80000203": {
+            "id": "80000203",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这个姿势…他在对什么东西「祈祷」吗？",
+            "nextDialogs": [
+              "80000204"
+            ]
+          },
+          "80000204": {
+            "id": "80000204",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "？！",
+            "nextDialogs": [
+              "80000205"
+            ]
+          },
+          "80000205": {
+            "id": "80000205",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那…那是…",
+            "nextDialogs": [
+              "80000208"
+            ]
+          },
+          "80000208": {
+            "id": "80000208",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "为，为什么七天神像…会被这样倒挂…",
+            "nextDialogs": [
+              "80000209"
+            ]
+          },
+          "80000209": {
+            "id": "80000209",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "而且，神像手里…我记得…本来应该捧着一颗宝珠吧？",
+            "nextDialogs": [
+              "80000210"
+            ]
+          },
+          "80000210": {
+            "id": "80000210",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "现在…神像手里捧着的…是什么…？",
+            "nextDialogs": [
+              "80000211"
+            ]
+          },
+          "80000211": {
+            "id": "80000211",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜…好压抑…感觉非常不妙…",
+            "nextDialogs": [
+              "80000212"
+            ]
+          },
+          "80000212": {
+            "id": "80000212",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那个「大盗宝家」也是一动不动的样子，难，难道说，已经…",
+            "nextDialogs": [
+              "80000213"
+            ]
+          },
+          "80000213": {
+            "id": "80000213",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂，你还好吗？",
+            "nextDialogs": [
+              "80000214"
+            ]
+          },
+          "80000214": {
+            "id": "80000214",
+            "speakerId": 1003,
+            "speakerName": "观察「大盗宝家」",
+            "text": "（没有一丝反应，也听不到呼吸声。）",
+            "nextDialogs": [
+              "80000215"
+            ]
+          },
+          "80000215": {
+            "id": "80000215",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "…他，他死了。",
+            "nextDialogs": [
+              "80000216"
+            ]
+          },
+          "80000216": {
+            "id": "80000216",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我…感觉很不好。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800003",
+      "subQuestName": "追踪盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000301"
+        ],
+        "dialogs": {
+          "80000301": {
+            "id": "80000301",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "如此力量…似曾相识…",
+            "nextDialogs": [
+              "80000302"
+            ]
+          },
+          "80000302": {
+            "id": "80000302",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "唔…！",
+            "nextDialogs": [
+              "80000303"
+            ]
+          },
+          "80000303": {
+            "id": "80000303",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "我明白了，原来你就是…那位！",
+            "nextDialogs": [
+              "80000304"
+            ]
+          },
+          "80000304": {
+            "id": "80000304",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "这样说来，我便不应久留了…",
+            "nextDialogs": [
+              "80000305"
+            ]
+          },
+          "80000305": {
+            "id": "80000305",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#呼…真是艰难的战斗。你还好吧，{NICKNAME}？",
+            "nextDialogs": [
+              "80000306"
+            ]
+          },
+          "80000306": {
+            "id": "80000306",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好强的敌人，原来深渊教团里面，还有这么厉害的魔物。",
+            "nextDialogs": [
+              "80000307"
+            ]
+          },
+          "80000307": {
+            "id": "80000307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（它好像…认识我。）",
+            "nextDialogs": [
+              "80000308"
+            ]
+          },
+          "80000308": {
+            "id": "80000308",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯？怎么了，你在想什么？",
+            "nextDialogs": [
+              "80000309"
+            ]
+          },
+          "80000309": {
+            "id": "80000309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没什么，我们赶快离开吧。",
+            "nextDialogs": [
+              "80000310"
+            ]
+          },
+          "80000310": {
+            "id": "80000310",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊，对，我们已经接近遗迹的出口了，快出去吧。这么恐怖的地方，多待一秒都可能有新的危险！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800004",
+      "subQuestName": "察看遗迹深处的情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800005",
+      "subQuestName": "逃离遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800009",
+      "subQuestName": "与深渊使徒交涉",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000401"
+        ],
+        "dialogs": {
+          "80000401": {
+            "id": "80000401",
+            "speakerId": 1005,
+            "speakerName": "？？？",
+            "text": "「深渊」的奥秘，不可窥探。",
+            "nextDialogs": [
+              "80000402"
+            ]
+          },
+          "80000402": {
+            "id": "80000402",
+            "speakerId": 1005,
+            "speakerName": "？？？",
+            "text": "汝等来此，汝等直视。那么，就应当承担与之对等的代价。",
+            "nextDialogs": [
+              "80000403"
+            ]
+          },
+          "80000403": {
+            "id": "80000403",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "——谴罚，由「使徒」降下。",
+            "nextDialogs": [
+              "80000404"
+            ]
+          },
+          "80000404": {
+            "id": "80000404",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "「深渊」…「使徒」？",
+            "nextDialogs": [
+              "80000407"
+            ]
+          },
+          "80000407": {
+            "id": "80000407",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "戴因…戴因斯雷布？原来如此，本以为你们只是误闯的老鼠，却也与那纠缠不休之人有关…",
+            "nextDialogs": [
+              "80000408"
+            ]
+          },
+          "80000408": {
+            "id": "80000408",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "他派你们来送死？他对「深渊」的反抗早已陷入僵局，绝不会因为微不足道的波澜，产生新的变数…",
+            "nextDialogs": [
+              "80000409"
+            ]
+          },
+          "80000409": {
+            "id": "80000409",
+            "speakerId": 1004,
+            "speakerName": "深渊使徒",
+            "text": "「深渊」…无可阻挡！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800006",
+      "subQuestName": "打倒深渊使徒",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800008",
+      "subQuestName": "与深渊使徒对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800007",
+      "subQuestName": "离开遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800000",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000001"
+        ],
+        "dialogs": {
+          "80000001": {
+            "id": "80000001",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这是什么力量…从来没有见过…",
+            "nextDialogs": [
+              "80000002"
+            ]
+          },
+          "80000002": {
+            "id": "80000002",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "当心了！千万不要大意！"
+          }
+        }
+      }
+    }
+  ]
+}

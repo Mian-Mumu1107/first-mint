@@ -1,0 +1,74 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "鲸井椛": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7266701",
+      "subQuestName": "等待玩家饵料数低于1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "726670101"
+        ],
+        "dialogs": {
+          "726670101": {
+            "id": "726670101",
+            "speakerId": 1000,
+            "speakerName": "鲸井椛",
+            "text": "「鲸井」流…",
+            "nextDialogs": [
+              "726670102"
+            ]
+          },
+          "726670102": {
+            "id": "726670102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我的「荧草饵」用完了。",
+            "nextDialogs": [
+              "726670103"
+            ]
+          },
+          "726670103": {
+            "id": "726670103",
+            "speakerId": 1000,
+            "speakerName": "鲸井椛",
+            "text": "欸？还好上次你带来的材料充足，我做了很多备用的。",
+            "nextDialogs": [
+              "726670104"
+            ]
+          },
+          "726670104": {
+            "id": "726670104",
+            "speakerId": 1000,
+            "speakerName": "鲸井椛",
+            "text": "来，这些你拿去吧，如果用完了可以再来找我。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7266702",
+      "subQuestName": "与鲸井椛对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7266703",
+      "subQuestName": "回滚任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "lineCounts": {
+    "派蒙": 2,
+    "温迪": 1,
+    "琴": 3,
+    "迪卢克": 1
+  },
+  "subQuests": [
+    {
+      "subId": "38001",
+      "subQuestName": "前往千风神殿",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3800101"
+        ],
+        "dialogs": {
+          "3800101": {
+            "id": "3800101",
+            "speakerId": 1000,
+            "speakerName": "琴",
+            "text": "迪卢克…我听说，最近愚人众宣布你是「不受欢迎的人」。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "38002",
+      "subQuestName": "完成挑战，消灭守卫怪物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38003",
+      "subQuestName": "获得风龙泪滴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38004",
+      "subQuestName": "与琴对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3810118"
+        ],
+        "dialogs": {
+          "3810118": {
+            "id": "3810118",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "没想到在这种地方找到了龙泪呢。",
+            "nextDialogs": [
+              "3810119"
+            ]
+          },
+          "3810119": {
+            "id": "3810119",
+            "speakerId": 1000,
+            "speakerName": "琴",
+            "text": "身为骑士，我对「搜寻」这门技术很有自信。",
+            "nextDialogs": [
+              "3810120"
+            ]
+          },
+          "3810120": {
+            "id": "3810120",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哦！真可靠。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "37905",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3790501"
+        ],
+        "dialogs": {
+          "3790501": {
+            "id": "3790501",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "哈哈，以后真的会被小派蒙一直被叫做「卖唱的」了吗？我真是一个可怜的诗人——",
+            "nextDialogs": [
+              "3790502"
+            ]
+          },
+          "3790502": {
+            "id": "3790502",
+            "speakerId": 1000,
+            "speakerName": "琴",
+            "text": "事不宜迟，出发吧。",
+            "nextDialogs": [
+              "3790503"
+            ]
+          },
+          "3790503": {
+            "id": "3790503",
+            "speakerId": 1003,
+            "speakerName": "迪卢克",
+            "text": "为何能做到这种事…在你身上真是充满了谜团。"
+          }
+        }
+      }
+    }
+  ]
+}

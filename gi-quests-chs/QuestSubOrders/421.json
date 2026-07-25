@@ -1,0 +1,86 @@
+{
+  "lineCounts": {
+    "(test)商店老板02$UNRELEASED": 1,
+    "奥特": 1,
+    "派蒙": 1
+  },
+  "subQuests": [
+    {
+      "subId": "42101",
+      "subQuestName": "(test)守卫自动触发对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3750301"
+        ],
+        "dialogs": {
+          "3750301": {
+            "id": "3750301",
+            "speakerId": 1000,
+            "speakerName": "(test)商店老板02$UNRELEASED",
+            "text": "别动！$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "42102",
+      "subQuestName": "(test)传送出去&回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42103",
+      "subQuestName": "(test)潜行完成&再次进入教堂$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42104",
+      "subQuestName": "(test)结束父任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "37502",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3750202"
+        ],
+        "dialogs": {
+          "3750202": {
+            "id": "3750202",
+            "speakerId": 1001,
+            "speakerName": "奥特",
+            "text": "麻烦啊，这地下室入口真的需要在整个<color=#00E1FFFF>白天</color>一直守卫吗…\\n喂！你站住，这里禁止通行！",
+            "nextDialogs": [
+              "3750203"
+            ]
+          },
+          "3750203": {
+            "id": "3750203",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "看来只能等到<color=#00E1FFFF>晚上</color>再悄悄溜进去了。"
+          }
+        }
+      }
+    }
+  ]
+}

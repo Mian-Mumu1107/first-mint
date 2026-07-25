@@ -1,0 +1,660 @@
+{
+  "lineCounts": {
+    "Black Screen": 2,
+    "Player": 30,
+    "「吉法师」": 36,
+    "派蒙": 44
+  },
+  "subQuests": [
+    {
+      "subId": "7226201",
+      "subQuestName": "(test)在活动界面接取第5天任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620101"
+        ],
+        "dialogs": {
+          "722620101": {
+            "id": "722620101",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "哇。这里的大海，漂亮。",
+            "nextDialogs": [
+              "722620102"
+            ]
+          },
+          "722620102": {
+            "id": "722620102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸？荻花洲不是大海啦。",
+            "nextDialogs": [
+              "722620103"
+            ]
+          },
+          "722620103": {
+            "id": "722620103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "但荻花洲的水域确实和海连在一起…",
+            "nextDialogs": [
+              "722620104"
+            ]
+          },
+          "722620104": {
+            "id": "722620104",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯，说得也是…不过，如果要说荻花洲是海，感觉还是不对。",
+            "nextDialogs": [
+              "722620105"
+            ]
+          },
+          "722620105": {
+            "id": "722620105",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呶…不是很明白。「大海」和「不是大海」，区别是什么？",
+            "nextDialogs": [
+              "722620107",
+              "722620111",
+              "722620115"
+            ]
+          },
+          "722620107": {
+            "id": "722620107",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "喔！森林的溪水有点甜味，所以不是海。",
+            "nextDialogs": [
+              "722620108"
+            ]
+          },
+          "722620108": {
+            "id": "722620108",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "但是，如果果酒湖里都是果酒的话，应该算什么呢…？",
+            "nextDialogs": [
+              "722620109"
+            ]
+          },
+          "722620109": {
+            "id": "722620109",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那样的话温迪会很快乐吧。",
+            "nextDialogs": [
+              "722620120"
+            ]
+          },
+          "722620120": {
+            "id": "722620120",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，这个问题先放一边，吉法师是不是越来越会说话了？"
+          },
+          "722620111": {
+            "id": "722620111",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇，听起来好严谨的答案！但是，这样的话，问题又回到了「分界」上呢。",
+            "nextDialogs": [
+              "722620112"
+            ]
+          },
+          "722620112": {
+            "id": "722620112",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "#{NICKNAME}刚刚说，荻花洲的水和大海连在一起。那「陆地煮煮」和不是「陆地煮煮」，区别又是什么哩？",
+            "nextDialogs": [
+              "722620113"
+            ]
+          },
+          "722620113": {
+            "id": "722620113",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "…虽然听起来严谨，却没有解决任何问题呢！"
+          },
+          "722620115": {
+            "id": "722620115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "荻花洲觉得自己是大海，就是大海。",
+            "nextDialogs": [
+              "722620116"
+            ]
+          },
+          "722620116": {
+            "id": "722620116",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "吉法师觉得自己是仙人，就是仙人呶？",
+            "nextDialogs": [
+              "722620117"
+            ]
+          },
+          "722620117": {
+            "id": "722620117",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#喂！吉法师别听{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}的。{NICKNAME}，你在说什么呀…",
+            "nextDialogs": [
+              "722620118"
+            ]
+          },
+          "722620118": {
+            "id": "722620118",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "…不过，虽然是歪理，也不是完全没道理啦。吉法师想成为什么样的妖狸，就能成为什么样的妖狸！说不定未来能变成仙狸呢！",
+            "nextDialogs": [
+              "722620119"
+            ]
+          },
+          "722620119": {
+            "id": "722620119",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "仙狸！耶！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226202",
+      "subQuestName": "前往能望到荻花洲的地方",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226203",
+      "subQuestName": "为吉法师拍照",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620301"
+        ],
+        "dialogs": {
+          "722620301": {
+            "id": "722620301",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呜呶呶…为什么…",
+            "nextDialogs": [
+              "722620302"
+            ]
+          },
+          "722620302": {
+            "id": "722620302",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "吉法师真是的！怎么就冲进丘丘人的据点里了呢？",
+            "nextDialogs": [
+              "722620303"
+            ]
+          },
+          "722620303": {
+            "id": "722620303",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "本来以为…能和丘丘人一起玩…",
+            "nextDialogs": [
+              "722620304"
+            ]
+          },
+          "722620304": {
+            "id": "722620304",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸？为什么这么想？丘丘人是很危险的魔物…",
+            "nextDialogs": [
+              "722620306",
+              "722620308"
+            ]
+          },
+          "722620306": {
+            "id": "722620306",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂！吉法师可不是像你这样身经百战的旅行者啦！",
+            "nextDialogs": [
+              "722620309"
+            ]
+          },
+          "722620309": {
+            "id": "722620309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在镇守之森第一次见面的时候…",
+            "nextDialogs": [
+              "722620310"
+            ]
+          },
+          "722620310": {
+            "id": "722620310",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "对呀，当时吉法师不是被丘丘人包围着，变成了什么东西躲起来了吗？",
+            "nextDialogs": [
+              "722620311"
+            ]
+          },
+          "722620311": {
+            "id": "722620311",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "刚刚见到你们的时候…我想想…我想想…啊，对了。",
+            "nextDialogs": [
+              "722620312"
+            ]
+          },
+          "722620312": {
+            "id": "722620312",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "那时候，是在和丘丘人捉迷藏。森林里的丘丘人，是不会攻击妖狸的。而且，经常陪我们玩。",
+            "nextDialogs": [
+              "722620313"
+            ]
+          },
+          "722620313": {
+            "id": "722620313",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸？是形成了什么和谐共生的关系吗…",
+            "nextDialogs": [
+              "722620314"
+            ]
+          },
+          "722620314": {
+            "id": "722620314",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "不知道为什么，这里的丘丘人会这样。呜呶呶…",
+            "nextDialogs": [
+              "722620315"
+            ]
+          },
+          "722620315": {
+            "id": "722620315",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "总之，在外面要多加小心啦！即使是丘丘人…不对，应该说，正因为是丘丘人…",
+            "nextDialogs": [
+              "722620316"
+            ]
+          },
+          "722620316": {
+            "id": "722620316",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#呜哇，好复杂…{NICKNAME}，你来帮我说！",
+            "nextDialogs": [
+              "722620317"
+            ]
+          },
+          "722620317": {
+            "id": "722620317",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "要学会分辨好人和坏人。",
+            "nextDialogs": [
+              "722620318"
+            ]
+          },
+          "722620318": {
+            "id": "722620318",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯！这样才能在外面，保护好自己。",
+            "nextDialogs": [
+              "722620319"
+            ]
+          },
+          "722620319": {
+            "id": "722620319",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "但是也不要忘了善良和开放的心。",
+            "nextDialogs": [
+              "722620320"
+            ]
+          },
+          "722620320": {
+            "id": "722620320",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯嗯，没错！这样才能容纳美好的事物。",
+            "nextDialogs": [
+              "722620321"
+            ]
+          },
+          "722620321": {
+            "id": "722620321",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呶…",
+            "nextDialogs": [
+              "722620322"
+            ]
+          },
+          "722620322": {
+            "id": "722620322",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "#{NICKNAME}和派蒙说得好复杂，吉法师听不懂。",
+            "nextDialogs": [
+              "722620323"
+            ]
+          },
+          "722620323": {
+            "id": "722620323",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "但是，吉法师知道，你们是好人。所以，吉法师要学你们。",
+            "nextDialogs": [
+              "722620324"
+            ]
+          },
+          "722620324": {
+            "id": "722620324",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#好啦，不说这个了。先跟{NICKNAME}学习钓鱼吧！",
+            "nextDialogs": [
+              "722620325"
+            ]
+          },
+          "722620325": {
+            "id": "722620325",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "嗯！钓鱼！"
+          },
+          "722620308": {
+            "id": "722620308",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "也不用这样吓唬他啦！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226204",
+      "subQuestName": "与吉法师对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620201"
+        ],
+        "dialogs": {
+          "722620201": {
+            "id": "722620201",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "拍好了！",
+            "nextDialogs": [
+              "722620202"
+            ]
+          },
+          "722620202": {
+            "id": "722620202",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "接下来的话…",
+            "nextDialogs": [
+              "722620203"
+            ]
+          },
+          "722620203": {
+            "id": "722620203",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯，就这么办吧！吉法师，钓过鱼吗？",
+            "nextDialogs": [
+              "722620204"
+            ]
+          },
+          "722620204": {
+            "id": "722620204",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "钓鱼？",
+            "nextDialogs": [
+              "722620205"
+            ]
+          },
+          "722620205": {
+            "id": "722620205",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "看来没试过呢！走，我们到水边去吧！",
+            "nextDialogs": [
+              "722620206"
+            ]
+          },
+          "722620206": {
+            "id": "722620206",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "好！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226205",
+      "subQuestName": "跟上吉法师",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620501"
+        ],
+        "dialogs": {
+          "722620501": {
+            "id": "722620501",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "好想玩水呶。",
+            "nextDialogs": [
+              "722620502"
+            ]
+          },
+          "722620502": {
+            "id": "722620502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "现在不可以，会把鱼儿吓跑的。",
+            "nextDialogs": [
+              "722620503"
+            ]
+          },
+          "722620503": {
+            "id": "722620503",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "嗯。知道了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226206",
+      "subQuestName": "打败丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620601"
+        ],
+        "dialogs": {
+          "722620601": {
+            "id": "722620601",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呶，为什么不能直接到水里去抓鱼呢？",
+            "nextDialogs": [
+              "722620605"
+            ]
+          },
+          "722620605": {
+            "id": "722620605",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯，钓鱼也是一种很好的修行方式喔！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226207",
+      "subQuestName": "与吉法师对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226208",
+      "subQuestName": "前往目的地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722620401"
+        ],
+        "dialogs": {
+          "722620401": {
+            "id": "722620401",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嗯，这边应该不错！",
+            "nextDialogs": [
+              "722620402"
+            ]
+          },
+          "722620402": {
+            "id": "722620402",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "吉法师想玩水！",
+            "nextDialogs": [
+              "722620403"
+            ]
+          },
+          "722620403": {
+            "id": "722620403",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂，现在不行！会把鱼儿吓跑的！",
+            "nextDialogs": [
+              "722620404"
+            ]
+          },
+          "722620404": {
+            "id": "722620404",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "简单扼要地教了教钓鱼的基础。\\n虽说教学尽量简明扼要，但究竟能听懂多少呢…",
+            "nextDialogs": [
+              "722620405"
+            ]
+          },
+          "722620405": {
+            "id": "722620405",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "鱼儿！",
+            "nextDialogs": [
+              "722620406"
+            ]
+          },
+          "722620406": {
+            "id": "722620406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "听明白了吗？",
+            "nextDialogs": [
+              "722620407"
+            ]
+          },
+          "722620407": {
+            "id": "722620407",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呶哈哈，鱼儿好笨哦。会被吃的东西骗。",
+            "nextDialogs": [
+              "722620409",
+              "722620411"
+            ]
+          },
+          "722620409": {
+            "id": "722620409",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂！",
+            "nextDialogs": [
+              "722620413"
+            ]
+          },
+          "722620413": {
+            "id": "722620413",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "毕竟，追求美食的心谁都有嘛！",
+            "nextDialogs": [
+              "722620414"
+            ]
+          },
+          "722620414": {
+            "id": "722620414",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#那么，{NICKNAME}，就拜托你给吉法师露一手啦！"
+          },
+          "722620411": {
+            "id": "722620411",
+            "speakerId": 1000,
+            "speakerName": "「吉法师」",
+            "text": "呶？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226209",
+      "subQuestName": "在指定地点钓上3条鱼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226210",
+      "subQuestName": "与吉法师对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "lineCounts": {
+    "Player": 2,
+    "「卡布斯」": 1,
+    "「贡达法」": 1,
+    "演出公告": 1
+  },
+  "subQuests": [
+    {
+      "subId": "1909301",
+      "subQuestName": "回到蒙德城",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1907309",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190730902"
+        ],
+        "dialogs": {
+          "190730902": {
+            "id": "190730902",
+            "speakerId": 1000,
+            "speakerName": "「卡布斯」",
+            "text": "你怎么擅自回来了？",
+            "nextDialogs": [
+              "190730901"
+            ]
+          },
+          "190730901": {
+            "id": "190730901",
+            "speakerId": 1001,
+            "speakerName": "「贡达法」",
+            "text": "带着王子的书信，我离开了前线回到王庭。我的王，贡达法求见。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1909301",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190930196"
+        ],
+        "dialogs": {
+          "190930196": {
+            "id": "190930196",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我可以帮凯亚一起送纪念品，不会麻烦。",
+            "nextDialogs": [
+              "190930197"
+            ]
+          },
+          "190930197": {
+            "id": "190930197",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我可以陪凯亚一起放松，不会无聊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1909305",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190930501"
+        ],
+        "dialogs": {
+          "190930501": {
+            "id": "190930501",
+            "speakerId": 1002,
+            "speakerName": "演出公告",
+            "text": "卡布斯剧团驻演中。购买酒水即可欣赏免费演出！"
+          }
+        }
+      }
+    }
+  ]
+}

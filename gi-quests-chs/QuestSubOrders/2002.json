@@ -1,0 +1,3434 @@
+{
+  "lineCounts": {
+    "Player": 50,
+    "一弦": 4,
+    "一柱": 11,
+    "一然": 5,
+    "伊凡诺维奇": 4,
+    "北斗": 21,
+    "参赛者": 2,
+    "嘉义": 5,
+    "大坤": 5,
+    "娜蒂亚": 6,
+    "安德烈": 4,
+    "宜年": 6,
+    "小千": 4,
+    "小安": 5,
+    "弗拉德": 6,
+    "弗莱琪": 5,
+    "快刀陈": 7,
+    "慕胜": 4,
+    "效言": 18,
+    "景明": 6,
+    "枫原万叶": 58,
+    "江舟": 26,
+    "派蒙": 15,
+    "独孤朔": 9,
+    "珠函": 8,
+    "琳琅": 5,
+    "瑞锦": 15,
+    "畅畅": 4,
+    "百闻": 2,
+    "萍姥姥": 10,
+    "长顺": 6,
+    "阿宽": 4,
+    "霖铃": 10,
+    "飞飞": 23
+  },
+  "subQuests": [
+    {
+      "subId": "200202",
+      "subQuestName": "进入场地，参加决赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20020201"
+        ],
+        "dialogs": {
+          "20020201": {
+            "id": "20020201",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "唔，怎么还没有来…",
+            "nextDialogs": [
+              "20020202"
+            ]
+          },
+          "20020202": {
+            "id": "20020202",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "#算了，还是先开始你的隆重登场好了，{NICKNAME}。",
+            "nextDialogs": [
+              "20020203"
+            ]
+          },
+          "20020203": {
+            "id": "20020203",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "各位，安静一下，注意这边！",
+            "nextDialogs": [
+              "20020204"
+            ]
+          },
+          "20020204": {
+            "id": "20020204",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "紧张刺激的「南十字武斗会」，终于来到了最后的决赛。",
+            "nextDialogs": [
+              "20020205"
+            ]
+          },
+          "20020205": {
+            "id": "20020205",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "经历了许多许多惊心动魄的比试之后，终于有两位选手来到了今天的舞台之上。",
+            "nextDialogs": [
+              "20020206"
+            ]
+          },
+          "20020206": {
+            "id": "20020206",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "#首先，我要介绍的这一位，大家就算没有见过，也一定听过{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}的名声。",
+            "nextDialogs": [
+              "20020207"
+            ]
+          },
+          "20020207": {
+            "id": "20020207",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}就是，令魔神奥赛尔也为之胆寒，愚人众的执行官也闻之色变的，璃月的异乡人英雄！{NICKNAME}！",
+            "nextDialogs": [
+              "20020208"
+            ]
+          },
+          "20020208": {
+            "id": "20020208",
+            "speakerId": 1001,
+            "speakerName": "参赛者",
+            "text": "哦哦哦哦哦哦哦——！",
+            "nextDialogs": [
+              "20020209"
+            ]
+          },
+          "20020209": {
+            "id": "20020209",
+            "speakerId": 1001,
+            "speakerName": "参赛者",
+            "text": "等了好久了！",
+            "nextDialogs": [
+              "20020210"
+            ]
+          },
+          "20020210": {
+            "id": "20020210",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "#想必在半决赛的时候，大家都看到了{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}的精彩表现。",
+            "nextDialogs": [
+              "20020211"
+            ]
+          },
+          "20020211": {
+            "id": "20020211",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "今天的决赛，精彩程度一定会更胜一筹！",
+            "nextDialogs": [
+              "20020212"
+            ]
+          },
+          "20020212": {
+            "id": "20020212",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "而我们的另一位选手…唔，现在还没有到场。",
+            "nextDialogs": [
+              "20020213"
+            ]
+          },
+          "20020213": {
+            "id": "20020213",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "真是的，搞什么去了。决赛又不能像是之前的比赛，直接判定弃权…",
+            "nextDialogs": [
+              "20020214"
+            ]
+          },
+          "20020214": {
+            "id": "20020214",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "抱歉抱歉，麻烦大家再稍等一会儿！",
+            "nextDialogs": [
+              "20020217"
+            ]
+          },
+          "20020217": {
+            "id": "20020217",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "不管怎么样，如果还不到场的话，这场决赛就只能延期了…",
+            "nextDialogs": [
+              "20020218"
+            ]
+          },
+          "20020218": {
+            "id": "20020218",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "等等，我觉得有点奇怪。",
+            "nextDialogs": [
+              "20020219"
+            ]
+          },
+          "20020219": {
+            "id": "20020219",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "大姐头，我们去检查一下奖品吧，就是那个放置神之眼的盒子。",
+            "nextDialogs": [
+              "20020220"
+            ]
+          },
+          "20020220": {
+            "id": "20020220",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "#{NICKNAME}，你也跟我们过来。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200203",
+      "subQuestName": "查看存放神之眼的箱子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200213",
+      "subQuestName": "（test）隐藏任务移除箱子$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200204",
+      "subQuestName": "随万叶追寻神之眼的去向",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20020401"
+        ],
+        "dialogs": {
+          "20020401": {
+            "id": "20020401",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "我看看…",
+            "nextDialogs": [
+              "20020402"
+            ]
+          },
+          "20020402": {
+            "id": "20020402",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "嗯…那颗神之眼居然不见了。",
+            "nextDialogs": [
+              "20020403"
+            ]
+          },
+          "20020403": {
+            "id": "20020403",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "是被偷了吗？光天化日之下，谁能做得到这种事？",
+            "nextDialogs": [
+              "20020404"
+            ]
+          },
+          "20020404": {
+            "id": "20020404",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "而且也不知道是什么时候下的手…",
+            "nextDialogs": [
+              "20020405"
+            ]
+          },
+          "20020405": {
+            "id": "20020405",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "呵，没料到趁我兴起，有人敢钻我北斗的空子。",
+            "nextDialogs": [
+              "20020406"
+            ]
+          },
+          "20020406": {
+            "id": "20020406",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "不用太着急，再高明的手法也瞒不过自然的眼睛。",
+            "nextDialogs": [
+              "20020407"
+            ]
+          },
+          "20020407": {
+            "id": "20020407",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "嗯…行窃的人是刚刚下手的，并且还没有跑得太远。",
+            "nextDialogs": [
+              "20020408"
+            ]
+          },
+          "20020408": {
+            "id": "20020408",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "神之眼是我许诺的奖品，没有看好它也是我的责任，我会负责把它找回来的。",
+            "nextDialogs": [
+              "20020409"
+            ]
+          },
+          "20020409": {
+            "id": "20020409",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "唔，既然你这么说，那只能这样了…",
+            "nextDialogs": [
+              "20020410"
+            ]
+          },
+          "20020410": {
+            "id": "20020410",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "我要留在这里，给这些来看武斗会的人一个解释。",
+            "nextDialogs": [
+              "20020411"
+            ]
+          },
+          "20020411": {
+            "id": "20020411",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "#对了，{NICKNAME}，你也跟我一起去吧。",
+            "nextDialogs": [
+              "20020414"
+            ]
+          },
+          "20020414": {
+            "id": "20020414",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "但是，这里是个岛啊，追的话，往哪里追？",
+            "nextDialogs": [
+              "20020415"
+            ]
+          },
+          "20020415": {
+            "id": "20020415",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "跟我来吧，我能感觉到，「风」快要来了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200201",
+      "subQuestName": "前往乘风之处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20020101"
+        ],
+        "dialogs": {
+          "20020101": {
+            "id": "20020101",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "请直接入场吧，大姐头已经在等你了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200205",
+      "subQuestName": "前往前方小岛，寻找线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200206",
+      "subQuestName": "与万叶一起确认线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200207",
+      "subQuestName": "继续向前追踪",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200208",
+      "subQuestName": "击败拦路的盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200209",
+      "subQuestName": "与偷走神之眼的盗宝团交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20020901"
+        ],
+        "dialogs": {
+          "20020901": {
+            "id": "20020901",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "怎么会有人比我跑得还快！",
+            "nextDialogs": [
+              "20020902"
+            ]
+          },
+          "20020902": {
+            "id": "20020902",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "为了顺利逃跑我还提前准备了船，居然一下子就被追上了！",
+            "nextDialogs": [
+              "20020903"
+            ]
+          },
+          "20020903": {
+            "id": "20020903",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "船再快，也比不上风的速度啊。",
+            "nextDialogs": [
+              "20020904"
+            ]
+          },
+          "20020904": {
+            "id": "20020904",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "风？你在说什么…啊，我明白了，是你神之眼的能力吧！",
+            "nextDialogs": [
+              "20020905"
+            ]
+          },
+          "20020905": {
+            "id": "20020905",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "可恶，要是我也有神之眼…或者如果我能让这颗神之眼亮起来，你们怎么可能追得到我！",
+            "nextDialogs": [
+              "20020906"
+            ]
+          },
+          "20020906": {
+            "id": "20020906",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "和神之眼无关，或许你很擅长在「人群」中销声匿迹，但显然你还不知道如何甩开「自然」的目光。",
+            "nextDialogs": [
+              "20020907"
+            ]
+          },
+          "20020907": {
+            "id": "20020907",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "此外，逃跑路径的选择也破绽百出，而且，我循风而来的路上，还听到了你得意洋洋的炫耀与放声大笑…",
+            "nextDialogs": [
+              "20020908"
+            ]
+          },
+          "20020908": {
+            "id": "20020908",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "换句话说，神偷的三项信条，「迅速」，「隐秘」，「优雅」，你一项都没有做到。",
+            "nextDialogs": [
+              "20020909"
+            ]
+          },
+          "20020909": {
+            "id": "20020909",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "你、你…",
+            "nextDialogs": [
+              "20020910"
+            ]
+          },
+          "20020910": {
+            "id": "20020910",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "但比起这些，更令我失望的是你手中神之眼的状态…",
+            "nextDialogs": [
+              "20020911"
+            ]
+          },
+          "20020911": {
+            "id": "20020911",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "——果然，它不会无差别地回应「愿望」呢。",
+            "nextDialogs": [
+              "20020912"
+            ]
+          },
+          "20020912": {
+            "id": "20020912",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "行吧行吧！这次算我认栽了！",
+            "nextDialogs": [
+              "20020913"
+            ]
+          },
+          "20020913": {
+            "id": "20020913",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "这神之眼我盯上它很久了，听说这次武斗会的参赛者都是不入流的家伙，我就报了名，一路打到了决赛…",
+            "nextDialogs": [
+              "20020914"
+            ]
+          },
+          "20020914": {
+            "id": "20020914",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "原来你就是我们的决赛对手啊。",
+            "nextDialogs": [
+              "20020915"
+            ]
+          },
+          "20020915": {
+            "id": "20020915",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "本来我以为凭实力夺冠也没问题！结果，就是因为你们突然杀了出来！",
+            "nextDialogs": [
+              "20020916"
+            ]
+          },
+          "20020916": {
+            "id": "20020916",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "我看了半决赛，我当场就知道我没有半点胜算，但都已经到这份儿上了，我肯定不甘心放弃神之眼啊！",
+            "nextDialogs": [
+              "20020917"
+            ]
+          },
+          "20020917": {
+            "id": "20020917",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "既然明争行不通，那…我就趁大家的注意力在北斗和你的身上时，用上了我老本行的技巧…",
+            "nextDialogs": [
+              "20020918"
+            ]
+          },
+          "20020918": {
+            "id": "20020918",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "明明我的准备已经够充分，结果还是被你们追上了。",
+            "nextDialogs": [
+              "20020920",
+              "20020922"
+            ]
+          },
+          "20020920": {
+            "id": "20020920",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "该死，还是不甘心啊…",
+            "nextDialogs": [
+              "20020923"
+            ]
+          },
+          "20020923": {
+            "id": "20020923",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再抵抗的话，代价就大了。",
+            "nextDialogs": [
+              "20020924"
+            ]
+          },
+          "20020924": {
+            "id": "20020924",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "赤裸裸的威胁啊…",
+            "nextDialogs": [
+              "20020928"
+            ]
+          },
+          "20020928": {
+            "id": "20020928",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "行，不过你要说话算话！反正我拿到它，它也没被唤醒，那就只是个没用的壳子而已。",
+            "nextDialogs": [
+              "20020929"
+            ]
+          },
+          "20020929": {
+            "id": "20020929",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "那怎么行，光是偷东西这一项罪责，按海上的规矩，就应该断臂赎罪。",
+            "nextDialogs": [
+              "20020930"
+            ]
+          },
+          "20020930": {
+            "id": "20020930",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "噫？！不至于吧！",
+            "nextDialogs": [
+              "20020931"
+            ]
+          },
+          "20020931": {
+            "id": "20020931",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "再加上你偷走了奖品，没有参加决赛，让「南十字」船队的首领北斗丢了面子。",
+            "nextDialogs": [
+              "20020932"
+            ]
+          },
+          "20020932": {
+            "id": "20020932",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "看来，还要用烫红的烙铁，在你的脸上烙下「小偷」两字，才算公允吧。",
+            "nextDialogs": [
+              "20020933"
+            ]
+          },
+          "20020933": {
+            "id": "20020933",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "喂喂，不用这么狠吧？",
+            "nextDialogs": [
+              "20020934"
+            ]
+          },
+          "20020934": {
+            "id": "20020934",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "可恶，没想到你这个人这么心狠手辣！",
+            "nextDialogs": [
+              "20020935"
+            ]
+          },
+          "20020935": {
+            "id": "20020935",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "既然没得谈，那还废什么话，我跟你们拼了！"
+          },
+          "20020922": {
+            "id": "20020922",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "可是，好不容易才拿到的。",
+            "nextDialogs": [
+              "20020925"
+            ]
+          },
+          "20020925": {
+            "id": "20020925",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "乖乖听话的话就什么事都没有。",
+            "nextDialogs": [
+              "20020926"
+            ]
+          },
+          "20020926": {
+            "id": "20020926",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "真、真的吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200210",
+      "subQuestName": "击败盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200211",
+      "subQuestName": "再次与盗宝团交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20021101"
+        ],
+        "dialogs": {
+          "20021101": {
+            "id": "20021101",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "可、可恶…",
+            "nextDialogs": [
+              "20021102"
+            ]
+          },
+          "20021102": {
+            "id": "20021102",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "不要，不要，只有烙字千万不要…！求求你了！",
+            "nextDialogs": [
+              "20021103"
+            ]
+          },
+          "20021103": {
+            "id": "20021103",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "生死攸关，已尽全力之人，依然无法令神明垂青。",
+            "nextDialogs": [
+              "20021104"
+            ]
+          },
+          "20021104": {
+            "id": "20021104",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "留下神之眼快走吧，我心意已改，之前的责罚，不作数了。",
+            "nextDialogs": [
+              "20021105"
+            ]
+          },
+          "20021105": {
+            "id": "20021105",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "欸？",
+            "nextDialogs": [
+              "20021106"
+            ]
+          },
+          "20021106": {
+            "id": "20021106",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "怎么，难道你又想主动受罚了？",
+            "nextDialogs": [
+              "20021107"
+            ]
+          },
+          "20021107": {
+            "id": "20021107",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "那我当然无所谓，这种符合武士之道的觉悟值得赞赏。",
+            "nextDialogs": [
+              "20021108"
+            ]
+          },
+          "20021108": {
+            "id": "20021108",
+            "speakerId": 1005,
+            "speakerName": "飞飞",
+            "text": "不不不，怎么可能呢，谢谢放过，谢谢大人有大量！",
+            "nextDialogs": [
+              "20021110"
+            ]
+          },
+          "20021110": {
+            "id": "20021110",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "没太明白，你只是故意想吓唬他？",
+            "nextDialogs": [
+              "20021111"
+            ]
+          },
+          "20021111": {
+            "id": "20021111",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "我没有这种古怪的兴趣，只是神之眼还在他的手上，我想试试最后的可能性。",
+            "nextDialogs": [
+              "20021112"
+            ]
+          },
+          "20021112": {
+            "id": "20021112",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "人被逼入绝境之时，会爆发出相当强大的力量，我原以为，这会成为神之眼亮起的契机。",
+            "nextDialogs": [
+              "20021113"
+            ]
+          },
+          "20021113": {
+            "id": "20021113",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "可惜，什么都没有发生。",
+            "nextDialogs": [
+              "20021114"
+            ]
+          },
+          "20021114": {
+            "id": "20021114",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "从头到尾，都是为了这件事？",
+            "nextDialogs": [
+              "20021115"
+            ]
+          },
+          "20021115": {
+            "id": "20021115",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "是的，我只想知道熄灭的神之眼，有无重燃的可能性。",
+            "nextDialogs": [
+              "20021116"
+            ]
+          },
+          "20021116": {
+            "id": "20021116",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "从察觉到他在偷那颗神之眼的时候起，我就决定用他来做这场「实验」了。",
+            "nextDialogs": [
+              "20021117"
+            ]
+          },
+          "20021117": {
+            "id": "20021117",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "而且在过去的时间里，我也已经尝试过许多种办法。",
+            "nextDialogs": [
+              "20021190"
+            ]
+          },
+          "20021190": {
+            "id": "20021190",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "虽然「无主的神之眼还能重新发光」这种事，我只在少数传说中听说过。",
+            "nextDialogs": [
+              "20021191"
+            ]
+          },
+          "20021191": {
+            "id": "20021191",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "但既然见识到了你可以同时掌控多种元素，还有什么是不可能的呢？",
+            "nextDialogs": [
+              "20021192"
+            ]
+          },
+          "20021192": {
+            "id": "20021192",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "来，你也试试看吧，看看你能不能给我理想的答案。",
+            "nextDialogs": [
+              "20021120"
+            ]
+          },
+          "20021120": {
+            "id": "20021120",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "看起来，没有什么特殊的反应呢。",
+            "nextDialogs": [
+              "20021121"
+            ]
+          },
+          "20021121": {
+            "id": "20021121",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "原来如此，就算是你也不行。",
+            "nextDialogs": [
+              "20021122"
+            ]
+          },
+          "20021122": {
+            "id": "20021122",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "没关系，这也是意料之中的事，那这枚神之眼，就可以继续陪着我了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200212",
+      "subQuestName": "返回孤云阁的会场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20021201"
+        ],
+        "dialogs": {
+          "20021201": {
+            "id": "20021201",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "咦？北斗不在这里了吗？她回船上去了？",
+            "nextDialogs": [
+              "20021202"
+            ]
+          },
+          "20021202": {
+            "id": "20021202",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "大姐头的话，她被凝光叫走了。",
+            "nextDialogs": [
+              "20021203"
+            ]
+          },
+          "20021203": {
+            "id": "20021203",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "好像是因为这次「南十字武斗会」规模超出了报备的数倍，实在不能视而不见。",
+            "nextDialogs": [
+              "20021204"
+            ]
+          },
+          "20021204": {
+            "id": "20021204",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "大姐头一边骂着「扫兴的女人」，一边去璃月港了。",
+            "nextDialogs": [
+              "20021205"
+            ]
+          },
+          "20021205": {
+            "id": "20021205",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "哈哈，和凝光之间的各种矛盾，也算是常有的事了。",
+            "nextDialogs": [
+              "20021206"
+            ]
+          },
+          "20021206": {
+            "id": "20021206",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "不过，大姐头最遗憾的还是没能见证冠军的诞生，走之前一直在念叨这件事。",
+            "nextDialogs": [
+              "20021207"
+            ]
+          },
+          "20021207": {
+            "id": "20021207",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "其实偷走神之眼的，就是这位大英雄原本的决赛对手。",
+            "nextDialogs": [
+              "20021208"
+            ]
+          },
+          "20021208": {
+            "id": "20021208",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "因为自知毫无胜算，才萌生了盗走奖品的邪念。",
+            "nextDialogs": [
+              "20021209"
+            ]
+          },
+          "20021209": {
+            "id": "20021209",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "这样一来，这场「南十字武斗会」的结果，应该尘埃落定了才是。",
+            "nextDialogs": [
+              "20021210"
+            ]
+          },
+          "20021210": {
+            "id": "20021210",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "原、原来是这样？！",
+            "nextDialogs": [
+              "20021211"
+            ]
+          },
+          "20021211": {
+            "id": "20021211",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "那么根据规则，那个人就算失去了资格，冠军就是大英雄的了！",
+            "nextDialogs": [
+              "20021212"
+            ]
+          },
+          "20021212": {
+            "id": "20021212",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "这样夺冠，还挺意外的…",
+            "nextDialogs": [
+              "20021213"
+            ]
+          },
+          "20021213": {
+            "id": "20021213",
+            "speakerId": 1004,
+            "speakerName": "珠函",
+            "text": "没关系没关系，我觉得这叫「实至名归」。我现在就把特别准备的冠军奖牌交给你。",
+            "nextDialogs": [
+              "20021214"
+            ]
+          },
+          "20021214": {
+            "id": "20021214",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那就可以去稻妻了？",
+            "nextDialogs": [
+              "20021215"
+            ]
+          },
+          "20021215": {
+            "id": "20021215",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "应该是的，虽然现在大姐头不在，但之后我会转告她，以她的性格，说到定会做到。",
+            "nextDialogs": [
+              "20021216"
+            ]
+          },
+          "20021216": {
+            "id": "20021216",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "不过，前往稻妻的海路很不好走，风雨无时无刻不在咆哮。",
+            "nextDialogs": [
+              "20021217"
+            ]
+          },
+          "20021217": {
+            "id": "20021217",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "无休的暴风雨，其实也是雷电将军锁国意志的一种体现。",
+            "nextDialogs": [
+              "20021218"
+            ]
+          },
+          "20021218": {
+            "id": "20021218",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "意志就连天气都可以改变吗？！",
+            "nextDialogs": [
+              "20021219"
+            ]
+          },
+          "20021219": {
+            "id": "20021219",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "那可是「尘世七执政」，就像璃月的摩拉克斯投下岩枪造就孤云阁，雷电将军可以唤起永恒的风暴，也不值得大惊小怪。",
+            "nextDialogs": [
+              "20021220"
+            ]
+          },
+          "20021220": {
+            "id": "20021220",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "总之，若要驶向稻妻，「死兆星」号还需要一点时间。准备停当之后，你们会收到通知的。",
+            "nextDialogs": [
+              "20021221"
+            ]
+          },
+          "20021221": {
+            "id": "20021221",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "这段时间我也要四处走走，看看璃月的广袤大地上，有没有唤醒神之眼的契机。",
+            "nextDialogs": [
+              "20021222"
+            ]
+          },
+          "20021222": {
+            "id": "20021222",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "我相信，一定可以的！",
+            "nextDialogs": [
+              "20021223"
+            ]
+          },
+          "20021223": {
+            "id": "20021223",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "谢谢，希望我们各自的旅途都能寻到意义。",
+            "nextDialogs": [
+              "20021224"
+            ]
+          },
+          "20021224": {
+            "id": "20021224",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "我还有一句告诫——在无尽雷暴的前方，可能是你们最艰难的一段旅途。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200224",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20022401"
+        ],
+        "dialogs": {
+          "20022401": {
+            "id": "20022401",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "我要留下来和大家解释情况，神之眼就拜托你们了。",
+            "nextDialogs": [
+              "20022402"
+            ]
+          },
+          "20022402": {
+            "id": "20022402",
+            "speakerId": 1000,
+            "speakerName": "北斗",
+            "text": "所有的参与者都兴致勃勃，对决赛充满期待，可不能让他们失望而归啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200229",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20022901"
+        ],
+        "dialogs": {
+          "20022901": {
+            "id": "20022901",
+            "speakerId": 1006,
+            "speakerName": "百闻",
+            "text": "原来如此，证据确凿。难怪凝光大人很重视这里的安全风险。",
+            "nextDialogs": [
+              "20022902"
+            ]
+          },
+          "20022902": {
+            "id": "20022902",
+            "speakerId": 1006,
+            "speakerName": "百闻",
+            "text": "就算是那个北斗，这次也免不了责罚了吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200230",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20023001"
+        ],
+        "dialogs": {
+          "20023001": {
+            "id": "20023001",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "轮到你上场了，祝你好运。",
+            "nextDialogs": [
+              "20023002"
+            ]
+          },
+          "20023002": {
+            "id": "20023002",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "我很期待这场比赛的最后结果。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20029901"
+        ],
+        "dialogs": {
+          "20029901": {
+            "id": "20029901",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "风、风场？！",
+            "nextDialogs": [
+              "20029902"
+            ]
+          },
+          "20029902": {
+            "id": "20029902",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "正好有风吹过，现在是最好的时机。",
+            "nextDialogs": [
+              "20029903"
+            ]
+          },
+          "20029903": {
+            "id": "20029903",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "乘风而起吧，就这样去找接下来的线索。",
+            "nextDialogs": [
+              "20029904"
+            ]
+          },
+          "20029904": {
+            "id": "20029904",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "说起来，你是怎么想到要检查奖品的？",
+            "nextDialogs": [
+              "20029905"
+            ]
+          },
+          "20029905": {
+            "id": "20029905",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "因为他在偷的时候我就听到了。",
+            "nextDialogs": [
+              "20029906"
+            ]
+          },
+          "20029906": {
+            "id": "20029906",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "那你为什么不阻止他？！",
+            "nextDialogs": [
+              "20029907"
+            ]
+          },
+          "20029907": {
+            "id": "20029907",
+            "speakerId": 1002,
+            "speakerName": "枫原万叶",
+            "text": "等会儿你就知道了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131401",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140101"
+        ],
+        "dialogs": {
+          "413140101": {
+            "id": "413140101",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "你好，要来试试「机关棋谭」吗？很有趣的哟！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131402",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140201"
+        ],
+        "dialogs": {
+          "413140201": {
+            "id": "413140201",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "想要玩一局。",
+            "nextDialogs": [
+              "413140202"
+            ]
+          },
+          "413140202": {
+            "id": "413140202",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "没问题，随时都可以开始。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131403",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140301"
+        ],
+        "dialogs": {
+          "413140301": {
+            "id": "413140301",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "「机关棋谭」是什么？",
+            "nextDialogs": [
+              "413140302"
+            ]
+          },
+          "413140302": {
+            "id": "413140302",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "「机关棋谭」是我刚刚发明出来的一种「棋戏」哦。",
+            "nextDialogs": [
+              "413140303"
+            ]
+          },
+          "413140303": {
+            "id": "413140303",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "用一张桌子、几颗棋子和一个主持人就能够玩起来的游戏。",
+            "nextDialogs": [
+              "413140304"
+            ]
+          },
+          "413140304": {
+            "id": "413140304",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "游戏主题是「用各种方式抵御魔物的进攻」…现在也只有这种主题。",
+            "nextDialogs": [
+              "413140305"
+            ]
+          },
+          "413140305": {
+            "id": "413140305",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "不过，如果之后有机会，我也想要继续扩展游戏的内容…",
+            "nextDialogs": [
+              "413140306"
+            ]
+          },
+          "413140306": {
+            "id": "413140306",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "比如探索遗迹啦、破获案件啦…如果顺利的话，能扩展成「在另一个世界中冒险」就再好不过了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131404",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140401"
+        ],
+        "dialogs": {
+          "413140401": {
+            "id": "413140401",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "玩一局要多少钱？",
+            "nextDialogs": [
+              "413140402"
+            ]
+          },
+          "413140402": {
+            "id": "413140402",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "嗯…我刚刚把这种「棋戏」做出来，现在主要还是想听听大家对于这种「棋戏」的感受…",
+            "nextDialogs": [
+              "413140403"
+            ]
+          },
+          "413140403": {
+            "id": "413140403",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "所以，在海灯节期间，玩「机关棋谭」就不收钱了，只需要一盏霄灯就可以玩一局。",
+            "nextDialogs": [
+              "413140404"
+            ]
+          },
+          "413140404": {
+            "id": "413140404",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "如果你想要玩的话，尽管来找我。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131405",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140501"
+        ],
+        "dialogs": {
+          "413140501": {
+            "id": "413140501",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "再见。",
+            "nextDialogs": [
+              "413140502"
+            ]
+          },
+          "413140502": {
+            "id": "413140502",
+            "speakerId": 1007,
+            "speakerName": "瑞锦",
+            "text": "嗯，再见。如果想要玩「机关棋谭」的话，尽管来找我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131406",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140601"
+        ],
+        "dialogs": {
+          "413140601": {
+            "id": "413140601",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "…只打得是昏天黑地，风鸣海啸。那魔神又是一拳，仙人将将躲过，可劲道却不偏不倚地轰在了「天衡山」上…",
+            "nextDialogs": [
+              "413140603",
+              "413140623"
+            ]
+          },
+          "413140603": {
+            "id": "413140603",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "那一拳是什么威力？那一拳是硬生生把那天衡山的山脚轰出个豁口！",
+            "nextDialogs": [
+              "413140604"
+            ]
+          },
+          "413140604": {
+            "id": "413140604",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "你说这山没了支撑还了得？只见山体带着哗啦啦滚下来的岩石，那是摇摇欲坠。山底下的百姓看了，那是胆战心惊。",
+            "nextDialogs": [
+              "413140605"
+            ]
+          },
+          "413140605": {
+            "id": "413140605",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "「移霄导天真君」心下一紧，嚯，这山要是倒了，怕不是山下的老百姓都要化成肉糜了，哎呀…",
+            "nextDialogs": [
+              "413140606"
+            ]
+          },
+          "413140606": {
+            "id": "413140606",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "哎呀…",
+            "nextDialogs": [
+              "413140607"
+            ]
+          },
+          "413140607": {
+            "id": "413140607",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "…千钧一发之际，仙人心念一动，「欸，我头上这角…」。",
+            "nextDialogs": [
+              "413140608"
+            ]
+          },
+          "413140608": {
+            "id": "413140608",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "咱都知道，「移霄导天真君」头上的鹿角乃是岩王爷的赏赐，长过一丈，比那精铁还要硬个百倍。",
+            "nextDialogs": [
+              "413140609"
+            ]
+          },
+          "413140609": {
+            "id": "413140609",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "他便叫同来的小仙…",
+            "nextDialogs": [
+              "413140610"
+            ]
+          },
+          "413140610": {
+            "id": "413140610",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "戴着面具的小仙倒是也不含糊，心一横，手里的枪尖一转，鹿角「铿铿」落在了地上。",
+            "nextDialogs": [
+              "413140611"
+            ]
+          },
+          "413140611": {
+            "id": "413140611",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "「移霄导天真君」捡起这自己的骨肉，往那天衡山下边儿一递！猜怎么着？",
+            "nextDialogs": [
+              "413140612"
+            ]
+          },
+          "413140612": {
+            "id": "413140612",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "山不但没倒，瞅着还高了几百丈似的。"
+          },
+          "413140623": {
+            "id": "413140623",
+            "speakerId": 1008,
+            "speakerName": "效言",
+            "text": "诸位，那一拳是什么威力啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131407",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140701"
+        ],
+        "dialogs": {
+          "413140701": {
+            "id": "413140701",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "你好，有什么可以为你效劳的？",
+            "nextDialogs": [
+              "413140703",
+              "413140708"
+            ]
+          },
+          "413140703": {
+            "id": "413140703",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "制作「霄灯」可是一门传统手艺，扎纸、入芯、置签、上漆…",
+            "nextDialogs": [
+              "413140704"
+            ]
+          },
+          "413140704": {
+            "id": "413140704",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "…哈哈，你别打退堂鼓，如今活用「合成台」的话，「霄灯」的制作就方便很多。",
+            "nextDialogs": [
+              "413140705"
+            ]
+          },
+          "413140705": {
+            "id": "413140705",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "但愿「霄灯」里的愿望不会因此变得廉价吧，哈哈。",
+            "nextDialogs": [
+              "413140706"
+            ]
+          },
+          "413140706": {
+            "id": "413140706",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "「合成台」就在那边，不试试看吗？海灯节可是一年只有一次啊。"
+          },
+          "413140708": {
+            "id": "413140708",
+            "speakerId": 1009,
+            "speakerName": "景明",
+            "text": "愿薪火相传，美德不灭。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131408",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413140801"
+        ],
+        "dialogs": {
+          "413140801": {
+            "id": "413140801",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "嘿，客官，要来些海灯节特色小吃吗？错过了可就要等明年咯！",
+            "nextDialogs": [
+              "413140803",
+              "413140805",
+              "413140809"
+            ]
+          },
+          "413140803": {
+            "id": "413140803",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "好嘞！菜单上写的能做，你们想吃什么直接说，我也能做！"
+          },
+          "413140805": {
+            "id": "413140805",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "哈哈，多谢关心，还挺红火的。",
+            "nextDialogs": [
+              "413140806"
+            ]
+          },
+          "413140806": {
+            "id": "413140806",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "果然我做的没错，比起整天动歪脑筋琢磨怎么打广告，把菜做好才是硬道理。",
+            "nextDialogs": [
+              "413140807"
+            ]
+          },
+          "413140807": {
+            "id": "413140807",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "总之，这是我的原则，好的东西不需要宣传，我是不会接受望雅那些无聊的营业建议的。"
+          },
+          "413140809": {
+            "id": "413140809",
+            "speakerId": 1010,
+            "speakerName": "宜年",
+            "text": "客官慢走，欢迎下次光临！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131501",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150101"
+        ],
+        "dialogs": {
+          "413150101": {
+            "id": "413150101",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "逛了半天也饿了吧，刚烤好的吃虎鱼，要来几条吗？",
+            "nextDialogs": [
+              "413150102"
+            ]
+          },
+          "413150102": {
+            "id": "413150102",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "跟你说，今年「明霄灯」造型纪念的那位，「移霄导天真君」当年最爱吃的就是烤吃虎鱼。",
+            "nextDialogs": [
+              "413150103"
+            ]
+          },
+          "413150103": {
+            "id": "413150103",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "不买两条吃的话，这个节算是白过啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131502",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150201"
+        ],
+        "dialogs": {
+          "413150201": {
+            "id": "413150201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我想买些小吃。",
+            "nextDialogs": [
+              "413150202"
+            ]
+          },
+          "413150202": {
+            "id": "413150202",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "好嘞！新鲜又热乎的烤吃虎鱼嘞！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131503",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150301"
+        ],
+        "dialogs": {
+          "413150301": {
+            "id": "413150301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你该不会年年都这么说吧？",
+            "nextDialogs": [
+              "413150302"
+            ]
+          },
+          "413150302": {
+            "id": "413150302",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "哈哈…是啊，我确实年年都这么说，但我可没骗人啊。",
+            "nextDialogs": [
+              "413150303"
+            ]
+          },
+          "413150303": {
+            "id": "413150303",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "因为《璃月风物志》里写了，千年前的仙人们都爱吃烤吃虎鱼…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131504",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150401"
+        ],
+        "dialogs": {
+          "413150401": {
+            "id": "413150401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再见。",
+            "nextDialogs": [
+              "413150402"
+            ]
+          },
+          "413150402": {
+            "id": "413150402",
+            "speakerId": 1011,
+            "speakerName": "快刀陈",
+            "text": "那等你逛「霄市」逛饿了，再回来也成。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131505",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150501"
+        ],
+        "dialogs": {
+          "413150501": {
+            "id": "413150501",
+            "speakerId": 1012,
+            "speakerName": "一弦",
+            "text": "…以前都是妈妈陪我们一起逛「霄市」的…",
+            "nextDialogs": [
+              "413150502"
+            ]
+          },
+          "413150502": {
+            "id": "413150502",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "嗯，妈妈总是给我们买玩具，陪我们看霄灯，走到累了的时候就会背起你…",
+            "nextDialogs": [
+              "413150503"
+            ]
+          },
+          "413150503": {
+            "id": "413150503",
+            "speakerId": 1012,
+            "speakerName": "一弦",
+            "text": "…哥哥，我想妈妈。",
+            "nextDialogs": [
+              "413150504"
+            ]
+          },
+          "413150504": {
+            "id": "413150504",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "弦儿…别哭了，我们也给妈妈做个霄灯吧。",
+            "nextDialogs": [
+              "413150505"
+            ]
+          },
+          "413150505": {
+            "id": "413150505",
+            "speakerId": 1012,
+            "speakerName": "一弦",
+            "text": "欸？可是都说霄灯是为了纪念守护璃月的英雄…",
+            "nextDialogs": [
+              "413150506"
+            ]
+          },
+          "413150506": {
+            "id": "413150506",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "没错，妈妈也是守护我们的英雄呀。",
+            "nextDialogs": [
+              "413150507"
+            ]
+          },
+          "413150507": {
+            "id": "413150507",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "所以别哭了，等妈妈的灵魂和大英雄们一起回来的时候，你要笑着迎接她。",
+            "nextDialogs": [
+              "413150508"
+            ]
+          },
+          "413150508": {
+            "id": "413150508",
+            "speakerId": 1012,
+            "speakerName": "一弦",
+            "text": "嗯！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131506",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150601"
+        ],
+        "dialogs": {
+          "413150601": {
+            "id": "413150601",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "你好…你是找我吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131507",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150701"
+        ],
+        "dialogs": {
+          "413150701": {
+            "id": "413150701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你是？",
+            "nextDialogs": [
+              "413150702"
+            ]
+          },
+          "413150702": {
+            "id": "413150702",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "我叫一柱，你一定也见过我妹妹一弦吧？",
+            "nextDialogs": [
+              "413150703"
+            ]
+          },
+          "413150703": {
+            "id": "413150703",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "我答应过她，要一起为妈妈做一盏霄灯的。可我凑不齐做霄灯的材料，多亏长顺姐姐特意给我们留了一些材料…",
+            "nextDialogs": [
+              "413150704"
+            ]
+          },
+          "413150704": {
+            "id": "413150704",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "最近大家真的对我们兄妹很温柔…",
+            "nextDialogs": [
+              "413150705"
+            ]
+          },
+          "413150705": {
+            "id": "413150705",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "……",
+            "nextDialogs": [
+              "413150706"
+            ]
+          },
+          "413150706": {
+            "id": "413150706",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "…不行，不能哭，要笑给妹妹看。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131508",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150801"
+        ],
+        "dialogs": {
+          "413150801": {
+            "id": "413150801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再见。",
+            "nextDialogs": [
+              "413150802"
+            ]
+          },
+          "413150802": {
+            "id": "413150802",
+            "speakerId": 1013,
+            "speakerName": "一柱",
+            "text": "再见…愿薪火相传，美德不灭。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131509",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413150901"
+        ],
+        "dialogs": {
+          "413150901": {
+            "id": "413150901",
+            "speakerId": 1014,
+            "speakerName": "琳琅",
+            "text": "我是琳琅，经营叫做「希古居」的古董行…请问有事吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131510",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151001"
+        ],
+        "dialogs": {
+          "413151001": {
+            "id": "413151001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于海灯节…",
+            "nextDialogs": [
+              "413151002"
+            ]
+          },
+          "413151002": {
+            "id": "413151002",
+            "speakerId": 1014,
+            "speakerName": "琳琅",
+            "text": "海灯节四处都弥漫着古色古香的气息呢，平时只有在我店里才能找到这种感觉，令人舒适。",
+            "nextDialogs": [
+              "413151003"
+            ]
+          },
+          "413151003": {
+            "id": "413151003",
+            "speakerId": 1014,
+            "speakerName": "琳琅",
+            "text": "这么说来，很多古董好像还没有海灯节的年纪大呢。",
+            "nextDialogs": [
+              "413151004"
+            ]
+          },
+          "413151004": {
+            "id": "413151004",
+            "speakerId": 1014,
+            "speakerName": "琳琅",
+            "text": "历史是可以换算成金钱的哦，所以请奢侈地好好享受节日吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131511",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151101"
+        ],
+        "dialogs": {
+          "413151101": {
+            "id": "413151101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再见。",
+            "nextDialogs": [
+              "413151102"
+            ]
+          },
+          "413151102": {
+            "id": "413151102",
+            "speakerId": 1014,
+            "speakerName": "琳琅",
+            "text": "嗯，好好享受这充满历史感的一刻吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131512",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151201"
+        ],
+        "dialogs": {
+          "413151201": {
+            "id": "413151201",
+            "speakerId": 1015,
+            "speakerName": "小安",
+            "text": "哦~你好！我是海事司的管理人，现在心情正好着呢！",
+            "nextDialogs": [
+              "413151202"
+            ]
+          },
+          "413151202": {
+            "id": "413151202",
+            "speakerId": 1015,
+            "speakerName": "小安",
+            "text": "感受这海风，仔细体会，感觉到什么了吗？",
+            "nextDialogs": [
+              "413151203"
+            ]
+          },
+          "413151203": {
+            "id": "413151203",
+            "speakerId": 1015,
+            "speakerName": "小安",
+            "text": "——是自由的味道！哈哈哈…",
+            "nextDialogs": [
+              "413151204"
+            ]
+          },
+          "413151204": {
+            "id": "413151204",
+            "speakerId": 1015,
+            "speakerName": "小安",
+            "text": "这几天是不会有什么渔船货船的进出港了，什么申请表、审核单，统统可以抛在脑后了！",
+            "nextDialogs": [
+              "413151205"
+            ]
+          },
+          "413151205": {
+            "id": "413151205",
+            "speakerId": 1015,
+            "speakerName": "小安",
+            "text": "感恩岩王爷！感谢岩王爷！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131513",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151301"
+        ],
+        "dialogs": {
+          "413151301": {
+            "id": "413151301",
+            "speakerId": 1016,
+            "speakerName": "畅畅",
+            "text": "畅畅呀，刚才把布娃娃捐了哦。",
+            "nextDialogs": [
+              "413151302"
+            ]
+          },
+          "413151302": {
+            "id": "413151302",
+            "speakerId": 1016,
+            "speakerName": "畅畅",
+            "text": "昨晚我梦到她说想要飞到天上去看看。",
+            "nextDialogs": [
+              "413151303"
+            ]
+          },
+          "413151303": {
+            "id": "413151303",
+            "speakerId": 1016,
+            "speakerName": "畅畅",
+            "text": "我就把她捐给大鹿灯那边的姐姐了，马上她就会实现愿望了吧？",
+            "nextDialogs": [
+              "413151304"
+            ]
+          },
+          "413151304": {
+            "id": "413151304",
+            "speakerId": 1016,
+            "speakerName": "畅畅",
+            "text": "畅畅是做了件好事吗？海灯节是实现大家愿望的日子吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131514",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151401"
+        ],
+        "dialogs": {
+          "413151401": {
+            "id": "413151401",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "愿薪火相传，美德不灭。",
+            "nextDialogs": [
+              "413151402"
+            ]
+          },
+          "413151402": {
+            "id": "413151402",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "这里是海灯节的主会场，我是海灯节的策划人之一，有什么能帮忙的吗？",
+            "nextDialogs": [
+              "413151404",
+              "413151411",
+              "413151432"
+            ]
+          },
+          "413151404": {
+            "id": "413151404",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "每年的第一个月圆之夜，就是我们璃月人的「海灯节」。",
+            "nextDialogs": [
+              "413151405"
+            ]
+          },
+          "413151405": {
+            "id": "413151405",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "节日会持续五天，人们一起祝祷平安，驱逐厄运，望灯火传承智慧，望英雄踏海归来。",
+            "nextDialogs": [
+              "413151406"
+            ]
+          },
+          "413151406": {
+            "id": "413151406",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "制作「明霄灯」和「霄灯」然后放飞夜空，是海灯节的传统。",
+            "nextDialogs": [
+              "413151407"
+            ]
+          },
+          "413151407": {
+            "id": "413151407",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "希望曾经守护璃月的英雄们的魂魄，可以乘夜色，循着「霄灯」回乡和大家团聚。",
+            "nextDialogs": [
+              "413151408"
+            ]
+          },
+          "413151408": {
+            "id": "413151408",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "为了如此有意义的节日，再怎么精心准备也不为过，我很荣幸能承担这份策划人的工作。",
+            "nextDialogs": [
+              "413151409"
+            ]
+          },
+          "413151409": {
+            "id": "413151409",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "…有空请去「霄市」逛逛吧，那里应该是最热闹的。祝愿阁下能够享受海灯节的氛围。"
+          },
+          "413151411": {
+            "id": "413151411",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "阁下想知道什么？是关于「明霄灯」、「霄市」还是「霄灯」？我一定知无不言。"
+          },
+          "413151432": {
+            "id": "413151432",
+            "speakerId": 1017,
+            "speakerName": "江舟",
+            "text": "嗯，请慢慢逛逛吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131515",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151501"
+        ],
+        "dialogs": {
+          "413151501": {
+            "id": "413151501",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "今年「明霄灯」的造型是纪念「移霄导天真君」啊，那个喜欢逞威风的家伙应该会高兴的吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131516",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151601"
+        ],
+        "dialogs": {
+          "413151601": {
+            "id": "413151601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「移霄导天真君」…",
+            "nextDialogs": [
+              "413151602"
+            ]
+          },
+          "413151602": {
+            "id": "413151602",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "今年海灯节在建造的「明霄灯」，就是「移霄导天真君」的形象。",
+            "nextDialogs": [
+              "413151603"
+            ]
+          },
+          "413151603": {
+            "id": "413151603",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "希望他们会把鹿角修得大一些，毕竟头上的角可是那位仙人最引以为傲的。",
+            "nextDialogs": [
+              "413151604"
+            ]
+          },
+          "413151604": {
+            "id": "413151604",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "据说，他的角吸收了岩王帝君岩之力的神髓，曾是整个璃月最坚硬的东西。",
+            "nextDialogs": [
+              "413151605"
+            ]
+          },
+          "413151605": {
+            "id": "413151605",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "可就在「那场决战」中，劲力迸出，山岳倾倒，他为了不波及到山脚的村庄，主动让朋友将他的鹿角砍下…",
+            "nextDialogs": [
+              "413151606"
+            ]
+          },
+          "413151606": {
+            "id": "413151606",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "他将那鲜血淋漓的鹿角作为支点，撑起了整个山岳。而他自己也坚持战斗到自己流尽最后一滴血…",
+            "nextDialogs": [
+              "413151607"
+            ]
+          },
+          "413151607": {
+            "id": "413151607",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "如今，曾被他撑起的「天衡山」依旧巍然屹立，他死战之中流出的鲜血则汇聚而成「碧水河」。",
+            "nextDialogs": [
+              "413151608"
+            ]
+          },
+          "413151608": {
+            "id": "413151608",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "呵呵…不论你是否相信我讲的，能有人愿意听听这些陈年旧事，就已经是很大的安慰了。",
+            "nextDialogs": [
+              "413151609"
+            ]
+          },
+          "413151609": {
+            "id": "413151609",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "海灯节之所以存在，也是因为那些「老朋友们」不甘寂寞吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131517",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151701"
+        ],
+        "dialogs": {
+          "413151701": {
+            "id": "413151701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再见。",
+            "nextDialogs": [
+              "413151702"
+            ]
+          },
+          "413151702": {
+            "id": "413151702",
+            "speakerId": 1018,
+            "speakerName": "萍姥姥",
+            "text": "再见。愿薪火相传，美德不灭。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131518",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151801"
+        ],
+        "dialogs": {
+          "413151801": {
+            "id": "413151801",
+            "speakerId": 1019,
+            "speakerName": "慕胜",
+            "text": "我是从乡里来的慕胜，果然还是城里更有节日的氛围。",
+            "nextDialogs": [
+              "413151802"
+            ]
+          },
+          "413151802": {
+            "id": "413151802",
+            "speakerId": 1019,
+            "speakerName": "慕胜",
+            "text": "话说海灯节纪念的英雄，基本都是久远以前在璃月的仙人。",
+            "nextDialogs": [
+              "413151803"
+            ]
+          },
+          "413151803": {
+            "id": "413151803",
+            "speakerId": 1019,
+            "speakerName": "慕胜",
+            "text": "那时候一定是人们和仙人一起生活的时代，可现在为什么都见不到仙人了呢…",
+            "nextDialogs": [
+              "413151804"
+            ]
+          },
+          "413151804": {
+            "id": "413151804",
+            "speakerId": 1019,
+            "speakerName": "慕胜",
+            "text": "总感觉不是什么好兆头，唉算了，节日怎么能说晦气话呢，哈哈哈。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131519",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413151901"
+        ],
+        "dialogs": {
+          "413151901": {
+            "id": "413151901",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "初、初次见面，看您的装束…我们是同乡吧？",
+            "nextDialogs": [
+              "413151902"
+            ]
+          },
+          "413151902": {
+            "id": "413151902",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "欸？是的，你好。在这边能够偶遇的至冬人不多呢。",
+            "nextDialogs": [
+              "413151903"
+            ]
+          },
+          "413151903": {
+            "id": "413151903",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "海灯节还挺美的，不是吗？",
+            "nextDialogs": [
+              "413151904"
+            ]
+          },
+          "413151904": {
+            "id": "413151904",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "唔，似乎还没到时候吧，「明霄灯」才是重头戏…我听说的。",
+            "nextDialogs": [
+              "413151905"
+            ]
+          },
+          "413151905": {
+            "id": "413151905",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "啊哈…好像是的，其实我刚来这边不久，而且…总是一个人，很多东西都不懂…",
+            "nextDialogs": [
+              "413151906"
+            ]
+          },
+          "413151906": {
+            "id": "413151906",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "嗯，其实我也是一样，所以经常会一个人来这边，望望那些从至冬来的船…",
+            "nextDialogs": [
+              "413151907"
+            ]
+          },
+          "413151907": {
+            "id": "413151907",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "…尽管那些来来往往的船，都不会是来接我回家的那一艘。啊…真巧，其实我也经常这么做…",
+            "nextDialogs": [
+              "413151908"
+            ]
+          },
+          "413151908": {
+            "id": "413151908",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "我们，真的是初次见面吗？",
+            "nextDialogs": [
+              "413151909"
+            ]
+          },
+          "413151909": {
+            "id": "413151909",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "啊难道不是吗？莫非是我记性太差…那可真是太不礼貌了，不好意思…",
+            "nextDialogs": [
+              "413151910"
+            ]
+          },
+          "413151910": {
+            "id": "413151910",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "不不…我只是觉得，和你说话有种说不出的亲切感…",
+            "nextDialogs": [
+              "413151911"
+            ]
+          },
+          "413151911": {
+            "id": "413151911",
+            "speakerId": 1020,
+            "speakerName": "弗拉德",
+            "text": "这、这样啊…那就好，那就好…",
+            "nextDialogs": [
+              "413151912"
+            ]
+          },
+          "413151912": {
+            "id": "413151912",
+            "speakerId": 1021,
+            "speakerName": "娜蒂亚",
+            "text": "海灯节…还挺美的，不是吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131520",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152001"
+        ],
+        "dialogs": {
+          "413152001": {
+            "id": "413152001",
+            "speakerId": 1022,
+            "speakerName": "安德烈",
+            "text": "这是我第一次参加海灯节，别的不谈，气氛还是蛮不错的。",
+            "nextDialogs": [
+              "413152002"
+            ]
+          },
+          "413152002": {
+            "id": "413152002",
+            "speakerId": 1022,
+            "speakerName": "安德烈",
+            "text": "最让我惊讶的还是「明霄灯」这个东西，璃月人居然要造这么大一盏灯…",
+            "nextDialogs": [
+              "413152003"
+            ]
+          },
+          "413152003": {
+            "id": "413152003",
+            "speakerId": 1022,
+            "speakerName": "安德烈",
+            "text": "…明霄灯点燃与放飞的场面，对所有参加海灯节的人来说都是永生难忘的回忆。",
+            "nextDialogs": [
+              "413152004"
+            ]
+          },
+          "413152004": {
+            "id": "413152004",
+            "speakerId": 1022,
+            "speakerName": "安德烈",
+            "text": "我真是越来越喜欢这里了…不行不行，我不能背叛女皇陛下…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131521",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152101"
+        ],
+        "dialogs": {
+          "413152101": {
+            "id": "413152101",
+            "speakerId": 1023,
+            "speakerName": "伊凡诺维奇",
+            "text": "霄灯的光芒真是温暖…",
+            "nextDialogs": [
+              "413152102"
+            ]
+          },
+          "413152102": {
+            "id": "413152102",
+            "speakerId": 1023,
+            "speakerName": "伊凡诺维奇",
+            "text": "看着灯火通明的街道和升上夜空的霄灯，尽管是在异国他乡，心中却有了些许难以言状的温暖。",
+            "nextDialogs": [
+              "413152103"
+            ]
+          },
+          "413152103": {
+            "id": "413152103",
+            "speakerId": 1023,
+            "speakerName": "伊凡诺维奇",
+            "text": "这份温暖，让我想起了我们至冬的「冰炉节」…",
+            "nextDialogs": [
+              "413152104"
+            ]
+          },
+          "413152104": {
+            "id": "413152104",
+            "speakerId": 1023,
+            "speakerName": "伊凡诺维奇",
+            "text": "有机会，也请来我们至冬做客吧，感受一下我们的节日。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131522",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152201"
+        ],
+        "dialogs": {
+          "413152201": {
+            "id": "413152201",
+            "speakerId": 1024,
+            "speakerName": "一然",
+            "text": "阿宽！我不要风筝了！我要霄灯！",
+            "nextDialogs": [
+              "413152202"
+            ]
+          },
+          "413152202": {
+            "id": "413152202",
+            "speakerId": 1025,
+            "speakerName": "阿宽",
+            "text": "说了多少次了，要叫我爸爸…",
+            "nextDialogs": [
+              "413152203"
+            ]
+          },
+          "413152203": {
+            "id": "413152203",
+            "speakerId": 1025,
+            "speakerName": "阿宽",
+            "text": "你想要霄灯的话，那我们一起放一盏便是了，你想写什么和我说吧…",
+            "nextDialogs": [
+              "413152204"
+            ]
+          },
+          "413152204": {
+            "id": "413152204",
+            "speakerId": 1024,
+            "speakerName": "一然",
+            "text": "不好。阿宽的字太丑了，你来写的话，愿望一定不会实现的。",
+            "nextDialogs": [
+              "413152205"
+            ]
+          },
+          "413152205": {
+            "id": "413152205",
+            "speakerId": 1025,
+            "speakerName": "阿宽",
+            "text": "你这孩子，怎么能嫌弃爸爸呢…",
+            "nextDialogs": [
+              "413152206"
+            ]
+          },
+          "413152206": {
+            "id": "413152206",
+            "speakerId": 1024,
+            "speakerName": "一然",
+            "text": "从小你就教育我要有话直说吧？",
+            "nextDialogs": [
+              "413152207"
+            ]
+          },
+          "413152207": {
+            "id": "413152207",
+            "speakerId": 1024,
+            "speakerName": "一然",
+            "text": "既然我知道阿宽的字很丑，我还瞒着你、要你来写，那岂不是没听你的话。",
+            "nextDialogs": [
+              "413152208"
+            ]
+          },
+          "413152208": {
+            "id": "413152208",
+            "speakerId": 1025,
+            "speakerName": "阿宽",
+            "text": "你这孩子…唉，说不过你，我给你买…但是你要叫我爸爸。",
+            "nextDialogs": [
+              "413152209"
+            ]
+          },
+          "413152209": {
+            "id": "413152209",
+            "speakerId": 1024,
+            "speakerName": "一然",
+            "text": "爸爸！爸爸！说到做到哦！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131523",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152301"
+        ],
+        "dialogs": {
+          "413152301": {
+            "id": "413152301",
+            "speakerId": 1026,
+            "speakerName": "大坤",
+            "text": "嘿，一年一度的海灯节终于来了，这可是个大日子！",
+            "nextDialogs": [
+              "413152302"
+            ]
+          },
+          "413152302": {
+            "id": "413152302",
+            "speakerId": 1026,
+            "speakerName": "大坤",
+            "text": "你看，整个璃月港都热闹起来了，这样的场面可不常见啊。",
+            "nextDialogs": [
+              "413152303"
+            ]
+          },
+          "413152303": {
+            "id": "413152303",
+            "speakerId": 1026,
+            "speakerName": "大坤",
+            "text": "…不过说起海灯节，真正的重头戏还是「明霄灯」啊。",
+            "nextDialogs": [
+              "413152304"
+            ]
+          },
+          "413152304": {
+            "id": "413152304",
+            "speakerId": 1026,
+            "speakerName": "大坤",
+            "text": "璃月的子民齐心协力一起打造的明霄灯会在海灯节闭幕的当天放飞，可千万别错过那个瞬间啊！",
+            "nextDialogs": [
+              "413152305"
+            ]
+          },
+          "413152305": {
+            "id": "413152305",
+            "speakerId": 1026,
+            "speakerName": "大坤",
+            "text": "不多说了，多在附近逛逛，你一定能感受到节日的气氛的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131524",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152401"
+        ],
+        "dialogs": {
+          "413152401": {
+            "id": "413152401",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "霄灯漫天放光芒，飞到哪里哪里亮。海上灯光迷人眼，稀稀拉拉浮波浪。",
+            "nextDialogs": [
+              "413152402"
+            ]
+          },
+          "413152402": {
+            "id": "413152402",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "稀稀拉拉…？不好，不好…对了！「乌泱乌泱浮波浪」！",
+            "nextDialogs": [
+              "413152403"
+            ]
+          },
+          "413152403": {
+            "id": "413152403",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "妙啊，妙啊…嗯，你觉得，这首诗如何？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131525",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152501"
+        ],
+        "dialogs": {
+          "413152501": {
+            "id": "413152501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "挺好的。",
+            "nextDialogs": [
+              "413152502"
+            ]
+          },
+          "413152502": {
+            "id": "413152502",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "嘿嘿，你的品位还蛮不错的嘛，有了我的诗，连海灯节都变得更有气氛了呢。",
+            "nextDialogs": [
+              "413152503"
+            ]
+          },
+          "413152503": {
+            "id": "413152503",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "唉，可惜像你我这样懂诗律的人还是太少了。",
+            "nextDialogs": [
+              "413152504"
+            ]
+          },
+          "413152504": {
+            "id": "413152504",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "之前为了让大家更好地感受海灯节的气氛，我特意把我的诗贴到了璃月港各处…",
+            "nextDialogs": [
+              "413152505"
+            ]
+          },
+          "413152505": {
+            "id": "413152505",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "…结果被千岩军警告了，还说我再乱贴就把我抓起来。",
+            "nextDialogs": [
+              "413152506"
+            ]
+          },
+          "413152506": {
+            "id": "413152506",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "哼，那些俗人，真是毫无品味！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131526",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152601"
+        ],
+        "dialogs": {
+          "413152601": {
+            "id": "413152601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "很普通。",
+            "nextDialogs": [
+              "413152602"
+            ]
+          },
+          "413152602": {
+            "id": "413152602",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "普通？那是你听不懂诗中饱含的哲思和意境！",
+            "nextDialogs": [
+              "413152603"
+            ]
+          },
+          "413152603": {
+            "id": "413152603",
+            "speakerId": 1027,
+            "speakerName": "霖铃",
+            "text": "…哼，真扫兴。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131527",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152701"
+        ],
+        "dialogs": {
+          "413152701": {
+            "id": "413152701",
+            "speakerId": 1028,
+            "speakerName": "弗莱琪",
+            "text": "海灯节真是热闹啊，氛围也和我们蒙德人的节日不太一样。",
+            "nextDialogs": [
+              "413152702"
+            ]
+          },
+          "413152702": {
+            "id": "413152702",
+            "speakerId": 1028,
+            "speakerName": "弗莱琪",
+            "text": "不过…对我和我弟弟这样的旅行美食家来说，比起节日的气氛，果然还是特色小吃更吸引我们。",
+            "nextDialogs": [
+              "413152703"
+            ]
+          },
+          "413152703": {
+            "id": "413152703",
+            "speakerId": 1028,
+            "speakerName": "弗莱琪",
+            "text": "听说今年的特色小吃是海灯节特色烤吃虎鱼。可是我刚尝了尝，似乎和平时卖的烤吃虎鱼没什么不同…",
+            "nextDialogs": [
+              "413152704"
+            ]
+          },
+          "413152704": {
+            "id": "413152704",
+            "speakerId": 1028,
+            "speakerName": "弗莱琪",
+            "text": "难道是只有本地人才能尝出味道的细微差别？",
+            "nextDialogs": [
+              "413152705"
+            ]
+          },
+          "413152705": {
+            "id": "413152705",
+            "speakerId": 1028,
+            "speakerName": "弗莱琪",
+            "text": "唔，算了，等下再去尝尝其他小吃好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131528",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152801"
+        ],
+        "dialogs": {
+          "413152801": {
+            "id": "413152801",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "找本大侠…不，本大英雄有事吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131529",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413152901"
+        ],
+        "dialogs": {
+          "413152901": {
+            "id": "413152901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "大英雄？",
+            "nextDialogs": [
+              "413152902"
+            ]
+          },
+          "413152902": {
+            "id": "413152902",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "没错，只要成为大英雄，就会在海灯节被大家纪念！",
+            "nextDialogs": [
+              "413152903"
+            ]
+          },
+          "413152903": {
+            "id": "413152903",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "哼，我一定会成为被大家纪念的大英雄的！",
+            "nextDialogs": [
+              "413152904"
+            ]
+          },
+          "413152904": {
+            "id": "413152904",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "你等着，明年的今天，大家就会成群结队地为我放灯，哼哼…",
+            "nextDialogs": [
+              "413152905"
+            ]
+          },
+          "413152905": {
+            "id": "413152905",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "可这是纪念故去的英雄的节日。",
+            "nextDialogs": [
+              "413152906"
+            ]
+          },
+          "413152906": {
+            "id": "413152906",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "欸？一定要死掉以后才会被纪念吗…",
+            "nextDialogs": [
+              "413152907"
+            ]
+          },
+          "413152907": {
+            "id": "413152907",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "你一定是在骗我对不对？我…我才不信呢！",
+            "nextDialogs": [
+              "413152908"
+            ]
+          },
+          "413152908": {
+            "id": "413152908",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "不、不过，明年的海灯节就算了…",
+            "nextDialogs": [
+              "413152909"
+            ]
+          },
+          "413152909": {
+            "id": "413152909",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "嗯，等五十…不，一百年之后的海灯节，那时大家一定会纪念本大英雄的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131530",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153001"
+        ],
+        "dialogs": {
+          "413153001": {
+            "id": "413153001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没事。",
+            "nextDialogs": [
+              "413153002"
+            ]
+          },
+          "413153002": {
+            "id": "413153002",
+            "speakerId": 1029,
+            "speakerName": "独孤朔",
+            "text": "没事就别浪费我的时间啦，我还要抓紧成为大英雄呢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131531",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153101"
+        ],
+        "dialogs": {
+          "413153101": {
+            "id": "413153101",
+            "speakerId": 1030,
+            "speakerName": "嘉义",
+            "text": "千岩牢固，重嶂不移。",
+            "nextDialogs": [
+              "413153102"
+            ]
+          },
+          "413153102": {
+            "id": "413153102",
+            "speakerId": 1030,
+            "speakerName": "嘉义",
+            "text": "你放飞过霄灯了吗？把愿望写到上面，在未来一定会实现的。",
+            "nextDialogs": [
+              "413153103"
+            ]
+          },
+          "413153103": {
+            "id": "413153103",
+            "speakerId": 1030,
+            "speakerName": "嘉义",
+            "text": "比如我，就许愿我的女儿小六能平安健康，多交些朋友，哈哈。",
+            "nextDialogs": [
+              "413153104"
+            ]
+          },
+          "413153104": {
+            "id": "413153104",
+            "speakerId": 1030,
+            "speakerName": "嘉义",
+            "text": "…也不知道站在轻策庄的山坡上，能不能看到漫天的霄灯…",
+            "nextDialogs": [
+              "413153105"
+            ]
+          },
+          "413153105": {
+            "id": "413153105",
+            "speakerId": 1030,
+            "speakerName": "嘉义",
+            "text": "唉…小六，爸爸好想你啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131532",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153201"
+        ],
+        "dialogs": {
+          "413153201": {
+            "id": "413153201",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "总感觉今年的海灯节格外隆重呢。",
+            "nextDialogs": [
+              "413153202"
+            ]
+          },
+          "413153202": {
+            "id": "413153202",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "之前我还在打算提前屯一批霄灯的材料，然后等海灯节的时候再以稍贵的价格售卖来着。",
+            "nextDialogs": [
+              "413153203"
+            ]
+          },
+          "413153203": {
+            "id": "413153203",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "…结果等我想要购入时才发现，凝光大人不久之前修订了律法，严禁高价倒卖霄灯的材料…",
+            "nextDialogs": [
+              "413153204"
+            ]
+          },
+          "413153204": {
+            "id": "413153204",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "真不愧是凝光大人啊，这样的商业眼光实在是自愧不如。",
+            "nextDialogs": [
+              "413153205"
+            ]
+          },
+          "413153205": {
+            "id": "413153205",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "…如今我手边就剩下做一盏霄灯的材料了，反正也卖不了什么钱了，就送给一柱和一弦他们吧。",
+            "nextDialogs": [
+              "413153206"
+            ]
+          },
+          "413153206": {
+            "id": "413153206",
+            "speakerId": 1031,
+            "speakerName": "长顺",
+            "text": "希望，他们能过一个温暖的海灯节。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131533",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153301"
+        ],
+        "dialogs": {
+          "413153301": {
+            "id": "413153301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你在看什么？",
+            "nextDialogs": [
+              "413153302"
+            ]
+          },
+          "413153302": {
+            "id": "413153302",
+            "speakerId": 1032,
+            "speakerName": "小千",
+            "text": "啊？哦…我在想怎么设置这个东西呢…",
+            "nextDialogs": [
+              "413153303"
+            ]
+          },
+          "413153303": {
+            "id": "413153303",
+            "speakerId": 1032,
+            "speakerName": "小千",
+            "text": "这几盏灯，要怎么转才对来着…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131534",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153401"
+        ],
+        "dialogs": {
+          "413153401": {
+            "id": "413153401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「玲珑霄灯图」",
+            "nextDialogs": [
+              "413153402"
+            ]
+          },
+          "413153402": {
+            "id": "413153402",
+            "speakerId": 1032,
+            "speakerName": "小千",
+            "text": "唔…你还想玩吗？再等等吧，我还没把新的灯准备好呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4131535",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "413153501"
+        ],
+        "dialogs": {
+          "413153501": {
+            "id": "413153501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「玲珑霄灯图」",
+            "nextDialogs": [
+              "413153502"
+            ]
+          },
+          "413153502": {
+            "id": "413153502",
+            "speakerId": 1032,
+            "speakerName": "小千",
+            "text": "唔…你还想玩吗？再等等吧，我还没把新的灯准备好呢。"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "lineCounts": {
+    "Player": 12,
+    "梵米尔": 55,
+    "神秘的雕像": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7100613",
+      "subQuestName": "雕像一镶嵌进度记录$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100614",
+      "subQuestName": "雕像二镶嵌进度记录$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100615",
+      "subQuestName": "收集瞳孔石增加7100607进度记录一$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100616",
+      "subQuestName": "收集瞳孔石增加7100607进度记录二$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100608",
+      "subQuestName": "瞳孔石镶嵌进度记录(1/1)$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060801"
+        ],
+        "dialogs": {
+          "710060801": {
+            "id": "710060801",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "还是不对，还是不对…这雕像的眼睛哪里会发光…",
+            "nextDialogs": [
+              "710060802"
+            ]
+          },
+          "710060802": {
+            "id": "710060802",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "难道真是我取景的方法有问题，不对…",
+            "nextDialogs": [
+              "710060803"
+            ]
+          },
+          "710060803": {
+            "id": "710060803",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "眼睛…眼睛，唉，这雕像…看上去压根就没眼睛啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100601",
+      "subQuestName": "与梵米尔对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060101"
+        ],
+        "dialogs": {
+          "710060101": {
+            "id": "710060101",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "糟糕了，这还怎么画画…",
+            "nextDialogs": [
+              "710060102"
+            ]
+          },
+          "710060102": {
+            "id": "710060102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "710060103"
+            ]
+          },
+          "710060103": {
+            "id": "710060103",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "你…哦，是旅行者啊。是这样，我一直在这个渌华池周围取材，想要画几幅好画带回去。",
+            "nextDialogs": [
+              "710060104"
+            ]
+          },
+          "710060104": {
+            "id": "710060104",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "但是我一直找不到好角度，所以一直没画出什么满意的画来…",
+            "nextDialogs": [
+              "710060105"
+            ]
+          },
+          "710060105": {
+            "id": "710060105",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "而且因为我太专心取景，走到这里才发现，我的画笔和颜料都不见了一大半。",
+            "nextDialogs": [
+              "710060106"
+            ]
+          },
+          "710060106": {
+            "id": "710060106",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我想这些东西一定是落在了我之前画画的地方，能请你帮我找找看吗？",
+            "nextDialogs": [
+              "710060108",
+              "710060111"
+            ]
+          },
+          "710060108": {
+            "id": "710060108",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "呃，其实…我也记不太清了，因为我每次都太专注于画画，不会怎么留意周围，具体的位置是记不清了…",
+            "nextDialogs": [
+              "710060109"
+            ]
+          },
+          "710060109": {
+            "id": "710060109",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "不过，我在这周围只画了两幅画，我想应该也只可能在那两个地方了。",
+            "nextDialogs": [
+              "710060113"
+            ]
+          },
+          "710060113": {
+            "id": "710060113",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "这两幅画给你，我的画材应该就在画这两幅画时的<color=#00E1FFFF>取景位</color>上了。",
+            "nextDialogs": [
+              "710060114"
+            ]
+          },
+          "710060114": {
+            "id": "710060114",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "找到了之后，就拿回来给我吧，我还要在这里再看看…一定有更好的角度…"
+          },
+          "710060111": {
+            "id": "710060111",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我每次都太专注于画画，不会怎么留意周围，具体的位置是记不清了…",
+            "nextDialogs": [
+              "710060112"
+            ]
+          },
+          "710060112": {
+            "id": "710060112",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "但我在这周围只画了两幅画，我想应该也只可能在那两个地方了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100602",
+      "subQuestName": "寻找画家曾经画画的地方（废弃）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060201"
+        ],
+        "dialogs": {
+          "710060201": {
+            "id": "710060201",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "你找到了画材了吗？",
+            "nextDialogs": [
+              "710060202"
+            ]
+          },
+          "710060202": {
+            "id": "710060202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "找到了。",
+            "nextDialogs": [
+              "710060203"
+            ]
+          },
+          "710060203": {
+            "id": "710060203",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "果然是我忘在取景的地方了，我每次画画的时候都习惯把用过的东西放在地上。",
+            "nextDialogs": [
+              "710060204"
+            ]
+          },
+          "710060204": {
+            "id": "710060204",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "有时候走得太急，就会落下很多东西，谢谢你，不然我肯定又要回去城里重新买画材了。",
+            "nextDialogs": [
+              "710060205"
+            ]
+          },
+          "710060205": {
+            "id": "710060205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你还要在这画画吗？",
+            "nextDialogs": [
+              "710060206"
+            ]
+          },
+          "710060206": {
+            "id": "710060206",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "别提了，我听人家说，这两尊雕像的眼睛本来是可以发光的，在很远的地方都能看见。",
+            "nextDialogs": [
+              "710060207"
+            ]
+          },
+          "710060207": {
+            "id": "710060207",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "目光炯炯的巨像，伫立在山崖旁…这绝对是一幅好画。",
+            "nextDialogs": [
+              "710060208"
+            ]
+          },
+          "710060208": {
+            "id": "710060208",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "结果我到这里来了之后，雕像是看见了，但是压根没什么发光的眼睛…",
+            "nextDialogs": [
+              "710060209"
+            ]
+          },
+          "710060209": {
+            "id": "710060209",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我以为是我错过了什么特殊的时机，或者角度不对，所以才一直在这里四处取景。",
+            "nextDialogs": [
+              "710060210"
+            ]
+          },
+          "710060210": {
+            "id": "710060210",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "但是…唉，无论我怎么取景，都没有一点头绪…",
+            "nextDialogs": [
+              "710060211"
+            ]
+          },
+          "710060211": {
+            "id": "710060211",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我唯一的收获，就是从下面的池子里找到了这个东西。",
+            "nextDialogs": [
+              "710060212"
+            ]
+          },
+          "710060212": {
+            "id": "710060212",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "虽然弄不懂是做什么的，但我越看这块石头，就越觉得像是眼睛。",
+            "nextDialogs": [
+              "710060213"
+            ]
+          },
+          "710060213": {
+            "id": "710060213",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "不过如果真是眼睛的话，说不定还有一块类似的石头，毕竟，人是有两只眼睛的嘛…",
+            "nextDialogs": [
+              "710060214"
+            ]
+          },
+          "710060214": {
+            "id": "710060214",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "哎呀，这也就是我瞎想的，你别在意。这块石头我拿着也没什么用，就送给你吧，就算是你帮我找画材的谢礼了。",
+            "nextDialogs": [
+              "710060215"
+            ]
+          },
+          "710060215": {
+            "id": "710060215",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "唉，眼睛会发光的雕像…这片渌华池里，到底会有什么秘密呢？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100603",
+      "subQuestName": "寻找梵米尔的画笔与颜料",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060301"
+        ],
+        "dialogs": {
+          "710060301": {
+            "id": "710060301",
+            "speakerId": 1001,
+            "speakerName": "神秘的雕像",
+            "text": "（这座雕像的头部有一个空洞，似乎能镶嵌进去什么东西…）",
+            "nextDialogs": [
+              "710060302"
+            ]
+          },
+          "710060302": {
+            "id": "710060302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "镶嵌"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100604",
+      "subQuestName": "寻找画家曾经画画的地方（废弃）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060401"
+        ],
+        "dialogs": {
+          "710060401": {
+            "id": "710060401",
+            "speakerId": 1001,
+            "speakerName": "神秘的雕像",
+            "text": "（这座雕像的头部有一个空洞，似乎能镶嵌进去什么东西…）",
+            "nextDialogs": [
+              "710060402"
+            ]
+          },
+          "710060402": {
+            "id": "710060402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "镶嵌"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100605",
+      "subQuestName": "寻找梵米尔的画笔与颜料",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060501"
+        ],
+        "dialogs": {
+          "710060501": {
+            "id": "710060501",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "(test)方碑解开了,你真厉害,我去画画了,你继续加油",
+            "nextDialogs": [
+              "710060502"
+            ]
+          },
+          "710060502": {
+            "id": "710060502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)再见,祝你画出满意的画",
+            "nextDialogs": [
+              "710060503"
+            ]
+          },
+          "710060503": {
+            "id": "710060503",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "(test)之后一定要来找我呀,让你看看我的得意之作"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100606",
+      "subQuestName": "将画材交给梵米尔",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100607",
+      "subQuestName": "寻找另一块奇怪的石头",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060701"
+        ],
+        "dialogs": {
+          "710060701": {
+            "id": "710060701",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "唉，到底怎样才能取到那个景呢…",
+            "nextDialogs": [
+              "710060702"
+            ]
+          },
+          "710060702": {
+            "id": "710060702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于那个石头…",
+            "nextDialogs": [
+              "710060703"
+            ]
+          },
+          "710060703": {
+            "id": "710060703",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "那个石头？你怎么突然对这个感兴趣…",
+            "nextDialogs": [
+              "710060704"
+            ]
+          },
+          "710060704": {
+            "id": "710060704",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我是在<color=#00E1FFFF>渌华池里</color>取景的时候捡到的。",
+            "nextDialogs": [
+              "710060705"
+            ]
+          },
+          "710060705": {
+            "id": "710060705",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "怎么，你也要去<color=#00E1FFFF>渌华池里</color>找找吗？",
+            "nextDialogs": [
+              "710060706"
+            ]
+          },
+          "710060706": {
+            "id": "710060706",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "那你可得找仔细一点了，那个池子里乱七八糟的东西可多了，也不知道是谁丢在里面的…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100620",
+      "subQuestName": "寻找另一块奇怪的石头回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100609",
+      "subQuestName": "解开渌华池的秘密",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060901"
+        ],
+        "dialogs": {
+          "710060901": {
+            "id": "710060901",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "下次要多带点画材过来了…",
+            "nextDialogs": [
+              "710060902"
+            ]
+          },
+          "710060902": {
+            "id": "710060902",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "唔，或者说…我记个备忘录更好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100610",
+      "subQuestName": "解开渌华池的秘密",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710061001"
+        ],
+        "dialogs": {
+          "710061001": {
+            "id": "710061001",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "原来…原来是这样！这两颗石头真的是这两尊雕像的眼睛！只有把石头嵌进去，他们的眼睛才会发光…",
+            "nextDialogs": [
+              "710061002"
+            ]
+          },
+          "710061002": {
+            "id": "710061002",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我一定能画出一副好画，我要去找个好位置画画了！谢谢你！",
+            "nextDialogs": [
+              "710061003"
+            ]
+          },
+          "710061003": {
+            "id": "710061003",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "太好了，太好了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7100617",
+      "subQuestName": "解开钙化池谜题桥接任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100618",
+      "subQuestName": "交付回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100619",
+      "subQuestName": "复杂对话删除NPC桥接任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100611",
+      "subQuestName": "解开渌华池的秘密",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100612",
+      "subQuestName": "探索遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7100606",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710060601"
+        ],
+        "dialogs": {
+          "710060601": {
+            "id": "710060601",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "你找到了画材了吗？",
+            "nextDialogs": [
+              "710060602"
+            ]
+          },
+          "710060602": {
+            "id": "710060602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "找到了。",
+            "nextDialogs": [
+              "710060603"
+            ]
+          },
+          "710060603": {
+            "id": "710060603",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "果然是我忘在取景的地方了，我每次画画的时候都习惯把用过的东西放在地上。",
+            "nextDialogs": [
+              "710060604"
+            ]
+          },
+          "710060604": {
+            "id": "710060604",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "有时候走得太急，就会落下很多东西，谢谢你，不然我肯定又要回去城里重新买画材了。",
+            "nextDialogs": [
+              "710060605"
+            ]
+          },
+          "710060605": {
+            "id": "710060605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你还要在这画画吗？",
+            "nextDialogs": [
+              "710060606"
+            ]
+          },
+          "710060606": {
+            "id": "710060606",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "别提了，我听人家说，这两尊雕像的双眼本来是可以发光的，在很远的地方都能看见。",
+            "nextDialogs": [
+              "710060607"
+            ]
+          },
+          "710060607": {
+            "id": "710060607",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "双目炯炯的巨像，伫立在山崖旁…这绝对是一幅好画。",
+            "nextDialogs": [
+              "710060608"
+            ]
+          },
+          "710060608": {
+            "id": "710060608",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "结果我到这里来了之后，雕像是看见了，但是压根没什么发光的眼睛…",
+            "nextDialogs": [
+              "710060609"
+            ]
+          },
+          "710060609": {
+            "id": "710060609",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我以为是我错过了什么特殊的时机，或者角度不对，所以才一直在这里四处取景。",
+            "nextDialogs": [
+              "710060610"
+            ]
+          },
+          "710060610": {
+            "id": "710060610",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "但是…唉，无论我怎么取景，都没有一点头绪…",
+            "nextDialogs": [
+              "710060611"
+            ]
+          },
+          "710060611": {
+            "id": "710060611",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "我唯一的收获，就是从下面的池子里找到了这个东西…",
+            "nextDialogs": [
+              "710060612"
+            ]
+          },
+          "710060612": {
+            "id": "710060612",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "呃…我也找到了一个…",
+            "nextDialogs": [
+              "710060613"
+            ]
+          },
+          "710060613": {
+            "id": "710060613",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "咦？我看看，还真是，看上去一模一样。",
+            "nextDialogs": [
+              "710060614"
+            ]
+          },
+          "710060614": {
+            "id": "710060614",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "真奇怪，这后面还刻着字呢，连起来读应该是…",
+            "nextDialogs": [
+              "710060615"
+            ]
+          },
+          "710060615": {
+            "id": "710060615",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "「石官掩柴门，欲入需点睛」…点睛？什么意思…",
+            "nextDialogs": [
+              "710060616"
+            ]
+          },
+          "710060616": {
+            "id": "710060616",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "这块石头我拿着也没什么用，就送给你吧，算是你帮我找画材的谢礼了。",
+            "nextDialogs": [
+              "710060617"
+            ]
+          },
+          "710060617": {
+            "id": "710060617",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "对了，我有个小想法啊，我瞎说的，你觉不觉得，这两块石头像是眼睛？",
+            "nextDialogs": [
+              "710060618"
+            ]
+          },
+          "710060618": {
+            "id": "710060618",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "如果真是眼睛的话，那句谜语里说的「点睛」，会不会也和这两块石头有关？",
+            "nextDialogs": [
+              "710060619"
+            ]
+          },
+          "710060619": {
+            "id": "710060619",
+            "speakerId": 1000,
+            "speakerName": "梵米尔",
+            "text": "哈哈哈，这也就是我瞎说的，你别在意啊。我要接着去取景了，谢谢你帮我找画材。"
+          }
+        }
+      }
+    }
+  ]
+}

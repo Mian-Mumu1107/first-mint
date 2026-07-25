@@ -1,0 +1,744 @@
+{
+  "lineCounts": {
+    "Black Screen": 6,
+    "Player": 34,
+    "格茜妮": 69,
+    "派蒙": 36
+  },
+  "subQuests": [
+    {
+      "subId": "7068101",
+      "subQuestName": "前往<color=#00E1FFFF>苍风高地</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068102",
+      "subQuestName": "解救冒险家",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068103",
+      "subQuestName": "与冒险家对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810301"
+        ],
+        "dialogs": {
+          "706810301": {
+            "id": "706810301",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "呼…总算得救了。谢谢你们！",
+            "nextDialogs": [
+              "706810302"
+            ]
+          },
+          "706810302": {
+            "id": "706810302",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我叫格茜妮，如你们所见，是一位冒险家。",
+            "nextDialogs": [
+              "706810303"
+            ]
+          },
+          "706810303": {
+            "id": "706810303",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "你们身手这么了得，一定不是普通人吧！难道是好心的骑士？或者是云游四方的游侠？",
+            "nextDialogs": [
+              "706810309",
+              "706810306"
+            ]
+          },
+          "706810309": {
+            "id": "706810309",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#我叫派蒙，{M#他}{F#她}是{NICKNAME}。其实{M#他}{F#她}也是冒险家协会的成员哦。",
+            "nextDialogs": [
+              "706810310"
+            ]
+          },
+          "706810310": {
+            "id": "706810310",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "原来是冒险家前辈！真是人外有人啊，这么难缠的魔物，你们一下子就解决了。",
+            "nextDialogs": [
+              "706810311"
+            ]
+          },
+          "706810311": {
+            "id": "706810311",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "不像我，训练的时候明明动作都记住了，结果到了实战，手脚就不听使唤…",
+            "nextDialogs": [
+              "706810312"
+            ]
+          },
+          "706810312": {
+            "id": "706810312",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "就像老师说的那样，我还得再锻炼个三五年吗？但是就这么空手回去也太丢脸了吧…呜呜…",
+            "nextDialogs": [
+              "706810313"
+            ]
+          },
+          "706810313": {
+            "id": "706810313",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哎呀，我觉得只是经验的差距啦。我们也是经历了很多场实战，才能游刃有余的！"
+          },
+          "706810306": {
+            "id": "706810306",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我明白的！你一定是身负秘密使命，只能低调行事…",
+            "nextDialogs": [
+              "706810307"
+            ]
+          },
+          "706810307": {
+            "id": "706810307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "差不多就是这样。",
+            "nextDialogs": [
+              "706810308"
+            ]
+          },
+          "706810308": {
+            "id": "706810308",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好啦，你就别卖关子了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068104",
+      "subQuestName": "与格茜妮一起继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810401"
+        ],
+        "dialogs": {
+          "706810401": {
+            "id": "706810401",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "前辈！不好意思，可以在这里稍等一下吗？",
+            "nextDialogs": [
+              "706810402"
+            ]
+          },
+          "706810402": {
+            "id": "706810402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "706810403"
+            ]
+          },
+          "706810403": {
+            "id": "706810403",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "难道忘带什么东西了吗？",
+            "nextDialogs": [
+              "706810404"
+            ]
+          },
+          "706810404": {
+            "id": "706810404",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "这倒没有。只是我看地图，再往前走就要离开蒙德了呢。",
+            "nextDialogs": [
+              "706810405"
+            ]
+          },
+          "706810405": {
+            "id": "706810405",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "下次回来也不知道是什么时候…老师看到我留的信，说不定会大发雷霆吧…",
+            "nextDialogs": [
+              "706810408"
+            ]
+          },
+          "706810408": {
+            "id": "706810408",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "是的…他刚成为冒险家的时候，在野外遇到了丘丘暴徒，结果在周旋的时候，不小心被一斧子砸晕了。",
+            "nextDialogs": [
+              "706810409"
+            ]
+          },
+          "706810409": {
+            "id": "706810409",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "好在路过的骑士把他救了回去。",
+            "nextDialogs": [
+              "706810410"
+            ]
+          },
+          "706810410": {
+            "id": "706810410",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "他觉得很没面子，决定在城里将武艺锻炼到极致再外出冒险。结果这一锻炼就是十年…",
+            "nextDialogs": [
+              "706810411"
+            ]
+          },
+          "706810411": {
+            "id": "706810411",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "老师总说基础是最重要的，可是我真的受不了每天砍木桩了！",
+            "nextDialogs": [
+              "706810412"
+            ]
+          },
+          "706810412": {
+            "id": "706810412",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "所以我就瞒着老师，一个人出门旅行…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068105",
+      "subQuestName": "前往<color=#00E1FFFF>石门</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810501"
+        ],
+        "dialogs": {
+          "706810501": {
+            "id": "706810501",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "前面就是<color=#00E1FFFF>荻花洲</color>了吧？好漂亮呀，是在蒙德看不到的风景呢。",
+            "nextDialogs": [
+              "706810502"
+            ]
+          },
+          "706810502": {
+            "id": "706810502",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "果然出来旅行是正确的选择！",
+            "nextDialogs": [
+              "706810503"
+            ]
+          },
+          "706810503": {
+            "id": "706810503",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "对了，机会难得，我们在这里一起合影留念吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068106",
+      "subQuestName": "在附近合影留念",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068107",
+      "subQuestName": "与格茜妮对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810701"
+        ],
+        "dialogs": {
+          "706810701": {
+            "id": "706810701",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "和前辈的珍贵合影，我会好好收藏的！",
+            "nextDialogs": [
+              "706810702"
+            ]
+          },
+          "706810702": {
+            "id": "706810702",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "啊，一放松下来就饿了…",
+            "nextDialogs": [
+              "706810703"
+            ]
+          },
+          "706810703": {
+            "id": "706810703",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这么一说，派蒙的肚子也在咕咕叫了…",
+            "nextDialogs": [
+              "706810708",
+              "706810706"
+            ]
+          },
+          "706810708": {
+            "id": "706810708",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我们就在附近看看，找个能吃饭的地方吧！",
+            "nextDialogs": [
+              "706810709"
+            ]
+          },
+          "706810709": {
+            "id": "706810709",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "这附近好像没有什么合适的餐馆呢…如果随便对付一下的话，就太委屈前辈了。",
+            "nextDialogs": [
+              "706810710"
+            ]
+          },
+          "706810710": {
+            "id": "706810710",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "说起来，前面那个建在大石头上的建筑，就是有名的<color=#00E1FFFF>望舒客栈</color>吧？",
+            "nextDialogs": [
+              "706810711"
+            ]
+          },
+          "706810711": {
+            "id": "706810711",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我以前听来蒙德做买卖的璃月商人说过，那里的菜品可好吃了！",
+            "nextDialogs": [
+              "706810712"
+            ]
+          },
+          "706810712": {
+            "id": "706810712",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "作为答谢，我请前辈去吃顿大餐吧！",
+            "nextDialogs": [
+              "706810713"
+            ]
+          },
+          "706810713": {
+            "id": "706810713",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好耶！去吃好吃的！"
+          },
+          "706810706": {
+            "id": "706810706",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喂，使唤我也要有个限度呀！",
+            "nextDialogs": [
+              "706810707"
+            ]
+          },
+          "706810707": {
+            "id": "706810707",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "而且我的厨艺水平你也是知道的嘛…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068108",
+      "subQuestName": "抵达<color=#00E1FFFF>望舒客栈</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810801"
+        ],
+        "dialogs": {
+          "706810801": {
+            "id": "706810801",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "听说璃月菜讲究色香味俱全，看上去真的很不一样呢。",
+            "nextDialogs": [
+              "706810802"
+            ]
+          },
+          "706810802": {
+            "id": "706810802",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "光是看着就已经垂涎欲滴了！",
+            "nextDialogs": [
+              "706810803"
+            ]
+          },
+          "706810803": {
+            "id": "706810803",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "你们细细地品味了这里的美食…",
+            "nextDialogs": [
+              "706810804"
+            ]
+          },
+          "706810804": {
+            "id": "706810804",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜哇，这个也好吃，那个也好吃…实在是吃不下了！",
+            "nextDialogs": [
+              "706810807"
+            ]
+          },
+          "706810807": {
+            "id": "706810807",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "前辈一路辛苦了，要是没有你们，我肯定没法这么轻松地来到这里。",
+            "nextDialogs": [
+              "706810808"
+            ]
+          },
+          "706810808": {
+            "id": "706810808",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "刚才听客栈的人说，再往前走就是<color=#00E1FFFF>璃月港</color>了。",
+            "nextDialogs": [
+              "706810809"
+            ]
+          },
+          "706810809": {
+            "id": "706810809",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我打算在这里休息几天，跟其他旅客打听一下，怎么才能找到世外高人，然后再决定之后要去哪里。",
+            "nextDialogs": [
+              "706810810"
+            ]
+          },
+          "706810810": {
+            "id": "706810810",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "虽然跟前辈旅行真的很开心，但是不能继续耽误你们的时间了。",
+            "nextDialogs": [
+              "706810811"
+            ]
+          },
+          "706810811": {
+            "id": "706810811",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "接下来我会努力变强，成为像前辈一样可靠的冒险家的！",
+            "nextDialogs": [
+              "706810812"
+            ]
+          },
+          "706810812": {
+            "id": "706810812",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，虽然相处时间不长，但是我们也很开心呢！",
+            "nextDialogs": [
+              "706810813"
+            ]
+          },
+          "706810813": {
+            "id": "706810813",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "希望以后还能在别的地方相遇！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068112",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706811201"
+        ],
+        "dialogs": {
+          "706811201": {
+            "id": "706811201",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "听说璃月菜讲究色香味俱全，看上去真的很不一样呢。",
+            "nextDialogs": [
+              "706811202"
+            ]
+          },
+          "706811202": {
+            "id": "706811202",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "光是看着就已经垂涎欲滴了！",
+            "nextDialogs": [
+              "706811203"
+            ]
+          },
+          "706811203": {
+            "id": "706811203",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "你们细细地品味了这里的美食…",
+            "nextDialogs": [
+              "706811204"
+            ]
+          },
+          "706811204": {
+            "id": "706811204",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜哇，这个也好吃，那个也好吃…实在是吃不下了！",
+            "nextDialogs": [
+              "706811207"
+            ]
+          },
+          "706811207": {
+            "id": "706811207",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "前辈一路辛苦了，要是没有你们，我肯定没法这么轻松地来到这里。",
+            "nextDialogs": [
+              "706811208"
+            ]
+          },
+          "706811208": {
+            "id": "706811208",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "刚才听客栈的人说，再往前走就是<color=#00E1FFFF>璃月港</color>了。",
+            "nextDialogs": [
+              "706811209"
+            ]
+          },
+          "706811209": {
+            "id": "706811209",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我打算在这里休息几天，跟其他旅客打听一下，怎么才能找到世外高人，然后再决定之后要去哪里。",
+            "nextDialogs": [
+              "706811210"
+            ]
+          },
+          "706811210": {
+            "id": "706811210",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "虽然跟前辈旅行真的很开心，但是不能继续耽误你们的时间了。",
+            "nextDialogs": [
+              "706811211"
+            ]
+          },
+          "706811211": {
+            "id": "706811211",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "接下来我会努力变强，成为像前辈一样可靠的冒险家的！",
+            "nextDialogs": [
+              "706811212"
+            ]
+          },
+          "706811212": {
+            "id": "706811212",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，虽然相处时间不长，但是我们也很开心呢！",
+            "nextDialogs": [
+              "706811213"
+            ]
+          },
+          "706811213": {
+            "id": "706811213",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "希望以后还能在别的地方相遇！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068131",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706813101"
+        ],
+        "dialogs": {
+          "706813101": {
+            "id": "706813101",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "呼…总算得救了。谢谢你们！",
+            "nextDialogs": [
+              "706813102"
+            ]
+          },
+          "706813102": {
+            "id": "706813102",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我叫格茜妮，如你们所见，是一位冒险家。",
+            "nextDialogs": [
+              "706813103"
+            ]
+          },
+          "706813103": {
+            "id": "706813103",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "你们身手这么了得，一定不是普通人吧！难道是好心的骑士？或者是云游四方的游侠？",
+            "nextDialogs": [
+              "706813109",
+              "706813106"
+            ]
+          },
+          "706813109": {
+            "id": "706813109",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#我叫派蒙，{M#他}{F#她}是{NICKNAME}。其实{M#他}{F#她}也是冒险家协会的成员哦。",
+            "nextDialogs": [
+              "706813110"
+            ]
+          },
+          "706813110": {
+            "id": "706813110",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "原来是冒险家前辈！真是人外有人啊，这么难缠的魔物，你们一下子就解决了。",
+            "nextDialogs": [
+              "706813111"
+            ]
+          },
+          "706813111": {
+            "id": "706813111",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "不像我，训练的时候明明动作都记住了，结果到了实战，手脚就不听使唤…",
+            "nextDialogs": [
+              "706813112"
+            ]
+          },
+          "706813112": {
+            "id": "706813112",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "就像老师说的那样，我还得再锻炼个三五年吗？但是就这么空手回去也太丢脸了吧…呜呜…",
+            "nextDialogs": [
+              "706813113"
+            ]
+          },
+          "706813113": {
+            "id": "706813113",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哎呀，我觉得只是经验的差距啦。我们也是经历了很多场实战，才能游刃有余的！"
+          },
+          "706813106": {
+            "id": "706813106",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "我明白的！你一定是身负秘密使命，只能低调行事…",
+            "nextDialogs": [
+              "706813107"
+            ]
+          },
+          "706813107": {
+            "id": "706813107",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "差不多就是这样。",
+            "nextDialogs": [
+              "706813108"
+            ]
+          },
+          "706813108": {
+            "id": "706813108",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好啦，你就别卖关子了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706819904"
+        ],
+        "dialogs": {
+          "706819904": {
+            "id": "706819904",
+            "speakerId": 1000,
+            "speakerName": "格茜妮",
+            "text": "救命啊...",
+            "nextDialogs": [
+              "706819905"
+            ]
+          },
+          "706819905": {
+            "id": "706819905",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "格茜妮找掌柜打听这里的菜单，点了一些价格高昂的名菜…"
+          }
+        }
+      }
+    }
+  ]
+}

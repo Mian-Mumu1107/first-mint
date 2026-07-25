@@ -1,0 +1,83 @@
+{
+  "lineCounts": {
+    "Player": 2,
+    "盖纳": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7007701",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700770101"
+        ],
+        "dialogs": {
+          "700770101": {
+            "id": "700770101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（赠送香氛。）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7007702",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700770201"
+        ],
+        "dialogs": {
+          "700770201": {
+            "id": "700770201",
+            "speakerId": 1000,
+            "speakerName": "盖纳",
+            "text": "非常感谢您。这淡雅的香气…我想，她要是闻到这样的芬芳，一定会露出最真实、最美丽的笑容吧。",
+            "nextDialogs": [
+              "700770202"
+            ]
+          },
+          "700770202": {
+            "id": "700770202",
+            "speakerId": 1000,
+            "speakerName": "盖纳",
+            "text": "请务必收下这个作为谢礼。这是我妻子最喜欢的一本枫丹爱情诗集，我特意多买了一本带在身边。",
+            "nextDialogs": [
+              "700770203"
+            ]
+          },
+          "700770203": {
+            "id": "700770203",
+            "speakerId": 1000,
+            "speakerName": "盖纳",
+            "text": "愿诗歌与芬芳，也能为您带来美好的奇遇。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7007703",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700770301"
+        ],
+        "dialogs": {
+          "700770301": {
+            "id": "700770301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "离开。"
+          }
+        }
+      }
+    }
+  ]
+}

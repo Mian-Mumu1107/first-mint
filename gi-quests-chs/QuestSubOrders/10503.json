@@ -1,0 +1,44 @@
+{
+  "lineCounts": {
+    "莫娜": 3
+  },
+  "subQuests": [
+    {
+      "subId": "1050301",
+      "subQuestName": "探望实验室中的莫娜$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105030101"
+        ],
+        "dialogs": {
+          "105030101": {
+            "id": "105030101",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "别吵别吵，正在实验呢！",
+            "nextDialogs": [
+              "105030102"
+            ]
+          },
+          "105030102": {
+            "id": "105030102",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "#哦，是{NICKNAME}啊。我正在为你的事情做很多尝试，再耐心等一等就会有成果了。",
+            "nextDialogs": [
+              "105030103"
+            ]
+          },
+          "105030103": {
+            "id": "105030103",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "不用担心我会饿晕啦，姑且是想到赚钱的办法了…"
+          }
+        }
+      }
+    }
+  ]
+}

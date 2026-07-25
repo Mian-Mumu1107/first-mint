@@ -1,0 +1,888 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 35,
+    "八重神子": 18,
+    "派蒙": 51,
+    "海妮耶": 19,
+    "莱依拉": 16,
+    "铁骨双刀": 4
+  },
+  "subQuests": [
+    {
+      "subId": "4008401",
+      "subQuestName": "等待到第二天上午（8：00-10：00）",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008403",
+      "subQuestName": "参加比赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008417",
+      "subQuestName": "参加比赛$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008419",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008404",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840401"
+        ],
+        "dialogs": {
+          "400840401": {
+            "id": "400840401",
+            "speakerId": 1000,
+            "speakerName": "铁骨双刀",
+            "text": "是你们，见识浅薄的鼠辈。",
+            "nextDialogs": [
+              "400840402"
+            ]
+          },
+          "400840402": {
+            "id": "400840402",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好大的口气！凭什么这么说！",
+            "nextDialogs": [
+              "400840403"
+            ]
+          },
+          "400840403": {
+            "id": "400840403",
+            "speakerId": 1000,
+            "speakerName": "铁骨双刀",
+            "text": "对蕈兽投入多余的情感，何其软弱，何其可笑！这有悖于最强的驯兽师，海妮耶大人的理念。",
+            "nextDialogs": [
+              "400840404"
+            ]
+          },
+          "400840404": {
+            "id": "400840404",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "最强的驯兽师…",
+            "nextDialogs": [
+              "400840405"
+            ]
+          },
+          "400840405": {
+            "id": "400840405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们会纠正海妮耶的想法。",
+            "nextDialogs": [
+              "400840406"
+            ]
+          },
+          "400840406": {
+            "id": "400840406",
+            "speakerId": 1000,
+            "speakerName": "铁骨双刀",
+            "text": "别妄想了！软弱之人没有资格和海妮耶大人对阵，你们会止步于此！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008405",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008414",
+      "subQuestName": "与对手对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841401"
+        ],
+        "dialogs": {
+          "400841401": {
+            "id": "400841401",
+            "speakerId": 1000,
+            "speakerName": "铁骨双刀",
+            "text": "不可能！这绝无可能…难道是我对蕈兽的训练还不够严格吗？",
+            "nextDialogs": [
+              "400841402"
+            ]
+          },
+          "400841402": {
+            "id": "400841402",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔…虽然打败了他，但总感觉高兴不起来呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008402",
+      "subQuestName": "离开赛场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008406",
+      "subQuestName": "与莱依拉交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840601"
+        ],
+        "dialogs": {
+          "400840601": {
+            "id": "400840601",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "#{NICKNAME}，派蒙，我成功晋级了！",
+            "nextDialogs": [
+              "400840602"
+            ]
+          },
+          "400840602": {
+            "id": "400840602",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "太好了，莱依拉！你顺利完成了参赛的目标！",
+            "nextDialogs": [
+              "400840603"
+            ]
+          },
+          "400840603": {
+            "id": "400840603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "可喜可贺！",
+            "nextDialogs": [
+              "400840604"
+            ]
+          },
+          "400840604": {
+            "id": "400840604",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "我听说你们打败了那个一路过关斩将的「铁骨双刀」…为什么我感觉，你们好像有点不开心？",
+            "nextDialogs": [
+              "400840605"
+            ]
+          },
+          "400840605": {
+            "id": "400840605",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "怎么说呢…这个对手不太友善，说了很多奇怪的话…",
+            "nextDialogs": [
+              "400840606"
+            ]
+          },
+          "400840606": {
+            "id": "400840606",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "向莱依拉讲述了对决中的细节…",
+            "nextDialogs": [
+              "400840607"
+            ]
+          },
+          "400840607": {
+            "id": "400840607",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "原来是这样…总觉得这样的驯兽师有点…悲哀？",
+            "nextDialogs": [
+              "400840608"
+            ]
+          },
+          "400840608": {
+            "id": "400840608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "悲哀？",
+            "nextDialogs": [
+              "400840609"
+            ]
+          },
+          "400840609": {
+            "id": "400840609",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "嗯，那个人明明不了解海妮耶，只凭一个朦胧的印象去揣测她，甚至效仿她。海妮耶要是知道了这种事，大概也会苦恼的吧。",
+            "nextDialogs": [
+              "400840610"
+            ]
+          },
+          "400840610": {
+            "id": "400840610",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "而且，那个驯兽师对原本可以成为好朋友的蘑菇伙伴这么严苛，不止自己受到了损失，还会影响其他选手的心态…",
+            "nextDialogs": [
+              "400840611"
+            ]
+          },
+          "400840611": {
+            "id": "400840611",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "对啊，我觉得莱依拉的心态就很好！大家都和你一样的话，比赛的气氛也会更和谐，更欢乐！",
+            "nextDialogs": [
+              "400840612"
+            ]
+          },
+          "400840612": {
+            "id": "400840612",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "只是因为我的目标不高吧…只要能把「转转悠悠兽」带回去一起生活，我就很满足了。",
+            "nextDialogs": [
+              "400840613"
+            ]
+          },
+          "400840613": {
+            "id": "400840613",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "接下来就轮到我们较量了。我们要友好、开心地比试一场，输赢不重要，当成朋友间的切磋就行。",
+            "nextDialogs": [
+              "400840614"
+            ]
+          },
+          "400840614": {
+            "id": "400840614",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "一言为定！",
+            "nextDialogs": [
+              "400840615"
+            ]
+          },
+          "400840615": {
+            "id": "400840615",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好哦！让我们看看「转转悠悠兽」和「咚咚小圆帽」谁更厉害！赢了的一边要请输了的吃饭！",
+            "nextDialogs": [
+              "400840616"
+            ]
+          },
+          "400840616": {
+            "id": "400840616",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "看你们开开心心地作出约定，难道我错过了什么关键的讨论吗？",
+            "nextDialogs": [
+              "400840617"
+            ]
+          },
+          "400840617": {
+            "id": "400840617",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "神子，你总算出现了！上次你不声不响就走了，我们还有些线索…呃咳，还有些事想要和你商量！",
+            "nextDialogs": [
+              "400840618"
+            ]
+          },
+          "400840618": {
+            "id": "400840618",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "我也很苦恼呢，我抱着随便玩玩的想法参赛，结果反而进入了半决赛，只能挤出时间陪着左右加他们取材了。",
+            "nextDialogs": [
+              "400840619"
+            ]
+          },
+          "400840619": {
+            "id": "400840619",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "你们两个倒是不必担心，想必会进行一场非常和谐的比赛。我倒是要稍微认真一点了，毕竟对手是那个无比偏执的家伙呢。",
+            "nextDialogs": [
+              "400840620"
+            ]
+          },
+          "400840620": {
+            "id": "400840620",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "确实，没想到情况会变成这样，八重小姐居然要和海妮耶对阵了…",
+            "nextDialogs": [
+              "400840621"
+            ]
+          },
+          "400840621": {
+            "id": "400840621",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "乐观一点，说不定神子就帮我们把海妮耶打败了呢！",
+            "nextDialogs": [
+              "400840622"
+            ]
+          },
+          "400840622": {
+            "id": "400840622",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "虽然那样就不能亲自说服海妮耶了，但我还是不希望神子输掉！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008407",
+      "subQuestName": "参加半决赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008418",
+      "subQuestName": "参加半决赛$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008420",
+      "subQuestName": "参加半决赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008408",
+      "subQuestName": "与莱依拉切磋",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840801"
+        ],
+        "dialogs": {
+          "400840801": {
+            "id": "400840801",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "我有点紧张，但也很期待！",
+            "nextDialogs": [
+              "400840802"
+            ]
+          },
+          "400840802": {
+            "id": "400840802",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "请你们不要太拘束，「转转悠悠兽」带领的队伍经历过不少考验，实力也是不错的！让你们的伙伴拿出全力吧！",
+            "nextDialogs": [
+              "400840803"
+            ]
+          },
+          "400840803": {
+            "id": "400840803",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那就接招吧，莱依拉，还有「转转悠悠兽」！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008409",
+      "subQuestName": "与莱依拉切磋",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008413",
+      "subQuestName": "与莱依拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841301"
+        ],
+        "dialogs": {
+          "400841301": {
+            "id": "400841301",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "结果还是输了呀…",
+            "nextDialogs": [
+              "400841302"
+            ]
+          },
+          "400841302": {
+            "id": "400841302",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "不过你和同伴们发挥得比平常还好，「转转悠悠兽」！我很尽兴，很开心！",
+            "nextDialogs": [
+              "400841303"
+            ]
+          },
+          "400841303": {
+            "id": "400841303",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "谢谢你们！我和「转转悠悠兽」的比赛完美落幕了，如果被你以外的人打败，也许我们还会有点不服气呢。",
+            "nextDialogs": [
+              "400841304"
+            ]
+          },
+          "400841304": {
+            "id": "400841304",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "莱依拉和「转转悠悠兽」也很强哦，我们差一点就被你们压倒了呢！",
+            "nextDialogs": [
+              "400841305"
+            ]
+          },
+          "400841305": {
+            "id": "400841305",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不在乎胜负，只是尽情发挥蕈兽们的本领，好好比拼一场…这种感觉真的很畅快。",
+            "nextDialogs": [
+              "400841306"
+            ]
+          },
+          "400841306": {
+            "id": "400841306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "也许这才是比赛该有的样子…",
+            "nextDialogs": [
+              "400841307"
+            ]
+          },
+          "400841307": {
+            "id": "400841307",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "要是每场比赛都像这样，不用在意其他因素就好了。但是现在神子还在和海妮耶对决！我超级不安！我们赶紧去看看吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008412",
+      "subQuestName": "离开赛场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841201"
+        ],
+        "dialogs": {
+          "400841201": {
+            "id": "400841201",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "嗯？你们是怎么找到这里的…",
+            "nextDialogs": [
+              "400841202"
+            ]
+          },
+          "400841202": {
+            "id": "400841202",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我们是追着「火一」的痕迹找过来的，看见你刚才的状态，我们很不安！",
+            "nextDialogs": [
+              "400841203"
+            ]
+          },
+          "400841203": {
+            "id": "400841203",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "等等…你这是在安慰「火一」吗？",
+            "nextDialogs": [
+              "400841204"
+            ]
+          },
+          "400841204": {
+            "id": "400841204",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "还真是讽刺…如果「火一」不是蕈兽，而是普通的动物，我大概会为此感到高兴。",
+            "nextDialogs": [
+              "400841205"
+            ]
+          },
+          "400841205": {
+            "id": "400841205",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "下次见面就是决赛了，有什么想说的，就等到打败我以后再唠叨…",
+            "nextDialogs": [
+              "400841208"
+            ]
+          },
+          "400841208": {
+            "id": "400841208",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "你们的说辞和那个狐狸女人预测的完全一样…你们确实很单纯，很善良，把一些事情想得太过美好。",
+            "nextDialogs": [
+              "400841209"
+            ]
+          },
+          "400841209": {
+            "id": "400841209",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "只凭我简单的转述，是不能让你们理解的。看看这个吧…",
+            "nextDialogs": [
+              "400841210"
+            ]
+          },
+          "400841210": {
+            "id": "400841210",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这是？",
+            "nextDialogs": [
+              "400841212"
+            ]
+          },
+          "400841212": {
+            "id": "400841212",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "这是我的祖辈们的记事簿，当年，他们在雨林中遭到了蕈兽的攻击，许多人身受重伤。",
+            "nextDialogs": [
+              "400841213"
+            ]
+          },
+          "400841213": {
+            "id": "400841213",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "这件事在当时不值一提，甚至没有被任何文献记载。但我的家族成员自我小时候起，就反复把它念给我听，教导我蕈兽的威胁。",
+            "nextDialogs": [
+              "400841214"
+            ]
+          },
+          "400841214": {
+            "id": "400841214",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "原来以前发生过这样的事，难怪你这么仇视蕈兽…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008410",
+      "subQuestName": "与八重神子对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841001"
+        ],
+        "dialogs": {
+          "400841001": {
+            "id": "400841001",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "咦…难道比赛已经结束了？这凝重的气氛…是神子赢了吗！",
+            "nextDialogs": [
+              "400841002"
+            ]
+          },
+          "400841002": {
+            "id": "400841002",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "你们的比赛也完满落幕了？花费了这么长的时间，看来是一场旗鼓相当的对决呢…",
+            "nextDialogs": [
+              "400841003"
+            ]
+          },
+          "400841003": {
+            "id": "400841003",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，看神子这轻松的口吻，肯定赢得很轻松！",
+            "nextDialogs": [
+              "400841004"
+            ]
+          },
+          "400841004": {
+            "id": "400841004",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "啊呀呀，我们这边的比赛确实没有任何悬念呢，我和「百雷遮罗」只用短短几招就——",
+            "nextDialogs": [
+              "400841005"
+            ]
+          },
+          "400841005": {
+            "id": "400841005",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "被海妮耶打败了。",
+            "nextDialogs": [
+              "400841006"
+            ]
+          },
+          "400841006": {
+            "id": "400841006",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "欸？",
+            "nextDialogs": [
+              "400841007"
+            ]
+          },
+          "400841007": {
+            "id": "400841007",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "你那散漫的态度…是在戏弄我吗？",
+            "nextDialogs": [
+              "400841008"
+            ]
+          },
+          "400841008": {
+            "id": "400841008",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "呵呵，我可不敢轻视你，海妮耶小姐。毕竟你的意志格外坚定，甚至想要毁灭一整个物种，我怎么敢对你随便开玩笑呢？",
+            "nextDialogs": [
+              "400841009"
+            ]
+          },
+          "400841009": {
+            "id": "400841009",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "不过，要是你沿着这条路继续走下去，发现沿途所见的景象和想象的完全不同，你的执着又会转变成什么？我很期待哦…",
+            "nextDialogs": [
+              "400841010"
+            ]
+          },
+          "400841010": {
+            "id": "400841010",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "不劳你操心。",
+            "nextDialogs": [
+              "400841011"
+            ]
+          },
+          "400841011": {
+            "id": "400841011",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "这就逃走了？",
+            "nextDialogs": [
+              "400841012"
+            ]
+          },
+          "400841012": {
+            "id": "400841012",
+            "speakerId": 1002,
+            "speakerName": "莱依拉",
+            "text": "输掉比赛的明明是八重小姐，反而好像是海妮耶受到的打击更大？",
+            "nextDialogs": [
+              "400841013"
+            ]
+          },
+          "400841013": {
+            "id": "400841013",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "事态变得愈发有趣了，比赛刚开始，「百雷遮罗」就伤到了「火一」，海妮耶明显有些慌乱。",
+            "nextDialogs": [
+              "400841014"
+            ]
+          },
+          "400841014": {
+            "id": "400841014",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "我只不过是点破她还在自我欺骗的这个事实，她的心理防线就快要崩溃了，出人意料的脆弱呢。",
+            "nextDialogs": [
+              "400841017"
+            ]
+          },
+          "400841017": {
+            "id": "400841017",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "莫非，海妮耶并不像她说的那样绝情？她其实是关心「火一」的，只不过在神子面前暴露了？",
+            "nextDialogs": [
+              "400841018"
+            ]
+          },
+          "400841018": {
+            "id": "400841018",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "答对啦，现在正是深入她内心世界的好时机。能改变她的，就只有小家伙们啦。",
+            "nextDialogs": [
+              "400841019"
+            ]
+          },
+          "400841019": {
+            "id": "400841019",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "但现在海妮耶已经走远了，我们要去哪里找她呢？",
+            "nextDialogs": [
+              "400841020"
+            ]
+          },
+          "400841020": {
+            "id": "400841020",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "这种时候，她想必在怀疑，一直以来无比决绝的自己究竟受到了什么影响，居然有些动摇？",
+            "nextDialogs": [
+              "400841021"
+            ]
+          },
+          "400841021": {
+            "id": "400841021",
+            "speakerId": 1004,
+            "speakerName": "八重神子",
+            "text": "答案就在你们三位身上。你们很清楚，她会去什么地方。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008416",
+      "subQuestName": "前往谈话中提到的地点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008411",
+      "subQuestName": "利用元素视野寻找海妮耶",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008415",
+      "subQuestName": "与派蒙进行讨论",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841501"
+        ],
+        "dialogs": {
+          "400841501": {
+            "id": "400841501",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "结果还是失败了，只有在赛场上打败海妮耶这一个选择了…",
+            "nextDialogs": [
+              "400841504"
+            ]
+          },
+          "400841504": {
+            "id": "400841504",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "海妮耶好像说过，以前也有学者尝试遏制蕈兽造成的灾害？这本笔记还有不少内容，我们再好好读一读吧。",
+            "nextDialogs": [
+              "400841506"
+            ]
+          },
+          "400841506": {
+            "id": "400841506",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这是海妮耶的祖辈收集的…学者们的研究记录？",
+            "nextDialogs": [
+              "400841507"
+            ]
+          },
+          "400841507": {
+            "id": "400841507",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔，这部分的内容好复杂，字迹潦草，还有很多术语，怎么想都看不懂吧…",
+            "nextDialogs": [
+              "400841508"
+            ]
+          },
+          "400841508": {
+            "id": "400841508",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，有很多眼熟的词语欸…好像在之前多莉给我们的文件上见过！"
+          }
+        }
+      }
+    }
+  ]
+}

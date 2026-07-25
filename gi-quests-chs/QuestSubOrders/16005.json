@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "杜林": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1600502",
+      "subQuestName": "等待魔法书给出后续篇章的提示",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1600031",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "160003101"
+        ],
+        "dialogs": {
+          "160003101": {
+            "id": "160003101",
+            "speakerId": 1000,
+            "speakerName": "杜林",
+            "text": "按照艾莉丝阿姨的说法，我们随时可以重新回到那个故事里的世界。",
+            "nextDialogs": [
+              "160003102"
+            ]
+          },
+          "160003102": {
+            "id": "160003102",
+            "speakerId": 1000,
+            "speakerName": "杜林",
+            "text": "#如果{NICKNAME}和派蒙想要再回去看看的话，就来找我吧。"
+          }
+        }
+      }
+    }
+  ]
+}

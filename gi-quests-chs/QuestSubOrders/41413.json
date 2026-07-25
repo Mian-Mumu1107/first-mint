@@ -1,0 +1,529 @@
+{
+  "lineCounts": {
+    "Player": 14,
+    "派蒙": 17,
+    "温迪": 32,
+    "琴": 12
+  },
+  "subQuests": [
+    {
+      "subId": "4141301",
+      "subQuestName": "等到约定的时间，前往蒙德广场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141302",
+      "subQuestName": "与琴对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414130201"
+        ],
+        "dialogs": {
+          "414130201": {
+            "id": "414130201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "琴团长，我们来啦。",
+            "nextDialogs": [
+              "414130202"
+            ]
+          },
+          "414130202": {
+            "id": "414130202",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "旅行者！啊，不，这里或许该称呼你为荣誉骑士。",
+            "nextDialogs": [
+              "414130203"
+            ]
+          },
+          "414130203": {
+            "id": "414130203",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "想必你已经听说了，你是本届的「风花节之星」，将代表全蒙德人向风神巴巴托斯献上「风之花」。",
+            "nextDialogs": [
+              "414130204"
+            ]
+          },
+          "414130204": {
+            "id": "414130204",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "不过…这次似乎略有不同呢。",
+            "nextDialogs": [
+              "414130205"
+            ]
+          },
+          "414130205": {
+            "id": "414130205",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "有我们，还有卖唱的，这次风花节是不是格外热闹呀！",
+            "nextDialogs": [
+              "414130206"
+            ]
+          },
+          "414130206": {
+            "id": "414130206",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "是的。感谢你们常驻蒙德，也希望你们今后继续享受在蒙德的生活。",
+            "nextDialogs": [
+              "414130207"
+            ]
+          },
+          "414130207": {
+            "id": "414130207",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "风花典礼快要开始了。风花节之星，选好属于你的「风之花」了吗？",
+            "nextDialogs": [
+              "414130208"
+            ]
+          },
+          "414130208": {
+            "id": "414130208",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们必须选出一种花，把它献给风神，对吗？",
+            "nextDialogs": [
+              "414130209"
+            ]
+          },
+          "414130209": {
+            "id": "414130209",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "没错，请你慎重考虑之后做出选择。别忘了，你的选择代表着全蒙德。",
+            "nextDialogs": [
+              "414130210"
+            ]
+          },
+          "414130210": {
+            "id": "414130210",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "温迪，你喜欢什么花？",
+            "nextDialogs": [
+              "414130211"
+            ]
+          },
+          "414130211": {
+            "id": "414130211",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "嗯？好狡猾呀，居然直接问我。",
+            "nextDialogs": [
+              "414130212"
+            ]
+          },
+          "414130212": {
+            "id": "414130212",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "咳咳…",
+            "nextDialogs": [
+              "414130213"
+            ]
+          },
+          "414130213": {
+            "id": "414130213",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不要在这种场合说悄悄话啦你们两个！",
+            "nextDialogs": [
+              "414130214"
+            ]
+          },
+          "414130214": {
+            "id": "414130214",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "哈哈，被训了呢！",
+            "nextDialogs": [
+              "414130215"
+            ]
+          },
+          "414130215": {
+            "id": "414130215",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "不用在意我，选喜欢的就好。我相信你的品味。",
+            "nextDialogs": [
+              "414130216"
+            ]
+          },
+          "414130216": {
+            "id": "414130216",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "那么，荣誉骑士，你的选择是…",
+            "nextDialogs": [
+              "414130218",
+              "414130220",
+              "414130222",
+              "414130224",
+              "414130226",
+              "414130228"
+            ]
+          },
+          "414130218": {
+            "id": "414130218",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！支持者众多的热门选择，「风之花」一定就是蒲公英啦！",
+            "nextDialogs": [
+              "414130229"
+            ]
+          },
+          "414130229": {
+            "id": "414130229",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "请代表蒙德人，向神像献上你的「风之花」。"
+          },
+          "414130220": {
+            "id": "414130220",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！是支持者众多的热门选择，「风之花」一定就是风车菊啦！"
+          },
+          "414130222": {
+            "id": "414130222",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！与贝雅特丽奇意见一致，「风之花」是较为冷门却有着坚定拥护者的塞西莉亚花！"
+          },
+          "414130224": {
+            "id": "414130224",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！与宁禄意见一致，「风之花」是能照亮黑暗的小灯草！"
+          },
+          "414130226": {
+            "id": "414130226",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！与砂糖意见一致，「风之花」是从古到今生生不息的甜甜花！"
+          },
+          "414130228": {
+            "id": "414130228",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哦！与雷泽意见一致，「风之花」是刺刺的麻麻的钩钩果！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141303",
+      "subQuestName": "向风神献上「风之花」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141308",
+      "subQuestName": "(test)献上蒲公英$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141309",
+      "subQuestName": "(test)献上风车菊$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141310",
+      "subQuestName": "(test)献上塞西莉亚花$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141311",
+      "subQuestName": "(test)献上小灯草$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141312",
+      "subQuestName": "(test)献上甜甜花$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141313",
+      "subQuestName": "(test)献上钩钩果$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141304",
+      "subQuestName": "与温迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414130401"
+        ],
+        "dialogs": {
+          "414130401": {
+            "id": "414130401",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "感谢你，风花节之星。我们已向风神巴巴托斯献上饱含敬爱的「风之花」，愿风护佑蒙德。",
+            "nextDialogs": [
+              "414130402"
+            ]
+          },
+          "414130402": {
+            "id": "414130402",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "不错的选择哦。",
+            "nextDialogs": [
+              "414130403"
+            ]
+          },
+          "414130403": {
+            "id": "414130403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你喜欢吗？",
+            "nextDialogs": [
+              "414130404"
+            ]
+          },
+          "414130404": {
+            "id": "414130404",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "嗯——你猜？",
+            "nextDialogs": [
+              "414130405"
+            ]
+          },
+          "414130405": {
+            "id": "414130405",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "又让人猜，这个坏家伙！",
+            "nextDialogs": [
+              "414130406"
+            ]
+          },
+          "414130406": {
+            "id": "414130406",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "啊哈哈哈哈！会告诉你的啦，不过不是在这里。",
+            "nextDialogs": [
+              "414130407"
+            ]
+          },
+          "414130407": {
+            "id": "414130407",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "人来人往的广场不方便聊这些，换个地方吧。",
+            "nextDialogs": [
+              "414130408"
+            ]
+          },
+          "414130408": {
+            "id": "414130408",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "去哪儿好呢？",
+            "nextDialogs": [
+              "414130409"
+            ]
+          },
+          "414130409": {
+            "id": "414130409",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "我想邀请你和我一起到「风龙废墟」去。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141305",
+      "subQuestName": "前往风龙废墟",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141306",
+      "subQuestName": "解决废墟内风场紊乱的问题",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141307",
+      "subQuestName": "与温迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414130701"
+        ],
+        "dialogs": {
+          "414130701": {
+            "id": "414130701",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "嗯！还是这里的景色最好。",
+            "nextDialogs": [
+              "414130704"
+            ]
+          },
+          "414130704": {
+            "id": "414130704",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "是啊，我很喜欢这个地方，闲暇时总会过来坐一会儿，看看风景。",
+            "nextDialogs": [
+              "414130705"
+            ]
+          },
+          "414130705": {
+            "id": "414130705",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "是来偷懒的吧？",
+            "nextDialogs": [
+              "414130706"
+            ]
+          },
+          "414130706": {
+            "id": "414130706",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "哈哈哈，被你发现了！",
+            "nextDialogs": [
+              "414130707"
+            ]
+          },
+          "414130707": {
+            "id": "414130707",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "如此美景，手里要是有杯苹果酒该多好。",
+            "nextDialogs": [
+              "414130708"
+            ]
+          },
+          "414130708": {
+            "id": "414130708",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "旅行者，蒙德的风花节，你喜欢吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141397",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414139701"
+        ],
+        "dialogs": {
+          "414139701": {
+            "id": "414139701",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "愿风送去我们的祝福与赞美。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141398",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414139801"
+        ],
+        "dialogs": {
+          "414139801": {
+            "id": "414139801",
+            "speakerId": 1002,
+            "speakerName": "温迪",
+            "text": "今年的「风之花」会是什么花呢？好期待啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141399",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414139901"
+        ],
+        "dialogs": {
+          "414139901": {
+            "id": "414139901",
+            "speakerId": 1001,
+            "speakerName": "琴",
+            "text": "遵循心意，选择你所认可的「风之花」吧。"
+          }
+        }
+      }
+    }
+  ]
+}

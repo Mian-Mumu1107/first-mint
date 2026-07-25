@@ -1,0 +1,92 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "帕森": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7365401",
+      "subQuestName": "将十个墩墩桃交给帕森",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736540101"
+        ],
+        "dialogs": {
+          "736540101": {
+            "id": "736540101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于墩墩桃…",
+            "nextDialogs": [
+              "736540102"
+            ]
+          },
+          "736540102": {
+            "id": "736540102",
+            "speakerId": 1000,
+            "speakerName": "帕森",
+            "text": "对对，是我老婆做菜要用墩墩桃，有十个的话，就够这两天用了。",
+            "nextDialogs": [
+              "736540103"
+            ]
+          },
+          "736540103": {
+            "id": "736540103",
+            "speakerId": 1000,
+            "speakerName": "帕森",
+            "text": "怎么样，你准备好十个墩墩桃了吗？",
+            "nextDialogs": [
+              "736540105"
+            ]
+          },
+          "736540105": {
+            "id": "736540105",
+            "speakerId": 1000,
+            "speakerName": "帕森",
+            "text": "太少就不够吃了，到时候我又要挨训…还是等你准备好了再来找我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365402",
+      "subQuestName": "与帕森对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736540201"
+        ],
+        "dialogs": {
+          "736540201": {
+            "id": "736540201",
+            "speakerId": 1000,
+            "speakerName": "帕森",
+            "text": "嗯，有这些就够了。希望她看到之后心情能好点，至少今天一天内不要生气。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365401",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736540107"
+        ],
+        "dialogs": {
+          "736540107": {
+            "id": "736540107",
+            "speakerId": 1000,
+            "speakerName": "帕森",
+            "text": "嗯…哪家店卖墩墩桃来着？好像不记得了…"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 1,
+    "克霍讷之墓": 2,
+    "哭泣的幽影": 1,
+    "菲林斯": 1,
+    "阿德娜": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7608702",
+      "subQuestName": "找到「阿德娜」的安眠处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "686252701"
+        ],
+        "dialogs": {
+          "686252701": {
+            "id": "686252701",
+            "speakerId": 1000,
+            "speakerName": "克霍讷之墓",
+            "text": "<color=#00E1FFFF>愿小阿德娜的睡梦中永远有鲜花与糖果。</color>",
+            "nextDialogs": [
+              "686252702"
+            ]
+          },
+          "686252702": {
+            "id": "686252702",
+            "speakerId": 1000,
+            "speakerName": "克霍讷之墓",
+            "text": "<color=#00E1FFFF>赞美达诺妲与哈马莱宁的勇气，愿他们与女儿一道进入无忧的梦。</color>"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608703",
+      "subQuestName": "与哭泣的幽影对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760870201"
+        ],
+        "dialogs": {
+          "760870201": {
+            "id": "760870201",
+            "speakerId": 1001,
+            "speakerName": "阿德娜",
+            "text": "找不到了…呜呜…找不到了…",
+            "nextDialogs": [
+              "760870202"
+            ]
+          },
+          "760870202": {
+            "id": "760870202",
+            "speakerId": 1002,
+            "speakerName": "菲林斯",
+            "text": "我找到达诺妲与哈马莱宁了。",
+            "nextDialogs": [
+              "760870203"
+            ]
+          },
+          "760870203": {
+            "id": "760870203",
+            "speakerId": 1001,
+            "speakerName": "阿德娜",
+            "text": "爸爸妈妈！爸爸妈妈在家里等我，我要去见他们！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608704",
+      "subQuestName": "见证「阿德娜」归家",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760870301"
+        ],
+        "dialogs": {
+          "760870301": {
+            "id": "760870301",
+            "speakerId": 1001,
+            "speakerName": "阿德娜",
+            "text": "是家，我找到回家的路了！",
+            "nextDialogs": [
+              "760870302"
+            ]
+          },
+          "760870302": {
+            "id": "760870302",
+            "speakerId": 1003,
+            "speakerName": "哭泣的幽影",
+            "text": "灯还亮着，妈妈做了热乎乎的派，太好了。",
+            "nextDialogs": [
+              "760870303"
+            ]
+          },
+          "760870303": {
+            "id": "760870303",
+            "speakerId": 1001,
+            "speakerName": "阿德娜",
+            "text": "爸爸也在等我，我回来啦！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760879903"
+        ],
+        "dialogs": {
+          "760879903": {
+            "id": "760879903",
+            "speakerId": 1004,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

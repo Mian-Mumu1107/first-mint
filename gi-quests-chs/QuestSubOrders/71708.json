@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "寒锋": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7170801",
+      "subQuestName": "将十份铁块交给寒锋",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717080101"
+        ],
+        "dialogs": {
+          "717080101": {
+            "id": "717080101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于铁块…",
+            "nextDialogs": [
+              "717080102"
+            ]
+          },
+          "717080102": {
+            "id": "717080102",
+            "speakerId": 1000,
+            "speakerName": "寒锋",
+            "text": "对，对，是我发的委托，怎么？你把十份铁块已经搜集齐了？",
+            "nextDialogs": [
+              "717080105"
+            ]
+          },
+          "717080105": {
+            "id": "717080105",
+            "speakerId": 1000,
+            "speakerName": "寒锋",
+            "text": "哦…那你搜集齐了之后，就快点拿过来吧，我早点把锄头修好，也能早点回去干活。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170802",
+      "subQuestName": "与寒锋对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717080201"
+        ],
+        "dialogs": {
+          "717080201": {
+            "id": "717080201",
+            "speakerId": 1000,
+            "speakerName": "寒锋",
+            "text": "这些铁块差不多就够用了。",
+            "nextDialogs": [
+              "717080202"
+            ]
+          },
+          "717080202": {
+            "id": "717080202",
+            "speakerId": 1000,
+            "speakerName": "寒锋",
+            "text": "这些东西你拿着吧，谢谢你啊，年轻人。",
+            "nextDialogs": [
+              "717080203"
+            ]
+          },
+          "717080203": {
+            "id": "717080203",
+            "speakerId": 1000,
+            "speakerName": "寒锋",
+            "text": "希望我的手艺还没太生疏…"
+          }
+        }
+      }
+    }
+  ]
+}

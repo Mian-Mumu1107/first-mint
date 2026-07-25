@@ -1,0 +1,991 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 21,
+    "Black Screen": 4,
+    "Player": 7,
+    "「半熟蛋」": 5,
+    "呆呆的绵驮兽": 6,
+    "活泼的绵驮兽": 4,
+    "派蒙": 21,
+    "瓦达娜": 20,
+    "胆小的绵驮兽": 4,
+    "警惕的匿叶龙": 2,
+    "贪吃的绵驮兽": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7501013",
+      "subQuestName": "(test)遇到一群羊$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101301"
+        ],
+        "dialogs": {
+          "750101301": {
+            "id": "750101301",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀呀！",
+            "nextDialogs": [
+              "750101302"
+            ]
+          },
+          "750101302": {
+            "id": "750101302",
+            "speakerId": 1001,
+            "speakerName": "警惕的匿叶龙",
+            "text": "呜！",
+            "nextDialogs": [
+              "750101303"
+            ]
+          },
+          "750101303": {
+            "id": "750101303",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我们是不是打扰到它用餐了？它看起来真的很生气…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501001",
+      "subQuestName": "让匿叶龙冷静下来",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100101"
+        ],
+        "dialogs": {
+          "750100101": {
+            "id": "750100101",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "「我没有必须达成的目标，也没有迫切的渴望，我是个快乐的牧民，我只关心绵驮兽，关心日月花草、清风雨露…」",
+            "nextDialogs": [
+              "750100102"
+            ]
+          },
+          "750100102": {
+            "id": "750100102",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "这是我最喜欢的小曲，怎么样？还不错吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501002",
+      "subQuestName": "与冷静下来的匿叶龙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100201"
+        ],
+        "dialogs": {
+          "750100201": {
+            "id": "750100201",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "啊，是毛茸茸，有什么毛茸茸的东西拦住了你…",
+            "nextDialogs": [
+              "750100202"
+            ]
+          },
+          "750100202": {
+            "id": "750100202",
+            "speakerId": 1005,
+            "speakerName": "活泼的绵驮兽",
+            "text": "嗯——？",
+            "nextDialogs": [
+              "750100203"
+            ]
+          },
+          "750100203": {
+            "id": "750100203",
+            "speakerId": 1001,
+            "speakerName": "警惕的匿叶龙",
+            "text": "呜…",
+            "nextDialogs": [
+              "750100204"
+            ]
+          },
+          "750100204": {
+            "id": "750100204",
+            "speakerId": 1005,
+            "speakerName": "活泼的绵驮兽",
+            "text": "嗯嗯——",
+            "nextDialogs": [
+              "750100205"
+            ]
+          },
+          "750100205": {
+            "id": "750100205",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸？原来你们是朋友吗？",
+            "nextDialogs": [
+              "750100206"
+            ]
+          },
+          "750100206": {
+            "id": "750100206",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750100207"
+            ]
+          },
+          "750100207": {
+            "id": "750100207",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "看起来是在附近看管绵驮兽的人走过来安抚匿叶龙…",
+            "nextDialogs": [
+              "750100208"
+            ]
+          },
+          "750100208": {
+            "id": "750100208",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "「半熟蛋」，你冷静一点喔，就是因为你老是这样轻率地下判断，所以才是个「半熟蛋」啊。",
+            "nextDialogs": [
+              "750100209"
+            ]
+          },
+          "750100209": {
+            "id": "750100209",
+            "speakerId": 1006,
+            "speakerName": "「半熟蛋」",
+            "text": "呜…",
+            "nextDialogs": [
+              "750100210"
+            ]
+          },
+          "750100210": {
+            "id": "750100210",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "抱歉啦，它就是责任心太重，看到陌生人靠近就会很紧张。不过也多亏了它这么卖力看管绵驮兽，我才能悠闲度日，哈哈。",
+            "nextDialogs": [
+              "750100211"
+            ]
+          },
+          "750100211": {
+            "id": "750100211",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "所以几位到这里来是有何贵干呢？",
+            "nextDialogs": [
+              "750100212"
+            ]
+          },
+          "750100212": {
+            "id": "750100212",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "只是四处冒险。",
+            "nextDialogs": [
+              "750100213"
+            ]
+          },
+          "750100213": {
+            "id": "750100213",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "哎呀，原来是冒险家。说不定在「半熟蛋」的眼里，你是浑身散发出强敌气息的危险人物呢。",
+            "nextDialogs": [
+              "750100216"
+            ]
+          },
+          "750100216": {
+            "id": "750100216",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "没想到匿叶龙还能替人看管绵驮兽。之前远远地看见它们，还以为绵驮兽要被袭击了，原来是我误会它了！",
+            "nextDialogs": [
+              "750100217"
+            ]
+          },
+          "750100217": {
+            "id": "750100217",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "哈哈，常有的事。别看它凶凶的，其实和绵驮兽关系好得很呢，说是朋友也不为过。",
+            "nextDialogs": [
+              "750100218"
+            ]
+          },
+          "750100218": {
+            "id": "750100218",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀！呀呀！",
+            "nextDialogs": [
+              "750100219"
+            ]
+          },
+          "750100219": {
+            "id": "750100219",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "怎么啦，小家伙，你也想和它们交朋友吗？",
+            "nextDialogs": [
+              "750100220"
+            ]
+          },
+          "750100220": {
+            "id": "750100220",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀呀！",
+            "nextDialogs": [
+              "750100221"
+            ]
+          },
+          "750100221": {
+            "id": "750100221",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#哇，这么激动，看来是真的很想和它们交朋友。不过说来也是，平时都是和我还有{NICKNAME}在一起，能交上动物朋友的话…",
+            "nextDialogs": [
+              "750100222"
+            ]
+          },
+          "750100222": {
+            "id": "750100222",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "那画面一定很可爱，被绵驮兽簇拥着的顽皮小嵴锋龙，光是看着这样的场景我就能吃下三碗火焰炖肉…",
+            "nextDialogs": [
+              "750100223"
+            ]
+          },
+          "750100223": {
+            "id": "750100223",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "啊，不过也得看绵驮兽它们愿不愿意，毕竟友谊这事也勉强不来。对不对呀，「半熟蛋」？",
+            "nextDialogs": [
+              "750100224"
+            ]
+          },
+          "750100224": {
+            "id": "750100224",
+            "speakerId": 1006,
+            "speakerName": "「半熟蛋」",
+            "text": "呜。",
+            "nextDialogs": [
+              "750100226",
+              "750100229"
+            ]
+          },
+          "750100226": {
+            "id": "750100226",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#你不要一副怪物监护人的样子啦！给{REALNAME[ID(2)|SHOWHOST(true)]}一点机会，让它自己试试吧。",
+            "nextDialogs": [
+              "750100227"
+            ]
+          },
+          "750100227": {
+            "id": "750100227",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "小孩子总归要靠自己努力尝试才能成长起来，嗯。",
+            "nextDialogs": [
+              "750100231"
+            ]
+          },
+          "750100231": {
+            "id": "750100231",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750100232"
+            ]
+          },
+          "750100232": {
+            "id": "750100232",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "看它信心满满的样子应该是不用太担心了，那我就回去休息咯。遇到问题再来找我…",
+            "nextDialogs": [
+              "750100233"
+            ]
+          },
+          "750100233": {
+            "id": "750100233",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "哦，不过找我应该不如找「半熟蛋」有用，要说绵驮兽还是它最了解了，哈哈，开个玩笑。小家伙，希望你交朋友顺利呀。"
+          },
+          "750100229": {
+            "id": "750100229",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#虽然知道你是想让{REALNAME[ID(2)|SHOWHOST(true)]}即便失败了也不用太难过…但是也不用一开始就这么悲观吧！",
+            "nextDialogs": [
+              "750100230"
+            ]
+          },
+          "750100230": {
+            "id": "750100230",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#小孩子就是要多鼓励才会健康成长的，所以多夸夸它吧！{REALNAME[ID(2)|SHOWHOST(true)]}肯定可以的！加油！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501004",
+      "subQuestName": "和绵驮兽聊聊看吧",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100401"
+        ],
+        "dialogs": {
+          "750100401": {
+            "id": "750100401",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "……",
+            "nextDialogs": [
+              "750100402"
+            ]
+          },
+          "750100402": {
+            "id": "750100402",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "…嗯？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501005",
+      "subQuestName": "(test)和羊驼D对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100501"
+        ],
+        "dialogs": {
+          "750100501": {
+            "id": "750100501",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀？",
+            "nextDialogs": [
+              "750100502"
+            ]
+          },
+          "750100502": {
+            "id": "750100502",
+            "speakerId": 1005,
+            "speakerName": "活泼的绵驮兽",
+            "text": "嗯嗯——",
+            "nextDialogs": [
+              "750100503"
+            ]
+          },
+          "750100503": {
+            "id": "750100503",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呜呜…",
+            "nextDialogs": [
+              "750100504"
+            ]
+          },
+          "750100504": {
+            "id": "750100504",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "该、该不会是因为我们之前和「半熟蛋」的误会让它记恨了吧…",
+            "nextDialogs": [
+              "750100505"
+            ]
+          },
+          "750100505": {
+            "id": "750100505",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#误会已经发生了那也没办法，{REALNAME[ID(2)|SHOWHOST(true)]}，我们去别处试试吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501006",
+      "subQuestName": "(test)和羊驼A对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100601"
+        ],
+        "dialogs": {
+          "750100601": {
+            "id": "750100601",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750100602"
+            ]
+          },
+          "750100602": {
+            "id": "750100602",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "……",
+            "nextDialogs": [
+              "750100603"
+            ]
+          },
+          "750100603": {
+            "id": "750100603",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…？呀！呀呀！",
+            "nextDialogs": [
+              "750100604"
+            ]
+          },
+          "750100604": {
+            "id": "750100604",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "……",
+            "nextDialogs": [
+              "750100605"
+            ]
+          },
+          "750100605": {
+            "id": "750100605",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "…嗯？",
+            "nextDialogs": [
+              "750100606"
+            ]
+          },
+          "750100606": {
+            "id": "750100606",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750100607"
+            ]
+          },
+          "750100607": {
+            "id": "750100607",
+            "speakerId": 1007,
+            "speakerName": "呆呆的绵驮兽",
+            "text": "……",
+            "nextDialogs": [
+              "750100608"
+            ]
+          },
+          "750100608": {
+            "id": "750100608",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…",
+            "nextDialogs": [
+              "750100609"
+            ]
+          },
+          "750100609": {
+            "id": "750100609",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "看起来希望不大。",
+            "nextDialogs": [
+              "750100610"
+            ]
+          },
+          "750100610": {
+            "id": "750100610",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#呃…也有这种情况啦！{REALNAME[ID(2)|SHOWHOST(true)]}也别灰心，肯定还有机会的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501007",
+      "subQuestName": "(test)和羊驼B对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100701"
+        ],
+        "dialogs": {
+          "750100701": {
+            "id": "750100701",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750100702"
+            ]
+          },
+          "750100702": {
+            "id": "750100702",
+            "speakerId": 1008,
+            "speakerName": "贪吃的绵驮兽",
+            "text": "嗯嗯——",
+            "nextDialogs": [
+              "750100703"
+            ]
+          },
+          "750100703": {
+            "id": "750100703",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜呜…",
+            "nextDialogs": [
+              "750100704"
+            ]
+          },
+          "750100704": {
+            "id": "750100704",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#看来这次是真的打扰到用餐了…哎呀都怪时机不好，{REALNAME[ID(2)|SHOWHOST(true)]}别丧气，我们再去别处碰碰运气！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501011",
+      "subQuestName": "(test)帮助羊驼C$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101101"
+        ],
+        "dialogs": {
+          "750101101": {
+            "id": "750101101",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750101102"
+            ]
+          },
+          "750101102": {
+            "id": "750101102",
+            "speakerId": 1009,
+            "speakerName": "胆小的绵驮兽",
+            "text": "嗯…",
+            "nextDialogs": [
+              "750101103"
+            ]
+          },
+          "750101103": {
+            "id": "750101103",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸？怎么在这里还有一只绵驮兽？",
+            "nextDialogs": [
+              "750101104"
+            ]
+          },
+          "750101104": {
+            "id": "750101104",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750101105"
+            ]
+          },
+          "750101105": {
+            "id": "750101105",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "它这是怎么了？是被困在下面上不来了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501010",
+      "subQuestName": "看看龙伙伴发现了什么",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501014",
+      "subQuestName": "用木板搭一条路",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101401"
+        ],
+        "dialogs": {
+          "750101401": {
+            "id": "750101401",
+            "speakerId": 1008,
+            "speakerName": "贪吃的绵驮兽",
+            "text": "嗯嗯——"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501015",
+      "subQuestName": "用木板搭一条路",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101501"
+        ],
+        "dialogs": {
+          "750101501": {
+            "id": "750101501",
+            "speakerId": 1005,
+            "speakerName": "活泼的绵驮兽",
+            "text": "（看起来还在生气…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501016",
+      "subQuestName": "解救胆小的绵驮兽",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101601"
+        ],
+        "dialogs": {
+          "750101601": {
+            "id": "750101601",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750101602"
+            ]
+          },
+          "750101602": {
+            "id": "750101602",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "#在{REALNAME[ID(2)|SHOWHOST(true)]}听起来像是鼓励的「呀！呀！」声中，胆小的绵驮兽沿着刚才搭好的木板爬了上来…",
+            "nextDialogs": [
+              "750101603"
+            ]
+          },
+          "750101603": {
+            "id": "750101603",
+            "speakerId": 1009,
+            "speakerName": "胆小的绵驮兽",
+            "text": "嗯…嗯——",
+            "nextDialogs": [
+              "750101604"
+            ]
+          },
+          "750101604": {
+            "id": "750101604",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔？呀！呀呀！",
+            "nextDialogs": [
+              "750101605"
+            ]
+          },
+          "750101605": {
+            "id": "750101605",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "#面对热情的{REALNAME[ID(2)|SHOWHOST(true)]}，看起来十分胆小的绵驮兽没有表现出害怕的样子，反而是弯下身子用鼻尖轻轻碰了碰{REALNAME[ID(2)|SHOWHOST(true)]}…",
+            "nextDialogs": [
+              "750101606"
+            ]
+          },
+          "750101606": {
+            "id": "750101606",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀！",
+            "nextDialogs": [
+              "750101607"
+            ]
+          },
+          "750101607": {
+            "id": "750101607",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，这样算是表示感情不错吧？",
+            "nextDialogs": [
+              "750101609",
+              "750101611"
+            ]
+          },
+          "750101609": {
+            "id": "750101609",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "也是我的朋友！不对不对，你这是在和谁较劲啦。",
+            "nextDialogs": [
+              "750101612"
+            ]
+          },
+          "750101612": {
+            "id": "750101612",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "不过它独自在这边还是有点危险吧？还是和瓦达娜讲一下这件事好了。",
+            "nextDialogs": [
+              "750101613"
+            ]
+          },
+          "750101613": {
+            "id": "750101613",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#她要是知道{REALNAME[ID(2)|SHOWHOST(true)]}交上绵驮兽朋友了，肯定也会替{REALNAME[ID(2)|SHOWHOST(true)]}高兴的！"
+          },
+          "750101611": {
+            "id": "750101611",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嗯？一时之间居然不知道你羡慕的究竟是哪边！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501012",
+      "subQuestName": "向瓦达娜回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101201"
+        ],
+        "dialogs": {
+          "750101201": {
+            "id": "750101201",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "你回来啦小家伙，怎么样，交到绵驮兽朋友了吗？",
+            "nextDialogs": [
+              "750101202"
+            ]
+          },
+          "750101202": {
+            "id": "750101202",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750101203"
+            ]
+          },
+          "750101203": {
+            "id": "750101203",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "嗯嗯，看你高兴的样子，我也跟着高兴起来了，真好！",
+            "nextDialogs": [
+              "750101204"
+            ]
+          },
+          "750101204": {
+            "id": "750101204",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#瓦达娜也该多关心一下绵驮兽啦，和{REALNAME[ID(2)|SHOWHOST(true)]}交上朋友的那只绵驮兽刚才在好危险的地方呢。",
+            "nextDialogs": [
+              "750101205"
+            ]
+          },
+          "750101205": {
+            "id": "750101205",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "哎呀，是这样吗？得告诉「半熟蛋」，让它以后多注意一下才行。",
+            "nextDialogs": [
+              "750101207",
+              "750101209"
+            ]
+          },
+          "750101207": {
+            "id": "750101207",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "是啊，我已经过上了理想的生活，恭喜我吧！",
+            "nextDialogs": [
+              "750101211"
+            ]
+          },
+          "750101211": {
+            "id": "750101211",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "#对了，旁边的绵驮兽玩具，{REALNAME[ID(2)|SHOWHOST(true)]}要是喜欢就送给你们好啦。",
+            "nextDialogs": [
+              "750101212"
+            ]
+          },
+          "750101212": {
+            "id": "750101212",
+            "speakerId": 1000,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀呀！",
+            "nextDialogs": [
+              "750101213"
+            ]
+          },
+          "750101213": {
+            "id": "750101213",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}还真是不客气啊。那就谢谢瓦达娜了！",
+            "nextDialogs": [
+              "750101214"
+            ]
+          },
+          "750101214": {
+            "id": "750101214",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "小事小事，也欢迎你们常来玩呀。"
+          },
+          "750101209": {
+            "id": "750101209",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "辛苦是辛苦…不过它生性就爱操心，你要是不让它看管这些绵驮兽，它反而会焦虑到掉毛呢。",
+            "nextDialogs": [
+              "750101210"
+            ]
+          },
+          "750101210": {
+            "id": "750101210",
+            "speakerId": 1003,
+            "speakerName": "瓦达娜",
+            "text": "所以现在这样是最好的，它完成了工作会很满足，我也乐得轻松自在，很不错吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501003",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100301"
+        ],
+        "dialogs": {
+          "750100301": {
+            "id": "750100301",
+            "speakerId": 1009,
+            "speakerName": "胆小的绵驮兽",
+            "text": "（看起来没那么害怕了…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501009",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750100901"
+        ],
+        "dialogs": {
+          "750100901": {
+            "id": "750100901",
+            "speakerId": 1006,
+            "speakerName": "「半熟蛋」",
+            "text": "一只、两只、三只、四只。",
+            "nextDialogs": [
+              "750100902"
+            ]
+          },
+          "750100902": {
+            "id": "750100902",
+            "speakerId": 1006,
+            "speakerName": "「半熟蛋」",
+            "text": "四只…它又躲起来了，躲到哪里去了？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501017",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750101701"
+        ],
+        "dialogs": {
+          "750101701": {
+            "id": "750101701",
+            "speakerId": 1009,
+            "speakerName": "胆小的绵驮兽",
+            "text": "（看起来很害怕的样子…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501050",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750105001"
+        ],
+        "dialogs": {
+          "750105001": {
+            "id": "750105001",
+            "speakerId": 1006,
+            "speakerName": "「半熟蛋」",
+            "text": "呜！"
+          }
+        }
+      }
+    }
+  ]
+}

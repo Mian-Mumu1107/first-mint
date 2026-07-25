@@ -1,0 +1,445 @@
+{
+  "lineCounts": {
+    "Player": 14,
+    "「怪鸟」": 6,
+    "安柏": 38,
+    "派蒙": 14
+  },
+  "subQuests": [
+    {
+      "subId": "48501",
+      "subQuestName": "进入「怪鸟藏身地」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48511",
+      "subQuestName": "与安柏对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4851101"
+        ],
+        "dialogs": {
+          "4851101": {
+            "id": "4851101",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "这里只有一条路，看来怪鸟就在前面。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48509",
+      "subQuestName": "消灭所有魔物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48512",
+      "subQuestName": "(test)开车阶段-隐藏任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48510",
+      "subQuestName": "(test)进入安柏地城$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48502",
+      "subQuestName": "向前追击「怪鸟」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48503",
+      "subQuestName": "向前追击「怪鸟」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4850301"
+        ],
+        "dialogs": {
+          "4850301": {
+            "id": "4850301",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "前面看起来没路走了…那家伙到底会躲在哪呢？",
+            "nextDialogs": [
+              "4850302"
+            ]
+          },
+          "4850302": {
+            "id": "4850302",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "安柏，看对面！",
+            "nextDialogs": [
+              "4850303"
+            ]
+          },
+          "4850303": {
+            "id": "4850303",
+            "speakerId": 1002,
+            "speakerName": "「怪鸟」",
+            "text": "你果然还是追上来了，没办法…咦？怎么是个小姑娘…",
+            "nextDialogs": [
+              "4850304"
+            ]
+          },
+          "4850304": {
+            "id": "4850304",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "你就是「怪鸟」吧！现在你已经逃不掉了！",
+            "nextDialogs": [
+              "4850305"
+            ]
+          },
+          "4850305": {
+            "id": "4850305",
+            "speakerId": 1002,
+            "speakerName": "「怪鸟」",
+            "text": "哈哈哈，我也不用逃，因为你压根过不来。",
+            "nextDialogs": [
+              "4850306"
+            ]
+          },
+          "4850306": {
+            "id": "4850306",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "唔——这断崖，确实很高…也很远。",
+            "nextDialogs": [
+              "4850307"
+            ]
+          },
+          "4850307": {
+            "id": "4850307",
+            "speakerId": 1002,
+            "speakerName": "「怪鸟」",
+            "text": "小姑娘，不如你现在回去，把团长叫来，说不定我就会马上投降呢。",
+            "nextDialogs": [
+              "4850308"
+            ]
+          },
+          "4850308": {
+            "id": "4850308",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "你这是在挑衅西风骑士团的侦察骑士吗？看我现在就飞过去抓住你！",
+            "nextDialogs": [
+              "4850311"
+            ]
+          },
+          "4850311": {
+            "id": "4850311",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "唔…你说得对。",
+            "nextDialogs": [
+              "4850312"
+            ]
+          },
+          "4850312": {
+            "id": "4850312",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "可恶，明明就在对面了，要是可以直接飞过去就好了…",
+            "nextDialogs": [
+              "4850313"
+            ]
+          },
+          "4850313": {
+            "id": "4850313",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "但这个怪鸟是怎么过去的？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48504",
+      "subQuestName": "飞过断崖",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4850401"
+        ],
+        "dialogs": {
+          "4850401": {
+            "id": "4850401",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "安柏！要掉下去了掉下去了掉下去…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48505",
+      "subQuestName": "向前追踪，逮捕「怪鸟」！",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48506",
+      "subQuestName": "与安柏对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4850601"
+        ],
+        "dialogs": {
+          "4850601": {
+            "id": "4850601",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "成功抓住怪鸟了！",
+            "nextDialogs": [
+              "4850602"
+            ]
+          },
+          "4850602": {
+            "id": "4850602",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "其实，只有在空中才能发现，那就是唯一的风场。",
+            "nextDialogs": [
+              "4850603"
+            ]
+          },
+          "4850603": {
+            "id": "4850603",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "怪鸟所要逃跑的方向，尽头根本是彻彻底底的死路。",
+            "nextDialogs": [
+              "4850604"
+            ]
+          },
+          "4850604": {
+            "id": "4850604",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "换句话说，如果怪鸟想要逃出去，就必须从我们这边经过才行。",
+            "nextDialogs": [
+              "4850605"
+            ]
+          },
+          "4850605": {
+            "id": "4850605",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "喔——所以他才一直这么装模作样，原来是想骗我们放弃，然后自己再飞回来逃走。",
+            "nextDialogs": [
+              "4850606"
+            ]
+          },
+          "4850606": {
+            "id": "4850606",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，我们这边也不是那么好骗的。",
+            "nextDialogs": [
+              "4850607"
+            ]
+          },
+          "4850607": {
+            "id": "4850607",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "#幸亏有{NICKNAME}的分析，这就是所谓的「排除了所有错误答案以后，剩下的那个，无论多反常都是正确的」吧。",
+            "nextDialogs": [
+              "4850608"
+            ]
+          },
+          "4850608": {
+            "id": "4850608",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "总之，想要掌握飞行这种事情，七分靠技术，三分靠直觉，剩下的九十分全都是靠勇气来补足啦。",
+            "nextDialogs": [
+              "4850609"
+            ]
+          },
+          "4850609": {
+            "id": "4850609",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我看你刚才是九十九分都是勇气了吧…",
+            "nextDialogs": [
+              "4850610"
+            ]
+          },
+          "4850610": {
+            "id": "4850610",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "哎呀，这就和我第一次考飞行执照的时候一样吧…虽然很紧张，但还是有惊无险地把执照考到手了。",
+            "nextDialogs": [
+              "4850611"
+            ]
+          },
+          "4850611": {
+            "id": "4850611",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "可惜之后的几次考试我都再没有这种紧张感了，总觉得少了点什么呢。",
+            "nextDialogs": [
+              "4850612"
+            ]
+          },
+          "4850612": {
+            "id": "4850612",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "你…等一下，飞行执照都考到手了，之后的考试是考什么？",
+            "nextDialogs": [
+              "4850613"
+            ]
+          },
+          "4850613": {
+            "id": "4850613",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "这个啊…因为蒙德城里这里不准飞那里也不准飞，这里不准降落那里也不准降落…",
+            "nextDialogs": [
+              "4850614"
+            ]
+          },
+          "4850614": {
+            "id": "4850614",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "我考到手的飞行执照总是被吊销，零零碎碎重新考过十五次飞行执照吧。",
+            "nextDialogs": [
+              "4850615"
+            ]
+          },
+          "4850615": {
+            "id": "4850615",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "但是每次补考我可都是一次考过，果然我的那本指南才是最棒的。",
+            "nextDialogs": [
+              "4850616"
+            ]
+          },
+          "4850616": {
+            "id": "4850616",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#…{NICKNAME}，之后有空的话，我们去琴团长那里拿一份正经的飞行指南吧。",
+            "nextDialogs": [
+              "4850619"
+            ]
+          },
+          "4850619": {
+            "id": "4850619",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "总之，我还要把怪鸟押回蒙德城，就先走一步了。",
+            "nextDialogs": [
+              "4850620"
+            ]
+          },
+          "4850620": {
+            "id": "4850620",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "你回蒙德城之后，记得来大教堂找我，飞行执照还要在那颁发给你呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48507",
+      "subQuestName": "前往大教堂，领取飞行执照",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48508",
+      "subQuestName": "与安柏对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4850801"
+        ],
+        "dialogs": {
+          "4850801": {
+            "id": "4850801",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "恭喜！这就是你的飞行执照，这下你可以在蒙德城里合法飞行了。",
+            "nextDialogs": [
+              "4850802"
+            ]
+          },
+          "4850802": {
+            "id": "4850802",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "不过你的飞行技术已经这么好了，顺利通过也是意料之内。",
+            "nextDialogs": [
+              "4850805"
+            ]
+          },
+          "4850805": {
+            "id": "4850805",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "对了，下次蒙德城飞行大赛，我会帮你报名的！",
+            "nextDialogs": [
+              "4850806"
+            ]
+          },
+          "4850806": {
+            "id": "4850806",
+            "speakerId": 1000,
+            "speakerName": "安柏",
+            "text": "我飞得太快了，谁也跟不上，所以总是一个人飞来飞去，也很无聊啦。"
+          }
+        }
+      }
+    }
+  ]
+}

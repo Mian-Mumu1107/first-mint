@@ -1,0 +1,403 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 8,
+    "Player": 6,
+    "派蒙": 24
+  },
+  "subQuests": [
+    {
+      "subId": "7503601",
+      "subQuestName": "看看你的龙伙伴挖出了什么$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7503602",
+      "subQuestName": "查看龙伙伴的发现",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750360201"
+        ],
+        "dialogs": {
+          "750360201": {
+            "id": "750360201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}，怎么了，刚刚看你刨啊刨的，挖出了什么了不起的东西吗？",
+            "nextDialogs": [
+              "750360202"
+            ]
+          },
+          "750360202": {
+            "id": "750360202",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "啊，难道挖到了什么值钱的宝藏？",
+            "nextDialogs": [
+              "750360203"
+            ]
+          },
+          "750360203": {
+            "id": "750360203",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750360204"
+            ]
+          },
+          "750360204": {
+            "id": "750360204",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯…我来看看，这个看上去好像是什么东西的种子…没想到在这个看上去像是荒地的地方，还能挖出这样的东西呢…",
+            "nextDialogs": [
+              "750360205"
+            ]
+          },
+          "750360205": {
+            "id": "750360205",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "750360206"
+            ]
+          },
+          "750360206": {
+            "id": "750360206",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不过，这个看上去应该不是特别值钱…",
+            "nextDialogs": [
+              "750360207"
+            ]
+          },
+          "750360207": {
+            "id": "750360207",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…",
+            "nextDialogs": [
+              "750360210"
+            ]
+          },
+          "750360210": {
+            "id": "750360210",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不过，怎么看都是已经荒废了的地方…土看上去都硬硬的，这个种子真的还活着吗？",
+            "nextDialogs": [
+              "750360211"
+            ]
+          },
+          "750360211": {
+            "id": "750360211",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…嗯？",
+            "nextDialogs": [
+              "750360212"
+            ]
+          },
+          "750360212": {
+            "id": "750360212",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "你是在难过吗…不过这个很难说啦，毕竟有些种子天生就没有办法发芽…",
+            "nextDialogs": [
+              "750360213"
+            ]
+          },
+          "750360213": {
+            "id": "750360213",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不过具体如何，我们就再种下去看看吧，也许它到现在还没发芽，只是因为挖的坑不好，也没有足够的营养。",
+            "nextDialogs": [
+              "750360214"
+            ]
+          },
+          "750360214": {
+            "id": "750360214",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们再好好种下去，说不定它就能长出来呢！嘿嘿，会长出什么呢，超大的颗粒果，嗯…特别特别香的苦种也不错！",
+            "nextDialogs": [
+              "750360215"
+            ]
+          },
+          "750360215": {
+            "id": "750360215",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750360216"
+            ]
+          },
+          "750360216": {
+            "id": "750360216",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "也许会长出骗骗花…",
+            "nextDialogs": [
+              "750360217"
+            ]
+          },
+          "750360217": {
+            "id": "750360217",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "这种时候就不要扫兴啦！",
+            "nextDialogs": [
+              "750360218"
+            ]
+          },
+          "750360218": {
+            "id": "750360218",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不过纳塔的植物会需要什么营养呢…不管了，先种下去再说吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7503603",
+      "subQuestName": "与龙伙伴一起种下种子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7503604",
+      "subQuestName": "与龙伙伴一起种下种子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750360401"
+        ],
+        "dialogs": {
+          "750360401": {
+            "id": "750360401",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯，这个深度应该就可以了！",
+            "nextDialogs": [
+              "750360402"
+            ]
+          },
+          "750360402": {
+            "id": "750360402",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750360403"
+            ]
+          },
+          "750360403": {
+            "id": "750360403",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "让我想想，要说纳塔和别的国家不一样的地方…那就是燃素了！给种子补充一下燃素说不定会有用？我们试试看吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7503605",
+      "subQuestName": "为种子注入燃素",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7503606",
+      "subQuestName": "消灭被吸引来的燃素蜜虫",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7503610",
+      "subQuestName": "重新为种子注入燃素",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750361001"
+        ],
+        "dialogs": {
+          "750361001": {
+            "id": "750361001",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜，种子周围的燃素全都没有了…看来要重新补充燃素才行？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7503607",
+      "subQuestName": "消灭被吸引来的怪物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7503608",
+      "subQuestName": "(test)消灭怪物后的对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750360801"
+        ],
+        "dialogs": {
+          "750360801": {
+            "id": "750360801",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "出来吧出来吧，小小的种子~",
+            "nextDialogs": [
+              "750360802"
+            ]
+          },
+          "750360802": {
+            "id": "750360802",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "出来吧出来吧，开漂亮的小花~",
+            "nextDialogs": [
+              "750360803"
+            ]
+          },
+          "750360803": {
+            "id": "750360803",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "…欸？",
+            "nextDialogs": [
+              "750360804"
+            ]
+          },
+          "750360804": {
+            "id": "750360804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "唔…",
+            "nextDialogs": [
+              "750360805"
+            ]
+          },
+          "750360805": {
+            "id": "750360805",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#啊，{NICKNAME}，燃素的能量没有了，一定是被种子好好吸收了，只是…怎么一点反应都没有…",
+            "nextDialogs": [
+              "750360806"
+            ]
+          },
+          "750360806": {
+            "id": "750360806",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔？",
+            "nextDialogs": [
+              "750360808",
+              "750360812"
+            ]
+          },
+          "750360808": {
+            "id": "750360808",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "是嘛！不过想想也是…",
+            "nextDialogs": [
+              "750360809"
+            ]
+          },
+          "750360809": {
+            "id": "750360809",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "蒲公英只要「呼——」地一吹就能飞出好多白色的小伞，钩钩果会挂在小狼的身上，一直跑到很远的地方…",
+            "nextDialogs": [
+              "750360810"
+            ]
+          },
+          "750360810": {
+            "id": "750360810",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "种子的生命力都是很顽强的！",
+            "nextDialogs": [
+              "750360815"
+            ]
+          },
+          "750360815": {
+            "id": "750360815",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那我们先不要打扰它了，过些时候再来看看吧！",
+            "nextDialogs": [
+              "750360816"
+            ]
+          },
+          "750360816": {
+            "id": "750360816",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          },
+          "750360812": {
+            "id": "750360812",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "真、真的吗？也对哦！是不是我太心急了…",
+            "nextDialogs": [
+              "750360813"
+            ]
+          },
+          "750360813": {
+            "id": "750360813",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#种子又是被{REALNAME[ID(2)|SHOWHOST(true)]}挖出来，又是被飞虫偷取养分，还被怪物「轰隆隆」地打扰了一番…",
+            "nextDialogs": [
+              "750360814"
+            ]
+          },
+          "750360814": {
+            "id": "750360814",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "听到有人在花田上打架，对于埋在土里的种子来说，就像听到暴风和雷声一样吓人。然后它就悄悄地缩在土里，一动也不敢动了…嗯！一定是这样。"
+          }
+        }
+      }
+    }
+  ]
+}

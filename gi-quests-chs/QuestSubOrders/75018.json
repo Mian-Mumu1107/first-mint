@@ -1,0 +1,810 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 15,
+    "Black Screen": 3,
+    "Player": 10,
+    "「咕噜噜」": 3,
+    "愤怒的绒翼龙": 1,
+    "派蒙": 33,
+    "玛兹嘉": 25,
+    "？？？": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7501801",
+      "subQuestName": "(test)隐藏：靠近后流转到驱赶龙$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180101"
+        ],
+        "dialogs": {
+          "750180101": {
+            "id": "750180101",
+            "speakerId": 1000,
+            "speakerName": "愤怒的绒翼龙",
+            "text": "——嘎嘎嘎嘎嘎嘎！",
+            "nextDialogs": [
+              "750180102"
+            ]
+          },
+          "750180102": {
+            "id": "750180102",
+            "speakerId": 1001,
+            "speakerName": "？？？",
+            "text": "好孩子，别闹啦，不吃药的话身体怎么恢复…哎呀！",
+            "nextDialogs": [
+              "750180103"
+            ]
+          },
+          "750180103": {
+            "id": "750180103",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#危险！{NICKNAME}，我们得去帮帮她！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501802",
+      "subQuestName": "制服暴躁的绒翼龙",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501803",
+      "subQuestName": "制服暴躁的绒翼龙",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180301"
+        ],
+        "dialogs": {
+          "750180301": {
+            "id": "750180301",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "「嘎——！」\\n像是知道自己不是敌手，绒翼龙啸叫着飞向远方…",
+            "nextDialogs": [
+              "750180302"
+            ]
+          },
+          "750180302": {
+            "id": "750180302",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "哇！！飞、飞得好快！一眨眼就跑了那么远！",
+            "nextDialogs": [
+              "750180304",
+              "750180306"
+            ]
+          },
+          "750180304": {
+            "id": "750180304",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸，我去追？我么？",
+            "nextDialogs": [
+              "750180307"
+            ]
+          },
+          "750180307": {
+            "id": "750180307",
+            "speakerId": 1001,
+            "speakerName": "？？？",
+            "text": "——嗯，飞得这么快，看来至少体力已经恢复得差不多了，接下来就是…",
+            "nextDialogs": [
+              "750180308"
+            ]
+          },
+          "750180308": {
+            "id": "750180308",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "话说回来，那头绒翼龙为什么会这么生气啊？",
+            "nextDialogs": [
+              "750180309"
+            ]
+          },
+          "750180309": {
+            "id": "750180309",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "…啊，我知道了！该不会是你偷吃了它的点心吧？因为食物而结下的仇怨可是很重的哦。",
+            "nextDialogs": [
+              "750180310"
+            ]
+          },
+          "750180310": {
+            "id": "750180310",
+            "speakerId": 1001,
+            "speakerName": "？？？",
+            "text": "点心？吃倒是吃过，不过咕噜噜是不拘小节的绒翼龙，所以不会在意这种小事啦。",
+            "nextDialogs": [
+              "750180311"
+            ]
+          },
+          "750180311": {
+            "id": "750180311",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "「咕噜噜」？原来它也是有名字的龙啊…不过看起来脾气很坏呢，刚才还乱打人。",
+            "nextDialogs": [
+              "750180312"
+            ]
+          },
+          "750180312": {
+            "id": "750180312",
+            "speakerId": 1001,
+            "speakerName": "？？？",
+            "text": "嗯…这也不怪它，都是为了治疗。",
+            "nextDialogs": [
+              "750180313"
+            ]
+          },
+          "750180313": {
+            "id": "750180313",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "原来挨打也是治疗啊，长见识了。",
+            "nextDialogs": [
+              "750180314"
+            ]
+          },
+          "750180314": {
+            "id": "750180314",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750180315"
+            ]
+          },
+          "750180315": {
+            "id": "750180315",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#怎么可能会有这种疗法啊！你看，都怪你乱说，{REALNAME[ID(2)|SHOWHOST(true)]}都当真了！",
+            "nextDialogs": [
+              "750180316"
+            ]
+          },
+          "750180316": {
+            "id": "750180316",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯？呜？",
+            "nextDialogs": [
+              "750180317"
+            ]
+          },
+          "750180317": {
+            "id": "750180317",
+            "speakerId": 1001,
+            "speakerName": "？？？",
+            "text": "哈哈，要是真的有这种疗法而且有效，那我也想试试看呢！不过龙和人不一样，就算跟它们说都是为了快些痊愈，它们也不懂嘛。",
+            "nextDialogs": [
+              "750180318"
+            ]
+          },
+          "750180318": {
+            "id": "750180318",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "对了，还没自我介绍呢，我是玛兹嘉，平时都在这附近照看受伤或者生病的龙，不是我自夸，我配的药风评还不错哦。",
+            "nextDialogs": [
+              "750180319"
+            ]
+          },
+          "750180319": {
+            "id": "750180319",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "嗯，你们的小小伙伴看起来很健康的样子，看来是不需要我的关照了。",
+            "nextDialogs": [
+              "750180320"
+            ]
+          },
+          "750180320": {
+            "id": "750180320",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750180321"
+            ]
+          },
+          "750180321": {
+            "id": "750180321",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "原来你是给龙看病的医生啊。呃，看咕噜噜的样子，应该是很辛苦的工作吧…",
+            "nextDialogs": [
+              "750180322"
+            ]
+          },
+          "750180322": {
+            "id": "750180322",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "我觉得也没有那么辛苦啦，只是咕噜噜的情况比较特殊…它现在极度地不信任人类，对于治疗和吃药也很抗拒。",
+            "nextDialogs": [
+              "750180323"
+            ]
+          },
+          "750180323": {
+            "id": "750180323",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "唉，要是我也是龙就好了。之前观察下来，它和其他龙相处得还不错，如果是龙劝它吃药，说不定它就会愿意了。",
+            "nextDialogs": [
+              "750180324"
+            ]
+          },
+          "750180324": {
+            "id": "750180324",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜？",
+            "nextDialogs": [
+              "750180325"
+            ]
+          },
+          "750180325": {
+            "id": "750180325",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "如果是这样的话，说不定我们能帮上忙呢！",
+            "nextDialogs": [
+              "750180326"
+            ]
+          },
+          "750180326": {
+            "id": "750180326",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "欸？难、难道你们虽然外表是这样，但其实是龙？",
+            "nextDialogs": [
+              "750180327"
+            ]
+          },
+          "750180327": {
+            "id": "750180327",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "你的想法也太跳跃了吧！呃…",
+            "nextDialogs": [
+              "750180328"
+            ]
+          },
+          "750180328": {
+            "id": "750180328",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#对、对了！其实是因为{REALNAME[ID(2)|SHOWHOST(true)]}是特别聪明的小龙！这件事可以让它来帮忙！",
+            "nextDialogs": [
+              "750180329"
+            ]
+          },
+          "750180329": {
+            "id": "750180329",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "欸？原来它这么厉害吗？"
+          },
+          "750180306": {
+            "id": "750180306",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "龙才听不懂这些吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501804",
+      "subQuestName": "追上「咕噜噜」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501806",
+      "subQuestName": "追上「咕噜噜」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180601"
+        ],
+        "dialogs": {
+          "750180601": {
+            "id": "750180601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "试试看吧。",
+            "nextDialogs": [
+              "750180602"
+            ]
+          },
+          "750180602": {
+            "id": "750180602",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#那就拜托{REALNAME[ID(2)|SHOWHOST(true)]}再跑一趟了。",
+            "nextDialogs": [
+              "750180603"
+            ]
+          },
+          "750180603": {
+            "id": "750180603",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750180604"
+            ]
+          },
+          "750180604": {
+            "id": "750180604",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "它吃下去了！但是…",
+            "nextDialogs": [
+              "750180605"
+            ]
+          },
+          "750180605": {
+            "id": "750180605",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "不好！它怎么比之前更暴躁了？总之得让它先冷静下来…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501807",
+      "subQuestName": "喂「咕噜噜」吃药",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180701"
+        ],
+        "dialogs": {
+          "750180701": {
+            "id": "750180701",
+            "speakerId": 1006,
+            "speakerName": "「咕噜噜」",
+            "text": "嘎…",
+            "nextDialogs": [
+              "750180702"
+            ]
+          },
+          "750180702": {
+            "id": "750180702",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，咕噜噜的伤势没痊愈，我有点担心…要不，我们也跟上去看一看吧。",
+            "nextDialogs": [
+              "750180706"
+            ]
+          },
+          "750180706": {
+            "id": "750180706",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "#赶到了{REALNAME[ID(2)|SHOWHOST(true)]}与咕噜噜的身边。",
+            "nextDialogs": [
+              "750180703"
+            ]
+          },
+          "750180703": {
+            "id": "750180703",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "它在这儿呢！呼…还好还好，看起来没有什么大碍——对了，我们现在就把药剂喂给它吧！",
+            "nextDialogs": [
+              "750180704"
+            ]
+          },
+          "750180704": {
+            "id": "750180704",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "两种药剂，该给它哪种呢？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501805",
+      "subQuestName": "喂「咕噜噜」吃药",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180403"
+        ],
+        "dialogs": {
+          "750180403": {
+            "id": "750180403",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#要是它愿意吃的话，应该对恢复更有帮助吧？那就交给你啦，{REALNAME[ID(2)|SHOWHOST(true)]}！",
+            "nextDialogs": [
+              "750180405"
+            ]
+          },
+          "750180405": {
+            "id": "750180405",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750180406"
+            ]
+          },
+          "750180406": {
+            "id": "750180406",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#看起来好像有希望？真不愧是{REALNAME[ID(2)|SHOWHOST(true)]}！欸？等一下…",
+            "nextDialogs": [
+              "750180407"
+            ]
+          },
+          "750180407": {
+            "id": "750180407",
+            "speakerId": 1006,
+            "speakerName": "「咕噜噜」",
+            "text": "——嘎嘎嘎嘎嘎嘎！",
+            "nextDialogs": [
+              "750180408"
+            ]
+          },
+          "750180408": {
+            "id": "750180408",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸欸？！难、难道是药效太好了吗？它怎么比之前还要暴躁？总之得让它先冷静下来…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501813",
+      "subQuestName": "喂「咕噜噜」吃药",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501808",
+      "subQuestName": "制服「咕噜噜」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501809",
+      "subQuestName": "制服「咕噜噜」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180903"
+        ],
+        "dialogs": {
+          "750180903": {
+            "id": "750180903",
+            "speakerId": 1006,
+            "speakerName": "「咕噜噜」",
+            "text": "呜…",
+            "nextDialogs": [
+              "750180901"
+            ]
+          },
+          "750180901": {
+            "id": "750180901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这真的是受伤还没痊愈的龙吗？",
+            "nextDialogs": [
+              "750180904"
+            ]
+          },
+          "750180904": {
+            "id": "750180904",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呀！呀呀！",
+            "nextDialogs": [
+              "750180902"
+            ]
+          },
+          "750180902": {
+            "id": "750180902",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "等它痊愈了，应该会是相当强劲的对手呢…不过现在还是趁它没那么闹腾了，赶紧带它回去找玛兹嘉小姐吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501810",
+      "subQuestName": "与玛兹嘉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750181001"
+        ],
+        "dialogs": {
+          "750181001": {
+            "id": "750181001",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750181002"
+            ]
+          },
+          "750181002": {
+            "id": "750181002",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "你们回来了！怎么样？咕噜噜愿意吃药了吗？",
+            "nextDialogs": [
+              "750181003"
+            ]
+          },
+          "750181003": {
+            "id": "750181003",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "吃是吃了，但是…",
+            "nextDialogs": [
+              "750181004"
+            ]
+          },
+          "750181004": {
+            "id": "750181004",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "简要说明了刚才的情况…",
+            "nextDialogs": [
+              "750181017"
+            ]
+          },
+          "750181017": {
+            "id": "750181017",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "原来是这样…那我检查一下吧！唔——没事，应该没有什么大碍。",
+            "nextDialogs": [
+              "750181005"
+            ]
+          },
+          "750181005": {
+            "id": "750181005",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "不管怎么说，它愿意吃药了就是好事！而且也知道了它的反应，之后可以更有针对性地调整配方了。",
+            "nextDialogs": [
+              "750181006"
+            ]
+          },
+          "750181006": {
+            "id": "750181006",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "#嗯，肯定没问题的。真是多谢你们了，特别是{REALNAME[ID(2)|SHOWHOST(true)]}，真是了不起的小嵴锋龙！",
+            "nextDialogs": [
+              "750181007"
+            ]
+          },
+          "750181007": {
+            "id": "750181007",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀呀！",
+            "nextDialogs": [
+              "750181008"
+            ]
+          },
+          "750181008": {
+            "id": "750181008",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#嘿嘿，听别人夸{REALNAME[ID(2)|SHOWHOST(true)]}，感觉比自己被夸更高兴呢！",
+            "nextDialogs": [
+              "750181009"
+            ]
+          },
+          "750181009": {
+            "id": "750181009",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "能和小嵴锋龙这样默契的两位也很了不起！我也得向你们学习才行呀。",
+            "nextDialogs": [
+              "750181012"
+            ]
+          },
+          "750181012": {
+            "id": "750181012",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "虽然想说有什么我能帮到你们或者为你们做的…",
+            "nextDialogs": [
+              "750181013"
+            ]
+          },
+          "750181013": {
+            "id": "750181013",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "但还是祝你们健健康康，最好永远也不需要找我帮忙吧！",
+            "nextDialogs": [
+              "750181014"
+            ]
+          },
+          "750181014": {
+            "id": "750181014",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "啊，不过如果你们只是想来和我聊聊天，随时欢迎你们。",
+            "nextDialogs": [
+              "750181015"
+            ]
+          },
+          "750181015": {
+            "id": "750181015",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "好哦，也祝咕噜噜能早点恢复，至少别再不由分说就乱打人了…",
+            "nextDialogs": [
+              "750181016"
+            ]
+          },
+          "750181016": {
+            "id": "750181016",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "这个嘛…就相信我吧，之后我也会想想办法的。伤养好了，说不定脾气自然也就变好了呢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501812",
+      "subQuestName": "(test)龙感激龙医生",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750181201"
+        ],
+        "dialogs": {
+          "750181201": {
+            "id": "750181201",
+            "speakerId": 1005,
+            "speakerName": "玛兹嘉",
+            "text": "(test)龙感激龙医生表现"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501811",
+      "subQuestName": "(test)隐藏，几天后回到小屋$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501805",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180501"
+        ],
+        "dialogs": {
+          "750180501": {
+            "id": "750180501",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#嗯，就算疗效没那么好，但只要它愿意吃药，也是很大的进步了！那就交给你啦，{REALNAME[ID(2)|SHOWHOST(true)]}！",
+            "nextDialogs": [
+              "750180510"
+            ]
+          },
+          "750180510": {
+            "id": "750180510",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750180511"
+            ]
+          },
+          "750180511": {
+            "id": "750180511",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "哦！它吃下去了！嗯…但是感觉有点没精神呢。",
+            "nextDialogs": [
+              "750180512"
+            ]
+          },
+          "750180512": {
+            "id": "750180512",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜？",
+            "nextDialogs": [
+              "750180513"
+            ]
+          },
+          "750180513": {
+            "id": "750180513",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "那、那要再试试另一种吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501808",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180805"
+        ],
+        "dialogs": {
+          "750180805": {
+            "id": "750180805",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还是不要了吧。",
+            "nextDialogs": [
+              "750180806"
+            ]
+          },
+          "750180806": {
+            "id": "750180806",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "说的也是…不如趁现在它没那么闹腾了，带它回去找玛兹嘉小姐吧！"
+          }
+        }
+      }
+    }
+  ]
+}

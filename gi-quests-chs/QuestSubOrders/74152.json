@@ -1,0 +1,74 @@
+{
+  "lineCounts": {
+    "(test)屋内$UNRELEASED": 1,
+    "Player": 20,
+    "派蒙": 17
+  },
+  "subQuests": [
+    {
+      "subId": "7415201",
+      "subQuestName": "(test)派蒙对话$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741520101"
+        ],
+        "dialogs": {
+          "741520101": {
+            "id": "741520101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，你是不是想到什么了？$UNRELEASED",
+            "nextDialogs": [
+              "741520103"
+            ]
+          },
+          "741520103": {
+            "id": "741520103",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我也觉得有点奇怪，他们一个话特别多，一个话特别少。$UNRELEASED",
+            "nextDialogs": [
+              "741520104"
+            ]
+          },
+          "741520104": {
+            "id": "741520104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他们出现的时机太巧合了。$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415202",
+      "subQuestName": "(test)自动与阿托斯对话$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741520201"
+        ],
+        "dialogs": {
+          "741520201": {
+            "id": "741520201",
+            "speakerId": 1001,
+            "speakerName": "(test)屋内$UNRELEASED",
+            "text": "(test)...$UNRELEASED",
+            "nextDialogs": [
+              "741520202"
+            ]
+          },
+          "741520202": {
+            "id": "741520202",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "(test)...可能真的休息了吧，再敲门就不礼貌了，明天再来看看吧$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "维多利亚": 41
+  },
+  "subQuests": [
+    {
+      "subId": "1900301",
+      "subQuestName": "与芭芭拉一同离开奔狼领",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900302",
+      "subQuestName": "（隐藏任务）回到蒙德城，寻找维多利亚修女$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900303",
+      "subQuestName": "向维多利亚修女回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190030301"
+        ],
+        "dialogs": {
+          "190030301": {
+            "id": "190030301",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "你怎么又回来了，如果你还是来找芭芭拉小姐的话，她还没回来。",
+            "nextDialogs": [
+              "190030304"
+            ]
+          },
+          "190030304": {
+            "id": "190030304",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "是这样吗…她没什么事就好。",
+            "nextDialogs": [
+              "190030305"
+            ]
+          },
+          "190030305": {
+            "id": "190030305",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但一时半会她应该也回不来了吧，看来我得把教会的事情拜托给其他人做了…",
+            "nextDialogs": [
+              "190030306"
+            ]
+          },
+          "190030306": {
+            "id": "190030306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我来帮忙吧。",
+            "nextDialogs": [
+              "190030307"
+            ]
+          },
+          "190030307": {
+            "id": "190030307",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "你愿意帮忙的话那就最好了，真是不好意思，还要麻烦你…",
+            "nextDialogs": [
+              "190030308"
+            ]
+          },
+          "190030308": {
+            "id": "190030308",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "我想想…那请你帮我去教会周围打扫一下吧。",
+            "nextDialogs": [
+              "190030309"
+            ]
+          },
+          "190030309": {
+            "id": "190030309",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "教会周围人来人往，地面总是很脏。",
+            "nextDialogs": [
+              "190030310"
+            ]
+          },
+          "190030310": {
+            "id": "190030310",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "这些事之前一直是芭芭拉小姐一个人负责，她一不在，周围就…",
+            "nextDialogs": [
+              "190030311"
+            ]
+          },
+          "190030311": {
+            "id": "190030311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这么大的地方，都是芭芭拉小姐一个人打扫吗？",
+            "nextDialogs": [
+              "190030312"
+            ]
+          },
+          "190030312": {
+            "id": "190030312",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "是的，芭芭拉小姐一直说自己没问题，也不让其他人帮忙。",
+            "nextDialogs": [
+              "190030313"
+            ]
+          },
+          "190030313": {
+            "id": "190030313",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但每次打扫结束后，她的样子都很疲惫。",
+            "nextDialogs": [
+              "190030314"
+            ]
+          },
+          "190030314": {
+            "id": "190030314",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "说实话，你愿意帮忙，或者说…芭芭拉小姐愿意让你来帮忙，还让我挺意外的。",
+            "nextDialogs": [
+              "190030315"
+            ]
+          },
+          "190030315": {
+            "id": "190030315",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "不过，这样她的负担也许会小一些吧…",
+            "nextDialogs": [
+              "190030316"
+            ]
+          },
+          "190030316": {
+            "id": "190030316",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "总之，那清扫的事就拜托你了，「荣誉骑士」。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1900304",
+      "subQuestName": "打扫教堂的周围",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190030401"
+        ],
+        "dialogs": {
+          "190030401": {
+            "id": "190030401",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "多谢你愿意帮忙，「荣誉骑士」。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1900305",
+      "subQuestName": "向维多利亚修女回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900306",
+      "subQuestName": "与维多利亚修女对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190030601"
+        ],
+        "dialogs": {
+          "190030601": {
+            "id": "190030601",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "咦？你好，还有什么事吗？",
+            "nextDialogs": [
+              "190030602"
+            ]
+          },
+          "190030602": {
+            "id": "190030602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于芭芭拉的假期…",
+            "nextDialogs": [
+              "190030603"
+            ]
+          },
+          "190030603": {
+            "id": "190030603",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "你说这个啊，没错，芭芭拉小姐刚才是向我请了半天假，说是要陪陪一位朋友。",
+            "nextDialogs": [
+              "190030604"
+            ]
+          },
+          "190030604": {
+            "id": "190030604",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "不过，这还真是罕见…芭芭拉小姐居然会专门为了一位朋友请假…",
+            "nextDialogs": [
+              "190030605"
+            ]
+          },
+          "190030605": {
+            "id": "190030605",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "好了，还是先说正事吧，你找我有什么事吗？",
+            "nextDialogs": [
+              "190030606"
+            ]
+          },
+          "190030606": {
+            "id": "190030606",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「了不起的梦幻忧郁珊瑚气泡茶」…",
+            "nextDialogs": [
+              "190030607"
+            ]
+          },
+          "190030607": {
+            "id": "190030607",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "欸？芭芭拉小姐要陪你去买这个…特别饮品？",
+            "nextDialogs": [
+              "190030608"
+            ]
+          },
+          "190030608": {
+            "id": "190030608",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "难道芭芭拉小姐之前说的朋友就是你吗？",
+            "nextDialogs": [
+              "190030609"
+            ]
+          },
+          "190030609": {
+            "id": "190030609",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "啊…如果是你这位「荣誉骑士」的话，倒也说得过去…",
+            "nextDialogs": [
+              "190030610"
+            ]
+          },
+          "190030610": {
+            "id": "190030610",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "好吧，情况我了解了。那芭芭拉小姐就麻烦你多多照顾了，「荣誉骑士」。",
+            "nextDialogs": [
+              "190030611"
+            ]
+          },
+          "190030611": {
+            "id": "190030611",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "为什么芭芭拉的假期要报备行程？",
+            "nextDialogs": [
+              "190030612"
+            ]
+          },
+          "190030612": {
+            "id": "190030612",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "这个啊…你也知道，因为各种原因，芭芭拉小姐在蒙德城里很受欢迎。",
+            "nextDialogs": [
+              "190030613"
+            ]
+          },
+          "190030613": {
+            "id": "190030613",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "虽然居民们都是出于好意，但好意太多了，芭芭拉小姐有时候也实在忙不过来。",
+            "nextDialogs": [
+              "190030614"
+            ]
+          },
+          "190030614": {
+            "id": "190030614",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "如果是在工作中，教会里的人可以及时出来为她解围。",
+            "nextDialogs": [
+              "190030615"
+            ]
+          },
+          "190030615": {
+            "id": "190030615",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但要是在假期中…那就只能靠芭芭拉小姐自己了。",
+            "nextDialogs": [
+              "190030616"
+            ]
+          },
+          "190030616": {
+            "id": "190030616",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但她又太…温柔，对居民们的请求向来都会尽量满足，甚至会把自己弄得比工作日还疲惫。",
+            "nextDialogs": [
+              "190030617"
+            ]
+          },
+          "190030617": {
+            "id": "190030617",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "我们就想，让芭芭拉小姐把自己的假期行程报备一下，要真的需要我们出面解围，那我们也好及时赶过去。",
+            "nextDialogs": [
+              "190030618"
+            ]
+          },
+          "190030618": {
+            "id": "190030618",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "真希望芭芭拉小姐不要再勉强自己了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1900307",
+      "subQuestName": "与维多利亚修女对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190030701"
+        ],
+        "dialogs": {
+          "190030701": {
+            "id": "190030701",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "咦？你好，还有什么事吗？",
+            "nextDialogs": [
+              "190030702"
+            ]
+          },
+          "190030702": {
+            "id": "190030702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于芭芭拉的行程…",
+            "nextDialogs": [
+              "190030703"
+            ]
+          },
+          "190030703": {
+            "id": "190030703",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "芭芭拉小姐要去低语森林附近采集药材吗？",
+            "nextDialogs": [
+              "190030704"
+            ]
+          },
+          "190030704": {
+            "id": "190030704",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "嗯…芭芭拉小姐刚才是向我请了半天假，说是要陪陪一位朋友，怎么突然又要去采集药材了。",
+            "nextDialogs": [
+              "190030705"
+            ]
+          },
+          "190030705": {
+            "id": "190030705",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "不过，芭芭拉小姐应该有自己的考量吧…你是会和她同行吗？",
+            "nextDialogs": [
+              "190030706"
+            ]
+          },
+          "190030706": {
+            "id": "190030706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是的，我会和芭芭拉同行的。",
+            "nextDialogs": [
+              "190030707"
+            ]
+          },
+          "190030707": {
+            "id": "190030707",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "好吧，那我多少放点心了。芭芭拉小姐就麻烦你多多照顾了，「荣誉骑士」。",
+            "nextDialogs": [
+              "190030708"
+            ]
+          },
+          "190030708": {
+            "id": "190030708",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "为什么芭芭拉的假期要报备行程？",
+            "nextDialogs": [
+              "190030709"
+            ]
+          },
+          "190030709": {
+            "id": "190030709",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "这个啊…你也知道，因为各种原因，芭芭拉小姐在蒙德城里很受欢迎。",
+            "nextDialogs": [
+              "190030710"
+            ]
+          },
+          "190030710": {
+            "id": "190030710",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "虽然居民们都是出于好意，但好意太多了，芭芭拉小姐有时候也实在忙不过来。",
+            "nextDialogs": [
+              "190030711"
+            ]
+          },
+          "190030711": {
+            "id": "190030711",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "如果是在工作中，教会里的人可以及时出来为她解围。",
+            "nextDialogs": [
+              "190030712"
+            ]
+          },
+          "190030712": {
+            "id": "190030712",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但要是在假期中…那就只能靠芭芭拉小姐自己了。",
+            "nextDialogs": [
+              "190030713"
+            ]
+          },
+          "190030713": {
+            "id": "190030713",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "但她又太…温柔，对居民们的请求向来都会尽量满足，甚至会把自己弄得比工作日还疲惫。",
+            "nextDialogs": [
+              "190030714"
+            ]
+          },
+          "190030714": {
+            "id": "190030714",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "我们就想，让芭芭拉小姐把自己的假期行程报备一下，要真的需要我们出面解围，那我们也好及时赶过去。",
+            "nextDialogs": [
+              "190030715"
+            ]
+          },
+          "190030715": {
+            "id": "190030715",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "真希望芭芭拉小姐不要再勉强自己了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1900308",
+      "subQuestName": "与维多利亚修女对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190010201"
+        ],
+        "dialogs": {
+          "190010201": {
+            "id": "190010201",
+            "speakerId": 1000,
+            "speakerName": "维多利亚",
+            "text": "芭芭拉小姐…到底去哪了呢…"
+          }
+        }
+      }
+    }
+  ]
+}

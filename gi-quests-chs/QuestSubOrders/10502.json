@@ -1,0 +1,836 @@
+{
+  "lineCounts": {
+    "Player": 27,
+    "凯瑟琳": 6,
+    "可莉": 26,
+    "歌德": 7,
+    "派蒙": 16,
+    "莫娜": 61
+  },
+  "subQuests": [
+    {
+      "subId": "1050201",
+      "subQuestName": "抵达蒙德城",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020101"
+        ],
+        "dialogs": {
+          "105020101": {
+            "id": "105020101",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "马上就要见到那位继承者了，你准备好了吗？可别让你的师父丢脸。",
+            "nextDialogs": [
+              "105020104"
+            ]
+          },
+          "105020104": {
+            "id": "105020104",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "也对…不对！就算是假的弟子，也不能一问三不知吧。",
+            "nextDialogs": [
+              "105020105"
+            ]
+          },
+          "105020105": {
+            "id": "105020105",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "虽然师门有规定，不得传授外人，不过…如果是你，也未尝不可。",
+            "nextDialogs": [
+              "105020106"
+            ]
+          },
+          "105020106": {
+            "id": "105020106",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "我的占星术是「水占术」，顾名思义，是通过水中的倒影观看真正的星空。",
+            "nextDialogs": [
+              "105020107"
+            ]
+          },
+          "105020107": {
+            "id": "105020107",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "让我先给你示范一下，看仔细了。",
+            "nextDialogs": [
+              "105020108"
+            ]
+          },
+          "105020108": {
+            "id": "105020108",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "就目前的星象和走势来看，嗯，那位继承者是西风骑士，年轻有为…女性…",
+            "nextDialogs": [
+              "105020109"
+            ]
+          },
+          "105020109": {
+            "id": "105020109",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "听这个描述…唔…难道是丽莎？",
+            "nextDialogs": [
+              "105020110"
+            ]
+          },
+          "105020110": {
+            "id": "105020110",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "我们马上就会在这里遇见她。",
+            "nextDialogs": [
+              "105020111"
+            ]
+          },
+          "105020111": {
+            "id": "105020111",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "好了，有这么多信息应该就足够了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050202",
+      "subQuestName": "与莫娜交谈，准备面见继承者",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050203",
+      "subQuestName": "追上可莉，取回箱子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020301"
+        ],
+        "dialogs": {
+          "105020301": {
+            "id": "105020301",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "我找到了，就是这个箱子。",
+            "nextDialogs": [
+              "105020302"
+            ]
+          },
+          "105020302": {
+            "id": "105020302",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "没有被炸坏真是太好了。",
+            "nextDialogs": [
+              "105020303"
+            ]
+          },
+          "105020303": {
+            "id": "105020303",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "回收完毕，我们带回去给那个姐姐吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050204",
+      "subQuestName": "与可莉交谈，回收箱子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020201"
+        ],
+        "dialogs": {
+          "105020201": {
+            "id": "105020201",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "到了到了，就是这里，我们来把宝物挖出来吧。",
+            "nextDialogs": [
+              "105020204"
+            ]
+          },
+          "105020204": {
+            "id": "105020204",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "不会的，我专门做了记号，是不会有错的——",
+            "nextDialogs": [
+              "105020205"
+            ]
+          },
+          "105020205": {
+            "id": "105020205",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "呜啊，是草史莱姆！",
+            "nextDialogs": [
+              "105020206"
+            ]
+          },
+          "105020206": {
+            "id": "105020206",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是草史莱姆。",
+            "nextDialogs": [
+              "105020207"
+            ]
+          },
+          "105020207": {
+            "id": "105020207",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呃…先解决掉它们再说吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050205",
+      "subQuestName": "击败来袭的草史莱姆",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020501"
+        ],
+        "dialogs": {
+          "105020501": {
+            "id": "105020501",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "关于莫娜的来历与困境…",
+            "nextDialogs": [
+              "105020502"
+            ]
+          },
+          "105020502": {
+            "id": "105020502",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "原来是这样，我知道了。",
+            "nextDialogs": [
+              "105020503"
+            ]
+          },
+          "105020503": {
+            "id": "105020503",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "蒙德城里，有一间空着的<color=#00E1FFFF>魔法实验室</color>，但被不知道什么人施加了一个封印。",
+            "nextDialogs": [
+              "105020504"
+            ]
+          },
+          "105020504": {
+            "id": "105020504",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "虽然有几位专家可以解开封印，但他们都有自己的实验室了，对这件事不感兴趣。",
+            "nextDialogs": [
+              "105020505"
+            ]
+          },
+          "105020505": {
+            "id": "105020505",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "我觉得，如果你提到的占星术士能解开那个封印，房子的主人应该就会同意她住下吧。",
+            "nextDialogs": [
+              "105020508"
+            ]
+          },
+          "105020508": {
+            "id": "105020508",
+            "speakerId": 1003,
+            "speakerName": "凯瑟琳",
+            "text": "好的，那我这就告诉你房子的位置。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050206",
+      "subQuestName": "与可莉交谈，回收箱子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050207",
+      "subQuestName": "陪同可莉，把箱子带给莫娜",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020401"
+        ],
+        "dialogs": {
+          "105020401": {
+            "id": "105020401",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "你们终于回来了，等得我好无聊。",
+            "nextDialogs": [
+              "105020402"
+            ]
+          },
+          "105020402": {
+            "id": "105020402",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "本来还想看看书打发时间，结果这居然是一本莫名其妙的日记，一点意思都没有。",
+            "nextDialogs": [
+              "105020403"
+            ]
+          },
+          "105020403": {
+            "id": "105020403",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "明明是从可莉的包里掉出来的，我还以为记载了什么古代知识呢。",
+            "nextDialogs": [
+              "105020404"
+            ]
+          },
+          "105020404": {
+            "id": "105020404",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "不管了，所以，箱子找到了吗？",
+            "nextDialogs": [
+              "105020405"
+            ]
+          },
+          "105020405": {
+            "id": "105020405",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "找到啦，完好无损！",
+            "nextDialogs": [
+              "105020406"
+            ]
+          },
+          "105020406": {
+            "id": "105020406",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "那太好了——等等？！为、为什么没有锁着？！里面…呃！里面又为什么是空的啊？！",
+            "nextDialogs": [
+              "105020407"
+            ]
+          },
+          "105020407": {
+            "id": "105020407",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "咦——？！",
+            "nextDialogs": [
+              "105020408"
+            ]
+          },
+          "105020408": {
+            "id": "105020408",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "是这样的，因为我借用了这个箱子，用来装我收集的宝贝。",
+            "nextDialogs": [
+              "105020409"
+            ]
+          },
+          "105020409": {
+            "id": "105020409",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "借用？！",
+            "nextDialogs": [
+              "105020410"
+            ]
+          },
+          "105020410": {
+            "id": "105020410",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "现在姐姐要收回这个箱子，所以我就把我的宝贝都拿了出来，箱子就是空的了。",
+            "nextDialogs": [
+              "105020411"
+            ]
+          },
+          "105020411": {
+            "id": "105020411",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "你用来装你的东西了？！…那、那原本里面装着的东西呢？我要的是那个！",
+            "nextDialogs": [
+              "105020412"
+            ]
+          },
+          "105020412": {
+            "id": "105020412",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "哦，姐姐原来是要以前装在箱子里面的东西…早说嘛。",
+            "nextDialogs": [
+              "105020413"
+            ]
+          },
+          "105020413": {
+            "id": "105020413",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "你…该不会把它弄坏了吧？",
+            "nextDialogs": [
+              "105020414"
+            ]
+          },
+          "105020414": {
+            "id": "105020414",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "没有！一点都没弄坏哦。",
+            "nextDialogs": [
+              "105020415"
+            ]
+          },
+          "105020415": {
+            "id": "105020415",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "呼…",
+            "nextDialogs": [
+              "105020416"
+            ]
+          },
+          "105020416": {
+            "id": "105020416",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "那件东西，就是姐姐手里的那本书呀。",
+            "nextDialogs": [
+              "105020417"
+            ]
+          },
+          "105020417": {
+            "id": "105020417",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "咿——？！",
+            "nextDialogs": [
+              "105020418"
+            ]
+          },
+          "105020418": {
+            "id": "105020418",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "这、这…原来这书，这日记…是老太婆的…难道是她五十年前的日记？！",
+            "nextDialogs": [
+              "105020419"
+            ]
+          },
+          "105020419": {
+            "id": "105020419",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "时隔五十年要回收的，是她少女时代的黑历史吗？！",
+            "nextDialogs": [
+              "105020420"
+            ]
+          },
+          "105020420": {
+            "id": "105020420",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "完了！难怪…！难怪老太婆说…无论如何都不能看，看了就要把我大卸八块…",
+            "nextDialogs": [
+              "105020421"
+            ]
+          },
+          "105020421": {
+            "id": "105020421",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "我，我是不是闯祸了…？",
+            "nextDialogs": [
+              "105020422"
+            ]
+          },
+          "105020422": {
+            "id": "105020422",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "啊！是姐姐说想要箱子的，没说里面东西的事情！",
+            "nextDialogs": [
+              "105020423"
+            ]
+          },
+          "105020423": {
+            "id": "105020423",
+            "speakerId": 1002,
+            "speakerName": "可莉",
+            "text": "我什么都不知道！我先走了！",
+            "nextDialogs": [
+              "105020426"
+            ]
+          },
+          "105020426": {
+            "id": "105020426",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔…不过，只要莫娜不说，你的师父也不知道你看过日记了吧？",
+            "nextDialogs": [
+              "105020427"
+            ]
+          },
+          "105020427": {
+            "id": "105020427",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "不可能，占星术能看破一切谎言，你们也都见识过了。",
+            "nextDialogs": [
+              "105020428"
+            ]
+          },
+          "105020428": {
+            "id": "105020428",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "啊…花光所有摩拉来了蒙德，没有得到知识，现在也回不去了，怎么会变成这样…",
+            "nextDialogs": [
+              "105020429"
+            ]
+          },
+          "105020429": {
+            "id": "105020429",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好可怜…要不然，就等你把书里的内容都忘光了，再回去吧？",
+            "nextDialogs": [
+              "105020430"
+            ]
+          },
+          "105020430": {
+            "id": "105020430",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "这个…太难了，而且就算我想留在蒙德城，也…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050212",
+      "subQuestName": "(test)日记出现$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050213",
+      "subQuestName": "(test)日记消失$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050208",
+      "subQuestName": "与凯瑟琳交谈，帮莫娜寻找住处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050209",
+      "subQuestName": "前往魔法实验室，查看封印",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050210",
+      "subQuestName": "(test)解除封印$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050211",
+      "subQuestName": "与莫娜交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020601"
+        ],
+        "dialogs": {
+          "105020601": {
+            "id": "105020601",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "留下这个封印的人…不简单，要暴力破解几乎是不可能的。",
+            "nextDialogs": [
+              "105020602"
+            ]
+          },
+          "105020602": {
+            "id": "105020602",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "有意思，值得我用占星术计算一下了。",
+            "nextDialogs": [
+              "105020603"
+            ]
+          },
+          "105020603": {
+            "id": "105020603",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "我看看，嗯…原来如此，只需要这样，然后这样…",
+            "nextDialogs": [
+              "105020604"
+            ]
+          },
+          "105020604": {
+            "id": "105020604",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "好了，打开了。",
+            "nextDialogs": [
+              "105020605"
+            ]
+          },
+          "105020605": {
+            "id": "105020605",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哇，真厉害！",
+            "nextDialogs": [
+              "105020606"
+            ]
+          },
+          "105020606": {
+            "id": "105020606",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "只要回去和凯瑟琳报告一下，应该就可以住进去了吧。",
+            "nextDialogs": [
+              "105020607"
+            ]
+          },
+          "105020607": {
+            "id": "105020607",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "不必了不必了，太谢谢你们了。",
+            "nextDialogs": [
+              "105020608"
+            ]
+          },
+          "105020608": {
+            "id": "105020608",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "这位是…？",
+            "nextDialogs": [
+              "105020609"
+            ]
+          },
+          "105020609": {
+            "id": "105020609",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "哦，我是这栋房子的主人，歌德。刚刚路过冒险家协会的时候，凯瑟琳告诉了我这件事。",
+            "nextDialogs": [
+              "105020610"
+            ]
+          },
+          "105020610": {
+            "id": "105020610",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "没想到这么快，这个烦人的封印就被解开了！",
+            "nextDialogs": [
+              "105020611"
+            ]
+          },
+          "105020611": {
+            "id": "105020611",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "那就是说，我可以住在这里了？",
+            "nextDialogs": [
+              "105020612"
+            ]
+          },
+          "105020612": {
+            "id": "105020612",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "当然当然，反正里面的设备放着也是放着，能有人发挥它们的价值，我也很开心。",
+            "nextDialogs": [
+              "105020613"
+            ]
+          },
+          "105020613": {
+            "id": "105020613",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "为了表示感谢，我可以用最低最低的价格，把房子租给你！",
+            "nextDialogs": [
+              "105020614"
+            ]
+          },
+          "105020614": {
+            "id": "105020614",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "租、租？！",
+            "nextDialogs": [
+              "105020615"
+            ]
+          },
+          "105020615": {
+            "id": "105020615",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "来之前没听说租的事，而且我还帮了忙…",
+            "nextDialogs": [
+              "105020616"
+            ]
+          },
+          "105020616": {
+            "id": "105020616",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "帮忙？嗯，对，我明白啊。我非常感谢你，所以租金肯定会给你最优惠的价格！",
+            "nextDialogs": [
+              "105020617"
+            ]
+          },
+          "105020617": {
+            "id": "105020617",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "我、我的意思是…",
+            "nextDialogs": [
+              "105020618"
+            ]
+          },
+          "105020618": {
+            "id": "105020618",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "看来莫娜有些误解，但是…",
+            "nextDialogs": [
+              "105020621"
+            ]
+          },
+          "105020621": {
+            "id": "105020621",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "唉…也没有别的办法了，就租这里吧。",
+            "nextDialogs": [
+              "105020622"
+            ]
+          },
+          "105020622": {
+            "id": "105020622",
+            "speakerId": 1004,
+            "speakerName": "歌德",
+            "text": "好！那就这么说定了，我去准备一下手续，稍等片刻吧。",
+            "nextDialogs": [
+              "105020623"
+            ]
+          },
+          "105020623": {
+            "id": "105020623",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "这次的事，谢谢了。还有就是…很对不起，答应你的事，暂时还做不到。",
+            "nextDialogs": [
+              "105020624"
+            ]
+          },
+          "105020624": {
+            "id": "105020624",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "没有占星需要的设备，也没有新的知识，想要看清你的「命运」，还需要一些时间…",
+            "nextDialogs": [
+              "105020625"
+            ]
+          },
+          "105020625": {
+            "id": "105020625",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "但我答应你，等我准备好了，我一定会第一个为你占卜的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050207",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020701"
+        ],
+        "dialogs": {
+          "105020701": {
+            "id": "105020701",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "那箱子对我真的很重要…",
+            "nextDialogs": [
+              "105020702"
+            ]
+          },
+          "105020702": {
+            "id": "105020702",
+            "speakerId": 1000,
+            "speakerName": "莫娜",
+            "text": "出了任何问题，我都没法回去和老太婆交差…"
+          }
+        }
+      }
+    }
+  ]
+}

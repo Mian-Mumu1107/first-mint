@@ -1,0 +1,526 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 6,
+    "Player": 7,
+    "尼可": 22,
+    "派蒙": 13,
+    "语言的阶梯": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7620508",
+      "subQuestName": "前往魔女的小屋",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620504",
+      "subQuestName": "寻找尼可",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620501",
+      "subQuestName": "与尼可对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762050101"
+        ],
+        "dialogs": {
+          "762050101": {
+            "id": "762050101",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "#怎么办…这要怎么办…算算时间{M#他们}{F#她们}就快来了…",
+            "nextDialogs": [
+              "762050102"
+            ]
+          },
+          "762050102": {
+            "id": "762050102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我们来啦！哎哎尼可，别把我们推出去呀！",
+            "nextDialogs": [
+              "762050103"
+            ]
+          },
+          "762050103": {
+            "id": "762050103",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "咳咳…不好意思…",
+            "nextDialogs": [
+              "762050104"
+            ]
+          },
+          "762050104": {
+            "id": "762050104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是还没准备好吗？",
+            "nextDialogs": [
+              "762050105"
+            ]
+          },
+          "762050105": {
+            "id": "762050105",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "该怎么解释呢…不行，说不清楚，只好从头说明了。",
+            "nextDialogs": [
+              "762050106"
+            ]
+          },
+          "762050106": {
+            "id": "762050106",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "——具体就要从魔女们第一次挑战风神时说起了。",
+            "nextDialogs": [
+              "762050107"
+            ]
+          },
+          "762050107": {
+            "id": "762050107",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这也太早了吧！",
+            "nextDialogs": [
+              "762050108"
+            ]
+          },
+          "762050108": {
+            "id": "762050108",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "唔，太过分了，要我亲口说出来真的好丢人…算了，没办法了，事实就是事实…只要艾莉丝不知道的话应该不会被取笑…",
+            "nextDialogs": [
+              "762050109"
+            ]
+          },
+          "762050109": {
+            "id": "762050109",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "她心里面想的话好像又漏出来了，而且，她也没办法亲「口」…",
+            "nextDialogs": [
+              "762050110"
+            ]
+          },
+          "762050110": {
+            "id": "762050110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "嘘。",
+            "nextDialogs": [
+              "762050111"
+            ]
+          },
+          "762050111": {
+            "id": "762050111",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "我临时把羽毛藏去了书房最高的地方，想着增加难度的话，完成挑战的成就感也会变强…",
+            "nextDialogs": [
+              "762050112"
+            ]
+          },
+          "762050112": {
+            "id": "762050112",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "但我实在不擅长控制那些随性的风，好像到了一定高度之后，无论如何都飞不上去了。",
+            "nextDialogs": [
+              "762050113"
+            ]
+          },
+          "762050113": {
+            "id": "762050113",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不能用魔法把羽毛重新挪下来吗？",
+            "nextDialogs": [
+              "762050114"
+            ]
+          },
+          "762050114": {
+            "id": "762050114",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "那就没有游玩的意义了啊！",
+            "nextDialogs": [
+              "762050115"
+            ]
+          },
+          "762050115": {
+            "id": "762050115",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好吧，也对…那还真是个死局…",
+            "nextDialogs": [
+              "762050116"
+            ]
+          },
+          "762050116": {
+            "id": "762050116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "尼可，能再说一句话吗？",
+            "nextDialogs": [
+              "762050117"
+            ]
+          },
+          "762050117": {
+            "id": "762050117",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "什么话？",
+            "nextDialogs": [
+              "762050120"
+            ]
+          },
+          "762050120": {
+            "id": "762050120",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "啊！我明白了——！让我们试试吧！",
+            "nextDialogs": [
+              "762050121"
+            ]
+          },
+          "762050121": {
+            "id": "762050121",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "唔，太过分了，要我亲口说出来真的好丢人…",
+            "nextDialogs": [
+              "762050122"
+            ]
+          },
+          "762050122": {
+            "id": "762050122",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "算了，没办法了，事实就是事实…",
+            "nextDialogs": [
+              "762050123"
+            ]
+          },
+          "762050123": {
+            "id": "762050123",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "只要艾莉丝不知道的话应该不会被取笑…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7620505",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762050501"
+        ],
+        "dialogs": {
+          "762050501": {
+            "id": "762050501",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "尼可！前面没路啦。",
+            "nextDialogs": [
+              "762050502"
+            ]
+          },
+          "762050502": {
+            "id": "762050502",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "交给我。",
+            "nextDialogs": [
+              "762050503"
+            ]
+          },
+          "762050503": {
+            "id": "762050503",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "噢噢噢真的可以！多说几句！",
+            "nextDialogs": [
+              "762050504"
+            ]
+          },
+          "762050504": {
+            "id": "762050504",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "交给我交给我交给我！",
+            "nextDialogs": [
+              "762050505"
+            ]
+          },
+          "762050505": {
+            "id": "762050505",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哈，只是重复啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7620509",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620510",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620502",
+      "subQuestName": "继续前进",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762050201"
+        ],
+        "dialogs": {
+          "762050201": {
+            "id": "762050201",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好长一段间隔！",
+            "nextDialogs": [
+              "762050202"
+            ]
+          },
+          "762050202": {
+            "id": "762050202",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "万象为引，圣名注经。词章交织，诸使齐行。在此圣殿，以言语铸汝前路之阶。",
+            "nextDialogs": [
+              "762050203"
+            ]
+          },
+          "762050203": {
+            "id": "762050203",
+            "speakerId": 1003,
+            "speakerName": "语言的阶梯",
+            "text": "叮——",
+            "nextDialogs": [
+              "762050204"
+            ]
+          },
+          "762050204": {
+            "id": "762050204",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "看，搞定了。",
+            "nextDialogs": [
+              "762050205"
+            ]
+          },
+          "762050205": {
+            "id": "762050205",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "万象为引，圣名注经。",
+            "nextDialogs": [
+              "762050206"
+            ]
+          },
+          "762050206": {
+            "id": "762050206",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "词章交织，诸使齐行。",
+            "nextDialogs": [
+              "762050207"
+            ]
+          },
+          "762050207": {
+            "id": "762050207",
+            "speakerId": 1002,
+            "speakerName": "<UNKNOWN>",
+            "text": "在此圣殿，以言语铸汝前路之阶。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7620506",
+      "subQuestName": "触碰「羽毛」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620507",
+      "subQuestName": "开启宝箱",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7620503",
+      "subQuestName": "与尼可对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762050301"
+        ],
+        "dialogs": {
+          "762050301": {
+            "id": "762050301",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "拿到啦！太好了！",
+            "nextDialogs": [
+              "762050302"
+            ]
+          },
+          "762050302": {
+            "id": "762050302",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "虽然…虽然现在脑袋还在嗡嗡响，为了搭梯子，她说话的时候好像格外用力…",
+            "nextDialogs": [
+              "762050303"
+            ]
+          },
+          "762050303": {
+            "id": "762050303",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "嗯？揭短？你不担心我这位强大的魔女动动手指，把宝箱里的东西全变成胡萝卜吗？",
+            "nextDialogs": [
+              "762050306"
+            ]
+          },
+          "762050306": {
+            "id": "762050306",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "哼哼，当然咯，我怎么会是把日常琐事事无巨细记在脑袋里的沉默天使呢？",
+            "nextDialogs": [
+              "762050307"
+            ]
+          },
+          "762050307": {
+            "id": "762050307",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "#——于是到了那天，{NICKNAME}和派蒙踏上七重阶梯，等待在{M#他们}{F#她们}面前的却是一个熟悉的背影。",
+            "nextDialogs": [
+              "762050308"
+            ]
+          },
+          "762050308": {
+            "id": "762050308",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "光焰汇成了她后背的羽翼，她的身姿依旧如初见时高贵和美丽，但那双眼睛却流露出残酷的光芒。",
+            "nextDialogs": [
+              "762050309"
+            ]
+          },
+          "762050309": {
+            "id": "762050309",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "#「为什么？」{NICKNAME}和派蒙同时发问。",
+            "nextDialogs": [
+              "762050310"
+            ]
+          },
+          "762050310": {
+            "id": "762050310",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "「具体就要从派蒙那天抱怨我说话用力时说起了。」",
+            "nextDialogs": [
+              "762050311"
+            ]
+          },
+          "762050311": {
+            "id": "762050311",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "语言是有魔法的，不要说那么可怕的话啊！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7620599",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762059901"
+        ],
+        "dialogs": {
+          "762059901": {
+            "id": "762059901",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "已经是最后一扇门了吧，赶紧去找尼可吧！",
+            "nextDialogs": [
+              "762059902"
+            ]
+          },
+          "762059902": {
+            "id": "762059902",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "小心脚下。",
+            "nextDialogs": [
+              "762059907"
+            ]
+          },
+          "762059907": {
+            "id": "762059907",
+            "speakerId": 1000,
+            "speakerName": "尼可",
+            "text": "小心脚下。"
+          }
+        }
+      }
+    }
+  ]
+}

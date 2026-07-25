@@ -1,0 +1,75 @@
+{
+  "lineCounts": {
+    "天权幕僚": 1,
+    "派蒙": 2
+  },
+  "subQuests": [
+    {
+      "subId": "100101",
+      "subQuestName": "被NPC呵斥，绝对领域$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10010101"
+        ],
+        "dialogs": {
+          "10010101": {
+            "id": "10010101",
+            "speakerId": 1000,
+            "speakerName": "天权幕僚",
+            "text": "止步！七星请仙，无关人等暂请回避，不可向前！",
+            "nextDialogs": [
+              "10010102"
+            ]
+          },
+          "10010102": {
+            "id": "10010102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "嘁…小气…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100102",
+      "subQuestName": "传送出来，同时回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100103",
+      "subQuestName": "父任务完结$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "10",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1001"
+        ],
+        "dialogs": {
+          "1001": {
+            "id": "1001",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "……"
+          }
+        }
+      }
+    }
+  ]
+}

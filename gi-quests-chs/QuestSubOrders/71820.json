@@ -1,0 +1,794 @@
+{
+  "lineCounts": {
+    "Player": 19,
+    "伯桓子": 15,
+    "望雅": 21,
+    "派蒙": 2,
+    "菲尔戈黛特": 12,
+    "言笑": 8
+  },
+  "subQuests": [
+    {
+      "subId": "7182023",
+      "subQuestName": "(test)海灯节领取任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202301"
+        ],
+        "dialogs": {
+          "718202301": {
+            "id": "718202301",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "唉，一到过节就忙得不可开交…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182001",
+      "subQuestName": "前往望舒客栈转转",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182002",
+      "subQuestName": "与老板对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718200201"
+        ],
+        "dialogs": {
+          "718200201": {
+            "id": "718200201",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "果然每年过节的时候都格外忙啊…",
+            "nextDialogs": [
+              "718200202"
+            ]
+          },
+          "718200202": {
+            "id": "718200202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "718200203"
+            ]
+          },
+          "718200203": {
+            "id": "718200203",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "还是客栈里的事，很多人都回去过海灯节了，客栈里的人手实在不足…",
+            "nextDialogs": [
+              "718200204"
+            ]
+          },
+          "718200204": {
+            "id": "718200204",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "又要招呼客人，又要打扮客栈，还得准备点东西过节…",
+            "nextDialogs": [
+              "718200205"
+            ]
+          },
+          "718200205": {
+            "id": "718200205",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "还有平常的一些事也不能搁置了…言笑都要忙不过来了…",
+            "nextDialogs": [
+              "718200206"
+            ]
+          },
+          "718200206": {
+            "id": "718200206",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "旅行者，如果你愿意的话，能去帮他一下吗？",
+            "nextDialogs": [
+              "718200207"
+            ]
+          },
+          "718200207": {
+            "id": "718200207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "交给我吧。",
+            "nextDialogs": [
+              "718200208"
+            ]
+          },
+          "718200208": {
+            "id": "718200208",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "那就拜托你了，言笑就在厨房里，你直接去找他就好。",
+            "nextDialogs": [
+              "718200209"
+            ]
+          },
+          "718200209": {
+            "id": "718200209",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "我还得在这处理一点事…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182003",
+      "subQuestName": "前往探望言笑",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718200301"
+        ],
+        "dialogs": {
+          "718200301": {
+            "id": "718200301",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "谁啊！不要随便…哦，是你啊…",
+            "nextDialogs": [
+              "718200302"
+            ]
+          },
+          "718200302": {
+            "id": "718200302",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "有什么事吗？要点菜的话估计得等会了，我这正忙着呢。",
+            "nextDialogs": [
+              "718200305"
+            ]
+          },
+          "718200305": {
+            "id": "718200305",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "你是来帮忙的？哦…那敢情好，我正好有一堆事要做…",
+            "nextDialogs": [
+              "718200306"
+            ]
+          },
+          "718200306": {
+            "id": "718200306",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "你先去客栈下面，帮我把刚送过来的那些烹饪用材料拿上来，我急着要用。",
+            "nextDialogs": [
+              "718200307"
+            ]
+          },
+          "718200307": {
+            "id": "718200307",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "然后，再顺便把这些霄灯挂到客栈门口的那两棵树上去…掌柜的念叨这事好久了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182004",
+      "subQuestName": "(test)搬运备料1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182005",
+      "subQuestName": "(test)搬运备料2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182006",
+      "subQuestName": "(test)搬运备料3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182007",
+      "subQuestName": "帮言笑下楼搬运烹饪用材料",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182008",
+      "subQuestName": "(test)回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182009",
+      "subQuestName": "(test)和派蒙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718200901"
+        ],
+        "dialogs": {
+          "718200901": {
+            "id": "718200901",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "这些应该就是言笑要的材料了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182010",
+      "subQuestName": "(test)在挂上霄灯1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182011",
+      "subQuestName": "(test)在挂上霄灯2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182012",
+      "subQuestName": "在望舒客栈门口挂霄灯",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718201201"
+        ],
+        "dialogs": {
+          "718201201": {
+            "id": "718201201",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "这样就可以了，还挺好看的…我们回去找言笑吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182013",
+      "subQuestName": "(test)回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182014",
+      "subQuestName": "将材料运到楼上",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182015",
+      "subQuestName": "和言笑对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718201501"
+        ],
+        "dialogs": {
+          "718201501": {
+            "id": "718201501",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "怎么样，事情都弄好了吗？",
+            "nextDialogs": [
+              "718201502"
+            ]
+          },
+          "718201502": {
+            "id": "718201502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "都搞定了。",
+            "nextDialogs": [
+              "718201503"
+            ]
+          },
+          "718201503": {
+            "id": "718201503",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "谢了，真是帮大忙了，我得赶紧把这几道菜给弄完，免得客人们等急了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182016",
+      "subQuestName": "和老板对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718201601"
+        ],
+        "dialogs": {
+          "718201601": {
+            "id": "718201601",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "你回来了，言笑那边…",
+            "nextDialogs": [
+              "718201602"
+            ]
+          },
+          "718201602": {
+            "id": "718201602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "现在应该轻松一些了。",
+            "nextDialogs": [
+              "718201603"
+            ]
+          },
+          "718201603": {
+            "id": "718201603",
+            "speakerId": 1000,
+            "speakerName": "菲尔戈黛特",
+            "text": "那就好，那就好，谢谢你帮忙…",
+            "nextDialogs": [
+              "718201604"
+            ]
+          },
+          "718201604": {
+            "id": "718201604",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "这里也没有啊…",
+            "nextDialogs": [
+              "718201607"
+            ]
+          },
+          "718201607": {
+            "id": "718201607",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "旅行者？真是巧了，没想到能在这里遇见你…",
+            "nextDialogs": [
+              "718201608"
+            ]
+          },
+          "718201608": {
+            "id": "718201608",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "送霄灯…算是吧，你知道轻策庄吗？那边离城里很远，里面住的居民也大多是老人和孩子。",
+            "nextDialogs": [
+              "718201609"
+            ]
+          },
+          "718201609": {
+            "id": "718201609",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "所以每年海灯节的时候，总务司也会特别派人过去，给他们带一些节日用品。",
+            "nextDialogs": [
+              "718201610"
+            ]
+          },
+          "718201610": {
+            "id": "718201610",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "第一批物资已经送过去了，但我还想再做点什么，让轻策庄里更有节日的氛围。",
+            "nextDialogs": [
+              "718201611"
+            ]
+          },
+          "718201611": {
+            "id": "718201611",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "所以，我去请了那位诗人清昼，他答应我会准备一些灯谜去轻策庄里陪孩子们玩。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182017",
+      "subQuestName": "寻找伯桓子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182018",
+      "subQuestName": "击败怪物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7182019",
+      "subQuestName": "和伯桓子对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718201901"
+        ],
+        "dialogs": {
+          "718201901": {
+            "id": "718201901",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "谢谢，谢谢你，唉…都怪我太不小心了…",
+            "nextDialogs": [
+              "718201902"
+            ]
+          },
+          "718201902": {
+            "id": "718201902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你在这做什么？",
+            "nextDialogs": [
+              "718201903"
+            ]
+          },
+          "718201903": {
+            "id": "718201903",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "我来这里取材啊，这不是海灯节了吗？我就想写几幅好字，送给周围的朋友…",
+            "nextDialogs": [
+              "718201904"
+            ]
+          },
+          "718201904": {
+            "id": "718201904",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "我本来就是想到这里来逛一逛找点材料，然后做几份特别的墨水…",
+            "nextDialogs": [
+              "718201905"
+            ]
+          },
+          "718201905": {
+            "id": "718201905",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "没想到却撞上了一堆魔物，真是…",
+            "nextDialogs": [
+              "718201906"
+            ]
+          },
+          "718201906": {
+            "id": "718201906",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于望雅的请求…",
+            "nextDialogs": [
+              "718201907"
+            ]
+          },
+          "718201907": {
+            "id": "718201907",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "去轻策庄帮人写字…好，没问题，这事就包在我身上了。",
+            "nextDialogs": [
+              "718201908"
+            ]
+          },
+          "718201908": {
+            "id": "718201908",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "轻策庄…我记得那里的老人很多对吧，嗯…",
+            "nextDialogs": [
+              "718201909"
+            ]
+          },
+          "718201909": {
+            "id": "718201909",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "这样，你先帮我去搜集一块石珀，一朵清心过来吧，我先拿回去做点墨水。",
+            "nextDialogs": [
+              "718201910"
+            ]
+          },
+          "718201910": {
+            "id": "718201910",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这些东西…能做墨水？",
+            "nextDialogs": [
+              "718201911"
+            ]
+          },
+          "718201911": {
+            "id": "718201911",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "哈哈哈，你这就有所不知了吧。石珀粉掺进墨水里，写出来的墨字里带着隐隐的金色，吉利得很。",
+            "nextDialogs": [
+              "718201912"
+            ]
+          },
+          "718201912": {
+            "id": "718201912",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "清心的汁水掺进墨水里，墨水会带着一股清香，只要墨好，这两种味道就会相得益彰。",
+            "nextDialogs": [
+              "718201915"
+            ]
+          },
+          "718201915": {
+            "id": "718201915",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "呵，这算什么，要是真让讲究的人来备墨，那才是真的麻烦。",
+            "nextDialogs": [
+              "718201916"
+            ]
+          },
+          "718201916": {
+            "id": "718201916",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "我们这次就尽量从简吧，你搜集好了之后就拿来给我…",
+            "nextDialogs": [
+              "718201917"
+            ]
+          },
+          "718201917": {
+            "id": "718201917",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "哎哟…我得休息休息，刚才真是太折腾了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182020",
+      "subQuestName": "将材料交给伯桓子",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202001"
+        ],
+        "dialogs": {
+          "718202001": {
+            "id": "718202001",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "怎么样，东西都找到了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182022",
+      "subQuestName": "和伯桓子对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202201"
+        ],
+        "dialogs": {
+          "718202201": {
+            "id": "718202201",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "行，东西都齐了，你先回去找望雅吧，我再休息一会就自己去望舒客栈那边。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182021",
+      "subQuestName": "回去和望雅对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202101"
+        ],
+        "dialogs": {
+          "718202101": {
+            "id": "718202101",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "怎么样，你找到伯桓子了吗？他怎么说？",
+            "nextDialogs": [
+              "718202102"
+            ]
+          },
+          "718202102": {
+            "id": "718202102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他答应了，但要等会再过来。",
+            "nextDialogs": [
+              "718202103"
+            ]
+          },
+          "718202103": {
+            "id": "718202103",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "太好了，刚才我也接到清昼了，但他一副发愁的样子，说自己得再找找灵感，就去周围散步去了。",
+            "nextDialogs": [
+              "718202104"
+            ]
+          },
+          "718202104": {
+            "id": "718202104",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "谢谢你帮忙，旅行者，我会在这里等着伯桓子，和他再对一些细节的事情。",
+            "nextDialogs": [
+              "718202105"
+            ]
+          },
+          "718202105": {
+            "id": "718202105",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "然后我还得再回璃月港一趟，再去处理一些杂事…",
+            "nextDialogs": [
+              "718202106"
+            ]
+          },
+          "718202106": {
+            "id": "718202106",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "估计这段时间，我就要在望舒客栈和璃月港里不断来回了。",
+            "nextDialogs": [
+              "718202107"
+            ]
+          },
+          "718202107": {
+            "id": "718202107",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "等那些杂事都处理完，我们就会去轻策庄了，如果你有兴趣的话，也可以来轻策庄找我们。",
+            "nextDialogs": [
+              "718202108"
+            ]
+          },
+          "718202108": {
+            "id": "718202108",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "唉，希望那些杂事能快点处理完…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182024",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202401"
+        ],
+        "dialogs": {
+          "718202401": {
+            "id": "718202401",
+            "speakerId": 1001,
+            "speakerName": "言笑",
+            "text": "还有几道菜来着…我看看…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182025",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202501"
+        ],
+        "dialogs": {
+          "718202501": {
+            "id": "718202501",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "事情完全排不过来了，总务司也抽不出更多的人…",
+            "nextDialogs": [
+              "718202502"
+            ]
+          },
+          "718202502": {
+            "id": "718202502",
+            "speakerId": 1003,
+            "speakerName": "望雅",
+            "text": "今年，我是不是又不能回家过节了啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7182026",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718202601"
+        ],
+        "dialogs": {
+          "718202601": {
+            "id": "718202601",
+            "speakerId": 1004,
+            "speakerName": "伯桓子",
+            "text": "去轻策庄写字…不错，不错…"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "lineCounts": {
+    "Player": 8,
+    "斯坦利": 7,
+    "杰克": 17,
+    "派蒙": 7,
+    "温迪": 16,
+    "艾琳": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1011100",
+      "subQuestName": "(test)控制艾琳的空闲对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011101",
+      "subQuestName": "前往南风之狮的庙宇",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110101"
+        ],
+        "dialogs": {
+          "101110101": {
+            "id": "101110101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "南风之狮的庙宇…之前为了「风魔龙事件」，我们探索过这里吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011107",
+      "subQuestName": "(test)触发ui教程用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011102",
+      "subQuestName": "寻找杰克与斯坦利",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110201"
+        ],
+        "dialogs": {
+          "101110201": {
+            "id": "101110201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？他们是——"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011103",
+      "subQuestName": "解救杰克与斯坦利",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011111",
+      "subQuestName": "(test)开启地城大门用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011104",
+      "subQuestName": "(test)与杰克对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110401"
+        ],
+        "dialogs": {
+          "101110401": {
+            "id": "101110401",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "呼…呼…",
+            "nextDialogs": [
+              "101110402"
+            ]
+          },
+          "101110402": {
+            "id": "101110402",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "我刚才以为自己会死！",
+            "nextDialogs": [
+              "101110403"
+            ]
+          },
+          "101110403": {
+            "id": "101110403",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "确实只差一点点了。",
+            "nextDialogs": [
+              "101110404"
+            ]
+          },
+          "101110404": {
+            "id": "101110404",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "对了，你就是冒险家杰克吧？",
+            "nextDialogs": [
+              "101110405"
+            ]
+          },
+          "101110405": {
+            "id": "101110405",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "对，请问你是…？",
+            "nextDialogs": [
+              "101110406"
+            ]
+          },
+          "101110406": {
+            "id": "101110406",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们是来找你的。",
+            "nextDialogs": [
+              "101110407"
+            ]
+          },
+          "101110407": {
+            "id": "101110407",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "艾琳托我们带个口信给你：今天她没法跟你商量冒险计划了，得改天。",
+            "nextDialogs": [
+              "101110408"
+            ]
+          },
+          "101110408": {
+            "id": "101110408",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "呃…原来是这样，真不好意思，还麻烦你们到这里来找我…还救了我。",
+            "nextDialogs": [
+              "101110409"
+            ]
+          },
+          "101110409": {
+            "id": "101110409",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "哈！多管闲事！根本就不用救，难道我斯坦利还搞不定这种简单的情况吗？",
+            "nextDialogs": [
+              "101110410"
+            ]
+          },
+          "101110410": {
+            "id": "101110410",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哇，你就是那个名震蒙德、曾经抵达「烬寂海」的传说级大冒险家啊！",
+            "nextDialogs": [
+              "101110411"
+            ]
+          },
+          "101110411": {
+            "id": "101110411",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "没错，我就是斯坦利！",
+            "nextDialogs": [
+              "101110412"
+            ]
+          },
+          "101110412": {
+            "id": "101110412",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "哈哈，很荣幸见到这种传说级的人物。",
+            "nextDialogs": [
+              "101110413"
+            ]
+          },
+          "101110413": {
+            "id": "101110413",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "那么各位，现在怎么打算？往前？还是回头？",
+            "nextDialogs": [
+              "101110415",
+              "101110418"
+            ]
+          },
+          "101110415": {
+            "id": "101110415",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "#哈哈，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BOYE|INFO_FEMALE_PRONOUN_GIRLE]}，跟你们在一起的，可是名震蒙德的大探险家斯坦利啊！",
+            "nextDialogs": [
+              "101110416"
+            ]
+          },
+          "101110416": {
+            "id": "101110416",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "难道还有走回头路的必要吗？",
+            "nextDialogs": [
+              "101110419"
+            ]
+          },
+          "101110419": {
+            "id": "101110419",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "全票通过，那就继续前进咯。"
+          },
+          "101110418": {
+            "id": "101110418",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "我们还是继续向前走吧，有斯坦利先生在，一定没问题的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011105",
+      "subQuestName": "完成秘境冒险",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110501"
+        ],
+        "dialogs": {
+          "101110501": {
+            "id": "101110501",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "所以，你们也想来听我讲冒险故事吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011106",
+      "subQuestName": "(test)与温迪对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110601"
+        ],
+        "dialogs": {
+          "101110601": {
+            "id": "101110601",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "旅行者，我有一个小小的发现。",
+            "nextDialogs": [
+              "101110602"
+            ]
+          },
+          "101110602": {
+            "id": "101110602",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "可以请你打开探测仪吗？",
+            "nextDialogs": [
+              "101110603"
+            ]
+          },
+          "101110603": {
+            "id": "101110603",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哎？斯坦利居然也有「幻想朋友」？！",
+            "nextDialogs": [
+              "101110604"
+            ]
+          },
+          "101110604": {
+            "id": "101110604",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "看起来，他的朋友是一位久经沙场的战士…浑身都是伤痕，表情也十分坚毅。",
+            "nextDialogs": [
+              "101110606",
+              "101110609"
+            ]
+          },
+          "101110606": {
+            "id": "101110606",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "他的幻想朋友，难道是理想化的自己？",
+            "nextDialogs": [
+              "101110607"
+            ]
+          },
+          "101110607": {
+            "id": "101110607",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "有意思。但，真的是这样吗？",
+            "nextDialogs": [
+              "101110611"
+            ]
+          },
+          "101110611": {
+            "id": "101110611",
+            "speakerId": 1001,
+            "speakerName": "斯坦利",
+            "text": "那么，我先走咯。",
+            "nextDialogs": [
+              "101110612"
+            ]
+          },
+          "101110612": {
+            "id": "101110612",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "斯坦利先生再见！",
+            "nextDialogs": [
+              "101110613"
+            ]
+          },
+          "101110613": {
+            "id": "101110613",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "二位，请问有空吗？",
+            "nextDialogs": [
+              "101110614"
+            ]
+          },
+          "101110614": {
+            "id": "101110614",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "嗯？",
+            "nextDialogs": [
+              "101110615"
+            ]
+          },
+          "101110615": {
+            "id": "101110615",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "其实，前几天斯坦利先生喝醉酒，说了一些不为人知的秘密给我听。",
+            "nextDialogs": [
+              "101110616"
+            ]
+          },
+          "101110616": {
+            "id": "101110616",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "他当年冒险时用的武器，是大英雄温妮莎的遗物，<color=#00E1FFFF>「辉煌勇气之剑」</color>和<color=#00E1FFFF>「光耀意志之盾」</color>！",
+            "nextDialogs": [
+              "101110617"
+            ]
+          },
+          "101110617": {
+            "id": "101110617",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "说出来怕你们不信，这两件武器现在都还藏在蒙德境内，就在<color=#00E1FFFF>达达乌帕谷</color>哦！",
+            "nextDialogs": [
+              "101110618"
+            ]
+          },
+          "101110618": {
+            "id": "101110618",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "你们这么厉害，能不能陪我去找这两件神器？"
+          },
+          "101110609": {
+            "id": "101110609",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "哦？你也觉得有问题吗？",
+            "nextDialogs": [
+              "101110610"
+            ]
+          },
+          "101110610": {
+            "id": "101110610",
+            "speakerId": 1003,
+            "speakerName": "温迪",
+            "text": "看来，斯坦利的故事还有隐情。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011009",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101100919"
+        ],
+        "dialogs": {
+          "101100919": {
+            "id": "101100919",
+            "speakerId": 1004,
+            "speakerName": "艾琳",
+            "text": "那就拜托你们了！",
+            "nextDialogs": [
+              "101100920"
+            ]
+          },
+          "101100920": {
+            "id": "101100920",
+            "speakerId": 1004,
+            "speakerName": "艾琳",
+            "text": "杰克在<color=#00E1FFFF>南风之狮的庙宇</color>，别忘了哦。"
+          }
+        }
+      }
+    }
+  ]
+}

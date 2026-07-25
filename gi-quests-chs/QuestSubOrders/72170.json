@@ -1,0 +1,590 @@
+{
+  "lineCounts": {
+    "Player": 7,
+    "旭东": 39,
+    "朱莉": 7,
+    "芭尔瓦涅": 7
+  },
+  "subQuests": [
+    {
+      "subId": "7217005",
+      "subQuestName": "（test）检测水面是否下降$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700501"
+        ],
+        "dialogs": {
+          "721700501": {
+            "id": "721700501",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "这里的海草还不错…",
+            "nextDialogs": [
+              "721700502"
+            ]
+          },
+          "721700502": {
+            "id": "721700502",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "呃…这手感，与其说是「采」，不如说是「拔」…",
+            "nextDialogs": [
+              "721700503"
+            ]
+          },
+          "721700503": {
+            "id": "721700503",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "用小刀的话，一下子就能采走海草啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217001",
+      "subQuestName": "（test）领任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700101"
+        ],
+        "dialogs": {
+          "721700101": {
+            "id": "721700101",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "这可下不去啊…",
+            "nextDialogs": [
+              "721700102"
+            ]
+          },
+          "721700102": {
+            "id": "721700102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "721700103"
+            ]
+          },
+          "721700103": {
+            "id": "721700103",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "旅行者，又见面了。我们正在想怎么…潜进前面的水里…",
+            "nextDialogs": [
+              "721700104"
+            ]
+          },
+          "721700104": {
+            "id": "721700104",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "然后，去里面取一点新鲜的海草来，做一种叫做「饭团」的食物。",
+            "nextDialogs": [
+              "721700106",
+              "721700108"
+            ]
+          },
+          "721700106": {
+            "id": "721700106",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "那种在海边的海草都不太新鲜，用来做菜总感觉少点味道啊。",
+            "nextDialogs": [
+              "721700109"
+            ]
+          },
+          "721700109": {
+            "id": "721700109",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "我向城里的人打听过了，这里底下生长着一些品质很不错的海草。",
+            "nextDialogs": [
+              "721700110"
+            ]
+          },
+          "721700110": {
+            "id": "721700110",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "不过今天一来…就看见这里完全被海水淹没了。",
+            "nextDialogs": [
+              "721700111"
+            ]
+          },
+          "721700111": {
+            "id": "721700111",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "而且我们三个都…完全不会潜水，只能在这里傻傻看着…",
+            "nextDialogs": [
+              "721700112"
+            ]
+          },
+          "721700112": {
+            "id": "721700112",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "周围有什么机关吗？",
+            "nextDialogs": [
+              "721700113"
+            ]
+          },
+          "721700113": {
+            "id": "721700113",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "那边有一个机关喔！不过…",
+            "nextDialogs": [
+              "721700114"
+            ]
+          },
+          "721700114": {
+            "id": "721700114",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "不过那个机关，又被罩在那种屏障里面了，根本进不去啊。",
+            "nextDialogs": [
+              "721700115"
+            ]
+          },
+          "721700115": {
+            "id": "721700115",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "唉，我们继续在这里琢磨一下吧。",
+            "nextDialogs": [
+              "721700116"
+            ]
+          },
+          "721700116": {
+            "id": "721700116",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "旅行者，要是你知道怎么解决这个问题，就请快点过来告诉我们吧。",
+            "nextDialogs": [
+              "721700117"
+            ]
+          },
+          "721700117": {
+            "id": "721700117",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "当然啦，如果你能直接把那些海草拿过来的话就更好…",
+            "nextDialogs": [
+              "721700118"
+            ]
+          },
+          "721700118": {
+            "id": "721700118",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "旭东先生？",
+            "nextDialogs": [
+              "721700119"
+            ]
+          },
+          "721700119": {
+            "id": "721700119",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "咳！要是你能直接把那些海草拿来的话，那报酬肯定少不了你的，还有一顿饭团大餐奉上！",
+            "nextDialogs": [
+              "721700120"
+            ]
+          },
+          "721700120": {
+            "id": "721700120",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "饭团到底怎么能称得上是「大餐」…",
+            "nextDialogs": [
+              "721700121"
+            ]
+          },
+          "721700121": {
+            "id": "721700121",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "哎呀，只要数量够多就行了…咳，我们还是接着琢磨吧…"
+          },
+          "721700108": {
+            "id": "721700108",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "那种在海边就能采到的海草都不太新鲜，用来做菜总感觉少点味道。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217002",
+      "subQuestName": "摘取「新鲜的海草」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700201"
+        ],
+        "dialogs": {
+          "721700201": {
+            "id": "721700201",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "旅行者，你采到海草了吗？",
+            "nextDialogs": [
+              "721700202"
+            ]
+          },
+          "721700202": {
+            "id": "721700202",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "喔！就是这个，谢谢你帮忙啦，旅行者。",
+            "nextDialogs": [
+              "721700203"
+            ]
+          },
+          "721700203": {
+            "id": "721700203",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "我这就开始做那种叫做…「饭团」的食物，听说做起来还挺简单的…",
+            "nextDialogs": [
+              "721700204"
+            ]
+          },
+          "721700204": {
+            "id": "721700204",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "噢，我处理食材需要一点时间，你先去旁边稍等一下吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217003",
+      "subQuestName": "将「新鲜的海草」带给旭东",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7217004",
+      "subQuestName": "与旭东对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700301"
+        ],
+        "dialogs": {
+          "721700301": {
+            "id": "721700301",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "海草…鱼肉…还有稻米…",
+            "nextDialogs": [
+              "721700302"
+            ]
+          },
+          "721700302": {
+            "id": "721700302",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "应该是这样做吧…",
+            "nextDialogs": [
+              "721700303"
+            ]
+          },
+          "721700303": {
+            "id": "721700303",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "这样就做好了！这就是「饭团」了。",
+            "nextDialogs": [
+              "721700304"
+            ]
+          },
+          "721700304": {
+            "id": "721700304",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "这还真是…朴实无华…我要这个好了，感觉我应该吃不完…",
+            "nextDialogs": [
+              "721700305"
+            ]
+          },
+          "721700305": {
+            "id": "721700305",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "只要味道好就行啦，我要这个！",
+            "nextDialogs": [
+              "721700306"
+            ]
+          },
+          "721700306": {
+            "id": "721700306",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "这是你的，旅行者。还有这份「饭团」的制作方法，我也抄了一份给你。",
+            "nextDialogs": [
+              "721700307"
+            ]
+          },
+          "721700307": {
+            "id": "721700307",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "虽然「饭团」的做法看起来很简单，但想要做得好吃，还是需要一点技巧的。",
+            "nextDialogs": [
+              "721700308"
+            ]
+          },
+          "721700308": {
+            "id": "721700308",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "咳…好了，闲话就先不说了，忙活这么久，我也要去吃一点了。",
+            "nextDialogs": [
+              "721700309"
+            ]
+          },
+          "721700309": {
+            "id": "721700309",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "喂！芭尔瓦涅，你不是说你吃不完吗？给我留一点！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700401"
+        ],
+        "dialogs": {
+          "721700401": {
+            "id": "721700401",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "难道，真要找个方法潜水进去了？",
+            "nextDialogs": [
+              "721700402"
+            ]
+          },
+          "721700402": {
+            "id": "721700402",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "我们就不能换个地方采海草吗？为什么一定要在这里…",
+            "nextDialogs": [
+              "721700403"
+            ]
+          },
+          "721700403": {
+            "id": "721700403",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "为什么机关又被罩在屏障里了呢…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217006",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700601"
+        ],
+        "dialogs": {
+          "721700601": {
+            "id": "721700601",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "唔，这底下不会又有什么遗迹之类的吧？",
+            "nextDialogs": [
+              "721700602"
+            ]
+          },
+          "721700602": {
+            "id": "721700602",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "遗、遗迹？呃…如果真有的话就好了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7217007",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "721700701"
+        ],
+        "dialogs": {
+          "721700701": {
+            "id": "721700701",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "那下面，好像被水淹过啊…",
+            "nextDialogs": [
+              "721700702"
+            ]
+          },
+          "721700702": {
+            "id": "721700702",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "嗯，水痕都很明显喔，下面确实在不久前被水淹没过呢。",
+            "nextDialogs": [
+              "721700703"
+            ]
+          },
+          "721700703": {
+            "id": "721700703",
+            "speakerId": 1002,
+            "speakerName": "朱莉",
+            "text": "但是，为什么那些水突然全部都退了呢…",
+            "nextDialogs": [
+              "721700704"
+            ]
+          },
+          "721700704": {
+            "id": "721700704",
+            "speakerId": 1001,
+            "speakerName": "芭尔瓦涅",
+            "text": "呃…这周围都湿漉漉的，鞋子都要湿了…",
+            "nextDialogs": [
+              "721700705"
+            ]
+          },
+          "721700705": {
+            "id": "721700705",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "算了，别管这些了，还是快点再采些海草吧。",
+            "nextDialogs": [
+              "721700706"
+            ]
+          },
+          "721700706": {
+            "id": "721700706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你们在这做什么？",
+            "nextDialogs": [
+              "721700707"
+            ]
+          },
+          "721700707": {
+            "id": "721700707",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "咦？居然在这里都能遇见你，我们还真是有缘分啊，旅行者。",
+            "nextDialogs": [
+              "721700708"
+            ]
+          },
+          "721700708": {
+            "id": "721700708",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "我们刚去下面采集了一些新鲜的海草上来，准备做一种叫做「饭团」的食物呢，下面的路可真难走，我的鞋子都湿透了…",
+            "nextDialogs": [
+              "721700709"
+            ]
+          },
+          "721700709": {
+            "id": "721700709",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "先不说这些了，旅行者，你能帮我们再去下面采一些海草吗？",
+            "nextDialogs": [
+              "721700710"
+            ]
+          },
+          "721700710": {
+            "id": "721700710",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "下面似乎曾经被水淹过，虽然现在水退了，但也许…不知道什么时候，水会再次把下面淹没。",
+            "nextDialogs": [
+              "721700711"
+            ]
+          },
+          "721700711": {
+            "id": "721700711",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "我觉得，还是要快点再去采一些海草上来才好。",
+            "nextDialogs": [
+              "721700713",
+              "721700716"
+            ]
+          },
+          "721700713": {
+            "id": "721700713",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "那就拜托你了旅行者。",
+            "nextDialogs": [
+              "721700714"
+            ]
+          },
+          "721700714": {
+            "id": "721700714",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "采到海草之后，就拿过来给我吧。"
+          },
+          "721700716": {
+            "id": "721700716",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "那种在海边的海草都不太新鲜，用来做菜总感觉少点味道。",
+            "nextDialogs": [
+              "721700717"
+            ]
+          },
+          "721700717": {
+            "id": "721700717",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "这个地方的海草品质应该就很好。总之，采海草的事就拜托了，旅行者。",
+            "nextDialogs": [
+              "721700718"
+            ]
+          },
+          "721700718": {
+            "id": "721700718",
+            "speakerId": 1000,
+            "speakerName": "旭东",
+            "text": "采到海草之后，就拿过来给我吧。"
+          }
+        }
+      }
+    }
+  ]
+}

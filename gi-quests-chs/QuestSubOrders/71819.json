@@ -1,0 +1,862 @@
+{
+  "lineCounts": {
+    "Player": 19,
+    "一弦": 3,
+    "一柱": 8,
+    "向明": 7,
+    "弘毅": 4,
+    "望雅": 31,
+    "蔡乐": 15
+  },
+  "subQuests": [
+    {
+      "subId": "7181910",
+      "subQuestName": "与望雅对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718191001"
+        ],
+        "dialogs": {
+          "718191001": {
+            "id": "718191001",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "还好那个霄灯被树给挂住了，要是再飞高点，那就真拿不到了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181901",
+      "subQuestName": "与望雅对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190101"
+        ],
+        "dialogs": {
+          "718190101": {
+            "id": "718190101",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "唉…事情真是做不完…",
+            "nextDialogs": [
+              "718190102"
+            ]
+          },
+          "718190102": {
+            "id": "718190102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "718190103"
+            ]
+          },
+          "718190103": {
+            "id": "718190103",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "没事，我正在梳理海灯节期间要处理的事呢。",
+            "nextDialogs": [
+              "718190104"
+            ]
+          },
+          "718190104": {
+            "id": "718190104",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "只不过…越梳理越多…",
+            "nextDialogs": [
+              "718190105"
+            ]
+          },
+          "718190105": {
+            "id": "718190105",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "虽然其他同事帮我分担了一部分，但今年轮到我带队去送霄灯，得快点准备好东西才行…",
+            "nextDialogs": [
+              "718190108"
+            ]
+          },
+          "718190108": {
+            "id": "718190108",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "对喔…你应该不知道，我说的「送霄灯」不是你想的那种，普通地把霄灯送给别人。",
+            "nextDialogs": [
+              "718190109"
+            ]
+          },
+          "718190109": {
+            "id": "718190109",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "简单来说…应该更像是送去节日的祝福啦，氛围啦之类的…",
+            "nextDialogs": [
+              "718190110"
+            ]
+          },
+          "718190110": {
+            "id": "718190110",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "比如，海灯节期间，虽然大部分人都回家过节了，一般的店铺也会休假…",
+            "nextDialogs": [
+              "718190111"
+            ]
+          },
+          "718190111": {
+            "id": "718190111",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "但为了维持节日里的秩序，还有处理一些事务，还有一部分千岩军会继续在节日期间值班。",
+            "nextDialogs": [
+              "718190112"
+            ]
+          },
+          "718190112": {
+            "id": "718190112",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "总务司在海灯节期间一般也会安排人去给他们送些礼品去…",
+            "nextDialogs": [
+              "718190113"
+            ]
+          },
+          "718190113": {
+            "id": "718190113",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "我今天就正准备去给负责城里守卫的千岩军们「送霄灯」呢。",
+            "nextDialogs": [
+              "718190114"
+            ]
+          },
+          "718190114": {
+            "id": "718190114",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "不过…我带的人也不太够了，有些礼品送出去了，但还有些没送出去…",
+            "nextDialogs": [
+              "718190115"
+            ]
+          },
+          "718190115": {
+            "id": "718190115",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "旅行者，你能帮我把这些礼物送过去吗？",
+            "nextDialogs": [
+              "718190116"
+            ]
+          },
+          "718190116": {
+            "id": "718190116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "交给我吧。",
+            "nextDialogs": [
+              "718190117"
+            ]
+          },
+          "718190117": {
+            "id": "718190117",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "你愿意帮忙吗？那太好了，就拜托你了。",
+            "nextDialogs": [
+              "718190118"
+            ]
+          },
+          "718190118": {
+            "id": "718190118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "要送给谁？",
+            "nextDialogs": [
+              "718190119"
+            ]
+          },
+          "718190119": {
+            "id": "718190119",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "我看看…还有没送到的千岩军是…",
+            "nextDialogs": [
+              "718190120"
+            ]
+          },
+          "718190120": {
+            "id": "718190120",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "向明…弘毅…还有蔡乐。",
+            "nextDialogs": [
+              "718190121"
+            ]
+          },
+          "718190121": {
+            "id": "718190121",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "我把他们的位置标记给你，就拜托你了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181902",
+      "subQuestName": "将礼品送给向明",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190201"
+        ],
+        "dialogs": {
+          "718190201": {
+            "id": "718190201",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "嗯？你有什么事，我在执行任务…",
+            "nextDialogs": [
+              "718190202"
+            ]
+          },
+          "718190202": {
+            "id": "718190202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于海灯节礼品。",
+            "nextDialogs": [
+              "718190203"
+            ]
+          },
+          "718190203": {
+            "id": "718190203",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "小声点！我在执行任务呢，什么礼品？",
+            "nextDialogs": [
+              "718190204"
+            ]
+          },
+          "718190204": {
+            "id": "718190204",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "是总务司要你送来的？哦…",
+            "nextDialogs": [
+              "718190205"
+            ]
+          },
+          "718190205": {
+            "id": "718190205",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "唉，又是一年海灯节了，本来今年我还想早点回家的…",
+            "nextDialogs": [
+              "718190206"
+            ]
+          },
+          "718190206": {
+            "id": "718190206",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "可是看现在这状况，我可不敢放松…估计我又得晚几天回家了…",
+            "nextDialogs": [
+              "718190207"
+            ]
+          },
+          "718190207": {
+            "id": "718190207",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "谢谢你跑这一趟，这个我就收下了，辛苦你了。",
+            "nextDialogs": [
+              "718190208"
+            ]
+          },
+          "718190208": {
+            "id": "718190208",
+            "speakerId": 1002,
+            "speakerName": "向明",
+            "text": "唉，那家伙到底什么时候走啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181903",
+      "subQuestName": "将礼品送给弘毅",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190301"
+        ],
+        "dialogs": {
+          "718190301": {
+            "id": "718190301",
+            "speakerId": 1003,
+            "speakerName": "弘毅",
+            "text": "这井水到底是怎么回事…",
+            "nextDialogs": [
+              "718190302"
+            ]
+          },
+          "718190302": {
+            "id": "718190302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于海灯节礼品。",
+            "nextDialogs": [
+              "718190303"
+            ]
+          },
+          "718190303": {
+            "id": "718190303",
+            "speakerId": 1003,
+            "speakerName": "弘毅",
+            "text": "噢，这是总务司送过来的吧。谢啦，我就收下了。",
+            "nextDialogs": [
+              "718190304"
+            ]
+          },
+          "718190304": {
+            "id": "718190304",
+            "speakerId": 1003,
+            "speakerName": "弘毅",
+            "text": "不过，我还得接着在这执勤一段时间，免得有居民在节日期间过来取水。",
+            "nextDialogs": [
+              "718190305"
+            ]
+          },
+          "718190305": {
+            "id": "718190305",
+            "speakerId": 1003,
+            "speakerName": "弘毅",
+            "text": "唉，这井水也不知道是怎么回事…但总之，肯定是喝不得了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181904",
+      "subQuestName": "将礼品送给蔡乐",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190401"
+        ],
+        "dialogs": {
+          "718190401": {
+            "id": "718190401",
+            "speakerId": 1004,
+            "speakerName": "一弦",
+            "text": "呜呜…我，我还没写好愿望呢…呜…",
+            "nextDialogs": [
+              "718190402"
+            ]
+          },
+          "718190402": {
+            "id": "718190402",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "弦儿乖，千岩军叔叔去已经帮你拿了…",
+            "nextDialogs": [
+              "718190403"
+            ]
+          },
+          "718190403": {
+            "id": "718190403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于蔡乐…",
+            "nextDialogs": [
+              "718190404"
+            ]
+          },
+          "718190404": {
+            "id": "718190404",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "你是在找那位千岩军叔叔吗？",
+            "nextDialogs": [
+              "718190405"
+            ]
+          },
+          "718190405": {
+            "id": "718190405",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "刚才弦儿在霄灯上写愿望的时候，不小心把霄灯放飞了，一直往那边飞了…",
+            "nextDialogs": [
+              "718190406"
+            ]
+          },
+          "718190406": {
+            "id": "718190406",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "那位千岩军叔叔说，他看见霄灯挂在了树上，他去那边帮我们拿霄灯了…",
+            "nextDialogs": [
+              "718190409"
+            ]
+          },
+          "718190409": {
+            "id": "718190409",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "我是这么和弦儿说的，但是她…",
+            "nextDialogs": [
+              "718190410"
+            ]
+          },
+          "718190410": {
+            "id": "718190410",
+            "speakerId": 1004,
+            "speakerName": "一弦",
+            "text": "呜…不…不嘛，那是哥哥做给我的，哥哥做了好久才做好的…",
+            "nextDialogs": [
+              "718190411"
+            ]
+          },
+          "718190411": {
+            "id": "718190411",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "弦儿乖，千岩军叔叔很快就回来了…",
+            "nextDialogs": [
+              "718190412"
+            ]
+          },
+          "718190412": {
+            "id": "718190412",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "抱歉，如果你急着找那位千岩军叔叔的话，可以去那边找找看。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181905",
+      "subQuestName": "向一弦与一柱询问蔡乐的去向",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181906",
+      "subQuestName": "寻找蔡乐",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190501"
+        ],
+        "dialogs": {
+          "718190501": {
+            "id": "718190501",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "哎…这怎么上去呢，唔…不然还是换个法子…",
+            "nextDialogs": [
+              "718190502"
+            ]
+          },
+          "718190502": {
+            "id": "718190502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你在做什么？",
+            "nextDialogs": [
+              "718190503"
+            ]
+          },
+          "718190503": {
+            "id": "718190503",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "旅行者？哈哈，没事没事，我正在想着怎么爬上去把那盏霄灯拿下来呢。",
+            "nextDialogs": [
+              "718190504"
+            ]
+          },
+          "718190504": {
+            "id": "718190504",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "不过这树也太难爬了，我这一身的甲胄，爬一半就滑下来了…",
+            "nextDialogs": [
+              "718190505"
+            ]
+          },
+          "718190505": {
+            "id": "718190505",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "呃…旅行者，如果你愿意的话，能不能帮我上去把那盏霄灯给取下来？",
+            "nextDialogs": [
+              "718190506"
+            ]
+          },
+          "718190506": {
+            "id": "718190506",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "交给我吧。",
+            "nextDialogs": [
+              "718190507"
+            ]
+          },
+          "718190507": {
+            "id": "718190507",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "行，那就拜托你了，那孩子都急哭了，可得快点把霄灯拿回来。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181907",
+      "subQuestName": "爬上树取下霄灯",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190701"
+        ],
+        "dialogs": {
+          "718190701": {
+            "id": "718190701",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "你回来了，礼品发的怎么样了？",
+            "nextDialogs": [
+              "718190702"
+            ]
+          },
+          "718190702": {
+            "id": "718190702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "都发给对应的人了。",
+            "nextDialogs": [
+              "718190703"
+            ]
+          },
+          "718190703": {
+            "id": "718190703",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "谢谢，实在是帮大忙了…没有你的话，我肯定忙不过来。",
+            "nextDialogs": [
+              "718190704"
+            ]
+          },
+          "718190704": {
+            "id": "718190704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他们整个节日里都不会放假吗？",
+            "nextDialogs": [
+              "718190705"
+            ]
+          },
+          "718190705": {
+            "id": "718190705",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "这个…唉，虽然总务司也会安排千岩军们交替值班…",
+            "nextDialogs": [
+              "718190706"
+            ]
+          },
+          "718190706": {
+            "id": "718190706",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "但璃月实在是太大了，需要驻守和巡逻的地方也太多了。",
+            "nextDialogs": [
+              "718190707"
+            ]
+          },
+          "718190707": {
+            "id": "718190707",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "就算是交替值班，人手也总是不够，总会有人不得不在节日期间值班。",
+            "nextDialogs": [
+              "718190708"
+            ]
+          },
+          "718190708": {
+            "id": "718190708",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "而且因为每年的海灯节都很盛大，所以在节日期间，有的地方工作压力反而会更大，无论怎么分配人手都不足…",
+            "nextDialogs": [
+              "718190711"
+            ]
+          },
+          "718190711": {
+            "id": "718190711",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "没有啦，没有，这是我们应该做的…只要海灯节一切顺利就好。",
+            "nextDialogs": [
+              "718190712"
+            ]
+          },
+          "718190712": {
+            "id": "718190712",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "对了，在海灯节期间，其实还有很多人需要帮助，如果你愿意的话，可以多多去帮忙。",
+            "nextDialogs": [
+              "718190713"
+            ]
+          },
+          "718190713": {
+            "id": "718190713",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "如果能让更多的人能参与到「海灯节」中来，节日的氛围也肯定会更加红火吧。",
+            "nextDialogs": [
+              "718190714"
+            ]
+          },
+          "718190714": {
+            "id": "718190714",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "我们之所以会「送霄灯」，也是希望每个人都能放出一盏霄灯，许出自己的心愿。",
+            "nextDialogs": [
+              "718190715"
+            ]
+          },
+          "718190715": {
+            "id": "718190715",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "如果再说得宽泛点…就是把「海灯节」带去四面八方，让所有人都能感受到海灯节的氛围。",
+            "nextDialogs": [
+              "718190716"
+            ]
+          },
+          "718190716": {
+            "id": "718190716",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "毕竟，海灯节可是所有人的节日啊。",
+            "nextDialogs": [
+              "718190717"
+            ]
+          },
+          "718190717": {
+            "id": "718190717",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "好啦，我还要有事情要做，就先去忙了，祝你在海灯节上玩得开心。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181908",
+      "subQuestName": "与蔡乐对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190601"
+        ],
+        "dialogs": {
+          "718190601": {
+            "id": "718190601",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "怎么样，你拿到霄灯了吗？",
+            "nextDialogs": [
+              "718190602"
+            ]
+          },
+          "718190602": {
+            "id": "718190602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拿到了。",
+            "nextDialogs": [
+              "718190603"
+            ]
+          },
+          "718190603": {
+            "id": "718190603",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "我看看…对，就是这盏，谢谢你啊，我这就把霄灯给他们带回去。",
+            "nextDialogs": [
+              "718190604"
+            ]
+          },
+          "718190604": {
+            "id": "718190604",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "这么长时间了，也不知道那两个孩子是不是还待在原地…",
+            "nextDialogs": [
+              "718190605"
+            ]
+          },
+          "718190605": {
+            "id": "718190605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于礼品…",
+            "nextDialogs": [
+              "718190606"
+            ]
+          },
+          "718190606": {
+            "id": "718190606",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "这是总务司送的吧，行，我收下了，谢谢你跑这么一趟啊。",
+            "nextDialogs": [
+              "718190607"
+            ]
+          },
+          "718190607": {
+            "id": "718190607",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这也是千岩军的职责吗？",
+            "nextDialogs": [
+              "718190608"
+            ]
+          },
+          "718190608": {
+            "id": "718190608",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "你说帮忙摘霄灯吗？哈哈哈，当然算了。",
+            "nextDialogs": [
+              "718190609"
+            ]
+          },
+          "718190609": {
+            "id": "718190609",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "不管是摘霄灯，还是赶走不怀好心的人，或者是去击退魔物…",
+            "nextDialogs": [
+              "718190610"
+            ]
+          },
+          "718190610": {
+            "id": "718190610",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "帮助需要帮助的人，这就是千岩军的职责。",
+            "nextDialogs": [
+              "718190611"
+            ]
+          },
+          "718190611": {
+            "id": "718190611",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "好了，再次感谢你。我要赶紧把霄灯带给那两个孩子了。",
+            "nextDialogs": [
+              "718190612"
+            ]
+          },
+          "718190612": {
+            "id": "718190612",
+            "speakerId": 1000,
+            "speakerName": "蔡乐",
+            "text": "然后我还得接着去处理另外的事…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181909",
+      "subQuestName": "向望雅回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181909",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718190901"
+        ],
+        "dialogs": {
+          "718190901": {
+            "id": "718190901",
+            "speakerId": 1004,
+            "speakerName": "一弦",
+            "text": "我…呜呜…我愿望还没写完，会不会实现不了…",
+            "nextDialogs": [
+              "718190902"
+            ]
+          },
+          "718190902": {
+            "id": "718190902",
+            "speakerId": 1005,
+            "speakerName": "一柱",
+            "text": "不会的，真的不会的，弦儿乖…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181911",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718191101"
+        ],
+        "dialogs": {
+          "718191101": {
+            "id": "718191101",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "奇怪…蔡寻的送过去了，蔡乐的怎么没送过去…",
+            "nextDialogs": [
+              "718191102"
+            ]
+          },
+          "718191102": {
+            "id": "718191102",
+            "speakerId": 1001,
+            "speakerName": "望雅",
+            "text": "唉，准是送礼品的人又疏漏了…"
+          }
+        }
+      }
+    }
+  ]
+}

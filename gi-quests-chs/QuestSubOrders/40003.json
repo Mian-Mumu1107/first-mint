@@ -1,0 +1,603 @@
+{
+  "lineCounts": {
+    "Player": 9,
+    "嘉义": 5,
+    "星火": 5,
+    "派蒙": 30,
+    "魈": 13
+  },
+  "subQuests": [
+    {
+      "subId": "4000301",
+      "subQuestName": "(test)派蒙开车台词（隐藏）$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030101"
+        ],
+        "dialogs": {
+          "400030101": {
+            "id": "400030101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不知道总务司那边，处理得怎么样了？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000302",
+      "subQuestName": "前往总务司，与嘉义对话$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030201"
+        ],
+        "dialogs": {
+          "400030201": {
+            "id": "400030201",
+            "speakerId": 1001,
+            "speakerName": "嘉义",
+            "text": "你们…哦，对了，是昨天来提醒险情的二位。$UNRELEASED",
+            "nextDialogs": [
+              "400030202"
+            ]
+          },
+          "400030202": {
+            "id": "400030202",
+            "speakerId": 1001,
+            "speakerName": "嘉义",
+            "text": "唉…实不相瞒，海灯节期间，总务司事务繁杂，暂时抽不出人手来排查。$UNRELEASED",
+            "nextDialogs": [
+              "400030203"
+            ]
+          },
+          "400030203": {
+            "id": "400030203",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？怎么这样——$UNRELEASED",
+            "nextDialogs": [
+              "400030204"
+            ]
+          },
+          "400030204": {
+            "id": "400030204",
+            "speakerId": 1001,
+            "speakerName": "嘉义",
+            "text": "真对不住，难得你们这么热心提供情报…容我想想…也许…$UNRELEASED",
+            "nextDialogs": [
+              "400030205"
+            ]
+          },
+          "400030205": {
+            "id": "400030205",
+            "speakerId": 1001,
+            "speakerName": "嘉义",
+            "text": "也许，我们有一个小队能帮上忙。他们手上的任务，今天只剩最后一个了。$UNRELEASED",
+            "nextDialogs": [
+              "400030206"
+            ]
+          },
+          "400030206": {
+            "id": "400030206",
+            "speakerId": 1001,
+            "speakerName": "嘉义",
+            "text": "他们在归离原清剿怪物，如果你们能联系上他们的话…$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000305",
+      "subQuestName": "前去寻找千岩军$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000303",
+      "subQuestName": "清剿丘丘人与路障$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030301"
+        ],
+        "dialogs": {
+          "400030301": {
+            "id": "400030301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "是丘丘人的路障！它们为什么要封住这条路呢？是想埋伏谁吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000304",
+      "subQuestName": "与千岩军小队对话$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030401"
+        ],
+        "dialogs": {
+          "400030401": {
+            "id": "400030401",
+            "speakerId": 1002,
+            "speakerName": "星火",
+            "text": "好了，这里的怪物痕迹已经调查完毕，该收工了——嗯？$UNRELEASED",
+            "nextDialogs": [
+              "400030402"
+            ]
+          },
+          "400030402": {
+            "id": "400030402",
+            "speakerId": 1002,
+            "speakerName": "星火",
+            "text": "你们是什么人？$UNRELEASED",
+            "nextDialogs": [
+              "400030403"
+            ]
+          },
+          "400030403": {
+            "id": "400030403",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "是嘉义让我们来找你的，他说…$UNRELEASED",
+            "nextDialogs": [
+              "400030404"
+            ]
+          },
+          "400030404": {
+            "id": "400030404",
+            "speakerId": 1002,
+            "speakerName": "星火",
+            "text": "原来如此。$UNRELEASED",
+            "nextDialogs": [
+              "400030405"
+            ]
+          },
+          "400030405": {
+            "id": "400030405",
+            "speakerId": 1002,
+            "speakerName": "星火",
+            "text": "感谢你们对总务司工作的支持，这件事我们记下了，很快就会提上日程。$UNRELEASED",
+            "nextDialogs": [
+              "400030406"
+            ]
+          },
+          "400030406": {
+            "id": "400030406",
+            "speakerId": 1002,
+            "speakerName": "星火",
+            "text": "那么，我们在璃月港有缘再见吧，热心的旅行者。$UNRELEASED",
+            "nextDialogs": [
+              "400030407"
+            ]
+          },
+          "400030407": {
+            "id": "400030407",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，你有没有觉得…$UNRELEASED",
+            "nextDialogs": [
+              "400030409",
+              "400030414"
+            ]
+          },
+          "400030409": {
+            "id": "400030409",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "派蒙我也这么认为！$UNRELEASED",
+            "nextDialogs": [
+              "400030410"
+            ]
+          },
+          "400030410": {
+            "id": "400030410",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "本地人估计习惯了那些好吃的。$UNRELEASED",
+            "nextDialogs": [
+              "400030411"
+            ]
+          },
+          "400030411": {
+            "id": "400030411",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "但流落荒野、在最惨的时候只能吃奇怪蘑菇维持生活的旅行者…$UNRELEASED",
+            "nextDialogs": [
+              "400030412"
+            ]
+          },
+          "400030412": {
+            "id": "400030412",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "对你来说，海灯节，意，义，非，凡！$UNRELEASED",
+            "nextDialogs": [
+              "400030416"
+            ]
+          },
+          "400030416": {
+            "id": "400030416",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "所以我们再去昨天目击的地点看看吧。$UNRELEASED",
+            "nextDialogs": [
+              "400030417"
+            ]
+          },
+          "400030417": {
+            "id": "400030417",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "听巡捕大爷说，罪犯都喜欢回案发地点看看。罪犯的心理就是这样。$UNRELEASED",
+            "nextDialogs": [
+              "400030418"
+            ]
+          },
+          "400030418": {
+            "id": "400030418",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还没「案发」呢…$UNRELEASED",
+            "nextDialogs": [
+              "400030419"
+            ]
+          },
+          "400030419": {
+            "id": "400030419",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "所以说要抓紧时间啊，如果易燃品被人动了手脚，那案发的时候一切就都晚了！$UNRELEASED"
+          },
+          "400030414": {
+            "id": "400030414",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我也这么认为！$UNRELEASED",
+            "nextDialogs": [
+              "400030415"
+            ]
+          },
+          "400030415": {
+            "id": "400030415",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "根据我们四处冒险的经验，这件事还是负责到底比较好。$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000306",
+      "subQuestName": "回「案发地点」看看$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000307",
+      "subQuestName": "(test)与派蒙对话（隐藏）$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030701"
+        ],
+        "dialogs": {
+          "400030701": {
+            "id": "400030701",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "果然，那个是！",
+            "nextDialogs": [
+              "400030704"
+            ]
+          },
+          "400030704": {
+            "id": "400030704",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "等一等，似乎还有人——"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000308",
+      "subQuestName": "(test)去案犯现场再看看$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000309",
+      "subQuestName": "与未知人士对话$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030901"
+        ],
+        "dialogs": {
+          "400030901": {
+            "id": "400030901",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "……$UNRELEASED",
+            "nextDialogs": [
+              "400030902"
+            ]
+          },
+          "400030902": {
+            "id": "400030902",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "……$UNRELEASED",
+            "nextDialogs": [
+              "400030903"
+            ]
+          },
+          "400030903": {
+            "id": "400030903",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，怎么办，这个人看起来很难沟通的样子。$UNRELEASED",
+            "nextDialogs": [
+              "400030904"
+            ]
+          },
+          "400030904": {
+            "id": "400030904",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜啊。感、感觉，并不是善人…$UNRELEASED",
+            "nextDialogs": [
+              "400030905"
+            ]
+          },
+          "400030905": {
+            "id": "400030905",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "不要只依靠感觉，就对「善恶」随口评说。$UNRELEASED",
+            "nextDialogs": [
+              "400030906"
+            ]
+          },
+          "400030906": {
+            "id": "400030906",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "不过，我确实是恶鬼。我是斩杀妖物、魔障的护法夜叉，魈。$UNRELEASED",
+            "nextDialogs": [
+              "400030907"
+            ]
+          },
+          "400030907": {
+            "id": "400030907",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "护法夜叉…！$UNRELEASED",
+            "nextDialogs": [
+              "400030910"
+            ]
+          },
+          "400030910": {
+            "id": "400030910",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "对、对了…之前有听璃月的人说过…夜叉也是守护璃月的仙人…$UNRELEASED",
+            "nextDialogs": [
+              "400030911"
+            ]
+          },
+          "400030911": {
+            "id": "400030911",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "暗中镇守人类的世界，为不知情的凡人斩妖除魔…$UNRELEASED",
+            "nextDialogs": [
+              "400030912"
+            ]
+          },
+          "400030912": {
+            "id": "400030912",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "一般意义上，这不就是叫做善人吗！$UNRELEASED",
+            "nextDialogs": [
+              "400030913"
+            ]
+          },
+          "400030913": {
+            "id": "400030913",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "…不。夜叉的「护法」，并不出于对人类的善意。$UNRELEASED",
+            "nextDialogs": [
+              "400030914"
+            ]
+          },
+          "400030914": {
+            "id": "400030914",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜…明明海灯节的主题，就是纪念英雄。$UNRELEASED",
+            "nextDialogs": [
+              "400030915"
+            ]
+          },
+          "400030915": {
+            "id": "400030915",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "历史上护佑璃月的那些英雄，难得有一个活到现在的，却对纪念自己的节日不领情呢。$UNRELEASED",
+            "nextDialogs": [
+              "400030916"
+            ]
+          },
+          "400030916": {
+            "id": "400030916",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "……$UNRELEASED",
+            "nextDialogs": [
+              "400030917"
+            ]
+          },
+          "400030917": {
+            "id": "400030917",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "魈先生…呃，魈上仙…？为什么你刚才不直接制伏那个可疑的家伙呢？$UNRELEASED",
+            "nextDialogs": [
+              "400030918"
+            ]
+          },
+          "400030918": {
+            "id": "400030918",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "本以为是妖物作祟，我才过来看看。$UNRELEASED",
+            "nextDialogs": [
+              "400030919"
+            ]
+          },
+          "400030919": {
+            "id": "400030919",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "如果在仙与魔的世界，有什么东西失去桎梏，那就是我的责任。$UNRELEASED",
+            "nextDialogs": [
+              "400030920"
+            ]
+          },
+          "400030920": {
+            "id": "400030920",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "但这次的威胁来自人类的世界——你们的世界，所以这是你的责任，人类旅者。$UNRELEASED",
+            "nextDialogs": [
+              "400030921"
+            ]
+          },
+          "400030921": {
+            "id": "400030921",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "必要时…也希望你自觉一些，下手果断。$UNRELEASED",
+            "nextDialogs": [
+              "400030922"
+            ]
+          },
+          "400030922": {
+            "id": "400030922",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "不要让斩妖之枪的枪缨，沾染凡间之血。$UNRELEASED",
+            "nextDialogs": [
+              "400030923"
+            ]
+          },
+          "400030923": {
+            "id": "400030923",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "这个是——$UNRELEASED",
+            "nextDialogs": [
+              "400030924"
+            ]
+          },
+          "400030924": {
+            "id": "400030924",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "是那人留下的符号。$UNRELEASED",
+            "nextDialogs": [
+              "400030925"
+            ]
+          },
+          "400030925": {
+            "id": "400030925",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙认识吗？$UNRELEASED",
+            "nextDialogs": [
+              "400030926"
+            ]
+          },
+          "400030926": {
+            "id": "400030926",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "并没有什么印象呢。$UNRELEASED",
+            "nextDialogs": [
+              "400030927"
+            ]
+          },
+          "400030927": {
+            "id": "400030927",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "那就努力向我展示，你们能做到哪一步吧。$UNRELEASED",
+            "nextDialogs": [
+              "400030928"
+            ]
+          },
+          "400030928": {
+            "id": "400030928",
+            "speakerId": 1003,
+            "speakerName": "魈",
+            "text": "如果换我来，导向的结局多少会有「红色海灯节」的可能性。$UNRELEASED",
+            "nextDialogs": [
+              "400030929"
+            ]
+          },
+          "400030929": {
+            "id": "400030929",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "颜色还挺喜庆的。$UNRELEASED",
+            "nextDialogs": [
+              "400030930"
+            ]
+          },
+          "400030930": {
+            "id": "400030930",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "听着好吓人！$UNRELEASED",
+            "nextDialogs": [
+              "400030932"
+            ]
+          },
+          "400030932": {
+            "id": "400030932",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "呜哇，你先别这么冲动。等我们先问明白这个符号的来历再说吧。$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

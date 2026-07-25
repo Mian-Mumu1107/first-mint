@@ -1,0 +1,92 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "雅瓦娜尼": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7365901",
+      "subQuestName": "将五个苹果交给雅瓦娜尼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590101"
+        ],
+        "dialogs": {
+          "736590101": {
+            "id": "736590101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于苹果…",
+            "nextDialogs": [
+              "736590102"
+            ]
+          },
+          "736590102": {
+            "id": "736590102",
+            "speakerId": 1000,
+            "speakerName": "雅瓦娜尼",
+            "text": "阿芬迪先生提醒过我，如果有人来讨论委托相关的事情，我最好用便于理解的表达方式回答。",
+            "nextDialogs": [
+              "736590103"
+            ]
+          },
+          "736590103": {
+            "id": "736590103",
+            "speakerId": 1000,
+            "speakerName": "雅瓦娜尼",
+            "text": "那我简单点说吧，你准备好五个苹果了吗？",
+            "nextDialogs": [
+              "736590105"
+            ]
+          },
+          "736590105": {
+            "id": "736590105",
+            "speakerId": 1000,
+            "speakerName": "雅瓦娜尼",
+            "text": "嗯，等你准备好了再来找我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365902",
+      "subQuestName": "与雅瓦娜尼对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590201"
+        ],
+        "dialogs": {
+          "736590201": {
+            "id": "736590201",
+            "speakerId": 1000,
+            "speakerName": "雅瓦娜尼",
+            "text": "谢谢，在阿芬迪先生那里挂委托还挺方便的，不用多做解释，事情就能办成。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365901",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590107"
+        ],
+        "dialogs": {
+          "736590107": {
+            "id": "736590107",
+            "speakerId": 1000,
+            "speakerName": "雅瓦娜尼",
+            "text": "语言是一切社会历史学科的基础，从语言学入手是完全合理的，这个死脑筋…"
+          }
+        }
+      }
+    }
+  ]
+}

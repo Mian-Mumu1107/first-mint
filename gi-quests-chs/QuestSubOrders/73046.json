@@ -1,0 +1,85 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "米农": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7304601",
+      "subQuestName": "(test)寻找兰那罗",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7304602",
+      "subQuestName": "(test)判断是否完成group$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7304603",
+      "subQuestName": "(test)在附近寻找呼救的兰那罗",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7304604",
+      "subQuestName": "(test)解救被藤条缠住的兰那罗",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7304605",
+      "subQuestName": "(test)跟兰那罗对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730460501"
+        ],
+        "dialogs": {
+          "730460501": {
+            "id": "730460501",
+            "speakerId": 1000,
+            "speakerName": "米农",
+            "text": "(test)谢谢你",
+            "nextDialogs": [
+              "730460502"
+            ]
+          },
+          "730460502": {
+            "id": "730460502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)不用，以后小心",
+            "nextDialogs": [
+              "730460503"
+            ]
+          },
+          "730460503": {
+            "id": "730460503",
+            "speakerId": 1000,
+            "speakerName": "米农",
+            "text": "(test)好的"
+          }
+        }
+      }
+    }
+  ]
+}

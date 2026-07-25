@@ -1,0 +1,208 @@
+{
+  "lineCounts": {
+    "Player": 8,
+    "派蒙": 4,
+    "玛乔丽": 17
+  },
+  "subQuests": [
+    {
+      "subId": "2050401",
+      "subQuestName": "与店主玛乔丽对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "205040101"
+        ],
+        "dialogs": {
+          "205040101": {
+            "id": "205040101",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "欢迎光临，这里的宝物保证独一无二。",
+            "nextDialogs": [
+              "205040102"
+            ]
+          },
+          "205040102": {
+            "id": "205040102",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好多都是没见过的东西…",
+            "nextDialogs": [
+              "205040103"
+            ]
+          },
+          "205040103": {
+            "id": "205040103",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "哈哈，当然了，这些都是冒险家从世界各地找到的稀奇宝贝。",
+            "nextDialogs": [
+              "205040104"
+            ]
+          },
+          "205040104": {
+            "id": "205040104",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "怎么样，有一眼就相中的吗？",
+            "nextDialogs": [
+              "205040107"
+            ]
+          },
+          "205040107": {
+            "id": "205040107",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "不会不会，忘记和你介绍了，我这里都是以物易物，不收取摩拉。",
+            "nextDialogs": [
+              "205040108"
+            ]
+          },
+          "205040108": {
+            "id": "205040108",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "我最近想做一个特殊的工艺品，需要大量的<color=#00E1FFFF>「风之印」</color>来装饰。",
+            "nextDialogs": [
+              "205040109"
+            ]
+          },
+          "205040109": {
+            "id": "205040109",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "你们身上有<color=#00E1FFFF>「风之印」</color>吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2050402",
+      "subQuestName": "(test)触发开车和镜头注视（隐藏）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "205040201"
+        ],
+        "dialogs": {
+          "205040201": {
+            "id": "205040201",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "快看，那边有个看起来很不一样的商店。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2050403",
+      "subQuestName": "(test)关闭商店后得对话（隐藏）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "205040301"
+        ],
+        "dialogs": {
+          "205040301": {
+            "id": "205040301",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "<color=#00E1FFFF>「风之印」</color>有可能出现在蒙德的任何地方，如果不够用的话就去多找找吧。",
+            "nextDialogs": [
+              "205040302"
+            ]
+          },
+          "205040302": {
+            "id": "205040302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "真的只是用来装饰吗？",
+            "nextDialogs": [
+              "205040303"
+            ]
+          },
+          "205040303": {
+            "id": "205040303",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "是啊，怎么说都是风神的赠礼。",
+            "nextDialogs": [
+              "205040304"
+            ]
+          },
+          "205040304": {
+            "id": "205040304",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "哈哈，你们还挺敏锐的。",
+            "nextDialogs": [
+              "205040305"
+            ]
+          },
+          "205040305": {
+            "id": "205040305",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "解释起来挺复杂，用装饰品的说法大家都容易理解。",
+            "nextDialogs": [
+              "205040306"
+            ]
+          },
+          "205040306": {
+            "id": "205040306",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "我会选择用<color=#00E1FFFF>「风之印」</color>，自然是有非它不可的理由。",
+            "nextDialogs": [
+              "205040308",
+              "205040310"
+            ]
+          },
+          "205040308": {
+            "id": "205040308",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "哈哈，肯定的，保证让你大吃一惊。",
+            "nextDialogs": [
+              "205040312"
+            ]
+          },
+          "205040312": {
+            "id": "205040312",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "欢迎再来哦，希望你下次能带来很多很多的<color=#00E1FFFF>「风之印」</color>。",
+            "nextDialogs": [
+              "205040313"
+            ]
+          },
+          "205040313": {
+            "id": "205040313",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "找到什么稀奇宝物的话也记得要带到我这里来！"
+          },
+          "205040310": {
+            "id": "205040310",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "但我真的有点好奇了…",
+            "nextDialogs": [
+              "205040311"
+            ]
+          },
+          "205040311": {
+            "id": "205040311",
+            "speakerId": 1000,
+            "speakerName": "玛乔丽",
+            "text": "哈哈，就是要保持未知才会有惊喜啊。"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "杰里": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7171001",
+      "subQuestName": "将三份萝卜时蔬汤交给杰里",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717100101"
+        ],
+        "dialogs": {
+          "717100101": {
+            "id": "717100101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于萝卜时蔬汤…",
+            "nextDialogs": [
+              "717100102"
+            ]
+          },
+          "717100102": {
+            "id": "717100102",
+            "speakerId": 1000,
+            "speakerName": "杰里",
+            "text": "对，是我的委托，你把三份萝卜时蔬汤都准备好了吗？",
+            "nextDialogs": [
+              "717100105"
+            ]
+          },
+          "717100105": {
+            "id": "717100105",
+            "speakerId": 1000,
+            "speakerName": "杰里",
+            "text": "那你准备好了之后，就请尽快拿给我吧。我姐姐应该也会想要喝一点…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7171002",
+      "subQuestName": "与杰里对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717100201"
+        ],
+        "dialogs": {
+          "717100201": {
+            "id": "717100201",
+            "speakerId": 1000,
+            "speakerName": "杰里",
+            "text": "啊…这味道，闻起来真不错，还是和从前一样…",
+            "nextDialogs": [
+              "717100202"
+            ]
+          },
+          "717100202": {
+            "id": "717100202",
+            "speakerId": 1000,
+            "speakerName": "杰里",
+            "text": "谢谢你，这些东西请你收下吧。我会好好品味这道菜的。"
+          }
+        }
+      }
+    }
+  ]
+}

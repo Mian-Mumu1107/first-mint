@@ -1,0 +1,1094 @@
+{
+  "lineCounts": {
+    "Player": 20,
+    "小安": 21,
+    "小昭": 15,
+    "江舟": 20
+  },
+  "subQuests": [
+    {
+      "subId": "7102001",
+      "subQuestName": "与小昭对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102003",
+      "subQuestName": "将单据带给小安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710202001"
+        ],
+        "dialogs": {
+          "710202001": {
+            "id": "710202001",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "唉，我算了一下，实在不行…我再加把劲。",
+            "nextDialogs": [
+              "710202002"
+            ]
+          },
+          "710202002": {
+            "id": "710202002",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "拼几个晚上不睡觉，把港口船只情况的统计表给统计出来交上去。",
+            "nextDialogs": [
+              "710202003"
+            ]
+          },
+          "710202003": {
+            "id": "710202003",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "毕竟这张表我开始做的时间最早，如果最晚交的话，也确实有点不太像话…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102005",
+      "subQuestName": "为小安对话打开心情值$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201001"
+        ],
+        "dialogs": {
+          "710201001": {
+            "id": "710201001",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "这下可麻烦了…",
+            "nextDialogs": [
+              "710201002"
+            ]
+          },
+          "710201002": {
+            "id": "710201002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "小昭让我送这个给你…",
+            "nextDialogs": [
+              "710201003"
+            ]
+          },
+          "710201003": {
+            "id": "710201003",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "啊？港口里的船只情况统计表。",
+            "nextDialogs": [
+              "710201004"
+            ]
+          },
+          "710201004": {
+            "id": "710201004",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "这个，怎么说呢，虽然我其实最开始就准备好了…",
+            "nextDialogs": [
+              "710201005"
+            ]
+          },
+          "710201005": {
+            "id": "710201005",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "但是还有新入货物统计表、各种船只报上来的船员情况、出入港口的外国人…",
+            "nextDialogs": [
+              "710201006"
+            ]
+          },
+          "710201006": {
+            "id": "710201006",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "要统计的表实在是太多了，我做了这个，又做那个，压根忙不过来了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102006",
+      "subQuestName": "小安A1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201101"
+        ],
+        "dialogs": {
+          "710201101": {
+            "id": "710201101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "多招点人来帮忙…",
+            "nextDialogs": [
+              "710201102"
+            ]
+          },
+          "710201102": {
+            "id": "710201102",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "我也想啊，但是临时怎么可能招来马上就能帮忙的人…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102007",
+      "subQuestName": "小安A2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201201"
+        ],
+        "dialogs": {
+          "710201201": {
+            "id": "710201201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "先把小昭要的表统计了。",
+            "nextDialogs": [
+              "710201202"
+            ]
+          },
+          "710201202": {
+            "id": "710201202",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "哈哈哈，我今天记起来的时候已经来不及了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102008",
+      "subQuestName": "小安A3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201301"
+        ],
+        "dialogs": {
+          "710201301": {
+            "id": "710201301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "先统计最重要的吧。",
+            "nextDialogs": [
+              "710201302"
+            ]
+          },
+          "710201302": {
+            "id": "710201302",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "这些表在我看来，呃…都差不多重要。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102009",
+      "subQuestName": "小安B1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201401"
+        ],
+        "dialogs": {
+          "710201401": {
+            "id": "710201401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "时间不够了…",
+            "nextDialogs": [
+              "710201402"
+            ]
+          },
+          "710201402": {
+            "id": "710201402",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "我知道啊，所以我在努力，看能不能把所有的表格全部统计完毕。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102010",
+      "subQuestName": "小安B2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201501"
+        ],
+        "dialogs": {
+          "710201501": {
+            "id": "710201501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "不如直接去说明…",
+            "nextDialogs": [
+              "710201502"
+            ]
+          },
+          "710201502": {
+            "id": "710201502",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "有那个时间，我不如再多努力统计好一些表格…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102011",
+      "subQuestName": "小安B3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201601"
+        ],
+        "dialogs": {
+          "710201601": {
+            "id": "710201601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我来帮你。",
+            "nextDialogs": [
+              "710201602"
+            ]
+          },
+          "710201602": {
+            "id": "710201602",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "谢谢你的好意，但是统计表格这个活，不是熟手的话只会帮倒忙。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102012",
+      "subQuestName": "小安C1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201701"
+        ],
+        "dialogs": {
+          "710201701": {
+            "id": "710201701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还要延期吗？",
+            "nextDialogs": [
+              "710201702"
+            ]
+          },
+          "710201702": {
+            "id": "710201702",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "我努努力吧，尽量不再延期了，但是看我手上的这些工作，哈哈…说实话，挺难的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102013",
+      "subQuestName": "小安C2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201801"
+        ],
+        "dialogs": {
+          "710201801": {
+            "id": "710201801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那你只能自己想办法了…",
+            "nextDialogs": [
+              "710201802"
+            ]
+          },
+          "710201802": {
+            "id": "710201802",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "我知道啊，我自己的工作，难道还能指望别人吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102014",
+      "subQuestName": "小安C3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710201901"
+        ],
+        "dialogs": {
+          "710201901": {
+            "id": "710201901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "下次先划分优先级。",
+            "nextDialogs": [
+              "710201902"
+            ]
+          },
+          "710201902": {
+            "id": "710201902",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "哈哈哈，每次我都这么想，但每次工作一多我就开始手忙脚乱，分优先级的事不知道忘到哪去了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102030",
+      "subQuestName": "小安衔接$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710203001"
+        ],
+        "dialogs": {
+          "710203001": {
+            "id": "710203001",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "这么多单子结不了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102015",
+      "subQuestName": "小安判定心情值$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102002",
+      "subQuestName": "将单据带给江舟",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710205001"
+        ],
+        "dialogs": {
+          "710205001": {
+            "id": "710205001",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "嗯…好吧，最后给我一点时间，我最后补全一些小问题。",
+            "nextDialogs": [
+              "710205002"
+            ]
+          },
+          "710205002": {
+            "id": "710205002",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "等我补全了之后，我就把策划案总结一下交上去了。",
+            "nextDialogs": [
+              "710205003"
+            ]
+          },
+          "710205003": {
+            "id": "710205003",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "希望璃月港的大家会喜欢这一届海灯节…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102016",
+      "subQuestName": "为江舟对话打开心情值$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204001"
+        ],
+        "dialogs": {
+          "710204001": {
+            "id": "710204001",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "这样还不行…还得改改…",
+            "nextDialogs": [
+              "710204002"
+            ]
+          },
+          "710204002": {
+            "id": "710204002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "小昭让我送这个给你…",
+            "nextDialogs": [
+              "710204003"
+            ]
+          },
+          "710204003": {
+            "id": "710204003",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "嗯？关于下届海灯节的策划案…",
+            "nextDialogs": [
+              "710204004"
+            ]
+          },
+          "710204004": {
+            "id": "710204004",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "这个啊，我正在写了，可是一直觉得遗漏了什么地方，所以一直在修改。",
+            "nextDialogs": [
+              "710204005"
+            ]
+          },
+          "710204005": {
+            "id": "710204005",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "海灯节这种重大节日，当然要尽善尽美啊，所以…这个策划案还交不上去啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102017",
+      "subQuestName": "江舟A1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204101"
+        ],
+        "dialogs": {
+          "710204101": {
+            "id": "710204101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "时间要来不及了…",
+            "nextDialogs": [
+              "710204102"
+            ]
+          },
+          "710204102": {
+            "id": "710204102",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "我一定会整理出最好的方案的，只要再给我点时间…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102018",
+      "subQuestName": "江舟A2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204201"
+        ],
+        "dialogs": {
+          "710204201": {
+            "id": "710204201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "先交上去吧。",
+            "nextDialogs": [
+              "710204202"
+            ]
+          },
+          "710204202": {
+            "id": "710204202",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "这怎么行，怎么能交一份随随便便的方案上去？这可是璃月最重要的节日啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102019",
+      "subQuestName": "江舟A3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204301"
+        ],
+        "dialogs": {
+          "710204301": {
+            "id": "710204301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "不会有完美的方案。",
+            "nextDialogs": [
+              "710204302"
+            ]
+          },
+          "710204302": {
+            "id": "710204302",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "虽然话是这么说，但也要向完美努努力吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102020",
+      "subQuestName": "江舟B1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204401"
+        ],
+        "dialogs": {
+          "710204401": {
+            "id": "710204401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "有方案总比没有好。",
+            "nextDialogs": [
+              "710204402"
+            ]
+          },
+          "710204402": {
+            "id": "710204402",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "话是这么说，但总不能交一份有问题的方案出去吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102021",
+      "subQuestName": "江舟B2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204501"
+        ],
+        "dialogs": {
+          "710204501": {
+            "id": "710204501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你的方案没问题的。",
+            "nextDialogs": [
+              "710204502"
+            ]
+          },
+          "710204502": {
+            "id": "710204502",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "嗯…你说得也有道理，但至少容我再完善一下。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102022",
+      "subQuestName": "江舟B3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204601"
+        ],
+        "dialogs": {
+          "710204601": {
+            "id": "710204601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "可以先交再改…",
+            "nextDialogs": [
+              "710204602"
+            ]
+          },
+          "710204602": {
+            "id": "710204602",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "别开玩笑了，海灯节可不是这么随随便便的节日。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102023",
+      "subQuestName": "江舟C1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204701"
+        ],
+        "dialogs": {
+          "710204701": {
+            "id": "710204701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "参考上届海灯节…",
+            "nextDialogs": [
+              "710204702"
+            ]
+          },
+          "710204702": {
+            "id": "710204702",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "我就是参考上届海灯节，虽然上一届市民们很喜欢，但是…我还是想要做出一点突破。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102024",
+      "subQuestName": "江舟C2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204801"
+        ],
+        "dialogs": {
+          "710204801": {
+            "id": "710204801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "相信自己…",
+            "nextDialogs": [
+              "710204802"
+            ]
+          },
+          "710204802": {
+            "id": "710204802",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "相信自己有什么用，市民们不喜欢的话就全完了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102025",
+      "subQuestName": "江舟C3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710204901"
+        ],
+        "dialogs": {
+          "710204901": {
+            "id": "710204901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那你再好好想想？",
+            "nextDialogs": [
+              "710204902"
+            ]
+          },
+          "710204902": {
+            "id": "710204902",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "嗯！再给我一点时间，我一定能想出完美的方案。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102031",
+      "subQuestName": "江舟衔接$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102026",
+      "subQuestName": "江舟判定心情值$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102027",
+      "subQuestName": "判定全对$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102028",
+      "subQuestName": "判定全错$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102029",
+      "subQuestName": "对一道(小安完成江舟失败）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102032",
+      "subQuestName": "对一道(江舟完成小安失败）$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102004",
+      "subQuestName": "向小昭回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710206101"
+        ],
+        "dialogs": {
+          "710206101": {
+            "id": "710206101",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "你回来了，实在太谢谢你了，小安和江舟刚刚都送了口信过来。",
+            "nextDialogs": [
+              "710206102"
+            ]
+          },
+          "710206102": {
+            "id": "710206102",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "他们说，这次一定能够按时上交。",
+            "nextDialogs": [
+              "710206103"
+            ]
+          },
+          "710206103": {
+            "id": "710206103",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "太好了…我总算可以睡个好觉了…",
+            "nextDialogs": [
+              "710206104"
+            ]
+          },
+          "710206104": {
+            "id": "710206104",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "这些请你收下，就算是谢礼吧，实在是帮了大忙了。",
+            "nextDialogs": [
+              "710206105"
+            ]
+          },
+          "710206105": {
+            "id": "710206105",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "有了这次的经验，他们以后应该不会重复一样的错误了吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102033",
+      "subQuestName": "回滚保护$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7102021",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710202101"
+        ],
+        "dialogs": {
+          "710202101": {
+            "id": "710202101",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "唉，你也看到了，我是真的忙不过来了。",
+            "nextDialogs": [
+              "710202102"
+            ]
+          },
+          "710202102": {
+            "id": "710202102",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "各种工作都搅在一起，而且每个还都差不多一样重要。",
+            "nextDialogs": [
+              "710202103"
+            ]
+          },
+          "710202103": {
+            "id": "710202103",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "没办法，这张港口船只情况统计表，只能再延一段时间了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102051",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710205101"
+        ],
+        "dialogs": {
+          "710205101": {
+            "id": "710205101",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "嗯…不行，璃月港的大家对于海灯节可是很期待的。",
+            "nextDialogs": [
+              "710205102"
+            ]
+          },
+          "710205102": {
+            "id": "710205102",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "如果仅仅是和上一届海灯节一样的话，大家是不会满意的。",
+            "nextDialogs": [
+              "710205103"
+            ]
+          },
+          "710205103": {
+            "id": "710205103",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "你别说了，我还要再改改，一定要拿出最完美的方案…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102062",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710206201"
+        ],
+        "dialogs": {
+          "710206201": {
+            "id": "710206201",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "什么？他们还不能按时上交？",
+            "nextDialogs": [
+              "710206202"
+            ]
+          },
+          "710206202": {
+            "id": "710206202",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "这还要延期多久，这工作还做不做了？",
+            "nextDialogs": [
+              "710206203"
+            ]
+          },
+          "710206203": {
+            "id": "710206203",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "没办法，我得找个时间自己去催催他们了…",
+            "nextDialogs": [
+              "710206204"
+            ]
+          },
+          "710206204": {
+            "id": "710206204",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "对了，这些请你收下吧，谢谢你帮我忙。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102063",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710206301"
+        ],
+        "dialogs": {
+          "710206301": {
+            "id": "710206301",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "你回来了，刚才小安和江舟送了口信过来。",
+            "nextDialogs": [
+              "710206302"
+            ]
+          },
+          "710206302": {
+            "id": "710206302",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "虽然只有一个人答应按时上交，但是…能交一个是一个吧。",
+            "nextDialogs": [
+              "710206303"
+            ]
+          },
+          "710206303": {
+            "id": "710206303",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "至于另外一个人，只有我自己去催催了…",
+            "nextDialogs": [
+              "710206304"
+            ]
+          },
+          "710206304": {
+            "id": "710206304",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "对了，谢谢你帮忙，请收下这些吧，算是谢礼了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102064",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710206401"
+        ],
+        "dialogs": {
+          "710206401": {
+            "id": "710206401",
+            "speakerId": 1001,
+            "speakerName": "小昭",
+            "text": "唉，每天的工作真是只多不少…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102071",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710207101"
+        ],
+        "dialogs": {
+          "710207101": {
+            "id": "710207101",
+            "speakerId": 1000,
+            "speakerName": "小安",
+            "text": "还有这么多事，到底怎么处理才好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7102072",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710207201"
+        ],
+        "dialogs": {
+          "710207201": {
+            "id": "710207201",
+            "speakerId": 1002,
+            "speakerName": "江舟",
+            "text": "一定要拿出最完美的方案才行…"
+          }
+        }
+      }
+    }
+  ]
+}

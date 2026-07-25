@@ -1,0 +1,701 @@
+{
+  "lineCounts": {
+    "Player": 21,
+    "丘丘人": 11,
+    "斯坦利": 4,
+    "杰克": 7,
+    "派蒙": 24,
+    "温迪": 28
+  },
+  "subQuests": [
+    {
+      "subId": "1011200",
+      "subQuestName": "(test)触发开车和注目镜头用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011201",
+      "subQuestName": "寻找辉煌勇气之剑",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120101"
+        ],
+        "dialogs": {
+          "101120101": {
+            "id": "101120101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那边的丘丘人该不会是在举行仪式吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011202",
+      "subQuestName": "击败举行仪式的丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011203",
+      "subQuestName": "拾取辉煌勇气之剑",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011204",
+      "subQuestName": "与温迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120401"
+        ],
+        "dialogs": {
+          "101120401": {
+            "id": "101120401",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "看，<color=#00E1FFFF>「辉煌勇气之剑」</color>！",
+            "nextDialogs": [
+              "101120402"
+            ]
+          },
+          "101120402": {
+            "id": "101120402",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不会吧？就是一把超普通的旧剑而已啊！",
+            "nextDialogs": [
+              "101120403"
+            ]
+          },
+          "101120403": {
+            "id": "101120403",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "丘丘人为什么要围着这种东西膜拜呢？",
+            "nextDialogs": [
+              "101120404"
+            ]
+          },
+          "101120404": {
+            "id": "101120404",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "（恐怕只是，有人把剑扔进了丘丘人本来就在膜拜的战利品堆里吧…）",
+            "nextDialogs": [
+              "101120405"
+            ]
+          },
+          "101120405": {
+            "id": "101120405",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "这、这也太旧了！而且…该怎么说呢，普通到让人说不出话…",
+            "nextDialogs": [
+              "101120406"
+            ]
+          },
+          "101120406": {
+            "id": "101120406",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "不，杰克，你有没有见过蒙德城外飞舞的风晶蝶？",
+            "nextDialogs": [
+              "101120407"
+            ]
+          },
+          "101120407": {
+            "id": "101120407",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "这种蝴蝶在白天毫不起眼，到了漆黑的夜晚却会光彩夺目，简直就像是会飞的宝石。",
+            "nextDialogs": [
+              "101120408"
+            ]
+          },
+          "101120408": {
+            "id": "101120408",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "勇气不也是这样吗？一帆风顺的人不会明白它的可贵，可当你身处绝境，勇气就是令你奋起抗争、走出绝境的唯一之光。",
+            "nextDialogs": [
+              "101120412"
+            ]
+          },
+          "101120412": {
+            "id": "101120412",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "你、你说得太对了！没错就是这样，这一定就是「辉煌勇气之剑」啊！",
+            "nextDialogs": [
+              "101120413"
+            ]
+          },
+          "101120413": {
+            "id": "101120413",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "嗯，那么，剑已经找到，只差盾了。",
+            "nextDialogs": [
+              "101120414"
+            ]
+          },
+          "101120414": {
+            "id": "101120414",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "在附近转转吧！东西一定就在<color=#00E1FFFF>达达乌帕谷</color>里——嗯？",
+            "nextDialogs": [
+              "101120415"
+            ]
+          },
+          "101120415": {
+            "id": "101120415",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "哎呀？那边好像有个人！",
+            "nextDialogs": [
+              "101120416"
+            ]
+          },
+          "101120416": {
+            "id": "101120416",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "斯坦利？他怎么在这儿？",
+            "nextDialogs": [
+              "101120417"
+            ]
+          },
+          "101120417": {
+            "id": "101120417",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "他的样子有点奇怪…",
+            "nextDialogs": [
+              "101120418"
+            ]
+          },
+          "101120418": {
+            "id": "101120418",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "出什么事了吗？为什么突然停下？",
+            "nextDialogs": [
+              "101120419"
+            ]
+          },
+          "101120419": {
+            "id": "101120419",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "没什么，刚才有只会撒金币的「盗宝鼬」跑过去了。",
+            "nextDialogs": [
+              "101120420"
+            ]
+          },
+          "101120420": {
+            "id": "101120420",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "什么？在哪儿！我也要看！",
+            "nextDialogs": [
+              "101120421"
+            ]
+          },
+          "101120421": {
+            "id": "101120421",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "你不是来找神器的吗？就别看啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011212",
+      "subQuestName": "(test)撤掉剑$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011205",
+      "subQuestName": "寻找光耀意志之盾",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011206",
+      "subQuestName": "与丘丘人交涉",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120601"
+        ],
+        "dialogs": {
+          "101120601": {
+            "id": "101120601",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "看，<color=#00E1FFFF>「光耀意志之盾」</color>！",
+            "nextDialogs": [
+              "101120602"
+            ]
+          },
+          "101120602": {
+            "id": "101120602",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "骗人！那根本就是块普通木板吧！",
+            "nextDialogs": [
+              "101120603"
+            ]
+          },
+          "101120603": {
+            "id": "101120603",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "破破烂烂的，还带着桶箍！谁会把这种东西当成盾牌啊？",
+            "nextDialogs": [
+              "101120604"
+            ]
+          },
+          "101120604": {
+            "id": "101120604",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "而且上面还有酒渍…像是从酒桶上随便拆下来的…",
+            "nextDialogs": [
+              "101120605"
+            ]
+          },
+          "101120605": {
+            "id": "101120605",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "可按我吟游诗人的直觉，这就是「光耀意志之盾」。",
+            "nextDialogs": [
+              "101120606"
+            ]
+          },
+          "101120606": {
+            "id": "101120606",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "战士以身上的疤痕为荣，盾牌也是一样。",
+            "nextDialogs": [
+              "101120607"
+            ]
+          },
+          "101120607": {
+            "id": "101120607",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "一面盾牌越是完整，越说明它远离战场。盾牌的破旧，不正是它身经百战的证明吗？",
+            "nextDialogs": [
+              "101120608"
+            ]
+          },
+          "101120608": {
+            "id": "101120608",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "即使身躯残破，也要在战场上拼杀到最后一刻，要战斗到流干最后一滴血为止。这样的意志，难道不珍贵吗？",
+            "nextDialogs": [
+              "101120612"
+            ]
+          },
+          "101120612": {
+            "id": "101120612",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说得也是…哪有干干净净的盾牌啊…",
+            "nextDialogs": [
+              "101120613"
+            ]
+          },
+          "101120613": {
+            "id": "101120613",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "那我们…想办法问问它，能不能把「光耀意志之盾」转让给我们？",
+            "nextDialogs": [
+              "101120614"
+            ]
+          },
+          "101120614": {
+            "id": "101120614",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "你好，丘丘人先生？",
+            "nextDialogs": [
+              "101120615"
+            ]
+          },
+          "101120615": {
+            "id": "101120615",
+            "speakerId": 1003,
+            "speakerName": "丘丘人",
+            "text": "Dala？",
+            "nextDialogs": [
+              "101120616"
+            ]
+          },
+          "101120616": {
+            "id": "101120616",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#哇，{NICKNAME}还是你来吧。试试平时听过的那些丘丘语音节？或者用肢体语言交流吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011207",
+      "subQuestName": "(test)谈判成功$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120701"
+        ],
+        "dialogs": {
+          "101120701": {
+            "id": "101120701",
+            "speakerId": 1003,
+            "speakerName": "丘丘人",
+            "text": "Muhe vin plata? Mani ye! Mani dada!",
+            "nextDialogs": [
+              "101120702"
+            ]
+          },
+          "101120702": {
+            "id": "101120702",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好耶！它把「光耀意志之盾」递过来了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011208",
+      "subQuestName": "(test)谈判失败$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120801"
+        ],
+        "dialogs": {
+          "101120801": {
+            "id": "101120801",
+            "speakerId": 1003,
+            "speakerName": "丘丘人",
+            "text": "Yaya ika! Kundala ye plata!",
+            "nextDialogs": [
+              "101120802"
+            ]
+          },
+          "101120802": {
+            "id": "101120802",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不好！我们彻底惹恼它了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011213",
+      "subQuestName": "(test)谈判失败后的对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011209",
+      "subQuestName": "击败来袭的丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011210",
+      "subQuestName": "与丘丘人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101121101"
+        ],
+        "dialogs": {
+          "101121101": {
+            "id": "101121101",
+            "speakerId": 1003,
+            "speakerName": "丘丘人",
+            "text": "Biadam！",
+            "nextDialogs": [
+              "101121102"
+            ]
+          },
+          "101121102": {
+            "id": "101121102",
+            "speakerId": 1003,
+            "speakerName": "丘丘人",
+            "text": "Yaya ika! Mani ye!",
+            "nextDialogs": [
+              "101121103"
+            ]
+          },
+          "101121103": {
+            "id": "101121103",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "啊，它丢下<color=#00E1FFFF>「光耀意志之盾」</color>跑了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011211",
+      "subQuestName": "与温迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101121001"
+        ],
+        "dialogs": {
+          "101121001": {
+            "id": "101121001",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "谢谢你们，谢谢你们！我找到我要的东西了！",
+            "nextDialogs": [
+              "101121002"
+            ]
+          },
+          "101121002": {
+            "id": "101121002",
+            "speakerId": 1002,
+            "speakerName": "杰克",
+            "text": "爸爸妈妈！看看我找到的神器吧！",
+            "nextDialogs": [
+              "101121003"
+            ]
+          },
+          "101121003": {
+            "id": "101121003",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "哎？等等！",
+            "nextDialogs": [
+              "101121004"
+            ]
+          },
+          "101121004": {
+            "id": "101121004",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "说好的酒呢！我帮这么多忙也是很累的吧——",
+            "nextDialogs": [
+              "101121005"
+            ]
+          },
+          "101121005": {
+            "id": "101121005",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "嗯？这不是斯坦利么，你到这里来散步吗。",
+            "nextDialogs": [
+              "101121006"
+            ]
+          },
+          "101121006": {
+            "id": "101121006",
+            "speakerId": 1004,
+            "speakerName": "斯坦利",
+            "text": "啊、啊哈哈哈哈，这不是吟游诗人吗！真巧，你也来这里散步？",
+            "nextDialogs": [
+              "101121007"
+            ]
+          },
+          "101121007": {
+            "id": "101121007",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "是啊，吃完饭出来走走，陪朋友找点东西。",
+            "nextDialogs": [
+              "101121008"
+            ]
+          },
+          "101121008": {
+            "id": "101121008",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "（我越来越觉得，斯坦利先生可能是骗子了…）",
+            "nextDialogs": [
+              "101121011"
+            ]
+          },
+          "101121011": {
+            "id": "101121011",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "（所以斯坦利是为了不伤害杰克的感情，才故意提前一步，到这里布置剑和盾吗？）",
+            "nextDialogs": [
+              "101121012"
+            ]
+          },
+          "101121012": {
+            "id": "101121012",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "大冒险家一定很熟悉达达乌帕谷吧？毕竟，这里是你战斗过的地方。",
+            "nextDialogs": [
+              "101121013"
+            ]
+          },
+          "101121013": {
+            "id": "101121013",
+            "speakerId": 1004,
+            "speakerName": "斯坦利",
+            "text": "当然，当然，我闭着眼睛都能把这里走遍！",
+            "nextDialogs": [
+              "101121014"
+            ]
+          },
+          "101121014": {
+            "id": "101121014",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "原来如此，真佩服你的记性和毅力。",
+            "nextDialogs": [
+              "101121015"
+            ]
+          },
+          "101121015": {
+            "id": "101121015",
+            "speakerId": 1004,
+            "speakerName": "斯坦利",
+            "text": "我是大冒险家嘛，应该的！倒是你们，这里有很多丘丘人，可别掉以轻心啊！",
+            "nextDialogs": [
+              "101121016"
+            ]
+          },
+          "101121016": {
+            "id": "101121016",
+            "speakerId": 1004,
+            "speakerName": "斯坦利",
+            "text": "那、那就再见了，年轻人们。",
+            "nextDialogs": [
+              "101121017"
+            ]
+          },
+          "101121017": {
+            "id": "101121017",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "他果然非常心虚啊。",
+            "nextDialogs": [
+              "101121018"
+            ]
+          },
+          "101121018": {
+            "id": "101121018",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "没办法，谁让他对杰克夸下海口了呢。",
+            "nextDialogs": [
+              "101121019"
+            ]
+          },
+          "101121019": {
+            "id": "101121019",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "不过…再看一次，果然有意思。",
+            "nextDialogs": [
+              "101121020"
+            ]
+          },
+          "101121020": {
+            "id": "101121020",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "不愿遗忘「过去」，而抛弃「现在」的人…",
+            "nextDialogs": [
+              "101121021"
+            ]
+          },
+          "101121021": {
+            "id": "101121021",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "如果他被迫迈出「向未来」的第一步，又会踏在什么方向呢？",
+            "nextDialogs": [
+              "101121022"
+            ]
+          },
+          "101121022": {
+            "id": "101121022",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯？什么意思？",
+            "nextDialogs": [
+              "101121023"
+            ]
+          },
+          "101121023": {
+            "id": "101121023",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "哈哈，自言自语而已。",
+            "nextDialogs": [
+              "101121024"
+            ]
+          },
+          "101121024": {
+            "id": "101121024",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "#对了，{NICKNAME}。今晚，我们去<color=#00E1FFFF>「天使的馈赠」</color>看看吧。"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "lineCounts": {
+    "Player": 19,
+    "拉娜": 27,
+    "派蒙": 18,
+    "？？？": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7302401",
+      "subQuestName": "(test)判定摸过神像$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730240101"
+        ],
+        "dialogs": {
+          "730240101": {
+            "id": "730240101",
+            "speakerId": 1000,
+            "speakerName": "？？？",
+            "text": "哎呀，真是帮大忙了！谢谢你们。",
+            "nextDialogs": [
+              "730240102"
+            ]
+          },
+          "730240102": {
+            "id": "730240102",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "如二位所见，我是这边的巡林官。名字嘛，叫拉娜。",
+            "nextDialogs": [
+              "730240104",
+              "730240106"
+            ]
+          },
+          "730240104": {
+            "id": "730240104",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我的名字叫派蒙！我们是从别的国度来的。",
+            "nextDialogs": [
+              "730240107"
+            ]
+          },
+          "730240107": {
+            "id": "730240107",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "原来如此。嗯…从穿着打扮来看，确实不像是森林的子民…也不像是从黄沙里来的。透气性看起来很好，很适合在须弥行动。",
+            "nextDialogs": [
+              "730240108"
+            ]
+          },
+          "730240108": {
+            "id": "730240108",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "嗯？这么说来，既然拉娜是巡林官的话…"
+          },
+          "730240106": {
+            "id": "730240106",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#嗯！我叫派蒙，{M#他}{F#她}是{NICKNAME}。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7302410",
+      "subQuestName": "(test)对话前入战强制拉对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7302409",
+      "subQuestName": "(test)对话中怪物演出$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7302406",
+      "subQuestName": "(test)踩圈遇怪引导对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730240401"
+        ],
+        "dialogs": {
+          "730240401": {
+            "id": "730240401",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "咦？那边是…",
+            "nextDialogs": [
+              "730240402"
+            ]
+          },
+          "730240402": {
+            "id": "730240402",
+            "speakerId": 1000,
+            "speakerName": "？？？",
+            "text": "嘿呀！可恶的蘑菇！回去回去！",
+            "nextDialogs": [
+              "730240403"
+            ]
+          },
+          "730240403": {
+            "id": "730240403",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#呜哇，{NICKNAME}，那个人好像有危险！",
+            "nextDialogs": [
+              "730240404"
+            ]
+          },
+          "730240404": {
+            "id": "730240404",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我们快去帮帮忙吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7302402",
+      "subQuestName": "帮助被攻击的人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730240201"
+        ],
+        "dialogs": {
+          "730240201": {
+            "id": "730240201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)是"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7302403",
+      "subQuestName": "与女子对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730240301"
+        ],
+        "dialogs": {
+          "730240301": {
+            "id": "730240301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)否"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7302404",
+      "subQuestName": "(test)选是$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7302405",
+      "subQuestName": "(test)选否$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730240501"
+        ],
+        "dialogs": {
+          "730240501": {
+            "id": "730240501",
+            "speakerId": 1000,
+            "speakerName": "？？？",
+            "text": "哎呀，真是帮大忙了！谢谢你们。",
+            "nextDialogs": [
+              "730240502"
+            ]
+          },
+          "730240502": {
+            "id": "730240502",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "如二位所见，我是这边的巡林官。名字嘛，叫拉娜。",
+            "nextDialogs": [
+              "730240504",
+              "730240506"
+            ]
+          },
+          "730240504": {
+            "id": "730240504",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "我的名字叫派蒙！我们是从别的国度来的。",
+            "nextDialogs": [
+              "730240507"
+            ]
+          },
+          "730240507": {
+            "id": "730240507",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "原来如此。嗯…从穿着打扮来看，确实不像是森林的子民…也不像是从黄沙里来的。透气性看起来很好，很适合在须弥行动。",
+            "nextDialogs": [
+              "730240508"
+            ]
+          },
+          "730240508": {
+            "id": "730240508",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "咳咳！不管怎么说，我们巡林官的职责是保护森林、帮助旅人、提供指引。",
+            "nextDialogs": [
+              "730240509"
+            ]
+          },
+          "730240509": {
+            "id": "730240509",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "#诚如{NICKNAME}和派蒙所见，最近林子…应该说状况不太理想吧？无论是「蕈兽」，还是猛兽，都特别狂躁。还有「死域」…",
+            "nextDialogs": [
+              "730240510"
+            ]
+          },
+          "730240510": {
+            "id": "730240510",
+            "speakerId": 1001,
+            "speakerName": "拉娜",
+            "text": "不如让我送你们一程吧？我的巡林路线接下来会经过维摩庄。到那边沿着水路，无论是去奥摩斯港，还是须弥城，都很方便。"
+          },
+          "730240506": {
+            "id": "730240506",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "#嗯！我叫派蒙，{M#他}{F#她}是{NICKNAME}。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7302407",
+      "subQuestName": "(test)选是保护黑屏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7302408",
+      "subQuestName": "(test)选否保护黑屏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

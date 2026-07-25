@@ -1,0 +1,632 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 4,
+    "Player": 51,
+    "受害的膨膨兽": 1,
+    "恢复元气的膨膨兽": 1,
+    "派蒙": 54,
+    "虚弱的膨膨兽": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7510801",
+      "subQuestName": "(test)到达营地附近$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080101"
+        ],
+        "dialogs": {
+          "751080101": {
+            "id": "751080101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说是要做料理，不过，选哪种料理才好呢？",
+            "nextDialogs": [
+              "751080102"
+            ]
+          },
+          "751080102": {
+            "id": "751080102",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我记得，以前我们给膨膨兽「呜呜葡萄」喂过鱼肉，那鱼料理应该很不错！",
+            "nextDialogs": [
+              "751080103"
+            ]
+          },
+          "751080103": {
+            "id": "751080103",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#要让膨膨兽和{REALNAME[ID(2)|SHOWHOST(true)]}吃得开心…感觉纳塔特色的「薄荷酱烤鱼」很不错呢。",
+            "nextDialogs": [
+              "751080106"
+            ]
+          },
+          "751080106": {
+            "id": "751080106",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好，那就开工吧，我也会在一边给你出主意的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510803",
+      "subQuestName": "(test)清理走私者营地$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080301"
+        ],
+        "dialogs": {
+          "751080301": {
+            "id": "751080301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "果然还有一些龙被关着…",
+            "nextDialogs": [
+              "751080302"
+            ]
+          },
+          "751080302": {
+            "id": "751080302",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "没想到，之前捣毁了那个据点，他们还是死性不改，继续干着这些伤害龙的坏事。",
+            "nextDialogs": [
+              "751080303"
+            ]
+          },
+          "751080303": {
+            "id": "751080303",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "早知道，我们应该当时就追击，把他们全灭的。",
+            "nextDialogs": [
+              "751080305",
+              "751080307"
+            ]
+          },
+          "751080305": {
+            "id": "751080305",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说的也是，我们这就救出被抓的龙吧！",
+            "nextDialogs": [
+              "751080308"
+            ]
+          },
+          "751080308": {
+            "id": "751080308",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          },
+          "751080307": {
+            "id": "751080307",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#冷酷残忍的{NICKNAME}…想象不出来…还是先帮帮它们吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510808",
+      "subQuestName": "(test)清理走私者营地后对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7510804",
+      "subQuestName": "(test)释放被关押的动物$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080401"
+        ],
+        "dialogs": {
+          "751080401": {
+            "id": "751080401",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "欸？这些笼子里怎么关着一些龙？",
+            "nextDialogs": [
+              "751080402"
+            ]
+          },
+          "751080402": {
+            "id": "751080402",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不对劲…难道说，它们都是被那群人强行抓起来的？",
+            "nextDialogs": [
+              "751080403"
+            ]
+          },
+          "751080403": {
+            "id": "751080403",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们好像在不知不觉中打败了一群…捕捉龙的贩子？",
+            "nextDialogs": [
+              "751080405",
+              "751080407"
+            ]
+          },
+          "751080405": {
+            "id": "751080405",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好耶！我们这就救出被抓的龙吧！",
+            "nextDialogs": [
+              "751080408"
+            ]
+          },
+          "751080408": {
+            "id": "751080408",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          },
+          "751080407": {
+            "id": "751080407",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "有所谓啦，被抓的龙重获自由很重要，我们赶快帮帮它们！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510805",
+      "subQuestName": "解救动物们",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080501"
+        ],
+        "dialogs": {
+          "751080501": {
+            "id": "751080501",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "这里居然还有一只…膨膨兽？坏家伙们真是什么动物都倒卖啊…",
+            "nextDialogs": [
+              "751080502"
+            ]
+          },
+          "751080502": {
+            "id": "751080502",
+            "speakerId": 1002,
+            "speakerName": "受害的膨膨兽",
+            "text": "嗷…呜呜！",
+            "nextDialogs": [
+              "751080503"
+            ]
+          },
+          "751080503": {
+            "id": "751080503",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯…嗯！",
+            "nextDialogs": [
+              "751080504"
+            ]
+          },
+          "751080504": {
+            "id": "751080504",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#咦？{REALNAME[ID(2)|SHOWHOST(true)]}怎么好像对膨膨兽很感兴趣？",
+            "nextDialogs": [
+              "751080505"
+            ]
+          },
+          "751080505": {
+            "id": "751080505",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}认真听了听膨膨兽的叫声，似乎明白了什么，提着膨膨兽的尾巴，将它带到了水边的浅滩上，一起玩耍了起来。",
+            "nextDialogs": [
+              "751080512"
+            ]
+          },
+          "751080512": {
+            "id": "751080512",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751080508"
+            ]
+          },
+          "751080508": {
+            "id": "751080508",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "确实喔，说不定它们两个能交上朋友呢！",
+            "nextDialogs": [
+              "751080509"
+            ]
+          },
+          "751080509": {
+            "id": "751080509",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "不过，那只膨膨兽好像一点力气都没有，两只…大爪子…都不怎么扑腾了。",
+            "nextDialogs": [
+              "751080510"
+            ]
+          },
+          "751080510": {
+            "id": "751080510",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "附近连装饭的盘子都没看见…可能它们被关得太久，一直在挨饿。",
+            "nextDialogs": [
+              "751080511"
+            ]
+          },
+          "751080511": {
+            "id": "751080511",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#既然如此，我们就给膨膨兽和{REALNAME[ID(2)|SHOWHOST(true)]}做点吃的吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510802",
+      "subQuestName": "为动物朋友们烹饪料理",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7510806",
+      "subQuestName": "为动物朋友们送上料理",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7510807",
+      "subQuestName": "为动物朋友们送上料理",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080701"
+        ],
+        "dialogs": {
+          "751080701": {
+            "id": "751080701",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好吃的来啦！别光顾着玩哦，该补充一下体力了。",
+            "nextDialogs": [
+              "751080702"
+            ]
+          },
+          "751080702": {
+            "id": "751080702",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751080703"
+            ]
+          },
+          "751080703": {
+            "id": "751080703",
+            "speakerId": 1004,
+            "speakerName": "虚弱的膨膨兽",
+            "text": "嗷…嗷嗷！",
+            "nextDialogs": [
+              "751080704"
+            ]
+          },
+          "751080704": {
+            "id": "751080704",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "吃得真香！就是不知道这样倒过来吃饭，会不会噎着…",
+            "nextDialogs": [
+              "751080705"
+            ]
+          },
+          "751080705": {
+            "id": "751080705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "别学膨膨兽哦，要注意安全。",
+            "nextDialogs": [
+              "751080706"
+            ]
+          },
+          "751080706": {
+            "id": "751080706",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "怎么感觉你这个提醒显得我呆呆的…我又不是膨膨兽，当然不会这样吃东西了。",
+            "nextDialogs": [
+              "751080707"
+            ]
+          },
+          "751080707": {
+            "id": "751080707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你也试试不就知道了。",
+            "nextDialogs": [
+              "751080708"
+            ]
+          },
+          "751080708": {
+            "id": "751080708",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "喂！我又不是膨膨兽，才不会这样吃东西呢！",
+            "nextDialogs": [
+              "751080709"
+            ]
+          },
+          "751080709": {
+            "id": "751080709",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "膨膨兽似乎恢复了元气，扑腾着跳入海中…",
+            "nextDialogs": [
+              "751080719"
+            ]
+          },
+          "751080719": {
+            "id": "751080719",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯…嗷！",
+            "nextDialogs": [
+              "751080710"
+            ]
+          },
+          "751080710": {
+            "id": "751080710",
+            "speakerId": 1005,
+            "speakerName": "恢复元气的膨膨兽",
+            "text": "嗷，呜…呀！",
+            "nextDialogs": [
+              "751080712"
+            ]
+          },
+          "751080712": {
+            "id": "751080712",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "啊，膨膨兽走掉了…",
+            "nextDialogs": [
+              "751080713"
+            ]
+          },
+          "751080713": {
+            "id": "751080713",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没办法，毕竟不是纳塔的生物。",
+            "nextDialogs": [
+              "751080715"
+            ]
+          },
+          "751080715": {
+            "id": "751080715",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…",
+            "nextDialogs": [
+              "751080716"
+            ]
+          },
+          "751080716": {
+            "id": "751080716",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#别难过哦，{REALNAME[ID(2)|SHOWHOST(true)]}，你们刚才玩得那么开心，已经成为好朋友了！",
+            "nextDialogs": [
+              "751080717"
+            ]
+          },
+          "751080717": {
+            "id": "751080717",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我有种预感，我们和那只膨膨兽以后还会再见面的！",
+            "nextDialogs": [
+              "751080718"
+            ]
+          },
+          "751080718": {
+            "id": "751080718",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510802",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080201"
+        ],
+        "dialogs": {
+          "751080201": {
+            "id": "751080201",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说是要做料理，不过，选哪种料理才好呢？",
+            "nextDialogs": [
+              "751080202"
+            ]
+          },
+          "751080202": {
+            "id": "751080202",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "按理说，膨膨兽生活在水里，应该会吃鱼吧？那我们就做一份鱼料理好了。",
+            "nextDialogs": [
+              "751080203"
+            ]
+          },
+          "751080203": {
+            "id": "751080203",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "#要让膨膨兽和{REALNAME[ID(2)|SHOWHOST(true)]}吃得开心…感觉纳塔特色的「薄荷酱烤鱼」很不错呢。",
+            "nextDialogs": [
+              "751080206"
+            ]
+          },
+          "751080206": {
+            "id": "751080206",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好，那就开工吧，我也会在一边给你出主意的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510813",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751081301"
+        ],
+        "dialogs": {
+          "751081301": {
+            "id": "751081301",
+            "speakerId": 1004,
+            "speakerName": "虚弱的膨膨兽",
+            "text": "嗷嗷…嗷…",
+            "nextDialogs": [
+              "751081302"
+            ]
+          },
+          "751081302": {
+            "id": "751081302",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗷？",
+            "nextDialogs": [
+              "751081303"
+            ]
+          },
+          "751081303": {
+            "id": "751081303",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗷…",
+            "nextDialogs": [
+              "751081304"
+            ]
+          },
+          "751081304": {
+            "id": "751081304",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751081305"
+            ]
+          },
+          "751081305": {
+            "id": "751081305",
+            "speakerId": 1004,
+            "speakerName": "虚弱的膨膨兽",
+            "text": "呀？",
+            "nextDialogs": [
+              "751081306"
+            ]
+          },
+          "751081306": {
+            "id": "751081306",
+            "speakerId": 1004,
+            "speakerName": "虚弱的膨膨兽",
+            "text": "呀…",
+            "nextDialogs": [
+              "751081307"
+            ]
+          },
+          "751081307": {
+            "id": "751081307",
+            "speakerId": 1004,
+            "speakerName": "虚弱的膨膨兽",
+            "text": "呀！",
+            "nextDialogs": [
+              "751081308"
+            ]
+          },
+          "751081308": {
+            "id": "751081308",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "完全听不懂它们的对话，但好像还对上了节奏？",
+            "nextDialogs": [
+              "751081311"
+            ]
+          },
+          "751081311": {
+            "id": "751081311",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "说得有道理，虽然膨膨兽没什么力气，但感觉它们很开心，我也跟着乐了起来！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751089901"
+        ],
+        "dialogs": {
+          "751089901": {
+            "id": "751089901",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "(test)似乎是关押动物的地方，我们把他们剿灭吧"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "lineCounts": {
+    "能源协会勘探员": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7719901",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7719902",
+      "subQuestName": "(test)废弃$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "771990201"
+        ],
+        "dialogs": {
+          "771990201": {
+            "id": "771990201",
+            "speakerId": 1000,
+            "speakerName": "能源协会勘探员",
+            "text": "抱歉，不要再继续靠近了…",
+            "nextDialogs": [
+              "771990202"
+            ]
+          },
+          "771990202": {
+            "id": "771990202",
+            "speakerId": 1000,
+            "speakerName": "能源协会勘探员",
+            "text": "看到那里没有，这边影域立场的检测反应在不断上升，如果再靠近就会有被影域吞入的风险。",
+            "nextDialogs": [
+              "771990203"
+            ]
+          },
+          "771990203": {
+            "id": "771990203",
+            "speakerId": 1000,
+            "speakerName": "能源协会勘探员",
+            "text": "为了安全考虑，我不推荐您继续往前了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7719903",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7719904",
+      "subQuestName": "(test)废弃$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「木偶」": 1,
+    "玛丽安": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7426001",
+      "subQuestName": "前往隐居处开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7426002",
+      "subQuestName": "前往隐居处开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7426003",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742610101"
+        ],
+        "dialogs": {
+          "742610101": {
+            "id": "742610101",
+            "speakerId": 1000,
+            "speakerName": "玛丽安",
+            "text": "真是平静惬意的日子。",
+            "nextDialogs": [
+              "742610102"
+            ]
+          },
+          "742610102": {
+            "id": "742610102",
+            "speakerId": 1001,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "742610104"
+            ]
+          },
+          "742610104": {
+            "id": "742610104",
+            "speakerId": 1000,
+            "speakerName": "玛丽安",
+            "text": "嗯，感谢你的邀请。桑多涅…妹妹？"
+          }
+        }
+      }
+    }
+  ]
+}

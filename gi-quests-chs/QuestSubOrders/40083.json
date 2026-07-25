@@ -1,0 +1,767 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 25,
+    "八重神子": 10,
+    "多莉": 13,
+    "左右加": 4,
+    "派蒙": 40,
+    "海妮耶": 3,
+    "莱依拉": 17,
+    "雪怪伯": 3
+  },
+  "subQuests": [
+    {
+      "subId": "4008301",
+      "subQuestName": "等待到第二天上午（8：00-10：00）",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008303",
+      "subQuestName": "参加比赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008320",
+      "subQuestName": "参加比赛$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008322",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008302",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831501"
+        ],
+        "dialogs": {
+          "400831501": {
+            "id": "400831501",
+            "speakerId": 1000,
+            "speakerName": "左右加",
+            "text": "两位，没想到这么早就要和你们对决了。",
+            "nextDialogs": [
+              "400831502"
+            ]
+          },
+          "400831502": {
+            "id": "400831502",
+            "speakerId": 1000,
+            "speakerName": "左右加",
+            "text": "对不起，为了我的小说生涯和八重大人的认可，我要打败你们！",
+            "nextDialogs": [
+              "400831503"
+            ]
+          },
+          "400831503": {
+            "id": "400831503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拿出全力来吧！",
+            "nextDialogs": [
+              "400831504"
+            ]
+          },
+          "400831504": {
+            "id": "400831504",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "别太自信哦，左右加小姐，我们也不会手下留情的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008304",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008316",
+      "subQuestName": "与对手对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831701"
+        ],
+        "dialogs": {
+          "400831701": {
+            "id": "400831701",
+            "speakerId": 1000,
+            "speakerName": "左右加",
+            "text": "为什么，完全赢不了啊，呜…",
+            "nextDialogs": [
+              "400831702"
+            ]
+          },
+          "400831702": {
+            "id": "400831702",
+            "speakerId": 1000,
+            "speakerName": "左右加",
+            "text": "果然，「天守阁的座上宾」所具备的天赋和实力，不是我这种凡人可以企及的。",
+            "nextDialogs": [
+              "400831703"
+            ]
+          },
+          "400831703": {
+            "id": "400831703",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "怎么办，左右加小姐受到的打击不是一般的大呢…神子说得倒是轻松，看见她这个样子，还是会生气的吧。",
+            "nextDialogs": [
+              "400831704"
+            ]
+          },
+          "400831704": {
+            "id": "400831704",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "我心里慌慌的，感觉很不安！我们还是先去向神子道歉吧。「咚咚小圆帽」也要拿出诚意来哦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008314",
+      "subQuestName": "离开赛场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831401"
+        ],
+        "dialogs": {
+          "400831401": {
+            "id": "400831401",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "看起来都是很普通的「花花琼脂」而已，毕竟是能展示给所有人看的东西，就连配方都摆在桌上了。",
+            "nextDialogs": [
+              "400831404"
+            ]
+          },
+          "400831404": {
+            "id": "400831404",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那我们也没法把它们拿去调查啊，这算是偷盗了吧，会让我们丢掉比赛资格的，搞不好还要被「三十人团」抓起来。",
+            "nextDialogs": [
+              "400831405"
+            ]
+          },
+          "400831405": {
+            "id": "400831405",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "对了，我们有留影机！不如给这些「花花琼脂」的实物和配方拍照，这样就能记录很多重要的信息了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008305",
+      "subQuestName": "与八重神子对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400830501"
+        ],
+        "dialogs": {
+          "400830501": {
+            "id": "400830501",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "神子！对不起！我们没想到「咚咚小圆帽」噼里啪啦一顿打，就把左右加小姐给淘汰了…",
+            "nextDialogs": [
+              "400830504"
+            ]
+          },
+          "400830504": {
+            "id": "400830504",
+            "speakerId": 1002,
+            "speakerName": "八重神子",
+            "text": "哦？左右加是不是非常气馁，念叨着「凡人没法企及」之类的夸张说辞？蹲在地上哀嚎？",
+            "nextDialogs": [
+              "400830505"
+            ]
+          },
+          "400830505": {
+            "id": "400830505",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "完全一致呢，你还真是了解她…",
+            "nextDialogs": [
+              "400830506"
+            ]
+          },
+          "400830506": {
+            "id": "400830506",
+            "speakerId": 1002,
+            "speakerName": "八重神子",
+            "text": "这样反而更好，左右加会把这次打击当成宝贵的素材，生动地描写出主角成长过程中所受的挫折，牵动读者们的心。",
+            "nextDialogs": [
+              "400830507"
+            ]
+          },
+          "400830507": {
+            "id": "400830507",
+            "speakerId": 1002,
+            "speakerName": "八重神子",
+            "text": "至于展现反派的压迫力，和精彩的夺冠过程，就要从你们身上取材啦。可别在我这个半吊子选手之前被淘汰哦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008306",
+      "subQuestName": "等待到第二天凌晨（3:00-5:00）",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008307",
+      "subQuestName": "前往「花花琼脂」摊位",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008318",
+      "subQuestName": "拍摄摊位，留取证据",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831801"
+        ],
+        "dialogs": {
+          "400831801": {
+            "id": "400831801",
+            "speakerId": 1003,
+            "speakerName": "雪怪伯",
+            "text": "怎么可能…我竟如此不堪一击…",
+            "nextDialogs": [
+              "400831802"
+            ]
+          },
+          "400831802": {
+            "id": "400831802",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呼，赢得也不算轻松呢…辛苦你和伙伴们啦，「咚咚小圆帽」！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008319",
+      "subQuestName": "与海妮耶对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831901"
+        ],
+        "dialogs": {
+          "400831901": {
+            "id": "400831901",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "找出「花花琼脂」的配方笔记，并对笔记和实物拍照取证后，收好了线索…",
+            "nextDialogs": [
+              "400831902"
+            ]
+          },
+          "400831902": {
+            "id": "400831902",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "完成了！接下来我们应该找个专业人士来分析这些东西…不过时间好像有点紧，还是先去帮莱依拉买东西吧？",
+            "nextDialogs": [
+              "400831903"
+            ]
+          },
+          "400831903": {
+            "id": "400831903",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "海海海，海妮耶？",
+            "nextDialogs": [
+              "400831904"
+            ]
+          },
+          "400831904": {
+            "id": "400831904",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "你们对自己的要求倒也挺严苛的，这么早就来培养蕈兽。难怪能一路顺利晋级。",
+            "nextDialogs": [
+              "400831905"
+            ]
+          },
+          "400831905": {
+            "id": "400831905",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "海妮耶，上次我们还没说完呢！你的想法太激进了…",
+            "nextDialogs": [
+              "400831906"
+            ]
+          },
+          "400831906": {
+            "id": "400831906",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "无需多言，如果你们认为我错了，就先击败我，再向我展示你们所谓正确的观点。",
+            "nextDialogs": [
+              "400831907"
+            ]
+          },
+          "400831907": {
+            "id": "400831907",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "完全听不进我们的话…明明刚见面时的关系还不错的，怎么就变成了这个样子！",
+            "nextDialogs": [
+              "400831910"
+            ]
+          },
+          "400831910": {
+            "id": "400831910",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔，好吧…「咚咚小圆帽」，我们也没工夫难过了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008309",
+      "subQuestName": "寻找「全能商人」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400830901"
+        ],
+        "dialogs": {
+          "400830901": {
+            "id": "400830901",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "根据莱依拉的纸条，应该要在这里和「全能商人」碰头…",
+            "nextDialogs": [
+              "400830902"
+            ]
+          },
+          "400830902": {
+            "id": "400830902",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "看你们东张西望的神态，大概是在找「全能商人」吧？那就欢迎光临啦！",
+            "nextDialogs": [
+              "400830903"
+            ]
+          },
+          "400830903": {
+            "id": "400830903",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "对啊对啊，你很懂嘛…",
+            "nextDialogs": [
+              "400830904"
+            ]
+          },
+          "400830904": {
+            "id": "400830904",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不对，怎么是多莉？莱依拉说的「全能商人」原来就是你！",
+            "nextDialogs": [
+              "400830905"
+            ]
+          },
+          "400830905": {
+            "id": "400830905",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "有什么好奇怪的？「桑歌玛哈巴依老爷的商品种类最多最神奇」，这是全大巴扎的老板和客人都知道的事哦。",
+            "nextDialogs": [
+              "400830906"
+            ]
+          },
+          "400830906": {
+            "id": "400830906",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "「万能」「全能」「大能」和不管什么能…都是我多莉的专属招牌。别的商人想用都免谈，除非先付几百万授权费！",
+            "nextDialogs": [
+              "400830907"
+            ]
+          },
+          "400830907": {
+            "id": "400830907",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呃，我们早该想到的…",
+            "nextDialogs": [
+              "400830908"
+            ]
+          },
+          "400830908": {
+            "id": "400830908",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "话说回来，莱依拉居然找你们跑腿了？看来她真的沉迷在驯兽师大赛里了啊。",
+            "nextDialogs": [
+              "400830909"
+            ]
+          },
+          "400830909": {
+            "id": "400830909",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "原来你和莱依拉的关系还挺好的，对她的情况很了解嘛。",
+            "nextDialogs": [
+              "400830910"
+            ]
+          },
+          "400830910": {
+            "id": "400830910",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "嘿！这和关系好坏无关。莱依拉在我这里买过一些东西，虽然不算特别贵重，但对于一个学员来说，也算是出手阔绰了。",
+            "nextDialogs": [
+              "400830911"
+            ]
+          },
+          "400830911": {
+            "id": "400830911",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "我当然会留意她的动向，知道她参加了可疑的比赛！",
+            "nextDialogs": [
+              "400830914"
+            ]
+          },
+          "400830914": {
+            "id": "400830914",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "嗯哼，我只是隐隐觉得不对劲罢了。正好我这里有些卖不出去的烫手货，屯着也是生锈，不如交给你们。",
+            "nextDialogs": [
+              "400830915"
+            ]
+          },
+          "400830915": {
+            "id": "400830915",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "唔…看起来只是一些零件和残缺的笔记？",
+            "nextDialogs": [
+              "400830916"
+            ]
+          },
+          "400830916": {
+            "id": "400830916",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "听说是大赛主办方试图销毁的仪器和文件。",
+            "nextDialogs": [
+              "400830917"
+            ]
+          },
+          "400830917": {
+            "id": "400830917",
+            "speakerId": 1006,
+            "speakerName": "多莉",
+            "text": "他们太大意了，有些人拾荒发财的意愿可是很强的！这些东西都被打捞上来转手给了我。",
+            "nextDialogs": [
+              "400830918"
+            ]
+          },
+          "400830918": {
+            "id": "400830918",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "仔细看，这些文件上有些词汇跟「花花琼脂」的配方很像呢。仪器残骸也和「意智宝珠」的一些地方有相似之处。",
+            "nextDialogs": [
+              "400830919"
+            ]
+          },
+          "400830919": {
+            "id": "400830919",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "说不定是用来实验的产品。先收起来吧，到时候让神子看看，也许她能找到不对劲的地方？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008311",
+      "subQuestName": "参加比赛",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008321",
+      "subQuestName": "参加比赛$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008323",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008310",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831601"
+        ],
+        "dialogs": {
+          "400831601": {
+            "id": "400831601",
+            "speakerId": 1003,
+            "speakerName": "雪怪伯",
+            "text": "眼神不错，值得我拿出「苦修」多年的全部实力。",
+            "nextDialogs": [
+              "400831602"
+            ]
+          },
+          "400831602": {
+            "id": "400831602",
+            "speakerId": 1003,
+            "speakerName": "雪怪伯",
+            "text": "来吧，就让你们见识一下，掌控冰霜之力的强大蕈兽队伍。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008312",
+      "subQuestName": "击败对手",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008317",
+      "subQuestName": "与对手对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008315",
+      "subQuestName": "离开赛场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008313",
+      "subQuestName": "与莱依拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400831301"
+        ],
+        "dialogs": {
+          "400831301": {
+            "id": "400831301",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "#{NICKNAME}，派蒙。我在赛程上看见你们顺利晋级了，恭喜你们！",
+            "nextDialogs": [
+              "400831302"
+            ]
+          },
+          "400831302": {
+            "id": "400831302",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "哦哦！莱依拉，今天你很有精神嘛，「转转悠悠兽」也开开心心，看来也打了个大胜仗！",
+            "nextDialogs": [
+              "400831303"
+            ]
+          },
+          "400831303": {
+            "id": "400831303",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "这次我赢得很惊险，只是勉强赢过对手一线，还好之前有和八重小姐一起去闭关训练。",
+            "nextDialogs": [
+              "400831304"
+            ]
+          },
+          "400831304": {
+            "id": "400831304",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "刚刚「全能商人」托人把我要的东西送过来了，由衷感谢你们！待会儿我就带着「转转悠悠兽」去调整状态…",
+            "nextDialogs": [
+              "400831305"
+            ]
+          },
+          "400831305": {
+            "id": "400831305",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "呃咳咳…力气不够了…我们还是压低音量吧。",
+            "nextDialogs": [
+              "400831306"
+            ]
+          },
+          "400831306": {
+            "id": "400831306",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "说起来，怎么没有看见神子？",
+            "nextDialogs": [
+              "400831307"
+            ]
+          },
+          "400831307": {
+            "id": "400831307",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "八重小姐好像有什么急事，和左右加小姐他们先走了。好像还有一位「三十人团」的佣兵在给他们领路…",
+            "nextDialogs": [
+              "400831308"
+            ]
+          },
+          "400831308": {
+            "id": "400831308",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "我回到赛场的时候，他们已经走远了，追上去问话好像有点唐突…",
+            "nextDialogs": [
+              "400831311"
+            ]
+          },
+          "400831311": {
+            "id": "400831311",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "也对哦，这段时间神子一直在比赛，偶尔去处理一下主编大人的工作也很正常吧。",
+            "nextDialogs": [
+              "400831312"
+            ]
+          },
+          "400831312": {
+            "id": "400831312",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "而且神子说过，她想一边度假一边取材，说不定那个佣兵就是他们的导游呢，我们也不用担心啦！",
+            "nextDialogs": [
+              "400831313"
+            ]
+          },
+          "400831313": {
+            "id": "400831313",
+            "speakerId": 1007,
+            "speakerName": "莱依拉",
+            "text": "嗯，接下来就是八强赛了，最关键的一场比赛…虽然有点害怕，但我们还是一起努力吧！",
+            "nextDialogs": [
+              "400831314"
+            ]
+          },
+          "400831314": {
+            "id": "400831314",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好！这样看下来，我们晋级还蛮顺利的嘛，莱依拉一定要加油！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008308",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400830801"
+        ],
+        "dialogs": {
+          "400830801": {
+            "id": "400830801",
+            "speakerId": 1005,
+            "speakerName": "海妮耶",
+            "text": "(test)遇到海妮耶"
+          }
+        }
+      }
+    }
+  ]
+}

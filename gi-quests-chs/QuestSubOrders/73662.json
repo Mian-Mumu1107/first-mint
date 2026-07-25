@@ -1,0 +1,64 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "阿拉耶什": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7366201",
+      "subQuestName": "将两罐果酱交给阿拉耶什",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736620101"
+        ],
+        "dialogs": {
+          "736620101": {
+            "id": "736620101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于果酱…",
+            "nextDialogs": [
+              "736620102"
+            ]
+          },
+          "736620102": {
+            "id": "736620102",
+            "speakerId": 1000,
+            "speakerName": "阿拉耶什",
+            "text": "看来你对做果酱很有自信啊，那两罐果酱你也准备好了吧？",
+            "nextDialogs": [
+              "736620104"
+            ]
+          },
+          "736620104": {
+            "id": "736620104",
+            "speakerId": 1000,
+            "speakerName": "阿拉耶什",
+            "text": "只有一罐的话，不出几天就吃完了，我至少要两罐。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7366202",
+      "subQuestName": "与阿拉耶什对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736620201"
+        ],
+        "dialogs": {
+          "736620201": {
+            "id": "736620201",
+            "speakerId": 1000,
+            "speakerName": "阿拉耶什",
+            "text": "颜色很不错啊，你果然很擅长做果酱，以后我还找你订。"
+          }
+        }
+      }
+    }
+  ]
+}

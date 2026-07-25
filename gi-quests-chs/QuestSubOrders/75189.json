@@ -1,0 +1,771 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 10,
+    "Player": 5,
+    "「阿万尤」": 12,
+    "派蒙": 16,
+    "秘源龙仆": 27
+  },
+  "subQuests": [
+    {
+      "subId": "7518902",
+      "subQuestName": "前往审议之庭获取「许可」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890301"
+        ],
+        "dialogs": {
+          "751890301": {
+            "id": "751890301",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「走吧，让我们看看他们把许可藏在了哪里…」",
+            "nextDialogs": [
+              "751890302"
+            ]
+          },
+          "751890302": {
+            "id": "751890302",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「看来它们就把东西放在那…还真是藏都不藏…」",
+            "nextDialogs": [
+              "751890303"
+            ]
+          },
+          "751890303": {
+            "id": "751890303",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「不过看上去只是一个空壳载体…」",
+            "nextDialogs": [
+              "751890304"
+            ]
+          },
+          "751890304": {
+            "id": "751890304",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "呜哇，怎么突然有这么多的兽境猎犬…唔，那个许可也被…",
+            "nextDialogs": [
+              "751890305"
+            ]
+          },
+          "751890305": {
+            "id": "751890305",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「大概是门口的保护没有了，所以它们得以乘虚而入了吧。」",
+            "nextDialogs": [
+              "751890306"
+            ]
+          },
+          "751890306": {
+            "id": "751890306",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那、那现在怎么办？",
+            "nextDialogs": [
+              "751890307"
+            ]
+          },
+          "751890307": {
+            "id": "751890307",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「没关系，只要启动审议之庭的修复净化装置就好。」",
+            "nextDialogs": [
+              "751890308"
+            ]
+          },
+          "751890308": {
+            "id": "751890308",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「在那里…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518901",
+      "subQuestName": "（test）对话中开门$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890101"
+        ],
+        "dialogs": {
+          "751890101": {
+            "id": "751890101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "当法官的龙吗，总觉得有点耳熟…",
+            "nextDialogs": [
+              "751890102"
+            ]
+          },
+          "751890102": {
+            "id": "751890102",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「那恐怕和你所知的那一位相去甚远。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518906",
+      "subQuestName": "启动净化装置",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890601"
+        ],
+        "dialogs": {
+          "751890601": {
+            "id": "751890601",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「那里，能激活鳞石的镌刻之光，那就是许可…」",
+            "nextDialogs": [
+              "751890602"
+            ]
+          },
+          "751890602": {
+            "id": "751890602",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751890603"
+            ]
+          },
+          "751890603": {
+            "id": "751890603",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这里能够看到…看到整座圣城呢！",
+            "nextDialogs": [
+              "751890604"
+            ]
+          },
+          "751890604": {
+            "id": "751890604",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「是啊，真是昔日辉煌可悲的残影啊…」",
+            "nextDialogs": [
+              "751890605"
+            ]
+          },
+          "751890605": {
+            "id": "751890605",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯…呀？",
+            "nextDialogs": [
+              "751890606"
+            ]
+          },
+          "751890606": {
+            "id": "751890606",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「你想问那场审判最后的结果？呵呵…」",
+            "nextDialogs": [
+              "751890607"
+            ]
+          },
+          "751890607": {
+            "id": "751890607",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「说想要进行圣裁的人当然知道执掌一切光焰的主人陷入假死，只是当偶尔清醒的王真的出现在场…」",
+            "nextDialogs": [
+              "751890608"
+            ]
+          },
+          "751890608": {
+            "id": "751890608",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「原本聒噪不休的十三位领主和三位亲王立刻收回了他们的话语，整场闹剧般的审判不了了之…」",
+            "nextDialogs": [
+              "751890609"
+            ]
+          },
+          "751890609": {
+            "id": "751890609",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…",
+            "nextDialogs": [
+              "751890610"
+            ]
+          },
+          "751890610": {
+            "id": "751890610",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「再然后…其中的三位亲王死于与人类的战争，众领主中的十位消亡于圣城图兰的崩塌，一位残留于奇琴乌图…」",
+            "nextDialogs": [
+              "751890611"
+            ]
+          },
+          "751890611": {
+            "id": "751890611",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「唯有一位领主存活至今…」",
+            "nextDialogs": [
+              "751890612"
+            ]
+          },
+          "751890612": {
+            "id": "751890612",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「但想必，那并不是它想要存续的形式吧…」",
+            "nextDialogs": [
+              "751890613"
+            ]
+          },
+          "751890613": {
+            "id": "751890613",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「好了…继续前往圣山之心吧，那里埋藏了一切…埋藏了…旅途终末的热望。」",
+            "nextDialogs": [
+              "751890614"
+            ]
+          },
+          "751890614": {
+            "id": "751890614",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「我在此处的使命将尽…受龙所选者，此处曾是多么美丽的地方啊…」",
+            "nextDialogs": [
+              "751890615"
+            ]
+          },
+          "751890615": {
+            "id": "751890615",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「去触碰那火鳞镌刻之光吧…去获取，通往圣山之心的许可…」",
+            "nextDialogs": [
+              "751890616"
+            ]
+          },
+          "751890616": {
+            "id": "751890616",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "……",
+            "nextDialogs": [
+              "751890617"
+            ]
+          },
+          "751890617": {
+            "id": "751890617",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "阿万尤…唔，又走了！这名字我都还没有叫上几次呢。",
+            "nextDialogs": [
+              "751890618"
+            ]
+          },
+          "751890618": {
+            "id": "751890618",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，这下总算弄到了前往「圣山之心」的许可…",
+            "nextDialogs": [
+              "751890619"
+            ]
+          },
+          "751890619": {
+            "id": "751890619",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯…",
+            "nextDialogs": [
+              "751890620"
+            ]
+          },
+          "751890620": {
+            "id": "751890620",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "这边的光…消失了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518911",
+      "subQuestName": "与「阿万尤」对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890701"
+        ],
+        "dialogs": {
+          "751890701": {
+            "id": "751890701",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "检测到阴影大敌之威胁…",
+            "nextDialogs": [
+              "751890702"
+            ]
+          },
+          "751890702": {
+            "id": "751890702",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "内部抵御…自动修复模式启动…",
+            "nextDialogs": [
+              "751890703"
+            ]
+          },
+          "751890703": {
+            "id": "751890703",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊，没想到在这种建筑内部也有这种机关…那些魔物一下子就被消灭了！",
+            "nextDialogs": [
+              "751890704"
+            ]
+          },
+          "751890704": {
+            "id": "751890704",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「毕竟这座建筑是为了矗立千万年而建造的，不仅能够御敌，还可以自我修复…」",
+            "nextDialogs": [
+              "751890705"
+            ]
+          },
+          "751890705": {
+            "id": "751890705",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "而且，金光闪闪的…真想摸一摸…",
+            "nextDialogs": [
+              "751890706"
+            ]
+          },
+          "751890706": {
+            "id": "751890706",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751890707"
+            ]
+          },
+          "751890707": {
+            "id": "751890707",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「哈哈，你最好还是打消那个念头…它可认不得你是『朋友』还是『敌人』…它只会无条件地烧却碰到的所有东西。」",
+            "nextDialogs": [
+              "751890708"
+            ]
+          },
+          "751890708": {
+            "id": "751890708",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「…愚蠢又粗暴的做法，哼，不知道是谁设计的。」",
+            "nextDialogs": [
+              "751890709"
+            ]
+          },
+          "751890709": {
+            "id": "751890709",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "不过，我们也可以用这个打开那个罩住许可的罩子吧…",
+            "nextDialogs": [
+              "751890711",
+              "751890713"
+            ]
+          },
+          "751890711": {
+            "id": "751890711",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751890716"
+            ]
+          },
+          "751890716": {
+            "id": "751890716",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那我们就…想办法把这个东西升上去好了！"
+          },
+          "751890713": {
+            "id": "751890713",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "波嗯，呜呀！",
+            "nextDialogs": [
+              "751890714"
+            ]
+          },
+          "751890714": {
+            "id": "751890714",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「说得没错，没想到这位白色的使者还真是深藏不露…有着这样的智慧呢，真是让人讶异。」",
+            "nextDialogs": [
+              "751890715"
+            ]
+          },
+          "751890715": {
+            "id": "751890715",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "…我是不懂你们在惊讶什么啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518907",
+      "subQuestName": "抬升燃素屏障",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518908",
+      "subQuestName": "得到「许可」的载体",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518909",
+      "subQuestName": "小心下扫的燃素屏障",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518910",
+      "subQuestName": "与「阿万尤」对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890401"
+        ],
+        "dialogs": {
+          "751890401": {
+            "id": "751890401",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "终于结束了…哼哼，这下我们总算拿到进入那个什么「圣山之心」的「许可」了吧！",
+            "nextDialogs": [
+              "751890402"
+            ]
+          },
+          "751890402": {
+            "id": "751890402",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「不，我之前说了，这个只是一个『许可』的空壳载体…」",
+            "nextDialogs": [
+              "751890403"
+            ]
+          },
+          "751890403": {
+            "id": "751890403",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「只是拿着这样一个鳞片做成的玩意儿，里面没有任何持有者的信息的话，是没有办法变成『许可』的。」",
+            "nextDialogs": [
+              "751890404"
+            ]
+          },
+          "751890404": {
+            "id": "751890404",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「不然这东西不就变成『只要是龙就能够使用』的万能钥匙了吗…」",
+            "nextDialogs": [
+              "751890405"
+            ]
+          },
+          "751890405": {
+            "id": "751890405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "快，押来一条有身份的龙！",
+            "nextDialogs": [
+              "751890406"
+            ]
+          },
+          "751890406": {
+            "id": "751890406",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "#哪有这样的龙啦…唔，{REALNAME[ID(2)|SHOWHOST(true)]}也是龙，不行吗？",
+            "nextDialogs": [
+              "751890407"
+            ]
+          },
+          "751890407": {
+            "id": "751890407",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "751890408"
+            ]
+          },
+          "751890408": {
+            "id": "751890408",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「它…现在还没有这样的权能。」",
+            "nextDialogs": [
+              "751890409"
+            ]
+          },
+          "751890409": {
+            "id": "751890409",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "那现在怎么办？",
+            "nextDialogs": [
+              "751890410"
+            ]
+          },
+          "751890410": {
+            "id": "751890410",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「在很久之前，在伟大的君主进入圣山之心以后，也有一些具备权力，却未曾激活这一『许可』的家伙。」",
+            "nextDialogs": [
+              "751890411"
+            ]
+          },
+          "751890411": {
+            "id": "751890411",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「或许，摆放如此显眼的『许可』其实是为此而留…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518903",
+      "subQuestName": "前往激活「许可」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518905",
+      "subQuestName": "前往激活「许可」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518904",
+      "subQuestName": "（test）开启金色esp$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518912",
+      "subQuestName": "（test）关掉金色esp$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518913",
+      "subQuestName": "(test)跟小机器人对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7518902",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890201"
+        ],
+        "dialogs": {
+          "751890201": {
+            "id": "751890201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "听上去你并不喜欢这里。",
+            "nextDialogs": [
+              "751890202"
+            ]
+          },
+          "751890202": {
+            "id": "751890202",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「如果你曾经被当做罪人，那么我相信你也不会喜欢这里的。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7518905",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751890501"
+        ],
+        "dialogs": {
+          "751890501": {
+            "id": "751890501",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「我就知道你们要到这里来，所以就提前来恭迎大驾了…」",
+            "nextDialogs": [
+              "751890502"
+            ]
+          },
+          "751890502": {
+            "id": "751890502",
+            "speakerId": 1003,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751890503"
+            ]
+          },
+          "751890503": {
+            "id": "751890503",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「虽然我知道你只是出于礼貌，但我见到你确实很高兴。」",
+            "nextDialogs": [
+              "751890504"
+            ]
+          },
+          "751890504": {
+            "id": "751890504",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "啊，果然是你，呃，这次你又要叫什么名字？",
+            "nextDialogs": [
+              "751890505"
+            ]
+          },
+          "751890505": {
+            "id": "751890505",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「这次的名字属于『审议之庭』的书记官，实际上在秘源龙仆被发明出来以后，他已经很少亲自动笔。」",
+            "nextDialogs": [
+              "751890506"
+            ]
+          },
+          "751890506": {
+            "id": "751890506",
+            "speakerId": 1002,
+            "speakerName": "秘源龙仆",
+            "text": "「阿万尤…你可以这么称呼。」",
+            "nextDialogs": [
+              "751890507"
+            ]
+          },
+          "751890507": {
+            "id": "751890507",
+            "speakerId": 1001,
+            "speakerName": "派蒙",
+            "text": "好吧，阿万尤，这次你是来帮我们搞定那个什么进入「圣山之心」的许可的吗？",
+            "nextDialogs": [
+              "751890508"
+            ]
+          },
+          "751890508": {
+            "id": "751890508",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「不然『圣山之心』设置的『象拟聚星』会在无许可的进入者进入的瞬间进行攻击…」",
+            "nextDialogs": [
+              "751890509"
+            ]
+          },
+          "751890509": {
+            "id": "751890509",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「…我提取了这具『阿万尤』的记录，进入圣山之心的许可被放置在了审议之庭之上。」",
+            "nextDialogs": [
+              "751890510"
+            ]
+          },
+          "751890510": {
+            "id": "751890510",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「为此我不得不踏足这里…愚昧却自以为是者集合处，无能而为无能自傲者的聚集地。」",
+            "nextDialogs": [
+              "751890511"
+            ]
+          },
+          "751890511": {
+            "id": "751890511",
+            "speakerId": 1000,
+            "speakerName": "「阿万尤」",
+            "text": "「也是这些家伙装模作样，审度同族的所在…」"
+          }
+        }
+      }
+    }
+  ]
+}

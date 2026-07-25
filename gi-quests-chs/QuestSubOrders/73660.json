@@ -1,0 +1,92 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "阿里娜": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7366001",
+      "subQuestName": "将五朵月莲交给阿里娜",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736600101"
+        ],
+        "dialogs": {
+          "736600101": {
+            "id": "736600101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于月莲…",
+            "nextDialogs": [
+              "736600102"
+            ]
+          },
+          "736600102": {
+            "id": "736600102",
+            "speakerId": 1000,
+            "speakerName": "阿里娜",
+            "text": "对，那个收集月莲的委托，委托人就是我。",
+            "nextDialogs": [
+              "736600103"
+            ]
+          },
+          "736600103": {
+            "id": "736600103",
+            "speakerId": 1000,
+            "speakerName": "阿里娜",
+            "text": "你准备好五朵月莲了吗？",
+            "nextDialogs": [
+              "736600105"
+            ]
+          },
+          "736600105": {
+            "id": "736600105",
+            "speakerId": 1000,
+            "speakerName": "阿里娜",
+            "text": "没有五朵的话，装饰房间有点不够，我还想让阿尔明也来看看呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7366002",
+      "subQuestName": "与阿里娜对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736600201"
+        ],
+        "dialogs": {
+          "736600201": {
+            "id": "736600201",
+            "speakerId": 1000,
+            "speakerName": "阿里娜",
+            "text": "太好啦，谢谢你。沙漠里可见不到这么漂亮的月莲，待会儿我就叫阿尔明也来看看。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7366001",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736600107"
+        ],
+        "dialogs": {
+          "736600107": {
+            "id": "736600107",
+            "speakerId": 1000,
+            "speakerName": "阿里娜",
+            "text": "桌子上是摆月莲好看，还是摆须弥蔷薇好看呢？"
+          }
+        }
+      }
+    }
+  ]
+}

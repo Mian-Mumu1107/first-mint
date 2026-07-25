@@ -1,0 +1,101 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "福斯卡里": 6
+  },
+  "subQuests": [
+    {
+      "subId": "7422503",
+      "subQuestName": "(test)隐藏接取运输物资任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7422501",
+      "subQuestName": "(test)福斯卡里被困$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7422502",
+      "subQuestName": "(test)和福斯卡里对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742250201"
+        ],
+        "dialogs": {
+          "742250201": {
+            "id": "742250201",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "谢谢你，恩人。神王在上，我终于得救了！",
+            "nextDialogs": [
+              "742250202"
+            ]
+          },
+          "742250202": {
+            "id": "742250202",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "你是守备这座城市的军团士兵吗，还是路过的正义之士？",
+            "nextDialogs": [
+              "742250203"
+            ]
+          },
+          "742250203": {
+            "id": "742250203",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "总之自我介绍一下，我是法乌斯图斯，神王委任的边境商人。",
+            "nextDialogs": [
+              "742250204"
+            ]
+          },
+          "742250204": {
+            "id": "742250204",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "这次是为了运送南国的香料才来到这里的，没想到刚一上岸就被这些可恶的龙蜥所围困…",
+            "nextDialogs": [
+              "742250205"
+            ]
+          },
+          "742250205": {
+            "id": "742250205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "龙蜥？哪有龙蜥？",
+            "nextDialogs": [
+              "742250206"
+            ]
+          },
+          "742250206": {
+            "id": "742250206",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "嗯？丝毫不将刚刚打倒的敌人放在眼里吗，你果然是位了不起的勇士！",
+            "nextDialogs": [
+              "742250207"
+            ]
+          },
+          "742250207": {
+            "id": "742250207",
+            "speakerId": 1000,
+            "speakerName": "福斯卡里",
+            "text": "请收下这个吧。感谢的话就不多说了，我还得赶紧把货物运进城里呢，说不定在城里我们还会再见的。"
+          }
+        }
+      }
+    }
+  ]
+}

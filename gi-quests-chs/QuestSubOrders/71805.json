@@ -1,0 +1,325 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "天叔": 6,
+    "德安公": 6,
+    "纪芳": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7180501",
+      "subQuestName": "与纪芳对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180502",
+      "subQuestName": "帮纪芳送书",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050401"
+        ],
+        "dialogs": {
+          "718050401": {
+            "id": "718050401",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "年轻人，你有什么事吗？",
+            "nextDialogs": [
+              "718050402"
+            ]
+          },
+          "718050402": {
+            "id": "718050402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这是纪芳给你的书。",
+            "nextDialogs": [
+              "718050403"
+            ]
+          },
+          "718050403": {
+            "id": "718050403",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "这是《帝君尘游记·四》？我记得我早就订了这本书，怎么拖了这么久？",
+            "nextDialogs": [
+              "718050404"
+            ]
+          },
+          "718050404": {
+            "id": "718050404",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "让我看看…咦？居然是初版，难怪现在才送来…",
+            "nextDialogs": [
+              "718050405"
+            ]
+          },
+          "718050405": {
+            "id": "718050405",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "我还以为是因为客人太多，纪芳把这本书的事给忘了呢。",
+            "nextDialogs": [
+              "718050406"
+            ]
+          },
+          "718050406": {
+            "id": "718050406",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "这本书我就收下了，谢谢你，年轻人。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180503",
+      "subQuestName": "帮纪芳送书",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050501"
+        ],
+        "dialogs": {
+          "718050501": {
+            "id": "718050501",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "年轻人，你有什么事吗？",
+            "nextDialogs": [
+              "718050502"
+            ]
+          },
+          "718050502": {
+            "id": "718050502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这是纪芳给你的书。",
+            "nextDialogs": [
+              "718050503"
+            ]
+          },
+          "718050503": {
+            "id": "718050503",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "我想起来了，之前我跟「万文集舍」订了一本《玑衡经》。",
+            "nextDialogs": [
+              "718050504"
+            ]
+          },
+          "718050504": {
+            "id": "718050504",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "没错没错，这就是我要的书，总算送来了。呵呵，我还以为客人太多，纪芳把这本书的事给忘了呢。",
+            "nextDialogs": [
+              "718050505"
+            ]
+          },
+          "718050505": {
+            "id": "718050505",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "送来就好，送来就好…哦唷，这装帧还不错，纪芳有心了。",
+            "nextDialogs": [
+              "718050506"
+            ]
+          },
+          "718050506": {
+            "id": "718050506",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "谢谢你年轻人，这本书我就收下了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180504",
+      "subQuestName": "增加任务进度$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180505",
+      "subQuestName": "回滚保护$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180506",
+      "subQuestName": "向纪芳回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050601"
+        ],
+        "dialogs": {
+          "718050601": {
+            "id": "718050601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于那两本书…",
+            "nextDialogs": [
+              "718050602"
+            ]
+          },
+          "718050602": {
+            "id": "718050602",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "书都送到了吗？",
+            "nextDialogs": [
+              "718050603"
+            ]
+          },
+          "718050603": {
+            "id": "718050603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "都送到了。",
+            "nextDialogs": [
+              "718050604"
+            ]
+          },
+          "718050604": {
+            "id": "718050604",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "谢谢你。「万文集舍」能开到现在，都是多亏了这些老客人的支持。",
+            "nextDialogs": [
+              "718050605"
+            ]
+          },
+          "718050605": {
+            "id": "718050605",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "而且，这些老客人也都是真正爱书的人。能拿到好书，他们应该也会很开心的。",
+            "nextDialogs": [
+              "718050606"
+            ]
+          },
+          "718050606": {
+            "id": "718050606",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "旅行者，谢谢你帮我这个忙，这些报酬请你收下吧。",
+            "nextDialogs": [
+              "718050607"
+            ]
+          },
+          "718050607": {
+            "id": "718050607",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "如果你以后想买书的话，尽管来找我。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180507",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050701"
+        ],
+        "dialogs": {
+          "718050701": {
+            "id": "718050701",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "关于那两本书…",
+            "nextDialogs": [
+              "718050702"
+            ]
+          },
+          "718050702": {
+            "id": "718050702",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "这两位是老客人了，他们订的书我一般都会早点准备。",
+            "nextDialogs": [
+              "718050703"
+            ]
+          },
+          "718050703": {
+            "id": "718050703",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "但突然来了那么多客人，我一下子应付不过来，把这两本书拖了这么久。",
+            "nextDialogs": [
+              "718050704"
+            ]
+          },
+          "718050704": {
+            "id": "718050704",
+            "speakerId": 1002,
+            "speakerName": "纪芳",
+            "text": "他们一定都等得不耐烦了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180508",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050801"
+        ],
+        "dialogs": {
+          "718050801": {
+            "id": "718050801",
+            "speakerId": 1000,
+            "speakerName": "德安公",
+            "text": "帝君…唉…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180509",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718050901"
+        ],
+        "dialogs": {
+          "718050901": {
+            "id": "718050901",
+            "speakerId": 1001,
+            "speakerName": "天叔",
+            "text": "「读史可以知兴衰」…但现在又有多少人，是真的为了知兴衰而读史的呢？"
+          }
+        }
+      }
+    }
+  ]
+}

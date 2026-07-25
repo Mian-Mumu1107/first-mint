@@ -1,0 +1,322 @@
+{
+  "lineCounts": {
+    "(test)屋内": 1,
+    "(test)屋内女人的声音": 1,
+    "Black Screen": 4,
+    "Player": 13,
+    "房屋出售信息": 3,
+    "派蒙": 4,
+    "秋": 20,
+    "茉莉": 34,
+    "阿托斯": 15
+  },
+  "subQuests": [
+    {
+      "subId": "7415704",
+      "subQuestName": "(test)时间经过$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570401"
+        ],
+        "dialogs": {
+          "741570401": {
+            "id": "741570401",
+            "speakerId": 1000,
+            "speakerName": "(test)屋内",
+            "text": "(test)...",
+            "nextDialogs": [
+              "741570402"
+            ]
+          },
+          "741570402": {
+            "id": "741570402",
+            "speakerId": 1001,
+            "speakerName": "(test)屋内女人的声音",
+            "text": "(test)... 您请回吧"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415701",
+      "subQuestName": "(test)超级大圈听八卦",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7415702",
+      "subQuestName": "与茉莉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570201"
+        ],
+        "dialogs": {
+          "741570201": {
+            "id": "741570201",
+            "speakerId": 1002,
+            "speakerName": "房屋出售信息",
+            "text": "此屋待售。价格实惠，欲购从速。",
+            "nextDialogs": [
+              "741570202"
+            ]
+          },
+          "741570202": {
+            "id": "741570202",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}，还有派蒙姐姐，勒鲁瓦先生好像不住在这里了。你们后来见过他吗？",
+            "nextDialogs": [
+              "741570203"
+            ]
+          },
+          "741570203": {
+            "id": "741570203",
+            "speakerId": 1004,
+            "speakerName": "派蒙",
+            "text": "（喂，要说实话吗？）",
+            "nextDialogs": [
+              "741570205",
+              "741570211"
+            ]
+          },
+          "741570205": {
+            "id": "741570205",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "原来你们见过！那你帮我告诉他点心很好吃了吗？"
+          },
+          "741570211": {
+            "id": "741570211",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "啊，那太可惜了，我应该再也见不到勒鲁瓦先生了。",
+            "nextDialogs": [
+              "741570212"
+            ]
+          },
+          "741570212": {
+            "id": "741570212",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "#我带了泡泡桔过来，本来觉得说不定能见到勒鲁瓦先生，既然他不住在这里了，这些桔子就给{M#哥哥姐姐}{F#姐姐们}吧。",
+            "nextDialogs": [
+              "741570213"
+            ]
+          },
+          "741570213": {
+            "id": "741570213",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "不管怎么说，我想我会一直记得勒鲁瓦先生的。再见啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415703",
+      "subQuestName": "(test)自动与夫妇对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570301"
+        ],
+        "dialogs": {
+          "741570301": {
+            "id": "741570301",
+            "speakerId": 1002,
+            "speakerName": "房屋出售信息",
+            "text": "此屋待售。价格实惠，欲购从速。",
+            "nextDialogs": [
+              "741570302"
+            ]
+          },
+          "741570302": {
+            "id": "741570302",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}，还有派蒙姐姐，你们是来找勒鲁瓦先生的吗？",
+            "nextDialogs": [
+              "741570304",
+              "741570306"
+            ]
+          },
+          "741570304": {
+            "id": "741570304",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "不在这里，爸爸说勒鲁瓦先生不会再住在这里了，他住到地下去了。",
+            "nextDialogs": [
+              "741570308"
+            ]
+          },
+          "741570308": {
+            "id": "741570308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "灰河？",
+            "nextDialogs": [
+              "741570309"
+            ]
+          },
+          "741570309": {
+            "id": "741570309",
+            "speakerId": 1004,
+            "speakerName": "派蒙",
+            "text": "是我们之前去过的那个灰河吗？",
+            "nextDialogs": [
+              "741570310"
+            ]
+          },
+          "741570310": {
+            "id": "741570310",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "那个的话，不是的，爸爸说的是更地下的地下。",
+            "nextDialogs": [
+              "741570311"
+            ]
+          },
+          "741570311": {
+            "id": "741570311",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "蒸汽鸟报上说，勒鲁瓦先生爬山的时候从很高的地方摔下来，摔了一个大跟头。",
+            "nextDialogs": [
+              "741570312"
+            ]
+          },
+          "741570312": {
+            "id": "741570312",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "其实我不是很明白摔跟头和搬家之间有什么联系…",
+            "nextDialogs": [
+              "741570313"
+            ]
+          },
+          "741570313": {
+            "id": "741570313",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "对了，我刚刚来的时候见到女婿叔叔了，还有一个非常好心的大姐姐。",
+            "nextDialogs": [
+              "741570314"
+            ]
+          },
+          "741570314": {
+            "id": "741570314",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "大姐姐很喜欢我，她的眼睛和我一样，都是紫色的呢。",
+            "nextDialogs": [
+              "741570315"
+            ]
+          },
+          "741570315": {
+            "id": "741570315",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "她还问了我家住在哪里，说有空会去看望我，做我的好朋友。果然勒鲁瓦先生一家都是很好的人。",
+            "nextDialogs": [
+              "741570316"
+            ]
+          },
+          "741570316": {
+            "id": "741570316",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "唉，本来带了泡泡桔过来想送给勒鲁瓦先生的，现在他不在这里…",
+            "nextDialogs": [
+              "741570317"
+            ]
+          },
+          "741570317": {
+            "id": "741570317",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "#{M#哥哥姐姐}{F#姐姐们}，我送给你们吧？",
+            "nextDialogs": [
+              "741570318"
+            ]
+          },
+          "741570318": {
+            "id": "741570318",
+            "speakerId": 1004,
+            "speakerName": "派蒙",
+            "text": "谢谢你，小茉莉。",
+            "nextDialogs": [
+              "741570319"
+            ]
+          },
+          "741570319": {
+            "id": "741570319",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "不客气啦，爸爸妈妈说对待朋友要慷慨。",
+            "nextDialogs": [
+              "741570320"
+            ]
+          },
+          "741570320": {
+            "id": "741570320",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "今天我又做了一件好事，回去我就把它写到日记里去，开心！",
+            "nextDialogs": [
+              "741570321"
+            ]
+          },
+          "741570321": {
+            "id": "741570321",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "你目送快乐的茉莉走出这条街，勒鲁瓦一家的故事就此结束。"
+          },
+          "741570306": {
+            "id": "741570306",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "#我刚才在想，要不要告诉{M#哥哥姐姐}{F#姐姐们}，勒鲁瓦先生搬家了。",
+            "nextDialogs": [
+              "741570307"
+            ]
+          },
+          "741570307": {
+            "id": "741570307",
+            "speakerId": 1003,
+            "speakerName": "茉莉",
+            "text": "爸爸说勒鲁瓦先生不会再住在这里了，他住到地下去了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415705",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570501"
+        ],
+        "dialogs": {
+          "741570501": {
+            "id": "741570501",
+            "speakerId": 1002,
+            "speakerName": "房屋出售信息",
+            "text": "此屋待售。价格实惠，欲购从速。"
+          }
+        }
+      }
+    }
+  ]
+}

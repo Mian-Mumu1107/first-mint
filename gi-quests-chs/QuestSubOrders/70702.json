@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "康纳": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7070201",
+      "subQuestName": "将十份小麦交给康纳",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707020101"
+        ],
+        "dialogs": {
+          "707020101": {
+            "id": "707020101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于小麦…",
+            "nextDialogs": [
+              "707020102"
+            ]
+          },
+          "707020102": {
+            "id": "707020102",
+            "speakerId": 1000,
+            "speakerName": "康纳",
+            "text": "你…哦，你是看到了我的委托吧。",
+            "nextDialogs": [
+              "707020103"
+            ]
+          },
+          "707020103": {
+            "id": "707020103",
+            "speakerId": 1000,
+            "speakerName": "康纳",
+            "text": "小麦…十份小麦你搜集齐了吗？",
+            "nextDialogs": [
+              "707020106"
+            ]
+          },
+          "707020106": {
+            "id": "707020106",
+            "speakerId": 1000,
+            "speakerName": "康纳",
+            "text": "那你搜集齐了之后，再拿给我吧。我要再去休息一会…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070202",
+      "subQuestName": "与康纳对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707020201"
+        ],
+        "dialogs": {
+          "707020201": {
+            "id": "707020201",
+            "speakerId": 1000,
+            "speakerName": "康纳",
+            "text": "我看看…这些小麦应该够用了。",
+            "nextDialogs": [
+              "707020202"
+            ]
+          },
+          "707020202": {
+            "id": "707020202",
+            "speakerId": 1000,
+            "speakerName": "康纳",
+            "text": "谢谢你，这些东西请你收下吧…"
+          }
+        }
+      }
+    }
+  ]
+}

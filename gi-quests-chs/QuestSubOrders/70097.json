@@ -1,0 +1,55 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "（test）空之神殿游荡npc": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7009701",
+      "subQuestName": "(test)废弃$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700970101"
+        ],
+        "dialogs": {
+          "700970101": {
+            "id": "700970101",
+            "speakerId": 1000,
+            "speakerName": "（test）空之神殿游荡npc",
+            "text": "(test)我原本在此处研究矿石的奥秘，不料跌入此处。这里时不时出现一些异常的现象，我也不知外面发生了什么。",
+            "nextDialogs": [
+              "700970102"
+            ]
+          },
+          "700970102": {
+            "id": "700970102",
+            "speakerId": 1000,
+            "speakerName": "（test）空之神殿游荡npc",
+            "text": "(test)谢谢你救了我",
+            "nextDialogs": [
+              "700970103"
+            ]
+          },
+          "700970103": {
+            "id": "700970103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(test)应该的"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7009702",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

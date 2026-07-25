@@ -1,0 +1,74 @@
+{
+  "lineCounts": {
+    "能源协会勘探员": 2,
+    "能源协会编外人员": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7720001",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "772000101"
+        ],
+        "dialogs": {
+          "772000101": {
+            "id": "772000101",
+            "speakerId": 1000,
+            "speakerName": "能源协会勘探员",
+            "text": "哎呀…我都说了，看到影域得先对周围进行警戒，进行地形勘探，然后再考虑要不要进去…",
+            "nextDialogs": [
+              "772000102"
+            ]
+          },
+          "772000102": {
+            "id": "772000102",
+            "speakerId": 1001,
+            "speakerName": "能源协会编外人员",
+            "text": "我、我小的时候跟我爸常来这附近嘞，没关系的。",
+            "nextDialogs": [
+              "772000103"
+            ]
+          },
+          "772000103": {
+            "id": "772000103",
+            "speakerId": 1001,
+            "speakerName": "能源协会编外人员",
+            "text": "那个上面就是个以前妖精们打架的营地，没什么地形啊，警戒啊，也没什么人到那里嘞。",
+            "nextDialogs": [
+              "772000104"
+            ]
+          },
+          "772000104": {
+            "id": "772000104",
+            "speakerId": 1000,
+            "speakerName": "能源协会勘探员",
+            "text": "即使如此，我们也有我们的规章制度…你到底想不想转正了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7720002",
+      "subQuestName": "(test)废弃$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7720003",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

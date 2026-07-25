@@ -1,0 +1,187 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "困倦的丘丘人": 5,
+    "派蒙": 1,
+    "艾拉·马斯克": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7002101",
+      "subQuestName": "与丘丘人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210101"
+        ],
+        "dialogs": {
+          "700210101": {
+            "id": "700210101",
+            "speakerId": 1000,
+            "speakerName": "困倦的丘丘人",
+            "text": "Mimi muhe <color=#00E1FFFF> gusha unu boya</color>",
+            "nextDialogs": [
+              "700210102"
+            ]
+          },
+          "700210102": {
+            "id": "700210102",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "唔，看起来它需要某种特定颜色的东西…我们来看看它想要什么吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002102",
+      "subQuestName": "向丘丘人交付物品",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210301"
+        ],
+        "dialogs": {
+          "700210301": {
+            "id": "700210301",
+            "speakerId": 1000,
+            "speakerName": "困倦的丘丘人",
+            "text": "yeye tomo! Mosi mita!",
+            "nextDialogs": [
+              "700210302"
+            ]
+          },
+          "700210302": {
+            "id": "700210302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mosi mita!",
+            "nextDialogs": [
+              "700210303"
+            ]
+          },
+          "700210303": {
+            "id": "700210303",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "所以你看，只要用心，还是能好好交流嘛！",
+            "nextDialogs": [
+              "700210304"
+            ]
+          },
+          "700210304": {
+            "id": "700210304",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "Du odomu tomo dala?",
+            "nextDialogs": [
+              "700210305"
+            ]
+          },
+          "700210305": {
+            "id": "700210305",
+            "speakerId": 1000,
+            "speakerName": "困倦的丘丘人",
+            "text": "Mito nye! Beru ya!",
+            "nextDialogs": [
+              "700210306"
+            ]
+          },
+          "700210306": {
+            "id": "700210306",
+            "speakerId": 1001,
+            "speakerName": "艾拉·马斯克",
+            "text": "它说它的朋友知道，并且在地图上为我们标下了位置，我们去找它吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002103",
+      "subQuestName": "（test）成功交付$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7002104",
+      "subQuestName": "（test）失败交付回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210401"
+        ],
+        "dialogs": {
+          "700210401": {
+            "id": "700210401",
+            "speakerId": 1000,
+            "speakerName": "困倦的丘丘人",
+            "text": "Gusha! Mani nye!",
+            "nextDialogs": [
+              "700210402"
+            ]
+          },
+          "700210402": {
+            "id": "700210402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "似乎哪里搞错了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210201"
+        ],
+        "dialogs": {
+          "700210201": {
+            "id": "700210201",
+            "speakerId": 1000,
+            "speakerName": "困倦的丘丘人",
+            "text": "Mani mi <color=#00E1FFFF> gusha unu boya</color> !",
+            "nextDialogs": [
+              "700210202"
+            ]
+          },
+          "700210202": {
+            "id": "700210202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（是这个吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700219901"
+        ],
+        "dialogs": {
+          "700219901": {
+            "id": "700219901",
+            "speakerId": 1002,
+            "speakerName": "派蒙",
+            "text": "欸，快看，在那里！"
+          }
+        }
+      }
+    }
+  ]
+}

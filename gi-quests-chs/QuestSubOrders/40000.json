@@ -1,0 +1,147 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "派蒙": 1,
+    "瑞锦": 9
+  },
+  "subQuests": [
+    {
+      "subId": "4000001",
+      "subQuestName": "(test)派蒙开车用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400000101"
+        ],
+        "dialogs": {
+          "400000101": {
+            "id": "400000101",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？那边怎么围着这么多人…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000002",
+      "subQuestName": "与瑞锦对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400000201"
+        ],
+        "dialogs": {
+          "400000201": {
+            "id": "400000201",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "你好！你也想试玩一下「机关棋谭」吗？",
+            "nextDialogs": [
+              "400000202"
+            ]
+          },
+          "400000202": {
+            "id": "400000202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "什么…「机关棋谭」？",
+            "nextDialogs": [
+              "400000203"
+            ]
+          },
+          "400000203": {
+            "id": "400000203",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "唔，看来你不太了解呢…「机关棋谭」是我发明的一种能在桌子上玩的「游戏」。",
+            "nextDialogs": [
+              "400000204"
+            ]
+          },
+          "400000204": {
+            "id": "400000204",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "你看到桌子上的这些摆件了吗？这些都是「机关棋谭」里要用到的道具。",
+            "nextDialogs": [
+              "400000205"
+            ]
+          },
+          "400000205": {
+            "id": "400000205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "看起来好复杂…",
+            "nextDialogs": [
+              "400000206"
+            ]
+          },
+          "400000206": {
+            "id": "400000206",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "只是看起来复杂啦，其实很容易上手的，只要玩几局就熟悉规则了。",
+            "nextDialogs": [
+              "400000207"
+            ]
+          },
+          "400000207": {
+            "id": "400000207",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "怎么样，你想试试看吗？",
+            "nextDialogs": [
+              "400000210"
+            ]
+          },
+          "400000210": {
+            "id": "400000210",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "没有没有，这不是海灯节嘛，刚好我也想要看看大家对于这个「机关棋谭」的态度…",
+            "nextDialogs": [
+              "400000211"
+            ]
+          },
+          "400000211": {
+            "id": "400000211",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "所以，现在只需要一盏「霄灯」就能玩一局。",
+            "nextDialogs": [
+              "400000212"
+            ]
+          },
+          "400000212": {
+            "id": "400000212",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "如果你想玩的话，拿着「霄灯」来找我就好了。",
+            "nextDialogs": [
+              "400000213"
+            ]
+          },
+          "400000213": {
+            "id": "400000213",
+            "speakerId": 1001,
+            "speakerName": "瑞锦",
+            "text": "怎么样，来试试吧，第一局我就不收你霄灯啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000003",
+      "subQuestName": "试玩「机关棋谭」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

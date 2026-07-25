@@ -1,0 +1,691 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 1,
+    "Player": 11,
+    "小蒙": 8,
+    "派蒙": 4,
+    "璐璐": 19,
+    "阿飞": 28
+  },
+  "subQuests": [
+    {
+      "subId": "2200101",
+      "subQuestName": "与璐璐、阿飞、小蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010101"
+        ],
+        "dialogs": {
+          "220010101": {
+            "id": "220010101",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "小蒙，今天总轮到我做船长了吧？",
+            "nextDialogs": [
+              "220010102"
+            ]
+          },
+          "220010102": {
+            "id": "220010102",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "璐璐，我已经连着好几天做船长了，也该阿飞扮了…",
+            "nextDialogs": [
+              "220010103"
+            ]
+          },
+          "220010103": {
+            "id": "220010103",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "可我觉得小蒙的船长扮得很好呀，我想你接着做船长。",
+            "nextDialogs": [
+              "220010104"
+            ]
+          },
+          "220010104": {
+            "id": "220010104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你们在做什么？",
+            "nextDialogs": [
+              "220010105"
+            ]
+          },
+          "220010105": {
+            "id": "220010105",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，我们在玩游戏。本来说好了这次轮到我做船长…",
+            "nextDialogs": [
+              "220010106"
+            ]
+          },
+          "220010106": {
+            "id": "220010106",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "可璐璐总是说，小蒙扮船长的时候更好玩。",
+            "nextDialogs": [
+              "220010107"
+            ]
+          },
+          "220010107": {
+            "id": "220010107",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "唉，璐璐总是这样…不过，她觉得这样好的话，那就这样吧。",
+            "nextDialogs": [
+              "220010108"
+            ]
+          },
+          "220010108": {
+            "id": "220010108",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，你有空再扮一次海盗吗？",
+            "nextDialogs": [
+              "220010110",
+              "220010112"
+            ]
+          },
+          "220010110": {
+            "id": "220010110",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "结果，我这次还是个服务生。",
+            "nextDialogs": [
+              "220010113"
+            ]
+          },
+          "220010113": {
+            "id": "220010113",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "#就和上次一样，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}准备好了之后，就过来吧。"
+          },
+          "220010112": {
+            "id": "220010112",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "哎呀，我还想做船长呢…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200102",
+      "subQuestName": "与「服务生」阿飞对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010601"
+        ],
+        "dialogs": {
+          "220010601": {
+            "id": "220010601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "准备好了。",
+            "nextDialogs": [
+              "220010602"
+            ]
+          },
+          "220010602": {
+            "id": "220010602",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "行吧，那就开始。",
+            "nextDialogs": [
+              "220010603"
+            ]
+          },
+          "220010603": {
+            "id": "220010603",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "真是的，当服务生有什么好玩的。",
+            "nextDialogs": [
+              "220010604"
+            ]
+          },
+          "220010604": {
+            "id": "220010604",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "璐璐和小蒙就知道自己玩开心…",
+            "nextDialogs": [
+              "220010605"
+            ]
+          },
+          "220010605": {
+            "id": "220010605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那个，抢劫…",
+            "nextDialogs": [
+              "220010606"
+            ]
+          },
+          "220010606": {
+            "id": "220010606",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "海盗吗？对不起，我这个穷服务生没有什么东西给你抢。",
+            "nextDialogs": [
+              "220010607"
+            ]
+          },
+          "220010607": {
+            "id": "220010607",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "哼，如果想抢的话，去找个更有钱的人…等等。",
+            "nextDialogs": [
+              "220010608"
+            ]
+          },
+          "220010608": {
+            "id": "220010608",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "喂！你们是来抢劫的吧，船长很有钱，你们可以去抢他！",
+            "nextDialogs": [
+              "220010609"
+            ]
+          },
+          "220010609": {
+            "id": "220010609",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "咦，咦？！你不是这艘船上的服务生吗？",
+            "nextDialogs": [
+              "220010610"
+            ]
+          },
+          "220010610": {
+            "id": "220010610",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "是啊，所以我知道船长在哪。",
+            "nextDialogs": [
+              "220010611"
+            ]
+          },
+          "220010611": {
+            "id": "220010611",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "哼，不就是个船长吗？有什么了不起的…",
+            "nextDialogs": [
+              "220010612"
+            ]
+          },
+          "220010612": {
+            "id": "220010612",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "走，我带你们去找船长！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200103",
+      "subQuestName": "跟随阿飞找到船长",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010301"
+        ],
+        "dialogs": {
+          "220010301": {
+            "id": "220010301",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "#就是这！船长在这了，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}！",
+            "nextDialogs": [
+              "220010302"
+            ]
+          },
+          "220010302": {
+            "id": "220010302",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "你怎么把海盗带过来了啊！你不是应该带着海盗到处绕圈，然后我带着璐璐跑掉吗？",
+            "nextDialogs": [
+              "220010303"
+            ]
+          },
+          "220010303": {
+            "id": "220010303",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "凭什么你陪着璐璐跑，我就要在这拖住海盗？",
+            "nextDialogs": [
+              "220010304"
+            ]
+          },
+          "220010304": {
+            "id": "220010304",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "那我直接把你交给海盗，我不是一样可以带着璐璐跑吗？",
+            "nextDialogs": [
+              "220010305"
+            ]
+          },
+          "220010305": {
+            "id": "220010305",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "你…北斗姐姐说了，不可以随便出卖朋友！",
+            "nextDialogs": [
+              "220010306"
+            ]
+          },
+          "220010306": {
+            "id": "220010306",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "那北斗姐姐说船长就应该带着人跑吗？！",
+            "nextDialogs": [
+              "220010307"
+            ]
+          },
+          "220010307": {
+            "id": "220010307",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "你…我再也不把莲蓬分给你吃了！",
+            "nextDialogs": [
+              "220010308"
+            ]
+          },
+          "220010308": {
+            "id": "220010308",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "不吃就不吃！谁稀罕似的！",
+            "nextDialogs": [
+              "220010309"
+            ]
+          },
+          "220010309": {
+            "id": "220010309",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "他们怎么就吵起来了…",
+            "nextDialogs": [
+              "220010310"
+            ]
+          },
+          "220010310": {
+            "id": "220010310",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，不用担心，我有办法。",
+            "nextDialogs": [
+              "220010311"
+            ]
+          },
+          "220010311": {
+            "id": "220010311",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "他们最喜欢吃莲蓬了，有好吃的东西，他们绝对会安静下来的。",
+            "nextDialogs": [
+              "220010312"
+            ]
+          },
+          "220010312": {
+            "id": "220010312",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "你能帮我去找点莲蓬回来吗？",
+            "nextDialogs": [
+              "220010314",
+              "220010316"
+            ]
+          },
+          "220010314": {
+            "id": "220010314",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#谢谢{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，请快去快回呀。"
+          },
+          "220010316": {
+            "id": "220010316",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#唔…{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}在说什么呢？那他们最喜欢什么呢？",
+            "nextDialogs": [
+              "220010317"
+            ]
+          },
+          "220010317": {
+            "id": "220010317",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "总之，请先找点莲蓬来吧，总不能让他们总是这么吵呀。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200106",
+      "subQuestName": "与「船长」小蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2200104",
+      "subQuestName": "找到莲蓬",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010401"
+        ],
+        "dialogs": {
+          "220010401": {
+            "id": "220010401",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，你找到莲蓬了吗？",
+            "nextDialogs": [
+              "220010402"
+            ]
+          },
+          "220010402": {
+            "id": "220010402",
+            "speakerId": 1004,
+            "speakerName": "<UNKNOWN>",
+            "text": "找到了。",
+            "nextDialogs": [
+              "220010403"
+            ]
+          },
+          "220010403": {
+            "id": "220010403",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "你…！",
+            "nextDialogs": [
+              "220010404"
+            ]
+          },
+          "220010404": {
+            "id": "220010404",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "你…！",
+            "nextDialogs": [
+              "220010405"
+            ]
+          },
+          "220010405": {
+            "id": "220010405",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "你们别吵了，吵了这么久不累吗？",
+            "nextDialogs": [
+              "220010406"
+            ]
+          },
+          "220010406": {
+            "id": "220010406",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "只是玩个游戏，别这么生气，大家都是朋友呀。",
+            "nextDialogs": [
+              "220010407"
+            ]
+          },
+          "220010407": {
+            "id": "220010407",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "喏，新摘的莲蓬，快点吃吧。",
+            "nextDialogs": [
+              "220010408"
+            ]
+          },
+          "220010408": {
+            "id": "220010408",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "吃完了之后，我们再好好商量一下。",
+            "nextDialogs": [
+              "220010409"
+            ]
+          },
+          "220010409": {
+            "id": "220010409",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "排好谁做船长，谁做服务员的顺序，不就好了吗？",
+            "nextDialogs": [
+              "220010410"
+            ]
+          },
+          "220010410": {
+            "id": "220010410",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "好吧…",
+            "nextDialogs": [
+              "220010411"
+            ]
+          },
+          "220010411": {
+            "id": "220010411",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "嗯…",
+            "nextDialogs": [
+              "220010412"
+            ]
+          },
+          "220010412": {
+            "id": "220010412",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "真的安静下来了…",
+            "nextDialogs": [
+              "220010413"
+            ]
+          },
+          "220010413": {
+            "id": "220010413",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "怎么样，我就说吧。",
+            "nextDialogs": [
+              "220010415",
+              "220010417"
+            ]
+          },
+          "220010415": {
+            "id": "220010415",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "我们一起玩了很久，我当然知道啦。"
+          },
+          "220010417": {
+            "id": "220010417",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#谢谢{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，北斗姐姐才厉害呢。",
+            "nextDialogs": [
+              "220010418"
+            ]
+          },
+          "220010418": {
+            "id": "220010418",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "我长大之后，也能成为她那样的人吗…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200105",
+      "subQuestName": "安抚小蒙和阿飞",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2200102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010201"
+        ],
+        "dialogs": {
+          "220010201": {
+            "id": "220010201",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "你准备好了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200107",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010701"
+        ],
+        "dialogs": {
+          "220010701": {
+            "id": "220010701",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "真讨厌！叛徒！",
+            "nextDialogs": [
+              "220010702"
+            ]
+          },
+          "220010702": {
+            "id": "220010702",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "哼，就只准你玩的开心吗？",
+            "nextDialogs": [
+              "220010703"
+            ]
+          },
+          "220010703": {
+            "id": "220010703",
+            "speakerId": 1001,
+            "speakerName": "小蒙",
+            "text": "我再也不分你莲蓬吃了！",
+            "nextDialogs": [
+              "220010704"
+            ]
+          },
+          "220010704": {
+            "id": "220010704",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "不吃就不吃，谁稀罕似的！",
+            "nextDialogs": [
+              "220010705"
+            ]
+          },
+          "220010705": {
+            "id": "220010705",
+            "speakerId": 1003,
+            "speakerName": "派蒙",
+            "text": "哈哈…看来一时半会是停不下来了呢…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200108",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010801"
+        ],
+        "dialogs": {
+          "220010801": {
+            "id": "220010801",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，你找到莲蓬了吗？",
+            "nextDialogs": [
+              "220010802"
+            ]
+          },
+          "220010802": {
+            "id": "220010802",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还没有…",
+            "nextDialogs": [
+              "220010803"
+            ]
+          },
+          "220010803": {
+            "id": "220010803",
+            "speakerId": 1002,
+            "speakerName": "璐璐",
+            "text": "请尽量快些吧，他们还在吵个不停呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2200109",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "220010901"
+        ],
+        "dialogs": {
+          "220010901": {
+            "id": "220010901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还没有…",
+            "nextDialogs": [
+              "220010902"
+            ]
+          },
+          "220010902": {
+            "id": "220010902",
+            "speakerId": 1000,
+            "speakerName": "阿飞",
+            "text": "没关系，慢慢准备吧，反正我也没什么兴趣…"
+          }
+        }
+      }
+    }
+  ]
+}

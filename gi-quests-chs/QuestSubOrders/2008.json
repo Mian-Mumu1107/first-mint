@@ -1,0 +1,584 @@
+{
+  "lineCounts": {
+    "Player": 6,
+    "「式大将」": 2,
+    "太郎丸": 4,
+    "派蒙": 15,
+    "渡部": 8,
+    "神里绫华": 13
+  },
+  "subQuests": [
+    {
+      "subId": "200807",
+      "subQuestName": "(test)特殊显示逻辑控制任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200805",
+      "subQuestName": "等到第二天，再次前往木漏茶室",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200806",
+      "subQuestName": "前往木漏茶室",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20080301"
+        ],
+        "dialogs": {
+          "20080301": {
+            "id": "20080301",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "奇怪，今天怎么这么安静，和平时完全不一样。",
+            "nextDialogs": [
+              "20080302"
+            ]
+          },
+          "20080302": {
+            "id": "20080302",
+            "speakerId": 1001,
+            "speakerName": "太郎丸",
+            "text": "汪汪…汪！",
+            "nextDialogs": [
+              "20080303"
+            ]
+          },
+          "20080303": {
+            "id": "20080303",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "难道说，又是这种双簧演出吗？",
+            "nextDialogs": [
+              "20080304"
+            ]
+          },
+          "20080304": {
+            "id": "20080304",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "托马——托马——",
+            "nextDialogs": [
+              "20080305"
+            ]
+          },
+          "20080305": {
+            "id": "20080305",
+            "speakerId": 1001,
+            "speakerName": "太郎丸",
+            "text": "汪！汪！…汪！",
+            "nextDialogs": [
+              "20080306"
+            ]
+          },
+          "20080306": {
+            "id": "20080306",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "喂——不要再躲了，我已经看见你啦——",
+            "nextDialogs": [
+              "20080307"
+            ]
+          },
+          "20080307": {
+            "id": "20080307",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "嗯？完全没有人回应，托马跑到哪里去了？",
+            "nextDialogs": [
+              "20080308"
+            ]
+          },
+          "20080308": {
+            "id": "20080308",
+            "speakerId": 1001,
+            "speakerName": "太郎丸",
+            "text": "汪汪汪！汪！",
+            "nextDialogs": [
+              "20080309"
+            ]
+          },
+          "20080309": {
+            "id": "20080309",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "咦？平时一直那么老实的太郎丸，今天好像很急躁的样子…",
+            "nextDialogs": [
+              "20080310"
+            ]
+          },
+          "20080310": {
+            "id": "20080310",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "两位，有看到托马吗？",
+            "nextDialogs": [
+              "20080311"
+            ]
+          },
+          "20080311": {
+            "id": "20080311",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "我们还以为他跟你在一起呢，发生什么事了吗？",
+            "nextDialogs": [
+              "20080312"
+            ]
+          },
+          "20080312": {
+            "id": "20080312",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "糟糕…我在来这里的路上，听说托马被天领奉行的人抓走了。",
+            "nextDialogs": [
+              "20080313"
+            ]
+          },
+          "20080313": {
+            "id": "20080313",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "我没办法判断消息是真是假，就立刻跑过来确认。如果托马没有按照约定出现在这里，意味着传闻大概率是真的。",
+            "nextDialogs": [
+              "20080314"
+            ]
+          },
+          "20080314": {
+            "id": "20080314",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "雷电将军会在千手百眼神像前，举办第一百颗神之眼的「狩眼仪式」。",
+            "nextDialogs": [
+              "20080315"
+            ]
+          },
+          "20080315": {
+            "id": "20080315",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "而那第一百颗神之眼的持有者…也就是即将被公开狩眼的对象，恐怕…就是托马。",
+            "nextDialogs": [
+              "20080316"
+            ]
+          },
+          "20080316": {
+            "id": "20080316",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "难道托马之前听说的，天领奉行正在筹备的「仪式」，刚好就是为他准备的「狩眼仪式」？",
+            "nextDialogs": [
+              "20080317"
+            ]
+          },
+          "20080317": {
+            "id": "20080317",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "应该…是的，将军和天领奉行的人准备以第一百颗神之眼的「狩眼仪式」，来证明眼狩令的阶段性成果。",
+            "nextDialogs": [
+              "20080318"
+            ]
+          },
+          "20080318": {
+            "id": "20080318",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "…不行，我必须去救他！",
+            "nextDialogs": [
+              "20080319"
+            ]
+          },
+          "20080319": {
+            "id": "20080319",
+            "speakerId": 1001,
+            "speakerName": "太郎丸",
+            "text": "汪汪！汪！",
+            "nextDialogs": [
+              "20080320"
+            ]
+          },
+          "20080320": {
+            "id": "20080320",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "冷静。",
+            "nextDialogs": [
+              "20080321"
+            ]
+          },
+          "20080321": {
+            "id": "20080321",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "但「白鹭公主」也代表了社奉行。",
+            "nextDialogs": [
+              "20080322"
+            ]
+          },
+          "20080322": {
+            "id": "20080322",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "是呀，如果你亲自过去的话，不就代表社奉行要和雷电将军为敌了吗？",
+            "nextDialogs": [
+              "20080323"
+            ]
+          },
+          "20080323": {
+            "id": "20080323",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "公然反抗雷电将军的话，社奉行那些普通人也会被牵连进来吧…",
+            "nextDialogs": [
+              "20080324"
+            ]
+          },
+          "20080324": {
+            "id": "20080324",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "这也是没办法的事…时间已经不多了，仪式就要开始，我不能就这样放弃托马。",
+            "nextDialogs": [
+              "20080325"
+            ]
+          },
+          "20080325": {
+            "id": "20080325",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "他是我的朋友，明明不久之前，我们大家还一起…",
+            "nextDialogs": [
+              "20080326"
+            ]
+          },
+          "20080326": {
+            "id": "20080326",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他也是我的朋友，我去救他。",
+            "nextDialogs": [
+              "20080327"
+            ]
+          },
+          "20080327": {
+            "id": "20080327",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "可是…",
+            "nextDialogs": [
+              "20080328"
+            ]
+          },
+          "20080328": {
+            "id": "20080328",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你刚才说过吧？——时间不多了。",
+            "nextDialogs": [
+              "20080329"
+            ]
+          },
+          "20080329": {
+            "id": "20080329",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "……",
+            "nextDialogs": [
+              "20080330"
+            ]
+          },
+          "20080330": {
+            "id": "20080330",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "…嗯，我会…等你们平安回来。",
+            "nextDialogs": [
+              "20080331"
+            ]
+          },
+          "20080331": {
+            "id": "20080331",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "放心吧，绫华，事关朋友的性命，我们绝对不会失手的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200801",
+      "subQuestName": "前往「狩眼仪式」现场",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200802",
+      "subQuestName": "（test)进入雷电将军地城$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200803",
+      "subQuestName": "击败雷电将军",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200804",
+      "subQuestName": "救出托马$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200808",
+      "subQuestName": "救出托马",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "200804",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20080401"
+        ],
+        "dialogs": {
+          "20080401": {
+            "id": "20080401",
+            "speakerId": 1002,
+            "speakerName": "神里绫华",
+            "text": "请务必小心…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20089901"
+        ],
+        "dialogs": {
+          "20089901": {
+            "id": "20089901",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "在稻妻城的日子好像也还不错呢，不过…好像到了托马和绫华所说的「下一步行动」的时间了吧？",
+            "nextDialogs": [
+              "20089902"
+            ]
+          },
+          "20089902": {
+            "id": "20089902",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "还是到木漏茶室集合，准备好了就去见他们吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4002015",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400201501"
+        ],
+        "dialogs": {
+          "400201501": {
+            "id": "400201501",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "唉！这次的失败，真是耻辱！",
+            "nextDialogs": [
+              "400201502"
+            ]
+          },
+          "400201502": {
+            "id": "400201502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于天领奉行…",
+            "nextDialogs": [
+              "400201503"
+            ]
+          },
+          "400201503": {
+            "id": "400201503",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "如你所见，时局改变了，天领奉行正对稻妻全境重新布防。",
+            "nextDialogs": [
+              "400201504"
+            ]
+          },
+          "400201504": {
+            "id": "400201504",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "虽说我们远不如九条裟罗大人那般迅捷骁勇，但也要倾尽全力，守护稻妻，绝不能让魔物再猖狂下去了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4002115",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400211501"
+        ],
+        "dialogs": {
+          "400211501": {
+            "id": "400211501",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "不愧是九条裟罗大人！她抽调来的人手，全都是战斗经验丰富的老兵！",
+            "nextDialogs": [
+              "400211502"
+            ]
+          },
+          "400211502": {
+            "id": "400211502",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "有这些老兵坐镇，再多魔物也没法攻破这道关口！",
+            "nextDialogs": [
+              "400211503"
+            ]
+          },
+          "400211503": {
+            "id": "400211503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于你的伤势…",
+            "nextDialogs": [
+              "400211504"
+            ]
+          },
+          "400211504": {
+            "id": "400211504",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "这点轻伤不碍事！关键时刻，天领奉行的武士可不能退缩！",
+            "nextDialogs": [
+              "400211505"
+            ]
+          },
+          "400211505": {
+            "id": "400211505",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "好强的气势！真让人安心呢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4002212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400221201"
+        ],
+        "dialogs": {
+          "400221201": {
+            "id": "400221201",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "局势似乎稳定下来了…这样一来，九条裟罗大人就不必心急了。",
+            "nextDialogs": [
+              "400221202"
+            ]
+          },
+          "400221202": {
+            "id": "400221202",
+            "speakerId": 1003,
+            "speakerName": "渡部",
+            "text": "稳妥第一，等到九条裟罗大人将城中事务都处理好，我们再发起总攻，一举拿下这座秘境！",
+            "nextDialogs": [
+              "400221203"
+            ]
+          },
+          "400221203": {
+            "id": "400221203",
+            "speakerId": 1000,
+            "speakerName": "派蒙",
+            "text": "他们还真是斗志昂扬啊，我们得抓紧时间了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4002303",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400230301"
+        ],
+        "dialogs": {
+          "400230301": {
+            "id": "400230301",
+            "speakerId": 1004,
+            "speakerName": "「式大将」",
+            "text": "追求极致武艺的人，都能在这座「诀箓阴阳寮」中，得到最有效的锤炼。",
+            "nextDialogs": [
+              "400230302"
+            ]
+          },
+          "400230302": {
+            "id": "400230302",
+            "speakerId": 1004,
+            "speakerName": "「式大将」",
+            "text": "当然，要是急于挑战强敌，反而有可能遭遇挫折。还请量力而行，不必勉强自己。"
+          }
+        }
+      }
+    }
+  ]
+}
