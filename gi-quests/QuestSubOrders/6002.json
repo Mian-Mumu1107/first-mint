@@ -1,0 +1,5307 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 1,
+    "???": 6,
+    "Aarto": 1,
+    "Alarm": 1,
+    "Flins": 8,
+    "Jahoda": 197,
+    "Kunegunda": 1,
+    "Lauha": 1,
+    "Lauma": 133,
+    "Maciej": 1,
+    "Marionette": 19,
+    "Metal Door": 2,
+    "Nefer": 17,
+    "Paimon": 98,
+    "Player": 86,
+    "Prohor": 1,
+    "Sibling": 12,
+    "Siemomysl": 1,
+    "Snjezana": 1,
+    "Talvikki": 3,
+    "Vanamo": 1,
+    "Vilemina": 42
+  },
+  "subQuests": [
+    {
+      "subId": "600201",
+      "subQuestName": "Wait until the next day (20:00 – 23:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020101"
+        ],
+        "dialogs": {
+          "60020101": {
+            "id": "60020101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Here, bucket bucket bucket... Where are you hiding?",
+            "nextDialogs": [
+              "60020102"
+            ]
+          },
+          "60020102": {
+            "id": "60020102",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Judging from the concentration of kuuvahki... over there.",
+            "nextDialogs": [
+              "60020103"
+            ]
+          },
+          "60020103": {
+            "id": "60020103",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Wow! You can sense that, Lauma Doe? That's incredible...",
+            "nextDialogs": [
+              "60020104"
+            ]
+          },
+          "60020104": {
+            "id": "60020104",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Let's move the recon bots above them out of the way first."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600202",
+      "subQuestName": "Head to the meet-up point",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020202"
+        ],
+        "dialogs": {
+          "60020202": {
+            "id": "60020202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? How come you're here by yourself, Lauma? Where's Jahoda?",
+            "nextDialogs": [
+              "60020203"
+            ]
+          },
+          "60020203": {
+            "id": "60020203",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I haven't seen her.",
+            "nextDialogs": [
+              "60020204"
+            ]
+          },
+          "60020204": {
+            "id": "60020204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Seriously? Don't tell Paimon she's ditched us on our first mission together...",
+            "nextDialogs": [
+              "60020205"
+            ]
+          },
+          "60020205": {
+            "id": "60020205",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I don't believe so. Nefer and I have our differences, but that shouldn't interfere with our shared objective.",
+            "nextDialogs": [
+              "60020206"
+            ]
+          },
+          "60020206": {
+            "id": "60020206",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Recovering the relic is my duty — but as far as she's concerned, there's plenty to gain here too.",
+            "nextDialogs": [
+              "60020207"
+            ]
+          },
+          "60020207": {
+            "id": "60020207",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "In Nod-Krai, it's common knowledge that the Curatorium has a nose for profit and opportunity... the same way aphids flit from flower to flower in a neverending quest to make honey.",
+            "nextDialogs": [
+              "60020208"
+            ]
+          },
+          "60020208": {
+            "id": "60020208",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh. Sounds like you know her pretty well...",
+            "nextDialogs": [
+              "60020211"
+            ]
+          },
+          "60020211": {
+            "id": "60020211",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Still, Jahoda sure is taking her sweet time...",
+            "nextDialogs": [
+              "60020212"
+            ]
+          },
+          "60020212": {
+            "id": "60020212",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...Hm?",
+            "nextDialogs": [
+              "60020213"
+            ]
+          },
+          "60020213": {
+            "id": "60020213",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60020214"
+            ]
+          },
+          "60020214": {
+            "id": "60020214",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...I believe we may have misjudged and underestimated Miss Jahoda.",
+            "nextDialogs": [
+              "60020215"
+            ]
+          },
+          "60020215": {
+            "id": "60020215",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? What do you mean?",
+            "nextDialogs": [
+              "60020216"
+            ]
+          },
+          "60020216": {
+            "id": "60020216",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "As a... former employee of the Curatorium, I'm confident that she possesses both professionalism and integrity in ample measure.",
+            "nextDialogs": [
+              "60020217"
+            ]
+          },
+          "60020217": {
+            "id": "60020217",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "(...!)",
+            "nextDialogs": [
+              "60020218"
+            ]
+          },
+          "60020218": {
+            "id": "60020218",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh? What was that noise?",
+            "nextDialogs": [
+              "60020219"
+            ]
+          },
+          "60020219": {
+            "id": "60020219",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "The sound of a wavering conscience, perhaps?",
+            "nextDialogs": [
+              "60020220"
+            ]
+          },
+          "60020220": {
+            "id": "60020220",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "Aah!",
+            "nextDialogs": [
+              "60020221"
+            ]
+          },
+          "60020221": {
+            "id": "60020221",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, something just fell down!",
+            "nextDialogs": [
+              "60020222"
+            ]
+          },
+          "60020222": {
+            "id": "60020222",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Ahaha... Hi—Hello everybody!",
+            "nextDialogs": [
+              "60020223"
+            ]
+          },
+          "60020223": {
+            "id": "60020223",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What kind of an entrance is that!? Wait a second... Have you been hiding nearby this whole time?",
+            "nextDialogs": [
+              "60020224"
+            ]
+          },
+          "60020224": {
+            "id": "60020224",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Uh... Y—Yeah! I was just, uh... scouting things out from up high!",
+            "nextDialogs": [
+              "60020225"
+            ]
+          },
+          "60020225": {
+            "id": "60020225",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Darn it...! How did Jane Doe even notice me up there?)",
+            "nextDialogs": [
+              "60020226"
+            ]
+          },
+          "60020226": {
+            "id": "60020226",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(*sigh*... Can't believe I only realized I'd run out of smoke bombs this morning... What if something goes wrong inside? How am I supposed to make a quick getaway now...?)",
+            "nextDialogs": [
+              "60020227"
+            ]
+          },
+          "60020227": {
+            "id": "60020227",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Thought I could just hang back and wait for the clients to get cold feet, but nope... Turns out they're all completely fearless! Don't they know how scary the Fatui are!?)",
+            "nextDialogs": [
+              "60020228"
+            ]
+          },
+          "60020228": {
+            "id": "60020228",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Um... Really sorry, everyone... Truth is, just as I was heading out this morning, I discovered I'd run out of a super important, completely essential, absolutely indispensable piece of equipment...",
+            "nextDialogs": [
+              "60020229"
+            ]
+          },
+          "60020229": {
+            "id": "60020229",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... So, what are we gonna do?",
+            "nextDialogs": [
+              "60020230"
+            ]
+          },
+          "60020230": {
+            "id": "60020230",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hehe... Well, as I see it, there are two options!",
+            "nextDialogs": [
+              "60020231"
+            ]
+          },
+          "60020231": {
+            "id": "60020231",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Plan A is... We take a detour to Nasha Town to restock. Though who knows if any shops will still be open this late...",
+            "nextDialogs": [
+              "60020232"
+            ]
+          },
+          "60020232": {
+            "id": "60020232",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Plan B is... We call it quits right here, disband the team, and all go home! My place is only, like, a ten-minute walk from here, so...",
+            "nextDialogs": [
+              "60020233"
+            ]
+          },
+          "60020233": {
+            "id": "60020233",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Personally, I vote Plan B! Bada bing, bada boom! Maximum efficiency, minimal effort!",
+            "nextDialogs": [
+              "60020234"
+            ]
+          },
+          "60020234": {
+            "id": "60020234",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Don't try to solve your problems by running away!",
+            "nextDialogs": [
+              "60020235"
+            ]
+          },
+          "60020235": {
+            "id": "60020235",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Neither of those \"plans\" sound great...",
+            "nextDialogs": [
+              "60020236"
+            ]
+          },
+          "60020236": {
+            "id": "60020236",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Not a fan of either? Then I guess our only option is to fall back on Plan J — that's J for Jahoda, by the way!",
+            "nextDialogs": [
+              "60020237"
+            ]
+          },
+          "60020237": {
+            "id": "60020237",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... Why didn't you just tell us that was an option in the first place?",
+            "nextDialogs": [
+              "60020238"
+            ]
+          },
+          "60020238": {
+            "id": "60020238",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "C'mon, that would've totally ruined the surprise! Boss pulls this trick all the time, and it's always the clueless ones who end up praising her to the skies...",
+            "nextDialogs": [
+              "60020239"
+            ]
+          },
+          "60020239": {
+            "id": "60020239",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Feels like you just threw shade at a whole lot of people...",
+            "nextDialogs": [
+              "60020240"
+            ]
+          },
+          "60020240": {
+            "id": "60020240",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I have faith in your professionalism, Jahoda. You don't need those flashy tricks — your abilities alone are more than enough to earn our respect.",
+            "nextDialogs": [
+              "60020241"
+            ]
+          },
+          "60020241": {
+            "id": "60020241",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Huh, this Jane Doe sure has an eye for talent... Speaking of which, maybe it's time I started calling her something nicer?)",
+            "nextDialogs": [
+              "60020242"
+            ]
+          },
+          "60020242": {
+            "id": "60020242",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hehe... You really mean that, Ja— I mean, Lauma Doe?",
+            "nextDialogs": [
+              "60020243"
+            ]
+          },
+          "60020243": {
+            "id": "60020243",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I do.",
+            "nextDialogs": [
+              "60020244"
+            ]
+          },
+          "60020244": {
+            "id": "60020244",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Tell you what, it's not every day you get to work alongside such considerate clients! I have a feeling we're gonna make a great team!",
+            "nextDialogs": [
+              "60020245"
+            ]
+          },
+          "60020245": {
+            "id": "60020245",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Plan J is this: we find our way in through the freight access on the facility's east side!",
+            "nextDialogs": [
+              "60020246"
+            ]
+          },
+          "60020246": {
+            "id": "60020246",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "It's tucked away from view, and security's lighter at night. I've prepared some special gadgets too, so we should be ready for anything.",
+            "nextDialogs": [
+              "60020247"
+            ]
+          },
+          "60020247": {
+            "id": "60020247",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "If we want this to go without a hitch, we'll need to work together every step of the way — so everyone, stick close behind me.",
+            "nextDialogs": [
+              "60020248"
+            ]
+          },
+          "60020248": {
+            "id": "60020248",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Now that finally sounds like a real pro talking...",
+            "nextDialogs": [
+              "60020249"
+            ]
+          },
+          "60020249": {
+            "id": "60020249",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey! You saying I didn't before!?",
+            "nextDialogs": [
+              "60020250"
+            ]
+          },
+          "60020250": {
+            "id": "60020250",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... Kinda, yeah...",
+            "nextDialogs": [
+              "60020251"
+            ]
+          },
+          "60020251": {
+            "id": "60020251",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "You...! Ugh... Never mind. A top-tier treasure hunter like me never lets the naysayers get to her...",
+            "nextDialogs": [
+              "60020252"
+            ]
+          },
+          "60020252": {
+            "id": "60020252",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Alright, let's go over what we agreed on yesterday...",
+            "nextDialogs": [
+              "60020253"
+            ]
+          },
+          "60020253": {
+            "id": "60020253",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The goal of infiltrating the Kuuvahki Experimental Design Bureau is to locate and, if possible, recover the relic that the Fatui stole.",
+            "nextDialogs": [
+              "60020254"
+            ]
+          },
+          "60020254": {
+            "id": "60020254",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "We also need to figure out why they built the facility in the first place. I'm worried that they've set their sights on the Ancient Moon's Remnants on Hiisi Island, too.",
+            "nextDialogs": [
+              "60020255"
+            ]
+          },
+          "60020255": {
+            "id": "60020255",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Well, now that we've got a plan, time to get this show on the road.."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600216",
+      "subQuestName": "Talk to Jahoda once you're ready",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021601"
+        ],
+        "dialogs": {
+          "60021601": {
+            "id": "60021601",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021604"
+            ]
+          },
+          "60021604": {
+            "id": "60021604",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Yes... and in your final moment of hesitation, I... took the chance...",
+            "nextDialogs": [
+              "60021605"
+            ]
+          },
+          "60021605": {
+            "id": "60021605",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...And then you gave it to the Fatui!?",
+            "nextDialogs": [
+              "60021606"
+            ]
+          },
+          "60021606": {
+            "id": "60021606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But... when we talked to you before, you seemed so genuinely worried about Lauma...",
+            "nextDialogs": [
+              "60021607"
+            ]
+          },
+          "60021607": {
+            "id": "60021607",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Because I... I thought she was as fed up with the Frostmoon Scions as I was!",
+            "nextDialogs": [
+              "60021608"
+            ]
+          },
+          "60021608": {
+            "id": "60021608",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "We grew up together, Lauma. I know you were chosen to be the next Moonchanter when you were just a child. They never gave you a choice in that.",
+            "nextDialogs": [
+              "60021609"
+            ]
+          },
+          "60021609": {
+            "id": "60021609",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "I saw the look in your eyes when you were treating that child... that sense of helplessness. Surely you, too, must see that this blind, inherited faith of ours is simply holding us back...",
+            "nextDialogs": [
+              "60021610"
+            ]
+          },
+          "60021610": {
+            "id": "60021610",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "If our prayers are never answered... then why keep praying? Do they really deserve all of your devotion?",
+            "nextDialogs": [
+              "60021611"
+            ]
+          },
+          "60021611": {
+            "id": "60021611",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Or... are you trapped by the responsibilities they imposed on you?",
+            "nextDialogs": [
+              "60021612"
+            ]
+          },
+          "60021612": {
+            "id": "60021612",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021613"
+            ]
+          },
+          "60021613": {
+            "id": "60021613",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "So those are your reasons for wanting to leave the Frostmoon Scions?",
+            "nextDialogs": [
+              "60021614"
+            ]
+          },
+          "60021614": {
+            "id": "60021614",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Isn't that reason enough!?",
+            "nextDialogs": [
+              "60021615"
+            ]
+          },
+          "60021615": {
+            "id": "60021615",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "*sigh*... When we pray to the moon, we do so to show our gratitude for the life it granted us long ago. It reminds us to strive for something higher within ourselves...",
+            "nextDialogs": [
+              "60021616"
+            ]
+          },
+          "60021616": {
+            "id": "60021616",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "But I know that's not what you want to hear. You're right, Vilemina... I have indeed kept secrets from you.",
+            "nextDialogs": [
+              "60021617"
+            ]
+          },
+          "60021617": {
+            "id": "60021617",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Lauma...)",
+            "nextDialogs": [
+              "60021618"
+            ]
+          },
+          "60021618": {
+            "id": "60021618",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "I knew it... You don't want to be the Moonchanter, do you...?",
+            "nextDialogs": [
+              "60021619"
+            ]
+          },
+          "60021619": {
+            "id": "60021619",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "No, that's not it. I'm talking about the fact that the moon in the sky isn't real.",
+            "nextDialogs": [
+              "60021620"
+            ]
+          },
+          "60021620": {
+            "id": "60021620",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "What...? Y—You're saying... Huh?",
+            "nextDialogs": [
+              "60021621"
+            ]
+          },
+          "60021621": {
+            "id": "60021621",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Ugh, I've completely lost the thread now... but do we really have to do this here? What if a Harbinger shows up... I'm not cut out for fighting big bosses!)",
+            "nextDialogs": [
+              "60021622"
+            ]
+          },
+          "60021622": {
+            "id": "60021622",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "The pain you sensed in me... was the pain of hiding this truth.",
+            "nextDialogs": [
+              "60021623"
+            ]
+          },
+          "60021623": {
+            "id": "60021623",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "If what you're saying is true, then you already knew that the Frostmoon Scions wouldn't believe any of this... Why didn't you just leave, like I did?",
+            "nextDialogs": [
+              "60021624"
+            ]
+          },
+          "60021624": {
+            "id": "60021624",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "You don't understand, do you? That's the difference between us, Vilemina — I care about the Frostmoon Scions. They're family to me.",
+            "nextDialogs": [
+              "60021625"
+            ]
+          },
+          "60021625": {
+            "id": "60021625",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...",
+            "nextDialogs": [
+              "60021626"
+            ]
+          },
+          "60021626": {
+            "id": "60021626",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "It hurts because I care... and that's why I chose to hide the truth. But now I understand — that was a mistake.",
+            "nextDialogs": [
+              "60021627"
+            ]
+          },
+          "60021627": {
+            "id": "60021627",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "My family deserves to know the truth. I shouldn't have tried to hold it all together with empty prayers...",
+            "nextDialogs": [
+              "60021628"
+            ]
+          },
+          "60021628": {
+            "id": "60021628",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Hah... Are you trying to say that I only ever cared about myself?",
+            "nextDialogs": [
+              "60021629"
+            ]
+          },
+          "60021629": {
+            "id": "60021629",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "There's nothing wrong with that, in itself. No one would have tried to stop you from leaving... but you did not have to stab us in the back like this.",
+            "nextDialogs": [
+              "60021630"
+            ]
+          },
+          "60021630": {
+            "id": "60021630",
+            "speakerId": 1005,
+            "speakerName": "Alarm",
+            "text": "...!",
+            "nextDialogs": [
+              "60021631"
+            ]
+          },
+          "60021631": {
+            "id": "60021631",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...We've been spotted!",
+            "nextDialogs": [
+              "60021632"
+            ]
+          },
+          "60021632": {
+            "id": "60021632",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(I knew it, I just knew it! Ugh, what now!? If a Harbinger shows up, I'm outta here. No darned relic is worth dying over!)",
+            "nextDialogs": [
+              "60021633"
+            ]
+          },
+          "60021633": {
+            "id": "60021633",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...Looks like I misjudged you, Lauma. I didn't think you had it in you to stand up to your fate.",
+            "nextDialogs": [
+              "60021634"
+            ]
+          },
+          "60021634": {
+            "id": "60021634",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Turns out... you are a great Moonchanter, after all.",
+            "nextDialogs": [
+              "60021635"
+            ]
+          },
+          "60021635": {
+            "id": "60021635",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "But you were right about one thing — I haven't considered Hiisi Island my home for a long, long time now.",
+            "nextDialogs": [
+              "60021636"
+            ]
+          },
+          "60021636": {
+            "id": "60021636",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Bosses, time to go!",
+            "nextDialogs": [
+              "60021637"
+            ]
+          },
+          "60021637": {
+            "id": "60021637",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I will change the Frostmoon Scions, Vilemina... as soon as the new moon rises.",
+            "nextDialogs": [
+              "60021638"
+            ]
+          },
+          "60021638": {
+            "id": "60021638",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...Then I guess I won't be around to see it.",
+            "nextDialogs": [
+              "60021639"
+            ]
+          },
+          "60021639": {
+            "id": "60021639",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Say, Lauma — what happens to those who betray the Frostmoon Scions?",
+            "nextDialogs": [
+              "60021640"
+            ]
+          },
+          "60021640": {
+            "id": "60021640",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021641"
+            ]
+          },
+          "60021641": {
+            "id": "60021641",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "\"...May their antlers be shorn with silver blades... and let them be cast into the long night of unknowing.\"",
+            "nextDialogs": [
+              "60021642"
+            ]
+          },
+          "60021642": {
+            "id": "60021642",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Ugh... Ahhh... Aaaaagh!!!",
+            "nextDialogs": [
+              "60021643"
+            ]
+          },
+          "60021643": {
+            "id": "60021643",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...!",
+            "nextDialogs": [
+              "60021644"
+            ]
+          },
+          "60021644": {
+            "id": "60021644",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...I have honored the ways of the Frostmoon Scions, one last time... Think of it as a gesture of respect, Lauma.",
+            "nextDialogs": [
+              "60021645"
+            ]
+          },
+          "60021645": {
+            "id": "60021645",
+            "speakerId": 1006,
+            "speakerName": "Talvikki",
+            "text": "There they are!",
+            "nextDialogs": [
+              "60021646"
+            ]
+          },
+          "60021646": {
+            "id": "60021646",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Lauma!",
+            "nextDialogs": [
+              "60021647"
+            ]
+          },
+          "60021647": {
+            "id": "60021647",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021648"
+            ]
+          },
+          "60021648": {
+            "id": "60021648",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Marionette has the Moon Marrow... She went to Starsand Shoal.",
+            "nextDialogs": [
+              "60021649"
+            ]
+          },
+          "60021649": {
+            "id": "60021649",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Don't... flatter yourself, now — I'm not trying to \"atone.\" I just... don't believe you'll actually be able to change them..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600240",
+      "subQuestName": "Infiltrate the Fatui Experimental Design Bureau",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600203",
+      "subQuestName": "Infiltrate the Fatui Experimental Design Bureau",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020301"
+        ],
+        "dialogs": {
+          "60020301": {
+            "id": "60020301",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Just as I thought, there's a gate controlling access from the outside. Good thing I brought this key card, huh...",
+            "nextDialogs": [
+              "60020302"
+            ]
+          },
+          "60020302": {
+            "id": "60020302",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Well, technically I stole it... but no need to tell them that, right? Blame that chump who thought it was a good idea to get wasted at The Flagship during work hours...)",
+            "nextDialogs": [
+              "60020303"
+            ]
+          },
+          "60020303": {
+            "id": "60020303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ooh! Is it top-level clearance?",
+            "nextDialogs": [
+              "60020304"
+            ]
+          },
+          "60020304": {
+            "id": "60020304",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Course, that goes without saying! Let me read it out for you...",
+            "nextDialogs": [
+              "60020305"
+            ]
+          },
+          "60020305": {
+            "id": "60020305",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Fatui Experimental Design Bureau No. 183574, maximum clearance... \"Maintenance Intern.\"",
+            "nextDialogs": [
+              "60020306"
+            ]
+          },
+          "60020306": {
+            "id": "60020306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...That doesn't sound very top-level to Paimon!",
+            "nextDialogs": [
+              "60020307"
+            ]
+          },
+          "60020307": {
+            "id": "60020307",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Never underestimate interns! Even the most legendary of thieves started out as rookie pickpockets, y'know?",
+            "nextDialogs": [
+              "60020308"
+            ]
+          },
+          "60020308": {
+            "id": "60020308",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Besides, if it wasn't for this person's selfless generosity, we wouldn't be able to just waltz in like this, would we?",
+            "nextDialogs": [
+              "60020309"
+            ]
+          },
+          "60020309": {
+            "id": "60020309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Feels like you're trying really hard to change the subject...",
+            "nextDialogs": [
+              "60020310"
+            ]
+          },
+          "60020310": {
+            "id": "60020310",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Ahem... Allow me to teach you the first rule of treasure hunting...",
+            "nextDialogs": [
+              "60020311"
+            ]
+          },
+          "60020311": {
+            "id": "60020311",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"First and foremost — use every resource at your disposal!\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600204",
+      "subQuestName": "Choose a suitable route to continue your infiltration",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020401"
+        ],
+        "dialogs": {
+          "60020401": {
+            "id": "60020401",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...Ahh, I get it now. It's like a pair of lightbulbs just lit up in my head...",
+            "nextDialogs": [
+              "60020402"
+            ]
+          },
+          "60020402": {
+            "id": "60020402",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh... What did you just \"get\"?",
+            "nextDialogs": [
+              "60020403"
+            ]
+          },
+          "60020403": {
+            "id": "60020403",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The blue light, aka Plan A, is telling me to take the path along the left side. It'll be a lot stealthier, but that might mean a bit of a detour.",
+            "nextDialogs": [
+              "60020404"
+            ]
+          },
+          "60020404": {
+            "id": "60020404",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The red light, aka Plan B, is saying: \"Just charge straight in!\" But that'll mean dealing with... like, a dozen sentry bots already powering up.",
+            "nextDialogs": [
+              "60020405"
+            ]
+          },
+          "60020405": {
+            "id": "60020405",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Although... I might be able to switch them to \"training mode.\" Their attacks will be weaker, but we'll still be in for a fight.",
+            "nextDialogs": [
+              "60020406"
+            ]
+          },
+          "60020406": {
+            "id": "60020406",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Can't you just put them in \"sleep mode\"...?",
+            "nextDialogs": [
+              "60020407"
+            ]
+          },
+          "60020407": {
+            "id": "60020407",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey, I told you I'm just a Maintenance Intern! Give the new recruit some time and space to blossom, will ya?",
+            "nextDialogs": [
+              "60020408"
+            ]
+          },
+          "60020408": {
+            "id": "60020408",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Hmm... We're still pretty close to the entrance. Surely they'll call the whole thing off once they see what these bots can do?)",
+            "nextDialogs": [
+              "60020409"
+            ]
+          },
+          "60020409": {
+            "id": "60020409",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Anyway, I say we go with Plan B. Either way, I won't be doing any of the fighting, so... the shorter route sounds good to me!",
+            "nextDialogs": [
+              "60020410"
+            ]
+          },
+          "60020410": {
+            "id": "60020410",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "If we can avoid fighting at this stage, we should.",
+            "nextDialogs": [
+              "60020411"
+            ]
+          },
+          "60020411": {
+            "id": "60020411",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No Plan J this time?",
+            "nextDialogs": [
+              "60020412"
+            ]
+          },
+          "60020412": {
+            "id": "60020412",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Plan J... is to call it a night so we can all make it back to bed before sunrise! After all, the deeper we go, the more dangerous this is gonna get — so we might as well give up while we still can!",
+            "nextDialogs": [
+              "60020414",
+              "60020416"
+            ]
+          },
+          "60020414": {
+            "id": "60020414",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Okay, you're the bosses...",
+            "nextDialogs": [
+              "60020417"
+            ]
+          },
+          "60020417": {
+            "id": "60020417",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Just don't forget — whatever you do, don't let those recon bots spot you!",
+            "nextDialogs": [
+              "60020418"
+            ]
+          },
+          "60020418": {
+            "id": "60020418",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Let's see... Huh, no kidding! Ineffa told me about something like this before. Can't believe that dumb robot actually helped me out for once...",
+            "nextDialogs": [
+              "60020419"
+            ]
+          },
+          "60020419": {
+            "id": "60020419",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "All you gotta do is... this, and the recon bots will be reassigned to another position.",
+            "nextDialogs": [
+              "60020420"
+            ]
+          },
+          "60020420": {
+            "id": "60020420",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "That way, when it's time to move forward, the path will be clear! Which reminds me, it's about time I taught you the third rule of treasure hunting...",
+            "nextDialogs": [
+              "60020421"
+            ]
+          },
+          "60020421": {
+            "id": "60020421",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"Go with the flow!\"",
+            "nextDialogs": [
+              "60020422"
+            ]
+          },
+          "60020422": {
+            "id": "60020422",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What about the second one? You skipped that one...",
+            "nextDialogs": [
+              "60020423"
+            ]
+          },
+          "60020423": {
+            "id": "60020423",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Huh, did I? Oh jeez, I must've gotten them muddled up again...",
+            "nextDialogs": [
+              "60020424"
+            ]
+          },
+          "60020424": {
+            "id": "60020424",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...I—I mean... the second rule is exactly the same as the first!",
+            "nextDialogs": [
+              "60020425"
+            ]
+          },
+          "60020425": {
+            "id": "60020425",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Guess that's what you meant by going with the flow, huh..."
+          },
+          "60020416": {
+            "id": "60020416",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Well, alright then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600205",
+      "subQuestName": "Choose a suitable route to continue your infiltration",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020501"
+        ],
+        "dialogs": {
+          "60020501": {
+            "id": "60020501",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey! There's someone up ahead.",
+            "nextDialogs": [
+              "60020502"
+            ]
+          },
+          "60020502": {
+            "id": "60020502",
+            "speakerId": 1007,
+            "speakerName": "Snjezana",
+            "text": "Has the lockdown been initiated? Move it, soldier — the cargo has already been transferred.",
+            "nextDialogs": [
+              "60020503"
+            ]
+          },
+          "60020503": {
+            "id": "60020503",
+            "speakerId": 1008,
+            "speakerName": "Siemomysl",
+            "text": "The lockdown procedure is complete, commander. That sector is now fully sealed.",
+            "nextDialogs": [
+              "60020504"
+            ]
+          },
+          "60020504": {
+            "id": "60020504",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Tch, the night shift... Just our luck. Don't they usually handle deliveries during the daytime? There's not supposed to be anyone here...",
+            "nextDialogs": [
+              "60020505"
+            ]
+          },
+          "60020505": {
+            "id": "60020505",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(We've come this far already, and they're really trying their best... If I suggest backing out again, it's not gonna look good. Come on, brain, think!)",
+            "nextDialogs": [
+              "60020506"
+            ]
+          },
+          "60020506": {
+            "id": "60020506",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...Ah, I've got it! The freight shaft to the upper levels... We might have a shot there.",
+            "nextDialogs": [
+              "60020507"
+            ]
+          },
+          "60020507": {
+            "id": "60020507",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Let me see... Huh? The recon bot in the middle's not responding? ...A double-lock failsafe!? Ugh, we've been outfoxed!",
+            "nextDialogs": [
+              "60020508"
+            ]
+          },
+          "60020508": {
+            "id": "60020508",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Stay calm, stay calm... One step at a time. Let's just find a way across first..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600241",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600206",
+      "subQuestName": "Operate the terminal and head to the entrance of the freight shaft",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020601"
+        ],
+        "dialogs": {
+          "60020601": {
+            "id": "60020601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What do we do now? There are guards here too...",
+            "nextDialogs": [
+              "60020602"
+            ]
+          },
+          "60020602": {
+            "id": "60020602",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Don't worry, bots are way easier to deal with than people. At least their behavior is predictable.",
+            "nextDialogs": [
+              "60020603"
+            ]
+          },
+          "60020603": {
+            "id": "60020603",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "First, let's find a safe spot to land... Good, that spot shouldn't draw their attention. Let's go.",
+            "nextDialogs": [
+              "60020604"
+            ]
+          },
+          "60020604": {
+            "id": "60020604",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Let me just try something... Mmm... Maybe I can use the terminal to command them to move out of our way...",
+            "nextDialogs": [
+              "60020605"
+            ]
+          },
+          "60020605": {
+            "id": "60020605",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Security verification? With ten questions!? Are you kidding me!?!",
+            "nextDialogs": [
+              "60020607",
+              "60020620"
+            ]
+          },
+          "60020607": {
+            "id": "60020607",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "You really trust me that much? Ugh, fine... I'll... do my best.",
+            "nextDialogs": [
+              "60020608"
+            ]
+          },
+          "60020608": {
+            "id": "60020608",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "But just to be clear — if I can't answer a question, I'm backing straight out of the terminal. No way I'm risking triggering any sort of alarm...",
+            "nextDialogs": [
+              "60020609"
+            ]
+          },
+          "60020609": {
+            "id": "60020609",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's fine. You've got this.",
+            "nextDialogs": [
+              "60020610"
+            ]
+          },
+          "60020610": {
+            "id": "60020610",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Come on, Jahoda... You can't give up now!)",
+            "nextDialogs": [
+              "60020611"
+            ]
+          },
+          "60020611": {
+            "id": "60020611",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Question One... \"What is our motto?\"... Oh, I—I know this one...",
+            "nextDialogs": [
+              "60020612"
+            ]
+          },
+          "60020612": {
+            "id": "60020612",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Question Five... The name of the Harbinger in charge of this facility... Let's go with... \"Sandrone.\"",
+            "nextDialogs": [
+              "60020613"
+            ]
+          },
+          "60020613": {
+            "id": "60020613",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "This one should be... The \"Palestar Edict.\" I've heard one of Boss's informants mention that before...",
+            "nextDialogs": [
+              "60020614"
+            ]
+          },
+          "60020614": {
+            "id": "60020614",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Final question... Enter employee ID? And it's timed!? Okay, okay... 183574... Confirm!",
+            "nextDialogs": [
+              "60020615"
+            ]
+          },
+          "60020615": {
+            "id": "60020615",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I... actually got them all right!? What a miracle...",
+            "nextDialogs": [
+              "60020616"
+            ]
+          },
+          "60020616": {
+            "id": "60020616",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Not bad, Jahoda, not bad at all! Guess you're an official Maintenance Intern now, hehe...",
+            "nextDialogs": [
+              "60020617"
+            ]
+          },
+          "60020617": {
+            "id": "60020617",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey, that could be my personal \"Plan B\" if I can't get my job back... Hehe, just kidding... The Fatui are awful.",
+            "nextDialogs": [
+              "60020618"
+            ]
+          },
+          "60020618": {
+            "id": "60020618",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The bots have taken the command... they're moving off. Let's get going while the coast is clear."
+          },
+          "60020620": {
+            "id": "60020620",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Are you serious?",
+            "nextDialogs": [
+              "60020621"
+            ]
+          },
+          "60020621": {
+            "id": "60020621",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Of course. I can beat them.",
+            "nextDialogs": [
+              "60020622"
+            ]
+          },
+          "60020622": {
+            "id": "60020622",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "#(Doesn't {M#he}{F#she} trust me? Or is {M#he}{F#she} just trying to make things easier for me?)",
+            "nextDialogs": [
+              "60020623"
+            ]
+          },
+          "60020623": {
+            "id": "60020623",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "#(No... Judging from {M#his}{F#her} body language, {M#he}{F#she} really isn't afraid of the Fatui. What kind of person is {M#he}{F#she}... and what has {M#he}{F#she} been through?)",
+            "nextDialogs": [
+              "60020624"
+            ]
+          },
+          "60020624": {
+            "id": "60020624",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(So brave it's kinda scary...)",
+            "nextDialogs": [
+              "60020625"
+            ]
+          },
+          "60020625": {
+            "id": "60020625",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jahoda?",
+            "nextDialogs": [
+              "60020626"
+            ]
+          },
+          "60020626": {
+            "id": "60020626",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Uh... N—No complaints from me! Let's... I mean, you go for it!",
+            "nextDialogs": [
+              "60020627"
+            ]
+          },
+          "60020627": {
+            "id": "60020627",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "*sigh* Then let's make this quick."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600208",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020801"
+        ],
+        "dialogs": {
+          "60020801": {
+            "id": "60020801",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Didn't think they'd even cut off the supply of kuuvahki... They're being really cautious.",
+            "nextDialogs": [
+              "60020802"
+            ]
+          },
+          "60020802": {
+            "id": "60020802",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "If we can somehow divert some emergency power into the system, we might be able to force boot this thing.",
+            "nextDialogs": [
+              "60020803"
+            ]
+          },
+          "60020803": {
+            "id": "60020803",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What do you mean by \"force boot\"?",
+            "nextDialogs": [
+              "60020804"
+            ]
+          },
+          "60020804": {
+            "id": "60020804",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Uh, how do I explain this... It's like... dumping a whole bucket of water into an empty pool? So that... the little ducky gets to swim around again?",
+            "nextDialogs": [
+              "60020805"
+            ]
+          },
+          "60020805": {
+            "id": "60020805",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "You should probably just ask Aino instead...",
+            "nextDialogs": [
+              "60020806"
+            ]
+          },
+          "60020806": {
+            "id": "60020806",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So we just need to find that bucket of water, right? Paimon thought your explanation was great! Kinda adorable, in a childish sort of way.",
+            "nextDialogs": [
+              "60020807"
+            ]
+          },
+          "60020807": {
+            "id": "60020807",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey, you could've just skipped that last part!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600207",
+      "subQuestName": "Fight the guard robots",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020701"
+        ],
+        "dialogs": {
+          "60020701": {
+            "id": "60020701",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Everyone, ready? Yeah? Then, let's move.",
+            "nextDialogs": [
+              "60020703",
+              "60020705"
+            ]
+          },
+          "60020703": {
+            "id": "60020703",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Alright then, let's get this job done!"
+          },
+          "60020705": {
+            "id": "60020705",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "No rush, we'll be waiting right here. Just don't go sneaking home on your own, okay?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600244",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600210",
+      "subQuestName": "Approach the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021001"
+        ],
+        "dialogs": {
+          "60021001": {
+            "id": "60021001",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Is this what you were looking for?",
+            "nextDialogs": [
+              "60021002"
+            ]
+          },
+          "60021002": {
+            "id": "60021002",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "That's right, that's exactly what we needed. Where did you find that?",
+            "nextDialogs": [
+              "60021003"
+            ]
+          },
+          "60021003": {
+            "id": "60021003",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I sensed kuuvahki inside it during the fight just now. They must've been using it as backup energy for their armor.",
+            "nextDialogs": [
+              "60021004"
+            ]
+          },
+          "60021004": {
+            "id": "60021004",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I honestly had no idea that fighting could solve so many problems... Darn it, why am I so weak?",
+            "nextDialogs": [
+              "60021005"
+            ]
+          },
+          "60021005": {
+            "id": "60021005",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Oops, did I say that out loud? Ahaha, just, uh... ignore me..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600229",
+      "subQuestName": "Look for a charging device",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600230",
+      "subQuestName": "Use the charging device to activate the freight shaft",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600242",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600231",
+      "subQuestName": "Go to the upper levels of the Fatui Experimental Design Bureau",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60020901"
+        ],
+        "dialogs": {
+          "60020901": {
+            "id": "60020901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, it's so dark in here...",
+            "nextDialogs": [
+              "60020902"
+            ]
+          },
+          "60020902": {
+            "id": "60020902",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Well, it is a cargo crate, after all. No point being picky about lighting at this point...",
+            "nextDialogs": [
+              "60020903"
+            ]
+          },
+          "60020903": {
+            "id": "60020903",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Whaaa! Something sharp and pointy just poked me in the back...!",
+            "nextDialogs": [
+              "60020904"
+            ]
+          },
+          "60020904": {
+            "id": "60020904",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Ah... Sorry, that was probably just my antlers. It's pretty cramped in here, so I had to crouch down...",
+            "nextDialogs": [
+              "60020905"
+            ]
+          },
+          "60020905": {
+            "id": "60020905",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Having antlers must be inconvenient at times like these...",
+            "nextDialogs": [
+              "60020906"
+            ]
+          },
+          "60020906": {
+            "id": "60020906",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "Zzzzt!",
+            "nextDialogs": [
+              "60020907"
+            ]
+          },
+          "60020907": {
+            "id": "60020907",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aaah... What's going on!?",
+            "nextDialogs": [
+              "60020908"
+            ]
+          },
+          "60020908": {
+            "id": "60020908",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Don't tell me something's gone wrong already!?)",
+            "nextDialogs": [
+              "60020909"
+            ]
+          },
+          "60020909": {
+            "id": "60020909",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Ahem... Looks like there was only enough juice in the emergency power supply to lift us this far up...",
+            "nextDialogs": [
+              "60020910"
+            ]
+          },
+          "60020910": {
+            "id": "60020910",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Ugh, awkward... Am I gonna get docked for this? Based on the boss's policy of docking pay for every screw-up, I'm— No, wait a sec... I've already been fired...)",
+            "nextDialogs": [
+              "60020911"
+            ]
+          },
+          "60020911": {
+            "id": "60020911",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Doesn't look like it's moving again any time soon.",
+            "nextDialogs": [
+              "60020912"
+            ]
+          },
+          "60020912": {
+            "id": "60020912",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I—I think... we can get through if we follow the ventilation duct along the outer wall... The entrance has gotta be somewhere. Don't worry, this was... totally part of the plan!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600219",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021901"
+        ],
+        "dialogs": {
+          "60021901": {
+            "id": "60021901",
+            "speakerId": 1009,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600243",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600211",
+      "subQuestName": "Enter the ventilation duct",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021101"
+        ],
+        "dialogs": {
+          "60021101": {
+            "id": "60021101",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Huh!?",
+            "nextDialogs": [
+              "60021102"
+            ]
+          },
+          "60021102": {
+            "id": "60021102",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "Clang!",
+            "nextDialogs": [
+              "60021103"
+            ]
+          },
+          "60021103": {
+            "id": "60021103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jahoda!? How'd you end up outside?",
+            "nextDialogs": [
+              "60021104"
+            ]
+          },
+          "60021104": {
+            "id": "60021104",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Looks like she slipped out at the very last second, just before the gate shut. Impressive reflexes, I must say — though I'd expect nothing less from a former employee of the Curatorium.",
+            "nextDialogs": [
+              "60021105"
+            ]
+          },
+          "60021105": {
+            "id": "60021105",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I'm so sorry! That was pure survival instinct... I didn't mean to ditch you!",
+            "nextDialogs": [
+              "60021106"
+            ]
+          },
+          "60021106": {
+            "id": "60021106",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Anyway, you guys just stay where you are. I'll... I'll figure something out...",
+            "nextDialogs": [
+              "60021107"
+            ]
+          },
+          "60021107": {
+            "id": "60021107",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey, there's a terminal nearby. Hang tight!",
+            "nextDialogs": [
+              "60021108"
+            ]
+          },
+          "60021108": {
+            "id": "60021108",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...Can you hear me now?",
+            "nextDialogs": [
+              "60021109"
+            ]
+          },
+          "60021109": {
+            "id": "60021109",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Loud and clear.",
+            "nextDialogs": [
+              "60021110"
+            ]
+          },
+          "60021110": {
+            "id": "60021110",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The duct's security protocol has been triggered... The gate must've dropped when it detected a living presence.",
+            "nextDialogs": [
+              "60021111"
+            ]
+          },
+          "60021111": {
+            "id": "60021111",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait, so... we're trapped in here!?",
+            "nextDialogs": [
+              "60021112"
+            ]
+          },
+          "60021112": {
+            "id": "60021112",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I'm checking what I can do from this end... Ah, watch out for the laser up ahead!",
+            "nextDialogs": [
+              "60021113"
+            ]
+          },
+          "60021113": {
+            "id": "60021113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What laser...?",
+            "nextDialogs": [
+              "60021114"
+            ]
+          },
+          "60021114": {
+            "id": "60021114",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021115"
+            ]
+          },
+          "60021115": {
+            "id": "60021115",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We see it now... Good thing we didn't move.",
+            "nextDialogs": [
+              "60021118"
+            ]
+          },
+          "60021118": {
+            "id": "60021118",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Got it... I think I understand the situation! Hang in there, just one moment...",
+            "nextDialogs": [
+              "60021119"
+            ]
+          },
+          "60021119": {
+            "id": "60021119",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...Ugh, this is killing me, but I think I've got it. I can try adjusting the direction of the kuuvahki flow inside the duct.",
+            "nextDialogs": [
+              "60021120"
+            ]
+          },
+          "60021120": {
+            "id": "60021120",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "If I've got this right, you might just be able to dodge the lasers by utilizing the kuuvahki's pull in reverse!",
+            "nextDialogs": [
+              "60021121"
+            ]
+          },
+          "60021121": {
+            "id": "60021121",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ooh, Paimon thinks she gets what you mean.",
+            "nextDialogs": [
+              "60021122"
+            ]
+          },
+          "60021122": {
+            "id": "60021122",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "But I can't see where you are from here, so I'll need your constant input. Just tell me what to do — I'll follow your lead."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600245",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600209",
+      "subQuestName": "Pass through the ventilation duct",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600212",
+      "subQuestName": "Pass through the ventilation duct",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021201"
+        ],
+        "dialogs": {
+          "60021201": {
+            "id": "60021201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We made it to the other side, and all thanks to Jahoda!",
+            "nextDialogs": [
+              "60021202"
+            ]
+          },
+          "60021202": {
+            "id": "60021202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But... But the gate hasn't opened... How's she gonna meet up with us?",
+            "nextDialogs": [
+              "60021203"
+            ]
+          },
+          "60021203": {
+            "id": "60021203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jaho-daaaa...",
+            "nextDialogs": [
+              "60021204"
+            ]
+          },
+          "60021204": {
+            "id": "60021204",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"No irregularities detected in the duct.\" \"Confirm.\" \"Confirm.\" \"Confirm.\"",
+            "nextDialogs": [
+              "60021205"
+            ]
+          },
+          "60021205": {
+            "id": "60021205",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Ugh! Just confirm the command already, you... useless excuse for a terminal, you piece of robo-junk, you... mindless pile of scrap!",
+            "nextDialogs": [
+              "60021206"
+            ]
+          },
+          "60021206": {
+            "id": "60021206",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "What the... Insufficient clearance!? Of course I don't have the clearance, you oversized—",
+            "nextDialogs": [
+              "60021207"
+            ]
+          },
+          "60021207": {
+            "id": "60021207",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Urgh!!! ...Ouch...",
+            "nextDialogs": [
+              "60021208"
+            ]
+          },
+          "60021208": {
+            "id": "60021208",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Go with the flow, Jahoda, go with the flow. If the others make progress, that's great — but you can't bank on it. You've never been one to depend on others... so it's about time you stepped up to the challenge.)",
+            "nextDialogs": [
+              "60021209"
+            ]
+          },
+          "60021209": {
+            "id": "60021209",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Deep breaths... Stay calm.)",
+            "nextDialogs": [
+              "60021210"
+            ]
+          },
+          "60021210": {
+            "id": "60021210",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(My priority right now is getting my hands on a high-level access card. That way, I can override the security protocol.)",
+            "nextDialogs": [
+              "60021211"
+            ]
+          },
+          "60021211": {
+            "id": "60021211",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Senior maintenance staff... Only they can access the core sector. But hey, there's always someone careless enough to hide a spare key under the flowerpot by the door...)",
+            "nextDialogs": [
+              "60021212"
+            ]
+          },
+          "60021212": {
+            "id": "60021212",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Which means... there's a good chance there's a duplicate lying around somewhere in the control room!)",
+            "nextDialogs": [
+              "60021213"
+            ]
+          },
+          "60021213": {
+            "id": "60021213",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Even if I can't get into the control room myself, doesn't mean I can't rely on some external help! If I can take control of one of those guard bots, maybe I can use it to search for the access card!)",
+            "nextDialogs": [
+              "60021214"
+            ]
+          },
+          "60021214": {
+            "id": "60021214",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "This is crazy, Jahoda... You're all alone, you've got nothing, and yet you're charging ahead like fear's a foreign concept...",
+            "nextDialogs": [
+              "60021215"
+            ]
+          },
+          "60021215": {
+            "id": "60021215",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Haha, maybe that's exactly why — 'cause I've got nothing left to lose!",
+            "nextDialogs": [
+              "60021216"
+            ]
+          },
+          "60021216": {
+            "id": "60021216",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"Confirm!\"",
+            "nextDialogs": [
+              "60021217"
+            ]
+          },
+          "60021217": {
+            "id": "60021217",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Am I... a genius?",
+            "nextDialogs": [
+              "60021218"
+            ]
+          },
+          "60021218": {
+            "id": "60021218",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Whoa, this feed's super clear... This is gonna be a piece of cake!",
+            "nextDialogs": [
+              "60021219"
+            ]
+          },
+          "60021219": {
+            "id": "60021219",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Wait a second... This thing's not a guard bot, it's a...",
+            "nextDialogs": [
+              "60021220"
+            ]
+          },
+          "60021220": {
+            "id": "60021220",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...Janitor bot!?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600237",
+      "subQuestName": "Obtain a high-level access card",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021501"
+        ],
+        "dialogs": {
+          "60021501": {
+            "id": "60021501",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Let me see...",
+            "nextDialogs": [
+              "60021502"
+            ]
+          },
+          "60021502": {
+            "id": "60021502",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "There it is...!",
+            "nextDialogs": [
+              "60021503"
+            ]
+          },
+          "60021503": {
+            "id": "60021503",
+            "speakerId": 1006,
+            "speakerName": "Talvikki",
+            "text": "Hey, why'd you stop? You haven't finished sweeping that corner!",
+            "nextDialogs": [
+              "60021504"
+            ]
+          },
+          "60021504": {
+            "id": "60021504",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(But... I can see the card from here...!)",
+            "nextDialogs": [
+              "60021505"
+            ]
+          },
+          "60021505": {
+            "id": "60021505",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Ugh... Guess I have no choice but to swallow my pride and stay in character for now...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600213",
+      "subQuestName": "Obtain a high-level access card",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021301"
+        ],
+        "dialogs": {
+          "60021301": {
+            "id": "60021301",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Ugh... Lost them again...",
+            "nextDialogs": [
+              "60021302"
+            ]
+          },
+          "60021302": {
+            "id": "60021302",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "#(That Harbinger... told me to follow the {M#blond}{F#blonde} Traveler who might visit the Frostmoon Scions...)",
+            "nextDialogs": [
+              "60021303"
+            ]
+          },
+          "60021303": {
+            "id": "60021303",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(*sigh*... Easier said than done, though. The animals are on alert at night... If they see me, Lauma will catch wind of what I'm doing, sooner or later...)",
+            "nextDialogs": [
+              "60021304"
+            ]
+          },
+          "60021304": {
+            "id": "60021304",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(...Am I really doing the right thing?)",
+            "nextDialogs": [
+              "60021305"
+            ]
+          },
+          "60021305": {
+            "id": "60021305",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(No... It's too late to turn back now. The empty prayers, the stubborn displays of faith, like Kapy's today... This isn't the life I want.)",
+            "nextDialogs": [
+              "60021306"
+            ]
+          },
+          "60021306": {
+            "id": "60021306",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "#(Huh? Is that... Ah! {NICKNAME}'s back! I won't let {M#him}{F#her} slip away this time!)",
+            "nextDialogs": [
+              "60021307"
+            ]
+          },
+          "60021307": {
+            "id": "60021307",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "#(Wait. Who's that with {M#him}{F#her}? They look so alike... Hmm, they seem to be heading... towards the statue of Kuutar!)",
+            "nextDialogs": [
+              "60021308"
+            ]
+          },
+          "60021308": {
+            "id": "60021308",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(They've... opened the secret chamber!? But... wasn't it meant to be sealed?)",
+            "nextDialogs": [
+              "60021309"
+            ]
+          },
+          "60021309": {
+            "id": "60021309",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Wait a second... the Moon Marrow!",
+            "nextDialogs": [
+              "60021310"
+            ]
+          },
+          "60021310": {
+            "id": "60021310",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(Surely they're not after the Moon Marrow!? I'd better go report this straight to...)",
+            "nextDialogs": [
+              "60021311"
+            ]
+          },
+          "60021311": {
+            "id": "60021311",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Hold on...",
+            "nextDialogs": [
+              "60021312"
+            ]
+          },
+          "60021312": {
+            "id": "60021312",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(If they do actually make it to the final room... then maybe I'll be able to get my hands on the relic... the one thing the Fatui have been after this whole time...)",
+            "nextDialogs": [
+              "60021313"
+            ]
+          },
+          "60021313": {
+            "id": "60021313",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...",
+            "nextDialogs": [
+              "60021314"
+            ]
+          },
+          "60021314": {
+            "id": "60021314",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "(If someone's going to take it, it might as well be me... This could be my ticket to joining them!)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600236",
+      "subQuestName": "Use the high-level access card to activate the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600246",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600214",
+      "subQuestName": "Reunite with your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021401"
+        ],
+        "dialogs": {
+          "60021401": {
+            "id": "60021401",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But will Jahoda be okay?",
+            "nextDialogs": [
+              "60021402"
+            ]
+          },
+          "60021402": {
+            "id": "60021402",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Paimon!?)",
+            "nextDialogs": [
+              "60021403"
+            ]
+          },
+          "60021403": {
+            "id": "60021403",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "She said she'd use every resource at her disposal, so let's have some faith in her abilities. Besides, when it comes to surviving in Nod-Krai, she probably knows more than any of us...",
+            "nextDialogs": [
+              "60021404"
+            ]
+          },
+          "60021404": {
+            "id": "60021404",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(So they really do believe in me...)",
+            "nextDialogs": [
+              "60021405"
+            ]
+          },
+          "60021405": {
+            "id": "60021405",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But how long are we gonna have to stay here? Paimon doesn't wanna get caught by the Fatui either...",
+            "nextDialogs": [
+              "60021406"
+            ]
+          },
+          "60021406": {
+            "id": "60021406",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Does Paimon mean the two Fatui in that room? Let me see if there's a way to distract them...",
+            "nextDialogs": [
+              "60021407"
+            ]
+          },
+          "60021407": {
+            "id": "60021407",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Wait, did you hear that?",
+            "nextDialogs": [
+              "60021408"
+            ]
+          },
+          "60021408": {
+            "id": "60021408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't move.",
+            "nextDialogs": [
+              "60021409"
+            ]
+          },
+          "60021409": {
+            "id": "60021409",
+            "speakerId": 1006,
+            "speakerName": "Talvikki",
+            "text": "Huh? The alarm? What's going on?",
+            "nextDialogs": [
+              "60021410"
+            ]
+          },
+          "60021410": {
+            "id": "60021410",
+            "speakerId": 1010,
+            "speakerName": "Prohor",
+            "text": "Let's go check it out!",
+            "nextDialogs": [
+              "60021411"
+            ]
+          },
+          "60021411": {
+            "id": "60021411",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Now's our chance!",
+            "nextDialogs": [
+              "60021412"
+            ]
+          },
+          "60021412": {
+            "id": "60021412",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This looks like somewhere important, but there's nothing here...",
+            "nextDialogs": [
+              "60021413"
+            ]
+          },
+          "60021413": {
+            "id": "60021413",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey guys, it's me!",
+            "nextDialogs": [
+              "60021414"
+            ]
+          },
+          "60021414": {
+            "id": "60021414",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jahoda! Are you okay?",
+            "nextDialogs": [
+              "60021415"
+            ]
+          },
+          "60021415": {
+            "id": "60021415",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I'm fine!",
+            "nextDialogs": [
+              "60021416"
+            ]
+          },
+          "60021416": {
+            "id": "60021416",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I managed to swipe a high-level access card and triggered an alarm to draw the guards off... But we don't have much time.",
+            "nextDialogs": [
+              "60021417"
+            ]
+          },
+          "60021417": {
+            "id": "60021417",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Alright... Looks like we can control the elevator!",
+            "nextDialogs": [
+              "60021418"
+            ]
+          },
+          "60021418": {
+            "id": "60021418",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Come on, hop in. Let's take it further down."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600239",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600247",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600215",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600248",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600217",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021701"
+        ],
+        "dialogs": {
+          "60021701": {
+            "id": "60021701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "There's no one here!",
+            "nextDialogs": [
+              "60021702"
+            ]
+          },
+          "60021702": {
+            "id": "60021702",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "That's good news for us! Let's head inside.",
+            "nextDialogs": [
+              "60021703"
+            ]
+          },
+          "60021703": {
+            "id": "60021703",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Looks like a rest area for the Fatui's Oprichniki.",
+            "nextDialogs": [
+              "60021704"
+            ]
+          },
+          "60021704": {
+            "id": "60021704",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Huh? The terminal's still on...?",
+            "nextDialogs": [
+              "60021705"
+            ]
+          },
+          "60021705": {
+            "id": "60021705",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...",
+            "nextDialogs": [
+              "60021706"
+            ]
+          },
+          "60021706": {
+            "id": "60021706",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Ahaha... Looks like that \"good news\"... is now half good news, half bad news...",
+            "nextDialogs": [
+              "60021707"
+            ]
+          },
+          "60021707": {
+            "id": "60021707",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What do you mean?",
+            "nextDialogs": [
+              "60021708"
+            ]
+          },
+          "60021708": {
+            "id": "60021708",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Well, seems like that alarm I just triggered was so high-level that even the guards in the rest area went to investigate... that's the good news, by the way.",
+            "nextDialogs": [
+              "60021709"
+            ]
+          },
+          "60021709": {
+            "id": "60021709",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Then what's the bad news?",
+            "nextDialogs": [
+              "60021710"
+            ]
+          },
+          "60021710": {
+            "id": "60021710",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The bad news... is that once they realize it was a false alarm, they're bound to circle back and check this floor, and then we're toast!",
+            "nextDialogs": [
+              "60021711"
+            ]
+          },
+          "60021711": {
+            "id": "60021711",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "So we've gotta move fast here! If you need me to run a quick search, say the word.",
+            "nextDialogs": [
+              "60021713"
+            ]
+          },
+          "60021713": {
+            "id": "60021713",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"...Analysis of the kuuvahki extracted from the Moon Marrow suggests that its energy core bears some close relation to the power of the former Three Moon Sisters...\"",
+            "nextDialogs": [
+              "60021714"
+            ]
+          },
+          "60021714": {
+            "id": "60021714",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"...It is suspected that there is a link between the Frostmoon Scions' hidden relic and the shattered remnants of the Eternal Moon...\"",
+            "nextDialogs": [
+              "60021715"
+            ]
+          },
+          "60021715": {
+            "id": "60021715",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60021716"
+            ]
+          },
+          "60021716": {
+            "id": "60021716",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "C'mon, none of this is important right now... Just tell us where you hid the darn thing!",
+            "nextDialogs": [
+              "60021717"
+            ]
+          },
+          "60021717": {
+            "id": "60021717",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "\"Access denied. You do not have permission to view this data.\"",
+            "nextDialogs": [
+              "60021718"
+            ]
+          },
+          "60021718": {
+            "id": "60021718",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Even with a high-level access card? Who does have permission then!?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600218",
+      "subQuestName": "Solve the mechanism and shut the fan off",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60021801"
+        ],
+        "dialogs": {
+          "60021801": {
+            "id": "60021801",
+            "speakerId": 1011,
+            "speakerName": "Maciej",
+            "text": "...What's going on?",
+            "nextDialogs": [
+              "60021802"
+            ]
+          },
+          "60021802": {
+            "id": "60021802",
+            "speakerId": 1012,
+            "speakerName": "Vanamo",
+            "text": "I'm not sure. Seems like the Moonchanter has something important to tell us...",
+            "nextDialogs": [
+              "60021803"
+            ]
+          },
+          "60021803": {
+            "id": "60021803",
+            "speakerId": 1013,
+            "speakerName": "Kunegunda",
+            "text": "I heard the relic's already been retrieved.",
+            "nextDialogs": [
+              "60021804"
+            ]
+          },
+          "60021804": {
+            "id": "60021804",
+            "speakerId": 1014,
+            "speakerName": "Lauha",
+            "text": "That's our Lady Lauma, alright!",
+            "nextDialogs": [
+              "60021805"
+            ]
+          },
+          "60021805": {
+            "id": "60021805",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "*deep breath*",
+            "nextDialogs": [
+              "60021806"
+            ]
+          },
+          "60021806": {
+            "id": "60021806",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Do what you believe is right, Lauma...)",
+            "nextDialogs": [
+              "60021807"
+            ]
+          },
+          "60021807": {
+            "id": "60021807",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Noble scions of the Frost Moon... My kin beneath the moonlight...",
+            "nextDialogs": [
+              "60021808"
+            ]
+          },
+          "60021808": {
+            "id": "60021808",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I hereby declare the truth to you...",
+            "nextDialogs": [
+              "60021809"
+            ]
+          },
+          "60021809": {
+            "id": "60021809",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "\"Long have our ancestors looked up to the Frost Moon, guided by her serene light... Yet now, she lies hidden beyond the limits of the sky.\"",
+            "nextDialogs": [
+              "60021810"
+            ]
+          },
+          "60021810": {
+            "id": "60021810",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And so, Lauma began to reveal to the Frostmoon Scions a truth long hidden within her heart... A story of a false moon, and the death of gods...",
+            "nextDialogs": [
+              "60021811"
+            ]
+          },
+          "60021811": {
+            "id": "60021811",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "\"Kuutar was indeed born of the moon... but that does not give us the right to reap without sowing, nor clothe ourselves without the toil of weaving...\"",
+            "nextDialogs": [
+              "60021812"
+            ]
+          },
+          "60021812": {
+            "id": "60021812",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "As she spoke, some who listened were stunned into disbelief, while others... seemed to awaken, as if from a dream.",
+            "nextDialogs": [
+              "60021813"
+            ]
+          },
+          "60021813": {
+            "id": "60021813",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "\"...From this day forth, the road shall be paved with truth, and we shall pave it ourselves.\"",
+            "nextDialogs": [
+              "60021814"
+            ]
+          },
+          "60021814": {
+            "id": "60021814",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whew... After everything Lauma said last night, Paimon wonders how everyone's adjusting...",
+            "nextDialogs": [
+              "60021815"
+            ]
+          },
+          "60021815": {
+            "id": "60021815",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, we're here to find out...",
+            "nextDialogs": [
+              "60021816"
+            ]
+          },
+          "60021816": {
+            "id": "60021816",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Still, judging by their reactions at the time, it didn't seem as intense as Paimon might have imagined... Says a lot about how much trust she commands, huh?",
+            "nextDialogs": [
+              "60021817"
+            ]
+          },
+          "60021817": {
+            "id": "60021817",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, look — it's Lauma!",
+            "nextDialogs": [
+              "60021818"
+            ]
+          },
+          "60021818": {
+            "id": "60021818",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Welcome, both of you. The animals were most lively this morning... They told me of your coming.",
+            "nextDialogs": [
+              "60021819"
+            ]
+          },
+          "60021819": {
+            "id": "60021819",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Has everything been okay?",
+            "nextDialogs": [
+              "60021820"
+            ]
+          },
+          "60021820": {
+            "id": "60021820",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Nothing too dramatic happened, did it? No one took it so hard that they went on a binge eating rampage, and ended up cleaning up the whole pantry... or something?",
+            "nextDialogs": [
+              "60021821"
+            ]
+          },
+          "60021821": {
+            "id": "60021821",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The only person who would do something like that is you, Paimon.",
+            "nextDialogs": [
+              "60021822"
+            ]
+          },
+          "60021822": {
+            "id": "60021822",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, Paimon's just trying to lighten the mood...",
+            "nextDialogs": [
+              "60021823"
+            ]
+          },
+          "60021823": {
+            "id": "60021823",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Thank you for your concern.",
+            "nextDialogs": [
+              "60021824"
+            ]
+          },
+          "60021824": {
+            "id": "60021824",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Change doesn't happen overnight, and new ideas need time to take root... But nothing as extreme as that has happened, no.",
+            "nextDialogs": [
+              "60021825"
+            ]
+          },
+          "60021825": {
+            "id": "60021825",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Although...",
+            "nextDialogs": [
+              "60021826"
+            ]
+          },
+          "60021826": {
+            "id": "60021826",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A—Although what?",
+            "nextDialogs": [
+              "60021827"
+            ]
+          },
+          "60021827": {
+            "id": "60021827",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Well... Just as I thought might happen, some have chosen to leave the Frostmoon Scions for good. For them, losing their faith was like losing their home.",
+            "nextDialogs": [
+              "60021828"
+            ]
+          },
+          "60021828": {
+            "id": "60021828",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Confusion, frustration, helplessness... I saw it all, reflected in their eyes.",
+            "nextDialogs": [
+              "60021829"
+            ]
+          },
+          "60021829": {
+            "id": "60021829",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh...",
+            "nextDialogs": [
+              "60021830"
+            ]
+          },
+          "60021830": {
+            "id": "60021830",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I respect their choice. May they carry the Frostmoon Scions' blessings far and wide — should they be willing to do so.",
+            "nextDialogs": [
+              "60021831"
+            ]
+          },
+          "60021831": {
+            "id": "60021831",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "If we meet again someday, perhaps we will be able to sit together and share stories once more.",
+            "nextDialogs": [
+              "60021832"
+            ]
+          },
+          "60021832": {
+            "id": "60021832",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hope everything goes well for them...",
+            "nextDialogs": [
+              "60021833"
+            ]
+          },
+          "60021833": {
+            "id": "60021833",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Others sought me out afterward, though... and thanked me profusely for sharing the truth with our people.",
+            "nextDialogs": [
+              "60021834"
+            ]
+          },
+          "60021834": {
+            "id": "60021834",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "They said they used to see me as \"distant,\" even somewhat unapproachable... Whereas now, I seemed much closer to them — like a friend, or even a family member.",
+            "nextDialogs": [
+              "60021835"
+            ]
+          },
+          "60021835": {
+            "id": "60021835",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Sounds like a win overall! Paimon thinks you did the right thing, Lauma.",
+            "nextDialogs": [
+              "60021836"
+            ]
+          },
+          "60021836": {
+            "id": "60021836",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Thank you...",
+            "nextDialogs": [
+              "60021837"
+            ]
+          },
+          "60021837": {
+            "id": "60021837",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Though, I wanted to ask...",
+            "nextDialogs": [
+              "60021838"
+            ]
+          },
+          "60021838": {
+            "id": "60021838",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Do I really come across as... \"distant\"?",
+            "nextDialogs": [
+              "60021839"
+            ]
+          },
+          "60021839": {
+            "id": "60021839",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "W—Well... maybe just a little, to people who don't know you? You are kinda tall... especially if you consider the antlers...",
+            "nextDialogs": [
+              "60021840"
+            ]
+          },
+          "60021840": {
+            "id": "60021840",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I see...",
+            "nextDialogs": [
+              "60021841"
+            ]
+          },
+          "60021841": {
+            "id": "60021841",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "That's a bit of a hard one... My antlers tend to grow under the moonlight, so I can't quite help it.",
+            "nextDialogs": [
+              "60021844"
+            ]
+          },
+          "60021844": {
+            "id": "60021844",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "It brings me comfort to hear you say that.",
+            "nextDialogs": [
+              "60021845"
+            ]
+          },
+          "60021845": {
+            "id": "60021845",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "#By the way, {NICKNAME}, how has your body been adjusting to the Moon Marrow?",
+            "nextDialogs": [
+              "60021846"
+            ]
+          },
+          "60021846": {
+            "id": "60021846",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm feeling absolutely fine.",
+            "nextDialogs": [
+              "60021847"
+            ]
+          },
+          "60021847": {
+            "id": "60021847",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I'm glad to hear it. I've also suggested to Nefer that we meet within the next few days. We need to figure out how to counter this new manifestation of the Wild Hunt.",
+            "nextDialogs": [
+              "60021848"
+            ]
+          },
+          "60021848": {
+            "id": "60021848",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "But for now... let's just relax.",
+            "nextDialogs": [
+              "60021849"
+            ]
+          },
+          "60021849": {
+            "id": "60021849",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I want to enjoy this feeling a little longer... of finally living on the bright side of the moon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600249",
+      "subQuestName": "Continue infiltrating",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600220",
+      "subQuestName": "Go to the lower level",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022001"
+        ],
+        "dialogs": {
+          "60022001": {
+            "id": "60022001",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "That switch looks... suspiciously obvious. No way I'm pulling that! But you guys, go ahead...",
+            "nextDialogs": [
+              "60022002"
+            ]
+          },
+          "60022002": {
+            "id": "60022002",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, you spotted it first! Shouldn't you be the one to pull it?",
+            "nextDialogs": [
+              "60022003"
+            ]
+          },
+          "60022003": {
+            "id": "60022003",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Not a chance! I'm just the guide, remember? At most, I'll help you look for an escape route...",
+            "nextDialogs": [
+              "60022004"
+            ]
+          },
+          "60022004": {
+            "id": "60022004",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(They don't seriously think pulling this thing's gonna lead to treasure, do they? I'd be amazed if it doesn't set off an alarm...)",
+            "nextDialogs": [
+              "60022005"
+            ]
+          },
+          "60022005": {
+            "id": "60022005",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Besides, I didn't even bring my smoke bombs... Which reminds me of the actual second rule of treasure hunting: \"Better safe than sorry!\")",
+            "nextDialogs": [
+              "60022006"
+            ]
+          },
+          "60022006": {
+            "id": "60022006",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Allow me.",
+            "nextDialogs": [
+              "60022007"
+            ]
+          },
+          "60022007": {
+            "id": "60022007",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "*Rumbling*",
+            "nextDialogs": [
+              "60022008"
+            ]
+          },
+          "60022008": {
+            "id": "60022008",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "The ground... it's shaking!",
+            "nextDialogs": [
+              "60022009"
+            ]
+          },
+          "60022009": {
+            "id": "60022009",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Wait, did the...",
+            "nextDialogs": [
+              "60022010"
+            ]
+          },
+          "60022010": {
+            "id": "60022010",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Surface of the water... open up?",
+            "nextDialogs": [
+              "60022011"
+            ]
+          },
+          "60022011": {
+            "id": "60022011",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "This is bad... this is really bad... I'm getting put on the Fatui's blacklist for sure...",
+            "nextDialogs": [
+              "60022012"
+            ]
+          },
+          "60022012": {
+            "id": "60022012",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Don't worry, Jahoda, you've helped us so much. If they try anything, we'll protect you!",
+            "nextDialogs": [
+              "60022013"
+            ]
+          },
+          "60022013": {
+            "id": "60022013",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...",
+            "nextDialogs": [
+              "60022014"
+            ]
+          },
+          "60022014": {
+            "id": "60022014",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "C'mon, I—I was just kidding! I'm tough, okay... Just haven't had a chance to show off my fighting skills yet. Me, afraid of the Fatui? Not a chance!",
+            "nextDialogs": [
+              "60022015"
+            ]
+          },
+          "60022015": {
+            "id": "60022015",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I suspect the relic is hidden down below. Jahoda, your commission ends here.",
+            "nextDialogs": [
+              "60022016"
+            ]
+          },
+          "60022016": {
+            "id": "60022016",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I am truly grateful for everything you've done for us. You don't need to put yourself in any further danger.",
+            "nextDialogs": [
+              "60022017"
+            ]
+          },
+          "60022017": {
+            "id": "60022017",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...",
+            "nextDialogs": [
+              "60022018"
+            ]
+          },
+          "60022018": {
+            "id": "60022018",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "I'm coming with you.",
+            "nextDialogs": [
+              "60022019"
+            ]
+          },
+          "60022019": {
+            "id": "60022019",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "This has nothing to do with the commission, or the danger, or whatever... This has already gotten way out of hand, so I'm coming too — end of story!",
+            "nextDialogs": [
+              "60022020"
+            ]
+          },
+          "60022020": {
+            "id": "60022020",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She's blushing...",
+            "nextDialogs": [
+              "60022021"
+            ]
+          },
+          "60022021": {
+            "id": "60022021",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Hey, zip it! Why d'you keep staring... You looking for a knuckle sandwich, or what? C'mon, move it already!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600221",
+      "subQuestName": "Enter the space underneath",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022101"
+        ],
+        "dialogs": {
+          "60022101": {
+            "id": "60022101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's really deep down here... What is this place?",
+            "nextDialogs": [
+              "60022102"
+            ]
+          },
+          "60022102": {
+            "id": "60022102",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60022103"
+            ]
+          },
+          "60022103": {
+            "id": "60022103",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...We're standing on another fragment of the Ancient Moon's Remnants.",
+            "nextDialogs": [
+              "60022104"
+            ]
+          },
+          "60022104": {
+            "id": "60022104",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "(So this was the source of the kuuvahki I sensed earlier...)",
+            "nextDialogs": [
+              "60022105"
+            ]
+          },
+          "60022105": {
+            "id": "60022105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait, what!? So the Fatui had it hidden underwater this whole time? This gigantic thing!?",
+            "nextDialogs": [
+              "60022106"
+            ]
+          },
+          "60022106": {
+            "id": "60022106",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "...",
+            "nextDialogs": [
+              "60022107"
+            ]
+          },
+          "60022107": {
+            "id": "60022107",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jahoda, you've... been kinda quiet since we got down here...",
+            "nextDialogs": [
+              "60022108"
+            ]
+          },
+          "60022108": {
+            "id": "60022108",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Wha— Me? Have I? Haha... It's nothing, really...",
+            "nextDialogs": [
+              "60022109"
+            ]
+          },
+          "60022109": {
+            "id": "60022109",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Ugh, we're doomed... How are we even supposed to get back up from here?)",
+            "nextDialogs": [
+              "60022110"
+            ]
+          },
+          "60022110": {
+            "id": "60022110",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(My grappling hook's not nearly long enough... and if someone spots us here after all that commotion... we'll be sitting ducks!)",
+            "nextDialogs": [
+              "60022111"
+            ]
+          },
+          "60022111": {
+            "id": "60022111",
+            "speakerId": 1015,
+            "speakerName": "Metal Door",
+            "text": "...",
+            "nextDialogs": [
+              "60022112"
+            ]
+          },
+          "60022112": {
+            "id": "60022112",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Eek!",
+            "nextDialogs": [
+              "60022113"
+            ]
+          },
+          "60022113": {
+            "id": "60022113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah! Oh no, that door's opening! Please don't say it's the Fatui...!",
+            "nextDialogs": [
+              "60022114"
+            ]
+          },
+          "60022114": {
+            "id": "60022114",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(No, please, no! We finally made it here, and we're so close to getting the job done... I didn't risk my neck just to die before I've even had a chance to spend my reward!)",
+            "nextDialogs": [
+              "60022115"
+            ]
+          },
+          "60022115": {
+            "id": "60022115",
+            "speakerId": 1015,
+            "speakerName": "Metal Door",
+            "text": "...",
+            "nextDialogs": [
+              "60022116"
+            ]
+          },
+          "60022116": {
+            "id": "60022116",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60022117"
+            ]
+          },
+          "60022117": {
+            "id": "60022117",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "...What happened? Why did the underwater barrier open?",
+            "nextDialogs": [
+              "60022118"
+            ]
+          },
+          "60022118": {
+            "id": "60022118",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "How could this be...?",
+            "nextDialogs": [
+              "60022119"
+            ]
+          },
+          "60022119": {
+            "id": "60022119",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Huh...? Lauma? And... you guys?",
+            "nextDialogs": [
+              "60022120"
+            ]
+          },
+          "60022120": {
+            "id": "60022120",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Vilemina... What's going on here?",
+            "nextDialogs": [
+              "60022121"
+            ]
+          },
+          "60022121": {
+            "id": "60022121",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...",
+            "nextDialogs": [
+              "60022122"
+            ]
+          },
+          "60022122": {
+            "id": "60022122",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "Looks like... there's no point trying to hide it anymore...",
+            "nextDialogs": [
+              "60022123"
+            ]
+          },
+          "60022123": {
+            "id": "60022123",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wh—What are you talking about?",
+            "nextDialogs": [
+              "60022124"
+            ]
+          },
+          "60022124": {
+            "id": "60022124",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "I thought you might come, but I didn't expect to see you here so soon... Forget it, the Moon Marrow isn't here.",
+            "nextDialogs": [
+              "60022125"
+            ]
+          },
+          "60022125": {
+            "id": "60022125",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "You... joined the Fatui?",
+            "nextDialogs": [
+              "60022126"
+            ]
+          },
+          "60022126": {
+            "id": "60022126",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...Yes.",
+            "nextDialogs": [
+              "60022127"
+            ]
+          },
+          "60022127": {
+            "id": "60022127",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...When?",
+            "nextDialogs": [
+              "60022128"
+            ]
+          },
+          "60022128": {
+            "id": "60022128",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "...The day I could no longer bear to live a lie!",
+            "nextDialogs": [
+              "60022129"
+            ]
+          },
+          "60022129": {
+            "id": "60022129",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...!",
+            "nextDialogs": [
+              "60022130"
+            ]
+          },
+          "60022130": {
+            "id": "60022130",
+            "speakerId": 1004,
+            "speakerName": "Vilemina",
+            "text": "At first, the Fatui wouldn't accept me... But then one of their Harbingers noticed me, and... said she'd give me a chance..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600232",
+      "subQuestName": "Talk to Vilemina",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600233",
+      "subQuestName": "Talk to Vilemina",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600222",
+      "subQuestName": "Head to Starsand Shoal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022201"
+        ],
+        "dialogs": {
+          "60022201": {
+            "id": "60022201",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "(Hmm...? An alarm? Coming from the Experimental Design Bureau?)",
+            "nextDialogs": [
+              "60022202"
+            ]
+          },
+          "60022202": {
+            "id": "60022202",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Hm... Interesting.",
+            "nextDialogs": [
+              "60022203"
+            ]
+          },
+          "60022203": {
+            "id": "60022203",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Hey, wrap things up and get yourselves ready... Looks like we might be having some guests.",
+            "nextDialogs": [
+              "60022204"
+            ]
+          },
+          "60022204": {
+            "id": "60022204",
+            "speakerId": 1017,
+            "speakerName": "Aarto",
+            "text": "Yes, my Lady...",
+            "nextDialogs": [
+              "60022205"
+            ]
+          },
+          "60022205": {
+            "id": "60022205",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Perfect timing... this job's been boring me to death. Time to test some hypotheses.",
+            "nextDialogs": [
+              "60022206"
+            ]
+          },
+          "60022206": {
+            "id": "60022206",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Bosses... I mean, esteemed clients... I mean, generous benefactors... Wait up, c'mon!",
+            "nextDialogs": [
+              "60022207"
+            ]
+          },
+          "60022207": {
+            "id": "60022207",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Sure you don't wanna consider heading home first and coming back another day...? Nasha Town's that way! You are aware that this is the way to... Ahhhh!",
+            "nextDialogs": [
+              "60022208"
+            ]
+          },
+          "60022208": {
+            "id": "60022208",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "A little ahead of schedule, aren't you?",
+            "nextDialogs": [
+              "60022209"
+            ]
+          },
+          "60022209": {
+            "id": "60022209",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Oh no, it really is a Harbinger this time...!)",
+            "nextDialogs": [
+              "60022210"
+            ]
+          },
+          "60022210": {
+            "id": "60022210",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Marionette...",
+            "nextDialogs": [
+              "60022211"
+            ]
+          },
+          "60022211": {
+            "id": "60022211",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So you are here, after all! Hand over that relic, right now — it belongs to the Frostmoon Scions!",
+            "nextDialogs": [
+              "60022212"
+            ]
+          },
+          "60022212": {
+            "id": "60022212",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Mm? You mean that thing your antlered turncoat brought us?",
+            "nextDialogs": [
+              "60022213"
+            ]
+          },
+          "60022213": {
+            "id": "60022213",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Ha... I have never much cared for trophies given up without a fight. But watching you tear each other apart over it? Priceless.",
+            "nextDialogs": [
+              "60022214"
+            ]
+          },
+          "60022214": {
+            "id": "60022214",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...I'm not in the mood for warnings today.",
+            "nextDialogs": [
+              "60022215"
+            ]
+          },
+          "60022215": {
+            "id": "60022215",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Ooh, how frightening. Had I a \"tremble\" function, I'd have rattled off at least a dozen screws by now.",
+            "nextDialogs": [
+              "60022216"
+            ]
+          },
+          "60022216": {
+            "id": "60022216",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Or perhaps I've just set my \"sense of humor\" parameter too high. Were you trying to be funny just now?",
+            "nextDialogs": [
+              "60022217"
+            ]
+          },
+          "60022217": {
+            "id": "60022217",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "You don't honestly believe you're a match for me... Do you?",
+            "nextDialogs": [
+              "60022218"
+            ]
+          },
+          "60022218": {
+            "id": "60022218",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Go on, then. Let's serve our guests a little appetizer...",
+            "nextDialogs": [
+              "60022219"
+            ]
+          },
+          "60022219": {
+            "id": "60022219",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...)",
+            "nextDialogs": [
+              "60022220"
+            ]
+          },
+          "60022220": {
+            "id": "60022220",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "...",
+            "nextDialogs": [
+              "60022221"
+            ]
+          },
+          "60022221": {
+            "id": "60022221",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Hey, didn't you hear me? I said let's serve our guests a little—",
+            "nextDialogs": [
+              "60022222"
+            ]
+          },
+          "60022222": {
+            "id": "60022222",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wh—What's going on?",
+            "nextDialogs": [
+              "60022223"
+            ]
+          },
+          "60022223": {
+            "id": "60022223",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "#...Oh no! Watch out, {NICKNAME}!",
+            "nextDialogs": [
+              "60022224"
+            ]
+          },
+          "60022224": {
+            "id": "60022224",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "It's the Wild Hunt!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600223",
+      "subQuestName": "Try to seal the Wild Hunt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600224",
+      "subQuestName": "Talk to the Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022401"
+        ],
+        "dialogs": {
+          "60022401": {
+            "id": "60022401",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is that... it?",
+            "nextDialogs": [
+              "60022402"
+            ]
+          },
+          "60022402": {
+            "id": "60022402",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Whew... At least, that's what the Lightkeepers' handbook says...",
+            "nextDialogs": [
+              "60022403"
+            ]
+          },
+          "60022403": {
+            "id": "60022403",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...?",
+            "nextDialogs": [
+              "60022404"
+            ]
+          },
+          "60022404": {
+            "id": "60022404",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Careful! It's not over yet!",
+            "nextDialogs": [
+              "60022405"
+            ]
+          },
+          "60022405": {
+            "id": "60022405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What's going on...? It's Abyssal power alright, and even stronger than before...)",
+            "nextDialogs": [
+              "60022406"
+            ]
+          },
+          "60022406": {
+            "id": "60022406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What's the Wild Hunt even after...)",
+            "nextDialogs": [
+              "60022407"
+            ]
+          },
+          "60022407": {
+            "id": "60022407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Paimon! Lauma! Jahoda!",
+            "nextDialogs": [
+              "60022408"
+            ]
+          },
+          "60022408": {
+            "id": "60022408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(No response... I have to find them again, and quickly...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600225",
+      "subQuestName": "Find everyone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600226",
+      "subQuestName": "Find the source of the voice",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022601"
+        ],
+        "dialogs": {
+          "60022601": {
+            "id": "60022601",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#{M#Aether}{F#Lumine}! Over here!",
+            "nextDialogs": [
+              "60022602"
+            ]
+          },
+          "60022602": {
+            "id": "60022602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#...! {M#Lumine}{F#Aether}!",
+            "nextDialogs": [
+              "60022603"
+            ]
+          },
+          "60022603": {
+            "id": "60022603",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "Quick, grab my hand!",
+            "nextDialogs": [
+              "60022604"
+            ]
+          },
+          "60022604": {
+            "id": "60022604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...!",
+            "nextDialogs": [
+              "60022605"
+            ]
+          },
+          "60022605": {
+            "id": "60022605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "60022606"
+            ]
+          },
+          "60022606": {
+            "id": "60022606",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#{M#Aether}{F#Lumine}...! What's wrong?",
+            "nextDialogs": [
+              "60022607"
+            ]
+          },
+          "60022607": {
+            "id": "60022607",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#...Why are you here at all, {M#Lumine}{F#Aether}?",
+            "nextDialogs": [
+              "60022608"
+            ]
+          },
+          "60022608": {
+            "id": "60022608",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "...What do you mean?",
+            "nextDialogs": [
+              "60022609"
+            ]
+          },
+          "60022609": {
+            "id": "60022609",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "#If I may be so bold... What does \"family\" mean to you, {NICKNAME}?",
+            "nextDialogs": [
+              "60022610"
+            ]
+          },
+          "60022610": {
+            "id": "60022610",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#...Why were you after the Moon Marrow that night, {M#Lumine}{F#Aether}?",
+            "nextDialogs": [
+              "60022611"
+            ]
+          },
+          "60022611": {
+            "id": "60022611",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Among those who entered the final chamber, there was either someone with impure intent, or else... an Abyssal presence.",
+            "nextDialogs": [
+              "60022612"
+            ]
+          },
+          "60022612": {
+            "id": "60022612",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "We can talk about that later!",
+            "nextDialogs": [
+              "60022613"
+            ]
+          },
+          "60022613": {
+            "id": "60022613",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#Tell me why, {M#Lumine}{F#Aether}.",
+            "nextDialogs": [
+              "60022614"
+            ]
+          },
+          "60022614": {
+            "id": "60022614",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(No... It can't be...)",
+            "nextDialogs": [
+              "60022615"
+            ]
+          },
+          "60022615": {
+            "id": "60022615",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "You know, this is only the second time we've fought together since the day we both woke up in Teyvat.",
+            "nextDialogs": [
+              "60022616"
+            ]
+          },
+          "60022616": {
+            "id": "60022616",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No...",
+            "nextDialogs": [
+              "60022617"
+            ]
+          },
+          "60022617": {
+            "id": "60022617",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#...{M#Aether}{F#Lumine}?",
+            "nextDialogs": [
+              "60022618"
+            ]
+          },
+          "60022618": {
+            "id": "60022618",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "But when I found you, you were still in hibernation. Even the key to the chamber was still secure on your person.",
+            "nextDialogs": [
+              "60022619"
+            ]
+          },
+          "60022619": {
+            "id": "60022619",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We... didn't wake up together...",
+            "nextDialogs": [
+              "60022620"
+            ]
+          },
+          "60022620": {
+            "id": "60022620",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#What are you talking about? We don't have time for this, {M#Aether}{F#Lumine}!",
+            "nextDialogs": [
+              "60022621"
+            ]
+          },
+          "60022621": {
+            "id": "60022621",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "60022622"
+            ]
+          },
+          "60022622": {
+            "id": "60022622",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#Look at me, {M#Aether}{F#Lumine}.",
+            "nextDialogs": [
+              "60022623"
+            ]
+          },
+          "60022623": {
+            "id": "60022623",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "Don't you want to explore this world with me?",
+            "nextDialogs": [
+              "60022624"
+            ]
+          },
+          "60022624": {
+            "id": "60022624",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...!",
+            "nextDialogs": [
+              "60022625"
+            ]
+          },
+          "60022625": {
+            "id": "60022625",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Is everyone okay?",
+            "nextDialogs": [
+              "60022626"
+            ]
+          },
+          "60022626": {
+            "id": "60022626",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Whew... Think I saw my life flash before my eyes there. Good thing Lauma Doe was there to save the day...",
+            "nextDialogs": [
+              "60022627"
+            ]
+          },
+          "60022627": {
+            "id": "60022627",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "#Are you alright, {NICKNAME}?",
+            "nextDialogs": [
+              "60022628"
+            ]
+          },
+          "60022628": {
+            "id": "60022628",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...!)",
+            "nextDialogs": [
+              "60022629"
+            ]
+          },
+          "60022629": {
+            "id": "60022629",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm fine...",
+            "nextDialogs": [
+              "60022631"
+            ]
+          },
+          "60022631": {
+            "id": "60022631",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Ha... Well, that took you long enough. Seriously, how many of you are there? Pathetic...",
+            "nextDialogs": [
+              "60022632"
+            ]
+          },
+          "60022632": {
+            "id": "60022632",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Oh no... I spoke too soon! Totally forgot we still have a Harbinger to deal with!)",
+            "nextDialogs": [
+              "60022633"
+            ]
+          },
+          "60022633": {
+            "id": "60022633",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, is that... the Moon Marrow! It was hidden inside that big robot of hers all along!",
+            "nextDialogs": [
+              "60022634"
+            ]
+          },
+          "60022634": {
+            "id": "60022634",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But... that robot...",
+            "nextDialogs": [
+              "60022635"
+            ]
+          },
+          "60022635": {
+            "id": "60022635",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Ugh... That's \"Pulonia\" to you, not just some \"robot\"!",
+            "nextDialogs": [
+              "60022636"
+            ]
+          },
+          "60022636": {
+            "id": "60022636",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "...Take it, and get lost.",
+            "nextDialogs": [
+              "60022637"
+            ]
+          },
+          "60022637": {
+            "id": "60022637",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...!",
+            "nextDialogs": [
+              "60022638"
+            ]
+          },
+          "60022638": {
+            "id": "60022638",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? You're just... giving it to us?",
+            "nextDialogs": [
+              "60022639"
+            ]
+          },
+          "60022639": {
+            "id": "60022639",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "Well, I wasn't the one who put out the order to find this thing in the first place... So if someone wants it, they can help themselves. Maybe even choke on it — see if I care.",
+            "nextDialogs": [
+              "60022640"
+            ]
+          },
+          "60022640": {
+            "id": "60022640",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Is she saying... that it was another Harbinger who was after the Moon Marrow?)",
+            "nextDialogs": [
+              "60022641"
+            ]
+          },
+          "60022641": {
+            "id": "60022641",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "...So? Are you waiting for me to change my mind, or what? I'd be more than happy to pick up where we just left off... But, I should warn you, I'm in a bad mood right now.",
+            "nextDialogs": [
+              "60022642"
+            ]
+          },
+          "60022642": {
+            "id": "60022642",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...Let's go.",
+            "nextDialogs": [
+              "60022643"
+            ]
+          },
+          "60022643": {
+            "id": "60022643",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Fine by me! Totally, completely, absolutely on board with that!",
+            "nextDialogs": [
+              "60022644"
+            ]
+          },
+          "60022644": {
+            "id": "60022644",
+            "speakerId": 1016,
+            "speakerName": "Marionette",
+            "text": "...",
+            "nextDialogs": [
+              "60022645"
+            ]
+          },
+          "60022645": {
+            "id": "60022645",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "It's... finally over. *sigh* If that doesn't make the \"Most Thrilling Commission of the Year,\" I don't know what will...",
+            "nextDialogs": [
+              "60022646"
+            ]
+          },
+          "60022646": {
+            "id": "60022646",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Looks like... the Fatui are all gone now... Agh!",
+            "nextDialogs": [
+              "60022647"
+            ]
+          },
+          "60022647": {
+            "id": "60022647",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Lauma!",
+            "nextDialogs": [
+              "60022648"
+            ]
+          },
+          "60022648": {
+            "id": "60022648",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Lauma mentioned that she normally has to keep her power in check. I guess... this is what happens if she doesn't...)",
+            "nextDialogs": [
+              "60022649"
+            ]
+          },
+          "60022649": {
+            "id": "60022649",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I'm alright... It's just been so long since I truly felt the power of the moon...",
+            "nextDialogs": [
+              "60022650"
+            ]
+          },
+          "60022650": {
+            "id": "60022650",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Hmm? I thought I sensed the Wild Hunt nearby... Don't tell me... you've already taken care of it?",
+            "nextDialogs": [
+              "60022651"
+            ]
+          },
+          "60022651": {
+            "id": "60022651",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, it's Flins!",
+            "nextDialogs": [
+              "60022652"
+            ]
+          },
+          "60022652": {
+            "id": "60022652",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "(Hey, he's... that Ratnik!)",
+            "nextDialogs": [
+              "60022653"
+            ]
+          },
+          "60022653": {
+            "id": "60022653",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Unless I am mistaken... You are the Moonchanter of the Frostmoon Scions, are you not? May I ask... What is that in your hand?",
+            "nextDialogs": [
+              "60022654"
+            ]
+          },
+          "60022654": {
+            "id": "60022654",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60022655"
+            ]
+          },
+          "60022655": {
+            "id": "60022655",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Please, don't get me wrong. I've been tracking the Wild Hunt lately, and I've come to suspect that its actions... aren't as aimless as they might seem.",
+            "nextDialogs": [
+              "60022656"
+            ]
+          },
+          "60022656": {
+            "id": "60022656",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "When I saw what you were holding, I could not help but start... connecting the dots.",
+            "nextDialogs": [
+              "60022657"
+            ]
+          },
+          "60022657": {
+            "id": "60022657",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#(So that night, {M#Lumine}{F#Aether}... No, the Wild Hunt... was using me to get to the Moon Marrow...?)",
+            "nextDialogs": [
+              "60022658"
+            ]
+          },
+          "60022658": {
+            "id": "60022658",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I'd better find some time to have a word with Flins, just in case...)",
+            "nextDialogs": [
+              "60022659"
+            ]
+          },
+          "60022659": {
+            "id": "60022659",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You'd better be extra careful, Flins... It seems like the Wild Hunt is capable of impersonating people now.",
+            "nextDialogs": [
+              "60022660"
+            ]
+          },
+          "60022660": {
+            "id": "60022660",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Oh, is that so? Funny that — I just showed up completely out of the blue, yet you seem to have no problems trusting me...",
+            "nextDialogs": [
+              "60022661"
+            ]
+          },
+          "60022661": {
+            "id": "60022661",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...!",
+            "nextDialogs": [
+              "60022662"
+            ]
+          },
+          "60022662": {
+            "id": "60022662",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Hahaha... I apologize. I shouldn't be making jokes like that right now.",
+            "nextDialogs": [
+              "60022663"
+            ]
+          },
+          "60022663": {
+            "id": "60022663",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "Anyway, I understand — thank you for the tip-off. It seems that the Wild Hunt has somehow... changed in nature. I'll have to report this to HQ right away.",
+            "nextDialogs": [
+              "60022664"
+            ]
+          },
+          "60022664": {
+            "id": "60022664",
+            "speakerId": 1019,
+            "speakerName": "Flins",
+            "text": "For now, let us part ways here.",
+            "nextDialogs": [
+              "60022665"
+            ]
+          },
+          "60022665": {
+            "id": "60022665",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(There's... still something strange about him that I can't seem to put my finger on...)",
+            "nextDialogs": [
+              "60022666"
+            ]
+          },
+          "60022666": {
+            "id": "60022666",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Phew...",
+            "nextDialogs": [
+              "60022667"
+            ]
+          },
+          "60022667": {
+            "id": "60022667",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Wait, so... Lauma was on her guard against him this whole time?)",
+            "nextDialogs": [
+              "60022668"
+            ]
+          },
+          "60022668": {
+            "id": "60022668",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That little \"joke\" of his just now... sure scared the bejeebies out of Paimon. Are all the Ratniki in Nod-Krai like that...?",
+            "nextDialogs": [
+              "60022669"
+            ]
+          },
+          "60022669": {
+            "id": "60022669",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "They're usually stationed in remote areas and tend to keep to themselves. So, uh, it's not surprising they end up a little... eccentric?",
+            "nextDialogs": [
+              "60022670"
+            ]
+          },
+          "60022670": {
+            "id": "60022670",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "No... He's different.",
+            "nextDialogs": [
+              "60022671"
+            ]
+          },
+          "60022671": {
+            "id": "60022671",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Really? How so?",
+            "nextDialogs": [
+              "60022672"
+            ]
+          },
+          "60022672": {
+            "id": "60022672",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "The animals... they've told me they're afraid to even go near him..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600228",
+      "subQuestName": "Return to the Curatorium of Secrets",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60022801"
+        ],
+        "dialogs": {
+          "60022801": {
+            "id": "60022801",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Oh, you're back. I just made you all a pot of tea — better drink it while it's hot.",
+            "nextDialogs": [
+              "60022802"
+            ]
+          },
+          "60022802": {
+            "id": "60022802",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Boss Nef, you wouldn't believe how scary our day has been! Seriously, I am never, ever taking random jobs like that, EVER again... Ya hear me?",
+            "nextDialogs": [
+              "60022803"
+            ]
+          },
+          "60022803": {
+            "id": "60022803",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Oh, come on, now! You even faced the Wild Hunt and lived to tell the tale... What's left to be afraid of?",
+            "nextDialogs": [
+              "60022804"
+            ]
+          },
+          "60022804": {
+            "id": "60022804",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a sec, how did you— Ohhh right, like you told us before... Your business is \"dealing in information.\"",
+            "nextDialogs": [
+              "60022805"
+            ]
+          },
+          "60022805": {
+            "id": "60022805",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Huh? Boss Nef... The teacups... Wh—Why is there one missing? Did you... think I wasn't coming back!?",
+            "nextDialogs": [
+              "60022806"
+            ]
+          },
+          "60022806": {
+            "id": "60022806",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "My, my... How could you think that of me? You know the rules — if a member of staff wants tea, they pour it themselves. Your cup's sitting safe and sound, right there in the cupboard.",
+            "nextDialogs": [
+              "60022807"
+            ]
+          },
+          "60022807": {
+            "id": "60022807",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "A... m—member of staff? Does that mean you're... accepting me back!?!",
+            "nextDialogs": [
+              "60022808"
+            ]
+          },
+          "60022808": {
+            "id": "60022808",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Wasn't that the deal?",
+            "nextDialogs": [
+              "60022809"
+            ]
+          },
+          "60022809": {
+            "id": "60022809",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Boss Nef! You're the best boss ever!",
+            "nextDialogs": [
+              "60022810"
+            ]
+          },
+          "60022810": {
+            "id": "60022810",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60022811"
+            ]
+          },
+          "60022811": {
+            "id": "60022811",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Heh. You never change, do you? Everything turned out fine, no? You found exactly what you were looking for... yet there you are, sulking away as usual.",
+            "nextDialogs": [
+              "60022812"
+            ]
+          },
+          "60022812": {
+            "id": "60022812",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Nefer... That medicine we discussed before, the one for congenital kuuvahki sensitivity... I need you to get it for me.",
+            "nextDialogs": [
+              "60022813"
+            ]
+          },
+          "60022813": {
+            "id": "60022813",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "And how do you expect me to find something like that for you in the middle of the night? You'll have to wait till morning, at the very least.",
+            "nextDialogs": [
+              "60022814"
+            ]
+          },
+          "60022814": {
+            "id": "60022814",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "I need it right now.",
+            "nextDialogs": [
+              "60022815"
+            ]
+          },
+          "60022815": {
+            "id": "60022815",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "...",
+            "nextDialogs": [
+              "60022816"
+            ]
+          },
+          "60022816": {
+            "id": "60022816",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Alright, alright, I'll see what I can do. But you know \"urgent\" means \"extra charge,\" right?",
+            "nextDialogs": [
+              "60022817"
+            ]
+          },
+          "60022817": {
+            "id": "60022817",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "So... Thank you.",
+            "nextDialogs": [
+              "60022818"
+            ]
+          },
+          "60022818": {
+            "id": "60022818",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "...Hmm. You know what? You do seem a little... different.",
+            "nextDialogs": [
+              "60022819"
+            ]
+          },
+          "60022819": {
+            "id": "60022819",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "In a good way, or a bad way?",
+            "nextDialogs": [
+              "60022820"
+            ]
+          },
+          "60022820": {
+            "id": "60022820",
+            "speakerId": 1020,
+            "speakerName": "Nefer",
+            "text": "Mm... Who can say? I'll take it either way, so long as you don't start making a habit of asking me for ridiculous favors...",
+            "nextDialogs": [
+              "60022821"
+            ]
+          },
+          "60022821": {
+            "id": "60022821",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "#{NICKNAME}, Paimon... A lot has happened these past few days. I don't know what I would have done without you.",
+            "nextDialogs": [
+              "60022822"
+            ]
+          },
+          "60022822": {
+            "id": "60022822",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, don't mention it! That's what we're here for!",
+            "nextDialogs": [
+              "60022823"
+            ]
+          },
+          "60022823": {
+            "id": "60022823",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't forget, your family believe and trust in you too.",
+            "nextDialogs": [
+              "60022824"
+            ]
+          },
+          "60022824": {
+            "id": "60022824",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Mhm, you're right... and tonight, I'm planning on telling them everything.",
+            "nextDialogs": [
+              "60022825"
+            ]
+          },
+          "60022825": {
+            "id": "60022825",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Tonight? Isn't it a bit... late already?",
+            "nextDialogs": [
+              "60022826"
+            ]
+          },
+          "60022826": {
+            "id": "60022826",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "The moon shines brightly this night... What better time for the Frostmoon Scions to usher in a new dawn for truth?",
+            "nextDialogs": [
+              "60022829"
+            ]
+          },
+          "60022829": {
+            "id": "60022829",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Thank you for your kind words.",
+            "nextDialogs": [
+              "60022830"
+            ]
+          },
+          "60022830": {
+            "id": "60022830",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "But before I do, there's one more thing we need to deal with...",
+            "nextDialogs": [
+              "60022831"
+            ]
+          },
+          "60022831": {
+            "id": "60022831",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ohhh, yeah... Now that we have the Moon Marrow...",
+            "nextDialogs": [
+              "60022832"
+            ]
+          },
+          "60022832": {
+            "id": "60022832",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "You'll... have to forgive me... I used too much of my strength in the battle earlier. I fear... I won't be able to help you uncover the truth of the past. Not right away, at least.",
+            "nextDialogs": [
+              "60022833"
+            ]
+          },
+          "60022833": {
+            "id": "60022833",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's fine! We're going to be in Nod-Krai for a while anyway, so there's no rush, right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600234",
+      "subQuestName": "Accompany Lauma back to Hiisi Island",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60029901"
+        ],
+        "dialogs": {
+          "60029901": {
+            "id": "60029901",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Go, go, go... But make sure you stick to the side!",
+            "nextDialogs": [
+              "60029902"
+            ]
+          },
+          "60029902": {
+            "id": "60029902",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "We should be able to use the terminal to move the drawbridge.",
+            "nextDialogs": [
+              "60029903"
+            ]
+          },
+          "60029903": {
+            "id": "60029903",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Here's the access card. I'll keep watch while you handle the controls.",
+            "nextDialogs": [
+              "60029904"
+            ]
+          },
+          "60029904": {
+            "id": "60029904",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "All done. Let's keep moving.",
+            "nextDialogs": [
+              "60029905"
+            ]
+          },
+          "60029905": {
+            "id": "60029905",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Time to slot in the charging component.",
+            "nextDialogs": [
+              "60029906"
+            ]
+          },
+          "60029906": {
+            "id": "60029906",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "It's finally down! Quick, let's hurry down to the lower level before we're spotted!",
+            "nextDialogs": [
+              "60029909"
+            ]
+          },
+          "60029909": {
+            "id": "60029909",
+            "speakerId": 1018,
+            "speakerName": "Sibling",
+            "text": "#{M#Aether}{F#Lumine}...！",
+            "nextDialogs": [
+              "60029907"
+            ]
+          },
+          "60029907": {
+            "id": "60029907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Wait, what was that...?)",
+            "nextDialogs": [
+              "60029911"
+            ]
+          },
+          "60029911": {
+            "id": "60029911",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "This way leads straight into the armory!",
+            "nextDialogs": [
+              "60029912"
+            ]
+          },
+          "60029912": {
+            "id": "60029912",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Shh! No chatting while we're sneaking in!",
+            "nextDialogs": [
+              "60029913"
+            ]
+          },
+          "60029913": {
+            "id": "60029913",
+            "speakerId": 1002,
+            "speakerName": "Jahoda",
+            "text": "Wait, is that really the route we're going with...? Oh well, too late to turn back now..."
+          }
+        }
+      }
+    }
+  ]
+}

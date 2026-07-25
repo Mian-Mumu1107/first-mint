@@ -1,0 +1,1863 @@
+{
+  "lineCounts": {
+    "Aratani": 5,
+    "Black Screen": 2,
+    "House Interior": 1,
+    "Lyudochka Snezhevna": 36,
+    "Momoyo": 46,
+    "Paimon": 66,
+    "Player": 34
+  },
+  "subQuests": [
+    {
+      "subId": "7226601",
+      "subQuestName": "Head for the safehouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226602",
+      "subQuestName": "Defeat the Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226603",
+      "subQuestName": "Check on the safehouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722660301"
+        ],
+        "dialogs": {
+          "722660301": {
+            "id": "722660301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo! Momoyo! Where are yooou?",
+            "nextDialogs": [
+              "722660302"
+            ]
+          },
+          "722660302": {
+            "id": "722660302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh no, this place has been trashed by the Fatui. Momoyo's stuff... and the materials... They're all gone!",
+            "nextDialogs": [
+              "722660303"
+            ]
+          },
+          "722660303": {
+            "id": "722660303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Looks like this safehouse isn't safe anymore.",
+            "nextDialogs": [
+              "722660304"
+            ]
+          },
+          "722660304": {
+            "id": "722660304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But what's happened to Momoyo? Was she... captured by the Fatui!?",
+            "nextDialogs": [
+              "722660305"
+            ]
+          },
+          "722660305": {
+            "id": "722660305",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Actually, wait a moment. There's been this weird smell ever since we entered the safehouse. There's something in the air here...",
+            "nextDialogs": [
+              "722660306"
+            ]
+          },
+          "722660306": {
+            "id": "722660306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There's powder on the ground.",
+            "nextDialogs": [
+              "722660307"
+            ]
+          },
+          "722660307": {
+            "id": "722660307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Powder? Is that the elemental powder we used the last time? C'mon, {NICKNAME}, use your Elemental Sight, quick! This has to be a message that Momoyo left for us in her time of need!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226604",
+      "subQuestName": "Pursue the elemental trail",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226619",
+      "subQuestName": "Pursue the elemental trail",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226620",
+      "subQuestName": "Pursue the elemental trail",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722662001"
+        ],
+        "dialogs": {
+          "722662001": {
+            "id": "722662001",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "What? Was there anything else?",
+            "nextDialogs": [
+              "722662003",
+              "722662005",
+              "722662008",
+              "722662015"
+            ]
+          },
+          "722662003": {
+            "id": "722662003",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "It's fine, it won't impede my mobility. I might even be able to infiltrate a pirate crew at some point in the future. That would be interesting for sure."
+          },
+          "722662005": {
+            "id": "722662005",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "First, we need to wipe out those Fatui who are planning to plant poison on Watatsumi Island. However, their Teacher appears to have left Inazuma. Hmph. If he ever dares to return, I'll make sure he never leaves again.",
+            "nextDialogs": [
+              "722662006"
+            ]
+          },
+          "722662006": {
+            "id": "722662006",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Someone is helping me pass the intel to the Shuumatsuban. Don't you worry."
+          },
+          "722662008": {
+            "id": "722662008",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Some shortie named Sayu. She told me that she knows you two. She should be passing our news on to the Shuumatsuban right about now.",
+            "nextDialogs": [
+              "722662009"
+            ]
+          },
+          "722662009": {
+            "id": "722662009",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You sure everything will be okay?",
+            "nextDialogs": [
+              "722662010"
+            ]
+          },
+          "722662010": {
+            "id": "722662010",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Yes, yes. I know she doesn't look very reliable. But she's still a Shuumatsuban ninja. She won't act carelessly when important matters are at stake.",
+            "nextDialogs": [
+              "722662011"
+            ]
+          },
+          "722662011": {
+            "id": "722662011",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "She also said that she would've tried harder if she knew that you were going to use that code sheet.",
+            "nextDialogs": [
+              "722662012"
+            ]
+          },
+          "722662012": {
+            "id": "722662012",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Tried harder to remember all the codes?",
+            "nextDialogs": [
+              "722662013"
+            ]
+          },
+          "722662013": {
+            "id": "722662013",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "\"Tried harder not to drool all over the sheet.\""
+          },
+          "722662015": {
+            "id": "722662015",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Bye. Quickly now, go to Ritou.",
+            "nextDialogs": [
+              "722662016"
+            ]
+          },
+          "722662016": {
+            "id": "722662016",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "...Momoka, it was you who took me in and allowed me to join the Shuumatsuban back when I was an orphan. Have I... finally made you proud?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226611",
+      "subQuestName": "Enter the basement of the abandoned building.",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226612",
+      "subQuestName": "Follow the elemental trail to search for Momoyo",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722661201"
+        ],
+        "dialogs": {
+          "722661201": {
+            "id": "722661201",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "*cough* I've said this before. I've got nothing to say to you pieces of garbage. If you're going to finish me, do it soon!",
+            "nextDialogs": [
+              "722661202"
+            ]
+          },
+          "722661202": {
+            "id": "722661202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo!",
+            "nextDialogs": [
+              "722661203"
+            ]
+          },
+          "722661203": {
+            "id": "722661203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We're here to save you.",
+            "nextDialogs": [
+              "722661204"
+            ]
+          },
+          "722661204": {
+            "id": "722661204",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "#Paimon and {NICKNAME}? Hah. To think that you'd find this place, huh?",
+            "nextDialogs": [
+              "722661205"
+            ]
+          },
+          "722661205": {
+            "id": "722661205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Come on, quit talking tough. Since you left the elemental powder behind, you must've believed that we come to rescue you!",
+            "nextDialogs": [
+              "722661206"
+            ]
+          },
+          "722661206": {
+            "id": "722661206",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Hmph. Then what would you like me to do? Praise your skills?",
+            "nextDialogs": [
+              "722661207"
+            ]
+          },
+          "722661207": {
+            "id": "722661207",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehehe. That can wait till later. Let's get you out of here first. Come on, let's go get that door!",
+            "nextDialogs": [
+              "722661208"
+            ]
+          },
+          "722661208": {
+            "id": "722661208",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "The door's locked. The key should be with their superior.",
+            "nextDialogs": [
+              "722661209"
+            ]
+          },
+          "722661209": {
+            "id": "722661209",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "They seem to have been notified of something halfway through the interrogation, since they left in a hurry.",
+            "nextDialogs": [
+              "722661210"
+            ]
+          },
+          "722661210": {
+            "id": "722661210",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "They should be plotting in secret in the room on the highest floor.",
+            "nextDialogs": [
+              "722661211"
+            ]
+          },
+          "722661211": {
+            "id": "722661211",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "It's likely that they have locked the door from the other side while this is happening. You'll need special magatama to unlock it.",
+            "nextDialogs": [
+              "722661212"
+            ]
+          },
+          "722661212": {
+            "id": "722661212",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Got it.",
+            "nextDialogs": [
+              "722661213"
+            ]
+          },
+          "722661213": {
+            "id": "722661213",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Alright. Thank you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226621",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722662101"
+        ],
+        "dialogs": {
+          "722662101": {
+            "id": "722662101",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "This is... a Fortune Slip from the Grand Narukami Shrine?",
+            "nextDialogs": [
+              "722662102"
+            ]
+          },
+          "722662102": {
+            "id": "722662102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's right! We got this the day we used the fake Bamboo Slip to tail you.",
+            "nextDialogs": [
+              "722662103"
+            ]
+          },
+          "722662103": {
+            "id": "722662103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The Bamboo Slip may have been fake, sure, but it was the key to us being able to truly understand you.",
+            "nextDialogs": [
+              "722662104"
+            ]
+          },
+          "722662104": {
+            "id": "722662104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You were the one who told us that we were good people, and that the fortune would definitely be accurate as a result.",
+            "nextDialogs": [
+              "722662105"
+            ]
+          },
+          "722662105": {
+            "id": "722662105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You're a good person too, Lyudochka. So we're sure that good fortune will go with you as well!",
+            "nextDialogs": [
+              "722662106"
+            ]
+          },
+          "722662106": {
+            "id": "722662106",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We hope that it'll help you remember the times you spent in Inazuma.",
+            "nextDialogs": [
+              "722662107"
+            ]
+          },
+          "722662107": {
+            "id": "722662107",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "May you do as the Fortune Slip says: \"Fly, drift, across the seas, to lands far away...\"",
+            "nextDialogs": [
+              "722662108"
+            ]
+          },
+          "722662108": {
+            "id": "722662108",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "\"But one day, you will no longer drift.\"",
+            "nextDialogs": [
+              "722662109"
+            ]
+          },
+          "722662109": {
+            "id": "722662109",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "\"One day, you will become what you hope to be.\"",
+            "nextDialogs": [
+              "722662110"
+            ]
+          },
+          "722662110": {
+            "id": "722662110",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "\"One day, you will become what you hope to be...\"",
+            "nextDialogs": [
+              "722662111"
+            ]
+          },
+          "722662111": {
+            "id": "722662111",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "What I... Hope to be...",
+            "nextDialogs": [
+              "722662112"
+            ]
+          },
+          "722662112": {
+            "id": "722662112",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka. You say that your life has no direction, but that's not true. You're just being tied down by your past.",
+            "nextDialogs": [
+              "722662113"
+            ]
+          },
+          "722662113": {
+            "id": "722662113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "In fact, you already knew what sort of person you'd like to become!",
+            "nextDialogs": [
+              "722662114"
+            ]
+          },
+          "722662114": {
+            "id": "722662114",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I... already knew?",
+            "nextDialogs": [
+              "722662115"
+            ]
+          },
+          "722662115": {
+            "id": "722662115",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yup!",
+            "nextDialogs": [
+              "722662116"
+            ]
+          },
+          "722662116": {
+            "id": "722662116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The shrine maiden uniform you're wearing—",
+            "nextDialogs": [
+              "722662117"
+            ]
+          },
+          "722662117": {
+            "id": "722662117",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is your answer!",
+            "nextDialogs": [
+              "722662118"
+            ]
+          },
+          "722662118": {
+            "id": "722662118",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I—!",
+            "nextDialogs": [
+              "722662119"
+            ]
+          },
+          "722662119": {
+            "id": "722662119",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I... *sobs*",
+            "nextDialogs": [
+              "722662120"
+            ]
+          },
+          "722662120": {
+            "id": "722662120",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "*sobs* I—It's true. You're right! I always... I always wanted to become a real shrine maiden!",
+            "nextDialogs": [
+              "722662121"
+            ]
+          },
+          "722662121": {
+            "id": "722662121",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Every day, whenever people would get their Bamboo Slips from the Fortune Slip Box, whenever they would earnestly share their troubles with me, I would feel guilty about being a fraud.",
+            "nextDialogs": [
+              "722662122"
+            ]
+          },
+          "722662122": {
+            "id": "722662122",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I really wished that I could bring them joy!",
+            "nextDialogs": [
+              "722662123"
+            ]
+          },
+          "722662123": {
+            "id": "722662123",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "#*sobs* {NICKNAME}, Paimon... Can my wish really come true?",
+            "nextDialogs": [
+              "722662124"
+            ]
+          },
+          "722662124": {
+            "id": "722662124",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Can I really stay? Can I really become that person?",
+            "nextDialogs": [
+              "722662127"
+            ]
+          },
+          "722662127": {
+            "id": "722662127",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo says that you can continue using the name \"Gendou Ringo\" — if you're willing to, of course.",
+            "nextDialogs": [
+              "722662128"
+            ]
+          },
+          "722662128": {
+            "id": "722662128",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You'll never have to be tied down by the name Lyudochka ever again!",
+            "nextDialogs": [
+              "722662129"
+            ]
+          },
+          "722662129": {
+            "id": "722662129",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "*sniff* Thank you... Thank you all...",
+            "nextDialogs": [
+              "722662130"
+            ]
+          },
+          "722662130": {
+            "id": "722662130",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I will take up this name. I will become the real \"Gendou Ringo.\"",
+            "nextDialogs": [
+              "722662131"
+            ]
+          },
+          "722662131": {
+            "id": "722662131",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "Lyudochka takes a moment to calm down.\\nAfterward, you return the Mora she sent back to her.",
+            "nextDialogs": [
+              "722662132"
+            ]
+          },
+          "722662132": {
+            "id": "722662132",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "*sigh* Sorry for the trouble, you two. It must have been hard to convince me to stay.",
+            "nextDialogs": [
+              "722662133"
+            ]
+          },
+          "722662133": {
+            "id": "722662133",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, all's well that ends well, right? Are you feeling better now?",
+            "nextDialogs": [
+              "722662134"
+            ]
+          },
+          "722662134": {
+            "id": "722662134",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I am. I'm sure of what I feel now. I want to stay here in Inazuma, at the Grand Narukami Shrine.",
+            "nextDialogs": [
+              "722662135"
+            ]
+          },
+          "722662135": {
+            "id": "722662135",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Since I've taken the Mora back, please, take this Fortune Slip. May my blessing go with you.",
+            "nextDialogs": [
+              "722662136"
+            ]
+          },
+          "722662136": {
+            "id": "722662136",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I'll return to the shrine now. Hopefully, I can thank Ms. Momoyo in person. I must also thank Lady Yae for taking me in...",
+            "nextDialogs": [
+              "722662137"
+            ]
+          },
+          "722662137": {
+            "id": "722662137",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "#See you, {NICKNAME}, Paimon. Let's meet again at the Grand Narukami Shrine.",
+            "nextDialogs": [
+              "722662138"
+            ]
+          },
+          "722662138": {
+            "id": "722662138",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you, Lyudochka.",
+            "nextDialogs": [
+              "722662139"
+            ]
+          },
+          "722662139": {
+            "id": "722662139",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Hehe. Next time we meet, just call me \"Gendou Ringo.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226613",
+      "subQuestName": "Look for a key",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226615",
+      "subQuestName": "Open the cell gate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226616",
+      "subQuestName": "Check Momoyo's wounds",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722661601"
+        ],
+        "dialogs": {
+          "722661601": {
+            "id": "722661601",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "#{NICKNAME}, Paimon, you're back.",
+            "nextDialogs": [
+              "722661602"
+            ]
+          },
+          "722661602": {
+            "id": "722661602",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo, are you okay... *gasp* You're hurt all over!",
+            "nextDialogs": [
+              "722661603"
+            ]
+          },
+          "722661603": {
+            "id": "722661603",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "#Quit your yelling. It's not that bad... Would you mind supporting me, {NICKNAME}?",
+            "nextDialogs": [
+              "722661604"
+            ]
+          },
+          "722661604": {
+            "id": "722661604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Come on, you can't even walk by yourself. You're not okay at all! Wait a moment. Why aren't you looking at us? What happened to your eyes?",
+            "nextDialogs": [
+              "722661605"
+            ]
+          },
+          "722661605": {
+            "id": "722661605",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Heh. When I was going for the elemental powder box, some Fatui shot the box and broke it. Some of the stuff got into my eyes.",
+            "nextDialogs": [
+              "722661606"
+            ]
+          },
+          "722661606": {
+            "id": "722661606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Didn't you say the elemental powder was poisonous?",
+            "nextDialogs": [
+              "722661607"
+            ]
+          },
+          "722661607": {
+            "id": "722661607",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "You're way too noisy. I doubt I'm going to lose both eyes. It's just that this place is too dark for me to see anything. Let's get outside first."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226606",
+      "subQuestName": "Ask Momoyo what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722660601"
+        ],
+        "dialogs": {
+          "722660601": {
+            "id": "722660601",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Phew. That was one musty cell. Guess I can finally breathe easy.",
+            "nextDialogs": [
+              "722660602"
+            ]
+          },
+          "722660602": {
+            "id": "722660602",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo! What happened to your eyes!?",
+            "nextDialogs": [
+              "722660603"
+            ]
+          },
+          "722660603": {
+            "id": "722660603",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Oh, relax. This one's fine now.",
+            "nextDialogs": [
+              "722660604"
+            ]
+          },
+          "722660604": {
+            "id": "722660604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But your other eye...",
+            "nextDialogs": [
+              "722660605"
+            ]
+          },
+          "722660605": {
+            "id": "722660605",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Bah. What's with those sad faces?",
+            "nextDialogs": [
+              "722660606"
+            ]
+          },
+          "722660606": {
+            "id": "722660606",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Be glad! We fooled them all and even exposed their base, all for the cost of only one eye. This is a worthy trade!",
+            "nextDialogs": [
+              "722660607"
+            ]
+          },
+          "722660607": {
+            "id": "722660607",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Hehehe, that Teacher was completely taken in by my handiwork. That Fatui girl you're trying to save will never have to live in fear again.",
+            "nextDialogs": [
+              "722660608"
+            ]
+          },
+          "722660608": {
+            "id": "722660608",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So... You mean you didn't flee from the safehouse because you wanted them to believe that Lyudochka was dead?",
+            "nextDialogs": [
+              "722660609"
+            ]
+          },
+          "722660609": {
+            "id": "722660609",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "We had an agreement. And anyway, it would be a waste of all our previous effort if we were to be exposed at this juncture.",
+            "nextDialogs": [
+              "722660610"
+            ]
+          },
+          "722660610": {
+            "id": "722660610",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "In any case, I expected that you would come to rescue me.",
+            "nextDialogs": [
+              "722660611"
+            ]
+          },
+          "722660611": {
+            "id": "722660611",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Well, this capture of mine was quite sudden, and we have an upcoming mission in Watatsumi Island, so there's no time for a written report.",
+            "nextDialogs": [
+              "722660612"
+            ]
+          },
+          "722660612": {
+            "id": "722660612",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "I'll just have to go to the Grand Narukami Shrine and get someone to pass a message to the Shuumatsuban.",
+            "nextDialogs": [
+              "722660613"
+            ]
+          },
+          "722660613": {
+            "id": "722660613",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "As for you, go tell Lyudochka that she's safe now.",
+            "nextDialogs": [
+              "722660614"
+            ]
+          },
+          "722660614": {
+            "id": "722660614",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, we'll do just that!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226607",
+      "subQuestName": "Give Lyudochka the good news",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722660701"
+        ],
+        "dialogs": {
+          "722660701": {
+            "id": "722660701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka, we're back! We've done it! You're safe now!",
+            "nextDialogs": [
+              "722660702"
+            ]
+          },
+          "722660702": {
+            "id": "722660702",
+            "speakerId": 1004,
+            "speakerName": "House Interior",
+            "text": "...",
+            "nextDialogs": [
+              "722660703"
+            ]
+          },
+          "722660703": {
+            "id": "722660703",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka?",
+            "nextDialogs": [
+              "722660704"
+            ]
+          },
+          "722660704": {
+            "id": "722660704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She's not in.",
+            "nextDialogs": [
+              "722660705"
+            ]
+          },
+          "722660705": {
+            "id": "722660705",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's weird. Where did she go? Let's ask the Yae Publishing House employees. They might know a thing or two."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226608",
+      "subQuestName": "Consult Aratani",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722660801"
+        ],
+        "dialogs": {
+          "722660801": {
+            "id": "722660801",
+            "speakerId": 1005,
+            "speakerName": "Aratani",
+            "text": "Is there anything I can help you with?",
+            "nextDialogs": [
+              "722660802"
+            ]
+          },
+          "722660802": {
+            "id": "722660802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey there. We'd like to ask after someone. Do you know where the lady who's been doing proofreading these few days has gone? We're friends of hers.",
+            "nextDialogs": [
+              "722660803"
+            ]
+          },
+          "722660803": {
+            "id": "722660803",
+            "speakerId": 1005,
+            "speakerName": "Aratani",
+            "text": "#Oh, you must be {NICKNAME} and Paimon. Ms. Touyama said that you'd come looking for her.",
+            "nextDialogs": [
+              "722660804"
+            ]
+          },
+          "722660804": {
+            "id": "722660804",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Ms. Touyama?)",
+            "nextDialogs": [
+              "722660805"
+            ]
+          },
+          "722660805": {
+            "id": "722660805",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(That should be Lyudochka's pseudonym.)",
+            "nextDialogs": [
+              "722660806"
+            ]
+          },
+          "722660806": {
+            "id": "722660806",
+            "speakerId": 1005,
+            "speakerName": "Aratani",
+            "text": "She told me yesterday that she won't be able to continue working here due to a family emergency.",
+            "nextDialogs": [
+              "722660807"
+            ]
+          },
+          "722660807": {
+            "id": "722660807",
+            "speakerId": 1005,
+            "speakerName": "Aratani",
+            "text": "What a shame! A dexterous and diligent proofreader is hard to find. I was actually going to ask her to go full time with us, in fact.",
+            "nextDialogs": [
+              "722660808"
+            ]
+          },
+          "722660808": {
+            "id": "722660808",
+            "speakerId": 1005,
+            "speakerName": "Aratani",
+            "text": "Right. Here's something that she wanted to pass to you before she left.",
+            "nextDialogs": [
+              "722660809"
+            ]
+          },
+          "722660809": {
+            "id": "722660809",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She left us a letter!",
+            "nextDialogs": [
+              "722660810"
+            ]
+          },
+          "722660810": {
+            "id": "722660810",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka says... she's leaving. And she's left a sum of Mora for us and Momoyo.",
+            "nextDialogs": [
+              "722660811"
+            ]
+          },
+          "722660811": {
+            "id": "722660811",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is that really okay, though? Let's... Let's go ask Momoyo."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226609",
+      "subQuestName": "Tell Momoyo about the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722660901"
+        ],
+        "dialogs": {
+          "722660901": {
+            "id": "722660901",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Huh, you're back. How did it go? I suppose that Fatui girl can be at ease now, hmm?",
+            "nextDialogs": [
+              "722660902"
+            ]
+          },
+          "722660902": {
+            "id": "722660902",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "You tell Momoyo about the letter and Mora Lyudochka left behind.",
+            "nextDialogs": [
+              "722660903"
+            ]
+          },
+          "722660903": {
+            "id": "722660903",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "What? She's leaving?",
+            "nextDialogs": [
+              "722660904"
+            ]
+          },
+          "722660904": {
+            "id": "722660904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Seems like it...",
+            "nextDialogs": [
+              "722660905"
+            ]
+          },
+          "722660905": {
+            "id": "722660905",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Pfft. Seriously? \"Ms. Momoyo lost an eye on my account\"? Nonsense. It's not like she blinded me personally or anything.",
+            "nextDialogs": [
+              "722660906"
+            ]
+          },
+          "722660906": {
+            "id": "722660906",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "The injury was an occupational hazard, you know? If anyone should be compensating me, it should be the Shuumatsuban.",
+            "nextDialogs": [
+              "722660907"
+            ]
+          },
+          "722660907": {
+            "id": "722660907",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Whatever the case, I don't need her Mora. You can do whatever you want with it.",
+            "nextDialogs": [
+              "722660908"
+            ]
+          },
+          "722660908": {
+            "id": "722660908",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, you say that, but honestly, even Paimon isn't sure if we should...",
+            "nextDialogs": [
+              "722660909"
+            ]
+          },
+          "722660909": {
+            "id": "722660909",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Paimon, struggling about Mora? Say it isn't so!",
+            "nextDialogs": [
+              "722660910"
+            ]
+          },
+          "722660910": {
+            "id": "722660910",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Paimon isn't that Mora-faced!",
+            "nextDialogs": [
+              "722660911"
+            ]
+          },
+          "722660911": {
+            "id": "722660911",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But where's she going to go after leaving Inazuma? Can she really find a new life and happiness?",
+            "nextDialogs": [
+              "722660912"
+            ]
+          },
+          "722660912": {
+            "id": "722660912",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Huh, that reminds me. I don't think I can go back to doing shrine maiden work looking like this.",
+            "nextDialogs": [
+              "722660913"
+            ]
+          },
+          "722660913": {
+            "id": "722660913",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "The Lady Guuji told me earlier that she thought our impostor was pretty suited for the job.",
+            "nextDialogs": [
+              "722660914"
+            ]
+          },
+          "722660914": {
+            "id": "722660914",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Heh. I'd hate to think about what she would do to you if she finds out that you've chased her shrine maiden candidate away.",
+            "nextDialogs": [
+              "722660915"
+            ]
+          },
+          "722660915": {
+            "id": "722660915",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh? Wait a moment, why is that our fault?",
+            "nextDialogs": [
+              "722660916"
+            ]
+          },
+          "722660916": {
+            "id": "722660916",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Are you saying it isn't? You didn't stop her, and now she's about to flee Inazuma.",
+            "nextDialogs": [
+              "722660917"
+            ]
+          },
+          "722660917": {
+            "id": "722660917",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah! Paimon's got it!",
+            "nextDialogs": [
+              "722660918"
+            ]
+          },
+          "722660918": {
+            "id": "722660918",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thank you, Momoyo!",
+            "nextDialogs": [
+              "722660919"
+            ]
+          },
+          "722660919": {
+            "id": "722660919",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "She'll probably be looking for a way to get out through Ritou. Best to look for her there.",
+            "nextDialogs": [
+              "722660920"
+            ]
+          },
+          "722660920": {
+            "id": "722660920",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "When you bring her back, tell her she can keep using the name \"Gendou Ringo\" — if she's willing to take it up, of course.",
+            "nextDialogs": [
+              "722660921"
+            ]
+          },
+          "722660921": {
+            "id": "722660921",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "I gave it to myself on a whim, but turns out that it fits her decently well, don't you think?",
+            "nextDialogs": [
+              "722660922"
+            ]
+          },
+          "722660922": {
+            "id": "722660922",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Hurry up and get going. I'm leaving her to you.",
+            "nextDialogs": [
+              "722660923"
+            ]
+          },
+          "722660923": {
+            "id": "722660923",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Alright, {NICKNAME}, to Ritou's harbor it is! We've gotta get Ms. Lyudochka back!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226610",
+      "subQuestName": "Search for Lyudochka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722661001"
+        ],
+        "dialogs": {
+          "722661001": {
+            "id": "722661001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka! We finally found you!",
+            "nextDialogs": [
+              "722661002"
+            ]
+          },
+          "722661002": {
+            "id": "722661002",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "#{NICKNAME}, Paimon... Why are you two here?",
+            "nextDialogs": [
+              "722661003"
+            ]
+          },
+          "722661003": {
+            "id": "722661003",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We're here to ask you to turn back.",
+            "nextDialogs": [
+              "722661004"
+            ]
+          },
+          "722661004": {
+            "id": "722661004",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's right! Momoyo doesn't need your Mora, and neither do we! Just use it to make a new life for yourself here in Inazuma!",
+            "nextDialogs": [
+              "722661005"
+            ]
+          },
+          "722661005": {
+            "id": "722661005",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "What... What are you saying...",
+            "nextDialogs": [
+              "722661006"
+            ]
+          },
+          "722661006": {
+            "id": "722661006",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I was a Fatui, you know? We threatened Inazuma's safety! And I caused you all so much trouble. I don't deserve to stay here, not after all that.",
+            "nextDialogs": [
+              "722661007"
+            ]
+          },
+          "722661007": {
+            "id": "722661007",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "And even if you'd like me to stay... Does anyone else?",
+            "nextDialogs": [
+              "722661008"
+            ]
+          },
+          "722661008": {
+            "id": "722661008",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Is there really anyone who needs me here?",
+            "nextDialogs": [
+              "722661009"
+            ]
+          },
+          "722661009": {
+            "id": "722661009",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's not how it is at all! There are other people who'd like you to stay! Like... Like...",
+            "nextDialogs": [
+              "722661010"
+            ]
+          },
+          "722661010": {
+            "id": "722661010",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Momoyo.",
+            "nextDialogs": [
+              "722661011"
+            ]
+          },
+          "722661011": {
+            "id": "722661011",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's right! We were only able to find you because of her instructions!",
+            "nextDialogs": [
+              "722661012"
+            ]
+          },
+          "722661012": {
+            "id": "722661012",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Momoyo said that it wasn't your fault that she lost an eye. It's an occupational hazard and the Shuumatsuban should be paying the cost instead!",
+            "nextDialogs": [
+              "722661013"
+            ]
+          },
+          "722661013": {
+            "id": "722661013",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The \"occupational hazard\" bit seems unnecessary...",
+            "nextDialogs": [
+              "722661014"
+            ]
+          },
+          "722661014": {
+            "id": "722661014",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh? But why? That's what Momoyo said, and it's pretty convincing!",
+            "nextDialogs": [
+              "722661015"
+            ]
+          },
+          "722661015": {
+            "id": "722661015",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "But... But...",
+            "nextDialogs": [
+              "722661016"
+            ]
+          },
+          "722661016": {
+            "id": "722661016",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, do you need more evidence that people would like to have you back? Don't worry, there are others, like...",
+            "nextDialogs": [
+              "722661017"
+            ]
+          },
+          "722661017": {
+            "id": "722661017",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ms. Aratani.",
+            "nextDialogs": [
+              "722661018"
+            ]
+          },
+          "722661018": {
+            "id": "722661018",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Exactly, exactly! Ms. Aratani said that you're \"dexterous and diligent.\" She even said that she'd like you to become a full-time employee at Yae Publishing House!",
+            "nextDialogs": [
+              "722661019"
+            ]
+          },
+          "722661019": {
+            "id": "722661019",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Although Paimon personally thinks that you shouldn't take up a job at Yae Publishing House — unless you want some super deep eyebags!",
+            "nextDialogs": [
+              "722661020"
+            ]
+          },
+          "722661020": {
+            "id": "722661020",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Did you really have to say that, Paimon?",
+            "nextDialogs": [
+              "722661021"
+            ]
+          },
+          "722661021": {
+            "id": "722661021",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Why not! Ms. Lyudochka's gonna have to pick her occupation carefully if she stays. Our suggestions are super important!",
+            "nextDialogs": [
+              "722661022"
+            ]
+          },
+          "722661022": {
+            "id": "722661022",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thinks that being a shrine maiden would be best for you.",
+            "nextDialogs": [
+              "722661023"
+            ]
+          },
+          "722661023": {
+            "id": "722661023",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "But that's not a place where someone like me can just go to whenever she wants...",
+            "nextDialogs": [
+              "722661024"
+            ]
+          },
+          "722661024": {
+            "id": "722661024",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No need to worry about that! You've got a super big shot vouching for you!",
+            "nextDialogs": [
+              "722661025"
+            ]
+          },
+          "722661025": {
+            "id": "722661025",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Guuji Yae.",
+            "nextDialogs": [
+              "722661026"
+            ]
+          },
+          "722661026": {
+            "id": "722661026",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She knew that you were an impostor the whole time, but she also thinks that you'd be suited to working at the shrine!",
+            "nextDialogs": [
+              "722661027"
+            ]
+          },
+          "722661027": {
+            "id": "722661027",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Also, Momoyo can't go back to work there, so if Guuji Yae finds out that you're not coming back either... {NICKNAME} and Paimon are doomed for sure!",
+            "nextDialogs": [
+              "722661028"
+            ]
+          },
+          "722661028": {
+            "id": "722661028",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That sounds like a threat...",
+            "nextDialogs": [
+              "722661029"
+            ]
+          },
+          "722661029": {
+            "id": "722661029",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No it's not! Paimon's just employing both emotion and reason, that's all!",
+            "nextDialogs": [
+              "722661030"
+            ]
+          },
+          "722661030": {
+            "id": "722661030",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And aren't you even the least bit worried that Miko is really gonna put us through the wringer?",
+            "nextDialogs": [
+              "722661031"
+            ]
+          },
+          "722661031": {
+            "id": "722661031",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Heh...",
+            "nextDialogs": [
+              "722661032"
+            ]
+          },
+          "722661032": {
+            "id": "722661032",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You finally smiled! Does that mean you're not leaving anymore?",
+            "nextDialogs": [
+              "722661033"
+            ]
+          },
+          "722661033": {
+            "id": "722661033",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "#Paimon, {NICKNAME}, thank you both so much. And the people who accepted me... They have my thanks as well.",
+            "nextDialogs": [
+              "722661034"
+            ]
+          },
+          "722661034": {
+            "id": "722661034",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "But... I've been trained in spycraft since I was young. Before coming to Inazuma, I had never once experienced an ordinary life.",
+            "nextDialogs": [
+              "722661035"
+            ]
+          },
+          "722661035": {
+            "id": "722661035",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "As a \"Snezhevna,\" I still do not know where I truly belong.",
+            "nextDialogs": [
+              "722661036"
+            ]
+          },
+          "722661036": {
+            "id": "722661036",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "And I do not know if someone as steeped in darkness as myself has the right to return to walk in the light...",
+            "nextDialogs": [
+              "722661037"
+            ]
+          },
+          "722661037": {
+            "id": "722661037",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ms. Lyudochka...",
+            "nextDialogs": [
+              "722661038"
+            ]
+          },
+          "722661038": {
+            "id": "722661038",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "So perhaps leaving Inazuma and exploring the various regions of Teyvat might actually be good for me, you know?",
+            "nextDialogs": [
+              "722661039"
+            ]
+          },
+          "722661039": {
+            "id": "722661039",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "At the very least, I'd have the chance to think about the sort of person I'd really hope to become.",
+            "nextDialogs": [
+              "722661040"
+            ]
+          },
+          "722661040": {
+            "id": "722661040",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But you love Inazuma so much! Won't you have regrets if you just leave like this?",
+            "nextDialogs": [
+              "722661041"
+            ]
+          },
+          "722661041": {
+            "id": "722661041",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Yes, I will miss this place... But there's no other option, is there?",
+            "nextDialogs": [
+              "722661042"
+            ]
+          },
+          "722661042": {
+            "id": "722661042",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "How could this be? Ms. Lyudochka was starting to waver back there, but she just doesn't wanna admit it!",
+            "nextDialogs": [
+              "722661043"
+            ]
+          },
+          "722661043": {
+            "id": "722661043",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like convincing her to stay is gonna be hard no matter what we say.",
+            "nextDialogs": [
+              "722661044"
+            ]
+          },
+          "722661044": {
+            "id": "722661044",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We could still take the opposite approach.",
+            "nextDialogs": [
+              "722661045"
+            ]
+          },
+          "722661045": {
+            "id": "722661045",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? What do you mean?",
+            "nextDialogs": [
+              "722661046"
+            ]
+          },
+          "722661046": {
+            "id": "722661046",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's drop her guard first.",
+            "nextDialogs": [
+              "722661047"
+            ]
+          },
+          "722661047": {
+            "id": "722661047",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Then make her face her own heart's desire head-on.",
+            "nextDialogs": [
+              "722661048"
+            ]
+          },
+          "722661048": {
+            "id": "722661048",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ooh. That's true. It's not that she doesn't have dreams, but she doesn't dare to face herself because she's worried that she doesn't deserve to be happy.",
+            "nextDialogs": [
+              "722661049"
+            ]
+          },
+          "722661049": {
+            "id": "722661049",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, oh! Paimon knows! We've got something with us that can help!",
+            "nextDialogs": [
+              "722661050"
+            ]
+          },
+          "722661050": {
+            "id": "722661050",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We'll convince her for sure this time!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226617",
+      "subQuestName": "Pass \"that item\" to Lyudochka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722661701"
+        ],
+        "dialogs": {
+          "722661701": {
+            "id": "722661701",
+            "speakerId": 1001,
+            "speakerName": "Momoyo",
+            "text": "Well? Found the key yet?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7226618",
+      "subQuestName": "Talk to Lyudochka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7226618",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722661801"
+        ],
+        "dialogs": {
+          "722661801": {
+            "id": "722661801",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "I know you have good intentions... But I've already decided to do this.",
+            "nextDialogs": [
+              "722661802"
+            ]
+          },
+          "722661802": {
+            "id": "722661802",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You misunderstand us.",
+            "nextDialogs": [
+              "722661803"
+            ]
+          },
+          "722661803": {
+            "id": "722661803",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's right, we're not going to convince you anymore. But since you're leaving Inazuma, we thought that we should at least give you something before we part ways — y'know, for good fortune!",
+            "nextDialogs": [
+              "722661804"
+            ]
+          },
+          "722661804": {
+            "id": "722661804",
+            "speakerId": 1002,
+            "speakerName": "Lyudochka Snezhevna",
+            "text": "Huh? What is it, then?"
+          }
+        }
+      }
+    }
+  ]
+}

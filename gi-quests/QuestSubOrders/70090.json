@@ -1,0 +1,56 @@
+{
+  "lineCounts": {
+    "Albedo": 2,
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7009001",
+      "subQuestName": "Head near Albedo's campsite in Dragonspine to begin the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7009002",
+      "subQuestName": "Head near Albedo's campsite in Dragonspine to begin the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7009003",
+      "subQuestName": "Enjoy teatime",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "701140201"
+        ],
+        "dialogs": {
+          "701140201": {
+            "id": "701140201",
+            "speakerId": 1000,
+            "speakerName": "Albedo",
+            "text": "Thank you for treating me, Miss Sandrone.",
+            "nextDialogs": [
+              "701140204"
+            ]
+          },
+          "701140204": {
+            "id": "701140204",
+            "speakerId": 1000,
+            "speakerName": "Albedo",
+            "text": "Alright. Until we meet again."
+          }
+        }
+      }
+    }
+  ]
+}

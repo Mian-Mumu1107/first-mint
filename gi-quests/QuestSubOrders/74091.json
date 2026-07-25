@@ -1,0 +1,949 @@
+{
+  "lineCounts": {
+    "???": 4,
+    "Aigouy": 27,
+    "Balent": 38,
+    "Black Screen": 2,
+    "Paimon": 17,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "7409101",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740910101"
+        ],
+        "dialogs": {
+          "740910101": {
+            "id": "740910101",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "That kid, he didn't get caught by Hilichurls and tossed into their stew, did he...",
+            "nextDialogs": [
+              "740910105",
+              "740910104"
+            ]
+          },
+          "740910105": {
+            "id": "740910105",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Look, see that Hilichurl camp by the water over there?",
+            "nextDialogs": [
+              "740910106"
+            ]
+          },
+          "740910106": {
+            "id": "740910106",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "It's as if it just appeared out of nowhere. They're working day in and day out and not resting when they should. *sigh* Just like Balent, that silly kid.",
+            "nextDialogs": [
+              "740910107"
+            ]
+          },
+          "740910107": {
+            "id": "740910107",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "The way I see it, luck's on his side, so he's probably not cooking in a pot right now. Maybe he's having an animated little chat with the Hilichurls as we speak. Who knows?",
+            "nextDialogs": [
+              "740910108"
+            ]
+          },
+          "740910108": {
+            "id": "740910108",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? So what you're saying is that someone you know was taken by the Hilichurls over there? How are you not worried at all? If you're serious, then we need to hurry up and go save him!",
+            "nextDialogs": [
+              "740910109"
+            ]
+          },
+          "740910109": {
+            "id": "740910109",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Save him? Why? I already told him that there's no need to bust his chops like that for such a dangerous job. Just report it to Estienne during the scheduled check-in and have him find someone to deal with it.",
+            "nextDialogs": [
+              "740910110"
+            ]
+          },
+          "740910110": {
+            "id": "740910110",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "I was kind enough to teach him, but just how did that kid repay me? He accused me of not taking work seriously and neglecting my duties.",
+            "nextDialogs": [
+              "740910111"
+            ]
+          },
+          "740910111": {
+            "id": "740910111",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Seeing as he doesn't take the wisdom and experience of his elders seriously, all I have to say is that this was all his own choice. Young people ought to get a few knocks and bruises. How can they grow up without learning a few tough lessons?"
+          },
+          "740910104": {
+            "id": "740910104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Is that really the point!?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409112",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911201"
+        ],
+        "dialogs": {
+          "740911201": {
+            "id": "740911201",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "If you were hurt in the process of saving that rascal Balent, then he ought to make it up to you by taking a few days of leave and looking after you!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409102",
+      "subQuestName": "Go look for Balent in the Hilichurl camp on the water",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409115",
+      "subQuestName": "Free the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911501"
+        ],
+        "dialogs": {
+          "740911501": {
+            "id": "740911501",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "What's up? Having trouble? Is there something about the maintenance work that you don't understand? Let me explain it again then!",
+            "nextDialogs": [
+              "740911502",
+              "740911508"
+            ]
+          },
+          "740911502": {
+            "id": "740911502",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "If you notice there's a <color=#00E1FFFF>gas leak</color> in the pipeline, then it was likely caused by an aquatic creature... or non-creature object colliding with it.",
+            "nextDialogs": [
+              "740911503"
+            ]
+          },
+          "740911503": {
+            "id": "740911503",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "The emergency measure here is to <color=#00E1FFFF>control the flow by adjusting the regulator valve, temporarily stopping the gas leak</color>. That's all you need to do.",
+            "nextDialogs": [
+              "740911504"
+            ]
+          },
+          "740911504": {
+            "id": "740911504",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "There's a technique for adjusting the regulator valve. <color=#00E1FFFF>When rotating the handwheel, you must keep an eye on the gas flow volume. If it is decreasing, then you are on the right track</color>.",
+            "nextDialogs": [
+              "740911505"
+            ]
+          },
+          "740911505": {
+            "id": "740911505",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "It shouldn't be that difficult. I'm counting on you."
+          },
+          "740911508": {
+            "id": "740911508",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Much obliged, then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409103",
+      "subQuestName": "Rescue Balent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409113",
+      "subQuestName": "Talk to the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740910401"
+        ],
+        "dialogs": {
+          "740910401": {
+            "id": "740910401",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "You two are... too kind... Thank you...",
+            "nextDialogs": [
+              "740910402"
+            ]
+          },
+          "740910402": {
+            "id": "740910402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Are you alright?",
+            "nextDialogs": [
+              "740910403"
+            ]
+          },
+          "740910403": {
+            "id": "740910403",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "I... I'm... fine... I think...",
+            "nextDialogs": [
+              "740910404"
+            ]
+          },
+          "740910404": {
+            "id": "740910404",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Your appearance begs to differ.",
+            "nextDialogs": [
+              "740910405"
+            ]
+          },
+          "740910405": {
+            "id": "740910405",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "C—Could you guys take me to the pier over there... I... I...",
+            "nextDialogs": [
+              "740910406"
+            ]
+          },
+          "740910406": {
+            "id": "740910406",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Okay, save your breath for now. We'll take you back!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409104",
+      "subQuestName": "Talk to Balent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911301"
+        ],
+        "dialogs": {
+          "740911301": {
+            "id": "740911301",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "You two are... too kind... Thank you...",
+            "nextDialogs": [
+              "740911302"
+            ]
+          },
+          "740911302": {
+            "id": "740911302",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Are you alright?",
+            "nextDialogs": [
+              "740911303"
+            ]
+          },
+          "740911303": {
+            "id": "740911303",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I... I'm... fine... I think...",
+            "nextDialogs": [
+              "740911304"
+            ]
+          },
+          "740911304": {
+            "id": "740911304",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Your appearance begs to differ.",
+            "nextDialogs": [
+              "740911305"
+            ]
+          },
+          "740911305": {
+            "id": "740911305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You'd better hurry back to the pier with us!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409114",
+      "subQuestName": "Go to the pier",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740910501"
+        ],
+        "dialogs": {
+          "740910501": {
+            "id": "740910501",
+            "speakerId": 1003,
+            "speakerName": "???",
+            "text": "Monsieur Aigouy, I... I'm back...",
+            "nextDialogs": [
+              "740910502"
+            ]
+          },
+          "740910502": {
+            "id": "740910502",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "You two... Looks like you saved Balent. Thank you.",
+            "nextDialogs": [
+              "740910503"
+            ]
+          },
+          "740910503": {
+            "id": "740910503",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Silly boy! I told you before that there's no need to work so hard at such a dangerous job. Just report it to Estienne during the scheduled check-in and have him find someone to deal with it.",
+            "nextDialogs": [
+              "740910504"
+            ]
+          },
+          "740910504": {
+            "id": "740910504",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "I taught you out of the goodness of my heart, and what did you give me in return? You accused me of not taking work seriously and of neglecting my duties.",
+            "nextDialogs": [
+              "740910505"
+            ]
+          },
+          "740910505": {
+            "id": "740910505",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "And now look, just what did I say? It was too dangerous for you to deal with. You didn't believe me then, but hopefully, you've learned your lesson now.",
+            "nextDialogs": [
+              "740910506"
+            ]
+          },
+          "740910506": {
+            "id": "740910506",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I... I...",
+            "nextDialogs": [
+              "740910507"
+            ]
+          },
+          "740910507": {
+            "id": "740910507",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "What, still don't want to admit you were wrong? I'd really like to hear just what other enlightened opinions you still have to offer.",
+            "nextDialogs": [
+              "740910508"
+            ]
+          },
+          "740910508": {
+            "id": "740910508",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I want to drink some water...",
+            "nextDialogs": [
+              "740910509"
+            ]
+          },
+          "740910509": {
+            "id": "740910509",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Balent finds a water bottle and gulps down several mouthfuls, then breaks off a piece of dry bread and starts chewing.\\nThe whole time, he is completely focused on eating and drinking, seemingly deaf to the old man's words, regardless of what he says.",
+            "nextDialogs": [
+              "740910510"
+            ]
+          },
+          "740910510": {
+            "id": "740910510",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Whew... At least... At least I'm still alive. Thank you for your help, were it not for you two, I'm afraid I probably...",
+            "nextDialogs": [
+              "740910511"
+            ]
+          },
+          "740910511": {
+            "id": "740910511",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "...Probably would have left your parents with nothing but survivor benefits.",
+            "nextDialogs": [
+              "740910512"
+            ]
+          },
+          "740910512": {
+            "id": "740910512",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Hmph! That would still be better than getting fired for causing a huge safety incident and getting fired because I was slacking on the job!",
+            "nextDialogs": [
+              "740910513"
+            ]
+          },
+          "740910513": {
+            "id": "740910513",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "You little... *sigh* Nothing I say ever gets through to you!",
+            "nextDialogs": [
+              "740910514"
+            ]
+          },
+          "740910514": {
+            "id": "740910514",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Guys, this may sound a little shameless, but I've got to say it... This is for everybody's safety.",
+            "nextDialogs": [
+              "740910515"
+            ]
+          },
+          "740910515": {
+            "id": "740910515",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I assume the two of you know how to dive, right?",
+            "nextDialogs": [
+              "740910516"
+            ]
+          },
+          "740910516": {
+            "id": "740910516",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, but...",
+            "nextDialogs": [
+              "740910517"
+            ]
+          },
+          "740910517": {
+            "id": "740910517",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "When I was captured by the Hilichurls, I lost my divesuit. Our routine inspections revealed that the spares were defective, and though we've applied for new ones, they haven't been delivered yet...",
+            "nextDialogs": [
+              "740910518"
+            ]
+          },
+          "740910518": {
+            "id": "740910518",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "But, the maintenance of pipelines cannot be delayed. If the two of you know how to dive, then could you please go inspect the Fortress pipelines for me?",
+            "nextDialogs": [
+              "740910519"
+            ]
+          },
+          "740910519": {
+            "id": "740910519",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Of course, you will be well compensated for your work, so don't worry about that.",
+            "nextDialogs": [
+              "740910520"
+            ]
+          },
+          "740910520": {
+            "id": "740910520",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Seeing as this involves everybody's safety, it's not like we can't do it. Inspecting pipelines sounds like a job that should be left to professionals, though. Are you sure about leaving it to us?",
+            "nextDialogs": [
+              "740910521"
+            ]
+          },
+          "740910521": {
+            "id": "740910521",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "It's nothing more than a routine checkup. I'm expecting there will be some minor problems, as there were four areas at risk for leaks the last time I did an inspection. They shouldn't be that difficult to fix, though. I'll explain it to you!",
+            "nextDialogs": [
+              "740910522"
+            ]
+          },
+          "740910522": {
+            "id": "740910522",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "If you notice there's a <color=#00E1FFFF>gas leak</color> in the pipeline, then it was likely caused by an aquatic creature... or non-creature object colliding with it.",
+            "nextDialogs": [
+              "740910523"
+            ]
+          },
+          "740910523": {
+            "id": "740910523",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "The emergency measure here is to <color=#00E1FFFF>control the flow by adjusting the regulator valve, temporarily stopping the gas leak</color>. That's all you need to do.",
+            "nextDialogs": [
+              "740910527"
+            ]
+          },
+          "740910527": {
+            "id": "740910527",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "There's a technique for adjusting the regulator valve. <color=#00E1FFFF>When rotating the handwheel, you must keep an eye on the gas flow volume. If it is decreasing, then you are on the right track</color>.",
+            "nextDialogs": [
+              "740910524"
+            ]
+          },
+          "740910524": {
+            "id": "740910524",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh... Paimon thinks she gets it now!",
+            "nextDialogs": [
+              "740910525"
+            ]
+          },
+          "740910525": {
+            "id": "740910525",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Should you have any questions about your job, I'll be happy to clarify them for you at any time before you complete the routine inspection.",
+            "nextDialogs": [
+              "740910526"
+            ]
+          },
+          "740910526": {
+            "id": "740910526",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Okay! Let's give it a shot!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409105",
+      "subQuestName": "Return to the pier and report to Aigouy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911601"
+        ],
+        "dialogs": {
+          "740911601": {
+            "id": "740911601",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Well, well, who knew you two youngsters were this impressive? Balent, on the other hand...",
+            "nextDialogs": [
+              "740911602"
+            ]
+          },
+          "740911602": {
+            "id": "740911602",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "And now look, just what did I say? It was too dangerous for you to deal with. You didn't believe me then, but hopefully, you've learned your lesson now.",
+            "nextDialogs": [
+              "740911603"
+            ]
+          },
+          "740911603": {
+            "id": "740911603",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I... I...",
+            "nextDialogs": [
+              "740911604"
+            ]
+          },
+          "740911604": {
+            "id": "740911604",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "What, still don't want to admit you were wrong? I'd really like to hear just what other enlightened opinions you still have to offer.",
+            "nextDialogs": [
+              "740911605"
+            ]
+          },
+          "740911605": {
+            "id": "740911605",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I want to drink some water...",
+            "nextDialogs": [
+              "740911606"
+            ]
+          },
+          "740911606": {
+            "id": "740911606",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Balent finds a water bottle and gulps down several mouthfuls, then breaks off a piece of dry bread and starts chewing.\\nThe whole time, he is completely focused on eating and drinking, seemingly deaf to the old man's words, regardless of what he says.",
+            "nextDialogs": [
+              "740911607"
+            ]
+          },
+          "740911607": {
+            "id": "740911607",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Whew... At least... At least I'm still alive. Thank you for your help, were it not for you two, I'm afraid I probably...",
+            "nextDialogs": [
+              "740911608"
+            ]
+          },
+          "740911608": {
+            "id": "740911608",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "...Probably would have left your parents with nothing but survivor benefits.",
+            "nextDialogs": [
+              "740911609"
+            ]
+          },
+          "740911609": {
+            "id": "740911609",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Hmph! That would still be better than getting fired for causing a huge safety incident and getting fired because I was slacking on the job!",
+            "nextDialogs": [
+              "740911610"
+            ]
+          },
+          "740911610": {
+            "id": "740911610",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "You little... *sigh* Nothing I say ever gets through to you!",
+            "nextDialogs": [
+              "740911611"
+            ]
+          },
+          "740911611": {
+            "id": "740911611",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Guys, this may sound a little shameless, but I've got to say it... This is for everybody's safety.",
+            "nextDialogs": [
+              "740911612"
+            ]
+          },
+          "740911612": {
+            "id": "740911612",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "I assume the two of you know how to dive, right?",
+            "nextDialogs": [
+              "740911613"
+            ]
+          },
+          "740911613": {
+            "id": "740911613",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, but...",
+            "nextDialogs": [
+              "740911614"
+            ]
+          },
+          "740911614": {
+            "id": "740911614",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "When I was captured by the Hilichurls, I lost my divesuit. Our routine inspections revealed that the spares were defective, and though we've applied for new ones, they haven't been delivered yet...",
+            "nextDialogs": [
+              "740911615"
+            ]
+          },
+          "740911615": {
+            "id": "740911615",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "But, the maintenance of pipelines cannot be delayed. If the two of you know how to dive, then could you please go inspect the Fortress pipelines for me?",
+            "nextDialogs": [
+              "740911616"
+            ]
+          },
+          "740911616": {
+            "id": "740911616",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Of course, you will be well compensated for your work, so don't worry about that.",
+            "nextDialogs": [
+              "740911617"
+            ]
+          },
+          "740911617": {
+            "id": "740911617",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Seeing as this involves everybody's safety, it's not like we can't do it. Inspecting pipelines sounds like a job that should be left to professionals, though. Are you sure about leaving it to us?",
+            "nextDialogs": [
+              "740911618"
+            ]
+          },
+          "740911618": {
+            "id": "740911618",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "It's nothing more than a routine checkup. I'm expecting there will be some minor problems, as there were four areas at risk for leaks the last time I did an inspection. They shouldn't be that difficult to fix, though. I'll explain it to you!",
+            "nextDialogs": [
+              "740911619"
+            ]
+          },
+          "740911619": {
+            "id": "740911619",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "If you notice there's a <color=#00E1FFFF>gas leak</color> in the pipeline, then it was likely caused by an aquatic creature... or non-creature object colliding with it.",
+            "nextDialogs": [
+              "740911620"
+            ]
+          },
+          "740911620": {
+            "id": "740911620",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "The emergency measure here is to <color=#00E1FFFF>control the flow by adjusting the regulator valve, temporarily stopping the gas leak</color>. That's all you need to do.",
+            "nextDialogs": [
+              "740911624"
+            ]
+          },
+          "740911624": {
+            "id": "740911624",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "There's a technique for adjusting the regulator valve. <color=#00E1FFFF>When rotating the handwheel, you must keep an eye on the gas flow volume. If it is decreasing, then you are on the right track</color>.",
+            "nextDialogs": [
+              "740911621"
+            ]
+          },
+          "740911621": {
+            "id": "740911621",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh... Paimon thinks she gets it now!",
+            "nextDialogs": [
+              "740911622"
+            ]
+          },
+          "740911622": {
+            "id": "740911622",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Should you have any questions about your job, I'll be happy to clarify them for you at any time before you complete the routine inspection.",
+            "nextDialogs": [
+              "740911623"
+            ]
+          },
+          "740911623": {
+            "id": "740911623",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Okay! Let's give it a shot!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409106",
+      "subQuestName": "Fix the underwater pipelines near the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409107",
+      "subQuestName": "Fix the underwater pipelines near the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409108",
+      "subQuestName": "Fix the underwater pipelines near the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409109",
+      "subQuestName": "Fix the underwater pipelines near the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7409110",
+      "subQuestName": "Report to Balent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911001"
+        ],
+        "dialogs": {
+          "740911001": {
+            "id": "740911001",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We're back! There were indeed a few small problems, but don't worry! We handled them all by following the instructions you gave us.",
+            "nextDialogs": [
+              "740911002"
+            ]
+          },
+          "740911002": {
+            "id": "740911002",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "Your help is truly appreciated. If you hadn't fixed those potential safety risks in a timely manner, it would've been far too late to fix them had we let them fester into a larger disaster.",
+            "nextDialogs": [
+              "740911003"
+            ]
+          },
+          "740911003": {
+            "id": "740911003",
+            "speakerId": 1002,
+            "speakerName": "Balent",
+            "text": "...And this is why I don't see eye to eye with Monsieur Aigouy, though I know that he's taking care of me in his own way."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409114",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911401"
+        ],
+        "dialogs": {
+          "740911401": {
+            "id": "740911401",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "*sigh* Same goes for you two, don't push yourselves too hard and throw yourselves at problems you can't handle."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409117",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740911701"
+        ],
+        "dialogs": {
+          "740911701": {
+            "id": "740911701",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Why waste your own time on all that annoying maintenance work, when there are others who can help...",
+            "nextDialogs": [
+              "740911703",
+              "740911707"
+            ]
+          },
+          "740911703": {
+            "id": "740911703",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "The Fortress of Meropide has lots of pipelines. Someone needs to maintain them, don't they? That's our job.",
+            "nextDialogs": [
+              "740911704"
+            ]
+          },
+          "740911704": {
+            "id": "740911704",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "It's mostly minor repairs, patching this and that up. I mean, what do they expect someone like me to do if something major happens, anyway?",
+            "nextDialogs": [
+              "740911705"
+            ]
+          },
+          "740911705": {
+            "id": "740911705",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "I just do what I'm able to, like taking letters into the city for people when I have a day off..."
+          },
+          "740911707": {
+            "id": "740911707",
+            "speakerId": 1000,
+            "speakerName": "Aigouy",
+            "text": "Oh, I have no shortage of time. Not like I'm even remotely busy."
+          }
+        }
+      }
+    }
+  ]
+}

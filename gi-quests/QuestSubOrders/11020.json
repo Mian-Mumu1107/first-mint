@@ -1,0 +1,392 @@
+{
+  "lineCounts": {
+    "Hanxue": 11,
+    "Kliment": 12,
+    "Paimon": 7,
+    "Player": 15,
+    "Wanyan": 14,
+    "Yixuan": 4,
+    "Zhongli": 24
+  },
+  "subQuests": [
+    {
+      "subId": "1102001",
+      "subQuestName": "Go to the Pearl Galley",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1102002",
+      "subQuestName": "Meet Zhongli at the tableside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110200201"
+        ],
+        "dialogs": {
+          "110200201": {
+            "id": "110200201",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "Oh? I didn't think I would see you here.",
+            "nextDialogs": [
+              "110200202"
+            ]
+          },
+          "110200202": {
+            "id": "110200202",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "Are these two your friends?",
+            "nextDialogs": [
+              "110200203"
+            ]
+          },
+          "110200203": {
+            "id": "110200203",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "#Yes, we had the fortune of meeting {NICKNAME} not too long ago. They are quite a knowledgeable and talented pair, and a pleasure to be around.",
+            "nextDialogs": [
+              "110200204"
+            ]
+          },
+          "110200204": {
+            "id": "110200204",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "#{NICKNAME}, we were just discussing the history of Rex Lapis. Would you like to listen?",
+            "nextDialogs": [
+              "110200205"
+            ]
+          },
+          "110200205": {
+            "id": "110200205",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "This good sir seems not to appreciate the almighty power of the Lord of Geo. As a professional archaeologist, I am inclined to correct some of his erroneous views.",
+            "nextDialogs": [
+              "110200208"
+            ]
+          },
+          "110200208": {
+            "id": "110200208",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "We are discussing the whereabouts of the first Mora.",
+            "nextDialogs": [
+              "110200209"
+            ]
+          },
+          "110200209": {
+            "id": "110200209",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "The first Mora?",
+            "nextDialogs": [
+              "110200210"
+            ]
+          },
+          "110200210": {
+            "id": "110200210",
+            "speakerId": 1004,
+            "speakerName": "Yixuan",
+            "text": "As everyone knows, the Lord of Geo taught the ancient people of Liyue the craft of smelting, creating goods that allowed them to develop trade with the early nations of that time.",
+            "nextDialogs": [
+              "110200211"
+            ]
+          },
+          "110200211": {
+            "id": "110200211",
+            "speakerId": 1004,
+            "speakerName": "Yixuan",
+            "text": "Today, Liyue holds the sole right to cast Mora in the entire continent of Teyvat. The world's very first Mora should have been cast by the hands of the Lord of Geo himself thousands of years ago.",
+            "nextDialogs": [
+              "110200212"
+            ]
+          },
+          "110200212": {
+            "id": "110200212",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "According to my research — as well as my own hypothesis — I believe that this coin of unique historical significance has been passed down secretly through the years as a kind of token.",
+            "nextDialogs": [
+              "110200213"
+            ]
+          },
+          "110200213": {
+            "id": "110200213",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "For example, perhaps the Qixing who control Liyue use it in some kind of unknown ceremony they hold when they come to power...",
+            "nextDialogs": [
+              "110200214"
+            ]
+          },
+          "110200214": {
+            "id": "110200214",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "No, no, no... My research indicates that the first Mora coin is not such a simple thing.",
+            "nextDialogs": [
+              "110200215"
+            ]
+          },
+          "110200215": {
+            "id": "110200215",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "Mora is a catalyst — this we all know. Even today, Mora is used in the mystic arts for its curious properties of weapon enhancement.",
+            "nextDialogs": [
+              "110200216"
+            ]
+          },
+          "110200216": {
+            "id": "110200216",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "The world's first Mora would no doubt possess the strongest power. My next historical treatise will boldly expound on the newest findings from my intense, decade-long research!",
+            "nextDialogs": [
+              "110200217"
+            ]
+          },
+          "110200217": {
+            "id": "110200217",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "That is, that the Lord of Geo used this original Mora as a catalyst to enhance a dagger and a sword.",
+            "nextDialogs": [
+              "110200218"
+            ]
+          },
+          "110200218": {
+            "id": "110200218",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "\"A dagger and a sword\"?",
+            "nextDialogs": [
+              "110200219"
+            ]
+          },
+          "110200219": {
+            "id": "110200219",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "Well, buy the book when it comes out to read the full story. For now, I will only reveal this: the one who finds the dagger shall become supreme in Liyue, and the one who finds the sword may be crowned Liyue's sovereign—",
+            "nextDialogs": [
+              "110200220"
+            ]
+          },
+          "110200220": {
+            "id": "110200220",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "I... can't say I agree.",
+            "nextDialogs": [
+              "110200221"
+            ]
+          },
+          "110200221": {
+            "id": "110200221",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "Hmm?",
+            "nextDialogs": [
+              "110200222"
+            ]
+          },
+          "110200222": {
+            "id": "110200222",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "Let us not speak of the authenticity of the dagger and sword first... But Mora and money came about simply because they are a convenient measure of a contract's value.",
+            "nextDialogs": [
+              "110200223"
+            ]
+          },
+          "110200223": {
+            "id": "110200223",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "Rex Lapis just meant for Mora to serve as a \"catalyst\" for people to exchange and trade.",
+            "nextDialogs": [
+              "110200224"
+            ]
+          },
+          "110200224": {
+            "id": "110200224",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "The world's first Mora is probably just an ordinary coin created by Rex Lapis. As for its fate? The same as all Mora, I suspect — it was simply spent somewhere.",
+            "nextDialogs": [
+              "110200225"
+            ]
+          },
+          "110200225": {
+            "id": "110200225",
+            "speakerId": 1004,
+            "speakerName": "Yixuan",
+            "text": "Hmm... I think that Mr. Hanxue's hypothesis seems reasonable. Mr. Zhongli's argument, on the other hand, lacks any evidence. How can you so easily dismiss the Lord of Geo's profound foresight?",
+            "nextDialogs": [
+              "110200226"
+            ]
+          },
+          "110200226": {
+            "id": "110200226",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "No — no, I am not debating right or wrong. I am simply stating a fact.",
+            "nextDialogs": [
+              "110200227"
+            ]
+          },
+          "110200227": {
+            "id": "110200227",
+            "speakerId": 1002,
+            "speakerName": "Hanxue",
+            "text": "Enough! Do you think you understand the Lord of Geo more than me?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1102003",
+      "subQuestName": "Head to the stern and ask Wanyan about her problem",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110200301"
+        ],
+        "dialogs": {
+          "110200301": {
+            "id": "110200301",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "What I'm about to say is a bit disrespectful of the Lord of Geo and would draw a lot of angry looks... so it's best to discuss this somewhere quiet.",
+            "nextDialogs": [
+              "110200302"
+            ]
+          },
+          "110200302": {
+            "id": "110200302",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "Your argument just now exhibited acuteness of speech and thought. Most importantly, you don't fall for the boasting and acting of the others. You remain objective.",
+            "nextDialogs": [
+              "110200303"
+            ]
+          },
+          "110200303": {
+            "id": "110200303",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "So I have a question for you, perhaps you will answer differently from other scholars... Do you think that all the gods that the Geo Archon killed were evil?",
+            "nextDialogs": [
+              "110200304"
+            ]
+          },
+          "110200304": {
+            "id": "110200304",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "...Let's not analyze it in terms of good versus evil. Rex Lapis placed great importance on the integrity of contracts, so any gods he killed certainly must have broken some kind of contract.",
+            "nextDialogs": [
+              "110200305"
+            ]
+          },
+          "110200305": {
+            "id": "110200305",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Right, the Lord of Geo wouldn't kill the innocent.",
+            "nextDialogs": [
+              "110200306"
+            ]
+          },
+          "110200306": {
+            "id": "110200306",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "But when I was doing some research, I learned about the legend of the God of Salt.",
+            "nextDialogs": [
+              "110200307"
+            ]
+          },
+          "110200307": {
+            "id": "110200307",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "The God of Salt, Havria, was a very kind god, but she encountered Morax one day in battle...",
+            "nextDialogs": [
+              "110200308"
+            ]
+          },
+          "110200308": {
+            "id": "110200308",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "Morax used a rather underhanded trick to... assassinate her.",
+            "nextDialogs": [
+              "110200309"
+            ]
+          },
+          "110200309": {
+            "id": "110200309",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "What!? No way!",
+            "nextDialogs": [
+              "110200310"
+            ]
+          },
+          "110200310": {
+            "id": "110200310",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "This... this bit of history is a long story. But you may not like the truth when you hear it.",
+            "nextDialogs": [
+              "110200311"
+            ]
+          },
+          "110200311": {
+            "id": "110200311",
+            "speakerId": 1001,
+            "speakerName": "Wanyan",
+            "text": "Don't worry, please tell me what you know! This event... I have already searched for answers for a long time.",
+            "nextDialogs": [
+              "110200313",
+              "110200315"
+            ]
+          },
+          "110200313": {
+            "id": "110200313",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "No, it's just... Where should I begin?",
+            "nextDialogs": [
+              "110200316"
+            ]
+          },
+          "110200316": {
+            "id": "110200316",
+            "speakerId": 1005,
+            "speakerName": "Kliment",
+            "text": "Over here! Mr. Zhongli, I've been looking for you! Ah, so you're over here all this time."
+          },
+          "110200315": {
+            "id": "110200315",
+            "speakerId": 1000,
+            "speakerName": "Zhongli",
+            "text": "Quite so. I don't know where to begin."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "Wyatt": 12
+  },
+  "subQuests": [
+    {
+      "subId": "2001901",
+      "subQuestName": "Talk to Wyatt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200190101"
+        ],
+        "dialogs": {
+          "200190101": {
+            "id": "200190101",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Traveler! You couldn't have picked a better time.",
+            "nextDialogs": [
+              "200190102"
+            ]
+          },
+          "200190102": {
+            "id": "200190102",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Last night, I was on my way to the city to deliver these goods, when suddenly, some shining orbs caught my eye.",
+            "nextDialogs": [
+              "200190103"
+            ]
+          },
+          "200190103": {
+            "id": "200190103",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "I—I'd had too much to drink, and... I just felt drawn to them, you know? I went to check it out and it turned out to be a huge group of slimes. They even bumped into me really hard!",
+            "nextDialogs": [
+              "200190104"
+            ]
+          },
+          "200190104": {
+            "id": "200190104",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "I panicked and ran, but lost my way. It took me forever to find my cart again. Then, this morning, I found out my <color=#00E1FFFF>key</color> was gone...",
+            "nextDialogs": [
+              "200190105"
+            ]
+          },
+          "200190105": {
+            "id": "200190105",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Could you help me look for it? It's got to be around here somewhere... I feel like it's right under my nose.",
+            "nextDialogs": [
+              "200190107",
+              "200190109"
+            ]
+          },
+          "200190107": {
+            "id": "200190107",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Great! It's such a huge area, I just wouldn't know where to start looking."
+          },
+          "200190109": {
+            "id": "200190109",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "This is such a huge area. I just don't know where to start looking. Please, you're the only one that can help me!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001903",
+      "subQuestName": "Use Elemental Sight to find the key",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001904",
+      "subQuestName": "Give the key to Wyatt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200190401"
+        ],
+        "dialogs": {
+          "200190401": {
+            "id": "200190401",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Found the key yet?",
+            "nextDialogs": [
+              "200190402"
+            ]
+          },
+          "200190402": {
+            "id": "200190402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I found this key — is it yours?",
+            "nextDialogs": [
+              "200190403"
+            ]
+          },
+          "200190403": {
+            "id": "200190403",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Yes! That's the one. I can't afford to let that happen again... I really must rein in my drinking.",
+            "nextDialogs": [
+              "200190404"
+            ]
+          },
+          "200190404": {
+            "id": "200190404",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Oh — and take these. Thanks for your help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001902",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200190201"
+        ],
+        "dialogs": {
+          "200190201": {
+            "id": "200190201",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Have you found my key?",
+            "nextDialogs": [
+              "200190202"
+            ]
+          },
+          "200190202": {
+            "id": "200190202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm afraid not.",
+            "nextDialogs": [
+              "200190203"
+            ]
+          },
+          "200190203": {
+            "id": "200190203",
+            "speakerId": 1000,
+            "speakerName": "Wyatt",
+            "text": "Well, it is quite a big search area... Good luck!"
+          }
+        }
+      }
+    }
+  ]
+}

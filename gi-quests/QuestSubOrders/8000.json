@@ -1,0 +1,606 @@
+{
+  "lineCounts": {
+    "???": 2,
+    "Abyss Herald": 8,
+    "Ganyu": 10,
+    "Lan": 16,
+    "Observe the \"Grand Thief\"": 1,
+    "Paimon": 27,
+    "Player": 14
+  },
+  "subQuests": [
+    {
+      "subId": "800001",
+      "subQuestName": "Go near the Adventurers' Guild Bulletin Board",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000101"
+        ],
+        "dialogs": {
+          "80000101": {
+            "id": "80000101",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Yes, yes. They have the audacity to go after anything.",
+            "nextDialogs": [
+              "80000102"
+            ]
+          },
+          "80000102": {
+            "id": "80000102",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "The Seven, dragons, gods... no ancient artifact that relates can escape their greedy ambitions.",
+            "nextDialogs": [
+              "80000103"
+            ]
+          },
+          "80000103": {
+            "id": "80000103",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Still, this time is different... Who do they think they are, going after the Abyss Order's treasures...?",
+            "nextDialogs": [
+              "80000104"
+            ]
+          },
+          "80000104": {
+            "id": "80000104",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Oh, Traveler, it's you.",
+            "nextDialogs": [
+              "80000105"
+            ]
+          },
+          "80000105": {
+            "id": "80000105",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? Ganyu, what are you doing here with Lan? Do you have a commission you need to post?",
+            "nextDialogs": [
+              "80000106"
+            ]
+          },
+          "80000106": {
+            "id": "80000106",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "#Hello, {NICKNAME}.",
+            "nextDialogs": [
+              "80000107"
+            ]
+          },
+          "80000107": {
+            "id": "80000107",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "We were just discussing the Treasure Hoarders.",
+            "nextDialogs": [
+              "80000108"
+            ]
+          },
+          "80000108": {
+            "id": "80000108",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Yes, we were just saying how even the audacious Treasure Hoarders should know better than to mess with the Abyss — it's just too evil.",
+            "nextDialogs": [
+              "80000109"
+            ]
+          },
+          "80000109": {
+            "id": "80000109",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "But we recently received intel from the Ministry of Civil Affairs that two big-time Treasure Hoarders in Liyue and Mondstadt are planning some big joint operation.",
+            "nextDialogs": [
+              "80000110"
+            ]
+          },
+          "80000110": {
+            "id": "80000110",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"Two big-time Treasure Hoarders\"?",
+            "nextDialogs": [
+              "80000111"
+            ]
+          },
+          "80000111": {
+            "id": "80000111",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Yes, they're known as \"Big Sis of the South\" and \"Raptor of the North.\"",
+            "nextDialogs": [
+              "80000112"
+            ]
+          },
+          "80000112": {
+            "id": "80000112",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ahh! Raptor! Paimon remembers he tried to run away from Amber in Mondstadt... But who is \"Big Sis of the South\"?",
+            "nextDialogs": [
+              "80000116",
+              "80000115"
+            ]
+          },
+          "80000116": {
+            "id": "80000116",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "You are correct. She is the head of the Treasure Hoarders in Liyue. As I understand it, the Treasure Hoarders all call her \"Boss.\"",
+            "nextDialogs": [
+              "80000117"
+            ]
+          },
+          "80000117": {
+            "id": "80000117",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Some say that the God of Thieves even bestowed a gift upon her for her exploits, making her \"Big Sis of the Gods.\" ...But that's probably just a wild rumor.",
+            "nextDialogs": [
+              "80000118"
+            ]
+          },
+          "80000118": {
+            "id": "80000118",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "Anyway, the Treasure Hoarders discovered some previously unexplored ruins that the Abyss Order has been secretly guarding in the shadows.",
+            "nextDialogs": [
+              "80000119"
+            ]
+          },
+          "80000119": {
+            "id": "80000119",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "Despite how dangerous that makes it, all the Treasure Hoarders can think about is what kinds of treasure could be inside...",
+            "nextDialogs": [
+              "80000120"
+            ]
+          },
+          "80000120": {
+            "id": "80000120",
+            "speakerId": 1002,
+            "speakerName": "Ganyu",
+            "text": "They have already devised a plan: they will send out a decoy to divert the Abyss Order's forces away from the ruins, then send an expert thief inside to steal the treasure.",
+            "nextDialogs": [
+              "80000121"
+            ]
+          },
+          "80000121": {
+            "id": "80000121",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "To this end, Big Sis and Raptor have reportedly recruited a certain \"Grand Thief\" from Fontaine...",
+            "nextDialogs": [
+              "80000122"
+            ]
+          },
+          "80000122": {
+            "id": "80000122",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"Grand Thief\"? That's quite an impressive-sounding title.",
+            "nextDialogs": [
+              "80000123"
+            ]
+          },
+          "80000123": {
+            "id": "80000123",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Indeed. He is an extraordinary individual.",
+            "nextDialogs": [
+              "80000124"
+            ]
+          },
+          "80000124": {
+            "id": "80000124",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "The Grand Thief is highly respected in the Treasure Hoarders, in the same way that we adventurers look up to great adventurers."
+          },
+          "80000115": {
+            "id": "80000115",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "You already know something then. I guess you must have crossed paths with the Treasure Hoarders many times before."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800002",
+      "subQuestName": "Go to the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000201"
+        ],
+        "dialogs": {
+          "80000201": {
+            "id": "80000201",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Th—This looks like a person!",
+            "nextDialogs": [
+              "80000202"
+            ]
+          },
+          "80000202": {
+            "id": "80000202",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Could it be the Grand Thief?",
+            "nextDialogs": [
+              "80000203"
+            ]
+          },
+          "80000203": {
+            "id": "80000203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Why is he in that position? Is he praying to something?",
+            "nextDialogs": [
+              "80000204"
+            ]
+          },
+          "80000204": {
+            "id": "80000204",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "!?",
+            "nextDialogs": [
+              "80000205"
+            ]
+          },
+          "80000205": {
+            "id": "80000205",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's...",
+            "nextDialogs": [
+              "80000208"
+            ]
+          },
+          "80000208": {
+            "id": "80000208",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wh—Why is this Statue of The Seven... hanging upside-down...?",
+            "nextDialogs": [
+              "80000209"
+            ]
+          },
+          "80000209": {
+            "id": "80000209",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And the statue's hands... Paimon remembers they are normally holding an orb, right?",
+            "nextDialogs": [
+              "80000210"
+            ]
+          },
+          "80000210": {
+            "id": "80000210",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But, this statue is holding... What is that?",
+            "nextDialogs": [
+              "80000211"
+            ]
+          },
+          "80000211": {
+            "id": "80000211",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uhh... Paimon has a really bad feeling about this...",
+            "nextDialogs": [
+              "80000212"
+            ]
+          },
+          "80000212": {
+            "id": "80000212",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And the Grand Thief hasn't moved an inch. D—Do you think he's...?",
+            "nextDialogs": [
+              "80000213"
+            ]
+          },
+          "80000213": {
+            "id": "80000213",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Um... hello...? Are you okay mister?",
+            "nextDialogs": [
+              "80000214"
+            ]
+          },
+          "80000214": {
+            "id": "80000214",
+            "speakerId": 1003,
+            "speakerName": "Observe the \"Grand Thief\"",
+            "text": "(There's no reaction, nor any sign of breathing.)",
+            "nextDialogs": [
+              "80000215"
+            ]
+          },
+          "80000215": {
+            "id": "80000215",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...H—He's dead.",
+            "nextDialogs": [
+              "80000216"
+            ]
+          },
+          "80000216": {
+            "id": "80000216",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Paimon doesn't feel so good, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800003",
+      "subQuestName": "Follow the Treasure Hoarders",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000301"
+        ],
+        "dialogs": {
+          "80000301": {
+            "id": "80000301",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "This power... It seems familiar...",
+            "nextDialogs": [
+              "80000302"
+            ]
+          },
+          "80000302": {
+            "id": "80000302",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "Hmph...!",
+            "nextDialogs": [
+              "80000303"
+            ]
+          },
+          "80000303": {
+            "id": "80000303",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "I see... So, it's you... you are the one!",
+            "nextDialogs": [
+              "80000304"
+            ]
+          },
+          "80000304": {
+            "id": "80000304",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "In that case, I shall stay here no longer...",
+            "nextDialogs": [
+              "80000305"
+            ]
+          },
+          "80000305": {
+            "id": "80000305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Whew... What a tough battle. Are you okay, {NICKNAME}?",
+            "nextDialogs": [
+              "80000306"
+            ]
+          },
+          "80000306": {
+            "id": "80000306",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Such a strong enemy. Who knew the Abyss Order had monsters this powerful among them?",
+            "nextDialogs": [
+              "80000307"
+            ]
+          },
+          "80000307": {
+            "id": "80000307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(It seemed to... know me.)",
+            "nextDialogs": [
+              "80000308"
+            ]
+          },
+          "80000308": {
+            "id": "80000308",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? What is it? What are you thinking about?",
+            "nextDialogs": [
+              "80000309"
+            ]
+          },
+          "80000309": {
+            "id": "80000309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Nothing, let's just get out of here.",
+            "nextDialogs": [
+              "80000310"
+            ]
+          },
+          "80000310": {
+            "id": "80000310",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, right, yeah... We're near the exit now. Let's get outta this scary place before something even more dangerous shows up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800004",
+      "subQuestName": "Check out the depths of the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800005",
+      "subQuestName": "Flee the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800009",
+      "subQuestName": "Negotiate with the Abyss Herald",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000401"
+        ],
+        "dialogs": {
+          "80000401": {
+            "id": "80000401",
+            "speakerId": 1005,
+            "speakerName": "???",
+            "text": "You cannot spy on the secrets of the Abyss.",
+            "nextDialogs": [
+              "80000402"
+            ]
+          },
+          "80000402": {
+            "id": "80000402",
+            "speakerId": 1005,
+            "speakerName": "???",
+            "text": "You have come here, you have seen our secrets. For this, you must pay the price.",
+            "nextDialogs": [
+              "80000403"
+            ]
+          },
+          "80000403": {
+            "id": "80000403",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "As a Herald, I will mete out your punishment.",
+            "nextDialogs": [
+              "80000404"
+            ]
+          },
+          "80000404": {
+            "id": "80000404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "An Abyss Herald!?",
+            "nextDialogs": [
+              "80000407"
+            ]
+          },
+          "80000407": {
+            "id": "80000407",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "Dain... Dainsleif? Oh, I thought you were just a couple of pests that stumbled in here by mistake... So, you are with Dainsleif, that constant annoyance in our affairs...",
+            "nextDialogs": [
+              "80000408"
+            ]
+          },
+          "80000408": {
+            "id": "80000408",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "Did he send you here to die? His resistance against the Abyss has gone nowhere for a long time. There is nothing you can do to change the tide...",
+            "nextDialogs": [
+              "80000409"
+            ]
+          },
+          "80000409": {
+            "id": "80000409",
+            "speakerId": 1004,
+            "speakerName": "Abyss Herald",
+            "text": "The Abyss... is unstoppable!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800006",
+      "subQuestName": "Defeat the Abyss Herald",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800008",
+      "subQuestName": "Talk to the Abyss Herald",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800007",
+      "subQuestName": "Leave the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800000",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80000001"
+        ],
+        "dialogs": {
+          "80000001": {
+            "id": "80000001",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What is this power...? Paimon's never seen it before...",
+            "nextDialogs": [
+              "80000002"
+            ]
+          },
+          "80000002": {
+            "id": "80000002",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Careful! Please don't get cocky...!"
+          }
+        }
+      }
+    }
+  ]
+}

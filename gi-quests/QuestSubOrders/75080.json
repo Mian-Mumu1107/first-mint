@@ -1,0 +1,146 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 2,
+    "Paimon": 10,
+    "Player": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7508001",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750800101"
+        ],
+        "dialogs": {
+          "750800101": {
+            "id": "750800101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, what a pretty flower...",
+            "nextDialogs": [
+              "750800104"
+            ]
+          },
+          "750800104": {
+            "id": "750800104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, that was the seed we infused with Phlogiston back then. Paimon didn't realize it was an Embercore Flower seed. No wonder it didn't sprout before! There simply wasn't enough Phlogiston in it.",
+            "nextDialogs": [
+              "750800105"
+            ]
+          },
+          "750800105": {
+            "id": "750800105",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750800106"
+            ]
+          },
+          "750800106": {
+            "id": "750800106",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#See, {REALNAME[ID(2)|SHOWHOST(true)]}, this is the flower you planted. The seed didn't die. If anything, it's blooming super nicely!",
+            "nextDialogs": [
+              "750800107"
+            ]
+          },
+          "750800107": {
+            "id": "750800107",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm surprised it wasn't a Whopperflower...",
+            "nextDialogs": [
+              "750800108"
+            ]
+          },
+          "750800108": {
+            "id": "750800108",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Stop being so hung up about that...",
+            "nextDialogs": [
+              "750800109"
+            ]
+          },
+          "750800109": {
+            "id": "750800109",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr... Rawr!",
+            "nextDialogs": [
+              "750800110"
+            ]
+          },
+          "750800110": {
+            "id": "750800110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Hehe, you're real happy, huh, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "750800111"
+            ]
+          },
+          "750800111": {
+            "id": "750800111",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Now you'd better make sure to become a big, strong, awesome Saurian, just like this seed became a flower, alright?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508002",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750800201"
+        ],
+        "dialogs": {
+          "750800201": {
+            "id": "750800201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, what a pretty flower...",
+            "nextDialogs": [
+              "750800204"
+            ]
+          },
+          "750800204": {
+            "id": "750800204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, yeah... So this is it, huh?",
+            "nextDialogs": [
+              "750800205"
+            ]
+          },
+          "750800205": {
+            "id": "750800205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#And just like how it became a lovely Embercore Flower, {REALNAME[ID(2)|SHOWHOST(true)]}'s become a big, awesome Saurian.",
+            "nextDialogs": [
+              "750800206"
+            ]
+          },
+          "750800206": {
+            "id": "750800206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon wonders where he is or what he's doing right now..."
+          }
+        }
+      }
+    }
+  ]
+}

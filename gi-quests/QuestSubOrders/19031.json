@@ -1,0 +1,122 @@
+{
+  "lineCounts": {
+    "Chongyun": 2,
+    "Fu San'er": 13,
+    "Player": 7
+  },
+  "subQuests": [
+    {
+      "subId": "1903101",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190310101"
+        ],
+        "dialogs": {
+          "190310101": {
+            "id": "190310101",
+            "speakerId": 1000,
+            "speakerName": "Chongyun",
+            "text": "Sorry for troubling you again...",
+            "nextDialogs": [
+              "190310102"
+            ]
+          },
+          "190310102": {
+            "id": "190310102",
+            "speakerId": 1000,
+            "speakerName": "Chongyun",
+            "text": "Just be careful while collecting the ingredients..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1903102",
+      "subQuestName": "Look for Cryo Whopperflower Nectar",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903103",
+      "subQuestName": "Look for Cryo Slime Condensate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903104",
+      "subQuestName": "Talk to the staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1903102101"
+        ],
+        "dialogs": {
+          "1903102101": {
+            "id": "1903102101",
+            "speakerId": 1001,
+            "speakerName": "Fu San'er",
+            "text": "It's dangerous to walk alone here, isn't it?",
+            "nextDialogs": [
+              "1903102102"
+            ]
+          },
+          "1903102102": {
+            "id": "1903102102",
+            "speakerId": 1001,
+            "speakerName": "Fu San'er",
+            "text": "You have no idea who... or what you'll meet.",
+            "nextDialogs": [
+              "1903102105"
+            ]
+          },
+          "1903102105": {
+            "id": "1903102105",
+            "speakerId": 1001,
+            "speakerName": "Fu San'er",
+            "text": "Hmm, you seem to be pretty calm. You know, there's a saying, \"you can't keep your shoes dry if you keep walking along the river.\"",
+            "nextDialogs": [
+              "1903102106"
+            ]
+          },
+          "1903102106": {
+            "id": "1903102106",
+            "speakerId": 1001,
+            "speakerName": "Fu San'er",
+            "text": "You're bound to run into something in such a strange and eerie place...",
+            "nextDialogs": [
+              "1903102107"
+            ]
+          },
+          "1903102107": {
+            "id": "1903102107",
+            "speakerId": 1001,
+            "speakerName": "Fu San'er",
+            "text": "And what you encounter here could become a nightmare that haunts you for the rest of your life."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1903106",
+      "subQuestName": "Talk to the staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

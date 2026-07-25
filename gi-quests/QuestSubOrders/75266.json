@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "Citlali": 2,
+    "Marionette": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7526601",
+      "subQuestName": "Head for the vicinity of Citlali's home to start the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7526602",
+      "subQuestName": "Head for the vicinity of Citlali's home to start the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7526603",
+      "subQuestName": "Enjoy teatime",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "752660301"
+        ],
+        "dialogs": {
+          "752660301": {
+            "id": "752660301",
+            "speakerId": 1000,
+            "speakerName": "Citlali",
+            "text": "What is it, Miss Guillotin?",
+            "nextDialogs": [
+              "752660302"
+            ]
+          },
+          "752660302": {
+            "id": "752660302",
+            "speakerId": 1001,
+            "speakerName": "Marionette",
+            "text": "(Let's sit like this for a little while longer.)",
+            "nextDialogs": [
+              "752660304"
+            ]
+          },
+          "752660304": {
+            "id": "752660304",
+            "speakerId": 1000,
+            "speakerName": "Citlali",
+            "text": "Oh, alright. Do you want to grab a drink later? It's about time someone treated you for a change."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "lineCounts": {
+    "???": 3,
+    "Allan": 5,
+    "Paimon": 15,
+    "Player": 16,
+    "Xiangling": 31
+  },
+  "subQuests": [
+    {
+      "subId": "1100001",
+      "subQuestName": "Meet the girl in the forest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110000101"
+        ],
+        "dialogs": {
+          "110000101": {
+            "id": "110000101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, look! There's a girl over there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100003",
+      "subQuestName": "Talk to Xiangling",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110000301"
+        ],
+        "dialogs": {
+          "110000301": {
+            "id": "110000301",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "Shh! Keep it down, I'm hunting...",
+            "nextDialogs": [
+              "110000302"
+            ]
+          },
+          "110000302": {
+            "id": "110000302",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "I've always heard about the wide range of ingredients you can find in Mondstadt, and it looks like it's true!",
+            "nextDialogs": [
+              "110000305"
+            ]
+          },
+          "110000305": {
+            "id": "110000305",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "No — I'm a chef! A chef on a mission to find rare and exotic ingredients from all corners of the world!",
+            "nextDialogs": [
+              "110000306"
+            ]
+          },
+          "110000306": {
+            "id": "110000306",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "My name's Xiangling, I'm from Liyue Harbor. And you?",
+            "nextDialogs": [
+              "110000307"
+            ]
+          },
+          "110000307": {
+            "id": "110000307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#I'm {NICKNAME}.",
+            "nextDialogs": [
+              "110000308"
+            ]
+          },
+          "110000308": {
+            "id": "110000308",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello, my name's Paimon!",
+            "nextDialogs": [
+              "110000309"
+            ]
+          },
+          "110000309": {
+            "id": "110000309",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Paimon!",
+            "nextDialogs": [
+              "110000310"
+            ]
+          },
+          "110000310": {
+            "id": "110000310",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Why are you looking at me like that?",
+            "nextDialogs": [
+              "110000311"
+            ]
+          },
+          "110000311": {
+            "id": "110000311",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "What an exotic creature, is it edible?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100004",
+      "subQuestName": "Help Xiangling collect Raw Meat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110000401"
+        ],
+        "dialogs": {
+          "110000401": {
+            "id": "110000401",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "These boars look healthy, and active too. I bet their meat is superb quality!",
+            "nextDialogs": [
+              "110000402"
+            ]
+          },
+          "110000402": {
+            "id": "110000402",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Ugh, just thinking about it is making me hungry..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100005",
+      "subQuestName": "Give three chunks of Raw Meat to Xiangling",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110000501"
+        ],
+        "dialogs": {
+          "110000501": {
+            "id": "110000501",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Wowee! This is great! Some of it I'll shallow fry, some of it I'll deep fry with mushrooms— ooh, and I wonder how well it goes with Slime Condensate...",
+            "nextDialogs": [
+              "110000503",
+              "110000505"
+            ]
+          },
+          "110000503": {
+            "id": "110000503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thinks she's forgotten about us...",
+            "nextDialogs": [
+              "110000506"
+            ]
+          },
+          "110000506": {
+            "id": "110000506",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Uh, sorry! I got all excited thinking about new recipes.",
+            "nextDialogs": [
+              "110000507"
+            ]
+          },
+          "110000507": {
+            "id": "110000507",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "As promised, a tasty snack! Go on, try it! And tell me what you think.",
+            "nextDialogs": [
+              "110000508"
+            ]
+          },
+          "110000508": {
+            "id": "110000508",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are we your food testers now?",
+            "nextDialogs": [
+              "110000509"
+            ]
+          },
+          "110000509": {
+            "id": "110000509",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh gosh, this is... delicious!",
+            "nextDialogs": [
+              "110000510"
+            ]
+          },
+          "110000510": {
+            "id": "110000510",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Can you tell us how to make it?",
+            "nextDialogs": [
+              "110000511"
+            ]
+          },
+          "110000511": {
+            "id": "110000511",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Hee-hee, sure! The only thing is I haven't written down the recipe yet, hmm...",
+            "nextDialogs": [
+              "110000512"
+            ]
+          },
+          "110000512": {
+            "id": "110000512",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "I got it! I'll make another one now so you can watch. I'm sure you'll pick it up straight away.",
+            "nextDialogs": [
+              "110000513"
+            ]
+          },
+          "110000513": {
+            "id": "110000513",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This seems pretty hard to make, it'll take more than that to learn how to make it. And we don't have a frying pan or any condiments.",
+            "nextDialogs": [
+              "110000514"
+            ]
+          },
+          "110000514": {
+            "id": "110000514",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Come on, it's simple!",
+            "nextDialogs": [
+              "110000515"
+            ]
+          },
+          "110000515": {
+            "id": "110000515",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "We can fry on a slab of stone and cook using some boar fat. Build a stove from rocks, use dry grass for kindling, twigs for firewood...",
+            "nextDialogs": [
+              "110000516"
+            ]
+          },
+          "110000516": {
+            "id": "110000516",
+            "speakerId": 1002,
+            "speakerName": "Xiangling",
+            "text": "Sweet flowers will do for sugar. As for salt, I found a load of rock salt in a cave the other day, there's still plenty left."
+          },
+          "110000505": {
+            "id": "110000505",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Yay! {NICKNAME} has finally come around to my food preferences."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Dwarkanath": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7365701",
+      "subQuestName": "Give five White Iron Chunks to Dwarkanath",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736570101"
+        ],
+        "dialogs": {
+          "736570101": {
+            "id": "736570101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About White Iron Chunks...",
+            "nextDialogs": [
+              "736570102"
+            ]
+          },
+          "736570102": {
+            "id": "736570102",
+            "speakerId": 1000,
+            "speakerName": "Dwarkanath",
+            "text": "Ah, I remember. Iradj's always losing my knives so I posted the commission.",
+            "nextDialogs": [
+              "736570103"
+            ]
+          },
+          "736570103": {
+            "id": "736570103",
+            "speakerId": 1000,
+            "speakerName": "Dwarkanath",
+            "text": "I guess you've got those five White Iron Chunks?",
+            "nextDialogs": [
+              "736570105"
+            ]
+          },
+          "736570105": {
+            "id": "736570105",
+            "speakerId": 1000,
+            "speakerName": "Dwarkanath",
+            "text": "Doesn't hurt to prepare more of that. You can't have enough knives for Iradj to lose. That idiot..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365702",
+      "subQuestName": "Talk to Dwarkanath",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736570201"
+        ],
+        "dialogs": {
+          "736570201": {
+            "id": "736570201",
+            "speakerId": 1000,
+            "speakerName": "Dwarkanath",
+            "text": "Thank you, I will go to dad later to make a bunch of knives. Can't wait to see Iradj's face when he gets them, haha!"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1475 @@
+{
+  "lineCounts": {
+    "Dusky Ming": 8,
+    "Paimon": 39,
+    "Player": 14,
+    "Smiley Yanxiao": 20,
+    "Verr Goldet": 40,
+    "Xiao": 20
+  },
+  "subQuests": [
+    {
+      "subId": "100301",
+      "subQuestName": "Go to Wangshu Inn",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030101"
+        ],
+        "dialogs": {
+          "10030101": {
+            "id": "10030101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, this seems to be Wangshu Inn."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100303",
+      "subQuestName": "Talk to Xiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030301"
+        ],
+        "dialogs": {
+          "10030301": {
+            "id": "10030301",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Oh. It's you two.",
+            "nextDialogs": [
+              "10030302"
+            ]
+          },
+          "10030302": {
+            "id": "10030302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We meet again! Hiya!",
+            "nextDialogs": [
+              "10030303"
+            ]
+          },
+          "10030303": {
+            "id": "10030303",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Why do you insist on getting involved in the world of demons and adepti? You're breaking the rules too often.",
+            "nextDialogs": [
+              "10030308"
+            ]
+          },
+          "10030308": {
+            "id": "10030308",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Mortal souls are not as robust as those of adepti, nor can your blood carry this level of adeptal energy.",
+            "nextDialogs": [
+              "10030309"
+            ]
+          },
+          "10030309": {
+            "id": "10030309",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "It's for your own good. Leave. Now.",
+            "nextDialogs": [
+              "10030310"
+            ]
+          },
+          "10030310": {
+            "id": "10030310",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a sec, we came here to...",
+            "nextDialogs": [
+              "10030311"
+            ]
+          },
+          "10030311": {
+            "id": "10030311",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Argh! Paimon's... peeved! All he does is think about himself!",
+            "nextDialogs": [
+              "10030312"
+            ]
+          },
+          "10030312": {
+            "id": "10030312",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon wants to give him an ugly nickname... but if you tick off an adeptus, the only thing you'll probably ever find in treasure chests is cabbages! Bleurgh!",
+            "nextDialogs": [
+              "10030313"
+            ]
+          },
+          "10030313": {
+            "id": "10030313",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh... Guess we should go ask the boss lady of the inn about just how she manages to talk to adepti."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100304",
+      "subQuestName": "Ask the boss lady about Xiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030401"
+        ],
+        "dialogs": {
+          "10030401": {
+            "id": "10030401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Tell me about that adeptus",
+            "nextDialogs": [
+              "10030402"
+            ]
+          },
+          "10030402": {
+            "id": "10030402",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Oh? You've already met Xiao?",
+            "nextDialogs": [
+              "10030403"
+            ]
+          },
+          "10030403": {
+            "id": "10030403",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Not bad. Not often he's in a good enough mood to agree to see people.",
+            "nextDialogs": [
+              "10030404"
+            ]
+          },
+          "10030404": {
+            "id": "10030404",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's his good mood?",
+            "nextDialogs": [
+              "10030405"
+            ]
+          },
+          "10030405": {
+            "id": "10030405",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Oh yes, the adepti are very hard to come by. Many people go their whole lives praying to them, never once actually getting to see one.",
+            "nextDialogs": [
+              "10030406"
+            ]
+          },
+          "10030406": {
+            "id": "10030406",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "When the Geo Archon built Liyue, he borrowed power from the adepti.",
+            "nextDialogs": [
+              "10030407"
+            ]
+          },
+          "10030407": {
+            "id": "10030407",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "But most of them only know how to protect Liyue by fighting.",
+            "nextDialogs": [
+              "10030408"
+            ]
+          },
+          "10030408": {
+            "id": "10030408",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "So for many millennia, it has instead been humans who have led Liyue, whilst the adepti have lived hidden away on the outskirts.",
+            "nextDialogs": [
+              "10030409"
+            ]
+          },
+          "10030409": {
+            "id": "10030409",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You really know a lot, huh boss lady.",
+            "nextDialogs": [
+              "10030410"
+            ]
+          },
+          "10030410": {
+            "id": "10030410",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "It's not \"boss lady,\" it's just boss...",
+            "nextDialogs": [
+              "10030411"
+            ]
+          },
+          "10030411": {
+            "id": "10030411",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Anyway, seen as you have the favor of the adepti, things should be a lot easier.",
+            "nextDialogs": [
+              "10030412"
+            ]
+          },
+          "10030412": {
+            "id": "10030412",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Well... If you wanna know my opinion... If you keep Xiao in a good mood, things should be okay.",
+            "nextDialogs": [
+              "10030413"
+            ]
+          },
+          "10030413": {
+            "id": "10030413",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Good mood? Can't really imagine what a \"good mood\" looks like for that \"Vigilant Yaksha.\"",
+            "nextDialogs": [
+              "10030414"
+            ]
+          },
+          "10030414": {
+            "id": "10030414",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Haha! Will be interesting, won't it?",
+            "nextDialogs": [
+              "10030415"
+            ]
+          },
+          "10030415": {
+            "id": "10030415",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "(Come to think of it, I've never seen him smile either...)",
+            "nextDialogs": [
+              "10030416"
+            ]
+          },
+          "10030416": {
+            "id": "10030416",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "How 'bout this — you go see the chef for a bowl of Almond Tofu, and a plate of whatever it is you are best at making.",
+            "nextDialogs": [
+              "10030417"
+            ]
+          },
+          "10030417": {
+            "id": "10030417",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Almond Tofu is one of the few human foods Xiao likes. The other dish is up to you.",
+            "nextDialogs": [
+              "10030418"
+            ]
+          },
+          "10030418": {
+            "id": "10030418",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Up to us, eh...? {NICKNAME}, what do you think you're the best at cooking?",
+            "nextDialogs": [
+              "10030420",
+              "10030422"
+            ]
+          },
+          "10030420": {
+            "id": "10030420",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Really hard to screw that one up, right?",
+            "nextDialogs": [
+              "10030423"
+            ]
+          },
+          "10030423": {
+            "id": "10030423",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But, if we're gonna be cooking for an adeptus, perhaps the Satisfying Salad would be the safer choice..."
+          },
+          "10030422": {
+            "id": "10030422",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow! Never heard of that one! Paimon wants to try it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100305",
+      "subQuestName": "Make a Delicious Satisfying Salad",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100306",
+      "subQuestName": "Talk to the chef",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030601"
+        ],
+        "dialogs": {
+          "10030601": {
+            "id": "10030601",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Can't you see I'm on a break kid? Scram.",
+            "nextDialogs": [
+              "10030602"
+            ]
+          },
+          "10030602": {
+            "id": "10030602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Excuse me, we'd like an Almond To—",
+            "nextDialogs": [
+              "10030603"
+            ]
+          },
+          "10030603": {
+            "id": "10030603",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Scram!",
+            "nextDialogs": [
+              "10030604"
+            ]
+          },
+          "10030604": {
+            "id": "10030604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, this chef guy's service is about as good as that Wagner guy's back in Mondstadt.",
+            "nextDialogs": [
+              "10030605"
+            ]
+          },
+          "10030605": {
+            "id": "10030605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's for the boss, Goldet.",
+            "nextDialogs": [
+              "10030606"
+            ]
+          },
+          "10030606": {
+            "id": "10030606",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "...",
+            "nextDialogs": [
+              "10030607"
+            ]
+          },
+          "10030607": {
+            "id": "10030607",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "I see. If it's for the boss, then guess I don't have a choice now, do I?",
+            "nextDialogs": [
+              "10030608"
+            ]
+          },
+          "10030608": {
+            "id": "10030608",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "But my heart's not really in it right now, not enough to make a dessert as painstaking as Almond Tofu.",
+            "nextDialogs": [
+              "10030609"
+            ]
+          },
+          "10030609": {
+            "id": "10030609",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And why is that?",
+            "nextDialogs": [
+              "10030610"
+            ]
+          },
+          "10030610": {
+            "id": "10030610",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "A fencer's hand must be steady, so too must the hand of a chef.",
+            "nextDialogs": [
+              "10030611"
+            ]
+          },
+          "10030611": {
+            "id": "10030611",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "But my hands, I'm... they're not steady...",
+            "nextDialogs": [
+              "10030612"
+            ]
+          },
+          "10030612": {
+            "id": "10030612",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Because ahh, a traveler once told me that this inn... is haunted.",
+            "nextDialogs": [
+              "10030613"
+            ]
+          },
+          "10030613": {
+            "id": "10030613",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "And then, just now — just now! In the kitchen... I saw something... something not right.",
+            "nextDialogs": [
+              "10030614"
+            ]
+          },
+          "10030614": {
+            "id": "10030614",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(This chef looks so intimidating, but speak of ghosts and he becomes weak.)",
+            "nextDialogs": [
+              "10030615"
+            ]
+          },
+          "10030615": {
+            "id": "10030615",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "I keep thinking... even Wangshu Inn isn't safe. I—I can't keep a steady hand for something like Almond Tofu.",
+            "nextDialogs": [
+              "10030616"
+            ]
+          },
+          "10030616": {
+            "id": "10030616",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Alright {NICKNAME}. In the name of high-quality Almond Tofu, we need to go check this kitchen out."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100307",
+      "subQuestName": "Go to the kitchen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100308",
+      "subQuestName": "Look around in the kitchen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030801"
+        ],
+        "dialogs": {
+          "10030801": {
+            "id": "10030801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Doesn't seem to be anyth—",
+            "nextDialogs": [
+              "10030802"
+            ]
+          },
+          "10030802": {
+            "id": "10030802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "10030803"
+            ]
+          },
+          "10030803": {
+            "id": "10030803",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "10030804"
+            ]
+          },
+          "10030804": {
+            "id": "10030804",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "##@&%*!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100309",
+      "subQuestName": "Tell Smiley Yanxiao about what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030901"
+        ],
+        "dialogs": {
+          "10030901": {
+            "id": "10030901",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "What!? You saw it too! There really is a ghost!",
+            "nextDialogs": [
+              "10030902"
+            ]
+          },
+          "10030902": {
+            "id": "10030902",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "What... How can I...",
+            "nextDialogs": [
+              "10030903"
+            ]
+          },
+          "10030903": {
+            "id": "10030903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay, so he's useless now. What do we do?",
+            "nextDialogs": [
+              "10030904"
+            ]
+          },
+          "10030904": {
+            "id": "10030904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Forget it. Let's just go see the boss lady again."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100310",
+      "subQuestName": "Seek help from Verr Goldet",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031001"
+        ],
+        "dialogs": {
+          "10031001": {
+            "id": "10031001",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Hehe... Scared of something so insignificant. Hard to believe he was once a notorious bandit.",
+            "nextDialogs": [
+              "10031002"
+            ]
+          },
+          "10031002": {
+            "id": "10031002",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You don't seem that afraid of ghosts, boss lady.",
+            "nextDialogs": [
+              "10031003"
+            ]
+          },
+          "10031003": {
+            "id": "10031003",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Gods and ghosts, I've seen it all before.",
+            "nextDialogs": [
+              "10031004"
+            ]
+          },
+          "10031004": {
+            "id": "10031004",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Come to think of it, others don't seem to know there's an adeptus here at the inn, except for the boss lady...",
+            "nextDialogs": [
+              "10031005"
+            ]
+          },
+          "10031005": {
+            "id": "10031005",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Shh!",
+            "nextDialogs": [
+              "10031006"
+            ]
+          },
+          "10031006": {
+            "id": "10031006",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Say any more and you'll be divulging my little secret.",
+            "nextDialogs": [
+              "10031007"
+            ]
+          },
+          "10031007": {
+            "id": "10031007",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Right. Best you two be off. Go see to it that little ghost doesn't go scaring anybody else.",
+            "nextDialogs": [
+              "10031008"
+            ]
+          },
+          "10031008": {
+            "id": "10031008",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Not that I'm ordering you around. It's like the adeptus said, mortal souls are not as robust as those of the adepti.",
+            "nextDialogs": [
+              "10031009"
+            ]
+          },
+          "10031009": {
+            "id": "10031009",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "So as to not be harmed when dealing with the adepti, you can start by practicing with that ghost.",
+            "nextDialogs": [
+              "10031011"
+            ]
+          },
+          "10031011": {
+            "id": "10031011",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But how should we persuade the ghost?",
+            "nextDialogs": [
+              "10031013"
+            ]
+          },
+          "10031013": {
+            "id": "10031013",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "There is a calligraphy painting in the inn known as the Witness Sigil. It's been in circulation for over a thousand years. Go take a look at it.",
+            "nextDialogs": [
+              "10031014"
+            ]
+          },
+          "10031014": {
+            "id": "10031014",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Once you have, look for a place outside where you can see the exact same Witness Sigil formation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100321",
+      "subQuestName": "Observe the painting",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100311",
+      "subQuestName": "Find a place where you can see the whole Witness Sigil",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031101"
+        ],
+        "dialogs": {
+          "10031101": {
+            "id": "10031101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Great! Boss lady said she won't be able to get away like last time!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100312",
+      "subQuestName": "Find the ghost",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031201"
+        ],
+        "dialogs": {
+          "10031201": {
+            "id": "10031201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Th—There she is! So scary... {NICKNAME}, quick, you... you grab her."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100313",
+      "subQuestName": "Chase the ghost",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100314",
+      "subQuestName": "Defeat the Ruin Hunter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031401"
+        ],
+        "dialogs": {
+          "10031401": {
+            "id": "10031401",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Argh! She doesn't know when to give up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100315",
+      "subQuestName": "Talk to Dusky Ming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031501"
+        ],
+        "dialogs": {
+          "10031501": {
+            "id": "10031501",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "♪ Silly-churl, billy-churl ♪...",
+            "nextDialogs": [
+              "10031502"
+            ]
+          },
+          "10031502": {
+            "id": "10031502",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Phew... Finally caught you. Paimon's pooped.",
+            "nextDialogs": [
+              "10031503"
+            ]
+          },
+          "10031503": {
+            "id": "10031503",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "♪ Silly-billy hilichurl ♪ ...",
+            "nextDialogs": [
+              "10031504"
+            ]
+          },
+          "10031504": {
+            "id": "10031504",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Haunting things isn't nice! Little girl, are you listening?",
+            "nextDialogs": [
+              "10031505"
+            ]
+          },
+          "10031505": {
+            "id": "10031505",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "♪ Chilly-churl, frilly-churl ♪ ...",
+            "nextDialogs": [
+              "10031506"
+            ]
+          },
+          "10031506": {
+            "id": "10031506",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Now listen here young lady!",
+            "nextDialogs": [
+              "10031507"
+            ]
+          },
+          "10031507": {
+            "id": "10031507",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "...",
+            "nextDialogs": [
+              "10031508"
+            ]
+          },
+          "10031508": {
+            "id": "10031508",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "Okay.",
+            "nextDialogs": [
+              "10031509"
+            ]
+          },
+          "10031509": {
+            "id": "10031509",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "Dusky Ming won't tease the travelers at the inn anymore.",
+            "nextDialogs": [
+              "10031510"
+            ]
+          },
+          "10031510": {
+            "id": "10031510",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "#Next time {NICKNAME} can come play with Dusky Ming.",
+            "nextDialogs": [
+              "10031511"
+            ]
+          },
+          "10031511": {
+            "id": "10031511",
+            "speakerId": 1004,
+            "speakerName": "Dusky Ming",
+            "text": "If you don't come and play, Dusky Ming will come find you~"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100316",
+      "subQuestName": "Tell Smiley Yanxiao about what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031601"
+        ],
+        "dialogs": {
+          "10031601": {
+            "id": "10031601",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Wh-What... You really got the ghost to promise to stop haunting the inn?",
+            "nextDialogs": [
+              "10031602"
+            ]
+          },
+          "10031602": {
+            "id": "10031602",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Wow... You really are something...",
+            "nextDialogs": [
+              "10031603"
+            ]
+          },
+          "10031603": {
+            "id": "10031603",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "I am in your debt.",
+            "nextDialogs": [
+              "10031604"
+            ]
+          },
+          "10031604": {
+            "id": "10031604",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Please wait a moment. I'll make you the smoothest, silkiest bowl of Almond Tofu.",
+            "nextDialogs": [
+              "10031605"
+            ]
+          },
+          "10031605": {
+            "id": "10031605",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Haha, my hands are steadier than ever now that she's gone."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100317",
+      "subQuestName": "Talk to Xiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10031701"
+        ],
+        "dialogs": {
+          "10031701": {
+            "id": "10031701",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "...You two again.",
+            "nextDialogs": [
+              "10031702"
+            ]
+          },
+          "10031702": {
+            "id": "10031702",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait! Don't go disappearing again.",
+            "nextDialogs": [
+              "10031703"
+            ]
+          },
+          "10031703": {
+            "id": "10031703",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "What's this?",
+            "nextDialogs": [
+              "10031704"
+            ]
+          },
+          "10031704": {
+            "id": "10031704",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's your favorite, Almond Tofu! As well as this distant traveler's best dish — a Satisfying Salad.",
+            "nextDialogs": [
+              "10031705"
+            ]
+          },
+          "10031705": {
+            "id": "10031705",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}! Quick! Tell him everything before he finishes eating!",
+            "nextDialogs": [
+              "10031706"
+            ]
+          },
+          "10031706": {
+            "id": "10031706",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Rex Lapis... How could this be?",
+            "nextDialogs": [
+              "10031707"
+            ]
+          },
+          "10031707": {
+            "id": "10031707",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "I... can't imagine it. Though times have changed, I've never imagined a Liyue without him.",
+            "nextDialogs": [
+              "10031708"
+            ]
+          },
+          "10031708": {
+            "id": "10031708",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "The ruling Qixing... Just what role have they played in this?",
+            "nextDialogs": [
+              "10031709"
+            ]
+          },
+          "10031709": {
+            "id": "10031709",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "10031710"
+            ]
+          },
+          "10031710": {
+            "id": "10031710",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "I will seek Moon Carver, Mountain Shaper, and Cloud Retainer. It is time they too made their decisions.",
+            "nextDialogs": [
+              "10031713"
+            ]
+          },
+          "10031713": {
+            "id": "10031713",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Adepti do not turn on their responsibilities.",
+            "nextDialogs": [
+              "10031714"
+            ]
+          },
+          "10031714": {
+            "id": "10031714",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "I have my reasons to not want to be tainted by the mortal realm, but... responsibilities are responsibilities.",
+            "nextDialogs": [
+              "10031715"
+            ]
+          },
+          "10031715": {
+            "id": "10031715",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Our god is the God of Contracts after all.",
+            "nextDialogs": [
+              "10031716"
+            ]
+          },
+          "10031716": {
+            "id": "10031716",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait! Paimon still has one last question.",
+            "nextDialogs": [
+              "10031717"
+            ]
+          },
+          "10031717": {
+            "id": "10031717",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Hmm?",
+            "nextDialogs": [
+              "10031718"
+            ]
+          },
+          "10031718": {
+            "id": "10031718",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That... Dusky Ming. She's...",
+            "nextDialogs": [
+              "10031719"
+            ]
+          },
+          "10031719": {
+            "id": "10031719",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "When conquering demons, on occasion, you can come across spirits who have never hurt anyone, yet are also not yet able to be moved on.",
+            "nextDialogs": [
+              "10031720"
+            ]
+          },
+          "10031720": {
+            "id": "10031720",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "So I asked the innkeeper and the boss if they could keep her here for a time.",
+            "nextDialogs": [
+              "10031721"
+            ]
+          },
+          "10031721": {
+            "id": "10031721",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So really, Wangshu Inn was looking after her! Really keeping a wide range of business going, huh!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100303",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10030304"
+        ],
+        "dialogs": {
+          "10030304": {
+            "id": "10030304",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "A Sigil of Permission? You came prepared.",
+            "nextDialogs": [
+              "10030305"
+            ]
+          },
+          "10030305": {
+            "id": "10030305",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Though this only prevents me from hurting you myself. Doesn't stop you from getting hurt in other ways.",
+            "nextDialogs": [
+              "10030306"
+            ]
+          },
+          "10030306": {
+            "id": "10030306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh... Paimon doesn't get it...",
+            "nextDialogs": [
+              "10030307"
+            ]
+          },
+          "10030307": {
+            "id": "10030307",
+            "speakerId": 1001,
+            "speakerName": "Xiao",
+            "text": "Too much contact with our world is breaking the rules."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100387",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10038701"
+        ],
+        "dialogs": {
+          "10038701": {
+            "id": "10038701",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Ghosts are just another form of life on earth. It's certainly possible to deal with them on their own terms."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100388",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10038801"
+        ],
+        "dialogs": {
+          "10038801": {
+            "id": "10038801",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Opportunities to meet an adeptus are rare and fleeting. Make the most of it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100389",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10038901"
+        ],
+        "dialogs": {
+          "10038901": {
+            "id": "10038901",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "I haven't enjoyed something so much in a long time. That dish was pure perfection."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100390",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039001"
+        ],
+        "dialogs": {
+          "10039001": {
+            "id": "10039001",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "May the G—Geo Lord protect you... May all the deities protect you!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100391",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039101"
+        ],
+        "dialogs": {
+          "10039101": {
+            "id": "10039101",
+            "speakerId": 1003,
+            "speakerName": "Smiley Yanxiao",
+            "text": "If the bosses hadn't been so good to me, there's no way I'd be putting up with this..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100392",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039201"
+        ],
+        "dialogs": {
+          "10039201": {
+            "id": "10039201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "10039202"
+            ]
+          },
+          "10039202": {
+            "id": "10039202",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Safe travels."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100393",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039301"
+        ],
+        "dialogs": {
+          "10039301": {
+            "id": "10039301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Tell me about your husband.",
+            "nextDialogs": [
+              "10039302"
+            ]
+          },
+          "10039302": {
+            "id": "10039302",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Over there. He's the innkeeper.",
+            "nextDialogs": [
+              "10039303"
+            ]
+          },
+          "10039303": {
+            "id": "10039303",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Don't be led astray by the cheeky grin on his face. He is a rather formidable martial artist.",
+            "nextDialogs": [
+              "10039304"
+            ]
+          },
+          "10039304": {
+            "id": "10039304",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "I also practice martial arts, as do the kitchen staff. It is a hiring requirement.",
+            "nextDialogs": [
+              "10039305"
+            ]
+          },
+          "10039305": {
+            "id": "10039305",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "You have to have nimble use of your hands and feet when you're serving guests, don't you think?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100394",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039401"
+        ],
+        "dialogs": {
+          "10039401": {
+            "id": "10039401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Who are you?",
+            "nextDialogs": [
+              "10039402"
+            ]
+          },
+          "10039402": {
+            "id": "10039402",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "My name is Goldet and I come from Mondstadt. I am the boss here at the Wangshu Inn.",
+            "nextDialogs": [
+              "10039403"
+            ]
+          },
+          "10039403": {
+            "id": "10039403",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Lest you think I was the boss' wife.",
+            "nextDialogs": [
+              "10039404"
+            ]
+          },
+          "10039404": {
+            "id": "10039404",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "I'm the boss, with a capital \"B-O-S-S.\"",
+            "nextDialogs": [
+              "10039406",
+              "10039411"
+            ]
+          },
+          "10039406": {
+            "id": "10039406",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Hahaha, well I'd hardly be able to operate an inn in this location without connections with the Qixing.",
+            "nextDialogs": [
+              "10039407"
+            ]
+          },
+          "10039407": {
+            "id": "10039407",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "What I mean is I obviously need their approval.",
+            "nextDialogs": [
+              "10039408"
+            ]
+          },
+          "10039408": {
+            "id": "10039408",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "All that other nonsense is just rumors, though.",
+            "nextDialogs": [
+              "10039409"
+            ]
+          },
+          "10039409": {
+            "id": "10039409",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Speaking of which, have you got any interesting news to share?"
+          },
+          "10039411": {
+            "id": "10039411",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "*sigh* ...This cat invited itself here... But it's cute, so I let it stay.",
+            "nextDialogs": [
+              "10039412"
+            ]
+          },
+          "10039412": {
+            "id": "10039412",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Its name is Wei. That was quite simply the first name we thought of.",
+            "nextDialogs": [
+              "10039413"
+            ]
+          },
+          "10039413": {
+            "id": "10039413",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "You might find Wei causes a bit of mischief — you know what cats are like. But please refrain from stooping to the same level yourself."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100395",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10039501"
+        ],
+        "dialogs": {
+          "10039501": {
+            "id": "10039501",
+            "speakerId": 1002,
+            "speakerName": "Verr Goldet",
+            "text": "Hello! ...A distinctive but elusive dress sense, defined yet atypical facial features, and followed around everywhere by a floating elf companion. Hmm... nope. Can't place you."
+          }
+        }
+      }
+    }
+  ]
+}

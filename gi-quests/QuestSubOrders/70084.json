@@ -1,0 +1,128 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "VIP Room Guard": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7008401",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700840201"
+        ],
+        "dialogs": {
+          "700840201": {
+            "id": "700840201",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "Apologies, but this is the VIP Lounge. It is not open to ordinary guests...",
+            "nextDialogs": [
+              "700840204"
+            ]
+          },
+          "700840204": {
+            "id": "700840204",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "If you do not have a <color=#00E1FFFF>VIP Pass</color>, I'm afraid you cannot enter.",
+            "nextDialogs": [
+              "700840202"
+            ]
+          },
+          "700840202": {
+            "id": "700840202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Show the VIP Pass...",
+            "nextDialogs": [
+              "700840203"
+            ]
+          },
+          "700840203": {
+            "id": "700840203",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "Ah, this is indeed a... Hmm. How strange. Has this pass ever been granted to a human?",
+            "nextDialogs": [
+              "700840205"
+            ]
+          },
+          "700840205": {
+            "id": "700840205",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "#Still, my job is to verify and stand guard, nothing more. Please, step inside, good {M#Sir} {F#Madam}.",
+            "nextDialogs": [
+              "700840206"
+            ]
+          },
+          "700840206": {
+            "id": "700840206",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "If you should need anything at all, do not hesitate to contact the waiting staff in the lounge."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7008401",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700840101"
+        ],
+        "dialogs": {
+          "700840101": {
+            "id": "700840101",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "Apologies, but this is the VIP Lounge. It is not open to ordinary guests...",
+            "nextDialogs": [
+              "700840102"
+            ]
+          },
+          "700840102": {
+            "id": "700840102",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "If you do not have a <color=#00E1FFFF>VIP Pass</color>, I'm afraid you cannot enter."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7008403",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700840301"
+        ],
+        "dialogs": {
+          "700840301": {
+            "id": "700840301",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "#I remember you, {M#Sir{F#Madam}}.",
+            "nextDialogs": [
+              "700840302"
+            ]
+          },
+          "700840302": {
+            "id": "700840302",
+            "speakerId": 1000,
+            "speakerName": "VIP Room Guard",
+            "text": "If you should need anything at all, do not hesitate to contact the waiting staff in the lounge."
+          }
+        }
+      }
+    }
+  ]
+}

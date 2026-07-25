@@ -1,0 +1,168 @@
+{
+  "lineCounts": {
+    "Paimon": 9,
+    "Player": 1
+  },
+  "subQuests": [
+    {
+      "subId": "35100",
+      "subQuestName": "Go to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3510001"
+        ],
+        "dialogs": {
+          "3510001": {
+            "id": "3510001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay, let's take the route we planned!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "35101",
+      "subQuestName": "Follow Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3510101"
+        ],
+        "dialogs": {
+          "3510101": {
+            "id": "3510101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Wake up! Helllooooooo~!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "35106",
+      "subQuestName": "Unlock the Teleport Waypoint",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "35105",
+      "subQuestName": "Go to the foot of the cliff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "35102",
+      "subQuestName": "Climb to the top of the rock face",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "35100",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3510005"
+        ],
+        "dialogs": {
+          "3510005": {
+            "id": "3510005",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The path ends here — guess we'll just have to <color=#00E1FFFF>climb</color>.",
+            "nextDialogs": [
+              "3510006"
+            ]
+          },
+          "3510006": {
+            "id": "3510006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "<color=#00E1FFFF>Climbing</color> depletes <color=#00E1FFFF>stamina</color>, and depleted stamina takes time to recover!",
+            "nextDialogs": [
+              "3510007"
+            ]
+          },
+          "3510007": {
+            "id": "3510007",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We're off to... a Statue of The Seven!",
+            "nextDialogs": [
+              "3510008"
+            ]
+          },
+          "3510008": {
+            "id": "3510008",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Which of The Seven are you looking for exactly?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "35101",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3510102"
+        ],
+        "dialogs": {
+          "3510102": {
+            "id": "3510102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You said we'd watch the sunrise together, how are you still asleep?",
+            "nextDialogs": [
+              "3510103"
+            ]
+          },
+          "3510103": {
+            "id": "3510103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Wow...",
+            "nextDialogs": [
+              "3510104"
+            ]
+          },
+          "3510104": {
+            "id": "3510104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#The sun is out so rise and shine! If you wanna find your {M#sister}{F#brother}, we'll need you up and at 'em!",
+            "nextDialogs": [
+              "3510105"
+            ]
+          },
+          "3510105": {
+            "id": "3510105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Once you're ready, gimme a shout."
+          }
+        }
+      }
+    }
+  ]
+}

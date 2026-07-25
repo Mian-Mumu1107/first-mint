@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Sylvie": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7465301",
+      "subQuestName": "Give 5 Beryl Conches to Sylvie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746530101"
+        ],
+        "dialogs": {
+          "746530101": {
+            "id": "746530101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Beryl Conches...",
+            "nextDialogs": [
+              "746530102"
+            ]
+          },
+          "746530102": {
+            "id": "746530102",
+            "speakerId": 1000,
+            "speakerName": "Sylvie",
+            "text": "Ah! My submission to \"Tales of Humanity\" has been answered! Yes, that's right, I am collecting them.",
+            "nextDialogs": [
+              "746530103"
+            ]
+          },
+          "746530103": {
+            "id": "746530103",
+            "speakerId": 1000,
+            "speakerName": "Sylvie",
+            "text": "You've already prepared all the Beryl Conches I requested, haven't you?",
+            "nextDialogs": [
+              "746530105"
+            ]
+          },
+          "746530105": {
+            "id": "746530105",
+            "speakerId": 1000,
+            "speakerName": "Sylvie",
+            "text": "No problem, come and find me once you've got them. I'm usually at work here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465302",
+      "subQuestName": "Talk to Sylvie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746530201"
+        ],
+        "dialogs": {
+          "746530201": {
+            "id": "746530201",
+            "speakerId": 1000,
+            "speakerName": "Sylvie",
+            "text": "Wonderful, thank you! Beryl Conches are both quaint and elegant. Simply the best home decoration to be found anyway."
+          }
+        }
+      }
+    }
+  ]
+}

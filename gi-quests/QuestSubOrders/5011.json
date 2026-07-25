@@ -1,0 +1,2550 @@
+{
+  "lineCounts": {
+    "Acama": 4,
+    "Achiyaku": 7,
+    "Ackon": 1,
+    "Ajaw": 8,
+    "Andinet": 1,
+    "Ardra": 8,
+    "Asiri": 2,
+    "Auki": 1,
+    "Black Screen": 1,
+    "Botwe": 2,
+    "Chimalli": 8,
+    "Citlali": 2,
+    "Dargo": 4,
+    "Diligent Yumkasaur": 2,
+    "Guselnikov": 3,
+    "Icmotza": 1,
+    "Kachina": 2,
+    "Kamaka": 4,
+    "Kinich": 18,
+    "Kokpon": 3,
+    "Kweku": 1,
+    "Maticui": 1,
+    "Mavuika": 16,
+    "Nusta": 2,
+    "Paimon": 51,
+    "Player": 19,
+    "Pumpu": 7,
+    "Raman": 3,
+    "Stadukhin": 9,
+    "Tewodros": 1,
+    "Tumpis": 1,
+    "Ullanta": 2,
+    "Valiant Tepetlisaur": 2,
+    "Waqar": 4,
+    "Wayta": 4,
+    "Wisa": 2,
+    "Xilonen": 3,
+    "Yaretzi": 2
+  },
+  "subQuests": [
+    {
+      "subId": "501128",
+      "subQuestName": "Leave the Weary Inn and join the battle",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501101",
+      "subQuestName": "Talk to Mavuika and learn more about the battle situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50110101"
+        ],
+        "dialogs": {
+          "50110101": {
+            "id": "50110101",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "I see. I'll send reinforcements to those two locations. This other one is too dangerous — I'll handle it myself.",
+            "nextDialogs": [
+              "50110102"
+            ]
+          },
+          "50110102": {
+            "id": "50110102",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "The remaining locations are remote, with no inhabitants. Let's bring our warriors back, and make sure they're careful on the retreat.",
+            "nextDialogs": [
+              "50110103"
+            ]
+          },
+          "50110103": {
+            "id": "50110103",
+            "speakerId": 1001,
+            "speakerName": "Tumpis",
+            "text": "Understood. I'll spread the word.",
+            "nextDialogs": [
+              "50110104"
+            ]
+          },
+          "50110104": {
+            "id": "50110104",
+            "speakerId": 1002,
+            "speakerName": "Xilonen",
+            "text": "We're here. What's going on? Kachina said the Abyss attacked again?",
+            "nextDialogs": [
+              "50110105"
+            ]
+          },
+          "50110105": {
+            "id": "50110105",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "Yes. It's not looking good. Our forces have always been able to handle the sporadic attacks, but now, there are more monsters than ever, and the attacks are more frequent.",
+            "nextDialogs": [
+              "50110106"
+            ]
+          },
+          "50110106": {
+            "id": "50110106",
+            "speakerId": 1002,
+            "speakerName": "Xilonen",
+            "text": "What about the scale? What areas are they targeting?",
+            "nextDialogs": [
+              "50110107"
+            ]
+          },
+          "50110107": {
+            "id": "50110107",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "All of Natlan. Not just around the Stadium, but even the remote areas of the Collective of Plenty are reporting attacks.",
+            "nextDialogs": [
+              "50110108"
+            ]
+          },
+          "50110108": {
+            "id": "50110108",
+            "speakerId": 1003,
+            "speakerName": "Citlali",
+            "text": "Could this also be some kind of omen? If things continue like this, then—",
+            "nextDialogs": [
+              "50110109"
+            ]
+          },
+          "50110109": {
+            "id": "50110109",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "We won't last much longer, I know... What we're seeing now is the desperation of the Abyss. It knows we're only one hero short.",
+            "nextDialogs": [
+              "50110110"
+            ]
+          },
+          "50110110": {
+            "id": "50110110",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "I don't have the strength to fight it right now. This is its best opportunity, and its final chance.",
+            "nextDialogs": [
+              "50110111"
+            ]
+          },
+          "50110111": {
+            "id": "50110111",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "You're saying... We just have to hold out for as long as we can?",
+            "nextDialogs": [
+              "50110112"
+            ]
+          },
+          "50110112": {
+            "id": "50110112",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "It'll be a long fight. Our current focus needs to be on protecting civilians and conserving manpower.",
+            "nextDialogs": [
+              "50110113"
+            ]
+          },
+          "50110113": {
+            "id": "50110113",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "There are caravans and adventurers trapped in the wild. Many of our warriors have already left to rescue them, but they'll need reinforcements.",
+            "nextDialogs": [
+              "50110114"
+            ]
+          },
+          "50110114": {
+            "id": "50110114",
+            "speakerId": 1005,
+            "speakerName": "Kachina",
+            "text": "Leave that to us. We'll head out right away.",
+            "nextDialogs": [
+              "50110115"
+            ]
+          },
+          "50110115": {
+            "id": "50110115",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "Alright. Xilonen, Kachina — head to the camp near the Children of Echoes. Citlali — you're needed in the Masters of the Night-Wind.",
+            "nextDialogs": [
+              "50110116"
+            ]
+          },
+          "50110116": {
+            "id": "50110116",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "As an important figure in the plan, Ororon will stay here. Your tribe is too far from the Stadium.",
+            "nextDialogs": [
+              "50110117"
+            ]
+          },
+          "50110117": {
+            "id": "50110117",
+            "speakerId": 1003,
+            "speakerName": "Citlali",
+            "text": "Understood. I'll leave right away.",
+            "nextDialogs": [
+              "50110118"
+            ]
+          },
+          "50110118": {
+            "id": "50110118",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "I prepared a hot air balloon to take you where you're needed.",
+            "nextDialogs": [
+              "50110119"
+            ]
+          },
+          "50110119": {
+            "id": "50110119",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "Messengers from the Scions of the Canopy are traveling all around Natlan. Update them once you've completed your mission, and they'll compile the information into a battle report.",
+            "nextDialogs": [
+              "50110120"
+            ]
+          },
+          "50110120": {
+            "id": "50110120",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "As I receive intel from the various regions, I'll plan your next move.",
+            "nextDialogs": [
+              "50110121"
+            ]
+          },
+          "50110121": {
+            "id": "50110121",
+            "speakerId": 1002,
+            "speakerName": "Xilonen",
+            "text": "Alright, no time to lose. Let's go.",
+            "nextDialogs": [
+              "50110122"
+            ]
+          },
+          "50110122": {
+            "id": "50110122",
+            "speakerId": 1005,
+            "speakerName": "Kachina",
+            "text": "Be careful, everyone!",
+            "nextDialogs": [
+              "50110123"
+            ]
+          },
+          "50110123": {
+            "id": "50110123",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "What about us? Where should we go?",
+            "nextDialogs": [
+              "50110124"
+            ]
+          },
+          "50110124": {
+            "id": "50110124",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "I received word that a small team escorting civilians back to the Stadium was attacked. They won't be able to hold out for long.",
+            "nextDialogs": [
+              "50110125"
+            ]
+          },
+          "50110125": {
+            "id": "50110125",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "Can I leave them to you?",
+            "nextDialogs": [
+              "50110126"
+            ]
+          },
+          "50110126": {
+            "id": "50110126",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Of course.",
+            "nextDialogs": [
+              "50110127"
+            ]
+          },
+          "50110127": {
+            "id": "50110127",
+            "speakerId": 1000,
+            "speakerName": "Mavuika",
+            "text": "Thank you. The hot air balloon is over there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501138",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501129",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501102",
+      "subQuestName": "Ride the hot air balloon to reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50110201"
+        ],
+        "dialogs": {
+          "50110201": {
+            "id": "50110201",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Wanna get some rest, Traveler? We have to head out again in a bit."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501132",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501103",
+      "subQuestName": "Defeat the monsters before you",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501104",
+      "subQuestName": "Talk to the warrior",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50110401"
+        ],
+        "dialogs": {
+          "50110401": {
+            "id": "50110401",
+            "speakerId": 1006,
+            "speakerName": "Dargo",
+            "text": "Thank you for coming. We were almost at the breaking point.",
+            "nextDialogs": [
+              "50110402"
+            ]
+          },
+          "50110402": {
+            "id": "50110402",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "There were just too many monsters. They just kept coming, wave after wave. I've never seen it this bad.",
+            "nextDialogs": [
+              "50110403"
+            ]
+          },
+          "50110403": {
+            "id": "50110403",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "At least we got here in time. You all should get going.",
+            "nextDialogs": [
+              "50110404"
+            ]
+          },
+          "50110404": {
+            "id": "50110404",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "I know, but it's not that easy. A lot of people were hurt in the battle just now.",
+            "nextDialogs": [
+              "50110405"
+            ]
+          },
+          "50110405": {
+            "id": "50110405",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "Our cart was also attacked. And now, our supplies are scattered everywhere...",
+            "nextDialogs": [
+              "50110406"
+            ]
+          },
+          "50110406": {
+            "id": "50110406",
+            "speakerId": 1008,
+            "speakerName": "Kokpon",
+            "text": "That's not important right now. We need to focus on getting out of here alive.",
+            "nextDialogs": [
+              "50110407"
+            ]
+          },
+          "50110407": {
+            "id": "50110407",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "I know, but those were medical supplies. What if they need them back at the Stadium...",
+            "nextDialogs": [
+              "50110408"
+            ]
+          },
+          "50110408": {
+            "id": "50110408",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "It's them! Over here!",
+            "nextDialogs": [
+              "50110409"
+            ]
+          },
+          "50110409": {
+            "id": "50110409",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "We came to help, but looks like you don't need it. Nice job making it through.",
+            "nextDialogs": [
+              "50110410"
+            ]
+          },
+          "50110410": {
+            "id": "50110410",
+            "speakerId": 1010,
+            "speakerName": "Nusta",
+            "text": "Now we can head straight to the next location.",
+            "nextDialogs": [
+              "50110411"
+            ]
+          },
+          "50110411": {
+            "id": "50110411",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "What other areas need help?",
+            "nextDialogs": [
+              "50110412"
+            ]
+          },
+          "50110412": {
+            "id": "50110412",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "Here, take a look at the latest battle report.",
+            "nextDialogs": [
+              "50110413"
+            ]
+          },
+          "50110413": {
+            "id": "50110413",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "Messengers from the Scions of the Canopy are traveling all around Natlan to pass along the latest intel.",
+            "nextDialogs": [
+              "50110414"
+            ]
+          },
+          "50110414": {
+            "id": "50110414",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "If you see a messenger from the Scions of the Canopy, feel free to ask them about the latest battle situation.",
+            "nextDialogs": [
+              "50110415"
+            ]
+          },
+          "50110415": {
+            "id": "50110415",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Thanks! Now, where should we go next?",
+            "nextDialogs": [
+              "50110416"
+            ]
+          },
+          "50110416": {
+            "id": "50110416",
+            "speakerId": 1010,
+            "speakerName": "Nusta",
+            "text": "Seems like you can hold your own in a fight, so let's split up. Choose where you want to go, and we'll take the rest.",
+            "nextDialogs": [
+              "50110417"
+            ]
+          },
+          "50110417": {
+            "id": "50110417",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "Still looks like they could use some help here, though. These supplies are really important. What should we do?",
+            "nextDialogs": [
+              "50110418"
+            ]
+          },
+          "50110418": {
+            "id": "50110418",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "It's alright. Don't delay your rescue efforts on our account.",
+            "nextDialogs": [
+              "50110419"
+            ]
+          },
+          "50110419": {
+            "id": "50110419",
+            "speakerId": 1006,
+            "speakerName": "Dargo",
+            "text": "But, if we stay here too long, the monsters might come back...",
+            "nextDialogs": [
+              "50110420"
+            ]
+          },
+          "50110420": {
+            "id": "50110420",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "#What do you think, {NICKNAME}? Should we stay and help?",
+            "nextDialogs": [
+              "50110421"
+            ]
+          },
+          "50110421": {
+            "id": "50110421",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Paimon will do whatever you decide!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501139",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501105",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501107",
+      "subQuestName": "Ride the hot air balloon to reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50110701"
+        ],
+        "dialogs": {
+          "50110701": {
+            "id": "50110701",
+            "speakerId": 1011,
+            "speakerName": "Asiri",
+            "text": "Thanks for your help. I've updated the intel on this area. I'll start spreading the word.",
+            "nextDialogs": [
+              "50110702"
+            ]
+          },
+          "50110702": {
+            "id": "50110702",
+            "speakerId": 1011,
+            "speakerName": "Asiri",
+            "text": "Hang in there, you two. A lot of places still need your help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501116",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50111601"
+        ],
+        "dialogs": {
+          "50111601": {
+            "id": "50111601",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "The situation is still quite grim. Here, take a look.",
+            "nextDialogs": [
+              "50111602"
+            ]
+          },
+          "50111602": {
+            "id": "50111602",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "Looks like this place also isn't as safe as we thought. That, plus the bridge to the Stadium is also compromised.",
+            "nextDialogs": [
+              "50111603"
+            ]
+          },
+          "50111603": {
+            "id": "50111603",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Aaah, what's going on!?",
+            "nextDialogs": [
+              "50111604"
+            ]
+          },
+          "50111604": {
+            "id": "50111604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's an Abyssal Pylon!",
+            "nextDialogs": [
+              "50111605"
+            ]
+          },
+          "50111605": {
+            "id": "50111605",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "The rabble-rousers return. They don't know when to give up.",
+            "nextDialogs": [
+              "50111606"
+            ]
+          },
+          "50111606": {
+            "id": "50111606",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "An Abyssal Pylon, here... That's not good news. We need to deal with it, now."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501117",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501118",
+      "subQuestName": "Talk to the warriors stationed here",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50111801"
+        ],
+        "dialogs": {
+          "50111801": {
+            "id": "50111801",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "Phew, thank you so much! You came just in time.",
+            "nextDialogs": [
+              "50111802"
+            ]
+          },
+          "50111802": {
+            "id": "50111802",
+            "speakerId": 1015,
+            "speakerName": "Waqar",
+            "text": "What's going on? Were other places hit?",
+            "nextDialogs": [
+              "50111803"
+            ]
+          },
+          "50111803": {
+            "id": "50111803",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Yeah, it seems like it.",
+            "nextDialogs": [
+              "50111804"
+            ]
+          },
+          "50111804": {
+            "id": "50111804",
+            "speakerId": 1015,
+            "speakerName": "Waqar",
+            "text": "The Pyro Archon told us to be ready to evacuate. She warned us something like this could happen, but I never thought there would be this many monsters.",
+            "nextDialogs": [
+              "50111805"
+            ]
+          },
+          "50111805": {
+            "id": "50111805",
+            "speakerId": 1016,
+            "speakerName": "Wayta",
+            "text": "You got here just in time, but what should we do about the wounded...",
+            "nextDialogs": [
+              "50111806"
+            ]
+          },
+          "50111806": {
+            "id": "50111806",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "The wounded?",
+            "nextDialogs": [
+              "50111807"
+            ]
+          },
+          "50111807": {
+            "id": "50111807",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "This area was hit bad. We're housing the wounded in this house for now, but we're short on medicine. It's not easy for them to get around, either.",
+            "nextDialogs": [
+              "50111808"
+            ]
+          },
+          "50111808": {
+            "id": "50111808",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "We don't know what to do next. We're sitting ducks if we stay here, but we can't just leave them behind.",
+            "nextDialogs": [
+              "50111809"
+            ]
+          },
+          "50111809": {
+            "id": "50111809",
+            "speakerId": 1015,
+            "speakerName": "Waqar",
+            "text": "Thank goodness you're here, though. You saved us all.",
+            "nextDialogs": [
+              "50111810"
+            ]
+          },
+          "50111810": {
+            "id": "50111810",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You should move them to the Scions of the Canopy while you have the chance.",
+            "nextDialogs": [
+              "50111811"
+            ]
+          },
+          "50111811": {
+            "id": "50111811",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "You're right. The monsters are gone, so it should be safe for now. Some of my men can escort them.",
+            "nextDialogs": [
+              "50111812"
+            ]
+          },
+          "50111812": {
+            "id": "50111812",
+            "speakerId": 1016,
+            "speakerName": "Wayta",
+            "text": "That will take time, though, and some of the wounded can't walk. They might have to stay here...",
+            "nextDialogs": [
+              "50111813"
+            ]
+          },
+          "50111813": {
+            "id": "50111813",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "Don't worry. Once we escort the first group, I'll call for reinforcements. That way, everyone can evacuate.",
+            "nextDialogs": [
+              "50111814"
+            ]
+          },
+          "50111814": {
+            "id": "50111814",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Let's help them out here for now. Then, we can head to the next area.",
+            "nextDialogs": [
+              "50111815"
+            ]
+          },
+          "50111815": {
+            "id": "50111815",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "There's a messenger over there. Don't forget — we can get the latest intel from them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501136",
+      "subQuestName": "Talk to the courier to obtain battlefield intel",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501140",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501115",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50111501"
+        ],
+        "dialogs": {
+          "50111501": {
+            "id": "50111501",
+            "speakerId": 1017,
+            "speakerName": "Raman",
+            "text": "Ah, it's you two! Thanks again for rescuing me.",
+            "nextDialogs": [
+              "50111502"
+            ]
+          },
+          "50111502": {
+            "id": "50111502",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "You know each other?",
+            "nextDialogs": [
+              "50111503"
+            ]
+          },
+          "50111503": {
+            "id": "50111503",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Yeah, we ran into him out in the wild. He was injured, but luckily, some saurians took him back to safety... Uh, speaking of which, are you sure you've recovered enough to be out and about like this?",
+            "nextDialogs": [
+              "50111504"
+            ]
+          },
+          "50111504": {
+            "id": "50111504",
+            "speakerId": 1017,
+            "speakerName": "Raman",
+            "text": "Haha, I got really lucky — my injuries were just some flesh wounds. The doctor said they should heal on their own as long as I get enough rest, so I figured I'd try and keep working if I could.",
+            "nextDialogs": [
+              "50111505"
+            ]
+          },
+          "50111505": {
+            "id": "50111505",
+            "speakerId": 1017,
+            "speakerName": "Raman",
+            "text": "But, uh, it didn't take me long to start regretting that decision... Everything's hurting now. As soon as I've delivered this battle report, I'm heading right back to go lie down.",
+            "nextDialogs": [
+              "50111506"
+            ]
+          },
+          "50111506": {
+            "id": "50111506",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "Sounds sensible. It's not a good idea to be taking risks while you're injured.",
+            "nextDialogs": [
+              "50111507"
+            ]
+          },
+          "50111507": {
+            "id": "50111507",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Aaah, what's going on!?",
+            "nextDialogs": [
+              "50111508"
+            ]
+          },
+          "50111508": {
+            "id": "50111508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's an Abyssal Pylon!",
+            "nextDialogs": [
+              "50111509"
+            ]
+          },
+          "50111509": {
+            "id": "50111509",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "The rabble-rousers return. They don't know when to give up.",
+            "nextDialogs": [
+              "50111510"
+            ]
+          },
+          "50111510": {
+            "id": "50111510",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "An Abyssal Pylon, here... That's not good news. We need to deal with it, now."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501111",
+      "subQuestName": "Ride the hot air balloon to reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501119",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501120",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501123",
+      "subQuestName": "Try to evacuate the Saurians from the area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50112301"
+        ],
+        "dialogs": {
+          "50112301": {
+            "id": "50112301",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "It's alright! You're safe now! The bad guys are all gone.",
+            "nextDialogs": [
+              "50112302"
+            ]
+          },
+          "50112302": {
+            "id": "50112302",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Go and find your friends, okay? It's dangerous out here. It's best to stick together.",
+            "nextDialogs": [
+              "50112303"
+            ]
+          },
+          "50112303": {
+            "id": "50112303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I don't think they understood that.",
+            "nextDialogs": [
+              "50112304"
+            ]
+          },
+          "50112304": {
+            "id": "50112304",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Okay, then... Shoo! Shoo! C'mon... Shoo!",
+            "nextDialogs": [
+              "50112305"
+            ]
+          },
+          "50112305": {
+            "id": "50112305",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Nope, still nothing... Wait! There's something on the ground over there.",
+            "nextDialogs": [
+              "50112306"
+            ]
+          },
+          "50112306": {
+            "id": "50112306",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Let's see... Oh! It's one of the battle reports from the Scions of the Canopy. This must be what the saurians were trying to protect.",
+            "nextDialogs": [
+              "50112307"
+            ]
+          },
+          "50112307": {
+            "id": "50112307",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Looks pretty recent, too. We can use it to figure out where to go next.",
+            "nextDialogs": [
+              "50112310"
+            ]
+          },
+          "50112310": {
+            "id": "50112310",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "You're right! Maybe they just dropped it by accident, though...",
+            "nextDialogs": [
+              "50112311"
+            ]
+          },
+          "50112311": {
+            "id": "50112311",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Anyway, um, we saw the battle report, so you guys don't need to worry anymore.",
+            "nextDialogs": [
+              "50112312"
+            ]
+          },
+          "50112312": {
+            "id": "50112312",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Huh, still no response...",
+            "nextDialogs": [
+              "50112313"
+            ]
+          },
+          "50112313": {
+            "id": "50112313",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Well, what do you want to do? Follow the battle report? Or continue to explore this area?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501134",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501141",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501135",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501108",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501109",
+      "subQuestName": "Defeat the monsters and destroy the Abyssal Pylon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501110",
+      "subQuestName": "Talk to the warriors stationed here",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50111001"
+        ],
+        "dialogs": {
+          "50111001": {
+            "id": "50111001",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "Thank you for coming... We finally have time to catch our breath.",
+            "nextDialogs": [
+              "50111002"
+            ]
+          },
+          "50111002": {
+            "id": "50111002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How's the situation with the Children of Echoes?",
+            "nextDialogs": [
+              "50111003"
+            ]
+          },
+          "50111003": {
+            "id": "50111003",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "Fairly stable, for now. We've stationed ourselves here to act as a buffer.",
+            "nextDialogs": [
+              "50111004"
+            ]
+          },
+          "50111004": {
+            "id": "50111004",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "What about the monsters that suddenly appeared?",
+            "nextDialogs": [
+              "50111005"
+            ]
+          },
+          "50111005": {
+            "id": "50111005",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "Based on my experience, the monsters are attracted to two things — the presence of living beings and combat.",
+            "nextDialogs": [
+              "50111006"
+            ]
+          },
+          "50111006": {
+            "id": "50111006",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "That's why we set up our front line of defense so far from the tribe. The civilians are more isolated from combat that way.",
+            "nextDialogs": [
+              "50111007"
+            ]
+          },
+          "50111007": {
+            "id": "50111007",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "Ah, the messenger's here.",
+            "nextDialogs": [
+              "50111008"
+            ]
+          },
+          "50111008": {
+            "id": "50111008",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Perfect! We were just waiting for the latest battle report.",
+            "nextDialogs": [
+              "50111009"
+            ]
+          },
+          "50111009": {
+            "id": "50111009",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "Mhm, we'll stay here and continue to guard the tribe.",
+            "nextDialogs": [
+              "50111010"
+            ]
+          },
+          "50111010": {
+            "id": "50111010",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "There's so much that needs to be done after that last battle, but we're short on manpower.",
+            "nextDialogs": [
+              "50111011"
+            ]
+          },
+          "50111011": {
+            "id": "50111011",
+            "speakerId": 1018,
+            "speakerName": "Chimalli",
+            "text": "If you're not in a hurry to leave, would you be willing to help out?",
+            "nextDialogs": [
+              "50111012"
+            ]
+          },
+          "50111012": {
+            "id": "50111012",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "#That's a decision for {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501106",
+      "subQuestName": "Talk to the courier to obtain battlefield intel",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50110601"
+        ],
+        "dialogs": {
+          "50110601": {
+            "id": "50110601",
+            "speakerId": 1019,
+            "speakerName": "Ullanta",
+            "text": "Here's the current situation — people from all over Natlan are trying to make their way to the Stadium, but they're being targeted by the Abyss.",
+            "nextDialogs": [
+              "50110602"
+            ]
+          },
+          "50110602": {
+            "id": "50110602",
+            "speakerId": 1019,
+            "speakerName": "Ullanta",
+            "text": "If you have the strength, they could really use some help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501142",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501137",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501112",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501113",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501114",
+      "subQuestName": "Talk to the caravan members",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50111401"
+        ],
+        "dialogs": {
+          "50111401": {
+            "id": "50111401",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "Thanks for the help.",
+            "nextDialogs": [
+              "50111402"
+            ]
+          },
+          "50111402": {
+            "id": "50111402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're The Captain's soldiers, aren't you?",
+            "nextDialogs": [
+              "50111403"
+            ]
+          },
+          "50111403": {
+            "id": "50111403",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "Yes. Per his order, we're now under the Pyro Archon's command.",
+            "nextDialogs": [
+              "50111404"
+            ]
+          },
+          "50111404": {
+            "id": "50111404",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "Not everyone understood his decision, but our lord's orders take precedence over all.",
+            "nextDialogs": [
+              "50111405"
+            ]
+          },
+          "50111405": {
+            "id": "50111405",
+            "speakerId": 1021,
+            "speakerName": "Kamaka",
+            "text": "We're alive because of them! They saved us...",
+            "nextDialogs": [
+              "50111406"
+            ]
+          },
+          "50111406": {
+            "id": "50111406",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Wow, um, guess that means we should thank you guys... Ah, this feels weird.",
+            "nextDialogs": [
+              "50111407"
+            ]
+          },
+          "50111407": {
+            "id": "50111407",
+            "speakerId": 1022,
+            "speakerName": "Guselnikov",
+            "text": "Agreed.",
+            "nextDialogs": [
+              "50111408"
+            ]
+          },
+          "50111408": {
+            "id": "50111408",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "Where are you headed? The People of the Springs?",
+            "nextDialogs": [
+              "50111409"
+            ]
+          },
+          "50111409": {
+            "id": "50111409",
+            "speakerId": 1021,
+            "speakerName": "Kamaka",
+            "text": "That was the plan, but I don't know if it's safe anymore.",
+            "nextDialogs": [
+              "50111410"
+            ]
+          },
+          "50111410": {
+            "id": "50111410",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "I suggest heading to the Stadium. Most of the manpower will be focused there, so it'll be safer than staying with the tribes.",
+            "nextDialogs": [
+              "50111411"
+            ]
+          },
+          "50111411": {
+            "id": "50111411",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "Once we take care of these monsters, some of our soldiers will escort you.",
+            "nextDialogs": [
+              "50111412"
+            ]
+          },
+          "50111412": {
+            "id": "50111412",
+            "speakerId": 1021,
+            "speakerName": "Kamaka",
+            "text": "Th—Thank you so much!",
+            "nextDialogs": [
+              "50111413"
+            ]
+          },
+          "50111413": {
+            "id": "50111413",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Guess a little extra help never hurts.",
+            "nextDialogs": [
+              "50111414"
+            ]
+          },
+          "50111414": {
+            "id": "50111414",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "People from all over Natlan are heading to the Stadium. That area needs to be the center of our defensive efforts.",
+            "nextDialogs": [
+              "50111415"
+            ]
+          },
+          "50111415": {
+            "id": "50111415",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "If your other tasks are complete, I'm sure the people there could use your aid.",
+            "nextDialogs": [
+              "50111416"
+            ]
+          },
+          "50111416": {
+            "id": "50111416",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thanks for the intel.",
+            "nextDialogs": [
+              "50111417"
+            ]
+          },
+          "50111417": {
+            "id": "50111417",
+            "speakerId": 1020,
+            "speakerName": "Stadukhin",
+            "text": "...Hearing those words from you also feels quite strange for me. But, I can only accept the situation at hand."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501143",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501124",
+      "subQuestName": "Check the map and select a hotspot to reinforce",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501125",
+      "subQuestName": "Reinforce the hotspot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501126",
+      "subQuestName": "Defeat the monsters and destroy the Abyssal Pylon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501127",
+      "subQuestName": "Talk to Kinich",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50112701"
+        ],
+        "dialogs": {
+          "50112701": {
+            "id": "50112701",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Oh, Kinich! You're back!",
+            "nextDialogs": [
+              "50112702"
+            ]
+          },
+          "50112702": {
+            "id": "50112702",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "Yeah, thought I would check on the situation after finishing my delivery work. If you're here, though, I doubt I'm needed.",
+            "nextDialogs": [
+              "50112705"
+            ]
+          },
+          "50112705": {
+            "id": "50112705",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Yeah! It really feels like we are running short on people everywhere. It's so dangerous out there. Just when we think everything's under control, another thing goes off the deep end...",
+            "nextDialogs": [
+              "50112706"
+            ]
+          },
+          "50112706": {
+            "id": "50112706",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Not that Paimon's complaining. It's just.. what if things get even worse?",
+            "nextDialogs": [
+              "50112707"
+            ]
+          },
+          "50112707": {
+            "id": "50112707",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "*scoff* What a stupid question. You know the answer, you're just too afraid to face it... like a puny bug clinging to a pipe dream.",
+            "nextDialogs": [
+              "50112708"
+            ]
+          },
+          "50112708": {
+            "id": "50112708",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Okay, that's enough out of you!",
+            "nextDialogs": [
+              "50112709"
+            ]
+          },
+          "50112709": {
+            "id": "50112709",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "*sigh* This may be one of the few times Ajaw has a point.",
+            "nextDialogs": [
+              "50112710"
+            ]
+          },
+          "50112710": {
+            "id": "50112710",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "On the bright side, we can pat ourselves on the back for saving all these civilians, and bringing them here.",
+            "nextDialogs": [
+              "50112711"
+            ]
+          },
+          "50112711": {
+            "id": "50112711",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "My tribe is launching a second wave of patrols soon. We'll do a scan of the whole nation. As long as we don't scatter our forces, the Abyss is nothing to fear.",
+            "nextDialogs": [
+              "50112712"
+            ]
+          },
+          "50112712": {
+            "id": "50112712",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "Fear is useless, anyway. Even if the endless surge of monsters scares you to death, you still have to fight. There's no other choice.",
+            "nextDialogs": [
+              "50112713"
+            ]
+          },
+          "50112713": {
+            "id": "50112713",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Where is Mavuika?",
+            "nextDialogs": [
+              "50112714"
+            ]
+          },
+          "50112714": {
+            "id": "50112714",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "She took a small team of warriors to the mines. A group of people from the Children of Echoes were trapped there. I think she just got back.",
+            "nextDialogs": [
+              "50112715"
+            ]
+          },
+          "50112715": {
+            "id": "50112715",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "The lava alone makes that area dangerous, and now it's crawling with monsters. Without her power, she's just an ordinary Vision-bearer like the rest of us. I'd be lying if I said I wasn't worried.",
+            "nextDialogs": [
+              "50112716"
+            ]
+          },
+          "50112716": {
+            "id": "50112716",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "Spewing nonsense, as always... Quit worrying and look at the outcome, genius! She's still obviously the strongest warrior you have.",
+            "nextDialogs": [
+              "50112717"
+            ]
+          },
+          "50112717": {
+            "id": "50112717",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Yeah! She always seems so confident. Plus, she told us you can only become the Archon by proving your strength.",
+            "nextDialogs": [
+              "50112718"
+            ]
+          },
+          "50112718": {
+            "id": "50112718",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "It's true. She certainly helps us save manpower. She can handle the dangerous areas almost entirely on her own.",
+            "nextDialogs": [
+              "50112719"
+            ]
+          },
+          "50112719": {
+            "id": "50112719",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "Alright, alright. I'm tired of this conversation. Either take a break or get moving already!",
+            "nextDialogs": [
+              "50112720"
+            ]
+          },
+          "50112720": {
+            "id": "50112720",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "A break sounds good. We won't be much help in the field if we're dead on our feet.",
+            "nextDialogs": [
+              "50112721"
+            ]
+          },
+          "50112721": {
+            "id": "50112721",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Good idea. Maybe we can see if the people around here need anything in the meantime?",
+            "nextDialogs": [
+              "50112722"
+            ]
+          },
+          "50112722": {
+            "id": "50112722",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Even on our break, we can still be helpful.",
+            "nextDialogs": [
+              "50112723"
+            ]
+          },
+          "50112723": {
+            "id": "50112723",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Hehe, looks like we're on the same page."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501121",
+      "subQuestName": "Rest here for a while",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501122",
+      "subQuestName": "Talk to Kinich",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501144",
+      "subQuestName": "Defeat the monsters and destroy the Abyssal Pylon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501130",
+      "subQuestName": "Defeat the monsters and destroy the Abyssal Pylons",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501133",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50113101"
+        ],
+        "dialogs": {
+          "50113101": {
+            "id": "50113101",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Wh—What was that?",
+            "nextDialogs": [
+              "50113102"
+            ]
+          },
+          "50113102": {
+            "id": "50113102",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "The physical embodiment of pure dread and destruction! Hahaha, that black pit of despair will eat you all alive! Ah, at long last!",
+            "nextDialogs": [
+              "50113103"
+            ]
+          },
+          "50113103": {
+            "id": "50113103",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "\"Ahahaha.\" Laugh all you want, it's gonna eat you too!",
+            "nextDialogs": [
+              "50113104"
+            ]
+          },
+          "50113104": {
+            "id": "50113104",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "So is that the source of the Abyss's power?",
+            "nextDialogs": [
+              "50113107"
+            ]
+          },
+          "50113107": {
+            "id": "50113107",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "I have to get a closer look at that thing. It may already be too late...",
+            "nextDialogs": [
+              "50113108"
+            ]
+          },
+          "50113108": {
+            "id": "50113108",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "Get to the place mentioned in the battle report — I have a feeling things are about to get very bad very quickly. There's no time to lose!",
+            "nextDialogs": [
+              "50113109"
+            ]
+          },
+          "50113109": {
+            "id": "50113109",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You got it.",
+            "nextDialogs": [
+              "50113110"
+            ]
+          },
+          "50113110": {
+            "id": "50113110",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "The fact that deadpan Kinich is this nervous just goes to show how serious this really is...",
+            "nextDialogs": [
+              "50113111"
+            ]
+          },
+          "50113111": {
+            "id": "50113111",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Let's go. The disaster's really happening..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501131",
+      "subQuestName": "Talk to Kinich",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501150",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115001"
+        ],
+        "dialogs": {
+          "50115001": {
+            "id": "50115001",
+            "speakerId": 1006,
+            "speakerName": "Dargo",
+            "text": "Let's take a moment to regroup. Who knows when the monsters will show up again..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501151",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115101"
+        ],
+        "dialogs": {
+          "50115101": {
+            "id": "50115101",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "These supplies are very important. It would be a huge waste to lose them...",
+            "nextDialogs": [
+              "50115102"
+            ]
+          },
+          "50115102": {
+            "id": "50115102",
+            "speakerId": 1008,
+            "speakerName": "Kokpon",
+            "text": "*sigh* Fine, I'll help you. Let's round them up and get packing."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501152",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115201"
+        ],
+        "dialogs": {
+          "50115201": {
+            "id": "50115201",
+            "speakerId": 1009,
+            "speakerName": "Pumpu",
+            "text": "If you see a messenger from the Scions of the Canopy, feel free to ask them about the latest battle situation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501153",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115301"
+        ],
+        "dialogs": {
+          "50115301": {
+            "id": "50115301",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "What's the situation at the tribal camp?",
+            "nextDialogs": [
+              "50115302"
+            ]
+          },
+          "50115302": {
+            "id": "50115302",
+            "speakerId": 1016,
+            "speakerName": "Wayta",
+            "text": "Safe, for now. Although, most people are out delivering intel. If the Abyss launches a large-scale attack in the meantime...",
+            "nextDialogs": [
+              "50115303"
+            ]
+          },
+          "50115303": {
+            "id": "50115303",
+            "speakerId": 1014,
+            "speakerName": "Achiyaku",
+            "text": "Then... it will fall to us to protect the tribe. What, you scared?",
+            "nextDialogs": [
+              "50115304"
+            ]
+          },
+          "50115304": {
+            "id": "50115304",
+            "speakerId": 1016,
+            "speakerName": "Wayta",
+            "text": "Not a chance."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501154",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115401"
+        ],
+        "dialogs": {
+          "50115401": {
+            "id": "50115401",
+            "speakerId": 1023,
+            "speakerName": "Diligent Yumkasaur",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501155",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115501"
+        ],
+        "dialogs": {
+          "50115501": {
+            "id": "50115501",
+            "speakerId": 1024,
+            "speakerName": "Wisa",
+            "text": "No! I don't wanna go! I wanna stay with you!",
+            "nextDialogs": [
+              "50115502"
+            ]
+          },
+          "50115502": {
+            "id": "50115502",
+            "speakerId": 1025,
+            "speakerName": "Auki",
+            "text": "Mommy can't go with you, my dear. She's hurt. Still, it's going to be okay. These nice people are gonna take you to safety. Then, they'll come back for me.",
+            "nextDialogs": [
+              "50115503"
+            ]
+          },
+          "50115503": {
+            "id": "50115503",
+            "speakerId": 1024,
+            "speakerName": "Wisa",
+            "text": "No! I won't go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501156",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115601"
+        ],
+        "dialogs": {
+          "50115601": {
+            "id": "50115601",
+            "speakerId": 1026,
+            "speakerName": "Valiant Tepetlisaur",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501157",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115701"
+        ],
+        "dialogs": {
+          "50115701": {
+            "id": "50115701",
+            "speakerId": 1013,
+            "speakerName": "Ajaw",
+            "text": "The Almighty Dragonlord K'uhul Ajaw is trying to rest. Cease your racket at once, lowly creatures. We shall take no comments on the matter.",
+            "nextDialogs": [
+              "50115702"
+            ]
+          },
+          "50115702": {
+            "id": "50115702",
+            "speakerId": 1012,
+            "speakerName": "Kinich",
+            "text": "No one asked."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501158",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115801"
+        ],
+        "dialogs": {
+          "50115801": {
+            "id": "50115801",
+            "speakerId": 1015,
+            "speakerName": "Waqar",
+            "text": "That was terrifying... At least we made it through."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501159",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50115901"
+        ],
+        "dialogs": {
+          "50115901": {
+            "id": "50115901",
+            "speakerId": 1027,
+            "speakerName": "Yaretzi",
+            "text": "Just stay calm... Time to be brave...",
+            "nextDialogs": [
+              "50115902"
+            ]
+          },
+          "50115902": {
+            "id": "50115902",
+            "speakerId": 1027,
+            "speakerName": "Yaretzi",
+            "text": "You're a warrior. It's your job to protect people..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501160",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116001"
+        ],
+        "dialogs": {
+          "50116001": {
+            "id": "50116001",
+            "speakerId": 1028,
+            "speakerName": "Acama",
+            "text": "This uniform brings back a lot of memories. Been a while since I last wore it.",
+            "nextDialogs": [
+              "50116002"
+            ]
+          },
+          "50116002": {
+            "id": "50116002",
+            "speakerId": 1028,
+            "speakerName": "Acama",
+            "text": "But, hey... Still fits like a glove!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501161",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116101"
+        ],
+        "dialogs": {
+          "50116101": {
+            "id": "50116101",
+            "speakerId": 1022,
+            "speakerName": "Guselnikov",
+            "text": "The Captain was right. The situation is not looking good. Just look at the amount of people we've had to rescue.",
+            "nextDialogs": [
+              "50116102"
+            ]
+          },
+          "50116102": {
+            "id": "50116102",
+            "speakerId": 1022,
+            "speakerName": "Guselnikov",
+            "text": "We shouldn't linger. We'll get these people back on the road, then head to our next destination."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501162",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116201"
+        ],
+        "dialogs": {
+          "50116201": {
+            "id": "50116201",
+            "speakerId": 1021,
+            "speakerName": "Kamaka",
+            "text": "Saved by the Fatui... Now that's lucky..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501163",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116301"
+        ],
+        "dialogs": {
+          "50116301": {
+            "id": "50116301",
+            "speakerId": 1029,
+            "speakerName": "Andinet",
+            "text": "The protection of this location is critical. Our current forces won't be enough. We need reinforcements.",
+            "nextDialogs": [
+              "50116302"
+            ]
+          },
+          "50116302": {
+            "id": "50116302",
+            "speakerId": 1030,
+            "speakerName": "Tewodros",
+            "text": "I'm sure other areas are thinking the exact same thing..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501164",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116401"
+        ],
+        "dialogs": {
+          "50116401": {
+            "id": "50116401",
+            "speakerId": 1031,
+            "speakerName": "Maticui",
+            "text": "*panting*... That's it. I need a break."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501165",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50116501"
+        ],
+        "dialogs": {
+          "50116501": {
+            "id": "50116501",
+            "speakerId": 1032,
+            "speakerName": "Icmotza",
+            "text": "Ugh, I'm terrified... The monsters aren't gonna show up here... right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501170",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50117001"
+        ],
+        "dialogs": {
+          "50117001": {
+            "id": "50117001",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "It's you two! I'm so glad you're alright!",
+            "nextDialogs": [
+              "50117002"
+            ]
+          },
+          "50117002": {
+            "id": "50117002",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Hey! You made it back!",
+            "nextDialogs": [
+              "50117003"
+            ]
+          },
+          "50117003": {
+            "id": "50117003",
+            "speakerId": 1008,
+            "speakerName": "Kokpon",
+            "text": "Sure did. Dargo made sure we got back safely before rushing out again.",
+            "nextDialogs": [
+              "50117004"
+            ]
+          },
+          "50117004": {
+            "id": "50117004",
+            "speakerId": 1007,
+            "speakerName": "Ardra",
+            "text": "Plus, we managed to deliver the medical supplies to the Stadium. I really can't thank you enough for your help!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501171",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50117101"
+        ],
+        "dialogs": {
+          "50117101": {
+            "id": "50117101",
+            "speakerId": 1023,
+            "speakerName": "Diligent Yumkasaur",
+            "text": "No going outside. It's too dangerous. That goes for you too!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501172",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50117201"
+        ],
+        "dialogs": {
+          "50117201": {
+            "id": "50117201",
+            "speakerId": 1026,
+            "speakerName": "Valiant Tepetlisaur",
+            "text": "Thanks for saving us, human. The next time those pesky monsters show up, I'll fight them off!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501173",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50117301"
+        ],
+        "dialogs": {
+          "50117301": {
+            "id": "50117301",
+            "speakerId": 1033,
+            "speakerName": "Ackon",
+            "text": "The commissions just keep coming one after another. Normally I'd be happy, but given the circumstances...",
+            "nextDialogs": [
+              "50117302"
+            ]
+          },
+          "50117302": {
+            "id": "50117302",
+            "speakerId": 1034,
+            "speakerName": "Botwe",
+            "text": "It's only a \"commission\" if you get paid. This is something else entirely.",
+            "nextDialogs": [
+              "50117303"
+            ]
+          },
+          "50117303": {
+            "id": "50117303",
+            "speakerId": 1035,
+            "speakerName": "Kweku",
+            "text": "Still, everyone's doing their part. There's more to adventuring than commission fees. Anyone can be an adventurer...",
+            "nextDialogs": [
+              "50117304"
+            ]
+          },
+          "50117304": {
+            "id": "50117304",
+            "speakerId": 1034,
+            "speakerName": "Botwe",
+            "text": "Except those who like to play it safe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501174",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50117401"
+        ],
+        "dialogs": {
+          "50117401": {
+            "id": "50117401",
+            "speakerId": 1028,
+            "speakerName": "Acama",
+            "text": "Nice work out there. This is for you.",
+            "nextDialogs": [
+              "50117402"
+            ]
+          },
+          "50117402": {
+            "id": "50117402",
+            "speakerId": 1028,
+            "speakerName": "Acama",
+            "text": "Don't forget to refuel, or you won't have enough strength when it counts!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501198",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50119801"
+        ],
+        "dialogs": {
+          "50119801": {
+            "id": "50119801",
+            "speakerId": 1036,
+            "speakerName": "Black Screen",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "501199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50119901"
+        ],
+        "dialogs": {
+          "50119901": {
+            "id": "50119901",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Look! They must be trapped! Let's go help!",
+            "nextDialogs": [
+              "50119902"
+            ]
+          },
+          "50119902": {
+            "id": "50119902",
+            "speakerId": 1006,
+            "speakerName": "Dargo",
+            "text": "Reinforcements! Thank goodness!",
+            "nextDialogs": [
+              "50119907"
+            ]
+          },
+          "50119907": {
+            "id": "50119907",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "The battle report said a lot of monsters appeared around here.",
+            "nextDialogs": [
+              "50119908"
+            ]
+          },
+          "50119908": {
+            "id": "50119908",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Wait, see the people fighting those monsters? Is that the Fatui!?",
+            "nextDialogs": [
+              "50119909"
+            ]
+          },
+          "50119909": {
+            "id": "50119909",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Wow, there are so many people here! Looks like it really is getting too dangerous for people to stay out in the wild.",
+            "nextDialogs": [
+              "50119910"
+            ]
+          },
+          "50119910": {
+            "id": "50119910",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "Guess that means the situation isn't getting any better... Well, we'll just have to keep fighting.",
+            "nextDialogs": [
+              "50119915"
+            ]
+          },
+          "50119915": {
+            "id": "50119915",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "This is it! Looks like a battle is in progress. Let's go help them!",
+            "nextDialogs": [
+              "50119921"
+            ]
+          },
+          "50119921": {
+            "id": "50119921",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "And we're off! Hey, this thing is pretty convenient!",
+            "nextDialogs": [
+              "50119922"
+            ]
+          },
+          "50119922": {
+            "id": "50119922",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "It's not only fast, but also saves us a lot of energy!",
+            "nextDialogs": [
+              "50119924"
+            ]
+          },
+          "50119924": {
+            "id": "50119924",
+            "speakerId": 1004,
+            "speakerName": "Paimon",
+            "text": "There are a lot of people in here. Could they all be refugees?"
+          }
+        }
+      }
+    }
+  ]
+}

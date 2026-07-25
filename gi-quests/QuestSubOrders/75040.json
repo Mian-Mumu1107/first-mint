@@ -1,0 +1,55 @@
+{
+  "lineCounts": {
+    "Examine Feeding Point": 1,
+    "Paimon": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7504001",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750400102"
+        ],
+        "dialogs": {
+          "750400102": {
+            "id": "750400102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, oh! Look up there!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504001",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750400101"
+        ],
+        "dialogs": {
+          "750400101": {
+            "id": "750400101",
+            "speakerId": 1001,
+            "speakerName": "Examine Feeding Point",
+            "text": "A feeding spot with \"Saurian Relics Association\" drawn on it... It seems to have been prepared to feed wild animals.",
+            "nextDialogs": [
+              "750400103"
+            ]
+          },
+          "750400103": {
+            "id": "750400103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, no movement at all. Looks like Flying Squirrels aren't into this stuff..."
+          }
+        }
+      }
+    }
+  ]
+}

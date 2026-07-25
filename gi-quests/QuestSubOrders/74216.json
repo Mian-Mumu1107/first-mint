@@ -1,0 +1,1378 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 2,
+    "???": 6,
+    "Agent": 21,
+    "Black Screen": 4,
+    "Contarini": 1,
+    "Giovanni": 23,
+    "Giulietta": 14,
+    "Giustino": 40,
+    "Loredan": 1,
+    "Paimon": 39,
+    "Player": 29
+  },
+  "subQuests": [
+    {
+      "subId": "7421601",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160201"
+        ],
+        "dialogs": {
+          "742160201": {
+            "id": "742160201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, what are you waiting for? Get onboard, sailor!",
+            "nextDialogs": [
+              "742160208"
+            ]
+          },
+          "742160208": {
+            "id": "742160208",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "#Thank you so much, {M#good sir}{F#kind ma'am}!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421602",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160801"
+        ],
+        "dialogs": {
+          "742160801": {
+            "id": "742160801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "My Waverider's a fast and steady boat. Hop onboard, and we'll be off.",
+            "nextDialogs": [
+              "742160802"
+            ]
+          },
+          "742160802": {
+            "id": "742160802",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Thank you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421603",
+      "subQuestName": "Talk to Giustino",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7421604",
+      "subQuestName": "Talk to Giustino",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742162003"
+        ],
+        "dialogs": {
+          "742162003": {
+            "id": "742162003",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "...",
+            "nextDialogs": [
+              "742162004"
+            ]
+          },
+          "742162004": {
+            "id": "742162004",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Err, you don't look so good. You sure you're okay?",
+            "nextDialogs": [
+              "742162005"
+            ]
+          },
+          "742162005": {
+            "id": "742162005",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "I... I'm just a bit seasick. Ugh... Sorry! I—I'll just throw up over there for a bit. Be right back!",
+            "nextDialogs": [
+              "742162006"
+            ]
+          },
+          "742162006": {
+            "id": "742162006",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Eh? Uh, sure, but don't forget to come back as soon as possible!",
+            "nextDialogs": [
+              "742162007"
+            ]
+          },
+          "742162007": {
+            "id": "742162007",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "After a good long while...",
+            "nextDialogs": [
+              "742162008"
+            ]
+          },
+          "742162008": {
+            "id": "742162008",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wait, something's not right. Why isn't Giustino back yet?",
+            "nextDialogs": [
+              "742162010",
+              "742162012"
+            ]
+          },
+          "742162010": {
+            "id": "742162010",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Eh!? That serious? But you were keeping the boat pretty steady... Or maybe it's because Paimon floats...",
+            "nextDialogs": [
+              "742162013"
+            ]
+          },
+          "742162013": {
+            "id": "742162013",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Either way, we've gotta find him, and fast!"
+          },
+          "742162012": {
+            "id": "742162012",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh? Didn't he say he was a big-shot booming businessman, though? Was he fibbing?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421605",
+      "subQuestName": "Find out where Giustino went",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161603"
+        ],
+        "dialogs": {
+          "742161603": {
+            "id": "742161603",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hello there. Have you seen a merchant from Fontaine dressed in Sumeru garb?",
+            "nextDialogs": [
+              "742161604"
+            ]
+          },
+          "742161604": {
+            "id": "742161604",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "You explain the situation...",
+            "nextDialogs": [
+              "742161605"
+            ]
+          },
+          "742161605": {
+            "id": "742161605",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "So this fellow you're looking for is named \"Giustino,\" and he claims to be from Petrichor?",
+            "nextDialogs": [
+              "742161606"
+            ]
+          },
+          "742161606": {
+            "id": "742161606",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "That's right! Have you seen him? Wait — were you two acquainted from before?",
+            "nextDialogs": [
+              "742161607"
+            ]
+          },
+          "742161607": {
+            "id": "742161607",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Just acquainted? Hah!",
+            "nextDialogs": [
+              "742161608"
+            ]
+          },
+          "742161608": {
+            "id": "742161608",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Still, even if I recognize him, I wonder if he still recognizes his little brother. So many years away, and not a letter sent back. Why, I've already had a tombstone erected for him behind the town!",
+            "nextDialogs": [
+              "742161609"
+            ]
+          },
+          "742161609": {
+            "id": "742161609",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "And now he's back... and he hasn't paid his boat fare? Disgraceful.",
+            "nextDialogs": [
+              "742161612"
+            ]
+          },
+          "742161612": {
+            "id": "742161612",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "W—Wait, but we're... the victims here, aren't we? And if Giustino really did faint from discomfort somewhere...",
+            "nextDialogs": [
+              "742161613"
+            ]
+          },
+          "742161613": {
+            "id": "742161613",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "*sigh* Fine, I'll go search together with you. I'm a local, so I know our surroundings better. Also, I have some idea as to where he'll be."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421606",
+      "subQuestName": "Follow Giovanni",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160601"
+        ],
+        "dialogs": {
+          "742160601": {
+            "id": "742160601",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Ah, you're back. Glorious! We can go now, can we not?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421607",
+      "subQuestName": "Follow Giovanni",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161703"
+        ],
+        "dialogs": {
+          "742161703": {
+            "id": "742161703",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Huh? Are you pulling my leg? \"I'm sorry, but I really don't remember\"?",
+            "nextDialogs": [
+              "742161704"
+            ]
+          },
+          "742161704": {
+            "id": "742161704",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Don't you know what this uniform means? Doesn't it remind you of anything?",
+            "nextDialogs": [
+              "742161705"
+            ]
+          },
+          "742161705": {
+            "id": "742161705",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "O—Of course I know what you do, but I'm debt-free! Or I should be... unless a friend took a loan in my name...",
+            "nextDialogs": [
+              "742161706"
+            ]
+          },
+          "742161706": {
+            "id": "742161706",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "A friend? Who cares about those excuses? I only recognize what's written here on the contract in black and white — and it's my duty to make violators pay up.",
+            "nextDialogs": [
+              "742161707"
+            ]
+          },
+          "742161707": {
+            "id": "742161707",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "This is my first job, you know! I wanted to be worthy of this uniform, so I showed up at the specified location three days in advance! Three days!",
+            "nextDialogs": [
+              "742161708"
+            ]
+          },
+          "742161708": {
+            "id": "742161708",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "I spent them thinking about the excuses you'd make to get out of paying, and how I'd respond...",
+            "nextDialogs": [
+              "742161709"
+            ]
+          },
+          "742161709": {
+            "id": "742161709",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "And then you just upped and ran! All that effort I put in, wasted! Now, I've no choice but to go by the book and...",
+            "nextDialogs": [
+              "742161710"
+            ]
+          },
+          "742161710": {
+            "id": "742161710",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Teach you a lesson first, and then bring you back to report!",
+            "nextDialogs": [
+              "742161711"
+            ]
+          },
+          "742161711": {
+            "id": "742161711",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "No! I don't want to leave Petrichor anymore! H—Help me!",
+            "nextDialogs": [
+              "742161712"
+            ]
+          },
+          "742161712": {
+            "id": "742161712",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Stop it! Does any amount of money owed warrant such cruel treatment!?",
+            "nextDialogs": [
+              "742161713"
+            ]
+          },
+          "742161713": {
+            "id": "742161713",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "#Please, {NICKNAME}! Don't let him hurt Giustino! Only you can stop him now!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421608",
+      "subQuestName": "Defeat the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7421609",
+      "subQuestName": "Talk to the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161802"
+        ],
+        "dialogs": {
+          "742161802": {
+            "id": "742161802",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "H—Hired help!? Seriously, would you rather pay through the nose for a powerful bodyguard than just follow a contract? I'll... never understand you merchants...",
+            "nextDialogs": [
+              "742161804",
+              "742161806"
+            ]
+          },
+          "742161804": {
+            "id": "742161804",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "...Huh!?",
+            "nextDialogs": [
+              "742161807"
+            ]
+          },
+          "742161807": {
+            "id": "742161807",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "...But y'know, if he's in this much debt, it seems unlikely that we'll get paid at all...",
+            "nextDialogs": [
+              "742161808"
+            ]
+          },
+          "742161808": {
+            "id": "742161808",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "No, I... still have enough for the boat fare. I counted — I should be fine on that front.",
+            "nextDialogs": [
+              "742161809"
+            ]
+          },
+          "742161809": {
+            "id": "742161809",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Then what about the contract and debt he speaks of? Is that, perchance, the \"souvenir\" you're giving us after more than ten years?",
+            "nextDialogs": [
+              "742161810"
+            ]
+          },
+          "742161810": {
+            "id": "742161810",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "How could you say that, Giovanni? I really don't know a thing about the contract he's talking about! *sigh* I don't know what to say to make you believe me, though.",
+            "nextDialogs": [
+              "742161811"
+            ]
+          },
+          "742161811": {
+            "id": "742161811",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Heh. The handbook says that people will lie and do all they can to wriggle out of debt, but the contract is clearly written — don't you even try.",
+            "nextDialogs": [
+              "742161812"
+            ]
+          },
+          "742161812": {
+            "id": "742161812",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "You still owe us payment for ten crates of materials to make those blasted flutes of yours...",
+            "nextDialogs": [
+              "742161813"
+            ]
+          },
+          "742161813": {
+            "id": "742161813",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "...Wait, what did you say? Flutes?",
+            "nextDialogs": [
+              "742161814"
+            ]
+          },
+          "742161814": {
+            "id": "742161814",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "...Are you still sticking to the pretense even now, \"Participazia\"? ... Grr, you Fontainians sure have names that are annoying to pronounce...",
+            "nextDialogs": [
+              "742161815"
+            ]
+          },
+          "742161815": {
+            "id": "742161815",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Sorry... but who's that? My name is Giustino. Giustino Pasquale...",
+            "nextDialogs": [
+              "742161816"
+            ]
+          },
+          "742161816": {
+            "id": "742161816",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "...?",
+            "nextDialogs": [
+              "742161817"
+            ]
+          },
+          "742161817": {
+            "id": "742161817",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "O—One moment! Let me see... Giu? Ju? Pas... Giulietta Participazia, from Petrichor...",
+            "nextDialogs": [
+              "742161818"
+            ]
+          },
+          "742161818": {
+            "id": "742161818",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Err. This seems to be... a woman?",
+            "nextDialogs": [
+              "742161819"
+            ]
+          },
+          "742161819": {
+            "id": "742161819",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Uhh... Ah...",
+            "nextDialogs": [
+              "742161820"
+            ]
+          },
+          "742161820": {
+            "id": "742161820",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Um...",
+            "nextDialogs": [
+              "742161821"
+            ]
+          },
+          "742161821": {
+            "id": "742161821",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "W—Wait! If you're not that woman, then why were you going on about some \"flute\" back there at Bayda Harbor?",
+            "nextDialogs": [
+              "742161822"
+            ]
+          },
+          "742161822": {
+            "id": "742161822",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "...I was talking about... this flute?",
+            "nextDialogs": [
+              "742161823"
+            ]
+          },
+          "742161823": {
+            "id": "742161823",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "...",
+            "nextDialogs": [
+              "742161824"
+            ]
+          },
+          "742161824": {
+            "id": "742161824",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "This is the flute my father gave me when I was about to leave home. He hoped that I would inherit the family business of instrument-making, but I...",
+            "nextDialogs": [
+              "742161825"
+            ]
+          },
+          "742161825": {
+            "id": "742161825",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "*sigh* Forget it.",
+            "nextDialogs": [
+              "742161826"
+            ]
+          },
+          "742161826": {
+            "id": "742161826",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Hold on. If this had nothing to do with you, then why did you run?",
+            "nextDialogs": [
+              "742161827"
+            ]
+          },
+          "742161827": {
+            "id": "742161827",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "\"I'm sorry, but I really don't remember,\" I said that, didn't I? But you sounded so aggressive and looked so frightening. What was I going to do except run?",
+            "nextDialogs": [
+              "742161828"
+            ]
+          },
+          "742161828": {
+            "id": "742161828",
+            "speakerId": 1005,
+            "speakerName": "Agent",
+            "text": "Well, this is my first job — one to remember! Of course I had to double my enthusiasm!"
+          },
+          "742161806": {
+            "id": "742161806",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "That's right! He hasn't paid us our triple boat fare either!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421610",
+      "subQuestName": "Head to the designated location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161901"
+        ],
+        "dialogs": {
+          "742161901": {
+            "id": "742161901",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Our town's a small place, and our desserts and tea are all quite ordinary, so they might not look like much to you who have traveled and seen much...",
+            "nextDialogs": [
+              "742161902"
+            ]
+          },
+          "742161902": {
+            "id": "742161902",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Giovanni, why do you have to talk like this? My heart is made of flesh and blood, just as yours is. It, too, can be hurt.",
+            "nextDialogs": [
+              "742161903"
+            ]
+          },
+          "742161903": {
+            "id": "742161903",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "Is that so? And here I thought that the heart of one who cares so little about their family would be made of immovable stone.",
+            "nextDialogs": [
+              "742161904"
+            ]
+          },
+          "742161904": {
+            "id": "742161904",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "I...",
+            "nextDialogs": [
+              "742161905"
+            ]
+          },
+          "742161905": {
+            "id": "742161905",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "(Well... Paimon didn't think it'd turn out like this... This is so awkward!)",
+            "nextDialogs": [
+              "742161908"
+            ]
+          },
+          "742161908": {
+            "id": "742161908",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "A—Anyway, you brothers have been reunited after many years, so shouldn't you be happier about that...?",
+            "nextDialogs": [
+              "742161909"
+            ]
+          },
+          "742161909": {
+            "id": "742161909",
+            "speakerId": 1004,
+            "speakerName": "Giovanni",
+            "text": "...",
+            "nextDialogs": [
+              "742161910"
+            ]
+          },
+          "742161910": {
+            "id": "742161910",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "...",
+            "nextDialogs": [
+              "742161911"
+            ]
+          },
+          "742161911": {
+            "id": "742161911",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Hey, {NICKNAME}, c'mon! Help talk some sense into 'em, would you?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421601",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160101"
+        ],
+        "dialogs": {
+          "742160101": {
+            "id": "742160101",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "Do you two happen to be heading to sea as well? If so, please, could I trouble you to bring me along to Bayda Harbor?",
+            "nextDialogs": [
+              "742160112"
+            ]
+          },
+          "742160112": {
+            "id": "742160112",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "Ah, I see... Oh dear, this is going to be a toughie...",
+            "nextDialogs": [
+              "742160113"
+            ]
+          },
+          "742160113": {
+            "id": "742160113",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well, if it's really urgent, we could still help...",
+            "nextDialogs": [
+              "742160114"
+            ]
+          },
+          "742160114": {
+            "id": "742160114",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Oh! What kind souls you are! In any case, my name's Giulietta, and I sell instruments.",
+            "nextDialogs": [
+              "742160115"
+            ]
+          },
+          "742160115": {
+            "id": "742160115",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Not long ago, I inked an order with some outlander gentlemen for a batch of materials from them. I mean, even the greatest artisan wouldn't be able to fashion an instrument from nothing!",
+            "nextDialogs": [
+              "742160116"
+            ]
+          },
+          "742160116": {
+            "id": "742160116",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "According to the contract, the payment must be made within these two days at Bayda Harbor. But I overslept and missed the last boat...",
+            "nextDialogs": [
+              "742160117"
+            ]
+          },
+          "742160117": {
+            "id": "742160117",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "*sigh* It might be the nightmares I've been having lately, but I couldn't sleep well... It is my fault, of course, but right now, I need to get to Bayda Harbor.",
+            "nextDialogs": [
+              "742160118"
+            ]
+          },
+          "742160118": {
+            "id": "742160118",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "So if you'd be willing to help, I'd be immensely grateful. Three times the going rate — that's what I'll pay.",
+            "nextDialogs": [
+              "742160119"
+            ]
+          },
+          "742160119": {
+            "id": "742160119",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Th—Three times!?",
+            "nextDialogs": [
+              "742160120"
+            ]
+          },
+          "742160120": {
+            "id": "742160120",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You sure are generous, huh?",
+            "nextDialogs": [
+              "742160121"
+            ]
+          },
+          "742160121": {
+            "id": "742160121",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Well, it's a matter of trust and reputation. This is life and death for us businesspeople.",
+            "nextDialogs": [
+              "742160122"
+            ]
+          },
+          "742160122": {
+            "id": "742160122",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "W—Well, sure seems that way..."
+          },
+          "742160199": {
+            "id": "742160199",
+            "speakerId": 1007,
+            "speakerName": "<UNKNOWN>",
+            "text": "You cross the sea and arrive in Bayda Harbor..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421603",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160301"
+        ],
+        "dialogs": {
+          "742160301": {
+            "id": "742160301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hold on, I have some things to handle first...",
+            "nextDialogs": [
+              "742160302"
+            ]
+          },
+          "742160302": {
+            "id": "742160302",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Alright, but do hurry. Time waits for no one..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421604",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160401"
+        ],
+        "dialogs": {
+          "742160401": {
+            "id": "742160401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Alright, get onboard.",
+            "nextDialogs": [
+              "742160412"
+            ]
+          },
+          "742160412": {
+            "id": "742160412",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "In that case, let us not delay. To Bayda Harbor we go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421605",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160501"
+        ],
+        "dialogs": {
+          "742160501": {
+            "id": "742160501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You'll have to wait a while longer, I have something that needs doing.",
+            "nextDialogs": [
+              "742160502"
+            ]
+          },
+          "742160502": {
+            "id": "742160502",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "*sigh* Alright. But do come back as soon as you can — we have an agreement, don't we?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421607",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160701"
+        ],
+        "dialogs": {
+          "742160701": {
+            "id": "742160701",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Yes! We're here!",
+            "nextDialogs": [
+              "742160712"
+            ]
+          },
+          "742160712": {
+            "id": "742160712",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Thank you both so much! Now I can deliver the payment as promised — we can't have our outlander friends viewing us Fontainians as fickle folk who flip on their agreements.",
+            "nextDialogs": [
+              "742160713"
+            ]
+          },
+          "742160713": {
+            "id": "742160713",
+            "speakerId": 1000,
+            "speakerName": "Giulietta",
+            "text": "Well then, here's the payment, as promised!",
+            "nextDialogs": [
+              "742160714"
+            ]
+          },
+          "742160714": {
+            "id": "742160714",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hehe, shiny, shiny Mora. As long as there's some to be had, we can do business!",
+            "nextDialogs": [
+              "742160715"
+            ]
+          },
+          "742160715": {
+            "id": "742160715",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#That said, {NICKNAME}, since we're here already, why don't we have a look around? Even if we were to go back to Petrichor now...",
+            "nextDialogs": [
+              "742160716"
+            ]
+          },
+          "742160716": {
+            "id": "742160716",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "Hmm? Did you two come from Petrichor by any chance?",
+            "nextDialogs": [
+              "742160717"
+            ]
+          },
+          "742160717": {
+            "id": "742160717",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey! Don't just talk to people from behind like that! You gave Paimon a fright!",
+            "nextDialogs": [
+              "742160718"
+            ]
+          },
+          "742160718": {
+            "id": "742160718",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "Oh, did I startle you? My apologies, truly. I simply could not contain myself upon hearing my hometown's name...",
+            "nextDialogs": [
+              "742160719"
+            ]
+          },
+          "742160719": {
+            "id": "742160719",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Did you really have to get this excited, though?",
+            "nextDialogs": [
+              "742160720"
+            ]
+          },
+          "742160720": {
+            "id": "742160720",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "Well... I left home when I was young, and I haven't been back since. Ten years flew by while I did business in Sumeru. Ten years without word from home...",
+            "nextDialogs": [
+              "742160721"
+            ]
+          },
+          "742160721": {
+            "id": "742160721",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Well, since you've come from there, could you tell me how things have been going? ... Right, I forgot to introduce myself. Just call me Giustino.",
+            "nextDialogs": [
+              "742160722"
+            ]
+          },
+          "742160722": {
+            "id": "742160722",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Hello there, Giustino. Paimon's name's Paimon, and this is {NICKNAME}. And you've come to the right people — we have a \"deep\" understanding of Petrichor, after all!",
+            "nextDialogs": [
+              "742160723"
+            ]
+          },
+          "742160723": {
+            "id": "742160723",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "(Hmm, wouldn't he think we're crazy if we told him that we followed a cat and wound up disrupting an ancient plot and resolving the crisis in his hometown, though?)",
+            "nextDialogs": [
+              "742160726"
+            ]
+          },
+          "742160726": {
+            "id": "742160726",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Uh, Petrichor's doing great! How great, you ask? As great as before, that's how!",
+            "nextDialogs": [
+              "742160727"
+            ]
+          },
+          "742160727": {
+            "id": "742160727",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Really? Just as before, then? That's good, that's good...",
+            "nextDialogs": [
+              "742160728"
+            ]
+          },
+          "742160728": {
+            "id": "742160728",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Speaking of which, wouldn't it be better for you to go, since you're a local, rather than rely on us outsiders?",
+            "nextDialogs": [
+              "742160729"
+            ]
+          },
+          "742160729": {
+            "id": "742160729",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "You speak reason! I should, yes. I did not bat an eyelid when I left it all behind back then, yet now I shrink back from my desire to return.",
+            "nextDialogs": [
+              "742160730"
+            ]
+          },
+          "742160730": {
+            "id": "742160730",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "How strange. My courage fails me as I grow older...",
+            "nextDialogs": [
+              "742160731"
+            ]
+          },
+          "742160731": {
+            "id": "742160731",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "If I hadn't found this flute in my baggage while packing...",
+            "nextDialogs": [
+              "742160732"
+            ]
+          },
+          "742160732": {
+            "id": "742160732",
+            "speakerId": 1006,
+            "speakerName": "???",
+            "text": "...",
+            "nextDialogs": [
+              "742160733"
+            ]
+          },
+          "742160733": {
+            "id": "742160733",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "When I left home, I had nothing with me but this flute. In truth, my family disapproved of my departure, and my father snuck the instrument out to me at the last minute.",
+            "nextDialogs": [
+              "742160734"
+            ]
+          },
+          "742160734": {
+            "id": "742160734",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Haha, good times, though. Not a Mora to my name, but with the flute's melodic strains flowing free, a fire in my belly, and a dream, it was like the whole world was mine for the seizing.",
+            "nextDialogs": [
+              "742160735"
+            ]
+          },
+          "742160735": {
+            "id": "742160735",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Later, I would make lots of friends in Sumeru, and my business would grow. *sigh* If only I could have written them a letter, but I had all but forgotten my family and home...",
+            "nextDialogs": [
+              "742160736"
+            ]
+          },
+          "742160736": {
+            "id": "742160736",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Ahem... Anyway, if I may make such a request, would you be willing to take me with you when you return to Petrichor?",
+            "nextDialogs": [
+              "742160737"
+            ]
+          },
+          "742160737": {
+            "id": "742160737",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, you gonna pay us triple, too?",
+            "nextDialogs": [
+              "742160738"
+            ]
+          },
+          "742160738": {
+            "id": "742160738",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Triple!?",
+            "nextDialogs": [
+              "742160739"
+            ]
+          },
+          "742160739": {
+            "id": "742160739",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "That's right! The lady we just ferried over had urgent business to attend to, so she paid us triple for the ride!",
+            "nextDialogs": [
+              "742160740"
+            ]
+          },
+          "742160740": {
+            "id": "742160740",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Well... I should have enough for that. Alright, I'll pay you triple too. \"Strike while the iron is hot,\" as they say — since I've decided to return home, any delay will be detrimental.",
+            "nextDialogs": [
+              "742160741"
+            ]
+          },
+          "742160741": {
+            "id": "742160741",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well, we're not exactly professional boatmen or anything... But hehe, such premiums are tough to refuse!"
+          },
+          "742160799": {
+            "id": "742160799",
+            "speakerId": 1007,
+            "speakerName": "<UNKNOWN>",
+            "text": "From Bayda Harbor, you then return to Petrichor..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421609",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742160901"
+        ],
+        "dialogs": {
+          "742160901": {
+            "id": "742160901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Could you wait for a moment?",
+            "nextDialogs": [
+              "742160911"
+            ]
+          },
+          "742160911": {
+            "id": "742160911",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Of course. No worries."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421610",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161001"
+        ],
+        "dialogs": {
+          "742161001": {
+            "id": "742161001",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Shall we head out now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421611",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161110"
+        ],
+        "dialogs": {
+          "742161110": {
+            "id": "742161110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's go."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421612",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161211"
+        ],
+        "dialogs": {
+          "742161211": {
+            "id": "742161211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just a while more...",
+            "nextDialogs": [
+              "742161212"
+            ]
+          },
+          "742161212": {
+            "id": "742161212",
+            "speakerId": 1001,
+            "speakerName": "Giustino",
+            "text": "Of course, no trouble at all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421614",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161403"
+        ],
+        "dialogs": {
+          "742161403": {
+            "id": "742161403",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hello there. Have you seen a merchant from Fontaine dressed in Sumeru garb?",
+            "nextDialogs": [
+              "742161404"
+            ]
+          },
+          "742161404": {
+            "id": "742161404",
+            "speakerId": 1008,
+            "speakerName": "Loredan",
+            "text": "Huh? A Fontainian wearing clothes from Sumeru? Sorry, I was a bit busy thinking about my composition, so I didn't notice.",
+            "nextDialogs": [
+              "742161405"
+            ]
+          },
+          "742161405": {
+            "id": "742161405",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Hmm, alright then... Guess we should ask elsewhere, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7421615",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742161503"
+        ],
+        "dialogs": {
+          "742161503": {
+            "id": "742161503",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hello there. Have you seen a merchant from Fontaine dressed in Sumeru garb?",
+            "nextDialogs": [
+              "742161504"
+            ]
+          },
+          "742161504": {
+            "id": "742161504",
+            "speakerId": 1009,
+            "speakerName": "Contarini",
+            "text": "I've not seen any such person. Has something happened? If there's an emergency case that requires the Special Patrol's services...",
+            "nextDialogs": [
+              "742161505"
+            ]
+          },
+          "742161505": {
+            "id": "742161505",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well, it's not anything urgent, really... Anyway, we'll be looking elsewhere!"
+          }
+        }
+      }
+    }
+  ]
+}

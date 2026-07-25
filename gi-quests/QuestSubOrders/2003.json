@@ -1,0 +1,3864 @@
+{
+  "lineCounts": {
+    "???": 2,
+    "Albert": 14,
+    "Allan": 14,
+    "Beatrice": 4,
+    "Bruce": 12,
+    "Cyrus": 13,
+    "Donna": 4,
+    "Doolan": 5,
+    "Dr. Edith": 11,
+    "Ellin": 7,
+    "Flora": 7,
+    "Glory": 5,
+    "Godwin": 4,
+    "Goth": 7,
+    "Grace": 10,
+    "Kamisato Ayaka": 14,
+    "Kozue": 5,
+    "Lawrence": 15,
+    "Lizzie": 11,
+    "Luke": 10,
+    "Margaret": 7,
+    "Marla": 10,
+    "Marvin": 22,
+    "Myweiss": 6,
+    "Paimon": 25,
+    "Patchi the Curious": 5,
+    "Plauen": 9,
+    "Player": 85,
+    "Quinn": 16,
+    "Schulz": 7,
+    "Six-Fingered José": 5,
+    "Thoma": 43
+  },
+  "subQuests": [
+    {
+      "subId": "200305",
+      "subQuestName": "Go to Komore Teahouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030501"
+        ],
+        "dialogs": {
+          "20030501": {
+            "id": "20030501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "According to the letter, this should be the place.",
+            "nextDialogs": [
+              "20030502"
+            ]
+          },
+          "20030502": {
+            "id": "20030502",
+            "speakerId": 1001,
+            "speakerName": "Kozue",
+            "text": "Sorry, we don't serve the general public. I'm afraid you'll have to leave.",
+            "nextDialogs": [
+              "20030503"
+            ]
+          },
+          "20030503": {
+            "id": "20030503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait! We're not the general public...",
+            "nextDialogs": [
+              "20030504"
+            ]
+          },
+          "20030504": {
+            "id": "20030504",
+            "speakerId": 1001,
+            "speakerName": "Kozue",
+            "text": "Well then... you must be a couple of wandering outlanders that snuck into the nation... judging by your attire.",
+            "nextDialogs": [
+              "20030505"
+            ]
+          },
+          "20030505": {
+            "id": "20030505",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are our clothes really so— oh! Uh... What Paimon means to say is—",
+            "nextDialogs": [
+              "20030506"
+            ]
+          },
+          "20030506": {
+            "id": "20030506",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Here's our Invitation Letter.",
+            "nextDialogs": [
+              "20030507"
+            ]
+          },
+          "20030507": {
+            "id": "20030507",
+            "speakerId": 1001,
+            "speakerName": "Kozue",
+            "text": "Hmm, the Yashiro Commission's seal... this must be from Mr. Thoma. It seems there's more to you than meets the eye.",
+            "nextDialogs": [
+              "20030508"
+            ]
+          },
+          "20030508": {
+            "id": "20030508",
+            "speakerId": 1001,
+            "speakerName": "Kozue",
+            "text": "In which case, welcome to the Komore Teahouse, a safe haven for the Yashiro Commission.",
+            "nextDialogs": [
+              "20030509"
+            ]
+          },
+          "20030509": {
+            "id": "20030509",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, that sounds more like it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200301",
+      "subQuestName": "Enter Komore Teahouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030101"
+        ],
+        "dialogs": {
+          "20030101": {
+            "id": "20030101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, now that we're here, where's Thoma?",
+            "nextDialogs": [
+              "20030102"
+            ]
+          },
+          "20030102": {
+            "id": "20030102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "*sigh* Paimon doesn't see him anywhere, do you think he forgot his promise to meet us?",
+            "nextDialogs": [
+              "20030103"
+            ]
+          },
+          "20030103": {
+            "id": "20030103",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Who forgot their promise? I was beginning to think you'd forgotten about me!",
+            "nextDialogs": [
+              "20030104"
+            ]
+          },
+          "20030104": {
+            "id": "20030104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wh—Wh—What!? Is that dog talking to us!?",
+            "nextDialogs": [
+              "20030105"
+            ]
+          },
+          "20030105": {
+            "id": "20030105",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Hahaha, relax, no need to look so surprised. I take it this is the first time you've seen me in this form?",
+            "nextDialogs": [
+              "20030108"
+            ]
+          },
+          "20030108": {
+            "id": "20030108",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Huh, so you didn't see anything like this when you were in Liyue Harbor?",
+            "nextDialogs": [
+              "20030109"
+            ]
+          },
+          "20030109": {
+            "id": "20030109",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, now that you mention it, this does suddenly seem less out of the ordinary..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200302",
+      "subQuestName": "Go to the Statue of the Omnipresent God",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030201"
+        ],
+        "dialogs": {
+          "20030201": {
+            "id": "20030201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This area sure feels gloomy. People probably don't come here often, do they?",
+            "nextDialogs": [
+              "20030202"
+            ]
+          },
+          "20030202": {
+            "id": "20030202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh, are Paimon's eyes playing tricks, or are there things embedded in the statue...?",
+            "nextDialogs": [
+              "20030203"
+            ]
+          },
+          "20030203": {
+            "id": "20030203",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Visions.",
+            "nextDialogs": [
+              "20030204"
+            ]
+          },
+          "20030204": {
+            "id": "20030204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Visions! You mean all the Visions that are collected from the Vision Hunt Decree are put into this statue!?",
+            "nextDialogs": [
+              "20030205"
+            ]
+          },
+          "20030205": {
+            "id": "20030205",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "So you've already heard of the Vision Hunt Decree.",
+            "nextDialogs": [
+              "20030206"
+            ]
+          },
+          "20030206": {
+            "id": "20030206",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Why did the shogun issue the Vision Hunt Decree?",
+            "nextDialogs": [
+              "20030207"
+            ]
+          },
+          "20030207": {
+            "id": "20030207",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Before I try to explain, I should perhaps remind you first that Mondstadt is the City of Freedom, and Liyue is the City of Contracts...",
+            "nextDialogs": [
+              "20030208"
+            ]
+          },
+          "20030208": {
+            "id": "20030208",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "As for Inazuma... It's known as the Nation of Eternity.",
+            "nextDialogs": [
+              "20030209"
+            ]
+          },
+          "20030209": {
+            "id": "20030209",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "The Raiden Shogun is both the nation's most powerful ruler, and its deity.",
+            "nextDialogs": [
+              "20030210"
+            ]
+          },
+          "20030210": {
+            "id": "20030210",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "The \"eternity\" in question... is her endless and unchanging will to rule over Inazuma.",
+            "nextDialogs": [
+              "20030211"
+            ]
+          },
+          "20030211": {
+            "id": "20030211",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "As such, she relies on the Tri-Commission to regulate the nation's affairs, and the Sakoku Decree to limit the people's movement.",
+            "nextDialogs": [
+              "20030212"
+            ]
+          },
+          "20030212": {
+            "id": "20030212",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "The shogun wishes to keep Inazuma in stasis, allowing the stream of time to flow from one end to the other without disturbing it, for all time.",
+            "nextDialogs": [
+              "20030213"
+            ]
+          },
+          "20030213": {
+            "id": "20030213",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Seems like every god has their own will...",
+            "nextDialogs": [
+              "20030214"
+            ]
+          },
+          "20030214": {
+            "id": "20030214",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Of course, this is my own limited understanding. As for the reason behind the recent Vision Hunt Decree...",
+            "nextDialogs": [
+              "20030215"
+            ]
+          },
+          "20030215": {
+            "id": "20030215",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Perhaps the shogun believes that Visions grant people the power to change, and that her eternity doesn't allow for such instability to exist.",
+            "nextDialogs": [
+              "20030216"
+            ]
+          },
+          "20030216": {
+            "id": "20030216",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Whatever the case, the fact is that the Raiden Shogun has dispatched the Tenryou Commission to scour the nation for Visions, embedding each one in this statue...",
+            "nextDialogs": [
+              "20030217"
+            ]
+          },
+          "20030217": {
+            "id": "20030217",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "... and this Statue of the Omnipresent God can be seen as Inazuma's symbol of eternity.",
+            "nextDialogs": [
+              "20030218"
+            ]
+          },
+          "20030218": {
+            "id": "20030218",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But if that's the case, wouldn't you say that the Raiden Shogun is being... I don't know, selfish?",
+            "nextDialogs": [
+              "20030219"
+            ]
+          },
+          "20030219": {
+            "id": "20030219",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Haha, only outlanders such as yourselves would ever dare speak out so directly against the Raiden Shogun.",
+            "nextDialogs": [
+              "20030220"
+            ]
+          },
+          "20030220": {
+            "id": "20030220",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "And yet... I agree. The Vision Hunt Decree is something that simply should not exist, and Miss Kamisato has been committed to fighting it since the day it was announced.",
+            "nextDialogs": [
+              "20030221"
+            ]
+          },
+          "20030221": {
+            "id": "20030221",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Huh? {NICKNAME}, are you okay? You look like your mind is elsewhere.",
+            "nextDialogs": [
+              "20030222"
+            ]
+          },
+          "20030222": {
+            "id": "20030222",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Sound? What sound? I didn't hear anything... did something happen?",
+            "nextDialogs": [
+              "20030223"
+            ]
+          },
+          "20030223": {
+            "id": "20030223",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What was that... sound just now?",
+            "nextDialogs": [
+              "20030224"
+            ]
+          },
+          "20030224": {
+            "id": "20030224",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, you touched the statue, and then... and then what?",
+            "nextDialogs": [
+              "20030225"
+            ]
+          },
+          "20030225": {
+            "id": "20030225",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I could hear the sound of... people's aspirations.",
+            "nextDialogs": [
+              "20030226"
+            ]
+          },
+          "20030226": {
+            "id": "20030226",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "\"Aspirations\"?",
+            "nextDialogs": [
+              "20030227"
+            ]
+          },
+          "20030227": {
+            "id": "20030227",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Hmm... That would seem to confirm the saying.",
+            "nextDialogs": [
+              "20030228"
+            ]
+          },
+          "20030228": {
+            "id": "20030228",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Have you heard it before? That when a person's ambition reaches a certain strength, the gods look upon them with favor.",
+            "nextDialogs": [
+              "20030229"
+            ]
+          },
+          "20030229": {
+            "id": "20030229",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "That is where Visions come from... In other words, a person's Vision represents their ambition.",
+            "nextDialogs": [
+              "20030230"
+            ]
+          },
+          "20030230": {
+            "id": "20030230",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "So, if what you just said is true...",
+            "nextDialogs": [
+              "20030231"
+            ]
+          },
+          "20030231": {
+            "id": "20030231",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "...then the ambitions of these people are stronger than I imagined.",
+            "nextDialogs": [
+              "20030232"
+            ]
+          },
+          "20030232": {
+            "id": "20030232",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So a Vision symbolizes ambition, and not power...",
+            "nextDialogs": [
+              "20030233"
+            ]
+          },
+          "20030233": {
+            "id": "20030233",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Alright. Time for the next stop on our tour of Narukami Island: the Kamisato residence.",
+            "nextDialogs": [
+              "20030234"
+            ]
+          },
+          "20030234": {
+            "id": "20030234",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whew, finally!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200304",
+      "subQuestName": "Go to the Kamisato Estate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030401"
+        ],
+        "dialogs": {
+          "20030401": {
+            "id": "20030401",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So this is the kind of place where the big shots of Inazuma live, huh? Paimon kinda expected it to be... snazzier.",
+            "nextDialogs": [
+              "20030404"
+            ]
+          },
+          "20030404": {
+            "id": "20030404",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Welcome, at last, to the Kamisato residence, honored guests. Miss Kamisato is delighted to finally meet you.",
+            "nextDialogs": [
+              "20030405"
+            ]
+          },
+          "20030405": {
+            "id": "20030405",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is this the Shirasagi Himegimi you keep going on about? So, uh, where's she at?",
+            "nextDialogs": [
+              "20030406"
+            ]
+          },
+          "20030406": {
+            "id": "20030406",
+            "speakerId": 1004,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Ahem...",
+            "nextDialogs": [
+              "20030407"
+            ]
+          },
+          "20030407": {
+            "id": "20030407",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh... uh, behind the screen?",
+            "nextDialogs": [
+              "20030408"
+            ]
+          },
+          "20030408": {
+            "id": "20030408",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Yes, haha, as the daughter of the Yashiro Commission, this is how Miss Kamisato is accustomed to receiving guests.",
+            "nextDialogs": [
+              "20030409"
+            ]
+          },
+          "20030409": {
+            "id": "20030409",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Consider it a time-honored tradition within the Yashiro Commission. Forgive me if this is an unwelcome surprise."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200306",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030601"
+        ],
+        "dialogs": {
+          "20030601": {
+            "id": "20030601",
+            "speakerId": 1003,
+            "speakerName": "Thoma",
+            "text": "Miss Kamisato's left, it seems. No cutting corners, now, okay?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200307",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20030701"
+        ],
+        "dialogs": {
+          "20030701": {
+            "id": "20030701",
+            "speakerId": 1001,
+            "speakerName": "Kozue",
+            "text": "It's been quite some time since I've seen anyone show up with a new Invitation Letter. I wish you two luck."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141432",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143201"
+        ],
+        "dialogs": {
+          "414143201": {
+            "id": "414143201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How's your work coming along?",
+            "nextDialogs": [
+              "414143202"
+            ]
+          },
+          "414143202": {
+            "id": "414143202",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "I wrote a little when the inspiration hit, but I feel like... Um, this is rather embarrassing...",
+            "nextDialogs": [
+              "414143203"
+            ]
+          },
+          "414143203": {
+            "id": "414143203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mind reading it out to me?",
+            "nextDialogs": [
+              "414143204"
+            ]
+          },
+          "414143204": {
+            "id": "414143204",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Sure! As... as long as you don't laugh... heh.",
+            "nextDialogs": [
+              "414143205"
+            ]
+          },
+          "414143205": {
+            "id": "414143205",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "\"You and I\\nLike the stars and moon\\nThe wind and the clouds\\nLike flowers and mist\\nNever shall we part.\"",
+            "nextDialogs": [
+              "414143206"
+            ]
+          },
+          "414143206": {
+            "id": "414143206",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "H—How is it... Will it do?",
+            "nextDialogs": [
+              "414143209"
+            ]
+          },
+          "414143209": {
+            "id": "414143209",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Is that so? Hmm, I thought so too... I've got to practice more so that I can write Marla a better poem.",
+            "nextDialogs": [
+              "414143210"
+            ]
+          },
+          "414143210": {
+            "id": "414143210",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Thanks! I'll make some edits before handing this in. Please give me a while more, Professor Venti!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141433",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143301"
+        ],
+        "dialogs": {
+          "414143301": {
+            "id": "414143301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How's your work coming along?",
+            "nextDialogs": [
+              "414143302"
+            ]
+          },
+          "414143302": {
+            "id": "414143302",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Oh, you mean the homework that Professor Venti gave us...",
+            "nextDialogs": [
+              "414143303"
+            ]
+          },
+          "414143303": {
+            "id": "414143303",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Don't worry about it! Even though preparing a gift for Barbara-sama is my top priority, creating a poem filled with passion is just as important!",
+            "nextDialogs": [
+              "414143304"
+            ]
+          },
+          "414143304": {
+            "id": "414143304",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Let me show you the power of a fan's heart!",
+            "nextDialogs": [
+              "414143305"
+            ]
+          },
+          "414143305": {
+            "id": "414143305",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "\"No further distance in this world below\\nWider even than life and death\\nThan that of the Cathedral window\\nYou within — I, outside left\"",
+            "nextDialogs": [
+              "414143308"
+            ]
+          },
+          "414143308": {
+            "id": "414143308",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "*sigh* It seems that you lack spirit — you still do not understand the regard in which we hold Barbara-sama.",
+            "nextDialogs": [
+              "414143309"
+            ]
+          },
+          "414143309": {
+            "id": "414143309",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "But it's fine, you have much time ahead of you. Good luck, Traveler!",
+            "nextDialogs": [
+              "414143310"
+            ]
+          },
+          "414143310": {
+            "id": "414143310",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Let me give this a bit more thought and come up with a better version, and then I can submit it to Professor Venti."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141434",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143401"
+        ],
+        "dialogs": {
+          "414143401": {
+            "id": "414143401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How's your work coming along?",
+            "nextDialogs": [
+              "414143402"
+            ]
+          },
+          "414143402": {
+            "id": "414143402",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "Oh, you mean the love poem I'm writing for Master Jean! I—I'm still working on it!",
+            "nextDialogs": [
+              "414143403"
+            ]
+          },
+          "414143403": {
+            "id": "414143403",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "Professor Venti was teaching us tricks for writing love poems, yes, but what I'd like to express is more like admiration and yearning.",
+            "nextDialogs": [
+              "414143404"
+            ]
+          },
+          "414143404": {
+            "id": "414143404",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "I did write a poem, but I haven't had the time to send it to the Professor just yet... Would you like to hear it?",
+            "nextDialogs": [
+              "414143405"
+            ]
+          },
+          "414143405": {
+            "id": "414143405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Lay it on me.",
+            "nextDialogs": [
+              "414143406"
+            ]
+          },
+          "414143406": {
+            "id": "414143406",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "\"Your earnest profile working\\nLike the moon in the night sky gleaming\\nIt leads me into restful dreaming\"",
+            "nextDialogs": [
+              "414143407"
+            ]
+          },
+          "414143407": {
+            "id": "414143407",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "How is it? Will it do?",
+            "nextDialogs": [
+              "414143410"
+            ]
+          },
+          "414143410": {
+            "id": "414143410",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "Really? That's great! That's exactly what I'd like to express!",
+            "nextDialogs": [
+              "414143411"
+            ]
+          },
+          "414143411": {
+            "id": "414143411",
+            "speakerId": 1007,
+            "speakerName": "Ellin",
+            "text": "Thank you! I'll make a few more improvements, and then I'll hand it in."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141435",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143501"
+        ],
+        "dialogs": {
+          "414143501": {
+            "id": "414143501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you around!",
+            "nextDialogs": [
+              "414143502"
+            ]
+          },
+          "414143502": {
+            "id": "414143502",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "See you. Come back and challenge this domain again if you have the time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141436",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143601"
+        ],
+        "dialogs": {
+          "414143601": {
+            "id": "414143601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you know about any of the other activities?",
+            "nextDialogs": [
+              "414143602"
+            ]
+          },
+          "414143602": {
+            "id": "414143602",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "Hmm, for this, you can go look for Lizzie. She's always introducing fun events to people during the Windblume Festival.",
+            "nextDialogs": [
+              "414143603"
+            ]
+          },
+          "414143603": {
+            "id": "414143603",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "I hope that you'll enjoy yourself, too!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141437",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143701"
+        ],
+        "dialogs": {
+          "414143701": {
+            "id": "414143701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's in this domain?",
+            "nextDialogs": [
+              "414143702"
+            ]
+          },
+          "414143702": {
+            "id": "414143702",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "This is a special domain that was discovered by the Adventurers' Guild some time ago. It seems to only turn up at specific times.",
+            "nextDialogs": [
+              "414143703"
+            ]
+          },
+          "414143703": {
+            "id": "414143703",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "There are quite a few interesting things going on inside. We've opened it to the public after some modification work.",
+            "nextDialogs": [
+              "414143704"
+            ]
+          },
+          "414143704": {
+            "id": "414143704",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "If you're interested, please feel free to attempt this challenge. Do it alone, or call your friends, either is fine!",
+            "nextDialogs": [
+              "414143705"
+            ]
+          },
+          "414143705": {
+            "id": "414143705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's not dangerous in there, is it?",
+            "nextDialogs": [
+              "414143706"
+            ]
+          },
+          "414143706": {
+            "id": "414143706",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "Don't worry, we'll have seasoned adventurers accompanying you all the way if you bring people without any experience.",
+            "nextDialogs": [
+              "414143707"
+            ]
+          },
+          "414143707": {
+            "id": "414143707",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "But I think that a veteran such as you will be fine."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141438",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143801"
+        ],
+        "dialogs": {
+          "414143801": {
+            "id": "414143801",
+            "speakerId": 1008,
+            "speakerName": "Plauen",
+            "text": "Give it a go! This is the special festive event that the Adventurers' Guild has prepared for everyone."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141439",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414143901"
+        ],
+        "dialogs": {
+          "414143901": {
+            "id": "414143901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "414143902"
+            ]
+          },
+          "414143902": {
+            "id": "414143902",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "See you. Happy Windblume Festival!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141440",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144001"
+        ],
+        "dialogs": {
+          "414144001": {
+            "id": "414144001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you do here?",
+            "nextDialogs": [
+              "414144002"
+            ]
+          },
+          "414144002": {
+            "id": "414144002",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "I'm in charge of welcoming guests, and of organizing all sorts of fun activities for everyone during the Windblume Festival.",
+            "nextDialogs": [
+              "414144003"
+            ]
+          },
+          "414144003": {
+            "id": "414144003",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "A lot of the events are being held outdoors due to the large area needed, so without a guide to tell them where things are happening, lots of people are going to miss out!",
+            "nextDialogs": [
+              "414144004"
+            ]
+          },
+          "414144004": {
+            "id": "414144004",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "And I, Lizzie, am glad to step up to that plate!",
+            "nextDialogs": [
+              "414144006",
+              "414144011"
+            ]
+          },
+          "414144006": {
+            "id": "414144006",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "There are three events taking place during the festival: \"Bullseye Balloons,\" \"Floral Freefall,\" and \"Ballads of Breeze\".",
+            "nextDialogs": [
+              "414144007"
+            ]
+          },
+          "414144007": {
+            "id": "414144007",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "As for the details... As opposed to having me explain, I think it might be easier if you try them out yourself.",
+            "nextDialogs": [
+              "414144008"
+            ]
+          },
+          "414144008": {
+            "id": "414144008",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "As long as the preparations for the activity have already been made, I can tell you where they're being held.",
+            "nextDialogs": [
+              "414144009"
+            ]
+          },
+          "414144009": {
+            "id": "414144009",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "May you have a happy Windblume Festival!"
+          },
+          "414144011": {
+            "id": "414144011",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "I've heard that the Adventurers' Guild has something special up their sleeve for the Windblume Festival.",
+            "nextDialogs": [
+              "414144012"
+            ]
+          },
+          "414144012": {
+            "id": "414144012",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "If you're interested, I'd advise you to look for an adventurer named Plauen. He'll tell you all about it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141441",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144101"
+        ],
+        "dialogs": {
+          "414144101": {
+            "id": "414144101",
+            "speakerId": 1009,
+            "speakerName": "Lizzie",
+            "text": "Hey there! Having fun this Windblume Festival?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141442",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144201"
+        ],
+        "dialogs": {
+          "414144201": {
+            "id": "414144201",
+            "speakerId": 1010,
+            "speakerName": "Godwin",
+            "text": "*sigh* I wonder how Glory is doing...",
+            "nextDialogs": [
+              "414144202"
+            ]
+          },
+          "414144202": {
+            "id": "414144202",
+            "speakerId": 1010,
+            "speakerName": "Godwin",
+            "text": "I wish I could return to Mondstadt to see her... But I can't. How can I let her know that her lover is a coward and a deserter?",
+            "nextDialogs": [
+              "414144203"
+            ]
+          },
+          "414144203": {
+            "id": "414144203",
+            "speakerId": 1010,
+            "speakerName": "Godwin",
+            "text": "The best I can do now is clear out monsters and do my part to protect Mondstadt... and her.",
+            "nextDialogs": [
+              "414144204"
+            ]
+          },
+          "414144204": {
+            "id": "414144204",
+            "speakerId": 1010,
+            "speakerName": "Godwin",
+            "text": "Laugh if you want. I'm... I'm a useless man."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141443",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144301"
+        ],
+        "dialogs": {
+          "414144301": {
+            "id": "414144301",
+            "speakerId": 1011,
+            "speakerName": "Doolan",
+            "text": "This is the time of the Windblume Festival, the season when dandelions float about in the wind.",
+            "nextDialogs": [
+              "414144302"
+            ]
+          },
+          "414144302": {
+            "id": "414144302",
+            "speakerId": 1011,
+            "speakerName": "Doolan",
+            "text": "I've always been looking forward to a time when I might express my love for my destined one amid a sea of billowing dandelions...",
+            "nextDialogs": [
+              "414144303"
+            ]
+          },
+          "414144303": {
+            "id": "414144303",
+            "speakerId": 1011,
+            "speakerName": "Doolan",
+            "text": "But I never expected Miss Patchi to be too absorbed in her research to understand a thing I was saying...",
+            "nextDialogs": [
+              "414144304"
+            ]
+          },
+          "414144304": {
+            "id": "414144304",
+            "speakerId": 1011,
+            "speakerName": "Doolan",
+            "text": "Nothing could be more boring than spending such a romantic festival buried knee-deep in books ruins.",
+            "nextDialogs": [
+              "414144305"
+            ]
+          },
+          "414144305": {
+            "id": "414144305",
+            "speakerId": 1011,
+            "speakerName": "Doolan",
+            "text": "Who knows how long it'll take for her to understand these deep yet nebulous feelings of mine..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141444",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144401"
+        ],
+        "dialogs": {
+          "414144401": {
+            "id": "414144401",
+            "speakerId": 1012,
+            "speakerName": "Patchi the Curious",
+            "text": "What sort of flower is a \"Windblume\"? The one who solves this particular enigma will certainly leave their mark on the academic world.",
+            "nextDialogs": [
+              "414144402"
+            ]
+          },
+          "414144402": {
+            "id": "414144402",
+            "speakerId": 1012,
+            "speakerName": "Patchi the Curious",
+            "text": "And that's why some researchers have teamed up with adventurers to search for clues as to the \"Windblume\"'s identity.",
+            "nextDialogs": [
+              "414144403"
+            ]
+          },
+          "414144403": {
+            "id": "414144403",
+            "speakerId": 1012,
+            "speakerName": "Patchi the Curious",
+            "text": "Unfortunately, they haven't made much headway.",
+            "nextDialogs": [
+              "414144404"
+            ]
+          },
+          "414144404": {
+            "id": "414144404",
+            "speakerId": 1012,
+            "speakerName": "Patchi the Curious",
+            "text": "But we won't give up! We will find that true \"Windblume.\" That is our solemn duty as researchers!",
+            "nextDialogs": [
+              "414144405"
+            ]
+          },
+          "414144405": {
+            "id": "414144405",
+            "speakerId": 1012,
+            "speakerName": "Patchi the Curious",
+            "text": "Speaking of which, Mr. Doolan often tells me that we should go to Cape Oath to have a look. What a curious idea. It's not as if there are ruins there or anything..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141445",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144501"
+        ],
+        "dialogs": {
+          "414144501": {
+            "id": "414144501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "414144502"
+            ]
+          },
+          "414144502": {
+            "id": "414144502",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "Indeed. No matter which camp you belong in, remember to enjoy this hard-earned freedom that we possess."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141446",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144601"
+        ],
+        "dialogs": {
+          "414144601": {
+            "id": "414144601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What camp do you belong to?",
+            "nextDialogs": [
+              "414144602"
+            ]
+          },
+          "414144602": {
+            "id": "414144602",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "Me? I don't put much importance on what sort of flower the \"Windblume\" actually is.",
+            "nextDialogs": [
+              "414144603"
+            ]
+          },
+          "414144603": {
+            "id": "414144603",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "I'm a researcher and writer who studies history and culture. I must maintain a neutral stance...",
+            "nextDialogs": [
+              "414144604"
+            ]
+          },
+          "414144604": {
+            "id": "414144604",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "...Opinion is the great enemy of scholarship.",
+            "nextDialogs": [
+              "414144605"
+            ]
+          },
+          "414144605": {
+            "id": "414144605",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "But if you find any documents or material of historical value, you're welcome to discuss them with me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141447",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144701"
+        ],
+        "dialogs": {
+          "414144701": {
+            "id": "414144701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Asterists?",
+            "nextDialogs": [
+              "414144702"
+            ]
+          },
+          "414144702": {
+            "id": "414144702",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "Yes. They are also known as the \"Windblume Traditionalists.\"",
+            "nextDialogs": [
+              "414144703"
+            ]
+          },
+          "414144703": {
+            "id": "414144703",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "As opposed to a celebration of romance, they believe that the Windblume Festival is more about commemorating the liberation of Old Mondstadt from tyranny.",
+            "nextDialogs": [
+              "414144704"
+            ]
+          },
+          "414144704": {
+            "id": "414144704",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "As far as I'm aware, \"Windblume\" was possibly once a code word for people who wished to stay in contact and plot resistance in secret...",
+            "nextDialogs": [
+              "414144705"
+            ]
+          },
+          "414144705": {
+            "id": "414144705",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "But most people have forgotten this layer of meaning, and so those who feel that this festival should stand for the liberation of Mondstadt have become the minority.",
+            "nextDialogs": [
+              "414144706"
+            ]
+          },
+          "414144706": {
+            "id": "414144706",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "Windwheel Asters bear the title of \"the visible winds,\" and so the traditionalists have chosen it to represent them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141448",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144801"
+        ],
+        "dialogs": {
+          "414144801": {
+            "id": "414144801",
+            "speakerId": 1013,
+            "speakerName": "Dr. Edith",
+            "text": "Hmm, you're not celebrating the festival in the city. Are you, by any chance... an Asterist?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141449",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414144901"
+        ],
+        "dialogs": {
+          "414144901": {
+            "id": "414144901",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "The Windblume Festival... Hmph, it's that time of the year again, is it?",
+            "nextDialogs": [
+              "414144902"
+            ]
+          },
+          "414144902": {
+            "id": "414144902",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "I had an epiphany when I got divorced, and it was like waking from a long dream: the Windblume Festival should never have been associated with love at all!",
+            "nextDialogs": [
+              "414144903"
+            ]
+          },
+          "414144903": {
+            "id": "414144903",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "Hah, it must have been the scheme of some scheming city merchants. Wouldn't they love to package every festival as something for lovers?",
+            "nextDialogs": [
+              "414144904"
+            ]
+          },
+          "414144904": {
+            "id": "414144904",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "...People in love have no rational thought to speak of. A little flattery here and there and their wallets open wide.",
+            "nextDialogs": [
+              "414144905"
+            ]
+          },
+          "414144905": {
+            "id": "414144905",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "Whatever the case, I've come to my senses now. These festivals are absolutely meaningless.",
+            "nextDialogs": [
+              "414144906"
+            ]
+          },
+          "414144906": {
+            "id": "414144906",
+            "speakerId": 1014,
+            "speakerName": "Myweiss",
+            "text": "...And if not for the Windblume Festival, would I even have met that man? Hmph..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141450",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145001"
+        ],
+        "dialogs": {
+          "414145001": {
+            "id": "414145001",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "It's Windblume Festival again... I suppose the Windblumes must be dandelions, after all.",
+            "nextDialogs": [
+              "414145002"
+            ]
+          },
+          "414145002": {
+            "id": "414145002",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "No matter how strong the wind, it can only blow dandelions away, but it will never cause them to perish.",
+            "nextDialogs": [
+              "414145003"
+            ]
+          },
+          "414145003": {
+            "id": "414145003",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "But this is just my opinion. But it may be for this reason that dandelions became the symbols of love.",
+            "nextDialogs": [
+              "414145004"
+            ]
+          },
+          "414145004": {
+            "id": "414145004",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "I hope... I hope that our love will be just as resilient."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141451",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145101"
+        ],
+        "dialogs": {
+          "414145101": {
+            "id": "414145101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you.",
+            "nextDialogs": [
+              "414145102"
+            ]
+          },
+          "414145102": {
+            "id": "414145102",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Indeed, see you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141452",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145201"
+        ],
+        "dialogs": {
+          "414145201": {
+            "id": "414145201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the foxes...",
+            "nextDialogs": [
+              "414145202"
+            ]
+          },
+          "414145202": {
+            "id": "414145202",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Oh! As Springvale hunters, this is one of our customs.",
+            "nextDialogs": [
+              "414145203"
+            ]
+          },
+          "414145203": {
+            "id": "414145203",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Every Windblume Festival, young hunters like me go to Wolvendom to catch foxes.",
+            "nextDialogs": [
+              "414145204"
+            ]
+          },
+          "414145204": {
+            "id": "414145204",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "When we catch one, we place a wreath of flowers on its head and release it. It's a prayer for finding love in the year ahead...",
+            "nextDialogs": [
+              "414145205"
+            ]
+          },
+          "414145205": {
+            "id": "414145205",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Of course, only eligible young hunters like myself participate. Hunters that have already tied the knot, like Draff for example, they're not allowed to take part.",
+            "nextDialogs": [
+              "414145207",
+              "414145213"
+            ]
+          },
+          "414145207": {
+            "id": "414145207",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "*sigh* Not even close. Foxes are so hard to catch.",
+            "nextDialogs": [
+              "414145208"
+            ]
+          },
+          "414145208": {
+            "id": "414145208",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "I didn't catch one last Windblume Festival either. In fact, I nearly injured myself. I remember swearing that this time would be different...",
+            "nextDialogs": [
+              "414145209"
+            ]
+          },
+          "414145209": {
+            "id": "414145209",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "...and yet, low and behold, I've been outfoxed again. All I caught were a couple of squirrels.",
+            "nextDialogs": [
+              "414145210"
+            ]
+          },
+          "414145210": {
+            "id": "414145210",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "That said... I wonder if Miss Sucrose could use her bio-alchemy to change squirrels into foxes?",
+            "nextDialogs": [
+              "414145211"
+            ]
+          },
+          "414145211": {
+            "id": "414145211",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "I bet she could, haha..."
+          },
+          "414145213": {
+            "id": "414145213",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Uh... if you always participate, your chances will increase exponentially...",
+            "nextDialogs": [
+              "414145214"
+            ]
+          },
+          "414145214": {
+            "id": "414145214",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "...in that sense, you're bound to bump into the right person eventually...",
+            "nextDialogs": [
+              "414145215"
+            ]
+          },
+          "414145215": {
+            "id": "414145215",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "...ahem. Anyway, that's what Draff's always telling us."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141453",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145301"
+        ],
+        "dialogs": {
+          "414145301": {
+            "id": "414145301",
+            "speakerId": 1016,
+            "speakerName": "Allan",
+            "text": "Foxes really are too difficult to catch. Just how exactly did the elders manage it..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141454",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145401"
+        ],
+        "dialogs": {
+          "414145401": {
+            "id": "414145401",
+            "speakerId": 1017,
+            "speakerName": "Six-Fingered José",
+            "text": "#Hey there, {M#amigo}{F#amiga}! Are you here to listen to Six-Fingered José's latest composition?",
+            "nextDialogs": [
+              "414145402"
+            ]
+          },
+          "414145402": {
+            "id": "414145402",
+            "speakerId": 1017,
+            "speakerName": "Six-Fingered José",
+            "text": "Hehe, fear not. My creations do not disappoint.",
+            "nextDialogs": [
+              "414145403"
+            ]
+          },
+          "414145403": {
+            "id": "414145403",
+            "speakerId": 1017,
+            "speakerName": "Six-Fingered José",
+            "text": "When it comes to the Windblume Festival, other bards think love songs. Madre mía, no sense of invention...",
+            "nextDialogs": [
+              "414145404"
+            ]
+          },
+          "414145404": {
+            "id": "414145404",
+            "speakerId": 1017,
+            "speakerName": "Six-Fingered José",
+            "text": "I, Six-Fingered José, on the other hand, am not constrained by convention. I wish to eulogize the heroic epics of ages past! The people must remember that this is a day for commemorating heroes and resisting tyrants!",
+            "nextDialogs": [
+              "414145405"
+            ]
+          },
+          "414145405": {
+            "id": "414145405",
+            "speakerId": 1017,
+            "speakerName": "Six-Fingered José",
+            "text": "Even if, ahem... I haven't quite finished the last part yet. But once it's complete, it will bring my audience running back!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141455",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145501"
+        ],
+        "dialogs": {
+          "414145501": {
+            "id": "414145501",
+            "speakerId": 1018,
+            "speakerName": "Glory",
+            "text": "Huh? I recognize that voice... Traveler?",
+            "nextDialogs": [
+              "414145502"
+            ]
+          },
+          "414145502": {
+            "id": "414145502",
+            "speakerId": 1018,
+            "speakerName": "Glory",
+            "text": "The Windblume festivities are in full swing! If you get time, do make sure to roam around. You'll find a very different Mondstadt.",
+            "nextDialogs": [
+              "414145503"
+            ]
+          },
+          "414145503": {
+            "id": "414145503",
+            "speakerId": 1018,
+            "speakerName": "Glory",
+            "text": "Even better, if there's someone important to you, you should spend the festival with them. That's where the Windblume feeling truly resides...",
+            "nextDialogs": [
+              "414145504"
+            ]
+          },
+          "414145504": {
+            "id": "414145504",
+            "speakerId": 1018,
+            "speakerName": "Glory",
+            "text": "I always used to spend the Windblume Festival with my family and my darling Godwin. How I cherish those sweet times...",
+            "nextDialogs": [
+              "414145505"
+            ]
+          },
+          "414145505": {
+            "id": "414145505",
+            "speakerId": 1018,
+            "speakerName": "Glory",
+            "text": "I still don't know how he's getting on... May the winds protect him."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141456",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145601"
+        ],
+        "dialogs": {
+          "414145601": {
+            "id": "414145601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm afraid I don't know either...",
+            "nextDialogs": [
+              "414145602"
+            ]
+          },
+          "414145602": {
+            "id": "414145602",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Hmm... I wonder how Barbara-sama will react when she sees our gift..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141457",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145701"
+        ],
+        "dialogs": {
+          "414145701": {
+            "id": "414145701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "A letter?",
+            "nextDialogs": [
+              "414145702"
+            ]
+          },
+          "414145702": {
+            "id": "414145702",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Not a bad choice, but if it's just an ordinary letter then it'll be forgotten in no time...",
+            "nextDialogs": [
+              "414145703"
+            ]
+          },
+          "414145703": {
+            "id": "414145703",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Hmm, the content has to be different from a normal letter, we need something unforgettable..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141458",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145801"
+        ],
+        "dialogs": {
+          "414145801": {
+            "id": "414145801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Flowers?",
+            "nextDialogs": [
+              "414145802"
+            ]
+          },
+          "414145802": {
+            "id": "414145802",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Flowers... a—as a matter of fact... we at the Barbara Fan Club already have a similar idea.",
+            "nextDialogs": [
+              "414145803"
+            ]
+          },
+          "414145803": {
+            "id": "414145803",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "Sending flowers the old-fashioned way would be too boring, better to come up with something a little more... unique..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141459",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414145901"
+        ],
+        "dialogs": {
+          "414145901": {
+            "id": "414145901",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "I hope Barbara-sama will like what we've prepared...",
+            "nextDialogs": [
+              "414145902"
+            ]
+          },
+          "414145902": {
+            "id": "414145902",
+            "speakerId": 1006,
+            "speakerName": "Albert",
+            "text": "...*sigh* Traveler, what kind of gift do you think moves people the most?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141460",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146001"
+        ],
+        "dialogs": {
+          "414146001": {
+            "id": "414146001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thanks, no need...",
+            "nextDialogs": [
+              "414146002"
+            ]
+          },
+          "414146002": {
+            "id": "414146002",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "Aww, don't be shy."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141461",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146101"
+        ],
+        "dialogs": {
+          "414146101": {
+            "id": "414146101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414146102"
+            ]
+          },
+          "414146102": {
+            "id": "414146102",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "The Windblume Festival had a very solemn meaning once...",
+            "nextDialogs": [
+              "414146103"
+            ]
+          },
+          "414146103": {
+            "id": "414146103",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "But nowadays, many people believe that it's just a time when they send flowers to others and get their feelings across.",
+            "nextDialogs": [
+              "414146104"
+            ]
+          },
+          "414146104": {
+            "id": "414146104",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "Oh? Have someone you'd like to send flowers to, do you? Let me guess... is it me, by any chance?",
+            "nextDialogs": [
+              "414146105"
+            ]
+          },
+          "414146105": {
+            "id": "414146105",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "...Haha, don't be so nervous. I was just joking."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141462",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146201"
+        ],
+        "dialogs": {
+          "414146201": {
+            "id": "414146201",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "Since it's the Windblume Festival, would you like to come to The Cat's Tail and have a few drinks?",
+            "nextDialogs": [
+              "414146202"
+            ]
+          },
+          "414146202": {
+            "id": "414146202",
+            "speakerId": 1019,
+            "speakerName": "Margaret",
+            "text": "I might even give you some flowers... Hehe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141463",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146301"
+        ],
+        "dialogs": {
+          "414146301": {
+            "id": "414146301",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Marla, the Windblume Festival is here, and yet, it holds no meaning for me...",
+            "nextDialogs": [
+              "414146302"
+            ]
+          },
+          "414146302": {
+            "id": "414146302",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "Oh, Marvin, say not that!",
+            "nextDialogs": [
+              "414146303"
+            ]
+          },
+          "414146303": {
+            "id": "414146303",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "We do not have your father's approval, but this time for lovers is ours also...",
+            "nextDialogs": [
+              "414146304"
+            ]
+          },
+          "414146304": {
+            "id": "414146304",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "No, what I mean is that as long as I am with you, every day may as well be the Windblume Festival.",
+            "nextDialogs": [
+              "414146305"
+            ]
+          },
+          "414146305": {
+            "id": "414146305",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "You're right, Marvin. Our love is like the dandelions that bloom on Cape Oath...",
+            "nextDialogs": [
+              "414146306"
+            ]
+          },
+          "414146306": {
+            "id": "414146306",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Marla, no... Our love should not be a thing so fragile...",
+            "nextDialogs": [
+              "414146307"
+            ]
+          },
+          "414146307": {
+            "id": "414146307",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "No, I mean to say that though the dandelions are scattered by the wild winds, their lives will not thusly end.",
+            "nextDialogs": [
+              "414146308"
+            ]
+          },
+          "414146308": {
+            "id": "414146308",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "Dandelion Seeds will fly to distant places, take root, and sprout there... One day, they will cover the length and breadth of Teyvat.",
+            "nextDialogs": [
+              "414146309"
+            ]
+          },
+          "414146309": {
+            "id": "414146309",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Oh, my darling Marla...",
+            "nextDialogs": [
+              "414146310"
+            ]
+          },
+          "414146310": {
+            "id": "414146310",
+            "speakerId": 1015,
+            "speakerName": "Marla",
+            "text": "Oh, Marvin! My love..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141464",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146401"
+        ],
+        "dialogs": {
+          "414146401": {
+            "id": "414146401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll leave you to it, then.",
+            "nextDialogs": [
+              "414146402"
+            ]
+          },
+          "414146402": {
+            "id": "414146402",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Yes, alright. Please don't disturb me any further..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141465",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146501"
+        ],
+        "dialogs": {
+          "414146501": {
+            "id": "414146501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Something on your mind?",
+            "nextDialogs": [
+              "414146502"
+            ]
+          },
+          "414146502": {
+            "id": "414146502",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "I... I have a friend. Yes, a friend...",
+            "nextDialogs": [
+              "414146503"
+            ]
+          },
+          "414146503": {
+            "id": "414146503",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "He's very taken with a certain girl, but unfortunately, she doesn't come from a particularly wealthy family, so my friend's rather worried that his father will oppose their marriage.",
+            "nextDialogs": [
+              "414146504"
+            ]
+          },
+          "414146504": {
+            "id": "414146504",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Thing is, he truly loves that girl and wants her to be his wife.",
+            "nextDialogs": [
+              "414146505"
+            ]
+          },
+          "414146505": {
+            "id": "414146505",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "So I... well, he, is wondering if he should simply come clean with his father...",
+            "nextDialogs": [
+              "414146507",
+              "414146511"
+            ]
+          },
+          "414146507": {
+            "id": "414146507",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Ahem! *cough* D—Don't you say such scurrilous things...",
+            "nextDialogs": [
+              "414146508"
+            ]
+          },
+          "414146508": {
+            "id": "414146508",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Wait a moment, you haven't been sent by the old man to test me, have you?",
+            "nextDialogs": [
+              "414146509"
+            ]
+          },
+          "414146509": {
+            "id": "414146509",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Hmph, whatever. I said nothing. Just go."
+          },
+          "414146511": {
+            "id": "414146511",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Hmm, is that so...",
+            "nextDialogs": [
+              "414146512"
+            ]
+          },
+          "414146512": {
+            "id": "414146512",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "*cough* Ah, uh. I said nothing. You didn't hear anything from me!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141466",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146601"
+        ],
+        "dialogs": {
+          "414146601": {
+            "id": "414146601",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "Ugh, should I tell my father or not?",
+            "nextDialogs": [
+              "414146602"
+            ]
+          },
+          "414146602": {
+            "id": "414146602",
+            "speakerId": 1005,
+            "speakerName": "Marvin",
+            "text": "No, I suppose it would be best if I didn't. But if I don't tell him, I..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141467",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146701"
+        ],
+        "dialogs": {
+          "414146701": {
+            "id": "414146701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you.",
+            "nextDialogs": [
+              "414146702"
+            ]
+          },
+          "414146702": {
+            "id": "414146702",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "*cough* Just go..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141468",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146801"
+        ],
+        "dialogs": {
+          "414146801": {
+            "id": "414146801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Not going to see the sights?",
+            "nextDialogs": [
+              "414146802"
+            ]
+          },
+          "414146802": {
+            "id": "414146802",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "Wh—What? I couldn't possibly do that. I've been tasked by a diplomat to guard the embassy. How could I just desert my post?",
+            "nextDialogs": [
+              "414146803"
+            ]
+          },
+          "414146803": {
+            "id": "414146803",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "*cough* And even if I did want to go for a stroll, I'd have to wait for there to be no one about...",
+            "nextDialogs": [
+              "414146804"
+            ]
+          },
+          "414146804": {
+            "id": "414146804",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "...Hey. Don't you even think of getting me to talk. I won't shirk my duties!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141469",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414146901"
+        ],
+        "dialogs": {
+          "414146901": {
+            "id": "414146901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414146902"
+            ]
+          },
+          "414146902": {
+            "id": "414146902",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "That Viktor keeps saying that this place is as boring as ever, but I can certainly feel the festive atmosphere.",
+            "nextDialogs": [
+              "414146903"
+            ]
+          },
+          "414146903": {
+            "id": "414146903",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "I'll have you know that I take the greatest pleasure from watching the dejection of those imbeciles who confess their feelings come the festival, only to be rejected. Hah...",
+            "nextDialogs": [
+              "414146904"
+            ]
+          },
+          "414146904": {
+            "id": "414146904",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "*cough* But back on topic, there's one thing that I don't get...",
+            "nextDialogs": [
+              "414146905"
+            ]
+          },
+          "414146905": {
+            "id": "414146905",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "...How did this commemorative festival become a day for lovers, anyway?",
+            "nextDialogs": [
+              "414146906"
+            ]
+          },
+          "414146906": {
+            "id": "414146906",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "Is this what the people of Mondstadt call \"freedom\"?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141470",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147001"
+        ],
+        "dialogs": {
+          "414147001": {
+            "id": "414147001",
+            "speakerId": 1020,
+            "speakerName": "Luke",
+            "text": "Mondstadt only really gets interesting during festivals, anyway..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141471",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147101"
+        ],
+        "dialogs": {
+          "414147101": {
+            "id": "414147101",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "Nowadays, no one truly knows what the Windblume is.",
+            "nextDialogs": [
+              "414147102"
+            ]
+          },
+          "414147102": {
+            "id": "414147102",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "There are some who have judged that the flower simply does not exist, save in legend and song only.",
+            "nextDialogs": [
+              "414147103"
+            ]
+          },
+          "414147103": {
+            "id": "414147103",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "The way I see it, Windblumes are real so long as there are those who believe in it.",
+            "nextDialogs": [
+              "414147104"
+            ]
+          },
+          "414147104": {
+            "id": "414147104",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "As to which flower it might be, I think that everyone is free to decide that for themselves.",
+            "nextDialogs": [
+              "414147105"
+            ]
+          },
+          "414147105": {
+            "id": "414147105",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "I believe that this \"freedom to choose\" is what Lord Barbatos would have wished for us to have..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141472",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147201"
+        ],
+        "dialogs": {
+          "414147201": {
+            "id": "414147201",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "Nowadays, no one truly knows what the Windblume is.",
+            "nextDialogs": [
+              "414147202"
+            ]
+          },
+          "414147202": {
+            "id": "414147202",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "There are some who have judged that the flower simply does not exist, save in legend and song only.",
+            "nextDialogs": [
+              "414147203"
+            ]
+          },
+          "414147203": {
+            "id": "414147203",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "The way I see it, Windblumes are real so long as there are those who believe in it.",
+            "nextDialogs": [
+              "414147204"
+            ]
+          },
+          "414147204": {
+            "id": "414147204",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "As to which flower it might be, I think that everyone is free to decide that for themselves.",
+            "nextDialogs": [
+              "414147205"
+            ]
+          },
+          "414147205": {
+            "id": "414147205",
+            "speakerId": 1021,
+            "speakerName": "Grace",
+            "text": "I believe that this \"freedom to choose\" is what Lord Barbatos would have wished for us to have..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141473",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147301"
+        ],
+        "dialogs": {
+          "414147301": {
+            "id": "414147301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "414147302"
+            ]
+          },
+          "414147302": {
+            "id": "414147302",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "A youngster like you should be more energetic. Don't be cold!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141474",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147401"
+        ],
+        "dialogs": {
+          "414147401": {
+            "id": "414147401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, about Stormterror's Lair...",
+            "nextDialogs": [
+              "414147402"
+            ]
+          },
+          "414147402": {
+            "id": "414147402",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "Ah, the Windblume Festival has its origins in Old Mondstadt and the days of the Lord of the Tower. Nowadays, no one knows what the Windblume truly is.",
+            "nextDialogs": [
+              "414147403"
+            ]
+          },
+          "414147403": {
+            "id": "414147403",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "And that is why we explore ancient ruins to uncover the history of resistance in those days. We wish to uncover the truth behind the Windblume.",
+            "nextDialogs": [
+              "414147404"
+            ]
+          },
+          "414147404": {
+            "id": "414147404",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "It is a shame that few young people agree with our views...",
+            "nextDialogs": [
+              "414147405"
+            ]
+          },
+          "414147405": {
+            "id": "414147405",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "If you ask me, the Windblume Festival should be about recounting the era of the Tower of Storms, and the legend of that heroic rebellion, haha!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141475",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147501"
+        ],
+        "dialogs": {
+          "414147501": {
+            "id": "414147501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414147502"
+            ]
+          },
+          "414147502": {
+            "id": "414147502",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "This is a day to remember those heroes who fought for their freedom. It is said that they once used Windblume as their code word...",
+            "nextDialogs": [
+              "414147503"
+            ]
+          },
+          "414147503": {
+            "id": "414147503",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "As to which flower the Windblume really is? Ah, there are as many views as there are people.",
+            "nextDialogs": [
+              "414147504"
+            ]
+          },
+          "414147504": {
+            "id": "414147504",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "To commemorate the courage and sacrifice of those heroes, we go out to search for clues regarding the Windblume each time the festival rolls back around.",
+            "nextDialogs": [
+              "414147505"
+            ]
+          },
+          "414147505": {
+            "id": "414147505",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "Over many years of searching, I have come to believe more and more that the Windblume is the Windwheel Aster!",
+            "nextDialogs": [
+              "414147506"
+            ]
+          },
+          "414147506": {
+            "id": "414147506",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The Windwheel Aster?",
+            "nextDialogs": [
+              "414147507"
+            ]
+          },
+          "414147507": {
+            "id": "414147507",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "Yes! Don't you think so, too?",
+            "nextDialogs": [
+              "414147508"
+            ]
+          },
+          "414147508": {
+            "id": "414147508",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "Compared to the dandelion, the Windwheel Asters that turn with the wind are the true symbol of Mondstadt's freedom and the soul of the Windblume Festival!",
+            "nextDialogs": [
+              "414147509"
+            ]
+          },
+          "414147509": {
+            "id": "414147509",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "It's just that we lack concrete evidence with which to convince other people..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141476",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147601"
+        ],
+        "dialogs": {
+          "414147601": {
+            "id": "414147601",
+            "speakerId": 1022,
+            "speakerName": "Cyrus",
+            "text": "Well then! It's the Windblume Festival. What do you say to going to Stormterror's Lair to search for clues regarding the Windblume?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141477",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147701"
+        ],
+        "dialogs": {
+          "414147701": {
+            "id": "414147701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you around.",
+            "nextDialogs": [
+              "414147702"
+            ]
+          },
+          "414147702": {
+            "id": "414147702",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Happy Windblume Festival!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141478",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147801"
+        ],
+        "dialogs": {
+          "414147801": {
+            "id": "414147801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414147802"
+            ]
+          },
+          "414147802": {
+            "id": "414147802",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "When we speak of the Windblume Festival, the topic of the Windblume's legend is an inevitable one.",
+            "nextDialogs": [
+              "414147803"
+            ]
+          },
+          "414147803": {
+            "id": "414147803",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "The Windblume Festival has its origins in Old Mondstadt, and people all have their own opinions concerning the true identity of the Windblume.",
+            "nextDialogs": [
+              "414147804"
+            ]
+          },
+          "414147804": {
+            "id": "414147804",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "At the moment, the two most popular must be the \"Dandelionite\" and \"Asterist\" schools of thought.",
+            "nextDialogs": [
+              "414147805"
+            ]
+          },
+          "414147805": {
+            "id": "414147805",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Of course, there are those who believe that neither of these is the true Windblume...",
+            "nextDialogs": [
+              "414147807",
+              "414147812"
+            ]
+          },
+          "414147807": {
+            "id": "414147807",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Oh, they believe that the Dandelion is the Windblume. I believe that this is the most mainstream line of thinking.",
+            "nextDialogs": [
+              "414147808"
+            ]
+          },
+          "414147808": {
+            "id": "414147808",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "The Dandelionites believe that the Windblume Festival is a festival for lovers and that they should express their love with the most extravagant sincerity during this time.",
+            "nextDialogs": [
+              "414147809"
+            ]
+          },
+          "414147809": {
+            "id": "414147809",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Passionate people in love will often travel to Cape Oath and express their feelings for one another amid the billowing Dandelions and profuse Cecilias...",
+            "nextDialogs": [
+              "414147810"
+            ]
+          },
+          "414147810": {
+            "id": "414147810",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "It's all rather romantic, wouldn't you say?"
+          },
+          "414147812": {
+            "id": "414147812",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Those who believe that the Windwheel Aster is the Windblume are certainly not few, but they are not as numerous as those who believe it is the Dandelion.",
+            "nextDialogs": [
+              "414147813"
+            ]
+          },
+          "414147813": {
+            "id": "414147813",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "They believe that the liberation of Old Mondstadt from tyranny should be at the heart of the festival...",
+            "nextDialogs": [
+              "414147814"
+            ]
+          },
+          "414147814": {
+            "id": "414147814",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "...And that instead of celebrating love, this festival is more suited to remembrance.",
+            "nextDialogs": [
+              "414147815"
+            ]
+          },
+          "414147815": {
+            "id": "414147815",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "If you think about it, this view does have its merits as well...",
+            "nextDialogs": [
+              "414147816"
+            ]
+          },
+          "414147816": {
+            "id": "414147816",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "But it isn't the majority. I guess people just want to have a relaxing, good time during the festive season..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141479",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414147901"
+        ],
+        "dialogs": {
+          "414147901": {
+            "id": "414147901",
+            "speakerId": 1023,
+            "speakerName": "Lawrence",
+            "text": "Welcome to Mondstadt — make sure you don't miss out on the Windblume Festival."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141480",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148001"
+        ],
+        "dialogs": {
+          "414148001": {
+            "id": "414148001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I've got other things to attend to.",
+            "nextDialogs": [
+              "414148002"
+            ]
+          },
+          "414148002": {
+            "id": "414148002",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "I see. Be careful out there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141481",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148101"
+        ],
+        "dialogs": {
+          "414148101": {
+            "id": "414148101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414148102"
+            ]
+          },
+          "414148102": {
+            "id": "414148102",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "Oh, my, if it isn't the Windblume Festival again. The youth of the city have come out to play.",
+            "nextDialogs": [
+              "414148103"
+            ]
+          },
+          "414148103": {
+            "id": "414148103",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "Haha. I wonder what flower shall be offered up to the Anemo Archon this year? Will it still be a Dandelion?",
+            "nextDialogs": [
+              "414148104"
+            ]
+          },
+          "414148104": {
+            "id": "414148104",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "When I was a young man, I used to enjoy debating the identity of the Windblume as well. I was quite the dyed-in-the-wool Dandelionite.",
+            "nextDialogs": [
+              "414148105"
+            ]
+          },
+          "414148105": {
+            "id": "414148105",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "Come to think of it, my wife and I met during the Windblume Festival. It was truly love at first sight...",
+            "nextDialogs": [
+              "414148106"
+            ]
+          },
+          "414148106": {
+            "id": "414148106",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "*sigh* How the years have gone by since then..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141482",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148201"
+        ],
+        "dialogs": {
+          "414148201": {
+            "id": "414148201",
+            "speakerId": 1024,
+            "speakerName": "Goth",
+            "text": "#Excuse me, {M#sir}{F#ma'am}? ...Oh, er, I mean hey there, friend! Why, this work mode of mine... So, care for a chat?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141483",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148301"
+        ],
+        "dialogs": {
+          "414148301": {
+            "id": "414148301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you.",
+            "nextDialogs": [
+              "414148302"
+            ]
+          },
+          "414148302": {
+            "id": "414148302",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "Okay, goodbye!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141484",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148401"
+        ],
+        "dialogs": {
+          "414148401": {
+            "id": "414148401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's with the long face?",
+            "nextDialogs": [
+              "414148402"
+            ]
+          },
+          "414148402": {
+            "id": "414148402",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "Ah, it's just a shame. Mondstadt is so... well, it's peaceful, but maybe it's too much so.",
+            "nextDialogs": [
+              "414148403"
+            ]
+          },
+          "414148403": {
+            "id": "414148403",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "*sigh* If only I'd been born in the days of Old Mondstadt *hic* ...just maybe...",
+            "nextDialogs": [
+              "414148404"
+            ]
+          },
+          "414148404": {
+            "id": "414148404",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "How is one to become a hero in such days of peace?",
+            "nextDialogs": [
+              "414148406",
+              "414148411"
+            ]
+          },
+          "414148406": {
+            "id": "414148406",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "Well, that certainly was an opportunity, but...",
+            "nextDialogs": [
+              "414148407"
+            ]
+          },
+          "414148407": {
+            "id": "414148407",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "Wait. Are you trying to ask me what I was doing during the Stormterror Crisis?",
+            "nextDialogs": [
+              "414148408"
+            ]
+          },
+          "414148408": {
+            "id": "414148408",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "I... I'll have you know that I was doing a sweeping survey of all of Mondstadt's safety blind spots!",
+            "nextDialogs": [
+              "414148409"
+            ]
+          },
+          "414148409": {
+            "id": "414148409",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "*cough* I mean, it's all water under the bridge now, isn't it? Let's not dredge it up anymore, hahaha..."
+          },
+          "414148411": {
+            "id": "414148411",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "I... well... I mean, Snezhnaya is, after all, an ally of Mondstadt's...",
+            "nextDialogs": [
+              "414148412"
+            ]
+          },
+          "414148412": {
+            "id": "414148412",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "I couldn't possibly cause a diplomatic incident just like that, could I?",
+            "nextDialogs": [
+              "414148413"
+            ]
+          },
+          "414148413": {
+            "id": "414148413",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "*cough* I guess I should just find some other way to do this..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141485",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148501"
+        ],
+        "dialogs": {
+          "414148501": {
+            "id": "414148501",
+            "speakerId": 1025,
+            "speakerName": "Bruce",
+            "text": "Ah, the Windblume Festival... How I envy those heroes who left their mark on history..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141486",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148601"
+        ],
+        "dialogs": {
+          "414148601": {
+            "id": "414148601",
+            "speakerId": 1026,
+            "speakerName": "Donna",
+            "text": "I wonder who will have the honor of offering the Windblume to Lord Barbatos this year?",
+            "nextDialogs": [
+              "414148602"
+            ]
+          },
+          "414148602": {
+            "id": "414148602",
+            "speakerId": 1026,
+            "speakerName": "Donna",
+            "text": "Ah, I'm so envious. If only I could be the one. Everyone's eyes would be on me...",
+            "nextDialogs": [
+              "414148603"
+            ]
+          },
+          "414148603": {
+            "id": "414148603",
+            "speakerId": 1026,
+            "speakerName": "Donna",
+            "text": "(And who knows? Maybe Diluc might notice me if I'm the one offering flowers...)",
+            "nextDialogs": [
+              "414148604"
+            ]
+          },
+          "414148604": {
+            "id": "414148604",
+            "speakerId": 1026,
+            "speakerName": "Donna",
+            "text": "(That would be so wonderful... Oh gosh, he's all I can think about, isn't he...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141487",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148701"
+        ],
+        "dialogs": {
+          "414148701": {
+            "id": "414148701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I've got to go.",
+            "nextDialogs": [
+              "414148702"
+            ]
+          },
+          "414148702": {
+            "id": "414148702",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "I hope you'll enjoy yourself during the Windblume festivities."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141488",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148801"
+        ],
+        "dialogs": {
+          "414148801": {
+            "id": "414148801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival...",
+            "nextDialogs": [
+              "414148802"
+            ]
+          },
+          "414148802": {
+            "id": "414148802",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "The Windblume Festival is an ancient tradition of Mondstadt's. A day for freedom and romance.",
+            "nextDialogs": [
+              "414148803"
+            ]
+          },
+          "414148803": {
+            "id": "414148803",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "When we speak of Windblume Festival tradition, I suppose it's about giving the \"Windblume\" in your heart to the person who's the most important to you, hehe.",
+            "nextDialogs": [
+              "414148804"
+            ]
+          },
+          "414148804": {
+            "id": "414148804",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "As to what flower the Windblume actually is, everyone's got their own opinions.",
+            "nextDialogs": [
+              "414148805"
+            ]
+          },
+          "414148805": {
+            "id": "414148805",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "Well, that's freedom for you, hehe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141489",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414148901"
+        ],
+        "dialogs": {
+          "414148901": {
+            "id": "414148901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'd like to buy some flowers.",
+            "nextDialogs": [
+              "414148902"
+            ]
+          },
+          "414148902": {
+            "id": "414148902",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "Certainly. We have a fine selection, whether you're looking to give a bouquet to someone or even do some gardening yourself."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141490",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149001"
+        ],
+        "dialogs": {
+          "414149001": {
+            "id": "414149001",
+            "speakerId": 1027,
+            "speakerName": "Flora",
+            "text": "Welcome to Floral Whisper. Are you looking to get someone a bouquet? It's the Windblume Festival, after all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141491",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149101"
+        ],
+        "dialogs": {
+          "414149101": {
+            "id": "414149101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "414149102"
+            ]
+          },
+          "414149102": {
+            "id": "414149102",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "Take care, and make sure to enjoy the Windblume Festival!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141492",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149201"
+        ],
+        "dialogs": {
+          "414149201": {
+            "id": "414149201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Windblume Festival and adventurers...",
+            "nextDialogs": [
+              "414149202"
+            ]
+          },
+          "414149202": {
+            "id": "414149202",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "A lot of couples will choose to have dates at Cape Oath, but there are some brave adventurer couples who will venture near Stormterror's Lair.",
+            "nextDialogs": [
+              "414149203"
+            ]
+          },
+          "414149203": {
+            "id": "414149203",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "That area is simply crawling with monsters, so many adventurers will come here to purchase new equipment...",
+            "nextDialogs": [
+              "414149204"
+            ]
+          },
+          "414149204": {
+            "id": "414149204",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "...After all, if you were to be beaten by monsters in that place, you wouldn't just lose face — you'd be putting your companion in danger, too...",
+            "nextDialogs": [
+              "414149205"
+            ]
+          },
+          "414149205": {
+            "id": "414149205",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "So each time the Windblume Festival rolls around, we smiths run brisker business than usual, so I suppose we can be thankful for that."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141493",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149301"
+        ],
+        "dialogs": {
+          "414149301": {
+            "id": "414149301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you have to sell?",
+            "nextDialogs": [
+              "414149302"
+            ]
+          },
+          "414149302": {
+            "id": "414149302",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "Take your pick from this selection. All Master's own handiwork, so you won't find any second-rate items here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141494",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149401"
+        ],
+        "dialogs": {
+          "414149401": {
+            "id": "414149401",
+            "speakerId": 1028,
+            "speakerName": "Schulz",
+            "text": "Well, by the looks of you, I'd say you're an adventurer! Not going to stock up on some new equipment?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141495",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149501"
+        ],
+        "dialogs": {
+          "414149501": {
+            "id": "414149501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "See you.",
+            "nextDialogs": [
+              "414149502"
+            ]
+          },
+          "414149502": {
+            "id": "414149502",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "*hic* A... Another!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141496",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149601"
+        ],
+        "dialogs": {
+          "414149601": {
+            "id": "414149601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Who's she?",
+            "nextDialogs": [
+              "414149602"
+            ]
+          },
+          "414149602": {
+            "id": "414149602",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Oh, you mean Bea?",
+            "nextDialogs": [
+              "414149603"
+            ]
+          },
+          "414149603": {
+            "id": "414149603",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Dunno what she's thinking.",
+            "nextDialogs": [
+              "414149604"
+            ]
+          },
+          "414149604": {
+            "id": "414149604",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Ever since the Windblume Festival began, she's been bugging me about Cape Oath and heart-shaped Sunsettias...",
+            "nextDialogs": [
+              "414149605"
+            ]
+          },
+          "414149605": {
+            "id": "414149605",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Sunsettias of that kind just don't exist...",
+            "nextDialogs": [
+              "414149606"
+            ]
+          },
+          "414149606": {
+            "id": "414149606",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "You'd agree, right? *hic*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141497",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149701"
+        ],
+        "dialogs": {
+          "414149701": {
+            "id": "414149701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Who are you?",
+            "nextDialogs": [
+              "414149702"
+            ]
+          },
+          "414149702": {
+            "id": "414149702",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "*hic* Oh, it's you...",
+            "nextDialogs": [
+              "414149703"
+            ]
+          },
+          "414149703": {
+            "id": "414149703",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "That's right. I'm Quinn of Quinn's Fruit. My booth is at...",
+            "nextDialogs": [
+              "414149704"
+            ]
+          },
+          "414149704": {
+            "id": "414149704",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Fresh fruits only at... Quinn's Fruit...",
+            "nextDialogs": [
+              "414149705"
+            ]
+          },
+          "414149705": {
+            "id": "414149705",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Wait... Have we met before?",
+            "nextDialogs": [
+              "414149706"
+            ]
+          },
+          "414149706": {
+            "id": "414149706",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "(I'm feeling light-headed...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141498",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149801"
+        ],
+        "dialogs": {
+          "414149801": {
+            "id": "414149801",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Even if she's a close friend, my resolve won't be shaken... *hic*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141499",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414149901"
+        ],
+        "dialogs": {
+          "414149901": {
+            "id": "414149901",
+            "speakerId": 1030,
+            "speakerName": "Beatrice",
+            "text": "I'm being serious, there really are heart-shaped Sunsettias around Cape Oath...",
+            "nextDialogs": [
+              "414149902"
+            ]
+          },
+          "414149902": {
+            "id": "414149902",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Bea, your eyes must have been playing tricks on you. Sunsettias just don't grow into that shape. It's against the laws of nature.",
+            "nextDialogs": [
+              "414149903"
+            ]
+          },
+          "414149903": {
+            "id": "414149903",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "And even if they did exist, there's no way that they could be sweeter than the ones I'm already selling.",
+            "nextDialogs": [
+              "414149904"
+            ]
+          },
+          "414149904": {
+            "id": "414149904",
+            "speakerId": 1030,
+            "speakerName": "Beatrice",
+            "text": "Well, why don't we just go over to Cape Oath to have a look? It won't take long...",
+            "nextDialogs": [
+              "414149905"
+            ]
+          },
+          "414149905": {
+            "id": "414149905",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "No. This has to do with my convictions! Using visual attraction to sell fruit is just a cheap trick. I would never do that.",
+            "nextDialogs": [
+              "414149906"
+            ]
+          },
+          "414149906": {
+            "id": "414149906",
+            "speakerId": 1030,
+            "speakerName": "Beatrice",
+            "text": "...Oh come on, why won't you just get it already...",
+            "nextDialogs": [
+              "414149907"
+            ]
+          },
+          "414149907": {
+            "id": "414149907",
+            "speakerId": 1029,
+            "speakerName": "Quinn",
+            "text": "Hmm? Come again?",
+            "nextDialogs": [
+              "414149908"
+            ]
+          },
+          "414149908": {
+            "id": "414149908",
+            "speakerId": 1030,
+            "speakerName": "Beatrice",
+            "text": "*cough* Uh, nothing... Come on, just consider it for a second!"
+          }
+        }
+      }
+    }
+  ]
+}

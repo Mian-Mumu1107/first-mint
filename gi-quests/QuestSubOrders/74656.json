@@ -1,0 +1,101 @@
+{
+  "lineCounts": {
+    "Ismenor": 6,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7465601",
+      "subQuestName": "Give 5 Bulle Fruit to Ismenor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746560101"
+        ],
+        "dialogs": {
+          "746560101": {
+            "id": "746560101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Bulle Fruit...",
+            "nextDialogs": [
+              "746560102"
+            ]
+          },
+          "746560102": {
+            "id": "746560102",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "Ah, my young friend, have you brought any Bulle Fruit? Please, share it with me, and we can eat while we talk.",
+            "nextDialogs": [
+              "746560103"
+            ]
+          },
+          "746560103": {
+            "id": "746560103",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "Statues are wordless poems, so one shouldn't appreciate them on an empty stomach. A duelist told me so, during the final duel of his life.",
+            "nextDialogs": [
+              "746560105"
+            ]
+          },
+          "746560105": {
+            "id": "746560105",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "I even did as advised, and set aside some Mora to thank you for the Bulle Fruit. I suppose I should wait until you've got the fruit to give it to you..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465602",
+      "subQuestName": "Talk to Ismenor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746560201"
+        ],
+        "dialogs": {
+          "746560201": {
+            "id": "746560201",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "Thank you. Looking at your expression, you seem interested in that duelist? Well, it was a long time ago...",
+            "nextDialogs": [
+              "746560202"
+            ]
+          },
+          "746560202": {
+            "id": "746560202",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "(Falls into a pensive state)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465601",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746560107"
+        ],
+        "dialogs": {
+          "746560107": {
+            "id": "746560107",
+            "speakerId": 1000,
+            "speakerName": "Ismenor",
+            "text": "Are you out here on a stroll as well?"
+          }
+        }
+      }
+    }
+  ]
+}

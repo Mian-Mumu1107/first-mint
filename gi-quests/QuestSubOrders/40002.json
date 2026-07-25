@@ -1,0 +1,621 @@
+{
+  "lineCounts": {
+    "???": 4,
+    "Huixin": 15,
+    "Jiayi": 5,
+    "Paimon": 22,
+    "Player": 4
+  },
+  "subQuests": [
+    {
+      "subId": "4000201",
+      "subQuestName": "(test) Paimon talking",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000202",
+      "subQuestName": "Go to Xiao Market",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400020201"
+        ],
+        "dialogs": {
+          "400020201": {
+            "id": "400020201",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "Oh, hello you two. Many thanks for your donation to Lantern Rite.",
+            "nextDialogs": [
+              "400020202"
+            ]
+          },
+          "400020202": {
+            "id": "400020202",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "Today, I have another matter to discuss with you. Not a donation this time; more of a sales and purchase situation. Interested?",
+            "nextDialogs": [
+              "400020203"
+            ]
+          },
+          "400020203": {
+            "id": "400020203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Sure beats working for free, like last time! Paimon's interested.",
+            "nextDialogs": [
+              "400020204"
+            ]
+          },
+          "400020204": {
+            "id": "400020204",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "Haha, wonderful! I appreciate the help. Now, let me explain the situation...",
+            "nextDialogs": [
+              "400020205"
+            ]
+          },
+          "400020205": {
+            "id": "400020205",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "I need two kinds of Plaustrite for official festival use.",
+            "nextDialogs": [
+              "400020206"
+            ]
+          },
+          "400020206": {
+            "id": "400020206",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "One is called Azurite. It is occasionally found in the northern part of Mt. Tianheng.",
+            "nextDialogs": [
+              "400020207"
+            ]
+          },
+          "400020207": {
+            "id": "400020207",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "When Azurite gets caught in the roots of ordinary vegetation, it sometimes produces Bloatty Floatties, which have floating seeds.",
+            "nextDialogs": [
+              "400020208"
+            ]
+          },
+          "400020208": {
+            "id": "400020208",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "The other one is called Vermillionite, which is extremely dangerous as far as most people are concerned...",
+            "nextDialogs": [
+              "400020209"
+            ]
+          },
+          "400020209": {
+            "id": "400020209",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "In Guili Plains, old Ruin Hunters who have lost the power of flight use Vermillionite to keep themselves airborne.",
+            "nextDialogs": [
+              "400020210"
+            ]
+          },
+          "400020210": {
+            "id": "400020210",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Got it! So, Azurite and Vermillionite, right?",
+            "nextDialogs": [
+              "400020211"
+            ]
+          },
+          "400020211": {
+            "id": "400020211",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "(Actually, they're just blue and red varieties of Plaustrite... Gemstone merchants only gave them fancy names to try and impress their customers...)",
+            "nextDialogs": [
+              "400020212"
+            ]
+          },
+          "400020212": {
+            "id": "400020212",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "That's right. Please get some of each for me. Good luck!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000203",
+      "subQuestName": "Obtain Azurite from Bloatty Floatties",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000204",
+      "subQuestName": "Obtain Vermillionite from the Ruin Hunter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000216",
+      "subQuestName": "In mission. Can't go back (hide)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000205",
+      "subQuestName": "Go back to Xiao Market and talk to Huixin",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400020501"
+        ],
+        "dialogs": {
+          "400020501": {
+            "id": "400020501",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "Ooh... These are some fine pieces of Azurite and Vermillionite!",
+            "nextDialogs": [
+              "400020502"
+            ]
+          },
+          "400020502": {
+            "id": "400020502",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "My thanks to you both. Here's your payment.",
+            "nextDialogs": [
+              "400020503"
+            ]
+          },
+          "400020503": {
+            "id": "400020503",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "None of your efforts are wasted. Every piece adds that bit more luster and color to Lantern Rite.",
+            "nextDialogs": [
+              "400020504"
+            ]
+          },
+          "400020504": {
+            "id": "400020504",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "Since you're staying in Liyue during the festival, make sure to keep an eye on the Mingxiao Lantern.",
+            "nextDialogs": [
+              "400020505"
+            ]
+          },
+          "400020505": {
+            "id": "400020505",
+            "speakerId": 1000,
+            "speakerName": "Huixin",
+            "text": "As the work progresses, the construction site at the harbor will become more and more magnificent to behold.",
+            "nextDialogs": [
+              "400020506"
+            ]
+          },
+          "400020506": {
+            "id": "400020506",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Sounds fascinating. {NICKNAME}, how about we take a look now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000206",
+      "subQuestName": "Have a look at the construction site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000207",
+      "subQuestName": "Talk to Paimon (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400020701"
+        ],
+        "dialogs": {
+          "400020701": {
+            "id": "400020701",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...Look, over there! That guy's acting very suspicious, don't you think?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000208",
+      "subQuestName": "Talk to the suspicious person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400020801"
+        ],
+        "dialogs": {
+          "400020801": {
+            "id": "400020801",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Hey, whatcha doin'?",
+            "nextDialogs": [
+              "400020802"
+            ]
+          },
+          "400020802": {
+            "id": "400020802",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Whatcha staring at me like that for? Get gone!",
+            "nextDialogs": [
+              "400020803"
+            ]
+          },
+          "400020803": {
+            "id": "400020803",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Wha— Huh?",
+            "nextDialogs": [
+              "400020804"
+            ]
+          },
+          "400020804": {
+            "id": "400020804",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "...Alright, if you all won't get gone, I'm just gonna get going myself I guess...",
+            "nextDialogs": [
+              "400020805"
+            ]
+          },
+          "400020805": {
+            "id": "400020805",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow. Paimon thought he might be a shady character, then he opened his mouth and now Paimon's sure of it!",
+            "nextDialogs": [
+              "400020806"
+            ]
+          },
+          "400020806": {
+            "id": "400020806",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "He must have been up to something when he was crouching down on the ground. Because as soon as he saw us approaching, he stood up and acted all innocent...",
+            "nextDialogs": [
+              "400020807"
+            ]
+          },
+          "400020807": {
+            "id": "400020807",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, Paimon has a bad feeling about this...",
+            "nextDialogs": [
+              "400020808"
+            ]
+          },
+          "400020808": {
+            "id": "400020808",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What could he be up to? Let's investigate!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000209",
+      "subQuestName": "Investigate around the stockpile",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400020901"
+        ],
+        "dialogs": {
+          "400020901": {
+            "id": "400020901",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, look.",
+            "nextDialogs": [
+              "400020902"
+            ]
+          },
+          "400020902": {
+            "id": "400020902",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "This area is full of construction supplies for the Mingxiao Lantern: paper, oil, wood..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000210",
+      "subQuestName": "（test）在材料区调查",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400021001"
+        ],
+        "dialogs": {
+          "400021001": {
+            "id": "400021001",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "On the final day of the Lantern Rite festival, huge crowds come out to watch the Mingxiao Lantern being released.",
+            "nextDialogs": [
+              "400021002"
+            ]
+          },
+          "400021002": {
+            "id": "400021002",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It can't be a good sign if there's a suspicious character lurking around somewhere so dangerous.",
+            "nextDialogs": [
+              "400021003"
+            ]
+          },
+          "400021003": {
+            "id": "400021003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If he's been tampering with the stockpile of lantern supplies...",
+            "nextDialogs": [
+              "400021401"
+            ]
+          },
+          "400021401": {
+            "id": "400021401",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "This is a matter for the authorities! Quick, let's go to the Liyue Ministry of Civil Affairs and report it at once!",
+            "nextDialogs": [
+              "400021406"
+            ]
+          },
+          "400021406": {
+            "id": "400021406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Paimon, you're taking this very seriously. Why?",
+            "nextDialogs": [
+              "400021407"
+            ]
+          },
+          "400021407": {
+            "id": "400021407",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Because... Because... Everyone in Liyue has worked really hard for this! No-one should be allowed to spoil it, period!",
+            "nextDialogs": [
+              "400021408"
+            ]
+          },
+          "400021408": {
+            "id": "400021408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...What's the real reason?",
+            "nextDialogs": [
+              "400021409"
+            ]
+          },
+          "400021409": {
+            "id": "400021409",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Because... Near the harbor is that Zhongyuan Chop Suey place! Take one bite, hooked for life! The original and best!",
+            "nextDialogs": [
+              "400021410"
+            ]
+          },
+          "400021410": {
+            "id": "400021410",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Clearly their marketing campaigns have been effective.",
+            "nextDialogs": [
+              "400021411"
+            ]
+          },
+          "400021411": {
+            "id": "400021411",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ehehehe..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000211",
+      "subQuestName": "（test）在材料区调查",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400021101"
+        ],
+        "dialogs": {
+          "400021101": {
+            "id": "400021101",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "（test）这么多纸，万一烧起来的话…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000212",
+      "subQuestName": "Investigate around the stockpile",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000213",
+      "subQuestName": "In mission. Can't go back (hide)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000214",
+      "subQuestName": "Talk to Paimon (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000215",
+      "subQuestName": "Talk to the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400021501"
+        ],
+        "dialogs": {
+          "400021501": {
+            "id": "400021501",
+            "speakerId": 1003,
+            "speakerName": "Jiayi",
+            "text": "Hold up! This is the Liyue Ministry of Civil Affairs.",
+            "nextDialogs": [
+              "400021502"
+            ]
+          },
+          "400021502": {
+            "id": "400021502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We are here to report some suspicious activity.",
+            "nextDialogs": [
+              "400021503"
+            ]
+          },
+          "400021503": {
+            "id": "400021503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, we saw a shady-looking guy snooping around near the stockpile of highly flammable Mingxiao Lantern supplies!",
+            "nextDialogs": [
+              "400021504"
+            ]
+          },
+          "400021504": {
+            "id": "400021504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We absolutely cannot let this be the end of Zhongyuan Chop Suey!",
+            "nextDialogs": [
+              "400021505"
+            ]
+          },
+          "400021505": {
+            "id": "400021505",
+            "speakerId": 1003,
+            "speakerName": "Jiayi",
+            "text": "Hmm, goodness! This is a serious matter indeed.",
+            "nextDialogs": [
+              "400021506"
+            ]
+          },
+          "400021506": {
+            "id": "400021506",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Exactly what Paimon thought! Liyue Harbor's cuisine is the heart and soul of the city—",
+            "nextDialogs": [
+              "400021507"
+            ]
+          },
+          "400021507": {
+            "id": "400021507",
+            "speakerId": 1003,
+            "speakerName": "Jiayi",
+            "text": "...It seems we disagree on where the seriousness of the matter lies. But you're not wrong, my little friend.",
+            "nextDialogs": [
+              "400021508"
+            ]
+          },
+          "400021508": {
+            "id": "400021508",
+            "speakerId": 1003,
+            "speakerName": "Jiayi",
+            "text": "I have noted your concerns and will pass them on diligently to my superiors.",
+            "nextDialogs": [
+              "400021509"
+            ]
+          },
+          "400021509": {
+            "id": "400021509",
+            "speakerId": 1003,
+            "speakerName": "Jiayi",
+            "text": "Thank you. You were right to report this.",
+            "nextDialogs": [
+              "400021510"
+            ]
+          },
+          "400021510": {
+            "id": "400021510",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Make sure it's given top priority! It needs to be dealt with properly!"
+          }
+        }
+      }
+    }
+  ]
+}

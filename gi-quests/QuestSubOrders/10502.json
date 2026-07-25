@@ -1,0 +1,806 @@
+{
+  "lineCounts": {
+    "Goth": 7,
+    "Katheryne": 6,
+    "Klee": 26,
+    "Mona": 61,
+    "Paimon": 16,
+    "Player": 27
+  },
+  "subQuests": [
+    {
+      "subId": "1050201",
+      "subQuestName": "Reach Mondstadt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020101"
+        ],
+        "dialogs": {
+          "105020101": {
+            "id": "105020101",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Are you ready? Don't shame your master now — we're about to meet that successor.",
+            "nextDialogs": [
+              "105020104"
+            ]
+          },
+          "105020104": {
+            "id": "105020104",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "I guess... Wait, no! It won't do if you have no idea at all, even if you are a fake disciple.",
+            "nextDialogs": [
+              "105020105"
+            ]
+          },
+          "105020105": {
+            "id": "105020105",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "We have a rule that forbids us from teaching outsiders, but I suppose... I suppose I could teach you.",
+            "nextDialogs": [
+              "105020106"
+            ]
+          },
+          "105020106": {
+            "id": "105020106",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "My astrology is based on hydromancy, and as the name suggests, I use the reflections in water bodies to observe the true starry sky.",
+            "nextDialogs": [
+              "105020107"
+            ]
+          },
+          "105020107": {
+            "id": "105020107",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Allow me to demonstrate. Watch closely now.",
+            "nextDialogs": [
+              "105020108"
+            ]
+          },
+          "105020108": {
+            "id": "105020108",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "From the present station and movement of the stars... I see, so that successor is a young... female... Knight of Favonius.",
+            "nextDialogs": [
+              "105020109"
+            ]
+          },
+          "105020109": {
+            "id": "105020109",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Doesn't that sound like... Lisa?",
+            "nextDialogs": [
+              "105020110"
+            ]
+          },
+          "105020110": {
+            "id": "105020110",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "We will meet her here presently.",
+            "nextDialogs": [
+              "105020111"
+            ]
+          },
+          "105020111": {
+            "id": "105020111",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Well, that's all the information we need."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050202",
+      "subQuestName": "Talk to Mona, prepare to meet the successor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050203",
+      "subQuestName": "Catch up with Klee and retrieve the box",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020301"
+        ],
+        "dialogs": {
+          "105020301": {
+            "id": "105020301",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Found it! It's this box.",
+            "nextDialogs": [
+              "105020302"
+            ]
+          },
+          "105020302": {
+            "id": "105020302",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Glad it wasn't damaged in the explosions.",
+            "nextDialogs": [
+              "105020303"
+            ]
+          },
+          "105020303": {
+            "id": "105020303",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Retrieval complete! Let's bring it back!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050204",
+      "subQuestName": "Talk to Klee and retrieve the box",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020201"
+        ],
+        "dialogs": {
+          "105020201": {
+            "id": "105020201",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "We're heeere! This is it. Let's dig it up!",
+            "nextDialogs": [
+              "105020204"
+            ]
+          },
+          "105020204": {
+            "id": "105020204",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "It can't be. I put up a sign here. There's no mistake—",
+            "nextDialogs": [
+              "105020205"
+            ]
+          },
+          "105020205": {
+            "id": "105020205",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Argh! Dendro Slimes!",
+            "nextDialogs": [
+              "105020206"
+            ]
+          },
+          "105020206": {
+            "id": "105020206",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yup. Dendro Slimes.",
+            "nextDialogs": [
+              "105020207"
+            ]
+          },
+          "105020207": {
+            "id": "105020207",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "*sigh* We can talk later, let's take them out first!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050205",
+      "subQuestName": "Defeat the attacking Dendro Slimes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020501"
+        ],
+        "dialogs": {
+          "105020501": {
+            "id": "105020501",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "About Mona's background and her quandary...",
+            "nextDialogs": [
+              "105020502"
+            ]
+          },
+          "105020502": {
+            "id": "105020502",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "I see. I understand the situation.",
+            "nextDialogs": [
+              "105020503"
+            ]
+          },
+          "105020503": {
+            "id": "105020503",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "There is a <color=#00E1FFFF>magic laboratory</color> in Mondstadt that has been sealed by some unknown person.",
+            "nextDialogs": [
+              "105020504"
+            ]
+          },
+          "105020504": {
+            "id": "105020504",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "Although we have a few specialists who could break the seal, they all have their own labs, and aren't that interested in the matter.",
+            "nextDialogs": [
+              "105020505"
+            ]
+          },
+          "105020505": {
+            "id": "105020505",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "I believe that if the astrologist you mentioned can break the seal, the owner of that house wouldn't mind if she stayed there.",
+            "nextDialogs": [
+              "105020508"
+            ]
+          },
+          "105020508": {
+            "id": "105020508",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "Alright. Then, allow me to tell you where the house is."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050206",
+      "subQuestName": "Talk to Klee and retrieve the box",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050207",
+      "subQuestName": "Accompany Klee to return the box to Mona",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020401"
+        ],
+        "dialogs": {
+          "105020401": {
+            "id": "105020401",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "You're back at last. The wait was exceedingly dull.",
+            "nextDialogs": [
+              "105020402"
+            ]
+          },
+          "105020402": {
+            "id": "105020402",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "I had intended to read a book to pass the time, but this one was just some ridiculous diary. Nothing of note in it at all.",
+            "nextDialogs": [
+              "105020403"
+            ]
+          },
+          "105020403": {
+            "id": "105020403",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "It dropped from Klee's backpack, so I thought it might contain some ancient knowledge, but...",
+            "nextDialogs": [
+              "105020404"
+            ]
+          },
+          "105020404": {
+            "id": "105020404",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Never mind that. So, did you find the box?",
+            "nextDialogs": [
+              "105020405"
+            ]
+          },
+          "105020405": {
+            "id": "105020405",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "We did. It's in perfect shape!",
+            "nextDialogs": [
+              "105020406"
+            ]
+          },
+          "105020406": {
+            "id": "105020406",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "That's wonderful— Wait a moment... Wh—Why isn't it locked!? And... why is it empty!?",
+            "nextDialogs": [
+              "105020407"
+            ]
+          },
+          "105020407": {
+            "id": "105020407",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ehhh!?",
+            "nextDialogs": [
+              "105020408"
+            ]
+          },
+          "105020408": {
+            "id": "105020408",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Well... it's because I borrowed this box to store my treasures.",
+            "nextDialogs": [
+              "105020409"
+            ]
+          },
+          "105020409": {
+            "id": "105020409",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Borrowed!?",
+            "nextDialogs": [
+              "105020410"
+            ]
+          },
+          "105020410": {
+            "id": "105020410",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "But since you're here for the box, I took all my treasures out. That's why it's empty.",
+            "nextDialogs": [
+              "105020411"
+            ]
+          },
+          "105020411": {
+            "id": "105020411",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "You used it to store your things!? Th—Then where are the original contents of the box? That's what I want.",
+            "nextDialogs": [
+              "105020412"
+            ]
+          },
+          "105020412": {
+            "id": "105020412",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Oh. You want the thing that used to be in the box? ...You should've said so.",
+            "nextDialogs": [
+              "105020413"
+            ]
+          },
+          "105020413": {
+            "id": "105020413",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "You haven't... broken it, have you?",
+            "nextDialogs": [
+              "105020414"
+            ]
+          },
+          "105020414": {
+            "id": "105020414",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "No! It's not broken at all!",
+            "nextDialogs": [
+              "105020415"
+            ]
+          },
+          "105020415": {
+            "id": "105020415",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Phew...",
+            "nextDialogs": [
+              "105020416"
+            ]
+          },
+          "105020416": {
+            "id": "105020416",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "It's the book in your hand.",
+            "nextDialogs": [
+              "105020417"
+            ]
+          },
+          "105020417": {
+            "id": "105020417",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Whaaaaaaat—!?",
+            "nextDialogs": [
+              "105020418"
+            ]
+          },
+          "105020418": {
+            "id": "105020418",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Th—This... So this book, this diary... is that hag's... It's her diary from 50 years ago!?",
+            "nextDialogs": [
+              "105020419"
+            ]
+          },
+          "105020419": {
+            "id": "105020419",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "The thing she wanted back after 50 years was the dark history of her youth?",
+            "nextDialogs": [
+              "105020420"
+            ]
+          },
+          "105020420": {
+            "id": "105020420",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Ah, I'm finished! No wonder... No wonder that old woman said that I should not look at it no matter what, or she'd rip me to shreds...",
+            "nextDialogs": [
+              "105020421"
+            ]
+          },
+          "105020421": {
+            "id": "105020421",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Am... Am I in trouble?",
+            "nextDialogs": [
+              "105020422"
+            ]
+          },
+          "105020422": {
+            "id": "105020422",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Ah! It was you who said you wanted the box. You didn't say anything about the thing inside!",
+            "nextDialogs": [
+              "105020423"
+            ]
+          },
+          "105020423": {
+            "id": "105020423",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "I don't know anything. I'm leaving! Bye!",
+            "nextDialogs": [
+              "105020426"
+            ]
+          },
+          "105020426": {
+            "id": "105020426",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Umm... Well, if you don't say anything, your master won't find out, will she?",
+            "nextDialogs": [
+              "105020427"
+            ]
+          },
+          "105020427": {
+            "id": "105020427",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Impossible. Astrology can see through all lies — you've seen it yourself.",
+            "nextDialogs": [
+              "105020428"
+            ]
+          },
+          "105020428": {
+            "id": "105020428",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "*sigh* After having spent all my Mora to come to Mondstadt, not only have I gained no knowledge, but now I can't return... How did it come to this...",
+            "nextDialogs": [
+              "105020429"
+            ]
+          },
+          "105020429": {
+            "id": "105020429",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's so sad... Maybe you could forget everything in that book, and then go back?",
+            "nextDialogs": [
+              "105020430"
+            ]
+          },
+          "105020430": {
+            "id": "105020430",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "That's... too difficult. And even if I wanted to stay in Mondstadt, it would be..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050208",
+      "subQuestName": "Speak to Katheryne and help Mona find a place to stay",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050209",
+      "subQuestName": "Head to the magical laboratory and check the seal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1050211",
+      "subQuestName": "Talk to Mona",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020601"
+        ],
+        "dialogs": {
+          "105020601": {
+            "id": "105020601",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "The person who placed this seal... is by no means simple. Breaking this seal by force is nigh on impossible.",
+            "nextDialogs": [
+              "105020602"
+            ]
+          },
+          "105020602": {
+            "id": "105020602",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Interesting. I suppose it's worth using my astrology on.",
+            "nextDialogs": [
+              "105020603"
+            ]
+          },
+          "105020603": {
+            "id": "105020603",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Let me see... Hmm, I see, so if you first... ...and then you...",
+            "nextDialogs": [
+              "105020604"
+            ]
+          },
+          "105020604": {
+            "id": "105020604",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Alright, it's open.",
+            "nextDialogs": [
+              "105020605"
+            ]
+          },
+          "105020605": {
+            "id": "105020605",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Holy moly, that's amazing!",
+            "nextDialogs": [
+              "105020606"
+            ]
+          },
+          "105020606": {
+            "id": "105020606",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Now we just need to go back to Katheryne, and you'll be able to stay here!",
+            "nextDialogs": [
+              "105020607"
+            ]
+          },
+          "105020607": {
+            "id": "105020607",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "No need, no need, you have my utmost thanks.",
+            "nextDialogs": [
+              "105020608"
+            ]
+          },
+          "105020608": {
+            "id": "105020608",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "You are...?",
+            "nextDialogs": [
+              "105020609"
+            ]
+          },
+          "105020609": {
+            "id": "105020609",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "Oh, I'm Goth, the owner of this house. I passed by the Adventurers' Guild a while back, and Katheryne told me about the matter.",
+            "nextDialogs": [
+              "105020610"
+            ]
+          },
+          "105020610": {
+            "id": "105020610",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "I never thought this troublesome seal would be dispelled so quickly!",
+            "nextDialogs": [
+              "105020611"
+            ]
+          },
+          "105020611": {
+            "id": "105020611",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Does that mean I can stay here?",
+            "nextDialogs": [
+              "105020612"
+            ]
+          },
+          "105020612": {
+            "id": "105020612",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "Of course, of course. The facilities inside were just being left there, anyway. I would be glad to have someone make use of them.",
+            "nextDialogs": [
+              "105020613"
+            ]
+          },
+          "105020613": {
+            "id": "105020613",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "To express my thanks, I shall rent this building to you at the lowest possible price!",
+            "nextDialogs": [
+              "105020614"
+            ]
+          },
+          "105020614": {
+            "id": "105020614",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "R—Rent?",
+            "nextDialogs": [
+              "105020615"
+            ]
+          },
+          "105020615": {
+            "id": "105020615",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "I didn't hear anything about rent, and I helped out, too...",
+            "nextDialogs": [
+              "105020616"
+            ]
+          },
+          "105020616": {
+            "id": "105020616",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "Yes, of course, I understand. I am most thankful to you for that, so rest assured that I will give you the best rates!",
+            "nextDialogs": [
+              "105020617"
+            ]
+          },
+          "105020617": {
+            "id": "105020617",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "I... I mean...",
+            "nextDialogs": [
+              "105020618"
+            ]
+          },
+          "105020618": {
+            "id": "105020618",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon thinks Mona's misunderstood something, but...",
+            "nextDialogs": [
+              "105020621"
+            ]
+          },
+          "105020621": {
+            "id": "105020621",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "*sigh* I guess I don't have any other choice. I'll rent this place.",
+            "nextDialogs": [
+              "105020622"
+            ]
+          },
+          "105020622": {
+            "id": "105020622",
+            "speakerId": 1004,
+            "speakerName": "Goth",
+            "text": "Great! Then we are agreed. I will go prepare the documentation, please wait here.",
+            "nextDialogs": [
+              "105020623"
+            ]
+          },
+          "105020623": {
+            "id": "105020623",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Thanks for your help. Also, well, I'm very sorry, but I won't be able to do what I agreed to help you with just yet.",
+            "nextDialogs": [
+              "105020624"
+            ]
+          },
+          "105020624": {
+            "id": "105020624",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "Without the necessary tools, and without new knowledge, it will take me some time to see your destiny clearly.",
+            "nextDialogs": [
+              "105020625"
+            ]
+          },
+          "105020625": {
+            "id": "105020625",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "But I promise that I'll do a reading for you first thing once I'm ready!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1050207",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "105020701"
+        ],
+        "dialogs": {
+          "105020701": {
+            "id": "105020701",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "That box is really important to me...",
+            "nextDialogs": [
+              "105020702"
+            ]
+          },
+          "105020702": {
+            "id": "105020702",
+            "speakerId": 1000,
+            "speakerName": "Mona",
+            "text": "If anything were to happen to it, I wouldn't be able to report back to that old crone..."
+          }
+        }
+      }
+    }
+  ]
+}

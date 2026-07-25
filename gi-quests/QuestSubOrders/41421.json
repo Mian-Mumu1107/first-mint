@@ -1,0 +1,844 @@
+{
+  "lineCounts": {
+    "Connor": 8,
+    "Endora": 28,
+    "Katheryne": 4,
+    "Old Finch": 9,
+    "Paimon": 24,
+    "Player": 9,
+    "Strange Life-Form": 1
+  },
+  "subQuests": [
+    {
+      "subId": "4142101",
+      "subQuestName": "Go to the Mondstadt Adventurers' Guild and talk to Katheryne",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210101"
+        ],
+        "dialogs": {
+          "414210101": {
+            "id": "414210101",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Hello there, Traveler. How have things been?",
+            "nextDialogs": [
+              "414210102"
+            ]
+          },
+          "414210102": {
+            "id": "414210102",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Has something strange happened again, Katheryne?",
+            "nextDialogs": [
+              "414210103"
+            ]
+          },
+          "414210103": {
+            "id": "414210103",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Compared to previous major incidents, this one is not the most peculiar. However, it is still quite serious, as it risks having a great impact on Mondstadt's economy.",
+            "nextDialogs": [
+              "414210106"
+            ]
+          },
+          "414210106": {
+            "id": "414210106",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Recently, the bodies of water near the winery have turned bitter without any warning. If this persists, Mondstadt's wine industry may be wiped out in just a few years.",
+            "nextDialogs": [
+              "414210107"
+            ]
+          },
+          "414210107": {
+            "id": "414210107",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "For more details, please speak with Connor at the winery."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142102",
+      "subQuestName": "Go to Dawn Winery and speak to Connor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210201"
+        ],
+        "dialogs": {
+          "414210201": {
+            "id": "414210201",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "Are you the people sent by the Adventurers' Guild?",
+            "nextDialogs": [
+              "414210202"
+            ]
+          },
+          "414210202": {
+            "id": "414210202",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's us!",
+            "nextDialogs": [
+              "414210203"
+            ]
+          },
+          "414210203": {
+            "id": "414210203",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "Well, that's a relief. Now, as for the matter at hand — rather than listening to me explain it, you may as well experience it for yourselves.",
+            "nextDialogs": [
+              "414210204"
+            ]
+          },
+          "414210204": {
+            "id": "414210204",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "This is a bottle of water that we drew just recently. It is hygienic, don't worry — we've put it through its purification paces. Have a taste and see.",
+            "nextDialogs": [
+              "414210205"
+            ]
+          },
+          "414210205": {
+            "id": "414210205",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, oh, Paimon wants some too, Paimon wants a try!",
+            "nextDialogs": [
+              "414210206"
+            ]
+          },
+          "414210206": {
+            "id": "414210206",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Let's take a sip...)",
+            "nextDialogs": [
+              "414210207"
+            ]
+          },
+          "414210207": {
+            "id": "414210207",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ugh! Blergh! It's so bitter...",
+            "nextDialogs": [
+              "414210208"
+            ]
+          },
+          "414210208": {
+            "id": "414210208",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "This bitterness cannot be removed via conventional purification processes, so it's not an issue of the water's composition. I suspect it must be some mysterious elemental phenomenon.",
+            "nextDialogs": [
+              "414210209"
+            ]
+          },
+          "414210209": {
+            "id": "414210209",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "As such, this water can't be used to make wine at all.",
+            "nextDialogs": [
+              "414210210"
+            ]
+          },
+          "414210210": {
+            "id": "414210210",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That must've been tough for the nearby fish as well, right?",
+            "nextDialogs": [
+              "414210211"
+            ]
+          },
+          "414210211": {
+            "id": "414210211",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "We tried cooking some of the fish killed by the bitter water. All the food we made turned out bitter, too.",
+            "nextDialogs": [
+              "414210212"
+            ]
+          },
+          "414210212": {
+            "id": "414210212",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon... hadn't quite thought that far.",
+            "nextDialogs": [
+              "414210213"
+            ]
+          },
+          "414210213": {
+            "id": "414210213",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "Anyway, that's the situation. If you're looking for somewhere to start, my gut tells me you should investigate northward. Additionally, I wonder if Liyue's Bishui River or the waters of Qingce Village have been affected..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142103",
+      "subQuestName": "Follow the body of water northwest and investigate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4142104",
+      "subQuestName": "Defeat the Hydro Slimes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4142105",
+      "subQuestName": "Talk to the strange life-form",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210501"
+        ],
+        "dialogs": {
+          "414210501": {
+            "id": "414210501",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Look, there was something inside it...",
+            "nextDialogs": [
+              "414210502"
+            ]
+          },
+          "414210502": {
+            "id": "414210502",
+            "speakerId": 1003,
+            "speakerName": "Strange Life-Form",
+            "text": "Endora... no water... dying...",
+            "nextDialogs": [
+              "414210503"
+            ]
+          },
+          "414210503": {
+            "id": "414210503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Endora... Is that your name?",
+            "nextDialogs": [
+              "414210504"
+            ]
+          },
+          "414210504": {
+            "id": "414210504",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Bitterness... an enemy. It will kill... Endora.",
+            "nextDialogs": [
+              "414210505"
+            ]
+          },
+          "414210505": {
+            "id": "414210505",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, um, so what can we do to save you?",
+            "nextDialogs": [
+              "414210506"
+            ]
+          },
+          "414210506": {
+            "id": "414210506",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Need... sweet water. Must go to... spring.",
+            "nextDialogs": [
+              "414210507"
+            ]
+          },
+          "414210507": {
+            "id": "414210507",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora... need water to move. No water. Nowhere to go.",
+            "nextDialogs": [
+              "414210508"
+            ]
+          },
+          "414210508": {
+            "id": "414210508",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "How are we going to get this thing to a spring?",
+            "nextDialogs": [
+              "414210509"
+            ]
+          },
+          "414210509": {
+            "id": "414210509",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, we've got a bottle right here.",
+            "nextDialogs": [
+              "414210510"
+            ]
+          },
+          "414210510": {
+            "id": "414210510",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But it's bitter too, isn't it?",
+            "nextDialogs": [
+              "414210511"
+            ]
+          },
+          "414210511": {
+            "id": "414210511",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora... can endure. But... not for long.",
+            "nextDialogs": [
+              "414210512"
+            ]
+          },
+          "414210512": {
+            "id": "414210512",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Guess we can't afford to hang around, then. Let's get to a fresh spring, and quick!",
+            "nextDialogs": [
+              "414210513"
+            ]
+          },
+          "414210513": {
+            "id": "414210513",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Still, it's kinda interesting how Endora was able to make it this far off the back of a Hydro Slime. Kinda like our relationship, huh?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142106",
+      "subQuestName": "Return to Springvale",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210601"
+        ],
+        "dialogs": {
+          "414210601": {
+            "id": "414210601",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Water here... sweet. Endora finds... same species.",
+            "nextDialogs": [
+              "414210602"
+            ]
+          },
+          "414210602": {
+            "id": "414210602",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora and... same species, make the water sweet. Bitterness... Rhodeia's doing.",
+            "nextDialogs": [
+              "414210603"
+            ]
+          },
+          "414210603": {
+            "id": "414210603",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Same species? Oh, that's right, doesn't Springvale have a legend of a spring fairy or something?",
+            "nextDialogs": [
+              "414210604"
+            ]
+          },
+          "414210604": {
+            "id": "414210604",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But first things first, let's get rid of the bitter water from our bottle and refill it from the spring."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142107",
+      "subQuestName": "Approach the spring in Springvale",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210701"
+        ],
+        "dialogs": {
+          "414210701": {
+            "id": "414210701",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "...Who are you?",
+            "nextDialogs": [
+              "414210702"
+            ]
+          },
+          "414210702": {
+            "id": "414210702",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa, hang on a moment, Endora, you can't just run out by yourself like that!",
+            "nextDialogs": [
+              "414210703"
+            ]
+          },
+          "414210703": {
+            "id": "414210703",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "I am Endora. I am a Lochfolk.",
+            "nextDialogs": [
+              "414210704"
+            ]
+          },
+          "414210704": {
+            "id": "414210704",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait, that's right! This guy is supposed to be one of the real believers in the spring fairy's existence.",
+            "nextDialogs": [
+              "414210705"
+            ]
+          },
+          "414210705": {
+            "id": "414210705",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "...Mm-hmm.",
+            "nextDialogs": [
+              "414210706"
+            ]
+          },
+          "414210706": {
+            "id": "414210706",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "You're the spitting image of her. Just a fair bit smaller.",
+            "nextDialogs": [
+              "414210707"
+            ]
+          },
+          "414210707": {
+            "id": "414210707",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora... still small! Endora... still learning.",
+            "nextDialogs": [
+              "414210708"
+            ]
+          },
+          "414210708": {
+            "id": "414210708",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "Well, your appearance proves to me that she was real. It wasn't just a dream.",
+            "nextDialogs": [
+              "414210709"
+            ]
+          },
+          "414210709": {
+            "id": "414210709",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "She is still here. Name... unknown. She will not answer Endora.",
+            "nextDialogs": [
+              "414210710"
+            ]
+          },
+          "414210710": {
+            "id": "414210710",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora... wants to talk to her. Can take a message. What do you want to say?",
+            "nextDialogs": [
+              "414210711"
+            ]
+          },
+          "414210711": {
+            "id": "414210711",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "You're saying she's been here all this time? And you can give her a message for me?",
+            "nextDialogs": [
+              "414210712"
+            ]
+          },
+          "414210712": {
+            "id": "414210712",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Yes. Yes.",
+            "nextDialogs": [
+              "414210713"
+            ]
+          },
+          "414210713": {
+            "id": "414210713",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "...Hmm.",
+            "nextDialogs": [
+              "414210714"
+            ]
+          },
+          "414210714": {
+            "id": "414210714",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "I'm so old now, I...",
+            "nextDialogs": [
+              "414210715"
+            ]
+          },
+          "414210715": {
+            "id": "414210715",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "...Tell her I said hello."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142108",
+      "subQuestName": "Talk to Endora",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414210801"
+        ],
+        "dialogs": {
+          "414210801": {
+            "id": "414210801",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "...",
+            "nextDialogs": [
+              "414210802"
+            ]
+          },
+          "414210802": {
+            "id": "414210802",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "She said some... strange things. Endora does not understand.",
+            "nextDialogs": [
+              "414210803"
+            ]
+          },
+          "414210803": {
+            "id": "414210803",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "The stream... hmm... I did not understand. Asked, received no reply.",
+            "nextDialogs": [
+              "414210804"
+            ]
+          },
+          "414210804": {
+            "id": "414210804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Perhaps your vocabulary could use a little more breadth.",
+            "nextDialogs": [
+              "414210805"
+            ]
+          },
+          "414210805": {
+            "id": "414210805",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Guess the spring fairy must have her reasons for not wanting to meet us.",
+            "nextDialogs": [
+              "414210806"
+            ]
+          },
+          "414210806": {
+            "id": "414210806",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "I do not... understand. Lochfolk like to join together.",
+            "nextDialogs": [
+              "414210807"
+            ]
+          },
+          "414210807": {
+            "id": "414210807",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "She is... one mind. All alone.",
+            "nextDialogs": [
+              "414210808"
+            ]
+          },
+          "414210808": {
+            "id": "414210808",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Maybe it's because other creatures can't fit in with you.",
+            "nextDialogs": [
+              "414210809"
+            ]
+          },
+          "414210809": {
+            "id": "414210809",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Oh? Why not?",
+            "nextDialogs": [
+              "414210810"
+            ]
+          },
+          "414210810": {
+            "id": "414210810",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, we'd drown for starters!",
+            "nextDialogs": [
+              "414210811"
+            ]
+          },
+          "414210811": {
+            "id": "414210811",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "You are lonely... We love all... We love all people.",
+            "nextDialogs": [
+              "414210812"
+            ]
+          },
+          "414210812": {
+            "id": "414210812",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Ah!",
+            "nextDialogs": [
+              "414210813"
+            ]
+          },
+          "414210813": {
+            "id": "414210813",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Eh? What's going on?",
+            "nextDialogs": [
+              "414210814"
+            ]
+          },
+          "414210814": {
+            "id": "414210814",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Rhodeia's gaze... near the Stone Gate! Small water animals. Her scouts.",
+            "nextDialogs": [
+              "414210815"
+            ]
+          },
+          "414210815": {
+            "id": "414210815",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Water animals? We saw some Oceanid Creatures 'round here once, didn't we?",
+            "nextDialogs": [
+              "414210818"
+            ]
+          },
+          "414210818": {
+            "id": "414210818",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Powerful water... changes shape into animals. Very dangerous. But joining with them... we learn new things.",
+            "nextDialogs": [
+              "414210819"
+            ]
+          },
+          "414210819": {
+            "id": "414210819",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Take me there. Rhodeia is uneasy. Rhodeia... makes water bitter. Endora will learn to speak. Explain to her.",
+            "nextDialogs": [
+              "414210820"
+            ]
+          },
+          "414210820": {
+            "id": "414210820",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So you're saying that you can help us, then?",
+            "nextDialogs": [
+              "414210821"
+            ]
+          },
+          "414210821": {
+            "id": "414210821",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Yes. Yes.",
+            "nextDialogs": [
+              "414210822"
+            ]
+          },
+          "414210822": {
+            "id": "414210822",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Well, {NICKNAME}, it's worth a shot. We don't have any other clues, anyway."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142109",
+      "subQuestName": "Help Endora capture Oceanid Creatures",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4142110",
+      "subQuestName": "Talk to Endora",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414211001"
+        ],
+        "dialogs": {
+          "414211001": {
+            "id": "414211001",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "I have found something!",
+            "nextDialogs": [
+              "414211002"
+            ]
+          },
+          "414211002": {
+            "id": "414211002",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa, you're speaking fluently all of a sudden!",
+            "nextDialogs": [
+              "414211003"
+            ]
+          },
+          "414211003": {
+            "id": "414211003",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "My grasp of language has expanded from merging with those Oceanid Creatures. I can now comprehend the message from Springvale.",
+            "nextDialogs": [
+              "414211004"
+            ]
+          },
+          "414211004": {
+            "id": "414211004",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "\"The stream of life flows on.\" It's a little melancholic. A short but enigmatic poem. I don't understand it.",
+            "nextDialogs": [
+              "414211005"
+            ]
+          },
+          "414211005": {
+            "id": "414211005",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Maybe you'll figure it out in the future.",
+            "nextDialogs": [
+              "414211006"
+            ]
+          },
+          "414211006": {
+            "id": "414211006",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Endora still has much to learn.",
+            "nextDialogs": [
+              "414211007"
+            ]
+          },
+          "414211007": {
+            "id": "414211007",
+            "speakerId": 1004,
+            "speakerName": "Endora",
+            "text": "Rhodeia has been going wild lately. I must face her, and perhaps we can solve the problem that way."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142152",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414215201"
+        ],
+        "dialogs": {
+          "414215201": {
+            "id": "414215201",
+            "speakerId": 1002,
+            "speakerName": "Connor",
+            "text": "There doesn't seem to be anything wrong with the water from Dragonspine or Springvale. The problem probably stems from Liyue."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4142157",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414215701"
+        ],
+        "dialogs": {
+          "414215701": {
+            "id": "414215701",
+            "speakerId": 1005,
+            "speakerName": "Old Finch",
+            "text": "She is real, after all. But why does she no longer speak?"
+          }
+        }
+      }
+    }
+  ]
+}

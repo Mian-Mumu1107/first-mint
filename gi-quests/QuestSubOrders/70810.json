@@ -1,0 +1,1370 @@
+{
+  "lineCounts": {
+    "Charles": 21,
+    "Flora": 17,
+    "Player": 29,
+    "Sara": 18,
+    "Viktor": 46
+  },
+  "subQuests": [
+    {
+      "subId": "7081001",
+      "subQuestName": "Talk to Viktor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081002",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100201"
+        ],
+        "dialogs": {
+          "708100201": {
+            "id": "708100201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you sell any Mondstadt specialties?",
+            "nextDialogs": [
+              "708100202"
+            ]
+          },
+          "708100202": {
+            "id": "708100202",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Mondstadt's specialties? What can I say, every last one of our dishes is unique to Mondstadt.",
+            "nextDialogs": [
+              "708100203"
+            ]
+          },
+          "708100203": {
+            "id": "708100203",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "However, most of them have a short shelf life, and are by no means convenient items to bring on a long trip.",
+            "nextDialogs": [
+              "708100204"
+            ]
+          },
+          "708100204": {
+            "id": "708100204",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "We can of course cook them differently to make them more suitable for travel and storage, but it comes at a significant compromise in taste and quality.",
+            "nextDialogs": [
+              "708100205"
+            ]
+          },
+          "708100205": {
+            "id": "708100205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Doesn't bother me.",
+            "nextDialogs": [
+              "708100206"
+            ]
+          },
+          "708100206": {
+            "id": "708100206",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Alright then, if you insist.",
+            "nextDialogs": [
+              "708100207"
+            ]
+          },
+          "708100207": {
+            "id": "708100207",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "But if this is intended as a gift, I'd advise you to cook a fresh batch of whatever you choose — everything here has been sat out for a while.",
+            "nextDialogs": [
+              "708100208"
+            ]
+          },
+          "708100208": {
+            "id": "708100208",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Might I ask where your friend is from? Perhaps I can make a recommendation.",
+            "nextDialogs": [
+              "708100210",
+              "708100212"
+            ]
+          },
+          "708100210": {
+            "id": "708100210",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Wow, that's a long way from here. I need to be careful with my choice of ingredients.",
+            "nextDialogs": [
+              "708100213"
+            ]
+          },
+          "708100213": {
+            "id": "708100213",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Hmm, I know nothing of Snezhnayan tastes, but I do know a dish that caters to all tastes.",
+            "nextDialogs": [
+              "708100214"
+            ]
+          },
+          "708100214": {
+            "id": "708100214",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Make me a Satisfying Salad and I will process it for you to make it more durable.",
+            "nextDialogs": [
+              "708100215"
+            ]
+          },
+          "708100215": {
+            "id": "708100215",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Huh, you know something, I can't actually remember the last time I had to get the tools for this job out of the cupboard."
+          },
+          "708100212": {
+            "id": "708100212",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "The F—Fatui? You mean the ones from Snezhnaya? ...Your social circle is broad, to put it mildly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081003",
+      "subQuestName": "Make a Satisfying Salad and give it to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100301"
+        ],
+        "dialogs": {
+          "708100301": {
+            "id": "708100301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the specialty dish...",
+            "nextDialogs": [
+              "708100302"
+            ]
+          },
+          "708100302": {
+            "id": "708100302",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "How's the Satisfying Salad coming along? I'm ready when you are, just bring it right here when it's done."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081004",
+      "subQuestName": "Make a Satisfying Salad and give it to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100311"
+        ],
+        "dialogs": {
+          "708100311": {
+            "id": "708100311",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Uh-oh, this Satisfying Salad is somewhat... unsatisfactory...",
+            "nextDialogs": [
+              "708100312"
+            ]
+          },
+          "708100312": {
+            "id": "708100312",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Why don't you have another try?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081005",
+      "subQuestName": "Make a Satisfying Salad and give it to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100321"
+        ],
+        "dialogs": {
+          "708100321": {
+            "id": "708100321",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "This Satisfying Salad is not bad at all.",
+            "nextDialogs": [
+              "708100322"
+            ]
+          },
+          "708100322": {
+            "id": "708100322",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "As discussed, here's your specialty dish."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081006",
+      "subQuestName": "Make a Satisfying Salad and give it to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100331"
+        ],
+        "dialogs": {
+          "708100331": {
+            "id": "708100331",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "This Satisfying Salad is not bad at all.",
+            "nextDialogs": [
+              "708100332"
+            ]
+          },
+          "708100332": {
+            "id": "708100332",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "As discussed, here's your specialty dish."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081007",
+      "subQuestName": "Talk to Flora",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100401"
+        ],
+        "dialogs": {
+          "708100401": {
+            "id": "708100401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you sell any Mondstadt specialties?",
+            "nextDialogs": [
+              "708100402"
+            ]
+          },
+          "708100402": {
+            "id": "708100402",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Specialties? You're looking for a gift? Hmm, but I only sell flowers, which don't stay fresh for very long. They'll wilt very quickly.",
+            "nextDialogs": [
+              "708100403"
+            ]
+          },
+          "708100403": {
+            "id": "708100403",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "The only other thing I can think of is to make a flower bookmark. I sometimes make them as gifts for my friends.",
+            "nextDialogs": [
+              "708100404"
+            ]
+          },
+          "708100404": {
+            "id": "708100404",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "They aren't worth a lot in monetary terms, but maybe they have some sentimental value... If you're interested, I suppose I can make one for you.",
+            "nextDialogs": [
+              "708100405"
+            ]
+          },
+          "708100405": {
+            "id": "708100405",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "But first, you must answer my question. Answer correctly, and I will make a bookmark for you.",
+            "nextDialogs": [
+              "708100406"
+            ]
+          },
+          "708100406": {
+            "id": "708100406",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "It's a very easy question. Here goes: Is the Dandelion a flower?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081008",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100501"
+        ],
+        "dialogs": {
+          "708100501": {
+            "id": "708100501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes.",
+            "nextDialogs": [
+              "708100502"
+            ]
+          },
+          "708100502": {
+            "id": "708100502",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Wow, you answered that so quickly! Hoo-hoo, you certainly know a flower when you see one.",
+            "nextDialogs": [
+              "708100503"
+            ]
+          },
+          "708100503": {
+            "id": "708100503",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Here you go, here's your bookmark. Handmade by me from a dried Windwheel Aster. If this doesn't count as a Mondstadt specialty, I don't know what does!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081009",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100601"
+        ],
+        "dialogs": {
+          "708100601": {
+            "id": "708100601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No.",
+            "nextDialogs": [
+              "708100602"
+            ]
+          },
+          "708100602": {
+            "id": "708100602",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "...Wrong! Actually, Dandelions are flowers. Don't you know a flower when you see one?",
+            "nextDialogs": [
+              "708100603"
+            ]
+          },
+          "708100603": {
+            "id": "708100603",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Hmph. Well, I'm not giving you a bookmark that easily. Not to someone who's such an ignoramus on horticulture.",
+            "nextDialogs": [
+              "708100604"
+            ]
+          },
+          "708100604": {
+            "id": "708100604",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "I'll make you a deal. If you bring me some Dandelion Seeds, I'll trade them for the bookmark.",
+            "nextDialogs": [
+              "708100605"
+            ]
+          },
+          "708100605": {
+            "id": "708100605",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Also, promise me that while you're collecting the seeds, you'll repeat this in your head: \"Dandelions are flowers, Dandelions are flowers\"!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081010",
+      "subQuestName": "Collect Dandelion Seed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101001"
+        ],
+        "dialogs": {
+          "708101001": {
+            "id": "708101001",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "The ingredients definitely should have arrived by now... I hope nothing's happened. Perhaps you could go check up on the delivery?",
+            "nextDialogs": [
+              "708101002"
+            ]
+          },
+          "708101002": {
+            "id": "708101002",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Don't worry, whatever happens, I will try to find some way of making a Mondstadt specialty beverage for you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081011",
+      "subQuestName": "Give the Dandelion Seeds to Flora",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100801"
+        ],
+        "dialogs": {
+          "708100801": {
+            "id": "708100801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About these Dandelion flowers...",
+            "nextDialogs": [
+              "708100802"
+            ]
+          },
+          "708100802": {
+            "id": "708100802",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Have you got the Dandelion Seeds?",
+            "nextDialogs": [
+              "708100803"
+            ]
+          },
+          "708100803": {
+            "id": "708100803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I have them here.",
+            "nextDialogs": [
+              "708100804"
+            ]
+          },
+          "708100804": {
+            "id": "708100804",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Yep, that's them! Great. And in return, here's your bookmark.",
+            "nextDialogs": [
+              "708100805"
+            ]
+          },
+          "708100805": {
+            "id": "708100805",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "Flower bookmarks are very fragile, and very easily lost. I'll box it for you, just don't go opening it unless you have to.",
+            "nextDialogs": [
+              "708100806"
+            ]
+          },
+          "708100806": {
+            "id": "708100806",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "It's a shame you can't make bookmarks out of Dandelion Seeds..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081012",
+      "subQuestName": "Talk to Charles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100901"
+        ],
+        "dialogs": {
+          "708100901": {
+            "id": "708100901",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Hello? May I help?",
+            "nextDialogs": [
+              "708100902"
+            ]
+          },
+          "708100902": {
+            "id": "708100902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you sell any Mondstadt specialties?",
+            "nextDialogs": [
+              "708100903"
+            ]
+          },
+          "708100903": {
+            "id": "708100903",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "You're looking to buy some wine? Hmm, you seem underage to me.",
+            "nextDialogs": [
+              "708100904"
+            ]
+          },
+          "708100904": {
+            "id": "708100904",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's for a friend.",
+            "nextDialogs": [
+              "708100905"
+            ]
+          },
+          "708100905": {
+            "id": "708100905",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Oh, it's for a friend, is it? So you'll take it back to your \"friend,\" and then your \"friend\" will kindly invite you to share a drink with them, is that right?",
+            "nextDialogs": [
+              "708100906"
+            ]
+          },
+          "708100906": {
+            "id": "708100906",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "You can forget about purchasing alcohol — but, if you were genuinely here to purchase a Mondstadt specialty, we do have another beverage that might suit your requirements.",
+            "nextDialogs": [
+              "708100907"
+            ]
+          },
+          "708100907": {
+            "id": "708100907",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Ah, except... the only thing is, some of the ingredients that it's mixed with haven't arrived yet.",
+            "nextDialogs": [
+              "708100908"
+            ]
+          },
+          "708100908": {
+            "id": "708100908",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "They definitely should have arrived by now... I hope nothing's happened. Perhaps you could go check up on the delivery?",
+            "nextDialogs": [
+              "708100910",
+              "708100912"
+            ]
+          },
+          "708100910": {
+            "id": "708100910",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Much obliged.",
+            "nextDialogs": [
+              "708100913"
+            ]
+          },
+          "708100913": {
+            "id": "708100913",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Don't worry, whatever happens, I will try to find some way of making a Mondstadt specialty beverage for you."
+          },
+          "708100912": {
+            "id": "708100912",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Just salvage whatever you can and bring it back here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081013",
+      "subQuestName": "Retrieve the cocktail ingredients",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101301"
+        ],
+        "dialogs": {
+          "708101301": {
+            "id": "708101301",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Ah, back from your intrepid adventure, I see... So, what did you manage to find?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081014",
+      "subQuestName": "Defeat all the slimes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081015",
+      "subQuestName": "Talk to Charles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101201"
+        ],
+        "dialogs": {
+          "708101201": {
+            "id": "708101201",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "What's the situation?",
+            "nextDialogs": [
+              "708101202"
+            ]
+          },
+          "708101202": {
+            "id": "708101202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The cart is wrecked.",
+            "nextDialogs": [
+              "708101203"
+            ]
+          },
+          "708101203": {
+            "id": "708101203",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "This was all you managed to salvage, was it? Never mind, I'll raise it with Master Diluc next time he's here.",
+            "nextDialogs": [
+              "708101204"
+            ]
+          },
+          "708101204": {
+            "id": "708101204",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "These monster attacks are going to impact business at the tavern if they continue much longer.",
+            "nextDialogs": [
+              "708101205"
+            ]
+          },
+          "708101205": {
+            "id": "708101205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Here's what I managed to salvage.",
+            "nextDialogs": [
+              "708101206"
+            ]
+          },
+          "708101206": {
+            "id": "708101206",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "*sigh* Thanks... It's a shame, you know, this was my first time ordering these particular ingredients. I had planned on experimenting around with some new cocktails.",
+            "nextDialogs": [
+              "708101207"
+            ]
+          },
+          "708101207": {
+            "id": "708101207",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Alright, now to make you a Mondstadt special, let's see what we have here... Okay, I should be able to work with these. One moment."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081016",
+      "subQuestName": "Talk to Viktor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101811"
+        ],
+        "dialogs": {
+          "708101811": {
+            "id": "708101811",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's all.",
+            "nextDialogs": [
+              "708101812"
+            ]
+          },
+          "708101812": {
+            "id": "708101812",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Alright. Good, in fact, because I don't have anything else I can share with you without getting both of us in trouble.",
+            "nextDialogs": [
+              "708101813"
+            ]
+          },
+          "708101813": {
+            "id": "708101813",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Unless you have any other business, you'd better leave me alone now. I need to be available in case something suddenly comes up that needs my attention.",
+            "nextDialogs": [
+              "708101814"
+            ]
+          },
+          "708101814": {
+            "id": "708101814",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "*sigh* When will I get to head home?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081017",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101501"
+        ],
+        "dialogs": {
+          "708101501": {
+            "id": "708101501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Give Good Hunter's Specialty Dish)",
+            "nextDialogs": [
+              "708101502"
+            ]
+          },
+          "708101502": {
+            "id": "708101502",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Food? But dried for ease of transport, not bad... I'll bet it doesn't taste great, though.",
+            "nextDialogs": [
+              "708101503"
+            ]
+          },
+          "708101503": {
+            "id": "708101503",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Still counts as a Mondstadt specialty though! Haha, yes, I'll definitely find someone back home to give this to.",
+            "nextDialogs": [
+              "708101504"
+            ]
+          },
+          "708101504": {
+            "id": "708101504",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Nice job, you're alright at this. Okay, now's the time to ask any burning questions you have.",
+            "nextDialogs": [
+              "708101505"
+            ]
+          },
+          "708101505": {
+            "id": "708101505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Tell me about Signora.",
+            "nextDialogs": [
+              "708101506"
+            ]
+          },
+          "708101506": {
+            "id": "708101506",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I might have guessed you'd ask about her. But I'm afraid I don't know much, and in fact I have my own questions...",
+            "nextDialogs": [
+              "708101507"
+            ]
+          },
+          "708101507": {
+            "id": "708101507",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "My superiors sent me to Mondstadt to work for Signora, but I haven't received a single assignment from her since I arrived.",
+            "nextDialogs": [
+              "708101508"
+            ]
+          },
+          "708101508": {
+            "id": "708101508",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I heard through the grapevine that she didn't stick around long after she arrived, and that she was in a particularly good mood when she left...",
+            "nextDialogs": [
+              "708101509"
+            ]
+          },
+          "708101509": {
+            "id": "708101509",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "So I don't get it — is her business here finished? And if so, does that mean I get to go home yet, or what?",
+            "nextDialogs": [
+              "708101510"
+            ]
+          },
+          "708101510": {
+            "id": "708101510",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "My daily routine consists of me standing here being glared at by the sisters and the knights. It's really starting to give me the creeps..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081018",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101601"
+        ],
+        "dialogs": {
+          "708101601": {
+            "id": "708101601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Give Flora's Bookmark)",
+            "nextDialogs": [
+              "708101602"
+            ]
+          },
+          "708101602": {
+            "id": "708101602",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "What's this? A bookmark...? Hmm. It'll do, I suppose. It works as an ornament.",
+            "nextDialogs": [
+              "708101603"
+            ]
+          },
+          "708101603": {
+            "id": "708101603",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I knew I'd picked the right person for the job. Okay, now's the time to ask any burning questions you have.",
+            "nextDialogs": [
+              "708101604"
+            ]
+          },
+          "708101604": {
+            "id": "708101604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you leaving soon?",
+            "nextDialogs": [
+              "708101605"
+            ]
+          },
+          "708101605": {
+            "id": "708101605",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Me? I mean, I'd sure like to. Mondstadt bores me to tears, and I have had a grand total of zero assignments to occupy me in my whole time here.",
+            "nextDialogs": [
+              "708101606"
+            ]
+          },
+          "708101606": {
+            "id": "708101606",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I spend all my days sat here, with the sisters glaring at me every two seconds, as if I've just committed some sort of grave sin and they're livid with me about it.",
+            "nextDialogs": [
+              "708101607"
+            ]
+          },
+          "708101607": {
+            "id": "708101607",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Meanwhile, the delegation staying at the Goth Grand Hotel are in some sort of lockdown, so I don't hear so much as a peep from the inside.",
+            "nextDialogs": [
+              "708101608"
+            ]
+          },
+          "708101608": {
+            "id": "708101608",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "If you ask me, they should call us back home pronto if Signora's business here is done. The Mondstadters despise us, so we're only looking for trouble by staying here.",
+            "nextDialogs": [
+              "708101609"
+            ]
+          },
+          "708101609": {
+            "id": "708101609",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "But I haven't heard a word from my superiors, so I don't know what to think."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081019",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101701"
+        ],
+        "dialogs": {
+          "708101701": {
+            "id": "708101701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Give Specialty Beverage)",
+            "nextDialogs": [
+              "708101702"
+            ]
+          },
+          "708101702": {
+            "id": "708101702",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Hey, check it out... It looks good in the bottle, but let me see how it tastes—",
+            "nextDialogs": [
+              "708101703"
+            ]
+          },
+          "708101703": {
+            "id": "708101703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're supposed to cool it first.",
+            "nextDialogs": [
+              "708101704"
+            ]
+          },
+          "708101704": {
+            "id": "708101704",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Really? In that case, I'll wait till I get back home. Much easier to get hold of ice cubes back home...",
+            "nextDialogs": [
+              "708101705"
+            ]
+          },
+          "708101705": {
+            "id": "708101705",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I've said it before and I'll say it again, we Fatui always deliver on our promises. You've helped me out, and you will not go unrewarded.",
+            "nextDialogs": [
+              "708101706"
+            ]
+          },
+          "708101706": {
+            "id": "708101706",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "So ask away, whatever burning question you have.",
+            "nextDialogs": [
+              "708101707"
+            ]
+          },
+          "708101707": {
+            "id": "708101707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you know about the other Harbingers?",
+            "nextDialogs": [
+              "708101708"
+            ]
+          },
+          "708101708": {
+            "id": "708101708",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "The Harbingers? They're way above my level. I'm lucky if I hear the odd rumor.",
+            "nextDialogs": [
+              "708101709"
+            ]
+          },
+          "708101709": {
+            "id": "708101709",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "For what it's worth, I can pass on what others have told me. But I advise you to take it with a pinch of salt.",
+            "nextDialogs": [
+              "708101710"
+            ]
+          },
+          "708101710": {
+            "id": "708101710",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I hear Harbinger No. 6, also known as Scaramouche, is difficult to get along with. A lot of people are not fans of his.",
+            "nextDialogs": [
+              "708101711"
+            ]
+          },
+          "708101711": {
+            "id": "708101711",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Why? Some say he just has a disagreeable personality. Others say it's because he doesn't know when to keep his mouth shut...",
+            "nextDialogs": [
+              "708101712"
+            ]
+          },
+          "708101712": {
+            "id": "708101712",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I know someone who works closely with the guy. He says Scaramouche is even disliked by several of his fellow Harbingers.",
+            "nextDialogs": [
+              "708101713"
+            ]
+          },
+          "708101713": {
+            "id": "708101713",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "But I mean, like him or not, he's still a Harbinger. He's doing an awful lot better than a rank-and-file member of the Fatui like me..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081001",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100121"
+        ],
+        "dialogs": {
+          "708100121": {
+            "id": "708100121",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Something else bothering you? Come out and say it, don't beat about the bush.",
+            "nextDialogs": [
+              "708100123",
+              "708100128"
+            ]
+          },
+          "708100123": {
+            "id": "708100123",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Hah, now there's a half-decent question. Because... Because before long, everyone else in Mondstadt is going to be baying for Fatui blood, that's why.",
+            "nextDialogs": [
+              "708100124"
+            ]
+          },
+          "708100124": {
+            "id": "708100124",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "It used to be that the sisters would shoot me the odd sideways glance. Now, the whole city looks at me like they're ready to grab their pitchforks and have at me.",
+            "nextDialogs": [
+              "708100125"
+            ]
+          },
+          "708100125": {
+            "id": "708100125",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "So you tell me — if not a traveler like you, then who else could I trust to help me out in this place?",
+            "nextDialogs": [
+              "708100126"
+            ]
+          },
+          "708100126": {
+            "id": "708100126",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I'm at quite a loss to explain just what I must have done to get everyone here so riled up..."
+          },
+          "708100128": {
+            "id": "708100128",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I don't have the exact figure. But what I do know is that the party staying in the Goth Grand Hotel is keeping itself locked inside these days. I don't know what's happened.",
+            "nextDialogs": [
+              "708100129"
+            ]
+          },
+          "708100129": {
+            "id": "708100129",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "At a guess, I would say that maybe the higher-ups are making a move again. But whatever... It's not like any of that affects people down at my level."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708100407"
+        ],
+        "dialogs": {
+          "708100407": {
+            "id": "708100407",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": "",
+            "nextDialogs": [
+              "708100408"
+            ]
+          },
+          "708100408": {
+            "id": "708100408",
+            "speakerId": 1001,
+            "speakerName": "Flora",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708101101"
+        ],
+        "dialogs": {
+          "708101101": {
+            "id": "708101101",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Okay. So, the base is apple vinegar, then we add some Dandelion, Mint, and Berries for flavor. Best served ice-cold.",
+            "nextDialogs": [
+              "708101102"
+            ]
+          },
+          "708101102": {
+            "id": "708101102",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "After a glass of this, simply breathe in and you will acutely feel the signature winds of Mondstadt on the insides of your cheeks and at the back of your throat.",
+            "nextDialogs": [
+              "708101103"
+            ]
+          },
+          "708101103": {
+            "id": "708101103",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Let me bottle that for you, otherwise it quickly loses its flavor.",
+            "nextDialogs": [
+              "708101104"
+            ]
+          },
+          "708101104": {
+            "id": "708101104",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Don't forget: It's best served chilled."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081020",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708102001"
+        ],
+        "dialogs": {
+          "708102001": {
+            "id": "708102001",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Don't forget: It's best served chilled."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081024",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708102401"
+        ],
+        "dialogs": {
+          "708102401": {
+            "id": "708102401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Give Specialty Beverage)",
+            "nextDialogs": [
+              "708102402"
+            ]
+          },
+          "708102402": {
+            "id": "708102402",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Hey, check it out... It looks good in the bottle, but let me see how it tastes—",
+            "nextDialogs": [
+              "708102403"
+            ]
+          },
+          "708102403": {
+            "id": "708102403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're supposed to cool it first.",
+            "nextDialogs": [
+              "708102404"
+            ]
+          },
+          "708102404": {
+            "id": "708102404",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Really? In that case, I'll wait till I get back home. Much easier to get hold of ice cubes this way...",
+            "nextDialogs": [
+              "708102405"
+            ]
+          },
+          "708102405": {
+            "id": "708102405",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "I've said it before and I'll say it again, we Fatui always deliver on our promises. You've helped me out, and you will not go unrewarded.",
+            "nextDialogs": [
+              "708102406"
+            ]
+          },
+          "708102406": {
+            "id": "708102406",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "So ask away, whatever burning question you have.",
+            "nextDialogs": [
+              "708102407"
+            ]
+          },
+          "708102407": {
+            "id": "708102407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you know about the other Harbingers?",
+            "nextDialogs": [
+              "708102408"
+            ]
+          },
+          "708102408": {
+            "id": "708102408",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "The Harbingers? They're way above my pay grade. I'm lucky if I hear the odd rumor.",
+            "nextDialogs": [
+              "708102409"
+            ]
+          },
+          "708102409": {
+            "id": "708102409",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "For what it's worth, I can pass on what others have told me. But I advise you to take it with a pinch of salt.",
+            "nextDialogs": [
+              "708102410"
+            ]
+          },
+          "708102410": {
+            "id": "708102410",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Have you heard of Childe? Word has it that this Harbinger travels often and will bring gifts to his family when he comes back.",
+            "nextDialogs": [
+              "708102411"
+            ]
+          },
+          "708102411": {
+            "id": "708102411",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Someone I know told me that he heard that the younger brothers and sisters of Master Childe all really like him.",
+            "nextDialogs": [
+              "708102412"
+            ]
+          },
+          "708102412": {
+            "id": "708102412",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "*sigh* But I don't want to be transferred to work for him, given that I might have to hustle everywhere again.",
+            "nextDialogs": [
+              "708102413"
+            ]
+          },
+          "708102413": {
+            "id": "708102413",
+            "speakerId": 1003,
+            "speakerName": "Viktor",
+            "text": "Please let the people above me show kindness and send me somewhere nice and warm, so that I can grow old in peace there..."
+          }
+        }
+      }
+    }
+  ]
+}

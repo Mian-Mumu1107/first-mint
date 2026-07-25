@@ -1,0 +1,660 @@
+{
+  "lineCounts": {
+    "Female Believer": 1,
+    "Hilichurl": 1,
+    "Jifang": 4,
+    "Male Believer": 1,
+    "Mercantile Believer": 1,
+    "Paimon": 40,
+    "Player": 18,
+    "Starsnatcher": 10
+  },
+  "subQuests": [
+    {
+      "subId": "1110101",
+      "subQuestName": "Go to Wanwen Bookhouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110108",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111010201"
+        ],
+        "dialogs": {
+          "111010201": {
+            "id": "111010201",
+            "speakerId": 1000,
+            "speakerName": "Jifang",
+            "text": "So you'd like a copy of \"Yakshas: The Guardian Adepti\"?",
+            "nextDialogs": [
+              "111010202"
+            ]
+          },
+          "111010202": {
+            "id": "111010202",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Yes. Here, and keep the change.",
+            "nextDialogs": [
+              "111010203"
+            ]
+          },
+          "111010203": {
+            "id": "111010203",
+            "speakerId": 1000,
+            "speakerName": "Jifang",
+            "text": "Oh, aren't you generous? Thank you for your patronage!",
+            "nextDialogs": [
+              "111010204"
+            ]
+          },
+          "111010204": {
+            "id": "111010204",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey, isn't that, um... Starsnapper? What a coincidence, running into him again!",
+            "nextDialogs": [
+              "111010207"
+            ]
+          },
+          "111010207": {
+            "id": "111010207",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Did you hear the name of that book he just bought? Was it... \"Yakshas: The Guardian Adepti\"?",
+            "nextDialogs": [
+              "111010208"
+            ]
+          },
+          "111010208": {
+            "id": "111010208",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ahh, well anyway, it was definitely a book about the adepti. Why would an adeptus wanna buy a book about himself?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110102",
+      "subQuestName": "Talk to Jifang and ask about Yakshas: The Guardian Adepti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111010222"
+        ],
+        "dialogs": {
+          "111010222": {
+            "id": "111010222",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey there. We'd like a copy of \"Yakshas: The Guardian Adepti\" — do you have one in stock?",
+            "nextDialogs": [
+              "111010223"
+            ]
+          },
+          "111010223": {
+            "id": "111010223",
+            "speakerId": 1000,
+            "speakerName": "Jifang",
+            "text": "Huh. Since when did that old chestnut become a best-seller?",
+            "nextDialogs": [
+              "111010224"
+            ]
+          },
+          "111010224": {
+            "id": "111010224",
+            "speakerId": 1000,
+            "speakerName": "Jifang",
+            "text": "You're a rare breed of youngster if this is what you like to read... But you should be able to find a copy somewhere on that desk over there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110103",
+      "subQuestName": "Search for Yakshas: The Guardian Adepti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111010301"
+        ],
+        "dialogs": {
+          "111010301": {
+            "id": "111010301",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "This is the one! Let's see what it's about, shall we?",
+            "nextDialogs": [
+              "111010302"
+            ]
+          },
+          "111010302": {
+            "id": "111010302",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "111010401"
+            ]
+          },
+          "111010401": {
+            "id": "111010401",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Finished yet? Hehe, Paimon's already done.",
+            "nextDialogs": [
+              "111010402"
+            ]
+          },
+          "111010402": {
+            "id": "111010402",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "This book is about the yakshas, a group of adepti who defend Liyue."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110104",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111011401"
+        ],
+        "dialogs": {
+          "111011401": {
+            "id": "111011401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Nothing else that I can think of...",
+            "nextDialogs": [
+              "111011402"
+            ]
+          },
+          "111011402": {
+            "id": "111011402",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yup, Paimon thinks we've already summed up all the key points.",
+            "nextDialogs": [
+              "111011403"
+            ]
+          },
+          "111011403": {
+            "id": "111011403",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "So, back to the matter at hand. The things we need answers on are one, where did those super evil-looking hilichurls come from, and two, what does Starsnatcher have to do with the yakshas. Right?",
+            "nextDialogs": [
+              "111011404"
+            ]
+          },
+          "111011404": {
+            "id": "111011404",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Now to head back to where this all started and commence our investigation! Let's part the fog of mystery that hangs over Jueyun Karst, and let the truth shine through in its full glory!",
+            "nextDialogs": [
+              "111011407"
+            ]
+          },
+          "111011407": {
+            "id": "111011407",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ehehe! To be honest, Paimon actually hopes he is a real adeptus. Ah... His exorcism techniques seemed real enough, at least...",
+            "nextDialogs": [
+              "111011408"
+            ]
+          },
+          "111011408": {
+            "id": "111011408",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hmm, but if we get our hopes up, there's further for them to come down. So it makes sense to investigate thoroughly first, just to be sure!",
+            "nextDialogs": [
+              "111011409"
+            ]
+          },
+          "111011409": {
+            "id": "111011409",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Alright, let's head back to Wangshu Inn!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110105",
+      "subQuestName": "Return to Wangshu Inn and look for Starsnatcher",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111010501"
+        ],
+        "dialogs": {
+          "111010501": {
+            "id": "111010501",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Flee at my command, foul demons!",
+            "nextDialogs": [
+              "111010502"
+            ]
+          },
+          "111010502": {
+            "id": "111010502",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "...Flee!",
+            "nextDialogs": [
+              "111010503"
+            ]
+          },
+          "111010503": {
+            "id": "111010503",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Wh—Why won't you flee?!",
+            "nextDialogs": [
+              "111010504"
+            ]
+          },
+          "111010504": {
+            "id": "111010504",
+            "speakerId": 1003,
+            "speakerName": "Hilichurl",
+            "text": "Beru nye! Beru nya! Beru nyaaaa!!!",
+            "nextDialogs": [
+              "111010505"
+            ]
+          },
+          "111010505": {
+            "id": "111010505",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Uh-oh, looks like Starsnatcher's in trouble!",
+            "nextDialogs": [
+              "111010506"
+            ]
+          },
+          "111010506": {
+            "id": "111010506",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "And there are innocent bystanders here, too. We have to step in!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110106",
+      "subQuestName": "Defeat the hilichurls with the evil aura",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110107",
+      "subQuestName": "Talk to Starsnatcher and find out what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111010701"
+        ],
+        "dialogs": {
+          "111010701": {
+            "id": "111010701",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "I don't get it... Why didn't the Sigil of Permission do anything?",
+            "nextDialogs": [
+              "111010702"
+            ]
+          },
+          "111010702": {
+            "id": "111010702",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Has the evil aura of these hilichurls grown in intensity?",
+            "nextDialogs": [
+              "111010703"
+            ]
+          },
+          "111010703": {
+            "id": "111010703",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sigil of Permission, huh? Now why does that sound familiar?",
+            "nextDialogs": [
+              "111010706"
+            ]
+          },
+          "111010706": {
+            "id": "111010706",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Right! It's a keepsake of the adepti, so it must still contain traces of their power!",
+            "nextDialogs": [
+              "111010707"
+            ]
+          },
+          "111010707": {
+            "id": "111010707",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "*gasp* No wonder he was able to scare those monsters away earlier...",
+            "nextDialogs": [
+              "111010708"
+            ]
+          },
+          "111010708": {
+            "id": "111010708",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Wh—What are you two babbling on about? One is merely underslept... meaning that one's adeptal power... is not in full flow!",
+            "nextDialogs": [
+              "111010709"
+            ]
+          },
+          "111010709": {
+            "id": "111010709",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "Were one but given another opportunity...",
+            "nextDialogs": [
+              "111010710"
+            ]
+          },
+          "111010710": {
+            "id": "111010710",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well as it happens, there goes another bunch of evil hilichurls over there. Should we leave them to you, then?",
+            "nextDialogs": [
+              "111010711"
+            ]
+          },
+          "111010711": {
+            "id": "111010711",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "I— O—One... suddenly feels ill at ease. Surely one has overexpended one's adeptal powers, otherwise, one would surely purge these infernal beings at once...",
+            "nextDialogs": [
+              "111010712"
+            ]
+          },
+          "111010712": {
+            "id": "111010712",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ugh, so you WERE just bragging after all. We were right to be suspicious!",
+            "nextDialogs": [
+              "111010713"
+            ]
+          },
+          "111010713": {
+            "id": "111010713",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Come on, Traveler, looks like it's up to us. Use your Elemental Sight and hunt them down!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110020",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111002001"
+        ],
+        "dialogs": {
+          "111002001": {
+            "id": "111002001",
+            "speakerId": 1004,
+            "speakerName": "Male Believer",
+            "text": "I still have some valuables at home, Starsnatcher. I can bring them tomorrow, to see if they're to your liking."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110021",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111002101"
+        ],
+        "dialogs": {
+          "111002101": {
+            "id": "111002101",
+            "speakerId": 1005,
+            "speakerName": "Female Believer",
+            "text": "I'm only at ease with the Master of Stars present..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110022",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111002201"
+        ],
+        "dialogs": {
+          "111002201": {
+            "id": "111002201",
+            "speakerId": 1006,
+            "speakerName": "Mercantile Believer",
+            "text": "Please Starsnatcher, watch over me..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110110",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111011001"
+        ],
+        "dialogs": {
+          "111011001": {
+            "id": "111011001",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hmm, seems like a pretty niche topic. Was there anything that stood out to you?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110111",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111011101"
+        ],
+        "dialogs": {
+          "111011101": {
+            "id": "111011101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About demons...",
+            "nextDialogs": [
+              "111011102"
+            ]
+          },
+          "111011102": {
+            "id": "111011102",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "The book says that the wrathful spirits of the gods defeated during the Archon War can sometimes cause plagues, monsters or mutations...",
+            "nextDialogs": [
+              "111011103"
+            ]
+          },
+          "111011103": {
+            "id": "111011103",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "All of which sound pretty horrendous. Hey, wait a second... Paimon wonders if...",
+            "nextDialogs": [
+              "111011104"
+            ]
+          },
+          "111011104": {
+            "id": "111011104",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Do you think those super-evil hilichurls we saw earlier were the \"mutations\" that the book's talking about?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110112",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111011201"
+        ],
+        "dialogs": {
+          "111011201": {
+            "id": "111011201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About karma...",
+            "nextDialogs": [
+              "111011202"
+            ]
+          },
+          "111011202": {
+            "id": "111011202",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "The book says that the yakshas, after fighting against the wrath of the gods for thousands of years, became bound by karma.",
+            "nextDialogs": [
+              "111011203"
+            ]
+          },
+          "111011203": {
+            "id": "111011203",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Poisoned by the hateful thoughts of the gods, the yakshas would often descend into indescribable fits of terror, rage, or agony...",
+            "nextDialogs": [
+              "111011204"
+            ]
+          },
+          "111011204": {
+            "id": "111011204",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "*sigh* It's so tragic... After everything they went through in all their years of protecting Liyue, they got no reward, and had to deal with so much suffering instead."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110113",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111011301"
+        ],
+        "dialogs": {
+          "111011301": {
+            "id": "111011301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the sole surviving yaksha...",
+            "nextDialogs": [
+              "111011302"
+            ]
+          },
+          "111011302": {
+            "id": "111011302",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "So, there used to be five main yakshas, but supposedly only one of them is still alive today.",
+            "nextDialogs": [
+              "111011303"
+            ]
+          },
+          "111011303": {
+            "id": "111011303",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Do you think that it could have anything to do with that Starsnatcher guy?",
+            "nextDialogs": [
+              "111011304"
+            ]
+          },
+          "111011304": {
+            "id": "111011304",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hm... No, surely not. He doesn't exactly give off the impression that he's been suffering for thousands of years..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110123",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111012301"
+        ],
+        "dialogs": {
+          "111012301": {
+            "id": "111012301",
+            "speakerId": 1001,
+            "speakerName": "Starsnatcher",
+            "text": "You need not fret — as long as you evidence your faith, your wishes will be granted."
+          }
+        }
+      }
+    }
+  ]
+}

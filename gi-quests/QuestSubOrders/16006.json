@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Durin": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1600602",
+      "subQuestName": "Wait for the book to reveal hints for the next chapter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1600118",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "160011801"
+        ],
+        "dialogs": {
+          "160011801": {
+            "id": "160011801",
+            "speakerId": 1000,
+            "speakerName": "Durin",
+            "text": "I think I'm gonna stick around. Take my time reading through this book.",
+            "nextDialogs": [
+              "160011802"
+            ]
+          },
+          "160011802": {
+            "id": "160011802",
+            "speakerId": 1000,
+            "speakerName": "Durin",
+            "text": "If you feel like jumping back into the story, just come find me."
+          }
+        }
+      }
+    }
+  ]
+}

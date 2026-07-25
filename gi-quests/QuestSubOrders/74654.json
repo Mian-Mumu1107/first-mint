@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Pruniere": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7465401",
+      "subQuestName": "Give Pruniere 5 White Iron Chunk",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746540101"
+        ],
+        "dialogs": {
+          "746540101": {
+            "id": "746540101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About White Iron Chunks...",
+            "nextDialogs": [
+              "746540102"
+            ]
+          },
+          "746540102": {
+            "id": "746540102",
+            "speakerId": 1000,
+            "speakerName": "Pruniere",
+            "text": "Wow, Euphrasie wasn't kidding! If you ask for help in the paper, someone really will come.",
+            "nextDialogs": [
+              "746540103"
+            ]
+          },
+          "746540103": {
+            "id": "746540103",
+            "speakerId": 1000,
+            "speakerName": "Pruniere",
+            "text": "#This is great! Thanks so much, kindhearted {M#sir}{F#madam}. Do you have the White Iron Chunks?",
+            "nextDialogs": [
+              "746540105"
+            ]
+          },
+          "746540105": {
+            "id": "746540105",
+            "speakerId": 1000,
+            "speakerName": "Pruniere",
+            "text": "I'm really sorry for making you go through all this, but I really need all those White Iron Chunks. See if you can think of a way to get it all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465402",
+      "subQuestName": "Talk to Pruniere",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746540201"
+        ],
+        "dialogs": {
+          "746540201": {
+            "id": "746540201",
+            "speakerId": 1000,
+            "speakerName": "Pruniere",
+            "text": "Good, very good! Now I can finally fix those broken wrenches."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "lineCounts": {
+    "???": 3,
+    "Black Screen": 2,
+    "Collei": 9,
+    "Nasrin": 1,
+    "Paimon": 42,
+    "Player": 27,
+    "Sumeru Local": 1,
+    "Tighnari": 21
+  },
+  "subQuests": [
+    {
+      "subId": "300011",
+      "subQuestName": "Go to the Land of the Dendro Archon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "300001",
+      "subQuestName": "Continue through the forest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30000101"
+        ],
+        "dialogs": {
+          "30000101": {
+            "id": "30000101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Now that we've made it to Sumeru, our next objective should be to head to Sumeru City and find a way to meet with Lesser Lord Kusanali.",
+            "nextDialogs": [
+              "30000102"
+            ]
+          },
+          "30000102": {
+            "id": "30000102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#And speaking of Lesser Lord Kusanali, even though we haven't heard too much about her, she doesn't seem to be the same deity who abducted your {M#sister}{F#brother}...",
+            "nextDialogs": [
+              "30000103"
+            ]
+          },
+          "30000103": {
+            "id": "30000103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But even so, people call Sumeru the \"Nation of Wisdom,\" you know. If we can get a chance to meet the God of Wisdom, maybe she can give us some useful information.",
+            "nextDialogs": [
+              "30000104"
+            ]
+          },
+          "30000104": {
+            "id": "30000104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Alright, sounds like a plan.",
+            "nextDialogs": [
+              "30000105"
+            ]
+          },
+          "30000105": {
+            "id": "30000105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But, uh... Paimon doesn't know the way to Sumeru City... Maybe we can climb up to that spot with the Statue of The Seven on it? That'll give us a way better view of things!",
+            "nextDialogs": [
+              "30000106"
+            ]
+          },
+          "30000106": {
+            "id": "30000106",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Even if we can't see exactly where the city is, at least we'll be able to check for some smaller settlements nearby.",
+            "nextDialogs": [
+              "30000107"
+            ]
+          },
+          "30000107": {
+            "id": "30000107",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a second, look! There's someone up ahead!",
+            "nextDialogs": [
+              "30000108"
+            ]
+          },
+          "30000108": {
+            "id": "30000108",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Perfect timing! Now we can just ask for directions rather than wander around like lost adventurers.",
+            "nextDialogs": [
+              "30000109"
+            ]
+          },
+          "30000109": {
+            "id": "30000109",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey there. Uh... we're not from around here and seem to have gotten a little lost... We'd like to ask for some directions!",
+            "nextDialogs": [
+              "30000110"
+            ]
+          },
+          "30000110": {
+            "id": "30000110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Did they not hear Paimon? HEY! You over there! Could you give us some directions?",
+            "nextDialogs": [
+              "30000111"
+            ]
+          },
+          "30000111": {
+            "id": "30000111",
+            "speakerId": 1001,
+            "speakerName": "Sumeru Local",
+            "text": "Huh?",
+            "nextDialogs": [
+              "30000112"
+            ]
+          },
+          "30000112": {
+            "id": "30000112",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's going on here? There's no way she could've missed that... Wait! Could she be ignoring us!? How dare she?",
+            "nextDialogs": [
+              "30000115"
+            ]
+          },
+          "30000115": {
+            "id": "30000115",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmph! Well, even so, she might be heading someplace where we could find other people to ask. Let's keep our distance and follow her!",
+            "nextDialogs": [
+              "30000116"
+            ]
+          },
+          "30000116": {
+            "id": "30000116",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "When we get the chance, we'll just ask someone else for directions."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300002",
+      "subQuestName": "Follow the unresponsive person discreetly",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "300003",
+      "subQuestName": "Observe the situation in the cave",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30000301"
+        ],
+        "dialogs": {
+          "30000301": {
+            "id": "30000301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh!? She just walked near that small waterfall and then suddenly vanished! Let's go take a closer look.",
+            "nextDialogs": [
+              "30000302"
+            ]
+          },
+          "30000302": {
+            "id": "30000302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thought this cave would lead to a village or something, but uh, it looks like that's not the case.",
+            "nextDialogs": [
+              "30000303"
+            ]
+          },
+          "30000303": {
+            "id": "30000303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Look, she's sitting over there. Wait, she couldn't possibly be living here, could she?",
+            "nextDialogs": [
+              "30000304"
+            ]
+          },
+          "30000304": {
+            "id": "30000304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh, what should we do now? Do we try asking her for directions again?",
+            "nextDialogs": [
+              "30000306",
+              "30000308"
+            ]
+          },
+          "30000306": {
+            "id": "30000306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright then, it's not like we have anyone else we can ask... Even if she's not very friendly, we just need her to point us in the right direction, that's all.",
+            "nextDialogs": [
+              "30000309"
+            ]
+          },
+          "30000309": {
+            "id": "30000309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh? Mmm! What a lovely smell!",
+            "nextDialogs": [
+              "30000310"
+            ]
+          },
+          "30000310": {
+            "id": "30000310",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's coming from that censer over there. This is definitely not your typical place to call home, but at least it smells nice! Hmm, maybe living here wouldn't be too bad after all...",
+            "nextDialogs": [
+              "30000311"
+            ]
+          },
+          "30000311": {
+            "id": "30000311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ugh! Uh oh...",
+            "nextDialogs": [
+              "30000312"
+            ]
+          },
+          "30000312": {
+            "id": "30000312",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh, what's the matter? You don't look too good."
+          },
+          "30000308": {
+            "id": "30000308",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, it looks like she's meditating or something. If we bother her now, she probably wouldn't let us off very lightly..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300004",
+      "subQuestName": "Observe the situation in the cave",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "300005",
+      "subQuestName": "Follow the voice",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "300007",
+      "subQuestName": "Continue following the voice",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "300010",
+      "subQuestName": "Try to understand the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30001001"
+        ],
+        "dialogs": {
+          "30001001": {
+            "id": "30001001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Are you sure it's not serious? The Traveler's been out for a long time now...",
+            "nextDialogs": [
+              "30001002"
+            ]
+          },
+          "30001002": {
+            "id": "30001002",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "#Yes, you can relax... Believe me, Master is extremely knowledgeable. If he says that {M#he}{F#she}'s going to be alright, then there's absolutely nothing to worry about.",
+            "nextDialogs": [
+              "30001003"
+            ]
+          },
+          "30001003": {
+            "id": "30001003",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Oh, are you awake now?",
+            "nextDialogs": [
+              "30001004"
+            ]
+          },
+          "30001004": {
+            "id": "30001004",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Oh, thank goodness! {NICKNAME}, you're finally awake!",
+            "nextDialogs": [
+              "30001005"
+            ]
+          },
+          "30001005": {
+            "id": "30001005",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Where am I?",
+            "nextDialogs": [
+              "30001006"
+            ]
+          },
+          "30001006": {
+            "id": "30001006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, we're at... uh... Good question, where are we!? Paimon was in such a panic when you passed out that she even forgot to ask what place this is.",
+            "nextDialogs": [
+              "30001007"
+            ]
+          },
+          "30001007": {
+            "id": "30001007",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "This is Gandharva Ville. It was originally built by scholars from Sumeru as a place to rest in the rainforest. Now it's mainly used by the Forest Rangers as a base of operations.",
+            "nextDialogs": [
+              "30001008"
+            ]
+          },
+          "30001008": {
+            "id": "30001008",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "My name is Collei. I'm a Trainee Forest Ranger. My master and I found you passed out during our patrol, so we brought you here.",
+            "nextDialogs": [
+              "30001009"
+            ]
+          },
+          "30001009": {
+            "id": "30001009",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thank you for the help.",
+            "nextDialogs": [
+              "30001010"
+            ]
+          },
+          "30001010": {
+            "id": "30001010",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Oh n—no, no thanks are necessary! I didn't do anything, really. By the way, how are you feeling now? Any discomfort?",
+            "nextDialogs": [
+              "30001013"
+            ]
+          },
+          "30001013": {
+            "id": "30001013",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Oh, haha... That's Master's herbal medicine you're tasting. He gave you some while you were unconscious.",
+            "nextDialogs": [
+              "30001014"
+            ]
+          },
+          "30001014": {
+            "id": "30001014",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Before I forget, Master mentioned you should take more medicine once you wake up.",
+            "nextDialogs": [
+              "30001015"
+            ]
+          },
+          "30001015": {
+            "id": "30001015",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Ah, whoops!",
+            "nextDialogs": [
+              "30001016"
+            ]
+          },
+          "30001016": {
+            "id": "30001016",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Collei, what's the matter? Were you trying to retrieve the medicine? As I've already told you, you must be careful with these... I'll get it for you once I'm finished here.",
+            "nextDialogs": [
+              "30001017"
+            ]
+          },
+          "30001017": {
+            "id": "30001017",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Ah, sorry, Master...",
+            "nextDialogs": [
+              "30001018"
+            ]
+          },
+          "30001018": {
+            "id": "30001018",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "*sigh* Now, the \"Guide to Avidya Forest's Edible Fungi\" is clearly posted on our bulletin board. But, if Farbod forgets which mushrooms to avoid one more time, I'll have no choice but to leave the guide somewhere a little more visible — like right smack on his forehead so others can remind him to be careful.",
+            "nextDialogs": [
+              "30001019"
+            ]
+          },
+          "30001019": {
+            "id": "30001019",
+            "speakerId": 1005,
+            "speakerName": "Nasrin",
+            "text": "Right, this is the second time he's come down with food poisoning this month. I'll be sure to give him a good talking-to!",
+            "nextDialogs": [
+              "30001020"
+            ]
+          },
+          "30001020": {
+            "id": "30001020",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Yes, please do. If, on the off-chance, Farbod simply enjoys having little imaginary fairies dance before his eyes, then we'll just let him be. But, the next time he requires any of our medicine, be sure to charge him accordingly.",
+            "nextDialogs": [
+              "30001021"
+            ]
+          },
+          "30001021": {
+            "id": "30001021",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "So, how are you doing? Feeling better?",
+            "nextDialogs": [
+              "30001022"
+            ]
+          },
+          "30001022": {
+            "id": "30001022",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Oh, this is my master, Forest Watcher Tighnari. He is chief officer over all the rangers here in Gandharva Ville.",
+            "nextDialogs": [
+              "30001023"
+            ]
+          },
+          "30001023": {
+            "id": "30001023",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "I already informed Paimon about the reason you fell unconscious earlier, but now that you're awake, let me explain it for you as well.",
+            "nextDialogs": [
+              "30001024"
+            ]
+          },
+          "30001024": {
+            "id": "30001024",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "It is common practice for Sumeru scholars of certain Darshans to dedicate themselves to training and meditation in isolated areas, particularly the nearby forests. While meditating, they use a certain incense known as Spirit Borneol to help calm their minds as they enter a state of deep rumination.",
+            "nextDialogs": [
+              "30001025"
+            ]
+          },
+          "30001025": {
+            "id": "30001025",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "In hopes of asking directions, you two followed a scholar named Haypasia into her cave. The incense you smelled inside was the Spirit Borneol I just mentioned.",
+            "nextDialogs": [
+              "30001026"
+            ]
+          },
+          "30001026": {
+            "id": "30001026",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "That incense typically has no effect on most people. But, for a very select few, it can have profound effects on one's cognition, as you experienced firsthand. Does that make sense?",
+            "nextDialogs": [
+              "30001027"
+            ]
+          },
+          "30001027": {
+            "id": "30001027",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes, that all makes sense.",
+            "nextDialogs": [
+              "30001028"
+            ]
+          },
+          "30001028": {
+            "id": "30001028",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Very good. Now, answer me this, did you feel anything after passing out? Say, any out-of-body experiences, or did you see anything while unconscious?",
+            "nextDialogs": [
+              "30001029"
+            ]
+          },
+          "30001029": {
+            "id": "30001029",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "You describe what you saw while unconscious...",
+            "nextDialogs": [
+              "30001030"
+            ]
+          },
+          "30001030": {
+            "id": "30001030",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Hmm...",
+            "nextDialogs": [
+              "30001031"
+            ]
+          },
+          "30001031": {
+            "id": "30001031",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Collei, let the others know to stop bringing their patrol logs here for now.",
+            "nextDialogs": [
+              "30001032"
+            ]
+          },
+          "30001032": {
+            "id": "30001032",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Huh? Wh—Why?",
+            "nextDialogs": [
+              "30001033"
+            ]
+          },
+          "30001033": {
+            "id": "30001033",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "#Because {M#these two}{F#these two} will be staying here for the next few days. They can have my room, and I'll bunk with Amir. Now get a move on and be sure to do as I've said.",
+            "nextDialogs": [
+              "30001034"
+            ]
+          },
+          "30001034": {
+            "id": "30001034",
+            "speakerId": 1003,
+            "speakerName": "Collei",
+            "text": "Uh, yes, Master Tighnari!",
+            "nextDialogs": [
+              "30001035"
+            ]
+          },
+          "30001035": {
+            "id": "30001035",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait, hold on a second! Can you tell us what's going on?",
+            "nextDialogs": [
+              "30001036"
+            ]
+          },
+          "30001036": {
+            "id": "30001036",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Sure, let me fill you in. I originally planned to send you on your way once you finished your medicine. However, it appears now that you should stay a while longer in Gandharva Ville for further observation while you recuperate.",
+            "nextDialogs": [
+              "30001037"
+            ]
+          },
+          "30001037": {
+            "id": "30001037",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Further observation?",
+            "nextDialogs": [
+              "30001038"
+            ]
+          },
+          "30001038": {
+            "id": "30001038",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But we need to get to Sumeru City...",
+            "nextDialogs": [
+              "30001039"
+            ]
+          },
+          "30001039": {
+            "id": "30001039",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "No need to be hasty. As long as you have the capacity to judge between right and wrong, I promise that you'll understand the gravity of the situation once I explain everything to you.",
+            "nextDialogs": [
+              "30001040"
+            ]
+          },
+          "30001040": {
+            "id": "30001040",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Based on what you saw after smelling the incense and losing consciousness, we can conclude that you experienced a powerful hallucination, which suggests your mental state is not in the best of shape.",
+            "nextDialogs": [
+              "30001041"
+            ]
+          },
+          "30001041": {
+            "id": "30001041",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "If you're skeptical, have a whiff of this.",
+            "nextDialogs": [
+              "30001042"
+            ]
+          },
+          "30001042": {
+            "id": "30001042",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Wha—!",
+            "nextDialogs": [
+              "30001043"
+            ]
+          },
+          "30001043": {
+            "id": "30001043",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, are you okay?",
+            "nextDialogs": [
+              "30001044"
+            ]
+          },
+          "30001044": {
+            "id": "30001044",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "You're experiencing a similar sensation as when you passed out, aren't you?",
+            "nextDialogs": [
+              "30001045"
+            ]
+          },
+          "30001045": {
+            "id": "30001045",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "So even though your condition is stable as of now, if I were to haphazardly let you leave, it's highly likely that you'd suddenly pass out again somewhere else.",
+            "nextDialogs": [
+              "30001046"
+            ]
+          },
+          "30001046": {
+            "id": "30001046",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "The rainforest is home to many fierce animals and hazardous areas. If something were to happen to you again, I'm afraid you might not be so lucky.",
+            "nextDialogs": [
+              "30001047"
+            ]
+          },
+          "30001047": {
+            "id": "30001047",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "For now, I suggest you continue taking your medicine each day and avoid wandering off on your own, at least until you stop having adverse reactions to this kind of smell, okay?",
+            "nextDialogs": [
+              "30001048"
+            ]
+          },
+          "30001048": {
+            "id": "30001048",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Alright...",
+            "nextDialogs": [
+              "30001049"
+            ]
+          },
+          "30001049": {
+            "id": "30001049",
+            "speakerId": 1004,
+            "speakerName": "Tighnari",
+            "text": "Mmm, good. Now continue resting while I fire up another bowl of medicine for you.",
+            "nextDialogs": [
+              "30001050"
+            ]
+          },
+          "30001050": {
+            "id": "30001050",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "*sigh* Seriously, we just arrived in Sumeru. We're already having problems left and right...",
+            "nextDialogs": [
+              "30001051"
+            ]
+          },
+          "30001051": {
+            "id": "30001051",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon knows we were set on meeting Lesser Lord Kusanali as soon as possible, but you really don't look too good... It'd probably be best to let you recover first.",
+            "nextDialogs": [
+              "30001052"
+            ]
+          },
+          "30001052": {
+            "id": "30001052",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh, hey! Are you even listening to Paimon? Paimon's over here worrying about you, ya know!",
+            "nextDialogs": [
+              "30001053"
+            ]
+          },
+          "30001053": {
+            "id": "30001053",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I feel it's a little weird...",
+            "nextDialogs": [
+              "30001054"
+            ]
+          },
+          "30001054": {
+            "id": "30001054",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's weird? You mean how you're feeling now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "300099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30009901"
+        ],
+        "dialogs": {
+          "30009901": {
+            "id": "30009901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "C'mon, let's follow her. Just keep quiet and make sure she doesn't notice us."
+          }
+        }
+      }
+    }
+  ]
+}

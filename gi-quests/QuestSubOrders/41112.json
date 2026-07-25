@@ -1,0 +1,2203 @@
+{
+  "lineCounts": {
+    "???": 12,
+    "Adelinde": 11,
+    "Ben": 7,
+    "Draff": 3,
+    "Fatui Skirmisher": 1,
+    "Fischl": 32,
+    "Huachu": 1,
+    "Huai'an": 10,
+    "Jianqiu": 2,
+    "Katheryne": 6,
+    "Mona": 36,
+    "Niu Zhi": 3,
+    "Oz": 22,
+    "Paimon": 64,
+    "Player": 34,
+    "Pops Zhou": 1,
+    "Tiancheng": 2,
+    "Unconscious Victim": 1,
+    "Winery Worker": 1
+  },
+  "subQuests": [
+    {
+      "subId": "4111200",
+      "subQuestName": "Find Draff and discuss the situation in Springvale",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120001"
+        ],
+        "dialogs": {
+          "411120001": {
+            "id": "411120001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Draff! How are things in the village now?",
+            "nextDialogs": [
+              "411120002"
+            ]
+          },
+          "411120002": {
+            "id": "411120002",
+            "speakerId": 1001,
+            "speakerName": "Draff",
+            "text": "Ah, it's you again! A little better, thanks — and we owe it all to you.",
+            "nextDialogs": [
+              "411120003"
+            ]
+          },
+          "411120003": {
+            "id": "411120003",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's great! Seems like getting rid of the meteorites is doing the trick!",
+            "nextDialogs": [
+              "411120004"
+            ]
+          },
+          "411120004": {
+            "id": "411120004",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Traveler, your arrival is most fortuitous. Clearly, my noble ambition to protect the souls of this wretched world compelled you to seek me once more. Now, prepare to depart, for we are soon to meet with an envoy of mine further afield.",
+            "nextDialogs": [
+              "411120005"
+            ]
+          },
+          "411120005": {
+            "id": "411120005",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Envoy? You mean... a diplomat, or something?",
+            "nextDialogs": [
+              "411120006"
+            ]
+          },
+          "411120006": {
+            "id": "411120006",
+            "speakerId": 1001,
+            "speakerName": "Draff",
+            "text": "Ah, yes... let me fill you in here. Someone brought a message from the <color=#00E1FFFF>Dawn Winery</color>, saying that a lady there by the name of <color=#00E1FFFF>Adelinde</color> invites you to meet with her as honored guests of the Winery.",
+            "nextDialogs": [
+              "411120007"
+            ]
+          },
+          "411120007": {
+            "id": "411120007",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, we know Adelinde! She's the head housemaid there, right?",
+            "nextDialogs": [
+              "411120008"
+            ]
+          },
+          "411120008": {
+            "id": "411120008",
+            "speakerId": 1001,
+            "speakerName": "Draff",
+            "text": "Ah. It seems that you and Adelinde are already acquainted, then.",
+            "nextDialogs": [
+              "411120009"
+            ]
+          },
+          "411120009": {
+            "id": "411120009",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Then it is my great honor to join you.",
+            "nextDialogs": [
+              "411120010"
+            ]
+          },
+          "411120010": {
+            "id": "411120010",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Hey, so... {NICKNAME}, can you really understand that princess when she's talking? Because Paimon can't seem to understand a single word...",
+            "nextDialogs": [
+              "411120013"
+            ]
+          },
+          "411120013": {
+            "id": "411120013",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, alright...",
+            "nextDialogs": [
+              "411120014"
+            ]
+          },
+          "411120014": {
+            "id": "411120014",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "My dear friends, it is time to move out.",
+            "nextDialogs": [
+              "411120015"
+            ]
+          },
+          "411120015": {
+            "id": "411120015",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon hopes Adelinde has made some tasty snacks to welcome her honored guests with!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111201",
+      "subQuestName": "Go to Dawn Winery and look for Adelinde",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120101"
+        ],
+        "dialogs": {
+          "411120101": {
+            "id": "411120101",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "Welcome to the Dawn Winery, dear adventurers. I am Adelinde, the head housemaid, and it is I who invited you all here.",
+            "nextDialogs": [
+              "411120102"
+            ]
+          },
+          "411120102": {
+            "id": "411120102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Thanks for the invite!",
+            "nextDialogs": [
+              "411120103"
+            ]
+          },
+          "411120103": {
+            "id": "411120103",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "You are Adelinde? Splendid! I am delighted to grant you the honor of joining me for afternoon tea.",
+            "nextDialogs": [
+              "411120104"
+            ]
+          },
+          "411120104": {
+            "id": "411120104",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Dearest Adelinde, on behalf of Her Majesty, Ms. Fischl, the Prinzessin der Verurteilung, and I, mein Fräulein's humble servant, thank you for inviting us—",
+            "nextDialogs": [
+              "411120105"
+            ]
+          },
+          "411120105": {
+            "id": "411120105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh, would you cut to the chase already!? Your titles are so wordy, it takes way too long to introduce yourselves!",
+            "nextDialogs": [
+              "411120106"
+            ]
+          },
+          "411120106": {
+            "id": "411120106",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "My goodness... an adventurer of such distinguished status...",
+            "nextDialogs": [
+              "411120107"
+            ]
+          },
+          "411120107": {
+            "id": "411120107",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "My pale-faced proselyte, how dare you interrupt a diplomat of the royal court in the middle of his speech!",
+            "nextDialogs": [
+              "411120110"
+            ]
+          },
+          "411120110": {
+            "id": "411120110",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "In fact, one of our employees here at the Dawn Winery, Mr. Hartman, fell victim to the meteorite incident in Springvale.",
+            "nextDialogs": [
+              "411120111"
+            ]
+          },
+          "411120111": {
+            "id": "411120111",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "I hear that you were the ones who disposed of the meteorites. Thanks to you, Mr. Hartman is now awake.",
+            "nextDialogs": [
+              "411120112"
+            ]
+          },
+          "411120112": {
+            "id": "411120112",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "We are in your debt. It is merely common courtesy that I should invite you over for tea. This aside... There is a separate matter which I should like to enlist your help with.",
+            "nextDialogs": [
+              "411120113"
+            ]
+          },
+          "411120113": {
+            "id": "411120113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aw, you're too kind, Adelinde! We were really just doing what any other adventurers would have done.",
+            "nextDialogs": [
+              "411120114"
+            ]
+          },
+          "411120114": {
+            "id": "411120114",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "You may now kneel before your Prinzessin and make effusive display of your thanks for the favor that I have generously shown to thee and thy Winery kin. Take heart, my dear servants, for the glory of my majesty will flash eternal in the Vale of Springdom!",
+            "nextDialogs": [
+              "411120115"
+            ]
+          },
+          "411120115": {
+            "id": "411120115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "\"Flash eternal\"? Isn't that a bit of an oxymoron?",
+            "nextDialogs": [
+              "411120116"
+            ]
+          },
+          "411120116": {
+            "id": "411120116",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oz, hold off on the translation! Paimon wants to have a try this time! Umm... So what she's trying to say is... \"You're welcome\"?",
+            "nextDialogs": [
+              "411120117"
+            ]
+          },
+          "411120117": {
+            "id": "411120117",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "I applaud your powers of comprehension, my dear Paimon. You decipher mein Fräulein's royal utterances with remarkable ease.",
+            "nextDialogs": [
+              "411120118"
+            ]
+          },
+          "411120118": {
+            "id": "411120118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What is it that you need our help with?",
+            "nextDialogs": [
+              "411120119"
+            ]
+          },
+          "411120119": {
+            "id": "411120119",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "The business of the Winery reaches not only to all of Mondstadt, but to all the corners of Liyue, too. Some of our workers do regular deliveries back and forth between the two regions, a single round trip taking several days in total.",
+            "nextDialogs": [
+              "411120120"
+            ]
+          },
+          "411120120": {
+            "id": "411120120",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "Two of our delivery staff were due back yesterday, but as of this moment, I still have no contact from them at all. I worry that they became trapped somewhere when the meteorites struck...",
+            "nextDialogs": [
+              "411120121"
+            ]
+          },
+          "411120121": {
+            "id": "411120121",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "The Winery is short-staffed at present, and I cannot afford to look for them myself. As audacious as it may be... all I can do is ask you for assistance.",
+            "nextDialogs": [
+              "411120122"
+            ]
+          },
+          "411120122": {
+            "id": "411120122",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okie-dokie, don't you worry, Adelinde! We're expert people-finders.",
+            "nextDialogs": [
+              "411120123"
+            ]
+          },
+          "411120123": {
+            "id": "411120123",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "Wonderful. I suggest you begin by asking around at <color=#00E1FFFF>Stone Gate</color> — all delivery staff pass through there on their return from <color=#00E1FFFF>Liyue</color>.",
+            "nextDialogs": [
+              "411120124"
+            ]
+          },
+          "411120124": {
+            "id": "411120124",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "There were two carts in total, and the workers' names are <color=#00E1FFFF>Fritz</color> and <color=#00E1FFFF>Ben</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111214",
+      "subQuestName": "Head for the Stone Gate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111215",
+      "subQuestName": "Ask people nearby for information (0/3)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121501"
+        ],
+        "dialogs": {
+          "411121501": {
+            "id": "411121501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello, um, we're looking for two Mondstadt carts, both loaded up with wine. Have you seen them?",
+            "nextDialogs": [
+              "411121502"
+            ]
+          },
+          "411121502": {
+            "id": "411121502",
+            "speakerId": 1005,
+            "speakerName": "Huachu",
+            "text": "Hmm... Sorry, I don't think so.",
+            "nextDialogs": [
+              "411121503"
+            ]
+          },
+          "411121503": {
+            "id": "411121503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay then. We'll keep asking around."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111216",
+      "subQuestName": "Ask people nearby for information (1/3)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121601"
+        ],
+        "dialogs": {
+          "411121601": {
+            "id": "411121601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello! Have you seen any Mondstadt merchants traveling through here? You know, the ones with all the wine?",
+            "nextDialogs": [
+              "411121602"
+            ]
+          },
+          "411121602": {
+            "id": "411121602",
+            "speakerId": 1006,
+            "speakerName": "Pops Zhou",
+            "text": "Ah... I'm afraid I have very poor eyesight! I'm not the right person to ask...",
+            "nextDialogs": [
+              "411121603"
+            ]
+          },
+          "411121603": {
+            "id": "411121603",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh... Okay then..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111217",
+      "subQuestName": "Ask people nearby for information (2/3)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121701"
+        ],
+        "dialogs": {
+          "411121701": {
+            "id": "411121701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello! We're looking for a couple o' carts, originally from Mondstadt. Have you seen them?",
+            "nextDialogs": [
+              "411121702"
+            ]
+          },
+          "411121702": {
+            "id": "411121702",
+            "speakerId": 1007,
+            "speakerName": "Jianqiu",
+            "text": "From Mondstadt, you say? You know, I think I did see one pass through here.",
+            "nextDialogs": [
+              "411121703"
+            ]
+          },
+          "411121703": {
+            "id": "411121703",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Really? Which way did it go?",
+            "nextDialogs": [
+              "411121704"
+            ]
+          },
+          "411121704": {
+            "id": "411121704",
+            "speakerId": 1007,
+            "speakerName": "Jianqiu",
+            "text": "Let me think... Ah, if I'm not mistaken, it was going towards <color=#00E1FFFF>Mondstadt</color>.",
+            "nextDialogs": [
+              "411121705"
+            ]
+          },
+          "411121705": {
+            "id": "411121705",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Thanks, mister! Now to chase down that cart!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111220",
+      "subQuestName": "Look for the Dawn Winery's delivery staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411122001"
+        ],
+        "dialogs": {
+          "411122001": {
+            "id": "411122001",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "Help me! Somebody, please!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111218",
+      "subQuestName": "Rescue the worker surrounded by monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121801"
+        ],
+        "dialogs": {
+          "411121801": {
+            "id": "411121801",
+            "speakerId": 1009,
+            "speakerName": "Winery Worker",
+            "text": "Phew, scared me half to death... Thanks so much! If you hadn't happened to be passing through this way, I would've been a goner for sure.",
+            "nextDialogs": [
+              "411121802"
+            ]
+          },
+          "411121802": {
+            "id": "411121802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So which one are you, Ben or Fritz?",
+            "nextDialogs": [
+              "411121803"
+            ]
+          },
+          "411121803": {
+            "id": "411121803",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "...Hmm? I—I'm <color=#00E1FFFF>Ben</color>! ...H—How did you know my name?",
+            "nextDialogs": [
+              "411121805"
+            ]
+          },
+          "411121805": {
+            "id": "411121805",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, we're your official search party!",
+            "nextDialogs": [
+              "411121807"
+            ]
+          },
+          "411121807": {
+            "id": "411121807",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Per Adelinde's wishes, we came here specifically to find you and ensure your well-being.",
+            "nextDialogs": [
+              "411121808"
+            ]
+          },
+          "411121808": {
+            "id": "411121808",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "Ah, I suppose she must've started worrying 'cause of the long delay...",
+            "nextDialogs": [
+              "411121809"
+            ]
+          },
+          "411121809": {
+            "id": "411121809",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "I'm afraid that Fritz' cart is stranded out on the main road between <color=#00E1FFFF>Dihua Marsh</color> and <color=#00E1FFFF>Stone Gate</color>. It got hit by a meteorite, so...",
+            "nextDialogs": [
+              "411121810"
+            ]
+          },
+          "411121810": {
+            "id": "411121810",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "Anyway, we agreed that I'd finish the delivery and then bring someone back to fetch him. I just hadn't factored in the part about getting ambushed by monsters along the way...",
+            "nextDialogs": [
+              "411121811"
+            ]
+          },
+          "411121811": {
+            "id": "411121811",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "I really hope Fritz is okay. With me getting delayed here, the poor guy's been out there a long time. Now... I keep worrying that the same thing will've happened to him! Can you guys go bring him to safety?",
+            "nextDialogs": [
+              "411121812"
+            ]
+          },
+          "411121812": {
+            "id": "411121812",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Between <color=#00E1FFFF>Stone Gate</color> and <color=#00E1FFFF>Dihua Marsh</color>, right? Leave it to us!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111224",
+      "subQuestName": "Talk to the delivery staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111202",
+      "subQuestName": "Search for the winery employee, Fritz",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120201"
+        ],
+        "dialogs": {
+          "411120201": {
+            "id": "411120201",
+            "speakerId": 1004,
+            "speakerName": "Adelinde",
+            "text": "I hope everyone will be safe..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111203",
+      "subQuestName": "Get close and ascertain the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120301"
+        ],
+        "dialogs": {
+          "411120301": {
+            "id": "411120301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is the guy on the floor sleeping?",
+            "nextDialogs": [
+              "411120302"
+            ]
+          },
+          "411120302": {
+            "id": "411120302",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "I believe so. I've tried everything, but he won't wake up.",
+            "nextDialogs": [
+              "411120303"
+            ]
+          },
+          "411120303": {
+            "id": "411120303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like he touched the meteorite, just like the others...",
+            "nextDialogs": [
+              "411120304"
+            ]
+          },
+          "411120304": {
+            "id": "411120304",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "If by \"meteorite\" you mean the rock that struck the cart — worry not, I have dealt with that already using my magic.",
+            "nextDialogs": [
+              "411120305"
+            ]
+          },
+          "411120305": {
+            "id": "411120305",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "But by \"others,\" do you mean to say, there are others who have fallen into a similar slumber?",
+            "nextDialogs": [
+              "411120306"
+            ]
+          },
+          "411120306": {
+            "id": "411120306",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "One has witnessed with one's own Auge der Verurteilung the nightmarish slumber that proceeds forth from the Valley of Demonbone... It has caused great suffering for the humble peasants in the Vale of Springdom, many of whom still battle this wretched affliction even as we speak.",
+            "nextDialogs": [
+              "411120307"
+            ]
+          },
+          "411120307": {
+            "id": "411120307",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "As mein Fräulein most eloquently describes, we have just come from Mondstadt, where many people have also fallen into an unwaking sleep. Their symptoms are identical to those of this poor gentleman here.",
+            "nextDialogs": [
+              "411120308"
+            ]
+          },
+          "411120308": {
+            "id": "411120308",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "Is that so... It appears these meteorites really made quite an impact.",
+            "nextDialogs": [
+              "411120309"
+            ]
+          },
+          "411120309": {
+            "id": "411120309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Seems this guy is dressed like a Winery worker... And we've already met Ben — so this one must be Fritz!",
+            "nextDialogs": [
+              "411120310"
+            ]
+          },
+          "411120310": {
+            "id": "411120310",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Given that workers' attire has precious few distinguishing features, I must conclude that Paimon is blessed with exceptionally acute eyesight.",
+            "nextDialogs": [
+              "411120311"
+            ]
+          },
+          "411120311": {
+            "id": "411120311",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Actually, Paimon's eyesight is normal, Paimon just has a really great memory! You're right, though, his clothes don't really stand out that much... Especially not compared to this guy over here.",
+            "nextDialogs": [
+              "411120312"
+            ]
+          },
+          "411120312": {
+            "id": "411120312",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "Haha, and by \"this guy over here,\" you mean me?",
+            "nextDialogs": [
+              "411120313"
+            ]
+          },
+          "411120313": {
+            "id": "411120313",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yep! Paimon's never seen anyone dressed quite like you before.",
+            "nextDialogs": [
+              "411120316"
+            ]
+          },
+          "411120316": {
+            "id": "411120316",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "I am a vagrant from Inazuma. I had just stopped to assist this poor gentleman when you turned up.",
+            "nextDialogs": [
+              "411120317"
+            ]
+          },
+          "411120317": {
+            "id": "411120317",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "Are you investigating the aftermath of the meteorite strike?",
+            "nextDialogs": [
+              "411120318"
+            ]
+          },
+          "411120318": {
+            "id": "411120318",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, we were sent to help out.",
+            "nextDialogs": [
+              "411120319"
+            ]
+          },
+          "411120319": {
+            "id": "411120319",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "I am Fischl, Prinzessin der Verurteilung, responding to the cry of my people in their hour of need!",
+            "nextDialogs": [
+              "411120320"
+            ]
+          },
+          "411120320": {
+            "id": "411120320",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "I am mein Fräulein's humble familiar, Oz the Raven.",
+            "nextDialogs": [
+              "411120321"
+            ]
+          },
+          "411120321": {
+            "id": "411120321",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And Paimon is an Honorary Knight of the Knights of Favonius's best friend!",
+            "nextDialogs": [
+              "411120322"
+            ]
+          },
+          "411120322": {
+            "id": "411120322",
+            "speakerId": 1010,
+            "speakerName": "???",
+            "text": "Oh? Then you must be said Honorary Knight of said Knights of Favonius."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111204",
+      "subQuestName": "Go to Wangshu Inn and check on Fritz",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111205",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120501"
+        ],
+        "dialogs": {
+          "411120501": {
+            "id": "411120501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... Yep, same situation as in Springvale.",
+            "nextDialogs": [
+              "411120502"
+            ]
+          },
+          "411120502": {
+            "id": "411120502",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "This cruel curse of cold spreads without mercy... O Heaven on high, tell us how we have angered you so!",
+            "nextDialogs": [
+              "411120503"
+            ]
+          },
+          "411120503": {
+            "id": "411120503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, keep your voice down! There are a lot of people here!",
+            "nextDialogs": [
+              "411120504"
+            ]
+          },
+          "411120504": {
+            "id": "411120504",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Might I suggest we <color=#00E1FFFF>make some inquiries</color> and see where it takes us?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111208",
+      "subQuestName": "Look for Fritz among the patients at Wangshu Inn",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120801"
+        ],
+        "dialogs": {
+          "411120801": {
+            "id": "411120801",
+            "speakerId": 1011,
+            "speakerName": "Tiancheng",
+            "text": "Halt! Who are you?",
+            "nextDialogs": [
+              "411120802"
+            ]
+          },
+          "411120802": {
+            "id": "411120802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We've been commissioned by the Adventurers' Guild to investigate the meteorite strike. Do you mind if we take a quick look at this victim?",
+            "nextDialogs": [
+              "411120803"
+            ]
+          },
+          "411120803": {
+            "id": "411120803",
+            "speakerId": 1011,
+            "speakerName": "Tiancheng",
+            "text": "I see. Very well, Adventurers! You may take a look.",
+            "nextDialogs": [
+              "411120804"
+            ]
+          },
+          "411120804": {
+            "id": "411120804",
+            "speakerId": 1012,
+            "speakerName": "Unconscious Victim",
+            "text": "*mumbling in sleep*",
+            "nextDialogs": [
+              "411120805"
+            ]
+          },
+          "411120805": {
+            "id": "411120805",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "He shows no signs of waking.",
+            "nextDialogs": [
+              "411120806"
+            ]
+          },
+          "411120806": {
+            "id": "411120806",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon wonders what he's dreaming about? Hmm... Probably that one about the mountain in the ice and snow.",
+            "nextDialogs": [
+              "411120807"
+            ]
+          },
+          "411120807": {
+            "id": "411120807",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Fritz does not appear to be here. Let us keep looking."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111209",
+      "subQuestName": "Continue asking after Fritz's whereabouts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411120901"
+        ],
+        "dialogs": {
+          "411120901": {
+            "id": "411120901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's another sleeping victim!",
+            "nextDialogs": [
+              "411120902"
+            ]
+          },
+          "411120902": {
+            "id": "411120902",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "His soul is in anguish, ensnared by a thousand thorns... His suffering is pitiable. May he soon know peace at last...",
+            "nextDialogs": [
+              "411120903"
+            ]
+          },
+          "411120903": {
+            "id": "411120903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Peace at last? Um, surely you don't mean...",
+            "nextDialogs": [
+              "411120904"
+            ]
+          },
+          "411120904": {
+            "id": "411120904",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Mein Fräulein simply wishes him a speedy recovery, beyond this, there is no hidden meaning to her words.",
+            "nextDialogs": [
+              "411120905"
+            ]
+          },
+          "411120905": {
+            "id": "411120905",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Come on Fritz, where are you?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111210",
+      "subQuestName": "Look for Fritz among the remaining patients",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121001"
+        ],
+        "dialogs": {
+          "411121001": {
+            "id": "411121001",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Another sleeper.",
+            "nextDialogs": [
+              "411121002"
+            ]
+          },
+          "411121002": {
+            "id": "411121002",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Most unfortunate... Crucified to a cruel cross of calamity by barbaric blades born of some baleful blasphemy...",
+            "nextDialogs": [
+              "411121003"
+            ]
+          },
+          "411121003": {
+            "id": "411121003",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We have got to find a way to wake everybody up.",
+            "nextDialogs": [
+              "411121004"
+            ]
+          },
+          "411121004": {
+            "id": "411121004",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "There is but one means of awakening those who slumber, and that is to rain down Thundering Retribution.",
+            "nextDialogs": [
+              "411121005"
+            ]
+          },
+          "411121005": {
+            "id": "411121005",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Precisely, mein Fräulein! If we dispose of the meteorites, the sleepers will be sure to wake.",
+            "nextDialogs": [
+              "411121006"
+            ]
+          },
+          "411121006": {
+            "id": "411121006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This is so weird, that Millelith guy promised he was gonna bring Fritz here, didn't he? So why can't we find him anywhere?",
+            "nextDialogs": [
+              "411121007"
+            ]
+          },
+          "411121007": {
+            "id": "411121007",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... Let's go see what the <color=#00E1FFFF>innkeeper</color> has to say."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111219",
+      "subQuestName": "Ask Huai'an about Fritz",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121901"
+        ],
+        "dialogs": {
+          "411121901": {
+            "id": "411121901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Excuse us, have you seen anyone come in that looks like an ordinary worker from Mondstadt?",
+            "nextDialogs": [
+              "411121902"
+            ]
+          },
+          "411121902": {
+            "id": "411121902",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "The Millelith arrived with several new victims not long ago. Due to the limited capacity in the tent, I had them place the new arrivals in the upstairs guest rooms.",
+            "nextDialogs": [
+              "411121903"
+            ]
+          },
+          "411121903": {
+            "id": "411121903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay, well could you give him a message when he wakes up? Tell him he needs to get back to the Dawn Winery as soon as possible, and let Adelinde know that he's safe and sound.",
+            "nextDialogs": [
+              "411121904"
+            ]
+          },
+          "411121904": {
+            "id": "411121904",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "I will be more than happy to.",
+            "nextDialogs": [
+              "411121905"
+            ]
+          },
+          "411121905": {
+            "id": "411121905",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "And if I may be so bold, adventurers, I too have a request for you.",
+            "nextDialogs": [
+              "411121906"
+            ]
+          },
+          "411121906": {
+            "id": "411121906",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Please tell us, what is troubling you?",
+            "nextDialogs": [
+              "411121907"
+            ]
+          },
+          "411121907": {
+            "id": "411121907",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Pray tell of thy troubles, that one might better understand them.",
+            "nextDialogs": [
+              "411121908"
+            ]
+          },
+          "411121908": {
+            "id": "411121908",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "I understand from the Millelith soldiers that you are investigating the meteorite strike.",
+            "nextDialogs": [
+              "411121909"
+            ]
+          },
+          "411121909": {
+            "id": "411121909",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "This made me wonder, perhaps my friends from Mondstadt have already found a means of curing the victims?",
+            "nextDialogs": [
+              "411121910"
+            ]
+          },
+          "411121910": {
+            "id": "411121910",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "From what we've seen so far, all you need to do is get rid of the meteorites and the sleepers wake back up again.",
+            "nextDialogs": [
+              "411121911"
+            ]
+          },
+          "411121911": {
+            "id": "411121911",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "Is that so... Then, if I understand you correctly, the meteorites are the cause of the victims' unconsciousness?",
+            "nextDialogs": [
+              "411121912"
+            ]
+          },
+          "411121912": {
+            "id": "411121912",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yep!",
+            "nextDialogs": [
+              "411121913"
+            ]
+          },
+          "411121913": {
+            "id": "411121913",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "In that case, I would like to enlist your services in that regard. Do you think you can dispose of the <color=#00E1FFFF>meteorites</color> in the <color=#00E1FFFF>vicinity of the inn</color>?",
+            "nextDialogs": [
+              "411121916"
+            ]
+          },
+          "411121916": {
+            "id": "411121916",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "Wonderful! You have my gratitude."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111221",
+      "subQuestName": "Search for meteorites near Wangshu Inn",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411122101"
+        ],
+        "dialogs": {
+          "411122101": {
+            "id": "411122101",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "I will reserve a room for you, in case you, too, fall victim to the slumber...",
+            "nextDialogs": [
+              "411122102"
+            ]
+          },
+          "411122102": {
+            "id": "411122102",
+            "speakerId": 1013,
+            "speakerName": "Huai'an",
+            "text": "Hmm, saying that will probably bring you bad luck... Let me rephrase it. Good luck out there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111206",
+      "subQuestName": "Dispose of the meteorite",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111222",
+      "subQuestName": "Ascertain if there are any leftover meteorites nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111207",
+      "subQuestName": "Dispose of the remaining meteorites",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111211",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121101"
+        ],
+        "dialogs": {
+          "411121101": {
+            "id": "411121101",
+            "speakerId": 1014,
+            "speakerName": "Fatui Skirmisher",
+            "text": "Grr... This doesn't end here! A Harbinger is nearby, you'll get what's coming to you soon enough!",
+            "nextDialogs": [
+              "411121102"
+            ]
+          },
+          "411121102": {
+            "id": "411121102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So the Fatui are investigating the meteorites as well? Even the Harbingers?",
+            "nextDialogs": [
+              "411121103"
+            ]
+          },
+          "411121103": {
+            "id": "411121103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This is too strange... We need to be extra cautious.",
+            "nextDialogs": [
+              "411121104"
+            ]
+          },
+          "411121104": {
+            "id": "411121104",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "The seeds of nefarious nightmares appear to have taken firm root... Though my magic arrow of midnight purges them in an instant, they return with a vengeance... Hmph, it would make a mockery of the majesty of the Prinzessin der Verurteilung!",
+            "nextDialogs": [
+              "411121105"
+            ]
+          },
+          "411121105": {
+            "id": "411121105",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Indeed, mein Fräulein. Despite our best efforts to dispose of the meteorites, they continue to fall relentlessly in each corner of your vast domain, in which case, I fear...",
+            "nextDialogs": [
+              "411121106"
+            ]
+          },
+          "411121106": {
+            "id": "411121106",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The strikes are happening faster than we can get rid of them.",
+            "nextDialogs": [
+              "411121107"
+            ]
+          },
+          "411121107": {
+            "id": "411121107",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We need to find another solution.",
+            "nextDialogs": [
+              "411121108"
+            ]
+          },
+          "411121108": {
+            "id": "411121108",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "I, Fischl von Luftschloss Narfidort, have traversed a thousand worlds — and yet, never before have I faced such a formidable foe.",
+            "nextDialogs": [
+              "411121109"
+            ]
+          },
+          "411121109": {
+            "id": "411121109",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "This menace is neither monster nor magic... It is a curse, I say, a curse has been placed upon the mortal realm.",
+            "nextDialogs": [
+              "411121110"
+            ]
+          },
+          "411121110": {
+            "id": "411121110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A curse!?",
+            "nextDialogs": [
+              "411121111"
+            ]
+          },
+          "411121111": {
+            "id": "411121111",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Such a foul curse could only arise as a consequence of the continuous cries of unanswered longing, lost amidst the unpredictability and impermanence of fate...",
+            "nextDialogs": [
+              "411121112"
+            ]
+          },
+          "411121112": {
+            "id": "411121112",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "How very tragic. Is this the inevitable fate of mankind? It grieves me greatly, no matter how many times I hear of it.",
+            "nextDialogs": [
+              "411121113"
+            ]
+          },
+          "411121113": {
+            "id": "411121113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon didn't quite get the part about the thing being lost inside the other thing, but basically... These meteorites are a curse?",
+            "nextDialogs": [
+              "411121114"
+            ]
+          },
+          "411121114": {
+            "id": "411121114",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Were they not a curse upon humanity, why then should they send humans into slumber? To be lost twixt life and death in an unending dream... 'tis the most dreadful fate imaginable for any living being.",
+            "nextDialogs": [
+              "411121117"
+            ]
+          },
+          "411121117": {
+            "id": "411121117",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "We must underestimate the magnitude of this matter no more! I fear this sinister force can withstand even the sum of all of our powers combined.",
+            "nextDialogs": [
+              "411121118"
+            ]
+          },
+          "411121118": {
+            "id": "411121118",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Traveler, fetch me <color=#00E1FFFF>the one</color> fated to face this fearsome foe!",
+            "nextDialogs": [
+              "411121119"
+            ]
+          },
+          "411121119": {
+            "id": "411121119",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And who might that be?",
+            "nextDialogs": [
+              "411121120"
+            ]
+          },
+          "411121120": {
+            "id": "411121120",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Mein Fräulein is of the opinion that one with the requisite expertise should be summoned to deal with this matter. She wonders if you know of any persons skilled in the undoing of curses?",
+            "nextDialogs": [
+              "411121121"
+            ]
+          },
+          "411121121": {
+            "id": "411121121",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm not sure.",
+            "nextDialogs": [
+              "411121122"
+            ]
+          },
+          "411121122": {
+            "id": "411121122",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Um... Umm...",
+            "nextDialogs": [
+              "411121123"
+            ]
+          },
+          "411121123": {
+            "id": "411121123",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh! Paimon can't think of anybody either! Maybe we should just go ask <color=#00E1FFFF>Katheryne</color>?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111212",
+      "subQuestName": "Talk to Katheryne in Mondstadt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121216"
+        ],
+        "dialogs": {
+          "411121216": {
+            "id": "411121216",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Astrology is an ancient and mysterious art. If your problem is a banal one, you can count me out, as I have better things to do.",
+            "nextDialogs": [
+              "411121217"
+            ]
+          },
+          "411121217": {
+            "id": "411121217",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So here's what's happened...",
+            "nextDialogs": [
+              "411121218"
+            ]
+          },
+          "411121218": {
+            "id": "411121218",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "And all of this was caused by the meteor shower... This I was not expecting.",
+            "nextDialogs": [
+              "411121219"
+            ]
+          },
+          "411121219": {
+            "id": "411121219",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "The darkness consumes every corner of the land... And in the fading twilight, only the prinzessin and her retinue still stand...",
+            "nextDialogs": [
+              "411121220"
+            ]
+          },
+          "411121220": {
+            "id": "411121220",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Ms. Mona, your means are most crucial to our ends.",
+            "nextDialogs": [
+              "411121221"
+            ]
+          },
+          "411121221": {
+            "id": "411121221",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Huh? Are you all together, then?",
+            "nextDialogs": [
+              "411121222"
+            ]
+          },
+          "411121222": {
+            "id": "411121222",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "I am Fischl von Luftschloss Narfidort, Prinzessin der Verurteilung, and I hereby extend to you the great honor of joining my retinue.",
+            "nextDialogs": [
+              "411121223"
+            ]
+          },
+          "411121223": {
+            "id": "411121223",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "\"Prinzessin der Verurteilung\"? I'm sorry, which nation are you a princess of?",
+            "nextDialogs": [
+              "411121224"
+            ]
+          },
+          "411121224": {
+            "id": "411121224",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "I hail from a distant and long-lost land known as the Immernachtreich...",
+            "nextDialogs": [
+              "411121225"
+            ]
+          },
+          "411121225": {
+            "id": "411121225",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "...The in-my-what reich!?",
+            "nextDialogs": [
+              "411121226"
+            ]
+          },
+          "411121226": {
+            "id": "411121226",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Alas, precious few mere mortals know of the Immernachtreich.",
+            "nextDialogs": [
+              "411121227"
+            ]
+          },
+          "411121227": {
+            "id": "411121227",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Mere mortal!? Do you have any idea who you're talking to? I am a highly accomplished astrologist, thank you very much!",
+            "nextDialogs": [
+              "411121228"
+            ]
+          },
+          "411121228": {
+            "id": "411121228",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Just give me one second with my scryglass, then we'll see where exactly this homeland of yours features in your personal history!",
+            "nextDialogs": [
+              "411121229"
+            ]
+          },
+          "411121229": {
+            "id": "411121229",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Ms. Mona! I humbly beseech you to refrain from probing the question of mein Fräulein's homeland... revisiting the tragic tale of that world's demise always causes her much anguish...",
+            "nextDialogs": [
+              "411121230"
+            ]
+          },
+          "411121230": {
+            "id": "411121230",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Surely a wise mage such as yourself can sympathize with a princess' grief for her lost kingdom?",
+            "nextDialogs": [
+              "411121231"
+            ]
+          },
+          "411121231": {
+            "id": "411121231",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "No, but— ahh...",
+            "nextDialogs": [
+              "411121232"
+            ]
+          },
+          "411121232": {
+            "id": "411121232",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sorry to interrupt, but work is our priority right now.",
+            "nextDialogs": [
+              "411121233"
+            ]
+          },
+          "411121233": {
+            "id": "411121233",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Ahem! ...Yes, you're quite right.",
+            "nextDialogs": [
+              "411121234"
+            ]
+          },
+          "411121234": {
+            "id": "411121234",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "So. The goal here is to get all the sleepers to wake up. Am I right?",
+            "nextDialogs": [
+              "411121237"
+            ]
+          },
+          "411121237": {
+            "id": "411121237",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Understood. Alright then, don't you worry! I will lend you a hand.",
+            "nextDialogs": [
+              "411121238"
+            ]
+          },
+          "411121238": {
+            "id": "411121238",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "First things first, though, we need to get out of the city. There's too much magical disturbance here... Let's head somewhere where the <color=#00E1FFFF>ley line flow is a little smoother</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111226",
+      "subQuestName": "Go to Mona's designated scrying location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4111213",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121301"
+        ],
+        "dialogs": {
+          "411121301": {
+            "id": "411121301",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Wide open space... clear sky...",
+            "nextDialogs": [
+              "411121302"
+            ]
+          },
+          "411121302": {
+            "id": "411121302",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "This will do nicely.",
+            "nextDialogs": [
+              "411121303"
+            ]
+          },
+          "411121303": {
+            "id": "411121303",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "I will now begin the process of hydromancy. Stay back, and do not impede my vision.",
+            "nextDialogs": [
+              "411121305"
+            ]
+          },
+          "411121305": {
+            "id": "411121305",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Whatever it was you just did, it looked awesome!",
+            "nextDialogs": [
+              "411121306"
+            ]
+          },
+          "411121306": {
+            "id": "411121306",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "O, astral emissary, have thine eyes now discerned the secrets of the stars?",
+            "nextDialogs": [
+              "411121307"
+            ]
+          },
+          "411121307": {
+            "id": "411121307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, what did you find out?",
+            "nextDialogs": [
+              "411121308"
+            ]
+          },
+          "411121308": {
+            "id": "411121308",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "How strange... I've never seen this before.",
+            "nextDialogs": [
+              "411121309"
+            ]
+          },
+          "411121309": {
+            "id": "411121309",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "The divination shows that these <color=#00E1FFFF>meteorites</color> came from someone's <color=#00E1FFFF>constellation</color>.",
+            "nextDialogs": [
+              "411121310"
+            ]
+          },
+          "411121310": {
+            "id": "411121310",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Constellation? But they don't have anything to do with real astrology... Do they?",
+            "nextDialogs": [
+              "411121311"
+            ]
+          },
+          "411121311": {
+            "id": "411121311",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "That's what most people tend to think. But I've studied astrology for a very long time, and I know a few things about them that you might not.",
+            "nextDialogs": [
+              "411121312"
+            ]
+          },
+          "411121312": {
+            "id": "411121312",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "The stars that make up a constellation — the Stella Fortuna — are genuine celestial bodies in the depths of space. They are not simply notional.",
+            "nextDialogs": [
+              "411121313"
+            ]
+          },
+          "411121313": {
+            "id": "411121313",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "The strange thing is that they turned to meteors all of a sudden, and fell from the sky... Why this happened I am not yet sure. I need some time.",
+            "nextDialogs": [
+              "411121314"
+            ]
+          },
+          "411121314": {
+            "id": "411121314",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "A curse! A wretched curse, I say!",
+            "nextDialogs": [
+              "411121315"
+            ]
+          },
+          "411121315": {
+            "id": "411121315",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "A curse!?",
+            "nextDialogs": [
+              "411121316"
+            ]
+          },
+          "411121316": {
+            "id": "411121316",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "I, too, have journeyed to the stars, gazed beyond the veil of darkness, and glimpsed a shred of the truth... There, I saw a world cursed by human malice...",
+            "nextDialogs": [
+              "411121317"
+            ]
+          },
+          "411121317": {
+            "id": "411121317",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Only one who died the most agonizing of deaths could leave behind such a vengeful spirit...",
+            "nextDialogs": [
+              "411121318"
+            ]
+          },
+          "411121318": {
+            "id": "411121318",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "We must interrogate the population! Find the doer of this diabolical deed! The one who created this sinister specter is the true killer!",
+            "nextDialogs": [
+              "411121319"
+            ]
+          },
+          "411121319": {
+            "id": "411121319",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Sorry, I'm not quite following you... What curse? And what killer?",
+            "nextDialogs": [
+              "411121320"
+            ]
+          },
+          "411121320": {
+            "id": "411121320",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah... don't take every word she says too literally...",
+            "nextDialogs": [
+              "411121321"
+            ]
+          },
+          "411121321": {
+            "id": "411121321",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "(What's going on here? Why are the Traveler and Paimon frantically winking at me?)",
+            "nextDialogs": [
+              "411121324"
+            ]
+          },
+          "411121324": {
+            "id": "411121324",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Oh... Oh, I understand!",
+            "nextDialogs": [
+              "411121325"
+            ]
+          },
+          "411121325": {
+            "id": "411121325",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Thou dost? Marvelous! The astral emissary understands at last!",
+            "nextDialogs": [
+              "411121326"
+            ]
+          },
+          "411121326": {
+            "id": "411121326",
+            "speakerId": 1003,
+            "speakerName": "Oz",
+            "text": "Mutual understanding is the crucial first step towards effective teamwork. Welcome to the team, Mona.",
+            "nextDialogs": [
+              "411121327"
+            ]
+          },
+          "411121327": {
+            "id": "411121327",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "You are hereby appointed as an honored servant of the Prinzessin. Unleash thy power, in service of our solemn duty to dispel this darkness once and for all!",
+            "nextDialogs": [
+              "411121328"
+            ]
+          },
+          "411121328": {
+            "id": "411121328",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Honored? Heh... You should feel honored to have found me! Without me, you'd be doing ten times the work for half the results.",
+            "nextDialogs": [
+              "411121329"
+            ]
+          },
+          "411121329": {
+            "id": "411121329",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon likes you, Mona, you seem like the real deal!",
+            "nextDialogs": [
+              "411121330"
+            ]
+          },
+          "411121330": {
+            "id": "411121330",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Hahaha, well, I'm glad you agree! Feel free to keep the compliments coming.",
+            "nextDialogs": [
+              "411121331"
+            ]
+          },
+          "411121331": {
+            "id": "411121331",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "With my astrolabe, I have ascertained the trajectory of fate. Next, I'll calculate the <color=#00E1FFFF>locations of the fallen meteorites</color> for you.",
+            "nextDialogs": [
+              "411121332"
+            ]
+          },
+          "411121332": {
+            "id": "411121332",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "I need to look into the constellation issue in more detail. In the meantime, let me know ASAP if you find anything else out.",
+            "nextDialogs": [
+              "411121333"
+            ]
+          },
+          "411121333": {
+            "id": "411121333",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're a star, Mona! Thanks so much!",
+            "nextDialogs": [
+              "411121334"
+            ]
+          },
+          "411121334": {
+            "id": "411121334",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Don't worry about it. As far as the astrological aspect goes, this will be a piece of cake."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411121201"
+        ],
+        "dialogs": {
+          "411121201": {
+            "id": "411121201",
+            "speakerId": 1002,
+            "speakerName": "Fischl",
+            "text": "Katheryne, the hour of destiny is upon you! I have invoked the sacred covenant between us, and now you must respond to the call.",
+            "nextDialogs": [
+              "411121202"
+            ]
+          },
+          "411121202": {
+            "id": "411121202",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "Let me see... Are you saying you require an assistant?",
+            "nextDialogs": [
+              "411121203"
+            ]
+          },
+          "411121203": {
+            "id": "411121203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, she got it in one! Katheryne must be super smart.",
+            "nextDialogs": [
+              "411121204"
+            ]
+          },
+          "411121204": {
+            "id": "411121204",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Know anyone with expertise in curses or dark magic?",
+            "nextDialogs": [
+              "411121205"
+            ]
+          },
+          "411121205": {
+            "id": "411121205",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "Unfortunately not. Though I do know of an astrologist.",
+            "nextDialogs": [
+              "411121206"
+            ]
+          },
+          "411121206": {
+            "id": "411121206",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "As it happens, the traveling astrologist <color=#00E1FFFF>Mona</color> is currently in Mondstadt. Do you know her?",
+            "nextDialogs": [
+              "411121207"
+            ]
+          },
+          "411121207": {
+            "id": "411121207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't think so.",
+            "nextDialogs": [
+              "411121208"
+            ]
+          },
+          "411121208": {
+            "id": "411121208",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "Never mind. Please wait here a moment, I will see if she is available.",
+            "nextDialogs": [
+              "411121209"
+            ]
+          },
+          "411121209": {
+            "id": "411121209",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We get to meet a real life astrologist! Paimon's so excited!",
+            "nextDialogs": [
+              "411121210"
+            ]
+          },
+          "411121210": {
+            "id": "411121210",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Katheryne, you seem frantic. What's the matter?",
+            "nextDialogs": [
+              "411121211"
+            ]
+          },
+          "411121211": {
+            "id": "411121211",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "Mona, I'd like to introduce you to some adventurers from the Guild. They've run into some problems and were hoping that you, with your astrological abilities, may be able to resolve them.",
+            "nextDialogs": [
+              "411121212"
+            ]
+          },
+          "411121212": {
+            "id": "411121212",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Were they now? Good call. I'm pleasantly surprised that they've heard of the astrologist of the century!",
+            "nextDialogs": [
+              "411121213"
+            ]
+          },
+          "411121213": {
+            "id": "411121213",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "So, you must be the one who needed my help?",
+            "nextDialogs": [
+              "411121214"
+            ]
+          },
+          "411121214": {
+            "id": "411121214",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hello.",
+            "nextDialogs": [
+              "411121215"
+            ]
+          },
+          "411121215": {
+            "id": "411121215",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Come on then, give me the lowdown. I may be willing to offer my skills — it all depends on the situation.",
+            "nextDialogs": [
+              "411121243"
+            ]
+          },
+          "411121243": {
+            "id": "411121243",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes, we are acquainted.",
+            "nextDialogs": [
+              "411121239"
+            ]
+          },
+          "411121239": {
+            "id": "411121239",
+            "speakerId": 1016,
+            "speakerName": "Katheryne",
+            "text": "Well that simplifies things. Please wait, I will fetch her right away.",
+            "nextDialogs": [
+              "411121240"
+            ]
+          },
+          "411121240": {
+            "id": "411121240",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Someone looking for me? Who is it?",
+            "nextDialogs": [
+              "411121244"
+            ]
+          },
+          "411121244": {
+            "id": "411121244",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're Mona!",
+            "nextDialogs": [
+              "411121241"
+            ]
+          },
+          "411121241": {
+            "id": "411121241",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "Oh, it's you!",
+            "nextDialogs": [
+              "411121242"
+            ]
+          },
+          "411121242": {
+            "id": "411121242",
+            "speakerId": 1015,
+            "speakerName": "Mona",
+            "text": "So. What did you want?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4111220",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "411122000"
+        ],
+        "dialogs": {
+          "411122000": {
+            "id": "411122000",
+            "speakerId": 1008,
+            "speakerName": "Ben",
+            "text": "It's like the end of the world, or something..."
+          }
+        }
+      }
+    }
+  ]
+}

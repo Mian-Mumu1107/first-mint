@@ -1,0 +1,608 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Paimon": 46,
+    "Player": 6
+  },
+  "subQuests": [
+    {
+      "subId": "7514801",
+      "subQuestName": "Go to the Skyfire Circlet",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751480101"
+        ],
+        "dialogs": {
+          "751480101": {
+            "id": "751480101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Chosen of Dragons, O Chosen of Dragons...",
+            "nextDialogs": [
+              "751480102"
+            ]
+          },
+          "751480102": {
+            "id": "751480102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ascend to the circlet's highest pinnacle — then hurl yourself into the Sacred Mountain's fire!",
+            "nextDialogs": [
+              "751480103"
+            ]
+          },
+          "751480103": {
+            "id": "751480103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Go forth and reveal it — break the golden seal, unveil the radiance of remnant flames unnumbered!",
+            "nextDialogs": [
+              "751480104"
+            ]
+          },
+          "751480104": {
+            "id": "751480104",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrroar...",
+            "nextDialogs": [
+              "751480105"
+            ]
+          },
+          "751480105": {
+            "id": "751480105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's wrong? Did you see a bunch of strange words again?",
+            "nextDialogs": [
+              "751480108"
+            ]
+          },
+          "751480108": {
+            "id": "751480108",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, you mean it's because we're getting closer to the volcano?",
+            "nextDialogs": [
+              "751480109"
+            ]
+          },
+          "751480109": {
+            "id": "751480109",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751480110"
+            ]
+          },
+          "751480110": {
+            "id": "751480110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...It's almost as if the person who's been talking to you all this time is in that mountain.",
+            "nextDialogs": [
+              "751480111"
+            ]
+          },
+          "751480111": {
+            "id": "751480111",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Anyway, since those things are showing up as we're getting closer to the volcano, that's gotta mean we're on the right track.",
+            "nextDialogs": [
+              "751480112"
+            ]
+          },
+          "751480112": {
+            "id": "751480112",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514805",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751480501"
+        ],
+        "dialogs": {
+          "751480501": {
+            "id": "751480501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Was that a Q—Qucusaur?",
+            "nextDialogs": [
+              "751480502"
+            ]
+          },
+          "751480502": {
+            "id": "751480502",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Did it just grab that statue and jump... straight into the crater!?",
+            "nextDialogs": [
+              "751480503"
+            ]
+          },
+          "751480503": {
+            "id": "751480503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's gotta be the volcano's mouth, right? What a view...",
+            "nextDialogs": [
+              "751480504"
+            ]
+          },
+          "751480504": {
+            "id": "751480504",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?",
+            "nextDialogs": [
+              "751480505"
+            ]
+          },
+          "751480505": {
+            "id": "751480505",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh wait, that's right! We can <color=#00E1FFFF>find a way to pass through gaseous phlogiston</color>, just like the Qucusaurus from back there!",
+            "nextDialogs": [
+              "751480506"
+            ]
+          },
+          "751480506": {
+            "id": "751480506",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But, uh... *gulp* Kinda high up, aren't we?",
+            "nextDialogs": [
+              "751480508",
+              "751480511"
+            ]
+          },
+          "751480508": {
+            "id": "751480508",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751480509"
+            ]
+          },
+          "751480509": {
+            "id": "751480509",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Err, you wanna go in too? Well... Ugh, alright. I—If that's the case, Paimon's not that scared anymore.",
+            "nextDialogs": [
+              "751480514"
+            ]
+          },
+          "751480514": {
+            "id": "751480514",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And it's not just that we're high up — don't forget about the gaseous phlogiston!",
+            "nextDialogs": [
+              "751480515"
+            ]
+          },
+          "751480515": {
+            "id": "751480515",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A—Anyway, let's make sure we're all set before we go!"
+          },
+          "751480511": {
+            "id": "751480511",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh, Paimon couldn't do that! Never mind the strength problem — think about the timing!",
+            "nextDialogs": [
+              "751480512"
+            ]
+          },
+          "751480512": {
+            "id": "751480512",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751480513"
+            ]
+          },
+          "751480513": {
+            "id": "751480513",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And you too! Stop \"rawring\" along with this craziness! *sigh* ...Y'know what, now you two've gone and killed all the tension!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514802",
+      "subQuestName": "Go to the top of the Skyfire Circlet",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751480201"
+        ],
+        "dialogs": {
+          "751480201": {
+            "id": "751480201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Was that... a Qucusaur? So, Qucusaurs really do bring the stolen statues here...",
+            "nextDialogs": [
+              "751480202"
+            ]
+          },
+          "751480202": {
+            "id": "751480202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait. Did it just grab that statue and jump... straight into the crater!?",
+            "nextDialogs": [
+              "751480203"
+            ]
+          },
+          "751480203": {
+            "id": "751480203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's gotta be the volcano's mouth, right? What a view...",
+            "nextDialogs": [
+              "751480204"
+            ]
+          },
+          "751480204": {
+            "id": "751480204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?",
+            "nextDialogs": [
+              "751480205"
+            ]
+          },
+          "751480205": {
+            "id": "751480205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh wait, that's right! We can <color=#00E1FFFF>find a way to pass through gaseous phlogiston</color>, just like that Qucusaur did!",
+            "nextDialogs": [
+              "751480206"
+            ]
+          },
+          "751480206": {
+            "id": "751480206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But, uh... *gulp* Kinda high up, aren't we?",
+            "nextDialogs": [
+              "751480208",
+              "751480211"
+            ]
+          },
+          "751480208": {
+            "id": "751480208",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751480209"
+            ]
+          },
+          "751480209": {
+            "id": "751480209",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Err, you're all set to take the plunge too? Well... Um, alright. I—If that's the case, Paimon's not that scared anymore either.",
+            "nextDialogs": [
+              "751480214"
+            ]
+          },
+          "751480214": {
+            "id": "751480214",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And it's not just that we're high up — don't forget about the gaseous phlogiston!",
+            "nextDialogs": [
+              "751480215"
+            ]
+          },
+          "751480215": {
+            "id": "751480215",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A—Anyway, let's make sure we're all set before we go!"
+          },
+          "751480211": {
+            "id": "751480211",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Not gonna happen! Never mind the strength problem — think about how hard the timing would be!",
+            "nextDialogs": [
+              "751480212"
+            ]
+          },
+          "751480212": {
+            "id": "751480212",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751480213"
+            ]
+          },
+          "751480213": {
+            "id": "751480213",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And you too! Stop \"rawring\" along with this craziness! *sigh* ...Y'know what, now you two've gone and killed all the tension!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514808",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751480601"
+        ],
+        "dialogs": {
+          "751480601": {
+            "id": "751480601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Phew. We finally made it. Paimon didn't think it'd be so high up... but at least it's not as cold as Paimon thought it would be.",
+            "nextDialogs": [
+              "751480602"
+            ]
+          },
+          "751480602": {
+            "id": "751480602",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Grroah, rrohh, rowrr!",
+            "nextDialogs": [
+              "751480603"
+            ]
+          },
+          "751480603": {
+            "id": "751480603",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-huh, says the meaty guy with the thick skin!",
+            "nextDialogs": [
+              "751480604"
+            ]
+          },
+          "751480604": {
+            "id": "751480604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's gotta be the volcano's mouth, right? What a view...",
+            "nextDialogs": [
+              "751480605"
+            ]
+          },
+          "751480605": {
+            "id": "751480605",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?",
+            "nextDialogs": [
+              "751480606"
+            ]
+          },
+          "751480606": {
+            "id": "751480606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like we need to find a way down.",
+            "nextDialogs": [
+              "751480607"
+            ]
+          },
+          "751480607": {
+            "id": "751480607",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, speaking of which, what's that? It looks like... some kinda strange statue.",
+            "nextDialogs": [
+              "751480608"
+            ]
+          },
+          "751480608": {
+            "id": "751480608",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! Could this statue be the one that Kimosi said a Qucusaurus stole?",
+            "nextDialogs": [
+              "751480609"
+            ]
+          },
+          "751480609": {
+            "id": "751480609",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514807",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7514803",
+      "subQuestName": "Leap into the crater",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7514807",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751480701"
+        ],
+        "dialogs": {
+          "751480701": {
+            "id": "751480701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Phew. We're finally up here. Paimon didn't think it'd be so high up... but at the same time, it's not as cold as Paimon thought.",
+            "nextDialogs": [
+              "751480702"
+            ]
+          },
+          "751480702": {
+            "id": "751480702",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Grroah, rrohh, rowrr!",
+            "nextDialogs": [
+              "751480703"
+            ]
+          },
+          "751480703": {
+            "id": "751480703",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-huh, says the meaty guy with the thick skin!",
+            "nextDialogs": [
+              "751480704"
+            ]
+          },
+          "751480704": {
+            "id": "751480704",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's gotta be the volcano's mouth, right? What a view...",
+            "nextDialogs": [
+              "751480705"
+            ]
+          },
+          "751480705": {
+            "id": "751480705",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?",
+            "nextDialogs": [
+              "751480706"
+            ]
+          },
+          "751480706": {
+            "id": "751480706",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like we need to find a way down.",
+            "nextDialogs": [
+              "751480707"
+            ]
+          },
+          "751480707": {
+            "id": "751480707",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, speaking of which, what's that? It looks like... some strange statue.",
+            "nextDialogs": [
+              "751480708"
+            ]
+          },
+          "751480708": {
+            "id": "751480708",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514898",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751489801"
+        ],
+        "dialogs": {
+          "751489801": {
+            "id": "751489801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! That Qucusaurus... looks like it flew off holding something strange. Was that a statue?",
+            "nextDialogs": [
+              "751489802"
+            ]
+          },
+          "751489802": {
+            "id": "751489802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa... Did it just... Did it jump into the crater?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7514899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751489901"
+        ],
+        "dialogs": {
+          "751489901": {
+            "id": "751489901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh, that Qucusaurus... Paimon didn't believe it when those tribespeople said Qucusaurs were stealing statues from the ruins, but it looks like it's true...",
+            "nextDialogs": [
+              "751489902"
+            ]
+          },
+          "751489902": {
+            "id": "751489902",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa... Did it just... Did it jump into the crater?"
+          }
+        }
+      }
+    }
+  ]
+}

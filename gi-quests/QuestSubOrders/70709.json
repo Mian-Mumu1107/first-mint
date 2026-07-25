@@ -1,0 +1,91 @@
+{
+  "lineCounts": {
+    "Manly Jack": 6,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7070901",
+      "subQuestName": "Give Manly Jack three servings of Chicken-Mushroom Skewer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707090101"
+        ],
+        "dialogs": {
+          "707090101": {
+            "id": "707090101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I heard you're in need of Chicken-Mushroom Skewers...",
+            "nextDialogs": [
+              "707090102"
+            ]
+          },
+          "707090102": {
+            "id": "707090102",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "Yeah, I am. You saw my commission, eh?",
+            "nextDialogs": [
+              "707090103"
+            ]
+          },
+          "707090103": {
+            "id": "707090103",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "Thanks for coming over to help me out. So, do you have those three Chicken-Mushroom Skewers?",
+            "nextDialogs": [
+              "707090106"
+            ]
+          },
+          "707090106": {
+            "id": "707090106",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "Well, pass them to me as soon as you get them. Eating all that meat's sure to make me a manlier man!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070902",
+      "subQuestName": "Talk to Manly Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707090201"
+        ],
+        "dialogs": {
+          "707090201": {
+            "id": "707090201",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "Wow, smells good. I'll take them.",
+            "nextDialogs": [
+              "707090202"
+            ]
+          },
+          "707090202": {
+            "id": "707090202",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "These are for you. Thanks for the help!",
+            "nextDialogs": [
+              "707090203"
+            ]
+          },
+          "707090203": {
+            "id": "707090203",
+            "speakerId": 1000,
+            "speakerName": "Manly Jack",
+            "text": "Now, watch me eat all these in one go..."
+          }
+        }
+      }
+    }
+  ]
+}

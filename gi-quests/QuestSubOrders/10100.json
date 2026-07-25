@@ -1,0 +1,2441 @@
+{
+  "lineCounts": {
+    "Donna": 34,
+    "Flora": 5,
+    "Lisa": 97,
+    "Marjorie": 19,
+    "Paimon": 36,
+    "Player": 40,
+    "Sara": 9
+  },
+  "subQuests": [
+    {
+      "subId": "1010001",
+      "subQuestName": "Find Lisa in the Library",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010002",
+      "subQuestName": "Talk to Lisa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000001"
+        ],
+        "dialogs": {
+          "101000001": {
+            "id": "101000001",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*yawn* If you're borrowing a book, please register it in the log. The restricted section is currently not lending any books...",
+            "nextDialogs": [
+              "101000002"
+            ]
+          },
+          "101000002": {
+            "id": "101000002",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Oh? It's you, little cutie.",
+            "nextDialogs": [
+              "101000003"
+            ]
+          },
+          "101000003": {
+            "id": "101000003",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It's so good to see you! More refreshing than a strong cup of tea in the afternoon.",
+            "nextDialogs": [
+              "101000004"
+            ]
+          },
+          "101000004": {
+            "id": "101000004",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Clearly you're meant to be working, but you don't seem to have your heart in it at all...",
+            "nextDialogs": [
+              "101000005"
+            ]
+          },
+          "101000005": {
+            "id": "101000005",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I mean, other than Jean, who really works that earnestly anyway?",
+            "nextDialogs": [
+              "101000008"
+            ]
+          },
+          "101000008": {
+            "id": "101000008",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "So did you have something you needed?",
+            "nextDialogs": [
+              "101000009"
+            ]
+          },
+          "101000009": {
+            "id": "101000009",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "...Or did you just come to see me?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010003",
+      "subQuestName": "Talk to Marjorie about returning the library book",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000301"
+        ],
+        "dialogs": {
+          "101000301": {
+            "id": "101000301",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "#{NICKNAME}, you're here! Let's begin, shall we?",
+            "nextDialogs": [
+              "101000302"
+            ]
+          },
+          "101000302": {
+            "id": "101000302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Excuse me, Marjorie...",
+            "nextDialogs": [
+              "101000303"
+            ]
+          },
+          "101000303": {
+            "id": "101000303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Marjorie, regarding the book you borrowed—",
+            "nextDialogs": [
+              "101000304"
+            ]
+          },
+          "101000304": {
+            "id": "101000304",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hello Marjorie, any exciting new items in stock?",
+            "nextDialogs": [
+              "101000305"
+            ]
+          },
+          "101000305": {
+            "id": "101000305",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Why so surprised? Today is such a special day, it's only natural that I'd want a souvenir to remember it by.",
+            "nextDialogs": [
+              "101000307",
+              "101000310",
+              "101000313"
+            ]
+          },
+          "101000307": {
+            "id": "101000307",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "#So it is... In that case, I declare this the \"Day of...\" the \"Day of My Life I Wish I Could Get Back Because I Spent My First Ever Outing With {NICKNAME} Taking Them on an Annoying Errand.\"",
+            "nextDialogs": [
+              "101000315"
+            ]
+          },
+          "101000315": {
+            "id": "101000315",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Haha... Well, if it's a souvenir you're after, you're in the right place. I'm sure you'll find something that strikes your fancy, Lisa.",
+            "nextDialogs": [
+              "101000316"
+            ]
+          },
+          "101000316": {
+            "id": "101000316",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Or you could let your new friend pick something out for you... make it more of an occasion?",
+            "nextDialogs": [
+              "101000317"
+            ]
+          },
+          "101000317": {
+            "id": "101000317",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Yes, yes! Let {NICKNAME} pick!",
+            "nextDialogs": [
+              "101000318"
+            ]
+          },
+          "101000318": {
+            "id": "101000318",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Alright then.",
+            "nextDialogs": [
+              "101001001"
+            ]
+          },
+          "101001001": {
+            "id": "101001001",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Take a look around, there's sure to be something she'll love.\\n<color=#00E1FFFF>(Choose a gift for Lisa.)</color>"
+          },
+          "101000310": {
+            "id": "101000310",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Since we came all this way, why don't we put our official business to one side for a moment?",
+            "nextDialogs": [
+              "101000311"
+            ]
+          },
+          "101000311": {
+            "id": "101000311",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "All work and no play makes life terribly mundane."
+          },
+          "101000313": {
+            "id": "101000313",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Ooh. Is that how you see it?",
+            "nextDialogs": [
+              "101000314"
+            ]
+          },
+          "101000314": {
+            "id": "101000314",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I suppose there's nothing wrong with that... At your age, these kinds of fleeting fantasies are normal."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010019",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101004501"
+        ],
+        "dialogs": {
+          "101004501": {
+            "id": "101004501",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Goodness, is that the time? Marjorie, one last thing — about \"The Legend of Vennessa\"—",
+            "nextDialogs": [
+              "101004502"
+            ]
+          },
+          "101004502": {
+            "id": "101004502",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Oh, so you're a fan of the gallant Lady Vennessa too? Why didn't you say so? I have all sorts of items I could recommend...",
+            "nextDialogs": [
+              "101004503"
+            ]
+          },
+          "101004503": {
+            "id": "101004503",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "For example, this lion's tooth pendant with Vennessa's name carved into it. It was once a medal awarded to a knight by the great lady herself!",
+            "nextDialogs": [
+              "101004504"
+            ]
+          },
+          "101004504": {
+            "id": "101004504",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "...",
+            "nextDialogs": [
+              "101004505"
+            ]
+          },
+          "101004505": {
+            "id": "101004505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I think what Lisa means is...",
+            "nextDialogs": [
+              "101004506"
+            ]
+          },
+          "101004506": {
+            "id": "101004506",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The library book you borrowed.",
+            "nextDialogs": [
+              "101004507"
+            ]
+          },
+          "101004507": {
+            "id": "101004507",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Oh my goodness! I do apologize, I got so excited when you mentioned Vennessa.",
+            "nextDialogs": [
+              "101004508"
+            ]
+          },
+          "101004508": {
+            "id": "101004508",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "I didn't know that book was overdue. Even though I take it with me everywhere...",
+            "nextDialogs": [
+              "101004509"
+            ]
+          },
+          "101004509": {
+            "id": "101004509",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "I can't believe I didn't put two and two together as soon as I saw you here, haha... Here you go.",
+            "nextDialogs": [
+              "101004510"
+            ]
+          },
+          "101004510": {
+            "id": "101004510",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*sigh* Well, since you look up to Lady Vennessa so very much... Please be more punctual next time.",
+            "nextDialogs": [
+              "101004511"
+            ]
+          },
+          "101004511": {
+            "id": "101004511",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Yes, Lisa. I will be, Lisa.",
+            "nextDialogs": [
+              "101004512"
+            ]
+          },
+          "101004512": {
+            "id": "101004512",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Let's go and find the next overdue book."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010010",
+      "subQuestName": "Pick a souvenir for Lisa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010011",
+      "subQuestName": "Find a gift for Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001701"
+        ],
+        "dialogs": {
+          "101001701": {
+            "id": "101001701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes",
+            "nextDialogs": [
+              "101001702"
+            ]
+          },
+          "101001702": {
+            "id": "101001702",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*sigh* Well, if you insist... I will just use them as an extra pair of pajamas."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010012",
+      "subQuestName": "Find a gift for Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001801"
+        ],
+        "dialogs": {
+          "101001801": {
+            "id": "101001801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes",
+            "nextDialogs": [
+              "101001802"
+            ]
+          },
+          "101001802": {
+            "id": "101001802",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "My my, you clearly know a treasure when you see it. This is a work of unparalleled significance for the research of ancient people's understanding of the elements. I will gladly accept it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010013",
+      "subQuestName": "Find a gift for Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001901"
+        ],
+        "dialogs": {
+          "101001901": {
+            "id": "101001901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes",
+            "nextDialogs": [
+              "101001902"
+            ]
+          },
+          "101001902": {
+            "id": "101001902",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It is said that the gift of a voodoo doll is certain to curse its recipient. Although, magic of this level certainly wouldn't have any effect on me.",
+            "nextDialogs": [
+              "101001903"
+            ]
+          },
+          "101001903": {
+            "id": "101001903",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "But you're probably innocent to such things. Since you're just a traveler, I will pretend that none of this ever happened."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010014",
+      "subQuestName": "Find a gift for Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101004001"
+        ],
+        "dialogs": {
+          "101004001": {
+            "id": "101004001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes",
+            "nextDialogs": [
+              "101004002"
+            ]
+          },
+          "101004002": {
+            "id": "101004002",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I suppose it's not completely useless... I'll let Razor borrow it when it's time for his enhancement training."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010015",
+      "subQuestName": "Hidden Option 1 unlocked (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001101"
+        ],
+        "dialogs": {
+          "101001101": {
+            "id": "101001101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Bloomers",
+            "nextDialogs": [
+              "101001102"
+            ]
+          },
+          "101001102": {
+            "id": "101001102",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "This pair? Soft, puffy, and very comfortable. Certain to make a little girl — well, in this case, a woman — look quite adorable.",
+            "nextDialogs": [
+              "101001103"
+            ]
+          },
+          "101001103": {
+            "id": "101001103",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "After all, they're the same kind worn by toy dolls. They're practically a badge of cuteness.",
+            "nextDialogs": [
+              "101001104"
+            ]
+          },
+          "101001104": {
+            "id": "101001104",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Bloomers? I'm sure to attract some strange looks if I dress up like a small child in public. Do you have some strange... hobby you're not telling me about?",
+            "nextDialogs": [
+              "101001105"
+            ]
+          },
+          "101001105": {
+            "id": "101001105",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>bloomers</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010016",
+      "subQuestName": "Hidden Option 2 unlocked",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101004201"
+        ],
+        "dialogs": {
+          "101004201": {
+            "id": "101004201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What does Marjorie think?",
+            "nextDialogs": [
+              "101004202"
+            ]
+          },
+          "101004202": {
+            "id": "101004202",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Me? You're asking me? Erm... I feel like Lisa is the well-educated type.",
+            "nextDialogs": [
+              "101004203"
+            ]
+          },
+          "101004203": {
+            "id": "101004203",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Ah, that's right — I heard she enjoys <color=#00E1FFFF>items of historical interest</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010017",
+      "subQuestName": "Hidden clues unlocked (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001301"
+        ],
+        "dialogs": {
+          "101001301": {
+            "id": "101001301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Voodoo doll.",
+            "nextDialogs": [
+              "101001302"
+            ]
+          },
+          "101001302": {
+            "id": "101001302",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "This is the toy doll I was talking about earlier — doesn't she look lovely in those shorts?",
+            "nextDialogs": [
+              "101001303"
+            ]
+          },
+          "101001303": {
+            "id": "101001303",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Hmm... It does look a little bit terrifying, doesn't it? I wonder if you could find some other use for it...",
+            "nextDialogs": [
+              "101001304"
+            ]
+          },
+          "101001304": {
+            "id": "101001304",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Voodoo doll? Have you lost your mind? What could I have possibly done to deserve this?",
+            "nextDialogs": [
+              "101001305"
+            ]
+          },
+          "101001305": {
+            "id": "101001305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>voodoo doll</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010018",
+      "subQuestName": "Hidden clues completed (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010004",
+      "subQuestName": "Talk to Sara about returning the library book",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000401"
+        ],
+        "dialogs": {
+          "101000401": {
+            "id": "101000401",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "Welcome to Good Hunter. Table for two?",
+            "nextDialogs": [
+              "101000402"
+            ]
+          },
+          "101000402": {
+            "id": "101000402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "THREE!",
+            "nextDialogs": [
+              "101000403"
+            ]
+          },
+          "101000403": {
+            "id": "101000403",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "Oh, haha! My apologies... Please sit wherever you like and call me over once you're ready to order.",
+            "nextDialogs": [
+              "101000404"
+            ]
+          },
+          "101000404": {
+            "id": "101000404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So we're gonna eat first and bring up the book situation later?",
+            "nextDialogs": [
+              "101000405"
+            ]
+          },
+          "101000405": {
+            "id": "101000405",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Why, of course. The stress of work really takes the pleasure out of eating, don't you think?",
+            "nextDialogs": [
+              "101000406"
+            ]
+          },
+          "101000406": {
+            "id": "101000406",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Work is that bad, huh?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010005",
+      "subQuestName": "Order a dish Lisa would like",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000501"
+        ],
+        "dialogs": {
+          "101000501": {
+            "id": "101000501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Regarding Lisa's taste in food...",
+            "nextDialogs": [
+              "101000502"
+            ]
+          },
+          "101000502": {
+            "id": "101000502",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "What does Lisa like to eat?",
+            "nextDialogs": [
+              "101000503"
+            ]
+          },
+          "101000503": {
+            "id": "101000503",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "She's been here a few times with Master Jean for afternoon tea before. I think she normally orders <color=#00E1FFFF>something vegetarian</color>.",
+            "nextDialogs": [
+              "101000504"
+            ]
+          },
+          "101000504": {
+            "id": "101000504",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "A lady tends to eat cautiously on account of her physique, after all! On that note, I should probably be watching my own diet a little more..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010021",
+      "subQuestName": "Have tea with Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101008301"
+        ],
+        "dialogs": {
+          "101008301": {
+            "id": "101008301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes",
+            "nextDialogs": [
+              "101008302"
+            ]
+          },
+          "101008302": {
+            "id": "101008302",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Finished ordering? Sit here, let's dine together."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010022",
+      "subQuestName": "Have tea with Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010023",
+      "subQuestName": "Have tea with Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010024",
+      "subQuestName": "Have tea with Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010025",
+      "subQuestName": "Have tea with Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010026",
+      "subQuestName": "Hidden Option 1 unlocked (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002301"
+        ],
+        "dialogs": {
+          "101002301": {
+            "id": "101002301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Radish Veggie Soup",
+            "nextDialogs": [
+              "101002302"
+            ]
+          },
+          "101002302": {
+            "id": "101002302",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I imagine that making a good vegetable soup takes good quality ingredients cooked in the right order at the right heat for the right length of time.",
+            "nextDialogs": [
+              "101002303"
+            ]
+          },
+          "101002303": {
+            "id": "101002303",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "At least, those are the principles that apply when one is making potions. But from what I've heard, soup-making was a popular pastime among the witches of the past.",
+            "nextDialogs": [
+              "101002304"
+            ]
+          },
+          "101002304": {
+            "id": "101002304",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Radish Veggie Soup</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010027",
+      "subQuestName": "Hidden Option 2 unlocked",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010028",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002801"
+        ],
+        "dialogs": {
+          "101002801": {
+            "id": "101002801",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "A fine choice! I'm pleasantly surprised.",
+            "nextDialogs": [
+              "101002802"
+            ]
+          },
+          "101002802": {
+            "id": "101002802",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "A truly enchanting dish, certainly a good fit for a witch. I am simply brimming with elemental energy after that."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010029",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002901"
+        ],
+        "dialogs": {
+          "101002901": {
+            "id": "101002901",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The ingredients are fresh — the Good Hunter certainly lives up to its reputation in that respect. Salad as a meal is a little bland, though — it always feels like there's something missing."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010006",
+      "subQuestName": "Sit down and dine with Lisa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000601"
+        ],
+        "dialogs": {
+          "101000601": {
+            "id": "101000601",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Finished ordering? Sit here, let's dine together."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010007",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000703"
+        ],
+        "dialogs": {
+          "101000703": {
+            "id": "101000703",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "Would you like to order something else?",
+            "nextDialogs": [
+              "101000704"
+            ]
+          },
+          "101000704": {
+            "id": "101000704",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "No thank you, we're quite satisfied. But I'm afraid I must ask you about \"The Boar Princess\"—",
+            "nextDialogs": [
+              "101000705"
+            ]
+          },
+          "101000705": {
+            "id": "101000705",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "The Boar Brisket? I'm sorry, I think we took that off the menu.",
+            "nextDialogs": [
+              "101000706"
+            ]
+          },
+          "101000706": {
+            "id": "101000706",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "...",
+            "nextDialogs": [
+              "101000707"
+            ]
+          },
+          "101000707": {
+            "id": "101000707",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "She means the book you borrowed!",
+            "nextDialogs": [
+              "101000708"
+            ]
+          },
+          "101000708": {
+            "id": "101000708",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "Oh! Of course! I came straight to the restaurant after I borrowed it and completely forgot that I even had it.",
+            "nextDialogs": [
+              "101000709"
+            ]
+          },
+          "101000709": {
+            "id": "101000709",
+            "speakerId": 1003,
+            "speakerName": "Sara",
+            "text": "I'm so sorry Lisa, I will bring it to the library myself as soon as I finish work.",
+            "nextDialogs": [
+              "101000710"
+            ]
+          },
+          "101000710": {
+            "id": "101000710",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Mm... Okay then. But make sure you don't forget this time.",
+            "nextDialogs": [
+              "101000711"
+            ]
+          },
+          "101000711": {
+            "id": "101000711",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "#Right, onto our next stop then, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010008",
+      "subQuestName": "Talk to Donna and find out what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006701"
+        ],
+        "dialogs": {
+          "101006701": {
+            "id": "101006701",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Okay, time to get back to business. Donna, do you know why we're here?",
+            "nextDialogs": [
+              "101006702"
+            ]
+          },
+          "101006702": {
+            "id": "101006702",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Back to business? My business is selling flowers!",
+            "nextDialogs": [
+              "101006703"
+            ]
+          },
+          "101006703": {
+            "id": "101006703",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*sigh* Once again, we see a total lack of respect for literature...",
+            "nextDialogs": [
+              "101006704"
+            ]
+          },
+          "101006704": {
+            "id": "101006704",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "<color=#00E1FFFF>The Pale Princess and the Six Pygmies</color>. Ring a bell?",
+            "nextDialogs": [
+              "101006705"
+            ]
+          },
+          "101006705": {
+            "id": "101006705",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Oh! Ahh, yes, well, what happened was... was...",
+            "nextDialogs": [
+              "101006706"
+            ]
+          },
+          "101006706": {
+            "id": "101006706",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Oh no, what am I gonna do?",
+            "nextDialogs": [
+              "101006709"
+            ]
+          },
+          "101006709": {
+            "id": "101006709",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "I... I lost the book.",
+            "nextDialogs": [
+              "101006710"
+            ]
+          },
+          "101006710": {
+            "id": "101006710",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "...",
+            "nextDialogs": [
+              "101006711"
+            ]
+          },
+          "101006711": {
+            "id": "101006711",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "A while back, I realized it was almost due and I was getting ready to bring it back to the library.",
+            "nextDialogs": [
+              "101006712"
+            ]
+          },
+          "101006712": {
+            "id": "101006712",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "But I couldn't find it anywhere. I looked for days — but nothing.",
+            "nextDialogs": [
+              "101006713"
+            ]
+          },
+          "101006713": {
+            "id": "101006713",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "It's like somebody stole it... It should have been there, on my bedside table. Right where I left it.",
+            "nextDialogs": [
+              "101006714"
+            ]
+          },
+          "101006714": {
+            "id": "101006714",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uh-oh... Bet Lisa does some crazy things when she gets mad!",
+            "nextDialogs": [
+              "101006715"
+            ]
+          },
+          "101006715": {
+            "id": "101006715",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I heard that!",
+            "nextDialogs": [
+              "101006716"
+            ]
+          },
+          "101006716": {
+            "id": "101006716",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Eek!",
+            "nextDialogs": [
+              "101006717"
+            ]
+          },
+          "101006717": {
+            "id": "101006717",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Well, if it really was stolen, Donna's done nothing wrong.",
+            "nextDialogs": [
+              "101006718"
+            ]
+          },
+          "101006718": {
+            "id": "101006718",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The blame lies with the book thief.",
+            "nextDialogs": [
+              "101006719"
+            ]
+          },
+          "101006719": {
+            "id": "101006719",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "And their punishment will be three— No, ten times worse than stealing my book.",
+            "nextDialogs": [
+              "101006720"
+            ]
+          },
+          "101006720": {
+            "id": "101006720",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Like Paimon said! Totally crazy!",
+            "nextDialogs": [
+              "101006721"
+            ]
+          },
+          "101006721": {
+            "id": "101006721",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How do we...",
+            "nextDialogs": [
+              "101006722"
+            ]
+          },
+          "101006722": {
+            "id": "101006722",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How do we find the lost book though?",
+            "nextDialogs": [
+              "101006723"
+            ]
+          },
+          "101006723": {
+            "id": "101006723",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Oh, don't worry about that. As long as I remain librarian, not a single book will go missing for good.",
+            "nextDialogs": [
+              "101006724"
+            ]
+          },
+          "101006724": {
+            "id": "101006724",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I put a unique elemental marker on each book. Our thief will have left a nice set of clues for us to follow.",
+            "nextDialogs": [
+              "101006725"
+            ]
+          },
+          "101006725": {
+            "id": "101006725",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "When did Lisa start taking her job so seriously!? Paimon always thought she was a total slacker.",
+            "nextDialogs": [
+              "101006726"
+            ]
+          },
+          "101006726": {
+            "id": "101006726",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hey sweetie, I've heard your elemental sensitivity is very strong... Why not see what you can do?",
+            "nextDialogs": [
+              "101006727"
+            ]
+          },
+          "101006727": {
+            "id": "101006727",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Elemental sensitivity? Oh! Paimon's got it!",
+            "nextDialogs": [
+              "101006728"
+            ]
+          },
+          "101006728": {
+            "id": "101006728",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, use your <color=#00E1FFFF>Elemental Sight</color> to look for clues!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010038",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000801"
+        ],
+        "dialogs": {
+          "101000801": {
+            "id": "101000801",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This is our final call for the day.",
+            "nextDialogs": [
+              "101000802"
+            ]
+          },
+          "101000802": {
+            "id": "101000802",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Welcome...! Uh... c—couples are our specialty! Let me know what you'd like and I'll wrap them up nicely for you.",
+            "nextDialogs": [
+              "101000803"
+            ]
+          },
+          "101000803": {
+            "id": "101000803",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Ah yes... Now which book was it that has the line, \"a date without flowers is a date without romance\"?",
+            "nextDialogs": [
+              "101000805",
+              "101000807"
+            ]
+          },
+          "101000805": {
+            "id": "101000805",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Why, it just so happens that I would, my kindest cutie."
+          },
+          "101000807": {
+            "id": "101000807",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Ugh, {NICKNAME}. Take. The. Hint.",
+            "nextDialogs": [
+              "101000808"
+            ]
+          },
+          "101000808": {
+            "id": "101000808",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hehe, never mind, your ignorance is somehow rather adorable.",
+            "nextDialogs": [
+              "101000809"
+            ]
+          },
+          "101000809": {
+            "id": "101000809",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Since you're here, and Lisa is here, and this is a flower shop... You might as well get a bunch of flowers, right? It only makes sense.",
+            "nextDialogs": [
+              "101005101"
+            ]
+          },
+          "101005101": {
+            "id": "101005101",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Some flowers for Miss Lisa? What would you like?\\n<color=#00E1FFFF>(Pick a kind that Lisa will like)</color>"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010031",
+      "subQuestName": "Result: Lisa in a good mood (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006201"
+        ],
+        "dialogs": {
+          "101006201": {
+            "id": "101006201",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Yes",
+            "nextDialogs": [
+              "101006202"
+            ]
+          },
+          "101006202": {
+            "id": "101006202",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Dandelions? They actually sell dandelions?",
+            "nextDialogs": [
+              "101006203"
+            ]
+          },
+          "101006203": {
+            "id": "101006203",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "They have a refreshing scent, similar to the one Jean wears. Thank you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010032",
+      "subQuestName": "Result: Lisa in an average mood (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006301"
+        ],
+        "dialogs": {
+          "101006301": {
+            "id": "101006301",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Yes",
+            "nextDialogs": [
+              "101006302"
+            ]
+          },
+          "101006302": {
+            "id": "101006302",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Huh? These flowers are saturated with Cryo energy. They could be very dangerous for me.",
+            "nextDialogs": [
+              "101006303"
+            ]
+          },
+          "101006303": {
+            "id": "101006303",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Don't you know what happens when Cryo meets Electro? *Tut-tut* You certainly haven't been doing your homework.",
+            "nextDialogs": [
+              "101006304"
+            ]
+          },
+          "101006304": {
+            "id": "101006304",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Meet me at the library after work and I will give you some training on elemental reactions. If you still find it hard to memorize... Maybe I'll have you give you a little taste of what it feels like to superconduct."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010033",
+      "subQuestName": "Result: Lisa in a bad mood (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006401"
+        ],
+        "dialogs": {
+          "101006401": {
+            "id": "101006401",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Yes",
+            "nextDialogs": [
+              "101006402"
+            ]
+          },
+          "101006402": {
+            "id": "101006402",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I can see you put a lot of thought into this, have you ever heard of the Witch of Purple Rose before?",
+            "nextDialogs": [
+              "101006403"
+            ]
+          },
+          "101006403": {
+            "id": "101006403",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I thought that after returning to Mondstadt I wouldn't have the chance to see fresh roses again.",
+            "nextDialogs": [
+              "101006404"
+            ]
+          },
+          "101006404": {
+            "id": "101006404",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This seems like a good sign."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010034",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006501"
+        ],
+        "dialogs": {
+          "101006501": {
+            "id": "101006501",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Yes",
+            "nextDialogs": [
+              "101006502"
+            ]
+          },
+          "101006502": {
+            "id": "101006502",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Ooh la-la, such fine taste.",
+            "nextDialogs": [
+              "101006503"
+            ]
+          },
+          "101006503": {
+            "id": "101006503",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This rare flower is only found in Mondstadt's very highest mountains.",
+            "nextDialogs": [
+              "101006504"
+            ]
+          },
+          "101006504": {
+            "id": "101006504",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "If only you had picked them for me with your own hands... They would have had twice the sentimental value."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010035",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005901"
+        ],
+        "dialogs": {
+          "101005901": {
+            "id": "101005901",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "What does Donna think?",
+            "nextDialogs": [
+              "101005902"
+            ]
+          },
+          "101005902": {
+            "id": "101005902",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "You want my help? I don't know if I have the best taste in flowers... Why don't you go ask Miss <color=#00E1FFFF>Flora</color>, the shop owner?",
+            "nextDialogs": [
+              "101005903"
+            ]
+          },
+          "101005903": {
+            "id": "101005903",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "I couldn't help but notice the flower on Miss Lisa's hat though — I think it's a <color=#00E1FFFF>Rose</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010036",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006101"
+        ],
+        "dialogs": {
+          "101006101": {
+            "id": "101006101",
+            "speakerId": 1005,
+            "speakerName": "Flora",
+            "text": "What kind of flowers does Lisa like?",
+            "nextDialogs": [
+              "101006102"
+            ]
+          },
+          "101006102": {
+            "id": "101006102",
+            "speakerId": 1005,
+            "speakerName": "Flora",
+            "text": "You want to know what flowers to get for Miss Lisa?",
+            "nextDialogs": [
+              "101006103"
+            ]
+          },
+          "101006103": {
+            "id": "101006103",
+            "speakerId": 1005,
+            "speakerName": "Flora",
+            "text": "We're not particularly close, but she strikes me as a classy lady!",
+            "nextDialogs": [
+              "101006104"
+            ]
+          },
+          "101006104": {
+            "id": "101006104",
+            "speakerId": 1005,
+            "speakerName": "Flora",
+            "text": "Hmm... Yep, it can only be the <color=#00E1FFFF>Cecilia</color>!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010037",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005301"
+        ],
+        "dialogs": {
+          "101005301": {
+            "id": "101005301",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Dandelion",
+            "nextDialogs": [
+              "101005302"
+            ]
+          },
+          "101005302": {
+            "id": "101005302",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Dandelions are one of our classics, and a personal favorite of Miss Flora, the shop owner.",
+            "nextDialogs": [
+              "101005303"
+            ]
+          },
+          "101005303": {
+            "id": "101005303",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "I know what you're thinking: Most flower shops don't sell dandelions, they're a nuisance to care for... Perhaps Miss Flora likes the sense of floating away to a faraway land that the dandelion evokes?",
+            "nextDialogs": [
+              "101005304"
+            ]
+          },
+          "101005304": {
+            "id": "101005304",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Come to think of it, Miss Flora herself gives people the same impression.",
+            "nextDialogs": [
+              "101005305"
+            ]
+          },
+          "101005305": {
+            "id": "101005305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Dandelion</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010044",
+      "subQuestName": "Search for the book's elemental marks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010009",
+      "subQuestName": "Talk to Lisa to understand what the clue means",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101000901"
+        ],
+        "dialogs": {
+          "101000901": {
+            "id": "101000901",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Looking at the elemental traces, it does seem likely that the book was stolen.",
+            "nextDialogs": [
+              "101000902"
+            ]
+          },
+          "101000902": {
+            "id": "101000902",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So Donna didn't do anything wrong after all.",
+            "nextDialogs": [
+              "101000903"
+            ]
+          },
+          "101000903": {
+            "id": "101000903",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It's not from the restricted section, so it's hardly a book worth stealing.",
+            "nextDialogs": [
+              "101000904"
+            ]
+          },
+          "101000904": {
+            "id": "101000904",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Whoever wanted this book so badly had a strange fixation indeed.",
+            "nextDialogs": [
+              "101000905"
+            ]
+          },
+          "101000905": {
+            "id": "101000905",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm... so what do we do now?",
+            "nextDialogs": [
+              "101000906"
+            ]
+          },
+          "101000906": {
+            "id": "101000906",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The <color=#00E1FFFF>elemental traces</color> are very faint, but I can tell that the thief took it beyond the city walls.",
+            "nextDialogs": [
+              "101000907"
+            ]
+          },
+          "101000907": {
+            "id": "101000907",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "#You must see it too, right, {NICKNAME}?",
+            "nextDialogs": [
+              "101000908"
+            ]
+          },
+          "101000908": {
+            "id": "101000908",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Let's follow the trail and have a little look where our thief was headed, shall we?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010012",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001201"
+        ],
+        "dialogs": {
+          "101001201": {
+            "id": "101001201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ragged old scroll.",
+            "nextDialogs": [
+              "101001202"
+            ]
+          },
+          "101001202": {
+            "id": "101001202",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "This is a historical relic retrieved from some ruins by one of the Adventurers' Guild.",
+            "nextDialogs": [
+              "101001203"
+            ]
+          },
+          "101001203": {
+            "id": "101001203",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Sure, there's a bit of wear and tear, but this thing in the painting must be well over a thousand years old... though it doesn't make much sense to me.",
+            "nextDialogs": [
+              "101001204"
+            ]
+          },
+          "101001204": {
+            "id": "101001204",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "My goodness... This is one of the three lost scrolls that make up the \"Northern Border Wind Investigation...\" What is it doing here!?",
+            "nextDialogs": [
+              "101001205"
+            ]
+          },
+          "101001205": {
+            "id": "101001205",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>ragged old scroll</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010014",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101001401"
+        ],
+        "dialogs": {
+          "101001401": {
+            "id": "101001401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Rusty sword.",
+            "nextDialogs": [
+              "101001402"
+            ]
+          },
+          "101001402": {
+            "id": "101001402",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "This is a new arrival. It took three Adventurers to carry this big boy back from the ruins where they found it.",
+            "nextDialogs": [
+              "101001403"
+            ]
+          },
+          "101001403": {
+            "id": "101001403",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "It comes with a lot of history as well as a lot of weight.",
+            "nextDialogs": [
+              "101001404"
+            ]
+          },
+          "101001404": {
+            "id": "101001404",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hmm... You do have strange tastes. If this is your way of saying you want to be my knight in shining armor, I'd rather you just say the words instead.",
+            "nextDialogs": [
+              "101001405"
+            ]
+          },
+          "101001405": {
+            "id": "101001405",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>rusty sword</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010020",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002001"
+        ],
+        "dialogs": {
+          "101002001": {
+            "id": "101002001",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "#*yawn*... Why don't you order us something, {NICKNAME}? I'm ever so curious to know what your tastes are.\\n<color=#00E1FFFF>(Pick a dish that Lisa will like)</color>"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010021",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002101"
+        ],
+        "dialogs": {
+          "101002101": {
+            "id": "101002101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Steak",
+            "nextDialogs": [
+              "101002102"
+            ]
+          },
+          "101002102": {
+            "id": "101002102",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Good Hunter's signature dish. If it's what you want, I'll try anything once.",
+            "nextDialogs": [
+              "101002103"
+            ]
+          },
+          "101002103": {
+            "id": "101002103",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Steak</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010022",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002201"
+        ],
+        "dialogs": {
+          "101002201": {
+            "id": "101002201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Northern Smoked Chicken",
+            "nextDialogs": [
+              "101002202"
+            ]
+          },
+          "101002202": {
+            "id": "101002202",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This seems like the sort of staple bar food you'd find at the tavern. It has an extremely strong flavor, so drinkers love it because they can actually taste it.",
+            "nextDialogs": [
+              "101002203"
+            ]
+          },
+          "101002203": {
+            "id": "101002203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Northern Smoked Chicken</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010024",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002401"
+        ],
+        "dialogs": {
+          "101002401": {
+            "id": "101002401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Satisfying Salad",
+            "nextDialogs": [
+              "101002402"
+            ]
+          },
+          "101002402": {
+            "id": "101002402",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Eating salad is like piling on more and more elemental power. Raw, unfettered energy applied indiscriminately, with no elegance or control.",
+            "nextDialogs": [
+              "101002403"
+            ]
+          },
+          "101002403": {
+            "id": "101002403",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It's the first mistake all magic users make when they're learning. But then again... if one genuinely had so much pure elemental power that they could solve any problem they wanted... that would be a different matter entirely.",
+            "nextDialogs": [
+              "101002404"
+            ]
+          },
+          "101002404": {
+            "id": "101002404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Satisfying Salad</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010025",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002501"
+        ],
+        "dialogs": {
+          "101002501": {
+            "id": "101002501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Wait a moment..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010026",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002601"
+        ],
+        "dialogs": {
+          "101002601": {
+            "id": "101002601",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Mm... beautifully tender and cooked to perfection. No wonder it's their signature dish. It's a shame I can't have more, but a witch must watch her physique."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010027",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101002701"
+        ],
+        "dialogs": {
+          "101002701": {
+            "id": "101002701",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hmm, such a potent aroma... It's almost suffocating. I never thought someone your age would go for a dish like this...",
+            "nextDialogs": [
+              "101002702"
+            ]
+          },
+          "101002702": {
+            "id": "101002702",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I always had you down as a little cutie... Now I'm not so sure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010030",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101003001"
+        ],
+        "dialogs": {
+          "101003001": {
+            "id": "101003001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Maybe later."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010035",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101003501"
+        ],
+        "dialogs": {
+          "101003501": {
+            "id": "101003501",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Wow, Jean must have given you some pointers? Such extraordinary lengths to prepare for a delicious meal... I'd almost say that's cheating.",
+            "nextDialogs": [
+              "101003502"
+            ]
+          },
+          "101003502": {
+            "id": "101003502",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I didn't know you and Jean got on so well. She used to make this for me once in a while too.",
+            "nextDialogs": [
+              "101003503"
+            ]
+          },
+          "101003503": {
+            "id": "101003503",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "As it happens, this is exactly what I was craving — the perfect treat after a tiresome day of work. You've outdone yourself."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010041",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101004101"
+        ],
+        "dialogs": {
+          "101004101": {
+            "id": "101004101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010054",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005401"
+        ],
+        "dialogs": {
+          "101005401": {
+            "id": "101005401",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Mist Flower",
+            "nextDialogs": [
+              "101005402"
+            ]
+          },
+          "101005402": {
+            "id": "101005402",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Mist Flowers? Over there in the corner... but don't touch them with your bare hands. You'll get frostbite.",
+            "nextDialogs": [
+              "101005403"
+            ]
+          },
+          "101005403": {
+            "id": "101005403",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "You want them? You're sure? What an unusual choice...",
+            "nextDialogs": [
+              "101005404"
+            ]
+          },
+          "101005404": {
+            "id": "101005404",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "It's just that Lisa seems to use Electro quite a lot. Things could get a little bit dangerous...",
+            "nextDialogs": [
+              "101005405"
+            ]
+          },
+          "101005405": {
+            "id": "101005405",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Mist Flower</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010055",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005501"
+        ],
+        "dialogs": {
+          "101005501": {
+            "id": "101005501",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Rose",
+            "nextDialogs": [
+              "101005502"
+            ]
+          },
+          "101005502": {
+            "id": "101005502",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "These roses were bought from a traveling merchant a few days ago.",
+            "nextDialogs": [
+              "101005503"
+            ]
+          },
+          "101005503": {
+            "id": "101005503",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Miss Flora thought maybe someone would like them... This is the only bunch.",
+            "nextDialogs": [
+              "101005504"
+            ]
+          },
+          "101005504": {
+            "id": "101005504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Rose</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010056",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005601"
+        ],
+        "dialogs": {
+          "101005601": {
+            "id": "101005601",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Cecilia",
+            "nextDialogs": [
+              "101005602"
+            ]
+          },
+          "101005602": {
+            "id": "101005602",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "Ah, the Cecilia. Did Miss Flora recommend it to you?",
+            "nextDialogs": [
+              "101005603"
+            ]
+          },
+          "101005603": {
+            "id": "101005603",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "This flower is a lot of effort to care for. I hope that I've been doing it right, otherwise they won't last long.",
+            "nextDialogs": [
+              "101005604"
+            ]
+          },
+          "101005604": {
+            "id": "101005604",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "But part of the Cecilia's charm is how precious and fragile each one is...",
+            "nextDialogs": [
+              "101005605"
+            ]
+          },
+          "101005605": {
+            "id": "101005605",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Cecilia</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010057",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101005701"
+        ],
+        "dialogs": {
+          "101005701": {
+            "id": "101005701",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "???"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010060",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006001"
+        ],
+        "dialogs": {
+          "101006001": {
+            "id": "101006001",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "I'll be back shortly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010066",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006601"
+        ],
+        "dialogs": {
+          "101006601": {
+            "id": "101006601",
+            "speakerId": 1005,
+            "speakerName": "Flora",
+            "text": "No"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010068",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101006801"
+        ],
+        "dialogs": {
+          "101006801": {
+            "id": "101006801",
+            "speakerId": 1004,
+            "speakerName": "Donna",
+            "text": "*sigh* How could I lose it..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010088",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101008801"
+        ],
+        "dialogs": {
+          "101008801": {
+            "id": "101008801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010097",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101009701"
+        ],
+        "dialogs": {
+          "101009701": {
+            "id": "101009701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Invigorating Pizza",
+            "nextDialogs": [
+              "101009702"
+            ]
+          },
+          "101009702": {
+            "id": "101009702",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*gasp* It's like you read my mind... Do you have some magical powers you're not telling me about, Outlander?",
+            "nextDialogs": [
+              "101009703"
+            ]
+          },
+          "101009703": {
+            "id": "101009703",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sure you wanna pick the <color=#00E1FFFF>Invigorating Pizza</color>? <color=#00E1FFFF>Can't change again</color> once you've made your mind up!"
+          }
+        }
+      }
+    }
+  ]
+}

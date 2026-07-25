@@ -1,0 +1,2003 @@
+{
+  "lineCounts": {
+    "???": 2,
+    "Black Screen": 3,
+    "Citlali": 39,
+    "Kachina": 28,
+    "Katheryne": 10,
+    "Kinich": 13,
+    "Paimon": 52,
+    "Piltzin": 2,
+    "Player": 22,
+    "Xilonen": 61
+  },
+  "subQuests": [
+    {
+      "subId": "501501",
+      "subQuestName": "Wait until two days later",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501502",
+      "subQuestName": "Go to the Adventurers' Guild",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501503",
+      "subQuestName": "Talk to Katheryne",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50150301"
+        ],
+        "dialogs": {
+          "50150301": {
+            "id": "50150301",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "I see, thank you so much. The Adventurers' Guild has been overwhelmed these days...",
+            "nextDialogs": [
+              "50150302"
+            ]
+          },
+          "50150302": {
+            "id": "50150302",
+            "speakerId": 1001,
+            "speakerName": "Piltzin",
+            "text": "No worries at all. We've always valued the strength of adventurers. Given the current situation, it's vital that we all work together.",
+            "nextDialogs": [
+              "50150303"
+            ]
+          },
+          "50150303": {
+            "id": "50150303",
+            "speakerId": 1001,
+            "speakerName": "Piltzin",
+            "text": "Since we're facing the same enemies, I'll send you the intel we've collected on the Abyss so far. Then we can take a look at how to coordinate our efforts.",
+            "nextDialogs": [
+              "50150304"
+            ]
+          },
+          "50150304": {
+            "id": "50150304",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Alright, thank you so much.",
+            "nextDialogs": [
+              "50150305"
+            ]
+          },
+          "50150305": {
+            "id": "50150305",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hi Katheryne, it's us! Got any new commissions?",
+            "nextDialogs": [
+              "50150306"
+            ]
+          },
+          "50150306": {
+            "id": "50150306",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Ah, you two have come just on time. I've got some good news — the Pyro Archon has finished assembling her forces and stationed them all across Natlan.",
+            "nextDialogs": [
+              "50150307"
+            ]
+          },
+          "50150307": {
+            "id": "50150307",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Given how the Abyss has ramped up its activities lately, we can no longer afford to act only after receiving news of an invasion.",
+            "nextDialogs": [
+              "50150308"
+            ]
+          },
+          "50150308": {
+            "id": "50150308",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "So, the Pyro Archon suggested that the Scions of the Canopy and the Adventurers' Guild focus on collecting and disseminating intel. That way, we can stay informed of everything that's happening across the land.",
+            "nextDialogs": [
+              "50150309"
+            ]
+          },
+          "50150309": {
+            "id": "50150309",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Once we receive word of enemy activity, we can notify the nearest camp and the stationed forces can take immediate action.",
+            "nextDialogs": [
+              "50150310"
+            ]
+          },
+          "50150310": {
+            "id": "50150310",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That'll lead to a faster response time.",
+            "nextDialogs": [
+              "50150311"
+            ]
+          },
+          "50150311": {
+            "id": "50150311",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Yes, precisely. This should also allow us to focus on gathering information, rather than running around and trying to tackle everything at once.",
+            "nextDialogs": [
+              "50150312"
+            ]
+          },
+          "50150312": {
+            "id": "50150312",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "So please also take a chance to relax, you two. You've been working hard these days and this will be a good opportunity for some well-deserved rest.",
+            "nextDialogs": [
+              "50150313"
+            ]
+          },
+          "50150313": {
+            "id": "50150313",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "So that's the plan! Phew, we can finally stop and take a break.",
+            "nextDialogs": [
+              "50150315",
+              "50150317"
+            ]
+          },
+          "50150315": {
+            "id": "50150315",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Paimon knows that! It's not like Paimon just wanted to lay here and do nothing.",
+            "nextDialogs": [
+              "50150318"
+            ]
+          },
+          "50150318": {
+            "id": "50150318",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Hehe, the movements of the Abyss are always unpredictable. There have also been times when it suddenly became more active in the past. The people here generally see it as something like an acute natural disaster.",
+            "nextDialogs": [
+              "50150319"
+            ]
+          },
+          "50150319": {
+            "id": "50150319",
+            "speakerId": 1000,
+            "speakerName": "Katheryne",
+            "text": "Once the disaster is over, everyone will return to their normal lives. We just all hope that day will be sooner rather than later.",
+            "nextDialogs": [
+              "50150320"
+            ]
+          },
+          "50150320": {
+            "id": "50150320",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Oh, right, most people have no idea just how bad the situation has gotten in the Night Kingdom...",
+            "nextDialogs": [
+              "50150321"
+            ]
+          },
+          "50150321": {
+            "id": "50150321",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I also hope the day of peace will come soon.",
+            "nextDialogs": [
+              "50150322"
+            ]
+          },
+          "50150322": {
+            "id": "50150322",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "#Eh? Is that {NICKNAME} and Paimon? Hello hello!",
+            "nextDialogs": [
+              "50150323"
+            ]
+          },
+          "50150323": {
+            "id": "50150323",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Oh hey, Kachina! Are you feeling better now?",
+            "nextDialogs": [
+              "50150324"
+            ]
+          },
+          "50150324": {
+            "id": "50150324",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Hehe, yep! Now really isn't the time to stay at home and recover, anyway. I wanted to do something to help.",
+            "nextDialogs": [
+              "50150325"
+            ]
+          },
+          "50150325": {
+            "id": "50150325",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "I heard that the Pyro Archon is gathering warriors to be stationed in the more remote areas, so I came here to sign up!"
+          },
+          "50150317": {
+            "id": "50150317",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Keeping Natlan safe and sound is our priority now, the Mora can wait!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501504",
+      "subQuestName": "Go to the Children of Echoes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501505",
+      "subQuestName": "Talk to Xilonen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50150501"
+        ],
+        "dialogs": {
+          "50150501": {
+            "id": "50150501",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Xilonen, I've brought the person who needs an Ancient Name!",
+            "nextDialogs": [
+              "50150502"
+            ]
+          },
+          "50150502": {
+            "id": "50150502",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "#{M#He's super amazing and I've already learned tons of stuff from him! I can vouch that he's really worthy of a hero's name!}{F#She's super amazing and I've already learned tons of stuff from her! I can vouch that she's really worthy of a hero's name!}",
+            "nextDialogs": [
+              "50150503"
+            ]
+          },
+          "50150503": {
+            "id": "50150503",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Ah yes, so I've heard. So young and yet you've already got quite the reputation...",
+            "nextDialogs": [
+              "50150504"
+            ]
+          },
+          "50150504": {
+            "id": "50150504",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "...Wait. Are you... outlanders?",
+            "nextDialogs": [
+              "50150505"
+            ]
+          },
+          "50150505": {
+            "id": "50150505",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yep, we're travelers who just arrived in Natlan not too long ago.",
+            "nextDialogs": [
+              "50150506"
+            ]
+          },
+          "50150506": {
+            "id": "50150506",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "No, I mean... I was aware that you're travelers... It's just, no one told me that you're outlanders.",
+            "nextDialogs": [
+              "50150507"
+            ]
+          },
+          "50150507": {
+            "id": "50150507",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Huh? You're saying the Pyro Archon didn't tell you?",
+            "nextDialogs": [
+              "50150508"
+            ]
+          },
+          "50150508": {
+            "id": "50150508",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "#{M#No. The only thing she said is that a new hero had pledged himself to the plan, but we'd need to forge an Ancient Name to ensure he'd be able to return safe and sound.}{F#No. The only thing she said is that a new hero had pledged herself to the plan, but we'd need to forge an Ancient Name to ensure she'd be able to return safe and sound.}",
+            "nextDialogs": [
+              "50150509"
+            ]
+          },
+          "50150509": {
+            "id": "50150509",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "She did mention that it would be quite difficult to forge an Ancient Name for them, but at the time I thought she was just commenting on my skills...",
+            "nextDialogs": [
+              "50150510"
+            ]
+          },
+          "50150510": {
+            "id": "50150510",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "But I seem to understand where the true difficulty lies now, ahaha.",
+            "nextDialogs": [
+              "50150511"
+            ]
+          },
+          "50150511": {
+            "id": "50150511",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "A—Are you upset?",
+            "nextDialogs": [
+              "50150512"
+            ]
+          },
+          "50150512": {
+            "id": "50150512",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I wouldn't go that far. I'm used to it, really — I just need a moment to process things.",
+            "nextDialogs": [
+              "50150513"
+            ]
+          },
+          "50150513": {
+            "id": "50150513",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "The Pyro Archon's requests are always difficult to fulfill and we used to argue a lot. Honestly, it's probably for the better that she didn't bring this up at the time.",
+            "nextDialogs": [
+              "50150514"
+            ]
+          },
+          "50150514": {
+            "id": "50150514",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Anyway, I can't argue with her if she isn't here. It'd be pointless to take my anger out on someone else.",
+            "nextDialogs": [
+              "50150515"
+            ]
+          },
+          "50150515": {
+            "id": "50150515",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "But just because I understand her rationale doesn't make me any less upset. After all, she must have known that forging an Ancient Name for an outlander is an impossible task!",
+            "nextDialogs": [
+              "50150516"
+            ]
+          },
+          "50150516": {
+            "id": "50150516",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "It's... impossible?",
+            "nextDialogs": [
+              "50150517"
+            ]
+          },
+          "50150517": {
+            "id": "50150517",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "As you probably know, an Ancient Name is a symbol of a hero's spirit and glory, which grows even richer and heavier as generations of successors inherit it.",
+            "nextDialogs": [
+              "50150518"
+            ]
+          },
+          "50150518": {
+            "id": "50150518",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "We forge Ancient Names by engraving the heroic deeds of an individual who will become the first hero of that particular Name.",
+            "nextDialogs": [
+              "50150519"
+            ]
+          },
+          "50150519": {
+            "id": "50150519",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I've got plenty of deeds under my belt.",
+            "nextDialogs": [
+              "50150520"
+            ]
+          },
+          "50150520": {
+            "id": "50150520",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Y—Yeah, I saw countless feats recorded in their Adventure Handbook! It felt like they could do anything!",
+            "nextDialogs": [
+              "50150521"
+            ]
+          },
+          "50150521": {
+            "id": "50150521",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "But they were all performed outside of Natlan, correct?",
+            "nextDialogs": [
+              "50150522"
+            ]
+          },
+          "50150522": {
+            "id": "50150522",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yeah, that's right...",
+            "nextDialogs": [
+              "50150523"
+            ]
+          },
+          "50150523": {
+            "id": "50150523",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Then those deeds haven't been recorded by the Night Kingdom. To take it one step further, even if you had performed heroic deeds in Natlan, as an outlander, your actions still wouldn't have been recorded by our lands.",
+            "nextDialogs": [
+              "50150524"
+            ]
+          },
+          "50150524": {
+            "id": "50150524",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Only memories and experiences that have been acknowledged by the Wayob can be used as the basis for an Ancient Name.",
+            "nextDialogs": [
+              "50150525"
+            ]
+          },
+          "50150525": {
+            "id": "50150525",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Even the greatest of craftsmen cannot create something out of thin air, you know. That's just how it is.",
+            "nextDialogs": [
+              "50150526"
+            ]
+          },
+          "50150526": {
+            "id": "50150526",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Seems the Wayob don't want just anyone to get a Name, huh...",
+            "nextDialogs": [
+              "50150527"
+            ]
+          },
+          "50150527": {
+            "id": "50150527",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Mavuika of all people should know better than anyone, yet she still entrusted the task of forging the Ancient Name to me.",
+            "nextDialogs": [
+              "50150528"
+            ]
+          },
+          "50150528": {
+            "id": "50150528",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Paimon gets it... Nobody's happy being asked to do the impossible.",
+            "nextDialogs": [
+              "50150529"
+            ]
+          },
+          "50150529": {
+            "id": "50150529",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Why do I feel like this has happened before... I think last time, Xilonen just ended up running dozens of laps around the hills nearby...",
+            "nextDialogs": [
+              "50150530"
+            ]
+          },
+          "50150530": {
+            "id": "50150530",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Don't remind me. Let's just focus on how we can pull this off... how to achieve the impossible.",
+            "nextDialogs": [
+              "50150531"
+            ]
+          },
+          "50150531": {
+            "id": "50150531",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh, you mean you're already willing to accept the task!?",
+            "nextDialogs": [
+              "50150532"
+            ]
+          },
+          "50150532": {
+            "id": "50150532",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Well, what else can I do? What's happened is already done, and it's not like I can outright defy the order of my Archon.",
+            "nextDialogs": [
+              "50150533"
+            ]
+          },
+          "50150533": {
+            "id": "50150533",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "If she gave me this order, then she believes the Ancient Name is an indispensable part of her plan and that I'll be able to find a way to make it happen.",
+            "nextDialogs": [
+              "50150534"
+            ]
+          },
+          "50150534": {
+            "id": "50150534",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "In other words, the order is an affirmation of my abilities.",
+            "nextDialogs": [
+              "50150535"
+            ]
+          },
+          "50150535": {
+            "id": "50150535",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Whoa, not only has she accepted the task, but now she's looking for silver linings!",
+            "nextDialogs": [
+              "50150536"
+            ]
+          },
+          "50150536": {
+            "id": "50150536",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Maybe that's just how much she and the Archon trust each other.",
+            "nextDialogs": [
+              "50150537"
+            ]
+          },
+          "50150537": {
+            "id": "50150537",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Y—Yeah, let's see if we can find some special way to pull this off! If we really can't make it work, uh, I'm sure we can still go back and talk to the Pyro Archon, right?",
+            "nextDialogs": [
+              "50150538"
+            ]
+          },
+          "50150538": {
+            "id": "50150538",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "#{M#The key is getting the Wayob to somehow acknowledge the Traveler's existence and record his heroic deeds.}{F#The key is getting the Wayob to somehow acknowledge the Traveler's existence and record her heroic deeds.}",
+            "nextDialogs": [
+              "50150539"
+            ]
+          },
+          "50150539": {
+            "id": "50150539",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "We heard the voice of a Wayob when we were in the Night Kingdom before. We even had a whole conversation with her!",
+            "nextDialogs": [
+              "50150540"
+            ]
+          },
+          "50150540": {
+            "id": "50150540",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "If we can talk to her again, maybe we can figure something out together.",
+            "nextDialogs": [
+              "50150541"
+            ]
+          },
+          "50150541": {
+            "id": "50150541",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Well, every tribe has their own Wayob. How do we know if the one you met is indeed the best one for us to talk to?",
+            "nextDialogs": [
+              "50150542"
+            ]
+          },
+          "50150542": {
+            "id": "50150542",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Plus, considering the unprecedented nature of the situation, I have a feeling that the acknowledgment of one Wayob alone would probably not be enough.",
+            "nextDialogs": [
+              "50150543"
+            ]
+          },
+          "50150543": {
+            "id": "50150543",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Would we need to gain the acknowledgement of all six Wayob?",
+            "nextDialogs": [
+              "50150544"
+            ]
+          },
+          "50150544": {
+            "id": "50150544",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "*sigh* I don't know. That requires a level of knowledge that I do not possess.",
+            "nextDialogs": [
+              "50150545"
+            ]
+          },
+          "50150545": {
+            "id": "50150545",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "We need to find a consultant who's an expert on all things Night Kingdom and Wayob. The first person who comes to mind is Citlali at the Masters of the Night-Wind, the one we call \"Granny Itztli.\"",
+            "nextDialogs": [
+              "50150546"
+            ]
+          },
+          "50150546": {
+            "id": "50150546",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ohh, we've heard of that name before! We used her Spiritspeaker Stone to find Kachina's Ancient Name!",
+            "nextDialogs": [
+              "50150547"
+            ]
+          },
+          "50150547": {
+            "id": "50150547",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "A person who can make something like that must be pretty impressive. Paimon's sure she'd be able to help!",
+            "nextDialogs": [
+              "50150548"
+            ]
+          },
+          "50150548": {
+            "id": "50150548",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Still, she's older now, and quite eccentric. It's hard to even book a meeting with her, given that she's constantly holed up in her room and doesn't like to be disturbed.",
+            "nextDialogs": [
+              "50150549"
+            ]
+          },
+          "50150549": {
+            "id": "50150549",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I've heard that to get her help, you have to be extremely patient with her and know how to keep her spirit up.",
+            "nextDialogs": [
+              "50150550"
+            ]
+          },
+          "50150550": {
+            "id": "50150550",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Um, hate to break it to ya, but...",
+            "nextDialogs": [
+              "50150551"
+            ]
+          },
+          "50150551": {
+            "id": "50150551",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She probably won't be very happy with us.",
+            "nextDialogs": [
+              "50150552"
+            ]
+          },
+          "50150552": {
+            "id": "50150552",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Huh? Why's that? Didn't she already help you before? And you even managed to save Kachina.",
+            "nextDialogs": [
+              "50150553"
+            ]
+          },
+          "50150553": {
+            "id": "50150553",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well, yeah... at the cost of her Spiritspeaker Stone being... split into two.",
+            "nextDialogs": [
+              "50150554"
+            ]
+          },
+          "50150554": {
+            "id": "50150554",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Huh!?",
+            "nextDialogs": [
+              "50150555"
+            ]
+          },
+          "50150555": {
+            "id": "50150555",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "...",
+            "nextDialogs": [
+              "50150556"
+            ]
+          },
+          "50150556": {
+            "id": "50150556",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Great going, Mavuika. We're already off to a rocky start here.",
+            "nextDialogs": [
+              "50150557"
+            ]
+          },
+          "50150557": {
+            "id": "50150557",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "In that case, I guess your only option is to try to emphasize that this is an important order from the Pyro Archon. Hopefully, Citlali would still want to show respect to the Archon.",
+            "nextDialogs": [
+              "50150558"
+            ]
+          },
+          "50150558": {
+            "id": "50150558",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I'll also write a letter on your behalf. If you can find someone to deliver it and mention some good things about you, then that should help too...",
+            "nextDialogs": [
+              "50150559"
+            ]
+          },
+          "50150559": {
+            "id": "50150559",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Oh, let's ask Kinich to deliver the letter! He understands the whole situation and is already a familiar face to her.",
+            "nextDialogs": [
+              "50150560"
+            ]
+          },
+          "50150560": {
+            "id": "50150560",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Paimon sure hopes Ajaw won't interrupt when he's talking though...",
+            "nextDialogs": [
+              "50150561"
+            ]
+          },
+          "50150561": {
+            "id": "50150561",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Alright. Kinich's a seasoned negotiator, I trust that he'll know the best things to say.",
+            "nextDialogs": [
+              "50150562"
+            ]
+          },
+          "50150562": {
+            "id": "50150562",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Great, then I'll go contact him right now!",
+            "nextDialogs": [
+              "50150563"
+            ]
+          },
+          "50150563": {
+            "id": "50150563",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Please give me a moment to write the letter. We can meet up near the Statue of The Seven later.",
+            "nextDialogs": [
+              "50150564"
+            ]
+          },
+          "50150564": {
+            "id": "50150564",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sounds good! We'll take a stroll in the meantime."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501506",
+      "subQuestName": "Go and meet up with Kinich at the agreed location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50150601"
+        ],
+        "dialogs": {
+          "50150601": {
+            "id": "50150601",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "Kinich makes his way over after some time.",
+            "nextDialogs": [
+              "50150602"
+            ]
+          },
+          "50150602": {
+            "id": "50150602",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "We meet again. Kachina told me everything — I'll deliver the message to the Masters of Night-Wind and convince Citlali to give you a chance.",
+            "nextDialogs": [
+              "50150603"
+            ]
+          },
+          "50150603": {
+            "id": "50150603",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "I'll also take this chance to explain what happened to the Spiritspeaker Stone and offer her an apology in person.",
+            "nextDialogs": [
+              "50150604"
+            ]
+          },
+          "50150604": {
+            "id": "50150604",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Sorry to put this on you, Kinich. It's just that you're probably the only person who knows how to deal with her.",
+            "nextDialogs": [
+              "50150605"
+            ]
+          },
+          "50150605": {
+            "id": "50150605",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "It's alright. We're all working for the sake of the Pyro Archon's plan, after all. Everyone here understands how dire the situation has become.",
+            "nextDialogs": [
+              "50150606"
+            ]
+          },
+          "50150606": {
+            "id": "50150606",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Oh, wait. So Kachina and the Traveler also know about the plan?",
+            "nextDialogs": [
+              "50150607"
+            ]
+          },
+          "50150607": {
+            "id": "50150607",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Mhm, because we all saw a hero of the past re-materialize right before our eyes! And then Mualani said that a ton of knowledge and memories suddenly flooded her brain.",
+            "nextDialogs": [
+              "50150608"
+            ]
+          },
+          "50150608": {
+            "id": "50150608",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "The Pyro Archon explained everything when we came back from the Night Kingdom, including the reason behind the appearance of the hero, as well as the current state of the Night Kingdom.",
+            "nextDialogs": [
+              "50150609"
+            ]
+          },
+          "50150609": {
+            "id": "50150609",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Right! She mentioned there are six heroes, and that Xilonen is one of four that have already been acknowledged.",
+            "nextDialogs": [
+              "50150610"
+            ]
+          },
+          "50150610": {
+            "id": "50150610",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Hehe, then I suppose there's no need to keep any secrets between us. Having companions walk by your side is perhaps the best solace when facing such a bleak reality.",
+            "nextDialogs": [
+              "50150611"
+            ]
+          },
+          "50150611": {
+            "id": "50150611",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "I have another piece of intel to share. We've pretty much identified the person who rescued The Captain in the Stadium of the Sacred Flame.",
+            "nextDialogs": [
+              "50150612"
+            ]
+          },
+          "50150612": {
+            "id": "50150612",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "His name is Ororon, and he also hails from the Masters of the Night-Wind. However, he's spent most of his life living out in the wilderness by himself, away from the rest of the tribe.",
+            "nextDialogs": [
+              "50150613"
+            ]
+          },
+          "50150613": {
+            "id": "50150613",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "That's why his disappearance went unnoticed. By the time Citlali finally realized that he was gone, no one had heard from him for quite a while.",
+            "nextDialogs": [
+              "50150614"
+            ]
+          },
+          "50150614": {
+            "id": "50150614",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh? Citlali knows him, too?",
+            "nextDialogs": [
+              "50150615"
+            ]
+          },
+          "50150615": {
+            "id": "50150615",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "That's right. Ororon was an orphan raised by the chief of the Masters of the Night-Wind and many other kindhearted people in his tribe. Still, he's had something of an odd reputation his whole life.",
+            "nextDialogs": [
+              "50150616"
+            ]
+          },
+          "50150616": {
+            "id": "50150616",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Odd, huh...",
+            "nextDialogs": [
+              "50150617"
+            ]
+          },
+          "50150617": {
+            "id": "50150617",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Given how the Masters of the Night-Wind love to babble about dreams and revelations, they're already a pretty strange bunch to most.",
+            "nextDialogs": [
+              "50150618"
+            ]
+          },
+          "50150618": {
+            "id": "50150618",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I've never met Ororon, but if even they consider him the odd one... he's gotta be pretty far out there.",
+            "nextDialogs": [
+              "50150619"
+            ]
+          },
+          "50150619": {
+            "id": "50150619",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "That's right. So, in that sense, Ororon and Citlali actually have quite a bit in common, which is why they get along pretty well.",
+            "nextDialogs": [
+              "50150620"
+            ]
+          },
+          "50150620": {
+            "id": "50150620",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh, makes sense! But Paimon wonders how Citlali could be the first one to notice Ororon's disappearance if she spends the whole day in her room.",
+            "nextDialogs": [
+              "50150621"
+            ]
+          },
+          "50150621": {
+            "id": "50150621",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "As of now, we still haven't been able to confirm whether Ororon joined the Fatui voluntarily, or if he was coerced.",
+            "nextDialogs": [
+              "50150622"
+            ]
+          },
+          "50150622": {
+            "id": "50150622",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "Citlali is probably eager to prove that Ororon hasn't betrayed his people. I plan to use this as leverage when I go to talk with her.",
+            "nextDialogs": [
+              "50150623"
+            ]
+          },
+          "50150623": {
+            "id": "50150623",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "If I'm following, you mean we'll help her investigate Ororon and The Captain's whereabouts?",
+            "nextDialogs": [
+              "50150624"
+            ]
+          },
+          "50150624": {
+            "id": "50150624",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "Yes. If you're all on board with the idea, then it becomes a mutually beneficial collaboration, rather than just a one-sided request.",
+            "nextDialogs": [
+              "50150625"
+            ]
+          },
+          "50150625": {
+            "id": "50150625",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "Even though I don't think Citlali is the kind of person to turn down an order from the Pyro Archon, working together with us will help her focus and not get distracted by the whole Ororon situation.",
+            "nextDialogs": [
+              "50150628"
+            ]
+          },
+          "50150628": {
+            "id": "50150628",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yeah. Plus we kinda owe her one anyway to make up for breaking the Spiritspeaker Stone.",
+            "nextDialogs": [
+              "50150629"
+            ]
+          },
+          "50150629": {
+            "id": "50150629",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "This is a pretty well-thought-out plan. As expected of \"Mal{RUBY#[D]Turnfire}ipo\" Kinich.",
+            "nextDialogs": [
+              "50150630"
+            ]
+          },
+          "50150630": {
+            "id": "50150630",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Then I'll leave my letter to you. Let's hope Citlali can meet at the Stadium in two days.",
+            "nextDialogs": [
+              "50150631"
+            ]
+          },
+          "50150631": {
+            "id": "50150631",
+            "speakerId": 1006,
+            "speakerName": "Kinich",
+            "text": "Sure, I'll head out right away.",
+            "nextDialogs": [
+              "50150632"
+            ]
+          },
+          "50150632": {
+            "id": "50150632",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "Take care out there, Kinich!",
+            "nextDialogs": [
+              "50150633"
+            ]
+          },
+          "50150633": {
+            "id": "50150633",
+            "speakerId": 1003,
+            "speakerName": "Kachina",
+            "text": "I'll be heading back as well. There are still a few things I need to pack.",
+            "nextDialogs": [
+              "50150634"
+            ]
+          },
+          "50150634": {
+            "id": "50150634",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Okay, then let's part ways for now. I'll see you in a couple of days."
+          }
+        }
+      }
+    },
+    {
+      "subId": "501507",
+      "subQuestName": "Wait until the morning of the day after tomorrow",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "501508",
+      "subQuestName": "Talk to Xilonen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50150801"
+        ],
+        "dialogs": {
+          "50150801": {
+            "id": "50150801",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey, Xilonen! How's everything going?",
+            "nextDialogs": [
+              "50150802"
+            ]
+          },
+          "50150802": {
+            "id": "50150802",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "#Oh, hi {NICKNAME} and Paimon.",
+            "nextDialogs": [
+              "50150803"
+            ]
+          },
+          "50150803": {
+            "id": "50150803",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I have bad news... Citlali did not reply to our request. Although, I suppose I'm not too surprised...",
+            "nextDialogs": [
+              "50150804"
+            ]
+          },
+          "50150804": {
+            "id": "50150804",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh? You mean she didn't even bother to give Kinich a response? Guess she really does have quite an ego, then...",
+            "nextDialogs": [
+              "50150805"
+            ]
+          },
+          "50150805": {
+            "id": "50150805",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "She can also be quite eccentric, though she's one of the most gifted people around. Even the Masters of the Night-Wind often struggle to work with her. My guess is that she probably has other reasons for not deigning us with a response.",
+            "nextDialogs": [
+              "50150806"
+            ]
+          },
+          "50150806": {
+            "id": "50150806",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "But let's go to the Stadium and see if we can meet her there. If we do get a chance to talk to her in person, we can still try to work something out.",
+            "nextDialogs": [
+              "50150807"
+            ]
+          },
+          "50150807": {
+            "id": "50150807",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "That's true. Let's go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "501509",
+      "subQuestName": "Go to the agreed location and wait for Citlali",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50150901"
+        ],
+        "dialogs": {
+          "50150901": {
+            "id": "50150901",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "You arrive at the Stadium of the Sacred Flame. As expected, Citlali is not there.",
+            "nextDialogs": [
+              "50150902"
+            ]
+          },
+          "50150902": {
+            "id": "50150902",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't see anybody... Seems she's just not gonna show up, huh?",
+            "nextDialogs": [
+              "50150903"
+            ]
+          },
+          "50150903": {
+            "id": "50150903",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "*sigh* Well, we tried to be as considerate as we could, but she's under no obligation to help.",
+            "nextDialogs": [
+              "50150904"
+            ]
+          },
+          "50150904": {
+            "id": "50150904",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "That might be true, but this is still a request from the Pyro Archon, right? Shouldn't a subject always answer the call of their archon?",
+            "nextDialogs": [
+              "50150905"
+            ]
+          },
+          "50150905": {
+            "id": "50150905",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "A subject? Well... If you ask me, I'd say we're all more like friends with the archon.",
+            "nextDialogs": [
+              "50150906"
+            ]
+          },
+          "50150906": {
+            "id": "50150906",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Yes, Mavuika is our leader, but that doesn't mean there's any kind of tall barrier between us and her.",
+            "nextDialogs": [
+              "50150907"
+            ]
+          },
+          "50150907": {
+            "id": "50150907",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "The only thing is that she often has... very high expectations of us.",
+            "nextDialogs": [
+              "50150908"
+            ]
+          },
+          "50150908": {
+            "id": "50150908",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I can tell.",
+            "nextDialogs": [
+              "50150909"
+            ]
+          },
+          "50150909": {
+            "id": "50150909",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh, so even though she's super powerful, it sounds like she's actually pretty down-to-earth and easy to get along with.",
+            "nextDialogs": [
+              "50150910"
+            ]
+          },
+          "50150910": {
+            "id": "50150910",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Unlike that old hag, \"Granny Itztli,\" right? Does she think she can ignore us just because she's famous!?",
+            "nextDialogs": [
+              "50150911"
+            ]
+          },
+          "50150911": {
+            "id": "50150911",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You all talk about her like she's some kind of huge deal, but she didn't even bother to reply to our letter! Seriously, even if she didn't want to come, she could at least let us know!",
+            "nextDialogs": [
+              "50150912"
+            ]
+          },
+          "50150912": {
+            "id": "50150912",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "If that's what aging does to you, Paimon never wants to get old...",
+            "nextDialogs": [
+              "50150913"
+            ]
+          },
+          "50150913": {
+            "id": "50150913",
+            "speakerId": 1007,
+            "speakerName": "???",
+            "text": "Oh, really? So that's how you see me?",
+            "nextDialogs": [
+              "50150914"
+            ]
+          },
+          "50150914": {
+            "id": "50150914",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh!? Who's there? Who's talking next to Paimon!?",
+            "nextDialogs": [
+              "50150915"
+            ]
+          },
+          "50150915": {
+            "id": "50150915",
+            "speakerId": 1007,
+            "speakerName": "???",
+            "text": "Oh, don't mind me — I'm just a disgruntled old hag, right? Come on, relax. I'm sure my bark's worse than my bite.",
+            "nextDialogs": [
+              "50150916"
+            ]
+          },
+          "50150916": {
+            "id": "50150916",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Huh? Citlali...?",
+            "nextDialogs": [
+              "50150917"
+            ]
+          },
+          "50150917": {
+            "id": "50150917",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Huh!?",
+            "nextDialogs": [
+              "50150918"
+            ]
+          },
+          "50150918": {
+            "id": "50150918",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wait, you're Citlali? You're... \"Granny\" Itztli!?",
+            "nextDialogs": [
+              "50150919"
+            ]
+          },
+          "50150919": {
+            "id": "50150919",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Yes, Granny Itztli — but emphasis on \"Itztli,\" not granny.",
+            "nextDialogs": [
+              "50150920"
+            ]
+          },
+          "50150920": {
+            "id": "50150920",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "You must know this trope from light novels, surely? They use it all the time: the young man who's actually the oldest person in the room... the girl next door who turns out to be a seasoned veteran... The wise sage who looks like a little kid...",
+            "nextDialogs": [
+              "50150921"
+            ]
+          },
+          "50150921": {
+            "id": "50150921",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Oh, wipe that look off your face. You've seriously never seen an older lady that doesn't look her age? Okay, well, don't go thinking it's a trick, either. See? I'm barely wearing any makeup...",
+            "nextDialogs": [
+              "50150922"
+            ]
+          },
+          "50150922": {
+            "id": "50150922",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Did I forget to mention? She's called \"Granny,\" but uh... she's actually pretty young.",
+            "nextDialogs": [
+              "50150923"
+            ]
+          },
+          "50150923": {
+            "id": "50150923",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And you were complaining about the Pyro Archon leaving things out...",
+            "nextDialogs": [
+              "50150924"
+            ]
+          },
+          "50150924": {
+            "id": "50150924",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "It was an honest mistake! I guess we've just gotten used to it...",
+            "nextDialogs": [
+              "50150925"
+            ]
+          },
+          "50150925": {
+            "id": "50150925",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Um, Paimon's sorry... So, how old are you, actually?",
+            "nextDialogs": [
+              "50150926"
+            ]
+          },
+          "50150926": {
+            "id": "50150926",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "How dare you! Don't you know it's rude to ask a lady her age?",
+            "nextDialogs": [
+              "50150927"
+            ]
+          },
+          "50150927": {
+            "id": "50150927",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Uh, Paimon really didn't mean to offend you, it's just that... Your case seems really... unique!",
+            "nextDialogs": [
+              "50150928"
+            ]
+          },
+          "50150928": {
+            "id": "50150928",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ugh, Paimon just wanted to apologize, but now she's putting more and more of her foot in her mouth... Really, Paimon just got a little mad, since we thought, well... you were going to leave us out to dry...",
+            "nextDialogs": [
+              "50150929"
+            ]
+          },
+          "50150929": {
+            "id": "50150929",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "...",
+            "nextDialogs": [
+              "50150930"
+            ]
+          },
+          "50150930": {
+            "id": "50150930",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "It was my idea to invite you here, Citlali. So if you're upset, you can just take it out on me.",
+            "nextDialogs": [
+              "50150931"
+            ]
+          },
+          "50150931": {
+            "id": "50150931",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "...Alright, I was only joking, I didn't mean to chastise anyone. There's really no need to take all this so seriously — if anything, I'm gonna feel awkward if we keep this going, hehe.",
+            "nextDialogs": [
+              "50150932"
+            ]
+          },
+          "50150932": {
+            "id": "50150932",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "I received Kinich's letter and was planning to attend this meeting. Since I had already decided to come, I figured there was no need to draft a reply that simply said \"understood.\" Besides, just showing up is the most important part, no?",
+            "nextDialogs": [
+              "50150933"
+            ]
+          },
+          "50150933": {
+            "id": "50150933",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "But, of course...",
+            "nextDialogs": [
+              "50150934"
+            ]
+          },
+          "50150934": {
+            "id": "50150934",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "It's also natural for people to get held up by one thing or another as they're trying to leave the house! Haha, it certainly was a bit awkward to see that everyone else had arrived before me...",
+            "nextDialogs": [
+              "50150935"
+            ]
+          },
+          "50150935": {
+            "id": "50150935",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "At first, I was thinking of quietly sneaking over, but since you were already here waiting for me, I started thinking about how I should phrase my apology... Only to hear you all talking smack about me. Oh, my days...",
+            "nextDialogs": [
+              "50150936"
+            ]
+          },
+          "50150936": {
+            "id": "50150936",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "...Hmph. Anyway, that's the whole story. Uh, ahem... Honestly, it's not like I owed you an explanation, anyway!",
+            "nextDialogs": [
+              "50150937"
+            ]
+          },
+          "50150937": {
+            "id": "50150937",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "(Huh? What's with that expression...?)",
+            "nextDialogs": [
+              "50150938"
+            ]
+          },
+          "50150938": {
+            "id": "50150938",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "(Was she feeling embarrassed just now!?)",
+            "nextDialogs": [
+              "50150939"
+            ]
+          },
+          "50150939": {
+            "id": "50150939",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Is she waiting for us to carry on the conversation? Everything she's saying sounds like a joke, but I'm not sure if I should laugh... Would it be rude to laugh? Or even more rude not to laugh?)",
+            "nextDialogs": [
+              "50150940"
+            ]
+          },
+          "50150940": {
+            "id": "50150940",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "(When the Masters of the Night-Wind say they struggle dealing with her... I wonder if the feeling is mutual. She seems to be pretty awkward herself... Everything she does and says seems a bit forced.)",
+            "nextDialogs": [
+              "50150941"
+            ]
+          },
+          "50150941": {
+            "id": "50150941",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Ahem... Anyway, Xilonen, I heard that you require my help in crafting an Ancient Name?",
+            "nextDialogs": [
+              "50150942"
+            ]
+          },
+          "50150942": {
+            "id": "50150942",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "Correct. The situation isn't like anything we've handled before. Let me explain...",
+            "nextDialogs": [
+              "50150943"
+            ]
+          },
+          "50150943": {
+            "id": "50150943",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "Xilonen explains the Pyro Archon's request as well as the difficulties she's encountered.",
+            "nextDialogs": [
+              "50150944"
+            ]
+          },
+          "50150944": {
+            "id": "50150944",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "I see... So Mavuika has asked you to forge an Ancient Name for an outlander. Well, that would be a first.",
+            "nextDialogs": [
+              "50150945"
+            ]
+          },
+          "50150945": {
+            "id": "50150945",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "And you've also heard all about Ororon. I must say, he's always been a good kid. I can't see him joining the Fatui of his own volition — he must have been coerced somehow.",
+            "nextDialogs": [
+              "50150946"
+            ]
+          },
+          "50150946": {
+            "id": "50150946",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We'll know once we find him.",
+            "nextDialogs": [
+              "50150947"
+            ]
+          },
+          "50150947": {
+            "id": "50150947",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yeah! That's what we came here to ask you. We'll help bring Ororon back if you help us solve the problems of forging the Ancient Name. What do you think?",
+            "nextDialogs": [
+              "50150948"
+            ]
+          },
+          "50150948": {
+            "id": "50150948",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "#Hmm... I suppose I'll just call you {NICKNAME} for now. {NICKNAME}, come here. Let me take a good look at you.",
+            "nextDialogs": [
+              "50150949"
+            ]
+          },
+          "50150949": {
+            "id": "50150949",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "...",
+            "nextDialogs": [
+              "50150950"
+            ]
+          },
+          "50150950": {
+            "id": "50150950",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "\"Wealth leads to unending conflicts between people, yet you alone transcend the value of gold. Baleful thunder and wrathful waves bring terror to mortal hearts, yet again and again, you've braved them to find new worlds.\"",
+            "nextDialogs": [
+              "50150951"
+            ]
+          },
+          "50150951": {
+            "id": "50150951",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "\"O weary yet free soul, even the most verdant leaf in the forest will pray for your happiness and safe passage.\"",
+            "nextDialogs": [
+              "50150952"
+            ]
+          },
+          "50150952": {
+            "id": "50150952",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Excuse me. What was all that supposed to mean?",
+            "nextDialogs": [
+              "50150953"
+            ]
+          },
+          "50150953": {
+            "id": "50150953",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Those are all things that I could see in you. You've experienced far more than even most mortals could dream of. You possess the heart of a sincere hero, along with the conviction to lift a torch above your head and walk headlong into the night.",
+            "nextDialogs": [
+              "50150954"
+            ]
+          },
+          "50150954": {
+            "id": "50150954",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Huh? Don't move. There's something here.",
+            "nextDialogs": [
+              "50150955"
+            ]
+          },
+          "50150955": {
+            "id": "50150955",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Huh? Wh—What thing? Don't scare Paimon! Is {NICKNAME} gonna be okay?",
+            "nextDialogs": [
+              "50150956"
+            ]
+          },
+          "50150956": {
+            "id": "50150956",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "...Shoo!",
+            "nextDialogs": [
+              "50150957"
+            ]
+          },
+          "50150957": {
+            "id": "50150957",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "That should do it. You've just returned from the Night Kingdom, so some fragments of souls were still stuck to your body. No need to worry, I've just cleared out the last of them.",
+            "nextDialogs": [
+              "50150958"
+            ]
+          },
+          "50150958": {
+            "id": "50150958",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Eek! Isn't that kind of like... having part of a ghost come back with you...?",
+            "nextDialogs": [
+              "50150959"
+            ]
+          },
+          "50150959": {
+            "id": "50150959",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "It's nothing as serious as that. If left unattended, the most it could do is stir up some chaos in your mind and generally worsen your mood.",
+            "nextDialogs": [
+              "50150960"
+            ]
+          },
+          "50150960": {
+            "id": "50150960",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "In that case, better to get rid of them.",
+            "nextDialogs": [
+              "50150961"
+            ]
+          },
+          "50150961": {
+            "id": "50150961",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thank you.",
+            "nextDialogs": [
+              "50150962"
+            ]
+          },
+          "50150962": {
+            "id": "50150962",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "It was nothing.",
+            "nextDialogs": [
+              "50150963"
+            ]
+          },
+          "50150963": {
+            "id": "50150963",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Xilonen, let's follow your proposal. Once you've brought Ororon back, I'll take you to see the Lord of the Night.",
+            "nextDialogs": [
+              "50150964"
+            ]
+          },
+          "50150964": {
+            "id": "50150964",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "The Lord of the Night? But don't we need to talk to the Wayob of the tribes...",
+            "nextDialogs": [
+              "50150965"
+            ]
+          },
+          "50150965": {
+            "id": "50150965",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Something this important is beyond their jurisdiction. Only the Lord of the Night can decide whether we can grant an Ancient Name to one who does not hail from our lands.",
+            "nextDialogs": [
+              "50150966"
+            ]
+          },
+          "50150966": {
+            "id": "50150966",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "The Lord of the Night is an ancient entity that rules over the entire Night Kingdom, constantly borrowing the power of the Sacred Flame to combat corrosion from the Abyss.",
+            "nextDialogs": [
+              "50150967"
+            ]
+          },
+          "50150967": {
+            "id": "50150967",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Oh, so you're basically saying it's even more powerful than the Wayob of the tribes! Well, that sorta makes sense, being the lord of the entire Night Kingdom and all.",
+            "nextDialogs": [
+              "50150968"
+            ]
+          },
+          "50150968": {
+            "id": "50150968",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Not exactly — it's not so much that one's more powerful than the other... Ugh, but never mind, that's not important. It would take too much time to explain.",
+            "nextDialogs": [
+              "50150969"
+            ]
+          },
+          "50150969": {
+            "id": "50150969",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Just listen carefully to what I'm about to tell you. The Lord of the Night is currently in a deep slumber, and we can only communicate with its consciousness while in a \"trance.\" In other words... in a dream.",
+            "nextDialogs": [
+              "50150970"
+            ]
+          },
+          "50150970": {
+            "id": "50150970",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "But I will need to prepare a few more things if we are to hold a ceremony to achieve the state of the trance. I'll make a list. Can any of you get everything for me?",
+            "nextDialogs": [
+              "50150971"
+            ]
+          },
+          "50150971": {
+            "id": "50150971",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "I can go. It'll probably be a long list, so better leave it to someone who knows all the local vendors.",
+            "nextDialogs": [
+              "50150972"
+            ]
+          },
+          "50150972": {
+            "id": "50150972",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sounds good! Then we'll go with Citlali to track down Ororon.",
+            "nextDialogs": [
+              "50150973"
+            ]
+          },
+          "50150973": {
+            "id": "50150973",
+            "speakerId": 1004,
+            "speakerName": "Xilonen",
+            "text": "The Fatui are nothing to scoff at, so please be careful during your investigation. If you need any help, just come find me.",
+            "nextDialogs": [
+              "50150974"
+            ]
+          },
+          "50150974": {
+            "id": "50150974",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yep, we'll be sure to play it safe!",
+            "nextDialogs": [
+              "50150975"
+            ]
+          },
+          "50150975": {
+            "id": "50150975",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Alright, now it's time for us to catch that brat and bring him back. Phew...",
+            "nextDialogs": [
+              "50150976"
+            ]
+          },
+          "50150976": {
+            "id": "50150976",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "I'm sorry I made you wait earlier. It was actually because I decided to swing by Ororon's place to look for clues.",
+            "nextDialogs": [
+              "50150977"
+            ]
+          },
+          "50150977": {
+            "id": "50150977",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "He has always lived alone, and I found a broken jar in his house. There was also something off about his Phlogiston Aphids — which I assume is because their keeper has been gone for quite some time.",
+            "nextDialogs": [
+              "50150978"
+            ]
+          },
+          "50150978": {
+            "id": "50150978",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "And interestingly enough, I saw some slash marks in the house that did not match any of our local weapons... My guess is that they were left by Snezhnayan arms.",
+            "nextDialogs": [
+              "50150979"
+            ]
+          },
+          "50150979": {
+            "id": "50150979",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Oh, sounds like the Fatui broke into his house and took him hostage.",
+            "nextDialogs": [
+              "50150980"
+            ]
+          },
+          "50150980": {
+            "id": "50150980",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "But why would they kidnap a kid who just spends his days living in the country and raising Aphids? He's only in his twenties. What would they want with him?",
+            "nextDialogs": [
+              "50150981"
+            ]
+          },
+          "50150981": {
+            "id": "50150981",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Ahem! That's not to say that I believe he's totally innocent, of course. Since he's the only one who was kidnapped out of everyone in Natlan, he must have done something to attract their attention.",
+            "nextDialogs": [
+              "50150982"
+            ]
+          },
+          "50150982": {
+            "id": "50150982",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "In any case, we'll get to the bottom of this once we manage to get him back here.",
+            "nextDialogs": [
+              "50150983"
+            ]
+          },
+          "50150983": {
+            "id": "50150983",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "I'm truly sorry to put you two through all this trouble with me, but please help me get him back.",
+            "nextDialogs": [
+              "50150984"
+            ]
+          },
+          "50150984": {
+            "id": "50150984",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You can count on us!",
+            "nextDialogs": [
+              "50150985"
+            ]
+          },
+          "50150985": {
+            "id": "50150985",
+            "speakerId": 1008,
+            "speakerName": "Citlali",
+            "text": "Alright, then let's start by heading to where Ororon was seen last."
+          }
+        }
+      }
+    }
+  ]
+}

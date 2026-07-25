@@ -1,0 +1,112 @@
+{
+  "lineCounts": {
+    "Cyrus": 5,
+    "Player": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7081301",
+      "subQuestName": "Talk to Cyrus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081302",
+      "subQuestName": "Defeat the Treasure Hoarders near to the Dawn Winery",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081303",
+      "subQuestName": "Defeat the Treasure Hoarders guarding the camps",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081304",
+      "subQuestName": "Talk to Cyrus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708130501"
+        ],
+        "dialogs": {
+          "708130501": {
+            "id": "708130501",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "You're back. Have you wiped their camps out yet?",
+            "nextDialogs": [
+              "708130502"
+            ]
+          },
+          "708130502": {
+            "id": "708130502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Got them all.",
+            "nextDialogs": [
+              "708130503"
+            ]
+          },
+          "708130503": {
+            "id": "708130503",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "As I thought, it was child's play for you, Honorary Knight.",
+            "nextDialogs": [
+              "708130504"
+            ]
+          },
+          "708130504": {
+            "id": "708130504",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "I will admit that these Treasure Hoarders are quite persistent. Everyone was running for cover during the storm. They, by contrast, had the daring to run out and steal things.",
+            "nextDialogs": [
+              "708130505"
+            ]
+          },
+          "708130505": {
+            "id": "708130505",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "If only they had used that perseverance for something proper instead..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081304",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708130401"
+        ],
+        "dialogs": {
+          "708130401": {
+            "id": "708130401",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Hmph, these Treasure Hoarders... What a persistent pack of rats they are."
+          }
+        }
+      }
+    }
+  ]
+}

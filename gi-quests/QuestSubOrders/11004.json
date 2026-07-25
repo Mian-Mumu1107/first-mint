@@ -1,0 +1,156 @@
+{
+  "lineCounts": {
+    "Paimon": 7,
+    "Player": 5,
+    "Xiangling": 9
+  },
+  "subQuests": [
+    {
+      "subId": "1100401",
+      "subQuestName": "Catch up to Xiangling in the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110040101"
+        ],
+        "dialogs": {
+          "110040101": {
+            "id": "110040101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Slow down! It's dangerous in here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100499",
+      "subQuestName": "(Dialog after defeating enemies in first combat zone of dungeon)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1100498",
+      "subQuestName": "(Dialog after encountering giant mist flower)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1100402",
+      "subQuestName": "Go into the depths of the ruins in search of ingredients",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1100403",
+      "subQuestName": "Talk to Xiangling",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110040301"
+        ],
+        "dialogs": {
+          "110040301": {
+            "id": "110040301",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "♪ Got myself a Cryo Regisvine, cook it up for dinner time... ♪",
+            "nextDialogs": [
+              "110040302"
+            ]
+          },
+          "110040302": {
+            "id": "110040302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "♪ Even better if it's paired with a bit of swine... ♪",
+            "nextDialogs": [
+              "110040304",
+              "110040306"
+            ]
+          },
+          "110040304": {
+            "id": "110040304",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Lighten up a little! What in the world could bring more joy than finding rare ingredients?",
+            "nextDialogs": [
+              "110040307"
+            ]
+          },
+          "110040307": {
+            "id": "110040307",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Wait, there's something else here too!",
+            "nextDialogs": [
+              "110040308"
+            ]
+          },
+          "110040308": {
+            "id": "110040308",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This must be the boar that hunter was chasing.",
+            "nextDialogs": [
+              "110040309"
+            ]
+          },
+          "110040309": {
+            "id": "110040309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But Paimon's never seen one with this pattern before.",
+            "nextDialogs": [
+              "110040310"
+            ]
+          },
+          "110040310": {
+            "id": "110040310",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Where have I seen this before? Hmm... Aha! It was in the \"Historia Naturalis Liyue\"!",
+            "nextDialogs": [
+              "110040311"
+            ]
+          },
+          "110040311": {
+            "id": "110040311",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "This pattern is unmistakable. It belongs to a breed of boar that went extinct 300 years ago!",
+            "nextDialogs": [
+              "110040312"
+            ]
+          },
+          "110040312": {
+            "id": "110040312",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow! How is this one still alive after so long!?"
+          },
+          "110040306": {
+            "id": "110040306",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Hee-hee... Your version just ruins it."
+          }
+        }
+      }
+    }
+  ]
+}

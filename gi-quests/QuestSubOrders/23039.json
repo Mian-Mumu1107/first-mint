@@ -1,0 +1,139 @@
+{
+  "lineCounts": {
+    "Ebeid": 20,
+    "Hilmi": 16,
+    "Player": 15
+  },
+  "subQuests": [
+    {
+      "subId": "2303901",
+      "subQuestName": "Talk to Ebeid",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230390101"
+        ],
+        "dialogs": {
+          "230390101": {
+            "id": "230390101",
+            "speakerId": 1000,
+            "speakerName": "Ebeid",
+            "text": "#{F#Miss}{M#Mister}! Wait!",
+            "nextDialogs": [
+              "230390102"
+            ]
+          },
+          "230390102": {
+            "id": "230390102",
+            "speakerId": 1000,
+            "speakerName": "Ebeid",
+            "text": "Are you... an adventurer? I mean the kind of adventurers who are skilled in battle and travel to many places.",
+            "nextDialogs": [
+              "230390105"
+            ]
+          },
+          "230390105": {
+            "id": "230390105",
+            "speakerId": 1000,
+            "speakerName": "Ebeid",
+            "text": "#Look, Hilmi! I said {M#he}{F#she} must be an adventurer!",
+            "nextDialogs": [
+              "230390106"
+            ]
+          },
+          "230390106": {
+            "id": "230390106",
+            "speakerId": 1001,
+            "speakerName": "Hilmi",
+            "text": "But don't adventurers always wear those green outfits?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2303902",
+      "subQuestName": "Participate in the racing competition",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2303904",
+      "subQuestName": "Talk to Hilmi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230390401"
+        ],
+        "dialogs": {
+          "230390401": {
+            "id": "230390401",
+            "speakerId": 1001,
+            "speakerName": "Hilmi",
+            "text": "*huff* I—I won!",
+            "nextDialogs": [
+              "230390404"
+            ]
+          },
+          "230390404": {
+            "id": "230390404",
+            "speakerId": 1001,
+            "speakerName": "Hilmi",
+            "text": "Hehe, I told you how good I am! You underestimated me, didn't you?",
+            "nextDialogs": [
+              "230390405"
+            ]
+          },
+          "230390405": {
+            "id": "230390405",
+            "speakerId": 1000,
+            "speakerName": "Ebeid",
+            "text": "But even if we can run this fast, we can't outrun Habachi. I just don't understand why."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2303905",
+      "subQuestName": "Talk to Hilmi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "230390501"
+        ],
+        "dialogs": {
+          "230390501": {
+            "id": "230390501",
+            "speakerId": 1001,
+            "speakerName": "Hilmi",
+            "text": "Huff... You ran so fast!",
+            "nextDialogs": [
+              "230390504"
+            ]
+          },
+          "230390504": {
+            "id": "230390504",
+            "speakerId": 1000,
+            "speakerName": "Ebeid",
+            "text": "We aren't fast enough. Habachi can definitely catch us... What do we do?",
+            "nextDialogs": [
+              "230390505"
+            ]
+          },
+          "230390505": {
+            "id": "230390505",
+            "speakerId": 1001,
+            "speakerName": "Hilmi",
+            "text": "Besides, he's not even out of breath each time he catches us. He doesn't even look like he was running."
+          }
+        }
+      }
+    }
+  ]
+}

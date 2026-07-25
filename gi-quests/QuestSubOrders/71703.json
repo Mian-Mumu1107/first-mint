@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Herbalist Gui": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7170301",
+      "subQuestName": "Give 10 Sweet Flowers to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717030101"
+        ],
+        "dialogs": {
+          "717030101": {
+            "id": "717030101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About those Sweet Flowers...",
+            "nextDialogs": [
+              "717030102"
+            ]
+          },
+          "717030102": {
+            "id": "717030102",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Oh yes, the commission I posted. Have you already collected ten Sweet Flowers?",
+            "nextDialogs": [
+              "717030105"
+            ]
+          },
+          "717030105": {
+            "id": "717030105",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Bring the Sweet Flowers straight to me as soon as you've gathered them. I'm afraid the kids can't wait any longer."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170302",
+      "subQuestName": "Talk to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717030201"
+        ],
+        "dialogs": {
+          "717030201": {
+            "id": "717030201",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Let me have a look at what you brought. Hmm... Yes, these will do just fine.",
+            "nextDialogs": [
+              "717030202"
+            ]
+          },
+          "717030202": {
+            "id": "717030202",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "These are for you. Thanks for your help.",
+            "nextDialogs": [
+              "717030203"
+            ]
+          },
+          "717030203": {
+            "id": "717030203",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Let's just hope those kids stay out of trouble from now on."
+          }
+        }
+      }
+    }
+  ]
+}

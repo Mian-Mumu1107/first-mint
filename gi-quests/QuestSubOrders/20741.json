@@ -1,0 +1,193 @@
+{
+  "lineCounts": {
+    "Grace": 11,
+    "Paimon": 2,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "2074101",
+      "subQuestName": "Talk to Grace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2074102",
+      "subQuestName": "Give a Dandelion to Grace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2074103",
+      "subQuestName": "Give the Dandelion Seeds to Grace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "207411001"
+        ],
+        "dialogs": {
+          "207411001": {
+            "id": "207411001",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Have you gathered the Dandelion Seeds?",
+            "nextDialogs": [
+              "207411002"
+            ]
+          },
+          "207411002": {
+            "id": "207411002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Have them right here.",
+            "nextDialogs": [
+              "207411003"
+            ]
+          },
+          "207411003": {
+            "id": "207411003",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "These should be enough. Please wait here for a moment...",
+            "nextDialogs": [
+              "207411004"
+            ]
+          },
+          "207411004": {
+            "id": "207411004",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "...Lord Barbatos, please hear me...",
+            "nextDialogs": [
+              "207411005"
+            ]
+          },
+          "207411005": {
+            "id": "207411005",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow, she's so... devout. So... many words...",
+            "nextDialogs": [
+              "207411006"
+            ]
+          },
+          "207411006": {
+            "id": "207411006",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Who knows if that Tone-Deaf Bard is listening...",
+            "nextDialogs": [
+              "207411007"
+            ]
+          },
+          "207411007": {
+            "id": "207411007",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Alright. Please take these dandelions seeds. Help me go up and scatter them.",
+            "nextDialogs": [
+              "207411008"
+            ]
+          },
+          "207411008": {
+            "id": "207411008",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "I should really do this myself, but with my physical abilities... I would probably have a hard time getting back down, even if I could climb up there.",
+            "nextDialogs": [
+              "207411009"
+            ]
+          },
+          "207411009": {
+            "id": "207411009",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "So I'm counting on you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2074104",
+      "subQuestName": "Climb to the Anemo Archon statue's hand and scatter the Dandelion Seeds",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2074105",
+      "subQuestName": "Talk to Grace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "207412001"
+        ],
+        "dialogs": {
+          "207412001": {
+            "id": "207412001",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Have you scattered the Dandelion Seeds?",
+            "nextDialogs": [
+              "207412005",
+              "207412004"
+            ]
+          },
+          "207412005": {
+            "id": "207412005",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Regardless, I do hope that Lord Barbatos will be able to hear my voice.",
+            "nextDialogs": [
+              "207412006"
+            ]
+          },
+          "207412006": {
+            "id": "207412006",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Thank you for your willingness to help. Please take this for your troubles — and may the Anemo Archon protect you."
+          },
+          "207412004": {
+            "id": "207412004",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "That's wonderful. It should be easy for Lord Barbatos to notice."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2074190",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "207419001"
+        ],
+        "dialogs": {
+          "207419001": {
+            "id": "207419001",
+            "speakerId": 1000,
+            "speakerName": "Grace",
+            "text": "Lord Barbatos, I hope that you can hear me..."
+          }
+        }
+      }
+    }
+  ]
+}

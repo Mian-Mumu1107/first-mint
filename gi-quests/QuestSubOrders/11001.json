@@ -1,0 +1,528 @@
+{
+  "lineCounts": {
+    "Brook": 12,
+    "Draff": 12,
+    "Paimon": 8,
+    "Player": 7,
+    "Xiangling": 21
+  },
+  "subQuests": [
+    {
+      "subId": "1100101",
+      "subQuestName": "Go with Xiangling to Springvale",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1100102",
+      "subQuestName": "Apologize to Draff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110010201"
+        ],
+        "dialogs": {
+          "110010201": {
+            "id": "110010201",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "You must be Xiangling.",
+            "nextDialogs": [
+              "110010202"
+            ]
+          },
+          "110010202": {
+            "id": "110010202",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Sorry Mr. Draff, this was all my fault.",
+            "nextDialogs": [
+              "110010203"
+            ]
+          },
+          "110010203": {
+            "id": "110010203",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "I heard the whole story. And now that you're here in person...",
+            "nextDialogs": [
+              "110010204"
+            ]
+          },
+          "110010204": {
+            "id": "110010204",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ooh, he's gonna let her have it!",
+            "nextDialogs": [
+              "110010207"
+            ]
+          },
+          "110010207": {
+            "id": "110010207",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "...Please help me promote my meat!",
+            "nextDialogs": [
+              "110010208"
+            ]
+          },
+          "110010208": {
+            "id": "110010208",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "...Eh?",
+            "nextDialogs": [
+              "110010209"
+            ]
+          },
+          "110010209": {
+            "id": "110010209",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "Sorry if I was a little brash. Let me explain.",
+            "nextDialogs": [
+              "110010210"
+            ]
+          },
+          "110010210": {
+            "id": "110010210",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "Springvale has built its reputation on top-quality meat products, but this reputation is so far limited to Mondstadt.",
+            "nextDialogs": [
+              "110010211"
+            ]
+          },
+          "110010211": {
+            "id": "110010211",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "When I heard that the great maestro Xiangling herself was in Mondstadt, I asked Allan to send you over.",
+            "nextDialogs": [
+              "110010212"
+            ]
+          },
+          "110010212": {
+            "id": "110010212",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Maestro?",
+            "nextDialogs": [
+              "110010213"
+            ]
+          },
+          "110010213": {
+            "id": "110010213",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "Haven't you heard? She's the one behind Wanmin Restaurant, that one-of-a-kind folk cuisine restaurant in Liyue Harbor.",
+            "nextDialogs": [
+              "110010214"
+            ]
+          },
+          "110010214": {
+            "id": "110010214",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "Her unique take on cooking ingredients is behind some of the best-loved dishes in all of Liyue. They are very highly rated by travelers, too.",
+            "nextDialogs": [
+              "110010215"
+            ]
+          },
+          "110010215": {
+            "id": "110010215",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Hee-hee, you're too kind. I just try to cook things that are cheap and cheerful.",
+            "nextDialogs": [
+              "110010216"
+            ]
+          },
+          "110010216": {
+            "id": "110010216",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "With a top-notch chef cooking top-notch cuisine with top-notch meat from Springvale... Our reputation would spread far and wide.",
+            "nextDialogs": [
+              "110010217"
+            ]
+          },
+          "110010217": {
+            "id": "110010217",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Hmm... I don't know...",
+            "nextDialogs": [
+              "110010218"
+            ]
+          },
+          "110010218": {
+            "id": "110010218",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I only ever think about how to make tasty dishes... I never limit myself to specific ingredients, and I don't know the first thing about promoting anything.",
+            "nextDialogs": [
+              "110010219"
+            ]
+          },
+          "110010219": {
+            "id": "110010219",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "You use boar meat all the time anyway, surely? I can't see what the issue is.",
+            "nextDialogs": [
+              "110010220"
+            ]
+          },
+          "110010220": {
+            "id": "110010220",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "The issue is... What would you think if I added a bit of Slime Condensate?",
+            "nextDialogs": [
+              "110010221"
+            ]
+          },
+          "110010221": {
+            "id": "110010221",
+            "speakerId": 1000,
+            "speakerName": "Draff",
+            "text": "That's... I mean, couldn't you add something a bit more normal?",
+            "nextDialogs": [
+              "110010222"
+            ]
+          },
+          "110010222": {
+            "id": "110010222",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "There's no such thing as \"normal\" ingredients to me! You can turn anything into a delicacy if you cook it in the right way.",
+            "nextDialogs": [
+              "110010223"
+            ]
+          },
+          "110010223": {
+            "id": "110010223",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I will not stand for having my creativity shackled by what ingredients I can and can't use! Food cooked like that is destined to be boring, period!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100103",
+      "subQuestName": "Catch up to Xiangling",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110010301"
+        ],
+        "dialogs": {
+          "110010301": {
+            "id": "110010301",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You know, we did come to apologize... Couldn't you be a little more flexible?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100104",
+      "subQuestName": "Talk to Xiangling at the source of the aroma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110010401"
+        ],
+        "dialogs": {
+          "110010401": {
+            "id": "110010401",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Hello, may I have a taste of your delicious cooking?",
+            "nextDialogs": [
+              "110010402"
+            ]
+          },
+          "110010402": {
+            "id": "110010402",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Sorry, I've taken all the orders I can for the next few days. The earliest I could put you down for is seven days from now, is that okay?",
+            "nextDialogs": [
+              "110010403"
+            ]
+          },
+          "110010403": {
+            "id": "110010403",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wow, it must be delicious if it's that popular.",
+            "nextDialogs": [
+              "110010404"
+            ]
+          },
+          "110010404": {
+            "id": "110010404",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Odd... This woman is clearly a very popular chef...",
+            "nextDialogs": [
+              "110010405"
+            ]
+          },
+          "110010405": {
+            "id": "110010405",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Yeah, good point. Why does Draff want Xiangling to help when Springvale already has this lady?",
+            "nextDialogs": [
+              "110010406"
+            ]
+          },
+          "110010406": {
+            "id": "110010406",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Hmm... Maybe he feels that Mondstadt cuisine can't compete with that of Teyvat's biggest business hub, Liyue Harbor.",
+            "nextDialogs": [
+              "110010407"
+            ]
+          },
+          "110010407": {
+            "id": "110010407",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "But I disagree! I don't think my cooking is at all inferior to anyone else's.",
+            "nextDialogs": [
+              "110010408"
+            ]
+          },
+          "110010408": {
+            "id": "110010408",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Well then... Show me what you got! Maybe I can give you some feedback.",
+            "nextDialogs": [
+              "110010409"
+            ]
+          },
+          "110010409": {
+            "id": "110010409",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Sorry, but customer feedback like \"Oh, that tasted good\" is no use to me. If I wanted feedback I would ask a professional chef— Hang on, are you... Xiangling!?",
+            "nextDialogs": [
+              "110010410"
+            ]
+          },
+          "110010410": {
+            "id": "110010410",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "That's me!",
+            "nextDialogs": [
+              "110010411"
+            ]
+          },
+          "110010411": {
+            "id": "110010411",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "It's really you! Well, I guess you do know what you're doing when it comes to cooking meat then.",
+            "nextDialogs": [
+              "110010412"
+            ]
+          },
+          "110010412": {
+            "id": "110010412",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "As it happens, I have one of today's prime cuts remaining. So tell me, how would you cook this?",
+            "nextDialogs": [
+              "110010413"
+            ]
+          },
+          "110010413": {
+            "id": "110010413",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "That depends on the ratio of fat to meat. With this cut, I would probably roast it over a hot stone with a little salt, some Jueyun Chili, and Qingxin flower.",
+            "nextDialogs": [
+              "110010414"
+            ]
+          },
+          "110010414": {
+            "id": "110010414",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Qingxin flower!? But the melted fat would make the flavor of the flowers ten times stronger than when eaten raw... It would overpower everything!",
+            "nextDialogs": [
+              "110010415"
+            ]
+          },
+          "110010415": {
+            "id": "110010415",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I know, that's why it's a garnish — I would never marinate the meat in it!",
+            "nextDialogs": [
+              "110010416"
+            ]
+          },
+          "110010416": {
+            "id": "110010416",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I've tried it before. If you baste the petals in oil and then cook them with the right heat and duration, it gets rid of the bitterness completely and leaves you with a lovely crispy topping.",
+            "nextDialogs": [
+              "110010417"
+            ]
+          },
+          "110010417": {
+            "id": "110010417",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Then throw in some Jueyun Chilis grown at a high altitude, where the low humidity and varying temperature lends them a unique dry heat.",
+            "nextDialogs": [
+              "110010418"
+            ]
+          },
+          "110010418": {
+            "id": "110010418",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "The petals absorb the saltiness from the sea salt, the chili spice, and the umami of the tender, freshly grilled steak, while also adding a floral aftertaste.",
+            "nextDialogs": [
+              "110010419"
+            ]
+          },
+          "110010419": {
+            "id": "110010419",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "That's pure overkill! You're going all out on the trimmings and doing no justice to the meat whatsoever.",
+            "nextDialogs": [
+              "110010420"
+            ]
+          },
+          "110010420": {
+            "id": "110010420",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Who wants to eat a roast when you can taste everything except the roast?",
+            "nextDialogs": [
+              "110010421"
+            ]
+          },
+          "110010421": {
+            "id": "110010421",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Whoa whoa whoa, stop arguing!",
+            "nextDialogs": [
+              "110010424"
+            ]
+          },
+          "110010424": {
+            "id": "110010424",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Hmph. Well, there's only one sure-fire way out of a cooking dispute...",
+            "nextDialogs": [
+              "110010425"
+            ]
+          },
+          "110010425": {
+            "id": "110010425",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I declare a cook-off!",
+            "nextDialogs": [
+              "110010426"
+            ]
+          },
+          "110010426": {
+            "id": "110010426",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "Suits me! If you can't beat my cooking, it'll show that Draff was clearly wrong about you.",
+            "nextDialogs": [
+              "110010427"
+            ]
+          },
+          "110010427": {
+            "id": "110010427",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "Alright — but if I win, you have to use my winning dish to promote Springvale!",
+            "nextDialogs": [
+              "110010428"
+            ]
+          },
+          "110010428": {
+            "id": "110010428",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "And if you lose, you have to add my winning dish to the Wanmin menu!",
+            "nextDialogs": [
+              "110010429"
+            ]
+          },
+          "110010429": {
+            "id": "110010429",
+            "speakerId": 1003,
+            "speakerName": "Brook",
+            "text": "With a caption saying \"This special addition to the Wanmin menu is generously provided by Chef Brook of Springvale, meat expert.\" Hmph!",
+            "nextDialogs": [
+              "110010430"
+            ]
+          },
+          "110010430": {
+            "id": "110010430",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "You have a deal!",
+            "nextDialogs": [
+              "110010431"
+            ]
+          },
+          "110010431": {
+            "id": "110010431",
+            "speakerId": 1001,
+            "speakerName": "Xiangling",
+            "text": "I'm off to get ingredients — I will see you all in Liyue!",
+            "nextDialogs": [
+              "110010432"
+            ]
+          },
+          "110010432": {
+            "id": "110010432",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wait! Waaait!",
+            "nextDialogs": [
+              "110010433"
+            ]
+          },
+          "110010433": {
+            "id": "110010433",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, let's try and catch up."
+          }
+        }
+      }
+    }
+  ]
+}

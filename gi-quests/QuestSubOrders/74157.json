@@ -1,0 +1,311 @@
+{
+  "lineCounts": {
+    "Athos": 15,
+    "Autumn": 20,
+    "Black Screen": 4,
+    "House-for-Sale Notice": 3,
+    "Knock": 2,
+    "Molli": 34,
+    "Paimon": 4,
+    "Player": 13
+  },
+  "subQuests": [
+    {
+      "subId": "7415704",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570401"
+        ],
+        "dialogs": {
+          "741570401": {
+            "id": "741570401",
+            "speakerId": 1000,
+            "speakerName": "Knock",
+            "text": "",
+            "nextDialogs": [
+              "741570402"
+            ]
+          },
+          "741570402": {
+            "id": "741570402",
+            "speakerId": 1000,
+            "speakerName": "Knock",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415702",
+      "subQuestName": "Talk to Molli",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570201"
+        ],
+        "dialogs": {
+          "741570201": {
+            "id": "741570201",
+            "speakerId": 1001,
+            "speakerName": "House-for-Sale Notice",
+            "text": "This house is for sale. Very reasonable price — purchase before it's too late!",
+            "nextDialogs": [
+              "741570202"
+            ]
+          },
+          "741570202": {
+            "id": "741570202",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "#{M#Mr.}{F#Ms.} {NICKNAME}, Ms. Paimon, it seems like Mr. Leroy doesn't live here anymore! Have you seen him?",
+            "nextDialogs": [
+              "741570203"
+            ]
+          },
+          "741570203": {
+            "id": "741570203",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "(Hey, do we want to tell the truth?)",
+            "nextDialogs": [
+              "741570205",
+              "741570211"
+            ]
+          },
+          "741570205": {
+            "id": "741570205",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "So you did see him! Did you tell him the snacks were delicious?"
+          },
+          "741570211": {
+            "id": "741570211",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "Oh, that's a pity. I suppose I'll never get to see Mr. Leroy again, huh.",
+            "nextDialogs": [
+              "741570212"
+            ]
+          },
+          "741570212": {
+            "id": "741570212",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "I brought some Bulle Fruit over, and was planning on giving them to him if I saw him... but since he doesn't live here anymore, why don't you take them?",
+            "nextDialogs": [
+              "741570213"
+            ]
+          },
+          "741570213": {
+            "id": "741570213",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "But no matter what, I think I'll always remember Mr. Leroy! Bye bye!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415703",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570301"
+        ],
+        "dialogs": {
+          "741570301": {
+            "id": "741570301",
+            "speakerId": 1001,
+            "speakerName": "House-for-Sale Notice",
+            "text": "This house is for sale. Very reasonable price — purchase before it's too late!",
+            "nextDialogs": [
+              "741570302"
+            ]
+          },
+          "741570302": {
+            "id": "741570302",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "#{M#Mr.}{F#Ms.} {NICKNAME} and Ms. Paimon! Are you guys here to talk to Mr. Leroy?",
+            "nextDialogs": [
+              "741570304",
+              "741570306"
+            ]
+          },
+          "741570304": {
+            "id": "741570304",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "He isn't here. Father said Mr. Leroy will never live here again — he's gone to live underground.",
+            "nextDialogs": [
+              "741570308"
+            ]
+          },
+          "741570308": {
+            "id": "741570308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "In the Fleuve Cendre?",
+            "nextDialogs": [
+              "741570309"
+            ]
+          },
+          "741570309": {
+            "id": "741570309",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Is it the same Fleuve Cendre we went to before?",
+            "nextDialogs": [
+              "741570310"
+            ]
+          },
+          "741570310": {
+            "id": "741570310",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "If so, then no, not that place. Father said he's gone much deeper underground.",
+            "nextDialogs": [
+              "741570311"
+            ]
+          },
+          "741570311": {
+            "id": "741570311",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "The Steambird said that Mr. Leroy fell from a very high place while climbing a mountain, and went tumbling down.",
+            "nextDialogs": [
+              "741570312"
+            ]
+          },
+          "741570312": {
+            "id": "741570312",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "Though to be honest, I don't really know how having a bad fall and moving are connected...",
+            "nextDialogs": [
+              "741570313"
+            ]
+          },
+          "741570313": {
+            "id": "741570313",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "By the way, I saw Mr. Leroy's son-in-law! And there was a very nice lady too.",
+            "nextDialogs": [
+              "741570314"
+            ]
+          },
+          "741570314": {
+            "id": "741570314",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "The lady really liked me, and she has the same eyes as I do! Our eyes are both lavender.",
+            "nextDialogs": [
+              "741570315"
+            ]
+          },
+          "741570315": {
+            "id": "741570315",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "She even asked me where I lived, and said she'd come see me if she had time, and be my good friend! I guess everyone in the Leroy family is a good person!",
+            "nextDialogs": [
+              "741570316"
+            ]
+          },
+          "741570316": {
+            "id": "741570316",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "*sigh* I even brought some Bulle Fruit over for Mr. Leroy, but since he isn't there...",
+            "nextDialogs": [
+              "741570317"
+            ]
+          },
+          "741570317": {
+            "id": "741570317",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "Can I give it to you, instead?",
+            "nextDialogs": [
+              "741570318"
+            ]
+          },
+          "741570318": {
+            "id": "741570318",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Thank you, Molli!",
+            "nextDialogs": [
+              "741570319"
+            ]
+          },
+          "741570319": {
+            "id": "741570319",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "Don't mention it! Mama and Papa always say we should be generous with our friends.",
+            "nextDialogs": [
+              "741570320"
+            ]
+          },
+          "741570320": {
+            "id": "741570320",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "I did another good thing today! I'm going to go back and write it in my diary, yay!",
+            "nextDialogs": [
+              "741570321"
+            ]
+          },
+          "741570321": {
+            "id": "741570321",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "As you watch the happy Molli leave that street behind, the story of the Leroy family draws to an end."
+          },
+          "741570306": {
+            "id": "741570306",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "I was just thinking if I should tell you that Mr. Leroy moved.",
+            "nextDialogs": [
+              "741570307"
+            ]
+          },
+          "741570307": {
+            "id": "741570307",
+            "speakerId": 1002,
+            "speakerName": "Molli",
+            "text": "Father said Mr. Leroy will never live here again, and that he's gone to live underground."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7415705",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741570501"
+        ],
+        "dialogs": {
+          "741570501": {
+            "id": "741570501",
+            "speakerId": 1001,
+            "speakerName": "House-for-Sale Notice",
+            "text": "This house is for sale. Very reasonable price — purchase before it's too late!"
+          }
+        }
+      }
+    }
+  ]
+}

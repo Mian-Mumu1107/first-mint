@@ -1,0 +1,2828 @@
+{
+  "lineCounts": {
+    "Black Screen": 9,
+    "Gaming": 17,
+    "Ganyu": 31,
+    "Houzhang": 16,
+    "Houzhang & Jiehu": 1,
+    "Jiehu": 16,
+    "Paimon": 49,
+    "Player": 16,
+    "Shenhe": 40,
+    "Shuyu": 9,
+    "Xianyun": 63,
+    "Yaoyao": 15
+  },
+  "subQuests": [
+    {
+      "subId": "4014001",
+      "subQuestName": "Wait until the appointed time (08:00 – 12:00 two days later)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014002",
+      "subQuestName": "Go to Xinyue Kiosk and have dim sum with Gaming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400201"
+        ],
+        "dialogs": {
+          "401400201": {
+            "id": "401400201",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Oh! You're here early. I just ordered. The food should be out in a second. Sit down, sit down.",
+            "nextDialogs": [
+              "401400202"
+            ]
+          },
+          "401400202": {
+            "id": "401400202",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Let's all take a seat.",
+            "nextDialogs": [
+              "401400203"
+            ]
+          },
+          "401400203": {
+            "id": "401400203",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Here, hand me your cups.",
+            "nextDialogs": [
+              "401400204"
+            ]
+          },
+          "401400204": {
+            "id": "401400204",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, thank you!",
+            "nextDialogs": [
+              "401400205"
+            ]
+          },
+          "401400205": {
+            "id": "401400205",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Wait! You weren't supposed to drink that, Paimon.",
+            "nextDialogs": [
+              "401400206"
+            ]
+          },
+          "401400206": {
+            "id": "401400206",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "That was for you to rinse your utensils.",
+            "nextDialogs": [
+              "401400207"
+            ]
+          },
+          "401400207": {
+            "id": "401400207",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? That's a thing?",
+            "nextDialogs": [
+              "401400208"
+            ]
+          },
+          "401400208": {
+            "id": "401400208",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "As you talk, piping hot dim sum dishes arrive at the table one after another.",
+            "nextDialogs": [
+              "401400270"
+            ]
+          },
+          "401400270": {
+            "id": "401400270",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "And just when you think that all the dishes have been delivered, the hostess brings over a generous bowl of seafood congee..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014003",
+      "subQuestName": "Go to Mt. Aocang",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400301"
+        ],
+        "dialogs": {
+          "401400301": {
+            "id": "401400301",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Ganyu, Ganyu! C'mon, wake up! Some friends have arrived!",
+            "nextDialogs": [
+              "401400302"
+            ]
+          },
+          "401400302": {
+            "id": "401400302",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Hello... friends...",
+            "nextDialogs": [
+              "401400303"
+            ]
+          },
+          "401400303": {
+            "id": "401400303",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Ganyuuu!",
+            "nextDialogs": [
+              "401400304"
+            ]
+          },
+          "401400304": {
+            "id": "401400304",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "I have some mint oil. Perhaps we should try that?",
+            "nextDialogs": [
+              "401400305"
+            ]
+          },
+          "401400305": {
+            "id": "401400305",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "A guest at Wanmin Restaurant recommended it to me. I've tried it. Its stimulative effects are much stronger than what can be achieved from chewing on mint leaves alone.",
+            "nextDialogs": [
+              "401400306"
+            ]
+          },
+          "401400306": {
+            "id": "401400306",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "*snore* *snore*",
+            "nextDialogs": [
+              "401400307"
+            ]
+          },
+          "401400307": {
+            "id": "401400307",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "*sigh*",
+            "nextDialogs": [
+              "401400308"
+            ]
+          },
+          "401400308": {
+            "id": "401400308",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...Apologies in advance.",
+            "nextDialogs": [
+              "401400309"
+            ]
+          },
+          "401400309": {
+            "id": "401400309",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Wait! Shenhe! Not there...!",
+            "nextDialogs": [
+              "401400310"
+            ]
+          },
+          "401400310": {
+            "id": "401400310",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "You see Shenhe take out a small green bottle, extract some minty-smelling liquid, and apply it to Ganyu's horns.",
+            "nextDialogs": [
+              "401400362"
+            ]
+          },
+          "401400362": {
+            "id": "401400362",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "Yaoyao and Paimon look on in shock, mouths agape, but cannot stop her in time..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014008",
+      "subQuestName": "Check on how construction is going",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400901"
+        ],
+        "dialogs": {
+          "401400901": {
+            "id": "401400901",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Hey Gaming, want to team up?",
+            "nextDialogs": [
+              "401400902"
+            ]
+          },
+          "401400902": {
+            "id": "401400902",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Huh? I have to participate? I thought I'd be done for the day after adjusting the dye formula.",
+            "nextDialogs": [
+              "401400903"
+            ]
+          },
+          "401400903": {
+            "id": "401400903",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You're that unenthused by kite-making, huh? That doesn't seem like you.",
+            "nextDialogs": [
+              "401400904"
+            ]
+          },
+          "401400904": {
+            "id": "401400904",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "No, it's not that. It's just...",
+            "nextDialogs": [
+              "401400905"
+            ]
+          },
+          "401400905": {
+            "id": "401400905",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "*sigh* It would take too long to explain. I guess I'll just make one then.",
+            "nextDialogs": [
+              "401400906"
+            ]
+          },
+          "401400906": {
+            "id": "401400906",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "What shape should we go with... How about a butterfly?",
+            "nextDialogs": [
+              "401400907"
+            ]
+          },
+          "401400907": {
+            "id": "401400907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(The butterfly symbolizes the desire for freedom. Perhaps that's also what Gaming's searching for.)",
+            "nextDialogs": [
+              "401400908"
+            ]
+          },
+          "401400908": {
+            "id": "401400908",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "What do you think, Shuyu? Is there a particular design you want?",
+            "nextDialogs": [
+              "401400909"
+            ]
+          },
+          "401400909": {
+            "id": "401400909",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "I want a suanni!",
+            "nextDialogs": [
+              "401400910"
+            ]
+          },
+          "401400910": {
+            "id": "401400910",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "That might be a little hard to pull off...",
+            "nextDialogs": [
+              "401400911"
+            ]
+          },
+          "401400911": {
+            "id": "401400911",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "True, but I still want to try! They're super cute!",
+            "nextDialogs": [
+              "401400912"
+            ]
+          },
+          "401400912": {
+            "id": "401400912",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Okay! It's decided, then!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014009",
+      "subQuestName": "Check on how construction is going",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401101"
+        ],
+        "dialogs": {
+          "401401101": {
+            "id": "401401101",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Um, Shenhe... It would be great if you could refrain from putting things on my horns from now on. They're really quite sensitive...",
+            "nextDialogs": [
+              "401401102"
+            ]
+          },
+          "401401102": {
+            "id": "401401102",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "I see. My apologies. I shall remember that in the future.",
+            "nextDialogs": [
+              "401401103"
+            ]
+          },
+          "401401103": {
+            "id": "401401103",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Thank you. No harm done.",
+            "nextDialogs": [
+              "401401104"
+            ]
+          },
+          "401401104": {
+            "id": "401401104",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Good.",
+            "nextDialogs": [
+              "401401105"
+            ]
+          },
+          "401401105": {
+            "id": "401401105",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...Could I touch them just once more though? No oil or anything this time. I've just always wondered what Ms. Ganyu's horns feel like.",
+            "nextDialogs": [
+              "401401106"
+            ]
+          },
+          "401401106": {
+            "id": "401401106",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Huh? Please, I told you, just call me \"Ganyu\"... *sigh* Well, alright... Just be gentle.",
+            "nextDialogs": [
+              "401401107"
+            ]
+          },
+          "401401107": {
+            "id": "401401107",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "(Firm to the touch with no discernable temperature, not unlike certain medicinal plants I've eaten before.)",
+            "nextDialogs": [
+              "401401108"
+            ]
+          },
+          "401401108": {
+            "id": "401401108",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "(Still, Ganyu appears to be shaking like a cat whose whiskers have just been touched... I should stop.)",
+            "nextDialogs": [
+              "401401109"
+            ]
+          },
+          "401401109": {
+            "id": "401401109",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Ugh...",
+            "nextDialogs": [
+              "401401110"
+            ]
+          },
+          "401401110": {
+            "id": "401401110",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...I see.",
+            "nextDialogs": [
+              "401401111"
+            ]
+          },
+          "401401111": {
+            "id": "401401111",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Then I'll apply the oil to your forehead next time.",
+            "nextDialogs": [
+              "401401112"
+            ]
+          },
+          "401401112": {
+            "id": "401401112",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Oh, no need, I'll just... refrain from taking afternoon naps outdoors.",
+            "nextDialogs": [
+              "401401113"
+            ]
+          },
+          "401401113": {
+            "id": "401401113",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "*cough* *cough*... Anyway, we should probably get started on our kite. It won't be long before Cloud Retainer comes to check on our progress.",
+            "nextDialogs": [
+              "401401114"
+            ]
+          },
+          "401401114": {
+            "id": "401401114",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Perhaps... Perhaps we should just choose the most traditional style.",
+            "nextDialogs": [
+              "401401115"
+            ]
+          },
+          "401401115": {
+            "id": "401401115",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Okay.",
+            "nextDialogs": [
+              "401401116"
+            ]
+          },
+          "401401116": {
+            "id": "401401116",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, they seem to be getting along swimmingly. Let's not disturb them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014010",
+      "subQuestName": "Check on how construction is going",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401301"
+        ],
+        "dialogs": {
+          "401401301": {
+            "id": "401401301",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Aunty Cloud Retainer, look! Am I doing it right?",
+            "nextDialogs": [
+              "401401302"
+            ]
+          },
+          "401401302": {
+            "id": "401401302",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Very good. Your frame is nice and sturdy. This design... Is it a finch?",
+            "nextDialogs": [
+              "401401303"
+            ]
+          },
+          "401401303": {
+            "id": "401401303",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Yep! ♪ *whistle*~ ♪",
+            "nextDialogs": [
+              "401401304"
+            ]
+          },
+          "401401304": {
+            "id": "401401304",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hehe... One is looking forward to seeing your finished product.",
+            "nextDialogs": [
+              "401401305"
+            ]
+          },
+          "401401305": {
+            "id": "401401305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What color are you going to make it, Yaoyao?",
+            "nextDialogs": [
+              "401401306"
+            ]
+          },
+          "401401306": {
+            "id": "401401306",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "I haven't decided yet. If I make it blue, it'll be more like my friend. But if I make it gold, it'll be more like me.",
+            "nextDialogs": [
+              "401401307"
+            ]
+          },
+          "401401307": {
+            "id": "401401307",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "If you are asking for one's own opinion... One would advise choosing gold.",
+            "nextDialogs": [
+              "401401308"
+            ]
+          },
+          "401401308": {
+            "id": "401401308",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "When giving a gift, the key consideration is the recipient's feelings, is it not? One imagines your friend would much prefer a kite that reminds them of you.",
+            "nextDialogs": [
+              "401401309"
+            ]
+          },
+          "401401309": {
+            "id": "401401309",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Hey, I never told you the kite was for Qiqi... How did you know?",
+            "nextDialogs": [
+              "401401310"
+            ]
+          },
+          "401401310": {
+            "id": "401401310",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "With age comes wisdom, child. One simply has a way of knowing things.",
+            "nextDialogs": [
+              "401401311"
+            ]
+          },
+          "401401311": {
+            "id": "401401311",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Cool! Thanks, Aunty Cloud Retainer!",
+            "nextDialogs": [
+              "401401312"
+            ]
+          },
+          "401401312": {
+            "id": "401401312",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "I'm gonna start painting it gold right now!",
+            "nextDialogs": [
+              "401401313"
+            ]
+          },
+          "401401313": {
+            "id": "401401313",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Good. One will watch.",
+            "nextDialogs": [
+              "401401314"
+            ]
+          },
+          "401401314": {
+            "id": "401401314",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "You two seem strangely unoccupied. One was under the impression that one was supposed to be doing the relaxing. Is your kite finished?",
+            "nextDialogs": [
+              "401401315"
+            ]
+          },
+          "401401315": {
+            "id": "401401315",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "W—We actually haven't started yet. But we're going to start... right now!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014012",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401201"
+        ],
+        "dialogs": {
+          "401401201": {
+            "id": "401401201",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "The scissor-tailed swallow sure takes a lot of curved bamboo rods to build...",
+            "nextDialogs": [
+              "401401202"
+            ]
+          },
+          "401401202": {
+            "id": "401401202",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Ah...",
+            "nextDialogs": [
+              "401401203"
+            ]
+          },
+          "401401203": {
+            "id": "401401203",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "It broke."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014013",
+      "subQuestName": "Make a kite",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014014",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402001"
+        ],
+        "dialogs": {
+          "401402001": {
+            "id": "401402001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yep, that's the one.",
+            "nextDialogs": [
+              "401402002"
+            ]
+          },
+          "401402002": {
+            "id": "401402002",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Now that we've decided, let's make it happen."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014004",
+      "subQuestName": "Make a kite",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401403301"
+        ],
+        "dialogs": {
+          "401403301": {
+            "id": "401403301",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Is that... the Jade Chamber?",
+            "nextDialogs": [
+              "401403302"
+            ]
+          },
+          "401403302": {
+            "id": "401403302",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Oh?",
+            "nextDialogs": [
+              "401403303"
+            ]
+          },
+          "401403303": {
+            "id": "401403303",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "As a gentle breeze brushes past, the \"Jade Chamber\" drifts towards everyone's feet...",
+            "nextDialogs": [
+              "401403304"
+            ]
+          },
+          "401403304": {
+            "id": "401403304",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Who dares attempt such a flagrant display of impropriety by releasing a kite into one's territory without one's permission...",
+            "nextDialogs": [
+              "401403305"
+            ]
+          },
+          "401403305": {
+            "id": "401403305",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "And to do so by making use of this... crude piece of mortal machinery!",
+            "nextDialogs": [
+              "401403306"
+            ]
+          },
+          "401403306": {
+            "id": "401403306",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One simply must know who it is that possesses such impertinence!",
+            "nextDialogs": [
+              "401403307"
+            ]
+          },
+          "401403307": {
+            "id": "401403307",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Continue attaching the strings, everyone. One will be but a moment.",
+            "nextDialogs": [
+              "401403308"
+            ]
+          },
+          "401403308": {
+            "id": "401403308",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Cloud Retainer...!",
+            "nextDialogs": [
+              "401403309"
+            ]
+          },
+          "401403309": {
+            "id": "401403309",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "#{NICKNAME}, Paimon, could I trouble you to go after Cloud Retainer?",
+            "nextDialogs": [
+              "401403310"
+            ]
+          },
+          "401403310": {
+            "id": "401403310",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Master is going to be okay, right?",
+            "nextDialogs": [
+              "401403311"
+            ]
+          },
+          "401403311": {
+            "id": "401403311",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "I'm... more worried about the person who released the kite."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014005",
+      "subQuestName": "Figure out where Xianyun's gone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014006",
+      "subQuestName": "Follow Xianyun and check out the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400601"
+        ],
+        "dialogs": {
+          "401400601": {
+            "id": "401400601",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Hmm. This Fontainian device of mechanical motion is quite curious indeed...",
+            "nextDialogs": [
+              "401400602"
+            ]
+          },
+          "401400602": {
+            "id": "401400602",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "Now is hardly an opportune time for your musings! Someone among us was not sufficiently attentive, and now the kite has vanished!",
+            "nextDialogs": [
+              "401400603"
+            ]
+          },
+          "401400603": {
+            "id": "401400603",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Calm yourself. Do you have any recollection of its last location?",
+            "nextDialogs": [
+              "401400604"
+            ]
+          },
+          "401400604": {
+            "id": "401400604",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "One believes it drifted in the direction of Mt. Aocang.",
+            "nextDialogs": [
+              "401400605"
+            ]
+          },
+          "401400605": {
+            "id": "401400605",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "Perhaps it is mere happenstance, but one feels a certain sense of dread at the thought.",
+            "nextDialogs": [
+              "401400606"
+            ]
+          },
+          "401400606": {
+            "id": "401400606",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Your concern is misplaced, surely.",
+            "nextDialogs": [
+              "401400607"
+            ]
+          },
+          "401400607": {
+            "id": "401400607",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Cloud Retainer is either in the city looking after her disciples or secluded in her abode attending to her research. She will not notice that kite.",
+            "nextDialogs": [
+              "401400608"
+            ]
+          },
+          "401400608": {
+            "id": "401400608",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "On the subject of said kite, however, one simply must remark on the genius of its windless lift technology. One cannot help but surmise that its ingenuity rivals that of Cloud Retainer's creations...",
+            "nextDialogs": [
+              "401400609"
+            ]
+          },
+          "401400609": {
+            "id": "401400609",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "Still thy tongue! If Cloud Retainer were to hear you profess such a thing, we can both say farewell to any further use of the Supreme Cuisine Machine!",
+            "nextDialogs": [
+              "401400610"
+            ]
+          },
+          "401400610": {
+            "id": "401400610",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One presumes... that this kite belongs to you?",
+            "nextDialogs": [
+              "401400611"
+            ]
+          },
+          "401400611": {
+            "id": "401400611",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "...!",
+            "nextDialogs": [
+              "401400612"
+            ]
+          },
+          "401400612": {
+            "id": "401400612",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "(Regard the situation with which we are now confronted! This is all your fault!)",
+            "nextDialogs": [
+              "401400613"
+            ]
+          },
+          "401400613": {
+            "id": "401400613",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "(One's fault? One seems to recall that releasing the kite was no solitary endeavor.)",
+            "nextDialogs": [
+              "401400614"
+            ]
+          },
+          "401400614": {
+            "id": "401400614",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "(Say something, Mountain Shaper. Surely you can think of something to appease her!)",
+            "nextDialogs": [
+              "401400615"
+            ]
+          },
+          "401400615": {
+            "id": "401400615",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "(Further explanation shall only fan the flames of her wrath. It would be better to stay silent and retire at the earliest opportunity!)",
+            "nextDialogs": [
+              "401400616"
+            ]
+          },
+          "401400616": {
+            "id": "401400616",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "(We can hardly avoid her forever. That may suffice during Lantern Rite, but what about the Moonchase Festival? Sooner or later, she will discover our true identity.)",
+            "nextDialogs": [
+              "401400617"
+            ]
+          },
+          "401400617": {
+            "id": "401400617",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "...Hello?",
+            "nextDialogs": [
+              "401400618"
+            ]
+          },
+          "401400618": {
+            "id": "401400618",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "(Go retrieve the kite.)",
+            "nextDialogs": [
+              "401400619"
+            ]
+          },
+          "401400619": {
+            "id": "401400619",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "(Absolutely not. You retrieve it!)",
+            "nextDialogs": [
+              "401400620"
+            ]
+          },
+          "401400620": {
+            "id": "401400620",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "That... is not our kite...",
+            "nextDialogs": [
+              "401400621"
+            ]
+          },
+          "401400621": {
+            "id": "401400621",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Oh? So, an adeptus such as oneself is mistaken then?",
+            "nextDialogs": [
+              "401400622"
+            ]
+          },
+          "401400622": {
+            "id": "401400622",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Ah! You're an adeptus? Please forgive us for any impropriety.",
+            "nextDialogs": [
+              "401400623"
+            ]
+          },
+          "401400623": {
+            "id": "401400623",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "I truly possess no inkling of who could have released a kite into your esteemed demesne. Pray, who could be responsible for such wanton behavior...",
+            "nextDialogs": [
+              "401400624"
+            ]
+          },
+          "401400624": {
+            "id": "401400624",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "Verily! Verily! We were but delighting in the surrounding scenery. This locale is home to such exquisite...erm... Ah! Mint!",
+            "nextDialogs": [
+              "401400625"
+            ]
+          },
+          "401400625": {
+            "id": "401400625",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "Well, and if that's all, then we'll just be on our way...",
+            "nextDialogs": [
+              "401400626"
+            ]
+          },
+          "401400626": {
+            "id": "401400626",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Phew... we finally caught up. You sure do fly fast in your illuminated bird form, Xianyun!",
+            "nextDialogs": [
+              "401400627"
+            ]
+          },
+          "401400627": {
+            "id": "401400627",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Moon Carver? Mountain Shaper? What are you doing here?",
+            "nextDialogs": [
+              "401400628"
+            ]
+          },
+          "401400628": {
+            "id": "401400628",
+            "speakerId": 1010,
+            "speakerName": "Houzhang & Jiehu",
+            "text": "...You!\\n...I!",
+            "nextDialogs": [
+              "401400629"
+            ]
+          },
+          "401400629": {
+            "id": "401400629",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "...I!",
+            "nextDialogs": [
+              "401400630"
+            ]
+          },
+          "401400630": {
+            "id": "401400630",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She...",
+            "nextDialogs": [
+              "401400631"
+            ]
+          },
+          "401400631": {
+            "id": "401400631",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Okay, now Paimon's getting a weird vibe. Did she say something wrong?",
+            "nextDialogs": [
+              "401400632"
+            ]
+          },
+          "401400632": {
+            "id": "401400632",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "It is of no consequence. Long has one seen through their disguises. One was simply curious as to how long they would keep up the act.",
+            "nextDialogs": [
+              "401400633"
+            ]
+          },
+          "401400633": {
+            "id": "401400633",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Then, you are not angry?",
+            "nextDialogs": [
+              "401400634"
+            ]
+          },
+          "401400634": {
+            "id": "401400634",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmph. How could one feel anger at the sight of two old friends enjoying themselves? One is also well aware of how enticing these city novelties can be.",
+            "nextDialogs": [
+              "401400635"
+            ]
+          },
+          "401400635": {
+            "id": "401400635",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "*sigh* We were simply consumed by a fit of festive spirit. Seldom do we get the opportunity to partake in the delights of the times.",
+            "nextDialogs": [
+              "401400636"
+            ]
+          },
+          "401400636": {
+            "id": "401400636",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "However, we are far from being as adept as you in matters that require a deftness of hand. No worthy kite could be born of our own making. Thus, we could only take the convenient route, so to speak.",
+            "nextDialogs": [
+              "401400637"
+            ]
+          },
+          "401400637": {
+            "id": "401400637",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Your prowess in mechanics is unparalleled, Cloud Retainer. You wield the wind and waves themselves. Your singular talent stands unmatched across the land... Of this we are well aware.",
+            "nextDialogs": [
+              "401400638"
+            ]
+          },
+          "401400638": {
+            "id": "401400638",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmph...",
+            "nextDialogs": [
+              "401400639"
+            ]
+          },
+          "401400639": {
+            "id": "401400639",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One has guests to attend to. We will have to convene again some other time.",
+            "nextDialogs": [
+              "401400640"
+            ]
+          },
+          "401400640": {
+            "id": "401400640",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "#{NICKNAME}, Paimon, do try to keep up.",
+            "nextDialogs": [
+              "401400641"
+            ]
+          },
+          "401400641": {
+            "id": "401400641",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We're leaving already? Argh, all this flying from place to place is wearing Paimon out!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014007",
+      "subQuestName": "Return to Mt. Aocang",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400701"
+        ],
+        "dialogs": {
+          "401400701": {
+            "id": "401400701",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "They're back.",
+            "nextDialogs": [
+              "401400702"
+            ]
+          },
+          "401400702": {
+            "id": "401400702",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon's pooped. Huh? Why are there only two of you left?",
+            "nextDialogs": [
+              "401400703"
+            ]
+          },
+          "401400703": {
+            "id": "401400703",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "After you left, Yaoyao and Shuyu tired themselves out playing with their kites.",
+            "nextDialogs": [
+              "401400704"
+            ]
+          },
+          "401400704": {
+            "id": "401400704",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Gaming offered to escort them home.",
+            "nextDialogs": [
+              "401400705"
+            ]
+          },
+          "401400705": {
+            "id": "401400705",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Before he left, he said something that I don't quite understand.",
+            "nextDialogs": [
+              "401400706"
+            ]
+          },
+          "401400706": {
+            "id": "401400706",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh? What did he say?",
+            "nextDialogs": [
+              "401400707"
+            ]
+          },
+          "401400707": {
+            "id": "401400707",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "He said, \"A kite is always tied down no matter how far it flies or how high it soars. Its tether prevents it from ever truly flying free.\"",
+            "nextDialogs": [
+              "401400708"
+            ]
+          },
+          "401400708": {
+            "id": "401400708",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "He looked quite dejected as he said this.",
+            "nextDialogs": [
+              "401400709"
+            ]
+          },
+          "401400709": {
+            "id": "401400709",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Now that you mention it, Gaming did seem to have a rather strange attitude towards kites.",
+            "nextDialogs": [
+              "401400710"
+            ]
+          },
+          "401400710": {
+            "id": "401400710",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Perhaps he sees himself reflected in them?",
+            "nextDialogs": [
+              "401400711"
+            ]
+          },
+          "401400711": {
+            "id": "401400711",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "A reflection of himself...",
+            "nextDialogs": [
+              "401400712"
+            ]
+          },
+          "401400712": {
+            "id": "401400712",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "If I were a kite, I would cherish that tether as a symbol of kinship and the bonds that tie us, and...",
+            "nextDialogs": [
+              "401400713"
+            ]
+          },
+          "401400713": {
+            "id": "401400713",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Shenhe?",
+            "nextDialogs": [
+              "401400714"
+            ]
+          },
+          "401400714": {
+            "id": "401400714",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "It may be an exceedingly slim and distant connection, but lose it, and you lose that which links you to home.",
+            "nextDialogs": [
+              "401400715"
+            ]
+          },
+          "401400715": {
+            "id": "401400715",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "If Gaming truly sees a kite as a reflection of himself... Then I fear I understand his words even less.",
+            "nextDialogs": [
+              "401400716"
+            ]
+          },
+          "401400716": {
+            "id": "401400716",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Well, people often have different points of view depending on their mindset and experiences, right? It's actually quite normal.",
+            "nextDialogs": [
+              "401400717"
+            ]
+          },
+          "401400717": {
+            "id": "401400717",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...Just like some people can eat spicy food, but others won't go anywhere near it?",
+            "nextDialogs": [
+              "401400718"
+            ]
+          },
+          "401400718": {
+            "id": "401400718",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Exactly. That's why tolerance and understanding are as important as they are.",
+            "nextDialogs": [
+              "401400719"
+            ]
+          },
+          "401400719": {
+            "id": "401400719",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Tolerance and understanding? What brought about this conversation? Did one miss something?",
+            "nextDialogs": [
+              "401400720"
+            ]
+          },
+          "401400720": {
+            "id": "401400720",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We were just chatting — you don't have to butt in on every little thing, you know. Where were you, anyway?",
+            "nextDialogs": [
+              "401400721"
+            ]
+          },
+          "401400721": {
+            "id": "401400721",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmph, one was merely doing a bit of cooking.",
+            "nextDialogs": [
+              "401400722"
+            ]
+          },
+          "401400722": {
+            "id": "401400722",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Night fast approaches. If you are otherwise unoccupied, one would entreat you to stay and eat before you depart.",
+            "nextDialogs": [
+              "401400723"
+            ]
+          },
+          "401400723": {
+            "id": "401400723",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Oh! It's been so long since I've had the chance to enjoy your cooking, Cloud Retainer!",
+            "nextDialogs": [
+              "401400724"
+            ]
+          },
+          "401400724": {
+            "id": "401400724",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...Uh.",
+            "nextDialogs": [
+              "401400725"
+            ]
+          },
+          "401400725": {
+            "id": "401400725",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Worry not. One has prepared a variety of meat and vegetable dishes. One is more than familiar with everyone's culinary proclivities.",
+            "nextDialogs": [
+              "401400729",
+              "401400728"
+            ]
+          },
+          "401400729": {
+            "id": "401400729",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Shenhe, Ganyu, come with me.",
+            "nextDialogs": [
+              "401400730"
+            ]
+          },
+          "401400730": {
+            "id": "401400730",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Woah, what's with all the secrecy? You're not trying to play favorites, are you?",
+            "nextDialogs": [
+              "401400731"
+            ]
+          },
+          "401400731": {
+            "id": "401400731",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If you're ready to serve the food, we can help too!"
+          },
+          "401400728": {
+            "id": "401400728",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hey! Paimon's hungry too! It's not like the dim sum and grilled fish could keep her full the whole day, y'know!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014017",
+      "subQuestName": "Go to the abode entrance",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401403101"
+        ],
+        "dialogs": {
+          "401403101": {
+            "id": "401403101",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "You wait outside Cloud Retainer's abode for a few moments...",
+            "nextDialogs": [
+              "401403102"
+            ]
+          },
+          "401403102": {
+            "id": "401403102",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Th—This is...!",
+            "nextDialogs": [
+              "401403103"
+            ]
+          },
+          "401403103": {
+            "id": "401403103",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "(Ohh... I can feel the wind brushing against my legs. This is a bit embarrassing...)",
+            "nextDialogs": [
+              "401403104"
+            ]
+          },
+          "401403104": {
+            "id": "401403104",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "(Is the headpiece secure? I should have asked Cloud Retainer to check before I stepped outside...)",
+            "nextDialogs": [
+              "401403105"
+            ]
+          },
+          "401403105": {
+            "id": "401403105",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "How do we look?",
+            "nextDialogs": [
+              "401403106"
+            ]
+          },
+          "401403106": {
+            "id": "401403106",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "(Huh!? She asked them just like that...?)",
+            "nextDialogs": [
+              "401403107"
+            ]
+          },
+          "401403107": {
+            "id": "401403107",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You look great.",
+            "nextDialogs": [
+              "401403108"
+            ]
+          },
+          "401403108": {
+            "id": "401403108",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You look pretty too, Ganyu. How should Paimon put it? You both look so elegant and refined — those outfits really suit you both.",
+            "nextDialogs": [
+              "401403109"
+            ]
+          },
+          "401403109": {
+            "id": "401403109",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Given that one employed the services of the best tailor in all of Liyue, one would expect nothing less.",
+            "nextDialogs": [
+              "401403110"
+            ]
+          },
+          "401403110": {
+            "id": "401403110",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "What colors have you been partial to lately, Shenhe and Ganyu?",
+            "nextDialogs": [
+              "401403111"
+            ]
+          },
+          "401403111": {
+            "id": "401403111",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "(Lately? Why is Cloud Retainer suddenly asking about what colors we like?)",
+            "nextDialogs": [
+              "401403112"
+            ]
+          },
+          "401403112": {
+            "id": "401403112",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "I like black.",
+            "nextDialogs": [
+              "401403113"
+            ]
+          },
+          "401403113": {
+            "id": "401403113",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One is gratified to see that one's disciple has inherited one's own tastes.",
+            "nextDialogs": [
+              "401403114"
+            ]
+          },
+          "401403114": {
+            "id": "401403114",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "(The color black doesn't get dirty easily — a virtue I've come to value recently.)",
+            "nextDialogs": [
+              "401403115"
+            ]
+          },
+          "401403115": {
+            "id": "401403115",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "And you, Ganyu?",
+            "nextDialogs": [
+              "401403116"
+            ]
+          },
+          "401403116": {
+            "id": "401403116",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "I favor blue and black.",
+            "nextDialogs": [
+              "401403117"
+            ]
+          },
+          "401403117": {
+            "id": "401403117",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "And the material is sufficiently comfortable, yes?",
+            "nextDialogs": [
+              "401403118"
+            ]
+          },
+          "401403118": {
+            "id": "401403118",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Yes, very. I simply cannot thank you enough, Cloud Retainer — for this gift, and the kite, too.",
+            "nextDialogs": [
+              "401403119"
+            ]
+          },
+          "401403119": {
+            "id": "401403119",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Thank you, Master.",
+            "nextDialogs": [
+              "401403120"
+            ]
+          },
+          "401403120": {
+            "id": "401403120",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One is content as long as you are pleased with the gift. One hopes these garments will see much use.",
+            "nextDialogs": [
+              "401403121"
+            ]
+          },
+          "401403121": {
+            "id": "401403121",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "You sit down and enjoy a tableful of delicious food and pleasant company...",
+            "nextDialogs": [
+              "401403122"
+            ]
+          },
+          "401403122": {
+            "id": "401403122",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Seems like your Supreme Cuisine Machine is just getting better and better, Xianyun!",
+            "nextDialogs": [
+              "401403123"
+            ]
+          },
+          "401403123": {
+            "id": "401403123",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "This Golden Crab's particularly good. The shell's deliciously crunchy, and the meat inside is so succulent and sweet. Hehe, Paimon can't stop eating!",
+            "nextDialogs": [
+              "401403124"
+            ]
+          },
+          "401403124": {
+            "id": "401403124",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's a good thing Gaming isn't here or Paimon would have to have to duel him for the food — y'know, with chopsticks!",
+            "nextDialogs": [
+              "401403127"
+            ]
+          },
+          "401403127": {
+            "id": "401403127",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "He traveled all this way on account of the kite-making workshop, and he spent the whole afternoon looking after Shuyu... One was hoping to treat him to a meal.",
+            "nextDialogs": [
+              "401403128"
+            ]
+          },
+          "401403128": {
+            "id": "401403128",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Oh well... One will just have to extend one's thanks in person.",
+            "nextDialogs": [
+              "401403129"
+            ]
+          },
+          "401403129": {
+            "id": "401403129",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "It's rare for someone to make such a good impression on you, Cloud Retainer.",
+            "nextDialogs": [
+              "401403130"
+            ]
+          },
+          "401403130": {
+            "id": "401403130",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hah. One has high standards.",
+            "nextDialogs": [
+              "401403131"
+            ]
+          },
+          "401403131": {
+            "id": "401403131",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "He appears to be a young man of much merit, and one is not the type who would see such potential squandered.",
+            "nextDialogs": [
+              "401403132"
+            ]
+          },
+          "401403132": {
+            "id": "401403132",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "It appears that he wishes to break free from the kite string that tethers him.",
+            "nextDialogs": [
+              "401403133"
+            ]
+          },
+          "401403133": {
+            "id": "401403133",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Kite string? What strange metaphors you speak in, Shenhe. Ever since you returned from Wanmin Restaurant, your turns of phrase render one at quite the loss.",
+            "nextDialogs": [
+              "401403134"
+            ]
+          },
+          "401403134": {
+            "id": "401403134",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Where do we even begin... Oh, do you know about the conflict between Gaming and his dad, Xianyun?",
+            "nextDialogs": [
+              "401403135"
+            ]
+          },
+          "401403135": {
+            "id": "401403135",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One has only heard that the two are not on good terms...",
+            "nextDialogs": [
+              "401403136"
+            ]
+          },
+          "401403136": {
+            "id": "401403136",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "He ran away from home and hasn't been back since!",
+            "nextDialogs": [
+              "401403137"
+            ]
+          },
+          "401403137": {
+            "id": "401403137",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Oh?",
+            "nextDialogs": [
+              "401403138"
+            ]
+          },
+          "401403138": {
+            "id": "401403138",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Ran away, you say? One believes we would all benefit from a more thorough retelling. Start from the beginning.",
+            "nextDialogs": [
+              "401403139"
+            ]
+          },
+          "401403139": {
+            "id": "401403139",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, okay. Paimon just hopes he won't mind...",
+            "nextDialogs": [
+              "401403140"
+            ]
+          },
+          "401403140": {
+            "id": "401403140",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "Paimon tells Cloud Retainer everything she knows about Gaming's family situation...",
+            "nextDialogs": [
+              "401403141"
+            ]
+          },
+          "401403141": {
+            "id": "401403141",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...What?",
+            "nextDialogs": [
+              "401403142"
+            ]
+          },
+          "401403142": {
+            "id": "401403142",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "This shall not do!",
+            "nextDialogs": [
+              "401403143"
+            ]
+          },
+          "401403143": {
+            "id": "401403143",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Lantern Rite fast approaches. We must make haste.",
+            "nextDialogs": [
+              "401403144"
+            ]
+          },
+          "401403144": {
+            "id": "401403144",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "As one was contacting various tailors around Liyue, one could not help but be reminded of Menogias.",
+            "nextDialogs": [
+              "401403145"
+            ]
+          },
+          "401403145": {
+            "id": "401403145",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "He possessed a singular talent for clothing design. He had an exquisite eye not just for fabric selection and color pairing, but also for what accessories could best accentuate a garment's overall styling.",
+            "nextDialogs": [
+              "401403146"
+            ]
+          },
+          "401403146": {
+            "id": "401403146",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "At a gathering of adepti, Bonanus once complained in secret to some of the ladies in attendance that the skirt Menogias made for her was too long and impractical, lamenting that it would only hinder her in battle.",
+            "nextDialogs": [
+              "401403147"
+            ]
+          },
+          "401403147": {
+            "id": "401403147",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "However, when one asked Menogias his opinion, he remarked that the train of the skirt would serve to enhance her adeptal countenance by exemplifying a certain elegance. Menogias was that type of person. When it came to topics relating to garments and accessories, not even Rex Lapis could best his stubbornness.",
+            "nextDialogs": [
+              "401403148"
+            ]
+          },
+          "401403148": {
+            "id": "401403148",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "And later...",
+            "nextDialogs": [
+              "401403149"
+            ]
+          },
+          "401403149": {
+            "id": "401403149",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "401403150"
+            ]
+          },
+          "401403150": {
+            "id": "401403150",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Ah, one seems to have strayed off-topic.",
+            "nextDialogs": [
+              "401403151"
+            ]
+          },
+          "401403151": {
+            "id": "401403151",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "One means to say that Lantern Rite should be a day of reunion.",
+            "nextDialogs": [
+              "401403152"
+            ]
+          },
+          "401403152": {
+            "id": "401403152",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "It is a time to address problems before they turn into regrets.",
+            "nextDialogs": [
+              "401403153"
+            ]
+          },
+          "401403153": {
+            "id": "401403153",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Fate is fickle. The cruel reality of this world is that suffering and misfortune can befall any of us without design or reason. If there is a chance for young people to remain insulated from this reality, one should do one's utmost to make it so.",
+            "nextDialogs": [
+              "401403154"
+            ]
+          },
+          "401403154": {
+            "id": "401403154",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's nice and all, but...",
+            "nextDialogs": [
+              "401403155"
+            ]
+          },
+          "401403155": {
+            "id": "401403155",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "Do you have any ideas, Cloud Retainer?",
+            "nextDialogs": [
+              "401403156"
+            ]
+          },
+          "401403156": {
+            "id": "401403156",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Perhaps adeptal arts could be of use? No, no... mechanics, perhaps? Hmm, one fails to see its use in a situation such as this...",
+            "nextDialogs": [
+              "401403157"
+            ]
+          },
+          "401403157": {
+            "id": "401403157",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "...Is there anything I can do to help?",
+            "nextDialogs": [
+              "401403158"
+            ]
+          },
+          "401403158": {
+            "id": "401403158",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmm...",
+            "nextDialogs": [
+              "401403159"
+            ]
+          },
+          "401403159": {
+            "id": "401403159",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Combining our efforts... is a fine idea indeed.",
+            "nextDialogs": [
+              "401403160"
+            ]
+          },
+          "401403160": {
+            "id": "401403160",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Aha! One has an idea...",
+            "nextDialogs": [
+              "401403161"
+            ]
+          },
+          "401403161": {
+            "id": "401403161",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "How about this...",
+            "nextDialogs": [
+              "401403162"
+            ]
+          },
+          "401403162": {
+            "id": "401403162",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "...Does that make sense to everyone?",
+            "nextDialogs": [
+              "401403163"
+            ]
+          },
+          "401403163": {
+            "id": "401403163",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yep! Paimon really hopes this works!",
+            "nextDialogs": [
+              "401403164"
+            ]
+          },
+          "401403164": {
+            "id": "401403164",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmph, one's designs never fail.",
+            "nextDialogs": [
+              "401403165"
+            ]
+          },
+          "401403165": {
+            "id": "401403165",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Now then, I counsel rest for all, and to make the necessary preparations. One shall see you in two days..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014008",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401400801"
+        ],
+        "dialogs": {
+          "401400801": {
+            "id": "401400801",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014010",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401001"
+        ],
+        "dialogs": {
+          "401401001": {
+            "id": "401401001",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Gaming, can I do the coloring?",
+            "nextDialogs": [
+              "401401002"
+            ]
+          },
+          "401401002": {
+            "id": "401401002",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Sure! I'll go ahead and make the frame for you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014014",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401401"
+        ],
+        "dialogs": {
+          "401401401": {
+            "id": "401401401",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Once I get better at making kites, I'm going to make one shaped like Yuegui.",
+            "nextDialogs": [
+              "401401402"
+            ]
+          },
+          "401401402": {
+            "id": "401401402",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "You gave him to me, and he's just the best!",
+            "nextDialogs": [
+              "401401403"
+            ]
+          },
+          "401401403": {
+            "id": "401401403",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hehe... One is pleased that you like the gift."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014015",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401501"
+        ],
+        "dialogs": {
+          "401401501": {
+            "id": "401401501",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "First, we have to decide on the shape... Hey, what are you laughing at?",
+            "nextDialogs": [
+              "401401502"
+            ]
+          },
+          "401401502": {
+            "id": "401401502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The obvious answer is to make a Paimon-shaped kite.",
+            "nextDialogs": [
+              "401401503"
+            ]
+          },
+          "401401503": {
+            "id": "401401503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm, that's not a completely crazy idea.",
+            "nextDialogs": [
+              "401401504"
+            ]
+          },
+          "401401504": {
+            "id": "401401504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If nothing else, a Paimon-shaped kite could at least make sure you never get lost on your travels and always find the tastiest food and funnest things to do wherever you go!",
+            "nextDialogs": [
+              "401401505"
+            ]
+          },
+          "401401505": {
+            "id": "401401505",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Maybe we're not exercising enough artistic license... We should exaggerate this a bit. How about this? The word \"Paimon\" means... \"The Guardian Angel of Travelers\"!",
+            "nextDialogs": [
+              "401401506"
+            ]
+          },
+          "401401506": {
+            "id": "401401506",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "You build the kite's frame according to Cloud Retainer's instructions...",
+            "nextDialogs": [
+              "401401507"
+            ]
+          },
+          "401401507": {
+            "id": "401401507",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Now... what expression should we give her? Since the kite is going to be flying super high in the sky..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014016",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401601"
+        ],
+        "dialogs": {
+          "401401601": {
+            "id": "401401601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She should look pleased with herself...",
+            "nextDialogs": [
+              "401401602"
+            ]
+          },
+          "401401602": {
+            "id": "401401602",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ooh, like this? \"Hahahaha! The title of champion kite-flyer is mine!\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014017",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401701"
+        ],
+        "dialogs": {
+          "401401701": {
+            "id": "401401701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She should look afraid...",
+            "nextDialogs": [
+              "401401702"
+            ]
+          },
+          "401401702": {
+            "id": "401401702",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"It's too high! Someone save Paimon! She's about to faint!\" Like that?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014018",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401801"
+        ],
+        "dialogs": {
+          "401401801": {
+            "id": "401401801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She should look guilty about something...",
+            "nextDialogs": [
+              "401401802"
+            ]
+          },
+          "401401802": {
+            "id": "401401802",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"Ohh, Paimon totally didn't do anything wrong, and even if she did, she doesn't deserve to get shot up into the sky for it...\" Something like this, then?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014019",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401401901"
+        ],
+        "dialogs": {
+          "401401901": {
+            "id": "401401901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let me rethink this...",
+            "nextDialogs": [
+              "401401902"
+            ]
+          },
+          "401401902": {
+            "id": "401401902",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Since the kite is going to be flying super high in the sky..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014023",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402301"
+        ],
+        "dialogs": {
+          "401402301": {
+            "id": "401402301",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Phew... it's done! Paimon has to say, Kite-Paimon might even rival real Paimon in terms of cuteness.",
+            "nextDialogs": [
+              "401402302"
+            ]
+          },
+          "401402302": {
+            "id": "401402302",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Now we just have to attach the string, right?",
+            "nextDialogs": [
+              "401402303"
+            ]
+          },
+          "401402303": {
+            "id": "401402303",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Alright. Gather around, everyone.",
+            "nextDialogs": [
+              "401402304"
+            ]
+          },
+          "401402304": {
+            "id": "401402304",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh! Xianyun's calling us.",
+            "nextDialogs": [
+              "401402305"
+            ]
+          },
+          "401402305": {
+            "id": "401402305",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Let one take a look...",
+            "nextDialogs": [
+              "401402306"
+            ]
+          },
+          "401402306": {
+            "id": "401402306",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Wow! Ganyu and Shenhe made a scissor-tailed swallow! It's so pretty!",
+            "nextDialogs": [
+              "401402307"
+            ]
+          },
+          "401402307": {
+            "id": "401402307",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Yep! The coloring... makes it look a lot like Master.",
+            "nextDialogs": [
+              "401402308"
+            ]
+          },
+          "401402308": {
+            "id": "401402308",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If the tail wasn't split in two like that, it might even be a spitting image!",
+            "nextDialogs": [
+              "401402309"
+            ]
+          },
+          "401402309": {
+            "id": "401402309",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If you look closely, there are a few spots where the colors go outside the lines... Did you doze off while painting it, Ganyu?",
+            "nextDialogs": [
+              "401402310"
+            ]
+          },
+          "401402310": {
+            "id": "401402310",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "I did the painting.",
+            "nextDialogs": [
+              "401402311"
+            ]
+          },
+          "401402311": {
+            "id": "401402311",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "I stared at the paper for quite some time, but I simply could not recall the coloring of any bird... except Master.",
+            "nextDialogs": [
+              "401402312"
+            ]
+          },
+          "401402312": {
+            "id": "401402312",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Or should I say that I'm too familiar with her crane form? Even when she stands before us in human form, all I can see is blue and white.",
+            "nextDialogs": [
+              "401402313"
+            ]
+          },
+          "401402313": {
+            "id": "401402313",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh... Well, now that you mention it, Paimon can see it too...",
+            "nextDialogs": [
+              "401402314"
+            ]
+          },
+          "401402314": {
+            "id": "401402314",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Exactly. So, I simply closed my eyes and painted from memory.",
+            "nextDialogs": [
+              "401402315"
+            ]
+          },
+          "401402315": {
+            "id": "401402315",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "No way! You can paint with your eyes closed? Wow, the disciples of adepti really are something!",
+            "nextDialogs": [
+              "401402316"
+            ]
+          },
+          "401402316": {
+            "id": "401402316",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "You are most filial, Shenhe. One is flattered by the likeness.",
+            "nextDialogs": [
+              "401402317"
+            ]
+          },
+          "401402317": {
+            "id": "401402317",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "The suanni that Gaming and Shuyu made looks very majestic. I'm sure it'll look even more impressive as it soars through the sky.",
+            "nextDialogs": [
+              "401402318"
+            ]
+          },
+          "401402318": {
+            "id": "401402318",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "The eyes and ears glow in the dark, so you're sure to see it at night.",
+            "nextDialogs": [
+              "401402319"
+            ]
+          },
+          "401402319": {
+            "id": "401402319",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Your golden finch is cute too, Yaoyao!",
+            "nextDialogs": [
+              "401402320"
+            ]
+          },
+          "401402320": {
+            "id": "401402320",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "It's all thanks to Aunty Cloud Retainer's guidance.",
+            "nextDialogs": [
+              "401402321"
+            ]
+          },
+          "401402321": {
+            "id": "401402321",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "#What about your kite, {NICKNAME}?",
+            "nextDialogs": [
+              "401402322"
+            ]
+          },
+          "401402322": {
+            "id": "401402322",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Tada! Here it is!",
+            "nextDialogs": [
+              "401402323"
+            ]
+          },
+          "401402323": {
+            "id": "401402323",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Its self-important countenance bears a striking resemblance to that of its namesake.",
+            "nextDialogs": [
+              "401402324"
+            ]
+          },
+          "401402324": {
+            "id": "401402324",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Hehe, it makes her look like she's already won the competition.",
+            "nextDialogs": [
+              "401402325"
+            ]
+          },
+          "401402325": {
+            "id": "401402325",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, that's gonna happen one way or another.",
+            "nextDialogs": [
+              "401402326"
+            ]
+          },
+          "401402326": {
+            "id": "401402326",
+            "speakerId": 1007,
+            "speakerName": "Xianyun",
+            "text": "Hmph..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014024",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402401"
+        ],
+        "dialogs": {
+          "401402401": {
+            "id": "401402401",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Pfft, that's hilarious.",
+            "nextDialogs": [
+              "401402402"
+            ]
+          },
+          "401402402": {
+            "id": "401402402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Why does Paimon feel like you're laughing at her and not with her...",
+            "nextDialogs": [
+              "401402403"
+            ]
+          },
+          "401402403": {
+            "id": "401402403",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "I'm just admiring the expression you chose. Whether the kite soars high in the air or comes crashing straight to the ground, it's still fitting.",
+            "nextDialogs": [
+              "401402404"
+            ]
+          },
+          "401402404": {
+            "id": "401402404",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "#{NICKNAME}, that's quite the impressive feat, actually."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014025",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402501"
+        ],
+        "dialogs": {
+          "401402501": {
+            "id": "401402501",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Very Paimon-like indeed.",
+            "nextDialogs": [
+              "401402502"
+            ]
+          },
+          "401402502": {
+            "id": "401402502",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Why do you say that, Shenhe?",
+            "nextDialogs": [
+              "401402503"
+            ]
+          },
+          "401402503": {
+            "id": "401402503",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "#That one time {NICKNAME} suspected that a piece of meat was missing from their bowl, that was the exact expression on your face.",
+            "nextDialogs": [
+              "401402504"
+            ]
+          },
+          "401402504": {
+            "id": "401402504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "I—Is that something that happened?",
+            "nextDialogs": [
+              "401402505"
+            ]
+          },
+          "401402505": {
+            "id": "401402505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...So it was you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014026",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402601"
+        ],
+        "dialogs": {
+          "401402601": {
+            "id": "401402601",
+            "speakerId": 1003,
+            "speakerName": "Yaoyao",
+            "text": "Be careful, you two!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014027",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402701"
+        ],
+        "dialogs": {
+          "401402701": {
+            "id": "401402701",
+            "speakerId": 1000,
+            "speakerName": "Gaming",
+            "text": "Now for the string..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014028",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402801"
+        ],
+        "dialogs": {
+          "401402801": {
+            "id": "401402801",
+            "speakerId": 1004,
+            "speakerName": "Ganyu",
+            "text": "I hope the person who released the kite is going to be okay..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014029",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401402901"
+        ],
+        "dialogs": {
+          "401402901": {
+            "id": "401402901",
+            "speakerId": 1005,
+            "speakerName": "Shenhe",
+            "text": "Master is not without her principles... We need not worry too much."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014030",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401403001"
+        ],
+        "dialogs": {
+          "401403001": {
+            "id": "401403001",
+            "speakerId": 1006,
+            "speakerName": "Shuyu",
+            "text": "Please look after Master for me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014032",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401403201"
+        ],
+        "dialogs": {
+          "401403201": {
+            "id": "401403201",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "*exhale*... It seems that one's concern was misplaced after all.",
+            "nextDialogs": [
+              "401403202"
+            ]
+          },
+          "401403202": {
+            "id": "401403202",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Then should we continue flying the kite?",
+            "nextDialogs": [
+              "401403203"
+            ]
+          },
+          "401403203": {
+            "id": "401403203",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "A splendid suggestion! But it would be advisable to change locations.",
+            "nextDialogs": [
+              "401403204"
+            ]
+          },
+          "401403204": {
+            "id": "401403204",
+            "speakerId": 1008,
+            "speakerName": "Houzhang",
+            "text": "Perhaps your mountain would suffice? It is more than spacious enough.",
+            "nextDialogs": [
+              "401403205"
+            ]
+          },
+          "401403205": {
+            "id": "401403205",
+            "speakerId": 1009,
+            "speakerName": "Jiehu",
+            "text": "A fine idea... a fine idea indeed."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2416 @@
+{
+  "lineCounts": {
+    "???": 1,
+    "Albert": 19,
+    "Beatrice": 4,
+    "Bennett": 3,
+    "Ellin": 15,
+    "Flora": 20,
+    "Kaeya": 17,
+    "Katheryne": 1,
+    "Marjorie": 1,
+    "Marvin": 15,
+    "Paimon": 74,
+    "Player": 21,
+    "Quinn": 16,
+    "Sara": 1,
+    "Venti": 62
+  },
+  "subQuests": [
+    {
+      "subId": "4141001",
+      "subQuestName": "Walk around Mondstadt",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141003",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414100301"
+        ],
+        "dialogs": {
+          "414100301": {
+            "id": "414100301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hiiii~! Can we help with anything?",
+            "nextDialogs": [
+              "414100302"
+            ]
+          },
+          "414100302": {
+            "id": "414100302",
+            "speakerId": 1001,
+            "speakerName": "Sara",
+            "text": "Sorry, it's the Windblume Festival! There's nothing I can hand off to you.",
+            "nextDialogs": [
+              "414100303"
+            ]
+          },
+          "414100303": {
+            "id": "414100303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... nothing?",
+            "nextDialogs": [
+              "414100304"
+            ]
+          },
+          "414100304": {
+            "id": "414100304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh... let's go ask someone else then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141004",
+      "subQuestName": "Talk to Marjorie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414100401"
+        ],
+        "dialogs": {
+          "414100401": {
+            "id": "414100401",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello, is there anything here you need help with?",
+            "nextDialogs": [
+              "414100402"
+            ]
+          },
+          "414100402": {
+            "id": "414100402",
+            "speakerId": 1002,
+            "speakerName": "Marjorie",
+            "text": "Ahahaha! That's a good one! You two, helping me during the Windblume Festival? Hahaha...",
+            "nextDialogs": [
+              "414100403"
+            ]
+          },
+          "414100403": {
+            "id": "414100403",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... Huh?",
+            "nextDialogs": [
+              "414100404"
+            ]
+          },
+          "414100404": {
+            "id": "414100404",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Weird... Let's go to the Adventurers' Guild!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141005",
+      "subQuestName": "Talk to Katheryne",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414100501"
+        ],
+        "dialogs": {
+          "414100501": {
+            "id": "414100501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Katheryne! You got any commissions for us?",
+            "nextDialogs": [
+              "414100502"
+            ]
+          },
+          "414100502": {
+            "id": "414100502",
+            "speakerId": 1003,
+            "speakerName": "Katheryne",
+            "text": "My apologies. During the Windblume Festival, there are far fewer commissions available. There's nothing I can give to you at this moment.",
+            "nextDialogs": [
+              "414100503"
+            ]
+          },
+          "414100503": {
+            "id": "414100503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh? The Adventurers' Guild too!?",
+            "nextDialogs": [
+              "414100504"
+            ]
+          },
+          "414100504": {
+            "id": "414100504",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, wh—what do we do now? Have we been... fired?",
+            "nextDialogs": [
+              "414100505"
+            ]
+          },
+          "414100505": {
+            "id": "414100505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Who'd have thought...",
+            "nextDialogs": [
+              "414100506"
+            ]
+          },
+          "414100506": {
+            "id": "414100506",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No! Paimon's not giving up that easily! We gotta try again!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141007",
+      "subQuestName": "Talk to Flora at the flower shop",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414100701"
+        ],
+        "dialogs": {
+          "414100701": {
+            "id": "414100701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Flora, do you have anything you need help with?",
+            "nextDialogs": [
+              "414100702"
+            ]
+          },
+          "414100702": {
+            "id": "414100702",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Hee-hee — nope.",
+            "nextDialogs": [
+              "414100703"
+            ]
+          },
+          "414100703": {
+            "id": "414100703",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is that b—because of the Windblume Festival...? Huh... what is that, exactly?",
+            "nextDialogs": [
+              "414100704"
+            ]
+          },
+          "414100704": {
+            "id": "414100704",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "*gasp* You two haven't heard of the Windblume Festival?",
+            "nextDialogs": [
+              "414100705"
+            ]
+          },
+          "414100705": {
+            "id": "414100705",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Windblume... Soooo — some kinda... windy, flower-planting kinda thing...?",
+            "nextDialogs": [
+              "414100706"
+            ]
+          },
+          "414100706": {
+            "id": "414100706",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "The Windblume Festival is a Mondstadt tradition — a festival of love and freedom. It's a time of celebration and partying in the city.",
+            "nextDialogs": [
+              "414100707"
+            ]
+          },
+          "414100707": {
+            "id": "414100707",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "At this time of year, we offer Windblumes to the great Anemo Archon, Barbatos, as a sign of reverence and love. We also give flowers to our beloved... a very important tradition.",
+            "nextDialogs": [
+              "414100708"
+            ]
+          },
+          "414100708": {
+            "id": "414100708",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "My shop is bursting with customers every Windblume... I guess it's a nice problem to have! Haha.",
+            "nextDialogs": [
+              "414100709"
+            ]
+          },
+          "414100709": {
+            "id": "414100709",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What are Windblumes?",
+            "nextDialogs": [
+              "414100710"
+            ]
+          },
+          "414100710": {
+            "id": "414100710",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "The Windblume is the symbol of this festival, a flower that represents freedom and the spirit of the wind...",
+            "nextDialogs": [
+              "414100711"
+            ]
+          },
+          "414100711": {
+            "id": "414100711",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Soooo what does a Windblume look like?",
+            "nextDialogs": [
+              "414100712"
+            ]
+          },
+          "414100712": {
+            "id": "414100712",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Haha... that's a long story...",
+            "nextDialogs": [
+              "414100713"
+            ]
+          },
+          "414100713": {
+            "id": "414100713",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "My grandma said that even she hadn't been born when the Windblume first appeared. It must have been hundreds of years ago.",
+            "nextDialogs": [
+              "414100714"
+            ]
+          },
+          "414100714": {
+            "id": "414100714",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "I don't know why, exactly, but everyone seems to choose dandelions when they wanna give a gift of \"Windblumes.\"",
+            "nextDialogs": [
+              "414100715"
+            ]
+          },
+          "414100715": {
+            "id": "414100715",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So in other words, for the people of Mondstadt, Windblume means dandelion?",
+            "nextDialogs": [
+              "414100716"
+            ]
+          },
+          "414100716": {
+            "id": "414100716",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Hehe... something like that, anyway. At least, that's what we believe in my family.",
+            "nextDialogs": [
+              "414100717"
+            ]
+          },
+          "414100717": {
+            "id": "414100717",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Incorrect!",
+            "nextDialogs": [
+              "414100718"
+            ]
+          },
+          "414100718": {
+            "id": "414100718",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Ahem... I heard everything you were saying and couldn't help but... You were talking about Windblumes, yes?",
+            "nextDialogs": [
+              "414100719"
+            ]
+          },
+          "414100719": {
+            "id": "414100719",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's Quinn from the fruit stall! Wanna join us?",
+            "nextDialogs": [
+              "414100720"
+            ]
+          },
+          "414100720": {
+            "id": "414100720",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "No, no — I'm just here to set the record straight. Windblume doesn't mean the dandelion, but the Windwheel Aster.",
+            "nextDialogs": [
+              "414100721"
+            ]
+          },
+          "414100721": {
+            "id": "414100721",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Greetings to you too, Quinn!",
+            "nextDialogs": [
+              "414100722"
+            ]
+          },
+          "414100722": {
+            "id": "414100722",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Uh... Flora, surely there must have been plenty of customers buying Windwheel Asters from your shop recently?",
+            "nextDialogs": [
+              "414100723"
+            ]
+          },
+          "414100723": {
+            "id": "414100723",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Hee-hee, uh-huh!",
+            "nextDialogs": [
+              "414100724"
+            ]
+          },
+          "414100724": {
+            "id": "414100724",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Haha, you see! We loyal Windwheel Aster advocates are upholding our economic duty!",
+            "nextDialogs": [
+              "414100725"
+            ]
+          },
+          "414100725": {
+            "id": "414100725",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "The Windwheel Aster is both a symbol of Mondstadt and an embodiment of the windmill, representing both wind and freedom. That's what makes it the one, true Windblume!",
+            "nextDialogs": [
+              "414100726"
+            ]
+          },
+          "414100726": {
+            "id": "414100726",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Who's with me!? Windwheel Aster! The true Windblume!",
+            "nextDialogs": [
+              "414100727"
+            ]
+          },
+          "414100727": {
+            "id": "414100727",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Ehh...",
+            "nextDialogs": [
+              "414100728"
+            ]
+          },
+          "414100728": {
+            "id": "414100728",
+            "speakerId": 1006,
+            "speakerName": "Beatrice",
+            "text": "Oh? Are you sure about that?",
+            "nextDialogs": [
+              "414100729"
+            ]
+          },
+          "414100729": {
+            "id": "414100729",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Bea, you're here too!",
+            "nextDialogs": [
+              "414100730"
+            ]
+          },
+          "414100730": {
+            "id": "414100730",
+            "speakerId": 1006,
+            "speakerName": "Beatrice",
+            "text": "Hehe, the Windblume... Isn't that the Cecilia?",
+            "nextDialogs": [
+              "414100731"
+            ]
+          },
+          "414100731": {
+            "id": "414100731",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Really?",
+            "nextDialogs": [
+              "414100732"
+            ]
+          },
+          "414100732": {
+            "id": "414100732",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Oh? So a Windblume is a Cecilia...? That's the first I've heard of—",
+            "nextDialogs": [
+              "414100733"
+            ]
+          },
+          "414100733": {
+            "id": "414100733",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Wh— ...Don't be ridiculous!",
+            "nextDialogs": [
+              "414100734"
+            ]
+          },
+          "414100734": {
+            "id": "414100734",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Listen. Yes, there may be some controversy over the definition of Windblume... but it is the widely held belief among the people of Mondstadt, that the Windblume is the Windwheel Aster! Not the dandelion!",
+            "nextDialogs": [
+              "414100735"
+            ]
+          },
+          "414100735": {
+            "id": "414100735",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "There's history to both flowers, you'd know if you asked around! And as for the Cecilia? Give me a break...",
+            "nextDialogs": [
+              "414100736"
+            ]
+          },
+          "414100736": {
+            "id": "414100736",
+            "speakerId": 1006,
+            "speakerName": "Beatrice",
+            "text": "What!?",
+            "nextDialogs": [
+              "414100737"
+            ]
+          },
+          "414100737": {
+            "id": "414100737",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Just dropping the facts over here, no need to look at me like that...",
+            "nextDialogs": [
+              "414100738"
+            ]
+          },
+          "414100738": {
+            "id": "414100738",
+            "speakerId": 1006,
+            "speakerName": "Beatrice",
+            "text": "You...! Hmph — whatever, I'm not talking to you.",
+            "nextDialogs": [
+              "414100739"
+            ]
+          },
+          "414100739": {
+            "id": "414100739",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Huh? Bea? Bea!",
+            "nextDialogs": [
+              "414100740"
+            ]
+          },
+          "414100740": {
+            "id": "414100740",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Weird, what's up with her...",
+            "nextDialogs": [
+              "414100741"
+            ]
+          },
+          "414100741": {
+            "id": "414100741",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Did I say something wrong? Eh... Windblume is as Windblume does, what can I say...",
+            "nextDialogs": [
+              "414100742"
+            ]
+          },
+          "414100742": {
+            "id": "414100742",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Um... what?",
+            "nextDialogs": [
+              "414100745"
+            ]
+          },
+          "414100745": {
+            "id": "414100745",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Haha, stop arguing already!",
+            "nextDialogs": [
+              "414100746"
+            ]
+          },
+          "414100746": {
+            "id": "414100746",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "Maybe I should... go and apologize to her after closing... hmm...",
+            "nextDialogs": [
+              "414100747"
+            ]
+          },
+          "414100747": {
+            "id": "414100747",
+            "speakerId": 1005,
+            "speakerName": "Quinn",
+            "text": "...I don't understand why she's upset, but what I do know is that I will have to apologize regardless. *sigh* That's life, I guess.",
+            "nextDialogs": [
+              "414100748"
+            ]
+          },
+          "414100748": {
+            "id": "414100748",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Aww... Seeing them together like that really gives me that Windblume feeling.",
+            "nextDialogs": [
+              "414100749"
+            ]
+          },
+          "414100749": {
+            "id": "414100749",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "Freedom, the Anemo Archon, sweethearts...",
+            "nextDialogs": [
+              "414100750"
+            ]
+          },
+          "414100750": {
+            "id": "414100750",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, yeah, that sounds great and all...",
+            "nextDialogs": [
+              "414100751"
+            ]
+          },
+          "414100751": {
+            "id": "414100751",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But none of you can even agree over what a Windblume is...",
+            "nextDialogs": [
+              "414100752"
+            ]
+          },
+          "414100752": {
+            "id": "414100752",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "You're right, but isn't that typical of us Mondstadt folk?",
+            "nextDialogs": [
+              "414100753"
+            ]
+          },
+          "414100753": {
+            "id": "414100753",
+            "speakerId": 1004,
+            "speakerName": "Flora",
+            "text": "*sigh* Well, between the delicious food, exquisite drink, and fresh flowers... Traveler, I hope you get to enjoy yourself during the festival, too.",
+            "nextDialogs": [
+              "414100754"
+            ]
+          },
+          "414100754": {
+            "id": "414100754",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It sounds like such a happy festival! Even if the whole Windblume thing is still a total mystery...",
+            "nextDialogs": [
+              "414100755"
+            ]
+          },
+          "414100755": {
+            "id": "414100755",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Let's look around and see what this is all about!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141009",
+      "subQuestName": "Go to the Mondstadt plaza",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414100901"
+        ],
+        "dialogs": {
+          "414100901": {
+            "id": "414100901",
+            "speakerId": 1007,
+            "speakerName": "Bennett",
+            "text": "When's it gonna be my turn... Gah! I'm getting nervous just thinking about writing a love poem..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141010",
+      "subQuestName": "Talk to Venti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414101002"
+        ],
+        "dialogs": {
+          "414101002": {
+            "id": "414101002",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Tone-Deaf Bard, what are you up to? What's with all the people?",
+            "nextDialogs": [
+              "414101003"
+            ]
+          },
+          "414101003": {
+            "id": "414101003",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Aha! You're right on time. Take a look at my students. What do you think? Not bad, eh?",
+            "nextDialogs": [
+              "414101004"
+            ]
+          },
+          "414101004": {
+            "id": "414101004",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Students? Uh...",
+            "nextDialogs": [
+              "414101005"
+            ]
+          },
+          "414101005": {
+            "id": "414101005",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You mean the people anxiously scratching their heads?",
+            "nextDialogs": [
+              "414101006"
+            ]
+          },
+          "414101006": {
+            "id": "414101006",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Anxiously? Why, these people are deep in concentration, diligently searching for heartfelt rhetoric to convey their romantic affections.",
+            "nextDialogs": [
+              "414101007"
+            ]
+          },
+          "414101007": {
+            "id": "414101007",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-huh... Seems a bit suspicious to Paimon...",
+            "nextDialogs": [
+              "414101008"
+            ]
+          },
+          "414101008": {
+            "id": "414101008",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Hehe, so, I guess you've already found out about the Windblume Festival, then?",
+            "nextDialogs": [
+              "414101009"
+            ]
+          },
+          "414101009": {
+            "id": "414101009",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "How are you finding Mondstadt in such a festive mood? Do you like it?",
+            "nextDialogs": [
+              "414101012"
+            ]
+          },
+          "414101012": {
+            "id": "414101012",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Paimon, what about you?",
+            "nextDialogs": [
+              "414101013"
+            ]
+          },
+          "414101013": {
+            "id": "414101013",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Paimon could be persuaded with some delicious food-related bribery!",
+            "nextDialogs": [
+              "414101014"
+            ]
+          },
+          "414101014": {
+            "id": "414101014",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Ah, I think you'll come around then. Speaking of which, I'll bet you two don't have a lot on your plate right now.",
+            "nextDialogs": [
+              "414101015"
+            ]
+          },
+          "414101015": {
+            "id": "414101015",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Loafing around all day, no commissions to take or people to help...",
+            "nextDialogs": [
+              "414101016"
+            ]
+          },
+          "414101016": {
+            "id": "414101016",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Hahaha... If you've noticed that, then congratulations — you've taken your first step toward understanding the Windblume Festival!",
+            "nextDialogs": [
+              "414101017"
+            ]
+          },
+          "414101017": {
+            "id": "414101017",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh yeah? Hey — why do you sound so pleased with yourself!?",
+            "nextDialogs": [
+              "414101018"
+            ]
+          },
+          "414101018": {
+            "id": "414101018",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "The Windblume Festival doesn't just belong to the Anemo Archon, but to all Mondstadt citizens looking for love. Anyone who wants to find love must do everything for themselves over the festive period.",
+            "nextDialogs": [
+              "414101019"
+            ]
+          },
+          "414101019": {
+            "id": "414101019",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "In addition, many people take this period as an opportunity to resolve other matters of the heart. It's not surprising that you two haven't been able to find any commissions, that's just the Windblume Festival tradition.",
+            "nextDialogs": [
+              "414101020"
+            ]
+          },
+          "414101020": {
+            "id": "414101020",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "But don't you worry, you won't feel lonely while I'm around.",
+            "nextDialogs": [
+              "414101021"
+            ]
+          },
+          "414101021": {
+            "id": "414101021",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "On that note, I think it's about time you two got a deeper understanding of Mondstadt's culture and customs. I need a couple of assistants. What do you say?",
+            "nextDialogs": [
+              "414101022"
+            ]
+          },
+          "414101022": {
+            "id": "414101022",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Assistants? What kind of assistants?",
+            "nextDialogs": [
+              "414101023"
+            ]
+          },
+          "414101023": {
+            "id": "414101023",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Ahahaha... See these anxious-looking folks here?",
+            "nextDialogs": [
+              "414101024"
+            ]
+          },
+          "414101024": {
+            "id": "414101024",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "They're looking to learn the secrets of love, so they came to me to learn how to compose love poems. I accepted, of course, because I was only too happy to charge a tuition fee.",
+            "nextDialogs": [
+              "414101025"
+            ]
+          },
+          "414101025": {
+            "id": "414101025",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Soon, they'll come to me in turn and pour their hearts out, telling me about their romantic trials and tribulations. Then, I'll give them suggestions based on their individual circumstances.",
+            "nextDialogs": [
+              "414101026"
+            ]
+          },
+          "414101026": {
+            "id": "414101026",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "At least, that's what I was going to do... But having seen you two suffering with nothing to do... I think I'll let you handle it instead.",
+            "nextDialogs": [
+              "414101027"
+            ]
+          },
+          "414101027": {
+            "id": "414101027",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "You've traveled far and wide and seen so much, it would be a waste not to put those experiences to good use. They could use your help!",
+            "nextDialogs": [
+              "414101028"
+            ]
+          },
+          "414101028": {
+            "id": "414101028",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh, save us the nonsense... You just want to speed up your sales. That desperate for Mora, huh?",
+            "nextDialogs": [
+              "414101029"
+            ]
+          },
+          "414101029": {
+            "id": "414101029",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "There are limited-edition wines for sale during the Windblume Festival... I need every last Mora to make sure I get my fill.",
+            "nextDialogs": [
+              "414101030"
+            ]
+          },
+          "414101030": {
+            "id": "414101030",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-huh... Spoken like a true drunkard...",
+            "nextDialogs": [
+              "414101031"
+            ]
+          },
+          "414101031": {
+            "id": "414101031",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Alright then, let's get started. I'll be joining you, of course.",
+            "nextDialogs": [
+              "414101032"
+            ]
+          },
+          "414101032": {
+            "id": "414101032",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I'll give you a few prompts, and you can make suggestions based on them. Hehe, not as taxing as you thought, right?",
+            "nextDialogs": [
+              "414101033"
+            ]
+          },
+          "414101033": {
+            "id": "414101033",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You really love the sound of your own voice, don't you!",
+            "nextDialogs": [
+              "414101034"
+            ]
+          },
+          "414101034": {
+            "id": "414101034",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Come on now, you're Mondstadt's Honorary Knight, the people trust you! It's only natural for you to have this opportunity to showcase yourself.",
+            "nextDialogs": [
+              "414101035"
+            ]
+          },
+          "414101035": {
+            "id": "414101035",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Now listen up, if you see me make this gesture... it means I think they should forge ahead and seize the opportunity.",
+            "nextDialogs": [
+              "414101036"
+            ]
+          },
+          "414101036": {
+            "id": "414101036",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "But if you see me make this gesture... it means I think they should play it safe and avoid being hasty.",
+            "nextDialogs": [
+              "414101037"
+            ]
+          },
+          "414101037": {
+            "id": "414101037",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "And if I make this gesture... it means I think they should give up while they're ahead and avoid any emotional over-investment.",
+            "nextDialogs": [
+              "414101038"
+            ]
+          },
+          "414101038": {
+            "id": "414101038",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "You got that, Traveler?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141011",
+      "subQuestName": "Listen to and solve the troubles of the citizenry",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414101101"
+        ],
+        "dialogs": {
+          "414101101": {
+            "id": "414101101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon heard that you were seeking help from the Bard over there? We're his assistants! Why not talk to us?",
+            "nextDialogs": [
+              "414101102"
+            ]
+          },
+          "414101102": {
+            "id": "414101102",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "Huh...? I—I'd barely plucked up the courage to talk to the bard, is he not available...?",
+            "nextDialogs": [
+              "414101103"
+            ]
+          },
+          "414101103": {
+            "id": "414101103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aw... don't be shy! It doesn't matter who you talk to, at the end of the day you've still gotta talk to your prospective sweetheart, right?",
+            "nextDialogs": [
+              "414101104"
+            ]
+          },
+          "414101104": {
+            "id": "414101104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Be brave! Let's hear it!",
+            "nextDialogs": [
+              "414101105"
+            ]
+          },
+          "414101105": {
+            "id": "414101105",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "*sigh* Here goes. Th—There is someone I like...",
+            "nextDialogs": [
+              "414101106"
+            ]
+          },
+          "414101106": {
+            "id": "414101106",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "Marla... She's cute and hardworking — always helping her family out with the farm work. And sometimes, she gets so tired, she takes a nap on a bench by the side of the road.",
+            "nextDialogs": [
+              "414101107"
+            ]
+          },
+          "414101107": {
+            "id": "414101107",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is she from the city?",
+            "nextDialogs": [
+              "414101108"
+            ]
+          },
+          "414101108": {
+            "id": "414101108",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "N—No, she lives in Springvale, quite a way from me. And... because of my family...",
+            "nextDialogs": [
+              "414101109"
+            ]
+          },
+          "414101109": {
+            "id": "414101109",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "*sigh* Let's just say that our families are quite different. My father objects to us being together.",
+            "nextDialogs": [
+              "414101110"
+            ]
+          },
+          "414101110": {
+            "id": "414101110",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "But Marla and I have found a way to work around it! Whenever we want to meet, we go stargazing at Starsnatch Cliff.",
+            "nextDialogs": [
+              "414101111"
+            ]
+          },
+          "414101111": {
+            "id": "414101111",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well... sounds like you two are getting along just fine!",
+            "nextDialogs": [
+              "414101112"
+            ]
+          },
+          "414101112": {
+            "id": "414101112",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "We are... So, what I came to discuss today doesn't so much concern Marla... as my father.",
+            "nextDialogs": [
+              "414101113"
+            ]
+          },
+          "414101113": {
+            "id": "414101113",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "My father is quite conservative and very strict. Still, it's my fault that I've never told him how I really feel.",
+            "nextDialogs": [
+              "414101114"
+            ]
+          },
+          "414101114": {
+            "id": "414101114",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "I—I'm thinking, if I use this opportunity to offer a Windblume to my father, and formally ask for his approval at the same time... maybe he'll support us?",
+            "nextDialogs": [
+              "414101115"
+            ]
+          },
+          "414101115": {
+            "id": "414101115",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What are you planning to say?",
+            "nextDialogs": [
+              "414101116"
+            ]
+          },
+          "414101116": {
+            "id": "414101116",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "I wanna tell him that, even though Marla doesn't come from a wealthy family, her kind heart and hardworking nature are things that Mora can't buy!",
+            "nextDialogs": [
+              "414101117"
+            ]
+          },
+          "414101117": {
+            "id": "414101117",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "...Does that sound too childish? I... I hope he doesn't yell at me... Uhh...",
+            "nextDialogs": [
+              "414101118"
+            ]
+          },
+          "414101118": {
+            "id": "414101118",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Awwww... there-there...",
+            "nextDialogs": [
+              "414101119"
+            ]
+          },
+          "414101119": {
+            "id": "414101119",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "...",
+            "nextDialogs": [
+              "414101121",
+              "414101123",
+              "414101126"
+            ]
+          },
+          "414101121": {
+            "id": "414101121",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah! Tell him what's in your heart. Use the love between you and Marla to move him. Shouldn't it be something to celebrate?",
+            "nextDialogs": [
+              "414101127"
+            ]
+          },
+          "414101127": {
+            "id": "414101127",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "I see... understood. Thank you.",
+            "nextDialogs": [
+              "414101128"
+            ]
+          },
+          "414101128": {
+            "id": "414101128",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Another thing, didn't you say you were going to give flowers to your father? What about Marla? Don't you wanna give her something?",
+            "nextDialogs": [
+              "414101129"
+            ]
+          },
+          "414101129": {
+            "id": "414101129",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "Oh! Ah, now that you mention it, I wanted the bard to teach me how to compose a love poem...",
+            "nextDialogs": [
+              "414101130"
+            ]
+          },
+          "414101130": {
+            "id": "414101130",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes, better not neglect her.",
+            "nextDialogs": [
+              "414101131"
+            ]
+          },
+          "414101131": {
+            "id": "414101131",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "Of course, and I'll give her some flowers too... Yeah, I—I'll pick some later.",
+            "nextDialogs": [
+              "414101132"
+            ]
+          },
+          "414101132": {
+            "id": "414101132",
+            "speakerId": 1009,
+            "speakerName": "Marvin",
+            "text": "Thank you for your help!"
+          },
+          "414101123": {
+            "id": "414101123",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, if your father is set in his ways, approaching this head-on might not be the best thing to do...",
+            "nextDialogs": [
+              "414101124"
+            ]
+          },
+          "414101124": {
+            "id": "414101124",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Not to mention, the Windblume Festival is too formal an occasion. Why not be a bit more spontaneous about it?"
+          },
+          "414101126": {
+            "id": "414101126",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh, Paimon thinks so too, you don't wanna get shouted at. Don't make any rash moves!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141012",
+      "subQuestName": "Listen to and solve the troubles of the citizenry",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414101201"
+        ],
+        "dialogs": {
+          "414101201": {
+            "id": "414101201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hi! We heard you had something you wanted to discuss with the bard? We're his assistants, you can talk to us instead!",
+            "nextDialogs": [
+              "414101202"
+            ]
+          },
+          "414101202": {
+            "id": "414101202",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "It's the Honorary Knight and Paimon!",
+            "nextDialogs": [
+              "414101203"
+            ]
+          },
+          "414101203": {
+            "id": "414101203",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "I didn't know I'd see you two here. Well then... I won't stand on ceremony.",
+            "nextDialogs": [
+              "414101204"
+            ]
+          },
+          "414101204": {
+            "id": "414101204",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "I wanna offer some flowers to the Acting Grand Master of the Knights of Favonius, Jean.",
+            "nextDialogs": [
+              "414101205"
+            ]
+          },
+          "414101205": {
+            "id": "414101205",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "I guess you must be quite close to Master Jean? She's an incredibly upright and diligent woman, talented and always gets the job done. Honest, kind, gentle, not to mention...",
+            "nextDialogs": [
+              "414101206"
+            ]
+          },
+          "414101206": {
+            "id": "414101206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, we get it! She's pretty great!",
+            "nextDialogs": [
+              "414101207"
+            ]
+          },
+          "414101207": {
+            "id": "414101207",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "Sorry, once I get talking about Master Jean, I get a bit excited...",
+            "nextDialogs": [
+              "414101208"
+            ]
+          },
+          "414101208": {
+            "id": "414101208",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "This time tomorrow, I'll finish composing my poem, pick a fresh dandelion bouquet, head over to the office, and hand the flowers to the guard.",
+            "nextDialogs": [
+              "414101209"
+            ]
+          },
+          "414101209": {
+            "id": "414101209",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "It's just... the bouquet, and the poem... I don't know. Hmm... best not sign them after all.",
+            "nextDialogs": [
+              "414101210"
+            ]
+          },
+          "414101210": {
+            "id": "414101210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Wait a second, it's only normal to sign them! Why does that bother you so much?",
+            "nextDialogs": [
+              "414101211"
+            ]
+          },
+          "414101211": {
+            "id": "414101211",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "Knowing Master Jean's conscientious nature, I'm afraid she'll send a gift in return if she sees my name...",
+            "nextDialogs": [
+              "414101212"
+            ]
+          },
+          "414101212": {
+            "id": "414101212",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "She's so busy, I wouldn't want my gift to create more work for her. If I can get this bouquet on her desk, that's enough for me.",
+            "nextDialogs": [
+              "414101213"
+            ]
+          },
+          "414101213": {
+            "id": "414101213",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "But then... won't an untraceable bouquet create suspicion? Oh! What should I do?",
+            "nextDialogs": [
+              "414101214"
+            ]
+          },
+          "414101214": {
+            "id": "414101214",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "...",
+            "nextDialogs": [
+              "414101216",
+              "414101219",
+              "414101223"
+            ]
+          },
+          "414101216": {
+            "id": "414101216",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jean's definitely the kind of woman who'd come looking for you if she saw your name! If you really wanna spare her the effort, best leave it unsigned.",
+            "nextDialogs": [
+              "414101217"
+            ]
+          },
+          "414101217": {
+            "id": "414101217",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "Right! Glad you agree! It's not without its risks, but her extreme conscientiousness is what I like about her. So for me, raising a bit of suspicion is a risk worth taking...",
+            "nextDialogs": [
+              "414101225"
+            ]
+          },
+          "414101225": {
+            "id": "414101225",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "That's that taken care of, then. A thousand thanks for your advice, I'll remember it!",
+            "nextDialogs": [
+              "414101226"
+            ]
+          },
+          "414101226": {
+            "id": "414101226",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You're welcome, chin up!",
+            "nextDialogs": [
+              "414101227"
+            ]
+          },
+          "414101227": {
+            "id": "414101227",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "Will do!"
+          },
+          "414101219": {
+            "id": "414101219",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No rush, mull it over!",
+            "nextDialogs": [
+              "414101220"
+            ]
+          },
+          "414101220": {
+            "id": "414101220",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "In any case, it's totally up to you. Is it more important to you for her to remember the person who sent her the flowers, or for her to simply feel respected and loved?",
+            "nextDialogs": [
+              "414101221"
+            ]
+          },
+          "414101221": {
+            "id": "414101221",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "Huh... I never thought about it that way... Hmm... The important thing is... how I feel."
+          },
+          "414101223": {
+            "id": "414101223",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "For sure! A random anonymous gift will definitely get thrown away!",
+            "nextDialogs": [
+              "414101224"
+            ]
+          },
+          "414101224": {
+            "id": "414101224",
+            "speakerId": 1010,
+            "speakerName": "Ellin",
+            "text": "R—Really? You sound so sure! Well, I guess I better include my name..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141013",
+      "subQuestName": "Listen to and solve the troubles of the citizenry",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414101301"
+        ],
+        "dialogs": {
+          "414101301": {
+            "id": "414101301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You there, are you looking for help from the bard? We're his assistants, why don't you tell us what's on your mind?",
+            "nextDialogs": [
+              "414101302"
+            ]
+          },
+          "414101302": {
+            "id": "414101302",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Oh! Uh... really? O—Okay then... here goes!",
+            "nextDialogs": [
+              "414101303"
+            ]
+          },
+          "414101303": {
+            "id": "414101303",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "I—I'm just such a huge fan of Mondstadt's idol... Barbara-sama...! You must have heard of her? She's the super cute one at the Church of Favonius!",
+            "nextDialogs": [
+              "414101304"
+            ]
+          },
+          "414101304": {
+            "id": "414101304",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Not to mention gentle, and she always lifts the people of Mondstadt's spirits with her smile and songs. I'm such a big fan, I even got a few like-minded friends together, and well... what I mean to say is...",
+            "nextDialogs": [
+              "414101305"
+            ]
+          },
+          "414101305": {
+            "id": "414101305",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "...You guessed it! I'm the head of the Barbara Fan Club!",
+            "nextDialogs": [
+              "414101306"
+            ]
+          },
+          "414101306": {
+            "id": "414101306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh... pretty pleased about it too... by the sound of things...",
+            "nextDialogs": [
+              "414101307"
+            ]
+          },
+          "414101307": {
+            "id": "414101307",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "I carry the hopes and expectations of every member of the fan club on my shoulders. At this special time of year, I've pledged to send our blessings to Barbara-sama herself!",
+            "nextDialogs": [
+              "414101308"
+            ]
+          },
+          "414101308": {
+            "id": "414101308",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Of course, as a level-headed adult, I would never wanna cause her any disturbance. I'm just waiting for my time slot with the bard, so I can explain the plan...",
+            "nextDialogs": [
+              "414101309"
+            ]
+          },
+          "414101309": {
+            "id": "414101309",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "...Take all the flowers picked by our members and turn them into a huge, giant flower statue! Then, to give her a huge surprise, place it outside the rear entrance of the Church.",
+            "nextDialogs": [
+              "414101310"
+            ]
+          },
+          "414101310": {
+            "id": "414101310",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "As for the love poem, we don't need any help! We're planning to do it on our own and hang it on the statue itself.",
+            "nextDialogs": [
+              "414101311"
+            ]
+          },
+          "414101311": {
+            "id": "414101311",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So... this giant statue—",
+            "nextDialogs": [
+              "414101312"
+            ]
+          },
+          "414101312": {
+            "id": "414101312",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "...Will be about two stories high...!",
+            "nextDialogs": [
+              "414101313"
+            ]
+          },
+          "414101313": {
+            "id": "414101313",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That sounds like it might just cause her some disturbance.",
+            "nextDialogs": [
+              "414101314"
+            ]
+          },
+          "414101314": {
+            "id": "414101314",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "But it's all in good faith, don't you see?! When Barbara-sama catches sight of it, she'll feel the burning flames of our everlasting love!",
+            "nextDialogs": [
+              "414101315"
+            ]
+          },
+          "414101315": {
+            "id": "414101315",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "So, what do you think?",
+            "nextDialogs": [
+              "414101316"
+            ]
+          },
+          "414101316": {
+            "id": "414101316",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "...",
+            "nextDialogs": [
+              "414101318",
+              "414101321",
+              "414101327"
+            ]
+          },
+          "414101318": {
+            "id": "414101318",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Something that size is bound to be... impressive. She'll love it!",
+            "nextDialogs": [
+              "414101319"
+            ]
+          },
+          "414101319": {
+            "id": "414101319",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Right?! I knew it was a great idea, haha.",
+            "nextDialogs": [
+              "414101333"
+            ]
+          },
+          "414101333": {
+            "id": "414101333",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Thanks for your suggestions, both of you. I gotta go.",
+            "nextDialogs": [
+              "414101334"
+            ]
+          },
+          "414101334": {
+            "id": "414101334",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "He sure left in a hurry!"
+          },
+          "414101321": {
+            "id": "414101321",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A two-story gift? More like a gift out of a horror story!",
+            "nextDialogs": [
+              "414101322"
+            ]
+          },
+          "414101322": {
+            "id": "414101322",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Huh... You think so...?",
+            "nextDialogs": [
+              "414101323"
+            ]
+          },
+          "414101323": {
+            "id": "414101323",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "But, how else will she know of our existence?",
+            "nextDialogs": [
+              "414101324"
+            ]
+          },
+          "414101324": {
+            "id": "414101324",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Gee, how WILL she know...",
+            "nextDialogs": [
+              "414101325"
+            ]
+          },
+          "414101325": {
+            "id": "414101325",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Umm... well... now that you mention it, um..."
+          },
+          "414101327": {
+            "id": "414101327",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A level-headed adult? Huh... more like a dunderheaded infant!",
+            "nextDialogs": [
+              "414101328"
+            ]
+          },
+          "414101328": {
+            "id": "414101328",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Huh? But — gifts have to make a lasting impression!",
+            "nextDialogs": [
+              "414101329"
+            ]
+          },
+          "414101329": {
+            "id": "414101329",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, it'll create a lasting impression alright! The Knights of Favonius will have you escorted away.",
+            "nextDialogs": [
+              "414101330"
+            ]
+          },
+          "414101330": {
+            "id": "414101330",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Really? B—But...",
+            "nextDialogs": [
+              "414101331"
+            ]
+          },
+          "414101331": {
+            "id": "414101331",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But nothing!",
+            "nextDialogs": [
+              "414101332"
+            ]
+          },
+          "414101332": {
+            "id": "414101332",
+            "speakerId": 1011,
+            "speakerName": "Albert",
+            "text": "Okay, okay! *sigh* I've got it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141017",
+      "subQuestName": "Listen to and solve the troubles of the citizenry",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4141016",
+      "subQuestName": "Talk to Venti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414101601"
+        ],
+        "dialogs": {
+          "414101601": {
+            "id": "414101601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Tone-Deaf Bard! We dished out some advice, just like you said! How did we do?",
+            "nextDialogs": [
+              "414101602"
+            ]
+          },
+          "414101602": {
+            "id": "414101602",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Hmm... Seems like my gestures weren't always translated into the advice I intended to give.",
+            "nextDialogs": [
+              "414101603"
+            ]
+          },
+          "414101603": {
+            "id": "414101603",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I guess I need to work on my communication for next time!",
+            "nextDialogs": [
+              "414101604"
+            ]
+          },
+          "414101604": {
+            "id": "414101604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh?! Next time?",
+            "nextDialogs": [
+              "414101605"
+            ]
+          },
+          "414101605": {
+            "id": "414101605",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "So, who else needs some help around here...",
+            "nextDialogs": [
+              "414101606"
+            ]
+          },
+          "414101606": {
+            "id": "414101606",
+            "speakerId": 1012,
+            "speakerName": "???",
+            "text": "Hmm, what are you three up to? Mind if I get in on the action?",
+            "nextDialogs": [
+              "414101607"
+            ]
+          },
+          "414101607": {
+            "id": "414101607",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Kaeya! Are you also here for romantic guidance?",
+            "nextDialogs": [
+              "414101608"
+            ]
+          },
+          "414101608": {
+            "id": "414101608",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Haha, it's the greatest bard in town. And now, the greatest romantic advisor in town, no doubt.",
+            "nextDialogs": [
+              "414101609"
+            ]
+          },
+          "414101609": {
+            "id": "414101609",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Still, don't you have other business to attend to?",
+            "nextDialogs": [
+              "414101610"
+            ]
+          },
+          "414101610": {
+            "id": "414101610",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Oh! You mean, teaching people how to compose love poems?",
+            "nextDialogs": [
+              "414101611"
+            ]
+          },
+          "414101611": {
+            "id": "414101611",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Exactly that. I heard you were teaching classes in the plaza, so I came right away.",
+            "nextDialogs": [
+              "414101612"
+            ]
+          },
+          "414101612": {
+            "id": "414101612",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh, Kaeya? You wanna learn how to compose love poems, too?",
+            "nextDialogs": [
+              "414101613"
+            ]
+          },
+          "414101613": {
+            "id": "414101613",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I thought Kaeya wouldn't need any help in that department.",
+            "nextDialogs": [
+              "414101614"
+            ]
+          },
+          "414101614": {
+            "id": "414101614",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "I'm not too shabby. Nevertheless, I'd like to register for the fast-track classes.",
+            "nextDialogs": [
+              "414101615"
+            ]
+          },
+          "414101615": {
+            "id": "414101615",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "How come? You're a smooth talker, do you really need my guidance?",
+            "nextDialogs": [
+              "414101616"
+            ]
+          },
+          "414101616": {
+            "id": "414101616",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "The real question is, are you willing to take me on as a student?",
+            "nextDialogs": [
+              "414101617"
+            ]
+          },
+          "414101617": {
+            "id": "414101617",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Of course! When the Mora comes knocking, who am I to keep the door closed?",
+            "nextDialogs": [
+              "414101618"
+            ]
+          },
+          "414101618": {
+            "id": "414101618",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Haha... Well then, I guess I'm enrolled.",
+            "nextDialogs": [
+              "414101619"
+            ]
+          },
+          "414101619": {
+            "id": "414101619",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "And as your student, may I make some reasonable demands?",
+            "nextDialogs": [
+              "414101620"
+            ]
+          },
+          "414101620": {
+            "id": "414101620",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aha, Paimon knew there was more to it!",
+            "nextDialogs": [
+              "414101621"
+            ]
+          },
+          "414101621": {
+            "id": "414101621",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Demands? *sigh* Let's hear them.",
+            "nextDialogs": [
+              "414101622"
+            ]
+          },
+          "414101622": {
+            "id": "414101622",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "As students, aside from attending class, we also need homework exercises.",
+            "nextDialogs": [
+              "414101623"
+            ]
+          },
+          "414101623": {
+            "id": "414101623",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Surely a well-designed course would require us to put our knowledge into practice, and then... have our teacher correct the poems we compose.",
+            "nextDialogs": [
+              "414101624"
+            ]
+          },
+          "414101624": {
+            "id": "414101624",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You mean, Venti has to correct the students' homework?",
+            "nextDialogs": [
+              "414101625"
+            ]
+          },
+          "414101625": {
+            "id": "414101625",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Precisely. All in exchange for payment, naturally. These are my demands.",
+            "nextDialogs": [
+              "414101626"
+            ]
+          },
+          "414101626": {
+            "id": "414101626",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Or to put it another way, I'm actually gonna have to work for a living!",
+            "nextDialogs": [
+              "414101627"
+            ]
+          },
+          "414101627": {
+            "id": "414101627",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Hahaha, is that so bad? I just think that with things like this, you should see them all the way through.",
+            "nextDialogs": [
+              "414101628"
+            ]
+          },
+          "414101628": {
+            "id": "414101628",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "More fun for everyone involved, don't you think? What do you say?",
+            "nextDialogs": [
+              "414101629"
+            ]
+          },
+          "414101629": {
+            "id": "414101629",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I feel like Kaeya's knack for mischief is at play here...",
+            "nextDialogs": [
+              "414101630"
+            ]
+          },
+          "414101630": {
+            "id": "414101630",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Still, correcting homework... this is indeed a vital step.",
+            "nextDialogs": [
+              "414101631"
+            ]
+          },
+          "414101631": {
+            "id": "414101631",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "And I am curious to see the fruits of my students' labor... Hm. Congratulations, Kaeya, your demands have been accepted!",
+            "nextDialogs": [
+              "414101632"
+            ]
+          },
+          "414101632": {
+            "id": "414101632",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "As I expected, a reasonable and down-to-earth teacher.",
+            "nextDialogs": [
+              "414101633"
+            ]
+          },
+          "414101633": {
+            "id": "414101633",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Hoooold your horses, I have a demand for you, too!",
+            "nextDialogs": [
+              "414101634"
+            ]
+          },
+          "414101634": {
+            "id": "414101634",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Cool... a coercion contest...",
+            "nextDialogs": [
+              "414101635"
+            ]
+          },
+          "414101635": {
+            "id": "414101635",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "A showdown between the pros.",
+            "nextDialogs": [
+              "414101636"
+            ]
+          },
+          "414101636": {
+            "id": "414101636",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I will pay special attention to your homework and guarantee that you will see improvement in your studies! But as for your tuition fee... some Windblume Festival-exclusive Applebloom Cider should do the trick.",
+            "nextDialogs": [
+              "414101637"
+            ]
+          },
+          "414101637": {
+            "id": "414101637",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Hehe, what with you and Master Diluc being on such good terms and all, that shouldn't be a problem, should it?",
+            "nextDialogs": [
+              "414101638"
+            ]
+          },
+          "414101638": {
+            "id": "414101638",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Haha — steady now, let's not overestimate my abilities. Still, one bottle of the good stuff in exchange for your guidance... Not an opportunity to pass up.",
+            "nextDialogs": [
+              "414101639"
+            ]
+          },
+          "414101639": {
+            "id": "414101639",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Whoa, \"one\" bottle? Make that three!",
+            "nextDialogs": [
+              "414101640"
+            ]
+          },
+          "414101640": {
+            "id": "414101640",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Geez! Give him an inch and he'll take a mile!",
+            "nextDialogs": [
+              "414101641"
+            ]
+          },
+          "414101641": {
+            "id": "414101641",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Please? Please, please?",
+            "nextDialogs": [
+              "414101642"
+            ]
+          },
+          "414101642": {
+            "id": "414101642",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Deal.",
+            "nextDialogs": [
+              "414101643"
+            ]
+          },
+          "414101643": {
+            "id": "414101643",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Marvelous! Grab some paper and make your way over, Professor Venti's poetry masterclass is now in session!",
+            "nextDialogs": [
+              "414101644"
+            ]
+          },
+          "414101644": {
+            "id": "414101644",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's that paper the Tone-Deaf Bard pulled out of his pocket...? And whose names are those?",
+            "nextDialogs": [
+              "414101645"
+            ]
+          },
+          "414101645": {
+            "id": "414101645",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Albert... Ellin... Marvin... Timaeus... Kaeya... Bennett.",
+            "nextDialogs": [
+              "414101646"
+            ]
+          },
+          "414101646": {
+            "id": "414101646",
+            "speakerId": 1007,
+            "speakerName": "Bennett",
+            "text": "Oh, uh — present!",
+            "nextDialogs": [
+              "414101647"
+            ]
+          },
+          "414101647": {
+            "id": "414101647",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, Bennett's really fired up for this...",
+            "nextDialogs": [
+              "414101648"
+            ]
+          },
+          "414101648": {
+            "id": "414101648",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "So you're Bennett? Excellent, I like your enthusiasm. Make sure to channel that vigor into your poetry.",
+            "nextDialogs": [
+              "414101649"
+            ]
+          },
+          "414101649": {
+            "id": "414101649",
+            "speakerId": 1007,
+            "speakerName": "Bennett",
+            "text": "Yes, Sir!",
+            "nextDialogs": [
+              "414101650"
+            ]
+          },
+          "414101650": {
+            "id": "414101650",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "Even adventurers want to learn how to write poetry... I see this is going to be a popular class.",
+            "nextDialogs": [
+              "414101651"
+            ]
+          },
+          "414101651": {
+            "id": "414101651",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Tone-Deaf Bard's gonna make a fortune...",
+            "nextDialogs": [
+              "414101652"
+            ]
+          },
+          "414101652": {
+            "id": "414101652",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "My dear students... In a moment, we will gather by the terrace in front of the Cathedral, where I will divulge to you my experiences and techniques in the art of poetic composition.",
+            "nextDialogs": [
+              "414101653"
+            ]
+          },
+          "414101653": {
+            "id": "414101653",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "After class, I would like every one of you to compose a love poem and hand it to me for... uh... constructive criticism.",
+            "nextDialogs": [
+              "414101654"
+            ]
+          },
+          "414101654": {
+            "id": "414101654",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "As for your tuition fees, by all means, wait until the course is over before paying. But don't even think about vanishing...",
+            "nextDialogs": [
+              "414101655"
+            ]
+          },
+          "414101655": {
+            "id": "414101655",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "...In addition to Mora, payment in alcohol is also warmly welcomed!",
+            "nextDialogs": [
+              "414101656"
+            ]
+          },
+          "414101656": {
+            "id": "414101656",
+            "speakerId": 1013,
+            "speakerName": "Kaeya",
+            "text": "A quick question, Sir... Does our special arrangement still stand?",
+            "nextDialogs": [
+              "414101657"
+            ]
+          },
+          "414101657": {
+            "id": "414101657",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "But of course! And when the time comes, you can hand in your homework first!",
+            "nextDialogs": [
+              "414101658"
+            ]
+          },
+          "414101658": {
+            "id": "414101658",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Traveler, I'd like you and I to collect the homework submissions together.",
+            "nextDialogs": [
+              "414101659"
+            ]
+          },
+          "414101659": {
+            "id": "414101659",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh... Does that fall under the assistant's duties? Do we get paid for this?",
+            "nextDialogs": [
+              "414101660"
+            ]
+          },
+          "414101660": {
+            "id": "414101660",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Think of it as an initiation into Mondstadt's traditional culture — an opportunity to immerse yourselves in the Windblume Festival! I'm going to great lengths here to make sure you're a part of the festivities.",
+            "nextDialogs": [
+              "414101661"
+            ]
+          },
+          "414101661": {
+            "id": "414101661",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Not to mention, it would entitle you to a share of the remuneration...",
+            "nextDialogs": [
+              "414101662"
+            ]
+          },
+          "414101662": {
+            "id": "414101662",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ooh! Sir, yes Sir!",
+            "nextDialogs": [
+              "414101663"
+            ]
+          },
+          "414101663": {
+            "id": "414101663",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Good! In that case, when Kaeya's finished with his homework, let's go and look for him at the Knights of Favonius Headquarters.",
+            "nextDialogs": [
+              "414101664"
+            ]
+          },
+          "414101664": {
+            "id": "414101664",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "But for now, I've got classes to teach! Traveler, why not make the most of it and check things out in the meantime?",
+            "nextDialogs": [
+              "414101665"
+            ]
+          },
+          "414101665": {
+            "id": "414101665",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "The vendors in Mondstadt have arranged all sorts of festive activities. Don't forget to try them out!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4141099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "414109902"
+        ],
+        "dialogs": {
+          "414109902": {
+            "id": "414109902",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "You did a great job, hehe! Thank you!"
+          }
+        }
+      }
+    }
+  ]
+}

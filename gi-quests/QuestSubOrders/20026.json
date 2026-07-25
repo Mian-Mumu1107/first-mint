@@ -1,0 +1,340 @@
+{
+  "lineCounts": {
+    "Ernest": 5,
+    "Player": 5,
+    "Sara": 19
+  },
+  "subQuests": [
+    {
+      "subId": "2002601",
+      "subQuestName": "Talk to Sara at Good Hunter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200260101"
+        ],
+        "dialogs": {
+          "200260101": {
+            "id": "200260101",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Order for delivery",
+            "nextDialogs": [
+              "200260102"
+            ]
+          },
+          "200260102": {
+            "id": "200260102",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Hey, Traveler! What's happening—",
+            "nextDialogs": [
+              "200260103"
+            ]
+          },
+          "200260103": {
+            "id": "200260103",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "...Oh, you're just here to eat, you say?",
+            "nextDialogs": [
+              "200260104"
+            ]
+          },
+          "200260104": {
+            "id": "200260104",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "I understand, really I do... But I promise you I will make you the best meal you ever tasted if you just lend me a hand first.",
+            "nextDialogs": [
+              "200260105"
+            ]
+          },
+          "200260105": {
+            "id": "200260105",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Ernest from the Dawn Winery often orders food from here to pair with his wine, and his orders always come with special requests.",
+            "nextDialogs": [
+              "200260106"
+            ]
+          },
+          "200260106": {
+            "id": "200260106",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "This time he wants <color=#00E1FFFF>Fried Radish Balls</color> but with egg added in. Unfortunately, I'm fresh out of eggs!",
+            "nextDialogs": [
+              "200260107"
+            ]
+          },
+          "200260107": {
+            "id": "200260107",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "So if you could just go ahead and grab me a couple of Bird Eggs, that would be great.",
+            "nextDialogs": [
+              "200260109",
+              "200260112"
+            ]
+          },
+          "200260109": {
+            "id": "200260109",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "There must be plenty of Bird Eggs around Windrise.",
+            "nextDialogs": [
+              "200260110"
+            ]
+          },
+          "200260110": {
+            "id": "200260110",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "I appreciate it!"
+          },
+          "200260112": {
+            "id": "200260112",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "There must be plenty of Bird Eggs around Windrise.",
+            "nextDialogs": [
+              "200260113"
+            ]
+          },
+          "200260113": {
+            "id": "200260113",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Once you've done what I ask, I'll treat you to something from the Good Hunter special menu! Much obliged."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002602",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2002603",
+      "subQuestName": "Find two Bird Eggs",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200260301"
+        ],
+        "dialogs": {
+          "200260301": {
+            "id": "200260301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Your meal, sir.",
+            "nextDialogs": [
+              "200260302"
+            ]
+          },
+          "200260302": {
+            "id": "200260302",
+            "speakerId": 1001,
+            "speakerName": "Ernest",
+            "text": "Aha! My <color=#00E1FFFF>Fried Radish Balls</color>... and prepared just as I requested!",
+            "nextDialogs": [
+              "200260303"
+            ]
+          },
+          "200260303": {
+            "id": "200260303",
+            "speakerId": 1001,
+            "speakerName": "Ernest",
+            "text": "Mmm... Yes, the addition of eggs does indeed do wonders for the texture and aroma.",
+            "nextDialogs": [
+              "200260304"
+            ]
+          },
+          "200260304": {
+            "id": "200260304",
+            "speakerId": 1001,
+            "speakerName": "Ernest",
+            "text": "Oh yeah! I know what I'm doing when it comes to food. *mwah!*",
+            "nextDialogs": [
+              "200260305"
+            ]
+          },
+          "200260305": {
+            "id": "200260305",
+            "speakerId": 1001,
+            "speakerName": "Ernest",
+            "text": "Oh, and this is for you. Many thanks!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002604",
+      "subQuestName": "Collect the completed meals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200260201"
+        ],
+        "dialogs": {
+          "200260201": {
+            "id": "200260201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I come bearing ingredients.",
+            "nextDialogs": [
+              "200260202"
+            ]
+          },
+          "200260202": {
+            "id": "200260202",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "That'll do it. One moment...",
+            "nextDialogs": [
+              "200260203"
+            ]
+          },
+          "200260203": {
+            "id": "200260203",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "It's ready! Now, get these <color=#00E1FFFF>Fried Radish Balls</color> to Ernest, pronto!",
+            "nextDialogs": [
+              "200260204"
+            ]
+          },
+          "200260204": {
+            "id": "200260204",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "...Don't give me that look, I know you're famished.",
+            "nextDialogs": [
+              "200260205"
+            ]
+          },
+          "200260205": {
+            "id": "200260205",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "There'll be a special Good Hunter surprise waiting for you when you get back!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002605",
+      "subQuestName": "Deliver the food to Ernest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2002606",
+      "subQuestName": "Bridge",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2002607",
+      "subQuestName": "Find Ernest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2002608",
+      "subQuestName": "Give the fee to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200260401"
+        ],
+        "dialogs": {
+          "200260401": {
+            "id": "200260401",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Deliver meal fee",
+            "nextDialogs": [
+              "200260402"
+            ]
+          },
+          "200260402": {
+            "id": "200260402",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "You're back! Did you make the delivery?",
+            "nextDialogs": [
+              "200260403"
+            ]
+          },
+          "200260403": {
+            "id": "200260403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Here's the fee.",
+            "nextDialogs": [
+              "200260404"
+            ]
+          },
+          "200260404": {
+            "id": "200260404",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Let's see... Excellent! Thank you.",
+            "nextDialogs": [
+              "200260405"
+            ]
+          },
+          "200260405": {
+            "id": "200260405",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Here, this <color=#00E1FFFF>Crab, Ham & Veggie Bake</color> is for you. It's fresh out of the oven, eat it while it's hot."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002607",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200260701"
+        ],
+        "dialogs": {
+          "200260701": {
+            "id": "200260701",
+            "speakerId": 1001,
+            "speakerName": "Ernest",
+            "text": "Mmm... Yes, that rich eggy aroma just hits you straight away, but it's not overpowering thanks to the freshness of the carrot. I've missed my calling, should have been a chef!"
+          }
+        }
+      }
+    }
+  ]
+}

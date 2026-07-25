@@ -1,0 +1,897 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Big Parenty Tepetlisaurus": 7,
+    "Black Screen": 4,
+    "Clever Little Tepetlisaurus": 6,
+    "Dopey Little Tepetlisaurus": 3,
+    "Little Tepetlisaurs": 2,
+    "Little Tepetlisaurus Learning How to Dig": 2,
+    "Lively Little Tepetlisaurus": 2,
+    "Paimon": 38,
+    "Player": 9,
+    "Tree-Climbing Little Tepetlisaurus": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7502501",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250101"
+        ],
+        "dialogs": {
+          "750250101": {
+            "id": "750250101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, where is this mysterious place? So many little Tepetlisaurs...",
+            "nextDialogs": [
+              "750250102"
+            ]
+          },
+          "750250102": {
+            "id": "750250102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Could it be some sort of... Tepetlisaurus gathering spot?",
+            "nextDialogs": [
+              "750250103"
+            ]
+          },
+          "750250103": {
+            "id": "750250103",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! ...Rrrawr?",
+            "nextDialogs": [
+              "750250104"
+            ]
+          },
+          "750250104": {
+            "id": "750250104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} looks so excited! Not often that you get to meet so many companions all in one go, huh?",
+            "nextDialogs": [
+              "750250105"
+            ]
+          },
+          "750250105": {
+            "id": "750250105",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr?",
+            "nextDialogs": [
+              "750250106"
+            ]
+          },
+          "750250106": {
+            "id": "750250106",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Oh, you mean you wanna go over there and play with them? Come to think of it, {REALNAME[ID(2)|SHOWHOST(true)]} hardly ever gets to hang out with other little Tepetlisaurs...",
+            "nextDialogs": [
+              "750250109"
+            ]
+          },
+          "750250109": {
+            "id": "750250109",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750250110"
+            ]
+          },
+          "750250110": {
+            "id": "750250110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Uhh, Paimon's still a bit worried... Anyway, let's find somewhere to relax and have something to eat while we wait for {REALNAME[ID(2)|SHOWHOST(true)]}.",
+            "nextDialogs": [
+              "750250111"
+            ]
+          },
+          "750250111": {
+            "id": "750250111",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "#You and Paimon find a nice spot nearby to rest until {REALNAME[ID(2)|SHOWHOST(true)]} is done playing.",
+            "nextDialogs": [
+              "750250112"
+            ]
+          },
+          "750250112": {
+            "id": "750250112",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "But you end up waiting longer than you expected...",
+            "nextDialogs": [
+              "750250113"
+            ]
+          },
+          "750250113": {
+            "id": "750250113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Strange... How come {REALNAME[ID(2)|SHOWHOST(true)]} isn't back yet?",
+            "nextDialogs": [
+              "750250114"
+            ]
+          },
+          "750250114": {
+            "id": "750250114",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon sure hopes nothing bad's happened...",
+            "nextDialogs": [
+              "750250115"
+            ]
+          },
+          "750250115": {
+            "id": "750250115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Gotten a bit carried away with the fun and games, perhaps?",
+            "nextDialogs": [
+              "750250116"
+            ]
+          },
+          "750250116": {
+            "id": "750250116",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "If so, we'll have to give him a good talking-to. The sun's nearly set!",
+            "nextDialogs": [
+              "750250117"
+            ]
+          },
+          "750250117": {
+            "id": "750250117",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh... Let's go track it down before it gets so dark we can't even see."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502504",
+      "subQuestName": "Go look for your missing Saurian companion",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502506",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250601"
+        ],
+        "dialogs": {
+          "750250601": {
+            "id": "750250601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Hi! You haven't seen {REALNAME[ID(2)|SHOWHOST(true)]} around here, have you? Y'know, the new kid on the block...?",
+            "nextDialogs": [
+              "750250602"
+            ]
+          },
+          "750250602": {
+            "id": "750250602",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's got a mark on its head and a scarf on its tail...",
+            "nextDialogs": [
+              "750250603"
+            ]
+          },
+          "750250603": {
+            "id": "750250603",
+            "speakerId": 1003,
+            "speakerName": "Dopey Little Tepetlisaurus",
+            "text": "Rrrawr?",
+            "nextDialogs": [
+              "750250604"
+            ]
+          },
+          "750250604": {
+            "id": "750250604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, seems like it can't understand what we're saying.",
+            "nextDialogs": [
+              "750250605"
+            ]
+          },
+          "750250605": {
+            "id": "750250605",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like we have no other choice but to go through them one by one..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502507",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250701"
+        ],
+        "dialogs": {
+          "750250701": {
+            "id": "750250701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Take a look at this little Tepetlisaurus... This one sure knows how to choose a spot for itself!",
+            "nextDialogs": [
+              "750250702"
+            ]
+          },
+          "750250702": {
+            "id": "750250702",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#No, that can't be {REALNAME[ID(2)|SHOWHOST(true)]} either. There's no tail-scarf.",
+            "nextDialogs": [
+              "750250703"
+            ]
+          },
+          "750250703": {
+            "id": "750250703",
+            "speakerId": 1004,
+            "speakerName": "Tree-Climbing Little Tepetlisaurus",
+            "text": "Rrrawr?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502508",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250801"
+        ],
+        "dialogs": {
+          "750250801": {
+            "id": "750250801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, is there any chance you've seen...",
+            "nextDialogs": [
+              "750250802"
+            ]
+          },
+          "750250802": {
+            "id": "750250802",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "#Paimon tells the clever little Tepetlisaur what {REALNAME[ID(2)|SHOWHOST(true)]} looks like.",
+            "nextDialogs": [
+              "750250803"
+            ]
+          },
+          "750250803": {
+            "id": "750250803",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750250804"
+            ]
+          },
+          "750250804": {
+            "id": "750250804",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Rawr!!",
+            "nextDialogs": [
+              "750250805"
+            ]
+          },
+          "750250805": {
+            "id": "750250805",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Wait a minute, does that mean you know we're looking for {REALNAME[ID(2)|SHOWHOST(true)]}? You really are a clever little critter, huh?",
+            "nextDialogs": [
+              "750250806"
+            ]
+          },
+          "750250806": {
+            "id": "750250806",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "C'mon, let's catch up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502514",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250501"
+        ],
+        "dialogs": {
+          "750250501": {
+            "id": "750250501",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Wow, so many Berries... Thanks! Wait a sec, we're looking for {REALNAME[ID(2)|SHOWHOST(true)]}, not Berries!",
+            "nextDialogs": [
+              "750250502"
+            ]
+          },
+          "750250502": {
+            "id": "750250502",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Rrrawr?",
+            "nextDialogs": [
+              "750250505"
+            ]
+          },
+          "750250505": {
+            "id": "750250505",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750250506"
+            ]
+          },
+          "750250506": {
+            "id": "750250506",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Well, being given Berries is never a bad thing, but it seems like {REALNAME[ID(2)|SHOWHOST(true)]} isn't here. Let's keep looking!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502509",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250901"
+        ],
+        "dialogs": {
+          "750250901": {
+            "id": "750250901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, looks like we've got ourselves a little Tepetlisaurus digging about underground. This has to be—",
+            "nextDialogs": [
+              "750250902"
+            ]
+          },
+          "750250902": {
+            "id": "750250902",
+            "speakerId": 1006,
+            "speakerName": "Little Tepetlisaurus Learning How to Dig",
+            "text": "?",
+            "nextDialogs": [
+              "750250903"
+            ]
+          },
+          "750250903": {
+            "id": "750250903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Ugh, that's not {REALNAME[ID(2)|SHOWHOST(true)]} either...",
+            "nextDialogs": [
+              "750250904"
+            ]
+          },
+          "750250904": {
+            "id": "750250904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#*sigh* How are there so many little Tepetlisaurs here? Where in Teyvat did {REALNAME[ID(2)|SHOWHOST(true)]} go?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502510",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251001"
+        ],
+        "dialogs": {
+          "750251001": {
+            "id": "750251001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello there, how do you do...",
+            "nextDialogs": [
+              "750251002"
+            ]
+          },
+          "750251002": {
+            "id": "750251002",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh, wait a sec... Why has Paimon suddenly started greeting little Tepetlisaurs like this?",
+            "nextDialogs": [
+              "750251003"
+            ]
+          },
+          "750251003": {
+            "id": "750251003",
+            "speakerId": 1007,
+            "speakerName": "Lively Little Tepetlisaurus",
+            "text": "Rawr! Rawr!",
+            "nextDialogs": [
+              "750251004"
+            ]
+          },
+          "750251004": {
+            "id": "750251004",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Why, Paimon, you're so polite!",
+            "nextDialogs": [
+              "750251005"
+            ]
+          },
+          "750251005": {
+            "id": "750251005",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, thanks...",
+            "nextDialogs": [
+              "750251006"
+            ]
+          },
+          "750251006": {
+            "id": "750251006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#But back to the matter at hand, this little Tepetlisaur clearly isn't {REALNAME[ID(2)|SHOWHOST(true)]}...",
+            "nextDialogs": [
+              "750251007"
+            ]
+          },
+          "750251007": {
+            "id": "750251007",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Well, let's just hope that {REALNAME[ID(2)|SHOWHOST(true)]}'s been having as much fun as this little one."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502511",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251101"
+        ],
+        "dialogs": {
+          "750251101": {
+            "id": "750251101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aha! So you've been here snoozing away! No wonder we couldn't find you all this time...",
+            "nextDialogs": [
+              "750251102"
+            ]
+          },
+          "750251102": {
+            "id": "750251102",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wrroh...",
+            "nextDialogs": [
+              "750251103"
+            ]
+          },
+          "750251103": {
+            "id": "750251103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like you had so much fun you completely tired yourself out.",
+            "nextDialogs": [
+              "750251104"
+            ]
+          },
+          "750251104": {
+            "id": "750251104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But the world's a dangerous place, y'know! If you start feeling sleepy or need a rest, you've got to come find us first...",
+            "nextDialogs": [
+              "750251107"
+            ]
+          },
+          "750251107": {
+            "id": "750251107",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rowr...",
+            "nextDialogs": [
+              "750251108"
+            ]
+          },
+          "750251108": {
+            "id": "750251108",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, alright... Nothing wrong with a bit of fun every now and again. But be more careful in the future, okay?",
+            "nextDialogs": [
+              "750251109"
+            ]
+          },
+          "750251109": {
+            "id": "750251109",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Anyway, why don't we go say hi to that big Tepetlisaurus over there? Who knows, we might get another chance to hang out with this lot someplace else in the future!",
+            "nextDialogs": [
+              "750251110"
+            ]
+          },
+          "750251110": {
+            "id": "750251110",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502512",
+      "subQuestName": "Say bye to the big Tepetlisaurus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251201"
+        ],
+        "dialogs": {
+          "750251201": {
+            "id": "750251201",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Roarrr?",
+            "nextDialogs": [
+              "750251202"
+            ]
+          },
+          "750251202": {
+            "id": "750251202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Thanks for taking care of {REALNAME[ID(2)|SHOWHOST(true)]} all this time!",
+            "nextDialogs": [
+              "750251203"
+            ]
+          },
+          "750251203": {
+            "id": "750251203",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Roarrr...",
+            "nextDialogs": [
+              "750251204"
+            ]
+          },
+          "750251204": {
+            "id": "750251204",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750251205"
+            ]
+          },
+          "750251205": {
+            "id": "750251205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh, well... Whatever they just said, it went right over Paimon's head.",
+            "nextDialogs": [
+              "750251206"
+            ]
+          },
+          "750251206": {
+            "id": "750251206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Anyway, it's about time we were off. Say goodbye, {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750251207"
+            ]
+          },
+          "750251207": {
+            "id": "750251207",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr...",
+            "nextDialogs": [
+              "750251208"
+            ]
+          },
+          "750251208": {
+            "id": "750251208",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't be sad, we'll see them again!",
+            "nextDialogs": [
+              "750251209"
+            ]
+          },
+          "750251209": {
+            "id": "750251209",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rowrr... Rawr!",
+            "nextDialogs": [
+              "750251210"
+            ]
+          },
+          "750251210": {
+            "id": "750251210",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Roooar...",
+            "nextDialogs": [
+              "750251211"
+            ]
+          },
+          "750251211": {
+            "id": "750251211",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Raaarrr—",
+            "nextDialogs": [
+              "750251212"
+            ]
+          },
+          "750251212": {
+            "id": "750251212",
+            "speakerId": 1009,
+            "speakerName": "Little Tepetlisaurs",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750251213"
+            ]
+          },
+          "750251213": {
+            "id": "750251213",
+            "speakerId": 1009,
+            "speakerName": "Little Tepetlisaurs",
+            "text": "Rawr, rrawr...",
+            "nextDialogs": [
+              "750251214"
+            ]
+          },
+          "750251214": {
+            "id": "750251214",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Rrroar...",
+            "nextDialogs": [
+              "750251215"
+            ]
+          },
+          "750251215": {
+            "id": "750251215",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "The big Tepetlisaurus turns round, as if to signal that it was time that they were off...\\nThe little Tepetlisaurs follow its lead, and together, they leave.",
+            "nextDialogs": [
+              "750251216"
+            ]
+          },
+          "750251216": {
+            "id": "750251216",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr...",
+            "nextDialogs": [
+              "750251217"
+            ]
+          },
+          "750251217": {
+            "id": "750251217",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Aww, you're not feeling lonely are you, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "750251218"
+            ]
+          },
+          "750251218": {
+            "id": "750251218",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, don't forget that we're here by your side!",
+            "nextDialogs": [
+              "750251219"
+            ]
+          },
+          "750251219": {
+            "id": "750251219",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rowrr, rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502530",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253001"
+        ],
+        "dialogs": {
+          "750253001": {
+            "id": "750253001",
+            "speakerId": 1003,
+            "speakerName": "Dopey Little Tepetlisaurus",
+            "text": "Grainfruit, yummy...",
+            "nextDialogs": [
+              "750253002"
+            ]
+          },
+          "750253002": {
+            "id": "750253002",
+            "speakerId": 1003,
+            "speakerName": "Dopey Little Tepetlisaurus",
+            "text": "*burp*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502531",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253101"
+        ],
+        "dialogs": {
+          "750253101": {
+            "id": "750253101",
+            "speakerId": 1004,
+            "speakerName": "Tree-Climbing Little Tepetlisaurus",
+            "text": "From stand here, all other Saurians small as bug..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502532",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253201"
+        ],
+        "dialogs": {
+          "750253201": {
+            "id": "750253201",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Let's eat, friend!",
+            "nextDialogs": [
+              "750253202"
+            ]
+          },
+          "750253202": {
+            "id": "750253202",
+            "speakerId": 1005,
+            "speakerName": "Clever Little Tepetlisaurus",
+            "text": "Berry, Cacahuatl, Grainfruit!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502533",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253301"
+        ],
+        "dialogs": {
+          "750253301": {
+            "id": "750253301",
+            "speakerId": 1006,
+            "speakerName": "Little Tepetlisaurus Learning How to Dig",
+            "text": "Oh no, been caught... Must... Dig faster!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502534",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253401"
+        ],
+        "dialogs": {
+          "750253401": {
+            "id": "750253401",
+            "speakerId": 1007,
+            "speakerName": "Lively Little Tepetlisaurus",
+            "text": "Happy happy~ Me so happy~"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502535",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253501"
+        ],
+        "dialogs": {
+          "750253501": {
+            "id": "750253501",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "Hehe, so much energy... Very good...",
+            "nextDialogs": [
+              "750253502"
+            ]
+          },
+          "750253502": {
+            "id": "750253502",
+            "speakerId": 1008,
+            "speakerName": "Big Parenty Tepetlisaurus",
+            "text": "But... how many were there in total again...?"
+          }
+        }
+      }
+    }
+  ]
+}

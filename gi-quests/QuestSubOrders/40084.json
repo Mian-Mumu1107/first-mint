@@ -1,0 +1,868 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Haniyyah": 19,
+    "Hardy Two-Blades": 4,
+    "Layla": 16,
+    "Paimon": 51,
+    "Player": 35,
+    "Yae Miko": 18
+  },
+  "subQuests": [
+    {
+      "subId": "4008401",
+      "subQuestName": "Wait till the next morning (8:00 – 10:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008403",
+      "subQuestName": "Participate in the competition",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008419",
+      "subQuestName": "Defeat your opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008404",
+      "subQuestName": "Defeat your opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840401"
+        ],
+        "dialogs": {
+          "400840401": {
+            "id": "400840401",
+            "speakerId": 1000,
+            "speakerName": "Hardy Two-Blades",
+            "text": "It's you. The uncultured swine of the Nilotpala Cup.",
+            "nextDialogs": [
+              "400840402"
+            ]
+          },
+          "400840402": {
+            "id": "400840402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hey, you potty mouth! What's your problem?",
+            "nextDialogs": [
+              "400840403"
+            ]
+          },
+          "400840403": {
+            "id": "400840403",
+            "speakerId": 1000,
+            "speakerName": "Hardy Two-Blades",
+            "text": "The way you dote on your Fungi. It's pathetic. What a joke! You make a mockery of the philosophy of the greatest beast-tamer of all, the mighty Haniyyah.",
+            "nextDialogs": [
+              "400840404"
+            ]
+          },
+          "400840404": {
+            "id": "400840404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"Greatest beast-tamer of all\"? That's debatable.",
+            "nextDialogs": [
+              "400840405"
+            ]
+          },
+          "400840405": {
+            "id": "400840405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We'll set her \"philosophy\" straight.",
+            "nextDialogs": [
+              "400840406"
+            ]
+          },
+          "400840406": {
+            "id": "400840406",
+            "speakerId": 1000,
+            "speakerName": "Hardy Two-Blades",
+            "text": "You keep telling yourself that! You were never gonna come close to facing Haniyyah. Time for you to go home!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008405",
+      "subQuestName": "Defeat your opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008414",
+      "subQuestName": "Talk to your opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841401"
+        ],
+        "dialogs": {
+          "400841401": {
+            "id": "400841401",
+            "speakerId": 1000,
+            "speakerName": "Hardy Two-Blades",
+            "text": "Nooo! This can't be happening... I trained my Fungi non-stop... Maybe I should have been harder on them?",
+            "nextDialogs": [
+              "400841402"
+            ]
+          },
+          "400841402": {
+            "id": "400841402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whew. Well, we beat him... but somehow Paimon isn't really in the mood to celebrate."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008402",
+      "subQuestName": "Leave the arena",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008406",
+      "subQuestName": "Talk to Layla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840601"
+        ],
+        "dialogs": {
+          "400840601": {
+            "id": "400840601",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "#{NICKNAME}, Paimon. I made it through!",
+            "nextDialogs": [
+              "400840602"
+            ]
+          },
+          "400840602": {
+            "id": "400840602",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's amazing, Layla! You've reached your goal!",
+            "nextDialogs": [
+              "400840603"
+            ]
+          },
+          "400840603": {
+            "id": "400840603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Congratulations!",
+            "nextDialogs": [
+              "400840604"
+            ]
+          },
+          "400840604": {
+            "id": "400840604",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "I heard you won against the unstoppable Hardy Two-Blades... But you don't seem too happy about it. How come?",
+            "nextDialogs": [
+              "400840605"
+            ]
+          },
+          "400840605": {
+            "id": "400840605",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's just that... He was really mean. He said some weird things...",
+            "nextDialogs": [
+              "400840606"
+            ]
+          },
+          "400840606": {
+            "id": "400840606",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "You tell Layla the details of the match...",
+            "nextDialogs": [
+              "400840607"
+            ]
+          },
+          "400840607": {
+            "id": "400840607",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "I see what you mean... Yeah, somehow beast-tamers like him make me feel a little... sad.",
+            "nextDialogs": [
+              "400840608"
+            ]
+          },
+          "400840608": {
+            "id": "400840608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sad?",
+            "nextDialogs": [
+              "400840609"
+            ]
+          },
+          "400840609": {
+            "id": "400840609",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Yeah. He clearly doesn't know anything about Haniyyah. He's just making assumptions about what she's like based on a vague impression, and even trying to copy her. I'm sure Haniyyah would feel uneasy about it too, if she knew.",
+            "nextDialogs": [
+              "400840610"
+            ]
+          },
+          "400840610": {
+            "id": "400840610",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Also, he's so cruel to his shroom buddies, when they could have been friends... It's not just his loss, either. It brings all the other contestants down.",
+            "nextDialogs": [
+              "400840611"
+            ]
+          },
+          "400840611": {
+            "id": "400840611",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Right! You have the right mindset, Layla! If only everyone was like you, this whole tournament would feel a lot less gloomy!",
+            "nextDialogs": [
+              "400840612"
+            ]
+          },
+          "400840612": {
+            "id": "400840612",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "But it's only because I'm not aiming as high... I just wanna be able to take Twirly-Whirly back to live with me, that's all.",
+            "nextDialogs": [
+              "400840613"
+            ]
+          },
+          "400840613": {
+            "id": "400840613",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Looks like the next fight is you against me. Let's just try to enjoy ourselves. It doesn't matter who wins, this is just a little contest between friends.",
+            "nextDialogs": [
+              "400840614"
+            ]
+          },
+          "400840614": {
+            "id": "400840614",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You have a deal!",
+            "nextDialogs": [
+              "400840615"
+            ]
+          },
+          "400840615": {
+            "id": "400840615",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Alright! Time to see who's the strongest Fungi, Twirly-Whirly or Bongo-Head! Loser buys dinner for the winner!",
+            "nextDialogs": [
+              "400840616"
+            ]
+          },
+          "400840616": {
+            "id": "400840616",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Whatever deal this is, you seem very happy about it. Did I miss anything big while I was gone?",
+            "nextDialogs": [
+              "400840617"
+            ]
+          },
+          "400840617": {
+            "id": "400840617",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Miko, you're back — finally! You snuck off without saying anything last time, so we didn't get to tell you about the evidence we— Ahem! Uh, evidently we have some things to discuss with you...!",
+            "nextDialogs": [
+              "400840618"
+            ]
+          },
+          "400840618": {
+            "id": "400840618",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Yes, well, it's been quite the ordeal for me, too. I only entered this tournament for a bit of fun, but now I've ended up in the semifinals. I've barely had any time at all to spend with Souka and the others gathering source material for the novel.",
+            "nextDialogs": [
+              "400840619"
+            ]
+          },
+          "400840619": {
+            "id": "400840619",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "I'm sure you two will have a wonderful time in your fun-and-friendly match. I, on the other hand, have to take mine a little more seriously. I'm up against that stubborn young lady, after all.",
+            "nextDialogs": [
+              "400840620"
+            ]
+          },
+          "400840620": {
+            "id": "400840620",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Yeah, who knew it'd get to this point... Miss Yae has to face off against Haniyyah...",
+            "nextDialogs": [
+              "400840621"
+            ]
+          },
+          "400840621": {
+            "id": "400840621",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Look on the bright side! Maybe Miko will help us defeat Haniyyah!",
+            "nextDialogs": [
+              "400840622"
+            ]
+          },
+          "400840622": {
+            "id": "400840622",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But that means we won't get to show Haniyyah the error of her ways ourselves... Whatever, Paimon just doesn't want to see Miko lose!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008407",
+      "subQuestName": "Participate in the semifinals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008420",
+      "subQuestName": "Participate in the semifinals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008408",
+      "subQuestName": "Spar with Layla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400840801"
+        ],
+        "dialogs": {
+          "400840801": {
+            "id": "400840801",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "I'm feeling nervous, but excited at the same time!",
+            "nextDialogs": [
+              "400840802"
+            ]
+          },
+          "400840802": {
+            "id": "400840802",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "You don't have to go easy on me. Twirly-Whirly and team have weathered plenty of tough challenges already, and they know how to put up a good fight! So you and your shroom buddies can give it your all!",
+            "nextDialogs": [
+              "400840803"
+            ]
+          },
+          "400840803": {
+            "id": "400840803",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well then, prepare for battle, Layla and Twirly!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008409",
+      "subQuestName": "Spar with Layla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008413",
+      "subQuestName": "Talk to Layla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841301"
+        ],
+        "dialogs": {
+          "400841301": {
+            "id": "400841301",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Oh shoot, we lost...",
+            "nextDialogs": [
+              "400841302"
+            ]
+          },
+          "400841302": {
+            "id": "400841302",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "But you and the gang put on the best show I've seen so far, Twirly-Whirly! That was a real blast, I loved it!",
+            "nextDialogs": [
+              "400841303"
+            ]
+          },
+          "400841303": {
+            "id": "400841303",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Thank you all! Twirly-Whirly and I went out with a bang. Any other opponent, and we might be feeling a little disappointed right now... but we were definitely beaten by the best.",
+            "nextDialogs": [
+              "400841304"
+            ]
+          },
+          "400841304": {
+            "id": "400841304",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You did really well too, y'know! Felt like we were one wrong move away from a very mushy Bongo!",
+            "nextDialogs": [
+              "400841305"
+            ]
+          },
+          "400841305": {
+            "id": "400841305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Just letting the Fungi do their thing and enjoying the match with no pressure to win... It was a good feeling.",
+            "nextDialogs": [
+              "400841306"
+            ]
+          },
+          "400841306": {
+            "id": "400841306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Perhaps this is how all competitions should be...",
+            "nextDialogs": [
+              "400841307"
+            ]
+          },
+          "400841307": {
+            "id": "400841307",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If only every match could be as carefree as that... Meanwhile, Miko's busy duking it out with Haniyyah. Paimon's so nervous for her! Let's go see how she's doing!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008412",
+      "subQuestName": "Leave the arena",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841201"
+        ],
+        "dialogs": {
+          "400841201": {
+            "id": "400841201",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "Huh? How did you find me here...",
+            "nextDialogs": [
+              "400841202"
+            ]
+          },
+          "400841202": {
+            "id": "400841202",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We followed Pyro-1's tracks. We're a little worried about you...",
+            "nextDialogs": [
+              "400841203"
+            ]
+          },
+          "400841203": {
+            "id": "400841203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait a second... Are you comforting Pyro-1!?",
+            "nextDialogs": [
+              "400841204"
+            ]
+          },
+          "400841204": {
+            "id": "400841204",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "\"The irony,\" I know... and I'd probably be enjoying it, if Pyro-1 were any other animal than a Fungi.",
+            "nextDialogs": [
+              "400841205"
+            ]
+          },
+          "400841205": {
+            "id": "400841205",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "The next time we meet will be in the finals. Whatever you have to say, save it for if you beat me...",
+            "nextDialogs": [
+              "400841208"
+            ]
+          },
+          "400841208": {
+            "id": "400841208",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "The fox lady said you might say that... You're pure of heart, kind, and believe the best in things.",
+            "nextDialogs": [
+              "400841209"
+            ]
+          },
+          "400841209": {
+            "id": "400841209",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "You wouldn't understand if I tried to explain, so here — read this.",
+            "nextDialogs": [
+              "400841210"
+            ]
+          },
+          "400841210": {
+            "id": "400841210",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uh, what is it?",
+            "nextDialogs": [
+              "400841212"
+            ]
+          },
+          "400841212": {
+            "id": "400841212",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "These are my ancestors' records. They were attacked by a horde of Fungi in the rainforest, and many people were seriously injured.",
+            "nextDialogs": [
+              "400841213"
+            ]
+          },
+          "400841213": {
+            "id": "400841213",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "There was nothing exceptional about this incident at the time, and it certainly never made it into any official records. But my family have been reading it to me since I was a child, constantly warning me of the grave threat that Fungi pose to us.",
+            "nextDialogs": [
+              "400841214"
+            ]
+          },
+          "400841214": {
+            "id": "400841214",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So that's what happened... No wonder you're so hostile towards Fungi."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008410",
+      "subQuestName": "Talk to Yae Miko",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841001"
+        ],
+        "dialogs": {
+          "400841001": {
+            "id": "400841001",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh...? It's over already? And why's the atmosphere so heavy... Does this mean Miko won!?",
+            "nextDialogs": [
+              "400841002"
+            ]
+          },
+          "400841002": {
+            "id": "400841002",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Your match is over too? You took your time. I'm assuming it was a close call...",
+            "nextDialogs": [
+              "400841003"
+            ]
+          },
+          "400841003": {
+            "id": "400841003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You sound way too relaxed for someone who's just fought in the semifinals. Bet it was a walk in the park, huh?",
+            "nextDialogs": [
+              "400841004"
+            ]
+          },
+          "400841004": {
+            "id": "400841004",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Ahaha, yes, ours was as far from a close call as you could get. All it took was a few short, sharp strikes for Blitzara and I...",
+            "nextDialogs": [
+              "400841005"
+            ]
+          },
+          "400841005": {
+            "id": "400841005",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "...to be beaten by Haniyyah.",
+            "nextDialogs": [
+              "400841006"
+            ]
+          },
+          "400841006": {
+            "id": "400841006",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "400841007"
+            ]
+          },
+          "400841007": {
+            "id": "400841007",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "...What, you think this is funny? Am I a joke to you?",
+            "nextDialogs": [
+              "400841008"
+            ]
+          },
+          "400841008": {
+            "id": "400841008",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Hehe, far from it, Haniyyah. I know full well how serious you are about all this from your iron-clad determination to annihilate an entire species... How would I ever dare mock you?",
+            "nextDialogs": [
+              "400841009"
+            ]
+          },
+          "400841009": {
+            "id": "400841009",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "That said, if you continue down this path and find that it leads somewhere quite different from what you had hoped... what will become of that iron-clad determination then? I look forward to finding out.",
+            "nextDialogs": [
+              "400841010"
+            ]
+          },
+          "400841010": {
+            "id": "400841010",
+            "speakerId": 1005,
+            "speakerName": "Haniyyah",
+            "text": "That's... not your concern.",
+            "nextDialogs": [
+              "400841011"
+            ]
+          },
+          "400841011": {
+            "id": "400841011",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Running away so soon?",
+            "nextDialogs": [
+              "400841012"
+            ]
+          },
+          "400841012": {
+            "id": "400841012",
+            "speakerId": 1002,
+            "speakerName": "Layla",
+            "text": "Miss Yae lost the match, but why is Haniyyah the one who seemed upset...",
+            "nextDialogs": [
+              "400841013"
+            ]
+          },
+          "400841013": {
+            "id": "400841013",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "The situation gets more interesting with each development... Blitzara injured Pyro-1 soon after the match started, and Haniyyah was clearly quite distressed.",
+            "nextDialogs": [
+              "400841014"
+            ]
+          },
+          "400841014": {
+            "id": "400841014",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "I simply pointed out that she's still deceiving herself, and her defenses began breaking down. She's more fragile than I'd imagined.",
+            "nextDialogs": [
+              "400841017"
+            ]
+          },
+          "400841017": {
+            "id": "400841017",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You mean, Haniyyah isn't as heartless as she tries to make herself out to be? So she does care about Pyro-1... but she didn't mean to show it in front of you...",
+            "nextDialogs": [
+              "400841018"
+            ]
+          },
+          "400841018": {
+            "id": "400841018",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Right answer. Now's our chance to get through to her. You, my little friends, are the only ones who can get her back onto the right path.",
+            "nextDialogs": [
+              "400841019"
+            ]
+          },
+          "400841019": {
+            "id": "400841019",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But Haniyyah's long gone now. Where should we look for her?",
+            "nextDialogs": [
+              "400841020"
+            ]
+          },
+          "400841020": {
+            "id": "400841020",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "Well, right now, I'm sure she must be wondering what it is that has made her suddenly start doubting herself after all this time.",
+            "nextDialogs": [
+              "400841021"
+            ]
+          },
+          "400841021": {
+            "id": "400841021",
+            "speakerId": 1004,
+            "speakerName": "Yae Miko",
+            "text": "The answer lies with the three of you. I'm sure you all know where she's gone to."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4008416",
+      "subQuestName": "Go to the place mentioned in the conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008411",
+      "subQuestName": "Find Haniyyah using Elemental Sight",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4008415",
+      "subQuestName": "Discuss with Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400841501"
+        ],
+        "dialogs": {
+          "400841501": {
+            "id": "400841501",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That didn't go as planned... Well, there's only one option left: we gotta defeat Haniyyah in the final match.",
+            "nextDialogs": [
+              "400841504"
+            ]
+          },
+          "400841504": {
+            "id": "400841504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Didn't Haniyyah mention something about other researchers in the past trying to stop the damage caused by Fungi, too? There should be more information in this notebook. Let's take a look.",
+            "nextDialogs": [
+              "400841506"
+            ]
+          },
+          "400841506": {
+            "id": "400841506",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "These look like... research notes. Guess Haniyyah's ancestors kept them after the scholars left...",
+            "nextDialogs": [
+              "400841507"
+            ]
+          },
+          "400841507": {
+            "id": "400841507",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whew... This section looks super complicated. The handwriting is really bad, and there are too many technical terms... Paimon can't make heads or tails of this.",
+            "nextDialogs": [
+              "400841508"
+            ]
+          },
+          "400841508": {
+            "id": "400841508",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait, some of these look familiar though... Oh, that's right, we saw them on the documents Dori gave us!"
+          }
+        }
+      }
+    }
+  ]
+}

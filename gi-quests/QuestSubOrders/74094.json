@@ -1,0 +1,55 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Grainville": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7409401",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740940101"
+        ],
+        "dialogs": {
+          "740940101": {
+            "id": "740940101",
+            "speakerId": 1000,
+            "speakerName": "Grainville",
+            "text": "It's you! You maintained order in the production zone.",
+            "nextDialogs": [
+              "740940102"
+            ]
+          },
+          "740940102": {
+            "id": "740940102",
+            "speakerId": 1000,
+            "speakerName": "Grainville",
+            "text": "Maintaining a sanitary environment is part of maintaining order, so we thank you for your contributions to the production zone. These Credit Coupon are a well-deserved reward. Please, take them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7409400",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740940001"
+        ],
+        "dialogs": {
+          "740940001": {
+            "id": "740940001",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You hear someone calling, so you leave the water..."
+          }
+        }
+      }
+    }
+  ]
+}

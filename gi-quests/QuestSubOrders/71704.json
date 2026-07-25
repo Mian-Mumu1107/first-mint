@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Herbalist Gui": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7170401",
+      "subQuestName": "Give ten Mints to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717040101"
+        ],
+        "dialogs": {
+          "717040101": {
+            "id": "717040101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Mint...",
+            "nextDialogs": [
+              "717040102"
+            ]
+          },
+          "717040102": {
+            "id": "717040102",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Hmm? Oh yes, you must've seen the commission I posted. Have you gathered the ten Mint leaves yet?",
+            "nextDialogs": [
+              "717040105"
+            ]
+          },
+          "717040105": {
+            "id": "717040105",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Bring the Mint leaves back to me as soon as you've gathered them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170402",
+      "subQuestName": "Talk to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717040201"
+        ],
+        "dialogs": {
+          "717040201": {
+            "id": "717040201",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Ah yes, the Mint. Let's see... Right, this should be enough.",
+            "nextDialogs": [
+              "717040202"
+            ]
+          },
+          "717040202": {
+            "id": "717040202",
+            "speakerId": 1000,
+            "speakerName": "Herbalist Gui",
+            "text": "Here, these are for you. Thanks again for your help."
+          }
+        }
+      }
+    }
+  ]
+}

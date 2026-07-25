@@ -1,0 +1,994 @@
+{
+  "lineCounts": {
+    "Adelinde": 5,
+    "Bennett": 25,
+    "Black Screen": 2,
+    "Diluc": 25,
+    "Kaeya": 28,
+    "Klee": 19,
+    "Lisa": 18,
+    "Marcel": 5,
+    "Paimon": 70,
+    "Player": 46,
+    "Razor": 49,
+    "Rolf": 3,
+    "Rosaria": 21
+  },
+  "subQuests": [
+    {
+      "subId": "4007901",
+      "subQuestName": "Wait until the appointed time (08:00 – 10:00 two days later)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4007902",
+      "subQuestName": "Meet up with Razor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400790201"
+        ],
+        "dialogs": {
+          "400790201": {
+            "id": "400790201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Where's the heck's Razor? Paimon thought he would've been here by now...",
+            "nextDialogs": [
+              "400790202"
+            ]
+          },
+          "400790202": {
+            "id": "400790202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, he had a pretty big day when we last saw him... Do you think he fell asleep when he got back and is still snoozing away now?",
+            "nextDialogs": [
+              "400790205"
+            ]
+          },
+          "400790205": {
+            "id": "400790205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Fair enough, you're right. Let's keep waiting.",
+            "nextDialogs": [
+              "400790206"
+            ]
+          },
+          "400790206": {
+            "id": "400790206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, since we've got some time on our hands, let's put our heads together and try to figure out that poem! Tone-Deaf Bard mentioned some ingredients, but they all sounded super abstract:",
+            "nextDialogs": [
+              "400790207"
+            ]
+          },
+          "400790207": {
+            "id": "400790207",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "An explorer's courage, a love tender and true, a defender's will, and... the thousand winds'... \"song of good cheer\"...",
+            "nextDialogs": [
+              "400790208"
+            ]
+          },
+          "400790208": {
+            "id": "400790208",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Do you have any ideas?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007903",
+      "subQuestName": "Search for the late cart in the wild",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400790301"
+        ],
+        "dialogs": {
+          "400790301": {
+            "id": "400790301",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "*sniff*... This way.",
+            "nextDialogs": [
+              "400790302"
+            ]
+          },
+          "400790302": {
+            "id": "400790302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! Paimon sees the cart, but what are these hilichurls doing here!? Do they want some fresh fruit now, too?",
+            "nextDialogs": [
+              "400790303"
+            ]
+          },
+          "400790303": {
+            "id": "400790303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, to the rescue!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007904",
+      "subQuestName": "Scare off the hilichurls and save the cart",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4007905",
+      "subQuestName": "Talk to Razor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400790501"
+        ],
+        "dialogs": {
+          "400790501": {
+            "id": "400790501",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "...",
+            "nextDialogs": [
+              "400790502"
+            ]
+          },
+          "400790502": {
+            "id": "400790502",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whew, finally. These hilichurls are a little too obsessed with food for their own good... But never mind that, are you okay? Did they hurt you?",
+            "nextDialogs": [
+              "400790503"
+            ]
+          },
+          "400790503": {
+            "id": "400790503",
+            "speakerId": 1002,
+            "speakerName": "Rolf",
+            "text": "Phew... I'm fine, thanks to you. You were just in time. Any later, and all you'd have found here is a pile of pulp... and I don't think there'd be much left of the fruit, either.",
+            "nextDialogs": [
+              "400790506"
+            ]
+          },
+          "400790506": {
+            "id": "400790506",
+            "speakerId": 1002,
+            "speakerName": "Rolf",
+            "text": "Got it. Well, thanks again! I'd better not delay this delivery any longer, so goodbye and Happy Weinlesefest!",
+            "nextDialogs": [
+              "400790507"
+            ]
+          },
+          "400790507": {
+            "id": "400790507",
+            "speakerId": 1002,
+            "speakerName": "Rolf",
+            "text": "Thanks to you, too, kiddo.",
+            "nextDialogs": [
+              "400790508"
+            ]
+          },
+          "400790508": {
+            "id": "400790508",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "Mm."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007906",
+      "subQuestName": "Go to the Knights of Favonius Headquarters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400790601"
+        ],
+        "dialogs": {
+          "400790601": {
+            "id": "400790601",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "...So you see, you're the best person for this.",
+            "nextDialogs": [
+              "400790602"
+            ]
+          },
+          "400790602": {
+            "id": "400790602",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Oho, just in time. Lisa and I were just talking about Razor's situation.",
+            "nextDialogs": [
+              "400790603"
+            ]
+          },
+          "400790603": {
+            "id": "400790603",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Where were we... Ah, yes, the barrel!",
+            "nextDialogs": [
+              "400790604"
+            ]
+          },
+          "400790604": {
+            "id": "400790604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh!? But obviously, the knights part is supposed to be \"a defender's will.\" But what kind of ingredient is a barrel?",
+            "nextDialogs": [
+              "400790606",
+              "400790608"
+            ]
+          },
+          "400790606": {
+            "id": "400790606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh... F—Fair enough...",
+            "nextDialogs": [
+              "400790609"
+            ]
+          },
+          "400790609": {
+            "id": "400790609",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "Hehe... Oh, Paimon, don't worry, you'll get your ingredient. I've already tasked someone with sorting it out.",
+            "nextDialogs": [
+              "400790610"
+            ]
+          },
+          "400790610": {
+            "id": "400790610",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "The person is very conscientious, and wants to properly research their contribution. So it may take some time, but hopefully it'll be worth the wait.",
+            "nextDialogs": [
+              "400790611"
+            ]
+          },
+          "400790611": {
+            "id": "400790611",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "As for the barrel... how else were you planning on mixing all the ingredients? Surely not in the giant cooking pot at Dadaupa Gorge?"
+          },
+          "400790608": {
+            "id": "400790608",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is your brain half-asleep or something? It doesn't make any sense at all!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007907",
+      "subQuestName": "Go to Dawn Winery",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4007908",
+      "subQuestName": "Enter Dawn Winery",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400790801"
+        ],
+        "dialogs": {
+          "400790801": {
+            "id": "400790801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hi there, Master Diluc!",
+            "nextDialogs": [
+              "400790802"
+            ]
+          },
+          "400790802": {
+            "id": "400790802",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Oh? I was just wondering who'd be coming all the way out here during the Weinlesefest. So it's you two.",
+            "nextDialogs": [
+              "400790803"
+            ]
+          },
+          "400790803": {
+            "id": "400790803",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "...And you, too.",
+            "nextDialogs": [
+              "400790804"
+            ]
+          },
+          "400790804": {
+            "id": "400790804",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Brrr, so cold. Almost enough to make me feel unwelcome here, Master Diluc.",
+            "nextDialogs": [
+              "400790805"
+            ]
+          },
+          "400790805": {
+            "id": "400790805",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Don't forget that this is my home, too. I'm fairly certain that taking a trip home during festival season is a universal custom, common to all the cultures of Teyvat.",
+            "nextDialogs": [
+              "400790806"
+            ]
+          },
+          "400790806": {
+            "id": "400790806",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Please get to the point.",
+            "nextDialogs": [
+              "400790807"
+            ]
+          },
+          "400790807": {
+            "id": "400790807",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "The point is one that you've already raised yourself: the Weinlesefest.",
+            "nextDialogs": [
+              "400790808"
+            ]
+          },
+          "400790808": {
+            "id": "400790808",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "To celebrate this long-awaited festival, the Acting Grand Master has been coordinating with both the church and the Adventurers' Guild to host a series of events.",
+            "nextDialogs": [
+              "400790809"
+            ]
+          },
+          "400790809": {
+            "id": "400790809",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Unfortunately, given the financial situation of the Knights of Favonius... Well, I'm sure you can imagine...",
+            "nextDialogs": [
+              "400790810"
+            ]
+          },
+          "400790810": {
+            "id": "400790810",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "And the Knights of Favonius's woes have what, exactly, to do with me?",
+            "nextDialogs": [
+              "400790811"
+            ]
+          },
+          "400790811": {
+            "id": "400790811",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Hey, no need to be so cruel. Even I'm not going to take that. Everyone's just doing the best they can for Mondstadt.",
+            "nextDialogs": [
+              "400790812"
+            ]
+          },
+          "400790812": {
+            "id": "400790812",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Now, I can't remember the last time I tasted Dawn Winery's Weinlesefest special... And I'm sure the Mondstadt populace would echo this sentiment.",
+            "nextDialogs": [
+              "400790813"
+            ]
+          },
+          "400790813": {
+            "id": "400790813",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Are you going to deny others the opportunity to drink to their hearts' content just because you don't like to drink yourself?",
+            "nextDialogs": [
+              "400790814"
+            ]
+          },
+          "400790814": {
+            "id": "400790814",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Check it out, Kaeya's not-so-subtly asking for freebies... He's actually doing it...",
+            "nextDialogs": [
+              "400790815"
+            ]
+          },
+          "400790815": {
+            "id": "400790815",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What a guy.",
+            "nextDialogs": [
+              "400790816"
+            ]
+          },
+          "400790816": {
+            "id": "400790816",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Anyway, speaking of the knights, everyone dearly hopes that you'll rejoin our ranks again one day. Then we'll be one big, happy family again.",
+            "nextDialogs": [
+              "400790817"
+            ]
+          },
+          "400790817": {
+            "id": "400790817",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "If we were able to enjoy the sterling reputation of Master Diluc, my... I'm sure people would be queuing for our charity booth all the way to Falcon Coast...",
+            "nextDialogs": [
+              "400790818"
+            ]
+          },
+          "400790818": {
+            "id": "400790818",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "...Hmph.",
+            "nextDialogs": [
+              "400790819"
+            ]
+          },
+          "400790819": {
+            "id": "400790819",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Give that silver tongue of yours a rest. You might need it to maintain public order at the festival.",
+            "nextDialogs": [
+              "400790820"
+            ]
+          },
+          "400790820": {
+            "id": "400790820",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Duly noted on the financial issues you raised. I'll have Elzer follow up with Hertha in more detail.",
+            "nextDialogs": [
+              "400790821"
+            ]
+          },
+          "400790821": {
+            "id": "400790821",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "And I just so happen to have a batch of wine that I can offer as a token of appreciation to everyone that has been working so hard for the festival.",
+            "nextDialogs": [
+              "400790822"
+            ]
+          },
+          "400790822": {
+            "id": "400790822",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Shall I address it to you personally?",
+            "nextDialogs": [
+              "400790823"
+            ]
+          },
+          "400790823": {
+            "id": "400790823",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "That would be an absurd request, even for me. The words \"with compliments from the Dawn Winery\" ought never be preceded by \"To the Cavalry Captain.\" Is that not the unwritten rule?",
+            "nextDialogs": [
+              "400790824"
+            ]
+          },
+          "400790824": {
+            "id": "400790824",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "You're better informed than I thought. In that case, I will leave this with Adelinde and keep everything anonymous.",
+            "nextDialogs": [
+              "400790825"
+            ]
+          },
+          "400790825": {
+            "id": "400790825",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "I really can't thank you enough.",
+            "nextDialogs": [
+              "400790826"
+            ]
+          },
+          "400790826": {
+            "id": "400790826",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Master Diluc is so generous! That's all Paimon needs to get that warm, fuzzy feeling... which is just as well, since she won't be allowed to drink a drop.",
+            "nextDialogs": [
+              "400790827"
+            ]
+          },
+          "400790827": {
+            "id": "400790827",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Are you two here regarding the Weinlesefest, too?",
+            "nextDialogs": [
+              "400790830"
+            ]
+          },
+          "400790830": {
+            "id": "400790830",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "You tell Diluc that you're helping Razor to make Thousand-Wind Wine...",
+            "nextDialogs": [
+              "400790831"
+            ]
+          },
+          "400790831": {
+            "id": "400790831",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Poor Razor. He grew up so fast, and he's still looking for his father. Master Diluc, we really ought to lend him a hand.",
+            "nextDialogs": [
+              "400790832"
+            ]
+          },
+          "400790832": {
+            "id": "400790832",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "How come Klee said he's looking for his mom, but Kaeya says he's looking for his dad...? It might make more sense to them, but it's gonna get confusing for everyone else!",
+            "nextDialogs": [
+              "400790833"
+            ]
+          },
+          "400790833": {
+            "id": "400790833",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "It's okay. I understand.",
+            "nextDialogs": [
+              "400790834"
+            ]
+          },
+          "400790834": {
+            "id": "400790834",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "We have a spare barrel in the winery. It's a little old, but it's been specially treated for durability. You could leave it next to a Flaming Flower all day and there wouldn't be a scratch. I think that one should satisfy your needs.",
+            "nextDialogs": [
+              "400790835"
+            ]
+          },
+          "400790835": {
+            "id": "400790835",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Sounds great, we'll take it! When can we come fetch it?",
+            "nextDialogs": [
+              "400790836"
+            ]
+          },
+          "400790836": {
+            "id": "400790836",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "No need. I'll have someone deliver it to the festival market. Just collect it from the Angel's Share stand.",
+            "nextDialogs": [
+              "400790837"
+            ]
+          },
+          "400790837": {
+            "id": "400790837",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, you always make things so nice and easy for us, Master Diluc! Hehe, thanks a lot. Razor will really appreciate it.",
+            "nextDialogs": [
+              "400790838"
+            ]
+          },
+          "400790838": {
+            "id": "400790838",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "You're more than welcome. Helping each other is what friends do.",
+            "nextDialogs": [
+              "400790839"
+            ]
+          },
+          "400790839": {
+            "id": "400790839",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Wonderful. Always eager to help, and never forgets to return a favor. That's the Master Diluc I know.",
+            "nextDialogs": [
+              "400790840"
+            ]
+          },
+          "400790840": {
+            "id": "400790840",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "...It's nearly dinner time. Would you care to stay for a meal?",
+            "nextDialogs": [
+              "400790841"
+            ]
+          },
+          "400790841": {
+            "id": "400790841",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "How time flies... I'll be on my way, then...",
+            "nextDialogs": [
+              "400790842"
+            ]
+          },
+          "400790842": {
+            "id": "400790842",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Hmph.",
+            "nextDialogs": [
+              "400790843"
+            ]
+          },
+          "400790843": {
+            "id": "400790843",
+            "speakerId": 1007,
+            "speakerName": "Adelinde",
+            "text": "How did you put it? Ah, yes: \"Taking a trip home during festival season is a universal custom, common to all the cultures of Teyvat.\" Now that even Master Diluc has made an offer... Are you quite sure you won't stay for a meal after coming all this way, Master Kaeya?",
+            "nextDialogs": [
+              "400790844"
+            ]
+          },
+          "400790844": {
+            "id": "400790844",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "I couldn't possibly, Adelinde. I wouldn't want to trouble you.",
+            "nextDialogs": [
+              "400790845"
+            ]
+          },
+          "400790845": {
+            "id": "400790845",
+            "speakerId": 1007,
+            "speakerName": "Adelinde",
+            "text": "Oh, don't say that. How often do I get a chance to indulge my dear Master Kaeya, hmm? Tea for the Cavalry Captain when you visit in an official capacity doesn't count. I only get to spoil you if you'll let me cook for you.",
+            "nextDialogs": [
+              "400790846"
+            ]
+          },
+          "400790846": {
+            "id": "400790846",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Oh, uh...",
+            "nextDialogs": [
+              "400790847"
+            ]
+          },
+          "400790847": {
+            "id": "400790847",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "What happened to your swagger? Lost for words?",
+            "nextDialogs": [
+              "400790848"
+            ]
+          },
+          "400790848": {
+            "id": "400790848",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "...Ahaha... Diluc, you—",
+            "nextDialogs": [
+              "400790849"
+            ]
+          },
+          "400790849": {
+            "id": "400790849",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Surely you wouldn't dream of disappointing Adelinde?",
+            "nextDialogs": [
+              "400790850"
+            ]
+          },
+          "400790850": {
+            "id": "400790850",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The more the merrier.",
+            "nextDialogs": [
+              "400790851"
+            ]
+          },
+          "400790851": {
+            "id": "400790851",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "...Alright then. I'll take you up on the offer. Adelinde, one more set of cutlery, please, if you'd be so kind.",
+            "nextDialogs": [
+              "400790852"
+            ]
+          },
+          "400790852": {
+            "id": "400790852",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "The group dines to the sound of Kaeya's jesting and Diluc's disapproving grunts...",
+            "nextDialogs": [
+              "400790853"
+            ]
+          },
+          "400790853": {
+            "id": "400790853",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oof, Paimon's so full... Adelinde's cooking is amazing. Everything looked and tasted so beautiful."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007912",
+      "subQuestName": "Leave Dawn Winery",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4007950",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400795001"
+        ],
+        "dialogs": {
+          "400795001": {
+            "id": "400795001",
+            "speakerId": 1008,
+            "speakerName": "Marcel",
+            "text": "We're going through a ton of fruit this Weinlesefest... I really need that cart to get here safely."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007951",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400795101"
+        ],
+        "dialogs": {
+          "400795101": {
+            "id": "400795101",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "My heart, feels like, rotten berries. So sour.",
+            "nextDialogs": [
+              "400795102"
+            ]
+          },
+          "400795102": {
+            "id": "400795102",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "I don't understand what I should do...",
+            "nextDialogs": [
+              "400795103"
+            ]
+          },
+          "400795103": {
+            "id": "400795103",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "Aw, alright. I'll teach you a very special magic trick that can make all your troubles disappear in the blink of an eye.",
+            "nextDialogs": [
+              "400795104"
+            ]
+          },
+          "400795104": {
+            "id": "400795104",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "But before we do that, let's warm up with something a little bit easier, hmm? Let's practice some talking.",
+            "nextDialogs": [
+              "400795105"
+            ]
+          },
+          "400795105": {
+            "id": "400795105",
+            "speakerId": 1003,
+            "speakerName": "Lisa",
+            "text": "That way, the next time somebody helps you, or you have a different opinion from the rest of the group, you'll be able to express what you think clearly and precisely.",
+            "nextDialogs": [
+              "400795106"
+            ]
+          },
+          "400795106": {
+            "id": "400795106",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "Okay!",
+            "nextDialogs": [
+              "400795107"
+            ]
+          },
+          "400795107": {
+            "id": "400795107",
+            "speakerId": 1001,
+            "speakerName": "Razor",
+            "text": "I will do my best."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007952",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400795201"
+        ],
+        "dialogs": {
+          "400795201": {
+            "id": "400795201",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Family, huh...",
+            "nextDialogs": [
+              "400795202"
+            ]
+          },
+          "400795202": {
+            "id": "400795202",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "...",
+            "nextDialogs": [
+              "400795203"
+            ]
+          },
+          "400795203": {
+            "id": "400795203",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "Don't mind me. You should probably head back and get some rest.",
+            "nextDialogs": [
+              "400795204"
+            ]
+          },
+          "400795204": {
+            "id": "400795204",
+            "speakerId": 1005,
+            "speakerName": "Diluc",
+            "text": "I'm not the most familiar with Razor, but you can contact me if you ever need help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007953",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400795301"
+        ],
+        "dialogs": {
+          "400795301": {
+            "id": "400795301",
+            "speakerId": 1007,
+            "speakerName": "Adelinde",
+            "text": "It's been a long time since I last saw Masters Diluc and Kaeya sharing a meal together. The atmosphere was... ahem, was not something that a maid of my lowly stature should be commenting on.",
+            "nextDialogs": [
+              "400795302"
+            ]
+          },
+          "400795302": {
+            "id": "400795302",
+            "speakerId": 1007,
+            "speakerName": "Adelinde",
+            "text": "#{NICKNAME}, thank you so much for visiting. I hope to see you again soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007999",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400799903"
+        ],
+        "dialogs": {
+          "400799903": {
+            "id": "400799903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Kaeya, you're fond of a good drink, aren't you? Weinlesefest must be right up your alley.",
+            "nextDialogs": [
+              "400799904"
+            ]
+          },
+          "400799904": {
+            "id": "400799904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh, Kaeya...?",
+            "nextDialogs": [
+              "400799905"
+            ]
+          },
+          "400799905": {
+            "id": "400799905",
+            "speakerId": 1004,
+            "speakerName": "Kaeya",
+            "text": "Oh, I'm sorry, my mind was elsewhere... What was your question?",
+            "nextDialogs": [
+              "400799906"
+            ]
+          },
+          "400799906": {
+            "id": "400799906",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmph, never mind. Nothing that important."
+          }
+        }
+      }
+    }
+  ]
+}

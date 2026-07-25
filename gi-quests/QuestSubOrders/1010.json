@@ -1,0 +1,511 @@
+{
+  "lineCounts": {
+    "Childe": 18,
+    "Ekaterina": 5,
+    "Hongru": 1,
+    "Paimon": 16,
+    "Player": 17,
+    "Zhongli": 25
+  },
+  "subQuests": [
+    {
+      "subId": "101001",
+      "subQuestName": "Wait until the following day",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "101002",
+      "subQuestName": "Talk to the bank staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10100201"
+        ],
+        "dialogs": {
+          "10100201": {
+            "id": "10100201",
+            "speakerId": 1000,
+            "speakerName": "Ekaterina",
+            "text": "#Welcome, {NICKNAME}, friend of Childe. And congratulations on the first day of your illustrious career with the Fatui.",
+            "nextDialogs": [
+              "10100204"
+            ]
+          },
+          "10100204": {
+            "id": "10100204",
+            "speakerId": 1000,
+            "speakerName": "Ekaterina",
+            "text": "You sound remarkably sure of yourself... Remember, we are mere mortals — our ideas are fluid like water. Only the Tsaritsa truly has a will as solid as the permafrost.",
+            "nextDialogs": [
+              "10100205"
+            ]
+          },
+          "10100205": {
+            "id": "10100205",
+            "speakerId": 1000,
+            "speakerName": "Ekaterina",
+            "text": "But back to the matter at hand. Childe tells me that he has upheld his end of your agreement.",
+            "nextDialogs": [
+              "10100206"
+            ]
+          },
+          "10100206": {
+            "id": "10100206",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What agreement? Oh, the thing about him helping us find a guy?",
+            "nextDialogs": [
+              "10100207"
+            ]
+          },
+          "10100207": {
+            "id": "10100207",
+            "speakerId": 1000,
+            "speakerName": "Ekaterina",
+            "text": "Correct. Childe promised he would find someone to break the stalemate. And the Harbingers do not break their promises lightly.",
+            "nextDialogs": [
+              "10100208"
+            ]
+          },
+          "10100208": {
+            "id": "10100208",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ah. Where is that guy, anyway?",
+            "nextDialogs": [
+              "10100209"
+            ]
+          },
+          "10100209": {
+            "id": "10100209",
+            "speakerId": 1000,
+            "speakerName": "Ekaterina",
+            "text": "Childe is currently at <color=#00E1FFFF>Liuli Pavilion</color>.",
+            "nextDialogs": [
+              "10100210"
+            ]
+          },
+          "10100210": {
+            "id": "10100210",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Liuli Pavilion?",
+            "nextDialogs": [
+              "10100211"
+            ]
+          },
+          "10100211": {
+            "id": "10100211",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ooh, ooh Paimon knows this one!",
+            "nextDialogs": [
+              "10100212"
+            ]
+          },
+          "10100212": {
+            "id": "10100212",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "*clears throat* There are two styles of cooking in Liyue, known as Li style and Yue style. They have been competing for centuries, but neither has emerged as the clear winner.",
+            "nextDialogs": [
+              "10100213"
+            ]
+          },
+          "10100213": {
+            "id": "10100213",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "The flagship restaurant of the Li style is the Liuli Pavilion. The owner especially chose to open the restaurant at Feiyun Slope, so they could compete face-to-face with the Xinyue Kiosk, which is the flagship restaurant of the Yue style."
+          }
+        }
+      }
+    },
+    {
+      "subId": "101003",
+      "subQuestName": "Find Childe",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10100301"
+        ],
+        "dialogs": {
+          "10100301": {
+            "id": "10100301",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Aha, you made it.",
+            "nextDialogs": [
+              "10100302"
+            ]
+          },
+          "10100302": {
+            "id": "10100302",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "As promised, I have found someone who can help you. Someone who can solve the mystery of why the Liyue Qixing would hide the Geo Archon's vessel.",
+            "nextDialogs": [
+              "10100303"
+            ]
+          },
+          "10100303": {
+            "id": "10100303",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So where is he? In <color=#00E1FFFF>Liuli Pavilion</color>?",
+            "nextDialogs": [
+              "10100304"
+            ]
+          },
+          "10100304": {
+            "id": "10100304",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "He certainly is. Come, I'll introduce you.",
+            "nextDialogs": [
+              "10100305"
+            ]
+          },
+          "10100305": {
+            "id": "10100305",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "I took the liberty of setting up a business dinner, as per the Liyue custom."
+          }
+        }
+      }
+    },
+    {
+      "subId": "101004",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10100401"
+        ],
+        "dialogs": {
+          "10100401": {
+            "id": "10100401",
+            "speakerId": 1003,
+            "speakerName": "Hongru",
+            "text": "Welcome back, sir. You honor us with your patronage."
+          }
+        }
+      }
+    },
+    {
+      "subId": "101005",
+      "subQuestName": "Enter Liuli Pavilion",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10100501"
+        ],
+        "dialogs": {
+          "10100501": {
+            "id": "10100501",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Allow me to introduce Mr. Zhongli, consultant to an organization known as Wangsheng... and a trusted associate of the Fatui.",
+            "nextDialogs": [
+              "10100504"
+            ]
+          },
+          "10100504": {
+            "id": "10100504",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Indeed. Wangsheng's line of work can be... sensitive at times. Let's just say they understand when discretion is needed.",
+            "nextDialogs": [
+              "10100505"
+            ]
+          },
+          "10100505": {
+            "id": "10100505",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "And we, the Fatui, have always been glad to do business with friends who walk in the shadows.",
+            "nextDialogs": [
+              "10100506"
+            ]
+          },
+          "10100506": {
+            "id": "10100506",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "W—Walk in the shadows?",
+            "nextDialogs": [
+              "10100507"
+            ]
+          },
+          "10100507": {
+            "id": "10100507",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "It is an honor to meet you. I have heard tell of you from Mondstadt.",
+            "nextDialogs": [
+              "10100508"
+            ]
+          },
+          "10100508": {
+            "id": "10100508",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Discretion... shadows... Ah! Is Wangsheng some kind of business involving... \"dealing\" with people?",
+            "nextDialogs": [
+              "10100509"
+            ]
+          },
+          "10100509": {
+            "id": "10100509",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Indeed, it is as you have guessed.",
+            "nextDialogs": [
+              "10100510"
+            ]
+          },
+          "10100510": {
+            "id": "10100510",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ahh—!",
+            "nextDialogs": [
+              "10100511"
+            ]
+          },
+          "10100511": {
+            "id": "10100511",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "The Wangsheng Funeral Parlor organizes burials. We ensure that those who pass on do so in peace.",
+            "nextDialogs": [
+              "10100512"
+            ]
+          },
+          "10100512": {
+            "id": "10100512",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Eh?",
+            "nextDialogs": [
+              "10100513"
+            ]
+          },
+          "10100513": {
+            "id": "10100513",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Haha, did you think he was some sort of hired killer?",
+            "nextDialogs": [
+              "10100514"
+            ]
+          },
+          "10100514": {
+            "id": "10100514",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "The Fatui calls many such people friends, but the Wangsheng Funeral Parlor does not dabble in such business... well, ostensibly.",
+            "nextDialogs": [
+              "10100515"
+            ]
+          },
+          "10100515": {
+            "id": "10100515",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ostensibly...",
+            "nextDialogs": [
+              "10100516"
+            ]
+          },
+          "10100516": {
+            "id": "10100516",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Well, they are still— Ah, I shouldn't say too much. In any case, I brought you to meet Mr. Zhongli because...",
+            "nextDialogs": [
+              "10100517"
+            ]
+          },
+          "10100517": {
+            "id": "10100517",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Because I can bring you to see Rex Lapis' vessel.",
+            "nextDialogs": [
+              "10100518"
+            ]
+          },
+          "10100518": {
+            "id": "10100518",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What!?",
+            "nextDialogs": [
+              "10100519"
+            ]
+          },
+          "10100519": {
+            "id": "10100519",
+            "speakerId": 1002,
+            "speakerName": "Childe",
+            "text": "Ha, don't be so surprised. Sure, the Geo Archon's body has been squirreled away by order of the Tianquan Ningguang... but first, let's hear what Mr. Zhongli has to say, shall we?",
+            "nextDialogs": [
+              "10100520"
+            ]
+          },
+          "10100520": {
+            "id": "10100520",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Rex Lapis may be the Prime of Adepti, but he is ultimately an adeptus. Many adepti have left us over the millennia — this is the inexorable trend.",
+            "nextDialogs": [
+              "10100521"
+            ]
+          },
+          "10100521": {
+            "id": "10100521",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "The times have changed — you must have felt it too when you were at Jueyun Karst."
+          }
+        }
+      }
+    },
+    {
+      "subId": "101006",
+      "subQuestName": "Talk to Zhongli outside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10100601"
+        ],
+        "dialogs": {
+          "10100601": {
+            "id": "10100601",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "After having experienced the land of the absentee archon, Traveler, how does it feel to know that our archon and adepti are here all around you in Liyue?",
+            "nextDialogs": [
+              "10100603",
+              "10100606"
+            ]
+          },
+          "10100603": {
+            "id": "10100603",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "I see, so you're that sort of person. It's not a bad thing.",
+            "nextDialogs": [
+              "10100604"
+            ]
+          },
+          "10100604": {
+            "id": "10100604",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "But I suppose you have yet to experience the substance of Liyue's three thousand and seven hundred years of divinity.",
+            "nextDialogs": [
+              "10100607"
+            ]
+          },
+          "10100607": {
+            "id": "10100607",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Organizing the Rite of Parting should prove to be an enlightening part of your travels.",
+            "nextDialogs": [
+              "10100608"
+            ]
+          },
+          "10100608": {
+            "id": "10100608",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Liyue is the most prosperous of the seven nations, defended by deities and ruled by the Qixing. As such, the diplomatic maneuverings of the Fatui have gained no purchase here.",
+            "nextDialogs": [
+              "10100609"
+            ]
+          },
+          "10100609": {
+            "id": "10100609",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Ningguang of the Qixing has always been on her guard against the Fatui. That is in all likelihood why Childe wants to make use of the Wangsheng Funeral Parlor's connections.",
+            "nextDialogs": [
+              "10100610"
+            ]
+          },
+          "10100610": {
+            "id": "10100610",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh... what would Childe get out of us doing the Rite of Parting anyway?",
+            "nextDialogs": [
+              "10100611"
+            ]
+          },
+          "10100611": {
+            "id": "10100611",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "I neither know nor do I wish to know. As far as I am concerned, the Fatui are merely financial sponsors. I only wish for Liyue's traditions to endure.",
+            "nextDialogs": [
+              "10100612"
+            ]
+          },
+          "10100612": {
+            "id": "10100612",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "(Zhongli hands the player a bag of money)",
+            "nextDialogs": [
+              "10100613"
+            ]
+          },
+          "10100613": {
+            "id": "10100613",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "These are the advance funds that Childe has provided. If you use them up, you can go to him to apply for any subsequent funding.",
+            "nextDialogs": [
+              "10100614"
+            ]
+          },
+          "10100614": {
+            "id": "10100614",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow...",
+            "nextDialogs": [
+              "10100615"
+            ]
+          },
+          "10100615": {
+            "id": "10100615",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Well then, let us be off. The first step in our preparations shall be to obtain some prize <color=#00E1FFFF>Noctilucous Jade</color> worthy of a deity."
+          },
+          "10100606": {
+            "id": "10100606",
+            "speakerId": 1004,
+            "speakerName": "Zhongli",
+            "text": "Indeed. The weight of three thousand and seven hundred years' worth of history runs deepest in the true divinity of Liyue."
+          }
+        }
+      }
+    }
+  ]
+}

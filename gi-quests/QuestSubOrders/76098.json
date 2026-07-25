@@ -1,0 +1,1169 @@
+{
+  "lineCounts": {
+    "Ancient Terminal": 3,
+    "Automated Bunker Threat Response System": 10,
+    "Bunker Access Terminal Server": 11,
+    "Gentle Female Voice": 4,
+    "Paimon": 58,
+    "Player": 25,
+    "The \"Ultimate Calamity\"?": 2,
+    "Ultimate Calamity": 14
+  },
+  "subQuests": [
+    {
+      "subId": "7609803",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760980301"
+        ],
+        "dialogs": {
+          "760980301": {
+            "id": "760980301",
+            "speakerId": 1000,
+            "speakerName": "Gentle Female Voice",
+            "text": "\"...Welcome to Bunker No. (...), friends from afar...\"",
+            "nextDialogs": [
+              "760980302"
+            ]
+          },
+          "760980302": {
+            "id": "760980302",
+            "speakerId": 1000,
+            "speakerName": "Gentle Female Voice",
+            "text": "\"...If you are listening to this recording, it means that the <color=#FF5E41FF>apocalypse</color> is imminent...\"",
+            "nextDialogs": [
+              "760980303"
+            ]
+          },
+          "760980303": {
+            "id": "760980303",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa! Paimon almost died of fright. She didn't realize this thing could talk! Whoa, whoa, whoa, Paimon's missing something — did it just say something super scary that went right over Paimon's head?",
+            "nextDialogs": [
+              "760980308",
+              "760980306"
+            ]
+          },
+          "760980308": {
+            "id": "760980308",
+            "speakerId": 1000,
+            "speakerName": "Gentle Female Voice",
+            "text": "\"...Fortunately, you have found this bunker, and we are grateful to have you here... together... in the bunker at the end of the <color=#FF5E41FF>apocalypse</color>...\"",
+            "nextDialogs": [
+              "760980309"
+            ]
+          },
+          "760980309": {
+            "id": "760980309",
+            "speakerId": 1000,
+            "speakerName": "Gentle Female Voice",
+            "text": "\"...Please... use the key card... The <color=#00E1FFF>lift</color> connects... safe... take... to the bunker...\"",
+            "nextDialogs": [
+              "760980310"
+            ]
+          },
+          "760980310": {
+            "id": "760980310",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa, did the mechanism just break? All that fuzzy noise drowned out her voice. Paimon couldn't hear what she was saying...",
+            "nextDialogs": [
+              "760980311"
+            ]
+          },
+          "760980311": {
+            "id": "760980311",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Paimon can't figure out what this place is... {NICKNAME}, why don't we go inside and take a look?"
+          },
+          "760980306": {
+            "id": "760980306",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, it's just the apocalypse — that's a big weight off Paimon's chest...",
+            "nextDialogs": [
+              "760980307"
+            ]
+          },
+          "760980307": {
+            "id": "760980307",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...Except obviously it's not!!! How can you be so casual about it? That tone — you sound like you're announcing we're having Chicken-Mushroom Skewers for breakfast!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609804",
+      "subQuestName": "Enter the bunker",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760980401"
+        ],
+        "dialogs": {
+          "760980401": {
+            "id": "760980401",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Maintenance order for <color=#00E1FFF>Research Zone 1</color> complete. Expected duration exceeded by: <color=#FF5E41FF>3,942,176</color> hour(s). A report of negligent conduct has been issued to the supervisory authority.",
+            "nextDialogs": [
+              "760980402"
+            ]
+          },
+          "760980402": {
+            "id": "760980402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "H—How many hours? Whoa, Paimon can only remember the first number. How many others were there after that three?",
+            "nextDialogs": [
+              "760980403"
+            ]
+          },
+          "760980403": {
+            "id": "760980403",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Access updated: Senior Technician Kotelnikov. Welcome to the Bunker Access Terminal Server.",
+            "nextDialogs": [
+              "760980404"
+            ]
+          },
+          "760980404": {
+            "id": "760980404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? Does this thing think we're the maintenance worker sent to repair the purification system...?",
+            "nextDialogs": [
+              "760980405"
+            ]
+          },
+          "760980405": {
+            "id": "760980405",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon guesses that means we can access more places now! Let's see... This one appears to be <color=#00E1FFF>Research Zone 2</color>?",
+            "nextDialogs": [
+              "760980406"
+            ]
+          },
+          "760980406": {
+            "id": "760980406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Check on the status of Research Zone 2.)",
+            "nextDialogs": [
+              "760980407"
+            ]
+          },
+          "760980407": {
+            "id": "760980407",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Generating status report. Please wait.",
+            "nextDialogs": [
+              "760980408"
+            ]
+          },
+          "760980408": {
+            "id": "760980408",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "<color=#00E1FFF>Research Zone 2</color>: <color=#FF5E41FF>Warning</color>. High concentrations of Abyssal contamination and signs of the \"Ultimate Calamity\" have been detected.",
+            "nextDialogs": [
+              "760980409"
+            ]
+          },
+          "760980409": {
+            "id": "760980409",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "<color=#FF5E41FF>Apocalypse</color> Purification System: <color=#FF5E41FF>Damaged</color>. Senior Technician Kotelnikov, please proceed to perform repairs under the protection of a guard escort.",
+            "nextDialogs": [
+              "760980410"
+            ]
+          },
+          "760980410": {
+            "id": "760980410",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "A guard escort? Paimon doesn't see any guards around here... Wait a second — what did it say has been detected?",
+            "nextDialogs": [
+              "760980414",
+              "760980413"
+            ]
+          },
+          "760980414": {
+            "id": "760980414",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But if the \"apocalypse\" is actually just an Abyssal monster, then it's probably the source of this place's contamination...",
+            "nextDialogs": [
+              "760980415"
+            ]
+          },
+          "760980415": {
+            "id": "760980415",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#If we can take it down, the Abyssal contamination here should be cleaned up once and for all, right? {NICKNAME}, let's head to <color=#00E1FFF>Research Zone 2</color>!"
+          },
+          "760980413": {
+            "id": "760980413",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hehe, Paimon'll keep you safe! ...Is what Guard Captain Paimon would say — if she had a weapon. Unfortunately, you'll have to watch your own back."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609802",
+      "subQuestName": "Continue onward",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760980201"
+        ],
+        "dialogs": {
+          "760980201": {
+            "id": "760980201",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Unregistered residents detected. Initiating standard safety inspection protocol...",
+            "nextDialogs": [
+              "760980202"
+            ]
+          },
+          "760980202": {
+            "id": "760980202",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Scan complete. <color=#FF5E41FF>Multiple dangerous items</color> detected. For the safety of other residents, please place all weapons and dangerous items into the designated receptacles.",
+            "nextDialogs": [
+              "760980203"
+            ]
+          },
+          "760980203": {
+            "id": "760980203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? It wants us to hand over our weapons!?",
+            "nextDialogs": [
+              "760980204"
+            ]
+          },
+          "760980204": {
+            "id": "760980204",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "I apologize for any inconvenience. The purpose of confiscating dangerous items is to ensure the absolute safety of the bunker's residents. Your items will be safely stored. You can retrieve your belongings when you leave.",
+            "nextDialogs": [
+              "760980205"
+            ]
+          },
+          "760980205": {
+            "id": "760980205",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "If you have any safety concerns, please rest assured, the bunker is equipped with the most advanced <color=#FF5E41FF>Apocalypse</color> Purification System available. You will encounter no danger here.",
+            "nextDialogs": [
+              "760980206"
+            ]
+          },
+          "760980206": {
+            "id": "760980206",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "In the name of Professor (...), I guarantee that no matter what monsters rage beyond the sky's veil, they will not infiltrate our Elysium.",
+            "nextDialogs": [
+              "760980207"
+            ]
+          },
+          "760980207": {
+            "id": "760980207",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uhm, beyond the sky's veil? Aren't we at the bottom of the sea?",
+            "nextDialogs": [
+              "760980208"
+            ]
+          },
+          "760980208": {
+            "id": "760980208",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "...",
+            "nextDialogs": [
+              "760980209"
+            ]
+          },
+          "760980209": {
+            "id": "760980209",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon gets it! It's like those novels in Nasha Town — the \"apocalypse\" is talking about aliens coming to invade Teyvat...",
+            "nextDialogs": [
+              "760980213"
+            ]
+          },
+          "760980213": {
+            "id": "760980213",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon was only joking! Even if there were invaders from beyond the sky, they wouldn't invade a place like this... Uhm, would they?",
+            "nextDialogs": [
+              "760980214"
+            ]
+          },
+          "760980214": {
+            "id": "760980214",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Besides, since it's a safe bunker, it seems reasonable to take our weapons off for now, right? Unless they're secretly doing bad things in here...",
+            "nextDialogs": [
+              "760980215"
+            ]
+          },
+          "760980215": {
+            "id": "760980215",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Like deliberately providing really yucky food... or occasionally breaking the water purifier on purpose... or... locking the main entrance and trapping everyone inside forever...",
+            "nextDialogs": [
+              "760980216"
+            ]
+          },
+          "760980216": {
+            "id": "760980216",
+            "speakerId": 1004,
+            "speakerName": "Ancient Terminal",
+            "text": "Please be assured. This bunker is designed to provide absolute safety. All residents are free to leave at any time they wish.",
+            "nextDialogs": [
+              "760980217"
+            ]
+          },
+          "760980217": {
+            "id": "760980217",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Well, since the mysterious mechanism says it's all above board... Paimon thinks we should trust it, right, {NICKNAME}?",
+            "nextDialogs": [
+              "760980218"
+            ]
+          },
+          "760980218": {
+            "id": "760980218",
+            "speakerId": 1004,
+            "speakerName": "Ancient Terminal",
+            "text": "Thank you for your cooperation. All dangerous items have been collected. Scan complete. No threats detected. Standard safety inspection protocol complete.",
+            "nextDialogs": [
+              "760980219"
+            ]
+          },
+          "760980219": {
+            "id": "760980219",
+            "speakerId": 1004,
+            "speakerName": "Ancient Terminal",
+            "text": "Welcome to the bunker at the end of the <color=#FF5E41FF>apocalypse</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609805",
+      "subQuestName": "Continue onward",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609826",
+      "subQuestName": "Investigate the nearby area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609806",
+      "subQuestName": "Explore up ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609807",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760980701"
+        ],
+        "dialogs": {
+          "760980701": {
+            "id": "760980701",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Access granted. Welcome to the Bunker Access Terminal Server.",
+            "nextDialogs": [
+              "760980702"
+            ]
+          },
+          "760980702": {
+            "id": "760980702",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Let me see... This looks like a map of the bunker...",
+            "nextDialogs": [
+              "760980703"
+            ]
+          },
+          "760980703": {
+            "id": "760980703",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But the key card we got last time seems to only give us access to <color=#00E1FFF>Research Zone 1</color>...",
+            "nextDialogs": [
+              "760980704"
+            ]
+          },
+          "760980704": {
+            "id": "760980704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Check on the status of Research Zone 1.)",
+            "nextDialogs": [
+              "760980705"
+            ]
+          },
+          "760980705": {
+            "id": "760980705",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Generating status report. Please wait.",
+            "nextDialogs": [
+              "760980706"
+            ]
+          },
+          "760980706": {
+            "id": "760980706",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "<color=#00E1FFF>Research Zone 1</color>: <color=#FF5E41FF>Warning</color>. High concentrations of Abyssal contamination detected. Current risk of overflow: <color=#FF5E41FF>Extreme</color>.",
+            "nextDialogs": [
+              "760980707"
+            ]
+          },
+          "760980707": {
+            "id": "760980707",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "<color=#FF5E41FF>Apocalypse</color> Purification System: <color=#FF5E41FF>Blocked</color>. Maintenance personnel have been dispatched.",
+            "nextDialogs": [
+              "760980708"
+            ]
+          },
+          "760980708": {
+            "id": "760980708",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Time elapsed since previous maintenance request: <color=#FF5E41FF>Error</color> standard hour(s). Please do not panic, resident. Stay calm and await supervisory instructions.",
+            "nextDialogs": [
+              "760980709"
+            ]
+          },
+          "760980709": {
+            "id": "760980709",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ugh! This purification system is completely useless!",
+            "nextDialogs": [
+              "760980710"
+            ]
+          },
+          "760980710": {
+            "id": "760980710",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Okay, Paimon thinks she understands now — the \"apocalypse\" is actually Abyssal contamination, right? *sigh* This bunker was built to keep out the Abyss, but the contamination inside ended up being worse than anything out there...",
+            "nextDialogs": [
+              "760980712",
+              "760980714"
+            ]
+          },
+          "760980712": {
+            "id": "760980712",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, we've got to figure out a way to deal with this. Otherwise, the contamination could spill out...",
+            "nextDialogs": [
+              "760980715"
+            ]
+          },
+          "760980715": {
+            "id": "760980715",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's take a look around Research Zone 1.",
+            "nextDialogs": [
+              "760980716"
+            ]
+          },
+          "760980716": {
+            "id": "760980716",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Alright, let's go!"
+          },
+          "760980714": {
+            "id": "760980714",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't know. But if we don't do anything, the Abyssal contamination could spill out... Paimon thinks our only choice is to deal with the problem ourselves."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609832",
+      "subQuestName": "Go to the second floor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609808",
+      "subQuestName": "Investigate the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609809",
+      "subQuestName": "Investigate the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609818",
+      "subQuestName": "Examine the control terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760981801"
+        ],
+        "dialogs": {
+          "760981801": {
+            "id": "760981801",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Phew... That's that dealt with. What an annoying little...",
+            "nextDialogs": [
+              "760981802"
+            ]
+          },
+          "760981802": {
+            "id": "760981802",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It seemed convinced Teyvat was destroyed, and we were outside the sky...",
+            "nextDialogs": [
+              "760981803"
+            ]
+          },
+          "760981803": {
+            "id": "760981803",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ugh! Let's just forget about that idiot! Right, it looks like we've dealt with that thing — whether it was an apocalypse or just the Abyss!",
+            "nextDialogs": [
+              "760981805",
+              "760981807"
+            ]
+          },
+          "760981805": {
+            "id": "760981805",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, and we'd better give credit to that researcher named Grazina, right? Paimon wonders what happened to her...",
+            "nextDialogs": [
+              "760981808"
+            ]
+          },
+          "760981808": {
+            "id": "760981808",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Alright, that just about wraps everything— Huh? Wait! What's this?",
+            "nextDialogs": [
+              "760981809"
+            ]
+          },
+          "760981809": {
+            "id": "760981809",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "P—Proof of the Cognoscenti!? What's that doing in a place like this...",
+            "nextDialogs": [
+              "760981810"
+            ]
+          },
+          "760981810": {
+            "id": "760981810",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And it looks like it was left by Reed Miller himself... This means we're one step closer to the Great Treasure!",
+            "nextDialogs": [
+              "760981811"
+            ]
+          },
+          "760981811": {
+            "id": "760981811",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hehe, Paimon can't wait to find out what it is!"
+          },
+          "760981807": {
+            "id": "760981807",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What? You weren't even using your sword! Oh, that reminds Paimon — we can't forget to pick up our stuff before we leave the bunker..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609819",
+      "subQuestName": "Enter the experiment site and adjust the valves",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609820",
+      "subQuestName": "Leave the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609821",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609810",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760981001"
+        ],
+        "dialogs": {
+          "760981001": {
+            "id": "760981001",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Maintenance complete. <color=#FF5E41FF>Apocalypse</color> Purification System: <color=#FF5E41FF>Operating Normally</color>. <color=#3399CCFF>Key card</color> unlocked.",
+            "nextDialogs": [
+              "760981002"
+            ]
+          },
+          "760981002": {
+            "id": "760981002",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Don't forget to retrieve your key card. Have a wonderful day.",
+            "nextDialogs": [
+              "760981003"
+            ]
+          },
+          "760981003": {
+            "id": "760981003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? Looking closely, this card seems to be a different color from the one we got earlier.",
+            "nextDialogs": [
+              "760981004"
+            ]
+          },
+          "760981004": {
+            "id": "760981004",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't know who left it here, but we should take it. Maybe we can find its owner... Oh, right, there doesn't seem to be anyone else here..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609811",
+      "subQuestName": "Return to the main control terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609812",
+      "subQuestName": "Investigate the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609813",
+      "subQuestName": "Investigate the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609831",
+      "subQuestName": "Defeat the monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609814",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760980101"
+        ],
+        "dialogs": {
+          "760980101": {
+            "id": "760980101",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Maintenance complete. <color=#FF5E41FF>Apocalypse</color> Purification System: <color=#FF5E41FF>Operating Normally</color>. <color=#3399CCFF>Key card</color> unlocked.",
+            "nextDialogs": [
+              "760980102"
+            ]
+          },
+          "760980102": {
+            "id": "760980102",
+            "speakerId": 1003,
+            "speakerName": "Automated Bunker Threat Response System",
+            "text": "Don't forget to retrieve your key card. Have a wonderful day.",
+            "nextDialogs": [
+              "760980103"
+            ]
+          },
+          "760980103": {
+            "id": "760980103",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh, this time, the key card's golden...",
+            "nextDialogs": [
+              "760980104"
+            ]
+          },
+          "760980104": {
+            "id": "760980104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That terminal report before mentioned signs of large monster activity in Research Zone 2... There's no way it could be talking about the one we just saw, surely?",
+            "nextDialogs": [
+              "760980105"
+            ]
+          },
+          "760980105": {
+            "id": "760980105",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ugh, Paimon doesn't get it. For now, let's head back to the terminal and see what this card unlocks."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609815",
+      "subQuestName": "Return to the main control terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760981501"
+        ],
+        "dialogs": {
+          "760981501": {
+            "id": "760981501",
+            "speakerId": 1002,
+            "speakerName": "Bunker Access Terminal Server",
+            "text": "Access updated: Senior Researcher Grazina. Welcome to the Bunker Access Terminal Server.",
+            "nextDialogs": [
+              "760981502"
+            ]
+          },
+          "760981502": {
+            "id": "760981502",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hey! It looks like that key card we just picked up still works!",
+            "nextDialogs": [
+              "760981503"
+            ]
+          },
+          "760981503": {
+            "id": "760981503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Which makes Paimon think, this Grazina person must have been a pretty big deal — they seem to have had access to the entire bunker...",
+            "nextDialogs": [
+              "760981504"
+            ]
+          },
+          "760981504": {
+            "id": "760981504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm, it looks like the only place we haven't been to yet is the <color=#00E1FFF>Supervisory Office</color>.",
+            "nextDialogs": [
+              "760981505"
+            ]
+          },
+          "760981505": {
+            "id": "760981505",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If that \"apocalypse\" thing is still hanging around, this is the only place it could be. Hmm, Paimon thinks that whatever it is, it's probably not that scary, since scary things wouldn't want to hide from us!",
+            "nextDialogs": [
+              "760981509",
+              "760981508"
+            ]
+          },
+          "760981509": {
+            "id": "760981509",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Alright, let's go check out the <color=#00E1FFF>Supervisory Office</color>!"
+          },
+          "760981508": {
+            "id": "760981508",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Yeah, we're experienced adventurers after all! Even without weapons, {NICKNAME} can take down any monster with just a bish — bash — bosh!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609816",
+      "subQuestName": "Go to the third floor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609828",
+      "subQuestName": "Investigate the nearby area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760982801"
+        ],
+        "dialogs": {
+          "760982801": {
+            "id": "760982801",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "Grazina...? You backstabbing snake, how dare you show yourself before me...",
+            "nextDialogs": [
+              "760982802"
+            ]
+          },
+          "760982802": {
+            "id": "760982802",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Whoa, {NICKNAME}, watch out! That monster seems to have been lured out!",
+            "nextDialogs": [
+              "760982803"
+            ]
+          },
+          "760982803": {
+            "id": "760982803",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "No, no, you're not Grazina... I can't detect your scent. What are you? A living being, or another spirit flying aimlessly across the bedeviled sky?",
+            "nextDialogs": [
+              "760982804"
+            ]
+          },
+          "760982804": {
+            "id": "760982804",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "No living creature can enter this grave... Their grave, our grave. Answer me! Did Professor Rotwang send you here? Has my master forgiven me?",
+            "nextDialogs": [
+              "760982806",
+              "760982818",
+              "760982821"
+            ]
+          },
+          "760982806": {
+            "id": "760982806",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "<color=#FF5E41FF>Apocalypse</color>? <color=#FF5E41FF>Apocalypse</color>! Heh... Haha... Look at the world out there! <color=#FF5E41FF>The apocalypse</color> has already descended upon us!",
+            "nextDialogs": [
+              "760982807"
+            ]
+          },
+          "760982807": {
+            "id": "760982807",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "Young Solovei tried to stop it, and Brahe, who impersonated Reed Miller. Even that treacherous snake, Grazina — she tried to stop it, too... But their efforts were all in vain. It came... It still came!",
+            "nextDialogs": [
+              "760982808"
+            ]
+          },
+          "760982808": {
+            "id": "760982808",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "My master... Professor Rotwang... reduced that pathetic world to ashes with the \"SAMPO.\" After all that destruction, this bunker is all that remains, isolated amid the bedeviled sky..."
+          },
+          "760982818": {
+            "id": "760982818",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Exactly! Paimon has no idea what you're babbling about... Wait! \"Feel the blade of my sword\"? You mean the one that's still stored at the entrance!?",
+            "nextDialogs": [
+              "760982819"
+            ]
+          },
+          "760982819": {
+            "id": "760982819",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "No matter... No matter! Ignorant fools — even if that snake Grazina has imprisoned me here, your flesh and blood will still become tomorrow's sustenance..."
+          },
+          "760982821": {
+            "id": "760982821",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "Heh... Haha... I thought I was the only one who could deceive those fools with such crude lies. I didn't expect you to use my own tricks against me...",
+            "nextDialogs": [
+              "760982822"
+            ]
+          },
+          "760982822": {
+            "id": "760982822",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "Don't think you can fool me! Don't think you can fool us! Professor Rotwang can never die. No... Never! Otherwise, how could Teyvat have been destroyed, and how could we be drifting amid the bedeviled sky?",
+            "nextDialogs": [
+              "760982823"
+            ]
+          },
+          "760982823": {
+            "id": "760982823",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Teyvat hasn't been destroyed. You're at the bottom of the sea.",
+            "nextDialogs": [
+              "760982824"
+            ]
+          },
+          "760982824": {
+            "id": "760982824",
+            "speakerId": 1005,
+            "speakerName": "Ultimate Calamity",
+            "text": "Enough! Cease your vicious lies, vile desecrater! My master would not deceive me — I have already broken free of the celestial shell, no longer to suffer the shackles of gravity and fate!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609817",
+      "subQuestName": "Defeat the monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760981701"
+        ],
+        "dialogs": {
+          "760981701": {
+            "id": "760981701",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Phew... That's that dealt with. What an annoying little...",
+            "nextDialogs": [
+              "760981702"
+            ]
+          },
+          "760981702": {
+            "id": "760981702",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It seemed convinced Teyvat was destroyed, and we were outside the sky...",
+            "nextDialogs": [
+              "760981703"
+            ]
+          },
+          "760981703": {
+            "id": "760981703",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ugh! Let's just forget about that idiot! Right, it looks like we've dealt with that thing — whether it was an apocalypse or just the Abyss!",
+            "nextDialogs": [
+              "760981705",
+              "760981707"
+            ]
+          },
+          "760981705": {
+            "id": "760981705",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, and we'd better give credit to that researcher named Grazina, right? Paimon wonders what happened to her...",
+            "nextDialogs": [
+              "760981708"
+            ]
+          },
+          "760981708": {
+            "id": "760981708",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Alright, that just about wraps everything— Huh? Wait! What's this?",
+            "nextDialogs": [
+              "760981709"
+            ]
+          },
+          "760981709": {
+            "id": "760981709",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm... Paimon doesn't get it. So this thing is the \"Proof of the Cognoscenti\"?",
+            "nextDialogs": [
+              "760981710"
+            ]
+          },
+          "760981710": {
+            "id": "760981710",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's a little rusty, but it still looks like a super expensive antique... Could this thing hold some special meaning for the Treasure Hoarders?",
+            "nextDialogs": [
+              "760981711"
+            ]
+          },
+          "760981711": {
+            "id": "760981711",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, we'd better take it with us! Paimon has a feeling it's gonna come in handy!"
+          },
+          "760981707": {
+            "id": "760981707",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What? You weren't even using your sword! Oh, that reminds Paimon — we can't forget to pick up our stuff before we leave the bunker..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7609833",
+      "subQuestName": "Investigate the nearby area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609827",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609829",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7609801",
+      "subQuestName": "Leave the bunker",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

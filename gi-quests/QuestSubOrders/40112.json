@@ -1,0 +1,1323 @@
+{
+  "lineCounts": {
+    "Black Screen": 3,
+    "Collei": 21,
+    "Eula": 25,
+    "Jean": 10,
+    "Kaeya": 32,
+    "Klee": 44,
+    "Paimon": 46,
+    "Player": 20
+  },
+  "subQuests": [
+    {
+      "subId": "4011201",
+      "subQuestName": "Go to the Knights of Favonius Headquarters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4011202",
+      "subQuestName": "Talk with everyone in the Knights of Favonius",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401120201"
+        ],
+        "dialogs": {
+          "401120201": {
+            "id": "401120201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, Jean! We're here!",
+            "nextDialogs": [
+              "401120202"
+            ]
+          },
+          "401120202": {
+            "id": "401120202",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "Ah, Paimon and the Traveler. I've been waiting for you.",
+            "nextDialogs": [
+              "401120203"
+            ]
+          },
+          "401120203": {
+            "id": "401120203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, looks like Jean wasn't the only one waiting for us. Klee and Kaeya are here, too...",
+            "nextDialogs": [
+              "401120204"
+            ]
+          },
+          "401120204": {
+            "id": "401120204",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "#Oh, it's Paimon and {M#Mr.}{F#Miss} Honorary Knight! It's been so long!",
+            "nextDialogs": [
+              "401120205"
+            ]
+          },
+          "401120205": {
+            "id": "401120205",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Ah, look who it is.",
+            "nextDialogs": [
+              "401120206"
+            ]
+          },
+          "401120206": {
+            "id": "401120206",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "You've caught me completely off guard this time... But then again, it's always a pleasant surprise when you two show up.",
+            "nextDialogs": [
+              "401120207"
+            ]
+          },
+          "401120207": {
+            "id": "401120207",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, guess we were so excited to see Jean again that we forgot to knock. Hope we didn't startle anyone...",
+            "nextDialogs": [
+              "401120208"
+            ]
+          },
+          "401120208": {
+            "id": "401120208",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a sec, you weren't talking about anything that we're not supposed to hear, were you?",
+            "nextDialogs": [
+              "401120210",
+              "401120212"
+            ]
+          },
+          "401120210": {
+            "id": "401120210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Stop pretending like we're doing food deliveries!",
+            "nextDialogs": [
+              "401120213"
+            ]
+          },
+          "401120213": {
+            "id": "401120213",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "It's been a while since we last met, but I can see you two haven't changed one bit.",
+            "nextDialogs": [
+              "401120214"
+            ]
+          },
+          "401120214": {
+            "id": "401120214",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "Don't worry. We weren't discussing anything confidential.",
+            "nextDialogs": [
+              "401120215"
+            ]
+          },
+          "401120215": {
+            "id": "401120215",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "In fact, we were just talking about you...",
+            "nextDialogs": [
+              "401120216"
+            ]
+          },
+          "401120216": {
+            "id": "401120216",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Maybe we should let the star of the story explain it in their own words?",
+            "nextDialogs": [
+              "401120217"
+            ]
+          },
+          "401120217": {
+            "id": "401120217",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Yeah! Lemme tell it, lemme tell it!",
+            "nextDialogs": [
+              "401120218"
+            ]
+          },
+          "401120218": {
+            "id": "401120218",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "A few days ago, I was reading Dodoco Tales in the solitary confinement room... when all of a sudden, whoosh! A letter came flying in through the window!",
+            "nextDialogs": [
+              "401120219"
+            ]
+          },
+          "401120219": {
+            "id": "401120219",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Flying through the window? How does a letter fly?",
+            "nextDialogs": [
+              "401120220"
+            ]
+          },
+          "401120220": {
+            "id": "401120220",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Like a bird does — it was flapping its wings. It could even talk!",
+            "nextDialogs": [
+              "401120221"
+            ]
+          },
+          "401120221": {
+            "id": "401120221",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "It said... Um, well, it was a bunch of stuff I didn't understand...",
+            "nextDialogs": [
+              "401120222"
+            ]
+          },
+          "401120222": {
+            "id": "401120222",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "You couldn't understand? Then it must have been talking about how to avoid solitary confinement...",
+            "nextDialogs": [
+              "401120223"
+            ]
+          },
+          "401120223": {
+            "id": "401120223",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "Ahem, Kaeya...",
+            "nextDialogs": [
+              "401120224"
+            ]
+          },
+          "401120224": {
+            "id": "401120224",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Just saying... We don't want to let a teachable moment slip by.",
+            "nextDialogs": [
+              "401120225"
+            ]
+          },
+          "401120225": {
+            "id": "401120225",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "*sigh* Okay, I know... Anyway, the letter said: \"Oh Klee, are you behaving? I see you've wound up in the solitary confinement room again...\" Hehe, um, sorry about that.",
+            "nextDialogs": [
+              "401120226"
+            ]
+          },
+          "401120226": {
+            "id": "401120226",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "\"Mommy is busy these days and can't take you out to play. But there's good news — I have a friend who has very kindly invited you to visit her!\"",
+            "nextDialogs": [
+              "401120227"
+            ]
+          },
+          "401120227": {
+            "id": "401120227",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, so the letter's from Alice!",
+            "nextDialogs": [
+              "401120228"
+            ]
+          },
+          "401120228": {
+            "id": "401120228",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That sounds great, doesn't it?",
+            "nextDialogs": [
+              "401120229"
+            ]
+          },
+          "401120229": {
+            "id": "401120229",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "In principle, yes. But the issue is that Alice's friend lives quite far from here.",
+            "nextDialogs": [
+              "401120230"
+            ]
+          },
+          "401120230": {
+            "id": "401120230",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Mm-hmm, the letter says that Mom's friend lives in Sumeru.",
+            "nextDialogs": [
+              "401120231"
+            ]
+          },
+          "401120231": {
+            "id": "401120231",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "The Knights of Favonius could never agree to send Klee off to Sumeru on her own, but Klee is rather intent on taking Alice's friend up on this invitation.",
+            "nextDialogs": [
+              "401120232"
+            ]
+          },
+          "401120232": {
+            "id": "401120232",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Yeah! I really wanna go!",
+            "nextDialogs": [
+              "401120233"
+            ]
+          },
+          "401120233": {
+            "id": "401120233",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "You see? So, we were wondering — who can we send with her on the journey? Preferably, someone who's a reliable hero, and with a history of saving Mondstadt...",
+            "nextDialogs": [
+              "401120234"
+            ]
+          },
+          "401120234": {
+            "id": "401120234",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! So that's why you wanted to see us.",
+            "nextDialogs": [
+              "401120235"
+            ]
+          },
+          "401120235": {
+            "id": "401120235",
+            "speakerId": 1001,
+            "speakerName": "Jean",
+            "text": "I do apologize, but Klee gets along with you so well... We couldn't think of a more suitable choice.",
+            "nextDialogs": [
+              "401120236"
+            ]
+          },
+          "401120236": {
+            "id": "401120236",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Sure, we can do that, no problem! Right?",
+            "nextDialogs": [
+              "401120237"
+            ]
+          },
+          "401120237": {
+            "id": "401120237",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "#Hehe, can you really, {M#Mr.}{F#Miss} Honorary Knight?"
+          },
+          "401120212": {
+            "id": "401120212",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hah! Showing your guide the way? Yeah, right."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4011203",
+      "subQuestName": "Talk to everyone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401120301"
+        ],
+        "dialogs": {
+          "401120301": {
+            "id": "401120301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whew, we made it. Paimon was sure we were about to end up some place super weird.",
+            "nextDialogs": [
+              "401120302"
+            ]
+          },
+          "401120302": {
+            "id": "401120302",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Hehe, sorry! It was an accident...",
+            "nextDialogs": [
+              "401120303"
+            ]
+          },
+          "401120303": {
+            "id": "401120303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's okay, Klee. Good news is, this Magic Invite really does work!",
+            "nextDialogs": [
+              "401120304"
+            ]
+          },
+          "401120304": {
+            "id": "401120304",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Fascinating. One moment we're in Mondstadt, the next we're in Sumeru.",
+            "nextDialogs": [
+              "401120305"
+            ]
+          },
+          "401120305": {
+            "id": "401120305",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "So this is where Mom's friend lives? Wow, there are so many big flowers! Oh, and jumpy mushrooms!",
+            "nextDialogs": [
+              "401120306"
+            ]
+          },
+          "401120306": {
+            "id": "401120306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You ain't seen nothin' yet! Sumeru's full of strange stuff like this!",
+            "nextDialogs": [
+              "401120307"
+            ]
+          },
+          "401120307": {
+            "id": "401120307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Like, um...",
+            "nextDialogs": [
+              "401120309",
+              "401120311"
+            ]
+          },
+          "401120309": {
+            "id": "401120309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! Heh, Paimon was pretty creeped-out the first time we saw one of those!",
+            "nextDialogs": [
+              "401120312"
+            ]
+          },
+          "401120312": {
+            "id": "401120312",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Listen carefully, Klee. Those jumping mushrooms are called Fungi. They may look cute, but if you get too close to one, it'll try to hit you with its cap.",
+            "nextDialogs": [
+              "401120313"
+            ]
+          },
+          "401120313": {
+            "id": "401120313",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Really? Okay, well... I'll hit it back with my cap!",
+            "nextDialogs": [
+              "401120314"
+            ]
+          },
+          "401120314": {
+            "id": "401120314",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "And then I'll hit it with the hood on my jacket, too! Hee-hee, I'll definitely win if it's two hats against one!",
+            "nextDialogs": [
+              "401120315"
+            ]
+          },
+          "401120315": {
+            "id": "401120315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yeah Klee, you show 'em!",
+            "nextDialogs": [
+              "401120316"
+            ]
+          },
+          "401120316": {
+            "id": "401120316",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "As long as playing with hats doesn't escalate to playing with bombs... But Klee's our friend, so we should be able to convince her to keep this trip explosion-free, right?",
+            "nextDialogs": [
+              "401120317"
+            ]
+          },
+          "401120317": {
+            "id": "401120317",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Mm-hmm! I'll be extra careful not to blow anything up! Um... I mean, I'll try my best...",
+            "nextDialogs": [
+              "401120318"
+            ]
+          },
+          "401120318": {
+            "id": "401120318",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aww, that's very good of you, Klee! You're being very grown-up today!",
+            "nextDialogs": [
+              "401120319"
+            ]
+          },
+          "401120319": {
+            "id": "401120319",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Yep! I'm super grown-up, I'm already the Spark Knight!",
+            "nextDialogs": [
+              "401120320"
+            ]
+          },
+          "401120320": {
+            "id": "401120320",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay, Spark Knight! Well, keep up the good work, 'cause very soon we'll be introducing you to a friend of ours called Tighnari in Gandharva Ville!"
+          },
+          "401120311": {
+            "id": "401120311",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Paimon doesn't remember seeing one of those... Wait, are you talking about Paimon!?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4011204",
+      "subQuestName": "Go to Gandharva Ville",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4011205",
+      "subQuestName": "Talk to Collei and Eula",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401120501"
+        ],
+        "dialogs": {
+          "401120501": {
+            "id": "401120501",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Hmm, I've definitely heard the other Forest Rangers mention somebody dressed like that before...",
+            "nextDialogs": [
+              "401120502"
+            ]
+          },
+          "401120502": {
+            "id": "401120502",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "I see. Then it looks like my suspicions are correct... Hmm? Who do we have here?",
+            "nextDialogs": [
+              "401120503"
+            ]
+          },
+          "401120503": {
+            "id": "401120503",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "#{NICKNAME} and Paimon! Oh, Kaeya and Klee are here, too!",
+            "nextDialogs": [
+              "401120504"
+            ]
+          },
+          "401120504": {
+            "id": "401120504",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Hi Collei, it's been aaages!",
+            "nextDialogs": [
+              "401120505"
+            ]
+          },
+          "401120505": {
+            "id": "401120505",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Collei, Eula! What are you two doing here?",
+            "nextDialogs": [
+              "401120506"
+            ]
+          },
+          "401120506": {
+            "id": "401120506",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, that question's really more for Eula.",
+            "nextDialogs": [
+              "401120507"
+            ]
+          },
+          "401120507": {
+            "id": "401120507",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "What a coincidence. I didn't expect to run into a fellow Favonian captain this far from Mondstadt. How's the vacation going?",
+            "nextDialogs": [
+              "401120508"
+            ]
+          },
+          "401120508": {
+            "id": "401120508",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "...Seriously? Bring the whole crew, why don't you? Tsk...",
+            "nextDialogs": [
+              "401120509"
+            ]
+          },
+          "401120509": {
+            "id": "401120509",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is it just Paimon, or does Eula not look particularly thrilled right now...",
+            "nextDialogs": [
+              "401120512"
+            ]
+          },
+          "401120512": {
+            "id": "401120512",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Oh, cool! Great idea! Let's go.",
+            "nextDialogs": [
+              "401120513"
+            ]
+          },
+          "401120513": {
+            "id": "401120513",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "If you're trying to accommodate me, there must be some misunderstanding. I'm fine. There's nothing embarrassing about running into colleagues in the wild.",
+            "nextDialogs": [
+              "401120514"
+            ]
+          },
+          "401120514": {
+            "id": "401120514",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Uh, but earlier you were...",
+            "nextDialogs": [
+              "401120515"
+            ]
+          },
+          "401120515": {
+            "id": "401120515",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Great! Well, I'm sure there's a fascinating reason behind why you're all the way out here in Sumeru. Do share it with us.",
+            "nextDialogs": [
+              "401120516"
+            ]
+          },
+          "401120516": {
+            "id": "401120516",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Kaeya sure looks like he's getting a kick out of this...)",
+            "nextDialogs": [
+              "401120517"
+            ]
+          },
+          "401120517": {
+            "id": "401120517",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "If you must know, it's a little complicated... But simply put, I'm searching for a cousin of mine from the Lawrence Clan.",
+            "nextDialogs": [
+              "401120518"
+            ]
+          },
+          "401120518": {
+            "id": "401120518",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "He went missing recently, and after searching his home, we found evidence that led us here. He appears to believe that somewhere in Sumeru lies the key to restoring our clan to its former glory.",
+            "nextDialogs": [
+              "401120519"
+            ]
+          },
+          "401120519": {
+            "id": "401120519",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "He came all the way to Sumeru for that? What was he going to do, enroll at the Akademiya?",
+            "nextDialogs": [
+              "401120520"
+            ]
+          },
+          "401120520": {
+            "id": "401120520",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That would be quite a roundabout way to achieve his goals.",
+            "nextDialogs": [
+              "401120521"
+            ]
+          },
+          "401120521": {
+            "id": "401120521",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "I doubt he came here to learn. He's much too old to start getting a basic education now, and from what I know of him, I doubt he has any interest in intellectual pursuits.",
+            "nextDialogs": [
+              "401120522"
+            ]
+          },
+          "401120522": {
+            "id": "401120522",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "All he cares about is restoring his clan's honor. Nothing wrong with that idea in principle, but I'm not certain how fanatical he is about it. So there's no knowing what lengths he might go to.",
+            "nextDialogs": [
+              "401120523"
+            ]
+          },
+          "401120523": {
+            "id": "401120523",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "As a knight and a member of the Lawrence Clan, it's my duty to make sure he doesn't bring harm to others.",
+            "nextDialogs": [
+              "401120524"
+            ]
+          },
+          "401120524": {
+            "id": "401120524",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Oho... If this is true, then your cousin is quite a man of action. Traveling alone to Sumeru from Mondstadt is no mean feat.",
+            "nextDialogs": [
+              "401120525"
+            ]
+          },
+          "401120525": {
+            "id": "401120525",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Nor is daring to make me personally concerned about his safety. Hmph, he has no idea what's coming to him.",
+            "nextDialogs": [
+              "401120526"
+            ]
+          },
+          "401120526": {
+            "id": "401120526",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You know, underneath it all, Paimon thinks Eula's a really caring person.",
+            "nextDialogs": [
+              "401120527"
+            ]
+          },
+          "401120527": {
+            "id": "401120527",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Yeah, she's the best! She brought me some Moon Pie last time!",
+            "nextDialogs": [
+              "401120528"
+            ]
+          },
+          "401120528": {
+            "id": "401120528",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Ahem! He is family, after all... Anyway, I will make sure to find him and escort him safely back to Mondstadt."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4011206",
+      "subQuestName": "Look for the Domain's entrance",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401120601"
+        ],
+        "dialogs": {
+          "401120601": {
+            "id": "401120601",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Whoa, this desert is huuuge!",
+            "nextDialogs": [
+              "401120602"
+            ]
+          },
+          "401120602": {
+            "id": "401120602",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Wow, what an incredible sight...",
+            "nextDialogs": [
+              "401120603"
+            ]
+          },
+          "401120603": {
+            "id": "401120603",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Yes, the scenery is quite magnificent.",
+            "nextDialogs": [
+              "401120604"
+            ]
+          },
+          "401120604": {
+            "id": "401120604",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "...",
+            "nextDialogs": [
+              "401120605"
+            ]
+          },
+          "401120605": {
+            "id": "401120605",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Are you okay, Eula? You don't look so good...",
+            "nextDialogs": [
+              "401120606"
+            ]
+          },
+          "401120606": {
+            "id": "401120606",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "I'm fine, just taking a moment to acclimatize... The air here is much drier than in Mondstadt.",
+            "nextDialogs": [
+              "401120607"
+            ]
+          },
+          "401120607": {
+            "id": "401120607",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Hmm, this area doesn't look very habitable, and... I don't see a domain entrance nearby, either.",
+            "nextDialogs": [
+              "401120608"
+            ]
+          },
+          "401120608": {
+            "id": "401120608",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Oh no... I—I didn't pronounce the destination wrong, did I? I mean, I don't THINK I did...",
+            "nextDialogs": [
+              "401120609"
+            ]
+          },
+          "401120609": {
+            "id": "401120609",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Nope, you got it right! It definitely wasn't your fault!",
+            "nextDialogs": [
+              "401120610"
+            ]
+          },
+          "401120610": {
+            "id": "401120610",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "I said \"Gandharva Ville\" wrong earlier, but we still ended up in the right place!",
+            "nextDialogs": [
+              "401120611"
+            ]
+          },
+          "401120611": {
+            "id": "401120611",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Klee's right. We're in the right place, there's no doubt about that.",
+            "nextDialogs": [
+              "401120612"
+            ]
+          },
+          "401120612": {
+            "id": "401120612",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Phew...",
+            "nextDialogs": [
+              "401120613"
+            ]
+          },
+          "401120613": {
+            "id": "401120613",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, maybe the entrance is hidden under a sand dune?",
+            "nextDialogs": [
+              "401120614"
+            ]
+          },
+          "401120614": {
+            "id": "401120614",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "...Who knows. We'll just have to start by looking around.",
+            "nextDialogs": [
+              "401120615"
+            ]
+          },
+          "401120615": {
+            "id": "401120615",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "The party splits up to search the area, but turns up empty-handed...",
+            "nextDialogs": [
+              "401120616"
+            ]
+          },
+          "401120616": {
+            "id": "401120616",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon's sooo tired... and so thirsty...",
+            "nextDialogs": [
+              "401120617"
+            ]
+          },
+          "401120617": {
+            "id": "401120617",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Hmm. We should have found something by now. Unless there's a problem with the Magic Invite?",
+            "nextDialogs": [
+              "401120618"
+            ]
+          },
+          "401120618": {
+            "id": "401120618",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Huh? How could that happen?",
+            "nextDialogs": [
+              "401120619"
+            ]
+          },
+          "401120619": {
+            "id": "401120619",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Uh-oh, did I break it by accident? But I didn't do anything! Dodoco will back me up, I'm innocent!",
+            "nextDialogs": [
+              "401120620"
+            ]
+          },
+          "401120620": {
+            "id": "401120620",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "It's definitely not your fault, Klee! See? Not even a wrinkle on it.",
+            "nextDialogs": [
+              "401120621"
+            ]
+          },
+          "401120621": {
+            "id": "401120621",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "If the domain is somewhere nearby...",
+            "nextDialogs": [
+              "401120622"
+            ]
+          },
+          "401120622": {
+            "id": "401120622",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "#Hmm? Does {M#Mr.}{F#Miss} Honorary Knight have an idea?",
+            "nextDialogs": [
+              "401120623"
+            ]
+          },
+          "401120623": {
+            "id": "401120623",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Instead of us trying to find the domain...",
+            "nextDialogs": [
+              "401120624"
+            ]
+          },
+          "401120624": {
+            "id": "401120624",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, Paimon knows where you're going with this!",
+            "nextDialogs": [
+              "401120625"
+            ]
+          },
+          "401120625": {
+            "id": "401120625",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes. We can try getting the domain to find us.",
+            "nextDialogs": [
+              "401120626"
+            ]
+          },
+          "401120626": {
+            "id": "401120626",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Interesting approach. Assuming we're right about this Magic Invite...",
+            "nextDialogs": [
+              "401120627"
+            ]
+          },
+          "401120627": {
+            "id": "401120627",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "That is to say, if it was sent from within the domain, the invite likely has some sort of connection to it.",
+            "nextDialogs": [
+              "401120628"
+            ]
+          },
+          "401120628": {
+            "id": "401120628",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Oh, I get it now! Plus, I know a super special trick we can use!",
+            "nextDialogs": [
+              "401120629"
+            ]
+          },
+          "401120629": {
+            "id": "401120629",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "What kind of trick? Can you teach it to us too?",
+            "nextDialogs": [
+              "401120630"
+            ]
+          },
+          "401120630": {
+            "id": "401120630",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Of course! Mom said that if I ever need help, I just need to shout this out loud:",
+            "nextDialogs": [
+              "401120631"
+            ]
+          },
+          "401120631": {
+            "id": "401120631",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Magic Invite, Magic Invite, Klee needs your aid! Do something now, so Klee's not afraid!",
+            "nextDialogs": [
+              "401120632"
+            ]
+          },
+          "401120632": {
+            "id": "401120632",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Look, {NICKNAME}! Something flew over!",
+            "nextDialogs": [
+              "401120633"
+            ]
+          },
+          "401120633": {
+            "id": "401120633",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Hmm? It looks like... a bottle?",
+            "nextDialogs": [
+              "401120634"
+            ]
+          },
+          "401120634": {
+            "id": "401120634",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Remarkably effective... That's one trick I'll be keeping up my sleeve in the future. You should make a note of it too, Eula.",
+            "nextDialogs": [
+              "401120635"
+            ]
+          },
+          "401120635": {
+            "id": "401120635",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Absolutely not! It's not my style.",
+            "nextDialogs": [
+              "401120636"
+            ]
+          },
+          "401120636": {
+            "id": "401120636",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "I suppose bottles are pretty common in Sumeru mythology... So, is this supposed to be the entrance to the domain?",
+            "nextDialogs": [
+              "401120637"
+            ]
+          },
+          "401120637": {
+            "id": "401120637",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A domain in a bottle, huh... Well, if there's one thing we learned in Liyue, it's never judge a domain by its cover.",
+            "nextDialogs": [
+              "401120638"
+            ]
+          },
+          "401120638": {
+            "id": "401120638",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Guess there's one way to find out if this is really the way in! Come on, reach out with your hand!",
+            "nextDialogs": [
+              "401120639"
+            ]
+          },
+          "401120639": {
+            "id": "401120639",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Touch the bottle...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4011207",
+      "subQuestName": "Explore the Domain ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401120701"
+        ],
+        "dialogs": {
+          "401120701": {
+            "id": "401120701",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Look, look! There's a huge garden here!",
+            "nextDialogs": [
+              "401120702"
+            ]
+          },
+          "401120702": {
+            "id": "401120702",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Incredible... It looked so small from the outside...",
+            "nextDialogs": [
+              "401120703"
+            ]
+          },
+          "401120703": {
+            "id": "401120703",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "Everyone, I suggest that we stop here for a moment. We should take stock of our surroundings before deciding on our next course of action.",
+            "nextDialogs": [
+              "401120704"
+            ]
+          },
+          "401120704": {
+            "id": "401120704",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Since we're in a bottle... Has anyone here heard the story of the \"magic bottle\"?",
+            "nextDialogs": [
+              "401120705"
+            ]
+          },
+          "401120705": {
+            "id": "401120705",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Oh, you mean the one about King Deshret and the Jinni-in-a-bottle? I've read it before, but I struggled with some of the vocabulary...",
+            "nextDialogs": [
+              "401120706"
+            ]
+          },
+          "401120706": {
+            "id": "401120706",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "What's the story about, Kaeya?",
+            "nextDialogs": [
+              "401120707"
+            ]
+          },
+          "401120707": {
+            "id": "401120707",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Mom told me a story once about a group of adventurers who went to Bottleland... But I don't think there was a magic bottle in that one...",
+            "nextDialogs": [
+              "401120708"
+            ]
+          },
+          "401120708": {
+            "id": "401120708",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Don't worry, Klee, I can tell you all about the story of the magic bottle. But if you keep running off on your own, you'll miss all the good parts...",
+            "nextDialogs": [
+              "401120709"
+            ]
+          },
+          "401120709": {
+            "id": "401120709",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Oh... Okay, I got it. I'll stay with the group from now on...",
+            "nextDialogs": [
+              "401120710"
+            ]
+          },
+          "401120710": {
+            "id": "401120710",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "...",
+            "nextDialogs": [
+              "401120711"
+            ]
+          },
+          "401120711": {
+            "id": "401120711",
+            "speakerId": 1005,
+            "speakerName": "Eula",
+            "text": "You sense it too, don't you Collei? Something's not quite right.",
+            "nextDialogs": [
+              "401120712"
+            ]
+          },
+          "401120712": {
+            "id": "401120712",
+            "speakerId": 1004,
+            "speakerName": "Collei",
+            "text": "Yeah... The scenery here is beautiful, but it's too quiet. And there's no sign of Klee's \"Aunty Desert\" here anywhere...",
+            "nextDialogs": [
+              "401120713"
+            ]
+          },
+          "401120713": {
+            "id": "401120713",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "Maybe Aunty Desert lives way further down inside? This place is suuuuper big, just like Fischl's Immernachtreich. We still have a long way to go!",
+            "nextDialogs": [
+              "401120714"
+            ]
+          },
+          "401120714": {
+            "id": "401120714",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Guess we won't know until we get there. Let's keep going.",
+            "nextDialogs": [
+              "401120715"
+            ]
+          },
+          "401120715": {
+            "id": "401120715",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hopefully we'll meet her soon!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4011299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401129903"
+        ],
+        "dialogs": {
+          "401129903": {
+            "id": "401129903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, look! It's Collei! Huh, and is that Eula with her? What's she doing in Gandharva Ville?",
+            "nextDialogs": [
+              "401129904"
+            ]
+          },
+          "401129904": {
+            "id": "401129904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We made it! That answers that question...",
+            "nextDialogs": [
+              "401129905"
+            ]
+          },
+          "401129905": {
+            "id": "401129905",
+            "speakerId": 1002,
+            "speakerName": "Klee",
+            "text": "There's a path. I'm gonna take a look!",
+            "nextDialogs": [
+              "401129906"
+            ]
+          },
+          "401129906": {
+            "id": "401129906",
+            "speakerId": 1003,
+            "speakerName": "Kaeya",
+            "text": "Hey, don't run off and leave us all behind."
+          }
+        }
+      }
+    }
+  ]
+}

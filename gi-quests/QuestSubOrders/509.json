@@ -1,0 +1,846 @@
+{
+  "lineCounts": {
+    "Another message": 1,
+    "Arataki \"The Oni Sumo King\" Itto": 5,
+    "Arrest Warrant": 6,
+    "Grand Narukami Shrine Notice": 5,
+    "Hiratsuka, Yae Publishing House": 5,
+    "International Trade Association Notice": 4,
+    "Kanjou Notice": 10,
+    "Kanjou Notice Board": 1,
+    "Message": 22,
+    "Reply": 6,
+    "Ritou Harbor Bulletin Board": 1,
+    "Shogunate Notice": 3,
+    "Tenryou Notice": 4
+  },
+  "subQuests": [
+    {
+      "subId": "50901",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090101"
+        ],
+        "dialogs": {
+          "5090101": {
+            "id": "5090101",
+            "speakerId": 1000,
+            "speakerName": "Ritou Harbor Bulletin Board",
+            "text": "This Ritou Harbor bulletin board was set up by the Shogunate. Notices regarding all kinds of matters will be posted here. Do not post without authorization."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50902",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090201"
+        ],
+        "dialogs": {
+          "5090201": {
+            "id": "5090201",
+            "speakerId": 1001,
+            "speakerName": "Shogunate Notice",
+            "text": "A number of suspicious outlanders have entered Inazuma lately, wandering around with seemingly sinister motives.",
+            "nextDialogs": [
+              "5090202"
+            ]
+          },
+          "5090202": {
+            "id": "5090202",
+            "speakerId": 1001,
+            "speakerName": "Shogunate Notice",
+            "text": "The Shogunate hereby notifies everyone: those who report suspicious persons will be rewarded, while those who harbor them will be punished!",
+            "nextDialogs": [
+              "5090203"
+            ]
+          },
+          "5090203": {
+            "id": "5090203",
+            "speakerId": 1001,
+            "speakerName": "Shogunate Notice",
+            "text": "Glory to the Shogun and her everlasting reign!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "50903",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090301"
+        ],
+        "dialogs": {
+          "5090301": {
+            "id": "5090301",
+            "speakerId": 1002,
+            "speakerName": "Tenryou Notice",
+            "text": "The Vision Hunt Decree operation is coming to an end, but those who conceal their Visions still remain.",
+            "nextDialogs": [
+              "5090302"
+            ]
+          },
+          "5090302": {
+            "id": "5090302",
+            "speakerId": 1002,
+            "speakerName": "Tenryou Notice",
+            "text": "Following the orders of the Tenryou Commissioner, and in compliance with the command of Madam Kujou Sara, pursuit operations will avoid using force or disrupting the public as much as possible.",
+            "nextDialogs": [
+              "5090303"
+            ]
+          },
+          "5090303": {
+            "id": "5090303",
+            "speakerId": 1002,
+            "speakerName": "Tenryou Notice",
+            "text": "Please don't worry. The Tenryou Commission will not use its public duties as an excuse to intrude on your daily lives.",
+            "nextDialogs": [
+              "5090304"
+            ]
+          },
+          "5090304": {
+            "id": "5090304",
+            "speakerId": 1002,
+            "speakerName": "Tenryou Notice",
+            "text": "The Tenryou Commissioner guarantees this in his own name, and that of the Kujou Clan."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50904",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090401"
+        ],
+        "dialogs": {
+          "5090401": {
+            "id": "5090401",
+            "speakerId": 1003,
+            "speakerName": "Arataki \"The Oni Sumo King\" Itto",
+            "text": "\"Kujou Tengu! I'm still in Ritou! Did you flee again?\"",
+            "nextDialogs": [
+              "5090402"
+            ]
+          },
+          "5090402": {
+            "id": "5090402",
+            "speakerId": 1003,
+            "speakerName": "Arataki \"The Oni Sumo King\" Itto",
+            "text": "\"You must've fled in the night after hearing my name, eh?\"",
+            "nextDialogs": [
+              "5090403"
+            ]
+          },
+          "5090403": {
+            "id": "5090403",
+            "speakerId": 1003,
+            "speakerName": "Arataki \"The Oni Sumo King\" Itto",
+            "text": "\"Haha, is my name scarier than the battlefield?\"",
+            "nextDialogs": [
+              "5090404"
+            ]
+          },
+          "5090404": {
+            "id": "5090404",
+            "speakerId": 1003,
+            "speakerName": "Arataki \"The Oni Sumo King\" Itto",
+            "text": "\"That's fine! I'll wait for your return here at the harbor!\"",
+            "nextDialogs": [
+              "5090405"
+            ]
+          },
+          "5090405": {
+            "id": "5090405",
+            "speakerId": 1003,
+            "speakerName": "Arataki \"The Oni Sumo King\" Itto",
+            "text": "\"Don't you dare die on the battlefield, Kujou Tengu! You still owe me a duel!\"",
+            "nextDialogs": [
+              "5090406"
+            ]
+          },
+          "5090406": {
+            "id": "5090406",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "Shut it. Are you done yet?",
+            "nextDialogs": [
+              "5090407"
+            ]
+          },
+          "5090407": {
+            "id": "5090407",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "If this is some kind of blessing before I set out for war, then I will accept it.",
+            "nextDialogs": [
+              "5090408"
+            ]
+          },
+          "5090408": {
+            "id": "5090408",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "You don't get yourself killed either, you idiotic Crimson Oni."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50905",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090501"
+        ],
+        "dialogs": {
+          "5090501": {
+            "id": "5090501",
+            "speakerId": 1005,
+            "speakerName": "Hiratsuka, Yae Publishing House",
+            "text": "\"Though this is not a serious matter, I still hope that it will become more common knowledge.\"",
+            "nextDialogs": [
+              "5090502"
+            ]
+          },
+          "5090502": {
+            "id": "5090502",
+            "speakerId": 1005,
+            "speakerName": "Hiratsuka, Yae Publishing House",
+            "text": "\"The other day, I accidentally lost the only extant copy of the famous 'Toki Alley Tales,' written by Takizawa Kyouden.\"",
+            "nextDialogs": [
+              "5090503"
+            ]
+          },
+          "5090503": {
+            "id": "5090503",
+            "speakerId": 1005,
+            "speakerName": "Hiratsuka, Yae Publishing House",
+            "text": "\"Though it's nothing major, Lady Yae still insisted that I post a lost book notice to look for it. Ah, what a headache...\"",
+            "nextDialogs": [
+              "5090504"
+            ]
+          },
+          "5090504": {
+            "id": "5090504",
+            "speakerId": 1005,
+            "speakerName": "Hiratsuka, Yae Publishing House",
+            "text": "\"That poor book has probably had its pages scattered to the winds by now... I don't suppose it would be possible to find it at this point.\"",
+            "nextDialogs": [
+              "5090505"
+            ]
+          },
+          "5090505": {
+            "id": "5090505",
+            "speakerId": 1005,
+            "speakerName": "Hiratsuka, Yae Publishing House",
+            "text": "\"It really is nothing of note, but if anyone could help recover it, you will have the Yae Publishing House's thanks.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50906",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090601"
+        ],
+        "dialogs": {
+          "5090601": {
+            "id": "5090601",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "All outlanders seeking to enter Ritou while the Sakoku Decree is in effect must provide valid documentation or they will be prohibited from landing.",
+            "nextDialogs": [
+              "5090602"
+            ]
+          },
+          "5090602": {
+            "id": "5090602",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "Prohibited items are not allowed in Ritou. Weapons, camping gear and foreign specialties must be registered for taxation.",
+            "nextDialogs": [
+              "5090603"
+            ]
+          },
+          "5090603": {
+            "id": "5090603",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "Please take care of your documentation and personal identification. They will not be replaced if lost!",
+            "nextDialogs": [
+              "5090604"
+            ]
+          },
+          "5090604": {
+            "id": "5090604",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "Anyone who has been in contact with the Sangonomiya must be put under surveillance in Ritou for one year and will not be allowed to leave."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50907",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090701"
+        ],
+        "dialogs": {
+          "5090701": {
+            "id": "5090701",
+            "speakerId": 1007,
+            "speakerName": "International Trade Association Notice",
+            "text": "\"Outlander merchants, if you are facing any issues or difficulties in Ritou\"",
+            "nextDialogs": [
+              "5090702"
+            ]
+          },
+          "5090702": {
+            "id": "5090702",
+            "speakerId": 1007,
+            "speakerName": "International Trade Association Notice",
+            "text": "\"Come find Mr. Kurisu at the International Trade Association. We will do our best to help you!\"",
+            "nextDialogs": [
+              "5090703"
+            ]
+          },
+          "5090703": {
+            "id": "5090703",
+            "speakerId": 1007,
+            "speakerName": "International Trade Association Notice",
+            "text": "\"If there is anything that you don't understand or that troubles you, come look for us.\"",
+            "nextDialogs": [
+              "5090704"
+            ]
+          },
+          "5090704": {
+            "id": "5090704",
+            "speakerId": 1007,
+            "speakerName": "International Trade Association Notice",
+            "text": "\"The International Trade Association's doors are always open to outlanders from any nation.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50908",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090801"
+        ],
+        "dialogs": {
+          "5090801": {
+            "id": "5090801",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Piracy is becoming more rampant lately. I've heard that soldiers from both sides of the war have fallen into banditry...\"",
+            "nextDialogs": [
+              "5090802"
+            ]
+          },
+          "5090802": {
+            "id": "5090802",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Since outlander cargo ships are not protected by the Shogunate, they often become targets of opportunity. It's despicable...\"",
+            "nextDialogs": [
+              "5090803"
+            ]
+          },
+          "5090803": {
+            "id": "5090803",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"To our mariner friends who see this message, please stock up on supplies when leaving Ritou Harbor.\"",
+            "nextDialogs": [
+              "5090804"
+            ]
+          },
+          "5090804": {
+            "id": "5090804",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Weapons, fresh water, repair tools, spare materials, please do not hold back on the procurement of these items.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50909",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5090901"
+        ],
+        "dialogs": {
+          "5090901": {
+            "id": "5090901",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"I've heard that a large fleet has arrived from Liyue, but I don't know where they are docked.\"",
+            "nextDialogs": [
+              "5090902"
+            ]
+          },
+          "5090902": {
+            "id": "5090902",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Their flagship is especially large. As long as the other outlander ships follow its mast and stay with the fleet, they won't have to worry about pirates...\"",
+            "nextDialogs": [
+              "5090903"
+            ]
+          },
+          "5090903": {
+            "id": "5090903",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"It's a shame. I've only heard about this fleet, but I have never seen it.\"",
+            "nextDialogs": [
+              "5090904"
+            ]
+          },
+          "5090904": {
+            "id": "5090904",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"I've heard people say that this is supposedly the famous Crux Fleet.\"",
+            "nextDialogs": [
+              "5090905"
+            ]
+          },
+          "5090905": {
+            "id": "5090905",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"It's just weird when I think about it: there isn't much business to be had during the Sakoku Decree, so why are they still coming here?\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50910",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091001"
+        ],
+        "dialogs": {
+          "5091001": {
+            "id": "5091001",
+            "speakerId": 1009,
+            "speakerName": "Kanjou Notice Board",
+            "text": "There might be another round of merchant ships arriving in Ritou from Snezhnaya soon. Everyone at the harbor, please prepare for their arrival.",
+            "nextDialogs": [
+              "5091002"
+            ]
+          },
+          "5091002": {
+            "id": "5091002",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "As a gesture of support, merchants from Snezhnaya may enjoy partial tariff reduction or exemptions.",
+            "nextDialogs": [
+              "5091003"
+            ]
+          },
+          "5091003": {
+            "id": "5091003",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "As for Snezhnayan merchants currently residing in Ritou, please renew your certification at the Kanjou Commission headquarters at your first convenience,",
+            "nextDialogs": [
+              "5091004"
+            ]
+          },
+          "5091004": {
+            "id": "5091004",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "So as to avoid any inconvenience in your residential, travel, or business affairs."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50911",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091101"
+        ],
+        "dialogs": {
+          "5091101": {
+            "id": "5091101",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"I wander like the autumn leaves that float to the mountains and seas afar.\"",
+            "nextDialogs": [
+              "5091102"
+            ]
+          },
+          "5091102": {
+            "id": "5091102",
+            "speakerId": 1010,
+            "speakerName": "Another message",
+            "text": "\"We're back! Come on, kid, give us another poem!\"",
+            "nextDialogs": [
+              "5091103"
+            ]
+          },
+          "5091103": {
+            "id": "5091103",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "This a bulletin board, not some kind of poetry forum!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "50912",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091201"
+        ],
+        "dialogs": {
+          "5091201": {
+            "id": "5091201",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"The Ritou Harbor is too cautious in guarding against outlanders but too lenient with Inazumans.\"",
+            "nextDialogs": [
+              "5091202"
+            ]
+          },
+          "5091202": {
+            "id": "5091202",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"As such, all you need to travel freely in and out of territories controlled by the Shogunate is a forged local document.\"",
+            "nextDialogs": [
+              "5091203"
+            ]
+          },
+          "5091203": {
+            "id": "5091203",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"And it's not as if this is a difficult task.\"",
+            "nextDialogs": [
+              "5091204"
+            ]
+          },
+          "5091204": {
+            "id": "5091204",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "What kind of idiot would post this sort of information on a bulletin board..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "50913",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091301"
+        ],
+        "dialogs": {
+          "5091301": {
+            "id": "5091301",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "Bounty: Yoshino Koheiji, Yoshino Koheita",
+            "nextDialogs": [
+              "5091302"
+            ]
+          },
+          "5091302": {
+            "id": "5091302",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "Crimes committed: Absconding, robbery, night-time assaults, conspiring against officials, distributing belongings to innocent villagers to incite rebellion.",
+            "nextDialogs": [
+              "5091303"
+            ]
+          },
+          "5091303": {
+            "id": "5091303",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "Wanted dead or alive with a generous bounty!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "50914",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091401"
+        ],
+        "dialogs": {
+          "5091401": {
+            "id": "5091401",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "Bounty: Midorikawa Shirou",
+            "nextDialogs": [
+              "5091402"
+            ]
+          },
+          "5091402": {
+            "id": "5091402",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "Crimes committed: Absconding, riotous assembly, piracy, robbing officials, ambushing samurai, holding family members as hostages in an attempt to rebel against the Shogunate.",
+            "nextDialogs": [
+              "5091403"
+            ]
+          },
+          "5091403": {
+            "id": "5091403",
+            "speakerId": 1011,
+            "speakerName": "Arrest Warrant",
+            "text": "This person and his accomplices are wanted dead or alive with a generous bounty!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "50915",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091501"
+        ],
+        "dialogs": {
+          "5091501": {
+            "id": "5091501",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Kiyoko, I like you.\"",
+            "nextDialogs": [
+              "5091502"
+            ]
+          },
+          "5091502": {
+            "id": "5091502",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"I am an outlander who has just arrived and thus knows nothing, but it's okay.\"",
+            "nextDialogs": [
+              "5091503"
+            ]
+          },
+          "5091503": {
+            "id": "5091503",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"As long as you pay the guards Mora, their eyes and mouths are shut. We can go on dates wherever we want.\"",
+            "nextDialogs": [
+              "5091504"
+            ]
+          },
+          "5091504": {
+            "id": "5091504",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"And I have no shortage of Mora...\"",
+            "nextDialogs": [
+              "5091505"
+            ]
+          },
+          "5091505": {
+            "id": "5091505",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Well, my father has no shortage of Mora, to be precise. Haha.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50916",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091601"
+        ],
+        "dialogs": {
+          "5091601": {
+            "id": "5091601",
+            "speakerId": 1012,
+            "speakerName": "Grand Narukami Shrine Notice",
+            "text": "With the permission of Guuji Yae Miko, the Grand Narukami Shrine will provide help to those businesses and families affected by the war in the form of aid loans and food aid.",
+            "nextDialogs": [
+              "5091602"
+            ]
+          },
+          "5091602": {
+            "id": "5091602",
+            "speakerId": 1012,
+            "speakerName": "Grand Narukami Shrine Notice",
+            "text": "We ask that those in need of help visit the Kamisato Clan to file the required paperwork.",
+            "nextDialogs": [
+              "5091603"
+            ]
+          },
+          "5091603": {
+            "id": "5091603",
+            "speakerId": 1012,
+            "speakerName": "Grand Narukami Shrine Notice",
+            "text": "(Outlanders with valid documentation will also receive some form of subsidy.)",
+            "nextDialogs": [
+              "5091604"
+            ]
+          },
+          "5091604": {
+            "id": "5091604",
+            "speakerId": 1012,
+            "speakerName": "Grand Narukami Shrine Notice",
+            "text": "As the war continues and public funds become more tight, food aid will be reduced by half. We apologize for any inconvenience.",
+            "nextDialogs": [
+              "5091605"
+            ]
+          },
+          "5091605": {
+            "id": "5091605",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"I arrived at the Kamisato Clan estate but was told to keep out. What subsidy are you blabbering about?\"",
+            "nextDialogs": [
+              "5091606"
+            ]
+          },
+          "5091606": {
+            "id": "5091606",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"My merchant friends also did not receive any benefits either... How strange.\"",
+            "nextDialogs": [
+              "5091607"
+            ]
+          },
+          "5091607": {
+            "id": "5091607",
+            "speakerId": 1012,
+            "speakerName": "Grand Narukami Shrine Notice",
+            "text": "We apologize, but did you perhaps come late? Once all the daily subsidies have been given out, we will no longer register new applicants.",
+            "nextDialogs": [
+              "5091608"
+            ]
+          },
+          "5091608": {
+            "id": "5091608",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"Oh, so that's why everyone got up so early...\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "50917",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "5091701"
+        ],
+        "dialogs": {
+          "5091701": {
+            "id": "5091701",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "To avoid congestion at the harbor because of the war, docking fees for outlander commercial ships have been increased fourfold.",
+            "nextDialogs": [
+              "5091702"
+            ]
+          },
+          "5091702": {
+            "id": "5091702",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "Please submit any feedback to the Kanjou Commission.",
+            "nextDialogs": [
+              "5091703"
+            ]
+          },
+          "5091703": {
+            "id": "5091703",
+            "speakerId": 1006,
+            "speakerName": "Kanjou Notice",
+            "text": "Docking fees for commercial ships will be collected by the International Trade Association as per normal. No exceptions.",
+            "nextDialogs": [
+              "5091704"
+            ]
+          },
+          "5091704": {
+            "id": "5091704",
+            "speakerId": 1008,
+            "speakerName": "Message",
+            "text": "\"What do you mean, 'congestion at the harbor'? It's the soldiers who are occupying the harbor! And yet we have to pay for it...\"",
+            "nextDialogs": [
+              "5091705"
+            ]
+          },
+          "5091705": {
+            "id": "5091705",
+            "speakerId": 1004,
+            "speakerName": "Reply",
+            "text": "I am sorry, but leaving the harbor is free."
+          }
+        }
+      }
+    }
+  ]
+}

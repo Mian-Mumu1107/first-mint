@@ -1,0 +1,2218 @@
+{
+  "lineCounts": {
+    "\"Rächer of Solnari\"": 1,
+    "???": 4,
+    "Adorno": 12,
+    "Cautious Voice": 1,
+    "Cold Voice": 2,
+    "Complaining Voice": 1,
+    "Diluc": 12,
+    "Eroch": 1,
+    "Lohen": 91,
+    "Lohen?": 9,
+    "Low Roar From Deep Within": 2,
+    "Paimon": 14,
+    "Player": 23,
+    "Respectful Voice": 1,
+    "Restless Monsters": 3,
+    "Roar From the Past": 1,
+    "Theodore": 36,
+    "Varka": 31,
+    "Varka & Lohen": 1,
+    "Vicious Voice": 4
+  },
+  "subQuests": [
+    {
+      "subId": "1001301",
+      "subQuestName": "Go to the sighting location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130101"
+        ],
+        "dialogs": {
+          "100130101": {
+            "id": "100130101",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Hmm... Is this as far as we were able to track him?",
+            "nextDialogs": [
+              "100130102"
+            ]
+          },
+          "100130102": {
+            "id": "100130102",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Well, he's not known as the 5th Company's \"Sharpest Arrow\" for nothing. Gone in a flash.",
+            "nextDialogs": [
+              "100130103"
+            ]
+          },
+          "100130103": {
+            "id": "100130103",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If you want to praise him, save it for later! Don't we have any more clues?",
+            "nextDialogs": [
+              "100130104"
+            ]
+          },
+          "100130104": {
+            "id": "100130104",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "The dew on this grass is cold. Probably the effects of elemental energy.",
+            "nextDialogs": [
+              "100130107"
+            ]
+          },
+          "100130107": {
+            "id": "100130107",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Oho? You really are something, eh, Honorary Knight?",
+            "nextDialogs": [
+              "100130108"
+            ]
+          },
+          "100130108": {
+            "id": "100130108",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Still, being spotted by witnesses and leaving traces... That's not the Lohen I know.",
+            "nextDialogs": [
+              "100130109"
+            ]
+          },
+          "100130109": {
+            "id": "100130109",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "Do you think he wants to be followed?",
+            "nextDialogs": [
+              "100130110"
+            ]
+          },
+          "100130110": {
+            "id": "100130110",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Whether he's in a rush to complete something... or stop something from happening, our task remains the same.",
+            "nextDialogs": [
+              "100130111"
+            ]
+          },
+          "100130111": {
+            "id": "100130111",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yup! Let's get going — we've gotta get to the bottom of this!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001302",
+      "subQuestName": "Pursue Lohen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130201"
+        ],
+        "dialogs": {
+          "100130201": {
+            "id": "100130201",
+            "speakerId": 1003,
+            "speakerName": "Cautious Voice",
+            "text": "The experiment results have been confirmed. The serum dosage still requires adjustment..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001303",
+      "subQuestName": "Enter the experiment site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1001304",
+      "subQuestName": "Talk to everyone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130401"
+        ],
+        "dialogs": {
+          "100130401": {
+            "id": "100130401",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "These metal scraps and vessels... It's like leading the expedition through Snezhnaya again.",
+            "nextDialogs": [
+              "100130404"
+            ]
+          },
+          "100130404": {
+            "id": "100130404",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "Your earlier conjecture appears correct. This place indeed looks like an experiment site left behind by one of The Doctor's Segments.",
+            "nextDialogs": [
+              "100130405"
+            ]
+          },
+          "100130405": {
+            "id": "100130405",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "No wonder the Knights of Favonius have failed to discover the entrance for so many years. It was most likely his handiwork.",
+            "nextDialogs": [
+              "100130406"
+            ]
+          },
+          "100130406": {
+            "id": "100130406",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "And once the concealment faded, someone discovered this place before us, restarting the experiments on Ursa's flesh and blood.",
+            "nextDialogs": [
+              "100130407"
+            ]
+          },
+          "100130407": {
+            "id": "100130407",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You don't think it was...",
+            "nextDialogs": [
+              "100130408"
+            ]
+          },
+          "100130408": {
+            "id": "100130408",
+            "speakerId": 1004,
+            "speakerName": "Vicious Voice",
+            "text": "What a pain... How many more test subjects do we need to catch...",
+            "nextDialogs": [
+              "100130409"
+            ]
+          },
+          "100130409": {
+            "id": "100130409",
+            "speakerId": 1004,
+            "speakerName": "Vicious Voice",
+            "text": "What are you looking at!?",
+            "nextDialogs": [
+              "100130410"
+            ]
+          },
+          "100130410": {
+            "id": "100130410",
+            "speakerId": 1004,
+            "speakerName": "Vicious Voice",
+            "text": "Stay put, and don't cause any trouble."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001305",
+      "subQuestName": "Observe what is happening outside with caution",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130501"
+        ],
+        "dialogs": {
+          "100130501": {
+            "id": "100130501",
+            "speakerId": 1005,
+            "speakerName": "Respectful Voice",
+            "text": "Sir, the new subjects are here.",
+            "nextDialogs": [
+              "100130502"
+            ]
+          },
+          "100130502": {
+            "id": "100130502",
+            "speakerId": 1006,
+            "speakerName": "Complaining Voice",
+            "text": "This brat's real vicious. Took a lot of work to quiet him down.",
+            "nextDialogs": [
+              "100130503"
+            ]
+          },
+          "100130503": {
+            "id": "100130503",
+            "speakerId": 1007,
+            "speakerName": "Cold Voice",
+            "text": "Hmm? Interesting... I'll take a look myself.",
+            "nextDialogs": [
+              "100130504"
+            ]
+          },
+          "100130504": {
+            "id": "100130504",
+            "speakerId": 1007,
+            "speakerName": "Cold Voice",
+            "text": "Rejoice. You shall soon surpass the common clay of this world. You shall cross into the realm of the extraordinary—"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001306",
+      "subQuestName": "Try to push the door open and leave",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130601"
+        ],
+        "dialogs": {
+          "100130601": {
+            "id": "100130601",
+            "speakerId": 1004,
+            "speakerName": "Vicious Voice",
+            "text": "I told you. Don't. Cause. Trouble.",
+            "nextDialogs": [
+              "100130602"
+            ]
+          },
+          "100130602": {
+            "id": "100130602",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Was that... a projection formed using memory?",
+            "nextDialogs": [
+              "100130603"
+            ]
+          },
+          "100130603": {
+            "id": "100130603",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "Seems like a trap laid to slow our advance.",
+            "nextDialogs": [
+              "100130604"
+            ]
+          },
+          "100130604": {
+            "id": "100130604",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "A trap? Could it be Lohen again...",
+            "nextDialogs": [
+              "100130605"
+            ]
+          },
+          "100130605": {
+            "id": "100130605",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Nah. That kid would've come up with something way more... deadly.",
+            "nextDialogs": [
+              "100130606"
+            ]
+          },
+          "100130606": {
+            "id": "100130606",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "In any case, Lohen isn't the only one...",
+            "nextDialogs": [
+              "100130607"
+            ]
+          },
+          "100130607": {
+            "id": "100130607",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "...Who was captured by Eroch and is familiar with this kind of magic.",
+            "nextDialogs": [
+              "100130608"
+            ]
+          },
+          "100130608": {
+            "id": "100130608",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "...You don't look like you're here to assist.",
+            "nextDialogs": [
+              "100130609"
+            ]
+          },
+          "100130609": {
+            "id": "100130609",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "On the contrary, I believe ending this as soon as possible is the best way to help you.",
+            "nextDialogs": [
+              "100130610"
+            ]
+          },
+          "100130610": {
+            "id": "100130610",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Hmph! Haha... End this? Is that what you're saying now?",
+            "nextDialogs": [
+              "100130611"
+            ]
+          },
+          "100130611": {
+            "id": "100130611",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Back when the test subjects were escaping left, right, and center... Back when I was ready to give up... Who was it who said I should keep going?",
+            "nextDialogs": [
+              "100130612"
+            ]
+          },
+          "100130612": {
+            "id": "100130612",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Ugh... did all the test subjects... escape?",
+            "nextDialogs": [
+              "100130613"
+            ]
+          },
+          "100130613": {
+            "id": "100130613",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Uh, you shouldn't experiment on yourself so soon, Theodore.",
+            "nextDialogs": [
+              "100130614"
+            ]
+          },
+          "100130614": {
+            "id": "100130614",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Did you think that discovering Eroch's lab and taking control of Dottore's apparatus would be enough to help you restart their experiments?",
+            "nextDialogs": [
+              "100130615"
+            ]
+          },
+          "100130615": {
+            "id": "100130615",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Look at you — you can barely lift a finger, helpless to do anything but watch your test subjects flee.",
+            "nextDialogs": [
+              "100130616"
+            ]
+          },
+          "100130616": {
+            "id": "100130616",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Lohen... are you... here to stop me?",
+            "nextDialogs": [
+              "100130617"
+            ]
+          },
+          "100130617": {
+            "id": "100130617",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Heh, quite the opposite. Who do you think kept those monsters from eating you?",
+            "nextDialogs": [
+              "100130618"
+            ]
+          },
+          "100130618": {
+            "id": "100130618",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "You... took care of them?",
+            "nextDialogs": [
+              "100130619"
+            ]
+          },
+          "100130619": {
+            "id": "100130619",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I also plan to deal with the ones that fled into the wild. If you ignore them, the Knights of Favonius will follow them right back to your doorstep.",
+            "nextDialogs": [
+              "100130620"
+            ]
+          },
+          "100130620": {
+            "id": "100130620",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "You... Why are you helping me?",
+            "nextDialogs": [
+              "100130621"
+            ]
+          },
+          "100130621": {
+            "id": "100130621",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I know what you intend to do with the flesh and blood of Ursa the Drake. I've read the examination report you wrote for Adorno.",
+            "nextDialogs": [
+              "100130622"
+            ]
+          },
+          "100130622": {
+            "id": "100130622",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Old and frail, a mass of old injuries... One day, he won't wake up, and no one will be surprised. Without \"extraordinary\" intervention, that is.",
+            "nextDialogs": [
+              "100130623"
+            ]
+          },
+          "100130623": {
+            "id": "100130623",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I... I hid it! Even Adorno himself didn't see it!",
+            "nextDialogs": [
+              "100130624"
+            ]
+          },
+          "100130624": {
+            "id": "100130624",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Don't be so shocked.",
+            "nextDialogs": [
+              "100130625"
+            ]
+          },
+          "100130625": {
+            "id": "100130625",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "We're \"companions,\" both rescued by the Benevolent Knight. Did you really think I wouldn't notice your changes?",
+            "nextDialogs": [
+              "100130626"
+            ]
+          },
+          "100130626": {
+            "id": "100130626",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "...Is that why you're willing to keep my secret?",
+            "nextDialogs": [
+              "100130627"
+            ]
+          },
+          "100130627": {
+            "id": "100130627",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Oh n—no, don't get me wrong. I sincerely hope Adorno can live a while longer — it'd save me from inheriting any unnecessary responsibilities.",
+            "nextDialogs": [
+              "100130628"
+            ]
+          },
+          "100130628": {
+            "id": "100130628",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "But what I'm more interested in is \"power.\"",
+            "nextDialogs": [
+              "100130629"
+            ]
+          },
+          "100130629": {
+            "id": "100130629",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Aren't you concerned that your monster experiments have hit a bottleneck, and that your own body can't bear Ursa's power?",
+            "nextDialogs": [
+              "100130630"
+            ]
+          },
+          "100130630": {
+            "id": "100130630",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "In that case, use me as your test subject.",
+            "nextDialogs": [
+              "100130631"
+            ]
+          },
+          "100130631": {
+            "id": "100130631",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100130632"
+            ]
+          },
+          "100130632": {
+            "id": "100130632",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Without you, we'd never have come this far!",
+            "nextDialogs": [
+              "100130633"
+            ]
+          },
+          "100130633": {
+            "id": "100130633",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Refining the serum, continuing the experiments, bringing Adorno here... Were these ideas not all yours, Lohen?",
+            "nextDialogs": [
+              "100130634"
+            ]
+          },
+          "100130634": {
+            "id": "100130634",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "That's right. And that's why I'm also prepared for failure.",
+            "nextDialogs": [
+              "100130635"
+            ]
+          },
+          "100130635": {
+            "id": "100130635",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Failure? We're so... so close. As long as you don't blow our cover, we've still got a shot!",
+            "nextDialogs": [
+              "100130636"
+            ]
+          },
+          "100130636": {
+            "id": "100130636",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Lohen, listen to me! The Ursa serum works!",
+            "nextDialogs": [
+              "100130637"
+            ]
+          },
+          "100130637": {
+            "id": "100130637",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Adorno's improving. He can get out of bed on his own now! ... If it weren't for you, I don't think he would have lasted the week...",
+            "nextDialogs": [
+              "100130638"
+            ]
+          },
+          "100130638": {
+            "id": "100130638",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "But... I can only add low-concentration serum to Adorno's meals and medication for now. It won't cure the root cause...",
+            "nextDialogs": [
+              "100130639"
+            ]
+          },
+          "100130639": {
+            "id": "100130639",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Is that so? That's good to hear...",
+            "nextDialogs": [
+              "100130640"
+            ]
+          },
+          "100130640": {
+            "id": "100130640",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "The smoother your experiments go, the greater my hopes of mastering this power.",
+            "nextDialogs": [
+              "100130641"
+            ]
+          },
+          "100130641": {
+            "id": "100130641",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Uhm... Do you think you could find the time to see him? He talks about you often...",
+            "nextDialogs": [
+              "100130642"
+            ]
+          },
+          "100130642": {
+            "id": "100130642",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...I—I'll pass. I'd really rather not listen to his nagging.",
+            "nextDialogs": [
+              "100130643"
+            ]
+          },
+          "100130643": {
+            "id": "100130643",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Besides, unnecessary contact only increases the risk of exposure... We're running out of time.",
+            "nextDialogs": [
+              "100130644"
+            ]
+          },
+          "100130644": {
+            "id": "100130644",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "The Knights of Favonius will notice something is wrong sooner or later. No matter how many tricks we pull, they'll only work for a time. How much longer until you have complete control?",
+            "nextDialogs": [
+              "100130645"
+            ]
+          },
+          "100130645": {
+            "id": "100130645",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Soon! Very soon! Thanks to your help, the serum's power has stabilized substantially, though I wouldn't call it a gentle concoction...",
+            "nextDialogs": [
+              "100130646"
+            ]
+          },
+          "100130646": {
+            "id": "100130646",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Don't go using it on the old man to save time.",
+            "nextDialogs": [
+              "100130647"
+            ]
+          },
+          "100130647": {
+            "id": "100130647",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Of course not! You're overthinking this. I know what I'm doing.",
+            "nextDialogs": [
+              "100130648"
+            ]
+          },
+          "100130648": {
+            "id": "100130648",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Uh-huh. So you say. Everyone assumes they know what they're doing right up until trouble lands on their doorstep.",
+            "nextDialogs": [
+              "100130649"
+            ]
+          },
+          "100130649": {
+            "id": "100130649",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Haha! If that day ever comes, feel free to slap some sense into me!",
+            "nextDialogs": [
+              "100130650"
+            ]
+          },
+          "100130650": {
+            "id": "100130650",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Blow our cover? Do you think the Knights never suspected? Who do you think was delaying the investigation?",
+            "nextDialogs": [
+              "100130651"
+            ]
+          },
+          "100130651": {
+            "id": "100130651",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "How many times do I have to say this? We were gambling from the start — with our time, the Knights' time, and the time Adorno has left...",
+            "nextDialogs": [
+              "100130652"
+            ]
+          },
+          "100130652": {
+            "id": "100130652",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "If you lose a fight, you retreat. If you lose a bet, you accept it... Linger on the battlefield or at the gambling table, and we're bound to lose even more.",
+            "nextDialogs": [
+              "100130653"
+            ]
+          },
+          "100130653": {
+            "id": "100130653",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "What do you wanna do, then!? Stand by and watch him die!?",
+            "nextDialogs": [
+              "100130654"
+            ]
+          },
+          "100130654": {
+            "id": "100130654",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Hmph... Wake up already. In his present state, the serum would kill him. Would you prefer that?",
+            "nextDialogs": [
+              "100130655"
+            ]
+          },
+          "100130655": {
+            "id": "100130655",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I haven't given up yet! I... I completed the final refinements before you arrived.",
+            "nextDialogs": [
+              "100130656"
+            ]
+          },
+          "100130656": {
+            "id": "100130656",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "This is the refined, high-concentration serum... So long as I use this, even you won't be able to stop me!",
+            "nextDialogs": [
+              "100130657"
+            ]
+          },
+          "100130657": {
+            "id": "100130657",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "You can refuse to cooperate. That's fine. It just brings me back to where I began. I'll finish this myself!",
+            "nextDialogs": [
+              "100130658"
+            ]
+          },
+          "100130658": {
+            "id": "100130658",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "...Relying on hazy childhood memories, Theodore was the first to find this place, restarting Eroch's experiments to prolong Adorno's life.",
+            "nextDialogs": [
+              "100130659"
+            ]
+          },
+          "100130659": {
+            "id": "100130659",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "But at some point, the experiment failed, and the monsters escaped... Lohen then discovered him and offered his assistance, allowing him to continue extracting serum from Ursa the Drake...",
+            "nextDialogs": [
+              "100130660"
+            ]
+          },
+          "100130660": {
+            "id": "100130660",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "That appears to be the full picture.",
+            "nextDialogs": [
+              "100130661"
+            ]
+          },
+          "100130661": {
+            "id": "100130661",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "What do you intend to do with them?",
+            "nextDialogs": [
+              "100130662"
+            ]
+          },
+          "100130662": {
+            "id": "100130662",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "*sigh*... I'll leave that headache to Jean and the others to deal with later. Let them decide the appropriate course to take.",
+            "nextDialogs": [
+              "100130663"
+            ]
+          },
+          "100130663": {
+            "id": "100130663",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "For now, I'm more concerned about the remains of Ursa's Flesh, buried here beneath the ground..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001307",
+      "subQuestName": "Head into the depths",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130701"
+        ],
+        "dialogs": {
+          "100130701": {
+            "id": "100130701",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "*cough*",
+            "nextDialogs": [
+              "100130702"
+            ]
+          },
+          "100130702": {
+            "id": "100130702",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Why... I used... the highest... concentration possible!",
+            "nextDialogs": [
+              "100130703"
+            ]
+          },
+          "100130703": {
+            "id": "100130703",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "You're weak... and you don't even have the self-awareness to realize it.",
+            "nextDialogs": [
+              "100130704"
+            ]
+          },
+          "100130704": {
+            "id": "100130704",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "...Self-awareness? What right do you have to talk to me about self-awareness...? You lost control once before as well!",
+            "nextDialogs": [
+              "100130705"
+            ]
+          },
+          "100130705": {
+            "id": "100130705",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "And that's how I know we can't go on!",
+            "nextDialogs": [
+              "100130706"
+            ]
+          },
+          "100130706": {
+            "id": "100130706",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "If the price for saving Adorno's life is his very self, then we won't be saving him, but the monster he'll become!",
+            "nextDialogs": [
+              "100130707"
+            ]
+          },
+          "100130707": {
+            "id": "100130707",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Take a long, hard look in the mirror. Are you really the person he chose to inherit the \"Benevolent\" name?",
+            "nextDialogs": [
+              "100130708"
+            ]
+          },
+          "100130708": {
+            "id": "100130708",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I... I...",
+            "nextDialogs": [
+              "100130709"
+            ]
+          },
+          "100130709": {
+            "id": "100130709",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "...I won't accept this... I can't accept this!",
+            "nextDialogs": [
+              "100130710"
+            ]
+          },
+          "100130710": {
+            "id": "100130710",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100130711"
+            ]
+          },
+          "100130711": {
+            "id": "100130711",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "...When was the last time I embraced the two of you like this?",
+            "nextDialogs": [
+              "100130712"
+            ]
+          },
+          "100130712": {
+            "id": "100130712",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "In the blink of an eye... you've grown too big for hugs.",
+            "nextDialogs": [
+              "100130713"
+            ]
+          },
+          "100130713": {
+            "id": "100130713",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "A—Adorno...?",
+            "nextDialogs": [
+              "100130714"
+            ]
+          },
+          "100130714": {
+            "id": "100130714",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "How did you...",
+            "nextDialogs": [
+              "100130715"
+            ]
+          },
+          "100130715": {
+            "id": "100130715",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "I heard everything... You've been helping me cling on, haven't you?",
+            "nextDialogs": [
+              "100130716"
+            ]
+          },
+          "100130716": {
+            "id": "100130716",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "It's thanks to both of you I have this chance... to hug you once again, just like old times...",
+            "nextDialogs": [
+              "100130717"
+            ]
+          },
+          "100130717": {
+            "id": "100130717",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "All that's left to say is...",
+            "nextDialogs": [
+              "100130718"
+            ]
+          },
+          "100130718": {
+            "id": "100130718",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "...It's alright. It's over now.",
+            "nextDialogs": [
+              "100130719"
+            ]
+          },
+          "100130719": {
+            "id": "100130719",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "*sob*... *sob*...",
+            "nextDialogs": [
+              "100130720"
+            ]
+          },
+          "100130720": {
+            "id": "100130720",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100130721"
+            ]
+          },
+          "100130721": {
+            "id": "100130721",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "Haha. Why the tears? *sigh*... It wouldn't do for the Benevolent Knight to check out by making kids cry now, would it?",
+            "nextDialogs": [
+              "100130722"
+            ]
+          },
+          "100130722": {
+            "id": "100130722",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "Promise me you'll see me off with a smile.",
+            "nextDialogs": [
+              "100130723"
+            ]
+          },
+          "100130723": {
+            "id": "100130723",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I...",
+            "nextDialogs": [
+              "100130724"
+            ]
+          },
+          "100130724": {
+            "id": "100130724",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I just don't want to... watch you...",
+            "nextDialogs": [
+              "100130725"
+            ]
+          },
+          "100130725": {
+            "id": "100130725",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "Isn't it enough that you're here by my side?",
+            "nextDialogs": [
+              "100130726"
+            ]
+          },
+          "100130726": {
+            "id": "100130726",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "—Adorno! Theodore!",
+            "nextDialogs": [
+              "100130727"
+            ]
+          },
+          "100130727": {
+            "id": "100130727",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "—Lohen!",
+            "nextDialogs": [
+              "100130728"
+            ]
+          },
+          "100130728": {
+            "id": "100130728",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "...This issue has been resolved, I take it?",
+            "nextDialogs": [
+              "100130729"
+            ]
+          },
+          "100130729": {
+            "id": "100130729",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Not entirely.",
+            "nextDialogs": [
+              "100130730"
+            ]
+          },
+          "100130730": {
+            "id": "100130730",
+            "speakerId": 1011,
+            "speakerName": "Low Roar From Deep Within",
+            "text": "Raargh!",
+            "nextDialogs": [
+              "100130731"
+            ]
+          },
+          "100130731": {
+            "id": "100130731",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What... What was that sound!?",
+            "nextDialogs": [
+              "100130732"
+            ]
+          },
+          "100130732": {
+            "id": "100130732",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I knew it... You had to stimulate Ursa's Flesh beyond the high-risk threshold to extract the necessary serum!",
+            "nextDialogs": [
+              "100130733"
+            ]
+          },
+          "100130733": {
+            "id": "100130733",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "If its power is allowed to continue overflowing, all nearby lifeforms will be affected... just like the plants here, and those monsters we saw earlier.",
+            "nextDialogs": [
+              "100130734"
+            ]
+          },
+          "100130734": {
+            "id": "100130734",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "I... Ugh!",
+            "nextDialogs": [
+              "100130735"
+            ]
+          },
+          "100130735": {
+            "id": "100130735",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Why are you still trying to act tough? You can barely lift a finger right now, can you? Huh... I know that feeling.",
+            "nextDialogs": [
+              "100130736"
+            ]
+          },
+          "100130736": {
+            "id": "100130736",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Hand it over, and then... get out of the way and watch.",
+            "nextDialogs": [
+              "100130737"
+            ]
+          },
+          "100130737": {
+            "id": "100130737",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "...The key to the underground is in the lining of my coat.",
+            "nextDialogs": [
+              "100130738"
+            ]
+          },
+          "100130738": {
+            "id": "100130738",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "Please... destroy Ursa the Drake's flesh... and its power.",
+            "nextDialogs": [
+              "100130739"
+            ]
+          },
+          "100130739": {
+            "id": "100130739",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Goodbye... Adorno.",
+            "nextDialogs": [
+              "100130740"
+            ]
+          },
+          "100130740": {
+            "id": "100130740",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "Go. That power was never meant to linger in this world.",
+            "nextDialogs": [
+              "100130741"
+            ]
+          },
+          "100130741": {
+            "id": "100130741",
+            "speakerId": 1011,
+            "speakerName": "Low Roar From Deep Within",
+            "text": "Raargh!",
+            "nextDialogs": [
+              "100130742"
+            ]
+          },
+          "100130742": {
+            "id": "100130742",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Past this point... That's where Eroch and the Doctor conducted their experiments on Ursa, isn't it?",
+            "nextDialogs": [
+              "100130743"
+            ]
+          },
+          "100130743": {
+            "id": "100130743",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Sure is. A madman seeking power, and an angel who chose it... What a farce.",
+            "nextDialogs": [
+              "100130744"
+            ]
+          },
+          "100130744": {
+            "id": "100130744",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "...One that we're about to bring the curtain down on.",
+            "nextDialogs": [
+              "100130745"
+            ]
+          },
+          "100130745": {
+            "id": "100130745",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Ursa the Drake's residual power is not to be underestimated. Eyes on the prize, everyone. This'll be a tough fight!",
+            "nextDialogs": [
+              "100130746"
+            ]
+          },
+          "100130746": {
+            "id": "100130746",
+            "speakerId": 1012,
+            "speakerName": "Restless Monsters",
+            "text": "Raargh!",
+            "nextDialogs": [
+              "100130747"
+            ]
+          },
+          "100130747": {
+            "id": "100130747",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa — what was that noise over there!?",
+            "nextDialogs": [
+              "100130748"
+            ]
+          },
+          "100130748": {
+            "id": "100130748",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Monsters, captured for experiments long ago. They've survived until now thanks to The Doctor's apparatus and Ursa's power.",
+            "nextDialogs": [
+              "100130749"
+            ]
+          },
+          "100130749": {
+            "id": "100130749",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I added quite a few to their number myself... Looks like they're getting restless.",
+            "nextDialogs": [
+              "100130750"
+            ]
+          },
+          "100130750": {
+            "id": "100130750",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Did you really need so many?",
+            "nextDialogs": [
+              "100130751"
+            ]
+          },
+          "100130751": {
+            "id": "100130751",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Are you sure your cages are sturdy? We could do without them complicating our fight with Ursa...",
+            "nextDialogs": [
+              "100130752"
+            ]
+          },
+          "100130752": {
+            "id": "100130752",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "If they were sturdy, I wouldn't have had to work so hard to clean up previous escapees...",
+            "nextDialogs": [
+              "100130753"
+            ]
+          },
+          "100130753": {
+            "id": "100130753",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "But don't worry, they won't disturb you... I guarantee it.",
+            "nextDialogs": [
+              "100130754"
+            ]
+          },
+          "100130754": {
+            "id": "100130754",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you planning to...",
+            "nextDialogs": [
+              "100130755"
+            ]
+          },
+          "100130755": {
+            "id": "100130755",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "The ambitions of old subordinates, revenge for beloved family... Those are your grudges to settle, are they not?",
+            "nextDialogs": [
+              "100130756"
+            ]
+          },
+          "100130756": {
+            "id": "100130756",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "In much the same manner, you just leave the monsters I captured to me.",
+            "nextDialogs": [
+              "100130757"
+            ]
+          },
+          "100130757": {
+            "id": "100130757",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Oh, one last thing...",
+            "nextDialogs": [
+              "100130758"
+            ]
+          },
+          "100130758": {
+            "id": "100130758",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Vice Captain of the Knights of Favonius 5th Company — requesting permission to attack.",
+            "nextDialogs": [
+              "100130759"
+            ]
+          },
+          "100130759": {
+            "id": "100130759",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Hah! Finally reporting in before you sortie, huh?",
+            "nextDialogs": [
+              "100130760"
+            ]
+          },
+          "100130760": {
+            "id": "100130760",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "—Give 'em hell, Lohen.",
+            "nextDialogs": [
+              "100130761"
+            ]
+          },
+          "100130761": {
+            "id": "100130761",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "And don't die — that's an order.",
+            "nextDialogs": [
+              "100130762"
+            ]
+          },
+          "100130762": {
+            "id": "100130762",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Haha! In that case, please dispose of Ursa at your earliest convenience.",
+            "nextDialogs": [
+              "100130763"
+            ]
+          },
+          "100130763": {
+            "id": "100130763",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}... Should we help him?",
+            "nextDialogs": [
+              "100130766"
+            ]
+          },
+          "100130766": {
+            "id": "100130766",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Oho? Looks like that kid's \"friendship fee\" wasn't a complete waste after all, huh?",
+            "nextDialogs": [
+              "100130767"
+            ]
+          },
+          "100130767": {
+            "id": "100130767",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "...Can he handle them all?",
+            "nextDialogs": [
+              "100130768"
+            ]
+          },
+          "100130768": {
+            "id": "100130768",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Trust him, just as he trusts us. After all, he's set to become the youngest Captain since your appointment.",
+            "nextDialogs": [
+              "100130769"
+            ]
+          },
+          "100130769": {
+            "id": "100130769",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Eroch, Rerir, Dottore... Hah, and now Ursa? Guess I'm not destined to rise to such challenges.",
+            "nextDialogs": [
+              "100130770"
+            ]
+          },
+          "100130770": {
+            "id": "100130770",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "But ordinary people... We have our own battles to fight.",
+            "nextDialogs": [
+              "100130771"
+            ]
+          },
+          "100130771": {
+            "id": "100130771",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "So, go. Settle things with your \"obsessions\"...",
+            "nextDialogs": [
+              "100130772"
+            ]
+          },
+          "100130772": {
+            "id": "100130772",
+            "speakerId": 1013,
+            "speakerName": "Varka & Lohen",
+            "text": "...Once and for all!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001308",
+      "subQuestName": "Bar the monsters' path",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1001309",
+      "subQuestName": "Bar the monsters' path",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100130901"
+        ],
+        "dialogs": {
+          "100130901": {
+            "id": "100130901",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "With me! Chaaarge!",
+            "nextDialogs": [
+              "100130902"
+            ]
+          },
+          "100130902": {
+            "id": "100130902",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "Your verdict is...!",
+            "nextDialogs": [
+              "100130903"
+            ]
+          },
+          "100130903": {
+            "id": "100130903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Now, begone!",
+            "nextDialogs": [
+              "100130904"
+            ]
+          },
+          "100130904": {
+            "id": "100130904",
+            "speakerId": 1014,
+            "speakerName": "Roar From the Past",
+            "text": "Raargh!",
+            "nextDialogs": [
+              "100130905"
+            ]
+          },
+          "100130905": {
+            "id": "100130905",
+            "speakerId": 1012,
+            "speakerName": "Restless Monsters",
+            "text": "Raargh!",
+            "nextDialogs": [
+              "100130906"
+            ]
+          },
+          "100130906": {
+            "id": "100130906",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Want to leave, do you? Can you hear Ursa's call? Or is it the serum you smell?",
+            "nextDialogs": [
+              "100130907"
+            ]
+          },
+          "100130907": {
+            "id": "100130907",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Well, I'm afraid that just won't do. Behind me stand not only heroes who battle wicked dragons, but slow, fragile mortals too.",
+            "nextDialogs": [
+              "100130908"
+            ]
+          },
+          "100130908": {
+            "id": "100130908",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "So...",
+            "nextDialogs": [
+              "100130909"
+            ]
+          },
+          "100130909": {
+            "id": "100130909",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Come at me, each and every one of you!",
+            "nextDialogs": [
+              "100130910"
+            ]
+          },
+          "100130910": {
+            "id": "100130910",
+            "speakerId": 1012,
+            "speakerName": "Restless Monsters",
+            "text": "Raargh!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001310",
+      "subQuestName": "Bar the monsters' path",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1001311",
+      "subQuestName": "Bar the monsters' path",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100131101"
+        ],
+        "dialogs": {
+          "100131101": {
+            "id": "100131101",
+            "speakerId": 1015,
+            "speakerName": "Eroch",
+            "text": "\"Rejoice. You shall soon surpass the common clay of this world. You shall cross into the realm of the extraordinary—\"",
+            "nextDialogs": [
+              "100131102"
+            ]
+          },
+          "100131102": {
+            "id": "100131102",
+            "speakerId": 1016,
+            "speakerName": "???",
+            "text": "Once, you believed you could control your fate by gaining power.",
+            "nextDialogs": [
+              "100131103"
+            ]
+          },
+          "100131103": {
+            "id": "100131103",
+            "speakerId": 1017,
+            "speakerName": "\"Rächer of Solnari\"",
+            "text": "\"Slow, weak, powerless... mortal.\"",
+            "nextDialogs": [
+              "100131104"
+            ]
+          },
+          "100131104": {
+            "id": "100131104",
+            "speakerId": 1016,
+            "speakerName": "???",
+            "text": "Then, your paltry arrogance was smashed by power beyond reason.",
+            "nextDialogs": [
+              "100131105"
+            ]
+          },
+          "100131105": {
+            "id": "100131105",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100131106"
+            ]
+          },
+          "100131106": {
+            "id": "100131106",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "\"...I accept that we should send our strongest warrior to fight Nod-Krai's battles.\"",
+            "nextDialogs": [
+              "100131107"
+            ]
+          },
+          "100131107": {
+            "id": "100131107",
+            "speakerId": 1016,
+            "speakerName": "???",
+            "text": "You are not special. That is the truth, one you once thought you had accepted.",
+            "nextDialogs": [
+              "100131108"
+            ]
+          },
+          "100131108": {
+            "id": "100131108",
+            "speakerId": 1008,
+            "speakerName": "Theodore",
+            "text": "\"What do you wanna do, then!? Stand by and watch him die!?\"",
+            "nextDialogs": [
+              "100131109"
+            ]
+          },
+          "100131109": {
+            "id": "100131109",
+            "speakerId": 1016,
+            "speakerName": "???",
+            "text": "Yet you will not suffer a mundane death to befall you.",
+            "nextDialogs": [
+              "100131110"
+            ]
+          },
+          "100131110": {
+            "id": "100131110",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100131111"
+            ]
+          },
+          "100131111": {
+            "id": "100131111",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "You are not wrong. You never have been! Power is the sole solution to all things. It is how we grasp destiny by the throat. It is how we resist even Death!",
+            "nextDialogs": [
+              "100131112"
+            ]
+          },
+          "100131112": {
+            "id": "100131112",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "You simply lack enough of it. Not even close... unless... you accept this gift.",
+            "nextDialogs": [
+              "100131113"
+            ]
+          },
+          "100131113": {
+            "id": "100131113",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...",
+            "nextDialogs": [
+              "100131114"
+            ]
+          },
+          "100131114": {
+            "id": "100131114",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "Power and means are neither good nor evil. Have you not always believed so?",
+            "nextDialogs": [
+              "100131115"
+            ]
+          },
+          "100131115": {
+            "id": "100131115",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "Carving up Abyssal power, seeking aid from a coven of witches, leaning on divine favor...",
+            "nextDialogs": [
+              "100131116"
+            ]
+          },
+          "100131116": {
+            "id": "100131116",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "Is there any difference? Are mortals unworthy of power?",
+            "nextDialogs": [
+              "100131117"
+            ]
+          },
+          "100131117": {
+            "id": "100131117",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "Now then. Accept my strength... <color=#f665ff>My</color> guidance.",
+            "nextDialogs": [
+              "100131118"
+            ]
+          },
+          "100131118": {
+            "id": "100131118",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Heh, you're right. Power is just power.",
+            "nextDialogs": [
+              "100131119"
+            ]
+          },
+          "100131119": {
+            "id": "100131119",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...It's humanity's arrogance and stupidity that invite destruction.",
+            "nextDialogs": [
+              "100131120"
+            ]
+          },
+          "100131120": {
+            "id": "100131120",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "*pained gasp*",
+            "nextDialogs": [
+              "100131121"
+            ]
+          },
+          "100131121": {
+            "id": "100131121",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "*panting* Not so talkative now, hmm?",
+            "nextDialogs": [
+              "100131122"
+            ]
+          },
+          "100131122": {
+            "id": "100131122",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "You embrace mediocrity!? You spurn my counsel!?",
+            "nextDialogs": [
+              "100131123"
+            ]
+          },
+          "100131123": {
+            "id": "100131123",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "What I desire, I'll take with my own two hands. If I accept your guidance, \"I\" wouldn't be the master of that power now, would I?",
+            "nextDialogs": [
+              "100131124"
+            ]
+          },
+          "100131124": {
+            "id": "100131124",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Begone. I have no need for power I don't control.",
+            "nextDialogs": [
+              "100131125"
+            ]
+          },
+          "100131125": {
+            "id": "100131125",
+            "speakerId": 1018,
+            "speakerName": "Lohen?",
+            "text": "No...!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001312",
+      "subQuestName": "Check on Lohen's condition",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100131201"
+        ],
+        "dialogs": {
+          "100131201": {
+            "id": "100131201",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Lohen! Wake up! Lohen!",
+            "nextDialogs": [
+              "100131202"
+            ]
+          },
+          "100131202": {
+            "id": "100131202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Lohen!",
+            "nextDialogs": [
+              "100131203"
+            ]
+          },
+          "100131203": {
+            "id": "100131203",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Argh. Are you trying to burst my eardrums? I was just taking a quick nap. That fight took a lot out of me, you know?",
+            "nextDialogs": [
+              "100131204"
+            ]
+          },
+          "100131204": {
+            "id": "100131204",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Heh. Never thought I'd hear you say something like that.",
+            "nextDialogs": [
+              "100131207"
+            ]
+          },
+          "100131207": {
+            "id": "100131207",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I didn't inject myself with it. Just used it to attract the monsters. Can't exactly deal with out-of-control monsters when I'm going berserk myself, can I?",
+            "nextDialogs": [
+              "100131208"
+            ]
+          },
+          "100131208": {
+            "id": "100131208",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Plus, wouldn't want you finishing off Ursa just to turn around and have to deal with me.",
+            "nextDialogs": [
+              "100131209"
+            ]
+          },
+          "100131209": {
+            "id": "100131209",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "There's still a little in my system from previous experiments, though... That stuff gives you a real headache.",
+            "nextDialogs": [
+              "100131210"
+            ]
+          },
+          "100131210": {
+            "id": "100131210",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "Ursa's Flesh has been destroyed. There shouldn't be any further risk of activation.",
+            "nextDialogs": [
+              "100131211"
+            ]
+          },
+          "100131211": {
+            "id": "100131211",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...I see. Totally obliterated, huh?",
+            "nextDialogs": [
+              "100131212"
+            ]
+          },
+          "100131212": {
+            "id": "100131212",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "What about Adorno and Theodore?",
+            "nextDialogs": [
+              "100131213"
+            ]
+          },
+          "100131213": {
+            "id": "100131213",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "Our reinforcements showed up — I had the knights escort them back.",
+            "nextDialogs": [
+              "100131214"
+            ]
+          },
+          "100131214": {
+            "id": "100131214",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "As for Theodore's punishment... and yours, I'll look into it later.",
+            "nextDialogs": [
+              "100131215"
+            ]
+          },
+          "100131215": {
+            "id": "100131215",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "...Stay with him until the very end, you hear?",
+            "nextDialogs": [
+              "100131216"
+            ]
+          },
+          "100131216": {
+            "id": "100131216",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "...Thank you, Grand Master."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001313",
+      "subQuestName": "Talk to Lohen",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100131301"
+        ],
+        "dialogs": {
+          "100131301": {
+            "id": "100131301",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "\"Do not stand by my grave and cry. My life, I gave to wipe tears dry.\"",
+            "nextDialogs": [
+              "100131302"
+            ]
+          },
+          "100131302": {
+            "id": "100131302",
+            "speakerId": 1010,
+            "speakerName": "Adorno",
+            "text": "\"...Here rests the Benevolent Knight...\"",
+            "nextDialogs": [
+              "100131304"
+            ]
+          },
+          "100131304": {
+            "id": "100131304",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Hehe. This epitaph suits you, old man...",
+            "nextDialogs": [
+              "100131305"
+            ]
+          },
+          "100131305": {
+            "id": "100131305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Who chews bubblegum while visiting a grave...?",
+            "nextDialogs": [
+              "100131306"
+            ]
+          },
+          "100131306": {
+            "id": "100131306",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Hmm? Oh, here to see Adorno too, are you? Hey, want some gum?",
+            "nextDialogs": [
+              "100131307"
+            ]
+          },
+          "100131307": {
+            "id": "100131307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Uhm, n—no thanks...",
+            "nextDialogs": [
+              "100131308"
+            ]
+          },
+          "100131308": {
+            "id": "100131308",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "He always liked messing around with this stuff. Said it made the kids happy.",
+            "nextDialogs": [
+              "100131309"
+            ]
+          },
+          "100131309": {
+            "id": "100131309",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Pretty sure he'd be glad to receive candy on the other side.",
+            "nextDialogs": [
+              "100131312"
+            ]
+          },
+          "100131312": {
+            "id": "100131312",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I had nothing else to do during confinement, so I made candy to stave off the boredom.",
+            "nextDialogs": [
+              "100131313"
+            ]
+          },
+          "100131313": {
+            "id": "100131313",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "No wonder we didn't see you at the award ceremony... You were in solitary confinement the whole time, huh?",
+            "nextDialogs": [
+              "100131314"
+            ]
+          },
+          "100131314": {
+            "id": "100131314",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "Hah... That wasn't all. Our dear \"reasonable\" Acting Grand Master Jean handed down two other punishments.",
+            "nextDialogs": [
+              "100131315"
+            ]
+          },
+          "100131315": {
+            "id": "100131315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And what were those?",
+            "nextDialogs": [
+              "100131316"
+            ]
+          },
+          "100131316": {
+            "id": "100131316",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "The Knights have decided to rescind my commendation and not promote me to Captain.",
+            "nextDialogs": [
+              "100131317"
+            ]
+          },
+          "100131317": {
+            "id": "100131317",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "The title of Benevolent Knight is to be buried with Adorno. The position of 5th Company Captain will also remain vacant — for the time being.",
+            "nextDialogs": [
+              "100131318"
+            ]
+          },
+          "100131318": {
+            "id": "100131318",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Is that... really okay!?",
+            "nextDialogs": [
+              "100131319"
+            ]
+          },
+          "100131319": {
+            "id": "100131319",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "To quote Varka... \"Look, Mondstadt did just fine for a long time with only an Acting Grand Master, right?\"",
+            "nextDialogs": [
+              "100131320"
+            ]
+          },
+          "100131320": {
+            "id": "100131320",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "He sure can be persuasive when he wants to be...",
+            "nextDialogs": [
+              "100131321"
+            ]
+          },
+          "100131321": {
+            "id": "100131321",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "And it's all the more so for the title of Benevolent Knight.",
+            "nextDialogs": [
+              "100131322"
+            ]
+          },
+          "100131322": {
+            "id": "100131322",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "I will not allow anyone unworthy to inherit it... even if the unworthy successor is me.",
+            "nextDialogs": [
+              "100131323"
+            ]
+          },
+          "100131323": {
+            "id": "100131323",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon suddenly felt like that title suited you for a second... Must have been her imagination, eh?",
+            "nextDialogs": [
+              "100131324"
+            ]
+          },
+          "100131324": {
+            "id": "100131324",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "You think so? I prefer a different title, really. The \"Ends Justify the Means Knight\"? The \"A Win Is a Win Knight\"? The \"Punching Bag Knight\" sounds alright, too.",
+            "nextDialogs": [
+              "100131325"
+            ]
+          },
+          "100131325": {
+            "id": "100131325",
+            "speakerId": 1009,
+            "speakerName": "Lohen",
+            "text": "That said, it seems this sinner will have to win a few more battles first before getting his next commendation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1001399",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "100139901"
+        ],
+        "dialogs": {
+          "100139901": {
+            "id": "100139901",
+            "speakerId": 1002,
+            "speakerName": "Diluc",
+            "text": "According to the experimental logs, extracting high-concentration serum requires repeatedly stimulating Ursa's Flesh to increase its activity...",
+            "nextDialogs": [
+              "100139902"
+            ]
+          },
+          "100139902": {
+            "id": "100139902",
+            "speakerId": 1000,
+            "speakerName": "Varka",
+            "text": "There's an ominous feeling growing stronger by the second. Prepare for battle."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Galathee": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7465701",
+      "subQuestName": "Give 10 bottles of Salt to Galathee",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746570101"
+        ],
+        "dialogs": {
+          "746570101": {
+            "id": "746570101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Salt...",
+            "nextDialogs": [
+              "746570102"
+            ]
+          },
+          "746570102": {
+            "id": "746570102",
+            "speakerId": 1000,
+            "speakerName": "Galathee",
+            "text": "Hello. Are you here to discuss matters related to the supply of salt?",
+            "nextDialogs": [
+              "746570103"
+            ]
+          },
+          "746570103": {
+            "id": "746570103",
+            "speakerId": 1000,
+            "speakerName": "Galathee",
+            "text": "Then you must have a lot of salt prepared, right?",
+            "nextDialogs": [
+              "746570105"
+            ]
+          },
+          "746570105": {
+            "id": "746570105",
+            "speakerId": 1000,
+            "speakerName": "Galathee",
+            "text": "It won't do to be without salt. Every time our ship sets sail, we need to stockpile enough salt for our journey."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465702",
+      "subQuestName": "Talk to Galathee",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746570201"
+        ],
+        "dialogs": {
+          "746570201": {
+            "id": "746570201",
+            "speakerId": 1000,
+            "speakerName": "Galathee",
+            "text": "The current amount should be enough for a short voyage. You seem pretty reliable. If I have any needs like this in the future, you'll be the first one I contact."
+          }
+        }
+      }
+    }
+  ]
+}

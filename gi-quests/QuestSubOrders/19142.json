@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1914201",
+      "subQuestName": "Go to the Grand Narukami Shrine and apologize to Yae Miko",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1914201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191420198"
+        ],
+        "dialogs": {
+          "191420198": {
+            "id": "191420198",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Never let her lead you by the nose!",
+            "nextDialogs": [
+              "191420199"
+            ]
+          },
+          "191420199": {
+            "id": "191420199",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Looks like you'll have to play along..."
+          }
+        }
+      }
+    }
+  ]
+}

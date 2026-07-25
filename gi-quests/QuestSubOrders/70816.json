@@ -1,0 +1,139 @@
+{
+  "lineCounts": {
+    "Jack": 8,
+    "Player": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7081601",
+      "subQuestName": "Talk to Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081602",
+      "subQuestName": "Go to the Thousand Winds Temple and look for Jack's lost items",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708160201"
+        ],
+        "dialogs": {
+          "708160201": {
+            "id": "708160201",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "I need to be more cautious in the future.",
+            "nextDialogs": [
+              "708160202"
+            ]
+          },
+          "708160202": {
+            "id": "708160202",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "But not too careful, because... *sigh*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081603",
+      "subQuestName": "Go to the Thousand Winds Temple and look for Jack's lost items",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708160301"
+        ],
+        "dialogs": {
+          "708160301": {
+            "id": "708160301",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "Did you manage to find them?",
+            "nextDialogs": [
+              "708160302"
+            ]
+          },
+          "708160302": {
+            "id": "708160302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Got them right here.",
+            "nextDialogs": [
+              "708160303"
+            ]
+          },
+          "708160303": {
+            "id": "708160303",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "Whew, that's a relief. I've always been using this map, so I've put down a lot of markings onto it. Losing it would have been a disaster.",
+            "nextDialogs": [
+              "708160304"
+            ]
+          },
+          "708160304": {
+            "id": "708160304",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "And if I had really lost my handbook, I don't know how I would have asked Katheryne for a new one.",
+            "nextDialogs": [
+              "708160305"
+            ]
+          },
+          "708160305": {
+            "id": "708160305",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "I mean, what a joke, for an adventurer to lose their handbook during an adventure...",
+            "nextDialogs": [
+              "708160306"
+            ]
+          },
+          "708160306": {
+            "id": "708160306",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "Thanks, I'll keep these things close from now on. Please take these as a token of my appreciation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081604",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708160401"
+        ],
+        "dialogs": {
+          "708160401": {
+            "id": "708160401",
+            "speakerId": 1000,
+            "speakerName": "Jack",
+            "text": "Surely they'll turn up somewhere... Surely..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081606",
+      "subQuestName": "Report back to Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

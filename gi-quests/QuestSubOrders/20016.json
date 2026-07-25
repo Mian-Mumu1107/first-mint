@@ -1,0 +1,559 @@
+{
+  "lineCounts": {
+    "Player": 9,
+    "Reckless Pallad": 7,
+    "Sara": 13,
+    "Terrified Schuster": 6,
+    "Timid Morrow": 7
+  },
+  "subQuests": [
+    {
+      "subId": "2001601",
+      "subQuestName": "Talk to Sara at Good Hunter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160101"
+        ],
+        "dialogs": {
+          "200160101": {
+            "id": "200160101",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Order for delivery",
+            "nextDialogs": [
+              "200160102"
+            ]
+          },
+          "200160102": {
+            "id": "200160102",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Traveler! Perfect timing...",
+            "nextDialogs": [
+              "200160103"
+            ]
+          },
+          "200160103": {
+            "id": "200160103",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Sorry, I know you must be hungry, but could you do something for me?",
+            "nextDialogs": [
+              "200160104"
+            ]
+          },
+          "200160104": {
+            "id": "200160104",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "There's been a steady increase in volume of delivery orders recently. I tend to divide them up by region and then label each dish with the name of the person who ordered it.",
+            "nextDialogs": [
+              "200160105"
+            ]
+          },
+          "200160105": {
+            "id": "200160105",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "But I've lost the label for this <color=#00E1FFFF>Calla Lily Seafood Soup</color>. All I know is that it's for someone in Springvale.",
+            "nextDialogs": [
+              "200160106"
+            ]
+          },
+          "200160106": {
+            "id": "200160106",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Could you take this <color=#00E1FFFF>Calla Lily Seafood Soup</color> over to Springvale for me and find out who ordered it?",
+            "nextDialogs": [
+              "200160108",
+              "200160111"
+            ]
+          },
+          "200160108": {
+            "id": "200160108",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Rest assured there'll be a hearty meal waiting for you on your return!",
+            "nextDialogs": [
+              "200160109"
+            ]
+          },
+          "200160109": {
+            "id": "200160109",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "I'm counting on you!"
+          },
+          "200160111": {
+            "id": "200160111",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Once you've done what I ask, I'll treat you to something from the Good Hunter special menu! Much obliged."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001602",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001603",
+      "subQuestName": "Deliver the food to the buyer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161101"
+        ],
+        "dialogs": {
+          "200161101": {
+            "id": "200161101",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "I wonder if there's anywhere safe to go adventuring..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001604",
+      "subQuestName": "Buyer determiner 1",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160301"
+        ],
+        "dialogs": {
+          "200160301": {
+            "id": "200160301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Excuse me, did you order takeout?",
+            "nextDialogs": [
+              "200160302"
+            ]
+          },
+          "200160302": {
+            "id": "200160302",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "Wow, that was fast. I thought it would take longer.",
+            "nextDialogs": [
+              "200160303"
+            ]
+          },
+          "200160303": {
+            "id": "200160303",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "Here's what I owe you. Mmm, smells gooood!",
+            "nextDialogs": [
+              "200160304"
+            ]
+          },
+          "200160304": {
+            "id": "200160304",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "I mustn't go adventuring on an empty stomach. Now, I'm going to savor every last bite of this..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001605",
+      "subQuestName": "Buyer determiner 2",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160501"
+        ],
+        "dialogs": {
+          "200160501": {
+            "id": "200160501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hello there. Is this your food?",
+            "nextDialogs": [
+              "200160502"
+            ]
+          },
+          "200160502": {
+            "id": "200160502",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Um... is it Calla Lily Seafood Soup?",
+            "nextDialogs": [
+              "200160503"
+            ]
+          },
+          "200160503": {
+            "id": "200160503",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Yay, it is mine then. But I'm not sure what took you so long...",
+            "nextDialogs": [
+              "200160504"
+            ]
+          },
+          "200160504": {
+            "id": "200160504",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Any later and Draff would have dragged me out on a hunt by now.",
+            "nextDialogs": [
+              "200160505"
+            ]
+          },
+          "200160505": {
+            "id": "200160505",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Ugh, whatever. Here's your money. Now get outta here, let me eat my food in peace."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001606",
+      "subQuestName": "Buyer determiner 3",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160701"
+        ],
+        "dialogs": {
+          "200160701": {
+            "id": "200160701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Excuse me, did you order some takeout?",
+            "nextDialogs": [
+              "200160702"
+            ]
+          },
+          "200160702": {
+            "id": "200160702",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Yes, a long time ago! Took you long enough! There'll be no treasure left if I wait much longer.",
+            "nextDialogs": [
+              "200160703"
+            ]
+          },
+          "200160703": {
+            "id": "200160703",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Mmm, this does smell delicious though...",
+            "nextDialogs": [
+              "200160704"
+            ]
+          },
+          "200160704": {
+            "id": "200160704",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Well, I guess good food is also a treasure worth waiting for. I'm sure I've got time to eat before treasure hunting.",
+            "nextDialogs": [
+              "200160705"
+            ]
+          },
+          "200160705": {
+            "id": "200160705",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Thank you. Here's the cash."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001607",
+      "subQuestName": "Talk to Schuster",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001608",
+      "subQuestName": "Talk to Morrow",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001609",
+      "subQuestName": "Talk to Pallad",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001610",
+      "subQuestName": "Bridge",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2001611",
+      "subQuestName": "Give the fee to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160201"
+        ],
+        "dialogs": {
+          "200160201": {
+            "id": "200160201",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Deliver meal fee",
+            "nextDialogs": [
+              "200160202"
+            ]
+          },
+          "200160202": {
+            "id": "200160202",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "You're back! Did you manage to deliver it?",
+            "nextDialogs": [
+              "200160203"
+            ]
+          },
+          "200160203": {
+            "id": "200160203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Here's the fee.",
+            "nextDialogs": [
+              "200160204"
+            ]
+          },
+          "200160204": {
+            "id": "200160204",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Let me check... Perfect! Thanks!",
+            "nextDialogs": [
+              "200160205"
+            ]
+          },
+          "200160205": {
+            "id": "200160205",
+            "speakerId": 1000,
+            "speakerName": "Sara",
+            "text": "Here, this <color=#00E1FFFF>Crab, Ham & Veggie Bake</color> is for you. It's fresh out of the oven, eat it while it's hot."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001604",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160401"
+        ],
+        "dialogs": {
+          "200160401": {
+            "id": "200160401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sorry to bother you — did you order takeout?",
+            "nextDialogs": [
+              "200160402"
+            ]
+          },
+          "200160402": {
+            "id": "200160402",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "I did! ...Oh, but this one isn't mine."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001606",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160601"
+        ],
+        "dialogs": {
+          "200160601": {
+            "id": "200160601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hello, did you order food?",
+            "nextDialogs": [
+              "200160602"
+            ]
+          },
+          "200160602": {
+            "id": "200160602",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Um... Not this, this one isn't mine."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001608",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200160801"
+        ],
+        "dialogs": {
+          "200160801": {
+            "id": "200160801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Takeout, get your takeout here...",
+            "nextDialogs": [
+              "200160802"
+            ]
+          },
+          "200160802": {
+            "id": "200160802",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Takeout? Not mine."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001612",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161201"
+        ],
+        "dialogs": {
+          "200161201": {
+            "id": "200161201",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "I wish every day didn't have to be a hunting day..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001613",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161301"
+        ],
+        "dialogs": {
+          "200161301": {
+            "id": "200161301",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "Where is the treasure hiding..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001614",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161401"
+        ],
+        "dialogs": {
+          "200161401": {
+            "id": "200161401",
+            "speakerId": 1001,
+            "speakerName": "Terrified Schuster",
+            "text": "Once I've finished eating I can get on with my adventure..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001615",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161501"
+        ],
+        "dialogs": {
+          "200161501": {
+            "id": "200161501",
+            "speakerId": 1002,
+            "speakerName": "Timid Morrow",
+            "text": "Yikes... I need to eat up, Draff has nearly finished drinking."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2001616",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200161601"
+        ],
+        "dialogs": {
+          "200161601": {
+            "id": "200161601",
+            "speakerId": 1003,
+            "speakerName": "Reckless Pallad",
+            "text": "I'm sure there's time for me to eat before treasure hunting."
+          }
+        }
+      }
+    }
+  ]
+}

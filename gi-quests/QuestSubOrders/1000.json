@@ -1,0 +1,1071 @@
+{
+  "lineCounts": {
+    "???": 1,
+    "Bolai": 9,
+    "Changshun": 3,
+    "Childe": 40,
+    "Guanhai": 4,
+    "Ivanovich": 6,
+    "Linlang": 9,
+    "Millelith Soldier": 1,
+    "Paimon": 38,
+    "Player": 17,
+    "Tianquan's Assistant": 1,
+    "Yujing Terrace Infiltration AI1": 2
+  },
+  "subQuests": [
+    {
+      "subId": "100000",
+      "subQuestName": "Go to Liyue Harbor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000001"
+        ],
+        "dialogs": {
+          "10000001": {
+            "id": "10000001",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Xigu Antiques isn't open yet..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100001",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000101"
+        ],
+        "dialogs": {
+          "10000101": {
+            "id": "10000101",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "If you wanna find the Geo Archon, this is the only chance you'll get all year.",
+            "nextDialogs": [
+              "10000102"
+            ]
+          },
+          "10000102": {
+            "id": "10000102",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Guess it's a good thing Venti brought it up earlier, otherwise we definitely would've missed this year's Rite of Descension.",
+            "nextDialogs": [
+              "10000104",
+              "10000106"
+            ]
+          },
+          "10000104": {
+            "id": "10000104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uhh... might be today, might also be tomorrow...",
+            "nextDialogs": [
+              "10000107"
+            ]
+          },
+          "10000107": {
+            "id": "10000107",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Look, we're already in Liyue so let's go ask some of the locals.",
+            "nextDialogs": [
+              "10000108"
+            ]
+          },
+          "10000108": {
+            "id": "10000108",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh, right. About the Geo Archon, \"Morax...\"",
+            "nextDialogs": [
+              "10000109"
+            ]
+          },
+          "10000109": {
+            "id": "10000109",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Did you know? The Mora that we use is named after this god.",
+            "nextDialogs": [
+              "10000110"
+            ]
+          },
+          "10000110": {
+            "id": "10000110",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But it's seen as impolite for people from outside Liyue to refer to the Geo Archon by that name.",
+            "nextDialogs": [
+              "10000111"
+            ]
+          },
+          "10000111": {
+            "id": "10000111",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So we should refer to the Geo Archon by the name Rex Lapis, like the people of Liyue do."
+          },
+          "10000106": {
+            "id": "10000106",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, Venti brought up the time, but Paimon... knows nothing about where it is... Ehe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100002",
+      "subQuestName": "Talk to the locals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000201"
+        ],
+        "dialogs": {
+          "10000201": {
+            "id": "10000201",
+            "speakerId": 1002,
+            "speakerName": "Guanhai",
+            "text": "Oh! Are you also visitors here for the Rite of Descension?",
+            "nextDialogs": [
+              "10000202"
+            ]
+          },
+          "10000202": {
+            "id": "10000202",
+            "speakerId": 1002,
+            "speakerName": "Guanhai",
+            "text": "To think I've lived in Liyue all these years and never come to see this before.",
+            "nextDialogs": [
+              "10000203"
+            ]
+          },
+          "10000203": {
+            "id": "10000203",
+            "speakerId": 1002,
+            "speakerName": "Guanhai",
+            "text": "I guess it's like they say. Locals never visit the tourist spots.",
+            "nextDialogs": [
+              "10000204"
+            ]
+          },
+          "10000204": {
+            "id": "10000204",
+            "speakerId": 1002,
+            "speakerName": "Guanhai",
+            "text": "I wish you well on your travels! Liyue always welcomes you!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100003",
+      "subQuestName": "Talk to the locals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000301"
+        ],
+        "dialogs": {
+          "10000301": {
+            "id": "10000301",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Rite of Descension... Oh yeah, that reminds me, isn't that today?",
+            "nextDialogs": [
+              "10000302"
+            ]
+          },
+          "10000302": {
+            "id": "10000302",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Once a year, Rex Lapis bestows upon us his divine prediction, guiding us on how to run Liyue for the coming year.",
+            "nextDialogs": [
+              "10000303"
+            ]
+          },
+          "10000303": {
+            "id": "10000303",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Last year it was the Yuheng of the Liyue Qixing that was given the honor of asking for the divine prediction.",
+            "nextDialogs": [
+              "10000306"
+            ]
+          },
+          "10000306": {
+            "id": "10000306",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ooh! Paimon knows this one!",
+            "nextDialogs": [
+              "10000307"
+            ]
+          },
+          "10000307": {
+            "id": "10000307",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Mondstadt is to freedom as Liyue is to contracts. Liyue has a strong focus on business and trade.",
+            "nextDialogs": [
+              "10000308"
+            ]
+          },
+          "10000308": {
+            "id": "10000308",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "The Liyue Qixing — the seven leaders of the seven enterprises of Liyue — hold true control over Liyue.",
+            "nextDialogs": [
+              "10000309"
+            ]
+          },
+          "10000309": {
+            "id": "10000309",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "That's what foreigners always say.",
+            "nextDialogs": [
+              "10000310"
+            ]
+          },
+          "10000310": {
+            "id": "10000310",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "But true control over Liyue will always be held by Rex Lapis.",
+            "nextDialogs": [
+              "10000311"
+            ]
+          },
+          "10000311": {
+            "id": "10000311",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "The Qixing is comprised of mere mortals. Rex Lapis is a god. Mondstadt's god is nowhere to be seen, whilst our god is forever with us.",
+            "nextDialogs": [
+              "10000312"
+            ]
+          },
+          "10000312": {
+            "id": "10000312",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Stay in Liyue long enough and you'll see...",
+            "nextDialogs": [
+              "10000313"
+            ]
+          },
+          "10000313": {
+            "id": "10000313",
+            "speakerId": 1000,
+            "speakerName": "Linlang",
+            "text": "Given that you just left your godless city, it's time you experienced what it's like to be in a city whose god has walked with it through all of history."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100004",
+      "subQuestName": "Talk to the locals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000401"
+        ],
+        "dialogs": {
+          "10000401": {
+            "id": "10000401",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "You too wish to bear witness to the Rite of Descension? Me too, we all do!",
+            "nextDialogs": [
+              "10000402"
+            ]
+          },
+          "10000402": {
+            "id": "10000402",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "As a businessman myself, how could I not take interest in Liyue's most important business trends?",
+            "nextDialogs": [
+              "10000403"
+            ]
+          },
+          "10000403": {
+            "id": "10000403",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "The seventeen predictions given last year made more than a few ripples throughout the industry.",
+            "nextDialogs": [
+              "10000404"
+            ]
+          },
+          "10000404": {
+            "id": "10000404",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "What's more, there has been a rumor going around that the Tianquan herself, Ningguang, has been acting secretly in the shadows...",
+            "nextDialogs": [
+              "10000405"
+            ]
+          },
+          "10000405": {
+            "id": "10000405",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "She wants the rocks created by Geo Vision holders to be exempt from taxation.",
+            "nextDialogs": [
+              "10000406"
+            ]
+          },
+          "10000406": {
+            "id": "10000406",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow... that's some super professional legal stuff that is!",
+            "nextDialogs": [
+              "10000407"
+            ]
+          },
+          "10000407": {
+            "id": "10000407",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "Haha. To be on the pulse of the predictions and the market is what makes this harbor what it is.",
+            "nextDialogs": [
+              "10000408"
+            ]
+          },
+          "10000408": {
+            "id": "10000408",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "Among The Seven, Rex Lapis is the oldest deity.",
+            "nextDialogs": [
+              "10000409"
+            ]
+          },
+          "10000409": {
+            "id": "10000409",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "His keen sense of strategy is well trusted among his people.",
+            "nextDialogs": [
+              "10000410"
+            ]
+          },
+          "10000410": {
+            "id": "10000410",
+            "speakerId": 1003,
+            "speakerName": "Bolai",
+            "text": "Understanding the predictions as soon as possible can make all the difference in making your fortune!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100006",
+      "subQuestName": "Talk to denizens",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100007",
+      "subQuestName": "Go to Yujing Terrace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000701"
+        ],
+        "dialogs": {
+          "10000701": {
+            "id": "10000701",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Paimon heard that the best time to make a wish is today, during the Rite of Descension. {NICKNAME}, wanna give it a try?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100021",
+      "subQuestName": "Pray and make a wish at Yujing Terrace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10002101"
+        ],
+        "dialogs": {
+          "10002101": {
+            "id": "10002101",
+            "speakerId": 1004,
+            "speakerName": "Changshun",
+            "text": "Oh, you also want a little adepti luck too?",
+            "nextDialogs": [
+              "10002102"
+            ]
+          },
+          "10002102": {
+            "id": "10002102",
+            "speakerId": 1004,
+            "speakerName": "Changshun",
+            "text": "Haha, seems you know a lot! Making a wish during this time is sure to get you the blessings of both the Adepti and Rex Lapis himself.",
+            "nextDialogs": [
+              "10002103"
+            ]
+          },
+          "10002103": {
+            "id": "10002103",
+            "speakerId": 1004,
+            "speakerName": "Changshun",
+            "text": "I've already made my wish, so you can take this.",
+            "nextDialogs": [
+              "10002104"
+            ]
+          },
+          "10002104": {
+            "id": "10002104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Great, thanks!",
+            "nextDialogs": [
+              "10002105"
+            ]
+          },
+          "10002105": {
+            "id": "10002105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#I wish I could find my {M#sister}{F#brother} soon..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100022",
+      "subQuestName": "Pray and make a wish at Yujing Terrace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10002201"
+        ],
+        "dialogs": {
+          "10002201": {
+            "id": "10002201",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "Your first time in Liyue? Actually, it's my first time to see the Rite of Descension too.",
+            "nextDialogs": [
+              "10002202"
+            ]
+          },
+          "10002202": {
+            "id": "10002202",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "Ah, look! That's Ms. Ningguang of the Liyue Qixing!",
+            "nextDialogs": [
+              "10002203"
+            ]
+          },
+          "10002203": {
+            "id": "10002203",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "Only those who have control in Liyue can preside over the Rite of Descension.",
+            "nextDialogs": [
+              "10002204"
+            ]
+          },
+          "10002204": {
+            "id": "10002204",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "Oh yeah, not sure if you knew, but most of the adepti appear in the form of various beasts.",
+            "nextDialogs": [
+              "10002205"
+            ]
+          },
+          "10002205": {
+            "id": "10002205",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "I heard that when attending these kinds of formal occasions, Rex Lapis himself appears as a celestial cross between two of Liyue's ancient mythical creatures...",
+            "nextDialogs": [
+              "10002206"
+            ]
+          },
+          "10002206": {
+            "id": "10002206",
+            "speakerId": 1005,
+            "speakerName": "Ivanovich",
+            "text": "...Sorry, I shouldn't interrupt your wish. Please, take this.",
+            "nextDialogs": [
+              "10002207"
+            ]
+          },
+          "10002207": {
+            "id": "10002207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I wish I could get some leads from the Geo Archon..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100024",
+      "subQuestName": "Pray and make a wish at Yujing Terrace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100025",
+      "subQuestName": "Rollback isolation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100026",
+      "subQuestName": "Join the crowd and wait for the rite to begin",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100008",
+      "subQuestName": "Watch the rite",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10000801"
+        ],
+        "dialogs": {
+          "10000801": {
+            "id": "10000801",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa! Look at all the people..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100015",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10001501"
+        ],
+        "dialogs": {
+          "10001501": {
+            "id": "10001501",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wha... What's going on!?",
+            "nextDialogs": [
+              "10001502"
+            ]
+          },
+          "10001502": {
+            "id": "10001502",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Did she just say Rex Lapis is...",
+            "nextDialogs": [
+              "10001503"
+            ]
+          },
+          "10001503": {
+            "id": "10001503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "The Geo Archon... is... DEAD!?",
+            "nextDialogs": [
+              "10001504"
+            ]
+          },
+          "10001504": {
+            "id": "10001504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh no, the Millelith! Looks like they're nabbing suspects who got too close.",
+            "nextDialogs": [
+              "10001505"
+            ]
+          },
+          "10001505": {
+            "id": "10001505",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon's freaking out. The killer is amongst us!",
+            "nextDialogs": [
+              "10001506"
+            ]
+          },
+          "10001506": {
+            "id": "10001506",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait... we got close... are we suspects!?",
+            "nextDialogs": [
+              "10001507"
+            ]
+          },
+          "10001507": {
+            "id": "10001507",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait, where are you going?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100027",
+      "subQuestName": "Escape from the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100010",
+      "subQuestName": "Escape from the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10001001"
+        ],
+        "dialogs": {
+          "10001001": {
+            "id": "10001001",
+            "speakerId": 1006,
+            "speakerName": "Yujing Terrace Infiltration AI1",
+            "text": "Someone assassinated Rex Lapis! You'd be wise to cooperate with our investigation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100012",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10001201"
+        ],
+        "dialogs": {
+          "10001201": {
+            "id": "10001201",
+            "speakerId": 1006,
+            "speakerName": "Yujing Terrace Infiltration AI1",
+            "text": "There's nowhere to run!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100013",
+      "subQuestName": "Talk to the stranger",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10001301"
+        ],
+        "dialogs": {
+          "10001301": {
+            "id": "10001301",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "*panting* Phew... Paimon's exhausted...",
+            "nextDialogs": [
+              "10001304"
+            ]
+          },
+          "10001304": {
+            "id": "10001304",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So insensitive! You have no idea just how tiring floating arou— Wait!",
+            "nextDialogs": [
+              "10001305"
+            ]
+          },
+          "10001305": {
+            "id": "10001305",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Just who are you exactly?",
+            "nextDialogs": [
+              "10001306"
+            ]
+          },
+          "10001306": {
+            "id": "10001306",
+            "speakerId": 1007,
+            "speakerName": "???",
+            "text": "Call me Childe.",
+            "nextDialogs": [
+              "10001307"
+            ]
+          },
+          "10001307": {
+            "id": "10001307",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Childe? What, so we're supposed to dote on you?",
+            "nextDialogs": [
+              "10001308"
+            ]
+          },
+          "10001308": {
+            "id": "10001308",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Haha, no no, not at all. It's an alias of sorts.",
+            "nextDialogs": [
+              "10001309"
+            ]
+          },
+          "10001309": {
+            "id": "10001309",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "In Mondstadt, I don't suppose you came across a \"Signora\" by any chance?",
+            "nextDialogs": [
+              "10001310"
+            ]
+          },
+          "10001310": {
+            "id": "10001310",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Signora... Childe...",
+            "nextDialogs": [
+              "10001311"
+            ]
+          },
+          "10001311": {
+            "id": "10001311",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You're Fatui! One of The Harbingers!",
+            "nextDialogs": [
+              "10001312"
+            ]
+          },
+          "10001312": {
+            "id": "10001312",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Oh, no. Don't worry, I'm not looking for a fight.",
+            "nextDialogs": [
+              "10001313"
+            ]
+          },
+          "10001313": {
+            "id": "10001313",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Signora gave you quite the bad impression huh? Tsk, that woman... Can't say I'm a fan either.",
+            "nextDialogs": [
+              "10001314"
+            ]
+          },
+          "10001314": {
+            "id": "10001314",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Right, let's forget all about her, shall we? I'm here to help you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100014",
+      "subQuestName": "Talk to Childe at the Northland Bank",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10001401"
+        ],
+        "dialogs": {
+          "10001401": {
+            "id": "10001401",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Northland Bank...",
+            "nextDialogs": [
+              "10001402"
+            ]
+          },
+          "10001402": {
+            "id": "10001402",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Correct. This bank was opened here in Liyue by Snezhnaya.",
+            "nextDialogs": [
+              "10001403"
+            ]
+          },
+          "10001403": {
+            "id": "10001403",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Though everyone knows Liyue is the most enterprising in Teyvat, Snezhnaya is not short of change either.",
+            "nextDialogs": [
+              "10001404"
+            ]
+          },
+          "10001404": {
+            "id": "10001404",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah well, poorer nations don't seem the type to have diplomats that come around acting the way yours do towards the Knights of Favonius.",
+            "nextDialogs": [
+              "10001405"
+            ]
+          },
+          "10001405": {
+            "id": "10001405",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Eh-hehehehe...",
+            "nextDialogs": [
+              "10001406"
+            ]
+          },
+          "10001406": {
+            "id": "10001406",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Here, let me give you this.",
+            "nextDialogs": [
+              "10001407"
+            ]
+          },
+          "10001407": {
+            "id": "10001407",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "This is a...",
+            "nextDialogs": [
+              "10001408"
+            ]
+          },
+          "10001408": {
+            "id": "10001408",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "I'm not sure, exactly. Sometimes, all money can buy is \"things\" and not a name for oneself.",
+            "nextDialogs": [
+              "10001409"
+            ]
+          },
+          "10001409": {
+            "id": "10001409",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "All I know is that it's a sigil. A sigil to keep the \"mighty and illuminated adepti\" from bringing harm to you.",
+            "nextDialogs": [
+              "10001410"
+            ]
+          },
+          "10001410": {
+            "id": "10001410",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Adepti?",
+            "nextDialogs": [
+              "10001411"
+            ]
+          },
+          "10001411": {
+            "id": "10001411",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "If you head north from the harbor, then west from Guili Plains, you will eventually reach a stone forest known as Jueyun Karst.",
+            "nextDialogs": [
+              "10001412"
+            ]
+          },
+          "10001412": {
+            "id": "10001412",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "The people of Liyue believe it to be the abode of the adepti.",
+            "nextDialogs": [
+              "10001415"
+            ]
+          },
+          "10001415": {
+            "id": "10001415",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Legend or not, they believe it. As such, offerings to the adepti are made at its borders. Nobody dares venture in.",
+            "nextDialogs": [
+              "10001416"
+            ]
+          },
+          "10001416": {
+            "id": "10001416",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "But I have no need for believing — not when I know for a fact that the adepti truly exist.",
+            "nextDialogs": [
+              "10001417"
+            ]
+          },
+          "10001417": {
+            "id": "10001417",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hate to admit it but your Fatui intel seems alright. But, why would we go looking for adepti anyway?",
+            "nextDialogs": [
+              "10001418"
+            ]
+          },
+          "10001418": {
+            "id": "10001418",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Ha, oh my little friend. There are plenty of reasons mortals seek the blessings of adepti.",
+            "nextDialogs": [
+              "10001419"
+            ]
+          },
+          "10001419": {
+            "id": "10001419",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "Money, health, love... But you... you will go for justice.",
+            "nextDialogs": [
+              "10001420"
+            ]
+          },
+          "10001420": {
+            "id": "10001420",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Justice?",
+            "nextDialogs": [
+              "10001421"
+            ]
+          },
+          "10001421": {
+            "id": "10001421",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "The Qixing will already have dispatched the Millelith. They'll be seeking out the assassin from amongst the onlookers.",
+            "nextDialogs": [
+              "10001422"
+            ]
+          },
+          "10001422": {
+            "id": "10001422",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "But how could a mere mortal kill a god that can sweep aside entire armies? Rex Lapis never gave up his power as a god.",
+            "nextDialogs": [
+              "10001423"
+            ]
+          },
+          "10001423": {
+            "id": "10001423",
+            "speakerId": 1008,
+            "speakerName": "Childe",
+            "text": "This level of crude response is beyond what is called for. How suspicious..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100101",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10010101"
+        ],
+        "dialogs": {
+          "10010101": {
+            "id": "10010101",
+            "speakerId": 1009,
+            "speakerName": "Tianquan's Assistant",
+            "text": "Halt. Those not involved in the proceedings are not permitted to go any further!",
+            "nextDialogs": [
+              "10010102"
+            ]
+          },
+          "10010102": {
+            "id": "10010102",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Pfft... Killjoy...",
+            "nextDialogs": [
+              "10010103"
+            ]
+          },
+          "10010103": {
+            "id": "10010103",
+            "speakerId": 1010,
+            "speakerName": "Millelith Soldier",
+            "text": "Halt. Those not involved in the proceedings are not permitted to go any further!",
+            "nextDialogs": [
+              "10010104"
+            ]
+          },
+          "10010104": {
+            "id": "10010104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Pfft... Killjoy..."
+          }
+        }
+      }
+    }
+  ]
+}

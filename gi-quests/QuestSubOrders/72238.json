@@ -1,0 +1,64 @@
+{
+  "lineCounts": {
+    "Paimon": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7223801",
+      "subQuestName": "Examine the Inscribed Map",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722380101"
+        ],
+        "dialogs": {
+          "722380101": {
+            "id": "722380101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "If those memories are correct, this middle patch should be where that lighthouse was."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7223802",
+      "subQuestName": "Investigate the map on the wall",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7223801",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "722380102"
+        ],
+        "dialogs": {
+          "722380102": {
+            "id": "722380102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "In that case, we should be down... here, right?",
+            "nextDialogs": [
+              "722380103"
+            ]
+          },
+          "722380103": {
+            "id": "722380103",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Anyway, it's always easier to have a map with us."
+          }
+        }
+      }
+    }
+  ]
+}

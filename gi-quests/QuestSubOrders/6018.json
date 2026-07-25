@@ -1,0 +1,5767 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 1,
+    "???": 5,
+    "Abyssal Whisper": 6,
+    "Albedo": 17,
+    "Audio Recording": 2,
+    "Black Screen": 1,
+    "Dainsleif": 44,
+    "Durin": 8,
+    "Examine the Board": 3,
+    "File Content": 13,
+    "Flins": 27,
+    "Frithr": 24,
+    "Hroptatyr": 8,
+    "Jahoda": 2,
+    "Lauma": 18,
+    "Monsters": 2,
+    "Nefer": 75,
+    "Notes on the Board": 2,
+    "Orlog": 15,
+    "Paimon": 28,
+    "Person Crying for Help": 2,
+    "Player": 23,
+    "Rerir": 113,
+    "Rhinedottir": 11,
+    "Royal Guard": 2,
+    "Surtalogi": 9,
+    "The Damselette": 7,
+    "The Knave": 3,
+    "Tholindis": 71,
+    "Varka": 33,
+    "Vedrfolnir": 39,
+    "Words Written in a Different Hand": 6
+  },
+  "subQuests": [
+    {
+      "subId": "601801",
+      "subQuestName": "Return to the base",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182801"
+        ],
+        "dialogs": {
+          "60182801": {
+            "id": "60182801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Do you think the others are making good progress? Hope it's all going smoothly...",
+            "nextDialogs": [
+              "60182802"
+            ]
+          },
+          "60182802": {
+            "id": "60182802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, look! They made it back as well!",
+            "nextDialogs": [
+              "60182803"
+            ]
+          },
+          "60182803": {
+            "id": "60182803",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Flins, Lauma! How'd it all go?",
+            "nextDialogs": [
+              "60182804"
+            ]
+          },
+          "60182804": {
+            "id": "60182804",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "All is well, thank you. Nefer and Jahoda had to stay at the Curatorium to wrap things up, so they won't be joining us for now.",
+            "nextDialogs": [
+              "60182805"
+            ]
+          },
+          "60182805": {
+            "id": "60182805",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "I ran into Miss Ineffa and Miss Aino on the way back. Their work is still in progress, so I suspect they won't be back for a while either.",
+            "nextDialogs": [
+              "60182806"
+            ]
+          },
+          "60182806": {
+            "id": "60182806",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "You seem rather cheerful today, Mr. Flins?",
+            "nextDialogs": [
+              "60182807"
+            ]
+          },
+          "60182807": {
+            "id": "60182807",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "I certainly am. I achieved what I set out to do, and came away with more than I bargained for.",
+            "nextDialogs": [
+              "60182808"
+            ]
+          },
+          "60182808": {
+            "id": "60182808",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "More than you bargained for?",
+            "nextDialogs": [
+              "60182809"
+            ]
+          },
+          "60182809": {
+            "id": "60182809",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Fighting alone can get quite tedious, but I had the good fortune to run into a pair of brave young warriors...",
+            "nextDialogs": [
+              "60182810"
+            ]
+          },
+          "60182810": {
+            "id": "60182810",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "We meet again. How have you been?",
+            "nextDialogs": [
+              "60182811"
+            ]
+          },
+          "60182811": {
+            "id": "60182811",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Albedo! What are you doing here?",
+            "nextDialogs": [
+              "60182813",
+              "60182815"
+            ]
+          },
+          "60182813": {
+            "id": "60182813",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "Thankfully, tracking you down turned out to be a lot simpler than we envisaged.",
+            "nextDialogs": [
+              "60182816"
+            ]
+          },
+          "60182816": {
+            "id": "60182816",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "These two courageously lent me a hand while I was fighting the Wild Hunt. When they told me they were Sir Varka's colleagues, it all made sense.",
+            "nextDialogs": [
+              "60182817"
+            ]
+          },
+          "60182817": {
+            "id": "60182817",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "And given how people of outstanding talent tend to cross paths, it's no wonder you're already acquainted.",
+            "nextDialogs": [
+              "60182818"
+            ]
+          },
+          "60182818": {
+            "id": "60182818",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So... Who's your travel buddy, Albedo?",
+            "nextDialogs": [
+              "60182819"
+            ]
+          },
+          "60182819": {
+            "id": "60182819",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "Why don't you come and introduce yourself?",
+            "nextDialogs": [
+              "60182820"
+            ]
+          },
+          "60182820": {
+            "id": "60182820",
+            "speakerId": 1004,
+            "speakerName": "???",
+            "text": "...",
+            "nextDialogs": [
+              "60182821"
+            ]
+          },
+          "60182821": {
+            "id": "60182821",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Hm. A gentleman of few words, I see. And a rather stern countenance... I presumed you were acquainted with him, is that not the case?",
+            "nextDialogs": [
+              "60182822"
+            ]
+          },
+          "60182822": {
+            "id": "60182822",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Wait, those horns...You must be...!",
+            "nextDialogs": [
+              "60182823"
+            ]
+          },
+          "60182823": {
+            "id": "60182823",
+            "speakerId": 1004,
+            "speakerName": "???",
+            "text": "It's nice to meet you.... again. We've... technically met before.",
+            "nextDialogs": [
+              "60182824"
+            ]
+          },
+          "60182824": {
+            "id": "60182824",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a sec, you're... You're Mini Durin!?",
+            "nextDialogs": [
+              "60182825"
+            ]
+          },
+          "60182825": {
+            "id": "60182825",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "That's right. It's me. I'm glad to see you again.",
+            "nextDialogs": [
+              "60182826"
+            ]
+          },
+          "60182826": {
+            "id": "60182826",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "By the way, he says it's okay if you drop the \"Mini.\"",
+            "nextDialogs": [
+              "60182827"
+            ]
+          },
+          "60182827": {
+            "id": "60182827",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "Yeah, I'm not as \"mini\" as I used to be.",
+            "nextDialogs": [
+              "60182828"
+            ]
+          },
+          "60182828": {
+            "id": "60182828",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "Interesting, isn't it? The first step towards blending into human society appears to be reflecting on whether one's name really reflects who they are.",
+            "nextDialogs": [
+              "60182829"
+            ]
+          },
+          "60182829": {
+            "id": "60182829",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, you look... so different... in a good way, of course! It's great to see you looking so healthy.",
+            "nextDialogs": [
+              "60182830"
+            ]
+          },
+          "60182830": {
+            "id": "60182830",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "Thank you, Paimon... And although you're as mini as ever, I understand that diminutives don't always convey endearment. I'll be sure to simply call you \"Paimon\" as a sign of my great respect for you.",
+            "nextDialogs": [
+              "60182831"
+            ]
+          },
+          "60182831": {
+            "id": "60182831",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, you're such a smooth talker now... Hehe, Paimon could get used to this. From now on, you may refer to her as your \"Esteemed Guide, Paimon\"!"
+          },
+          "60182815": {
+            "id": "60182815",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "That would be a natural assumption to make. It's also the correct one."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601802",
+      "subQuestName": "Enter the base",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180201"
+        ],
+        "dialogs": {
+          "60180201": {
+            "id": "60180201",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "...",
+            "nextDialogs": [
+              "60180202"
+            ]
+          },
+          "60180202": {
+            "id": "60180202",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...",
+            "nextDialogs": [
+              "60180203"
+            ]
+          },
+          "60180203": {
+            "id": "60180203",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "I overheard your little chit-chat outside, by the way. With Miss Columbina's colleague gone, we should be back to the original crew plus the other colleagues I brought in.",
+            "nextDialogs": [
+              "60180204"
+            ]
+          },
+          "60180204": {
+            "id": "60180204",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Though it looks like we have another new face... Someone else manage to rope in a colleague, too?",
+            "nextDialogs": [
+              "60180207"
+            ]
+          },
+          "60180207": {
+            "id": "60180207",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Frankly, you and Paimon are the only people I know here.",
+            "nextDialogs": [
+              "60180208"
+            ]
+          },
+          "60180208": {
+            "id": "60180208",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#This here is Dainsleif, colleague of Teyvat's greatest guide, Paimon and greatest adventurer, {NICKNAME}! ...Well, not exactly colleagues. More sort of... friends.",
+            "nextDialogs": [
+              "60180209"
+            ]
+          },
+          "60180209": {
+            "id": "60180209",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "When someone else jumps in to do the announcing, you know you're speaking to someone important.",
+            "nextDialogs": [
+              "60180210"
+            ]
+          },
+          "60180210": {
+            "id": "60180210",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Let's hear what he has to say.",
+            "nextDialogs": [
+              "60180211"
+            ]
+          },
+          "60180211": {
+            "id": "60180211",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "(Tch... Note to self, once Paimon knows your name, the rest of the world will soon follow.)",
+            "nextDialogs": [
+              "60180212"
+            ]
+          },
+          "60180212": {
+            "id": "60180212",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "When he comes looking for us, it's usually something important. Paimon's guessing you've heard about the Wild Hunt, then?",
+            "nextDialogs": [
+              "60180213"
+            ]
+          },
+          "60180213": {
+            "id": "60180213",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "From the looks of it, you're about to hold a meeting. If I were to say that the Wild Hunt is our mutual enemy... would that earn me a seat at the table?",
+            "nextDialogs": [
+              "60180214"
+            ]
+          },
+          "60180214": {
+            "id": "60180214",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "As the saying goes, the enemy of my enemy is my friend. Mr. Dainsleif, there's a seat with your name on it.",
+            "nextDialogs": [
+              "60180215"
+            ]
+          },
+          "60180215": {
+            "id": "60180215",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Though, I can't promise the same for everyone else... Albedo, think you can rustle up a couple more chairs?",
+            "nextDialogs": [
+              "60180216"
+            ]
+          },
+          "60180216": {
+            "id": "60180216",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "After all this time apart, Grand Master Varka's first order is to \"rustle up a couple more chairs.\" Ah, I've missed this.",
+            "nextDialogs": [
+              "60180217"
+            ]
+          },
+          "60180217": {
+            "id": "60180217",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "...Is he being sarcastic?",
+            "nextDialogs": [
+              "60180218"
+            ]
+          },
+          "60180218": {
+            "id": "60180218",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, he's your brother! Why are you asking us?",
+            "nextDialogs": [
+              "60180219"
+            ]
+          },
+          "60180219": {
+            "id": "60180219",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "I've still got a lot to learn about the nuances of human conversation. Trying to decipher Albedo's way of speaking has been like jumping in at the deep end...",
+            "nextDialogs": [
+              "60180220"
+            ]
+          },
+          "60180220": {
+            "id": "60180220",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ohhh, good point, Paimon gets you now. Don't sweat it, there are people who go their whole lives without getting the hang of it. You're ahead of the game already!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601830",
+      "subQuestName": "Chat with everyone while you're waiting",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60183001"
+        ],
+        "dialogs": {
+          "60183001": {
+            "id": "60183001",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "You're both awfully quiet. Why don't I start us off with an icebreaker?",
+            "nextDialogs": [
+              "60183002"
+            ]
+          },
+          "60183002": {
+            "id": "60183002",
+            "speakerId": 1008,
+            "speakerName": "The Damselette",
+            "text": "Much obliged.",
+            "nextDialogs": [
+              "60183003"
+            ]
+          },
+          "60183003": {
+            "id": "60183003",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "Have either of you ever had your portrait painted? If not, I'd be glad to help.",
+            "nextDialogs": [
+              "60183004"
+            ]
+          },
+          "60183004": {
+            "id": "60183004",
+            "speakerId": 1008,
+            "speakerName": "The Damselette",
+            "text": "That sounds like a lovely idea. You know how to paint, then?",
+            "nextDialogs": [
+              "60183005"
+            ]
+          },
+          "60183005": {
+            "id": "60183005",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "I dabble occasionally.",
+            "nextDialogs": [
+              "60183006"
+            ]
+          },
+          "60183006": {
+            "id": "60183006",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "He's an excellent painter. Tables, chairs, people, dragons... You name it, he'll paint it for you.",
+            "nextDialogs": [
+              "60183007"
+            ]
+          },
+          "60183007": {
+            "id": "60183007",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "I'm flattered.",
+            "nextDialogs": [
+              "60183008"
+            ]
+          },
+          "60183008": {
+            "id": "60183008",
+            "speakerId": 1008,
+            "speakerName": "The Damselette",
+            "text": "If I ever get the chance, I'd like to give it a try myself.",
+            "nextDialogs": [
+              "60183009"
+            ]
+          },
+          "60183009": {
+            "id": "60183009",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "I'll bear that in mind. Anyway, how about you, Durin? What sort of portrait would you prefer?",
+            "nextDialogs": [
+              "60183010"
+            ]
+          },
+          "60183010": {
+            "id": "60183010",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "Oh, I'd be fine with anything.",
+            "nextDialogs": [
+              "60183011"
+            ]
+          },
+          "60183011": {
+            "id": "60183011",
+            "speakerId": 1005,
+            "speakerName": "Durin",
+            "text": "Whatever style feels best to you.",
+            "nextDialogs": [
+              "60183012"
+            ]
+          },
+          "60183012": {
+            "id": "60183012",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "Very well. Then, I'll play it by ear.",
+            "nextDialogs": [
+              "60183013"
+            ]
+          },
+          "60183013": {
+            "id": "60183013",
+            "speakerId": 1008,
+            "speakerName": "The Damselette",
+            "text": "You can replicate any style I want?",
+            "nextDialogs": [
+              "60183014"
+            ]
+          },
+          "60183014": {
+            "id": "60183014",
+            "speakerId": 1003,
+            "speakerName": "Albedo",
+            "text": "I can try. If you show me a sample, I'll do my best to match it.",
+            "nextDialogs": [
+              "60183015"
+            ]
+          },
+          "60183015": {
+            "id": "60183015",
+            "speakerId": 1008,
+            "speakerName": "The Damselette",
+            "text": "Thank you... In that case, I'll dig up some reference material for you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601831",
+      "subQuestName": "Chat with everyone while you're waiting",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60183101"
+        ],
+        "dialogs": {
+          "60183101": {
+            "id": "60183101",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Is there... something you'd like to say to me?",
+            "nextDialogs": [
+              "60183102"
+            ]
+          },
+          "60183102": {
+            "id": "60183102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah! For starters, why did you just show up here without even giving us a heads-up!?",
+            "nextDialogs": [
+              "60183103"
+            ]
+          },
+          "60183103": {
+            "id": "60183103",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "If you think back to our previous interactions, you may recall that that's hardly out-of-character for me.",
+            "nextDialogs": [
+              "60183104"
+            ]
+          },
+          "60183104": {
+            "id": "60183104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You... do have a point there.",
+            "nextDialogs": [
+              "60183105"
+            ]
+          },
+          "60183105": {
+            "id": "60183105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sorted out your accommodation yet?",
+            "nextDialogs": [
+              "60183106"
+            ]
+          },
+          "60183106": {
+            "id": "60183106",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ohhh, yeah — you'll need to find somewhere to stay the night too, right? Wanna tag along with us? You never know, we might get a group discount...",
+            "nextDialogs": [
+              "60183107"
+            ]
+          },
+          "60183107": {
+            "id": "60183107",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Sure. Let's do that.",
+            "nextDialogs": [
+              "60183108"
+            ]
+          },
+          "60183108": {
+            "id": "60183108",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Great! Paimon will handle it.",
+            "nextDialogs": [
+              "60183109"
+            ]
+          },
+          "60183109": {
+            "id": "60183109",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, and in return, we can get Dainsleif to be our very own personal bodyguard!",
+            "nextDialogs": [
+              "60183110"
+            ]
+          },
+          "60183110": {
+            "id": "60183110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Paimon, you're thinking out loud again...",
+            "nextDialogs": [
+              "60183111"
+            ]
+          },
+          "60183111": {
+            "id": "60183111",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "If that's what you had in mind, you should have said so sooner. I'd be happy to help.",
+            "nextDialogs": [
+              "60183112"
+            ]
+          },
+          "60183112": {
+            "id": "60183112",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, okay then... Heh, Paimon was only kidding but... Good to know!",
+            "nextDialogs": [
+              "60183113"
+            ]
+          },
+          "60183113": {
+            "id": "60183113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Anyway, since we're all here together, we might as well watch each other's backs. That's just what friends do, right?",
+            "nextDialogs": [
+              "60183114"
+            ]
+          },
+          "60183114": {
+            "id": "60183114",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...Indeed. Thank you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601832",
+      "subQuestName": "Chat with everyone while you're waiting",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60183201"
+        ],
+        "dialogs": {
+          "60183201": {
+            "id": "60183201",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Truth be told, I can't remember the last time I was in a meeting with so many people.",
+            "nextDialogs": [
+              "60183202"
+            ]
+          },
+          "60183202": {
+            "id": "60183202",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "You're not alone there, my friend. The Lightkeepers also struggle to bring everyone together for a serious discussion.",
+            "nextDialogs": [
+              "60183203"
+            ]
+          },
+          "60183203": {
+            "id": "60183203",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Hahaha, I don't doubt that. I've only ever met two Ratniki — one being you, and the other being that young guy, Illuga.",
+            "nextDialogs": [
+              "60183204"
+            ]
+          },
+          "60183204": {
+            "id": "60183204",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Illuga's a good apple, I'll give him that. He's kind, honest, and regularly delivers supplies to my lighthouse. A true Ratnik to the core... In that sense, he puts me to shame.",
+            "nextDialogs": [
+              "60183205"
+            ]
+          },
+          "60183205": {
+            "id": "60183205",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Haha, so you're what — a fake Ratnik? That's what it sounds like you're saying... But I get the feeling that's not quite what you meant.",
+            "nextDialogs": [
+              "60183206"
+            ]
+          },
+          "60183206": {
+            "id": "60183206",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "...",
+            "nextDialogs": [
+              "60183207"
+            ]
+          },
+          "60183207": {
+            "id": "60183207",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "...",
+            "nextDialogs": [
+              "60183208"
+            ]
+          },
+          "60183208": {
+            "id": "60183208",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "C'mon, why the awkward silence?",
+            "nextDialogs": [
+              "60183209"
+            ]
+          },
+          "60183209": {
+            "id": "60183209",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Sorry, I'm not even gonna bother trying to hide it. You've known all along, haven't you, my friend?",
+            "nextDialogs": [
+              "60183210"
+            ]
+          },
+          "60183210": {
+            "id": "60183210",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "...",
+            "nextDialogs": [
+              "60183211"
+            ]
+          },
+          "60183211": {
+            "id": "60183211",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "...",
+            "nextDialogs": [
+              "60183212"
+            ]
+          },
+          "60183212": {
+            "id": "60183212",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Aha... Now that was an awkward silence.",
+            "nextDialogs": [
+              "60183213"
+            ]
+          },
+          "60183213": {
+            "id": "60183213",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Let's just keep this between ourselves. Probably best if Illuga doesn't know, huh?",
+            "nextDialogs": [
+              "60183214"
+            ]
+          },
+          "60183214": {
+            "id": "60183214",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "That goes without saying. Gotta be careful what you share with youngsters, after all.",
+            "nextDialogs": [
+              "60183215"
+            ]
+          },
+          "60183215": {
+            "id": "60183215",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "#Anyone else in the know? Let me guess... {NICKNAME} and Paimon?",
+            "nextDialogs": [
+              "60183216"
+            ]
+          },
+          "60183216": {
+            "id": "60183216",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "It's dangerous being too sharp for one's own good, you know.",
+            "nextDialogs": [
+              "60183217"
+            ]
+          },
+          "60183217": {
+            "id": "60183217",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Then in the name of the Anemo Archon, Barbatos himself, I swear your secret's safe with me.",
+            "nextDialogs": [
+              "60183218"
+            ]
+          },
+          "60183218": {
+            "id": "60183218",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Hmm... When we went for drinks, you said that you and Barbatos were \"practically best buds.\" In the light of that claim, do you really expect me to take your oath seriously?",
+            "nextDialogs": [
+              "60183219"
+            ]
+          },
+          "60183219": {
+            "id": "60183219",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Of course! Just as long as you don't go spreading around the fact that I'm close with Barbatos, alright?",
+            "nextDialogs": [
+              "60183220"
+            ]
+          },
+          "60183220": {
+            "id": "60183220",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Hm, fair enough then. Nothing like a bit of mutual leverage to seal the bonds of friendship."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601803",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180301"
+        ],
+        "dialogs": {
+          "60180301": {
+            "id": "60180301",
+            "speakerId": 1004,
+            "speakerName": "???",
+            "text": "But surely you can see he's not the man he pretends to be! So many have died already, and they say that the king's madness grows with each passing day...",
+            "nextDialogs": [
+              "60180302"
+            ]
+          },
+          "60180302": {
+            "id": "60180302",
+            "speakerId": 1004,
+            "speakerName": "???",
+            "text": "We're not going to survive this, are we? But... why does it have to be this way? Do we really deserve to die just because of the blood that runs through our veins?",
+            "nextDialogs": [
+              "60180303"
+            ]
+          },
+          "60180303": {
+            "id": "60180303",
+            "speakerId": 1004,
+            "speakerName": "???",
+            "text": "Tholindis, are you even listening!?",
+            "nextDialogs": [
+              "60180304"
+            ]
+          },
+          "60180304": {
+            "id": "60180304",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Ah... Sorry, Frithr. My mind was off wandering.",
+            "nextDialogs": [
+              "60180305"
+            ]
+          },
+          "60180305": {
+            "id": "60180305",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I heard you, though... You're talking about what Rerir said.",
+            "nextDialogs": [
+              "60180306"
+            ]
+          },
+          "60180306": {
+            "id": "60180306",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "He's just following the king's orders. He's a secret agent, and it's his job to hunt down rebels and dissidents.",
+            "nextDialogs": [
+              "60180307"
+            ]
+          },
+          "60180307": {
+            "id": "60180307",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "By the time you first met him, he'd already taken lives! Maybe he was using you from the very beginning?",
+            "nextDialogs": [
+              "60180308"
+            ]
+          },
+          "60180308": {
+            "id": "60180308",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No. Rerir has no idea I have anything to do with the Crimson Moon. My family are only distant relatives of the main lineage, and besides, my eyes are perfectly ordinary.",
+            "nextDialogs": [
+              "60180309"
+            ]
+          },
+          "60180309": {
+            "id": "60180309",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Truth be told, apart from my teacher, pretty much no one knows I have any connection to any of it. It's been a long time since my family severed ties.",
+            "nextDialogs": [
+              "60180310"
+            ]
+          },
+          "60180310": {
+            "id": "60180310",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "But as Orlog said, who could possibly talk sense into that raving lunatic of a king? No one...",
+            "nextDialogs": [
+              "60180311"
+            ]
+          },
+          "60180311": {
+            "id": "60180311",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I'll work something out... Trust me, I'm with you all. But for now, you need to keep yourselves hidden. Don't let anyone find you, anyone at all.",
+            "nextDialogs": [
+              "60180312"
+            ]
+          },
+          "60180312": {
+            "id": "60180312",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Don't forget that Rerir is an Eclipse operative. You need to be extra careful when he's around... and when I am too.",
+            "nextDialogs": [
+              "60180313"
+            ]
+          },
+          "60180313": {
+            "id": "60180313",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "For now, don't come looking for me. And if anything happens to me, just act like we've never met.",
+            "nextDialogs": [
+              "60180314"
+            ]
+          },
+          "60180314": {
+            "id": "60180314",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "If even you can't escape this, what hope do the rest of us have? But after all this time together... surely he wouldn't lay a hand on you?",
+            "nextDialogs": [
+              "60180315"
+            ]
+          },
+          "60180315": {
+            "id": "60180315",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...",
+            "nextDialogs": [
+              "60180316"
+            ]
+          },
+          "60180316": {
+            "id": "60180316",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I won't speak in his defense, nor can I give you a clear answer to that question. But I'll do everything I can to put an end to this.",
+            "nextDialogs": [
+              "60180317"
+            ]
+          },
+          "60180317": {
+            "id": "60180317",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Here, hold onto this. If an opportunity to escape presents itself, take it. You'll be glad you took some spare change.",
+            "nextDialogs": [
+              "60180318"
+            ]
+          },
+          "60180318": {
+            "id": "60180318",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Uh... You call that \"change\"!? I... Uh... But what about you?",
+            "nextDialogs": [
+              "60180319"
+            ]
+          },
+          "60180319": {
+            "id": "60180319",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I've got a job, and there's still money coming in, but you can't go anywhere right now. Please, think about yourself for once."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601833",
+      "subQuestName": "Talk to Nefer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180901"
+        ],
+        "dialogs": {
+          "60180901": {
+            "id": "60180901",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "...",
+            "nextDialogs": [
+              "60180902"
+            ]
+          },
+          "60180902": {
+            "id": "60180902",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...",
+            "nextDialogs": [
+              "60180903"
+            ]
+          },
+          "60180903": {
+            "id": "60180903",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Ah, Miss Nefer! You made it after all.",
+            "nextDialogs": [
+              "60180904"
+            ]
+          },
+          "60180904": {
+            "id": "60180904",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "But what about Jahoda?",
+            "nextDialogs": [
+              "60180905"
+            ]
+          },
+          "60180905": {
+            "id": "60180905",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "I'm here to give you an update on how things are going on our end. Once this is over, I'll be heading straight back to continue my work. I left Jahoda back at the Curatorium to watch over things while I'm gone.",
+            "nextDialogs": [
+              "60180906"
+            ]
+          },
+          "60180906": {
+            "id": "60180906",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Heh, so much for \"just this once\"...",
+            "nextDialogs": [
+              "60180907"
+            ]
+          },
+          "60180907": {
+            "id": "60180907",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Shh, not so loud! We're on a roll here... What if she remembers and suddenly decides to back out!?",
+            "nextDialogs": [
+              "60180908"
+            ]
+          },
+          "60180908": {
+            "id": "60180908",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "...",
+            "nextDialogs": [
+              "60180909"
+            ]
+          },
+          "60180909": {
+            "id": "60180909",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "...Did you say something, Mr. Varka?",
+            "nextDialogs": [
+              "60180910"
+            ]
+          },
+          "60180910": {
+            "id": "60180910",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Huh? I didn't say anything... right, Flins?",
+            "nextDialogs": [
+              "60180911"
+            ]
+          },
+          "60180911": {
+            "id": "60180911",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Hmm, must have been a frog. They get so noisy around here at nighttime, it's like they're putting on a concert in the background.",
+            "nextDialogs": [
+              "60180912"
+            ]
+          },
+          "60180912": {
+            "id": "60180912",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Anyway... Before we begin, there's a few introductions to make. Let me start by saying that it's an honor to be speaking before so many distinguished colleagues and collaborators.",
+            "nextDialogs": [
+              "60180913"
+            ]
+          },
+          "60180913": {
+            "id": "60180913",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "First up, we have Miss Lauma. As Moonchanter, she's the leader of the Frostmoon Scions, a local religious community in Nod-Krai. Then there's Miss Nefer, boss of the Curatorium of Secrets, and intel-gatherer extraordinaire.",
+            "nextDialogs": [
+              "60180914"
+            ]
+          },
+          "60180914": {
+            "id": "60180914",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Nefer is leading the investigation into Rerir's background, assisted by Jahoda and Lauma. From the little I've heard, they're making some great progress.",
+            "nextDialogs": [
+              "60180915"
+            ]
+          },
+          "60180915": {
+            "id": "60180915",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Over here, we have Mr. Flins — a Ratnik, and guardian of the abandoned lighthouse. In our last operation, he courageously distracted the Wild Hunt to buy time for the rest of us.",
+            "nextDialogs": [
+              "60180916"
+            ]
+          },
+          "60180916": {
+            "id": "60180916",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "For those of you who've never met, this is Mr. Albedo, a renowned alchemist and Captain of the Knights of Favonius Investigation Team. By his side is a new face for us all, myself included — Mr. Durin, who has come to lend his aid.",
+            "nextDialogs": [
+              "60180917"
+            ]
+          },
+          "60180917": {
+            "id": "60180917",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Next up, we have the Moon Maiden and former Fatui Harbinger, Miss Columbina.",
+            "nextDialogs": [
+              "60180918"
+            ]
+          },
+          "60180918": {
+            "id": "60180918",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "#Then we have {NICKNAME} — who's earned more titles than I can possibly hope to list out, so I'll spare you the rundown — and Paimon, the ultimate travel companion and quite possibly the best guide in all of Teyvat.",
+            "nextDialogs": [
+              "60180919"
+            ]
+          },
+          "60180919": {
+            "id": "60180919",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, that's a lot of people. Great turnout!",
+            "nextDialogs": [
+              "60180920"
+            ]
+          },
+          "60180920": {
+            "id": "60180920",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Miss Nefer, it looks like you might have another job coming your way. So uh... congratulations on the booming business, I guess...",
+            "nextDialogs": [
+              "60180921"
+            ]
+          },
+          "60180921": {
+            "id": "60180921",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "...You think I haven't got enough on my hands as it is? Who's looking for me now?",
+            "nextDialogs": [
+              "60180922"
+            ]
+          },
+          "60180922": {
+            "id": "60180922",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "That would be me, Miss Nefer. I have a commission for you.",
+            "nextDialogs": [
+              "60180923"
+            ]
+          },
+          "60180923": {
+            "id": "60180923",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "And you are?",
+            "nextDialogs": [
+              "60180924"
+            ]
+          },
+          "60180924": {
+            "id": "60180924",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Who I am doesn't matter right now. What does matter is that I'd like you to gather more intelligence about the Rächer of Solnari.",
+            "nextDialogs": [
+              "60180925"
+            ]
+          },
+          "60180925": {
+            "id": "60180925",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Hmm, well it's not as if we never take on anonymous commissions... but in your case, I'll have to decline. I'm gonna take a wild guess and say your job's probably more hassle than it's worth. Something about you seems like bad news.",
+            "nextDialogs": [
+              "60180926"
+            ]
+          },
+          "60180926": {
+            "id": "60180926",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "It's my eyes, isn't it?",
+            "nextDialogs": [
+              "60180927"
+            ]
+          },
+          "60180927": {
+            "id": "60180927",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Khaenri'ahn, I assume? And what's with the mask — are you trying to hide your identity? In any case, the fact that you're even still alive raises an awful lot of questions for me.",
+            "nextDialogs": [
+              "60180928"
+            ]
+          },
+          "60180928": {
+            "id": "60180928",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...",
+            "nextDialogs": [
+              "60180929"
+            ]
+          },
+          "60180929": {
+            "id": "60180929",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "My name is Dainsleif — and yes, I am from Khaenri'ah. As I'm sure you're aware the Rächer of Solnari's real name is Rerir. He was once... an acquaintance of mine.",
+            "nextDialogs": [
+              "60180930"
+            ]
+          },
+          "60180930": {
+            "id": "60180930",
+            "speakerId": 1002,
+            "speakerName": "Flins",
+            "text": "Really? Then you must have been quite an influential figure yourself.",
+            "nextDialogs": [
+              "60180931"
+            ]
+          },
+          "60180931": {
+            "id": "60180931",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "You flatter me, but none of that matters anymore. My point was simply to clarify why I have asked Miss Nefer to investigate Rerir's background.",
+            "nextDialogs": [
+              "60180932"
+            ]
+          },
+          "60180932": {
+            "id": "60180932",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "So you're both from Khaenri'ah, and it sounds like you used to be friends? What am I missing here? Surely, you already know how he became one of the Five Sinners?",
+            "nextDialogs": [
+              "60180933"
+            ]
+          },
+          "60180933": {
+            "id": "60180933",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...",
+            "nextDialogs": [
+              "60180934"
+            ]
+          },
+          "60180934": {
+            "id": "60180934",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "I'll tell you everything I know. The history of Khaenri'ah, the names and identities of the Five Sinners... I remember it all like it was yesterday.",
+            "nextDialogs": [
+              "60180935"
+            ]
+          },
+          "60180935": {
+            "id": "60180935",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "I have never spoken openly of this before, but the truth was exactly as people say. The Five Sinners were each driven by their own desires, and it was by playing upon these that the Abyss tempted them to their fall, tearing Khaenri'ah apart in the process.",
+            "nextDialogs": [
+              "60180936"
+            ]
+          },
+          "60180936": {
+            "id": "60180936",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "The Visionary Vedrfolnir, who wished to foretell the future. \"The Wise\" Hroptatyr, who sought limitless knowledge.",
+            "nextDialogs": [
+              "60180937"
+            ]
+          },
+          "60180937": {
+            "id": "60180937",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Gold Rhinedottir, who desired to create life. \"The Foul\" Surtalogi, who pursued supreme strength.",
+            "nextDialogs": [
+              "60180938"
+            ]
+          },
+          "60180938": {
+            "id": "60180938",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "And last, but not least, \"Rächer of Solnari\" Rerir... ravager of the moon.",
+            "nextDialogs": [
+              "60180939"
+            ]
+          },
+          "60180939": {
+            "id": "60180939",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Of the five, Rerir is the only one who remains a mystery to me. He never harbored grand ambitions — so what changed in the space of a single night? How did he come to fall like the others?",
+            "nextDialogs": [
+              "60180940"
+            ]
+          },
+          "60180940": {
+            "id": "60180940",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "In other words, you're saying that his change came as a shock to you, and you have no idea what actually happened?",
+            "nextDialogs": [
+              "60180941"
+            ]
+          },
+          "60180941": {
+            "id": "60180941",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "That's right.",
+            "nextDialogs": [
+              "60180942"
+            ]
+          },
+          "60180942": {
+            "id": "60180942",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "You mentioned how the Abyss tempted them, which led to their fall... But what did that look like in practice? And what other context can you give me about the events of that time? The more detail you can give me, the better.",
+            "nextDialogs": [
+              "60180943"
+            ]
+          },
+          "60180943": {
+            "id": "60180943",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...Strangely, now that it comes to it, I hardly know where to begin.",
+            "nextDialogs": [
+              "60180944"
+            ]
+          },
+          "60180944": {
+            "id": "60180944",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "The fateful night took place during the era of the Eclipse Dynasty. One day, my elder brother, \"The Visionary\" Vedrfolnir, was summoned to the palace by the Vinster King — only for the king to gouge out his eyes and cast him into the dungeons.",
+            "nextDialogs": [
+              "60180945"
+            ]
+          },
+          "60180945": {
+            "id": "60180945",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "When I came to hear of this, my fury knew no bounds. I gathered together every ally I thought I had, and together, we set a night to storm the palace and free Ved.",
+            "nextDialogs": [
+              "60180946"
+            ]
+          },
+          "60180946": {
+            "id": "60180946",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...Centuries on, the memories of that night still haunt me like a never-ending nightmare. We broke through the palace gates, just like we had planned, each striking towards our separate targets...",
+            "nextDialogs": [
+              "60180947"
+            ]
+          },
+          "60180947": {
+            "id": "60180947",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...But then, I was betrayed. Even Vedrfolnir — the very person I had come to rescue — abandoned me and partook of the Abyss's power.",
+            "nextDialogs": [
+              "60180948"
+            ]
+          },
+          "60180948": {
+            "id": "60180948",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "So it's personal, after all. Then tell me, Mr. Dainsleif — what price are you willing to pay? You of all people must know that nothing comes for free.",
+            "nextDialogs": [
+              "60180949"
+            ]
+          },
+          "60180949": {
+            "id": "60180949",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "I cannot say what price would be worthy of such a commission... But know this: Rerir was not always a madman. Believe it or not, there was a time when he was just an ordinary man, working for the Khaenri'ahn intelligence service.",
+            "nextDialogs": [
+              "60180950"
+            ]
+          },
+          "60180950": {
+            "id": "60180950",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Uncovering the truth of Rerir's past is the only way to unravel this mystery. But before you decide if you will accept my commission, I will tell you more about him — enough, I hope, to help you plan your next move.",
+            "nextDialogs": [
+              "60180951"
+            ]
+          },
+          "60180951": {
+            "id": "60180951",
+            "speakerId": 1006,
+            "speakerName": "Varka",
+            "text": "Sounds pretty good to me. Hahaha, feels like we just flagged down a random passerby, only to discover he's actually a master strategist who has a score to settle with our enemy...",
+            "nextDialogs": [
+              "60181000"
+            ]
+          },
+          "60181000": {
+            "id": "60181000",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": "Not long after..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601827",
+      "subQuestName": "...Next stop, the Curatorium of Secrets.",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182701"
+        ],
+        "dialogs": {
+          "60182701": {
+            "id": "60182701",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "...",
+            "nextDialogs": [
+              "60182702"
+            ]
+          },
+          "60182702": {
+            "id": "60182702",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "So that's how the Rächer of Solnari was born.",
+            "nextDialogs": [
+              "60182703"
+            ]
+          },
+          "60182703": {
+            "id": "60182703",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Hmph... A monster created by circumstance is a monster all the same.",
+            "nextDialogs": [
+              "60182704"
+            ]
+          },
+          "60182704": {
+            "id": "60182704",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Viewing other people's thoughts for too long can get uncomfortable. Right now, I'm feeling a strong sense of loathing.)",
+            "nextDialogs": [
+              "60182705"
+            ]
+          },
+          "60182705": {
+            "id": "60182705",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(In a nutshell, the story of Khaenri'ah is what happens when the truth falls by the wayside. Everyone tells little white lies, and before long, you have a huge pack of lies that destroys everything.)",
+            "nextDialogs": [
+              "60182706"
+            ]
+          },
+          "60182706": {
+            "id": "60182706",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Phew... Time to get back.",
+            "nextDialogs": [
+              "60182707"
+            ]
+          },
+          "60182707": {
+            "id": "60182707",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(His past is filled with sorrow, but the tale of any fallen civilization is one of endless tragedy. Cruel as it may be, that was Khaenri'ah's fate.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601804",
+      "subQuestName": "Talk to Nefer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180401"
+        ],
+        "dialogs": {
+          "60180401": {
+            "id": "60180401",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Thank you for waiting.",
+            "nextDialogs": [
+              "60180402"
+            ]
+          },
+          "60180402": {
+            "id": "60180402",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's okay! We actually used the time to help Dainsleif get a room at the hotel.",
+            "nextDialogs": [
+              "60180403"
+            ]
+          },
+          "60180403": {
+            "id": "60180403",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "That's very considerate of you.",
+            "nextDialogs": [
+              "60180404"
+            ]
+          },
+          "60180404": {
+            "id": "60180404",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Now — I trust you share my curiosity about Rerir's past? And you seem fairly familiar with Mr. Dainsleif already.",
+            "nextDialogs": [
+              "60180405"
+            ]
+          },
+          "60180405": {
+            "id": "60180405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's right. We've known each other for quite some time now.",
+            "nextDialogs": [
+              "60180406"
+            ]
+          },
+          "60180406": {
+            "id": "60180406",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "We spoke at some length after the meeting. He was the one who suggested I should invite you to join this operation. He feels confident that these secrets will be safe with you.",
+            "nextDialogs": [
+              "60180407"
+            ]
+          },
+          "60180407": {
+            "id": "60180407",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Dain has a lot of faith in us, that's for sure.",
+            "nextDialogs": [
+              "60180408"
+            ]
+          },
+          "60180408": {
+            "id": "60180408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thanks for your trust too, Nefer.",
+            "nextDialogs": [
+              "60180409"
+            ]
+          },
+          "60180409": {
+            "id": "60180409",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Likewise. I appreciate that you got right on board without interrogating me about why I invited you. It shows that you trust me to explain everything in due course.",
+            "nextDialogs": [
+              "60180410"
+            ]
+          },
+          "60180410": {
+            "id": "60180410",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, that's 'cause we know what you're capable of! We appreciate you too, Nefer. You might've been forced to help in the beginning, but this time, it was your choice!",
+            "nextDialogs": [
+              "60180411"
+            ]
+          },
+          "60180411": {
+            "id": "60180411",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "That's one way to put it. Another is this — that once a decision's been made, it's set in stone. After that, my only goal is to see it through.",
+            "nextDialogs": [
+              "60180412"
+            ]
+          },
+          "60180412": {
+            "id": "60180412",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Alright... So here's how it is. I'm going to access Rerir's thoughts again using my confidential method. Now, I'm sure you've seen things like this before on your travels, so you're surely well aware of how dangerous it can be.",
+            "nextDialogs": [
+              "60180413"
+            ]
+          },
+          "60180413": {
+            "id": "60180413",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "The reason I've gathered you all here is to ensure my safety during the proceedings. I plan for us to enter the fragment of his consciousness together, and once inside, I will focus on searching for information.",
+            "nextDialogs": [
+              "60180414"
+            ]
+          },
+          "60180414": {
+            "id": "60180414",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Think of this as a diving expedition into someone's brain. If I'm the diver, you are my safety equipment, tasked with keeping me alive while I'm under the surface.",
+            "nextDialogs": [
+              "60180415"
+            ]
+          },
+          "60180415": {
+            "id": "60180415",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Once the ceremony begins, we will all be spying on privileged information. But in the interests of safety, you must remain absolutely silent at all times. We will discuss our observations after the ceremony has concluded.",
+            "nextDialogs": [
+              "60180416"
+            ]
+          },
+          "60180416": {
+            "id": "60180416",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Lastly, any individuals of a weaker constitution are advised not to partake in the ceremony. In any case, Paimon has her own job to do, which requires staying in the room but not joining the ceremony.",
+            "nextDialogs": [
+              "60180417"
+            ]
+          },
+          "60180417": {
+            "id": "60180417",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Nefer conspicuously left out the details of her \"confidential method\"...)",
+            "nextDialogs": [
+              "60180418"
+            ]
+          },
+          "60180418": {
+            "id": "60180418",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I guess her brain-diving techniques are a trade secret.)",
+            "nextDialogs": [
+              "60180419"
+            ]
+          },
+          "60180419": {
+            "id": "60180419",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, good luck everyone. Sounds like all Paimon can do is cross her fingers and root for you guys...",
+            "nextDialogs": [
+              "60180420"
+            ]
+          },
+          "60180420": {
+            "id": "60180420",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "There's a little more to it than that. I was being serious when I said you have a job to do. While the rest of us are inside Rerir's mind, it's imperative that we have a team member on the outside.",
+            "nextDialogs": [
+              "60180421"
+            ]
+          },
+          "60180421": {
+            "id": "60180421",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "In the event that something goes wrong, you will be our first responder. I don't anticipate any issues, but the extra level of safety will be greatly appreciated.",
+            "nextDialogs": [
+              "60180422"
+            ]
+          },
+          "60180422": {
+            "id": "60180422",
+            "speakerId": 1013,
+            "speakerName": "Jahoda",
+            "text": "I second that. This is a dangerous operation here, and you're our whole rescue team. That's pretty much the most important job in the crew!",
+            "nextDialogs": [
+              "60180423"
+            ]
+          },
+          "60180423": {
+            "id": "60180423",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So, Paimon's like... the lifeguard? ...Yeah, that makes sense. Alright, got it!",
+            "nextDialogs": [
+              "60180424"
+            ]
+          },
+          "60180424": {
+            "id": "60180424",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Good. Please take a seat, we'll get started momentarily.",
+            "nextDialogs": [
+              "60180425"
+            ]
+          },
+          "60180425": {
+            "id": "60180425",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "So, did Mr. Dainsleif tell you anything else?",
+            "nextDialogs": [
+              "60180426"
+            ]
+          },
+          "60180426": {
+            "id": "60180426",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "He told me that he believes Rerir kept some big secrets in his life. He's not sure that they were the cause of his eventual downfall, but he's asked me to uncover what those secrets were all the same.",
+            "nextDialogs": [
+              "60180427"
+            ]
+          },
+          "60180427": {
+            "id": "60180427",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "But surely you're not planning to go through with this no matter the cost?",
+            "nextDialogs": [
+              "60180428"
+            ]
+          },
+          "60180428": {
+            "id": "60180428",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "If you think that, you'd be overestimating me. I'm a businesswoman, not a mercenary.",
+            "nextDialogs": [
+              "60180429"
+            ]
+          },
+          "60180429": {
+            "id": "60180429",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "But I do have my own professional reasons for taking this job. You think I'd turn down the opportunity to get a first-hand glimpse into Khaenri'ahn history? No chance.",
+            "nextDialogs": [
+              "60180430"
+            ]
+          },
+          "60180430": {
+            "id": "60180430",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Well, as long as you don't let morbid curiosity get in the way of safety concerns, we're good. We'll do whatever we can to help you.",
+            "nextDialogs": [
+              "60180431"
+            ]
+          },
+          "60180431": {
+            "id": "60180431",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Tch, you're such a killjoy.",
+            "nextDialogs": [
+              "60180432"
+            ]
+          },
+          "60180432": {
+            "id": "60180432",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(She's got incense, candles... Almost feels like a summoning ritual.)",
+            "nextDialogs": [
+              "60180433"
+            ]
+          },
+          "60180433": {
+            "id": "60180433",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Seems like Nefer still has no intention of sharing her trade secrets. But now's not exactly the moment to pry...)",
+            "nextDialogs": [
+              "60180434"
+            ]
+          },
+          "60180434": {
+            "id": "60180434",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I see there's a chess set on the table... Could that have something to do with her intel-gathering methods?)",
+            "nextDialogs": [
+              "60180435"
+            ]
+          },
+          "60180435": {
+            "id": "60180435",
+            "speakerId": 1001,
+            "speakerName": "Lauma",
+            "text": "Alright, I'm good to go.",
+            "nextDialogs": [
+              "60180436"
+            ]
+          },
+          "60180436": {
+            "id": "60180436",
+            "speakerId": 1013,
+            "speakerName": "Jahoda",
+            "text": "All set over here too.",
+            "nextDialogs": [
+              "60180437"
+            ]
+          },
+          "60180437": {
+            "id": "60180437",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm ready as well.",
+            "nextDialogs": [
+              "60180438"
+            ]
+          },
+          "60180438": {
+            "id": "60180438",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Promise Paimon you'll be extra careful!",
+            "nextDialogs": [
+              "60180439"
+            ]
+          },
+          "60180439": {
+            "id": "60180439",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Pinky promise.",
+            "nextDialogs": [
+              "60180440"
+            ]
+          },
+          "60180440": {
+            "id": "60180440",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Alright, let your whole body relax. We're about to begin.",
+            "nextDialogs": [
+              "60180441"
+            ]
+          },
+          "60180441": {
+            "id": "60180441",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Close your eyes."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601805",
+      "subQuestName": "Follow Nefer to the ceremony",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180501"
+        ],
+        "dialogs": {
+          "60180501": {
+            "id": "60180501",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Y—You're really letting me go?",
+            "nextDialogs": [
+              "60180502"
+            ]
+          },
+          "60180502": {
+            "id": "60180502",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I am. As long as you can guarantee that no one will find you.",
+            "nextDialogs": [
+              "60180503"
+            ]
+          },
+          "60180503": {
+            "id": "60180503",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Don't worry, I'll be extra careful... No one will know I was here.",
+            "nextDialogs": [
+              "60180504"
+            ]
+          },
+          "60180504": {
+            "id": "60180504",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "B—But... What about you?",
+            "nextDialogs": [
+              "60180505"
+            ]
+          },
+          "60180505": {
+            "id": "60180505",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Me?",
+            "nextDialogs": [
+              "60180506"
+            ]
+          },
+          "60180506": {
+            "id": "60180506",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "If you let me go, you won't be able to complete your mission, will you?",
+            "nextDialogs": [
+              "60180507"
+            ]
+          },
+          "60180507": {
+            "id": "60180507",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Hmm, good point. In that case, maybe you should stay.",
+            "nextDialogs": [
+              "60180508"
+            ]
+          },
+          "60180508": {
+            "id": "60180508",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "No, please! I just... want to see the outside world again. To...",
+            "nextDialogs": [
+              "60180509"
+            ]
+          },
+          "60180509": {
+            "id": "60180509",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...Go on living?",
+            "nextDialogs": [
+              "60180510"
+            ]
+          },
+          "60180510": {
+            "id": "60180510",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Yes! I know you're a man of your word... So please, just let me go.",
+            "nextDialogs": [
+              "60180511"
+            ]
+          },
+          "60180511": {
+            "id": "60180511",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "If I let you leave, what will become of me?",
+            "nextDialogs": [
+              "60180512"
+            ]
+          },
+          "60180512": {
+            "id": "60180512",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...Just kidding. Go now.",
+            "nextDialogs": [
+              "60180513"
+            ]
+          },
+          "60180513": {
+            "id": "60180513",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "But remember, don't let anyone know you were caught. We'll be seeing each other again very soon if you do.",
+            "nextDialogs": [
+              "60180514"
+            ]
+          },
+          "60180514": {
+            "id": "60180514",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "Even shadows in the dark must live by a code. But you can't save everyone.",
+            "nextDialogs": [
+              "60180515"
+            ]
+          },
+          "60180515": {
+            "id": "60180515",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You've been whispering in my ear for days now, Vedrfolnir. What are you trying to do? Break me down?",
+            "nextDialogs": [
+              "60180516"
+            ]
+          },
+          "60180516": {
+            "id": "60180516",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "I only say this because you long for an answer to your problems: Let her go, Rerir, or you risk losing everything.",
+            "nextDialogs": [
+              "60180517"
+            ]
+          },
+          "60180517": {
+            "id": "60180517",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I will not abandon Tholindis.",
+            "nextDialogs": [
+              "60180518"
+            ]
+          },
+          "60180518": {
+            "id": "60180518",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "Then you'll need a little more vigilance, and a lot more power. The world is changing, Rerir... Keep your eyes peeled for your moment of opportunity.",
+            "nextDialogs": [
+              "60180519"
+            ]
+          },
+          "60180519": {
+            "id": "60180519",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(That voice used to be so unclear, but now I know exactly whose it is. It's Vedrfolnir.)",
+            "nextDialogs": [
+              "60180520"
+            ]
+          },
+          "60180520": {
+            "id": "60180520",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(He won't tell me how to actually resolve any of this, but he keeps trying to manipulate me like a puppet. What's his game here?)",
+            "nextDialogs": [
+              "60180521"
+            ]
+          },
+          "60180521": {
+            "id": "60180521",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Tell me, then, what will this \"moment of opportunity\" look like?",
+            "nextDialogs": [
+              "60180522"
+            ]
+          },
+          "60180522": {
+            "id": "60180522",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(And... no answer. He's like a ghost — always disturbing me when I'm on edge, but never answering when I need him most.)",
+            "nextDialogs": [
+              "60180523"
+            ]
+          },
+          "60180523": {
+            "id": "60180523",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "So, the Eclipse Dynasty was purging... well, massacring the descendants of the Crimson Moon. And it seems like it was all connected to the Vinster King's research.",
+            "nextDialogs": [
+              "60180524"
+            ]
+          },
+          "60180524": {
+            "id": "60180524",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "The king's obsession with Abyssal power left the future of Khaenri'ah hanging in the balance. No wonder every aspect of Rerir's life was so unstable...",
+            "nextDialogs": [
+              "60180525"
+            ]
+          },
+          "60180525": {
+            "id": "60180525",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "And it looks like this Tholindis, Rerir's would-be fiancee, herself belonged to a sub-branch of the Crimson Moon dynasty's descendants...",
+            "nextDialogs": [
+              "60180526"
+            ]
+          },
+          "60180526": {
+            "id": "60180526",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "It almost defies belief that a couple like them could hide the truth from each other for so long. If the Vinster King hadn't intervened in such a drastic way, they might have gone on deceiving each other for the rest of their lives.",
+            "nextDialogs": [
+              "60180527"
+            ]
+          },
+          "60180527": {
+            "id": "60180527",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "And why does Vedrfolnir, Dainsleif's older brother, keep talking in Rerir's head? Huh... This guy kept more secrets than I ever imagined.",
+            "nextDialogs": [
+              "60180528"
+            ]
+          },
+          "60180528": {
+            "id": "60180528",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "The human mind is like a vast desert of shifting sands. When you follow the flow of someone's memories, you only ever see the parts they're willing to let surface.",
+            "nextDialogs": [
+              "60180529"
+            ]
+          },
+          "60180529": {
+            "id": "60180529",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Time for something a bit more creative.",
+            "nextDialogs": [
+              "60180530"
+            ]
+          },
+          "60180530": {
+            "id": "60180530",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "We've been inside Rerir's mind this whole time, building up a picture of his psyche.",
+            "nextDialogs": [
+              "60180531"
+            ]
+          },
+          "60180531": {
+            "id": "60180531",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "There's already enough clues on the board to start reading between the lines and mapping out the rest.",
+            "nextDialogs": [
+              "60180532"
+            ]
+          },
+          "60180532": {
+            "id": "60180532",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Now, we can finally begin to put the pieces together. Sure, it'll only be a reconstruction — part simulation, part reasoning. But it's usually pretty accurate.",
+            "nextDialogs": [
+              "60180533"
+            ]
+          },
+          "60180533": {
+            "id": "60180533",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Once we've built up a cognitive profile, we just need to cross-check the logic behind his actions... and then we'll be able to take a sneak peek at whatever it is that Rerir has really been hiding."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601828",
+      "subQuestName": "Talk to yourself",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181001"
+        ],
+        "dialogs": {
+          "60181001": {
+            "id": "60181001",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(...Whew.)",
+            "nextDialogs": [
+              "60181002"
+            ]
+          },
+          "60181002": {
+            "id": "60181002",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Could this be his office?)",
+            "nextDialogs": [
+              "60181003"
+            ]
+          },
+          "60181003": {
+            "id": "60181003",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Pretty standard setup. Bookshelves, paperwork, files...)",
+            "nextDialogs": [
+              "60181004"
+            ]
+          },
+          "60181004": {
+            "id": "60181004",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(According to Dainsleif, Rerir used to be an intelligence operative. Chances are, there's plenty of top-secret intel stashed away in this room.)",
+            "nextDialogs": [
+              "60181005"
+            ]
+          },
+          "60181005": {
+            "id": "60181005",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Is this where you keep your secrets, Rerir? Can't say I'm not looking forward to this...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601806",
+      "subQuestName": "Sit beside the office table",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180601"
+        ],
+        "dialogs": {
+          "60180601": {
+            "id": "60180601",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Rerir! Are you there?",
+            "nextDialogs": [
+              "60180602"
+            ]
+          },
+          "60180602": {
+            "id": "60180602",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Hey, Rerir! Come out, it's urgent!",
+            "nextDialogs": [
+              "60180603"
+            ]
+          },
+          "60180603": {
+            "id": "60180603",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Dain? What's wrong?",
+            "nextDialogs": [
+              "60180604"
+            ]
+          },
+          "60180604": {
+            "id": "60180604",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Quick, come with me. I'll explain everything once we've met up with the others.",
+            "nextDialogs": [
+              "60180605"
+            ]
+          },
+          "60180605": {
+            "id": "60180605",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I... Okay, I'll come. But Tholindis is still over at the Universitas. I'll need to leave her a note.",
+            "nextDialogs": [
+              "60180606"
+            ]
+          },
+          "60180606": {
+            "id": "60180606",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Alright then, but make it quick.",
+            "nextDialogs": [
+              "60180607"
+            ]
+          },
+          "60180607": {
+            "id": "60180607",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(I've never seen Dain so worked up before. Whatever this is, it must be big trouble.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601807",
+      "subQuestName": "Start looking through the files",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181601"
+        ],
+        "dialogs": {
+          "60181601": {
+            "id": "60181601",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Today's files are in. Time to wade through them, just like usual...",
+            "nextDialogs": [
+              "60181602"
+            ]
+          },
+          "60181602": {
+            "id": "60181602",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■■. Male, 51. Occupation: cook. Confirmed Crimson Moon descendant. Has maintained frequent contact with other descendants over the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181603"
+            ]
+          },
+          "60181603": {
+            "id": "60181603",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181604"
+            ]
+          },
+          "60181604": {
+            "id": "60181604",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "This one should be archived under \"Purged Targets.\"",
+            "nextDialogs": [
+              "60181605"
+            ]
+          },
+          "60181605": {
+            "id": "60181605",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■. Female, 23. Occupation: office clerk. Confirmed Crimson Moon descendant. Has maintained frequent contact with other descendants over the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181606"
+            ]
+          },
+          "60181606": {
+            "id": "60181606",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181607"
+            ]
+          },
+          "60181607": {
+            "id": "60181607",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Another one for \"Purged Targets.\"",
+            "nextDialogs": [
+              "60181608"
+            ]
+          },
+          "60181608": {
+            "id": "60181608",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(...Sounds like she was that other man's daughter.)",
+            "nextDialogs": [
+              "60181609"
+            ]
+          },
+          "60181609": {
+            "id": "60181609",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Never mind. What's it got to do with me?)",
+            "nextDialogs": [
+              "60181610"
+            ]
+          },
+          "60181610": {
+            "id": "60181610",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■■■■. Male, 40. Occupation: teacher. Confirmed Crimson Moon descendant. Has been observed making contact with other descendants during the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181611"
+            ]
+          },
+          "60181611": {
+            "id": "60181611",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181612"
+            ]
+          },
+          "60181612": {
+            "id": "60181612",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Just another nobody for the archive.",
+            "nextDialogs": [
+              "60181613"
+            ]
+          },
+          "60181613": {
+            "id": "60181613",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Come to think of it, I remember surveilling this man... A case like his would never have been considered a priority in the past. He barely even interacted with other Crimson Moon descendants.)",
+            "nextDialogs": [
+              "60181614"
+            ]
+          },
+          "60181614": {
+            "id": "60181614",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■■. Female, 16. Occupation: none. Orphan, and confirmed Crimson Moon descendant. Has been observed making contact with other descendants during the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181615"
+            ]
+          },
+          "60181615": {
+            "id": "60181615",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181616"
+            ]
+          },
+          "60181616": {
+            "id": "60181616",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Filed.",
+            "nextDialogs": [
+              "60181617"
+            ]
+          },
+          "60181617": {
+            "id": "60181617",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(I have no recollection of this girl... None, whatsoever. She doesn't seem to be anyone important... but then again, how many of them really are?)",
+            "nextDialogs": [
+              "60181618"
+            ]
+          },
+          "60181618": {
+            "id": "60181618",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■■. Female, 13. Occupation: none. Orphan, and confirmed Crimson Moon descendant. Has been observed making contact with other descendants during the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181619"
+            ]
+          },
+          "60181619": {
+            "id": "60181619",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181620"
+            ]
+          },
+          "60181620": {
+            "id": "60181620",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Filed.",
+            "nextDialogs": [
+              "60181621"
+            ]
+          },
+          "60181621": {
+            "id": "60181621",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60181622"
+            ]
+          },
+          "60181622": {
+            "id": "60181622",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■. Male, 11. Occupation: none. Orphan, and confirmed Crimson Moon descendant. Has not been observed making any contact with other descendants during the past year. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181623"
+            ]
+          },
+          "60181623": {
+            "id": "60181623",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "Neutralized on ■/■.",
+            "nextDialogs": [
+              "60181624"
+            ]
+          },
+          "60181624": {
+            "id": "60181624",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60181625"
+            ]
+          },
+          "60181625": {
+            "id": "60181625",
+            "speakerId": 1016,
+            "speakerName": "File Content",
+            "text": "■■. Male, 6. Occupation: none. Orphan, and confirmed Crimson Moon descendant. Poses a threat to the dynasty.",
+            "nextDialogs": [
+              "60181626"
+            ]
+          },
+          "60181626": {
+            "id": "60181626",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60181627"
+            ]
+          },
+          "60181627": {
+            "id": "60181627",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "It's funny, isn't it? Your job is becoming both harder and easier at the same time, depending on how you look at it.",
+            "nextDialogs": [
+              "60181628"
+            ]
+          },
+          "60181628": {
+            "id": "60181628",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "Sooner or later, the Crimson Moon descendants will be completely wiped out. But as their numbers dwindle, they become harder and harder to track down.",
+            "nextDialogs": [
+              "60181629"
+            ]
+          },
+          "60181629": {
+            "id": "60181629",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...That's not how it is.",
+            "nextDialogs": [
+              "60181630"
+            ]
+          },
+          "60181630": {
+            "id": "60181630",
+            "speakerId": 1015,
+            "speakerName": "Abyssal Whisper",
+            "text": "Fortunately, however, most of the able-bodied adults have already been taken care of. The remaining weaklings will be increasingly easy to deal with...",
+            "nextDialogs": [
+              "60181631"
+            ]
+          },
+          "60181631": {
+            "id": "60181631",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No!",
+            "nextDialogs": [
+              "60181632"
+            ]
+          },
+          "60181632": {
+            "id": "60181632",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No.",
+            "nextDialogs": [
+              "60181633"
+            ]
+          },
+          "60181633": {
+            "id": "60181633",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "My job is to ensure the survival of the Eclipse Dynasty — and the only way to do that is by eliminating any and all potential threats. It's a perfectly legitimate line of work.",
+            "nextDialogs": [
+              "60181634"
+            ]
+          },
+          "60181634": {
+            "id": "60181634",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Every single one of my colleagues can attest to my fairness, and if my friends were aware of the facts, I know they'd back me up too.",
+            "nextDialogs": [
+              "60181635"
+            ]
+          },
+          "60181635": {
+            "id": "60181635",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Assuming, of course, that they were aware of all of the facts..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601808",
+      "subQuestName": "Look for Vedrfolnir",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181701"
+        ],
+        "dialogs": {
+          "60181701": {
+            "id": "60181701",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Mr. Vedrfolnir... It's been quite some time since we last met.",
+            "nextDialogs": [
+              "60181702"
+            ]
+          },
+          "60181702": {
+            "id": "60181702",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Rerir. I trust you're here because you have something important to discuss.",
+            "nextDialogs": [
+              "60181703"
+            ]
+          },
+          "60181703": {
+            "id": "60181703",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60181704"
+            ]
+          },
+          "60181704": {
+            "id": "60181704",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Ah, forgive me. I wasn't tuning out, it's just... I notice you didn't even phrase that as a question. As if you knew I was coming.",
+            "nextDialogs": [
+              "60181705"
+            ]
+          },
+          "60181705": {
+            "id": "60181705",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Tell me — does someone in your position ever feel the need to ask questions at all?",
+            "nextDialogs": [
+              "60181706"
+            ]
+          },
+          "60181706": {
+            "id": "60181706",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "It is indeed within my power to foresee certain things. Things like your arrival.",
+            "nextDialogs": [
+              "60181707"
+            ]
+          },
+          "60181707": {
+            "id": "60181707",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I was just thinking, it won't be long before I'll be inviting both you and Dain to my wedding.",
+            "nextDialogs": [
+              "60181708"
+            ]
+          },
+          "60181708": {
+            "id": "60181708",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "That isn't a lie... But nor is it a fact, as such. It's a wish, isn't it?",
+            "nextDialogs": [
+              "60181709"
+            ]
+          },
+          "60181709": {
+            "id": "60181709",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No fooling a prophet, is there?",
+            "nextDialogs": [
+              "60181710"
+            ]
+          },
+          "60181710": {
+            "id": "60181710",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Ever since that day we met for drinks, I knew it was only a matter of time before you came looking for me.",
+            "nextDialogs": [
+              "60181711"
+            ]
+          },
+          "60181711": {
+            "id": "60181711",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Does it feel good, knowing how the future will unfold?",
+            "nextDialogs": [
+              "60181712"
+            ]
+          },
+          "60181712": {
+            "id": "60181712",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "I'm afraid the notions of \"good\" and \"bad\" fail to capture the complexity of what such a power entails. Once you've seen what will come to pass, it can be all too easy to succumb to fear and melancholy — unless, of course, you learn to abandon these feelings.",
+            "nextDialogs": [
+              "60181713"
+            ]
+          },
+          "60181713": {
+            "id": "60181713",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60181714"
+            ]
+          },
+          "60181714": {
+            "id": "60181714",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "You fear my silence, and long to hear the words I left unspoken that day.",
+            "nextDialogs": [
+              "60181715"
+            ]
+          },
+          "60181715": {
+            "id": "60181715",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "That's right.",
+            "nextDialogs": [
+              "60181716"
+            ]
+          },
+          "60181716": {
+            "id": "60181716",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Hehehe... You must have noticed my reluctance to broach the subject, and the reason is simple — because the truth could never have lived up to your hopes. For both our sakes, such words are better left unsaid.",
+            "nextDialogs": [
+              "60181717"
+            ]
+          },
+          "60181717": {
+            "id": "60181717",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "The burden of prophecy was never meant for your shoulders.",
+            "nextDialogs": [
+              "60181718"
+            ]
+          },
+          "60181718": {
+            "id": "60181718",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "So, who exactly do you deem worthy to hear your prophecies? None but our exalted king?",
+            "nextDialogs": [
+              "60181719"
+            ]
+          },
+          "60181719": {
+            "id": "60181719",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "...Or rather, our king as he once was.",
+            "nextDialogs": [
+              "60181720"
+            ]
+          },
+          "60181720": {
+            "id": "60181720",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You're closer to His Majesty than I am. You must know better than anyone how much he's changed.",
+            "nextDialogs": [
+              "60181721"
+            ]
+          },
+          "60181721": {
+            "id": "60181721",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "You say that as though it is to my benefit. Yet precisely because of that, I dare not speak rashly. A king can turn out to be the most virtuous of rulers... or a tyrant more terrible than the most vicious of dragons.",
+            "nextDialogs": [
+              "60181722"
+            ]
+          },
+          "60181722": {
+            "id": "60181722",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You are so wise and far-sighted, yet still, you would have me live in fear of the unknown.",
+            "nextDialogs": [
+              "60181723"
+            ]
+          },
+          "60181723": {
+            "id": "60181723",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Hmm... You make a fair point. Especially given my silence alone was all it took to send you spiraling downwards.",
+            "nextDialogs": [
+              "60181724"
+            ]
+          },
+          "60181724": {
+            "id": "60181724",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Very well, then.",
+            "nextDialogs": [
+              "60181725"
+            ]
+          },
+          "60181725": {
+            "id": "60181725",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Let me offer you some advice — and I say this not as a \"prophet\" or a \"visionary,\" but simply as the brother of your friend.",
+            "nextDialogs": [
+              "60181726"
+            ]
+          },
+          "60181726": {
+            "id": "60181726",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "For many reasons, there is very little chance of your marriage ending in happiness. If happiness is what you seek, you should find another fiancee.",
+            "nextDialogs": [
+              "60181727"
+            ]
+          },
+          "60181727": {
+            "id": "60181727",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601809",
+      "subQuestName": "Investigate the black mist in the space",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180101"
+        ],
+        "dialogs": {
+          "60180101": {
+            "id": "60180101",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Wait... Hear me out. This time, we finally got a clear look at his face and learned his true identity.",
+            "nextDialogs": [
+              "60180102"
+            ]
+          },
+          "60180102": {
+            "id": "60180102",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "His name is Rerir, and he claims to be one of the king's guards.",
+            "nextDialogs": [
+              "60180103"
+            ]
+          },
+          "60180103": {
+            "id": "60180103",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...What did you say!?",
+            "nextDialogs": [
+              "60180104"
+            ]
+          },
+          "60180104": {
+            "id": "60180104",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "A cruel irony, isn't it... the man you're set to marry leads a double life as a brutal executioner.",
+            "nextDialogs": [
+              "60180105"
+            ]
+          },
+          "60180105": {
+            "id": "60180105",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Why are you telling me all of this now?",
+            "nextDialogs": [
+              "60180106"
+            ]
+          },
+          "60180106": {
+            "id": "60180106",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Simple. It's because...",
+            "nextDialogs": [
+              "60180107"
+            ]
+          },
+          "60180107": {
+            "id": "60180107",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "...I want you to kill him. You are the only person he would never suspect.",
+            "nextDialogs": [
+              "60180108"
+            ]
+          },
+          "60180108": {
+            "id": "60180108",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No... Absolutely not! I would never dream of doing such a despicable thing!",
+            "nextDialogs": [
+              "60180109"
+            ]
+          },
+          "60180109": {
+            "id": "60180109",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "So you'll just stand by and watch him slaughter us to the last? Do not forget that the blood of the Crimson Moon flows in your veins too!",
+            "nextDialogs": [
+              "60180110"
+            ]
+          },
+          "60180110": {
+            "id": "60180110",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "The blood of the Crimson Moon... What does that matter now? The dynasty has long been dead and gone.",
+            "nextDialogs": [
+              "60180111"
+            ]
+          },
+          "60180111": {
+            "id": "60180111",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "You think that alone is reason enough for me to throw away everything I have?",
+            "nextDialogs": [
+              "60180112"
+            ]
+          },
+          "60180112": {
+            "id": "60180112",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "...Why wouldn't it be?",
+            "nextDialogs": [
+              "60180113"
+            ]
+          },
+          "60180113": {
+            "id": "60180113",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "You too were once a child of the Crimson Moon, just like me. Don't tell me you've never felt so much as a flicker of fury for the way we were trampled into the dust.",
+            "nextDialogs": [
+              "60180114"
+            ]
+          },
+          "60180114": {
+            "id": "60180114",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...",
+            "nextDialogs": [
+              "60180115"
+            ]
+          },
+          "60180115": {
+            "id": "60180115",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "As long as you promise to abandon this pipe dream of restoring your dynasty... I can try to persuade him, or have him persuade the Vinster King.",
+            "nextDialogs": [
+              "60180116"
+            ]
+          },
+          "60180116": {
+            "id": "60180116",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Persuade, the Vinster King? Haha... Hahahaha...",
+            "nextDialogs": [
+              "60180117"
+            ]
+          },
+          "60180117": {
+            "id": "60180117",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Do you even know why he's so obsessed with hunting us down? Why he keeps trying to force us to hand over our secrets, over and over again? Or why we refuse to give up on restoring the dynasty?",
+            "nextDialogs": [
+              "60180118"
+            ]
+          },
+          "60180118": {
+            "id": "60180118",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "The Vinster King... a blind fool, his eyes clouded by powers from beyond this world... a petty little man with a miser's heart! And he dares to sit upon the throne? Mark my words — sooner or later Khaenri'ah will fall, and it will be his doing!",
+            "nextDialogs": [
+              "60180119"
+            ]
+          },
+          "60180119": {
+            "id": "60180119",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "If you can't bring yourself to do it, so be it. Just you watch... It won't be long before calamity descends upon us all.",
+            "nextDialogs": [
+              "60180120"
+            ]
+          },
+          "60180120": {
+            "id": "60180120",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "The \"Rächer of Solnari\"...",
+            "nextDialogs": [
+              "60180121"
+            ]
+          },
+          "60180121": {
+            "id": "60180121",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "That really is quite a secret you've been keeping from me, Rerir.",
+            "nextDialogs": [
+              "60180122"
+            ]
+          },
+          "60180122": {
+            "id": "60180122",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "But... who am I to talk? Am I really any better? I've kept my own past a secret this whole time too.",
+            "nextDialogs": [
+              "60180123"
+            ]
+          },
+          "60180123": {
+            "id": "60180123",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Love should be built on honesty, but ours was born from lies. And yet...",
+            "nextDialogs": [
+              "60180124"
+            ]
+          },
+          "60180124": {
+            "id": "60180124",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Is it really so wrong to hide things that would only make life harder? If we don't cover up the parts that no one else should see, how can we go on pretending to be normal?",
+            "nextDialogs": [
+              "60180125"
+            ]
+          },
+          "60180125": {
+            "id": "60180125",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Vedrfolnir must have known all this, and that's why he made his prophecy. Hah... In the end, nothing stays hidden forever.",
+            "nextDialogs": [
+              "60180126"
+            ]
+          },
+          "60180126": {
+            "id": "60180126",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "But I won't just sit by and watch this disaster unfold. I'll do everything in my power to protect what I cannot afford to lose...",
+            "nextDialogs": [
+              "60180127"
+            ]
+          },
+          "60180127": {
+            "id": "60180127",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No matter who I have to face."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601825",
+      "subQuestName": "Return to the office",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182501"
+        ],
+        "dialogs": {
+          "60182501": {
+            "id": "60182501",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Monsters!? Is this Rhinedottir's doing? Or the Universitas Magistrorum?",
+            "nextDialogs": [
+              "60182502"
+            ]
+          },
+          "60182502": {
+            "id": "60182502",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Out of my way!",
+            "nextDialogs": [
+              "60182503"
+            ]
+          },
+          "60182503": {
+            "id": "60182503",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(The Universitas... That reminds me of a rumor I once heard.)",
+            "nextDialogs": [
+              "60182504"
+            ]
+          },
+          "60182504": {
+            "id": "60182504",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Allegedly, the king installed secret mechanisms in the palace and around the city. No one knows where they are or what kind of power they hold...)",
+            "nextDialogs": [
+              "60182505"
+            ]
+          },
+          "60182505": {
+            "id": "60182505",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(But if they were ever gonna activate, it would probably be on a night like tonight...)",
+            "nextDialogs": [
+              "60182506"
+            ]
+          },
+          "60182506": {
+            "id": "60182506",
+            "speakerId": 1019,
+            "speakerName": "Person Crying for Help",
+            "text": "Help, heeelp!!!",
+            "nextDialogs": [
+              "60182507"
+            ]
+          },
+          "60182507": {
+            "id": "60182507",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Hold on! Don't let them anywhere near you!",
+            "nextDialogs": [
+              "60182508"
+            ]
+          },
+          "60182508": {
+            "id": "60182508",
+            "speakerId": 1019,
+            "speakerName": "Person Crying for Help",
+            "text": "Save me, I can't... Aaah!",
+            "nextDialogs": [
+              "60182509"
+            ]
+          },
+          "60182509": {
+            "id": "60182509",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(That sounded like an explosion... So, the rumor is true? The king really went through with it?)",
+            "nextDialogs": [
+              "60182510"
+            ]
+          },
+          "60182510": {
+            "id": "60182510",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(What other means does the king have at his disposal? They must run on power from the Abyss...)",
+            "nextDialogs": [
+              "60182511"
+            ]
+          },
+          "60182511": {
+            "id": "60182511",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(And given it's a major center of Abyss research, anyone over at the Universitas will be in grave danger. I have to hurry!)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601826",
+      "subQuestName": "Investigate the black mist in the space",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601810",
+      "subQuestName": "Go to the training room",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601811",
+      "subQuestName": "Begin training",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181101"
+        ],
+        "dialogs": {
+          "60181101": {
+            "id": "60181101",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(He looks even gloomier than last time. I wonder what's changed?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601812",
+      "subQuestName": "Continue training",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181201"
+        ],
+        "dialogs": {
+          "60181201": {
+            "id": "60181201",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Bookshelves full of documents.)",
+            "nextDialogs": [
+              "60181202"
+            ]
+          },
+          "60181202": {
+            "id": "60181202",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Looks like these are all files... packed with the personal details of individual Khaenri'ahns...)",
+            "nextDialogs": [
+              "60181203"
+            ]
+          },
+          "60181203": {
+            "id": "60181203",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(The Crimson Moon Dynasty preceded the Eclipse. Since Rerir worked as a secret agent during the latter, it stands to reason that he was tasked with purging remnants of the old dynasty.)",
+            "nextDialogs": [
+              "60181204"
+            ]
+          },
+          "60181204": {
+            "id": "60181204",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Yep. Lines up exactly with what Dainsleif told me.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601813",
+      "subQuestName": "Complete the training",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181301"
+        ],
+        "dialogs": {
+          "60181301": {
+            "id": "60181301",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(A file tucked inside a folder. The title reads: \"Dear Breakfast Shop Owner.\")",
+            "nextDialogs": [
+              "60181302"
+            ]
+          },
+          "60181302": {
+            "id": "60181302",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(It's... a list of names.)",
+            "nextDialogs": [
+              "60181303"
+            ]
+          },
+          "60181303": {
+            "id": "60181303",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(But at this stage, I have no idea who any of them even are.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601834",
+      "subQuestName": "Investigate the black mist in the space",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181901"
+        ],
+        "dialogs": {
+          "60181901": {
+            "id": "60181901",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Author: Tholindis",
+            "nextDialogs": [
+              "60181902"
+            ]
+          },
+          "60181902": {
+            "id": "60181902",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Over the course of this week, the research object was subjected to interference for a total of 47 hours for experimental purposes. The results are as follows:",
+            "nextDialogs": [
+              "60181903"
+            ]
+          },
+          "60181903": {
+            "id": "60181903",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...All subjects of observation that were sent inside have now ■■■■■. The situation within is proving more problematic than anticipated.",
+            "nextDialogs": [
+              "60181904"
+            ]
+          },
+          "60181904": {
+            "id": "60181904",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No progress whatsoever... *sigh* What now? Won't you give me even a glimmer of hope?",
+            "nextDialogs": [
+              "60181905"
+            ]
+          },
+          "60181905": {
+            "id": "60181905",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Things are getting worse by the day. I have to find a way, or we'll all be in danger.",
+            "nextDialogs": [
+              "60181906"
+            ]
+          },
+          "60181906": {
+            "id": "60181906",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "But... But I...",
+            "nextDialogs": [
+              "60181907"
+            ]
+          },
+          "60181907": {
+            "id": "60181907",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "*sigh*...",
+            "nextDialogs": [
+              "60181908"
+            ]
+          },
+          "60181908": {
+            "id": "60181908",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "If all this research comes to nothing, what then? Sooner or later, it'll be my neck on the line...",
+            "nextDialogs": [
+              "60181909"
+            ]
+          },
+          "60181909": {
+            "id": "60181909",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "But... Could he really bring himself to kill me?",
+            "nextDialogs": [
+              "60181910"
+            ]
+          },
+          "60181910": {
+            "id": "60181910",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No... Surely he wouldn't have the heart..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601835",
+      "subQuestName": "Investigate the black mist in the space",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601814",
+      "subQuestName": "Return to the office",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182901"
+        ],
+        "dialogs": {
+          "60182901": {
+            "id": "60182901",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Today's files are in. Time to wade through them, just like usual...",
+            "nextDialogs": [
+              "60182902"
+            ]
+          },
+          "60182902": {
+            "id": "60182902",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No, I don't get tired of it. It's my job — and not only am I lucky to have it, I'm good at it too.",
+            "nextDialogs": [
+              "60182903"
+            ]
+          },
+          "60182903": {
+            "id": "60182903",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...Wait, that's...!?",
+            "nextDialogs": [
+              "60182904"
+            ]
+          },
+          "60182904": {
+            "id": "60182904",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60182905"
+            ]
+          },
+          "60182905": {
+            "id": "60182905",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Tholindis?",
+            "nextDialogs": [
+              "60182906"
+            ]
+          },
+          "60182906": {
+            "id": "60182906",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No, no... No!",
+            "nextDialogs": [
+              "60182907"
+            ]
+          },
+          "60182907": {
+            "id": "60182907",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Why, why, why!? But you bear no mark of the Crimson Moon!",
+            "nextDialogs": [
+              "60182908"
+            ]
+          },
+          "60182908": {
+            "id": "60182908",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "How could you possibly have anything to do with them? It cannot be...",
+            "nextDialogs": [
+              "60182909"
+            ]
+          },
+          "60182909": {
+            "id": "60182909",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "*sigh* A diluted bloodline, carefully concealed... I see it now. You've been living in the shadows, just like me.",
+            "nextDialogs": [
+              "60182910"
+            ]
+          },
+          "60182910": {
+            "id": "60182910",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "What a fool I've been... Numbing myself with talk of justice, even imagining my friends would back me up. But in the end, I...",
+            "nextDialogs": [
+              "60182911"
+            ]
+          },
+          "60182911": {
+            "id": "60182911",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Irminsul... Vinster King! How far are you going to take this!? From the direct bloodline, to secondary offshoots... and then what?",
+            "nextDialogs": [
+              "60182912"
+            ]
+          },
+          "60182912": {
+            "id": "60182912",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Today, it's the descendants of the Crimson Moon. Who will it be tomorrow? Will you not rest until everyone down here is dead!?",
+            "nextDialogs": [
+              "60182913"
+            ]
+          },
+          "60182913": {
+            "id": "60182913",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "No... This cannot go on! This is where it ends!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601815",
+      "subQuestName": "Head to the corridor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601816",
+      "subQuestName": "Enter the simulation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601841",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601845",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601817",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601818",
+      "subQuestName": "Follow Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181801"
+        ],
+        "dialogs": {
+          "60181801": {
+            "id": "60181801",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Tholindis... Do you still remember Orlog?",
+            "nextDialogs": [
+              "60181802"
+            ]
+          },
+          "60181802": {
+            "id": "60181802",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Orlog...",
+            "nextDialogs": [
+              "60181803"
+            ]
+          },
+          "60181803": {
+            "id": "60181803",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "The boy who was pretending to sell flowers. You spoke for quite a while, didn't you?",
+            "nextDialogs": [
+              "60181804"
+            ]
+          },
+          "60181804": {
+            "id": "60181804",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...Yes, we did.",
+            "nextDialogs": [
+              "60181805"
+            ]
+          },
+          "60181805": {
+            "id": "60181805",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "What about him?",
+            "nextDialogs": [
+              "60181806"
+            ]
+          },
+          "60181806": {
+            "id": "60181806",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "He... was arrested two days ago. Chances are he's already dead.",
+            "nextDialogs": [
+              "60181807"
+            ]
+          },
+          "60181807": {
+            "id": "60181807",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...!",
+            "nextDialogs": [
+              "60181808"
+            ]
+          },
+          "60181808": {
+            "id": "60181808",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "H—He...",
+            "nextDialogs": [
+              "60181809"
+            ]
+          },
+          "60181809": {
+            "id": "60181809",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "I just don't get it... After everything he's done, why do you still stand by him?",
+            "nextDialogs": [
+              "60181810"
+            ]
+          },
+          "60181810": {
+            "id": "60181810",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Or does it mean nothing to you that people keep dying?",
+            "nextDialogs": [
+              "60181811"
+            ]
+          },
+          "60181811": {
+            "id": "60181811",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No! That's not... Just hear me out!",
+            "nextDialogs": [
+              "60181812"
+            ]
+          },
+          "60181812": {
+            "id": "60181812",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "I need to go now, Tholindis... They're looking for us. You take care too.",
+            "nextDialogs": [
+              "60181813"
+            ]
+          },
+          "60181813": {
+            "id": "60181813",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "If... If you ever need a place to hide, come find us."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601852",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180701"
+        ],
+        "dialogs": {
+          "60180701": {
+            "id": "60180701",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Well, this is a nice change, meeting you all at this hour. When men and woman of ambition can speak face to face in broad daylight, I say that's a big step forward for our dear Khaenri'ah.",
+            "nextDialogs": [
+              "60180702"
+            ]
+          },
+          "60180702": {
+            "id": "60180702",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "Don't be ridiculous. We do not fear the day. Why would we seek refuge in the night?",
+            "nextDialogs": [
+              "60180703"
+            ]
+          },
+          "60180703": {
+            "id": "60180703",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "You might ask your blade that same question. I'm told it prefers the cover of darkness.",
+            "nextDialogs": [
+              "60180704"
+            ]
+          },
+          "60180704": {
+            "id": "60180704",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "The word on the street is that Surtalogi only strikes when he has an unfair advantage... But that is patently false. I see you're missing an arm and a leg — surely only a fair fight could explain that?",
+            "nextDialogs": [
+              "60180705"
+            ]
+          },
+          "60180705": {
+            "id": "60180705",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "If this is your way of offering me replacement limbs, believe me, I'll take them...",
+            "nextDialogs": [
+              "60180706"
+            ]
+          },
+          "60180706": {
+            "id": "60180706",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Oh, we can certainly discuss that. With Bio-Alchemy, anything is possible — assuming I have your full support in my research.",
+            "nextDialogs": [
+              "60180707"
+            ]
+          },
+          "60180707": {
+            "id": "60180707",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "Hmph. Lunatic.",
+            "nextDialogs": [
+              "60180708"
+            ]
+          },
+          "60180708": {
+            "id": "60180708",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "Hroptatyr, what brings you here?",
+            "nextDialogs": [
+              "60180709"
+            ]
+          },
+          "60180709": {
+            "id": "60180709",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "Why, Dainsleif, of course. He invited me.",
+            "nextDialogs": [
+              "60180710"
+            ]
+          },
+          "60180710": {
+            "id": "60180710",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "Please, cast aside your apprehensions, Ms Rhinedottir. Whatever the rumors may say, I am but a humble servant of the king, and I can assure you he affords me no greater convenience than he does you.",
+            "nextDialogs": [
+              "60180711"
+            ]
+          },
+          "60180711": {
+            "id": "60180711",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Well, the Universitas Magistrorum won't stop fawning over you, so at least some of the rumors must be true. You're clearly doing well for yourself — so drop the \"humble servant\" act. It endears you to no one.",
+            "nextDialogs": [
+              "60180712"
+            ]
+          },
+          "60180712": {
+            "id": "60180712",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "You're president of the Universitas Magistrorum, the Chief Royal Mage known as \"The Wise\" by royal appointment, and by far the most favored among the Four Pillars of Khaenri'ah.",
+            "nextDialogs": [
+              "60180713"
+            ]
+          },
+          "60180713": {
+            "id": "60180713",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Vice-President Vit doesn't even try to hide his envy when he sees you.",
+            "nextDialogs": [
+              "60180714"
+            ]
+          },
+          "60180714": {
+            "id": "60180714",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "My success is a product of hard work and good luck, it's as simple as that. Were the king not such an extremist, I hardly think I would've received a senior post at my age.",
+            "nextDialogs": [
+              "60180715"
+            ]
+          },
+          "60180715": {
+            "id": "60180715",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "Of course, no job is without its gripes. Serving a king like ours can be a challenging task, as I'm sure you can imagine.",
+            "nextDialogs": [
+              "60180716"
+            ]
+          },
+          "60180716": {
+            "id": "60180716",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "And as for Eftirvit, in missing out on the presidency, he's dodged a mountain of stress. Like everything else in life, it comes with pros and cons.",
+            "nextDialogs": [
+              "60180717"
+            ]
+          },
+          "60180717": {
+            "id": "60180717",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Hah... You're all here. I apologize for the short notice, but it was an emergency.",
+            "nextDialogs": [
+              "60180718"
+            ]
+          },
+          "60180718": {
+            "id": "60180718",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "You must be Rerir.",
+            "nextDialogs": [
+              "60180719"
+            ]
+          },
+          "60180719": {
+            "id": "60180719",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Mr. Surtalogi. Yes, I handled your case file during your sentencing — nothing personal, of course. I'm pleasantly surprised that you remember me.",
+            "nextDialogs": [
+              "60180720"
+            ]
+          },
+          "60180720": {
+            "id": "60180720",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "You're clearly a person of substance if you've been invited here. But Dainsleif, you'd better have a very good reason for convening this little gathering.",
+            "nextDialogs": [
+              "60180721"
+            ]
+          },
+          "60180721": {
+            "id": "60180721",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "...",
+            "nextDialogs": [
+              "60180722"
+            ]
+          },
+          "60180722": {
+            "id": "60180722",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "It's my brother, Vedrfolnir... After he spoke at the court this morning, the king was so infuriated by his words that he had him blinded in both eyes and thrown in prison.",
+            "nextDialogs": [
+              "60180723"
+            ]
+          },
+          "60180723": {
+            "id": "60180723",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Vedrfolnir, in prison? Strange... I thought the king trusted him and Hroptatyr more than anyone else in the world.",
+            "nextDialogs": [
+              "60180724"
+            ]
+          },
+          "60180724": {
+            "id": "60180724",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Does this mean the king's circle of trust just got even smaller?",
+            "nextDialogs": [
+              "60180725"
+            ]
+          },
+          "60180725": {
+            "id": "60180725",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "It has nothing to do with trust. It's about what the king wants, which is as clear as day to anyone paying attention.",
+            "nextDialogs": [
+              "60180726"
+            ]
+          },
+          "60180726": {
+            "id": "60180726",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "I simply appease him, because it's in the best interests of the Universitas Magistrorum.",
+            "nextDialogs": [
+              "60180727"
+            ]
+          },
+          "60180727": {
+            "id": "60180727",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "And also because you're slimy. Vedrfolnir, perhaps less so... But still, a visionless visionary? Heh, it rather inclines me to think that qualifications are not what get you ahead in Khaenri'ah.",
+            "nextDialogs": [
+              "60180728"
+            ]
+          },
+          "60180728": {
+            "id": "60180728",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "Do you honestly think this is an important discussion to be having right now?",
+            "nextDialogs": [
+              "60180729"
+            ]
+          },
+          "60180729": {
+            "id": "60180729",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Dain, what are you planning to do?",
+            "nextDialogs": [
+              "60180730"
+            ]
+          },
+          "60180730": {
+            "id": "60180730",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "Rescue Vedrfolnir, I assume?",
+            "nextDialogs": [
+              "60180731"
+            ]
+          },
+          "60180731": {
+            "id": "60180731",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Correct. It will mean storming the palace by force, tonight. I need all of you on my side.",
+            "nextDialogs": [
+              "60180732"
+            ]
+          },
+          "60180732": {
+            "id": "60180732",
+            "speakerId": 1022,
+            "speakerName": "Hroptatyr",
+            "text": "That's far too dangerous! And don't forget, Dainsleif, you're captain of the royal guard... You swore an oath to the throne.",
+            "nextDialogs": [
+              "60180733"
+            ]
+          },
+          "60180733": {
+            "id": "60180733",
+            "speakerId": 1020,
+            "speakerName": "Rhinedottir",
+            "text": "Hmm? You've... been planning this for a while, haven't you?",
+            "nextDialogs": [
+              "60180734"
+            ]
+          },
+          "60180734": {
+            "id": "60180734",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "I have no desire to commit treason. But whatever critique the king may have of Vedrfolnir, disfiguring your most loyal subject for putting the best interests of his court and nation first... This is not the conduct of a wise ruler.",
+            "nextDialogs": [
+              "60180735"
+            ]
+          },
+          "60180735": {
+            "id": "60180735",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "My blade will force the king to see the error of his ways.",
+            "nextDialogs": [
+              "60180736"
+            ]
+          },
+          "60180736": {
+            "id": "60180736",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(So, Vedrfolnir's prophecy enraged the king... I'm sure it wasn't what he wanted to hear, but if he won't take counsel even from The Visionary, that is deeply troubling news.)",
+            "nextDialogs": [
+              "60180737"
+            ]
+          },
+          "60180737": {
+            "id": "60180737",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(The extent of His Majesty's madness is now all too clear... The question is, how does a man like me get out of this situation unscathed?)",
+            "nextDialogs": [
+              "60180738"
+            ]
+          },
+          "60180738": {
+            "id": "60180738",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(You have noble ambitions, Dain, but I'm afraid they don't do much for a guy like me. I'm not interested in saving the world — all I want is a letter of pardon.)",
+            "nextDialogs": [
+              "60180739"
+            ]
+          },
+          "60180739": {
+            "id": "60180739",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "A letter of pardon? For whom? ...Tholindis?",
+            "nextDialogs": [
+              "60180740"
+            ]
+          },
+          "60180740": {
+            "id": "60180740",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "The chances of the Vinster King issuing a pardon for anyone connected to the Crimson Moon seem vanishingly slim."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601846",
+      "subQuestName": "Follow Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601819",
+      "subQuestName": "Investigate the black mist on the board",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601837",
+      "subQuestName": "Investigate the black mist on the board",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182001"
+        ],
+        "dialogs": {
+          "60182001": {
+            "id": "60182001",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Author: Tholindis",
+            "nextDialogs": [
+              "60182002"
+            ]
+          },
+          "60182002": {
+            "id": "60182002",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Over the course of this week, the research object was subjected to interference for a total of 60 hours for experimental purposes. The results are as follows:",
+            "nextDialogs": [
+              "60182003"
+            ]
+          },
+          "60182003": {
+            "id": "60182003",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Research dating back to the Crimson Moon dynasty has established two points regarding Moon Marrow. Firstly, its origins have something to do with a god's power. Secondly, it serves as a portal to an as-yet indeterminate location. Moon Marrow can thus be defined as a spatial gateway.",
+            "nextDialogs": [
+              "60182004"
+            ]
+          },
+          "60182004": {
+            "id": "60182004",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "However, there are a number of hurdles to overcome before we can answer the question of where it leads to. To start with, opening the gateway requires a specific power source, which the relevant literature indicates ■■■■...",
+            "nextDialogs": [
+              "60182005"
+            ]
+          },
+          "60182005": {
+            "id": "60182005",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "An enormous amount of power is then required to keep the gate open. Currently, the total power output of our instruments remains in the single digits...",
+            "nextDialogs": [
+              "60182006"
+            ]
+          },
+          "60182006": {
+            "id": "60182006",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "To make matters worse, I am now the only staff member remaining in the Moon Marrow lab. The Universitas Magistrorum recently decided to move most of its personnel into Abyssal Energy research, which has stymied all Crimson Moon-related projects.",
+            "nextDialogs": [
+              "60182007"
+            ]
+          },
+          "60182007": {
+            "id": "60182007",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "This is not a wise move. I have always maintained that placing all our hopes in a single source of power is risky, especially one as poorly understood as this. As well as making ourselves overly reliant on a single resource, we are neglecting other promising technologies.",
+            "nextDialogs": [
+              "60182008"
+            ]
+          },
+          "60182008": {
+            "id": "60182008",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I apologize if this comes across as disrespectful. But as a Moon Marrow researcher, I desperately want to see the world beyond the gateway.",
+            "nextDialogs": [
+              "60182009"
+            ]
+          },
+          "60182009": {
+            "id": "60182009",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "If we really made it there one day, what would we find? And how would we go about taming the unknown? My imagination is endlessly fueled by questions such as these."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601838",
+      "subQuestName": "Examine the other dark fog",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601839",
+      "subQuestName": "Examine the other dark fog",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182201"
+        ],
+        "dialogs": {
+          "60182201": {
+            "id": "60182201",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "This is for you. I heard you're gonna leave the city with your parents.",
+            "nextDialogs": [
+              "60182202"
+            ]
+          },
+          "60182202": {
+            "id": "60182202",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "Tholindis... Did you hear about... what happened?",
+            "nextDialogs": [
+              "60182203"
+            ]
+          },
+          "60182203": {
+            "id": "60182203",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I've heard nothing. Rerir got back very late last Friday, and he was acting a little unusual. But he slept pretty well, so I'm guessing whatever he did was a good deed.",
+            "nextDialogs": [
+              "60182204"
+            ]
+          },
+          "60182204": {
+            "id": "60182204",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "...",
+            "nextDialogs": [
+              "60182205"
+            ]
+          },
+          "60182205": {
+            "id": "60182205",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "You never saw him, and I don't know what he did. And this conversation never happened. You understand?",
+            "nextDialogs": [
+              "60182206"
+            ]
+          },
+          "60182206": {
+            "id": "60182206",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "What if he finds out that you pried into his secrets?",
+            "nextDialogs": [
+              "60182207"
+            ]
+          },
+          "60182207": {
+            "id": "60182207",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Don't be silly. I don't know what secrets he does or doesn't have. All I know is, he's just a normal guy who happens to run some errands for the king.",
+            "nextDialogs": [
+              "60182208"
+            ]
+          },
+          "60182208": {
+            "id": "60182208",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "...Are you scared of him?",
+            "nextDialogs": [
+              "60182209"
+            ]
+          },
+          "60182209": {
+            "id": "60182209",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I don't know.",
+            "nextDialogs": [
+              "60182210"
+            ]
+          },
+          "60182210": {
+            "id": "60182210",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "The Rerir I know doesn't match the person you all describe.",
+            "nextDialogs": [
+              "60182211"
+            ]
+          },
+          "60182211": {
+            "id": "60182211",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Logically, I should be scared of him. And yet, I don't want to lose him...",
+            "nextDialogs": [
+              "60182212"
+            ]
+          },
+          "60182212": {
+            "id": "60182212",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...But enough about that. You should get going — and be careful with the package I gave you. Keep it secret... Keep it safe.",
+            "nextDialogs": [
+              "60182213"
+            ]
+          },
+          "60182213": {
+            "id": "60182213",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "What's in it?",
+            "nextDialogs": [
+              "60182214"
+            ]
+          },
+          "60182214": {
+            "id": "60182214",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "A piece of the moon. All you need to know is that as long as you keep it safe, then in the future, everyone will be able to see a red moon.",
+            "nextDialogs": [
+              "60182215"
+            ]
+          },
+          "60182215": {
+            "id": "60182215",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "A Red moon? You mean... our moon?",
+            "nextDialogs": [
+              "60182216"
+            ]
+          },
+          "60182216": {
+            "id": "60182216",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "That's right. Our moon. Promise me you'll look after it?",
+            "nextDialogs": [
+              "60182217"
+            ]
+          },
+          "60182217": {
+            "id": "60182217",
+            "speakerId": 1010,
+            "speakerName": "Frithr",
+            "text": "I promise, Tholindis!",
+            "nextDialogs": [
+              "60182218"
+            ]
+          },
+          "60182218": {
+            "id": "60182218",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "The Crimson Moon bloodline will never die out. Its light, the color of blood, will become like a fire that flows in our veins.",
+            "nextDialogs": [
+              "60182219"
+            ]
+          },
+          "60182219": {
+            "id": "60182219",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "No matter how long it takes..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601847",
+      "subQuestName": "Head to the palace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601853",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182401"
+        ],
+        "dialogs": {
+          "60182401": {
+            "id": "60182401",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Hurry, everyone, and stick to the plan!",
+            "nextDialogs": [
+              "60182402"
+            ]
+          },
+          "60182402": {
+            "id": "60182402",
+            "speakerId": 1023,
+            "speakerName": "Royal Guard",
+            "text": "Sir Dainsleif!? What are you... Is this treason?",
+            "nextDialogs": [
+              "60182403"
+            ]
+          },
+          "60182403": {
+            "id": "60182403",
+            "speakerId": 1023,
+            "speakerName": "Royal Guard",
+            "text": "You know what happens to those who betray the throne! Please, don't do this!",
+            "nextDialogs": [
+              "60182404"
+            ]
+          },
+          "60182404": {
+            "id": "60182404",
+            "speakerId": 1021,
+            "speakerName": "Surtalogi",
+            "text": "It is the king himself who has betrayed the throne. He has betrayed all of Khaenri'ah.",
+            "nextDialogs": [
+              "60182405"
+            ]
+          },
+          "60182405": {
+            "id": "60182405",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "If you have any love left for justice in your heart, you should join me.",
+            "nextDialogs": [
+              "60182406"
+            ]
+          },
+          "60182406": {
+            "id": "60182406",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(It's showtime. Dain and his group will handle the troops in the palace, then Hroptatyr and Rhinedottir will disarm the security measures.)",
+            "nextDialogs": [
+              "60182407"
+            ]
+          },
+          "60182407": {
+            "id": "60182407",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(My job is to enter the prison and rescue Vedrfolnir.)",
+            "nextDialogs": [
+              "60182408"
+            ]
+          },
+          "60182408": {
+            "id": "60182408",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Stay safe! Wish me luck!",
+            "nextDialogs": [
+              "60182409"
+            ]
+          },
+          "60182409": {
+            "id": "60182409",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Look after my brother!",
+            "nextDialogs": [
+              "60182410"
+            ]
+          },
+          "60182410": {
+            "id": "60182410",
+            "speakerId": 1007,
+            "speakerName": "Dainsleif",
+            "text": "Draw your blade. It is time for justice to prevail!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601820",
+      "subQuestName": "Head to the palace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601821",
+      "subQuestName": "Head to the prison",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182101"
+        ],
+        "dialogs": {
+          "60182101": {
+            "id": "60182101",
+            "speakerId": 1024,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "601822",
+      "subQuestName": "Head to the prison",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60180801"
+        ],
+        "dialogs": {
+          "60180801": {
+            "id": "60180801",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60180802"
+            ]
+          },
+          "60180802": {
+            "id": "60180802",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "This place is filthy... and the smell is abominable. Clearly, the king doesn't allow his prisoners a single shred of dignity. This is dire.",
+            "nextDialogs": [
+              "60180803"
+            ]
+          },
+          "60180803": {
+            "id": "60180803",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Found you. Hello, Mr. Vedrfolnir.",
+            "nextDialogs": [
+              "60180804"
+            ]
+          },
+          "60180804": {
+            "id": "60180804",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Ah. It's you.",
+            "nextDialogs": [
+              "60180805"
+            ]
+          },
+          "60180805": {
+            "id": "60180805",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Surprised? No, wait... I guess surprise isn't an emotion that prophets feel very often.",
+            "nextDialogs": [
+              "60180806"
+            ]
+          },
+          "60180806": {
+            "id": "60180806",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "I certainly felt some surprise in the moment when I was blinded. Surprise at the king's sheer ignorance. Surprise at just how unfairly this world responds to words of earnest remonstration.",
+            "nextDialogs": [
+              "60180807"
+            ]
+          },
+          "60180807": {
+            "id": "60180807",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I'm curious, what did you prophesize this time?",
+            "nextDialogs": [
+              "60180808"
+            ]
+          },
+          "60180808": {
+            "id": "60180808",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "It wasn't a prophecy, it was a word of warning. Someone had to say it.",
+            "nextDialogs": [
+              "60180809"
+            ]
+          },
+          "60180809": {
+            "id": "60180809",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "The king has forsaken all reason in pursuit of his obsessions. I simply told him that if he continues on this path, Khaenri'ah will surely fall.",
+            "nextDialogs": [
+              "60180810"
+            ]
+          },
+          "60180810": {
+            "id": "60180810",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "But he didn't listen. Worse still, he stabbed you in both eyes and locked you away.",
+            "nextDialogs": [
+              "60180811"
+            ]
+          },
+          "60180811": {
+            "id": "60180811",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Dain asked for my help. The court is in complete chaos now, but I'm sure you predicted that.",
+            "nextDialogs": [
+              "60180812"
+            ]
+          },
+          "60180812": {
+            "id": "60180812",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Everything is transpiring as I foresaw, yet I am powerless to change it... Fate is an immutable force. I can but lament as the inevitable unfolds.",
+            "nextDialogs": [
+              "60180813"
+            ]
+          },
+          "60180813": {
+            "id": "60180813",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "I do wonder whether giving a man the power to see the future does nothing more for him than slowly crush his spirits...",
+            "nextDialogs": [
+              "60180814"
+            ]
+          },
+          "60180814": {
+            "id": "60180814",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Forgive my curtness, Vedrfolnir, but the king did not suddenly turn on you today. His suspicions have been brewing for a long time.",
+            "nextDialogs": [
+              "60180815"
+            ]
+          },
+          "60180815": {
+            "id": "60180815",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You can't have wisdom beyond the reach of your fellow man without attracting his fear and suspicion.",
+            "nextDialogs": [
+              "60180816"
+            ]
+          },
+          "60180816": {
+            "id": "60180816",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "There are things the king does not want to see, so he doesn't want you having visions of them either. He blinded you because he thought this would make the visions stop.",
+            "nextDialogs": [
+              "60180817"
+            ]
+          },
+          "60180817": {
+            "id": "60180817",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "He wasn't entirely wrong. I did indeed lose my power to see the future... right up until...",
+            "nextDialogs": [
+              "60180818"
+            ]
+          },
+          "60180818": {
+            "id": "60180818",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Until what?",
+            "nextDialogs": [
+              "60180819"
+            ]
+          },
+          "60180819": {
+            "id": "60180819",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Just now... I believe I saw something new.",
+            "nextDialogs": [
+              "60180820"
+            ]
+          },
+          "60180820": {
+            "id": "60180820",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Well, tonight could go a lot of different ways. Five of us banded together to storm the palace — all so we could rescue you. This will go down as the most tumultuous day in Khaenri'ahn history.",
+            "nextDialogs": [
+              "60180821"
+            ]
+          },
+          "60180821": {
+            "id": "60180821",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "I sense hatred in you... but also hope. A desperate hope that with the tyrant deposed, that will be the end of the story.",
+            "nextDialogs": [
+              "60180822"
+            ]
+          },
+          "60180822": {
+            "id": "60180822",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "But this is not the end. It is the beginning of a new chapter in a whole new story.",
+            "nextDialogs": [
+              "60180823"
+            ]
+          },
+          "60180823": {
+            "id": "60180823",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "There are many men of honor and courage in this world, Rerir, but you are not one of them. You're not here for justice, are you? You're here for yourself.",
+            "nextDialogs": [
+              "60180824"
+            ]
+          },
+          "60180824": {
+            "id": "60180824",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60180825"
+            ]
+          },
+          "60180825": {
+            "id": "60180825",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Is that a dagger? Interesting. Why not the polearm? It was always your weapon of choice.",
+            "nextDialogs": [
+              "60180826"
+            ]
+          },
+          "60180826": {
+            "id": "60180826",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "With your abilities, I don't doubt that you were able to recover some of your sight. But I also doubt that you want to make an enemy of me right now.",
+            "nextDialogs": [
+              "60180827"
+            ]
+          },
+          "60180827": {
+            "id": "60180827",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Of course not. We're on the same side, aren't we?",
+            "nextDialogs": [
+              "60180828"
+            ]
+          },
+          "60180828": {
+            "id": "60180828",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "We could be. But I need you to be honest with me, Vedrfolnir. At this point, you're my only hope for the future.",
+            "nextDialogs": [
+              "60180829"
+            ]
+          },
+          "60180829": {
+            "id": "60180829",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "You mean, your future? With your beloved, Tholindis?",
+            "nextDialogs": [
+              "60180830"
+            ]
+          },
+          "60180830": {
+            "id": "60180830",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Yes. And I know there are bigger things at stake here — a dynasty, a nation, maybe the entire world... But forgive me, I care first and foremost about myself.",
+            "nextDialogs": [
+              "60180831"
+            ]
+          },
+          "60180831": {
+            "id": "60180831",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I can't abandon the one I love to save myself. I just can't do it. But you see a broader picture of the future than I. You see the solutions to the biggest problems of our age... So tell me, what is my solution? What's the answer?",
+            "nextDialogs": [
+              "60180832"
+            ]
+          },
+          "60180832": {
+            "id": "60180832",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "In matters of fate, answers are either right or wrong: what will be, and what will not. Maybe you are willing to pay a certain price in the pursuit of happiness, but unfortunately, fate does not negotiate.",
+            "nextDialogs": [
+              "60180833"
+            ]
+          },
+          "60180833": {
+            "id": "60180833",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "That is the cruelest thing about fate. It is unmoved by your sacrifices.",
+            "nextDialogs": [
+              "60180834"
+            ]
+          },
+          "60180834": {
+            "id": "60180834",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "That can't be true!",
+            "nextDialogs": [
+              "60180835"
+            ]
+          },
+          "60180835": {
+            "id": "60180835",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I know it's your voice that I keep hearing in my head... urging me to see how the world is changing, to seek more power so I can protect the things I love...",
+            "nextDialogs": [
+              "60180836"
+            ]
+          },
+          "60180836": {
+            "id": "60180836",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You show me disaster, but you won't show me how to avoid it... Why? Why are you doing all this?",
+            "nextDialogs": [
+              "60180837"
+            ]
+          },
+          "60180837": {
+            "id": "60180837",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "My voice? In your head?",
+            "nextDialogs": [
+              "60180838"
+            ]
+          },
+          "60180838": {
+            "id": "60180838",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Haha... Hahahaha... So, you hear it too. The voice that steals your mind, gains your trust, and drives you crazy...",
+            "nextDialogs": [
+              "60180839"
+            ]
+          },
+          "60180839": {
+            "id": "60180839",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "It turns out that we are not so different, you and I.",
+            "nextDialogs": [
+              "60180840"
+            ]
+          },
+          "60180840": {
+            "id": "60180840",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Vedrfolnir just broke into the strangest smile I've ever seen in my life, as if he'd discovered some monumental secret. But then he suddenly switched to looking extremely weary.)",
+            "nextDialogs": [
+              "60180841"
+            ]
+          },
+          "60180841": {
+            "id": "60180841",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Very well then. My advice to you is as follows: You must persevere. Whatever trials and tribulations you may face, be steadfast in the belief that they are your path to the future.",
+            "nextDialogs": [
+              "60180842"
+            ]
+          },
+          "60180842": {
+            "id": "60180842",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "For as long as you live, your story with Tholindis shall not come to an end. That is the only chance you have of fighting back against fate.",
+            "nextDialogs": [
+              "60180843"
+            ]
+          },
+          "60180843": {
+            "id": "60180843",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "It is up to you whether you believe my words. Regardless, that is all I will say on the matter. I have no right to intervene any further.",
+            "nextDialogs": [
+              "60180844"
+            ]
+          },
+          "60180844": {
+            "id": "60180844",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60180845"
+            ]
+          },
+          "60180845": {
+            "id": "60180845",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I will hold you to your word.",
+            "nextDialogs": [
+              "60180846"
+            ]
+          },
+          "60180846": {
+            "id": "60180846",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "Thank you for setting me free. In return, I will tell you one more thing that you cannot afford to ignore...",
+            "nextDialogs": [
+              "60180847"
+            ]
+          },
+          "60180847": {
+            "id": "60180847",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Just then, a strange wave of energy rippled through the city. We had no idea what it could mean.)",
+            "nextDialogs": [
+              "60180848"
+            ]
+          },
+          "60180848": {
+            "id": "60180848",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "If I were you, I would head to the Universitas Magistrorum.",
+            "nextDialogs": [
+              "60180849"
+            ]
+          },
+          "60180849": {
+            "id": "60180849",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "The Universitas... Oh no!",
+            "nextDialogs": [
+              "60180850"
+            ]
+          },
+          "60180850": {
+            "id": "60180850",
+            "speakerId": 1017,
+            "speakerName": "Vedrfolnir",
+            "text": "I'm sure we'll be seeing each other again very soon, Rerir.",
+            "nextDialogs": [
+              "60180851"
+            ]
+          },
+          "60180851": {
+            "id": "60180851",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "(Whatever Vedrfolnir said, I didn't catch it. I didn't even help him out of the prison. There was no time to lose.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601840",
+      "subQuestName": "Hurry to the Universitas Magistrorum",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601842",
+      "subQuestName": "Hurry to the Universitas Magistrorum",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601823",
+      "subQuestName": "Hurry to the Universitas Magistrorum",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601843",
+      "subQuestName": "Hurry to the Universitas Magistrorum",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601844",
+      "subQuestName": "Defeat the monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601829",
+      "subQuestName": "Go to where Tholindis is",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182601"
+        ],
+        "dialogs": {
+          "60182601": {
+            "id": "60182601",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Monsters, at the Universitas Magistrorum? Why now!?",
+            "nextDialogs": [
+              "60182602"
+            ]
+          },
+          "60182602": {
+            "id": "60182602",
+            "speakerId": 1025,
+            "speakerName": "Monsters",
+            "text": "Grrr...",
+            "nextDialogs": [
+              "60182603"
+            ]
+          },
+          "60182603": {
+            "id": "60182603",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Oh no, they're coming...",
+            "nextDialogs": [
+              "60182604"
+            ]
+          },
+          "60182604": {
+            "id": "60182604",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "It's no use, the table won't hold out much longer... The weapons... Where are the weapons?",
+            "nextDialogs": [
+              "60182605"
+            ]
+          },
+          "60182605": {
+            "id": "60182605",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...Of course. All the lab equipment was upgraded after the inspection last week, but the new weapons haven't been allocated yet...",
+            "nextDialogs": [
+              "60182606"
+            ]
+          },
+          "60182606": {
+            "id": "60182606",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "I'm done for... Is anyone there!? I need help!!!",
+            "nextDialogs": [
+              "60182607"
+            ]
+          },
+          "60182607": {
+            "id": "60182607",
+            "speakerId": 1025,
+            "speakerName": "Monsters",
+            "text": "Roar!",
+            "nextDialogs": [
+              "60182608"
+            ]
+          },
+          "60182608": {
+            "id": "60182608",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "...!",
+            "nextDialogs": [
+              "60182609"
+            ]
+          },
+          "60182609": {
+            "id": "60182609",
+            "speakerId": 1009,
+            "speakerName": "Tholindis",
+            "text": "Stay back... please stay back, please..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601824",
+      "subQuestName": "Collect your thoughts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601814",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181401"
+        ],
+        "dialogs": {
+          "60181401": {
+            "id": "60181401",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Wonder what kind of encryption technique this is... Hmm, seems like it has to be inserted into that camouflaged device nearby.)",
+            "nextDialogs": [
+              "60181402"
+            ]
+          },
+          "60181402": {
+            "id": "60181402",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Aha... It's an audio recording.)",
+            "nextDialogs": [
+              "60181403"
+            ]
+          },
+          "60181403": {
+            "id": "60181403",
+            "speakerId": 1026,
+            "speakerName": "Audio Recording",
+            "text": "Please, hear me out... I can't shake this feeling that someone's been spying on our house... No, I'm not being paranoid, it's true!",
+            "nextDialogs": [
+              "60181404"
+            ]
+          },
+          "60181404": {
+            "id": "60181404",
+            "speakerId": 1026,
+            "speakerName": "Audio Recording",
+            "text": "I saw someone dressed in all black... It was a couple of days back, but that was on another street, not near my house... I swear, I know what I saw!",
+            "nextDialogs": [
+              "60181405"
+            ]
+          },
+          "60181405": {
+            "id": "60181405",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(There's a note in the margin: Surveillance of the Runvorthr residence has concluded. We apprehended the target and filed the mission report last night.)",
+            "nextDialogs": [
+              "60181406"
+            ]
+          },
+          "60181406": {
+            "id": "60181406",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Could the voice in the recording belong to one of Rerir's targets?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601815",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60181501"
+        ],
+        "dialogs": {
+          "60181501": {
+            "id": "60181501",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(A box containing a ring inlaid with a precious gem...)",
+            "nextDialogs": [
+              "60181502"
+            ]
+          },
+          "60181502": {
+            "id": "60181502",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "(Must be for his girlfriend...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601823",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60182301"
+        ],
+        "dialogs": {
+          "60182301": {
+            "id": "60182301",
+            "speakerId": 1027,
+            "speakerName": "Examine the Board",
+            "text": "(There are some handwritten messages on the whiteboard...)",
+            "nextDialogs": [
+              "60182302"
+            ]
+          },
+          "60182302": {
+            "id": "60182302",
+            "speakerId": 1028,
+            "speakerName": "Notes on the Board",
+            "text": "\"I took the time to do a few sketches that represent the staffing for different units.\"",
+            "nextDialogs": [
+              "60182303"
+            ]
+          },
+          "60182303": {
+            "id": "60182303",
+            "speakerId": 1028,
+            "speakerName": "Notes on the Board",
+            "text": "\"The art's pretty good, huh? Bet you'll all like it. Mika always used to say I had the talent to make it big.\"",
+            "nextDialogs": [
+              "60182304"
+            ]
+          },
+          "60182304": {
+            "id": "60182304",
+            "speakerId": 1027,
+            "speakerName": "Examine the Board",
+            "text": "(These seem to have been written by Varka...?)",
+            "nextDialogs": [
+              "60182305"
+            ]
+          },
+          "60182305": {
+            "id": "60182305",
+            "speakerId": 1027,
+            "speakerName": "Examine the Board",
+            "text": "(Another message appears after these lines, written in a different hand:)",
+            "nextDialogs": [
+              "60182306"
+            ]
+          },
+          "60182306": {
+            "id": "60182306",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "\"Your creative work has, by the testimony of our fellow knights, proved excellent food for thought, Grand Master Varka.\"",
+            "nextDialogs": [
+              "60182307"
+            ]
+          },
+          "60182307": {
+            "id": "60182307",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "\"I have looked through it carefully, and I suspect this is because your work is novel, yet your technique remains slightly unpolished.\"",
+            "nextDialogs": [
+              "60182308"
+            ]
+          },
+          "60182308": {
+            "id": "60182308",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "\"This is only natural, of course. After all, you have never received any formal education in art.\"",
+            "nextDialogs": [
+              "60182309"
+            ]
+          },
+          "60182309": {
+            "id": "60182309",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "\"In accordance with requests I have received, I shall complete a few new paintings to serve as mementos for everyone.\"",
+            "nextDialogs": [
+              "60182310"
+            ]
+          },
+          "60182310": {
+            "id": "60182310",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "\"P.S.: Please understand that the Grand Master almost always has his hands full defending others — that his artistic capabilities are developed as this is a testament to the time he has spent alongside Spark Knight Klee.\"",
+            "nextDialogs": [
+              "60182311"
+            ]
+          },
+          "60182311": {
+            "id": "60182311",
+            "speakerId": 1029,
+            "speakerName": "Words Written in a Different Hand",
+            "text": "(The writer has signed off in the corner as \"Albedo.\")"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60189901"
+        ],
+        "dialogs": {
+          "60189901": {
+            "id": "60189901",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Hold on, there's that same black fog again. Could this memory belong to Tholindis?",
+            "nextDialogs": [
+              "60189902"
+            ]
+          },
+          "60189902": {
+            "id": "60189902",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "...Guess I'd better tread carefully.",
+            "nextDialogs": [
+              "60189903"
+            ]
+          },
+          "60189903": {
+            "id": "60189903",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "This black fog over the board must have some connection to Tholindis. But why is it taking this form? Does it have something to do with Rerir's past?",
+            "nextDialogs": [
+              "60189904"
+            ]
+          },
+          "60189904": {
+            "id": "60189904",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Another mystery I'll need to unravel...",
+            "nextDialogs": [
+              "60189905"
+            ]
+          },
+          "60189905": {
+            "id": "60189905",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "*panting*...",
+            "nextDialogs": [
+              "60189906"
+            ]
+          },
+          "60189906": {
+            "id": "60189906",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Why won't you just let us go? We don't even know each other... All we want is to live ordinary, peaceful lives!",
+            "nextDialogs": [
+              "60189907"
+            ]
+          },
+          "60189907": {
+            "id": "60189907",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "You want... to live?",
+            "nextDialogs": [
+              "60189908"
+            ]
+          },
+          "60189908": {
+            "id": "60189908",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Yes... I just want to go on living.",
+            "nextDialogs": [
+              "60189909"
+            ]
+          },
+          "60189909": {
+            "id": "60189909",
+            "speakerId": 1018,
+            "speakerName": "Orlog",
+            "text": "Is that really such an unforgivable crime?",
+            "nextDialogs": [
+              "60189910"
+            ]
+          },
+          "60189910": {
+            "id": "60189910",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "...",
+            "nextDialogs": [
+              "60189911"
+            ]
+          },
+          "60189911": {
+            "id": "60189911",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Hah... You want to \"go on living.\"",
+            "nextDialogs": [
+              "60189912"
+            ]
+          },
+          "60189912": {
+            "id": "60189912",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "I want to keep living, too... to keep living forever. That's why I have no choice but to continue on the path I'm on.",
+            "nextDialogs": [
+              "60189913"
+            ]
+          },
+          "60189913": {
+            "id": "60189913",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "If only some savior would suddenly swoop down and change the way the world is... Too bad that's not going to happen.",
+            "nextDialogs": [
+              "60189915"
+            ]
+          },
+          "60189915": {
+            "id": "60189915",
+            "speakerId": 1011,
+            "speakerName": "Nefer",
+            "text": "Let the simulation begin.",
+            "nextDialogs": [
+              "60189920"
+            ]
+          },
+          "60189920": {
+            "id": "60189920",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Imagine that. If there really were such a person, you and I wouldn't be standing here like this, would we?",
+            "nextDialogs": [
+              "60189921"
+            ]
+          },
+          "60189921": {
+            "id": "60189921",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Monsters!? Is this Rhinedottir's doing? Or the Universitas Magistrorum?",
+            "nextDialogs": [
+              "60189922"
+            ]
+          },
+          "60189922": {
+            "id": "60189922",
+            "speakerId": 1014,
+            "speakerName": "Rerir",
+            "text": "Out of my way!"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "lineCounts": {
+    "Nagano": 1,
+    "Thoma": 4
+  },
+  "subQuests": [
+    {
+      "subId": "1911401",
+      "subQuestName": "Gather 1 serving of Lavender Melon, Fowl, and Flour each",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911408",
+      "subQuestName": "Give the housekeeping course materials you collected to Thoma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911402",
+      "subQuestName": "Advertise the housekeeping course to the city merchants",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911403",
+      "subQuestName": "Advertise the housekeeping course to the city housewives",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911404",
+      "subQuestName": "Advertise the housekeeping course to the city's senior folk",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911406",
+      "subQuestName": "Return to the Yashiro Commission to make final preparations",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911407",
+      "subQuestName": "Wait until the following day (08:00 – 24:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191140701"
+        ],
+        "dialogs": {
+          "191140701": {
+            "id": "191140701",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "I don't think we've got enough...",
+            "nextDialogs": [
+              "191140702"
+            ]
+          },
+          "191140702": {
+            "id": "191140702",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "I'll need <color=#00E1FFFF>Lavender Melon</color>, <color=#00E1FFFF>Fowl</color>, and <color=#00E1FFFF>Flour</color>. Thanks again in advance."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1911405",
+      "subQuestName": "Go to the Yashiro Commission to take part in the housekeeping course",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1911403",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191140309"
+        ],
+        "dialogs": {
+          "191140309": {
+            "id": "191140309",
+            "speakerId": 1001,
+            "speakerName": "Nagano",
+            "text": "If you are as good as you claim to be, I will encourage everyone I know to attend your classes. And if I find your skills to be lacking, I will be quite happy to teach a few things myself.",
+            "nextDialogs": [
+              "191140310"
+            ]
+          },
+          "191140310": {
+            "id": "191140310",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "What can I say — we'll be honored to have you in attendance, Sir.",
+            "nextDialogs": [
+              "191140311"
+            ]
+          },
+          "191140311": {
+            "id": "191140311",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "#Well then... that will probably just about do it as far as promotion is concerned. Let's head back to the Yashiro Commission, {NICKNAME}."
+          }
+        }
+      }
+    }
+  ]
+}

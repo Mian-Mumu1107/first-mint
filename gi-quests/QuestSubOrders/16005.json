@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "Durin": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1600502",
+      "subQuestName": "Wait for the book to reveal hints for the next chapter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1600031",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "160003101"
+        ],
+        "dialogs": {
+          "160003101": {
+            "id": "160003101",
+            "speakerId": 1000,
+            "speakerName": "Durin",
+            "text": "Aunt Alice said we can return to the story world at any time.",
+            "nextDialogs": [
+              "160003102"
+            ]
+          },
+          "160003102": {
+            "id": "160003102",
+            "speakerId": 1000,
+            "speakerName": "Durin",
+            "text": "If you feel like checking it out again, just come find me."
+          }
+        }
+      }
+    }
+  ]
+}

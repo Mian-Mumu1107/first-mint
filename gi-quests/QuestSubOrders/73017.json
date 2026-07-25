@@ -1,0 +1,835 @@
+{
+  "lineCounts": {
+    "Arakunti": 37,
+    "Paimon": 51,
+    "Player": 22
+  },
+  "subQuests": [
+    {
+      "subId": "7301701",
+      "subQuestName": "Head to the Grove of Dreams to find Arakunti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301713",
+      "subQuestName": "Play the Rhythm of the Great Dream at the designated location to lure the Aranara out",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301702",
+      "subQuestName": "Talk to Arakunti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730170201"
+        ],
+        "dialogs": {
+          "730170201": {
+            "id": "730170201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! We finally found you! You're Arakunti, aren't you?",
+            "nextDialogs": [
+              "730170202"
+            ]
+          },
+          "730170202": {
+            "id": "730170202",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "One might not be.",
+            "nextDialogs": [
+              "730170203"
+            ]
+          },
+          "730170203": {
+            "id": "730170203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? What do you mean by that?",
+            "nextDialogs": [
+              "730170204"
+            ]
+          },
+          "730170204": {
+            "id": "730170204",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Because one might be a tree, or rain, or a dream of Vana, or the strings of a musical instrument.",
+            "nextDialogs": [
+              "730170205"
+            ]
+          },
+          "730170205": {
+            "id": "730170205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh...",
+            "nextDialogs": [
+              "730170206"
+            ]
+          },
+          "730170206": {
+            "id": "730170206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Paimon didn't understand a word of what he just said! Did you, {NICKNAME}?",
+            "nextDialogs": [
+              "730170208",
+              "730170210"
+            ]
+          },
+          "730170208": {
+            "id": "730170208",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon feels like she knows the meaning of each individual word, but they stop making sense once you string them together into a sentence.",
+            "nextDialogs": [
+              "730170213"
+            ]
+          },
+          "730170213": {
+            "id": "730170213",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Why are the Golden Nara and the small flying thing here to find Arakunti?",
+            "nextDialogs": [
+              "730170214"
+            ]
+          },
+          "730170214": {
+            "id": "730170214",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon's not some small flying thing! Wait, Paimon actually is a flying... Argh! Anyway, Paimon's... Paimon!",
+            "nextDialogs": [
+              "730170215"
+            ]
+          },
+          "730170215": {
+            "id": "730170215",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Your \"Golden Nara\" also has a name, and that's {NICKNAME}.",
+            "nextDialogs": [
+              "730170216"
+            ]
+          },
+          "730170216": {
+            "id": "730170216",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Arapandu told us that you're in the Grove of Dreams and he sent us to check up on you.",
+            "nextDialogs": [
+              "730170217"
+            ]
+          },
+          "730170217": {
+            "id": "730170217",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "You can tell Arapandu that Arakunti is fine, the Grove of Dreams is fine, and the humid dreams are also fine.",
+            "nextDialogs": [
+              "730170218"
+            ]
+          },
+          "730170218": {
+            "id": "730170218",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Okay... {NICKNAME}, let's head back and talk to Arapandu.",
+            "nextDialogs": [
+              "730170219"
+            ]
+          },
+          "730170219": {
+            "id": "730170219",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Or maybe not! We came here to heal the Varuna Contraption! That was close. Paimon was almost led by the nose...",
+            "nextDialogs": [
+              "730170220"
+            ]
+          },
+          "730170220": {
+            "id": "730170220",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "You can tell Arapandu that Arakunti doesn't want to lead Paimon by the nose.",
+            "nextDialogs": [
+              "730170221"
+            ]
+          },
+          "730170221": {
+            "id": "730170221",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Arapandu probably doesn't want to know that.",
+            "nextDialogs": [
+              "730170222"
+            ]
+          },
+          "730170222": {
+            "id": "730170222",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't want to either! What on earth is going on with this Aranara!?",
+            "nextDialogs": [
+              "730170223"
+            ]
+          },
+          "730170223": {
+            "id": "730170223",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I recall Arapandu saying...",
+            "nextDialogs": [
+              "730170224"
+            ]
+          },
+          "730170224": {
+            "id": "730170224",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "He said, \"Arakunti's more distant from Nara.\" Does that mean Arakunti doesn't know how to communicate with people?",
+            "nextDialogs": [
+              "730170225"
+            ]
+          },
+          "730170225": {
+            "id": "730170225",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Actually, we're the ones who don't know how to communicate with Aranara.",
+            "nextDialogs": [
+              "730170226"
+            ]
+          },
+          "730170226": {
+            "id": "730170226",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! That's right... We're the ones who should try to follow the local customs and learn how to communicate with them.",
+            "nextDialogs": [
+              "730170227"
+            ]
+          },
+          "730170227": {
+            "id": "730170227",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But now that you mention it, how do Aranara communicate, anyway?"
+          },
+          "730170210": {
+            "id": "730170210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Amazing! So what did his words mean?",
+            "nextDialogs": [
+              "730170211"
+            ]
+          },
+          "730170211": {
+            "id": "730170211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "He said that he can transform into many other things.",
+            "nextDialogs": [
+              "730170212"
+            ]
+          },
+          "730170212": {
+            "id": "730170212",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Really? Don't you pull Paimon's leg, {NICKNAME}..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301703",
+      "subQuestName": "Find the \"branch\" with Arakunti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301704",
+      "subQuestName": "Find the \"branch\" with Arakunti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730170401"
+        ],
+        "dialogs": {
+          "730170401": {
+            "id": "730170401",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "The roots of a big tree. Excellent. A wet breathing can be heard, a drowsy tune.",
+            "nextDialogs": [
+              "730170402"
+            ]
+          },
+          "730170402": {
+            "id": "730170402",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh... Paimon still can't understand what you're saying, Arakunti, but whatever!",
+            "nextDialogs": [
+              "730170403"
+            ]
+          },
+          "730170403": {
+            "id": "730170403",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Speaking of which, Paimon didn't think this place would be so large on the inside. Guess this is what they mean when they say \"more than meets the eye,\" huh? Also, is it just Paimon, or does this place feel very different from other places?",
+            "nextDialogs": [
+              "730170404"
+            ]
+          },
+          "730170404": {
+            "id": "730170404",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are we going to look for the \"leaves\" that feed energy to the Varuna Contraption in a place like this...?",
+            "nextDialogs": [
+              "730170405"
+            ]
+          },
+          "730170405": {
+            "id": "730170405",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "It's here, but it's not here. One can hear its voice, smell its breath, see its veins... But Paimon can't find it.",
+            "nextDialogs": [
+              "730170406"
+            ]
+          },
+          "730170406": {
+            "id": "730170406",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? What was that about...",
+            "nextDialogs": [
+              "730170407"
+            ]
+          },
+          "730170407": {
+            "id": "730170407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "If Paimon can't find it, then what about me?",
+            "nextDialogs": [
+              "730170408"
+            ]
+          },
+          "730170408": {
+            "id": "730170408",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "The Golden Nara can see the melody, like the cool breeze of night, the sudden fall of a raindrop, the thousand dream-fragments of a lake's broken surface.",
+            "nextDialogs": [
+              "730170409"
+            ]
+          },
+          "730170409": {
+            "id": "730170409",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, that sure sounds impressive.",
+            "nextDialogs": [
+              "730170410"
+            ]
+          },
+          "730170410": {
+            "id": "730170410",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#As expected of {NICKNAME}!",
+            "nextDialogs": [
+              "730170411"
+            ]
+          },
+          "730170411": {
+            "id": "730170411",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hehe.",
+            "nextDialogs": [
+              "730170412"
+            ]
+          },
+          "730170412": {
+            "id": "730170412",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Hehe... Wait! You're stealing Paimon's line, {NICKNAME}!",
+            "nextDialogs": [
+              "730170413"
+            ]
+          },
+          "730170413": {
+            "id": "730170413",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Nara {NICKNAME} turning into Paimon... is even scarier than dancing with mushrooms within Marana...",
+            "nextDialogs": [
+              "730170414"
+            ]
+          },
+          "730170414": {
+            "id": "730170414",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Can't imagine that...",
+            "nextDialogs": [
+              "730170415"
+            ]
+          },
+          "730170415": {
+            "id": "730170415",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's why this kind of thing won't happen! Best that it never does...",
+            "nextDialogs": [
+              "730170416"
+            ]
+          },
+          "730170416": {
+            "id": "730170416",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And Arakunti, can't you be more clear? Where in the world are we going to find the \"leaves\" of the Varuna Contraption?",
+            "nextDialogs": [
+              "730170417"
+            ]
+          },
+          "730170417": {
+            "id": "730170417",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "In dreams.",
+            "nextDialogs": [
+              "730170418"
+            ]
+          },
+          "730170418": {
+            "id": "730170418",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait... Then why didn't you say so in the first place!?",
+            "nextDialogs": [
+              "730170419"
+            ]
+          },
+          "730170419": {
+            "id": "730170419",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Because you didn't ask \"where\" in the first place.",
+            "nextDialogs": [
+              "730170420"
+            ]
+          },
+          "730170420": {
+            "id": "730170420",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh... Paimon thinks that the Aranara way of communicating has hit her all of a sudden!",
+            "nextDialogs": [
+              "730170421"
+            ]
+          },
+          "730170421": {
+            "id": "730170421",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Arakunti, can you tell us where each of the three \"leaves\" we're looking for is located?",
+            "nextDialogs": [
+              "730170422"
+            ]
+          },
+          "730170422": {
+            "id": "730170422",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Yes.",
+            "nextDialogs": [
+              "730170423"
+            ]
+          },
+          "730170423": {
+            "id": "730170423",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, so you really only answer questions that are asked directly, huh... Okay, so where are these three locations?",
+            "nextDialogs": [
+              "730170424"
+            ]
+          },
+          "730170424": {
+            "id": "730170424",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Over here, over there, and on the other side.",
+            "nextDialogs": [
+              "730170425"
+            ]
+          },
+          "730170425": {
+            "id": "730170425",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-huh... Wait, you're not describing anything!",
+            "nextDialogs": [
+              "730170426"
+            ]
+          },
+          "730170426": {
+            "id": "730170426",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Aaaand Paimon is defeated.",
+            "nextDialogs": [
+              "730170427"
+            ]
+          },
+          "730170427": {
+            "id": "730170427",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Paimon's defeat is your defeat! They're the same thing! Arakunti's words can't be counted on... So how are we supposed to find those three locations?",
+            "nextDialogs": [
+              "730170428"
+            ]
+          },
+          "730170428": {
+            "id": "730170428",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "The Varuna Contraption was made by the most remarkable Aranara, so the links between the \"branch\" and the \"leaves\" are invisible yet visible.",
+            "nextDialogs": [
+              "730170429"
+            ]
+          },
+          "730170429": {
+            "id": "730170429",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Nara {NICKNAME} can see Aranara, and if you can see the traces of Aranara, you can find your way.",
+            "nextDialogs": [
+              "730170430"
+            ]
+          },
+          "730170430": {
+            "id": "730170430",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "P—Paimon can't believe she understood that!",
+            "nextDialogs": [
+              "730170431"
+            ]
+          },
+          "730170431": {
+            "id": "730170431",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We'll find it if we follow the trails of Aranara, right?",
+            "nextDialogs": [
+              "730170432"
+            ]
+          },
+          "730170432": {
+            "id": "730170432",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, come on, at least give Paimon the chance to answer this time, would you?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301715",
+      "subQuestName": "Play the Rhythm of the Great Dream in front of Silapna",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301710",
+      "subQuestName": "Make the three \"leaves\" in the dream turn towards the \"branch\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730171001"
+        ],
+        "dialogs": {
+          "730171001": {
+            "id": "730171001",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Humid dream, dry dream... Ding dong, tick tock, rustle... It's Vana's tune...",
+            "nextDialogs": [
+              "730171002"
+            ]
+          },
+          "730171002": {
+            "id": "730171002",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Nara {NICKNAME}? The \"leaves\" are in the dream, and the \"branch\" is here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301716",
+      "subQuestName": "Play the Rhythm of the Great Dream in front of Silapna",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301712",
+      "subQuestName": "Talk to Arakunti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730171201"
+        ],
+        "dialogs": {
+          "730171201": {
+            "id": "730171201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We're back!",
+            "nextDialogs": [
+              "730171202"
+            ]
+          },
+          "730171202": {
+            "id": "730171202",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Arakunti heard you. The whimpers have turned into a gentle tune, but to merge it into the great flow of sound, we still need...",
+            "nextDialogs": [
+              "730171203"
+            ]
+          },
+          "730171203": {
+            "id": "730171203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We still need your help, Arakunti! Hehe, Paimon'll be counting on you!",
+            "nextDialogs": [
+              "730171204"
+            ]
+          },
+          "730171204": {
+            "id": "730171204",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Arakunti knows.",
+            "nextDialogs": [
+              "730171205"
+            ]
+          },
+          "730171205": {
+            "id": "730171205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! Then there shouldn't be any problems now, right? Paimon hopes we can heal the Varuna Contraption soon, or Apam Woods will be full of spores... Just thinking about it makes Paimon... Achoo!",
+            "nextDialogs": [
+              "730171206"
+            ]
+          },
+          "730171206": {
+            "id": "730171206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon can't believe that you Aranara have no reaction to spores... How are you not affected at all?",
+            "nextDialogs": [
+              "730171207"
+            ]
+          },
+          "730171207": {
+            "id": "730171207",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Aranara are not unaffected. Aranara just cook mushrooms. But spores are too small and too many to catch.",
+            "nextDialogs": [
+              "730171208"
+            ]
+          },
+          "730171208": {
+            "id": "730171208",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "When the Varuna Contraption wasn't broken, Vana didn't have so many mushrooms, so healing the Varuna Contraption could make everything better. Except Marana.",
+            "nextDialogs": [
+              "730171209"
+            ]
+          },
+          "730171209": {
+            "id": "730171209",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Things will surely get better.",
+            "nextDialogs": [
+              "730171210"
+            ]
+          },
+          "730171210": {
+            "id": "730171210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, we'll help too!",
+            "nextDialogs": [
+              "730171211"
+            ]
+          },
+          "730171211": {
+            "id": "730171211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We will find a way to deal with Marana too.",
+            "nextDialogs": [
+              "730171212"
+            ]
+          },
+          "730171212": {
+            "id": "730171212",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Is Nara {NICKNAME} Nara Varuna?",
+            "nextDialogs": [
+              "730171213"
+            ]
+          },
+          "730171213": {
+            "id": "730171213",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Why are you asking that all of a sudden?",
+            "nextDialogs": [
+              "730171214"
+            ]
+          },
+          "730171214": {
+            "id": "730171214",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Arapandu said that Nara Varuna was a golden, brave Nara. Together with Aranara, {F#he}{M#she} healed the Varuna Contraption, drove away the black rain and mud, and brought back the sun and moon.",
+            "nextDialogs": [
+              "730171215"
+            ]
+          },
+          "730171215": {
+            "id": "730171215",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Nara {NICKNAME} has also helped Aranara to heal the Varuna Contraption, and you're a golden and brave Nara, right?",
+            "nextDialogs": [
+              "730171216"
+            ]
+          },
+          "730171216": {
+            "id": "730171216",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But isn't Nara Varuna someone from a long time ago...?",
+            "nextDialogs": [
+              "730171217"
+            ]
+          },
+          "730171217": {
+            "id": "730171217",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Did Nara Varuna not return to Vana? Is Nara {NICKNAME} a completely different Nara?",
+            "nextDialogs": [
+              "730171218"
+            ]
+          },
+          "730171218": {
+            "id": "730171218",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "Can different Nara have similar melodies?",
+            "nextDialogs": [
+              "730171221"
+            ]
+          },
+          "730171221": {
+            "id": "730171221",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Arakunti has not met Nara Varuna, but Arapandu has talked a lot about {F#him}{M#her}.",
+            "nextDialogs": [
+              "730171222"
+            ]
+          },
+          "730171222": {
+            "id": "730171222",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#{F#His}{M#Her} melody must be the same as Nara {NICKNAME}'s. Listening to it will surely bring happiness.",
+            "nextDialogs": [
+              "730171223"
+            ]
+          },
+          "730171223": {
+            "id": "730171223",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Yeah, Paimon's always happy when she's with {NICKNAME}! If {NICKNAME} leaves Paimon one day, like Nara Varuna left the forest...",
+            "nextDialogs": [
+              "730171224"
+            ]
+          },
+          "730171224": {
+            "id": "730171224",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "730171225"
+            ]
+          },
+          "730171225": {
+            "id": "730171225",
+            "speakerId": 1001,
+            "speakerName": "Arakunti",
+            "text": "#Arapandu must be waiting for us at the \"rest stop.\" Return with Arakunti, Nara {NICKNAME}."
+          }
+        }
+      }
+    }
+  ]
+}

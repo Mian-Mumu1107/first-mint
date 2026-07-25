@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Smiley Yanxiao": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7170701",
+      "subQuestName": "Give 2 servings of Bacon to Smiley Yanxiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717070101"
+        ],
+        "dialogs": {
+          "717070101": {
+            "id": "717070101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Bacon...",
+            "nextDialogs": [
+              "717070102"
+            ]
+          },
+          "717070102": {
+            "id": "717070102",
+            "speakerId": 1000,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Yes, that's my commission. Have you already prepared two strips of Bacon?",
+            "nextDialogs": [
+              "717070105"
+            ]
+          },
+          "717070105": {
+            "id": "717070105",
+            "speakerId": 1000,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Let me know as soon as you've got the Bacon ready. That cheapskate is waiting for me to deliver him some food."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170702",
+      "subQuestName": "Talk to Smiley Yanxiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717070201"
+        ],
+        "dialogs": {
+          "717070201": {
+            "id": "717070201",
+            "speakerId": 1000,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Alright, this Bacon should be enough. The cheapskate won't be able to eat much anyway...",
+            "nextDialogs": [
+              "717070202"
+            ]
+          },
+          "717070202": {
+            "id": "717070202",
+            "speakerId": 1000,
+            "speakerName": "Smiley Yanxiao",
+            "text": "Oh, before I forget... Here's your payment."
+          }
+        }
+      }
+    }
+  ]
+}

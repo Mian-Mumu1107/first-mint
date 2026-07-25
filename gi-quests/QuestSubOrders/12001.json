@@ -1,0 +1,541 @@
+{
+  "lineCounts": {
+    "Agent": 5,
+    "Gentry Maocai": 5,
+    "Paimon": 26,
+    "Player": 18,
+    "Sturdy Wu": 11,
+    "Xingqiu": 16
+  },
+  "subQuests": [
+    {
+      "subId": "1200101",
+      "subQuestName": "Go to Gentry Maocai's residence and make inquiries",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120010101"
+        ],
+        "dialogs": {
+          "120010101": {
+            "id": "120010101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This must be Gentry Maocai's house. He must be loaded, this place is swanky!",
+            "nextDialogs": [
+              "120010102"
+            ]
+          },
+          "120010102": {
+            "id": "120010102",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "How're we gonna find out if Gentry Maocai is in cahoots with the Fatui? Hmm, maybe start by talking to the guards."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200103",
+      "subQuestName": "Talk to the guards and make inquiries",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120010301"
+        ],
+        "dialogs": {
+          "120010301": {
+            "id": "120010301",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "Who goes there?",
+            "nextDialogs": [
+              "120010303",
+              "120010305"
+            ]
+          },
+          "120010303": {
+            "id": "120010303",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "Really? He didn't mention anything about a meeting...",
+            "nextDialogs": [
+              "120010306"
+            ]
+          },
+          "120010306": {
+            "id": "120010306",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "The Master is dealing with some urgent business today. All prior appointments have been canceled.",
+            "nextDialogs": [
+              "120010307"
+            ]
+          },
+          "120010307": {
+            "id": "120010307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Urgent business? ...What is it?",
+            "nextDialogs": [
+              "120010308"
+            ]
+          },
+          "120010308": {
+            "id": "120010308",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "The Master has been working on a major business deal recently. He left early this morning to meet with a VIP client.",
+            "nextDialogs": [
+              "120010309"
+            ]
+          },
+          "120010309": {
+            "id": "120010309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So where is he now?",
+            "nextDialogs": [
+              "120010310"
+            ]
+          },
+          "120010310": {
+            "id": "120010310",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "I'm sorry, the Master has stressed that we must not disclose that information to just anyone...",
+            "nextDialogs": [
+              "120010311"
+            ]
+          },
+          "120010311": {
+            "id": "120010311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "\"Just anyone\"? Are you saying we are not his VIP clients?",
+            "nextDialogs": [
+              "120010312"
+            ]
+          },
+          "120010312": {
+            "id": "120010312",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "N—No! I mean yes, yes you are! Ah... I—I meant no offense, please believe me..."
+          },
+          "120010305": {
+            "id": "120010305",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "How strange, you're not on the guestlist..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200106",
+      "subQuestName": "Go to Xinyue Kiosk and eavesdrop on Gentry Maocai",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200107",
+      "subQuestName": "Eavesdrop on Gentry Maocai's conversation with the Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120010701"
+        ],
+        "dialogs": {
+          "120010701": {
+            "id": "120010701",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "I understand. I do. Please do not worry, you have my word that the order will be completed as promised.",
+            "nextDialogs": [
+              "120010702"
+            ]
+          },
+          "120010702": {
+            "id": "120010702",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "Hmm... The subordinate I sent was not quite so optimistic in his appraisal. Is somebody being uncooperative?",
+            "nextDialogs": [
+              "120010703"
+            ]
+          },
+          "120010703": {
+            "id": "120010703",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Ah... We just ran into a minor procurement problem is all. We haven't managed to purchase the Cor Lapis yet.",
+            "nextDialogs": [
+              "120010704"
+            ]
+          },
+          "120010704": {
+            "id": "120010704",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "But it's nothing for you to worry about. If Chang the Ninth won't sell, I can buy from someone else.",
+            "nextDialogs": [
+              "120010705"
+            ]
+          },
+          "120010705": {
+            "id": "120010705",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "That would be most ideal. I remind you again that the Fatui care only about the result.",
+            "nextDialogs": [
+              "120010706"
+            ]
+          },
+          "120010706": {
+            "id": "120010706",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "We are willing to lend a certain degree of support to this transaction. But if it is not completed in time...",
+            "nextDialogs": [
+              "120010707"
+            ]
+          },
+          "120010707": {
+            "id": "120010707",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "You may suddenly find our good will comes at a price you cannot afford.",
+            "nextDialogs": [
+              "120010708"
+            ]
+          },
+          "120010708": {
+            "id": "120010708",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "I understand... I am indebted to you for your protection. You know I would not dream of disappointing you, don't you?",
+            "nextDialogs": [
+              "120010709"
+            ]
+          },
+          "120010709": {
+            "id": "120010709",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "We shall see when the time comes.",
+            "nextDialogs": [
+              "120010710"
+            ]
+          },
+          "120010710": {
+            "id": "120010710",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "*sigh* Darn that old man Chang!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200108",
+      "subQuestName": "Inform Xingqiu of Gentry Maocai's plan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120010801"
+        ],
+        "dialogs": {
+          "120010801": {
+            "id": "120010801",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmph! You said you had other things to look into, as if you're some sort of man of mystery...",
+            "nextDialogs": [
+              "120010802"
+            ]
+          },
+          "120010802": {
+            "id": "120010802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "When actually all you meant was you wanted somewhere new to park your backside while you read your book!",
+            "nextDialogs": [
+              "120010803"
+            ]
+          },
+          "120010803": {
+            "id": "120010803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We know what Gentry Maocai's up to now.",
+            "nextDialogs": [
+              "120010804"
+            ]
+          },
+          "120010804": {
+            "id": "120010804",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "I see. I guessed as much.",
+            "nextDialogs": [
+              "120010805"
+            ]
+          },
+          "120010805": {
+            "id": "120010805",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Did you really guess, or are you just saying that to sound clever?",
+            "nextDialogs": [
+              "120010806"
+            ]
+          },
+          "120010806": {
+            "id": "120010806",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "The course of action we must take is now clear. To start with, please deliver this letter to the Feiyun Commerce Guild. They will know what to do.",
+            "nextDialogs": [
+              "120010807"
+            ]
+          },
+          "120010807": {
+            "id": "120010807",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "My liege, for reasons that I cannot explain, I will be unable to join you.",
+            "nextDialogs": [
+              "120010808"
+            ]
+          },
+          "120010808": {
+            "id": "120010808",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "There is no need for you to read the contents of the letter, when the time comes—",
+            "nextDialogs": [
+              "120010809"
+            ]
+          },
+          "120010809": {
+            "id": "120010809",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whew, this writing is super hard to read! Paimon can't make heads or tails of it...",
+            "nextDialogs": [
+              "120010812"
+            ]
+          },
+          "120010812": {
+            "id": "120010812",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "Huh...",
+            "nextDialogs": [
+              "120010813"
+            ]
+          },
+          "120010813": {
+            "id": "120010813",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "Hence why I said there's no need for you to read it...",
+            "nextDialogs": [
+              "120010814"
+            ]
+          },
+          "120010814": {
+            "id": "120010814",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "The Feiyun Commerce Guild will have someone who can understand it.",
+            "nextDialogs": [
+              "120010815"
+            ]
+          },
+          "120010815": {
+            "id": "120010815",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But why do you wanna get them involved? They're one of the bigwig commerce guilds in Liyue — why would they wanna help us?",
+            "nextDialogs": [
+              "120010816"
+            ]
+          },
+          "120010816": {
+            "id": "120010816",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What is the Feiyun Commerce Guild?",
+            "nextDialogs": [
+              "120010817"
+            ]
+          },
+          "120010817": {
+            "id": "120010817",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Since we got to Liyue, Paimon keeps hearing people mention it. Seems they oversee a lot of business that goes on around here.",
+            "nextDialogs": [
+              "120010818"
+            ]
+          },
+          "120010818": {
+            "id": "120010818",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Having such big backing would be great and all... But are you sure they'd wanna help?",
+            "nextDialogs": [
+              "120010819"
+            ]
+          },
+          "120010819": {
+            "id": "120010819",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "No need to worry about that. From what I know, they share my sense of chivalry.",
+            "nextDialogs": [
+              "120010820"
+            ]
+          },
+          "120010820": {
+            "id": "120010820",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "Once they have read the carefully reasoned and passionately argued case I put forth in this letter, they will certainly be moved to action."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200043",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120004301"
+        ],
+        "dialogs": {
+          "120004301": {
+            "id": "120004301",
+            "speakerId": 1001,
+            "speakerName": "Sturdy Wu",
+            "text": "I'm sorry if my mistake earlier caused any offense..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120010201"
+        ],
+        "dialogs": {
+          "120010201": {
+            "id": "120010201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So how do we find out whether Gentry Maocai really is colluding with the Fatui or not?",
+            "nextDialogs": [
+              "120010204"
+            ]
+          },
+          "120010204": {
+            "id": "120010204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So... shall we just go look for him? Best-case scenario, we'll catch him red-handed; if not, we can try threatening him and see if he squeals.",
+            "nextDialogs": [
+              "120010205"
+            ]
+          },
+          "120010205": {
+            "id": "120010205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's speak to the guards first.",
+            "nextDialogs": [
+              "120010206"
+            ]
+          },
+          "120010206": {
+            "id": "120010206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Okay, boss! Whatever you say, boss!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "6100452",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "610045201"
+        ],
+        "dialogs": {
+          "610045201": {
+            "id": "610045201",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "You go first. No need to wait for me.",
+            "nextDialogs": [
+              "610045202"
+            ]
+          },
+          "610045202": {
+            "id": "610045202",
+            "speakerId": 1004,
+            "speakerName": "Xingqiu",
+            "text": "One more page and I'll go and stretch my legs. Just one last page."
+          }
+        }
+      }
+    },
+    {
+      "subId": "6100457",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "610045701"
+        ],
+        "dialogs": {
+          "610045701": {
+            "id": "610045701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So, Mr. Gentry Maocai is colluding with the Fatui!",
+            "nextDialogs": [
+              "610045702"
+            ]
+          },
+          "610045702": {
+            "id": "610045702",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Who knows if Guhua Geek has made any progress. Should we go tell him?"
+          }
+        }
+      }
+    }
+  ]
+}

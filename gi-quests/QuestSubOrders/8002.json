@@ -1,0 +1,963 @@
+{
+  "lineCounts": {
+    "Abyss Herald": 7,
+    "Barbara": 23,
+    "Boreas": 10,
+    "Dainsleif": 36,
+    "Jean": 10,
+    "Paimon": 48,
+    "Player": 24,
+    "Razor": 10,
+    "Rosaria": 7
+  },
+  "subQuests": [
+    {
+      "subId": "800201",
+      "subQuestName": "Go to the Favonius Cathedral",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020101"
+        ],
+        "dialogs": {
+          "80020101": {
+            "id": "80020101",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Honorary Knight! Hi, how have you been? Do you need anything today?",
+            "nextDialogs": [
+              "80020102"
+            ]
+          },
+          "80020102": {
+            "id": "80020102",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Agh... But I should first make it clear that if you need to borrow the Holy Lyre der Himmel again, we cannot oblige.",
+            "nextDialogs": [
+              "80020103"
+            ]
+          },
+          "80020103": {
+            "id": "80020103",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "(It seems she still hasn't realized it's just an illusion...)",
+            "nextDialogs": [
+              "80020104"
+            ]
+          },
+          "80020104": {
+            "id": "80020104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We're here to ask some questions about something. Barbara, have you heard about \"the first Field Tiller\"?",
+            "nextDialogs": [
+              "80020105"
+            ]
+          },
+          "80020105": {
+            "id": "80020105",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Hmm... What's that? \"Field Tiller\"... What does it do?",
+            "nextDialogs": [
+              "80020106"
+            ]
+          },
+          "80020106": {
+            "id": "80020106",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ah, of course you wouldn't know anything about that, hehe... Okay, next question: Has the Church ever lost a Statue of The Seven?",
+            "nextDialogs": [
+              "80020107"
+            ]
+          },
+          "80020107": {
+            "id": "80020107",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Huh?",
+            "nextDialogs": [
+              "80020108"
+            ]
+          },
+          "80020108": {
+            "id": "80020108",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "You're here to ask about that old story? Well, I didn't expect that... That was such a long time ago, barely anyone mentions it nowadays.",
+            "nextDialogs": [
+              "80020109"
+            ]
+          },
+          "80020109": {
+            "id": "80020109",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "A long time ago, there was indeed one Statue of The Seven that disappeared one night without a trace.",
+            "nextDialogs": [
+              "80020110"
+            ]
+          },
+          "80020110": {
+            "id": "80020110",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Nearly every member of the Church joined the search for it, but it was never found.",
+            "nextDialogs": [
+              "80020111"
+            ]
+          },
+          "80020111": {
+            "id": "80020111",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "In the Church's records, as you might assume, this incident has been called \"The Lost Statue of The Seven.\"",
+            "nextDialogs": [
+              "80020112"
+            ]
+          },
+          "80020112": {
+            "id": "80020112",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm... Of course.",
+            "nextDialogs": [
+              "80020113"
+            ]
+          },
+          "80020113": {
+            "id": "80020113",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Of course?",
+            "nextDialogs": [
+              "80020114"
+            ]
+          },
+          "80020114": {
+            "id": "80020114",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Uh, nothing! So, do you have any other clues— uh, Paimon means... any other strange stories?",
+            "nextDialogs": [
+              "80020115"
+            ]
+          },
+          "80020115": {
+            "id": "80020115",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "(Sorry, Barbara, but we can't tell you about the statue we saw just yet... Like Dain said outside, it's for your own good...)",
+            "nextDialogs": [
+              "80020116"
+            ]
+          },
+          "80020116": {
+            "id": "80020116",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Other strange stories? I'm not sure, let me think about what other unusual incidents are in the Church's records... Oh, \"The Tyrant's Final Fury\"? No, that's from another time, probably unrelated...",
+            "nextDialogs": [
+              "80020117"
+            ]
+          },
+          "80020117": {
+            "id": "80020117",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"The Tyrant's Final Fury\"?",
+            "nextDialogs": [
+              "80020118"
+            ]
+          },
+          "80020118": {
+            "id": "80020118",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Oh, this refers to a time of great danger that engulfed Old Mondstadt, the place now known as Stormterror's Lair.",
+            "nextDialogs": [
+              "80020119"
+            ]
+          },
+          "80020119": {
+            "id": "80020119",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Many, many years ago, there was a time when balls of fire would rain from the sky whenever anyone approached Old Mondstadt.",
+            "nextDialogs": [
+              "80020120"
+            ]
+          },
+          "80020120": {
+            "id": "80020120",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Balls of fire raining from the sky!? How terrifying...",
+            "nextDialogs": [
+              "80020121"
+            ]
+          },
+          "80020121": {
+            "id": "80020121",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "People at that time believed that it was a curse laid down by the God of Storms, so they referred to it as \"The Tyrant's Final Fury.\"",
+            "nextDialogs": [
+              "80020122"
+            ]
+          },
+          "80020122": {
+            "id": "80020122",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "This strange phenomenon continued for about a year. No one was ever able to solve it, it just gradually ceased on its own.",
+            "nextDialogs": [
+              "80020125"
+            ]
+          },
+          "80020125": {
+            "id": "80020125",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Right! Later, the theory of \"The Tyrant's Final Fury\" became less probable in the eyes of the Church. Common reasoning dictates that the God of Storms wouldn't shoot fireballs...",
+            "nextDialogs": [
+              "80020126"
+            ]
+          },
+          "80020126": {
+            "id": "80020126",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Perhaps it was something else that caused the disaster.",
+            "nextDialogs": [
+              "80020127"
+            ]
+          },
+          "80020127": {
+            "id": "80020127",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Anyway, this incident might not be related to \"The Lost Statue of The Seven,\" but I just can't think of any other strange incidents that might be.",
+            "nextDialogs": [
+              "80020128"
+            ]
+          },
+          "80020128": {
+            "id": "80020128",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's okay. Thanks anyway!",
+            "nextDialogs": [
+              "80020129"
+            ]
+          },
+          "80020129": {
+            "id": "80020129",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "There's that pointless word \"thank you\" again. I can never get used to hearing it...",
+            "nextDialogs": [
+              "80020130"
+            ]
+          },
+          "80020130": {
+            "id": "80020130",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Oh, Rosaria, it's you.",
+            "nextDialogs": [
+              "80020131"
+            ]
+          },
+          "80020131": {
+            "id": "80020131",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "If you're looking for the Knights of Favonius, they're busy with those monsters again.",
+            "nextDialogs": [
+              "80020132"
+            ]
+          },
+          "80020132": {
+            "id": "80020132",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "\"Those monsters\"?",
+            "nextDialogs": [
+              "80020133"
+            ]
+          },
+          "80020133": {
+            "id": "80020133",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "Those monsters that tried to attack Mondstadt last time, during the Stormterror incident.",
+            "nextDialogs": [
+              "80020134"
+            ]
+          },
+          "80020134": {
+            "id": "80020134",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wasn't that the Abyss Order!? They're at it again?",
+            "nextDialogs": [
+              "80020135"
+            ]
+          },
+          "80020135": {
+            "id": "80020135",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "Indeed. They are gathering in <color=#00E1FFFF>Wolvendom</color>, causing great unrest among the wolves.",
+            "nextDialogs": [
+              "80020136"
+            ]
+          },
+          "80020136": {
+            "id": "80020136",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "Could it be... that the Abyss Order is targeting the spirit of Lupus Boreas? As for what purpose, I can't say for certain.",
+            "nextDialogs": [
+              "80020137"
+            ]
+          },
+          "80020137": {
+            "id": "80020137",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "Master Jean has already headed off to <color=#00E1FFFF>Wolvendom</color>. I must also begin to make a move myself.",
+            "nextDialogs": [
+              "80020138"
+            ]
+          },
+          "80020138": {
+            "id": "80020138",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Th—Then I will go as well!",
+            "nextDialogs": [
+              "80020139"
+            ]
+          },
+          "80020139": {
+            "id": "80020139",
+            "speakerId": 1002,
+            "speakerName": "Rosaria",
+            "text": "Master Jean said you should stay at the church, and continue your work with the clergy.",
+            "nextDialogs": [
+              "80020140"
+            ]
+          },
+          "80020140": {
+            "id": "80020140",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "B—But... you're also a member of the clergy...",
+            "nextDialogs": [
+              "80020141"
+            ]
+          },
+          "80020141": {
+            "id": "80020141",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't worry, I will go to help as well.",
+            "nextDialogs": [
+              "80020142"
+            ]
+          },
+          "80020142": {
+            "id": "80020142",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Right, we'll go give Master Jean a hand!",
+            "nextDialogs": [
+              "80020143"
+            ]
+          },
+          "80020143": {
+            "id": "80020143",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "Oh... Okay, if the Honorary Knight will be there, then...",
+            "nextDialogs": [
+              "80020144"
+            ]
+          },
+          "80020144": {
+            "id": "80020144",
+            "speakerId": 1000,
+            "speakerName": "Barbara",
+            "text": "But please, everyone, be careful. May the Anemo Archon protect you all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800209",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020401"
+        ],
+        "dialogs": {
+          "80020401": {
+            "id": "80020401",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "A huge statue, a grandiose Cathedral... The people of Mondstadt clearly spent a great deal of resources and energy to construct them.",
+            "nextDialogs": [
+              "80020402"
+            ]
+          },
+          "80020402": {
+            "id": "80020402",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "But how aware of this was the Anemo Archon on receiving this gift, and how much did he give back in return?",
+            "nextDialogs": [
+              "80020403"
+            ]
+          },
+          "80020403": {
+            "id": "80020403",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Faith doesn't ask for anything in return though, does it?",
+            "nextDialogs": [
+              "80020404"
+            ]
+          },
+          "80020404": {
+            "id": "80020404",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Hmph, as long as the gods have a clear conscience about it all, there's nothing I can say about it.",
+            "nextDialogs": [
+              "80020405"
+            ]
+          },
+          "80020405": {
+            "id": "80020405",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Shh! We're about to enter the Cathedral. Don't say anything bad about the Anemo Archon...",
+            "nextDialogs": [
+              "80020406"
+            ]
+          },
+          "80020406": {
+            "id": "80020406",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And actually, the Anemo Archon is... Gah, never mind.",
+            "nextDialogs": [
+              "80020407"
+            ]
+          },
+          "80020407": {
+            "id": "80020407",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Heh, I never specifically said I would enter the Cathedral. I'll leave you two to mingle with the sisters.",
+            "nextDialogs": [
+              "80020408"
+            ]
+          },
+          "80020408": {
+            "id": "80020408",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "80020411"
+            ]
+          },
+          "80020411": {
+            "id": "80020411",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "You are the Honorary Knight of Mondstadt. They will surely allow you to poke into these affairs with their utmost trust.",
+            "nextDialogs": [
+              "80020412"
+            ]
+          },
+          "80020412": {
+            "id": "80020412",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Having me tag along would only make them suspicious."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800202",
+      "subQuestName": "Talk to Barbara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800210",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020501"
+        ],
+        "dialogs": {
+          "80020501": {
+            "id": "80020501",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "I see... Has the Abyss Order already launched a new operation...?",
+            "nextDialogs": [
+              "80020502"
+            ]
+          },
+          "80020502": {
+            "id": "80020502",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "This could very well have something to do with the Defiled Statue. We should go as well.",
+            "nextDialogs": [
+              "80020503"
+            ]
+          },
+          "80020503": {
+            "id": "80020503",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But, what is the Abyss Order going to Wolvendom for anyway? Are they looking to do the same as they did with Dvalin? Aaaah... Not again!",
+            "nextDialogs": [
+              "80020504"
+            ]
+          },
+          "80020504": {
+            "id": "80020504",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "No, that's not likely.",
+            "nextDialogs": [
+              "80020505"
+            ]
+          },
+          "80020505": {
+            "id": "80020505",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Unlike Osial, who was just suppressed, Andrius died long ago.",
+            "nextDialogs": [
+              "80020506"
+            ]
+          },
+          "80020506": {
+            "id": "80020506",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Today it is just his spirit that stands guard over Wolvendom.",
+            "nextDialogs": [
+              "80020507"
+            ]
+          },
+          "80020507": {
+            "id": "80020507",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "The Abyss Herald may just be targeting the spirit of Andrius in an attempt to garner some information from one of the Anemo Archon's old companions."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800203",
+      "subQuestName": "Go to Wolvendom",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020301"
+        ],
+        "dialogs": {
+          "80020301": {
+            "id": "80020301",
+            "speakerId": 1004,
+            "speakerName": "Razor",
+            "text": "You... not welcome here!",
+            "nextDialogs": [
+              "80020302"
+            ]
+          },
+          "80020302": {
+            "id": "80020302",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "Ahahaha... So, the wolf's wretched spirit likes to raise wild pups now?",
+            "nextDialogs": [
+              "80020303"
+            ]
+          },
+          "80020303": {
+            "id": "80020303",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "You claim to be a guardian, yet your once-sharp claws have clearly dulled since your days of godly glory.",
+            "nextDialogs": [
+              "80020304"
+            ]
+          },
+          "80020304": {
+            "id": "80020304",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "If you serve us, we can restore your divine powers you once held in the past.",
+            "nextDialogs": [
+              "80020305"
+            ]
+          },
+          "80020305": {
+            "id": "80020305",
+            "speakerId": 1006,
+            "speakerName": "Boreas",
+            "text": "Lies... lies...",
+            "nextDialogs": [
+              "80020306"
+            ]
+          },
+          "80020306": {
+            "id": "80020306",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What the heck is this ceremony? He looks like he's in a lot of pain.",
+            "nextDialogs": [
+              "80020307"
+            ]
+          },
+          "80020307": {
+            "id": "80020307",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh no... Is this the same thing they did to corrupt Dvalin's mind?",
+            "nextDialogs": [
+              "80020308"
+            ]
+          },
+          "80020308": {
+            "id": "80020308",
+            "speakerId": 1004,
+            "speakerName": "Razor",
+            "text": "Wolves never surrender. But... this can't go on.",
+            "nextDialogs": [
+              "80020311"
+            ]
+          },
+          "80020311": {
+            "id": "80020311",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "No matter how many times you resist us, your efforts are all in vain..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800204",
+      "subQuestName": "Defeat the Abyss Order",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800205",
+      "subQuestName": "Talk to Jean",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020201"
+        ],
+        "dialogs": {
+          "80020201": {
+            "id": "80020201",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whew... There sure are a lot of enemies around here!",
+            "nextDialogs": [
+              "80020202"
+            ]
+          },
+          "80020202": {
+            "id": "80020202",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "The closer we get to the target, the more enemies there are. Hmph, fits the Abyss Order's style.",
+            "nextDialogs": [
+              "80020203"
+            ]
+          },
+          "80020203": {
+            "id": "80020203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We should hurry and find Lupus Boreas.",
+            "nextDialogs": [
+              "80020204"
+            ]
+          },
+          "80020204": {
+            "id": "80020204",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah! Let's go!",
+            "nextDialogs": [
+              "80020205"
+            ]
+          },
+          "80020205": {
+            "id": "80020205",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "I'm... not going any further.",
+            "nextDialogs": [
+              "80020206"
+            ]
+          },
+          "80020206": {
+            "id": "80020206",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Huh? Why not? Is it because you're afraid of fluffy animals?",
+            "nextDialogs": [
+              "80020209"
+            ]
+          },
+          "80020209": {
+            "id": "80020209",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "It has nothing to do with wolves. It's because Boreas was an ancient god, yet he willingly became a servant of The Seven.",
+            "nextDialogs": [
+              "80020210"
+            ]
+          },
+          "80020210": {
+            "id": "80020210",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "I cannot possibly agree with his actions. I don't desire any interaction with him.",
+            "nextDialogs": [
+              "80020211"
+            ]
+          },
+          "80020211": {
+            "id": "80020211",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Besides, you're the one people like. I'm... less likable."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800206",
+      "subQuestName": "Look for the Great Wolf King of the North",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020601"
+        ],
+        "dialogs": {
+          "80020601": {
+            "id": "80020601",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Go into the Cathedral and ask around. I'll be waiting out here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "800211",
+      "subQuestName": "Talk to Razor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800207",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020701"
+        ],
+        "dialogs": {
+          "80020701": {
+            "id": "80020701",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "Hmph... The ceremony was interrupted. How fortunate for you.",
+            "nextDialogs": [
+              "80020702"
+            ]
+          },
+          "80020702": {
+            "id": "80020702",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "How does an old spirit have such determined will...?",
+            "nextDialogs": [
+              "80020703"
+            ]
+          },
+          "80020703": {
+            "id": "80020703",
+            "speakerId": 1005,
+            "speakerName": "Abyss Herald",
+            "text": "No matter. This is but a small unforeseen variable. Our grand scheme will not be affected.",
+            "nextDialogs": [
+              "80020704"
+            ]
+          },
+          "80020704": {
+            "id": "80020704",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It disappeared again...",
+            "nextDialogs": [
+              "80020707"
+            ]
+          },
+          "80020707": {
+            "id": "80020707",
+            "speakerId": 1004,
+            "speakerName": "Razor",
+            "text": "Thank you, you came... just in time.",
+            "nextDialogs": [
+              "80020708"
+            ]
+          },
+          "80020708": {
+            "id": "80020708",
+            "speakerId": 1006,
+            "speakerName": "Boreas",
+            "text": "Human Lupical... I am ashamed that you must see me in my present state.",
+            "nextDialogs": [
+              "80020709"
+            ]
+          },
+          "80020709": {
+            "id": "80020709",
+            "speakerId": 1006,
+            "speakerName": "Boreas",
+            "text": "But still, the Abyss Herald underestimated my strength.",
+            "nextDialogs": [
+              "80020710"
+            ]
+          },
+          "80020710": {
+            "id": "80020710",
+            "speakerId": 1004,
+            "speakerName": "Razor",
+            "text": "Lupus Boreas never refuses trial. But, scary outsider... not respect trial rules.",
+            "nextDialogs": [
+              "80020711"
+            ]
+          },
+          "80020711": {
+            "id": "80020711",
+            "speakerId": 1004,
+            "speakerName": "Razor",
+            "text": "I, too, didn't see... the trap...",
+            "nextDialogs": [
+              "80020712"
+            ]
+          },
+          "80020712": {
+            "id": "80020712",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wait... So you mean, the Abyss Order had everything prepared to corrupt Lupus Boreas' mind, then lured him out under the pretense of challenging him in a trial?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "800208",
+      "subQuestName": "Talk to the Great Wolf King of the North",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "800200",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80020001"
+        ],
+        "dialogs": {
+          "80020001": {
+            "id": "80020001",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Aah! The Abyss Order!",
+            "nextDialogs": [
+              "80020002"
+            ]
+          },
+          "80020002": {
+            "id": "80020002",
+            "speakerId": 1003,
+            "speakerName": "Dainsleif",
+            "text": "Don't underestimate the enemy. Let's take them now.",
+            "nextDialogs": [
+              "80020003"
+            ]
+          },
+          "80020003": {
+            "id": "80020003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, that was some good intel! Quick, let's go tell Dain.",
+            "nextDialogs": [
+              "80020004"
+            ]
+          },
+          "80020004": {
+            "id": "80020004",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "*gasp* Look over there, it's Razor! And... the Abyss Herald!"
+          }
+        }
+      }
+    }
+  ]
+}

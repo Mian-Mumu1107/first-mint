@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Riku": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7271401",
+      "subQuestName": "Give eight Bird Eggs to Riku",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727140101"
+        ],
+        "dialogs": {
+          "727140101": {
+            "id": "727140101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You want some Bird Eggs?",
+            "nextDialogs": [
+              "727140102"
+            ]
+          },
+          "727140102": {
+            "id": "727140102",
+            "speakerId": 1000,
+            "speakerName": "Riku",
+            "text": "If I had some eggs, I could be their mommy bird and hatch them into little birds. Then I'd have loads of bird friends to play with...",
+            "nextDialogs": [
+              "727140103"
+            ]
+          },
+          "727140103": {
+            "id": "727140103",
+            "speakerId": 1000,
+            "speakerName": "Riku",
+            "text": "So, did you get the 8 Bird Eggs that I mentioned in my commission?",
+            "nextDialogs": [
+              "727140105"
+            ]
+          },
+          "727140105": {
+            "id": "727140105",
+            "speakerId": 1000,
+            "speakerName": "Riku",
+            "text": "Aw, alright. Well, hope they get here soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7271402",
+      "subQuestName": "Talk to Riku",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "727140201"
+        ],
+        "dialogs": {
+          "727140201": {
+            "id": "727140201",
+            "speakerId": 1000,
+            "speakerName": "Riku",
+            "text": "#Wow, thanks {M#mister}{F#lady}! I'll be super careful with them, I promise."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "lineCounts": {
+    "Little Lulu": 21,
+    "Player": 18,
+    "Ying'er": 36
+  },
+  "subQuests": [
+    {
+      "subId": "2250001",
+      "subQuestName": "Talk to Little Lulu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000101"
+        ],
+        "dialogs": {
+          "225000101": {
+            "id": "225000101",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "When will it be ready?",
+            "nextDialogs": [
+              "225000102"
+            ]
+          },
+          "225000102": {
+            "id": "225000102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No playtime today?",
+            "nextDialogs": [
+              "225000103"
+            ]
+          },
+          "225000103": {
+            "id": "225000103",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Oh, hello! No, playtime doesn't seem to come at all these days.",
+            "nextDialogs": [
+              "225000104"
+            ]
+          },
+          "225000104": {
+            "id": "225000104",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Little Meng's in a bad mood and prefers to sulk by himself, and Little Fei keeps disappearing all the time.",
+            "nextDialogs": [
+              "225000105"
+            ]
+          },
+          "225000105": {
+            "id": "225000105",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "I asked Little Meng what's wrong, but he wouldn't tell me. They're both acting so strange these days, I honestly don't know what's gotten into them.",
+            "nextDialogs": [
+              "225000107",
+              "225000111"
+            ]
+          },
+          "225000107": {
+            "id": "225000107",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Wait, so when you grow up you stop being happy? Then why do Little Meng and Little Fei want to grow up so bad...",
+            "nextDialogs": [
+              "225000108"
+            ]
+          },
+          "225000108": {
+            "id": "225000108",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "I guess I'll just not grow up, then.",
+            "nextDialogs": [
+              "225000109"
+            ]
+          },
+          "225000109": {
+            "id": "225000109",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Anyway, we're getting sidetracked. I actually need your help with something.",
+            "nextDialogs": [
+              "225000112"
+            ]
+          },
+          "225000112": {
+            "id": "225000112",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Can you fetch something from Ying'er's place for me? We already talked about it, so she should have it ready by now."
+          },
+          "225000111": {
+            "id": "225000111",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Me? No, I'm okay. But... I do need your help with something."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250002",
+      "subQuestName": "Talk to Ying'er",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000301"
+        ],
+        "dialogs": {
+          "225000301": {
+            "id": "225000301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How does 3,000 Mora sound?",
+            "nextDialogs": [
+              "225000302"
+            ]
+          },
+          "225000302": {
+            "id": "225000302",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Wow, someone's desperate... Alright then, I will prioritize Lulu's perfume for the sake of our friendship.",
+            "nextDialogs": [
+              "225000303"
+            ]
+          },
+          "225000303": {
+            "id": "225000303",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "I have to watch the shop during the day, though. My personal affairs are best dealt with at night.",
+            "nextDialogs": [
+              "225000304"
+            ]
+          },
+          "225000304": {
+            "id": "225000304",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Swing by tonight and I'll have everything ready for you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250003",
+      "subQuestName": "Wait until night",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250004",
+      "subQuestName": "Talk to Ying'er and obtain the perfume",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000501"
+        ],
+        "dialogs": {
+          "225000501": {
+            "id": "225000501",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "The perfume is ready. A bespoke variety made with Mint Essential Oil.",
+            "nextDialogs": [
+              "225000502"
+            ]
+          },
+          "225000502": {
+            "id": "225000502",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Here you go. It's ready for Little Lulu now.",
+            "nextDialogs": [
+              "225000505"
+            ]
+          },
+          "225000505": {
+            "id": "225000505",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "It counteracts some of the more... hmm, stimulating elements with its neutral scent...",
+            "nextDialogs": [
+              "225000506"
+            ]
+          },
+          "225000506": {
+            "id": "225000506",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "To be honest, I was very surprised to receive an order from Lulu.",
+            "nextDialogs": [
+              "225000507"
+            ]
+          },
+          "225000507": {
+            "id": "225000507",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "It does make me reminisce about being that age, when one has one's first taste of love, oh how it makes the heart flutter... If only I had been a little more worldly wise back then...",
+            "nextDialogs": [
+              "225000508"
+            ]
+          },
+          "225000508": {
+            "id": "225000508",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Ahem... Anyway, I should let you get back to Lulu."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250005",
+      "subQuestName": "Search for 3 Mint leaves",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250006",
+      "subQuestName": "Craft Mint Essential Oil",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000601"
+        ],
+        "dialogs": {
+          "225000601": {
+            "id": "225000601",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Hi, did you get my perfume?",
+            "nextDialogs": [
+              "225000602"
+            ]
+          },
+          "225000602": {
+            "id": "225000602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I did.",
+            "nextDialogs": [
+              "225000603"
+            ]
+          },
+          "225000603": {
+            "id": "225000603",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Thank you! Ying'er makes the best perfume ever.",
+            "nextDialogs": [
+              "225000604"
+            ]
+          },
+          "225000604": {
+            "id": "225000604",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "I wonder what Little Meng and Little Fei will do when they smell it...",
+            "nextDialogs": [
+              "225000605"
+            ]
+          },
+          "225000605": {
+            "id": "225000605",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "I think that however they react, it will be a lot of fun to watch.",
+            "nextDialogs": [
+              "225000607",
+              "225000609"
+            ]
+          },
+          "225000607": {
+            "id": "225000607",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Hope so. That would be the best.",
+            "nextDialogs": [
+              "225000610"
+            ]
+          },
+          "225000610": {
+            "id": "225000610",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Thanks for helping me. I'll go home soon and have a go of my new perfume.",
+            "nextDialogs": [
+              "225000611"
+            ]
+          },
+          "225000611": {
+            "id": "225000611",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "If it's good, then I can keep using it again and again."
+          },
+          "225000609": {
+            "id": "225000609",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "Hmm? I don't prefer either of them... I prefer both of them! Little Meng and Little Fei are both my best friends."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250007",
+      "subQuestName": "Wait for Ying'er to decoct the perfume",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250008",
+      "subQuestName": "Talk to Ying'er",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001201"
+        ],
+        "dialogs": {
+          "225001201": {
+            "id": "225001201",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Here you are, one bespoke Mint perfume made specially for Lulu by yours truly. You can take it to her now.",
+            "nextDialogs": [
+              "225001204"
+            ]
+          },
+          "225001204": {
+            "id": "225001204",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "She didn't tell me, and I didn't ask her.",
+            "nextDialogs": [
+              "225001205"
+            ]
+          },
+          "225001205": {
+            "id": "225001205",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "No girl is without her secrets. Keeping some things hidden, displaying a penchant for tact, it's all part of a girl's charm.",
+            "nextDialogs": [
+              "225001206"
+            ]
+          },
+          "225001206": {
+            "id": "225001206",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Alright, off you go now, get this back to Lulu."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250009",
+      "subQuestName": "Give the perfume to Little Lulu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250010",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000801"
+        ],
+        "dialogs": {
+          "225000801": {
+            "id": "225000801",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Why the hurry? I'm afraid being desperate in and of itself can't bring you what you want."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250002",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000201"
+        ],
+        "dialogs": {
+          "225000201": {
+            "id": "225000201",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Well hello again. Missing me already, huh? What are you here for this time?",
+            "nextDialogs": [
+              "225000202"
+            ]
+          },
+          "225000202": {
+            "id": "225000202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "To pick something up for Little Lulu.",
+            "nextDialogs": [
+              "225000203"
+            ]
+          },
+          "225000203": {
+            "id": "225000203",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Little Lulu? ...Oh yes, that's right. She asked me to make some perfume for her.",
+            "nextDialogs": [
+              "225000204"
+            ]
+          },
+          "225000204": {
+            "id": "225000204",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "But I'm afraid this isn't the best time... For some reason, since you were last here, my sweet-smelling side services have been in exceptionally high demand.",
+            "nextDialogs": [
+              "225000205"
+            ]
+          },
+          "225000205": {
+            "id": "225000205",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "I've had an enormous number of orders. It's far too many for me to handle alone, especially since I also have the shop to attend to.",
+            "nextDialogs": [
+              "225000206"
+            ]
+          },
+          "225000206": {
+            "id": "225000206",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "On top of that, Lulu's just a child. It would be a little inappropriate to give her the same type of perfume worn by adult women.",
+            "nextDialogs": [
+              "225000207"
+            ]
+          },
+          "225000207": {
+            "id": "225000207",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "So I was racking my brains trying to think of a way to make my perfume more child-friendly. I've now decided on a suitable formula, but I haven't got around to making it yet.",
+            "nextDialogs": [
+              "225000208"
+            ]
+          },
+          "225000208": {
+            "id": "225000208",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "If it absolutely can't wait, expediting it would not be impossible, but..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000401"
+        ],
+        "dialogs": {
+          "225000401": {
+            "id": "225000401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I can help out.",
+            "nextDialogs": [
+              "225000402"
+            ]
+          },
+          "225000402": {
+            "id": "225000402",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Not a bad idea. You do have some experience in these matters, after all. Well, you certainly impressed me last time you were here. *giggle*",
+            "nextDialogs": [
+              "225000403"
+            ]
+          },
+          "225000403": {
+            "id": "225000403",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "As it happens, I have some of the necessary ingredients on hand. I'll go set up in Chef Mao's kitchen.",
+            "nextDialogs": [
+              "225000404"
+            ]
+          },
+          "225000404": {
+            "id": "225000404",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Go pick three leaves of Mint, then extract the essential oil at a Crafting Bench. I'm sure you're still intimately acquainted with the technique?",
+            "nextDialogs": [
+              "225000405"
+            ]
+          },
+          "225000405": {
+            "id": "225000405",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Bring the Mint Essential Oil to me, I'll handle the rest."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250009",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000901"
+        ],
+        "dialogs": {
+          "225000901": {
+            "id": "225000901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How does 3,000 Mora sound?",
+            "nextDialogs": [
+              "225000903"
+            ]
+          },
+          "225000903": {
+            "id": "225000903",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Hmm, it seems you can't quite afford it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250010",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001001"
+        ],
+        "dialogs": {
+          "225001001": {
+            "id": "225001001",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Mint Essential Oil, you got it?",
+            "nextDialogs": [
+              "225001003",
+              "225001007"
+            ]
+          },
+          "225001003": {
+            "id": "225001003",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "We did it together not long ago, you don't remember? Huh, so you're just as quick to forget as you are to get involved in the first place...",
+            "nextDialogs": [
+              "225001004"
+            ]
+          },
+          "225001004": {
+            "id": "225001004",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Let me give you a recap then. Go fetch three leaves of Mint, then extract the essential oil at a Crafting Bench.",
+            "nextDialogs": [
+              "225001005"
+            ]
+          },
+          "225001005": {
+            "id": "225001005",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Bring the essential oil to me, and I will take it from there."
+          },
+          "225001007": {
+            "id": "225001007",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "How to put this... it neutralizes some of the more stimulating elements in the concoction.",
+            "nextDialogs": [
+              "225001008"
+            ]
+          },
+          "225001008": {
+            "id": "225001008",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "But more importantly, the scent is a good match for a child like Lulu.",
+            "nextDialogs": [
+              "225001009"
+            ]
+          },
+          "225001009": {
+            "id": "225001009",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "A girl's scent is far more than a purely nasal affair...",
+            "nextDialogs": [
+              "225001010"
+            ]
+          },
+          "225001010": {
+            "id": "225001010",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "This perfume must capture Lulu's youthful lust for life, her wide-eyed innocence... *giggle*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001101"
+        ],
+        "dialogs": {
+          "225001101": {
+            "id": "225001101",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "Mint is an appropriate scent for a child like Lulu."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250013",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001301"
+        ],
+        "dialogs": {
+          "225001301": {
+            "id": "225001301",
+            "speakerId": 1001,
+            "speakerName": "Ying'er",
+            "text": "I don't know why Lulu would have a need for perfume... But I suppose she is growing up."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250014",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001401"
+        ],
+        "dialogs": {
+          "225001401": {
+            "id": "225001401",
+            "speakerId": 1000,
+            "speakerName": "Little Lulu",
+            "text": "I don't know what's gotten into Little Meng and Little Fei recently..."
+          }
+        }
+      }
+    }
+  ]
+}

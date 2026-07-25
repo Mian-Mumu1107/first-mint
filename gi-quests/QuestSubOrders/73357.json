@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "Hat Guy": 2,
+    "Marionette": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7335701",
+      "subQuestName": "Head for the vicinity of Lambad's Tavern to begin the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7335702",
+      "subQuestName": "Head for the vicinity of Lambad's Tavern to begin the tea party",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7335703",
+      "subQuestName": "Enjoy teatime",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "733570301"
+        ],
+        "dialogs": {
+          "733570301": {
+            "id": "733570301",
+            "speakerId": 1000,
+            "speakerName": "Hat Guy",
+            "text": "So, you really do have free time.",
+            "nextDialogs": [
+              "733570302"
+            ]
+          },
+          "733570302": {
+            "id": "733570302",
+            "speakerId": 1001,
+            "speakerName": "Marionette",
+            "text": "(Let's sit like this for a little while longer.)",
+            "nextDialogs": [
+              "733570304"
+            ]
+          },
+          "733570304": {
+            "id": "733570304",
+            "speakerId": 1000,
+            "speakerName": "Hat Guy",
+            "text": "Alright. Take care."
+          }
+        }
+      }
+    }
+  ]
+}

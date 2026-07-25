@@ -1,0 +1,88 @@
+{
+  "lineCounts": {
+    "Ookubo Sanzaemon": 6,
+    "Player": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7269801",
+      "subQuestName": "Talk to Ookubo Sanzaemon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "726980101"
+        ],
+        "dialogs": {
+          "726980101": {
+            "id": "726980101",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "#Are you {NICKNAME}?",
+            "nextDialogs": [
+              "726980102"
+            ]
+          },
+          "726980102": {
+            "id": "726980102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's right.",
+            "nextDialogs": [
+              "726980103"
+            ]
+          },
+          "726980103": {
+            "id": "726980103",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "Very good. Allow me to test my skills against you.",
+            "nextDialogs": [
+              "726980104"
+            ]
+          },
+          "726980104": {
+            "id": "726980104",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "I shall take this as a rehearsal for my duel against the \"mightiest warrior.\"",
+            "nextDialogs": [
+              "726980105"
+            ]
+          },
+          "726980105": {
+            "id": "726980105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The \"mightiest warrior\"?",
+            "nextDialogs": [
+              "726980106"
+            ]
+          },
+          "726980106": {
+            "id": "726980106",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "You need not know who that is, for you shall be defeated here by my hand. Come, let us begin!",
+            "nextDialogs": [
+              "726980110",
+              "726980108"
+            ]
+          },
+          "726980110": {
+            "id": "726980110",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "Excellent! My sword shall show no mercy."
+          },
+          "726980108": {
+            "id": "726980108",
+            "speakerId": 1000,
+            "speakerName": "Ookubo Sanzaemon",
+            "text": "Fair enough, but do not make me wait too long."
+          }
+        }
+      }
+    }
+  ]
+}

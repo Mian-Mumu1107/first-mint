@@ -1,0 +1,645 @@
+{
+  "lineCounts": {
+    "???": 1,
+    "Huaqing": 4,
+    "Keqing": 27,
+    "Paimon": 52,
+    "Player": 29,
+    "Yang": 1
+  },
+  "subQuests": [
+    {
+      "subId": "102001",
+      "subQuestName": "Go to Mt. Tianheng",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10200101"
+        ],
+        "dialogs": {
+          "10200101": {
+            "id": "10200101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Look, up there! That's the Jade Chamber.",
+            "nextDialogs": [
+              "10200104"
+            ]
+          },
+          "10200104": {
+            "id": "10200104",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... Uhh...",
+            "nextDialogs": [
+              "10200105"
+            ]
+          },
+          "10200105": {
+            "id": "10200105",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, this is bad... Paimon's supposed to be your guide, but Paimon doesn't know where the way up to the Jade Chamber is..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "102002",
+      "subQuestName": "Search for a way up to the Jade Chamber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10200201"
+        ],
+        "dialogs": {
+          "10200201": {
+            "id": "10200201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, look! There's some sort of mechanism thingy!",
+            "nextDialogs": [
+              "10200202"
+            ]
+          },
+          "10200202": {
+            "id": "10200202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Since this is the right place, it must have something to do with the Jade Chamber.",
+            "nextDialogs": [
+              "10200204",
+              "10200206"
+            ]
+          },
+          "10200204": {
+            "id": "10200204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yes, this must be the way!"
+          },
+          "10200206": {
+            "id": "10200206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No way! Just trust Paimon's instincts!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "102003",
+      "subQuestName": "Try using the mechanism",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "102007",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10200701"
+        ],
+        "dialogs": {
+          "10200701": {
+            "id": "10200701",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? It only takes us up to here...",
+            "nextDialogs": [
+              "10200702"
+            ]
+          },
+          "10200702": {
+            "id": "10200702",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Aw, if that wind current was stronger, we'd be able to reach the top in one go!",
+            "nextDialogs": [
+              "10200703"
+            ]
+          },
+          "10200703": {
+            "id": "10200703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Best we go back to Liyue and ask the Millelith...",
+            "nextDialogs": [
+              "10200704"
+            ]
+          },
+          "10200704": {
+            "id": "10200704",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Why?",
+            "nextDialogs": [
+              "10200705"
+            ]
+          },
+          "10200705": {
+            "id": "10200705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The way up shouldn't be a secret, or...",
+            "nextDialogs": [
+              "10200706"
+            ]
+          },
+          "10200706": {
+            "id": "10200706",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Or? ...Oh, Paimon gets it! If it was a secret, Ganyu wouldn't have let us try to find it ourselves, right?",
+            "nextDialogs": [
+              "10200707"
+            ]
+          },
+          "10200707": {
+            "id": "10200707",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Alright, let's follow your plan, then we can...",
+            "nextDialogs": [
+              "10200708"
+            ]
+          },
+          "10200708": {
+            "id": "10200708",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh! Hang on a moment. Look down there!",
+            "nextDialogs": [
+              "10200709"
+            ]
+          },
+          "10200709": {
+            "id": "10200709",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Looks like we've gotten close to the <color=#00E1FFFF>Guizhong Ballista</color>.",
+            "nextDialogs": [
+              "10200710"
+            ]
+          },
+          "10200710": {
+            "id": "10200710",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... Uh... Paimon has a new idea!",
+            "nextDialogs": [
+              "10200711"
+            ]
+          },
+          "10200711": {
+            "id": "10200711",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Why don't we shoot you up to the Jade Chamber using the Ballista?",
+            "nextDialogs": [
+              "10200713",
+              "10200715"
+            ]
+          },
+          "10200713": {
+            "id": "10200713",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh... Right. This method does seem a bit unsafe...",
+            "nextDialogs": [
+              "10200716"
+            ]
+          },
+          "10200716": {
+            "id": "10200716",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Still, I do remember that the Ballista had a scope.",
+            "nextDialogs": [
+              "10200717"
+            ]
+          },
+          "10200717": {
+            "id": "10200717",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, that's right!",
+            "nextDialogs": [
+              "10200718"
+            ]
+          },
+          "10200718": {
+            "id": "10200718",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Now that you mention it, we could use the Guizhong Ballista to see if there's another way up nearby!"
+          },
+          "10200715": {
+            "id": "10200715",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh... No. Paimon may have just forgotten to think about the safety measures..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "102004",
+      "subQuestName": "Head over to the Guizhong Ballista",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10200401"
+        ],
+        "dialogs": {
+          "10200401": {
+            "id": "10200401",
+            "speakerId": 1001,
+            "speakerName": "Huaqing",
+            "text": "Halt!",
+            "nextDialogs": [
+              "10200402"
+            ]
+          },
+          "10200402": {
+            "id": "10200402",
+            "speakerId": 1001,
+            "speakerName": "Huaqing",
+            "text": "Who trespasses on these hallowed grounds?",
+            "nextDialogs": [
+              "10200405"
+            ]
+          },
+          "10200405": {
+            "id": "10200405",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Exactly. What're you talking about?",
+            "nextDialogs": [
+              "10200406"
+            ]
+          },
+          "10200406": {
+            "id": "10200406",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We're invited guests! What makes you think you can treat us like this?",
+            "nextDialogs": [
+              "10200407"
+            ]
+          },
+          "10200407": {
+            "id": "10200407",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No... Wait... Maybe this was Ningguang's plan all along!",
+            "nextDialogs": [
+              "10200408"
+            ]
+          },
+          "10200408": {
+            "id": "10200408",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She pretended to invite us to the Jade Chamber, but set up a Millelith ambush here to arrest us!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "102005",
+      "subQuestName": "Fight the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "102006",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10200601"
+        ],
+        "dialogs": {
+          "10200601": {
+            "id": "10200601",
+            "speakerId": 1002,
+            "speakerName": "???",
+            "text": "Stop! What's all this about?",
+            "nextDialogs": [
+              "10200602"
+            ]
+          },
+          "10200602": {
+            "id": "10200602",
+            "speakerId": 1001,
+            "speakerName": "Huaqing",
+            "text": "Lady Keqing, these two strange people suddenly appeared. They seem to have designs on the Guizhong Ballista.",
+            "nextDialogs": [
+              "10200603"
+            ]
+          },
+          "10200603": {
+            "id": "10200603",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Who're you calling \"strange\"?",
+            "nextDialogs": [
+              "10200604"
+            ]
+          },
+          "10200604": {
+            "id": "10200604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We were just looking for the way to the Jade Chamber.",
+            "nextDialogs": [
+              "10200605"
+            ]
+          },
+          "10200605": {
+            "id": "10200605",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Hmm? You want to go to the Jade Chamber? Who are you?",
+            "nextDialogs": [
+              "10200606"
+            ]
+          },
+          "10200606": {
+            "id": "10200606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We're invited guests, here to look for the Liyue Qixing! Who are you?",
+            "nextDialogs": [
+              "10200607"
+            ]
+          },
+          "10200607": {
+            "id": "10200607",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "...",
+            "nextDialogs": [
+              "10200608"
+            ]
+          },
+          "10200608": {
+            "id": "10200608",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Well, as it happens, I am one of the Liyue Qixing.",
+            "nextDialogs": [
+              "10200609"
+            ]
+          },
+          "10200609": {
+            "id": "10200609",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "???",
+            "nextDialogs": [
+              "10200610"
+            ]
+          },
+          "10200610": {
+            "id": "10200610",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "I'm Keqing, the Yuheng of the Qixing.",
+            "nextDialogs": [
+              "10200611"
+            ]
+          },
+          "10200611": {
+            "id": "10200611",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "I know of you, Traveler. You're Ningguang's guests, yes? Didn't expect to meet you here in the mountains.",
+            "nextDialogs": [
+              "10200612"
+            ]
+          },
+          "10200612": {
+            "id": "10200612",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow... Paimon didn't think we'd meet some super-rich big shot out here in the middle of nowhere, either.",
+            "nextDialogs": [
+              "10200613"
+            ]
+          },
+          "10200613": {
+            "id": "10200613",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "The Guizhong Ballista in Tianheng Pass has long been in disrepair, and yet it was fixed in a single night. I came here to investigate that occurrence.",
+            "nextDialogs": [
+              "10200614"
+            ]
+          },
+          "10200614": {
+            "id": "10200614",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "These Millelith are just here to guard the scene, not to arrest anyone.",
+            "nextDialogs": [
+              "10200615"
+            ]
+          },
+          "10200615": {
+            "id": "10200615",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So, this was all a misunderstanding? Paimon never would've thought...",
+            "nextDialogs": [
+              "10200616"
+            ]
+          },
+          "10200616": {
+            "id": "10200616",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thinking isn't that hard, Paimon.",
+            "nextDialogs": [
+              "10200617"
+            ]
+          },
+          "10200617": {
+            "id": "10200617",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Anyway, for a mortal to be able to repair an adepti mechanism is quite the mystery, even to the Qixing.",
+            "nextDialogs": [
+              "10200618"
+            ]
+          },
+          "10200618": {
+            "id": "10200618",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hehe, that was...",
+            "nextDialogs": [
+              "10200621"
+            ]
+          },
+          "10200621": {
+            "id": "10200621",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh? Oh, right. So, Lady Yuheng, might you have any idea why Lady Tianquan invited us to go to the Jade Chamber?",
+            "nextDialogs": [
+              "10200622"
+            ]
+          },
+          "10200622": {
+            "id": "10200622",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Just call me Keqing.",
+            "nextDialogs": [
+              "10200623"
+            ]
+          },
+          "10200623": {
+            "id": "10200623",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "I'd say that Ningguang's purpose is to request that the savior of Mondstadt take a more neutral stance... Or at least, to not wholly side with the adepti.",
+            "nextDialogs": [
+              "10200624"
+            ]
+          },
+          "10200624": {
+            "id": "10200624",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We're not taking sides. We spoke with the adepti. They want to protect Liyue as well...",
+            "nextDialogs": [
+              "10200625"
+            ]
+          },
+          "10200625": {
+            "id": "10200625",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "When you say \"protect,\" you're referring to their sanctimonious arrogance, aren't you?",
+            "nextDialogs": [
+              "10200626"
+            ]
+          },
+          "10200626": {
+            "id": "10200626",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "10200627"
+            ]
+          },
+          "10200627": {
+            "id": "10200627",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "You are mortals, and thus under their protection. There was no way they would have regarded you as someone with the ability to assassinate a god.",
+            "nextDialogs": [
+              "10200628"
+            ]
+          },
+          "10200628": {
+            "id": "10200628",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Naturally, they would also regard Ningguang's locking down the area, questioning the citizenry, and pursuit of the assassin to be pointless work. Perhaps they even wonder if there might be a cover-up.",
+            "nextDialogs": [
+              "10200629"
+            ]
+          },
+          "10200629": {
+            "id": "10200629",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "I'll say it like it is: they're underestimating us.",
+            "nextDialogs": [
+              "10200630"
+            ]
+          },
+          "10200630": {
+            "id": "10200630",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, you've got a point there...",
+            "nextDialogs": [
+              "10200631"
+            ]
+          },
+          "10200631": {
+            "id": "10200631",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Still, this is the first time Paimon's seen a person from Liyue who doesn't respect the gods or the adepti.",
+            "nextDialogs": [
+              "10200632"
+            ]
+          },
+          "10200632": {
+            "id": "10200632",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Hah. Should I respect the shallow sense of time and condescension to mortals that has caused them to delay in moving against us Qixing?",
+            "nextDialogs": [
+              "10200633"
+            ]
+          },
+          "10200633": {
+            "id": "10200633",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Forget it. I shouldn't speak of them this way. This skepticism is mine alone, and Ningguang does not share it.",
+            "nextDialogs": [
+              "10200634"
+            ]
+          },
+          "10200634": {
+            "id": "10200634",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Either way, I will admit that the actions of the adepti this time were quite restrained.",
+            "nextDialogs": [
+              "10200635"
+            ]
+          },
+          "10200635": {
+            "id": "10200635",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "Rex Lapis' death is indeed an extraordinary circumstance. But to think that they would call for a council of adepti rather than come down here directly...",
+            "nextDialogs": [
+              "10200636"
+            ]
+          },
+          "10200636": {
+            "id": "10200636",
+            "speakerId": 1003,
+            "speakerName": "Keqing",
+            "text": "How surprisingly civilized of them."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Geri": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7171201",
+      "subQuestName": "Give two servings of Flaming Red Bolognese to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717120101"
+        ],
+        "dialogs": {
+          "717120101": {
+            "id": "717120101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Flaming Red Bolognese...",
+            "nextDialogs": [
+              "717120102"
+            ]
+          },
+          "717120102": {
+            "id": "717120102",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Oh right, you must've seen my commission then. Have you prepared two dishes of Flaming Red Bolognese?",
+            "nextDialogs": [
+              "717120105"
+            ]
+          },
+          "717120105": {
+            "id": "717120105",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Aw alright, just let me know as soon as they're ready.",
+            "nextDialogs": [
+              "717120106"
+            ]
+          },
+          "717120106": {
+            "id": "717120106",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "I can't even remember the last time I had Flaming Red Bolognese."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7171202",
+      "subQuestName": "Talk to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717120201"
+        ],
+        "dialogs": {
+          "717120201": {
+            "id": "717120201",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Mm-hmm! These Flaming Red Bolognese taste just like I remember.",
+            "nextDialogs": [
+              "717120202"
+            ]
+          },
+          "717120202": {
+            "id": "717120202",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Here, please take these. Thanks for bringing me the food!"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "lineCounts": {
+    "Agent": 4,
+    "Chang the Ninth": 19,
+    "Gentry Maocai": 13,
+    "Paimon": 18,
+    "Player": 16,
+    "Xingqiu": 36,
+    "Xu": 4
+  },
+  "subQuests": [
+    {
+      "subId": "1200303",
+      "subQuestName": "Go to the Feiyun Commerce Guild warehouse",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200304",
+      "subQuestName": "Talk to Xingqiu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120030401"
+        ],
+        "dialogs": {
+          "120030401": {
+            "id": "120030401",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Welcome. The final act in this drama would not be complete without you two here as audience.",
+            "nextDialogs": [
+              "120030402"
+            ]
+          },
+          "120030402": {
+            "id": "120030402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You'd better believe it! We're the ones who've been doing all the work! What exactly have you been doing all this time?",
+            "nextDialogs": [
+              "120030403"
+            ]
+          },
+          "120030403": {
+            "id": "120030403",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Ah, well... Naturally, I used the time to immerse myself completely in Legend of the Shattered Halberd. I managed to finish the book off, and I enjoyed every minute of it.",
+            "nextDialogs": [
+              "120030404"
+            ]
+          },
+          "120030404": {
+            "id": "120030404",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Divine Halberd and Ominous Sword, Mir and Weiyang...",
+            "nextDialogs": [
+              "120030405"
+            ]
+          },
+          "120030405": {
+            "id": "120030405",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "The way the story develops across the first five volumes — nothing short of exemplary. But the sixth volume... words fail me.",
+            "nextDialogs": [
+              "120030426"
+            ]
+          },
+          "120030426": {
+            "id": "120030426",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "How blessed we are to have such an author grace our world with such works.",
+            "nextDialogs": [
+              "120030427"
+            ]
+          },
+          "120030427": {
+            "id": "120030427",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And this is related to Gentry Maocai... how?",
+            "nextDialogs": [
+              "120030406"
+            ]
+          },
+          "120030406": {
+            "id": "120030406",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "It's not, but when something surpasses expectations to such a degree, one must show one's appreciation.",
+            "nextDialogs": [
+              "120030408",
+              "120030410"
+            ]
+          },
+          "120030408": {
+            "id": "120030408",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "And it is thanks to your help that everything will play out just as I had foreseen.",
+            "nextDialogs": [
+              "120030411"
+            ]
+          },
+          "120030411": {
+            "id": "120030411",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...Why does Paimon have to be the only one who doesn't get what's going on? No fair!",
+            "nextDialogs": [
+              "120030412"
+            ]
+          },
+          "120030412": {
+            "id": "120030412",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ahh... So go on then, tell me. What are we doing here? And what's this big dramatic showdown thing that's supposed to happen?",
+            "nextDialogs": [
+              "120030413"
+            ]
+          },
+          "120030413": {
+            "id": "120030413",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Think about it. Gentry Maocai goes searching for Cor Lapis all over Liyue Harbor, and he doesn't find a single piece.",
+            "nextDialogs": [
+              "120030414"
+            ]
+          },
+          "120030414": {
+            "id": "120030414",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "He panics — without the goods, he can't fulfill his contract. And if he can't fulfill his contract, he can't stay in good standing with the Fatui.",
+            "nextDialogs": [
+              "120030415"
+            ]
+          },
+          "120030415": {
+            "id": "120030415",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "He hears a rumor that the Feiyun Commerce Guild is the culprit. Panic turns to disbelief.",
+            "nextDialogs": [
+              "120030416"
+            ]
+          },
+          "120030416": {
+            "id": "120030416",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Gentry Maocai is a hugely powerful figure in the business world. Never has anyone dared to target him like this.",
+            "nextDialogs": [
+              "120030417"
+            ]
+          },
+          "120030417": {
+            "id": "120030417",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "So regardless of whether it is revenge or a swift resolution that he seeks, he is certain to—",
+            "nextDialogs": [
+              "120030418"
+            ]
+          },
+          "120030418": {
+            "id": "120030418",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "So it was you! You were the ones sticking your necks out for Chang the Ninth!",
+            "nextDialogs": [
+              "120030419"
+            ]
+          },
+          "120030419": {
+            "id": "120030419",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Speak of the devil.",
+            "nextDialogs": [
+              "120030420"
+            ]
+          },
+          "120030420": {
+            "id": "120030420",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "I went everywhere trying to find someone selling Cor Lapis before I realized the Feiyun Commerce Guild had been on an acquisition spree!",
+            "nextDialogs": [
+              "120030421"
+            ]
+          },
+          "120030421": {
+            "id": "120030421",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Cor Lapis is hardly a rare mineral, and yet suddenly the stocks dry up, just like that! Explain yourselves! What is the meaning of this persecution?",
+            "nextDialogs": [
+              "120030422"
+            ]
+          },
+          "120030422": {
+            "id": "120030422",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "We are not persecuting you, but protecting another, one to whom I am indebted. Upon witnessing an injustice, it is a perfectly normal response to rush to the aid of he who has been wronged.",
+            "nextDialogs": [
+              "120030423"
+            ]
+          },
+          "120030423": {
+            "id": "120030423",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Was it not one of your own men who said... this isn't over?",
+            "nextDialogs": [
+              "120030424"
+            ]
+          },
+          "120030424": {
+            "id": "120030424",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Hmph. You clearly don't know what's good for you. I won't beat around the bush.",
+            "nextDialogs": [
+              "120030425"
+            ]
+          },
+          "120030425": {
+            "id": "120030425",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Master, if you please. Seize their Cor Lapis!"
+          },
+          "120030410": {
+            "id": "120030410",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "It was rather good, thanks... I only hope that as our plan reaches its denouement, it too will live up to its expectations."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200305",
+      "subQuestName": "Help Gentry Maocai and defeat the attacking Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200310",
+      "subQuestName": "Fend off the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200307",
+      "subQuestName": "Fend off the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200311",
+      "subQuestName": "Fend off the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200308",
+      "subQuestName": "Fend off the Agent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120030801"
+        ],
+        "dialogs": {
+          "120030801": {
+            "id": "120030801",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "Impressive. You are no commoners... To continue this fight would be to incur greater losses than I can accept.",
+            "nextDialogs": [
+              "120030802"
+            ]
+          },
+          "120030802": {
+            "id": "120030802",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Their strength is almost spent! Finish them off! The Cor Lapis is almost within our grasp...",
+            "nextDialogs": [
+              "120030803"
+            ]
+          },
+          "120030803": {
+            "id": "120030803",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "Might I remind you that the Fatui's relationship with you extends to business matters only! I did not lend you my men to have them stir up trouble at your beck and call!",
+            "nextDialogs": [
+              "120030804"
+            ]
+          },
+          "120030804": {
+            "id": "120030804",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Wh—What are you saying? Master, everything I did, I did with only one thing in mind — to complete the order!",
+            "nextDialogs": [
+              "120030805"
+            ]
+          },
+          "120030805": {
+            "id": "120030805",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "Then figure it out by yourself!",
+            "nextDialogs": [
+              "120030806"
+            ]
+          },
+          "120030806": {
+            "id": "120030806",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "D—Don't go! Wait! Master! Waaaait...",
+            "nextDialogs": [
+              "120030807"
+            ]
+          },
+          "120030807": {
+            "id": "120030807",
+            "speakerId": 1004,
+            "speakerName": "Xu",
+            "text": "My lord! What are you doing here? Are you hurt?",
+            "nextDialogs": [
+              "120030808"
+            ]
+          },
+          "120030808": {
+            "id": "120030808",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "#Thanks to this valiant young {F#woman}{M#man}, I am unscathed.",
+            "nextDialogs": [
+              "120030809"
+            ]
+          },
+          "120030809": {
+            "id": "120030809",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "\"My lord\"!?",
+            "nextDialogs": [
+              "120030812"
+            ]
+          },
+          "120030812": {
+            "id": "120030812",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "You... You are the heir of the Feiyun Commerce Guild?",
+            "nextDialogs": [
+              "120030813"
+            ]
+          },
+          "120030813": {
+            "id": "120030813",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Indeed, my liege. I am Xingqiu, disciple of the Guhua Clan and second son of the Feiyun Commerce Guild manager, and I make no secret of it.",
+            "nextDialogs": [
+              "120030814"
+            ]
+          },
+          "120030814": {
+            "id": "120030814",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "Drats! I've been played like a fiddle!",
+            "nextDialogs": [
+              "120030815"
+            ]
+          },
+          "120030815": {
+            "id": "120030815",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Gentry Maocai, coercion and intimidation are hardly the attributes of a respectable businessman. The problems that your business practices have created, I have sought to resolve through mine.",
+            "nextDialogs": [
+              "120030816"
+            ]
+          },
+          "120030816": {
+            "id": "120030816",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "I shudder to think what the Fatui will do with you if you fail to provide their Cor Lapis.",
+            "nextDialogs": [
+              "120030817"
+            ]
+          },
+          "120030817": {
+            "id": "120030817",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "You meddling swine! Well, go on! Tell me, what will you sell it for?",
+            "nextDialogs": [
+              "120030818"
+            ]
+          },
+          "120030818": {
+            "id": "120030818",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Since you asked Chang the Ninth for a discount of seventy percent, let's fight fire with fire, shall we?",
+            "nextDialogs": [
+              "120030819"
+            ]
+          },
+          "120030819": {
+            "id": "120030819",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "Three times the market rate sounds fair, no?",
+            "nextDialogs": [
+              "120030820"
+            ]
+          },
+          "120030820": {
+            "id": "120030820",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "How dare you subject me to such viciousness! This is a malicious and calculated attempt to run me into the ground—",
+            "nextDialogs": [
+              "120030821"
+            ]
+          },
+          "120030821": {
+            "id": "120030821",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "...Deep breaths now. This is a simple decision. Will you buy, or not?",
+            "nextDialogs": [
+              "120030822"
+            ]
+          },
+          "120030822": {
+            "id": "120030822",
+            "speakerId": 1002,
+            "speakerName": "Gentry Maocai",
+            "text": "I... Hmph, fine, have it your way! I'll find the money somehow. Happy now!?",
+            "nextDialogs": [
+              "120030823"
+            ]
+          },
+          "120030823": {
+            "id": "120030823",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "On behalf of the Feiyun Commerce Guild, I thank you for your business and hope you will continue to do business with us in future.",
+            "nextDialogs": [
+              "120030824"
+            ]
+          },
+          "120030824": {
+            "id": "120030824",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You? Funny-speaking, book-reading, Guhua-geeking, Xingqiu... Are the heir of the Feiyun Commerce Guild!?",
+            "nextDialogs": [
+              "120030825"
+            ]
+          },
+          "120030825": {
+            "id": "120030825",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So that massive stash of Mora you let us burn through in a day — that was from your private vault!?",
+            "nextDialogs": [
+              "120030826"
+            ]
+          },
+          "120030826": {
+            "id": "120030826",
+            "speakerId": 1000,
+            "speakerName": "Xingqiu",
+            "text": "'Twas but a paltry sum. I got to make a very sound investment while putting Gentry Maocai in his place. A classic two birds, one stone situation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200309",
+      "subQuestName": "Return the Legend of the Shattered Halberd to its rightful owner",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120030901"
+        ],
+        "dialogs": {
+          "120030901": {
+            "id": "120030901",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Finally, you're back! This morning the pawnbroker showed up and gave me back my entire collection!",
+            "nextDialogs": [
+              "120030902"
+            ]
+          },
+          "120030902": {
+            "id": "120030902",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "I'm positive that you must have been behind this once again. Thank you, thank you from the bottom of my heart!",
+            "nextDialogs": [
+              "120030905"
+            ]
+          },
+          "120030905": {
+            "id": "120030905",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Please don't say that. You have no idea how much this means to me!",
+            "nextDialogs": [
+              "120030906"
+            ]
+          },
+          "120030906": {
+            "id": "120030906",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "The Chang family was a prestigious household in Liyue back in the day. Unfortunately, after I took over the family's affairs as heir, a series of business setbacks devoured our fortune...",
+            "nextDialogs": [
+              "120030907"
+            ]
+          },
+          "120030907": {
+            "id": "120030907",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Since then, I've saved for years, hoping to restore the house to its former glory... In the end, everything was riding on this Cor Lapis deal.",
+            "nextDialogs": [
+              "120030908"
+            ]
+          },
+          "120030908": {
+            "id": "120030908",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Were it not for you, this barren wasteland in the mountains would have become my final resting place.",
+            "nextDialogs": [
+              "120030909"
+            ]
+          },
+          "120030909": {
+            "id": "120030909",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow, that's the second heir we've met in this town!",
+            "nextDialogs": [
+              "120030910"
+            ]
+          },
+          "120030910": {
+            "id": "120030910",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "I'm sorry, what?",
+            "nextDialogs": [
+              "120030911"
+            ]
+          },
+          "120030911": {
+            "id": "120030911",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...Uh, nothing! Oh — here's your book back.",
+            "nextDialogs": [
+              "120030912"
+            ]
+          },
+          "120030912": {
+            "id": "120030912",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Wonderful, Legend of the Shattered Halberd! I was beginning to think that Guhua rascal had swindled me!",
+            "nextDialogs": [
+              "120030913"
+            ]
+          },
+          "120030913": {
+            "id": "120030913",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Do people really look down on the Guhua Clan so much?",
+            "nextDialogs": [
+              "120030914"
+            ]
+          },
+          "120030914": {
+            "id": "120030914",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "Actually, the art is centuries old, and was once held in high esteem. But now it has faded beyond recognition.",
+            "nextDialogs": [
+              "120030915"
+            ]
+          },
+          "120030915": {
+            "id": "120030915",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "To instigate a revival, you need to inject some fresh blood, but it's hard to attract budding young talent to a dying art... And so it becomes a vicious cycle.",
+            "nextDialogs": [
+              "120030916"
+            ]
+          },
+          "120030916": {
+            "id": "120030916",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "In any case, Guhua kids these days... Take that young rascal Xingqiu for instance, for all his talk about repaying kindness with kindness and whatnot, what has he done to show for it? You're the ones who've displayed a genuine sense of responsibility."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200045",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120004501"
+        ],
+        "dialogs": {
+          "120004501": {
+            "id": "120004501",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "I can't begin to thank you enough, with this there is finally hope for my business again!",
+            "nextDialogs": [
+              "120004502"
+            ]
+          },
+          "120004502": {
+            "id": "120004502",
+            "speakerId": 1005,
+            "speakerName": "Chang the Ninth",
+            "text": "I wasn't exactly my most polite to your earlier — I really am sorry."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200306",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120030601"
+        ],
+        "dialogs": {
+          "120030601": {
+            "id": "120030601",
+            "speakerId": 1003,
+            "speakerName": "Agent",
+            "text": "Don't get too carried away now.",
+            "nextDialogs": [
+              "120030602"
+            ]
+          },
+          "120030602": {
+            "id": "120030602",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yikes! This guy looks all kinds of dangerous!"
+          }
+        }
+      }
+    }
+  ]
+}

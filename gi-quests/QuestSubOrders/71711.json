@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Geri": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7171101",
+      "subQuestName": "Give two Tea Break Pancakes to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717110101"
+        ],
+        "dialogs": {
+          "717110101": {
+            "id": "717110101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Tea Break Pancakes...",
+            "nextDialogs": [
+              "717110102"
+            ]
+          },
+          "717110102": {
+            "id": "717110102",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Ah yes, that would be my commission. Have you already prepared two Tea Break Pancakes?",
+            "nextDialogs": [
+              "717110105"
+            ]
+          },
+          "717110105": {
+            "id": "717110105",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Please remember to bring them to me as soon as they're ready. It's been quite some time since I've had Tea Break Pancakes..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7171102",
+      "subQuestName": "Talk to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717110201"
+        ],
+        "dialogs": {
+          "717110201": {
+            "id": "717110201",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "These Tea Break Pancakes smell amazing! This is going to be a real treat.",
+            "nextDialogs": [
+              "717110202"
+            ]
+          },
+          "717110202": {
+            "id": "717110202",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Oh right, I'll need some more Almond Tofu to compare the tastes.",
+            "nextDialogs": [
+              "717110203"
+            ]
+          },
+          "717110203": {
+            "id": "717110203",
+            "speakerId": 1000,
+            "speakerName": "Geri",
+            "text": "Oh! I almost forgot... These are for you, thanks for your help."
+          }
+        }
+      }
+    }
+  ]
+}

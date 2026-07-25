@@ -1,0 +1,446 @@
+{
+  "lineCounts": {
+    "Cyrus": 16,
+    "Jack": 20,
+    "Player": 7
+  },
+  "subQuests": [
+    {
+      "subId": "2060101",
+      "subQuestName": "Talk to Cyrus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060102",
+      "subQuestName": "Track down Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060103",
+      "subQuestName": "Track down Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060104",
+      "subQuestName": "Rescue Jack from the hilichurls",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010401"
+        ],
+        "dialogs": {
+          "206010401": {
+            "id": "206010401",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Where has that kid Bennett run off to? *sigh* At a moment like this, no less... I hope he didn't run into any trouble..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060105",
+      "subQuestName": "Talk to Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010501"
+        ],
+        "dialogs": {
+          "206010501": {
+            "id": "206010501",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "*hissing* That... hurts...",
+            "nextDialogs": [
+              "206010502"
+            ]
+          },
+          "206010502": {
+            "id": "206010502",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Thank you so much. I'd thought that I wouldn't be coming home today...",
+            "nextDialogs": [
+              "206010503"
+            ]
+          },
+          "206010503": {
+            "id": "206010503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How are you feeling?",
+            "nextDialogs": [
+              "206010504"
+            ]
+          },
+          "206010504": {
+            "id": "206010504",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Ha, it's just a little... *grunt* hurt! Just a little. I'm fine.",
+            "nextDialogs": [
+              "206010505"
+            ]
+          },
+          "206010505": {
+            "id": "206010505",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I discovered a group of hilichurls congregating in the camp ahead, and suspected that they might be up to something. So I followed them...",
+            "nextDialogs": [
+              "206010506"
+            ]
+          },
+          "206010506": {
+            "id": "206010506",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "...But I got too close, and they discovered me.",
+            "nextDialogs": [
+              "206010507"
+            ]
+          },
+          "206010507": {
+            "id": "206010507",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Never mind that, or me — please help to clear those hilichurls out!",
+            "nextDialogs": [
+              "206010508"
+            ]
+          },
+          "206010508": {
+            "id": "206010508",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Their numbers are increasing. We can't let their plans come to fruition.",
+            "nextDialogs": [
+              "206010509"
+            ]
+          },
+          "206010509": {
+            "id": "206010509",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "As for me... I can take care of myself."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060106",
+      "subQuestName": "Clear out the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010601"
+        ],
+        "dialogs": {
+          "206010601": {
+            "id": "206010601",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "You've cleaned them out, I suppose?",
+            "nextDialogs": [
+              "206010602"
+            ]
+          },
+          "206010602": {
+            "id": "206010602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yup.",
+            "nextDialogs": [
+              "206010603"
+            ]
+          },
+          "206010603": {
+            "id": "206010603",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "You really are very strong. If only I could be as outstanding as you...",
+            "nextDialogs": [
+              "206010604"
+            ]
+          },
+          "206010604": {
+            "id": "206010604",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I, too, would like to leave behind dragon-slaying, world-saving legends, but in the end, I couldn't even beat a pack of hilichurls...",
+            "nextDialogs": [
+              "206010605"
+            ]
+          },
+          "206010605": {
+            "id": "206010605",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Ugh... Anyway, I... This is embarrassing, but I have something to ask of you...",
+            "nextDialogs": [
+              "206010606"
+            ]
+          },
+          "206010606": {
+            "id": "206010606",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I actually came to the Thousand Winds Temple because I'm soon to take an Adventure Ranking test...",
+            "nextDialogs": [
+              "206010607"
+            ]
+          },
+          "206010607": {
+            "id": "206010607",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I thought that the ranking would go much more smoothly if I could show my stuff at this time.",
+            "nextDialogs": [
+              "206010608"
+            ]
+          },
+          "206010608": {
+            "id": "206010608",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I never thought that I'd not only have nothing to show for it, but almost lose my life in the process as well.",
+            "nextDialogs": [
+              "206010609"
+            ]
+          },
+          "206010609": {
+            "id": "206010609",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "C—Could I ask you not to tell Cyrus about this? I'd truly be in hot soup if this were to affect my ranking...",
+            "nextDialogs": [
+              "206010611",
+              "206010613"
+            ]
+          },
+          "206010611": {
+            "id": "206010611",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "Thank you so much! I promise I won't be so reckless in future!"
+          },
+          "206010613": {
+            "id": "206010613",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "I know it isn't, and Cyrus always says that adventurers should be honest with themselves...",
+            "nextDialogs": [
+              "206010614"
+            ]
+          },
+          "206010614": {
+            "id": "206010614",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "But... *sigh* Forget it. I just hope he wont be too mad at me..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060107",
+      "subQuestName": "Talk to Cyrus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010701"
+        ],
+        "dialogs": {
+          "206010701": {
+            "id": "206010701",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "You're back, and Jack too. But he's limping...",
+            "nextDialogs": [
+              "206010702"
+            ]
+          },
+          "206010702": {
+            "id": "206010702",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "What happened?",
+            "nextDialogs": [
+              "206010703"
+            ]
+          },
+          "206010703": {
+            "id": "206010703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Jack rushed in, and got hurt as a result...",
+            "nextDialogs": [
+              "206010704"
+            ]
+          },
+          "206010704": {
+            "id": "206010704",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "So it's as I thought. *sigh* He hasn't been listening to what I always tell him, has he?",
+            "nextDialogs": [
+              "206010705"
+            ]
+          },
+          "206010705": {
+            "id": "206010705",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "I understand that he wants to prove himself, but...",
+            "nextDialogs": [
+              "206010706"
+            ]
+          },
+          "206010706": {
+            "id": "206010706",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Forget it. I understand what happened. I'll talk to Jack.",
+            "nextDialogs": [
+              "206010707"
+            ]
+          },
+          "206010707": {
+            "id": "206010707",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "This is for you, consider it payment for your adventure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060109",
+      "subQuestName": "Talk to Cyrus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010801"
+        ],
+        "dialogs": {
+          "206010801": {
+            "id": "206010801",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "You're back, and so is Jack, I see, though he's limping.",
+            "nextDialogs": [
+              "206010802"
+            ]
+          },
+          "206010802": {
+            "id": "206010802",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "What happened out there?",
+            "nextDialogs": [
+              "206010804",
+              "206010808"
+            ]
+          },
+          "206010804": {
+            "id": "206010804",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Oh, you fought alongside him? So that's how he was injured.",
+            "nextDialogs": [
+              "206010805"
+            ]
+          },
+          "206010805": {
+            "id": "206010805",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "*sigh* Bravery is good... but I'd rather that he were more steady. One can only be an adventurer if one stays alive.",
+            "nextDialogs": [
+              "206010806"
+            ]
+          },
+          "206010806": {
+            "id": "206010806",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Your bravery was commendable as well, traveler. Take this as your reward."
+          },
+          "206010808": {
+            "id": "206010808",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "So it's as I thought. *sigh* He hasn't been listening to what I always tell him, has he?",
+            "nextDialogs": [
+              "206010809"
+            ]
+          },
+          "206010809": {
+            "id": "206010809",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "I understand that he wants to prove himself, but...",
+            "nextDialogs": [
+              "206010810"
+            ]
+          },
+          "206010810": {
+            "id": "206010810",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "Forget it. I understand what happened. I'll talk to Jack.",
+            "nextDialogs": [
+              "206010811"
+            ]
+          },
+          "206010811": {
+            "id": "206010811",
+            "speakerId": 1000,
+            "speakerName": "Cyrus",
+            "text": "This is for you, consider it payment for your adventure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060110",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206011001"
+        ],
+        "dialogs": {
+          "206011001": {
+            "id": "206011001",
+            "speakerId": 1001,
+            "speakerName": "Jack",
+            "text": "*sigh* I really hope my ranking won't be affected by this..."
+          }
+        }
+      }
+    }
+  ]
+}

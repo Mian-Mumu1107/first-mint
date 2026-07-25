@@ -1,0 +1,420 @@
+{
+  "lineCounts": {
+    "Ellin": 2,
+    "Jack": 17,
+    "Paimon": 7,
+    "Player": 8,
+    "Stanley": 7,
+    "Venti": 16
+  },
+  "subQuests": [
+    {
+      "subId": "1011101",
+      "subQuestName": "Head to the Temple of the Lion",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110101"
+        ],
+        "dialogs": {
+          "101110101": {
+            "id": "101110101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The Temple of the Lion... We explored this place once before, didn't we? During the Stormterror incident."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011102",
+      "subQuestName": "Look for Jack and Stanley",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110201"
+        ],
+        "dialogs": {
+          "101110201": {
+            "id": "101110201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, are those guys..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011103",
+      "subQuestName": "Rescue Jack and Stanley",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011104",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110401"
+        ],
+        "dialogs": {
+          "101110401": {
+            "id": "101110401",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "*panting*",
+            "nextDialogs": [
+              "101110402"
+            ]
+          },
+          "101110402": {
+            "id": "101110402",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "I was so sure I was about to die!",
+            "nextDialogs": [
+              "101110403"
+            ]
+          },
+          "101110403": {
+            "id": "101110403",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "To be fair, that could have gone either way.",
+            "nextDialogs": [
+              "101110404"
+            ]
+          },
+          "101110404": {
+            "id": "101110404",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "So — you must be Jack the Adventurer, I assume?",
+            "nextDialogs": [
+              "101110405"
+            ]
+          },
+          "101110405": {
+            "id": "101110405",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "Yes... Who are you?",
+            "nextDialogs": [
+              "101110406"
+            ]
+          },
+          "101110406": {
+            "id": "101110406",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Actually, we came looking for you.",
+            "nextDialogs": [
+              "101110407"
+            ]
+          },
+          "101110407": {
+            "id": "101110407",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Ellin has a message for you. She said she won't be able to join you today to plan out your next adventure together. She'll join you some other time.",
+            "nextDialogs": [
+              "101110408"
+            ]
+          },
+          "101110408": {
+            "id": "101110408",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "Oh, I see... I feel bad you had to come all this way to find me... and then had to rescue me...",
+            "nextDialogs": [
+              "101110409"
+            ]
+          },
+          "101110409": {
+            "id": "101110409",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "Huh? I don't see what all the fuss is about. It was nothing that I, Stanley, couldn't have dealt with by myself!",
+            "nextDialogs": [
+              "101110410"
+            ]
+          },
+          "101110410": {
+            "id": "101110410",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, you're Stanley? You're that legendary adventurer? Renowned in all of Mondstadt? Who once set foot in the Mare Jivari!?",
+            "nextDialogs": [
+              "101110411"
+            ]
+          },
+          "101110411": {
+            "id": "101110411",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "Hehehe, the very same!",
+            "nextDialogs": [
+              "101110412"
+            ]
+          },
+          "101110412": {
+            "id": "101110412",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Hahaha! I must say, it's an honor to meet one as legendary as yourself.",
+            "nextDialogs": [
+              "101110413"
+            ]
+          },
+          "101110413": {
+            "id": "101110413",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Well then, how would everyone like to proceed? Head back, or head further inside?",
+            "nextDialogs": [
+              "101110415",
+              "101110418"
+            ]
+          },
+          "101110415": {
+            "id": "101110415",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "Hehehe, well... I think you're now in the safe hands of Stanley, the great explorer and legend of Mondstadt!",
+            "nextDialogs": [
+              "101110416"
+            ]
+          },
+          "101110416": {
+            "id": "101110416",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "In which case, why head back now?",
+            "nextDialogs": [
+              "101110419"
+            ]
+          },
+          "101110419": {
+            "id": "101110419",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Okay, motion passed by unanimous consent! Let's head further in."
+          },
+          "101110418": {
+            "id": "101110418",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "I think we should keep going. With Stanley by our side, we'll have no problem."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011105",
+      "subQuestName": "Complete the Domain adventure",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110501"
+        ],
+        "dialogs": {
+          "101110501": {
+            "id": "101110501",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "So. I'm guessing you mostly came here because you wanted to hear my adventure stories, am I right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011106",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101110601"
+        ],
+        "dialogs": {
+          "101110601": {
+            "id": "101110601",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Traveler, I believe I have made a small discovery.",
+            "nextDialogs": [
+              "101110602"
+            ]
+          },
+          "101110602": {
+            "id": "101110602",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Could I ask you to use the nirnama detector once more?",
+            "nextDialogs": [
+              "101110603"
+            ]
+          },
+          "101110603": {
+            "id": "101110603",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What? Stanley has an imaginary friend?",
+            "nextDialogs": [
+              "101110604"
+            ]
+          },
+          "101110604": {
+            "id": "101110604",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "It seems his imaginary friend is a seasoned warrior... covered in scars from head to foot, and a look of staunch determination on his face.",
+            "nextDialogs": [
+              "101110606",
+              "101110609"
+            ]
+          },
+          "101110606": {
+            "id": "101110606",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "You're saying his imaginary friend is an idealized version of his own self?",
+            "nextDialogs": [
+              "101110607"
+            ]
+          },
+          "101110607": {
+            "id": "101110607",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Interesting idea! But is it true?",
+            "nextDialogs": [
+              "101110611"
+            ]
+          },
+          "101110611": {
+            "id": "101110611",
+            "speakerId": 1001,
+            "speakerName": "Stanley",
+            "text": "Please excuse me, I'll be leaving now.",
+            "nextDialogs": [
+              "101110612"
+            ]
+          },
+          "101110612": {
+            "id": "101110612",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "Bye, Stanley!",
+            "nextDialogs": [
+              "101110613"
+            ]
+          },
+          "101110613": {
+            "id": "101110613",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "Do you two still have time to spare?",
+            "nextDialogs": [
+              "101110614"
+            ]
+          },
+          "101110614": {
+            "id": "101110614",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "What is it?",
+            "nextDialogs": [
+              "101110615"
+            ]
+          },
+          "101110615": {
+            "id": "101110615",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "A few days ago, Stanley got drunk and told me a secret — something he's never told anyone before.",
+            "nextDialogs": [
+              "101110616"
+            ]
+          },
+          "101110616": {
+            "id": "101110616",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "The weapons he took on his adventure all those years ago... they were none other than those once wielded by Mondstadt's greatest hero, Vennessa herself! The <color=#00E1FFFF>Sword of Brilliant Valor</color> and the <color=#00E1FFFF>Shield of Magnificent Honor</color>!",
+            "nextDialogs": [
+              "101110617"
+            ]
+          },
+          "101110617": {
+            "id": "101110617",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "I don't know whether you believe me, but... apparently, both the sword and shield are still right here in Mondstadt, over in <color=#00E1FFFF>Dadaupa Gorge</color>!",
+            "nextDialogs": [
+              "101110618"
+            ]
+          },
+          "101110618": {
+            "id": "101110618",
+            "speakerId": 1002,
+            "speakerName": "Jack",
+            "text": "Since you guys are the experts at this... Can you come with me to try and retrieve these two legendary weapons?"
+          },
+          "101110609": {
+            "id": "101110609",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "Oh? You thought so too, huh?",
+            "nextDialogs": [
+              "101110610"
+            ]
+          },
+          "101110610": {
+            "id": "101110610",
+            "speakerId": 1003,
+            "speakerName": "Venti",
+            "text": "I agree. He wasn't telling the whole story."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011009",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101100919"
+        ],
+        "dialogs": {
+          "101100919": {
+            "id": "101100919",
+            "speakerId": 1004,
+            "speakerName": "Ellin",
+            "text": "Thanks for agreeing to help me out.",
+            "nextDialogs": [
+              "101100920"
+            ]
+          },
+          "101100920": {
+            "id": "101100920",
+            "speakerId": 1004,
+            "speakerName": "Ellin",
+            "text": "Jack's at the <color=#00E1FFFF>Temple of the Lion</color>. Don't forget..."
+          }
+        }
+      }
+    }
+  ]
+}

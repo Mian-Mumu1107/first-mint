@@ -1,0 +1,1746 @@
+{
+  "lineCounts": {
+    "Amber": 13,
+    "Barbara": 17,
+    "Crowd": 1,
+    "Diluc": 8,
+    "Jean": 43,
+    "Kaeya": 15,
+    "Lisa": 7,
+    "Paimon": 37,
+    "Player": 21,
+    "Swan": 4,
+    "Venti": 7
+  },
+  "subQuests": [
+    {
+      "subId": "49001",
+      "subQuestName": "Ask Barbara about Jean's condition",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900101"
+        ],
+        "dialogs": {
+          "4900101": {
+            "id": "4900101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hi Barbara, we're back.",
+            "nextDialogs": [
+              "4900102"
+            ]
+          },
+          "4900102": {
+            "id": "4900102",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Welcome back. You must be exhausted.",
+            "nextDialogs": [
+              "4900103"
+            ]
+          },
+          "4900103": {
+            "id": "4900103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How is Jean doing?",
+            "nextDialogs": [
+              "4900104"
+            ]
+          },
+          "4900104": {
+            "id": "4900104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm sure you must be exhausted, too.",
+            "nextDialogs": [
+              "4900105"
+            ]
+          },
+          "4900105": {
+            "id": "4900105",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Oh it's nothing, looking after patients is all in a day's work for me.",
+            "nextDialogs": [
+              "4900106"
+            ]
+          },
+          "4900106": {
+            "id": "4900106",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Jean has regained consciousness and should be back to her normal self soon enough.",
+            "nextDialogs": [
+              "4900107"
+            ]
+          },
+          "4900107": {
+            "id": "4900107",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That's great news! Let's go and see her.",
+            "nextDialogs": [
+              "4900108"
+            ]
+          },
+          "4900108": {
+            "id": "4900108",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "But she just left the Cathedral. I tried to tell her she needs more rest, but she wouldn't listen.",
+            "nextDialogs": [
+              "4900109"
+            ]
+          },
+          "4900109": {
+            "id": "4900109",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "She tried to act like she was fine and kept saying she wanted to get some fresh air. I bet you she's gone to <color=#00E1FFFF>Lady Vennessa's place</color> again.",
+            "nextDialogs": [
+              "4900110"
+            ]
+          },
+          "4900110": {
+            "id": "4900110",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Where?",
+            "nextDialogs": [
+              "4900111"
+            ]
+          },
+          "4900111": {
+            "id": "4900111",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Oh, that <color=#00E1FFFF>huge tree at Windrise</color>. That place is dedicated to Mondstadt's hero, Vennessa.",
+            "nextDialogs": [
+              "4900112"
+            ]
+          },
+          "4900112": {
+            "id": "4900112",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Jean goes there whenever she feels lost and confused deep down inside.",
+            "nextDialogs": [
+              "4900113"
+            ]
+          },
+          "4900113": {
+            "id": "4900113",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Barbara, that's some pretty personal stuff... How do you know so much about Jean's innermost thoughts?",
+            "nextDialogs": [
+              "4900114"
+            ]
+          },
+          "4900114": {
+            "id": "4900114",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "...Jean, uh, mentioned it to me, y'know, before she left.",
+            "nextDialogs": [
+              "4900115"
+            ]
+          },
+          "4900115": {
+            "id": "4900115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Jean is still recovering, right?",
+            "nextDialogs": [
+              "4900116"
+            ]
+          },
+          "4900116": {
+            "id": "4900116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Will she be okay out there on her own, in her condition?",
+            "nextDialogs": [
+              "4900117"
+            ]
+          },
+          "4900117": {
+            "id": "4900117",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "That's what I'm worried about, too. But I still have work to do here...",
+            "nextDialogs": [
+              "4900118"
+            ]
+          },
+          "4900118": {
+            "id": "4900118",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Don't worry, we'll take over nursing duty for now.",
+            "nextDialogs": [
+              "4900119"
+            ]
+          },
+          "4900119": {
+            "id": "4900119",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Great! That puts my mind at rest. May the Anemo Archon protect you... and Jean."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49002",
+      "subQuestName": "Go to the big \"Symbol of Vennessa\" tree",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "49003",
+      "subQuestName": "Finish conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900301"
+        ],
+        "dialogs": {
+          "4900301": {
+            "id": "4900301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hi Jean, are you feeling better now?",
+            "nextDialogs": [
+              "4900302"
+            ]
+          },
+          "4900302": {
+            "id": "4900302",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Much better. I was not expecting you to come here. Thank you for your concern.",
+            "nextDialogs": [
+              "4900303"
+            ]
+          },
+          "4900303": {
+            "id": "4900303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are you sure? We saw you beneath the tree just now, leaning on your sword — it looked like you were struggling.",
+            "nextDialogs": [
+              "4900304"
+            ]
+          },
+          "4900304": {
+            "id": "4900304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are you sure you aren't pushing yourself too hard?",
+            "nextDialogs": [
+              "4900305"
+            ]
+          },
+          "4900305": {
+            "id": "4900305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You can always rely on the other knights.",
+            "nextDialogs": [
+              "4900306"
+            ]
+          },
+          "4900306": {
+            "id": "4900306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You can always rely on us.",
+            "nextDialogs": [
+              "4900307"
+            ]
+          },
+          "4900307": {
+            "id": "4900307",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Oh... Thank you, that means a lot to me. Hearing that boosts my spirits.",
+            "nextDialogs": [
+              "4900308"
+            ]
+          },
+          "4900308": {
+            "id": "4900308",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "But I must find a way to cope with minor setbacks like this on my own. Otherwise, how can I be the protector that Mondstadt needs me to be? The protector that Vennessa was...",
+            "nextDialogs": [
+              "4900309"
+            ]
+          },
+          "4900309": {
+            "id": "4900309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You truly revere Vennessa, huh?",
+            "nextDialogs": [
+              "4900310"
+            ]
+          },
+          "4900310": {
+            "id": "4900310",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "I do. Vennessa was the first Grand Master, a kind yet formidable woman. I have always hoped to follow in her footsteps.",
+            "nextDialogs": [
+              "4900311"
+            ]
+          },
+          "4900311": {
+            "id": "4900311",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "As the Lionfang Knight, she courageously overthrew the oppressive ruling aristocracy of her time. Then, she founded the Knights of Favonius and became known as the Dandelion Knight, spreading grace and compassion throughout the land.",
+            "nextDialogs": [
+              "4900312"
+            ]
+          },
+          "4900312": {
+            "id": "4900312",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Dandelion Knight — isn't that your title?",
+            "nextDialogs": [
+              "4900313"
+            ]
+          },
+          "4900313": {
+            "id": "4900313",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Hmm... Actually, all of the Knights of Favonius' Masters throughout the ages have inherited the title of \"Dandelion Knight\" or \"Lionfang Knight.\"",
+            "nextDialogs": [
+              "4900314"
+            ]
+          },
+          "4900314": {
+            "id": "4900314",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oooh, that makes sense now.",
+            "nextDialogs": [
+              "4900315"
+            ]
+          },
+          "4900315": {
+            "id": "4900315",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You too want to be as gentle as the Dandelion Knight and yet as fierce as the Lionfang Knight?",
+            "nextDialogs": [
+              "4900316"
+            ]
+          },
+          "4900316": {
+            "id": "4900316",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Yes. I know it sounds like a huge honor, inheriting both these titles from Vennessa...",
+            "nextDialogs": [
+              "4900317"
+            ]
+          },
+          "4900317": {
+            "id": "4900317",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "But I see it more as a huge responsibility.",
+            "nextDialogs": [
+              "4900318"
+            ]
+          },
+          "4900318": {
+            "id": "4900318",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "After all, it is a lot to live up to.",
+            "nextDialogs": [
+              "4900319"
+            ]
+          },
+          "4900319": {
+            "id": "4900319",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I could get used to Jean the Lionfang Knight...",
+            "nextDialogs": [
+              "4900320"
+            ]
+          },
+          "4900320": {
+            "id": "4900320",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Actually, Dandelion Knight suits you better.",
+            "nextDialogs": [
+              "4900321"
+            ]
+          },
+          "4900321": {
+            "id": "4900321",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thinks so too!",
+            "nextDialogs": [
+              "4900322"
+            ]
+          },
+          "4900322": {
+            "id": "4900322",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "...",
+            "nextDialogs": [
+              "4900323"
+            ]
+          },
+          "4900323": {
+            "id": "4900323",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jean?",
+            "nextDialogs": [
+              "4900324"
+            ]
+          },
+          "4900324": {
+            "id": "4900324",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Who's there?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49004",
+      "subQuestName": "Hunt down the Abyss Order enemies",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "49011",
+      "subQuestName": "Hunt down the Abyss Order opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "49013",
+      "subQuestName": "Finish conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901301"
+        ],
+        "dialogs": {
+          "4901301": {
+            "id": "4901301",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Whew... This is quite a lot of excitement, considering that the idea was to relax and take it easy...",
+            "nextDialogs": [
+              "4901302"
+            ]
+          },
+          "4901302": {
+            "id": "4901302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Would a drink help you relax?",
+            "nextDialogs": [
+              "4901303"
+            ]
+          },
+          "4901303": {
+            "id": "4901303",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Ahh... Is there anything without alcohol?",
+            "nextDialogs": [
+              "4901304"
+            ]
+          },
+          "4901304": {
+            "id": "4901304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What do you normally drink?",
+            "nextDialogs": [
+              "4901305"
+            ]
+          },
+          "4901305": {
+            "id": "4901305",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Oh, y'know, I normally mix a few things together, but I always add some bright red—",
+            "nextDialogs": [
+              "4901306"
+            ]
+          },
+          "4901306": {
+            "id": "4901306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Red? Let me guess... tomatoes? No, watermelon?",
+            "nextDialogs": [
+              "4901307"
+            ]
+          },
+          "4901307": {
+            "id": "4901307",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "...Hehe, chilis! I add chili peppers.",
+            "nextDialogs": [
+              "4901308"
+            ]
+          },
+          "4901308": {
+            "id": "4901308",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Chili pepper!? In a drink?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49012",
+      "subQuestName": "Finish conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901201"
+        ],
+        "dialogs": {
+          "4901201": {
+            "id": "4901201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Are you hurt!?",
+            "nextDialogs": [
+              "4901202"
+            ]
+          },
+          "4901202": {
+            "id": "4901202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh, darn him and his traps!",
+            "nextDialogs": [
+              "4901203"
+            ]
+          },
+          "4901203": {
+            "id": "4901203",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "How badly are you hurt? One of my own being injured because of me is the last thing I would wish for.",
+            "nextDialogs": [
+              "4901204"
+            ]
+          },
+          "4901204": {
+            "id": "4901204",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "...Let me handle this alone.",
+            "nextDialogs": [
+              "4901205"
+            ]
+          },
+          "4901205": {
+            "id": "4901205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No! You're in no state to handle this alone. We're coming, too!",
+            "nextDialogs": [
+              "4901206"
+            ]
+          },
+          "4901206": {
+            "id": "4901206",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "...Okay. But before we move out, at least let me heal everyone with my <color=#00E1FFFF>Dandelion Breeze</color>.",
+            "nextDialogs": [
+              "4901207"
+            ]
+          },
+          "4901207": {
+            "id": "4901207",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Thanks, you're amazing!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49005",
+      "subQuestName": "Hunt down the Abyss Order opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "49006",
+      "subQuestName": "Finish conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900601"
+        ],
+        "dialogs": {
+          "4900601": {
+            "id": "4900601",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Phew... Thanks to Barbara's help, my condition is better than I thought.",
+            "nextDialogs": [
+              "4900602"
+            ]
+          },
+          "4900602": {
+            "id": "4900602",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The main thing is that you're safe. Now, isn't it time to get <color=#00E1FFFF>back to Mondstadt</color> and rest, Acting Grand Master?",
+            "nextDialogs": [
+              "4900603"
+            ]
+          },
+          "4900603": {
+            "id": "4900603",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Yes. I should at least go and thank Barbara again. I hope she is not upset with me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49007",
+      "subQuestName": "Return to Mondstadt and talk to Jean",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900701"
+        ],
+        "dialogs": {
+          "4900701": {
+            "id": "4900701",
+            "speakerId": 1003,
+            "speakerName": "Swan",
+            "text": "Master, you've finally returned! The Anemo Archon protects you.",
+            "nextDialogs": [
+              "4900702"
+            ]
+          },
+          "4900702": {
+            "id": "4900702",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Swan? Were you waiting for me? Has something happened?",
+            "nextDialogs": [
+              "4900703"
+            ]
+          },
+          "4900703": {
+            "id": "4900703",
+            "speakerId": 1003,
+            "speakerName": "Swan",
+            "text": "Yes... At the <color=#00E1FFFF>Angel's Share</color>. Don't worry, it's nothing big, but...",
+            "nextDialogs": [
+              "4900704"
+            ]
+          },
+          "4900704": {
+            "id": "4900704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Has there been a bar fight?",
+            "nextDialogs": [
+              "4900705"
+            ]
+          },
+          "4900705": {
+            "id": "4900705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We'll go. Jean needs to rest.",
+            "nextDialogs": [
+              "4900706"
+            ]
+          },
+          "4900706": {
+            "id": "4900706",
+            "speakerId": 1003,
+            "speakerName": "Swan",
+            "text": "Ah... I know I said it's nothing big, but... Alright, how can I put this... They just really need the Acting Grand Master.",
+            "nextDialogs": [
+              "4900707"
+            ]
+          },
+          "4900707": {
+            "id": "4900707",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "4900708"
+            ]
+          },
+          "4900708": {
+            "id": "4900708",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Well, if you say so Swan, I will go. I should not let the other knights down.",
+            "nextDialogs": [
+              "4900709"
+            ]
+          },
+          "4900709": {
+            "id": "4900709",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "It's fine. Now that I have had the chance to stretch my legs, I feel much better.",
+            "nextDialogs": [
+              "4900710"
+            ]
+          },
+          "4900710": {
+            "id": "4900710",
+            "speakerId": 1003,
+            "speakerName": "Swan",
+            "text": "Great! Thank you so much, you really saved me on this one.",
+            "nextDialogs": [
+              "4900711"
+            ]
+          },
+          "4900711": {
+            "id": "4900711",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "For goodness' sake... What is happening to the world!? Swan used to be the most honest fellow, now he's dumping things onto Jean...",
+            "nextDialogs": [
+              "4900712"
+            ]
+          },
+          "4900712": {
+            "id": "4900712",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Well... Swan was clearly agitated. Maybe it is an emergency after all. Let's go and see what this is all about, shall we?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49008",
+      "subQuestName": "Enter Tavern",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "49009",
+      "subQuestName": "Finish conversation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900901"
+        ],
+        "dialogs": {
+          "4900901": {
+            "id": "4900901",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Oh? What's all this?",
+            "nextDialogs": [
+              "4900902"
+            ]
+          },
+          "4900902": {
+            "id": "4900902",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "It's a thank-you party for you!",
+            "nextDialogs": [
+              "4900903"
+            ]
+          },
+          "4900903": {
+            "id": "4900903",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "A thank-you party?",
+            "nextDialogs": [
+              "4900904"
+            ]
+          },
+          "4900904": {
+            "id": "4900904",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Jean, when we heard the news about your illness, we were all so worried about you.",
+            "nextDialogs": [
+              "4900905"
+            ]
+          },
+          "4900905": {
+            "id": "4900905",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "We can only imagine how much pressure you must be under as Acting Grand Master, and you do so much work all over Mondstadt...",
+            "nextDialogs": [
+              "4900906"
+            ]
+          },
+          "4900906": {
+            "id": "4900906",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "We thought that since you so rarely take any time off, we'd take this chance to throw you a party. Enjoy yourself, Jean.",
+            "nextDialogs": [
+              "4900907"
+            ]
+          },
+          "4900907": {
+            "id": "4900907",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "After all, you'll never let us do this once you're back at work, haha.",
+            "nextDialogs": [
+              "4900908"
+            ]
+          },
+          "4900908": {
+            "id": "4900908",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Huh...",
+            "nextDialogs": [
+              "4900909"
+            ]
+          },
+          "4900909": {
+            "id": "4900909",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Jean?",
+            "nextDialogs": [
+              "4900910"
+            ]
+          },
+          "4900910": {
+            "id": "4900910",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "I... uh...",
+            "nextDialogs": [
+              "4900911"
+            ]
+          },
+          "4900911": {
+            "id": "4900911",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Huh? Is this Jean when she's... shy? I've never seen her like this!",
+            "nextDialogs": [
+              "4900912"
+            ]
+          },
+          "4900912": {
+            "id": "4900912",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "It's easy to forget that outside of work, Jean is just a normal person, like anyone else.",
+            "nextDialogs": [
+              "4900913"
+            ]
+          },
+          "4900913": {
+            "id": "4900913",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "I... This is just all such a surprise!",
+            "nextDialogs": [
+              "4900914"
+            ]
+          },
+          "4900914": {
+            "id": "4900914",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Thank you, everyone. This really means so much to me.",
+            "nextDialogs": [
+              "4900915"
+            ]
+          },
+          "4900915": {
+            "id": "4900915",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Hehehe. Well, it's nothing compared to the amount of work you do for all of us, day in and day out.",
+            "nextDialogs": [
+              "4900916"
+            ]
+          },
+          "4900916": {
+            "id": "4900916",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "But... there are so many things I still need to do...",
+            "nextDialogs": [
+              "4900917"
+            ]
+          },
+          "4900917": {
+            "id": "4900917",
+            "speakerId": 1007,
+            "speakerName": "Crowd",
+            "text": "*sigh*",
+            "nextDialogs": [
+              "4900918"
+            ]
+          },
+          "4900918": {
+            "id": "4900918",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "Fear not. We wanted to make sure you could relax and enjoy yourself...",
+            "nextDialogs": [
+              "4900919"
+            ]
+          },
+          "4900919": {
+            "id": "4900919",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "So while you were away, we all pitched in and finished off your work for you. Every last task.",
+            "nextDialogs": [
+              "4900920"
+            ]
+          },
+          "4900920": {
+            "id": "4900920",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Did you really? ...Even the issue with the food deliveries?",
+            "nextDialogs": [
+              "4900921"
+            ]
+          },
+          "4900921": {
+            "id": "4900921",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "It was no different from what we see on patrol. A couple of hilichurls. Didn't take much to get rid of them.",
+            "nextDialogs": [
+              "4900922"
+            ]
+          },
+          "4900922": {
+            "id": "4900922",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "And the tax returns?",
+            "nextDialogs": [
+              "4900923"
+            ]
+          },
+          "4900923": {
+            "id": "4900923",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "I spend so much time doing library admin. A few more pieces of paper to deal with was really nothing to worry about.",
+            "nextDialogs": [
+              "4900924"
+            ]
+          },
+          "4900924": {
+            "id": "4900924",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Well... What about Margaret's missing cat?",
+            "nextDialogs": [
+              "4900925"
+            ]
+          },
+          "4900925": {
+            "id": "4900925",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "...Are you kidding me?",
+            "nextDialogs": [
+              "4900926"
+            ]
+          },
+          "4900926": {
+            "id": "4900926",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "#That rascally Prince was apprehended by the brilliant {M#Mr.}{F#Ms.} {NICKNAME}! And {M#he}{F#she} also reclaimed my precious astral iron strings while {M#he}{F#she} was at it.",
+            "nextDialogs": [
+              "4900927"
+            ]
+          },
+          "4900927": {
+            "id": "4900927",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "Enough already! No more thinking about work today! Enjoy yourself while you've got the chance.",
+            "nextDialogs": [
+              "4900928"
+            ]
+          },
+          "4900928": {
+            "id": "4900928",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "It is my honor to work alongside you all. Praise be for the Anemo Archon's guidance...",
+            "nextDialogs": [
+              "4900929"
+            ]
+          },
+          "4900929": {
+            "id": "4900929",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Speaking of work... It must have been hard work to put all this together. Where did you find the time?",
+            "nextDialogs": [
+              "4900930"
+            ]
+          },
+          "4900930": {
+            "id": "4900930",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "#Haha... Actually, {NICKNAME} was the key organizer behind all of this.",
+            "nextDialogs": [
+              "4900931"
+            ]
+          },
+          "4900931": {
+            "id": "4900931",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Me?",
+            "nextDialogs": [
+              "4900932"
+            ]
+          },
+          "4900932": {
+            "id": "4900932",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The organizer?",
+            "nextDialogs": [
+              "4900933"
+            ]
+          },
+          "4900933": {
+            "id": "4900933",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "#See all this food and drink? {NICKNAME} made sure it all arrived on time.",
+            "nextDialogs": [
+              "4900934"
+            ]
+          },
+          "4900934": {
+            "id": "4900934",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "#Not only that, but {M#he}{F#she} cooked each one of these beautiful dishes {M#himself}{F#herself}.",
+            "nextDialogs": [
+              "4900935"
+            ]
+          },
+          "4900935": {
+            "id": "4900935",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "So relax already. There's no need to be so modest!",
+            "nextDialogs": [
+              "4900936"
+            ]
+          },
+          "4900936": {
+            "id": "4900936",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Uh... This explains a lot!",
+            "nextDialogs": [
+              "4900937"
+            ]
+          },
+          "4900937": {
+            "id": "4900937",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "All those last-minute urgent orders... It was you all along!",
+            "nextDialogs": [
+              "4900938"
+            ]
+          },
+          "4900938": {
+            "id": "4900938",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "Of course, we also have Master Diluc to thank for the venue. Otherwise, we would be looking at quite an alarming bill right about now.",
+            "nextDialogs": [
+              "4900939"
+            ]
+          },
+          "4900939": {
+            "id": "4900939",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "...Despite my initial reluctance to sponsor a Knights of Favonius event in any way...",
+            "nextDialogs": [
+              "4900940"
+            ]
+          },
+          "4900940": {
+            "id": "4900940",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "I, like any other citizen of Mondstadt, owe Jean my gratitude for her hard work.",
+            "nextDialogs": [
+              "4900941"
+            ]
+          },
+          "4900941": {
+            "id": "4900941",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Oh, Master Diluc, I—",
+            "nextDialogs": [
+              "4900942"
+            ]
+          },
+          "4900942": {
+            "id": "4900942",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Alright, alright! Jean's supposed to be taking it easy. Stop crowding her!",
+            "nextDialogs": [
+              "4900943"
+            ]
+          },
+          "4900943": {
+            "id": "4900943",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Agreed! Now — let the party begin!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49014",
+      "subQuestName": "Talk to Jean",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901401"
+        ],
+        "dialogs": {
+          "4901401": {
+            "id": "4901401",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "Hey! Having a good time?",
+            "nextDialogs": [
+              "4901402"
+            ]
+          },
+          "4901402": {
+            "id": "4901402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Why did you say I was the organizer?",
+            "nextDialogs": [
+              "4901403"
+            ]
+          },
+          "4901403": {
+            "id": "4901403",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "The thing is, Jean knows all of us so well now...",
+            "nextDialogs": [
+              "4901404"
+            ]
+          },
+          "4901404": {
+            "id": "4901404",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "When someone organizes a surprise party for you, the closer you are to them, the more bashful you tend to feel about the whole thing.",
+            "nextDialogs": [
+              "4901405"
+            ]
+          },
+          "4901405": {
+            "id": "4901405",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "So instead, we just gave you all the credit. After all, you did do more than your fair share of the work anyway.",
+            "nextDialogs": [
+              "4901406"
+            ]
+          },
+          "4901406": {
+            "id": "4901406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So... You gave me the credit to hide your own shyness?",
+            "nextDialogs": [
+              "4901407"
+            ]
+          },
+          "4901407": {
+            "id": "4901407",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Of course! This party was clearly Kaeya's idea! Shy Kaeya? This is gold!",
+            "nextDialogs": [
+              "4901408"
+            ]
+          },
+          "4901408": {
+            "id": "4901408",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "Haha... You think so?",
+            "nextDialogs": [
+              "4901409"
+            ]
+          },
+          "4901409": {
+            "id": "4901409",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So you admit it!",
+            "nextDialogs": [
+              "4901410"
+            ]
+          },
+          "4901410": {
+            "id": "4901410",
+            "speakerId": 1005,
+            "speakerName": "Kaeya",
+            "text": "Hehe... I'm only indulging you since it's such a special day today."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49010",
+      "subQuestName": "Go to the second-floor terrace and look for Jean",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901001"
+        ],
+        "dialogs": {
+          "4901001": {
+            "id": "4901001",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Oh, it is you.",
+            "nextDialogs": [
+              "4901004"
+            ]
+          },
+          "4901004": {
+            "id": "4901004",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Yes, I am just... getting some air.",
+            "nextDialogs": [
+              "4901005"
+            ]
+          },
+          "4901005": {
+            "id": "4901005",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-oh, it seems like something's bothering Jean.",
+            "nextDialogs": [
+              "4901006"
+            ]
+          },
+          "4901006": {
+            "id": "4901006",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "#{NICKNAME}, I want to thank you again—",
+            "nextDialogs": [
+              "4901007"
+            ]
+          },
+          "4901007": {
+            "id": "4901007",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Actually, I knew nothing about this whole thing either.",
+            "nextDialogs": [
+              "4901008"
+            ]
+          },
+          "4901008": {
+            "id": "4901008",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "Either way, it is good to be here together with everyone. It has lifted my spirits.",
+            "nextDialogs": [
+              "4901011"
+            ]
+          },
+          "4901011": {
+            "id": "4901011",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "And it has taught me something.",
+            "nextDialogs": [
+              "4901012"
+            ]
+          },
+          "4901012": {
+            "id": "4901012",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's that?",
+            "nextDialogs": [
+              "4901013"
+            ]
+          },
+          "4901013": {
+            "id": "4901013",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "I am definitely more of a Dandelion Knight than a Lionfang Knight.",
+            "nextDialogs": [
+              "4901014"
+            ]
+          },
+          "4901014": {
+            "id": "4901014",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "The Lionfang Knight represents Vennessa's past — a past in which she fought hard for Mondstadt.",
+            "nextDialogs": [
+              "4901015"
+            ]
+          },
+          "4901015": {
+            "id": "4901015",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "But it was the Dandelion Knight that represented her hopes for the future — a future belonging to the newly formed Knights of Favonius...",
+            "nextDialogs": [
+              "4901016"
+            ]
+          },
+          "4901016": {
+            "id": "4901016",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Jean, Vennessa would be so proud of who you are right now.",
+            "nextDialogs": [
+              "4901017"
+            ]
+          },
+          "4901017": {
+            "id": "4901017",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "I do believe that Vennessa watches over us, whether from high up above, or from the wind all around us.",
+            "nextDialogs": [
+              "4901018"
+            ]
+          },
+          "4901018": {
+            "id": "4901018",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let the Wind lead.",
+            "nextDialogs": [
+              "4901019"
+            ]
+          },
+          "4901019": {
+            "id": "4901019",
+            "speakerId": 1002,
+            "speakerName": "Jean",
+            "text": "#Let the Wind lead. The winds of freedom will guide us along the path that lies ahead. I hope you will continue to join us on that path, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49000",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4900007"
+        ],
+        "dialogs": {
+          "4900007": {
+            "id": "4900007",
+            "speakerId": 1001,
+            "speakerName": "Barbara",
+            "text": "Jean is not as strong as she comes off. It's so good that you're here for her."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49015",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901501"
+        ],
+        "dialogs": {
+          "4901501": {
+            "id": "4901501",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "My word, the Dawn Winery's wine is every bit as delectable as they say!",
+            "nextDialogs": [
+              "4901502"
+            ]
+          },
+          "4901502": {
+            "id": "4901502",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I would never be able to afford this normally, so in the spirit of enjoying the moment while it lasts... Another glass for the bard, please!",
+            "nextDialogs": [
+              "4901503"
+            ]
+          },
+          "4901503": {
+            "id": "4901503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Venti can drink a frightening amount...",
+            "nextDialogs": [
+              "4901504"
+            ]
+          },
+          "4901504": {
+            "id": "4901504",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "Ah, hello! I didn't see you there.",
+            "nextDialogs": [
+              "4901505"
+            ]
+          },
+          "4901505": {
+            "id": "4901505",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I blame the wine for monopolizing my attention! Much like my ballads, it deserves to be enjoyed for generations to come.",
+            "nextDialogs": [
+              "4901506"
+            ]
+          },
+          "4901506": {
+            "id": "4901506",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "What is this floating sensation I feel? Have I discovered the true meaning of Anemo power?",
+            "nextDialogs": [
+              "4901507"
+            ]
+          },
+          "4901507": {
+            "id": "4901507",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That would be the drink talking...",
+            "nextDialogs": [
+              "4901508"
+            ]
+          },
+          "4901508": {
+            "id": "4901508",
+            "speakerId": 1008,
+            "speakerName": "Venti",
+            "text": "I hereby declare that every son and daughter of the City of the Wind must be compelled to taste this finest of wines... Here's to good wine!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "49016",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901601"
+        ],
+        "dialogs": {
+          "4901601": {
+            "id": "4901601",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "That's glass number thirty-seven.",
+            "nextDialogs": [
+              "4901602"
+            ]
+          },
+          "4901602": {
+            "id": "4901602",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's Diluc doing?",
+            "nextDialogs": [
+              "4901603"
+            ]
+          },
+          "4901603": {
+            "id": "4901603",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "I am keeping count of this bard's alarming pace of progress through my wine.",
+            "nextDialogs": [
+              "4901604"
+            ]
+          },
+          "4901604": {
+            "id": "4901604",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "Only the Knights drink for free tonight. It seems he didn't get the message.",
+            "nextDialogs": [
+              "4901605"
+            ]
+          },
+          "4901605": {
+            "id": "4901605",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "When he sobers up, I will present him with the bill.",
+            "nextDialogs": [
+              "4901606"
+            ]
+          },
+          "4901606": {
+            "id": "4901606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Diluc... You're a meanie!",
+            "nextDialogs": [
+              "4901607"
+            ]
+          },
+          "4901607": {
+            "id": "4901607",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "...I'm joking, of course. I highly doubt he could afford it anyway, so I shall spare him the bill.",
+            "nextDialogs": [
+              "4901608"
+            ]
+          },
+          "4901608": {
+            "id": "4901608",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "But I must say, the sheer volume of alcohol this fellow can put back is just not normal."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49017",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901701"
+        ],
+        "dialogs": {
+          "4901701": {
+            "id": "4901701",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "\"Leaving the hustle and bustle of the banquet behind them, the two of them stood there, together in the quiet of the night, while the rest of the world melted away around them...\"",
+            "nextDialogs": [
+              "4901702"
+            ]
+          },
+          "4901702": {
+            "id": "4901702",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "Sounds like the sort of thing you'd find in a romantic novel, no?",
+            "nextDialogs": [
+              "4901703"
+            ]
+          },
+          "4901703": {
+            "id": "4901703",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "I'm not trying to get you to recite poetry to me or anything...",
+            "nextDialogs": [
+              "4901704"
+            ]
+          },
+          "4901704": {
+            "id": "4901704",
+            "speakerId": 1006,
+            "speakerName": "Lisa",
+            "text": "I'm just saying, <color=#00E1FFFF>Jean went upstairs to the balcony. Alone.</color> Now's your chance... Hehe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "49018",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4901801"
+        ],
+        "dialogs": {
+          "4901801": {
+            "id": "4901801",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "#{NICKNAME}...",
+            "nextDialogs": [
+              "4901802"
+            ]
+          },
+          "4901802": {
+            "id": "4901802",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Amber! You look like you're about to burst into tears. Whatever is the matter?",
+            "nextDialogs": [
+              "4901803"
+            ]
+          },
+          "4901803": {
+            "id": "4901803",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Two things! One, this Sweet Madame! Two, this Sticky Honey Roast!",
+            "nextDialogs": [
+              "4901804"
+            ]
+          },
+          "4901804": {
+            "id": "4901804",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Did you make them?",
+            "nextDialogs": [
+              "4901805"
+            ]
+          },
+          "4901805": {
+            "id": "4901805",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You'd better believe it!",
+            "nextDialogs": [
+              "4901806"
+            ]
+          },
+          "4901806": {
+            "id": "4901806",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "Mmm... I refuse to believe it! Where did you suddenly learn to cook so well?",
+            "nextDialogs": [
+              "4901807"
+            ]
+          },
+          "4901807": {
+            "id": "4901807",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "I'm going to finish eating this, and then you're going to teach me everything you know! Don't you dare try and run off!",
+            "nextDialogs": [
+              "4901808"
+            ]
+          },
+          "4901808": {
+            "id": "4901808",
+            "speakerId": 1004,
+            "speakerName": "Amber",
+            "text": "*om nom nom*",
+            "nextDialogs": [
+              "4901809"
+            ]
+          },
+          "4901809": {
+            "id": "4901809",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Has... Amber been drinking?"
+          }
+        }
+      }
+    }
+  ]
+}

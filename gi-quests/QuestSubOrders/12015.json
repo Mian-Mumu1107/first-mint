@@ -1,0 +1,783 @@
+{
+  "lineCounts": {
+    "Ei": 26,
+    "Inagi Hotomi": 3,
+    "Ippei": 9,
+    "Kujou Kamaji": 11,
+    "Paimon": 39,
+    "Player": 41,
+    "Raiden Shogun": 11,
+    "Takeshi": 8,
+    "Thoma": 14,
+    "Yae Miko": 24
+  },
+  "subQuests": [
+    {
+      "subId": "1201501",
+      "subQuestName": "Go to the Statue of the Omnipresent God",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1201502",
+      "subQuestName": "Talk to Thoma and Kujou Kamaji",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150201"
+        ],
+        "dialogs": {
+          "120150201": {
+            "id": "120150201",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "If the Tenryou Commission won't assist in dealing with the thunderstorm, the consequences could be catastrophic.",
+            "nextDialogs": [
+              "120150202"
+            ]
+          },
+          "120150202": {
+            "id": "120150202",
+            "speakerId": 1001,
+            "speakerName": "Kujou Kamaji",
+            "text": "It's not that we're unwilling to do our part. We just don't have any spare hands right now. I hope you can understand.",
+            "nextDialogs": [
+              "120150203"
+            ]
+          },
+          "120150203": {
+            "id": "120150203",
+            "speakerId": 1002,
+            "speakerName": "Ippei",
+            "text": "Exactly. So let's keep the discussion going, and see if we can find a solution.",
+            "nextDialogs": [
+              "120150204"
+            ]
+          },
+          "120150204": {
+            "id": "120150204",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Hey, Thoma! What's going on?",
+            "nextDialogs": [
+              "120150205"
+            ]
+          },
+          "120150205": {
+            "id": "120150205",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "Ah, hello you two. We were just talking about what an impact you've made in Inazuma.",
+            "nextDialogs": [
+              "120150208"
+            ]
+          },
+          "120150208": {
+            "id": "120150208",
+            "speakerId": 1001,
+            "speakerName": "Kujou Kamaji",
+            "text": "Greetings. Thank you both again for delivering Miss Hiiragi's letter that time.",
+            "nextDialogs": [
+              "120150209"
+            ]
+          },
+          "120150209": {
+            "id": "120150209",
+            "speakerId": 1002,
+            "speakerName": "Ippei",
+            "text": "Ah, so they're friends of yours. I'm Master Kamaji's servant. Call me Ippei!",
+            "nextDialogs": [
+              "120150210"
+            ]
+          },
+          "120150210": {
+            "id": "120150210",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sounds like you're having some trouble?",
+            "nextDialogs": [
+              "120150211"
+            ]
+          },
+          "120150211": {
+            "id": "120150211",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "Well, the Tri-Commission's work used to consist of gathering information for the Shogun and carrying out any duties she assigned.",
+            "nextDialogs": [
+              "120150212"
+            ]
+          },
+          "120150212": {
+            "id": "120150212",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "But recently, she announced that she wishes to spend some time in solitude and self-reflection. Since she is refusing to receive any visitors, there is no one to tell us what to do.",
+            "nextDialogs": [
+              "120150213"
+            ]
+          },
+          "120150213": {
+            "id": "120150213",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "We all understand if the Shogun needs some quiet time to gather her thoughts. The only problem is, in the meantime, the thunderstorm out at sea has been getting wilder.",
+            "nextDialogs": [
+              "120150214"
+            ]
+          },
+          "120150214": {
+            "id": "120150214",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I hear that storm represents the Shogun's will.",
+            "nextDialogs": [
+              "120150215"
+            ]
+          },
+          "120150215": {
+            "id": "120150215",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "Yup, that's the one, and in all the time it's been there, the storm has never changed in shape or size. But now, it seems to be drawing closer to Inazuma.",
+            "nextDialogs": [
+              "120150216"
+            ]
+          },
+          "120150216": {
+            "id": "120150216",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "What!? So her will's changed and she wants to destroy Inazuma now? Or is this her way of trying to get revenge on us?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201503",
+      "subQuestName": "Go to the Grand Narukami Shrine and look for Yae Miko",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1201504",
+      "subQuestName": "Look for Yae Miko",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150401"
+        ],
+        "dialogs": {
+          "120150401": {
+            "id": "120150401",
+            "speakerId": 1004,
+            "speakerName": "Inagi Hotomi",
+            "text": "Are you here to see Lady Yae?",
+            "nextDialogs": [
+              "120150402"
+            ]
+          },
+          "120150402": {
+            "id": "120150402",
+            "speakerId": 1004,
+            "speakerName": "Inagi Hotomi",
+            "text": "She was inside a moment ago, but her movements are always a source of mystery — you never know when she might disappear...",
+            "nextDialogs": [
+              "120150403"
+            ]
+          },
+          "120150403": {
+            "id": "120150403",
+            "speakerId": 1004,
+            "speakerName": "Inagi Hotomi",
+            "text": "Anyway, you may head in and see if she's there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201505",
+      "subQuestName": "Talk to Yae Miko",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150501"
+        ],
+        "dialogs": {
+          "120150501": {
+            "id": "120150501",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "I wasn't expecting to receive VIP shrine visitors during down time. Hehe, so I suppose you're here just to visit me?",
+            "nextDialogs": [
+              "120150503",
+              "120150506"
+            ]
+          },
+          "120150503": {
+            "id": "120150503",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "What a smooth talker... though, your eyes do not lie as convincingly as your tongue. You came because you need my help, didn't you?",
+            "nextDialogs": [
+              "120150504"
+            ]
+          },
+          "120150504": {
+            "id": "120150504",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "Still, your answer has put me in a good mood.",
+            "nextDialogs": [
+              "120150508"
+            ]
+          },
+          "120150508": {
+            "id": "120150508",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "So, tell me. What is the matter?",
+            "nextDialogs": [
+              "120150509"
+            ]
+          },
+          "120150509": {
+            "id": "120150509",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "We heard that the Shogun decided to take a break, and since then the thunderstorm around Inazuma has gotten wilder.",
+            "nextDialogs": [
+              "120150510"
+            ]
+          },
+          "120150510": {
+            "id": "120150510",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Rumor has it that the thunderstorm is affected by the Shogun's will. So people are worrying that something might be wrong with her.",
+            "nextDialogs": [
+              "120150511"
+            ]
+          },
+          "120150511": {
+            "id": "120150511",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The Tenryou Commission also needs her attention.",
+            "nextDialogs": [
+              "120150512"
+            ]
+          },
+          "120150512": {
+            "id": "120150512",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "*sigh*...",
+            "nextDialogs": [
+              "120150513"
+            ]
+          },
+          "120150513": {
+            "id": "120150513",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "Alright. There's little purpose in keeping anything hidden from you, anyway.",
+            "nextDialogs": [
+              "120150514"
+            ]
+          },
+          "120150514": {
+            "id": "120150514",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "Since the battle, the Shogun has been greatly troubled and her temperament has changed drastically.",
+            "nextDialogs": [
+              "120150515"
+            ]
+          },
+          "120150515": {
+            "id": "120150515",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "What!?"
+          },
+          "120150506": {
+            "id": "120150506",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "Oh, how cold. I saved your skin, didn't I? Surely you could at least humor me by engaging in some small talk first?",
+            "nextDialogs": [
+              "120150507"
+            ]
+          },
+          "120150507": {
+            "id": "120150507",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "Then again, I suppose your frankness is part of your charm."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201506",
+      "subQuestName": "Go to see the Shogun",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1201507",
+      "subQuestName": "Talk to Takeshi at the entrance",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150701"
+        ],
+        "dialogs": {
+          "120150701": {
+            "id": "120150701",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "The Almighty Shogun has requested solitude. No visitors allowed.",
+            "nextDialogs": [
+              "120150702"
+            ]
+          },
+          "120150702": {
+            "id": "120150702",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "We've got a Pass Permit from Miko.",
+            "nextDialogs": [
+              "120150703"
+            ]
+          },
+          "120150703": {
+            "id": "120150703",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Don't be ridiculous. Lady Guuji never gives her Pass Permit to another person, not even esteemed travelers like yourselves.",
+            "nextDialogs": [
+              "120150704"
+            ]
+          },
+          "120150704": {
+            "id": "120150704",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Guuji Yae is only authorized to hold that Pass Permit because of the trust that the Almighty Shogun places in her and her alone...",
+            "nextDialogs": [
+              "120150705"
+            ]
+          },
+          "120150705": {
+            "id": "120150705",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Wait... This is... authentic!?",
+            "nextDialogs": [
+              "120150708"
+            ]
+          },
+          "120150708": {
+            "id": "120150708",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Understood. Then, as the Shogun has ordered, I must not stand in your way.",
+            "nextDialogs": [
+              "120150709"
+            ]
+          },
+          "120150709": {
+            "id": "120150709",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Apologies, please proceed. Since the Shogun is resting at this time, please be especially respectful and make sure your behavior is impeccable."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201508",
+      "subQuestName": "Go to Tenshukaku to see the Shogun",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150802"
+        ],
+        "dialogs": {
+          "120150802": {
+            "id": "120150802",
+            "speakerId": 1007,
+            "speakerName": "Raiden Shogun",
+            "text": "How did you get in?",
+            "nextDialogs": [
+              "120150803"
+            ]
+          },
+          "120150803": {
+            "id": "120150803",
+            "speakerId": 1007,
+            "speakerName": "Raiden Shogun",
+            "text": "Trespassers are to be eliminated at once.",
+            "nextDialogs": [
+              "120150804"
+            ]
+          },
+          "120150804": {
+            "id": "120150804",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Wait, no, it's us! Why are you treating us like we're your enemies!?",
+            "nextDialogs": [
+              "120150805"
+            ]
+          },
+          "120150805": {
+            "id": "120150805",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "We made amends, didn't we? Also, we got in by totally legitimate means!",
+            "nextDialogs": [
+              "120150806"
+            ]
+          },
+          "120150806": {
+            "id": "120150806",
+            "speakerId": 1007,
+            "speakerName": "Raiden Shogun",
+            "text": "Denied. Use of force has been forbidden.",
+            "nextDialogs": [
+              "120150807"
+            ]
+          },
+          "120150807": {
+            "id": "120150807",
+            "speakerId": 1007,
+            "speakerName": "Raiden Shogun",
+            "text": "Anyway. Be gone. Do not disturb my solitude.",
+            "nextDialogs": [
+              "120150810"
+            ]
+          },
+          "120150810": {
+            "id": "120150810",
+            "speakerId": 1007,
+            "speakerName": "Raiden Shogun",
+            "text": "That is of no concern. This is my recuperation state.",
+            "nextDialogs": [
+              "120150811"
+            ]
+          },
+          "120150811": {
+            "id": "120150811",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#Huh, {NICKNAME}, what do you make of this? She's acting strange, huh?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201509",
+      "subQuestName": "Enter the Plane of Euthymia",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120150901"
+        ],
+        "dialogs": {
+          "120150901": {
+            "id": "120150901",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "That was terrifying! Would it be so hard to give us a little warning first...",
+            "nextDialogs": [
+              "120150902"
+            ]
+          },
+          "120150902": {
+            "id": "120150902",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "It's not your first time. I don't see what there is to be so alarmed about.",
+            "nextDialogs": [
+              "120150903"
+            ]
+          },
+          "120150903": {
+            "id": "120150903",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "So, is the Shogun broken? Are you gonna get it fixed, or...?",
+            "nextDialogs": [
+              "120150904"
+            ]
+          },
+          "120150904": {
+            "id": "120150904",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "Don't worry. The Shogun's not broken, I've just temporarily disabled many of her functions.",
+            "nextDialogs": [
+              "120150905"
+            ]
+          },
+          "120150905": {
+            "id": "120150905",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "Currently, the Shogun is unable to handle any business and cannot appear as me. So the easiest solution was to announce that I am resting.",
+            "nextDialogs": [
+              "120150908"
+            ]
+          },
+          "120150908": {
+            "id": "120150908",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "As I said, I need to think about Inazuma's Eternity. And thinking takes time.",
+            "nextDialogs": [
+              "120150909"
+            ]
+          },
+          "120150909": {
+            "id": "120150909",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "But the Shogun is still running based on her old rules. I can't allow her to make any more mistakes while I am working things out.",
+            "nextDialogs": [
+              "120150910"
+            ]
+          },
+          "120150910": {
+            "id": "120150910",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Have you tried turning it off and on again?",
+            "nextDialogs": [
+              "120150911"
+            ]
+          },
+          "120150911": {
+            "id": "120150911",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "No. She was not created to ever be turned off.",
+            "nextDialogs": [
+              "120150912"
+            ]
+          },
+          "120150912": {
+            "id": "120150912",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "Furthermore, I had even predicted at the time that I may wish to modify the Shogun's operational rules at some point in the future. However, such changes would not be conducive to Eternity.",
+            "nextDialogs": [
+              "120150913"
+            ]
+          },
+          "120150913": {
+            "id": "120150913",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You are so strict with yourself...",
+            "nextDialogs": [
+              "120150914"
+            ]
+          },
+          "120150914": {
+            "id": "120150914",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "That's why the Shogun has a robust system to safeguard against modification. It's also to protect against unforeseen circumstances.",
+            "nextDialogs": [
+              "120150915"
+            ]
+          },
+          "120150915": {
+            "id": "120150915",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "For now, while I figure out the form that Eternity should take, it's more effective for me to temporarily disable some of the puppet's functions rather than attempt to modify her rules.",
+            "nextDialogs": [
+              "120150916"
+            ]
+          },
+          "120150916": {
+            "id": "120150916",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Paimon gets it now. The thunderstorm's getting out of control because some of the Shogun's functions have been disabled.",
+            "nextDialogs": [
+              "120150917"
+            ]
+          },
+          "120150917": {
+            "id": "120150917",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "The thunderstorm is getting out of control? This is the first I've heard of it.",
+            "nextDialogs": [
+              "120150918"
+            ]
+          },
+          "120150918": {
+            "id": "120150918",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Huh? Okay, well, let us bring you up to speed...",
+            "nextDialogs": [
+              "120150919"
+            ]
+          },
+          "120150919": {
+            "id": "120150919",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "Hmm, I see. So the thunderstorm is drawing closer...",
+            "nextDialogs": [
+              "120150920"
+            ]
+          },
+          "120150920": {
+            "id": "120150920",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "You can fix it... right?",
+            "nextDialogs": [
+              "120150921"
+            ]
+          },
+          "120150921": {
+            "id": "120150921",
+            "speakerId": 1008,
+            "speakerName": "Ei",
+            "text": "It's just a minor error. This kind of thing was bound to happen. A small modification to the Shogun should fix it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201510",
+      "subQuestName": "Speak to Ei in the distance",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1201551",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120155101"
+        ],
+        "dialogs": {
+          "120155101": {
+            "id": "120155101",
+            "speakerId": 1000,
+            "speakerName": "Thoma",
+            "text": "Your master shouldn't blame himself so much. Anyone else in his position would find it just as difficult to deal with.",
+            "nextDialogs": [
+              "120155102"
+            ]
+          },
+          "120155102": {
+            "id": "120155102",
+            "speakerId": 1002,
+            "speakerName": "Ippei",
+            "text": "Exactly. He puts far too much pressure on himself...",
+            "nextDialogs": [
+              "120155103"
+            ]
+          },
+          "120155103": {
+            "id": "120155103",
+            "speakerId": 1002,
+            "speakerName": "Ippei",
+            "text": "*sigh*... The Kujou Clan's future isn't looking bright."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201552",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120155201"
+        ],
+        "dialogs": {
+          "120155201": {
+            "id": "120155201",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "She spends all her time alone. Having a visitor once in a while can't do any harm.",
+            "nextDialogs": [
+              "120155202"
+            ]
+          },
+          "120155202": {
+            "id": "120155202",
+            "speakerId": 1005,
+            "speakerName": "Yae Miko",
+            "text": "As the one who shook Eternity, you are her potential for change."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1201553",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120155301"
+        ],
+        "dialogs": {
+          "120155301": {
+            "id": "120155301",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "It's rumored that the Almighty Shogun has taken ill... Could it be true?",
+            "nextDialogs": [
+              "120155302"
+            ]
+          },
+          "120155302": {
+            "id": "120155302",
+            "speakerId": 1006,
+            "speakerName": "Takeshi",
+            "text": "Ah, ignore me. Please, head in."
+          }
+        }
+      }
+    }
+  ]
+}

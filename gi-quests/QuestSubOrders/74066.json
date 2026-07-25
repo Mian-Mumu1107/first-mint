@@ -1,0 +1,545 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Monglane": 38,
+    "Paimon": 62,
+    "Player": 33
+  },
+  "subQuests": [
+    {
+      "subId": "7406602",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660201"
+        ],
+        "dialogs": {
+          "740660201": {
+            "id": "740660201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The \"Art of Negotiation\"...? Hmph! Even the title is boring! Paimon's not interested in that... Huh?",
+            "nextDialogs": [
+              "740660202"
+            ]
+          },
+          "740660202": {
+            "id": "740660202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Eh? There's a note here? Hmm... \"Go to the registration counter at the front desk to participate in the Coupon Cafeteria's internal satisfaction survey for a chance to win Coupon rewards...\"",
+            "nextDialogs": [
+              "740660203"
+            ]
+          },
+          "740660203": {
+            "id": "740660203",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Coupons... Whoa! See this? We can get Coupons! Paimon didn't expect something this good at all! Let's go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406603",
+      "subQuestName": "Talk to Monglane",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660901"
+        ],
+        "dialogs": {
+          "740660901": {
+            "id": "740660901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Paimon is ready now! Do your worst!)",
+            "nextDialogs": [
+              "740660902"
+            ]
+          },
+          "740660902": {
+            "id": "740660902",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Question one. Do you think it is reasonable to maintain the prices for the food in the Coupon Cafeteria at the current low level?",
+            "nextDialogs": [
+              "740660903"
+            ]
+          },
+          "740660903": {
+            "id": "740660903",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Hmm... How do we answer this? Let Paimon look it up... Found it! Let's try the universal formula.)",
+            "nextDialogs": [
+              "740660904"
+            ]
+          },
+          "740660904": {
+            "id": "740660904",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(According to the book \"I agree with your views, but...\" can be used in any situation. Even an Abyss Mage would be willing to respond positively. It sounds really amazing.)",
+            "nextDialogs": [
+              "740660906",
+              "740660910",
+              "740660915"
+            ]
+          },
+          "740660906": {
+            "id": "740660906",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah...? Paimon wouldn't touch that horrible stuff even if it was free!",
+            "nextDialogs": [
+              "740660907"
+            ]
+          },
+          "740660907": {
+            "id": "740660907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But what if our food budget runs out...?",
+            "nextDialogs": [
+              "740660908"
+            ]
+          },
+          "740660908": {
+            "id": "740660908",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm... When you put it like that... N—NO! Paimon would rather starve!",
+            "nextDialogs": [
+              "740660918"
+            ]
+          },
+          "740660918": {
+            "id": "740660918",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "*Cough* Excuse me.",
+            "nextDialogs": [
+              "740660919"
+            ]
+          },
+          "740660919": {
+            "id": "740660919",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "740660920"
+            ]
+          },
+          "740660920": {
+            "id": "740660920",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "According to the rules, the survey must be answered quickly. Let's move on to the next question.",
+            "nextDialogs": [
+              "740660921"
+            ]
+          },
+          "740660921": {
+            "id": "740660921",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "F—Fine... Rules are rules...",
+            "nextDialogs": [
+              "740660922"
+            ]
+          },
+          "740660922": {
+            "id": "740660922",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Question number two. Is adequate food available during dining hours in the Coupon Cafeteria?",
+            "nextDialogs": [
+              "740660923"
+            ]
+          },
+          "740660923": {
+            "id": "740660923",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "There's plenty of food... But it just tastes awful!"
+          },
+          "740660910": {
+            "id": "740660910",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh!? Why!?",
+            "nextDialogs": [
+              "740660911"
+            ]
+          },
+          "740660911": {
+            "id": "740660911",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Forget the best, we want the most expensive!",
+            "nextDialogs": [
+              "740660912"
+            ]
+          },
+          "740660912": {
+            "id": "740660912",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What kind of crazy talk is that!?",
+            "nextDialogs": [
+              "740660913"
+            ]
+          },
+          "740660913": {
+            "id": "740660913",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A—Are you alright...? You don't seem normal at all. Did you eat something strange?"
+          },
+          "740660915": {
+            "id": "740660915",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "But?",
+            "nextDialogs": [
+              "740660916"
+            ]
+          },
+          "740660916": {
+            "id": "740660916",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#But there is room for improvement! If only it tasted just a little better! Don't you think so too, {NICKNAME}?",
+            "nextDialogs": [
+              "740660917"
+            ]
+          },
+          "740660917": {
+            "id": "740660917",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Or... If Sweet Madame was available. Yeah! Paimon would happily eat here every day if you did that!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406603",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660301"
+        ],
+        "dialogs": {
+          "740660301": {
+            "id": "740660301",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The registration counter at the front desk... This is it! Let's try our luck!",
+            "nextDialogs": [
+              "740660302"
+            ]
+          },
+          "740660302": {
+            "id": "740660302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hello, Ms. Monglane!",
+            "nextDialogs": [
+              "740660303"
+            ]
+          },
+          "740660303": {
+            "id": "740660303",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "...",
+            "nextDialogs": [
+              "740660304"
+            ]
+          },
+          "740660304": {
+            "id": "740660304",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Whoa! She doesn't look like she's easy to get along with!)",
+            "nextDialogs": [
+              "740660305"
+            ]
+          },
+          "740660305": {
+            "id": "740660305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Maybe the Art of Negotiation will work?)",
+            "nextDialogs": [
+              "740660306"
+            ]
+          },
+          "740660306": {
+            "id": "740660306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(That's right, we've got this book! Who knew it would come in handy here?)",
+            "nextDialogs": [
+              "740660307"
+            ]
+          },
+          "740660307": {
+            "id": "740660307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Let's see... Found it! \"If you gain the initiative by showing your strength and overwhelm your opponent with an imposing manner...\"",
+            "nextDialogs": [
+              "740660308"
+            ]
+          },
+          "740660308": {
+            "id": "740660308",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "This is it! Overwhelm the opponent by being imposing! Paimon gets it! Paimon just has to be louder, right?",
+            "nextDialogs": [
+              "740660309"
+            ]
+          },
+          "740660309": {
+            "id": "740660309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey! Ms. Monglane! Hello—",
+            "nextDialogs": [
+              "740660310"
+            ]
+          },
+          "740660310": {
+            "id": "740660310",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "...I heard you. What can I do for you?",
+            "nextDialogs": [
+              "740660311"
+            ]
+          },
+          "740660311": {
+            "id": "740660311",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? It really worked!",
+            "nextDialogs": [
+              "740660312"
+            ]
+          },
+          "740660312": {
+            "id": "740660312",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#Hehe, we're here for the satisfaction survey, Ms. Monglane! Er, Paimon means to say that she's here to accompany {M#him}{F#her}.",
+            "nextDialogs": [
+              "740660313"
+            ]
+          },
+          "740660313": {
+            "id": "740660313",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "#(Don't worry, {NICKNAME}. We have this book. Paimon will sneak peeks at the book and tell you what to do! Anyway... Yeah! Just listen to Paimon!)",
+            "nextDialogs": [
+              "740660314"
+            ]
+          },
+          "740660314": {
+            "id": "740660314",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Another one saw the notes in the books...",
+            "nextDialogs": [
+              "740660315"
+            ]
+          },
+          "740660315": {
+            "id": "740660315",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Yeah, that's right!",
+            "nextDialogs": [
+              "740660316"
+            ]
+          },
+          "740660316": {
+            "id": "740660316",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Just how many were...? Actually... Ugh, forget it. It's fine...",
+            "nextDialogs": [
+              "740660317"
+            ]
+          },
+          "740660317": {
+            "id": "740660317",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Ahem, please wait a moment... Allow me to explain the rules. The survey has a total of five questions. Please answer them quickly and intuitively. Remember, you must answer them quickly.",
+            "nextDialogs": [
+              "740660318"
+            ]
+          },
+          "740660318": {
+            "id": "740660318",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Do you understand? We can begin once you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406604",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660401"
+        ],
+        "dialogs": {
+          "740660401": {
+            "id": "740660401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We're ready.",
+            "nextDialogs": [
+              "740660402"
+            ]
+          },
+          "740660402": {
+            "id": "740660402",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Whoa! Wait! Paimon is still flipping through the book...)",
+            "nextDialogs": [
+              "740660403"
+            ]
+          },
+          "740660403": {
+            "id": "740660403",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Very good. Let's hurry up and begin then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406605",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660501"
+        ],
+        "dialogs": {
+          "740660501": {
+            "id": "740660501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Please give me a moment to get ready.",
+            "nextDialogs": [
+              "740660502"
+            ]
+          },
+          "740660502": {
+            "id": "740660502",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "...Oh. I see. Please be quick about it.",
+            "nextDialogs": [
+              "740660503"
+            ]
+          },
+          "740660503": {
+            "id": "740660503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "(Hey... Why is she being so impatient...?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406606",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660601"
+        ],
+        "dialogs": {
+          "740660601": {
+            "id": "740660601",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "Are you ready now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406607",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660701"
+        ],
+        "dialogs": {
+          "740660701": {
+            "id": "740660701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406608",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740660801"
+        ],
+        "dialogs": {
+          "740660801": {
+            "id": "740660801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Please give me a moment to get ready.",
+            "nextDialogs": [
+              "740660802"
+            ]
+          },
+          "740660802": {
+            "id": "740660802",
+            "speakerId": 1001,
+            "speakerName": "Monglane",
+            "text": "*sigh* Please hurry up then."
+          }
+        }
+      }
+    }
+  ]
+}

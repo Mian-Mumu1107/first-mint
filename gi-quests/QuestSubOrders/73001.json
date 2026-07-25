@@ -1,0 +1,1730 @@
+{
+  "lineCounts": {
+    "Alphonso": 20,
+    "Amadhiah": 17,
+    "Bahram": 1,
+    "Black Screen": 9,
+    "Children": 5,
+    "Iosaphat": 1,
+    "Iotham": 32,
+    "Jehiet": 2,
+    "Kavus": 27,
+    "Paimon": 101,
+    "Player": 109,
+    "Rana": 97,
+    "Sudabeh": 33
+  },
+  "subQuests": [
+    {
+      "subId": "7300101",
+      "subQuestName": "Talk to Rana once you are ready",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010101"
+        ],
+        "dialogs": {
+          "730010101": {
+            "id": "730010101",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "When you're ready, I'll take you to Vimara Village. It's smooth sailing from there to either Sumeru City or Port Ormos.",
+            "nextDialogs": [
+              "730010102"
+            ]
+          },
+          "730010102": {
+            "id": "730010102",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "I'm a Forest Watcher, after all. Escorting travelers is my job.",
+            "nextDialogs": [
+              "730010104",
+              "730010106"
+            ]
+          },
+          "730010104": {
+            "id": "730010104",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Okay, follow me!"
+          },
+          "730010106": {
+            "id": "730010106",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "All right. Be safe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300102",
+      "subQuestName": "Follow Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010201"
+        ],
+        "dialogs": {
+          "730010201": {
+            "id": "730010201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300103",
+      "subQuestName": "Talk to Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010401"
+        ],
+        "dialogs": {
+          "730010401": {
+            "id": "730010401",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "It's only been a few days and a new Withering Zone has popped up already. So close to the main road, too...",
+            "nextDialogs": [
+              "730010402"
+            ]
+          },
+          "730010402": {
+            "id": "730010402",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ah, Withering Zone again...",
+            "nextDialogs": [
+              "730010406",
+              "730010405"
+            ]
+          },
+          "730010406": {
+            "id": "730010406",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#{NICKNAME} and Tighnari disposed of a Withering Zone before? I won't go into how dangerous it is, then.",
+            "nextDialogs": [
+              "730010407"
+            ]
+          },
+          "730010407": {
+            "id": "730010407",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Regardless, lemme mark down the location and radius of effect for now. After I take you to Vimara Village, I'll go to Gandharva Ville and bring Tighnari over to help.",
+            "nextDialogs": [
+              "730010408"
+            ]
+          },
+          "730010408": {
+            "id": "730010408",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "No need, Rana, just leave it to us.",
+            "nextDialogs": [
+              "730010409"
+            ]
+          },
+          "730010409": {
+            "id": "730010409",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "No way! The Withering Zone is lethal, even veteran Forest Watchers wouldn't approach it unless absolutely necessary.",
+            "nextDialogs": [
+              "730010410"
+            ]
+          },
+          "730010410": {
+            "id": "730010410",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME} can manipulate the elements, and it should somewhat stave off the Withering's effects!",
+            "nextDialogs": [
+              "730010411"
+            ]
+          },
+          "730010411": {
+            "id": "730010411",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Eh? Now that I think about it, you did show such ability when fending off the Fungi...",
+            "nextDialogs": [
+              "730010412"
+            ]
+          },
+          "730010412": {
+            "id": "730010412",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "But still, you shouldn't do that. We can't have you injured by the Withering after coming all this way.",
+            "nextDialogs": [
+              "730010413"
+            ]
+          },
+          "730010413": {
+            "id": "730010413",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#Don't worry, Rana! {NICKNAME} has proven to be very reliable in the many encounters throughout our journey."
+          },
+          "730010405": {
+            "id": "730010405",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "That's right, we cleared a Withering Zone with Tighnari before. Paimon recalls that was near Gandharva Ville, right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300104",
+      "subQuestName": "Clean up the Withering Zone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7300105",
+      "subQuestName": "Talk to Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010501"
+        ],
+        "dialogs": {
+          "730010501": {
+            "id": "730010501",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME} is impressive, right?",
+            "nextDialogs": [
+              "730010502"
+            ]
+          },
+          "730010502": {
+            "id": "730010502",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "You're amazing! Incredibly amazing!",
+            "nextDialogs": [
+              "730010504"
+            ]
+          },
+          "730010504": {
+            "id": "730010504",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You're getting too excited, Rana.",
+            "nextDialogs": [
+              "730010506"
+            ]
+          },
+          "730010506": {
+            "id": "730010506",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#Pardon me... Ahem, {NICKNAME}... Uh, {M#Mr.}{F#Miss}..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300106",
+      "subQuestName": "Go to Vimara Village",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010601"
+        ],
+        "dialogs": {
+          "730010601": {
+            "id": "730010601",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "",
+            "nextDialogs": [
+              "730010602"
+            ]
+          },
+          "730010602": {
+            "id": "730010602",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300121",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012101"
+        ],
+        "dialogs": {
+          "730012101": {
+            "id": "730012101",
+            "speakerId": 1002,
+            "speakerName": "Iosaphat",
+            "text": "It's you! Welcome. Come over for a meal with Rana and the cubs if you get a chance. Got a nice catch today."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300118",
+      "subQuestName": "Talk to the elders in the village",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011601"
+        ],
+        "dialogs": {
+          "730011601": {
+            "id": "730011601",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "I'm back, Grandpa Amadhiah!",
+            "nextDialogs": [
+              "730011602"
+            ]
+          },
+          "730011602": {
+            "id": "730011602",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Rana! You know, the job of a Forest Watcher is important, but you should come around more often.",
+            "nextDialogs": [
+              "730011603"
+            ]
+          },
+          "730011603": {
+            "id": "730011603",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Yeah, I know. I patrol the forest so that those \"tiger cubs\" can hang out in the woods safely. It was just a mess right now.",
+            "nextDialogs": [
+              "730011604"
+            ]
+          },
+          "730011604": {
+            "id": "730011604",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "There are tigers in Vimara Village?",
+            "nextDialogs": [
+              "730011605"
+            ]
+          },
+          "730011605": {
+            "id": "730011605",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "\"Tiger cubs\" refers to Iotham and his friends. By the way, your voice... I don't think I've ever met you. Do we have visitors?",
+            "nextDialogs": [
+              "730011606"
+            ]
+          },
+          "730011606": {
+            "id": "730011606",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Oh, yes, Grandpa Amadhiah. These two are...",
+            "nextDialogs": [
+              "730011607"
+            ]
+          },
+          "730011607": {
+            "id": "730011607",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Rana gives Amadhiah a brief rundown.",
+            "nextDialogs": [
+              "730011608"
+            ]
+          },
+          "730011608": {
+            "id": "730011608",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Ah, I see. Welcome to Vimara Village, and thanks for helping Rana out.",
+            "nextDialogs": [
+              "730011609"
+            ]
+          },
+          "730011609": {
+            "id": "730011609",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "I plan to form a nightwatch, getting Alphonso, Bahram, and Aurelius to safeguard the perimeter as a group.",
+            "nextDialogs": [
+              "730011610"
+            ]
+          },
+          "730011610": {
+            "id": "730011610",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "That's a great plan. It's for the good of the children, after all.",
+            "nextDialogs": [
+              "730011611"
+            ]
+          },
+          "730011611": {
+            "id": "730011611",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Has something happened in Vimara Village lately?",
+            "nextDialogs": [
+              "730011612"
+            ]
+          },
+          "730011612": {
+            "id": "730011612",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh? Could it be related to the round plantlike creatures we saw before?",
+            "nextDialogs": [
+              "730011613"
+            ]
+          },
+          "730011613": {
+            "id": "730011613",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "What are you talking about? That sounded like a cabbage from your description.",
+            "nextDialogs": [
+              "730011614"
+            ]
+          },
+          "730011614": {
+            "id": "730011614",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "It's okay. We're just a little uneasy from some recent events.",
+            "nextDialogs": [
+              "730011615"
+            ]
+          },
+          "730011615": {
+            "id": "730011615",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "I've spent my whole life in Vimara Village and never saw anything like this. *sigh*",
+            "nextDialogs": [
+              "730011616"
+            ]
+          },
+          "730011616": {
+            "id": "730011616",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "I won't bore you with my stories. Please watch over Rana. She's always been a troublemaker since she was little.",
+            "nextDialogs": [
+              "730011617"
+            ]
+          },
+          "730011617": {
+            "id": "730011617",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "She got lost in the woods once when she was seven or eight, for a couple of days...",
+            "nextDialogs": [
+              "730011618"
+            ]
+          },
+          "730011618": {
+            "id": "730011618",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Hey now, Grandpa Amadhiah!",
+            "nextDialogs": [
+              "730011619"
+            ]
+          },
+          "730011619": {
+            "id": "730011619",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Fine, fine. You be a good host now, Rana. Don't let our guests down.",
+            "nextDialogs": [
+              "730011620"
+            ]
+          },
+          "730011620": {
+            "id": "730011620",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "For sure!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300107",
+      "subQuestName": "Follow Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010701"
+        ],
+        "dialogs": {
+          "730010701": {
+            "id": "730010701",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Allow me to introduce these two impressive travelers who have helped me a lot. And this here is Alphonso, just about the most dependable person in Vimara Village!",
+            "nextDialogs": [
+              "730010702"
+            ]
+          },
+          "730010702": {
+            "id": "730010702",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "You flatter me, Rana. Anyway, nice to meet you two, and thanks for looking after Rana.",
+            "nextDialogs": [
+              "730010703"
+            ]
+          },
+          "730010703": {
+            "id": "730010703",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You don't look like a local, Alphonso. Are you a traveler, too?",
+            "nextDialogs": [
+              "730010704"
+            ]
+          },
+          "730010704": {
+            "id": "730010704",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "Hahaha, you're an experienced traveler indeed, saw right through me at a glance.",
+            "nextDialogs": [
+              "730010705"
+            ]
+          },
+          "730010705": {
+            "id": "730010705",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "I came as an apprentice from Fontaine, but ended up staying because I really like it here.",
+            "nextDialogs": [
+              "730010706"
+            ]
+          },
+          "730010706": {
+            "id": "730010706",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "And it's been years since! Alphonso is practically one of us now!",
+            "nextDialogs": [
+              "730010707"
+            ]
+          },
+          "730010707": {
+            "id": "730010707",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Anyway, how are the kids? They're not running around, are they? I mean, it's not a good time right now...",
+            "nextDialogs": [
+              "730010708"
+            ]
+          },
+          "730010708": {
+            "id": "730010708",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "They're in the village, waiting for you to return. After Kavus came back...",
+            "nextDialogs": [
+              "730010709"
+            ]
+          },
+          "730010709": {
+            "id": "730010709",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "Is it really okay to talk about that in front of our guests? Maybe we should talk about it later...",
+            "nextDialogs": [
+              "730010710"
+            ]
+          },
+          "730010710": {
+            "id": "730010710",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Is it something important? We can come back later...",
+            "nextDialogs": [
+              "730010711"
+            ]
+          },
+          "730010711": {
+            "id": "730010711",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Don't worry. They saved my life, after all!",
+            "nextDialogs": [
+              "730010713",
+              "730010715"
+            ]
+          },
+          "730010713": {
+            "id": "730010713",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Time is life to me. You saved me time, so you saved my life!",
+            "nextDialogs": [
+              "730010718"
+            ]
+          },
+          "730010718": {
+            "id": "730010718",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Anyway, some of the children in Vimara Village have gone missing recently."
+          },
+          "730010715": {
+            "id": "730010715",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Yes, very impressive!",
+            "nextDialogs": [
+              "730010716"
+            ]
+          },
+          "730010716": {
+            "id": "730010716",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But Paimon thinks you're a good enough fighter to get it done yourself. Paimon means, don't you run into wild animals a lot as a Forest Watcher?",
+            "nextDialogs": [
+              "730010717"
+            ]
+          },
+          "730010717": {
+            "id": "730010717",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "That is true. However, time is life to me. You saved me time, so you saved my life."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300119",
+      "subQuestName": "Follow Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7300120",
+      "subQuestName": "Follow Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012001"
+        ],
+        "dialogs": {
+          "730012001": {
+            "id": "730012001",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Ah, friends of Rana, sorry about before. I must apologize for my aging eyes.",
+            "nextDialogs": [
+              "730012003",
+              "730012009",
+              "730012012"
+            ]
+          },
+          "730012003": {
+            "id": "730012003",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "You mean the round little plantlike fairies? I think I saw them before, but when and what was it...?",
+            "nextDialogs": [
+              "730012004"
+            ]
+          },
+          "730012004": {
+            "id": "730012004",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are they called Aranara?",
+            "nextDialogs": [
+              "730012005"
+            ]
+          },
+          "730012005": {
+            "id": "730012005",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Aranara... Probably. I might have heard stories before, but I'm too old to remember for sure.",
+            "nextDialogs": [
+              "730012006"
+            ]
+          },
+          "730012006": {
+            "id": "730012006",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "The forests of Sumeru are very big, teeming with countless wondrous creatures. But one won't miss what they're destined to find.",
+            "nextDialogs": [
+              "730012007"
+            ]
+          },
+          "730012007": {
+            "id": "730012007",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "However, if I was destined, I shouldn't have forgotten about them, either. So when was it...?"
+          },
+          "730012009": {
+            "id": "730012009",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Rana is a good kid. She works hard every day to keep this old man and the children in Vimara Village safe.",
+            "nextDialogs": [
+              "730012010"
+            ]
+          },
+          "730012010": {
+            "id": "730012010",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "I wonder when she'll have time to start a family and settle down."
+          },
+          "730012012": {
+            "id": "730012012",
+            "speakerId": 1003,
+            "speakerName": "Amadhiah",
+            "text": "Okay, goodbye."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300108",
+      "subQuestName": "Talk to the man",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7300109",
+      "subQuestName": "Follow the children to Rana's house",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010901"
+        ],
+        "dialogs": {
+          "730010901": {
+            "id": "730010901",
+            "speakerId": 1006,
+            "speakerName": "Iotham",
+            "text": "I want dragon stories! Alphonso told me they exist in the world! He said a huge, evil dragon lives in a place called Mondstadt!",
+            "nextDialogs": [
+              "730010903"
+            ]
+          },
+          "730010903": {
+            "id": "730010903",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, we know about that!",
+            "nextDialogs": [
+              "730010905"
+            ]
+          },
+          "730010905": {
+            "id": "730010905",
+            "speakerId": 1006,
+            "speakerName": "Iotham",
+            "text": "So what is that dragon like? Alphonso said it is terrifying and pillages Mondstadt!",
+            "nextDialogs": [
+              "730010906"
+            ]
+          },
+          "730010906": {
+            "id": "730010906",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmm... How should Paimon put it?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300117",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011701"
+        ],
+        "dialogs": {
+          "730011701": {
+            "id": "730011701",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "It's only been a few days and a new Withering Zone has popped up already. So close to the main road, too...",
+            "nextDialogs": [
+              "730011702"
+            ]
+          },
+          "730011702": {
+            "id": "730011702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Withering Zone?",
+            "nextDialogs": [
+              "730011703"
+            ]
+          },
+          "730011703": {
+            "id": "730011703",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Oh, that's a \"disaster\" unique to Sumeru. It's a force that emerges in an area and kills all living things within.",
+            "nextDialogs": [
+              "730011704"
+            ]
+          },
+          "730011704": {
+            "id": "730011704",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's true, all of the plants died.",
+            "nextDialogs": [
+              "730011705"
+            ]
+          },
+          "730011705": {
+            "id": "730011705",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Yeah. Tighnari would be able to eliminate it if he was around. But for someone like me, who doesn't have a Vision and cannot control the elements, it's very dangerous to go into a Withering Zone.",
+            "nextDialogs": [
+              "730011706"
+            ]
+          },
+          "730011706": {
+            "id": "730011706",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Regardless, lemme mark down the location and radius of effect for now. After I take you to Vimara Village, I'll go to Gandharva Ville and bring Tighnari over to help.",
+            "nextDialogs": [
+              "730011708",
+              "730011711"
+            ]
+          },
+          "730011708": {
+            "id": "730011708",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But can't you control the elements? What was it? Oh yeah, \"Prepare to be blown away!\"",
+            "nextDialogs": [
+              "730011709"
+            ]
+          },
+          "730011709": {
+            "id": "730011709",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Since you can control the elements, you should be able to help!",
+            "nextDialogs": [
+              "730011714"
+            ]
+          },
+          "730011714": {
+            "id": "730011714",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Eh? Now that I think about it, you did show such ability when fending off the Fungi...",
+            "nextDialogs": [
+              "730011715"
+            ]
+          },
+          "730011715": {
+            "id": "730011715",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "But we still shouldn't try. Withering Zones are lethal, and even veteran Forest Watchers wouldn't approach one unless absolutely necessary.",
+            "nextDialogs": [
+              "730011716"
+            ]
+          },
+          "730011716": {
+            "id": "730011716",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "#That might be the case, but {NICKNAME} has proven to be very reliable in the many encounters throughout our journey."
+          },
+          "730011711": {
+            "id": "730011711",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "But can't you control the elements? What was it? Oh yeah, \"Prepare to be blown away!\"",
+            "nextDialogs": [
+              "730011712"
+            ]
+          },
+          "730011712": {
+            "id": "730011712",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We should help!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300110",
+      "subQuestName": "Follow the children to Rana's house",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730010801"
+        ],
+        "dialogs": {
+          "730010801": {
+            "id": "730010801",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "These kids ran faster than birds could fly...",
+            "nextDialogs": [
+              "730010802"
+            ]
+          },
+          "730010802": {
+            "id": "730010802",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "You guys are getting good at running. It's going to worry me sick if you run away someday.",
+            "nextDialogs": [
+              "730010803"
+            ]
+          },
+          "730010803": {
+            "id": "730010803",
+            "speakerId": 1006,
+            "speakerName": "Iotham",
+            "text": "We won't run if Rana's here!",
+            "nextDialogs": [
+              "730010804"
+            ]
+          },
+          "730010804": {
+            "id": "730010804",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "I'm going to marry Rana when I grow up!",
+            "nextDialogs": [
+              "730010805"
+            ]
+          },
+          "730010805": {
+            "id": "730010805",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "Wait, didn't you promise to marry me? Liar!",
+            "nextDialogs": [
+              "730010806"
+            ]
+          },
+          "730010806": {
+            "id": "730010806",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Hahaha, we'll sort this out later! You'll meet more people when you grow up, people more impressive and better than me.",
+            "nextDialogs": [
+              "730010807"
+            ]
+          },
+          "730010807": {
+            "id": "730010807",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#For instance, {M#Mr. Blond}{F#Miss Blonde} here is way mightier than me, and has met many great people along their journey from far away, right?",
+            "nextDialogs": [
+              "730010812",
+              "730010811"
+            ]
+          },
+          "730010812": {
+            "id": "730010812",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "Have you been traveling a long time?",
+            "nextDialogs": [
+              "730010813"
+            ]
+          },
+          "730010813": {
+            "id": "730010813",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Rana said you'd tell us stories!"
+          },
+          "730010811": {
+            "id": "730010811",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hehe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300111",
+      "subQuestName": "Talk to the children",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7300112",
+      "subQuestName": "Talk to the children",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011001"
+        ],
+        "dialogs": {
+          "730011001": {
+            "id": "730011001",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "Sea monsters! I heard there's a lot of big and peculiar monsters in the sea!",
+            "nextDialogs": [
+              "730011002"
+            ]
+          },
+          "730011002": {
+            "id": "730011002",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "Like the fish that's as large as an island, or the squid as long as a river, and the story about the puppet and the whale! Also, the turtle carrying an elephant on its back!",
+            "nextDialogs": [
+              "730011003"
+            ]
+          },
+          "730011003": {
+            "id": "730011003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You've heard a lot of stories! Why the interest in sea monsters?",
+            "nextDialogs": [
+              "730011004"
+            ]
+          },
+          "730011004": {
+            "id": "730011004",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "When I grow up, I want to be a sailor, going on seven voyages and discovering uncharted islands and lands! That's why I want to learn about sea monsters. This way, I can defeat them one day!",
+            "nextDialogs": [
+              "730011007"
+            ]
+          },
+          "730011007": {
+            "id": "730011007",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "Wow! That's so cool! Did they find any treasure? Any tales of adventure?",
+            "nextDialogs": [
+              "730011008"
+            ]
+          },
+          "730011008": {
+            "id": "730011008",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Not sure, but Paimon does have a sea-monster story.",
+            "nextDialogs": [
+              "730011009"
+            ]
+          },
+          "730011009": {
+            "id": "730011009",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ahem. Once upon a time, there was a sea serpent with many heads living in the ocean! It was taller than a mountain when it stretched out its neck...",
+            "nextDialogs": [
+              "730011010"
+            ]
+          },
+          "730011010": {
+            "id": "730011010",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "\"The serpent didn't behave, so a god trapped it on the sea floor under rocks to prevent it from making waves and destroying the harbor.\"\\n\"After a long while, the serpent woke up and griped, 'Curse you, despicable god!'\"\\n\"'I'll wash all your houses and treasures out to the sea and make them mine! Roar!'\"\\n\"Then it rose up to higher than the mountains and caused a tidal wave...\"",
+            "nextDialogs": [
+              "730011011"
+            ]
+          },
+          "730011011": {
+            "id": "730011011",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Paimon tells the story of the people in the flying castle fighting the sea hydra together in a way that really engages the kids.",
+            "nextDialogs": [
+              "730011012"
+            ]
+          },
+          "730011012": {
+            "id": "730011012",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And that was how everybody worked together to defeat the serpent and protect the city!",
+            "nextDialogs": [
+              "730011013"
+            ]
+          },
+          "730011013": {
+            "id": "730011013",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "So the serpent has been defeated? What a shame, I wanted to beat it myself when I grew up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300113",
+      "subQuestName": "Talk to the children",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011101"
+        ],
+        "dialogs": {
+          "730011101": {
+            "id": "730011101",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What story would you like to hear, Sudabeh?",
+            "nextDialogs": [
+              "730011102"
+            ]
+          },
+          "730011102": {
+            "id": "730011102",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Any story will do! But I'd like it to have a distinguished lady who is smart and powerful. Well, she doesn't have to be a distinguished lady, but the character's got to be determined and loving.",
+            "nextDialogs": [
+              "730011103"
+            ]
+          },
+          "730011103": {
+            "id": "730011103",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Like Princess Cinnamon who left her palace with a tiger in the fairytale!",
+            "nextDialogs": [
+              "730011104"
+            ]
+          },
+          "730011104": {
+            "id": "730011104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's a lot of demands...",
+            "nextDialogs": [
+              "730011105"
+            ]
+          },
+          "730011105": {
+            "id": "730011105",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Well, Paimon knows several ladies who fit that description, but somehow they all have connections to Electro...",
+            "nextDialogs": [
+              "730011106"
+            ]
+          },
+          "730011106": {
+            "id": "730011106",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Electro is good. It makes plants stronger and bear more fruit.",
+            "nextDialogs": [
+              "730011107"
+            ]
+          },
+          "730011107": {
+            "id": "730011107",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "You know a lot, Sudabeh! So, where should Paimon start...",
+            "nextDialogs": [
+              "730011109"
+            ]
+          },
+          "730011109": {
+            "id": "730011109",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon can go with the story of Miss Lisa, but Paimon'd prefer another one...",
+            "nextDialogs": [
+              "730011110"
+            ]
+          },
+          "730011110": {
+            "id": "730011110",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ahem. In a place far away, on the other side of the ocean, there was a lady general and a shrine maiden.",
+            "nextDialogs": [
+              "730011112"
+            ]
+          },
+          "730011112": {
+            "id": "730011112",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh yeah, making the shrine maiden a priestess, and the general a queen should help you understand it better.",
+            "nextDialogs": [
+              "730011113"
+            ]
+          },
+          "730011113": {
+            "id": "730011113",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Are they both distinguished ladies?",
+            "nextDialogs": [
+              "730011114"
+            ]
+          },
+          "730011114": {
+            "id": "730011114",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah, they both are!",
+            "nextDialogs": [
+              "730011115"
+            ]
+          },
+          "730011115": {
+            "id": "730011115",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "\"Once upon a time, in a kingdom far away, there was a very beautiful and powerful queen. But war came, and although the queen won, she also lost many friends.\"\\n\"She cried and cried, '*sob* I'm going to make a robot and have it work for me. Then I shall live alone in the palace forever and not make any more friends so I won't lose them!'\"\\n\"'Beep. Copy that. Working now,' replied the robot, who then began running the kingdom for the queen. Then some bad guys started to scheme!\"",
+            "nextDialogs": [
+              "730011116"
+            ]
+          },
+          "730011116": {
+            "id": "730011116",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "Where does the priestess come in?",
+            "nextDialogs": [
+              "730011117"
+            ]
+          },
+          "730011117": {
+            "id": "730011117",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "#\"Ahem. The queen had a pretty and powerful priestess friend, who couldn't bear to see the queen go on this way.\"\\n\"That was when a traveler came to the kingdom. {M#He}{F#She} and {M#his}{F#her} companion were both smart and brave.\"\\n\"So the priestess thought, 'Ack-ack-ack! They are agile and resilient. If they're willing to help...'\"",
+            "nextDialogs": [
+              "730011118"
+            ]
+          },
+          "730011118": {
+            "id": "730011118",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Paimon tells the story of the queen and the priestess (both of whom are distinguished ladies) in a way that really engages the kids.",
+            "nextDialogs": [
+              "730011119"
+            ]
+          },
+          "730011119": {
+            "id": "730011119",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...In the end, the lonely robot was still working hard, but that's another story.",
+            "nextDialogs": [
+              "730011120"
+            ]
+          },
+          "730011120": {
+            "id": "730011120",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "#Everyone was so awesome! Even though that traveler wasn't a distinguished lady, {F#she}{M#he} was still strong. That's what I want to be when I grow up.",
+            "nextDialogs": [
+              "730011121"
+            ]
+          },
+          "730011121": {
+            "id": "730011121",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Paimon's sure you can do it! But if you don't behave and get lost out there, then none of that will happen!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300114",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011201"
+        ],
+        "dialogs": {
+          "730011201": {
+            "id": "730011201",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "*sigh* It seems they know about the mysterious creatures but just don't want to tell us...",
+            "nextDialogs": [
+              "730011203",
+              "730011205"
+            ]
+          },
+          "730011203": {
+            "id": "730011203",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Come on, they're kids, not villains! Just treat it as a secret they don't want the adults to know.",
+            "nextDialogs": [
+              "730011207"
+            ]
+          },
+          "730011207": {
+            "id": "730011207",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "We're staying in Sumeru for a while and will have time to look into it.",
+            "nextDialogs": [
+              "730011208"
+            ]
+          },
+          "730011208": {
+            "id": "730011208",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "I'm back! How did it go? Was it fun?",
+            "nextDialogs": [
+              "730011209"
+            ]
+          },
+          "730011209": {
+            "id": "730011209",
+            "speakerId": 1006,
+            "speakerName": "Iotham",
+            "text": "It was fun! They told us a story. Dragons actually don't eat people, Rana!",
+            "nextDialogs": [
+              "730011210"
+            ]
+          },
+          "730011210": {
+            "id": "730011210",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Oh yeah? That's good to hear. I was worried a dragon might fly over here and eat you all some day!",
+            "nextDialogs": [
+              "730011211"
+            ]
+          },
+          "730011211": {
+            "id": "730011211",
+            "speakerId": 1009,
+            "speakerName": "Children",
+            "text": "Oh no!",
+            "nextDialogs": [
+              "730011212"
+            ]
+          },
+          "730011212": {
+            "id": "730011212",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Storytelling is kinda fun!"
+          },
+          "730011205": {
+            "id": "730011205",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Come on, they're kids, not villains! Just treat it as a secret they don't want the adults to know."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300115",
+      "subQuestName": "Leave Vimara Village and go to the designated location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730011501"
+        ],
+        "dialogs": {
+          "730011501": {
+            "id": "730011501",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "When I grow up, I want to be strong, smart, very pretty, and take Rana as my bride."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300122",
+      "subQuestName": "Talk to Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012201"
+        ],
+        "dialogs": {
+          "730012201": {
+            "id": "730012201",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "The mission... I don't want to do it... What should I do? If the kids... Rana...",
+            "nextDialogs": [
+              "730012202"
+            ]
+          },
+          "730012202": {
+            "id": "730012202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Let's leave quietly.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300123",
+      "subQuestName": "Talk to Rana",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7300124",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012401"
+        ],
+        "dialogs": {
+          "730012401": {
+            "id": "730012401",
+            "speakerId": 1010,
+            "speakerName": "Jehiet",
+            "text": "Hey, it's the visitor Rana brought. Welcome.",
+            "nextDialogs": [
+              "730012402"
+            ]
+          },
+          "730012402": {
+            "id": "730012402",
+            "speakerId": 1010,
+            "speakerName": "Jehiet",
+            "text": "We don't have much in the village except a quiet life, so put your feet up and relax."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300125",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012501"
+        ],
+        "dialogs": {
+          "730012501": {
+            "id": "730012501",
+            "speakerId": 1011,
+            "speakerName": "Bahram",
+            "text": "Welcome. The kids are excited to see visitors too."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300126",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012601"
+        ],
+        "dialogs": {
+          "730012601": {
+            "id": "730012601",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "#Welcome to Vimara Village, {NICKNAME}. Everyone is family here. If you stay, Iotham and his friends will treat you like a real {M#brother}{F#sister}.",
+            "nextDialogs": [
+              "730012602"
+            ]
+          },
+          "730012602": {
+            "id": "730012602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How do you know my name?",
+            "nextDialogs": [
+              "730012603"
+            ]
+          },
+          "730012603": {
+            "id": "730012603",
+            "speakerId": 1005,
+            "speakerName": "Alphonso",
+            "text": "Rana probably mentioned it. Anyway, hope you'll enjoy your time in Vimara Village."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300129",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730012901"
+        ],
+        "dialogs": {
+          "730012901": {
+            "id": "730012901",
+            "speakerId": 1006,
+            "speakerName": "Iotham",
+            "text": "So dragons don't eat people or Sumpter Beasts! I have to let Alphonso know next time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300131",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730013101"
+        ],
+        "dialogs": {
+          "730013101": {
+            "id": "730013101",
+            "speakerId": 1008,
+            "speakerName": "Kavus",
+            "text": "When I grow up, I want to be a great sailor like Sinbadacus!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300133",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730013301"
+        ],
+        "dialogs": {
+          "730013301": {
+            "id": "730013301",
+            "speakerId": 1007,
+            "speakerName": "Sudabeh",
+            "text": "When I grow up, I want to be strong, smart, very pretty, and take Rana as my bride."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300135",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730013501"
+        ],
+        "dialogs": {
+          "730013501": {
+            "id": "730013501",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#Come on, {NICKNAME}, let's go whenever you are ready!",
+            "nextDialogs": [
+              "730013503",
+              "730013505"
+            ]
+          },
+          "730013503": {
+            "id": "730013503",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Sure! It's not far to the west."
+          },
+          "730013505": {
+            "id": "730013505",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Okay. Give me a shout when you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300142",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730014201"
+        ],
+        "dialogs": {
+          "730014201": {
+            "id": "730014201",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "The best thing about my house is that I can sneak out of it without anyone noticing. That's how I've been running off all the time since I was a kid.",
+            "nextDialogs": [
+              "730014202"
+            ]
+          },
+          "730014202": {
+            "id": "730014202",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#Alright, back to business. {NICKNAME}, let's go whenever you are ready!",
+            "nextDialogs": [
+              "730014204",
+              "730014206"
+            ]
+          },
+          "730014204": {
+            "id": "730014204",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Sure! It's not far to the west."
+          },
+          "730014206": {
+            "id": "730014206",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Okay. Give me a shout when you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300143",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730014301"
+        ],
+        "dialogs": {
+          "730014301": {
+            "id": "730014301",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#Come on, {NICKNAME}, let's go whenever you are ready!",
+            "nextDialogs": [
+              "730014303",
+              "730014305"
+            ]
+          },
+          "730014303": {
+            "id": "730014303",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Sure! It's not far to the west."
+          },
+          "730014305": {
+            "id": "730014305",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "Okay. Give me a shout when you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7300144",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730014401"
+        ],
+        "dialogs": {
+          "730014401": {
+            "id": "730014401",
+            "speakerId": 1000,
+            "speakerName": "Rana",
+            "text": "#{NICKNAME}, I'll wait here. If it's too much to handle, get out of there or call for help, and I'll be there."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2713 @@
+{
+  "lineCounts": {
+    "Arataki Itto": 33,
+    "Black Screen": 2,
+    "Charlotte": 27,
+    "Ei": 16,
+    "Gorou": 8,
+    "Kaede": 3,
+    "Karpillia": 3,
+    "Kirara": 20,
+    "Kujou Sara": 15,
+    "Kuki Shinobu": 19,
+    "Kurisu": 2,
+    "Master of Ceremonies": 7,
+    "Paimon": 65,
+    "Player": 46,
+    "Qiuyue": 2,
+    "Sangonomiya Kokomi": 51,
+    "Vahid": 2,
+    "Xixi": 1,
+    "Yae Miko": 21
+  },
+  "subQuests": [
+    {
+      "subId": "4010901",
+      "subQuestName": "Wait until the following day (08:00 – 10:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4010902",
+      "subQuestName": "Go to Ritou to investigate the Card Snatcher",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401090201"
+        ],
+        "dialogs": {
+          "401090201": {
+            "id": "401090201",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, look! Promo posters everywhere, from the moment you arrive in the harbor!",
+            "nextDialogs": [
+              "401090202"
+            ]
+          },
+          "401090202": {
+            "id": "401090202",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hmm, Paimon gets more and more curious about the two inventors of this game every time we see the posters.",
+            "nextDialogs": [
+              "401090203"
+            ]
+          },
+          "401090203": {
+            "id": "401090203",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "You're not the only one. There's so little information to go off of that there's all sorts of wild speculations about them.",
+            "nextDialogs": [
+              "401090204"
+            ]
+          },
+          "401090204": {
+            "id": "401090204",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Some people say that they invented the game after the God of Wisdom gave them an epiphany, while others say that they're not actually the inventors at all...",
+            "nextDialogs": [
+              "401090205"
+            ]
+          },
+          "401090205": {
+            "id": "401090205",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "By the way, have you two ever read a book called King of Invokations?",
+            "nextDialogs": [
+              "401090208"
+            ]
+          },
+          "401090208": {
+            "id": "401090208",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Well, it's a story about a young boy who gets possessed by the spirit of the Crocodile King and becomes a TCG player. It's quite fascinating. I made sure to read it before coming on this trip.",
+            "nextDialogs": [
+              "401090209"
+            ]
+          },
+          "401090209": {
+            "id": "401090209",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Some people have even speculated that the author of King of Invokations is the boy who was possessed, while the true inventors of the game are the Crocodile King and Ibis King from the legends...",
+            "nextDialogs": [
+              "401090210"
+            ]
+          },
+          "401090210": {
+            "id": "401090210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Each of these theories gets more ridiculous than the last...",
+            "nextDialogs": [
+              "401090211"
+            ]
+          },
+          "401090211": {
+            "id": "401090211",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Exactly, which is why the original author came forward to deny these rumors.",
+            "nextDialogs": [
+              "401090212"
+            ]
+          },
+          "401090212": {
+            "id": "401090212",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "But that only fueled the debate further, and the book's sales skyrocketed.",
+            "nextDialogs": [
+              "401090213"
+            ]
+          },
+          "401090213": {
+            "id": "401090213",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "It can't be denied that the King of Invokations novels are a major part of why Genius Invokation TCG has become so popular.",
+            "nextDialogs": [
+              "401090214"
+            ]
+          },
+          "401090214": {
+            "id": "401090214",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Just look at the venue, they're almost treating this like a national festival. I bet the book is going to sell more copies after this.",
+            "nextDialogs": [
+              "401090215"
+            ]
+          },
+          "401090215": {
+            "id": "401090215",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Heh, you can be sure that the fox lady is behind all this.",
+            "nextDialogs": [
+              "401090216"
+            ]
+          },
+          "401090216": {
+            "id": "401090216",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Fox lady?",
+            "nextDialogs": [
+              "401090217"
+            ]
+          },
+          "401090217": {
+            "id": "401090217",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, Yae Miko! She's chief editor of the Yae Publishing House. Paimon can just imagine her eating some Fried Tofu as she instructs her editors to use this event to boost light novel sales.",
+            "nextDialogs": [
+              "401090218"
+            ]
+          },
+          "401090218": {
+            "id": "401090218",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Ah yes, I've been in that situation many times myself. Although in our case, the boss would be drinking coffee and talking about newspaper sales...",
+            "nextDialogs": [
+              "401090219"
+            ]
+          },
+          "401090219": {
+            "id": "401090219",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Sounds like bosses are the same everywhere..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010903",
+      "subQuestName": "Look for clues in Ritou",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401090301"
+        ],
+        "dialogs": {
+          "401090301": {
+            "id": "401090301",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "The scenery in every nation is so different. This trip is really paying dividends!",
+            "nextDialogs": [
+              "401090302"
+            ]
+          },
+          "401090302": {
+            "id": "401090302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Good thing that you're able to be so optimistic about it. It sounded like you were pretty much forced to come on this trip whether you wanted to or not...",
+            "nextDialogs": [
+              "401090303"
+            ]
+          },
+          "401090303": {
+            "id": "401090303",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Wait, is that who Paimon thinks it is? It's Ei!",
+            "nextDialogs": [
+              "401090304"
+            ]
+          },
+          "401090304": {
+            "id": "401090304",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "#{NICKNAME}, Paimon, we meet again.",
+            "nextDialogs": [
+              "401090305"
+            ]
+          },
+          "401090305": {
+            "id": "401090305",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Oh, who is this?",
+            "nextDialogs": [
+              "401090306"
+            ]
+          },
+          "401090306": {
+            "id": "401090306",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ah, allow Paimon to introduce you... Huh, seems like that's all Paimon's been doing these past few days...",
+            "nextDialogs": [
+              "401090307"
+            ]
+          },
+          "401090307": {
+            "id": "401090307",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Anyway, this is Charlotte. She's a journalist from Fontaine. And this is Ei, she's, uh... She's Inazuma's archon.",
+            "nextDialogs": [
+              "401090308"
+            ]
+          },
+          "401090308": {
+            "id": "401090308",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "WHAT!? Y—You mean... Her Excellency, the Almighty Narukami Ogosho, God of Thunder!? Ah, h—hello! Please forgive me for not recognizing you, I...!",
+            "nextDialogs": [
+              "401090309"
+            ]
+          },
+          "401090309": {
+            "id": "401090309",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "As a guest from afar, there's no need to be so formal.",
+            "nextDialogs": [
+              "401090310"
+            ]
+          },
+          "401090310": {
+            "id": "401090310",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Right, uh... I mean, okay...",
+            "nextDialogs": [
+              "401090311"
+            ]
+          },
+          "401090311": {
+            "id": "401090311",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Whew, each of your acquaintances is more impressive than the last.",
+            "nextDialogs": [
+              "401090312"
+            ]
+          },
+          "401090312": {
+            "id": "401090312",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Miko invited me here to experience the fun and festivities along with everybody else.",
+            "nextDialogs": [
+              "401090313"
+            ]
+          },
+          "401090313": {
+            "id": "401090313",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon gets it. The tournament venue is full of excitement and tasty food, and Miko didn't want you to miss out.",
+            "nextDialogs": [
+              "401090314"
+            ]
+          },
+          "401090314": {
+            "id": "401090314",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "I... guess I'll let you catch up for now. We can meet up later, just like last time.",
+            "nextDialogs": [
+              "401090315"
+            ]
+          },
+          "401090315": {
+            "id": "401090315",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Sure thing. See ya, Charlotte!",
+            "nextDialogs": [
+              "401090316"
+            ]
+          },
+          "401090316": {
+            "id": "401090316",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Perhaps she felt a little intimidated by me?",
+            "nextDialogs": [
+              "401090317"
+            ]
+          },
+          "401090317": {
+            "id": "401090317",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She's probably fine. Don't worry, she didn't leave because of you, we've split up like this in the previous places we've visited, too.",
+            "nextDialogs": [
+              "401090318"
+            ]
+          },
+          "401090318": {
+            "id": "401090318",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So, how do you like Genius Invokation TCG? Paimon bets you're enjoying watching the tournament matches.",
+            "nextDialogs": [
+              "401090319"
+            ]
+          },
+          "401090319": {
+            "id": "401090319",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Well... In fact, I myself am competing in the tournament.",
+            "nextDialogs": [
+              "401090320"
+            ]
+          },
+          "401090320": {
+            "id": "401090320",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait, really!?",
+            "nextDialogs": [
+              "401090321"
+            ]
+          },
+          "401090321": {
+            "id": "401090321",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Why is that surprising? Playing cards is an ancient form of entertainment, and I was curious to see what card games are like in this day and age.",
+            "nextDialogs": [
+              "401090322"
+            ]
+          },
+          "401090322": {
+            "id": "401090322",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How's the tournament been?",
+            "nextDialogs": [
+              "401090323"
+            ]
+          },
+          "401090323": {
+            "id": "401090323",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "I advanced all the way to the semifinals.",
+            "nextDialogs": [
+              "401090324"
+            ]
+          },
+          "401090324": {
+            "id": "401090324",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "The semifinals? That's amazing! So when's your next match?",
+            "nextDialogs": [
+              "401090325"
+            ]
+          },
+          "401090325": {
+            "id": "401090325",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Unfortunately, the semifinals is where my journey ended. The reason being...",
+            "nextDialogs": [
+              "401090326"
+            ]
+          },
+          "401090326": {
+            "id": "401090326",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "The reason being that she lost to me. And when I say \"lost,\" that doesn't begin to do it justice. It was quite a humiliating defeat.",
+            "nextDialogs": [
+              "401090329"
+            ]
+          },
+          "401090329": {
+            "id": "401090329",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "Hehe, I'll pretend I didn't hear that.",
+            "nextDialogs": [
+              "401090330"
+            ]
+          },
+          "401090330": {
+            "id": "401090330",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "I only lost because I was duped by her little tricks.",
+            "nextDialogs": [
+              "401090331"
+            ]
+          },
+          "401090331": {
+            "id": "401090331",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "What's wrong with my little tricks? Trickery within the scope of the rules is better known as ingenuity. It's not my fault that some people spend all their time cooped up in Tenshukaku and never have the chance to hone their skills.",
+            "nextDialogs": [
+              "401090332"
+            ]
+          },
+          "401090332": {
+            "id": "401090332",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What a unique friendship...",
+            "nextDialogs": [
+              "401090333"
+            ]
+          },
+          "401090333": {
+            "id": "401090333",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Huh... You're right, though. I should make an effort to get out more.",
+            "nextDialogs": [
+              "401090334"
+            ]
+          },
+          "401090334": {
+            "id": "401090334",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Many things have changed now that Inazuma is at peace. However... it seems that some people continue to fear the \"divine light\" just as before.",
+            "nextDialogs": [
+              "401090335"
+            ]
+          },
+          "401090335": {
+            "id": "401090335",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "In some of my tournament matches, I could see my opponent's hands shaking, hesitant to play their cards. Now that I think about it, perhaps they were scared of what would happen if they defeated me..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010904",
+      "subQuestName": "Go to the Ritou competition venue and look for Kokomi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4010905",
+      "subQuestName": "Talk to Itto",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401090501"
+        ],
+        "dialogs": {
+          "401090501": {
+            "id": "401090501",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hey, compadre! And Flying Lavender Melon!",
+            "nextDialogs": [
+              "401090502"
+            ]
+          },
+          "401090502": {
+            "id": "401090502",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Grr, Bull-chucker! Don't call Paimon that in public!",
+            "nextDialogs": [
+              "401090505"
+            ]
+          },
+          "401090505": {
+            "id": "401090505",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hahaha! What would this tournament be without Arataki \"The Ultimate TCG Champion\" Itto!?",
+            "nextDialogs": [
+              "401090506"
+            ]
+          },
+          "401090506": {
+            "id": "401090506",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Matter of fact, the whole Arataki Gang showed up in force. Our goal? To bring home the grand prize!",
+            "nextDialogs": [
+              "401090507"
+            ]
+          },
+          "401090507": {
+            "id": "401090507",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "And as fate would have it, Boss was the only one who didn't make it out of the qualifiers.",
+            "nextDialogs": [
+              "401090508"
+            ]
+          },
+          "401090508": {
+            "id": "401090508",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "H—Hey! That's not the point. It was just some bad luck, that's all. I got matched against a strong opponent in the first round!",
+            "nextDialogs": [
+              "401090509"
+            ]
+          },
+          "401090509": {
+            "id": "401090509",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Besides, it was a close match. It could have swung either way!",
+            "nextDialogs": [
+              "401090510"
+            ]
+          },
+          "401090510": {
+            "id": "401090510",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "I wouldn't exactly call losing in three rounds a close match.",
+            "nextDialogs": [
+              "401090511"
+            ]
+          },
+          "401090511": {
+            "id": "401090511",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hey, Shinobu! Cut me some slack in front of my friends, okay? Anyway, it's not like you did much better! Weren't you beaten by that fish lady... Sandy Mamma-Mia... whatever her name was?",
+            "nextDialogs": [
+              "401090512"
+            ]
+          },
+          "401090512": {
+            "id": "401090512",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Sangonomiya Kokomi? Watatsumi Island's military strategist? Yes, she beat me fair and square. I don't have a problem with that.",
+            "nextDialogs": [
+              "401090513"
+            ]
+          },
+          "401090513": {
+            "id": "401090513",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Pfft, well anyway, I've noticed something in this competition. If you wanna win big here, you need style. That's right, I'm talkin' card backs! I lost my match 'cause mah backs were wack!",
+            "nextDialogs": [
+              "401090514"
+            ]
+          },
+          "401090514": {
+            "id": "401090514",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But the style of card backs and a player's skill don't have anything to do with each other.",
+            "nextDialogs": [
+              "401090515"
+            ]
+          },
+          "401090515": {
+            "id": "401090515",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Oh, no no no no! That's where you're wrong, mini melon.",
+            "nextDialogs": [
+              "401090516"
+            ]
+          },
+          "401090516": {
+            "id": "401090516",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "It's just like how the strongest Onikabuto have the brightest colors on their back. If your cards look cool, then you'll definitely draw a better hand!",
+            "nextDialogs": [
+              "401090517"
+            ]
+          },
+          "401090517": {
+            "id": "401090517",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Boss, beetle fighting and playing TCGs are completely different. In cards, you actually have to rely on your own skill.",
+            "nextDialogs": [
+              "401090518"
+            ]
+          },
+          "401090518": {
+            "id": "401090518",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Yeah, there's no use arguing with you... Why don't we let our friend here weigh in, hmm?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010906",
+      "subQuestName": "Have a Genius Invokation TCG duel with Itto",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401090601"
+        ],
+        "dialogs": {
+          "401090601": {
+            "id": "401090601",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hi, Sara! We're looking for Kokomi, have you seen her anywhere?",
+            "nextDialogs": [
+              "401090602"
+            ]
+          },
+          "401090602": {
+            "id": "401090602",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "I saw her exit the venue after the semifinals, but she hasn't returned since.",
+            "nextDialogs": [
+              "401090603"
+            ]
+          },
+          "401090603": {
+            "id": "401090603",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "If you're looking for Her Excellency, I believe she's currently near the western shore of Ritou.",
+            "nextDialogs": [
+              "401090604"
+            ]
+          },
+          "401090604": {
+            "id": "401090604",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Gorou! Good to see you!",
+            "nextDialogs": [
+              "401090605"
+            ]
+          },
+          "401090605": {
+            "id": "401090605",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Hello, you two. Is there something the matter?",
+            "nextDialogs": [
+              "401090606"
+            ]
+          },
+          "401090606": {
+            "id": "401090606",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No, we just wanted to say hello to Kokomi.",
+            "nextDialogs": [
+              "401090607"
+            ]
+          },
+          "401090607": {
+            "id": "401090607",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Hmm, now that I think about it, her opponent in the finals will be a tough one to beat.",
+            "nextDialogs": [
+              "401090608"
+            ]
+          },
+          "401090608": {
+            "id": "401090608",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Who are you rooting for, Sara?",
+            "nextDialogs": [
+              "401090609"
+            ]
+          },
+          "401090609": {
+            "id": "401090609",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Up till now, the Almighty Shogun had my full support. But now that she's been eliminated from the tournament... In truth, I don't really care.",
+            "nextDialogs": [
+              "401090610"
+            ]
+          },
+          "401090610": {
+            "id": "401090610",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thought for sure that you'd be rooting for Miko.",
+            "nextDialogs": [
+              "401090611"
+            ]
+          },
+          "401090611": {
+            "id": "401090611",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "I certainly would, in the past.",
+            "nextDialogs": [
+              "401090612"
+            ]
+          },
+          "401090612": {
+            "id": "401090612",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "But now that the islands of Narukami and Watatsumi are on amiable terms, we're all friends.",
+            "nextDialogs": [
+              "401090613"
+            ]
+          },
+          "401090613": {
+            "id": "401090613",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Those are exactly Her Excellency's thoughts as well. The point of a game of cards between friends is to exchange skills and enjoy the game together. It's not about who wins or loses. She hopes that this spirit of friendly competition will define Inazuma going forward.",
+            "nextDialogs": [
+              "401090614"
+            ]
+          },
+          "401090614": {
+            "id": "401090614",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Hmm, a commendable attitude.",
+            "nextDialogs": [
+              "401090615"
+            ]
+          },
+          "401090615": {
+            "id": "401090615",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Her opponent is skilled in the art of deception. Even if she appears to have worry written all over her face, don't fall for it. She's likely trying to lead you into her trap.",
+            "nextDialogs": [
+              "401090616"
+            ]
+          },
+          "401090616": {
+            "id": "401090616",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's nice to see two generals who were once enemies on the battlefield now looking out for each other.",
+            "nextDialogs": [
+              "401090617"
+            ]
+          },
+          "401090617": {
+            "id": "401090617",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Do not be mistaken. I speak only in the interests of fairness.",
+            "nextDialogs": [
+              "401090618"
+            ]
+          },
+          "401090618": {
+            "id": "401090618",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "The moment I saw the name \"Sangonomiya\" on the list of competitors, I anticipated that she would make it into the finals to face the Almighty Shogun.",
+            "nextDialogs": [
+              "401090619"
+            ]
+          },
+          "401090619": {
+            "id": "401090619",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "I've watched every one of her matches. She constantly adapts her strategy, and excels at employing rare and unusual tactics.",
+            "nextDialogs": [
+              "401090620"
+            ]
+          },
+          "401090620": {
+            "id": "401090620",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "But after the Almighty Shogun's loss, I'm afraid that Lady Guuji may also have caught wind of Kokomi's strategies.",
+            "nextDialogs": [
+              "401090621"
+            ]
+          },
+          "401090621": {
+            "id": "401090621",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, so you wanna make sure Kokomi's got intel on the other side, too? Wow, trust Sara to make sure everything is fair and above board.",
+            "nextDialogs": [
+              "401090622"
+            ]
+          },
+          "401090622": {
+            "id": "401090622",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Thanks for your insights, General Kujou. I will be sure to pass them along to Her Excellency.",
+            "nextDialogs": [
+              "401090623"
+            ]
+          },
+          "401090623": {
+            "id": "401090623",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Don't mention it.",
+            "nextDialogs": [
+              "401090624"
+            ]
+          },
+          "401090624": {
+            "id": "401090624",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "The match will be starting shortly. Please let her know to get back to the venue soon.",
+            "nextDialogs": [
+              "401090625"
+            ]
+          },
+          "401090625": {
+            "id": "401090625",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Alright, then I'll get going."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010907",
+      "subQuestName": "Talk to Itto",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401092501"
+        ],
+        "dialogs": {
+          "401092501": {
+            "id": "401092501",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Anyway, what are you two doing here?",
+            "nextDialogs": [
+              "401092502"
+            ]
+          },
+          "401092502": {
+            "id": "401092502",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Actually, we were looking for Kokomi, have you seen her around?",
+            "nextDialogs": [
+              "401092503"
+            ]
+          },
+          "401092503": {
+            "id": "401092503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Or as Arataki \"Numero Uno Idioso\" so eloquently called her, \"the fish lady.\"",
+            "nextDialogs": [
+              "401092504"
+            ]
+          },
+          "401092504": {
+            "id": "401092504",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "You're one to talk, Lavender Melon...",
+            "nextDialogs": [
+              "401092505"
+            ]
+          },
+          "401092505": {
+            "id": "401092505",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Her match in the finals will be starting shortly, so she can't be far.",
+            "nextDialogs": [
+              "401092506"
+            ]
+          },
+          "401092506": {
+            "id": "401092506",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Why don't you ask Kujou Sara over there? The Tenryou Commission is in charge of managing access to the venue and maintaining order.",
+            "nextDialogs": [
+              "401092507"
+            ]
+          },
+          "401092507": {
+            "id": "401092507",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hey, just remember that if you ever wanna play another match, you can find me anytime!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010909",
+      "subQuestName": "Ask Sara about Kokomi's whereabouts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4010910",
+      "subQuestName": "Look for Kokomi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401091001"
+        ],
+        "dialogs": {
+          "401091001": {
+            "id": "401091001",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Kokomi!",
+            "nextDialogs": [
+              "401091002"
+            ]
+          },
+          "401091002": {
+            "id": "401091002",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "#Paimon? Oh, and {NICKNAME}'s here, too.",
+            "nextDialogs": [
+              "401091003"
+            ]
+          },
+          "401091003": {
+            "id": "401091003",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Surprised to see us? We came to wish you good luck in the competition!",
+            "nextDialogs": [
+              "401091004"
+            ]
+          },
+          "401091004": {
+            "id": "401091004",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "So, what are you doing out here, Kokomi? Taking in the view?",
+            "nextDialogs": [
+              "401091005"
+            ]
+          },
+          "401091005": {
+            "id": "401091005",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, the soothing sound of the ocean's waves do make me feel peaceful, but I actually came here hoping to see Watatsumi Island.",
+            "nextDialogs": [
+              "401091006"
+            ]
+          },
+          "401091006": {
+            "id": "401091006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? Can you really see Watatsumi Island from here? Let Paimon take a look...",
+            "nextDialogs": [
+              "401091007"
+            ]
+          },
+          "401091007": {
+            "id": "401091007",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Well? Can you see it?",
+            "nextDialogs": [
+              "401091008"
+            ]
+          },
+          "401091008": {
+            "id": "401091008",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Let's see... That must be Kannazuka, and a little further than that, there's Yashiori Island... Hmm...",
+            "nextDialogs": [
+              "401091009"
+            ]
+          },
+          "401091009": {
+            "id": "401091009",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Nope, can't see Watatsumi.",
+            "nextDialogs": [
+              "401091010"
+            ]
+          },
+          "401091010": {
+            "id": "401091010",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Even on a perfectly clear day like this, you can't see Watatsumi Island from Narukami Island. Imagine trying to see it when the islands were surrounded by storms.",
+            "nextDialogs": [
+              "401091011"
+            ]
+          },
+          "401091011": {
+            "id": "401091011",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Though the islands are on peaceful terms now, the dark clouds of war still linger in some people's hearts.",
+            "nextDialogs": [
+              "401091012"
+            ]
+          },
+          "401091012": {
+            "id": "401091012",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Even when friends argue, they still need time to reconcile. Think of how much time is needed when the conflicting sides could never even see each other.",
+            "nextDialogs": [
+              "401091013"
+            ]
+          },
+          "401091013": {
+            "id": "401091013",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You okay, Kokomi?",
+            "nextDialogs": [
+              "401091014"
+            ]
+          },
+          "401091014": {
+            "id": "401091014",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Oh, sorry... My mind was drifting to some more serious topics.",
+            "nextDialogs": [
+              "401091017"
+            ]
+          },
+          "401091017": {
+            "id": "401091017",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, I thought you might understand.",
+            "nextDialogs": [
+              "401091018"
+            ]
+          },
+          "401091018": {
+            "id": "401091018",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? What are you talking about?",
+            "nextDialogs": [
+              "401091019"
+            ]
+          },
+          "401091019": {
+            "id": "401091019",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Who wins and who loses isn't what's most important.",
+            "nextDialogs": [
+              "401091020"
+            ]
+          },
+          "401091020": {
+            "id": "401091020",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "What's important is that Her Excellency came here to compete with all of Inazuma watching.",
+            "nextDialogs": [
+              "401091021"
+            ]
+          },
+          "401091021": {
+            "id": "401091021",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, more people will be traveling between Watatsumi and Narukami Island from this day forward.",
+            "nextDialogs": [
+              "401091022"
+            ]
+          },
+          "401091022": {
+            "id": "401091022",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The point I hope to make is...",
+            "nextDialogs": [
+              "401091023"
+            ]
+          },
+          "401091023": {
+            "id": "401091023",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Even though we believe in different gods, we can all come together as friends by playing cards at the table. We should be willing to cooperate and assist one another in the future.",
+            "nextDialogs": [
+              "401091024"
+            ]
+          },
+          "401091024": {
+            "id": "401091024",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "You could say that I'm playing cards to help dissolve enmity.",
+            "nextDialogs": [
+              "401091025"
+            ]
+          },
+          "401091025": {
+            "id": "401091025",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're using a simple game of cards to drive major social change.",
+            "nextDialogs": [
+              "401091026"
+            ]
+          },
+          "401091026": {
+            "id": "401091026",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, that's a good way to put it.",
+            "nextDialogs": [
+              "401091027"
+            ]
+          },
+          "401091027": {
+            "id": "401091027",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Besides, my passion has always been in tactics and strategy. How could I pass up the chance to play in a tournament for a strategic game like this?",
+            "nextDialogs": [
+              "401091028"
+            ]
+          },
+          "401091028": {
+            "id": "401091028",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh, so you have your personal reasons to play, too.",
+            "nextDialogs": [
+              "401091029"
+            ]
+          },
+          "401091029": {
+            "id": "401091029",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Hehe. Yes, partly.",
+            "nextDialogs": [
+              "401091030"
+            ]
+          },
+          "401091030": {
+            "id": "401091030",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You should be careful of that fox lady. Even Sara warned us that she'll be a cunning opponent.",
+            "nextDialogs": [
+              "401091031"
+            ]
+          },
+          "401091031": {
+            "id": "401091031",
+            "speakerId": 1007,
+            "speakerName": "Gorou",
+            "text": "Yes. It seems that you're not the only one who sees this tournament as a chance to resolve our differences, Your Excellency.",
+            "nextDialogs": [
+              "401091032"
+            ]
+          },
+          "401091032": {
+            "id": "401091032",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Oh, that's good to hear.",
+            "nextDialogs": [
+              "401091033"
+            ]
+          },
+          "401091033": {
+            "id": "401091033",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Don't worry, Paimon. I've already thought of a variety of stratagems for the match.",
+            "nextDialogs": [
+              "401091034"
+            ]
+          },
+          "401091034": {
+            "id": "401091034",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wow, Paimon's really looking forward to the final now.",
+            "nextDialogs": [
+              "401091035"
+            ]
+          },
+          "401091035": {
+            "id": "401091035",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And Paimon swears that she's actually gonna see it this time, no matter what! Paimon won't let herself get distracted, not even by all the tasty snacks in Inazuma!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010911",
+      "subQuestName": "Return to the Ritou competition venue and attend the Final",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4010912",
+      "subQuestName": "Talk to Kirara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401091201"
+        ],
+        "dialogs": {
+          "401091201": {
+            "id": "401091201",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "\"Inazuma's Archon Bolts Her Way to the Semifinals, Only to be Stunned by a Crafty Opponent\"...",
+            "nextDialogs": [
+              "401091202"
+            ]
+          },
+          "401091202": {
+            "id": "401091202",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Ooh, that's a nice title!",
+            "nextDialogs": [
+              "401091203"
+            ]
+          },
+          "401091203": {
+            "id": "401091203",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Lightning from Inazuma won't be able to reach me in Fontaine, right?",
+            "nextDialogs": [
+              "401091204"
+            ]
+          },
+          "401091204": {
+            "id": "401091204",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "I don't think the Electro Archon would get upset over a minor thing like this.",
+            "nextDialogs": [
+              "401091205"
+            ]
+          },
+          "401091205": {
+            "id": "401091205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, what are you two chatting about?",
+            "nextDialogs": [
+              "401091206"
+            ]
+          },
+          "401091206": {
+            "id": "401091206",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Wait a sec... the real question is, how many times are we gonna run into Kirara!?",
+            "nextDialogs": [
+              "401091207"
+            ]
+          },
+          "401091207": {
+            "id": "401091207",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Talk about a coincidence, right!? What are the chances!",
+            "nextDialogs": [
+              "401091208"
+            ]
+          },
+          "401091208": {
+            "id": "401091208",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "I interviewed a few people around Ritou, but no more details on the Card Snatcher, unfortunately. After that, I ran into Kirara here. We got to chatting, and then I found out that she knew you, too.",
+            "nextDialogs": [
+              "401091209"
+            ]
+          },
+          "401091209": {
+            "id": "401091209",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Sorry, you said \"The Card Snatcher\"?",
+            "nextDialogs": [
+              "401091210"
+            ]
+          },
+          "401091210": {
+            "id": "401091210",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, let Paimon explain...",
+            "nextDialogs": [
+              "401091211"
+            ]
+          },
+          "401091211": {
+            "id": "401091211",
+            "speakerId": 1010,
+            "speakerName": "Black Screen",
+            "text": "Paimon tells Kokomi everything that's happened recently...",
+            "nextDialogs": [
+              "401091212"
+            ]
+          },
+          "401091212": {
+            "id": "401091212",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Mm, I think I already have some insights regarding the truth of this matter.",
+            "nextDialogs": [
+              "401091213"
+            ]
+          },
+          "401091213": {
+            "id": "401091213",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Really? That fast!?",
+            "nextDialogs": [
+              "401091214"
+            ]
+          },
+          "401091214": {
+            "id": "401091214",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "But it's a little complicated, and the finals are about to start.",
+            "nextDialogs": [
+              "401091215"
+            ]
+          },
+          "401091215": {
+            "id": "401091215",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Let me put it this way, though. The key to this case...",
+            "nextDialogs": [
+              "401091216"
+            ]
+          },
+          "401091216": {
+            "id": "401091216",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Is actually Kirara.",
+            "nextDialogs": [
+              "401091217"
+            ]
+          },
+          "401091217": {
+            "id": "401091217",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Huh? Wait, what...? Me!?",
+            "nextDialogs": [
+              "401091218"
+            ]
+          },
+          "401091218": {
+            "id": "401091218",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Having chatted with Kirara, I was starting to think the same thing.",
+            "nextDialogs": [
+              "401091219"
+            ]
+          },
+          "401091219": {
+            "id": "401091219",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Sorry, I don't have time to explain now. We'll have to continue after the tournament's finished.",
+            "nextDialogs": [
+              "401091220"
+            ]
+          },
+          "401091220": {
+            "id": "401091220",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just focus on your match, Kokomi.",
+            "nextDialogs": [
+              "401091221"
+            ]
+          },
+          "401091221": {
+            "id": "401091221",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Ugh... What should we do? Paimon's still trying to wrap her head around that.",
+            "nextDialogs": [
+              "401091222"
+            ]
+          },
+          "401091222": {
+            "id": "401091222",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "If Kokomi was only working off of what Paimon told her, how come Paimon can't find the answer?",
+            "nextDialogs": [
+              "401091223"
+            ]
+          },
+          "401091223": {
+            "id": "401091223",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Is Paimon really as dumb as a Lavender Melon?",
+            "nextDialogs": [
+              "401091226"
+            ]
+          },
+          "401091226": {
+            "id": "401091226",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "*sigh* Oh, okay.",
+            "nextDialogs": [
+              "401091227"
+            ]
+          },
+          "401091227": {
+            "id": "401091227",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "Welcome to the final round of the King of Invokations Grand Prix Inazuman regional final!",
+            "nextDialogs": [
+              "401091228"
+            ]
+          },
+          "401091228": {
+            "id": "401091228",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "Our contestants are: Guuji Yae Miko of the Grand Narukami Shrine versus Sangonomiya Kokomi, Divine Priestess of the Sangonomiya Shrine!",
+            "nextDialogs": [
+              "401091229"
+            ]
+          },
+          "401091229": {
+            "id": "401091229",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "Without further ado, let the final match begin!",
+            "nextDialogs": [
+              "401091230"
+            ]
+          },
+          "401091230": {
+            "id": "401091230",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yay, it's starting!",
+            "nextDialogs": [
+              "401091231"
+            ]
+          },
+          "401091231": {
+            "id": "401091231",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "Now to find out who will play first!",
+            "nextDialogs": [
+              "401091232"
+            ]
+          },
+          "401091232": {
+            "id": "401091232",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "You took your time. I was starting to wonder if you got lost walking on the seabed, Miss \"Sole of the Deep.\"",
+            "nextDialogs": [
+              "401091233"
+            ]
+          },
+          "401091233": {
+            "id": "401091233",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "You must be tired after the walk back to shore. Perhaps I should let you go first?",
+            "nextDialogs": [
+              "401091234"
+            ]
+          },
+          "401091234": {
+            "id": "401091234",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "There's no need.",
+            "nextDialogs": [
+              "401091235"
+            ]
+          },
+          "401091235": {
+            "id": "401091235",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I've heard that \"Fried Tofu With All the Frills\" gets cold quickly. If you don't serve it right away, then I'm afraid it'll become a cold, greasy mess.",
+            "nextDialogs": [
+              "401091236"
+            ]
+          },
+          "401091236": {
+            "id": "401091236",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "...Round 1! Begin!",
+            "nextDialogs": [
+              "401091237"
+            ]
+          },
+          "401091237": {
+            "id": "401091237",
+            "speakerId": 1010,
+            "speakerName": "Black Screen",
+            "text": "The two play a close and thrilling game of Genius Invokation...",
+            "nextDialogs": [
+              "401091238"
+            ]
+          },
+          "401091238": {
+            "id": "401091238",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "And the winner is...",
+            "nextDialogs": [
+              "401091239"
+            ]
+          },
+          "401091239": {
+            "id": "401091239",
+            "speakerId": 1011,
+            "speakerName": "Master of Ceremonies",
+            "text": "Sangonomiya Kokomi, the Divine Priestess from Watatsumi Island!",
+            "nextDialogs": [
+              "401091240"
+            ]
+          },
+          "401091240": {
+            "id": "401091240",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "She won! Kokomi did it!",
+            "nextDialogs": [
+              "401091241"
+            ]
+          },
+          "401091241": {
+            "id": "401091241",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Whew, just seeing that kitsune youkai makes the fur on my tail stand on end.",
+            "nextDialogs": [
+              "401091242"
+            ]
+          },
+          "401091242": {
+            "id": "401091242",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Sorry to keep you waiting."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010913",
+      "subQuestName": "Deduce the truth with Kokomi's help",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401091301"
+        ],
+        "dialogs": {
+          "401091301": {
+            "id": "401091301",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, you nailed it.",
+            "nextDialogs": [
+              "401091302"
+            ]
+          },
+          "401091302": {
+            "id": "401091302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Huh? So the card backs we've been looking for have been right under our noses all along!?",
+            "nextDialogs": [
+              "401091303"
+            ]
+          },
+          "401091303": {
+            "id": "401091303",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "But there's still one thing that doesn't quite add up.",
+            "nextDialogs": [
+              "401091304"
+            ]
+          },
+          "401091304": {
+            "id": "401091304",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Kirara picked up her package in Mondstadt before we encountered the Card Snatcher. The timing doesn't make sense.",
+            "nextDialogs": [
+              "401091305"
+            ]
+          },
+          "401091305": {
+            "id": "401091305",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I've thought about that, too. The way I see it, there's more than one thief involved.",
+            "nextDialogs": [
+              "401091306"
+            ]
+          },
+          "401091306": {
+            "id": "401091306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So we're trailing not one, but multiple \"card snatchers\"?",
+            "nextDialogs": [
+              "401091307"
+            ]
+          },
+          "401091307": {
+            "id": "401091307",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, the person you've been tracking most likely is one member of the group.",
+            "nextDialogs": [
+              "401091308"
+            ]
+          },
+          "401091308": {
+            "id": "401091308",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "It seems the other members had already obtained the card backs and sent them together.",
+            "nextDialogs": [
+              "401091309"
+            ]
+          },
+          "401091309": {
+            "id": "401091309",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Hmm, now that I think about it, collecting all those card backs across so many nations would be near impossible for just one person.",
+            "nextDialogs": [
+              "401091310"
+            ]
+          },
+          "401091310": {
+            "id": "401091310",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "But, why isn't the one we're following ever using Komaniya Express?",
+            "nextDialogs": [
+              "401091311"
+            ]
+          },
+          "401091311": {
+            "id": "401091311",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Because he's too slow. He probably missed the arranged shipment date. Well, that's how I figure it, at least.",
+            "nextDialogs": [
+              "401091312"
+            ]
+          },
+          "401091312": {
+            "id": "401091312",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "From your explanation, he's only committed theft on one occasion, and there were even witnesses. After that, he's been trading or playing to collect the card backs.",
+            "nextDialogs": [
+              "401091313"
+            ]
+          },
+          "401091313": {
+            "id": "401091313",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I suspect that this person isn't a very good thief. He probably used the Mora he was given to arrange shipments with Komaniya Express as funds to use for trading.",
+            "nextDialogs": [
+              "401091314"
+            ]
+          },
+          "401091314": {
+            "id": "401091314",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Then there's another question now. Why don't the other members just keep the cards and take them back to Sumeru themselves?",
+            "nextDialogs": [
+              "401091315"
+            ]
+          },
+          "401091315": {
+            "id": "401091315",
+            "speakerId": 1001,
+            "speakerName": "Charlotte",
+            "text": "Unless... there's a reason for them to stay...",
+            "nextDialogs": [
+              "401091316"
+            ]
+          },
+          "401091316": {
+            "id": "401091316",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes, this is a question I'm still grappling with now.",
+            "nextDialogs": [
+              "401091317"
+            ]
+          },
+          "401091317": {
+            "id": "401091317",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "What is the thieves' objective? What kind of secret is hidden behind these card backs?",
+            "nextDialogs": [
+              "401091318"
+            ]
+          },
+          "401091318": {
+            "id": "401091318",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Unfortunately, there's no way to know without seeing one for ourselves.",
+            "nextDialogs": [
+              "401091319"
+            ]
+          },
+          "401091319": {
+            "id": "401091319",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "H—Hey, don't look at me like that! I can't just open a customer's parcel!",
+            "nextDialogs": [
+              "401091320"
+            ]
+          },
+          "401091320": {
+            "id": "401091320",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "If the company ever found out, I'd be fired on the spot!",
+            "nextDialogs": [
+              "401091321"
+            ]
+          },
+          "401091321": {
+            "id": "401091321",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "And I don't want to go back to being a youkai in the mountains of Inazuma!",
+            "nextDialogs": [
+              "401091322"
+            ]
+          },
+          "401091322": {
+            "id": "401091322",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "No, we don't want to cause you any trouble, of course.",
+            "nextDialogs": [
+              "401091323"
+            ]
+          },
+          "401091323": {
+            "id": "401091323",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "At this point... Mm, maybe it would be best for you all to accompany Kirara to Sumeru.",
+            "nextDialogs": [
+              "401091324"
+            ]
+          },
+          "401091324": {
+            "id": "401091324",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Good idea! Going to the delivery location is the only lead worth following now.",
+            "nextDialogs": [
+              "401091325"
+            ]
+          },
+          "401091325": {
+            "id": "401091325",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "And if the recipient really is a bad guy, then Kirara could be in danger. We should come along to make sure you're safe.",
+            "nextDialogs": [
+              "401091326"
+            ]
+          },
+          "401091326": {
+            "id": "401091326",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I can beat up bad guys.",
+            "nextDialogs": [
+              "401091327"
+            ]
+          },
+          "401091327": {
+            "id": "401091327",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Hey, I know my way around a fight, too! I haven't had a single package stolen from me since I've started this job!",
+            "nextDialogs": [
+              "401091328"
+            ]
+          },
+          "401091328": {
+            "id": "401091328",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Whenever someone picks on me thinking I'd be an easy target to take packages from, I send them running!",
+            "nextDialogs": [
+              "401091331"
+            ]
+          },
+          "401091331": {
+            "id": "401091331",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Hmm, let me think about it...",
+            "nextDialogs": [
+              "401091332"
+            ]
+          },
+          "401091332": {
+            "id": "401091332",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Alright, I'll let you come with me to the delivery point in Sumeru.",
+            "nextDialogs": [
+              "401091333"
+            ]
+          },
+          "401091333": {
+            "id": "401091333",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "But, on one condition!",
+            "nextDialogs": [
+              "401091334"
+            ]
+          },
+          "401091334": {
+            "id": "401091334",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "You have to promise that you'll hide somewhere where the customer can't see you. Who's ever heard of a group of people delivering packages?",
+            "nextDialogs": [
+              "401091335"
+            ]
+          },
+          "401091335": {
+            "id": "401091335",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "No problem, you got it!",
+            "nextDialogs": [
+              "401091336"
+            ]
+          },
+          "401091336": {
+            "id": "401091336",
+            "speakerId": 1009,
+            "speakerName": "Kirara",
+            "text": "Also, even if the customer is a bad guy and has stolen things, we should leave that for the local authorities to handle.",
+            "nextDialogs": [
+              "401091337"
+            ]
+          },
+          "401091337": {
+            "id": "401091337",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Absolutely.",
+            "nextDialogs": [
+              "401091338"
+            ]
+          },
+          "401091338": {
+            "id": "401091338",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Next stop, Sumeru! We're really traveling all over the place this time.",
+            "nextDialogs": [
+              "401091339"
+            ]
+          },
+          "401091339": {
+            "id": "401091339",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Good luck. You'll have to tell me how everything turns out the next time we meet."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010909",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401090901"
+        ],
+        "dialogs": {
+          "401090901": {
+            "id": "401090901",
+            "speakerId": 1008,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Well? After all I've said so far, have you arrived at the same answer as me?",
+            "nextDialogs": [
+              "401090902"
+            ]
+          },
+          "401090902": {
+            "id": "401090902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hmm, let me think..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010921",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401092101"
+        ],
+        "dialogs": {
+          "401092101": {
+            "id": "401092101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I accept your challenge.",
+            "nextDialogs": [
+              "401092102"
+            ]
+          },
+          "401092102": {
+            "id": "401092102",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Great! See? This is what I call a true compadre! Hahaha...",
+            "nextDialogs": [
+              "401092103"
+            ]
+          },
+          "401092103": {
+            "id": "401092103",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "*sigh* Alright, I'll be the judge, then.",
+            "nextDialogs": [
+              "401092104"
+            ]
+          },
+          "401092104": {
+            "id": "401092104",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Just remember to take it easy, you two. This isn't a high-stakes match. It really doesn't matter who wins or loses.",
+            "nextDialogs": [
+              "401092105"
+            ]
+          },
+          "401092105": {
+            "id": "401092105",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Shush! Do you guys hear that? It's the cry of my cards, cheering me on in the wind!",
+            "nextDialogs": [
+              "401092106"
+            ]
+          },
+          "401092106": {
+            "id": "401092106",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "...MY cards, you mean."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010922",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401092201"
+        ],
+        "dialogs": {
+          "401092201": {
+            "id": "401092201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I've got other things to do right now...",
+            "nextDialogs": [
+              "401092202"
+            ]
+          },
+          "401092202": {
+            "id": "401092202",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Ah, really? Alright, well, some other time then.",
+            "nextDialogs": [
+              "401092203"
+            ]
+          },
+          "401092203": {
+            "id": "401092203",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Just come find me whenever you have some time to play!",
+            "nextDialogs": [
+              "401092204"
+            ]
+          },
+          "401092204": {
+            "id": "401092204",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Actually, we were looking for Kokomi, have you seen her around?",
+            "nextDialogs": [
+              "401092205"
+            ]
+          },
+          "401092205": {
+            "id": "401092205",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Or as Arataki \"Numero Uno Idioso\" so eloquently called her, \"the fish lady.\"",
+            "nextDialogs": [
+              "401092206"
+            ]
+          },
+          "401092206": {
+            "id": "401092206",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "You're one to talk, Lavender Melon...",
+            "nextDialogs": [
+              "401092207"
+            ]
+          },
+          "401092207": {
+            "id": "401092207",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Her match in the finals will be starting shortly, so she can't be far.",
+            "nextDialogs": [
+              "401092208"
+            ]
+          },
+          "401092208": {
+            "id": "401092208",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Why don't you ask Kujou Sara over there? The Tenryou Commission is in charge of managing access to the venue and maintaining order.",
+            "nextDialogs": [
+              "401092209"
+            ]
+          },
+          "401092209": {
+            "id": "401092209",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "...Mkay, but don't forget about your compadre here, alright? I'll be waiting for ya!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010923",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401092301"
+        ],
+        "dialogs": {
+          "401092301": {
+            "id": "401092301",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Huh, I can't believe I lost.",
+            "nextDialogs": [
+              "401092302"
+            ]
+          },
+          "401092302": {
+            "id": "401092302",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "And I can't believe your deck won. That takes some serious skill."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010924",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401092401"
+        ],
+        "dialogs": {
+          "401092401": {
+            "id": "401092401",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hahaha! See, my theory was correct!",
+            "nextDialogs": [
+              "401092402"
+            ]
+          },
+          "401092402": {
+            "id": "401092402",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Don't let it get to you... You were using Boss's deck, after all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010951",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095101"
+        ],
+        "dialogs": {
+          "401095101": {
+            "id": "401095101",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "Miko... The people of Inazuma are afraid of me...",
+            "nextDialogs": [
+              "401095102"
+            ]
+          },
+          "401095102": {
+            "id": "401095102",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "And for good reason, no? A bolt of lightning from you would make even my fur stand on end.",
+            "nextDialogs": [
+              "401095103"
+            ]
+          },
+          "401095103": {
+            "id": "401095103",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "You know I would never do such a thing...",
+            "nextDialogs": [
+              "401095104"
+            ]
+          },
+          "401095104": {
+            "id": "401095104",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "Nor would I eat anyone! Yet, a writer of mine seems convinced that I'd turn into an evil kitsune and eat him alive if he doesn't submit his drafts on time. Honestly, where do people get these ideas?",
+            "nextDialogs": [
+              "401095105"
+            ]
+          },
+          "401095105": {
+            "id": "401095105",
+            "speakerId": 1003,
+            "speakerName": "Yae Miko",
+            "text": "...Hmm, although to be fair, after I learned that he was afraid of me, I did start acting like I might actually eat him. Needless to say, his punctuality is now improving with each draft.",
+            "nextDialogs": [
+              "401095106"
+            ]
+          },
+          "401095106": {
+            "id": "401095106",
+            "speakerId": 1002,
+            "speakerName": "Ei",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010953",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095301"
+        ],
+        "dialogs": {
+          "401095301": {
+            "id": "401095301",
+            "speakerId": 1012,
+            "speakerName": "Qiuyue",
+            "text": "The Almighty Shogun herself has come to Ritou to compete in the King of Invokations Grand Prix.",
+            "nextDialogs": [
+              "401095302"
+            ]
+          },
+          "401095302": {
+            "id": "401095302",
+            "speakerId": 1012,
+            "speakerName": "Qiuyue",
+            "text": "How blessed we are. Her presence here today is sure to boost business in Ritou for a long time to come."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010954",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095401"
+        ],
+        "dialogs": {
+          "401095401": {
+            "id": "401095401",
+            "speakerId": 1013,
+            "speakerName": "Vahid",
+            "text": "Oh, if only I'd thought ahead, I could have sponsored the King of Invokations Grand Prix with my Anahitian Blessing. This could've been the perfect promotional opportunity for me!",
+            "nextDialogs": [
+              "401095402"
+            ]
+          },
+          "401095402": {
+            "id": "401095402",
+            "speakerId": 1013,
+            "speakerName": "Vahid",
+            "text": "Hmm, although on second thought... Who'd wanna win a bunch of fertilizer as a prize? ...*sigh*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010955",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095501"
+        ],
+        "dialogs": {
+          "401095501": {
+            "id": "401095501",
+            "speakerId": 1014,
+            "speakerName": "Karpillia",
+            "text": "Is that the Electro Archon? You definitely don't see her every day.",
+            "nextDialogs": [
+              "401095502"
+            ]
+          },
+          "401095502": {
+            "id": "401095502",
+            "speakerId": 1014,
+            "speakerName": "Karpillia",
+            "text": "Huh, now that I think about it, I've actually never seen the Anemo Archon, either.",
+            "nextDialogs": [
+              "401095503"
+            ]
+          },
+          "401095503": {
+            "id": "401095503",
+            "speakerId": 1014,
+            "speakerName": "Karpillia",
+            "text": "Eh, but that doesn't matter. May the Anemo Archon continue to bring my business the winds of success."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010956",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095601"
+        ],
+        "dialogs": {
+          "401095601": {
+            "id": "401095601",
+            "speakerId": 1015,
+            "speakerName": "Kaede",
+            "text": "Is that really the Almighty Shogun?",
+            "nextDialogs": [
+              "401095602"
+            ]
+          },
+          "401095602": {
+            "id": "401095602",
+            "speakerId": 1015,
+            "speakerName": "Kaede",
+            "text": "Huh... None of the figurines I sell in the shop come close to capturing her in all her glory.",
+            "nextDialogs": [
+              "401095603"
+            ]
+          },
+          "401095603": {
+            "id": "401095603",
+            "speakerId": 1015,
+            "speakerName": "Kaede",
+            "text": "Maybe it's time to release a new one..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010957",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095701"
+        ],
+        "dialogs": {
+          "401095701": {
+            "id": "401095701",
+            "speakerId": 1016,
+            "speakerName": "Xixi",
+            "text": "Everybody's been playing that card game lately... Maybe I should learn how to play? *sigh* But it'd take so much mental energy, it'd probably only make me even sleepier."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010958",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401095801"
+        ],
+        "dialogs": {
+          "401095801": {
+            "id": "401095801",
+            "speakerId": 1017,
+            "speakerName": "Kurisu",
+            "text": "The Almighty Shogun's TCG skills were truly amazing to witness. She beat me fair and square.",
+            "nextDialogs": [
+              "401095802"
+            ]
+          },
+          "401095802": {
+            "id": "401095802",
+            "speakerId": 1017,
+            "speakerName": "Kurisu",
+            "text": "Times have taken a turn for the better now. I'm sure that under the Almighty Shogun's rule, brighter days lie ahead for the International Trade Association."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010961",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401096101"
+        ],
+        "dialogs": {
+          "401096101": {
+            "id": "401096101",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "What's up, compadre! You here to play another game?",
+            "nextDialogs": [
+              "401096103",
+              "401096105"
+            ]
+          },
+          "401096103": {
+            "id": "401096103",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "You've got it! This oni's ready to play all day!"
+          },
+          "401096105": {
+            "id": "401096105",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "No worries, you go do what you gotta do. I'll see ya later."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010962",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401096201"
+        ],
+        "dialogs": {
+          "401096201": {
+            "id": "401096201",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Hey, compadre! How about a game? You versus me!",
+            "nextDialogs": [
+              "401096203",
+              "401096208"
+            ]
+          },
+          "401096203": {
+            "id": "401096203",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "*sigh* Alright, I'll be the judge, then.",
+            "nextDialogs": [
+              "401096204"
+            ]
+          },
+          "401096204": {
+            "id": "401096204",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "Just remember to take it easy, you two. This isn't a high-stakes match. It really doesn't matter who wins or loses.",
+            "nextDialogs": [
+              "401096205"
+            ]
+          },
+          "401096205": {
+            "id": "401096205",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "Shush! Do you guys hear that? It's the cry of my cards, cheering me on in the wind!",
+            "nextDialogs": [
+              "401096206"
+            ]
+          },
+          "401096206": {
+            "id": "401096206",
+            "speakerId": 1005,
+            "speakerName": "Kuki Shinobu",
+            "text": "...MY cards, you mean."
+          },
+          "401096208": {
+            "id": "401096208",
+            "speakerId": 1004,
+            "speakerName": "Arataki Itto",
+            "text": "No problem! Arataki \"The Ultimate TCG Champion\" Itto never backs down from a challenge, I'll be waitin'."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010963",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401096301"
+        ],
+        "dialogs": {
+          "401096301": {
+            "id": "401096301",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "I hope the final goes smoothly.",
+            "nextDialogs": [
+              "401096302"
+            ]
+          },
+          "401096302": {
+            "id": "401096302",
+            "speakerId": 1006,
+            "speakerName": "Kujou Sara",
+            "text": "Everything should be fine... as long as that oni manages to avoid causing a scene."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4010999",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401099904"
+        ],
+        "dialogs": {
+          "401099904": {
+            "id": "401099904",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Every nation Kirara visited had a parcel sent to Sumeru...)",
+            "nextDialogs": [
+              "401099905"
+            ]
+          },
+          "401099905": {
+            "id": "401099905",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(The contents were light, and were no larger than an envelope...)",
+            "nextDialogs": [
+              "401099906"
+            ]
+          },
+          "401099906": {
+            "id": "401099906",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(The contents were probably Genius Invokation cards...)",
+            "nextDialogs": [
+              "401099907"
+            ]
+          },
+          "401099907": {
+            "id": "401099907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(We've run into Kirara multiple times throughout our trip...)",
+            "nextDialogs": [
+              "401099908"
+            ]
+          },
+          "401099908": {
+            "id": "401099908",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(We came to Inazuma because we tracked the thief here...)",
+            "nextDialogs": [
+              "401099909"
+            ]
+          },
+          "401099909": {
+            "id": "401099909",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(The thief is likely using Komaniya Express to send packages...)",
+            "nextDialogs": [
+              "401099910"
+            ]
+          },
+          "401099910": {
+            "id": "401099910",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Kirara's deliveries contain the treasure chest card backs!)",
+            "nextDialogs": [
+              "401099911"
+            ]
+          },
+          "401099911": {
+            "id": "401099911",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...No, that doesn't seem to be the answer...)",
+            "nextDialogs": [
+              "401099912"
+            ]
+          },
+          "401099912": {
+            "id": "401099912",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Hmm, there doesn't seem to be any more leads...)"
+          }
+        }
+      }
+    }
+  ]
+}

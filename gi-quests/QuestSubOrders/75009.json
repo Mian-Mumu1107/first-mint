@@ -1,0 +1,429 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 9,
+    "Paimon": 17,
+    "Player": 6,
+    "Quipia": 18
+  },
+  "subQuests": [
+    {
+      "subId": "7500901",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750090101"
+        ],
+        "dialogs": {
+          "750090101": {
+            "id": "750090101",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "Three hundred Mora entry fee...",
+            "nextDialogs": [
+              "750090105",
+              "750090104"
+            ]
+          },
+          "750090105": {
+            "id": "750090105",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "The price is set by the Saurian Relics Association, and cannot be negotiated. As far as I know, this is already the cheapest excavation site, as it's been open the longest.",
+            "nextDialogs": [
+              "750090106"
+            ]
+          },
+          "750090106": {
+            "id": "750090106",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "But nowadays, we sometimes get dreamers like you who want to try their luck.",
+            "nextDialogs": [
+              "750090107"
+            ]
+          },
+          "750090107": {
+            "id": "750090107",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "After all, you never know! Maybe none of the hundreds and thousands of people who came before you had a good eye for treasure, and missed a priceless relic that only looks ordinary.",
+            "nextDialogs": [
+              "750090108"
+            ]
+          },
+          "750090108": {
+            "id": "750090108",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "Many would pay 300 Mora for such a beautiful dream.",
+            "nextDialogs": [
+              "750090109"
+            ]
+          },
+          "750090109": {
+            "id": "750090109",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "So, how lucky are you feeling? Do you believe you'll be the one to strike it rich?",
+            "nextDialogs": [
+              "750090110"
+            ]
+          },
+          "750090110": {
+            "id": "750090110",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrrooo... Rawr! Rawr! Raaawr!"
+          },
+          "750090104": {
+            "id": "750090104",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey, that's not how we normally do things!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500903",
+      "subQuestName": "Try your luck at the excavation site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7500904",
+      "subQuestName": "Follow your Saurian companion",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7500905",
+      "subQuestName": "Continue exploring the excavation site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7500902",
+      "subQuestName": "Check the treasure that your Saurian companion found",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750090201"
+        ],
+        "dialogs": {
+          "750090201": {
+            "id": "750090201",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750090202"
+            ]
+          },
+          "750090202": {
+            "id": "750090202",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "This little ball... It looks kinda like a component or something. You like it?",
+            "nextDialogs": [
+              "750090203"
+            ]
+          },
+          "750090203": {
+            "id": "750090203",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrrah... Rawr!",
+            "nextDialogs": [
+              "750090204"
+            ]
+          },
+          "750090204": {
+            "id": "750090204",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Though we didn't dig it up, since we did find it here... It might be something really valuable!",
+            "nextDialogs": [
+              "750090205"
+            ]
+          },
+          "750090205": {
+            "id": "750090205",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Let's ask when we leave!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500906",
+      "subQuestName": "Go back and ask Quipia",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750090601"
+        ],
+        "dialogs": {
+          "750090601": {
+            "id": "750090601",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "How did it go?",
+            "nextDialogs": [
+              "750090602"
+            ]
+          },
+          "750090602": {
+            "id": "750090602",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} found this...",
+            "nextDialogs": [
+              "750090603"
+            ]
+          },
+          "750090603": {
+            "id": "750090603",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750090604"
+            ]
+          },
+          "750090604": {
+            "id": "750090604",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "Let me have a look... Not the most uncommon item, but still, a rare find. It is very well-preserved, with clearly-visible phlogiston flow patterns.",
+            "nextDialogs": [
+              "750090605"
+            ]
+          },
+          "750090605": {
+            "id": "750090605",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "Yes... Would you be willing to part with it if I gave you 10,000 Mora?",
+            "nextDialogs": [
+              "750090606"
+            ]
+          },
+          "750090606": {
+            "id": "750090606",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wha—!? Did we really find a priceless Saurian relic!?",
+            "nextDialogs": [
+              "750090607"
+            ]
+          },
+          "750090607": {
+            "id": "750090607",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Paimon just knew that {REALNAME[ID(2)|SHOWHOST(true)]} was awesome, and would bring us good luck!",
+            "nextDialogs": [
+              "750090608"
+            ]
+          },
+          "750090608": {
+            "id": "750090608",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "No, this isn't nearly as precious as you seem to think. Were you to take it to Association headquarters for appraisal, it'd clock in at around 5,000 Mora at most.",
+            "nextDialogs": [
+              "750090609"
+            ]
+          },
+          "750090609": {
+            "id": "750090609",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Paimon's not falling for that trick! If it's only worth 5,000, why are you willing to pay 10,000 for it?",
+            "nextDialogs": [
+              "750090610"
+            ]
+          },
+          "750090610": {
+            "id": "750090610",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "That's because of the unique patterns on it. I'm quite taken with them. Though it may not be that valuable in the eyes of others, I'm willing to pay a bit extra for it.",
+            "nextDialogs": [
+              "750090611"
+            ]
+          },
+          "750090611": {
+            "id": "750090611",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "You may call me eccentric, but you could also say it's just the nature of a collector.",
+            "nextDialogs": [
+              "750090612"
+            ]
+          },
+          "750090612": {
+            "id": "750090612",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hmm... When you put it like that, Paimon gets you. And 10,000 is quite a lot compared to the entrance fee.",
+            "nextDialogs": [
+              "750090613"
+            ]
+          },
+          "750090613": {
+            "id": "750090613",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "So, shall we trade it in for 10,000?",
+            "nextDialogs": [
+              "750090614"
+            ]
+          },
+          "750090614": {
+            "id": "750090614",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wrroh... Rrrooo...",
+            "nextDialogs": [
+              "750090615"
+            ]
+          },
+          "750090615": {
+            "id": "750090615",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#You don't seem too happy about that, {REALNAME[ID(2)|SHOWHOST(true)]}... Do you wanna keep it for yourself?",
+            "nextDialogs": [
+              "750090616"
+            ]
+          },
+          "750090616": {
+            "id": "750090616",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrrah... Rawr!",
+            "nextDialogs": [
+              "750090619"
+            ]
+          },
+          "750090619": {
+            "id": "750090619",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Since {REALNAME[ID(2)|SHOWHOST(true)]} doesn't want to sell, then we'll just have to keep it.",
+            "nextDialogs": [
+              "750090620"
+            ]
+          },
+          "750090620": {
+            "id": "750090620",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750090621"
+            ]
+          },
+          "750090621": {
+            "id": "750090621",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "#Looks like you value {REALNAME[ID(2)|SHOWHOST(true)]} far more than Mora.",
+            "nextDialogs": [
+              "750090622"
+            ]
+          },
+          "750090622": {
+            "id": "750090622",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Naturally! He's our companion, after all. But if we find something similar in the future...",
+            "nextDialogs": [
+              "750090623"
+            ]
+          },
+          "750090623": {
+            "id": "750090623",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "Thank you, but a collector's passion is as fickle as the tides. It rises as suddenly as it might retreat. Perhaps I'll find myself obsessing over something else in the future, though I can't yet say what my new interest will be.",
+            "nextDialogs": [
+              "750090624"
+            ]
+          },
+          "750090624": {
+            "id": "750090624",
+            "speakerId": 1001,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Rawr rawr!",
+            "nextDialogs": [
+              "750090625"
+            ]
+          },
+          "750090625": {
+            "id": "750090625",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Are you agreeing with her, {REALNAME[ID(2)|SHOWHOST(true)]}? Ohhh, Paimon gets it! This must be the mutual respect and understanding shared by collectors!",
+            "nextDialogs": [
+              "750090626"
+            ]
+          },
+          "750090626": {
+            "id": "750090626",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "It is my honor to have been acknowledged by such a brilliant young Tepetlisaurus. Still, even if we can't do business, that doesn't mean we can't be friends! Feel free to come find me if you ever want to talk about collecting.",
+            "nextDialogs": [
+              "750090627"
+            ]
+          },
+          "750090627": {
+            "id": "750090627",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "I won't keep you any longer, then. Good luck!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500908",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750090801"
+        ],
+        "dialogs": {
+          "750090801": {
+            "id": "750090801",
+            "speakerId": 1000,
+            "speakerName": "Quipia",
+            "text": "What is it? There's no time limit, so take your time."
+          }
+        }
+      }
+    }
+  ]
+}

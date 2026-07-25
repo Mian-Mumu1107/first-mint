@@ -1,0 +1,56 @@
+{
+  "lineCounts": {
+    "Otto": 1,
+    "Paimon": 1,
+    "Shopkeeper 02": 1
+  },
+  "subQuests": [
+    {
+      "subId": "42101",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3750301"
+        ],
+        "dialogs": {
+          "3750301": {
+            "id": "3750301",
+            "speakerId": 1000,
+            "speakerName": "Shopkeeper 02",
+            "text": "Freeze!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "37502",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3750202"
+        ],
+        "dialogs": {
+          "3750202": {
+            "id": "3750202",
+            "speakerId": 1001,
+            "speakerName": "Otto",
+            "text": "Man, this stinks. Having to stand around here all <color=#00E1FFFF>day</color> long, having to guard this entrance.\\nHey! Don't move! You can't go down there!",
+            "nextDialogs": [
+              "3750203"
+            ]
+          },
+          "3750203": {
+            "id": "3750203",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Seems we're gonna have to wait until <color=#00E1FFFF>nightfall</color> to sneak in..."
+          }
+        }
+      }
+    }
+  ]
+}

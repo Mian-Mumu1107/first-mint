@@ -1,0 +1,177 @@
+{
+  "lineCounts": {
+    "Ella Musk": 4,
+    "Paimon": 1,
+    "Player": 3,
+    "Sleepy Hilichurl": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7002101",
+      "subQuestName": "Talk to the hilichurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210101"
+        ],
+        "dialogs": {
+          "700210101": {
+            "id": "700210101",
+            "speakerId": 1000,
+            "speakerName": "Sleepy Hilichurl",
+            "text": "Mimi muhe <color=#00E1FFFF> gusha unu boya</color>",
+            "nextDialogs": [
+              "700210102"
+            ]
+          },
+          "700210102": {
+            "id": "700210102",
+            "speakerId": 1001,
+            "speakerName": "Ella Musk",
+            "text": "Hmm, it appears that it wants an object of a specific color... Shall we go see what it wants?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002102",
+      "subQuestName": "Give an item to the hilichurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210301"
+        ],
+        "dialogs": {
+          "700210301": {
+            "id": "700210301",
+            "speakerId": 1000,
+            "speakerName": "Sleepy Hilichurl",
+            "text": "Yeye tomo! Mosi mita!",
+            "nextDialogs": [
+              "700210302"
+            ]
+          },
+          "700210302": {
+            "id": "700210302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mosi mita!",
+            "nextDialogs": [
+              "700210303"
+            ]
+          },
+          "700210303": {
+            "id": "700210303",
+            "speakerId": 1001,
+            "speakerName": "Ella Musk",
+            "text": "See? Where there's a will to communicate, there's a way!",
+            "nextDialogs": [
+              "700210304"
+            ]
+          },
+          "700210304": {
+            "id": "700210304",
+            "speakerId": 1001,
+            "speakerName": "Ella Musk",
+            "text": "Du odomu tomo dala?",
+            "nextDialogs": [
+              "700210305"
+            ]
+          },
+          "700210305": {
+            "id": "700210305",
+            "speakerId": 1000,
+            "speakerName": "Sleepy Hilichurl",
+            "text": "Mito nye! Beru ya!",
+            "nextDialogs": [
+              "700210306"
+            ]
+          },
+          "700210306": {
+            "id": "700210306",
+            "speakerId": 1001,
+            "speakerName": "Ella Musk",
+            "text": "It said that its friend knows, and it's marked their location on the Map for us. Let's go find them!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002104",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210401"
+        ],
+        "dialogs": {
+          "700210401": {
+            "id": "700210401",
+            "speakerId": 1000,
+            "speakerName": "Sleepy Hilichurl",
+            "text": "Gusha! Mani nye!",
+            "nextDialogs": [
+              "700210402"
+            ]
+          },
+          "700210402": {
+            "id": "700210402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I think we got it wrong..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700210201"
+        ],
+        "dialogs": {
+          "700210201": {
+            "id": "700210201",
+            "speakerId": 1000,
+            "speakerName": "Sleepy Hilichurl",
+            "text": "Mani mi <color=#00E1FFFF>gusha unu boya</color>!",
+            "nextDialogs": [
+              "700210202"
+            ]
+          },
+          "700210202": {
+            "id": "700210202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Is it this one?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7002199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700219901"
+        ],
+        "dialogs": {
+          "700219901": {
+            "id": "700219901",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hey, look! Over there!"
+          }
+        }
+      }
+    }
+  ]
+}

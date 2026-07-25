@@ -1,0 +1,246 @@
+{
+  "lineCounts": {
+    "Chronie": 9,
+    "Nacker": 14,
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7408701",
+      "subQuestName": "Go to the Institute Dormitories",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7408702",
+      "subQuestName": "Talk to Nacker",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740870201"
+        ],
+        "dialogs": {
+          "740870201": {
+            "id": "740870201",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Is this where researchers spent their downtime? Is this even humane? Has the Fontaine Research Institute ever considered making renovating this place a priority?",
+            "nextDialogs": [
+              "740870202"
+            ]
+          },
+          "740870202": {
+            "id": "740870202",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "...There should be a Survey Anchor here. Just like Ms. Chronie implied, this place needs renovation, and the power supply here is very limited... Or perhaps I should say, there's a complete shortage.",
+            "nextDialogs": [
+              "740870203"
+            ]
+          },
+          "740870203": {
+            "id": "740870203",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "#While I'm answering Ms. Chronie's questions, I'll leave the job of recovering the Survey Anchor to you, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7408703",
+      "subQuestName": "Retrieve the Survey Anchor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740870301"
+        ],
+        "dialogs": {
+          "740870301": {
+            "id": "740870301",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Compared to some other areas, the dormitories weren't impacted as much by the explosion.",
+            "nextDialogs": [
+              "740870302"
+            ]
+          },
+          "740870302": {
+            "id": "740870302",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Dormitories? But I don't see even one bed here, so how do the researchers get any rest? It's not like they can sleep in chairs, right?",
+            "nextDialogs": [
+              "740870303"
+            ]
+          },
+          "740870303": {
+            "id": "740870303",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Ms. Chronie, your idea of \"resting\" is very different from that of the researchers.",
+            "nextDialogs": [
+              "740870304"
+            ]
+          },
+          "740870304": {
+            "id": "740870304",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "When a researcher at the Fontaine Research Institute says they need rest, they only want a quick break for their brain.",
+            "nextDialogs": [
+              "740870305"
+            ]
+          },
+          "740870305": {
+            "id": "740870305",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Then, they would usually come here, play piano, read, and have a drink or two if necessary.",
+            "nextDialogs": [
+              "740870306"
+            ]
+          },
+          "740870306": {
+            "id": "740870306",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Uh, but wouldn't sleeping provide more rest for the brain?",
+            "nextDialogs": [
+              "740870307"
+            ]
+          },
+          "740870307": {
+            "id": "740870307",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "You may be correct, but... To our researchers, sleeping is a waste of time in the first place.",
+            "nextDialogs": [
+              "740870308"
+            ]
+          },
+          "740870308": {
+            "id": "740870308",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Sleeping is a waste of time? No, it is essential for rest!",
+            "nextDialogs": [
+              "740870309"
+            ]
+          },
+          "740870309": {
+            "id": "740870309",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Sleeping completely cuts your train of thought short, and that's just not acceptable for our research work.",
+            "nextDialogs": [
+              "740870312"
+            ]
+          },
+          "740870312": {
+            "id": "740870312",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Are you being serious? If you don't sleep, the only thing that'll be cut short is your life!",
+            "nextDialogs": [
+              "740870313"
+            ]
+          },
+          "740870313": {
+            "id": "740870313",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Not necessarily. The institute boasts an excellent health care system that guarantees researchers' health and well-being.",
+            "nextDialogs": [
+              "740870314"
+            ]
+          },
+          "740870314": {
+            "id": "740870314",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "But that's still no reason to not sleep!",
+            "nextDialogs": [
+              "740870315"
+            ]
+          },
+          "740870315": {
+            "id": "740870315",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "Also, if researchers are here to give their brains a break, wouldn't that break their thought process from research, anyway?",
+            "nextDialogs": [
+              "740870316"
+            ]
+          },
+          "740870316": {
+            "id": "740870316",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Not necessarily. It only seems like they're taking a break when actually, they're still pondering different academic subjects subconsciously.",
+            "nextDialogs": [
+              "740870317"
+            ]
+          },
+          "740870317": {
+            "id": "740870317",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "It's akin to a vast ocean that, while appearing calm on the surface, still has a strong undercurrent beneath.",
+            "nextDialogs": [
+              "740870318"
+            ]
+          },
+          "740870318": {
+            "id": "740870318",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Sometimes, the undercurrents below are much stronger than the towering waves above.",
+            "nextDialogs": [
+              "740870319"
+            ]
+          },
+          "740870319": {
+            "id": "740870319",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "I get it. You mean when researchers of the Fontaine Research Institute are on a project, they must keep working and are not allowed to rest, right?",
+            "nextDialogs": [
+              "740870320"
+            ]
+          },
+          "740870320": {
+            "id": "740870320",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "That is not completely fair to say. If they truly need sleep, they're free to go back home and do just that.",
+            "nextDialogs": [
+              "740870321"
+            ]
+          },
+          "740870321": {
+            "id": "740870321",
+            "speakerId": 1000,
+            "speakerName": "Chronie",
+            "text": "So, it is fairer to say that as long as researchers of the Fontaine Research Institute are inside the Institute, they must keep working and are not allowed to rest.",
+            "nextDialogs": [
+              "740870322"
+            ]
+          },
+          "740870322": {
+            "id": "740870322",
+            "speakerId": 1001,
+            "speakerName": "Nacker",
+            "text": "Your rhetoric is simply astound, Ms. Chronie."
+          }
+        }
+      }
+    }
+  ]
+}

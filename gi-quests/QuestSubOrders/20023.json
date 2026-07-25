@@ -1,0 +1,461 @@
+{
+  "lineCounts": {
+    "Charles": 4,
+    "Nimrod": 4,
+    "Paimon": 1,
+    "Player": 8,
+    "Quinn": 1,
+    "Victoria": 23
+  },
+  "subQuests": [
+    {
+      "subId": "2002301",
+      "subQuestName": "Talk to Sister Victoria",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230101"
+        ],
+        "dialogs": {
+          "200230101": {
+            "id": "200230101",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "I wonder if he will finally repent this time...",
+            "nextDialogs": [
+              "200230102"
+            ]
+          },
+          "200230102": {
+            "id": "200230102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Repent from what?",
+            "nextDialogs": [
+              "200230103"
+            ]
+          },
+          "200230103": {
+            "id": "200230103",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Lots of people come here every day to confess their sins and seek forgiveness from the gods.",
+            "nextDialogs": [
+              "200230104"
+            ]
+          },
+          "200230104": {
+            "id": "200230104",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "But if you only say it and don't act on it, don't you think that's a waste of time?",
+            "nextDialogs": [
+              "200230105"
+            ]
+          },
+          "200230105": {
+            "id": "200230105",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Take Nimrod for instance. He has come here to confess his alcohol abuse numerous times, but he hasn't changed one bit...",
+            "nextDialogs": [
+              "200230106"
+            ]
+          },
+          "200230106": {
+            "id": "200230106",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "If you have time, maybe you could go and check up on him?",
+            "nextDialogs": [
+              "200230108",
+              "200230111"
+            ]
+          },
+          "200230108": {
+            "id": "200230108",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Oh — and if he is drinking again, please bring some evidence back.",
+            "nextDialogs": [
+              "200230109"
+            ]
+          },
+          "200230109": {
+            "id": "200230109",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Sometimes, serial offenders need a little instruction to help them correct the error of their ways..."
+          },
+          "200230111": {
+            "id": "200230111",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Drinking alone is not a sin. But it is sinful to drink to the point that you bring undue distress to others.",
+            "nextDialogs": [
+              "200230112"
+            ]
+          },
+          "200230112": {
+            "id": "200230112",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "If everyone was to behave quite so unscrupulously, sooner or later the entirety of Mondstadt would find itself in a very distressing situation.",
+            "nextDialogs": [
+              "200230113"
+            ]
+          },
+          "200230113": {
+            "id": "200230113",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "So each time a sin rears its ugly head, it needs to be nipped in the bud. Now, quickly, go check up on Nimrod for me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002302",
+      "subQuestName": "Find Nimrod",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230201"
+        ],
+        "dialogs": {
+          "200230201": {
+            "id": "200230201",
+            "speakerId": 1001,
+            "speakerName": "Nimrod",
+            "text": "Hahaha, this is the one I look forward to every day...",
+            "nextDialogs": [
+              "200230202"
+            ]
+          },
+          "200230202": {
+            "id": "200230202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I thought you quit drinking?",
+            "nextDialogs": [
+              "200230203"
+            ]
+          },
+          "200230203": {
+            "id": "200230203",
+            "speakerId": 1001,
+            "speakerName": "Nimrod",
+            "text": "Argh! Oh, you gave me a fright... I thought it was my wife.",
+            "nextDialogs": [
+              "200230204"
+            ]
+          },
+          "200230204": {
+            "id": "200230204",
+            "speakerId": 1001,
+            "speakerName": "Nimrod",
+            "text": "The odd one now and then doesn't hurt anybody! I did have a tough day's work today...",
+            "nextDialogs": [
+              "200230205"
+            ]
+          },
+          "200230205": {
+            "id": "200230205",
+            "speakerId": 1001,
+            "speakerName": "Nimrod",
+            "text": "Alright, I get it! I'll finish off this one and head back. Eury will probably have finished shopping by now anyway."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002303",
+      "subQuestName": "Examine the mug for evidence",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230301"
+        ],
+        "dialogs": {
+          "200230301": {
+            "id": "200230301",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "Hello? Can I help?",
+            "nextDialogs": [
+              "200230302"
+            ]
+          },
+          "200230302": {
+            "id": "200230302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Tell me about Nimrod.",
+            "nextDialogs": [
+              "200230303"
+            ]
+          },
+          "200230303": {
+            "id": "200230303",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "He's been here drinking for hours. Look, here's his tab.",
+            "nextDialogs": [
+              "200230304"
+            ]
+          },
+          "200230304": {
+            "id": "200230304",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "If he keeps this up, we'll have to call in Eury.",
+            "nextDialogs": [
+              "200230305"
+            ]
+          },
+          "200230305": {
+            "id": "200230305",
+            "speakerId": 1002,
+            "speakerName": "Charles",
+            "text": "You want to borrow it? I suppose there's no harm in that — but what do you need it for?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002304",
+      "subQuestName": "Talk to Charles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2002305",
+      "subQuestName": "Report back to Sister Victoria",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230401"
+        ],
+        "dialogs": {
+          "200230401": {
+            "id": "200230401",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Have you checked up on him yet?",
+            "nextDialogs": [
+              "200230402"
+            ]
+          },
+          "200230402": {
+            "id": "200230402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "This is Nimrod's bill from the tavern.",
+            "nextDialogs": [
+              "200230403"
+            ]
+          },
+          "200230403": {
+            "id": "200230403",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Hmph. Just as I thought, he's at it again.",
+            "nextDialogs": [
+              "200230404"
+            ]
+          },
+          "200230404": {
+            "id": "200230404",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "People will forget everything that's happened in their past unless they've really had to suffer for it...",
+            "nextDialogs": [
+              "200230405"
+            ]
+          },
+          "200230405": {
+            "id": "200230405",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Please take this as payment for your trouble.",
+            "nextDialogs": [
+              "200230406"
+            ]
+          },
+          "200230406": {
+            "id": "200230406",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "As for Nimrod's payback... I will mull it over."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002306",
+      "subQuestName": "Find Nimrod",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230601"
+        ],
+        "dialogs": {
+          "200230601": {
+            "id": "200230601",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "*Tut-tut* Simply no attempt to change his ways whatsoever..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002307",
+      "subQuestName": "Observe Nimrod",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230701"
+        ],
+        "dialogs": {
+          "200230701": {
+            "id": "200230701",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "People don't tend to learn the lessons that their past can teach them unless... Unless somebody points it out to them directly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002308",
+      "subQuestName": "Report back to Sister Victoria",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230901"
+        ],
+        "dialogs": {
+          "200230901": {
+            "id": "200230901",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Have you checked up on him yet?",
+            "nextDialogs": [
+              "200230902"
+            ]
+          },
+          "200230902": {
+            "id": "200230902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Nimrod is sober as a judge.",
+            "nextDialogs": [
+              "200230903"
+            ]
+          },
+          "200230903": {
+            "id": "200230903",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "...Really? He's sober?",
+            "nextDialogs": [
+              "200230904"
+            ]
+          },
+          "200230904": {
+            "id": "200230904",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Unfortunately there's no evidence...",
+            "nextDialogs": [
+              "200230905"
+            ]
+          },
+          "200230905": {
+            "id": "200230905",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "That's okay. So long as you found no evidence of him drinking, I am content to believe he is a changed man.",
+            "nextDialogs": [
+              "200230906"
+            ]
+          },
+          "200230906": {
+            "id": "200230906",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Until I am given evidence to the contrary, I am always willing to believe in a person's innocence.",
+            "nextDialogs": [
+              "200230907"
+            ]
+          },
+          "200230907": {
+            "id": "200230907",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "But when there's mountains of evidence telling of all kinds of misdemeanors... It really is funny.",
+            "nextDialogs": [
+              "200230908"
+            ]
+          },
+          "200230908": {
+            "id": "200230908",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "Please take this to pay you back for your trouble. I hope I don't see the day that you have anything to repent for."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002305",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230501"
+        ],
+        "dialogs": {
+          "200230501": {
+            "id": "200230501",
+            "speakerId": 1000,
+            "speakerName": "Victoria",
+            "text": "People don't tend to learn the lessons that their past can teach them unless... Unless somebody points it out to them directly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2002308",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200230801"
+        ],
+        "dialogs": {
+          "200230801": {
+            "id": "200230801",
+            "speakerId": 1004,
+            "speakerName": "Quinn",
+            "text": "I've had no end of customers again today, I'm beat..."
+          }
+        }
+      }
+    }
+  ]
+}

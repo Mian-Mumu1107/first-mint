@@ -1,0 +1,64 @@
+{
+  "lineCounts": {
+    "Arayesh": 3,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7366201",
+      "subQuestName": "Give two Jars of Jam to Arayesh",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736620101"
+        ],
+        "dialogs": {
+          "736620101": {
+            "id": "736620101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Jam...",
+            "nextDialogs": [
+              "736620102"
+            ]
+          },
+          "736620102": {
+            "id": "736620102",
+            "speakerId": 1000,
+            "speakerName": "Arayesh",
+            "text": "Seems you are pretty confident about your Jam. Did you get the two jars of Jam ready?",
+            "nextDialogs": [
+              "736620104"
+            ]
+          },
+          "736620104": {
+            "id": "736620104",
+            "speakerId": 1000,
+            "speakerName": "Arayesh",
+            "text": "One jar won't last for more than a few days. I need at least two jars."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7366202",
+      "subQuestName": "Talk to Arayesh",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736620201"
+        ],
+        "dialogs": {
+          "736620201": {
+            "id": "736620201",
+            "speakerId": 1000,
+            "speakerName": "Arayesh",
+            "text": "Nice color you got with the Jam. You really are good at this. I'll order from you next time."
+          }
+        }
+      }
+    }
+  ]
+}

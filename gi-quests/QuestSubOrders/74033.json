@@ -1,0 +1,301 @@
+{
+  "lineCounts": {
+    "Caterpillar": 10,
+    "Mitul": 16,
+    "Paimon": 10,
+    "Player": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7403302",
+      "subQuestName": "Go to the abandoned production zone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403301",
+      "subQuestName": "Talk to Caterpillar",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740330101"
+        ],
+        "dialogs": {
+          "740330101": {
+            "id": "740330101",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "No one comes here anymore after the Geode Mine Shaft was closed, and the devices here aren't meant for just anyone to handle.",
+            "nextDialogs": [
+              "740330102"
+            ]
+          },
+          "740330102": {
+            "id": "740330102",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "And that's exactly what happened this time. Someone tinkered with the drive valve and trapped their own companion.",
+            "nextDialogs": [
+              "740330103"
+            ]
+          },
+          "740330103": {
+            "id": "740330103",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "Anyway, let's get it to open up the passage to <color=#00E1FFFF>Supply Warehouse 1</color>. By the way, if they offer you a drink, you'd best say no.",
+            "nextDialogs": [
+              "740330104"
+            ]
+          },
+          "740330104": {
+            "id": "740330104",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Who's going to offer us a drink? And why won't we take it?",
+            "nextDialogs": [
+              "740330105"
+            ]
+          },
+          "740330105": {
+            "id": "740330105",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "You'll find out soon enough."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7403305",
+      "subQuestName": "Operate the drive valve to open access to Supply Warehouse 1",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403303",
+      "subQuestName": "Enter Supply Warehouse 1",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7403304",
+      "subQuestName": "Talk to the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740330401"
+        ],
+        "dialogs": {
+          "740330401": {
+            "id": "740330401",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "Mitul, are you alright? I hope you weren't trapped for too long.",
+            "nextDialogs": [
+              "740330402"
+            ]
+          },
+          "740330402": {
+            "id": "740330402",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "My savior! You're finally here!",
+            "nextDialogs": [
+              "740330403"
+            ]
+          },
+          "740330403": {
+            "id": "740330403",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "Where's Koblenz? He's not with you?",
+            "nextDialogs": [
+              "740330404"
+            ]
+          },
+          "740330404": {
+            "id": "740330404",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "He told me about trapping you here and asked for my help, but he left because a guard interrupted us.",
+            "nextDialogs": [
+              "740330405"
+            ]
+          },
+          "740330405": {
+            "id": "740330405",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "I knew he wasn't reliable! He probably ran away because he felt guilty.",
+            "nextDialogs": [
+              "740330406"
+            ]
+          },
+          "740330406": {
+            "id": "740330406",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "I mean, how do you make money in business if you don't take risks?",
+            "nextDialogs": [
+              "740330407"
+            ]
+          },
+          "740330407": {
+            "id": "740330407",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "He was clumsy, and too cautious, to boot... I mean, Pure Water is one thing, but even Fonta is available nowadays.",
+            "nextDialogs": [
+              "740330408"
+            ]
+          },
+          "740330408": {
+            "id": "740330408",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "If Fonta is here, how are we supposed to survive?",
+            "nextDialogs": [
+              "740330409"
+            ]
+          },
+          "740330409": {
+            "id": "740330409",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh...",
+            "nextDialogs": [
+              "740330410"
+            ]
+          },
+          "740330410": {
+            "id": "740330410",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "What, you like Fonta too?",
+            "nextDialogs": [
+              "740330412",
+              "740330414"
+            ]
+          },
+          "740330412": {
+            "id": "740330412",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "I do! I have to admit, it's a formidable rival...",
+            "nextDialogs": [
+              "740330415"
+            ]
+          },
+          "740330415": {
+            "id": "740330415",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "Anyway, I have to settle this with Koblenz. By the way, has he paid you?",
+            "nextDialogs": [
+              "740330416"
+            ]
+          },
+          "740330416": {
+            "id": "740330416",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "Nope.",
+            "nextDialogs": [
+              "740330417"
+            ]
+          },
+          "740330417": {
+            "id": "740330417",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "...Sometimes I want to stuff him in a large bucket. That'll make him reflect on what he's done. Anyway, please take these Coupons.",
+            "nextDialogs": [
+              "740330418"
+            ]
+          },
+          "740330418": {
+            "id": "740330418",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "Take them, you two, if you would.",
+            "nextDialogs": [
+              "740330419"
+            ]
+          },
+          "740330419": {
+            "id": "740330419",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "What? You want us to take all of it?",
+            "nextDialogs": [
+              "740330420"
+            ]
+          },
+          "740330420": {
+            "id": "740330420",
+            "speakerId": 1000,
+            "speakerName": "Caterpillar",
+            "text": "Of course.",
+            "nextDialogs": [
+              "740330421"
+            ]
+          },
+          "740330421": {
+            "id": "740330421",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Thank you, then. We can go to the Rag and Bone Shop later to see if they have anything new.",
+            "nextDialogs": [
+              "740330422"
+            ]
+          },
+          "740330422": {
+            "id": "740330422",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "By the way, I'd like to apologize for dragging you into this. I have some fresh health drinks — would you like a bottle?",
+            "nextDialogs": [
+              "740330423"
+            ]
+          },
+          "740330423": {
+            "id": "740330423",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Fresh... health drinks?",
+            "nextDialogs": [
+              "740330424"
+            ]
+          },
+          "740330424": {
+            "id": "740330424",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "Yup! Healthier than Pure Water, in fact!"
+          },
+          "740330414": {
+            "id": "740330414",
+            "speakerId": 1002,
+            "speakerName": "Mitul",
+            "text": "A customer with taste, I see."
+          }
+        }
+      }
+    }
+  ]
+}

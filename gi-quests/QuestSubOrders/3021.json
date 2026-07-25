@@ -1,0 +1,2406 @@
+{
+  "lineCounts": {
+    "Alhaitham": 50,
+    "Black Screen": 10,
+    "Candace": 5,
+    "Ceremonial Guide": 1,
+    "Cyno": 31,
+    "Dehya": 34,
+    "Eremite Mercenary": 1,
+    "Isak": 3,
+    "Judar": 13,
+    "Morghi": 14,
+    "Mysterious Message": 4,
+    "Paimon": 24,
+    "Player": 25,
+    "Rahman": 38,
+    "System Sound": 1
+  },
+  "subQuests": [
+    {
+      "subId": "302114",
+      "subQuestName": "Wait until the following morning (06:00 – 08:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302112",
+      "subQuestName": "Gather at the entrance to the village",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30210101"
+        ],
+        "dialogs": {
+          "30210101": {
+            "id": "30210101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "You're all here so early!",
+            "nextDialogs": [
+              "30210102"
+            ]
+          },
+          "30210102": {
+            "id": "30210102",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Looks like we have everyone here. ...Isak, are you sure you want to come with us?",
+            "nextDialogs": [
+              "30210103"
+            ]
+          },
+          "30210103": {
+            "id": "30210103",
+            "speakerId": 1002,
+            "speakerName": "Isak",
+            "text": "I'll watch from a safe distance. Dehya... I wanna be there to bring Grandpa home.",
+            "nextDialogs": [
+              "30210104"
+            ]
+          },
+          "30210104": {
+            "id": "30210104",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Okay. Let's go then.",
+            "nextDialogs": [
+              "30210105"
+            ]
+          },
+          "30210105": {
+            "id": "30210105",
+            "speakerId": 1003,
+            "speakerName": "Candace",
+            "text": "Dehya, wait.",
+            "nextDialogs": [
+              "30210106"
+            ]
+          },
+          "30210106": {
+            "id": "30210106",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "What's the matter?",
+            "nextDialogs": [
+              "30210107"
+            ]
+          },
+          "30210107": {
+            "id": "30210107",
+            "speakerId": 1003,
+            "speakerName": "Candace",
+            "text": "I heard that you were quite reckless yesterday... No more of that today, understood? Or I'll be very upset with you.",
+            "nextDialogs": [
+              "30210108"
+            ]
+          },
+          "30210108": {
+            "id": "30210108",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "*sigh* Fine."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302101",
+      "subQuestName": "Go to the agreed location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302103",
+      "subQuestName": "Negotiate with the Eremites",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30210301"
+        ],
+        "dialogs": {
+          "30210301": {
+            "id": "30210301",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Heh, they got here before us.",
+            "nextDialogs": [
+              "30210302"
+            ]
+          },
+          "30210302": {
+            "id": "30210302",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh-oh, is it because Paimon overslept by five minutes and held everyone up?",
+            "nextDialogs": [
+              "30210303"
+            ]
+          },
+          "30210303": {
+            "id": "30210303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You didn't have to admit to that.",
+            "nextDialogs": [
+              "30210304"
+            ]
+          },
+          "30210304": {
+            "id": "30210304",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Is everything ready?",
+            "nextDialogs": [
+              "30210305"
+            ]
+          },
+          "30210305": {
+            "id": "30210305",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Absolutely. Although...",
+            "nextDialogs": [
+              "30210306"
+            ]
+          },
+          "30210306": {
+            "id": "30210306",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...You brought fewer people than I imagined.",
+            "nextDialogs": [
+              "30210307"
+            ]
+          },
+          "30210307": {
+            "id": "30210307",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Bring him over.",
+            "nextDialogs": [
+              "30210308"
+            ]
+          },
+          "30210308": {
+            "id": "30210308",
+            "speakerId": 1002,
+            "speakerName": "Isak",
+            "text": "Grandpa!",
+            "nextDialogs": [
+              "30210309"
+            ]
+          },
+          "30210309": {
+            "id": "30210309",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Why is there only one of them?",
+            "nextDialogs": [
+              "30210310"
+            ]
+          },
+          "30210310": {
+            "id": "30210310",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Rahman, I've always thought of you as a man of his word. What's this about?",
+            "nextDialogs": [
+              "30210311"
+            ]
+          },
+          "30210311": {
+            "id": "30210311",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "It's a one-for-one exchange. Sounds fair, don't ya think?",
+            "nextDialogs": [
+              "30210312"
+            ]
+          },
+          "30210312": {
+            "id": "30210312",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Or lemme put it this way... Agreeing to any kind of deal with the Dendro Archon's people is already a huge compromise on my part. Don't you think you've asked enough?",
+            "nextDialogs": [
+              "30210313"
+            ]
+          },
+          "30210313": {
+            "id": "30210313",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...",
+            "nextDialogs": [
+              "30210314"
+            ]
+          },
+          "30210314": {
+            "id": "30210314",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "...Uh-uh, you stay right there!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "302111",
+      "subQuestName": "Talk to Rahman",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30211101"
+        ],
+        "dialogs": {
+          "30211101": {
+            "id": "30211101",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uhh... Paimon's dizzy...",
+            "nextDialogs": [
+              "30211102"
+            ]
+          },
+          "30211102": {
+            "id": "30211102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mmph...",
+            "nextDialogs": [
+              "30211103"
+            ]
+          },
+          "30211103": {
+            "id": "30211103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is everyone okay!?",
+            "nextDialogs": [
+              "30211104"
+            ]
+          },
+          "30211104": {
+            "id": "30211104",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Ugh, this day's going just great...",
+            "nextDialogs": [
+              "30211105"
+            ]
+          },
+          "30211105": {
+            "id": "30211105",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Hmph, what a nuisance.",
+            "nextDialogs": [
+              "30211106"
+            ]
+          },
+          "30211106": {
+            "id": "30211106",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "The sand dune collapsed.",
+            "nextDialogs": [
+              "30211107"
+            ]
+          },
+          "30211107": {
+            "id": "30211107",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "I saw an energy field... The Village Keeper protected us.",
+            "nextDialogs": [
+              "30211108"
+            ]
+          },
+          "30211108": {
+            "id": "30211108",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "It glowed green with Dendro. Just like you said, it may well have been the remains of Lesser Lord Kusanali's power inside the scholar's body.",
+            "nextDialogs": [
+              "30211109"
+            ]
+          },
+          "30211109": {
+            "id": "30211109",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No doubt.",
+            "nextDialogs": [
+              "30211110"
+            ]
+          },
+          "30211110": {
+            "id": "30211110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You finally believe me.",
+            "nextDialogs": [
+              "30211111"
+            ]
+          },
+          "30211111": {
+            "id": "30211111",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "...The Dendro Archon... The present one.",
+            "nextDialogs": [
+              "30211112"
+            ]
+          },
+          "30211112": {
+            "id": "30211112",
+            "speakerId": 1002,
+            "speakerName": "Isak",
+            "text": "Grandpa? Grandpa? Oh no, he's getting confused again...",
+            "nextDialogs": [
+              "30211113"
+            ]
+          },
+          "30211113": {
+            "id": "30211113",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Hey, look around you.",
+            "nextDialogs": [
+              "30211114"
+            ]
+          },
+          "30211114": {
+            "id": "30211114",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Did there use to be a... temple here?",
+            "nextDialogs": [
+              "30211115"
+            ]
+          },
+          "30211115": {
+            "id": "30211115",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "It seems that when the sand dune collapsed, it exposed these underground structures.",
+            "nextDialogs": [
+              "30211116"
+            ]
+          },
+          "30211116": {
+            "id": "30211116",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "The symbols on the gate belong to King Deshret's civilization. This structure must be ancient... Over time, the sandstorms completely buried it, and left it in the state we see now.",
+            "nextDialogs": [
+              "30211117"
+            ]
+          },
+          "30211117": {
+            "id": "30211117",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...It could have been an underground palace in the distant past.",
+            "nextDialogs": [
+              "30211118"
+            ]
+          },
+          "30211118": {
+            "id": "30211118",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Ohhh... A miracle! Praise King Deshret!",
+            "nextDialogs": [
+              "30211119"
+            ]
+          },
+          "30211119": {
+            "id": "30211119",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What's he doing here!? And his men, too?",
+            "nextDialogs": [
+              "30211120"
+            ]
+          },
+          "30211120": {
+            "id": "30211120",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "They must have fallen down here with us. Pretty lucky if you ask me.",
+            "nextDialogs": [
+              "30211121"
+            ]
+          },
+          "30211121": {
+            "id": "30211121",
+            "speakerId": 1007,
+            "speakerName": "Eremite Mercenary",
+            "text": "Ugh... Oh...",
+            "nextDialogs": [
+              "30211122"
+            ]
+          },
+          "30211122": {
+            "id": "30211122",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Most of them seem in really bad shape, except for him. He got off lightly.",
+            "nextDialogs": [
+              "30211123"
+            ]
+          },
+          "30211123": {
+            "id": "30211123",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "...Hmph.",
+            "nextDialogs": [
+              "30211124"
+            ]
+          },
+          "30211124": {
+            "id": "30211124",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Mind your head.",
+            "nextDialogs": [
+              "30211125"
+            ]
+          },
+          "30211125": {
+            "id": "30211125",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "No no, this isn't the time for conflict... Our exalted lord has shown us the way to his sacred palace.",
+            "nextDialogs": [
+              "30211126"
+            ]
+          },
+          "30211126": {
+            "id": "30211126",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "He's not actually gonna go in there, is he...",
+            "nextDialogs": [
+              "30211127"
+            ]
+          },
+          "30211127": {
+            "id": "30211127",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "As it happens, I want to take a look inside, too.",
+            "nextDialogs": [
+              "30211128"
+            ]
+          },
+          "30211128": {
+            "id": "30211128",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "What are you doing!?",
+            "nextDialogs": [
+              "30211129"
+            ]
+          },
+          "30211129": {
+            "id": "30211129",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Don't you think it's curious? One minute, Lesser Lord Kusanali's power protects us from harm, and the next... remnants of King Deshret's civilization appear.",
+            "nextDialogs": [
+              "30211130"
+            ]
+          },
+          "30211130": {
+            "id": "30211130",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Two major deities are vying to showcase their power to us. It would be a shame not to witness them both.",
+            "nextDialogs": [
+              "30211131"
+            ]
+          },
+          "30211131": {
+            "id": "30211131",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Paimon thought you weren't interested in gods!",
+            "nextDialogs": [
+              "30211132"
+            ]
+          },
+          "30211132": {
+            "id": "30211132",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Indeed. In my view, gods are just a higher form of living being... or \"creature,\" you could say.",
+            "nextDialogs": [
+              "30211133"
+            ]
+          },
+          "30211133": {
+            "id": "30211133",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "New discoveries are always worth investigating. Whether they have anything to do with gods is neither here nor there.",
+            "nextDialogs": [
+              "30211134"
+            ]
+          },
+          "30211134": {
+            "id": "30211134",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Rahman, what are you gonna do about your men?",
+            "nextDialogs": [
+              "30211135"
+            ]
+          },
+          "30211135": {
+            "id": "30211135",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "I'll just let them lay here — King Deshret will take care of his people... Right now, I'm going inside."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302104",
+      "subQuestName": "Enter the mysterious ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302113",
+      "subQuestName": "Talk to Cyno",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30210501"
+        ],
+        "dialogs": {
+          "30210501": {
+            "id": "30210501",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "It's full of life here.",
+            "nextDialogs": [
+              "30210502"
+            ]
+          },
+          "30210502": {
+            "id": "30210502",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "This defies comprehension... It looked completely desolate from the outside, yet it flows with energy inside.",
+            "nextDialogs": [
+              "30210503"
+            ]
+          },
+          "30210503": {
+            "id": "30210503",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Yeah, and there's so many plants. It's so pretty.",
+            "nextDialogs": [
+              "30210504"
+            ]
+          },
+          "30210504": {
+            "id": "30210504",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Sir Rahman.",
+            "nextDialogs": [
+              "30210505"
+            ]
+          },
+          "30210505": {
+            "id": "30210505",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "...Huh? Me?",
+            "nextDialogs": [
+              "30210506"
+            ]
+          },
+          "30210506": {
+            "id": "30210506",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Do you see another Rahman here?",
+            "nextDialogs": [
+              "30210507"
+            ]
+          },
+          "30210507": {
+            "id": "30210507",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Are you mocking me? What do you mean, \"Sir\"?",
+            "nextDialogs": [
+              "30210508"
+            ]
+          },
+          "30210508": {
+            "id": "30210508",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Interpret it however you want, but there's something I'd like to draw your attention to. While this structure is clearly left over from King Deshret's civilization, the energy that flows in here is that of the Dendro Archon.",
+            "nextDialogs": [
+              "30210509"
+            ]
+          },
+          "30210509": {
+            "id": "30210509",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "...",
+            "nextDialogs": [
+              "30210510"
+            ]
+          },
+          "30210510": {
+            "id": "30210510",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Whatever you say. It's not like I have a Vision.",
+            "nextDialogs": [
+              "30210511"
+            ]
+          },
+          "30210511": {
+            "id": "30210511",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "There's nothing to be angry about. Think of this as an academic journey.",
+            "nextDialogs": [
+              "30210512"
+            ]
+          },
+          "30210512": {
+            "id": "30210512",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "It does seem kinda strange. If that's true, then... we might have to explore this whole area to find an explanation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302116",
+      "subQuestName": "Proceed deeper within the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302105",
+      "subQuestName": "Proceed deeper within the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302106",
+      "subQuestName": "Talk to Alhaitham",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30210601"
+        ],
+        "dialogs": {
+          "30210601": {
+            "id": "30210601",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Wait.",
+            "nextDialogs": [
+              "30210602"
+            ]
+          },
+          "30210602": {
+            "id": "30210602",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "What's that?",
+            "nextDialogs": [
+              "30210603"
+            ]
+          },
+          "30210603": {
+            "id": "30210603",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "A load of flowers... And it looks like there's something among them...",
+            "nextDialogs": [
+              "30210604"
+            ]
+          },
+          "30210604": {
+            "id": "30210604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It looks like a tomb.",
+            "nextDialogs": [
+              "30210605"
+            ]
+          },
+          "30210605": {
+            "id": "30210605",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "These are King Deshret runes...",
+            "nextDialogs": [
+              "30210606"
+            ]
+          },
+          "30210606": {
+            "id": "30210606",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "They left something behind... Yes, it's an elegy written in an ancient script.",
+            "nextDialogs": [
+              "30210607"
+            ]
+          },
+          "30210607": {
+            "id": "30210607",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "What does it say?",
+            "nextDialogs": [
+              "30210608"
+            ]
+          },
+          "30210608": {
+            "id": "30210608",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "\"Here lies our faithful priest, Kasala.\"",
+            "nextDialogs": [
+              "30210609"
+            ]
+          },
+          "30210609": {
+            "id": "30210609",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "\"His wisdom is a miracle among the people, deserving of high praise and admiration.\"",
+            "nextDialogs": [
+              "30210610"
+            ]
+          },
+          "30210610": {
+            "id": "30210610",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "You can read ancient King Deshret script?",
+            "nextDialogs": [
+              "30210611"
+            ]
+          },
+          "30210611": {
+            "id": "30210611",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Of course. Every student needs to master at least 20 languages before they graduate.",
+            "nextDialogs": [
+              "30210612"
+            ]
+          },
+          "30210612": {
+            "id": "30210612",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "He's not serious, right?",
+            "nextDialogs": [
+              "30210613"
+            ]
+          },
+          "30210613": {
+            "id": "30210613",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "There's still something off about this place... The elemental energy here is too concentrated.",
+            "nextDialogs": [
+              "30210614"
+            ]
+          },
+          "30210614": {
+            "id": "30210614",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "The scent of life... Is it trying to tell us something?",
+            "nextDialogs": [
+              "30210615"
+            ]
+          },
+          "30210615": {
+            "id": "30210615",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Hm...",
+            "nextDialogs": [
+              "30210616"
+            ]
+          },
+          "30210616": {
+            "id": "30210616",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Is this it?",
+            "nextDialogs": [
+              "30210617"
+            ]
+          },
+          "30210617": {
+            "id": "30210617",
+            "speakerId": 1008,
+            "speakerName": "System Sound",
+            "text": "Analyzing...",
+            "nextDialogs": [
+              "30210618"
+            ]
+          },
+          "30210618": {
+            "id": "30210618",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...",
+            "nextDialogs": [
+              "30210619"
+            ]
+          },
+          "30210619": {
+            "id": "30210619",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "There seems to be a hidden message among these skeletal remains.",
+            "nextDialogs": [
+              "30210620"
+            ]
+          },
+          "30210620": {
+            "id": "30210620",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Excellent. There's a device from King Deshret's civilization in this gravesite. I'll transmit the information over and project it for everyone to see.",
+            "nextDialogs": [
+              "30210621"
+            ]
+          },
+          "30210621": {
+            "id": "30210621",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Isn't sharing knowledge against the Akademiya's rules?",
+            "nextDialogs": [
+              "30210622"
+            ]
+          },
+          "30210622": {
+            "id": "30210622",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Yes. However, under the circumstances, I'd prefer you to see this for yourself.",
+            "nextDialogs": [
+              "30210623"
+            ]
+          },
+          "30210623": {
+            "id": "30210623",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "You'll understand after watching it.",
+            "nextDialogs": [
+              "30210624"
+            ]
+          },
+          "30210624": {
+            "id": "30210624",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "What was that...?",
+            "nextDialogs": [
+              "30210625"
+            ]
+          },
+          "30210625": {
+            "id": "30210625",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "The priest's memories.",
+            "nextDialogs": [
+              "30210626"
+            ]
+          },
+          "30210626": {
+            "id": "30210626",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "No... no! Impossible!",
+            "nextDialogs": [
+              "30210627"
+            ]
+          },
+          "30210627": {
+            "id": "30210627",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Greater Lord Rukkhadevata... So the former Dendro Archon and King Deshret were never enemies at all...",
+            "nextDialogs": [
+              "30210628"
+            ]
+          },
+          "30210628": {
+            "id": "30210628",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "But... this doesn't make any sense! The Dendro Archon's followers... they're clearly...",
+            "nextDialogs": [
+              "30210629"
+            ]
+          },
+          "30210629": {
+            "id": "30210629",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Was that the former Dendro Archon? She became so tiny in the end...",
+            "nextDialogs": [
+              "30210630"
+            ]
+          },
+          "30210630": {
+            "id": "30210630",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...)",
+            "nextDialogs": [
+              "30210631"
+            ]
+          },
+          "30210631": {
+            "id": "30210631",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Greater Lord Rukkhadevata came to the rescue of King Deshret and his people, but eradicating the forbidden knowledge took so much of her power...)",
+            "nextDialogs": [
+              "30210632"
+            ]
+          },
+          "30210632": {
+            "id": "30210632",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(The two deities' followers have resented each other all this time, completely unaware that their gods stuck by each other through life and death.)",
+            "nextDialogs": [
+              "30210633"
+            ]
+          },
+          "30210633": {
+            "id": "30210633",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "You might be distrustful of the Akasha, but there's no reason for you to doubt King Deshret's technology.",
+            "nextDialogs": [
+              "30210634"
+            ]
+          },
+          "30210634": {
+            "id": "30210634",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "You've just witnessed his priest's last words.",
+            "nextDialogs": [
+              "30210635"
+            ]
+          },
+          "30210635": {
+            "id": "30210635",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "I've... never heard about any of this before...",
+            "nextDialogs": [
+              "30210636"
+            ]
+          },
+          "30210636": {
+            "id": "30210636",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "The surviving followers of King Deshret all gathered in Aaru Village. Our god did not make mistakes... We refused to believe any of the rumors.",
+            "nextDialogs": [
+              "30210637"
+            ]
+          },
+          "30210637": {
+            "id": "30210637",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "King Deshret's death, the all-but-total annihilation of our civilization... It was all Greater Lord Rukkhadevata's doing!",
+            "nextDialogs": [
+              "30210638"
+            ]
+          },
+          "30210638": {
+            "id": "30210638",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "We saw her as nothing more than a traitor, who stabbed us in the back in our moment of crisis... Just like us humans, fighting, feuding, double-crossing each other to survive in the desert.",
+            "nextDialogs": [
+              "30210639"
+            ]
+          },
+          "30210639": {
+            "id": "30210639",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "You were blinded by your prejudice.",
+            "nextDialogs": [
+              "30210640"
+            ]
+          },
+          "30210640": {
+            "id": "30210640",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Hah... haha... If I hadn't seen this for myself... If I hadn't witnessed his last words with my own eyes, ears, and heart...",
+            "nextDialogs": [
+              "30210641"
+            ]
+          },
+          "30210641": {
+            "id": "30210641",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "How could I ever begin to accept this? The truth is so far from what I've always known. Am I really supposed to believe that after all these years... All this time seeking revenge... Suddenly now my enemy is my savior!?",
+            "nextDialogs": [
+              "30210642"
+            ]
+          },
+          "30210642": {
+            "id": "30210642",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Rahman... That's enough.",
+            "nextDialogs": [
+              "30210643"
+            ]
+          },
+          "30210643": {
+            "id": "30210643",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Give it a rest. You're starting to make a fool of yourself.",
+            "nextDialogs": [
+              "30210644"
+            ]
+          },
+          "30210644": {
+            "id": "30210644",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "...Dehya, tell me...",
+            "nextDialogs": [
+              "30210645"
+            ]
+          },
+          "30210645": {
+            "id": "30210645",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "My Eremites and I... What are we even fighting for?",
+            "nextDialogs": [
+              "30210646"
+            ]
+          },
+          "30210646": {
+            "id": "30210646",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "Rahman takes some time to collect his thoughts, while the rest of the party continues to explore the temple.",
+            "nextDialogs": [
+              "30210647"
+            ]
+          },
+          "30210647": {
+            "id": "30210647",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "Rahman's reaction is nothing strange. To any believer, the truth he had just witnessed would have been difficult to accept.",
+            "nextDialogs": [
+              "30210648"
+            ]
+          },
+          "30210648": {
+            "id": "30210648",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Hey, how're you doing?",
+            "nextDialogs": [
+              "30210649"
+            ]
+          },
+          "30210649": {
+            "id": "30210649",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "...I'll live, heh. Thanks.",
+            "nextDialogs": [
+              "30210650"
+            ]
+          },
+          "30210650": {
+            "id": "30210650",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "I should probably go. I can't just stay here forever.",
+            "nextDialogs": [
+              "30210651"
+            ]
+          },
+          "30210651": {
+            "id": "30210651",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "What's your next move gonna be?",
+            "nextDialogs": [
+              "30210652"
+            ]
+          },
+          "30210652": {
+            "id": "30210652",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "I know what you're going to ask... I feel deeply ashamed of everything I've done. You'll get everything you're asking for.",
+            "nextDialogs": [
+              "30210653"
+            ]
+          },
+          "30210653": {
+            "id": "30210653",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "But please, give me some time. After everything that's happened here today... Somehow, I need to explain it to the others.",
+            "nextDialogs": [
+              "30210654"
+            ]
+          },
+          "30210654": {
+            "id": "30210654",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "It's not gonna be easy.",
+            "nextDialogs": [
+              "30210655"
+            ]
+          },
+          "30210655": {
+            "id": "30210655",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Well, I guess that's for me to deal with. Dehya, this is where our camp's located. Make a note of it.",
+            "nextDialogs": [
+              "30210656"
+            ]
+          },
+          "30210656": {
+            "id": "30210656",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "When would be a good time for us to go?",
+            "nextDialogs": [
+              "30210657"
+            ]
+          },
+          "30210657": {
+            "id": "30210657",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Tomorrow. I'll convince everyone that we're all on the same side.",
+            "nextDialogs": [
+              "30210658"
+            ]
+          },
+          "30210658": {
+            "id": "30210658",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "And I'll return every last one of your mad— Sorry, your Village Keepers. We'll share our other resources with you, too.",
+            "nextDialogs": [
+              "30210659"
+            ]
+          },
+          "30210659": {
+            "id": "30210659",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "You seem to finally understand that our true enemy is the sages.",
+            "nextDialogs": [
+              "30210660"
+            ]
+          },
+          "30210660": {
+            "id": "30210660",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Yes. The gods never gave up on anyone. It's the people responsible for all this that need to face the consequences of their actions.",
+            "nextDialogs": [
+              "30210661"
+            ]
+          },
+          "30210661": {
+            "id": "30210661",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "That must've been rough, but he seems to have figured things out now.",
+            "nextDialogs": [
+              "30210662"
+            ]
+          },
+          "30210662": {
+            "id": "30210662",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "*sigh* Rahman's no fool. Being the leader of your own faction in the desert is no easy feat.",
+            "nextDialogs": [
+              "30210663"
+            ]
+          },
+          "30210663": {
+            "id": "30210663",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "It's too bad he was held back by his belief in King Deshret, but now that that's changed, I guess we have a few more people on our side.",
+            "nextDialogs": [
+              "30210664"
+            ]
+          },
+          "30210664": {
+            "id": "30210664",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "This is a turn for the better.",
+            "nextDialogs": [
+              "30210665"
+            ]
+          },
+          "30210665": {
+            "id": "30210665",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "The outcome, at least, is favorable.",
+            "nextDialogs": [
+              "30210666"
+            ]
+          },
+          "30210666": {
+            "id": "30210666",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We should get going too. Let's head back, have a proper meal, and a nice, long sleep! We'll need all our energy tomorrow.",
+            "nextDialogs": [
+              "30210667"
+            ]
+          },
+          "30210667": {
+            "id": "30210667",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "...",
+            "nextDialogs": [
+              "30210668"
+            ]
+          },
+          "30210668": {
+            "id": "30210668",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Cynooooo! We're leaving!",
+            "nextDialogs": [
+              "30210669"
+            ]
+          },
+          "30210669": {
+            "id": "30210669",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "...Stop yelling."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302107",
+      "subQuestName": "Leave the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302108",
+      "subQuestName": "Go to the Eremites' hideout",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302109",
+      "subQuestName": "Talk to the scholars",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30210901"
+        ],
+        "dialogs": {
+          "30210901": {
+            "id": "30210901",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Rahman, we're here.",
+            "nextDialogs": [
+              "30210902"
+            ]
+          },
+          "30210902": {
+            "id": "30210902",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Everything's been arranged. Someone will bring the Village Keepers back to Aaru Village shortly.",
+            "nextDialogs": [
+              "30210903"
+            ]
+          },
+          "30210903": {
+            "id": "30210903",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "I guess all I can say now is... thanks for agreeing to help.",
+            "nextDialogs": [
+              "30210904"
+            ]
+          },
+          "30210904": {
+            "id": "30210904",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Don't mention it. I think we can both agree you went to hell and back for it.",
+            "nextDialogs": [
+              "30210905"
+            ]
+          },
+          "30210905": {
+            "id": "30210905",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "But we share a common cause now. From here on out, we're allies.",
+            "nextDialogs": [
+              "30210906"
+            ]
+          },
+          "30210906": {
+            "id": "30210906",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Where are the perpetrators?",
+            "nextDialogs": [
+              "30210907"
+            ]
+          },
+          "30210907": {
+            "id": "30210907",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "I'll bring you to them. Follow me.",
+            "nextDialogs": [
+              "30210908"
+            ]
+          },
+          "30210908": {
+            "id": "30210908",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "So these are the people who kidnapped the Village Keepers.",
+            "nextDialogs": [
+              "30210909"
+            ]
+          },
+          "30210909": {
+            "id": "30210909",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "Oh no, it's the scribe!?",
+            "nextDialogs": [
+              "30210910"
+            ]
+          },
+          "30210910": {
+            "id": "30210910",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "There's no need to yell. No one can help you now.",
+            "nextDialogs": [
+              "30210911"
+            ]
+          },
+          "30210911": {
+            "id": "30210911",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "We've been all over the desert trying to find you!",
+            "nextDialogs": [
+              "30210912"
+            ]
+          },
+          "30210912": {
+            "id": "30210912",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "That's right.",
+            "nextDialogs": [
+              "30210913"
+            ]
+          },
+          "30210913": {
+            "id": "30210913",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "General Mahamatra!? No, no! M—Make it quick, please! Swift and painless...",
+            "nextDialogs": [
+              "30210914"
+            ]
+          },
+          "30210914": {
+            "id": "30210914",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Whoa, the moment they set eyes on Cyno, they turn pale like they've seen a ghost...",
+            "nextDialogs": [
+              "30210915"
+            ]
+          },
+          "30210915": {
+            "id": "30210915",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "You should've known that I would be coming for you.",
+            "nextDialogs": [
+              "30210916"
+            ]
+          },
+          "30210916": {
+            "id": "30210916",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "W—Wait! We were just following orders! You know what I'm talking about, right? Th—There's no way we could've done all this by ourselves!",
+            "nextDialogs": [
+              "30210917"
+            ]
+          },
+          "30210917": {
+            "id": "30210917",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "No, not Cyno... He's gonna tear us limb from limb!",
+            "nextDialogs": [
+              "30210918"
+            ]
+          },
+          "30210918": {
+            "id": "30210918",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "I could do worse.",
+            "nextDialogs": [
+              "30210919"
+            ]
+          },
+          "30210919": {
+            "id": "30210919",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "P—Please have mercy!",
+            "nextDialogs": [
+              "30210920"
+            ]
+          },
+          "30210920": {
+            "id": "30210920",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Start talking. Otherwise, I'll have to resort to... other methods.",
+            "nextDialogs": [
+              "30210921"
+            ]
+          },
+          "30210921": {
+            "id": "30210921",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "So... Your superiors have kept you quite busy recently. Why? What are they trying to accomplish?",
+            "nextDialogs": [
+              "30210922"
+            ]
+          },
+          "30210922": {
+            "id": "30210922",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "Um... they, um, wanted to extract Canned Knowledge...",
+            "nextDialogs": [
+              "30210923"
+            ]
+          },
+          "30210923": {
+            "id": "30210923",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Don't play dumb. You know what I'm really asking.",
+            "nextDialogs": [
+              "30210924"
+            ]
+          },
+          "30210924": {
+            "id": "30210924",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "They extract Divine Canned Knowledge... then what?",
+            "nextDialogs": [
+              "30210925"
+            ]
+          },
+          "30210925": {
+            "id": "30210925",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "I... I, uh, really don't know how to explain it...",
+            "nextDialogs": [
+              "30210926"
+            ]
+          },
+          "30210926": {
+            "id": "30210926",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Well, you better start talking, or you'll be sorry!",
+            "nextDialogs": [
+              "30210927"
+            ]
+          },
+          "30210927": {
+            "id": "30210927",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "You don't wanna make things any more difficult for yourself, do ya?",
+            "nextDialogs": [
+              "30210928"
+            ]
+          },
+          "30210928": {
+            "id": "30210928",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "May I ask them a question?",
+            "nextDialogs": [
+              "30210929"
+            ]
+          },
+          "30210929": {
+            "id": "30210929",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Be my guest.",
+            "nextDialogs": [
+              "30210930"
+            ]
+          },
+          "30210930": {
+            "id": "30210930",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The sages are trying to create a new god, aren't they?",
+            "nextDialogs": [
+              "30210931"
+            ]
+          },
+          "30210931": {
+            "id": "30210931",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "!",
+            "nextDialogs": [
+              "30210932"
+            ]
+          },
+          "30210932": {
+            "id": "30210932",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Huh?",
+            "nextDialogs": [
+              "30210933"
+            ]
+          },
+          "30210933": {
+            "id": "30210933",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Huh? That sure didn't sound like a fancy metaphor or anything... You're serious, aren't you?",
+            "nextDialogs": [
+              "30210934"
+            ]
+          },
+          "30210934": {
+            "id": "30210934",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "How did you know?",
+            "nextDialogs": [
+              "30210935"
+            ]
+          },
+          "30210935": {
+            "id": "30210935",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "There's no use hiding it now... Yes, you're right.",
+            "nextDialogs": [
+              "30210936"
+            ]
+          },
+          "30210936": {
+            "id": "30210936",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "The Akademiya is working on an important and potentially world-changing project. They are creating a new god... a god that will belong to them, and to the people of Sumeru.",
+            "nextDialogs": [
+              "30210937"
+            ]
+          },
+          "30210937": {
+            "id": "30210937",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "It may seem as if Sumeru's academics are thriving, but ever since the death of Greater Lord Rukkhadevata, scholarly breakthroughs have been few and far between.",
+            "nextDialogs": [
+              "30210938"
+            ]
+          },
+          "30210938": {
+            "id": "30210938",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "The withering of Irminsul has been getting worse recently. The sages have tried everything they could think of, but nothing's worked. I'm always hearing them say things like, \"If only Greater Lord Rukkhadevata was still with us...\"",
+            "nextDialogs": [
+              "30210939"
+            ]
+          },
+          "30210939": {
+            "id": "30210939",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "...Continue.",
+            "nextDialogs": [
+              "30210940"
+            ]
+          },
+          "30210940": {
+            "id": "30210940",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "And then, someone from the Fatui showed up. They called him \"The Doctor\"... He brought a... a \"Gnosis,\" and said he wanted to borrow the Akademiya's research facilities.",
+            "nextDialogs": [
+              "30210941"
+            ]
+          },
+          "30210941": {
+            "id": "30210941",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "The Doctor was previously expelled from the Akademiya. At first, the sages looked down at him in disdain... But when he said those words, everyone's expression changed.",
+            "nextDialogs": [
+              "30210942"
+            ]
+          },
+          "30210942": {
+            "id": "30210942",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "He asked them: \"Do you wish to create a god?\"",
+            "nextDialogs": [
+              "30210943"
+            ]
+          },
+          "30210943": {
+            "id": "30210943",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...This is what the arrogant ignorance at the extreme end of academia looks like.",
+            "nextDialogs": [
+              "30210944"
+            ]
+          },
+          "30210944": {
+            "id": "30210944",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "First, the Akademiya spent a long time constructing a \"divine vessel,\" which was based on an exquisite humanoid puppet.",
+            "nextDialogs": [
+              "30210945"
+            ]
+          },
+          "30210945": {
+            "id": "30210945",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "After that, they harvested dreams via the Sabzeruz Festival samsara, maximizing the Akasha's output...",
+            "nextDialogs": [
+              "30210948"
+            ]
+          },
+          "30210948": {
+            "id": "30210948",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "With The Doctor's help, and the Akasha now functioning at maximum efficiency, they were able to use it to extract the power from the Gnosis and convert it into a \"divine core.\"",
+            "nextDialogs": [
+              "30210949"
+            ]
+          },
+          "30210949": {
+            "id": "30210949",
+            "speakerId": 1011,
+            "speakerName": "Judar",
+            "text": "Next, they decided that their new god needed to possess \"divine wisdom.\" For that to happen... they needed a huge quantity of Divine Canned Knowledge.",
+            "nextDialogs": [
+              "30210950"
+            ]
+          },
+          "30210950": {
+            "id": "30210950",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "...It adds up.",
+            "nextDialogs": [
+              "30210951"
+            ]
+          },
+          "30210951": {
+            "id": "30210951",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "But how do you determine whether the knowledge extracted is of divine origin?",
+            "nextDialogs": [
+              "30210952"
+            ]
+          },
+          "30210952": {
+            "id": "30210952",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "Call it an educated guess... The Akademiya has been trying to figure out the exact source of the scholars' madness for centuries, but to no avail...",
+            "nextDialogs": [
+              "30210953"
+            ]
+          },
+          "30210953": {
+            "id": "30210953",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "Nobody can explain the cause of this phenomenon. Surely you can see what that implies, Scribe Alhaitham?",
+            "nextDialogs": [
+              "30210954"
+            ]
+          },
+          "30210954": {
+            "id": "30210954",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "If it's knowledge no mortal can comprehend, then it must be something only gods are able to decipher. In other words... it's the source of the God of Wisdom's omniscience and omnipotence.",
+            "nextDialogs": [
+              "30210955"
+            ]
+          },
+          "30210955": {
+            "id": "30210955",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...",
+            "nextDialogs": [
+              "30210958"
+            ]
+          },
+          "30210958": {
+            "id": "30210958",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "You must have noticed by now — the Akademiya doesn't care about who their god is. It's the ability to exercise control over knowledge and wisdom that matters.",
+            "nextDialogs": [
+              "30210959"
+            ]
+          },
+          "30210959": {
+            "id": "30210959",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "It is as if they are cursed with a desire for omniscience and omnipotence that burns in their blood.",
+            "nextDialogs": [
+              "30210960"
+            ]
+          },
+          "30210960": {
+            "id": "30210960",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Some organisms demonstrate phototaxis, and thus orient their entire lives in respect to sources of light. For the sages, their only source of hope is the existence of a deity who embodies the acme of wisdom.",
+            "nextDialogs": [
+              "30210961"
+            ]
+          },
+          "30210961": {
+            "id": "30210961",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "This is but a form of phototaxis. For many scholars, the absence of a God of Wisdom means stumbling in the darkness for the duration of their lives.",
+            "nextDialogs": [
+              "30210962"
+            ]
+          },
+          "30210962": {
+            "id": "30210962",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Then what does Lesser Lord Kusanali mean to you?",
+            "nextDialogs": [
+              "30210963"
+            ]
+          },
+          "30210963": {
+            "id": "30210963",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Is she not a true god present in this world? If you already have a new god, why try to create another one?",
+            "nextDialogs": [
+              "30210964"
+            ]
+          },
+          "30210964": {
+            "id": "30210964",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "...From the beginning, the Akademiya has never treated her as a god.",
+            "nextDialogs": [
+              "30210965"
+            ]
+          },
+          "30210965": {
+            "id": "30210965",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "When the Akademiya first discovered Lesser Lord Kusanali, the newborn God of Wisdom, the sages hoped that she would be as wise as Greater Lord Rukkhadevata. But upon evaluation...",
+            "nextDialogs": [
+              "30210966"
+            ]
+          },
+          "30210966": {
+            "id": "30210966",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "They found that, at that time, she possessed no more intelligence than any ordinary human child. The sages never had a ruder awakening... This forced them to accept that Greater Lord Rukkhadevata had indeed passed away.",
+            "nextDialogs": [
+              "30210967"
+            ]
+          },
+          "30210967": {
+            "id": "30210967",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "Not to mention that Lesser Lord Kusanali's Gnosis has been used to power the Akasha this entire time. By herself, she has neither an archon's raw power, nor the spectacular insight expected of a God of Wisdom...",
+            "nextDialogs": [
+              "30210968"
+            ]
+          },
+          "30210968": {
+            "id": "30210968",
+            "speakerId": 1010,
+            "speakerName": "Morghi",
+            "text": "Slowly but surely, people began to forget about her existence.",
+            "nextDialogs": [
+              "30210969"
+            ]
+          },
+          "30210969": {
+            "id": "30210969",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "So... this is the path the sages have chosen?",
+            "nextDialogs": [
+              "30210970"
+            ]
+          },
+          "30210970": {
+            "id": "30210970",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Even now, they still refuse to acknowledge Lesser Lord Kusanali...)",
+            "nextDialogs": [
+              "30210971"
+            ]
+          },
+          "30210971": {
+            "id": "30210971",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...I never imagined a god could be subjected to such cruelty.)",
+            "nextDialogs": [
+              "30210972"
+            ]
+          },
+          "30210972": {
+            "id": "30210972",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Alright, let's try to keep our cool. If everyone's in a bad mood, then let's change up our scenery.",
+            "nextDialogs": [
+              "30210973"
+            ]
+          },
+          "30210973": {
+            "id": "30210973",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Rahman, give me a few men to help us escort the Village Keepers back to the village. And these two scholars — they're coming too.",
+            "nextDialogs": [
+              "30210974"
+            ]
+          },
+          "30210974": {
+            "id": "30210974",
+            "speakerId": 1005,
+            "speakerName": "Rahman",
+            "text": "Sure, as you wish."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302110",
+      "subQuestName": "Go back to the village chief's house",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30211001"
+        ],
+        "dialogs": {
+          "30211001": {
+            "id": "30211001",
+            "speakerId": 1003,
+            "speakerName": "Candace",
+            "text": "The Village Keepers you found have all been returned to their homes, and each one has a dedicated caregiver to look after them. The two new scholars are being kept under close supervision, too. Really great work, everyone.",
+            "nextDialogs": [
+              "30211002"
+            ]
+          },
+          "30211002": {
+            "id": "30211002",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Uh... the atmosphere's so heavy...",
+            "nextDialogs": [
+              "30211003"
+            ]
+          },
+          "30211003": {
+            "id": "30211003",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(It's hard to not feel weighed down by what we just learned.)",
+            "nextDialogs": [
+              "30211004"
+            ]
+          },
+          "30211004": {
+            "id": "30211004",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Despite everything Lesser Lord Kusanali has done for her people, the Akademiya has abandoned her in the Sanctuary of Surasthana like a lost cause...)",
+            "nextDialogs": [
+              "30211005"
+            ]
+          },
+          "30211005": {
+            "id": "30211005",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Even those she's protected have never realized there's such a small and childlike god in the world.)",
+            "nextDialogs": [
+              "30211006"
+            ]
+          },
+          "30211006": {
+            "id": "30211006",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Hey, say something! Stop spacing out!",
+            "nextDialogs": [
+              "30211007"
+            ]
+          },
+          "30211007": {
+            "id": "30211007",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "C'mon, is there... nothing left to talk about? In that case, let's all get some water and try to think about something else.",
+            "nextDialogs": [
+              "30211008"
+            ]
+          },
+          "30211008": {
+            "id": "30211008",
+            "speakerId": 1003,
+            "speakerName": "Candace",
+            "text": "Or, I can go fetch some snacks...",
+            "nextDialogs": [
+              "30211009"
+            ]
+          },
+          "30211009": {
+            "id": "30211009",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon's so coming with you!",
+            "nextDialogs": [
+              "30211010"
+            ]
+          },
+          "30211010": {
+            "id": "30211010",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Do you have any plans, Traveler?",
+            "nextDialogs": [
+              "30211011"
+            ]
+          },
+          "30211011": {
+            "id": "30211011",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Gods above, you're not talking about work, are you...",
+            "nextDialogs": [
+              "30211012"
+            ]
+          },
+          "30211012": {
+            "id": "30211012",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I want to share everything I know with all of you.",
+            "nextDialogs": [
+              "30211013"
+            ]
+          },
+          "30211013": {
+            "id": "30211013",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Hm, so you were still witholding some information?",
+            "nextDialogs": [
+              "30211016"
+            ]
+          },
+          "30211016": {
+            "id": "30211016",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "In between the conversations, Candace and Paimon bring over snacks and tea.",
+            "nextDialogs": [
+              "30211017"
+            ]
+          },
+          "30211017": {
+            "id": "30211017",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "Dehya's expression is relaxed, as if her mood hasn't been affected by the heavy conversation at all.",
+            "nextDialogs": [
+              "30211018"
+            ]
+          },
+          "30211018": {
+            "id": "30211018",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "Cyno has a firm and solemn expression on his face. It looks like he's made up his mind about something.\\nThe core of his beliefs, his motivation to pursue the right course of action... everything is now clear to him.",
+            "nextDialogs": [
+              "30211019"
+            ]
+          },
+          "30211019": {
+            "id": "30211019",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "The core of his beliefs, his motivation to pursue the right course of action... everything is now clear to him.",
+            "nextDialogs": [
+              "30211020"
+            ]
+          },
+          "30211020": {
+            "id": "30211020",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "Alhaitham also turns towards the crowd. He wants to listen, too.",
+            "nextDialogs": [
+              "30211021"
+            ]
+          },
+          "30211021": {
+            "id": "30211021",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "...After that, the whole story comes out.\\nAll the experiences, feelings, and secrets are shared freely with everyone.\\nTo share everything means to consider everyone as allies. From today on, everyone will fight for the same goal.",
+            "nextDialogs": [
+              "30211022"
+            ]
+          },
+          "30211022": {
+            "id": "30211022",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "All the experiences, feelings, and secrets are shared freely with everyone.",
+            "nextDialogs": [
+              "30211023"
+            ]
+          },
+          "30211023": {
+            "id": "30211023",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "To share everything means to consider everyone as allies. From today on, everyone will fight for the same goal.",
+            "nextDialogs": [
+              "30211024"
+            ]
+          },
+          "30211024": {
+            "id": "30211024",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "Even though we lived through all of this firsthand, it still feels super surreal to hear you talk about it again.",
+            "nextDialogs": [
+              "30211025"
+            ]
+          },
+          "30211025": {
+            "id": "30211025",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...That's everything we've experienced so far in Sumeru.",
+            "nextDialogs": [
+              "30211026"
+            ]
+          },
+          "30211026": {
+            "id": "30211026",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "What a whirlwind of a story! I felt like I was holding my breath the whole time.",
+            "nextDialogs": [
+              "30211027"
+            ]
+          },
+          "30211027": {
+            "id": "30211027",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "...It seems like there will be more issues to face in the days ahead than I had anticipated.",
+            "nextDialogs": [
+              "30211028"
+            ]
+          },
+          "30211028": {
+            "id": "30211028",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "...",
+            "nextDialogs": [
+              "30211029"
+            ]
+          },
+          "30211029": {
+            "id": "30211029",
+            "speakerId": 1001,
+            "speakerName": "Dehya",
+            "text": "Still, now's a good time to make our next move. Now that Rahman's joined us, we'll be an even stronger team.",
+            "nextDialogs": [
+              "30211030"
+            ]
+          },
+          "30211030": {
+            "id": "30211030",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "It's time to make a plan.",
+            "nextDialogs": [
+              "30211031"
+            ]
+          },
+          "30211031": {
+            "id": "30211031",
+            "speakerId": 1004,
+            "speakerName": "Alhaitham",
+            "text": "Indeed. These events are a flagrant transgression of the rules in every sense. We cannot allow it to continue.",
+            "nextDialogs": [
+              "30211032"
+            ]
+          },
+          "30211032": {
+            "id": "30211032",
+            "speakerId": 1003,
+            "speakerName": "Candace",
+            "text": "So, everyone, are we on the same page?",
+            "nextDialogs": [
+              "30211033"
+            ]
+          },
+          "30211033": {
+            "id": "30211033",
+            "speakerId": 1006,
+            "speakerName": "Cyno",
+            "text": "Crush the sages, and rescue our god... that is our ultimate goal."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302102",
+      "subQuestName": "Wait until afternoon (12:00 – 14:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "302112",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30211201"
+        ],
+        "dialogs": {
+          "30211201": {
+            "id": "30211201",
+            "speakerId": 1012,
+            "speakerName": "Ceremonial Guide",
+            "text": "Look up at the hall as a mortal and listen to King Deshret's holy guidance."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302113",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30211301"
+        ],
+        "dialogs": {
+          "30211301": {
+            "id": "30211301",
+            "speakerId": 1013,
+            "speakerName": "Mysterious Message",
+            "text": "After six days infiltrating the temple, I finally understand the priests' parlor tricks.",
+            "nextDialogs": [
+              "30211302"
+            ]
+          },
+          "30211302": {
+            "id": "30211302",
+            "speakerId": 1013,
+            "speakerName": "Mysterious Message",
+            "text": "<color=#00E1FFFF>The elevator will descend to the ground. Get on top of it before it starts ascending again to reach the dome.</color>",
+            "nextDialogs": [
+              "30211303"
+            ]
+          },
+          "30211303": {
+            "id": "30211303",
+            "speakerId": 1013,
+            "speakerName": "Mysterious Message",
+            "text": "Nonsense like \"Forbidden ground ahead, mortals shall not pass\" or whatever are just made up by the priests to hoodwink us.",
+            "nextDialogs": [
+              "30211304"
+            ]
+          },
+          "30211304": {
+            "id": "30211304",
+            "speakerId": 1013,
+            "speakerName": "Mysterious Message",
+            "text": "I leave this method here in hopes that the people of King Deshret who shall travel here in the future shall freely enjoy the privilege of witnessing his sacred presence."
+          }
+        }
+      }
+    },
+    {
+      "subId": "302199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30219901"
+        ],
+        "dialogs": {
+          "30219901": {
+            "id": "30219901",
+            "speakerId": 1000,
+            "speakerName": "Paimon",
+            "text": "It's getting brighter! Ooh, it looks so beautiful!"
+          }
+        }
+      }
+    }
+  ]
+}

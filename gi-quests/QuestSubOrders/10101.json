@@ -1,0 +1,798 @@
+{
+  "lineCounts": {
+    "Abyss Mage": 9,
+    "Lisa": 47,
+    "Paimon": 18,
+    "Player": 18
+  },
+  "subQuests": [
+    {
+      "subId": "1010117",
+      "subQuestName": "Search for elemental marks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010118",
+      "subQuestName": "Search for elemental marks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010119",
+      "subQuestName": "Search for elemental marks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010120",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101012001"
+        ],
+        "dialogs": {
+          "101012001": {
+            "id": "101012001",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It must be nearby.",
+            "nextDialogs": [
+              "101012002"
+            ]
+          },
+          "101012002": {
+            "id": "101012002",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Using <color=#00E1FFFF>Elemental Sight</color>, you can even detect <color=#00E1FFFF>magic</color>.",
+            "nextDialogs": [
+              "101012003"
+            ]
+          },
+          "101012003": {
+            "id": "101012003",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Follow the flow of <color=#00E1FFFF>magic</color> to find the book."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010101",
+      "subQuestName": "Find out which way the elemental marks lead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010102",
+      "subQuestName": "Reach Target Point 1 (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101010201"
+        ],
+        "dialogs": {
+          "101010201": {
+            "id": "101010201",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The elemental traces are strong here, but it seems our thief <color=#00E1FFFF>did not stay for long</color>."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010103",
+      "subQuestName": "Reach Target Point 2 (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010104",
+      "subQuestName": "Reach Target Point 3 (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010105",
+      "subQuestName": "Reach Target Point 4 (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010106",
+      "subQuestName": "Reach Target Point 5 (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010114",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101010701"
+        ],
+        "dialogs": {
+          "101010701": {
+            "id": "101010701",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "The thief lives inside <color=#00E1FFFF>ruins</color>? Mondstadt people do have some strange quirks.",
+            "nextDialogs": [
+              "101010702"
+            ]
+          },
+          "101010702": {
+            "id": "101010702",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Please do not jump to such a preposterous conclusion about the living habits of Mondstadt's residents.",
+            "nextDialogs": [
+              "101010703"
+            ]
+          },
+          "101010703": {
+            "id": "101010703",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This seems far more likely to be the work of some none-too-friendly troublemakers.",
+            "nextDialogs": [
+              "101010705",
+              "101010708",
+              "101010710"
+            ]
+          },
+          "101010705": {
+            "id": "101010705",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Stealing books is hardly the hilichurls' style.",
+            "nextDialogs": [
+              "101010706"
+            ]
+          },
+          "101010706": {
+            "id": "101010706",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "All they would use books for is to keep their campfire going anyway.",
+            "nextDialogs": [
+              "101010712"
+            ]
+          },
+          "101010712": {
+            "id": "101010712",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "This is more likely to be the <color=#00E1FFFF>Abyss Order's</color> doing. They do seem to have a way of slipping in and out of places like ghosts, after all.",
+            "nextDialogs": [
+              "101010713"
+            ]
+          },
+          "101010713": {
+            "id": "101010713",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Also... There is an elemental seal at the entrance. It looks like the result of an Abyss Mage's magic.",
+            "nextDialogs": [
+              "101010714"
+            ]
+          },
+          "101010714": {
+            "id": "101010714",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "A seal? How are we gonna break it? Is this gonna turn into another huge ordeal?",
+            "nextDialogs": [
+              "101010715"
+            ]
+          },
+          "101010715": {
+            "id": "101010715",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Not to worry. If you think a little magic can keep me out, think again!",
+            "nextDialogs": [
+              "101010716"
+            ]
+          },
+          "101010716": {
+            "id": "101010716",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Why is that?",
+            "nextDialogs": [
+              "101010717"
+            ]
+          },
+          "101010717": {
+            "id": "101010717",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Come on.",
+            "nextDialogs": [
+              "101010718"
+            ]
+          },
+          "101010718": {
+            "id": "101010718",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Whoa...",
+            "nextDialogs": [
+              "101010719"
+            ]
+          },
+          "101010719": {
+            "id": "101010719",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "So this is what Lisa's like when she's hard at work..."
+          },
+          "101010708": {
+            "id": "101010708",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It's like you can read my mind."
+          },
+          "101010710": {
+            "id": "101010710",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "It's not unlike them, in the sense that they are known for darting around amongst underground ruins.",
+            "nextDialogs": [
+              "101010711"
+            ]
+          },
+          "101010711": {
+            "id": "101010711",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "But Adventurers do not typically take others' belongings... Well, not from the living, anyway."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010107",
+      "subQuestName": "Enter the book thief's hiding place",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010111",
+      "subQuestName": "Defeat the assailants",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101011101"
+        ],
+        "dialogs": {
+          "101011101": {
+            "id": "101011101",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's so much bigger in here than Paimon thought..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010113",
+      "subQuestName": "Defeat the Abyss Order assailant",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010112",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101011201"
+        ],
+        "dialogs": {
+          "101011201": {
+            "id": "101011201",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "How did you find this place!? It's... so well hidden!",
+            "nextDialogs": [
+              "101011202"
+            ]
+          },
+          "101011202": {
+            "id": "101011202",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I have no interest in finding out where you little rascals hide yourselves away. But I do want my book back.",
+            "nextDialogs": [
+              "101011203"
+            ]
+          },
+          "101011203": {
+            "id": "101011203",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Tell me, how is it that you have the time to conceal your stronghold and apply a magic seal — but not to sign out a library book in the proper manner?",
+            "nextDialogs": [
+              "101011204"
+            ]
+          },
+          "101011204": {
+            "id": "101011204",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "You have no respect whatsoever for other people's work.",
+            "nextDialogs": [
+              "101011205"
+            ]
+          },
+          "101011205": {
+            "id": "101011205",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "...You— You just want... <color=#00E1FFFF>the book</color>?",
+            "nextDialogs": [
+              "101011206"
+            ]
+          },
+          "101011206": {
+            "id": "101011206",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "I was unaware that anyone in Mondstadt was concerned with unearthing the secret hidden inside this book...",
+            "nextDialogs": [
+              "101011207"
+            ]
+          },
+          "101011207": {
+            "id": "101011207",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "Who... Who are you?",
+            "nextDialogs": [
+              "101011208"
+            ]
+          },
+          "101011208": {
+            "id": "101011208",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The librarian. Although, I believe that should be quite clear already.",
+            "nextDialogs": [
+              "101011209"
+            ]
+          },
+          "101011209": {
+            "id": "101011209",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Return the book. This is an ultimatum.",
+            "nextDialogs": [
+              "101011210"
+            ]
+          },
+          "101011210": {
+            "id": "101011210",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "Hmph. Since you insist on concealing your identity...",
+            "nextDialogs": [
+              "101011211"
+            ]
+          },
+          "101011211": {
+            "id": "101011211",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "I have all the less reason to give you that book.",
+            "nextDialogs": [
+              "101011212"
+            ]
+          },
+          "101011212": {
+            "id": "101011212",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "After all, it contains... the secret...",
+            "nextDialogs": [
+              "101011213"
+            ]
+          },
+          "101011213": {
+            "id": "101011213",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "Huh!? Wh—What are you doing!? Such concentrated elemental power! P—Please don't—",
+            "nextDialogs": [
+              "101011214"
+            ]
+          },
+          "101011214": {
+            "id": "101011214",
+            "speakerId": 1002,
+            "speakerName": "Abyss Mage",
+            "text": "*shrieking*",
+            "nextDialogs": [
+              "101011217"
+            ]
+          },
+          "101011217": {
+            "id": "101011217",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hmph. Naughty boys who don't do what they're told need a little punishment to keep them in line."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010116",
+      "subQuestName": "Search for the hidden book",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010108",
+      "subQuestName": "Defeat the Order Commander",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101010801"
+        ],
+        "dialogs": {
+          "101010801": {
+            "id": "101010801",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "It's <color=#00E1FFFF>The Pale Princess and the Six Pygmies</color>! Paimon remembers that name, is this the one you were looking for?",
+            "nextDialogs": [
+              "101010802"
+            ]
+          },
+          "101010802": {
+            "id": "101010802",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "That's the one. It's a good thing it isn't damaged, otherwise...",
+            "nextDialogs": [
+              "101010803"
+            ]
+          },
+          "101010803": {
+            "id": "101010803",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Otherwise what? Are you telling me you have even more crazy punishments up your sleeve!?",
+            "nextDialogs": [
+              "101010804"
+            ]
+          },
+          "101010804": {
+            "id": "101010804",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hehe. I would probably have needed to dish out a little taste of one of my potions in that case.",
+            "nextDialogs": [
+              "101010805"
+            ]
+          },
+          "101010805": {
+            "id": "101010805",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Ah!",
+            "nextDialogs": [
+              "101010806"
+            ]
+          },
+          "101010806": {
+            "id": "101010806",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Then again... As I said, it isn't from the restricted section. Which is the only reason I would let the average citizen borrow it in the first place.",
+            "nextDialogs": [
+              "101010807"
+            ]
+          },
+          "101010807": {
+            "id": "101010807",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "And it doesn't appear to have any abnormal elemental properties, save for the markings I put on it.",
+            "nextDialogs": [
+              "101010808"
+            ]
+          },
+          "101010808": {
+            "id": "101010808",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Yeah... It seems like just an average storybook.",
+            "nextDialogs": [
+              "101010810"
+            ]
+          },
+          "101010810": {
+            "id": "101010810",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(How mysterious. I'm so curious...)",
+            "nextDialogs": [
+              "101010811"
+            ]
+          },
+          "101010811": {
+            "id": "101010811",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "As far as my duties as a librarian go, my troublesome work is finished.",
+            "nextDialogs": [
+              "101010812"
+            ]
+          },
+          "101010812": {
+            "id": "101010812",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Since this book has piqued your interest, why don't I let you borrow it?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010109",
+      "subQuestName": "Talk to Lisa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1010110",
+      "subQuestName": "Talk to Lisa (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101011001"
+        ],
+        "dialogs": {
+          "101011001": {
+            "id": "101011001",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Ah, you've returned. The paperwork is done — you are now the custodian of this book.",
+            "nextDialogs": [
+              "101011002"
+            ]
+          },
+          "101011002": {
+            "id": "101011002",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Thank you Miss Lisa!",
+            "nextDialogs": [
+              "101011003"
+            ]
+          },
+          "101011003": {
+            "id": "101011003",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "...But Paimon thinks we're forgetting something.",
+            "nextDialogs": [
+              "101011007",
+              "101011006"
+            ]
+          },
+          "101011007": {
+            "id": "101011007",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Look, over there on the shelf! Isn't that the <color=#00E1FFFF>Teyvat Travel Guide</color>?",
+            "nextDialogs": [
+              "101011008"
+            ]
+          },
+          "101011008": {
+            "id": "101011008",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "And look how many copies there are!",
+            "nextDialogs": [
+              "101011009"
+            ]
+          },
+          "101011009": {
+            "id": "101011009",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Hehe... The <color=#00E1FFFF>Teyvat Travel Guide</color> is a serial publication. It is not part of the library's formal collection.",
+            "nextDialogs": [
+              "101011010"
+            ]
+          },
+          "101011010": {
+            "id": "101011010",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Oh...",
+            "nextDialogs": [
+              "101011011"
+            ]
+          },
+          "101011011": {
+            "id": "101011011",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Take one. Consider it your compensation for being Lisa's little helper today.",
+            "nextDialogs": [
+              "101011012"
+            ]
+          },
+          "101011012": {
+            "id": "101011012",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "With you by my side, my troublesome work was a little less dull than usual.",
+            "nextDialogs": [
+              "101011013"
+            ]
+          },
+          "101011013": {
+            "id": "101011013",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Hmph! The Teyvat Travel Guide was just bait to get us to do a day's work!",
+            "nextDialogs": [
+              "101011014"
+            ]
+          },
+          "101011014": {
+            "id": "101011014",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "I hadn't anticipated that a few routine returns inquiries would take us out of the city, let alone down into some underground ruins.",
+            "nextDialogs": [
+              "101011015"
+            ]
+          },
+          "101011015": {
+            "id": "101011015",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "As compensation for dragging you into all this bother, take these souvenirs.",
+            "nextDialogs": [
+              "101011016"
+            ]
+          },
+          "101011016": {
+            "id": "101011016",
+            "speakerId": 1001,
+            "speakerName": "Paimon",
+            "text": "Wow, Lisa went and bought us some special souvenirs!",
+            "nextDialogs": [
+              "101011017"
+            ]
+          },
+          "101011017": {
+            "id": "101011017",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "In fact, they were intended for our next outing, but... Never mind, we can discuss next time's activity when the time comes. I hope you are looking forward to it.",
+            "nextDialogs": [
+              "101011018"
+            ]
+          },
+          "101011018": {
+            "id": "101011018",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "*yawn*"
+          },
+          "101011006": {
+            "id": "101011006",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "You are a voracious one, aren't you?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1010115",
+      "subQuestName": "Take the Teyvat Travel Guide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101011501"
+        ],
+        "dialogs": {
+          "101011501": {
+            "id": "101011501",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "The <color=#00E1FFFF>Teyvat Travel Guide</color> is on the bookcase next to you.",
+            "nextDialogs": [
+              "101011502"
+            ]
+          },
+          "101011502": {
+            "id": "101011502",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "Have a look.",
+            "nextDialogs": [
+              "101011503"
+            ]
+          },
+          "101011503": {
+            "id": "101011503",
+            "speakerId": 1000,
+            "speakerName": "Lisa",
+            "text": "No need to return it."
+          }
+        }
+      }
+    }
+  ]
+}

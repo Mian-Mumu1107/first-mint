@@ -1,0 +1,92 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Yavanani": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7365901",
+      "subQuestName": "Give five Apples to Yavanani",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590101"
+        ],
+        "dialogs": {
+          "736590101": {
+            "id": "736590101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Apples...",
+            "nextDialogs": [
+              "736590102"
+            ]
+          },
+          "736590102": {
+            "id": "736590102",
+            "speakerId": 1000,
+            "speakerName": "Yavanani",
+            "text": "Effendi reminded me to explain details about my request in a comprehensible manner...",
+            "nextDialogs": [
+              "736590103"
+            ]
+          },
+          "736590103": {
+            "id": "736590103",
+            "speakerId": 1000,
+            "speakerName": "Yavanani",
+            "text": "I'll get right to it, then. Have you got the five Apples?",
+            "nextDialogs": [
+              "736590105"
+            ]
+          },
+          "736590105": {
+            "id": "736590105",
+            "speakerId": 1000,
+            "speakerName": "Yavanani",
+            "text": "Okay, come back when you have them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365902",
+      "subQuestName": "Talk to Yavanani",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590201"
+        ],
+        "dialogs": {
+          "736590201": {
+            "id": "736590201",
+            "speakerId": 1000,
+            "speakerName": "Yavanani",
+            "text": "Thank you. It's pretty easy to post requests with Effendi. Not much explanation necessary."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365901",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736590107"
+        ],
+        "dialogs": {
+          "736590107": {
+            "id": "736590107",
+            "speakerId": 1000,
+            "speakerName": "Yavanani",
+            "text": "Language is the foundation of all forms of sociological and historical studies. It makes perfect sense to approach the issue from a linguistic point of view. How stubborn of them to not see that..."
+          }
+        }
+      }
+    }
+  ]
+}

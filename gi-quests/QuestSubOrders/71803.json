@@ -1,0 +1,309 @@
+{
+  "lineCounts": {
+    "Ash": 4,
+    "Curious Cat": 2,
+    "Lan": 13,
+    "Paimon": 13,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "7180302",
+      "subQuestName": "Defeat the Stonehide Lawachurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718030201"
+        ],
+        "dialogs": {
+          "718030201": {
+            "id": "718030201",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "<color=#00E1FFFF>Ash</color>, huh... The description is detailed enough, sure, but it's not going to be easy finding a cat that's lost out in the wild."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180303",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718030301"
+        ],
+        "dialogs": {
+          "718030301": {
+            "id": "718030301",
+            "speakerId": 1001,
+            "speakerName": "Curious Cat",
+            "text": "Meow...",
+            "nextDialogs": [
+              "718030302"
+            ]
+          },
+          "718030302": {
+            "id": "718030302",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh? Why would there be a cat here?",
+            "nextDialogs": [
+              "718030303"
+            ]
+          },
+          "718030303": {
+            "id": "718030303",
+            "speakerId": 1001,
+            "speakerName": "Curious Cat",
+            "text": "Meow... Meeeow...",
+            "nextDialogs": [
+              "718030305",
+              "718030309"
+            ]
+          },
+          "718030305": {
+            "id": "718030305",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "A gray cat, lost in the wild...",
+            "nextDialogs": [
+              "718030306"
+            ]
+          },
+          "718030306": {
+            "id": "718030306",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ah, Lan mentioned a commission to look for a gray cat. Maybe this is the one! Paimon remembers that it was called Ash or something like that...",
+            "nextDialogs": [
+              "718030307"
+            ]
+          },
+          "718030307": {
+            "id": "718030307",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Who'd have thought that we'd find it here... Has it been hiding around here all this time?",
+            "nextDialogs": [
+              "718030311"
+            ]
+          },
+          "718030311": {
+            "id": "718030311",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Guess the Stonehide Lawachurl prevented anyone from searching for it here, and since it was too scared to leave, it just hid.",
+            "nextDialogs": [
+              "718030312"
+            ]
+          },
+          "718030312": {
+            "id": "718030312",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sure is lucky that we came over, or it might've had to wait for a while longer, huh?",
+            "nextDialogs": [
+              "718030313"
+            ]
+          },
+          "718030313": {
+            "id": "718030313",
+            "speakerId": 1003,
+            "speakerName": "Ash",
+            "text": "Meow... Meow, meow!"
+          },
+          "718030309": {
+            "id": "718030309",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "A gray cat, lost in the wild...",
+            "nextDialogs": [
+              "718030310"
+            ]
+          },
+          "718030310": {
+            "id": "718030310",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You're right! Lan mentioned that commission earlier, didn't she? Huh. Who'd have thought that we'd find that cat here... Has it been hiding around here all this time?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180304",
+      "subQuestName": "Speak to the Curious Cat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180305",
+      "subQuestName": "Bring Ash to Lan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718030401"
+        ],
+        "dialogs": {
+          "718030401": {
+            "id": "718030401",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Have you defeated the Stonehide Lawachurl?",
+            "nextDialogs": [
+              "718030403",
+              "718030405"
+            ]
+          },
+          "718030403": {
+            "id": "718030403",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Thanks, you've done us a favor. With this commission under our belt, we'll have no problem proving the Guild's ability."
+          },
+          "718030405": {
+            "id": "718030405",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Thanks, you've done us a fav— say what now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180306",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718030501"
+        ],
+        "dialogs": {
+          "718030501": {
+            "id": "718030501",
+            "speakerId": 1003,
+            "speakerName": "Ash",
+            "text": "Meow, meow... Meow?",
+            "nextDialogs": [
+              "718030502"
+            ]
+          },
+          "718030502": {
+            "id": "718030502",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "This cat is...",
+            "nextDialogs": [
+              "718030503"
+            ]
+          },
+          "718030503": {
+            "id": "718030503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It might be Ash.",
+            "nextDialogs": [
+              "718030504"
+            ]
+          },
+          "718030504": {
+            "id": "718030504",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Give me a moment, let me check its features against the list of features written down in the commission.",
+            "nextDialogs": [
+              "718030505"
+            ]
+          },
+          "718030505": {
+            "id": "718030505",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Let's see...",
+            "nextDialogs": [
+              "718030506"
+            ]
+          },
+          "718030506": {
+            "id": "718030506",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "It mostly checks out. This seems to be the cat we're looking for.",
+            "nextDialogs": [
+              "718030508"
+            ]
+          },
+          "718030508": {
+            "id": "718030508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The commissioner should be pleased.",
+            "nextDialogs": [
+              "718030509"
+            ]
+          },
+          "718030509": {
+            "id": "718030509",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Hah. After all those twists and turns, we came right back to looking for lost cats.",
+            "nextDialogs": [
+              "718030510"
+            ]
+          },
+          "718030510": {
+            "id": "718030510",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "I'm really not sure what to say...",
+            "nextDialogs": [
+              "718030511"
+            ]
+          },
+          "718030511": {
+            "id": "718030511",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "I'll report these commissions to their commissioners. Thank you very much — please accept this as compensation for doing us this favor.",
+            "nextDialogs": [
+              "718030512"
+            ]
+          },
+          "718030512": {
+            "id": "718030512",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Hmm, it seems that the commissioner for the cat-related commission has since moved. It'll take some time to contact them.",
+            "nextDialogs": [
+              "718030513"
+            ]
+          },
+          "718030513": {
+            "id": "718030513",
+            "speakerId": 1000,
+            "speakerName": "Lan",
+            "text": "Guess I'll just have to take care of this rascal in the meantime.",
+            "nextDialogs": [
+              "718030514"
+            ]
+          },
+          "718030514": {
+            "id": "718030514",
+            "speakerId": 1003,
+            "speakerName": "Ash",
+            "text": "Meow-meow, meow!"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "lineCounts": {
+    "\"Kururuk\"": 3,
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 15,
+    "???": 5,
+    "Black Screen": 3,
+    "Infuriated Qucusaurus": 1,
+    "Mazkal": 25,
+    "Paimon": 33,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "7501801",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180101"
+        ],
+        "dialogs": {
+          "750180101": {
+            "id": "750180101",
+            "speakerId": 1000,
+            "speakerName": "Infuriated Qucusaurus",
+            "text": "—Shwaaaargh!",
+            "nextDialogs": [
+              "750180102"
+            ]
+          },
+          "750180102": {
+            "id": "750180102",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "Come on kiddo, come on now, quit fooling around. If you don't take your meds, you won't recover!",
+            "nextDialogs": [
+              "750180103"
+            ]
+          },
+          "750180103": {
+            "id": "750180103",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Oh no, she's in danger! We've gotta help her, {NICKNAME}!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501802",
+      "subQuestName": "Subdue the temperamental Qucusaurus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501803",
+      "subQuestName": "Subdue the temperamental Qucusaurus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180301"
+        ],
+        "dialogs": {
+          "750180301": {
+            "id": "750180301",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "\"Shwrawr!\"\\nAs if knowing it is outmatched, the Qucusaurus flies off with a cry...",
+            "nextDialogs": [
+              "750180302"
+            ]
+          },
+          "750180302": {
+            "id": "750180302",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Argh, it's quick! Gone in the blink of an eye!",
+            "nextDialogs": [
+              "750180304",
+              "750180306"
+            ]
+          },
+          "750180304": {
+            "id": "750180304",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Wha— You want Paimon to go chase it? Seriously?",
+            "nextDialogs": [
+              "750180307"
+            ]
+          },
+          "750180307": {
+            "id": "750180307",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "...Hmm, if nothing else, it does look like it's recovered quite nicely. Next, we should...",
+            "nextDialogs": [
+              "750180308"
+            ]
+          },
+          "750180308": {
+            "id": "750180308",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Speaking of which, why was that Qucusaurus so mad?",
+            "nextDialogs": [
+              "750180309"
+            ]
+          },
+          "750180309": {
+            "id": "750180309",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "...Hmm, Paimon knows! You must've stolen its snacks! There's nothing more infuriating than a food thief, Paimon'll tell ya that!",
+            "nextDialogs": [
+              "750180310"
+            ]
+          },
+          "750180310": {
+            "id": "750180310",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "Snacks? Well, yes, I've had some, but Kururuk's not the type to get in a huff over small stuff like that.",
+            "nextDialogs": [
+              "750180311"
+            ]
+          },
+          "750180311": {
+            "id": "750180311",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "\"Kururuk\"? So it has a name... Seems like it's got quite a temper on it, though! Almost hit you back there!",
+            "nextDialogs": [
+              "750180312"
+            ]
+          },
+          "750180312": {
+            "id": "750180312",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "Well, I wouldn't blame him, the treatment being what it is...",
+            "nextDialogs": [
+              "750180313"
+            ]
+          },
+          "750180313": {
+            "id": "750180313",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So taking a beating is also a kind of healing? You learn something every day...",
+            "nextDialogs": [
+              "750180314"
+            ]
+          },
+          "750180314": {
+            "id": "750180314",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750180315"
+            ]
+          },
+          "750180315": {
+            "id": "750180315",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#What? Come on, how did you get that into your head? Cut that nonsense out right now — you're giving {REALNAME[ID(2)|SHOWHOST(true)]} the wrong idea!",
+            "nextDialogs": [
+              "750180316"
+            ]
+          },
+          "750180316": {
+            "id": "750180316",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Hroowr? Rrooh?",
+            "nextDialogs": [
+              "750180317"
+            ]
+          },
+          "750180317": {
+            "id": "750180317",
+            "speakerId": 1001,
+            "speakerName": "???",
+            "text": "Haha, if that was a workable form of therapy, I'd love to try it myself! Unfortunately, Saurians are different from us. Even if you told them something would help them recover quickly, there's no guarantee they'd understand.",
+            "nextDialogs": [
+              "750180318"
+            ]
+          },
+          "750180318": {
+            "id": "750180318",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Ah, yes, allow me to introduce myself. I'm Mazkal. I usually take care of wounded or sick Saurians nearby. Not to brag or anything, but my medicines get pretty good client reviews.",
+            "nextDialogs": [
+              "750180319"
+            ]
+          },
+          "750180319": {
+            "id": "750180319",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Hmm. Your little companion looks very healthy. Doesn't look like he needs my help.",
+            "nextDialogs": [
+              "750180320"
+            ]
+          },
+          "750180320": {
+            "id": "750180320",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750180321"
+            ]
+          },
+          "750180321": {
+            "id": "750180321",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ah, so you're a Saurian vet! Uhh, judging from the way Kururuk behaved, seems like a pretty tough job...",
+            "nextDialogs": [
+              "750180322"
+            ]
+          },
+          "750180322": {
+            "id": "750180322",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Oh, I wouldn't say it's all that tough. It's just that Kururuk's case is somewhat... special. He's deeply distrustful of humans right now, so he resists all treatments and medication.",
+            "nextDialogs": [
+              "750180323"
+            ]
+          },
+          "750180323": {
+            "id": "750180323",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "*sigh* If only I were a Saurian myself. I've observed him, and he gets along with other Saurians just fine. Perhaps he'd be willing to take medicine if it came recommended by another Saurian.",
+            "nextDialogs": [
+              "750180324"
+            ]
+          },
+          "750180324": {
+            "id": "750180324",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wroo?",
+            "nextDialogs": [
+              "750180325"
+            ]
+          },
+          "750180325": {
+            "id": "750180325",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hmm, well if that's the case, we might just be able to help you!",
+            "nextDialogs": [
+              "750180326"
+            ]
+          },
+          "750180326": {
+            "id": "750180326",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Huh? Wait, you're saying that despite your appearance, you're actually Saurians!?",
+            "nextDialogs": [
+              "750180327"
+            ]
+          },
+          "750180327": {
+            "id": "750180327",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You sure have an overactive imagination! Ugh...",
+            "nextDialogs": [
+              "750180328"
+            ]
+          },
+          "750180328": {
+            "id": "750180328",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#A—Anyway, the real reason we can do this is because {REALNAME[ID(2)|SHOWHOST(true)]}'s a super clever little Saurian! He can help us out!",
+            "nextDialogs": [
+              "750180329"
+            ]
+          },
+          "750180329": {
+            "id": "750180329",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Huh? He's that smart?"
+          },
+          "750180306": {
+            "id": "750180306",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "You think a Saurian's gonna understand something like that!?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501804",
+      "subQuestName": "Catch up with \"Kururuk\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501806",
+      "subQuestName": "Catch up with \"Kururuk\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180601"
+        ],
+        "dialogs": {
+          "750180601": {
+            "id": "750180601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Might as well.",
+            "nextDialogs": [
+              "750180602"
+            ]
+          },
+          "750180602": {
+            "id": "750180602",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#We're counting on you for Round Two, {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750180603"
+            ]
+          },
+          "750180603": {
+            "id": "750180603",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750180604"
+            ]
+          },
+          "750180604": {
+            "id": "750180604",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Chowed it right down! But...",
+            "nextDialogs": [
+              "750180605"
+            ]
+          },
+          "750180605": {
+            "id": "750180605",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Uh oh! He's even madder than before! Quick, we gotta calm him down!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501807",
+      "subQuestName": "Have \"Kururuk\" take some medicine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180701"
+        ],
+        "dialogs": {
+          "750180701": {
+            "id": "750180701",
+            "speakerId": 1006,
+            "speakerName": "\"Kururuk\"",
+            "text": "Shrawr...",
+            "nextDialogs": [
+              "750180702"
+            ]
+          },
+          "750180702": {
+            "id": "750180702",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, Paimon's kinda worried about how Kururuk's wounds haven't fully healed yet... Why don't we follow him and see how things are?",
+            "nextDialogs": [
+              "750180706"
+            ]
+          },
+          "750180706": {
+            "id": "750180706",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "#You hurry over to {REALNAME[ID(2)|SHOWHOST(true)]} and Kururuk.",
+            "nextDialogs": [
+              "750180703"
+            ]
+          },
+          "750180703": {
+            "id": "750180703",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "There he is? Phew, at least he looks fine... Alright, let's feed him the medicine now!",
+            "nextDialogs": [
+              "750180704"
+            ]
+          },
+          "750180704": {
+            "id": "750180704",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Which of the two should we go with?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501805",
+      "subQuestName": "Have \"Kururuk\" take some medicine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180403"
+        ],
+        "dialogs": {
+          "750180403": {
+            "id": "750180403",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#If he'll eat it, this one should help him recover better, right? You've got this now, {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750180405"
+            ]
+          },
+          "750180405": {
+            "id": "750180405",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750180406"
+            ]
+          },
+          "750180406": {
+            "id": "750180406",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Looks pretty hopeful. Hehe, good work, {REALNAME[ID(2)|SHOWHOST(true)]}! ...Err, wait a minute...",
+            "nextDialogs": [
+              "750180407"
+            ]
+          },
+          "750180407": {
+            "id": "750180407",
+            "speakerId": 1006,
+            "speakerName": "\"Kururuk\"",
+            "text": "—Shwaaaargh!",
+            "nextDialogs": [
+              "750180408"
+            ]
+          },
+          "750180408": {
+            "id": "750180408",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Huh!? W—Was the medicine too effective? He looks even angrier than before! Gah, we've gotta calm him down real quick..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501813",
+      "subQuestName": "Have \"Kururuk\" take some medicine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501808",
+      "subQuestName": "Subdue \"Kururuk\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7501809",
+      "subQuestName": "Subdue \"Kururuk\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180903"
+        ],
+        "dialogs": {
+          "750180903": {
+            "id": "750180903",
+            "speakerId": 1006,
+            "speakerName": "\"Kururuk\"",
+            "text": "Rrooah...",
+            "nextDialogs": [
+              "750180901"
+            ]
+          },
+          "750180901": {
+            "id": "750180901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is this really a Saurian who still hasn't fully recovered?",
+            "nextDialogs": [
+              "750180904"
+            ]
+          },
+          "750180904": {
+            "id": "750180904",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrrooo... Rawr! Rawr! Raaawr!",
+            "nextDialogs": [
+              "750180902"
+            ]
+          },
+          "750180902": {
+            "id": "750180902",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "He'd probably be a super tough opponent when he's in tip-top shape... Anyway, let's bring him back to Mazkal while he's being a bit more docile!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501810",
+      "subQuestName": "Talk to Mazkal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750181001"
+        ],
+        "dialogs": {
+          "750181001": {
+            "id": "750181001",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750181002"
+            ]
+          },
+          "750181002": {
+            "id": "750181002",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "You're back! How did it go? Did Kururuk take his medicine?",
+            "nextDialogs": [
+              "750181003"
+            ]
+          },
+          "750181003": {
+            "id": "750181003",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Well, he did, but...",
+            "nextDialogs": [
+              "750181004"
+            ]
+          },
+          "750181004": {
+            "id": "750181004",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "You explain what happened earlier...",
+            "nextDialogs": [
+              "750181017"
+            ]
+          },
+          "750181017": {
+            "id": "750181017",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "I see. Alright, let me have a look... Hmm. Looks like he's fine, not hurt too badly at all.",
+            "nextDialogs": [
+              "750181005"
+            ]
+          },
+          "750181005": {
+            "id": "750181005",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Either way, it's a good thing that he took the medicine! And now that I know how he reacts, I can adjust the formula accordingly.",
+            "nextDialogs": [
+              "750181006"
+            ]
+          },
+          "750181006": {
+            "id": "750181006",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "#Yup, don't worry, we should be fine. Thanks for your help — especially you, {REALNAME[ID(2)|SHOWHOST(true)]}! What an amazing little Tepetlisaur you are!",
+            "nextDialogs": [
+              "750181007"
+            ]
+          },
+          "750181007": {
+            "id": "750181007",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawwr!",
+            "nextDialogs": [
+              "750181008"
+            ]
+          },
+          "750181008": {
+            "id": "750181008",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Haha, it's nice hearing people praise {REALNAME[ID(2)|SHOWHOST(true)]} — even better than hearing them praise Paimon, in fact!",
+            "nextDialogs": [
+              "750181009"
+            ]
+          },
+          "750181009": {
+            "id": "750181009",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "I'm impressed at how well you two get along with this little guy too. I could stand to learn a thing or two from you.",
+            "nextDialogs": [
+              "750181012"
+            ]
+          },
+          "750181012": {
+            "id": "750181012",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "I'd love to say that there's something I could do to help you, or do for you...",
+            "nextDialogs": [
+              "750181013"
+            ]
+          },
+          "750181013": {
+            "id": "750181013",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "But I think I'll settle for wishing you the best of health. Best you never need my help!",
+            "nextDialogs": [
+              "750181014"
+            ]
+          },
+          "750181014": {
+            "id": "750181014",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "Ah, right, but if you just want to chat, you're welcome to come find me anytime.",
+            "nextDialogs": [
+              "750181015"
+            ]
+          },
+          "750181015": {
+            "id": "750181015",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sure! Hope Kururuk recovers soon — hopefully without instantly resorting to hitting people, like he did earlier...",
+            "nextDialogs": [
+              "750181016"
+            ]
+          },
+          "750181016": {
+            "id": "750181016",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": "As for that... Not to worry, I'll figure something out. And you never know, his temper might improve along with his wounds!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501812",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750181201"
+        ],
+        "dialogs": {
+          "750181201": {
+            "id": "750181201",
+            "speakerId": 1005,
+            "speakerName": "Mazkal",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501805",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180501"
+        ],
+        "dialogs": {
+          "750180501": {
+            "id": "750180501",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "#Well, even if this one doesn't work as well, just having him eat the medicine at all is progress enough! Let's do this, {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750180510"
+            ]
+          },
+          "750180510": {
+            "id": "750180510",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750180511"
+            ]
+          },
+          "750180511": {
+            "id": "750180511",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Ooh, he snapped it right up? Hmm... But he still looks pretty listless.",
+            "nextDialogs": [
+              "750180512"
+            ]
+          },
+          "750180512": {
+            "id": "750180512",
+            "speakerId": 1004,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wroo?",
+            "nextDialogs": [
+              "750180513"
+            ]
+          },
+          "750180513": {
+            "id": "750180513",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Sh—Should we try the other one, then?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7501808",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750180805"
+        ],
+        "dialogs": {
+          "750180805": {
+            "id": "750180805",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's not go with either for now.",
+            "nextDialogs": [
+              "750180806"
+            ]
+          },
+          "750180806": {
+            "id": "750180806",
+            "speakerId": 1002,
+            "speakerName": "Paimon",
+            "text": "Hmm, that does make sense... Actually, why don't we bring him back to Mazkal now that he's being a bit less rowdy?"
+          }
+        }
+      }
+    }
+  ]
+}

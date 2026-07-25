@@ -1,0 +1,367 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 1,
+    "Mouse": 2,
+    "Night Owl": 5,
+    "Paimon": 16,
+    "Player": 8,
+    "Qucusaurus": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7502801",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280101"
+        ],
+        "dialogs": {
+          "750280101": {
+            "id": "750280101",
+            "speakerId": 1000,
+            "speakerName": "Mouse",
+            "text": "Ugh, you're... tougher than you look...",
+            "nextDialogs": [
+              "750280102"
+            ]
+          },
+          "750280102": {
+            "id": "750280102",
+            "speakerId": 1001,
+            "speakerName": "Night Owl",
+            "text": "Gah. Who did we offend... Who'd send someone on this day, of all days, to come whack us...",
+            "nextDialogs": [
+              "750280103"
+            ]
+          },
+          "750280103": {
+            "id": "750280103",
+            "speakerId": 1001,
+            "speakerName": "Night Owl",
+            "text": "#Please, {M#Big Bro}{F#Big Sis}. How have we offended you? Just... let us know. We won't do it again.",
+            "nextDialogs": [
+              "750280104"
+            ]
+          },
+          "750280104": {
+            "id": "750280104",
+            "speakerId": 1000,
+            "speakerName": "Mouse",
+            "text": "Hey, you little rascal! You're really gonna grovel before this piece of work?",
+            "nextDialogs": [
+              "750280105"
+            ]
+          },
+          "750280105": {
+            "id": "750280105",
+            "speakerId": 1001,
+            "speakerName": "Night Owl",
+            "text": "You think talking tough's going to make us a living? I can see it now, I tell you. We're just living like thieves and crooks. There's nothing special about trafficking Saurians, is there?",
+            "nextDialogs": [
+              "750280106"
+            ]
+          },
+          "750280106": {
+            "id": "750280106",
+            "speakerId": 1001,
+            "speakerName": "Night Owl",
+            "text": "If the only alternative's being robbed by a stronger crook, why shouldn't I go with them instead?",
+            "nextDialogs": [
+              "750280107"
+            ]
+          },
+          "750280107": {
+            "id": "750280107",
+            "speakerId": 1001,
+            "speakerName": "Night Owl",
+            "text": "#And not to brag, {M#Big Bro}{F#Big Sis}, but I'm sure I'd be way more useful to you than these two. Just call me if you need anything. I'll settle it, nice and clean.",
+            "nextDialogs": [
+              "750280108"
+            ]
+          },
+          "750280108": {
+            "id": "750280108",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Hmm?",
+            "nextDialogs": [
+              "750280110"
+            ]
+          },
+          "750280110": {
+            "id": "750280110",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Are you serious!? No way! Paimon vetoes this motion!",
+            "nextDialogs": [
+              "750280112"
+            ]
+          },
+          "750280112": {
+            "id": "750280112",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Also, you're a bunch of bad eggs anyway! No way good guys like us would team up with Saurian traffickers like you!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502807",
+      "subQuestName": "Talk to the suspicious warriors",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502802",
+      "subQuestName": "Check on the injured Saurian",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280201"
+        ],
+        "dialogs": {
+          "750280201": {
+            "id": "750280201",
+            "speakerId": 1004,
+            "speakerName": "Qucusaurus",
+            "text": "Roar...",
+            "nextDialogs": [
+              "750280202"
+            ]
+          },
+          "750280202": {
+            "id": "750280202",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Oh no, it looks so weak... It must have suffered so much...",
+            "nextDialogs": [
+              "750280203"
+            ]
+          },
+          "750280203": {
+            "id": "750280203",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wooo... Rrrooo...",
+            "nextDialogs": [
+              "750280207",
+              "750280206"
+            ]
+          },
+          "750280207": {
+            "id": "750280207",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrah... Rawr! Raaawr!",
+            "nextDialogs": [
+              "750280208"
+            ]
+          },
+          "750280208": {
+            "id": "750280208",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#What is it? Do you have an idea, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "750280209"
+            ]
+          },
+          "750280209": {
+            "id": "750280209",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          },
+          "750280206": {
+            "id": "750280206",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "But there's gotta be something we can do to make it feel better, even if it's only for a short time..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502803",
+      "subQuestName": "Follow your Saurian buddy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280301"
+        ],
+        "dialogs": {
+          "750280301": {
+            "id": "750280301",
+            "speakerId": 1004,
+            "speakerName": "Qucusaurus",
+            "text": "(It looks incredibly weak. If only there was some way to revive it...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502804",
+      "subQuestName": "Check out what your Saurian buddy has found",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280401"
+        ],
+        "dialogs": {
+          "750280401": {
+            "id": "750280401",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Raaawr! Rawr!",
+            "nextDialogs": [
+              "750280402"
+            ]
+          },
+          "750280402": {
+            "id": "750280402",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Do you think Embercore Flowers might help it out?",
+            "nextDialogs": [
+              "750280403"
+            ]
+          },
+          "750280403": {
+            "id": "750280403",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750280404"
+            ]
+          },
+          "750280404": {
+            "id": "750280404",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Sure, we can give it a go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502805",
+      "subQuestName": "Try healing the Qucusaurus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502806",
+      "subQuestName": "Check on the Qucusaurus",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280601"
+        ],
+        "dialogs": {
+          "750280601": {
+            "id": "750280601",
+            "speakerId": 1004,
+            "speakerName": "Qucusaurus",
+            "text": "...",
+            "nextDialogs": [
+              "750280602"
+            ]
+          },
+          "750280602": {
+            "id": "750280602",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr... Rawr!",
+            "nextDialogs": [
+              "750280603"
+            ]
+          },
+          "750280603": {
+            "id": "750280603",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Looks like it's kinda reinvigorated?",
+            "nextDialogs": [
+              "750280605"
+            ]
+          },
+          "750280605": {
+            "id": "750280605",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "Heh. Flew away just like that... Guess it still doesn't trust us, huh?",
+            "nextDialogs": [
+              "750280607",
+              "750280609"
+            ]
+          },
+          "750280607": {
+            "id": "750280607",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#That's true. We had to work hard to reach the understanding we've got with {REALNAME[ID(2)|SHOWHOST(true)]} too!",
+            "nextDialogs": [
+              "750280610"
+            ]
+          },
+          "750280610": {
+            "id": "750280610",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Rawr rawr!",
+            "nextDialogs": [
+              "750280611"
+            ]
+          },
+          "750280611": {
+            "id": "750280611",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#And it's not like we did it to earn its gratitude or anything, don'cha think, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "750280612"
+            ]
+          },
+          "750280612": {
+            "id": "750280612",
+            "speakerId": 1002,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750280613"
+            ]
+          },
+          "750280613": {
+            "id": "750280613",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#Hehe, you're a generous little Saurian, aren't you? Just like Paimon and {NICKNAME}!"
+          },
+          "750280609": {
+            "id": "750280609",
+            "speakerId": 1003,
+            "speakerName": "Paimon",
+            "text": "#Sure does. Great idea, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+          }
+        }
+      }
+    }
+  ]
+}
