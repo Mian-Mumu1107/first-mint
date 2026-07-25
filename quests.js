@@ -2259,14 +2259,13 @@ function renderLineCounts(questSubOrders, questSubOrdersChs = null) {
 		const nameElement = document.createElement("span");
 		nameElement.className = "line-count-name";
 		if (selectedLanguage === "both") {
-			const lineCountIdMatch = name.match(/\(([^()]*)\)$/);
-			const lineCountId = lineCountIdMatch ? lineCountIdMatch[1] : "";
-			const chsName = Object.keys(chsCounts).find(chsEntryName => {
-				const chsLineCountIdMatch = chsEntryName.match(/\(([^()]*)\)$/);
-				const chsLineCountId = chsLineCountIdMatch ? chsLineCountIdMatch[1] : "";
-
-				return chsLineCountId && chsLineCountId === lineCountId;
-			});
+			// 去掉英文键名末尾的括号及内容
+const cleanEn = name.replace(/\s*\([^)]*\)\s*$/, '').trim();
+const chsName = Object.keys(chsCounts).find(chsEntryName => {
+    // 去掉中文键名末尾的括号及内容
+    const cleanChs = chsEntryName.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    return cleanChs === cleanEn;
+});
 
 			nameElement.innerHTML = `${escapeHtml(chsName || name)}<span class="localized-line localized-line-en">${escapeHtml(name)}</span>`;
 		} else {
