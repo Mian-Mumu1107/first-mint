@@ -2555,6 +2555,7 @@ function fitQuestStepMapToLocations(locations) {
 }
 
 async function renderQuestStepMap(questSubOrders, renderId) {
+	return;
 	clearQuestStepMap();
 
 	const sceneIds = await loadQuestMapBigworldSceneIds();
