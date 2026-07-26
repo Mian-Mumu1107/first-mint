@@ -1435,7 +1435,7 @@ function createRewardCard({
 }) {
 	const rewardCard = document.createElement("a");
 	rewardCard.className = "reward-card";
-	rewardCard.href = `https://whiteineffa.gitlab.io/gi/materials/?id=${id}`;
+	rewardCard.href = `https://mian-mumu1107.github.io/first-mint/materials/?id=${id}`;
 
 	const icon = document.createElement("img");
 	icon.className = "reward-card-icon";
@@ -1915,12 +1915,12 @@ function getDialoguePath(dialogs, startDialogId, selectedBranches = {}) {
 	return path;
 }
 
-const ADVENTURE_GLOSSARY_BUTTON_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_Answer.png";
-const ADVENTURE_GLOSSARY_AVATAR_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_AdventureGlossaryAvatar.png";
-const ADVENTURE_GLOSSARY_AREA_ICON = "https://whiteineffa.gitlab.io/gi-images-4/UI/UI_Icon_AdventureGlossaryArea.png";
-const ADVENTURE_GLOSSARY_SCENERY_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-5/Codex/Scenery/";
-const ADVENTURE_GLOSSARY_NPC_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-3/NPC/";
-const ADVENTURE_GLOSSARY_AVATAR_BASE_URL = "https://whiteineffa.gitlab.io/gi-images-1/Avatar/";
+const ADVENTURE_GLOSSARY_BUTTON_ICON = "https://mian-mumu1107.github.io/first-mint/gi-images-4/UI/UI_Icon_Answer.png";
+const ADVENTURE_GLOSSARY_AVATAR_ICON = "https://mian-mumu1107.github.io/first-mint/gi-images-4/UI/UI_Icon_AdventureGlossaryAvatar.png";
+const ADVENTURE_GLOSSARY_AREA_ICON = "https://mian-mumu1107.github.io/first-mint/gi-images-4/UI/UI_Icon_AdventureGlossaryArea.png";
+const ADVENTURE_GLOSSARY_SCENERY_BASE_URL = "https://mian-mumu1107.github.io/first-mint/gi-images-5/Codex/Scenery/";
+const ADVENTURE_GLOSSARY_NPC_BASE_URL = "https://mian-mumu1107.github.io/first-mint/gi-images-3/NPC/";
+const ADVENTURE_GLOSSARY_AVATAR_BASE_URL = "https://mian-mumu1107.github.io/first-mint/gi-images-1/Avatar/";
 
 function getLocalizedBlockHtml(item, field, fallback = "") {
 	return getLocalizedHtml(item, field, fallback)
@@ -2396,7 +2396,7 @@ function createQuestStepMapTile(x, y) {
 	const pos = getQuestStepMapTilePosition(x, y);
 
 	tile.className = "quest-step-map-tile";
-	tile.src = `https://whiteineffa.gitlab.io/gi-images-4/Map/UI_MapBack_${x}_${y}.png`;
+	tile.src = `https://mian-mumu1107.github.io/first-mint/gi-images-4/Map/UI_MapBack_${x}_${y}.png`;
 	tile.alt = "";
 	tile.loading = "lazy";
 	tile.decoding = "async";
