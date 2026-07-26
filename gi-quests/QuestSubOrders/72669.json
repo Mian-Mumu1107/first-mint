@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "Kujirai Momiji": 2,
+    "Player": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7266902",
+      "subQuestName": "Discarded",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7266903",
+      "subQuestName": "Discarded",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7266701",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "726670102"
+        ],
+        "dialogs": {
+          "726670102": {
+            "id": "726670102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I ran out of Glowgrass Bait.",
+            "nextDialogs": [
+              "726670103"
+            ]
+          },
+          "726670103": {
+            "id": "726670103",
+            "speakerId": 3200,
+            "speakerName": "Kujirai Momiji",
+            "text": "Huh? Good thing you brought enough materials last time, I made some spares.",
+            "nextDialogs": [
+              "726670104"
+            ]
+          },
+          "726670104": {
+            "id": "726670104",
+            "speakerId": 3200,
+            "speakerName": "Kujirai Momiji",
+            "text": "Come on, take these. If you run out again, you know where to find me."
+          }
+        }
+      }
+    }
+  ]
+}

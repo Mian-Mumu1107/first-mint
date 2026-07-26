@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「木偶」": 1,
+    "阿帽": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7335701",
+      "subQuestName": "前往兰巴德酒馆附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7335702",
+      "subQuestName": "前往兰巴德酒馆附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7335703",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "733570301"
+        ],
+        "dialogs": {
+          "733570301": {
+            "id": "733570301",
+            "speakerId": 22735,
+            "speakerName": "阿帽",
+            "text": "你还真是有闲时间。",
+            "nextDialogs": [
+              "733570302"
+            ]
+          },
+          "733570302": {
+            "id": "733570302",
+            "speakerId": 1319,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "733570304"
+            ]
+          },
+          "733570304": {
+            "id": "733570304",
+            "speakerId": 22735,
+            "speakerName": "阿帽",
+            "text": "行。各自保重。"
+          }
+        }
+      }
+    }
+  ]
+}

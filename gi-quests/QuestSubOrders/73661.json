@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Jahan": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7366101",
+      "subQuestName": "Give five jars of Sugar to Jahan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736610101"
+        ],
+        "dialogs": {
+          "736610101": {
+            "id": "736610101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Sugar...",
+            "nextDialogs": [
+              "736610102"
+            ]
+          },
+          "736610102": {
+            "id": "736610102",
+            "speakerId": 4105,
+            "speakerName": "Jahan",
+            "text": "Oh, you are here to deliver the Sugar, right?",
+            "nextDialogs": [
+              "736610103"
+            ]
+          },
+          "736610103": {
+            "id": "736610103",
+            "speakerId": 4105,
+            "speakerName": "Jahan",
+            "text": "Did you get five jars of Sugar?",
+            "nextDialogs": [
+              "736610105"
+            ]
+          },
+          "736610105": {
+            "id": "736610105",
+            "speakerId": 4105,
+            "speakerName": "Jahan",
+            "text": "You can never get enough sugar. Who doesn't love the sweet taste?",
+            "nextDialogs": [
+              "736610106"
+            ]
+          },
+          "736610106": {
+            "id": "736610106",
+            "speakerId": 4105,
+            "speakerName": "Jahan",
+            "text": "But don't eat too much like me. I cannot be held responsible for your tooth decay."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7366102",
+      "subQuestName": "Talk to Jahan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736610201"
+        ],
+        "dialogs": {
+          "736610201": {
+            "id": "736610201",
+            "speakerId": 4105,
+            "speakerName": "Jahan",
+            "text": "Haha, more meals with sugar!"
+          }
+        }
+      }
+    }
+  ]
+}

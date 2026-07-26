@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "康纳": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7070501",
+      "subQuestName": "将三份冰雾花花朵交给康纳",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707050101"
+        ],
+        "dialogs": {
+          "707050101": {
+            "id": "707050101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于冰雾花花朵…",
+            "nextDialogs": [
+              "707050102"
+            ]
+          },
+          "707050102": {
+            "id": "707050102",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "对，你准是看了我的委托吧，怎么样？三份冰雾花花朵搜集齐了吗？",
+            "nextDialogs": [
+              "707050105"
+            ]
+          },
+          "707050105": {
+            "id": "707050105",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "那请你快一些吧，我还等着它们用来酿酒呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070502",
+      "subQuestName": "与康纳对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707050201"
+        ],
+        "dialogs": {
+          "707050201": {
+            "id": "707050201",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "嗯…这些冰雾花花朵的质量还真不错。",
+            "nextDialogs": [
+              "707050202"
+            ]
+          },
+          "707050202": {
+            "id": "707050202",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "这些东西给你，请收下吧，谢谢你帮我这个忙。"
+          }
+        }
+      }
+    }
+  ]
+}

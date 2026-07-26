@@ -1,0 +1,880 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 16,
+    "<UNKNOWN>": 1,
+    "Black Screen": 2,
+    "Cisik": 5,
+    "Furball": 1,
+    "Lamizana": 5,
+    "Oberon": 12,
+    "Paimon": 58,
+    "Player": 24,
+    "Quilla": 9,
+    "Taruka": 5,
+    "Temach": 7
+  },
+  "subQuests": [
+    {
+      "subId": "7508701",
+      "subQuestName": "Indwell an Iktomisaurus and track the strange scent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508708",
+      "subQuestName": "Get to an elevated vantage point to get a better view of the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508709",
+      "subQuestName": "Check for clues nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870901"
+        ],
+        "dialogs": {
+          "750870901": {
+            "id": "750870901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Why are there Saurus Crackers here? This letter...",
+            "nextDialogs": [
+              "750870902"
+            ]
+          },
+          "750870902": {
+            "id": "750870902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So Quilla was the mastermind, just like Paimon thought! Even if it was for an unexpected reason... Ugh, Paran's got rotten luck for sure.",
+            "nextDialogs": [
+              "750870903"
+            ]
+          },
+          "750870903": {
+            "id": "750870903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just thinking about how Taruka and Oberon might be imprisoned in the camp in front of us makes Paimon feel bad about doing nothing... They didn't do anything wrong.",
+            "nextDialogs": [
+              "750870904"
+            ]
+          },
+          "750870904": {
+            "id": "750870904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hmm... {NICKNAME}, let's think of a way to save them, shall we?",
+            "nextDialogs": [
+              "750870905"
+            ]
+          },
+          "750870905": {
+            "id": "750870905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "If we can <color=#00E1FFFF>hide amidst the Iktomisaurus patrol squad</color>, maybe we'll have an easier time getting in!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508702",
+      "subQuestName": "Disguise yourself and follow the Iktomisaurus patrol to infiltrate the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508703",
+      "subQuestName": "Investigate the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870301"
+        ],
+        "dialogs": {
+          "750870301": {
+            "id": "750870301",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750870302"
+            ]
+          },
+          "750870302": {
+            "id": "750870302",
+            "speakerId": 21773,
+            "speakerName": "Oberon",
+            "text": "Cooo?",
+            "nextDialogs": [
+              "750870303"
+            ]
+          },
+          "750870303": {
+            "id": "750870303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh... Is that you, Oberon?",
+            "nextDialogs": [
+              "750870304"
+            ]
+          },
+          "750870304": {
+            "id": "750870304",
+            "speakerId": 21773,
+            "speakerName": "Oberon",
+            "text": "Croooo!",
+            "nextDialogs": [
+              "750870305"
+            ]
+          },
+          "750870305": {
+            "id": "750870305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...You've, ah, grown a lot since we last met...",
+            "nextDialogs": [
+              "750870306"
+            ]
+          },
+          "750870306": {
+            "id": "750870306",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Guess Taruka was right about you gaining weight easily. Oh right, where is he? Why isn't he with you?",
+            "nextDialogs": [
+              "750870307"
+            ]
+          },
+          "750870307": {
+            "id": "750870307",
+            "speakerId": 21773,
+            "speakerName": "Oberon",
+            "text": "Cooo... Crrooo...",
+            "nextDialogs": [
+              "750870308"
+            ]
+          },
+          "750870308": {
+            "id": "750870308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um, at any rate, we should probably get out of here first!",
+            "nextDialogs": [
+              "750870309"
+            ]
+          },
+          "750870309": {
+            "id": "750870309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Now that we've found Oberon, we don't have to hide anymore, right? Paimon's still worried, though, we don't know where Taruka is... We gotta hurry!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508704",
+      "subQuestName": "Find a way out",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508705",
+      "subQuestName": "Defeat your opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870501"
+        ],
+        "dialogs": {
+          "750870501": {
+            "id": "750870501",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "Since you've managed to find your way here, I suppose I can finally drop the \"good merchant\" act. I need a breather from dealing with all the idiots.",
+            "nextDialogs": [
+              "750870502"
+            ]
+          },
+          "750870502": {
+            "id": "750870502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You meanie! How can you pin the blame for your crimes on other people? Everyone got the wrong idea about us thanks to you!",
+            "nextDialogs": [
+              "750870503"
+            ]
+          },
+          "750870503": {
+            "id": "750870503",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "I'm a villain. Is it not natural for a villain to do bad things? Besides, doesn't the fact that those three idiots misunderstood prove that I'm good at what I do?",
+            "nextDialogs": [
+              "750870504"
+            ]
+          },
+          "750870504": {
+            "id": "750870504",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "Haha, and now I'm going to do something more wicked still! This time, you're not going to get away.",
+            "nextDialogs": [
+              "750870505"
+            ]
+          },
+          "750870505": {
+            "id": "750870505",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "Go get them, Furball!",
+            "nextDialogs": [
+              "750870506"
+            ]
+          },
+          "750870506": {
+            "id": "750870506",
+            "speakerId": 21787,
+            "speakerName": "Furball",
+            "text": "Gwoooo!",
+            "nextDialogs": [
+              "750870507"
+            ]
+          },
+          "750870507": {
+            "id": "750870507",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750870508"
+            ]
+          },
+          "750870508": {
+            "id": "750870508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#Let's go, {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750870509"
+            ]
+          },
+          "750870509": {
+            "id": "750870509",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}? Are you really gonna take on someone that much bigger than you?",
+            "nextDialogs": [
+              "750870510"
+            ]
+          },
+          "750870510": {
+            "id": "750870510",
+            "speakerId": 21773,
+            "speakerName": "Oberon",
+            "text": "Crrooo...",
+            "nextDialogs": [
+              "750870511"
+            ]
+          },
+          "750870511": {
+            "id": "750870511",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750870512"
+            ]
+          },
+          "750870512": {
+            "id": "750870512",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oberon looks kinda out of it. Is he just worried about Taruka, or has he eaten too many Saurus Crackers...?",
+            "nextDialogs": [
+              "750870513"
+            ]
+          },
+          "750870513": {
+            "id": "750870513",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Maybe {REALNAME[ID(2)|SHOWHOST(true)]} really wants to cheer him up, so he bravely stepped out to protect us?",
+            "nextDialogs": [
+              "750870514"
+            ]
+          },
+          "750870514": {
+            "id": "750870514",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "The things in this world that courage alone cannot change outnumber the sand grains of Sumeru. Compared to something illusory like that, absolute control is more reliable.",
+            "nextDialogs": [
+              "750870515"
+            ]
+          },
+          "750870515": {
+            "id": "750870515",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "Attack!",
+            "nextDialogs": [
+              "750870516"
+            ]
+          },
+          "750870516": {
+            "id": "750870516",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Amazing! {REALNAME[ID(2)|SHOWHOST(true)]} dodged the attack! That's just what Tepetlisaurs are good at, not even the sovereign of the skies can touch 'em!",
+            "nextDialogs": [
+              "750870518",
+              "750870520",
+              "750870523",
+              "750870527"
+            ]
+          },
+          "750870518": {
+            "id": "750870518",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} is ready to attack!",
+            "nextDialogs": [
+              "750870530"
+            ]
+          },
+          "750870530": {
+            "id": "750870530",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750870531"
+            ]
+          },
+          "750870531": {
+            "id": "750870531",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The attack hit! It dealt... almost no damage!?",
+            "nextDialogs": [
+              "750870532"
+            ]
+          },
+          "750870532": {
+            "id": "750870532",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750870533"
+            ]
+          },
+          "750870533": {
+            "id": "750870533",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, getting a hit in is already pretty impressive! Phew— Paimon's kinda feeling tired already. Have we really only gone one round? What's going on...",
+            "nextDialogs": [
+              "750870534"
+            ]
+          },
+          "750870534": {
+            "id": "750870534",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "It's my turn now, right? Attack!",
+            "nextDialogs": [
+              "750870535"
+            ]
+          },
+          "750870535": {
+            "id": "750870535",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} quickly assumes a defensive stance to weather the opponent's fierce assault! He successfully blocks it!",
+            "nextDialogs": [
+              "750870536"
+            ]
+          },
+          "750870536": {
+            "id": "750870536",
+            "speakerId": 21607,
+            "speakerName": "Quilla",
+            "text": "Wait, your Saurian defended on his own right after attacking! Tch, despicable rule breaker...",
+            "nextDialogs": [
+              "750870537"
+            ]
+          },
+          "750870537": {
+            "id": "750870537",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The best way to win a turn-based game is not to take turns!",
+            "nextDialogs": [
+              "750870538"
+            ]
+          },
+          "750870538": {
+            "id": "750870538",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What should we do next?",
+            "nextDialogs": [
+              "750870539"
+            ]
+          },
+          "750870539": {
+            "id": "750870539",
+            "speakerId": 21773,
+            "speakerName": "Oberon",
+            "text": "...Krraaaaa!",
+            "nextDialogs": [
+              "750870540"
+            ]
+          },
+          "750870540": {
+            "id": "750870540",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Oberon seems to be pulling himself together!",
+            "nextDialogs": [
+              "750870541"
+            ]
+          },
+          "750870541": {
+            "id": "750870541",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Raaaawr!",
+            "nextDialogs": [
+              "750870542"
+            ]
+          },
+          "750870542": {
+            "id": "750870542",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't understand what they're saying, but it looks like they've reached some kind of... mutual understanding...?"
+          },
+          "750870520": {
+            "id": "750870520",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rooo... Rawr!",
+            "nextDialogs": [
+              "750870521"
+            ]
+          },
+          "750870521": {
+            "id": "750870521",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} seems to feel like defending too conservatively will lead to wasted opportunity. He's getting ready to attack!"
+          },
+          "750870523": {
+            "id": "750870523",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's nothing we can use right now! Also, don't you think it's a bit too late to set Beast Trap now?",
+            "nextDialogs": [
+              "750870524"
+            ]
+          },
+          "750870524": {
+            "id": "750870524",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rooo... Rawr!",
+            "nextDialogs": [
+              "750870525"
+            ]
+          },
+          "750870525": {
+            "id": "750870525",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Oh! {REALNAME[ID(2)|SHOWHOST(true)]} is ready to attack!"
+          },
+          "750870527": {
+            "id": "750870527",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This isn't the time to run away!",
+            "nextDialogs": [
+              "750870528"
+            ]
+          },
+          "750870528": {
+            "id": "750870528",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wrrooo... Rawr!",
+            "nextDialogs": [
+              "750870529"
+            ]
+          },
+          "750870529": {
+            "id": "750870529",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Even {REALNAME[ID(2)|SHOWHOST(true)]} gets it! Look, he's ready to attack!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508706",
+      "subQuestName": "Return to the flight school",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7508707",
+      "subQuestName": "Talk to Taruka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750870701"
+        ],
+        "dialogs": {
+          "750870701": {
+            "id": "750870701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Taruka! You're back already!",
+            "nextDialogs": [
+              "750870702"
+            ]
+          },
+          "750870702": {
+            "id": "750870702",
+            "speakerId": 6173,
+            "speakerName": "Taruka",
+            "text": "#{M#Mr.}{F#Ms.} {NICKNAME}! I'm so glad you're okay... I've told my sister and everyone about what happened. Lamizana's just as big of an idiot as I thought...",
+            "nextDialogs": [
+              "750870703"
+            ]
+          },
+          "750870703": {
+            "id": "750870703",
+            "speakerId": 6178,
+            "speakerName": "Oberon",
+            "text": "Crooo...",
+            "nextDialogs": [
+              "750870704"
+            ]
+          },
+          "750870704": {
+            "id": "750870704",
+            "speakerId": 6173,
+            "speakerName": "Taruka",
+            "text": "Yes, even dumber than you, birdbrain!",
+            "nextDialogs": [
+              "750870705"
+            ]
+          },
+          "750870705": {
+            "id": "750870705",
+            "speakerId": 6178,
+            "speakerName": "Oberon",
+            "text": "Crooo...",
+            "nextDialogs": [
+              "750870706"
+            ]
+          },
+          "750870706": {
+            "id": "750870706",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Okay, okay, guess he's really upset after being separated from you for so long. Also, he worked super well with {REALNAME[ID(2)|SHOWHOST(true)]} just now!",
+            "nextDialogs": [
+              "750870707"
+            ]
+          },
+          "750870707": {
+            "id": "750870707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There's still room for more improvement.",
+            "nextDialogs": [
+              "750870708"
+            ]
+          },
+          "750870708": {
+            "id": "750870708",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, we're still talking about a little Saurian, here! As long as you treat him right, Taruka, Paimon's sure he'll grow into an outstanding Qucusaurus!",
+            "nextDialogs": [
+              "750870709"
+            ]
+          },
+          "750870709": {
+            "id": "750870709",
+            "speakerId": 6178,
+            "speakerName": "Oberon",
+            "text": "Kraaaa!",
+            "nextDialogs": [
+              "750870710"
+            ]
+          },
+          "750870710": {
+            "id": "750870710",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Speaking of which, how did you get back here? Did someone find you and save you?",
+            "nextDialogs": [
+              "750870711"
+            ]
+          },
+          "750870711": {
+            "id": "750870711",
+            "speakerId": 6173,
+            "speakerName": "Taruka",
+            "text": "I escaped by myself. I wanted to bring Oberon with me, but he was busy eating Saurus Crackers and wouldn't move no matter what I did. I got angry, so I left by myself.",
+            "nextDialogs": [
+              "750870712"
+            ]
+          },
+          "750870712": {
+            "id": "750870712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? It was that easy?",
+            "nextDialogs": [
+              "750870713"
+            ]
+          },
+          "750870713": {
+            "id": "750870713",
+            "speakerId": 6173,
+            "speakerName": "Taruka",
+            "text": "After figuring out the movement patterns of the Saurian guards, I realized there was an opening I could use to escape. Got out of there smoothly afterward.",
+            "nextDialogs": [
+              "750870714"
+            ]
+          },
+          "750870714": {
+            "id": "750870714",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Y'know, you might just be the most reliable one here...",
+            "nextDialogs": [
+              "750870715"
+            ]
+          },
+          "750870715": {
+            "id": "750870715",
+            "speakerId": 6171,
+            "speakerName": "Lamizana",
+            "text": "What took you so long? I was just about to settle matters with that liar... a—and officially apologize to you guys, of course... I was way too arbitrary, and almost framed innocent people.",
+            "nextDialogs": [
+              "750870717",
+              "750870719"
+            ]
+          },
+          "750870717": {
+            "id": "750870717",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's right! You only appeared after everything ended. If that isn't trying to steal credit, then what is?",
+            "nextDialogs": [
+              "750870720"
+            ]
+          },
+          "750870720": {
+            "id": "750870720",
+            "speakerId": 6171,
+            "speakerName": "Lamizana",
+            "text": "I haven't any leg to stand on, so I'll pay you the agreed compensation or whatever you want from me. I won't be stingy about it. You can even punch me if it'll make you feel better!",
+            "nextDialogs": [
+              "750870721"
+            ]
+          },
+          "750870721": {
+            "id": "750870721",
+            "speakerId": 6171,
+            "speakerName": "Lamizana",
+            "text": "I'm a real man, so I won't try to weasel out of my responsibilities."
+          },
+          "750870719": {
+            "id": "750870719",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So you haven't forgotten about the participation prize..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508712",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750871221"
+        ],
+        "dialogs": {
+          "750871221": {
+            "id": "750871221",
+            "speakerId": 1007,
+            "speakerName": "<UNKNOWN>",
+            "text": "You return to your previous location before you can be discovered. Try to be a bit more careful next time..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508759",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750875901"
+        ],
+        "dialogs": {
+          "750875901": {
+            "id": "750875901",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "We still have a few more flying challenges. Details are written on the board. Give 'em a try if you're keen... Of course, there are prizes to be won.",
+            "nextDialogs": [
+              "750875903",
+              "750875906",
+              "750875910"
+            ]
+          },
+          "750875903": {
+            "id": "750875903",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "Honestly, I have no clue why it's called that. But speaking of Pakpaka... Have you ever heard the story of Kuntur and the evil sorcerer Rumi?",
+            "nextDialogs": [
+              "750875904"
+            ]
+          },
+          "750875904": {
+            "id": "750875904",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "The warriors of the tribe were defeated by that wicked mage, and he turned them into Pakpaka... which doesn't sound all that good. Maybe Pakpakas fly very quickly, or something — I don't know."
+          },
+          "750875906": {
+            "id": "750875906",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "Haha... He's a good fighter, but not necessarily a good teacher. And as an opponent in flying competitions... I guess he's passable?",
+            "nextDialogs": [
+              "750875907"
+            ]
+          },
+          "750875907": {
+            "id": "750875907",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "But I mean, why would you come here if you didn't have issues with flying? So, if I were to be too strict... *sigh* Well, it's not like things like this have never happened in the past.",
+            "nextDialogs": [
+              "750875908"
+            ]
+          },
+          "750875908": {
+            "id": "750875908",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "That's why I focus on encouraging people nowadays. I'm sure that approach will get results just fine too."
+          },
+          "750875910": {
+            "id": "750875910",
+            "speakerId": 6274,
+            "speakerName": "Temach",
+            "text": "See you. You're welcome back any time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7508763",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750876301"
+        ],
+        "dialogs": {
+          "750876301": {
+            "id": "750876301",
+            "speakerId": 6275,
+            "speakerName": "Cisik",
+            "text": "Welcome to Pakpaka Flying School!",
+            "nextDialogs": [
+              "750876304",
+              "750876307"
+            ]
+          },
+          "750876304": {
+            "id": "750876304",
+            "speakerId": 6275,
+            "speakerName": "Cisik",
+            "text": "We give all cadets the necessary guidance and help they need. Things have changed a lot, you know. Back in the day, students couldn't expect that kind of tender loving care.",
+            "nextDialogs": [
+              "750876305"
+            ]
+          },
+          "750876305": {
+            "id": "750876305",
+            "speakerId": 6275,
+            "speakerName": "Cisik",
+            "text": "But then there was this one time when the coach was a little... strict with their words, and the student in question just happened to have quite a temper... *sigh* Yeah, that's not a fun one to talk about.",
+            "nextDialogs": [
+              "750876306"
+            ]
+          },
+          "750876306": {
+            "id": "750876306",
+            "speakerId": 6275,
+            "speakerName": "Cisik",
+            "text": "Anyway, our teaching policy's been shaken up since then. And I mean, nobody slaps a smiling face, and nobody hates compliments, am I right?"
+          },
+          "750876307": {
+            "id": "750876307",
+            "speakerId": 6275,
+            "speakerName": "Cisik",
+            "text": "Here's to a pleasant day!"
+          }
+        }
+      }
+    }
+  ]
+}

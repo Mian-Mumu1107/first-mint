@@ -1,0 +1,991 @@
+{
+  "lineCounts": {
+    "???": 5,
+    "Black Screen": 8,
+    "Bricole": 11,
+    "Coutrot": 21,
+    "Friendly Reminder": 2,
+    "Kind Reminder": 1,
+    "Kuisel": 5,
+    "Paimon": 49,
+    "Player": 23,
+    "Razor": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7410403",
+      "subQuestName": "Explore the mysterious building",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410404",
+      "subQuestName": "Talk to the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741040401"
+        ],
+        "dialogs": {
+          "741040401": {
+            "id": "741040401",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "A—Are you two here for the research assistant position? S—Sorry, but I'm a little busy at the moment...",
+            "nextDialogs": [
+              "741040405",
+              "741040404"
+            ]
+          },
+          "741040405": {
+            "id": "741040405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Never mind that for now. Why are you locked up in a cage?",
+            "nextDialogs": [
+              "741040406"
+            ]
+          },
+          "741040406": {
+            "id": "741040406",
+            "speakerId": 1002,
+            "speakerName": "Kuisel",
+            "text": "I had some disagreements with a research partner... Coutrot... he left me here to calm down a little. Th—That's right... I haven't introduced myself yet. You can call me Kuisel.",
+            "nextDialogs": [
+              "741040407"
+            ]
+          },
+          "741040407": {
+            "id": "741040407",
+            "speakerId": 1002,
+            "speakerName": "Kuisel",
+            "text": "Ugh, you know... Kuisel's Clockwork Workshop — that Kuisel.",
+            "nextDialogs": [
+              "741040408"
+            ]
+          },
+          "741040408": {
+            "id": "741040408",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon is Paimon, and {M#he's}{F#she's} {NICKNAME}... Paimon did hear the sound of arguing just now. So that guy who sounded really mad is actually your research partner, huh?"
+          },
+          "741040404": {
+            "id": "741040404",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "H—Here for a tour? O—Of course, you're most welcome to."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410405",
+      "subQuestName": "Operate the Energy Transfer Terminal to open the cell",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741040501"
+        ],
+        "dialogs": {
+          "741040501": {
+            "id": "741040501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The door's already open. Aren't you going to come out?",
+            "nextDialogs": [
+              "741040502"
+            ]
+          },
+          "741040502": {
+            "id": "741040502",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "A—Actually, there is one more thing I was too scared to mention... If I were to leave this cage now, I'm a—afraid this place could blow up.",
+            "nextDialogs": [
+              "741040503"
+            ]
+          },
+          "741040503": {
+            "id": "741040503",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Blow up?",
+            "nextDialogs": [
+              "741040504"
+            ]
+          },
+          "741040504": {
+            "id": "741040504",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Th—That's right... Like I said earlier, my research partner's got... a violent temper, which is why he installed a trigger mechanism under the cage.",
+            "nextDialogs": [
+              "741040505"
+            ]
+          },
+          "741040505": {
+            "id": "741040505",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh!? Then what should we do now?",
+            "nextDialogs": [
+              "741040507",
+              "741040509"
+            ]
+          },
+          "741040507": {
+            "id": "741040507",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "O—Ordinary heavy objects won't work, I'm afraid... The way it works is rather complicated. Ugh...",
+            "nextDialogs": [
+              "741040510"
+            ]
+          },
+          "741040510": {
+            "id": "741040510",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "#If you could take my spot temporarily, kind {M#Mr.}{F#Miss} {NICKNAME}... and wait in the cage a bit. Then I... I can go disable this special trigger mechanism.",
+            "nextDialogs": [
+              "741040511"
+            ]
+          },
+          "741040511": {
+            "id": "741040511",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "A—After all, I've worked with him for years, and I know exactly what he was thinking when he put it in place."
+          },
+          "741040509": {
+            "id": "741040509",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Th—There's no need to go through all that trouble..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410406",
+      "subQuestName": "Talk to Kuisel",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410407",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741040701"
+        ],
+        "dialogs": {
+          "741040701": {
+            "id": "741040701",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "",
+            "nextDialogs": [
+              "741040702"
+            ]
+          },
+          "741040702": {
+            "id": "741040702",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "",
+            "nextDialogs": [
+              "741040703"
+            ]
+          },
+          "741040703": {
+            "id": "741040703",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410408",
+      "subQuestName": "Work with Paimon to open the cell",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741040801"
+        ],
+        "dialogs": {
+          "741040801": {
+            "id": "741040801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's see... There are two terminals and two energy storage devices here. If Paimon can activate the energy storage device beside the door, then the cage should be able to open!",
+            "nextDialogs": [
+              "741040802"
+            ]
+          },
+          "741040802": {
+            "id": "741040802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Where should Paimon go? To the terminal by the door, or the one by the cage?",
+            "nextDialogs": [
+              "741040804",
+              "741040806"
+            ]
+          },
+          "741040804": {
+            "id": "741040804",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, this doesn't seem quite right..."
+          },
+          "741040806": {
+            "id": "741040806",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let Paimon see...",
+            "nextDialogs": [
+              "741040807"
+            ]
+          },
+          "741040807": {
+            "id": "741040807",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon can see the door Kuisel exited from here. What should Paimon do now?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410409",
+      "subQuestName": "Open the door that Kuisel exited from",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410410",
+      "subQuestName": "Explore up ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410411",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741041101"
+        ],
+        "dialogs": {
+          "741041101": {
+            "id": "741041101",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410412",
+      "subQuestName": "Find a way to open the sealed door",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741043501"
+        ],
+        "dialogs": {
+          "741043501": {
+            "id": "741043501",
+            "speakerId": 1006,
+            "speakerName": "Kind Reminder",
+            "text": "Closing all valves will activate the terminal and open the path."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410435",
+      "subQuestName": "Shut off all valves",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410413",
+      "subQuestName": "Open the passage",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410414",
+      "subQuestName": "Defeat the clockwork meka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410415",
+      "subQuestName": "Take the lift and continue deeper",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410416",
+      "subQuestName": "Continue exploring",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410417",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741041701"
+        ],
+        "dialogs": {
+          "741041701": {
+            "id": "741041701",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410418",
+      "subQuestName": "Find a way to open the sealed door",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410419",
+      "subQuestName": "Continue exploring",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410420",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741042001"
+        ],
+        "dialogs": {
+          "741042001": {
+            "id": "741042001",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410421",
+      "subQuestName": "Defeat the clockwork meka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410422",
+      "subQuestName": "Find a way to open the sealed door",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410446",
+      "subQuestName": "Continue exploring",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410439",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741043901"
+        ],
+        "dialogs": {
+          "741043901": {
+            "id": "741043901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "On that note, is it really okay for us to be messing with stuff like the terminals here?",
+            "nextDialogs": [
+              "741043902"
+            ]
+          },
+          "741043902": {
+            "id": "741043902",
+            "speakerId": 1002,
+            "speakerName": "Kuisel",
+            "text": "I—It's okay. Everything here is... well-designed."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410432",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741043601"
+        ],
+        "dialogs": {
+          "741043601": {
+            "id": "741043601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This looks like some kind of experimental record..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410433",
+      "subQuestName": "Open the passage",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410423",
+      "subQuestName": "Defeat the clockwork meka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410437",
+      "subQuestName": "Take the lift and continue deeper",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410424",
+      "subQuestName": "Continue exploring",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410425",
+      "subQuestName": "Talk to Kuisel",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741042501"
+        ],
+        "dialogs": {
+          "741042501": {
+            "id": "741042501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Kuisel! There you are!",
+            "nextDialogs": [
+              "741042502"
+            ]
+          },
+          "741042502": {
+            "id": "741042502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And the one next to him... must be that villainous research partner Coutrot that Kuisel was talking about!",
+            "nextDialogs": [
+              "741042503"
+            ]
+          },
+          "741042503": {
+            "id": "741042503",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "...? He's Coutrot, not me. I'm Bricole.",
+            "nextDialogs": [
+              "741042504"
+            ]
+          },
+          "741042504": {
+            "id": "741042504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh? Isn't he Kuisel?",
+            "nextDialogs": [
+              "741042505"
+            ]
+          },
+          "741042505": {
+            "id": "741042505",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Kuisel... is just a convenient character. You've already passed many trials, so there's no reason to hide anything from you anymore. My name is Coutrot, and I'm the real owner of this workshop.",
+            "nextDialogs": [
+              "741042506"
+            ]
+          },
+          "741042506": {
+            "id": "741042506",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Haha, you two are truly... great research material. If you are willing to help me with my research...",
+            "nextDialogs": [
+              "741042507"
+            ]
+          },
+          "741042507": {
+            "id": "741042507",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What research? Tell us a bit more about it.",
+            "nextDialogs": [
+              "741042508"
+            ]
+          },
+          "741042508": {
+            "id": "741042508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, c'mon! Are you really going to help someone this fishy?",
+            "nextDialogs": [
+              "741042510"
+            ]
+          },
+          "741042510": {
+            "id": "741042510",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Nothing about this place looks like a proper workshop! You also lied to us and made the clockwork meka attack us... Paimon has no reason to believe you're a good guy!",
+            "nextDialogs": [
+              "741042511"
+            ]
+          },
+          "741042511": {
+            "id": "741042511",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "That's exactly right! Don't fall for his trap! He... He's an extremely vicious crook!",
+            "nextDialogs": [
+              "741042512"
+            ]
+          },
+          "741042512": {
+            "id": "741042512",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "I followed the clues here while investigating. I didn't expect you to continue your dangerous research even after you were kicked out, and you even stole the Research Institute's assets for this purpose...",
+            "nextDialogs": [
+              "741042513"
+            ]
+          },
+          "741042513": {
+            "id": "741042513",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "You've committed a crime!",
+            "nextDialogs": [
+              "741042514"
+            ]
+          },
+          "741042514": {
+            "id": "741042514",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "You really can't keep your mouth shut, eh, Bricole... You're just a good-for-nothing idiot. I'll take care of you once I've properly appraised our two VIPs over here.",
+            "nextDialogs": [
+              "741042515"
+            ]
+          },
+          "741042515": {
+            "id": "741042515",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Your two VIPs... You don't mean us, right?",
+            "nextDialogs": [
+              "741042516"
+            ]
+          },
+          "741042516": {
+            "id": "741042516",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Of course, you only need to pass one last trial to prove your true worth...",
+            "nextDialogs": [
+              "741042517"
+            ]
+          },
+          "741042517": {
+            "id": "741042517",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Time to show me what you've got!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410426",
+      "subQuestName": "Defeat Coutrot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7410430",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741043201"
+        ],
+        "dialogs": {
+          "741043201": {
+            "id": "741043201",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410428",
+      "subQuestName": "Talk to Bricole",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741042802"
+        ],
+        "dialogs": {
+          "741042802": {
+            "id": "741042802",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "You guys again... You're more skilled than I thought. You are truly the best research material I've ever seen! Far beyond what I can control, though... I admit I've lost.",
+            "nextDialogs": [
+              "741042803"
+            ]
+          },
+          "741042803": {
+            "id": "741042803",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just what is up with this guy!?",
+            "nextDialogs": [
+              "741042804"
+            ]
+          },
+          "741042804": {
+            "id": "741042804",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "Yep, that's a pretty common reaction to him. You see, his... more peculiar research was exactly what got him kicked out from the Fontaine Research Institute in the first place.",
+            "nextDialogs": [
+              "741042805"
+            ]
+          },
+          "741042805": {
+            "id": "741042805",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "My research was not peculiar...",
+            "nextDialogs": [
+              "741042806"
+            ]
+          },
+          "741042806": {
+            "id": "741042806",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "Yeah yeah, and that's what you told the Ethics Committee back in the day as well. Don't think a single person bought what you said.",
+            "nextDialogs": [
+              "741042807"
+            ]
+          },
+          "741042807": {
+            "id": "741042807",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So... what was his research?",
+            "nextDialogs": [
+              "741042808"
+            ]
+          },
+          "741042808": {
+            "id": "741042808",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "Ahem... If you wish to learn more about his research, you may go to the new Fontaine Research Institute to apply for access.",
+            "nextDialogs": [
+              "741042809"
+            ]
+          },
+          "741042809": {
+            "id": "741042809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That gives Paimon a headache just thinking about it...",
+            "nextDialogs": [
+              "741042810"
+            ]
+          },
+          "741042810": {
+            "id": "741042810",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "It's giving me a headache too. Even though he's been fired, the asset theft case I've been investigating still has to do with him...",
+            "nextDialogs": [
+              "741042811"
+            ]
+          },
+          "741042811": {
+            "id": "741042811",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Haha, do you want to ship me off to the Fortress of Meropide?",
+            "nextDialogs": [
+              "741042812"
+            ]
+          },
+          "741042812": {
+            "id": "741042812",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "Well, that's not up to me to decide. The law will hand you your proper judgment. It's a shame that, unlike last time, we can't simply resolve matters by kicking you out.",
+            "nextDialogs": [
+              "741042813"
+            ]
+          },
+          "741042813": {
+            "id": "741042813",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "Either way, thank you both for your help. I probably wouldn't have been able to bring him down myself... You can leave the rest to me. I promise that this time, he will receive his proper punishment.",
+            "nextDialogs": [
+              "741042814"
+            ]
+          },
+          "741042814": {
+            "id": "741042814",
+            "speakerId": 5225,
+            "speakerName": "Bricole",
+            "text": "*sigh* I'm afraid I'll still have to return to this place to continue my work. There are so many assets... Just how many reports would I have to compile..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410440",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741044001"
+        ],
+        "dialogs": {
+          "741044001": {
+            "id": "741044001",
+            "speakerId": 21137,
+            "speakerName": "Coutrot",
+            "text": "Please believe me. All you need to do is stay in my place for a moment, and I'll be back from disabling the mechanism before you know it.",
+            "nextDialogs": [
+              "741044002"
+            ]
+          },
+          "741044002": {
+            "id": "741044002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well... alright then. But be quick!",
+            "nextDialogs": [
+              "741044003"
+            ]
+          },
+          "741044003": {
+            "id": "741044003",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Very carefully, you swap places with Kuisel...",
+            "nextDialogs": [
+              "741044004"
+            ]
+          },
+          "741044004": {
+            "id": "741044004",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "You wait for some time, but he doesn't come back as he promised. You also hear some strange voices...",
+            "nextDialogs": [
+              "741044005"
+            ]
+          },
+          "741044005": {
+            "id": "741044005",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "You decide to try and find a way out of the cage...",
+            "nextDialogs": [
+              "741044006"
+            ]
+          },
+          "741044006": {
+            "id": "741044006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But luckily, Paimon didn't end up getting locked in the cage with you... Uh... Paimon should be able to open the door the way we did before, right? Let's give it a try!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410441",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741044101"
+        ],
+        "dialogs": {
+          "741044101": {
+            "id": "741044101",
+            "speakerId": 5239,
+            "speakerName": "Friendly Reminder",
+            "text": "Closing all valves will activate the terminal and open the path."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410442",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741044201"
+        ],
+        "dialogs": {
+          "741044201": {
+            "id": "741044201",
+            "speakerId": 5239,
+            "speakerName": "Friendly Reminder",
+            "text": "Closing all valves will activate the terminal and open the path."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7410406",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741040601"
+        ],
+        "dialogs": {
+          "741040601": {
+            "id": "741040601",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

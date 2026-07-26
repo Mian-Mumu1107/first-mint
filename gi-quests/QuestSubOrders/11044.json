@@ -1,0 +1,596 @@
+{
+  "lineCounts": {
+    "Albedo": 49,
+    "Observe Record Board": 2,
+    "Observe Shelf": 1,
+    "Observe Table": 2,
+    "Paimon": 17,
+    "Player": 19
+  },
+  "subQuests": [
+    {
+      "subId": "1104406",
+      "subQuestName": "Observe the installations in the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440601"
+        ],
+        "dialogs": {
+          "110440601": {
+            "id": "110440601",
+            "speakerId": 2003035,
+            "speakerName": "Observe Shelf",
+            "text": "(A shelf packed with books and potions. Looks like the owner has a habit of reading and researching potions simultaneously.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104407",
+      "subQuestName": "Observe the installations in the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440701"
+        ],
+        "dialogs": {
+          "110440701": {
+            "id": "110440701",
+            "speakerId": 2003036,
+            "speakerName": "Observe Table",
+            "text": "(Looks like an alchemy work table. Some potions and other apparatus are laid out here. Are these what Albedo uses to investigate the world?)",
+            "nextDialogs": [
+              "110440702"
+            ]
+          },
+          "110440702": {
+            "id": "110440702",
+            "speakerId": 2003036,
+            "speakerName": "Observe Table",
+            "text": "(It wouldn't hurt to touch it... would it?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104408",
+      "subQuestName": "Observe the installations in the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440801"
+        ],
+        "dialogs": {
+          "110440801": {
+            "id": "110440801",
+            "speakerId": 2003037,
+            "speakerName": "Observe Record Board",
+            "text": "(A board with some incomprehensible experimental reports stuck onto it.)",
+            "nextDialogs": [
+              "110440802"
+            ]
+          },
+          "110440802": {
+            "id": "110440802",
+            "speakerId": 2003037,
+            "speakerName": "Observe Record Board",
+            "text": "(Still, you can tell that progress is being made on those experiments.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104401",
+      "subQuestName": "Talk to the returning Albedo",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440141"
+        ],
+        "dialogs": {
+          "110440141": {
+            "id": "110440141",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I'm back. Did you see anything interesting?",
+            "nextDialogs": [
+              "110440143",
+              "110440145"
+            ]
+          },
+          "110440143": {
+            "id": "110440143",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Not to worry, they're all for alchemical purposes, you'd be hard pressed to find an everyday use for them.",
+            "nextDialogs": [
+              "110440146"
+            ]
+          },
+          "110440146": {
+            "id": "110440146",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Well, on with the research.",
+            "nextDialogs": [
+              "110440101"
+            ]
+          },
+          "110440101": {
+            "id": "110440101",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "There may be significant differences between different worlds.",
+            "nextDialogs": [
+              "110440102"
+            ]
+          },
+          "110440102": {
+            "id": "110440102",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Take Teyvat, for example. Here, those with Visions can manipulate the elements.",
+            "nextDialogs": [
+              "110440103"
+            ]
+          },
+          "110440103": {
+            "id": "110440103",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "But worlds may well exist where only one person is able to do so, or even everyone.",
+            "nextDialogs": [
+              "110440104"
+            ]
+          },
+          "110440104": {
+            "id": "110440104",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "#So, leaving elements to one side... Do you possess any... unique abilities, {NICKNAME}? Ones that don't exist in this world?",
+            "nextDialogs": [
+              "110440105"
+            ]
+          },
+          "110440105": {
+            "id": "110440105",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I think answering this question calls for the same methodology as last time. In other words, time for the next experiment."
+          },
+          "110440145": {
+            "id": "110440145",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Hmm, agreed. I'd love to find a moment to put them all in order. Still, experiments come first..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104415",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440500"
+        ],
+        "dialogs": {
+          "110440500": {
+            "id": "110440500",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Mm! An average outcome experimentally, but you've really brought out the flavor. You seem well-versed in the science of gastronomy.",
+            "nextDialogs": [
+              "110440502"
+            ]
+          },
+          "110440502": {
+            "id": "110440502",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "As far as the proliferation hypothesis is concerned, we've come up short. Seems like food presents the same headaches in your world as it does ours.",
+            "nextDialogs": [
+              "110440503"
+            ]
+          },
+          "110440503": {
+            "id": "110440503",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Unless... Could it be that the natural laws of this world are limiting your unique abilities?",
+            "nextDialogs": [
+              "110440504"
+            ]
+          },
+          "110440504": {
+            "id": "110440504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We just didn't know how to channel elemental power into the food. It's a little more complicated than adding herbs and spices, y'know!",
+            "nextDialogs": [
+              "110440505"
+            ]
+          },
+          "110440505": {
+            "id": "110440505",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Not to worry, at least we put some food to good use, no need to feel disheartened.",
+            "nextDialogs": [
+              "110440506"
+            ]
+          },
+          "110440506": {
+            "id": "110440506",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "And here's your portion, enjoy! I can box it up if you like.",
+            "nextDialogs": [
+              "110440507"
+            ]
+          },
+          "110440507": {
+            "id": "110440507",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Woohoo, thanks! Glad you were paying attention.",
+            "nextDialogs": [
+              "110440510"
+            ]
+          },
+          "110440510": {
+            "id": "110440510",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I can tell that you're good friends. Paimon was keeping an eye on you and your safety during the whole experiment.",
+            "nextDialogs": [
+              "110440511"
+            ]
+          },
+          "110440511": {
+            "id": "110440511",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Not that Paimon would have been able to do much if things had gone wrong, but anyway...",
+            "nextDialogs": [
+              "110440512"
+            ]
+          },
+          "110440512": {
+            "id": "110440512",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! You were being nice a second ago!",
+            "nextDialogs": [
+              "110440513"
+            ]
+          },
+          "110440513": {
+            "id": "110440513",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But you do have tasty recipes, so Paimon forgives you.",
+            "nextDialogs": [
+              "110440514"
+            ]
+          },
+          "110440514": {
+            "id": "110440514",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And you're right, we are good friends. You have good friends too, right? Good students?",
+            "nextDialogs": [
+              "110440515"
+            ]
+          },
+          "110440515": {
+            "id": "110440515",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "...Uh, yes! I'm fortunate too, I suppose. Anyway, moving on to the next experiment.",
+            "nextDialogs": [
+              "110440516"
+            ]
+          },
+          "110440516": {
+            "id": "110440516",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "There are all manner of alchemical items here, keeping them in their proper place is a challenge at the best of times. A while ago, I had the misfortune of misplacing a batch.",
+            "nextDialogs": [
+              "110440517"
+            ]
+          },
+          "110440517": {
+            "id": "110440517",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I managed to retrieve the majority, but two vials have been evading me: Anemo Crystalfly elemental extract and Electro Hypostasis powder.",
+            "nextDialogs": [
+              "110440518"
+            ]
+          },
+          "110440518": {
+            "id": "110440518",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon's barely finished eating and you want us to go gathering again?",
+            "nextDialogs": [
+              "110440519"
+            ]
+          },
+          "110440519": {
+            "id": "110440519",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Don't worry if you can't locate them. I was planning to replace them anyway, though finding them would save me the hassle.",
+            "nextDialogs": [
+              "110440520"
+            ]
+          },
+          "110440520": {
+            "id": "110440520",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "If you had, say, a \"superpower,\" like night vision, or vibratory sensing, lost property would be a thing of the past.",
+            "nextDialogs": [
+              "110440521"
+            ]
+          },
+          "110440521": {
+            "id": "110440521",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I must have dropped them somewhere in the area where you were looking just now.",
+            "nextDialogs": [
+              "110440522"
+            ]
+          },
+          "110440522": {
+            "id": "110440522",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So... guess we'd better take a look?",
+            "nextDialogs": [
+              "110440523"
+            ]
+          },
+          "110440523": {
+            "id": "110440523",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There should be some elemental traces on the lost items.",
+            "nextDialogs": [
+              "110440524"
+            ]
+          },
+          "110440524": {
+            "id": "110440524",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! You could use Elemental Sight!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104416",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440501"
+        ],
+        "dialogs": {
+          "110440501": {
+            "id": "110440501",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Hmm, an average outcome for a fine dish."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104405",
+      "subQuestName": "Cook some Sunshine Sprat and give it to Albedo",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104412",
+      "subQuestName": "Use Elemental Sight to look for the lost items",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104413",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110441301"
+        ],
+        "dialogs": {
+          "110441301": {
+            "id": "110441301",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Hmm, an interesting term... Compelling.",
+            "nextDialogs": [
+              "110441302"
+            ]
+          },
+          "110441302": {
+            "id": "110441302",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "See what you can find, I'll be over here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104403",
+      "subQuestName": "Talk to Albedo and hear his conclusions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440320"
+        ],
+        "dialogs": {
+          "110440320": {
+            "id": "110440320",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Goodness, you managed to find them? Incredible, a thousand thanks.",
+            "nextDialogs": [
+              "110440321"
+            ]
+          },
+          "110440321": {
+            "id": "110440321",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I'm wondering, this Elemental Sight... This is what allowed you to locate the items, and find me here in the mountains, correct?",
+            "nextDialogs": [
+              "110440322"
+            ]
+          },
+          "110440322": {
+            "id": "110440322",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yup! Guess it does sorta count as a superpower, huh...",
+            "nextDialogs": [
+              "110440323"
+            ]
+          },
+          "110440323": {
+            "id": "110440323",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Unfortunately, though Elemental Sight is seldom seen, it is not unheard of in Teyvat.",
+            "nextDialogs": [
+              "110440324"
+            ]
+          },
+          "110440324": {
+            "id": "110440324",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Only a never-before-seen, otherworldly power would be of benefit to my research.",
+            "nextDialogs": [
+              "110440325"
+            ]
+          },
+          "110440325": {
+            "id": "110440325",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You mean... We failed again...?",
+            "nextDialogs": [
+              "110440326"
+            ]
+          },
+          "110440326": {
+            "id": "110440326",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Don't be disheartened, this falls entirely within my expectations. Besides, getting these items back? I'd call this a very worthwhile experiment.",
+            "nextDialogs": [
+              "110440301"
+            ]
+          },
+          "110440301": {
+            "id": "110440301",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I have to commend your deduction that the items would contain elemental traces.",
+            "nextDialogs": [
+              "110440302"
+            ]
+          },
+          "110440302": {
+            "id": "110440302",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Right then. Up until now, our research has focused on your otherworldly identity. Our research on your identity as one of us is just beginning.",
+            "nextDialogs": [
+              "110440305"
+            ]
+          },
+          "110440305": {
+            "id": "110440305",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "In essence, the differences between humans are reflected in our intellectual and physical capabilities. Let's start with physical.",
+            "nextDialogs": [
+              "110440306"
+            ]
+          },
+          "110440306": {
+            "id": "110440306",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Looking out from where we're standing, can you see what Sucrose is doing?",
+            "nextDialogs": [
+              "110440307"
+            ]
+          },
+          "110440307": {
+            "id": "110440307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Nope.",
+            "nextDialogs": [
+              "110440308"
+            ]
+          },
+          "110440308": {
+            "id": "110440308",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "And if you jumped from here and landed on that cliff — the one over there — could you see her then?",
+            "nextDialogs": [
+              "110440309"
+            ]
+          },
+          "110440309": {
+            "id": "110440309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Nope.",
+            "nextDialogs": [
+              "110440310"
+            ]
+          },
+          "110440310": {
+            "id": "110440310",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "So what about if you planted a single blow on the mountain face here and it burst into a million fragments? Then could you see her?"
+          }
+        }
+      }
+    }
+  ]
+}

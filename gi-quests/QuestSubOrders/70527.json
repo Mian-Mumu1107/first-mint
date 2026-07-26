@@ -1,0 +1,119 @@
+{
+  "lineCounts": {
+    "Nazafarin": 12,
+    "Paimon": 8,
+    "Player": 4,
+    "Sara": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7052701",
+      "subQuestName": "Go to Good Hunter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705270101"
+        ],
+        "dialogs": {
+          "705270101": {
+            "id": "705270101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Why, hello there! Are you talking about stuff to eat?",
+            "nextDialogs": [
+              "705270107",
+              "705270104"
+            ]
+          },
+          "705270107": {
+            "id": "705270107",
+            "speakerId": 1419,
+            "speakerName": "Sara",
+            "text": "Ah, we meet again, you two. Indeed, one might say that our conversation did concern food, but... *sigh*",
+            "nextDialogs": [
+              "705270108"
+            ]
+          },
+          "705270108": {
+            "id": "705270108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What happened? Don't worry, you can tell us. Maybe we can even help!",
+            "nextDialogs": [
+              "705270109"
+            ]
+          },
+          "705270109": {
+            "id": "705270109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#If it's about food, we'll definitely help! Isn't that right, {NICKNAME}?"
+          },
+          "705270104": {
+            "id": "705270104",
+            "speakerId": 30159,
+            "speakerName": "Nazafarin",
+            "text": "Ah, by Lesser Lord Kusanali! Do you not recognize me anymore?",
+            "nextDialogs": [
+              "705270105"
+            ]
+          },
+          "705270105": {
+            "id": "705270105",
+            "speakerId": 30159,
+            "speakerName": "Nazafarin",
+            "text": "Perhaps my presence is too weak, like a speck of dust that might be blown away by a gust at any time...",
+            "nextDialogs": [
+              "705270106"
+            ]
+          },
+          "705270106": {
+            "id": "705270106",
+            "speakerId": 30159,
+            "speakerName": "Nazafarin",
+            "text": "But I, for my part, remember your great deed in helping me develop seasonings and inviting all and sundry to try them!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7052702",
+      "subQuestName": "Talk to Sara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7052799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705279901"
+        ],
+        "dialogs": {
+          "705279901": {
+            "id": "705279901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Looks like Sara's talking to someone over there. Might they be discussing food?",
+            "nextDialogs": [
+              "705279902"
+            ]
+          },
+          "705279902": {
+            "id": "705279902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "C'mon, let's go over there! Paimon's not gonna miss out on some good grub, not for the world!"
+          }
+        }
+      }
+    }
+  ]
+}

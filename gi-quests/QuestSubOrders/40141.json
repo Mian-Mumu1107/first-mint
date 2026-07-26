@@ -1,0 +1,3216 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Charlotte": 8,
+    "Cloud Retainer": 1,
+    "Gaming": 89,
+    "Gaming & Yip Tak": 2,
+    "Houzhang": 3,
+    "Jiehu": 3,
+    "Longzhou": 4,
+    "Paimon": 78,
+    "Player": 18,
+    "Shenhe": 12,
+    "Shuyu": 2,
+    "Xianyun": 22,
+    "Xiao": 22,
+    "Yip Tak": 94,
+    "Zhenyuan": 6,
+    "Zhongli": 50
+  },
+  "subQuests": [
+    {
+      "subId": "4014101",
+      "subQuestName": "Wait until the appointed time (08:00 – 12:00 two days later)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014102",
+      "subQuestName": "Meet up with Gaming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410201"
+        ],
+        "dialogs": {
+          "401410201": {
+            "id": "401410201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hi Gaming! Paimon sees you've certainly gotten an early start this morning! Playing games already, are we?",
+            "nextDialogs": [
+              "401410202"
+            ]
+          },
+          "401410202": {
+            "id": "401410202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Who won this time? You the one buying dim sum again?",
+            "nextDialogs": [
+              "401410203"
+            ]
+          },
+          "401410203": {
+            "id": "401410203",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Hey, when you put it like that, it makes it sound like I'm always the one losing...",
+            "nextDialogs": [
+              "401410204"
+            ]
+          },
+          "401410204": {
+            "id": "401410204",
+            "speakerId": 13855,
+            "speakerName": "Longzhou",
+            "text": "Ah! Perfect, you're all here! There's an important commission I need your help with.",
+            "nextDialogs": [
+              "401410205"
+            ]
+          },
+          "401410205": {
+            "id": "401410205",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Alright, I've got the time. Where are the goods?",
+            "nextDialogs": [
+              "401410206"
+            ]
+          },
+          "401410206": {
+            "id": "401410206",
+            "speakerId": 13855,
+            "speakerName": "Longzhou",
+            "text": "It's not just goods this time. I need you to escort a tea merchant and their wares from Qiaoying Village to Liyue Harbor. A very important client has requested to meet with him.",
+            "nextDialogs": [
+              "401410207"
+            ]
+          },
+          "401410207": {
+            "id": "401410207",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Sure. What's this merchant's address?",
+            "nextDialogs": [
+              "401410208"
+            ]
+          },
+          "401410208": {
+            "id": "401410208",
+            "speakerId": 13855,
+            "speakerName": "Longzhou",
+            "text": "Here.",
+            "nextDialogs": [
+              "401410209"
+            ]
+          },
+          "401410209": {
+            "id": "401410209",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Uh...!",
+            "nextDialogs": [
+              "401410210"
+            ]
+          },
+          "401410210": {
+            "id": "401410210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "If the client's that important, then this must be a very crucial, very pressing commission, right?",
+            "nextDialogs": [
+              "401410211"
+            ]
+          },
+          "401410211": {
+            "id": "401410211",
+            "speakerId": 13855,
+            "speakerName": "Longzhou",
+            "text": "Um... Of course, the sooner you complete it the better. I would advise you to depart as soon as possible.",
+            "nextDialogs": [
+              "401410212"
+            ]
+          },
+          "401410212": {
+            "id": "401410212",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's fine by me.",
+            "nextDialogs": [
+              "401410213"
+            ]
+          },
+          "401410213": {
+            "id": "401410213",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Haah.",
+            "nextDialogs": [
+              "401410214"
+            ]
+          },
+          "401410214": {
+            "id": "401410214",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Alright. Don't work too hard now, Longzhou. We'll set off then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014103",
+      "subQuestName": "Go to the commission location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014104",
+      "subQuestName": "Talk to the client",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410401"
+        ],
+        "dialogs": {
+          "401410401": {
+            "id": "401410401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hello! You must be the tea merchant heading to Liyue Harbor. We're here to escort you.",
+            "nextDialogs": [
+              "401410402"
+            ]
+          },
+          "401410402": {
+            "id": "401410402",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401410403"
+            ]
+          },
+          "401410403": {
+            "id": "401410403",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Dad.",
+            "nextDialogs": [
+              "401410404"
+            ]
+          },
+          "401410404": {
+            "id": "401410404",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401410405"
+            ]
+          },
+          "401410405": {
+            "id": "401410405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! So you're Gaming's father. It's nice to meet you!",
+            "nextDialogs": [
+              "401410406"
+            ]
+          },
+          "401410406": {
+            "id": "401410406",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just leave this delivery to him. Trust Paimon, he's got this in the bag. Gaming is super good at what he does!",
+            "nextDialogs": [
+              "401410407"
+            ]
+          },
+          "401410407": {
+            "id": "401410407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Everyone at the Secure Transport Agency says as much. Even the Ministry of Civil Affairs has nothing but good things to say about him.",
+            "nextDialogs": [
+              "401410408"
+            ]
+          },
+          "401410408": {
+            "id": "401410408",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...Seems like you've made some sort of name for yourself, at least.",
+            "nextDialogs": [
+              "401410409"
+            ]
+          },
+          "401410409": {
+            "id": "401410409",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...",
+            "nextDialogs": [
+              "401410410"
+            ]
+          },
+          "401410410": {
+            "id": "401410410",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "The... The goods are all in order?",
+            "nextDialogs": [
+              "401410411"
+            ]
+          },
+          "401410411": {
+            "id": "401410411",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Yes. They're all here.",
+            "nextDialogs": [
+              "401410412"
+            ]
+          },
+          "401410412": {
+            "id": "401410412",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Then let's get going.",
+            "nextDialogs": [
+              "401410413"
+            ]
+          },
+          "401410413": {
+            "id": "401410413",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401410414"
+            ]
+          },
+          "401410414": {
+            "id": "401410414",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "A very important client has asked for you by name. You kinda have to come with us.",
+            "nextDialogs": [
+              "401410415"
+            ]
+          },
+          "401410415": {
+            "id": "401410415",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't know how we would explain ourselves if you just didn't show up. Plus, you'd be missing out on a huge money-making opportunity.",
+            "nextDialogs": [
+              "401410416"
+            ]
+          },
+          "401410416": {
+            "id": "401410416",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...I see.",
+            "nextDialogs": [
+              "401410417"
+            ]
+          },
+          "401410417": {
+            "id": "401410417",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I suppose I will have to trouble you all to escort me then. Let's go."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014107",
+      "subQuestName": "Work as armed escorts together with Gaming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410701"
+        ],
+        "dialogs": {
+          "401410701": {
+            "id": "401410701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Thanks for helping us talk things through with Uncle Yip. Good thing you were able to pick up on what we were putting down.",
+            "nextDialogs": [
+              "401410702"
+            ]
+          },
+          "401410702": {
+            "id": "401410702",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I have been around the both of you for some time now. You could say I have a certain level of expertise in that regard.",
+            "nextDialogs": [
+              "401410703"
+            ]
+          },
+          "401410703": {
+            "id": "401410703",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "As for my role in the conversation, think nothing of it. I hardly did anything noteworthy.",
+            "nextDialogs": [
+              "401410704"
+            ]
+          },
+          "401410704": {
+            "id": "401410704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, you never change, do you?",
+            "nextDialogs": [
+              "401410705"
+            ]
+          },
+          "401410705": {
+            "id": "401410705",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, why did you have us walk all this way? Paimon thought we just had to go far enough to be out of earshot.",
+            "nextDialogs": [
+              "401410706"
+            ]
+          },
+          "401410706": {
+            "id": "401410706",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "A friend approaches.",
+            "nextDialogs": [
+              "401410707"
+            ]
+          },
+          "401410707": {
+            "id": "401410707",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Hello.",
+            "nextDialogs": [
+              "401410708"
+            ]
+          },
+          "401410708": {
+            "id": "401410708",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Xiao! You're here too!?",
+            "nextDialogs": [
+              "401410709"
+            ]
+          },
+          "401410709": {
+            "id": "401410709",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I've been here the whole time.",
+            "nextDialogs": [
+              "401410710"
+            ]
+          },
+          "401410710": {
+            "id": "401410710",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "(A ghostly kite? Could that elusive Director Hu be coming to Wangshu Inn once again?)",
+            "nextDialogs": [
+              "401410711"
+            ]
+          },
+          "401410711": {
+            "id": "401410711",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "(What is she doing here? I suppose it matters not. Given her relationship with Rex... well, Zhongli, I might as well go pay my respects.)",
+            "nextDialogs": [
+              "401410712"
+            ]
+          },
+          "401410712": {
+            "id": "401410712",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "(!)",
+            "nextDialogs": [
+              "401410713"
+            ]
+          },
+          "401410713": {
+            "id": "401410713",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "It's you? I thought you were Director Hu.",
+            "nextDialogs": [
+              "401410714"
+            ]
+          },
+          "401410714": {
+            "id": "401410714",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Ah. Your arrival is most fortuitous. Do you want to try out this new gadget?",
+            "nextDialogs": [
+              "401410715"
+            ]
+          },
+          "401410715": {
+            "id": "401410715",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "The addition of the power source makes the takeoff more stable. It's just that...",
+            "nextDialogs": [
+              "401410716"
+            ]
+          },
+          "401410716": {
+            "id": "401410716",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "(He seems quite immersed in the study of this device...)",
+            "nextDialogs": [
+              "401410717"
+            ]
+          },
+          "401410717": {
+            "id": "401410717",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I fear it's almost too stable. It completely negates the pleasure of seeing one's kite sway with the wind. It's a bit of a shame.",
+            "nextDialogs": [
+              "401410718"
+            ]
+          },
+          "401410718": {
+            "id": "401410718",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "In truth, I'm here because Director Hu dispatched me to purchase some items in preparation for Lantern Rite.",
+            "nextDialogs": [
+              "401410719"
+            ]
+          },
+          "401410719": {
+            "id": "401410719",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I see. Much like she does every year. Much like she'll do next year, I would imagine.",
+            "nextDialogs": [
+              "401410720"
+            ]
+          },
+          "401410720": {
+            "id": "401410720",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "...",
+            "nextDialogs": [
+              "401410721"
+            ]
+          },
+          "401410721": {
+            "id": "401410721",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401410722"
+            ]
+          },
+          "401410722": {
+            "id": "401410722",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Am I wrong? Or has she once again sent you out to buy... what is it, sesame oil or something?",
+            "nextDialogs": [
+              "401410723"
+            ]
+          },
+          "401410723": {
+            "id": "401410723",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "While we're on the subject, I do wonder why she is so obsessed with using sesame oil in the preparation of mixed vegetable dishes for Lantern Rite... A recommendation from Xiangling, perhaps? What do you think, Xiao?",
+            "nextDialogs": [
+              "401410724"
+            ]
+          },
+          "401410724": {
+            "id": "401410724",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I've only met Director Hu a few times. I'm hardly the best person to ask...",
+            "nextDialogs": [
+              "401410725"
+            ]
+          },
+          "401410725": {
+            "id": "401410725",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Ah, and is that not a sign that you should visit Wangsheng Funeral Parlor more often? It wouldn't hurt to grace the Parlor with your presence now and again when you are otherwise unoccupied.",
+            "nextDialogs": [
+              "401410726"
+            ]
+          },
+          "401410726": {
+            "id": "401410726",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "This one here is a traditional kite, one without any equipped mechanical device. Director Hu tasked me with studying the differences between the two to determine which one is of greater merit.",
+            "nextDialogs": [
+              "401410727"
+            ]
+          },
+          "401410727": {
+            "id": "401410727",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Many hands make light work. Perhaps you could test out the other kite for me.",
+            "nextDialogs": [
+              "401410728"
+            ]
+          },
+          "401410728": {
+            "id": "401410728",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...Alright.",
+            "nextDialogs": [
+              "401410729"
+            ]
+          },
+          "401410729": {
+            "id": "401410729",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I have made my comparisons.",
+            "nextDialogs": [
+              "401410730"
+            ]
+          },
+          "401410730": {
+            "id": "401410730",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "If speed is what you're after, the mechanical kite is the better choice.",
+            "nextDialogs": [
+              "401410731"
+            ]
+          },
+          "401410731": {
+            "id": "401410731",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Wonderful. I shall pass that information along to Director Hu.",
+            "nextDialogs": [
+              "401410732"
+            ]
+          },
+          "401410732": {
+            "id": "401410732",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I'll leave these two kites with you. Perhaps you can find a few friends with which to partake in the activity. You might find it to be an enjoyable use of your time.",
+            "nextDialogs": [
+              "401410733"
+            ]
+          },
+          "401410733": {
+            "id": "401410733",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Oh, uh... Wait, who enjoys kite-flying?",
+            "nextDialogs": [
+              "401410734"
+            ]
+          },
+          "401410734": {
+            "id": "401410734",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Well, I would imagine someone of your talent and wisdom is more than capable of finding out.",
+            "nextDialogs": [
+              "401410735"
+            ]
+          },
+          "401410735": {
+            "id": "401410735",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So you were testing out the kites for Hu Tao, and even roped Xiao into doing it for you... Paimon didn't ask earlier because the situation was awkward.",
+            "nextDialogs": [
+              "401410736"
+            ]
+          },
+          "401410736": {
+            "id": "401410736",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I would hardly say I \"roped\" Xiao into anything. I simply sought the help of a friend. Besides, we did the testing together.",
+            "nextDialogs": [
+              "401410737"
+            ]
+          },
+          "401410737": {
+            "id": "401410737",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*sigh* Seems like our pool of competitors is growing...",
+            "nextDialogs": [
+              "401410740"
+            ]
+          },
+          "401410740": {
+            "id": "401410740",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Do you like kite-flying, Xiao?",
+            "nextDialogs": [
+              "401410741"
+            ]
+          },
+          "401410741": {
+            "id": "401410741",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I suppose I neither like nor dislike it.",
+            "nextDialogs": [
+              "401410742"
+            ]
+          },
+          "401410742": {
+            "id": "401410742",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Although, watching a kite gradually ascend into the sky does bring me a certain peace of mind.",
+            "nextDialogs": [
+              "401410743"
+            ]
+          },
+          "401410743": {
+            "id": "401410743",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...Perhaps they're a bit like Xiao Lanterns in that way.",
+            "nextDialogs": [
+              "401410744"
+            ]
+          },
+          "401410744": {
+            "id": "401410744",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Kite-flying is also a pleasant form of relaxation.",
+            "nextDialogs": [
+              "401410745"
+            ]
+          },
+          "401410745": {
+            "id": "401410745",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Have you ever thought about making a kite, Xiao?",
+            "nextDialogs": [
+              "401410746"
+            ]
+          },
+          "401410746": {
+            "id": "401410746",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cloud Retainer taught us how. We can teach you if you want.",
+            "nextDialogs": [
+              "401410747"
+            ]
+          },
+          "401410747": {
+            "id": "401410747",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "There's no need.",
+            "nextDialogs": [
+              "401410748"
+            ]
+          },
+          "401410748": {
+            "id": "401410748",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Menogias was the only yaksha among us who had an interest in matters of ornamentation and design.",
+            "nextDialogs": [
+              "401410749"
+            ]
+          },
+          "401410749": {
+            "id": "401410749",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "#{NICKNAME}, when Lantern Rite is over, come find me near Pervases' temple if you have the time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014105",
+      "subQuestName": "Find a place to rest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410501"
+        ],
+        "dialogs": {
+          "401410501": {
+            "id": "401410501",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Here, this place looks nice and open. Why don't you all rest here for a second?",
+            "nextDialogs": [
+              "401410502"
+            ]
+          },
+          "401410502": {
+            "id": "401410502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? What about you? You're not going to join us?",
+            "nextDialogs": [
+              "401410503"
+            ]
+          },
+          "401410503": {
+            "id": "401410503",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I'm not tired. I'll keep watch.",
+            "nextDialogs": [
+              "401410504"
+            ]
+          },
+          "401410504": {
+            "id": "401410504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh? But...",
+            "nextDialogs": [
+              "401410505"
+            ]
+          },
+          "401410505": {
+            "id": "401410505",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Just let him go.",
+            "nextDialogs": [
+              "401410506"
+            ]
+          },
+          "401410506": {
+            "id": "401410506",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay. We'll just share amongst ourselves then. Did you know, Uncle Yip, that the flavor of these cakes changes depending on...",
+            "nextDialogs": [
+              "401410507"
+            ]
+          },
+          "401410507": {
+            "id": "401410507",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Halt! Who goes there?",
+            "nextDialogs": [
+              "401410508"
+            ]
+          },
+          "401410508": {
+            "id": "401410508",
+            "speakerId": 13854,
+            "speakerName": "Houzhang",
+            "text": "...It appears that one's movements were overly conspicuous.",
+            "nextDialogs": [
+              "401410509"
+            ]
+          },
+          "401410509": {
+            "id": "401410509",
+            "speakerId": 13853,
+            "speakerName": "Jiehu",
+            "text": "Enough of your musings. Focus... Focus on the matter at hand.",
+            "nextDialogs": [
+              "401410510"
+            ]
+          },
+          "401410510": {
+            "id": "401410510",
+            "speakerId": 13853,
+            "speakerName": "Jiehu",
+            "text": "Present your exquisite ornaments at once!",
+            "nextDialogs": [
+              "401410511"
+            ]
+          },
+          "401410511": {
+            "id": "401410511",
+            "speakerId": 13854,
+            "speakerName": "Houzhang",
+            "text": "Indeed! Bring them forth readily and without protest.",
+            "nextDialogs": [
+              "401410512"
+            ]
+          },
+          "401410512": {
+            "id": "401410512",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Ah!? Wh—What do we do...",
+            "nextDialogs": [
+              "401410513"
+            ]
+          },
+          "401410513": {
+            "id": "401410513",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "(Hmm. It seems as if these two are acting alone.)",
+            "nextDialogs": [
+              "401410514"
+            ]
+          },
+          "401410514": {
+            "id": "401410514",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "(It won't be difficult to subdue them, but they might have something else waiting in store for Dad. The best way to keep him safe is...)",
+            "nextDialogs": [
+              "401410515"
+            ]
+          },
+          "401410515": {
+            "id": "401410515",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Leave this to me. I'll handle them.",
+            "nextDialogs": [
+              "401410516"
+            ]
+          },
+          "401410516": {
+            "id": "401410516",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "#{NICKNAME}, Paimon, take my dad and the goods away from here!",
+            "nextDialogs": [
+              "401410517"
+            ]
+          },
+          "401410517": {
+            "id": "401410517",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "No, Gaming! It's too dangerous!",
+            "nextDialogs": [
+              "401410518"
+            ]
+          },
+          "401410518": {
+            "id": "401410518",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "This is what I do!",
+            "nextDialogs": [
+              "401410519"
+            ]
+          },
+          "401410519": {
+            "id": "401410519",
+            "speakerId": 13853,
+            "speakerName": "Jiehu",
+            "text": "...A thorny foe indeed! Let us depart and seek a target softer in blows and disposition!",
+            "nextDialogs": [
+              "401410520"
+            ]
+          },
+          "401410520": {
+            "id": "401410520",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Uh-uh, don't think I'm gonna let you off so easily!",
+            "nextDialogs": [
+              "401410521"
+            ]
+          },
+          "401410521": {
+            "id": "401410521",
+            "speakerId": 13854,
+            "speakerName": "Houzhang",
+            "text": "Away! Let us away!",
+            "nextDialogs": [
+              "401410522"
+            ]
+          },
+          "401410522": {
+            "id": "401410522",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Gaming!",
+            "nextDialogs": [
+              "401410523"
+            ]
+          },
+          "401410523": {
+            "id": "401410523",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't worry! He's a great fighter!",
+            "nextDialogs": [
+              "401410524"
+            ]
+          },
+          "401410524": {
+            "id": "401410524",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon's even seen him take down a dozen or so Treasure Hoarders all by himself!",
+            "nextDialogs": [
+              "401410525"
+            ]
+          },
+          "401410525": {
+            "id": "401410525",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "But, Gaming...",
+            "nextDialogs": [
+              "401410526"
+            ]
+          },
+          "401410526": {
+            "id": "401410526",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...*sigh*",
+            "nextDialogs": [
+              "401410527"
+            ]
+          },
+          "401410527": {
+            "id": "401410527",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "If he had just stayed by my side and learned the family trade, he wouldn't have to put himself in such dangerous situations.",
+            "nextDialogs": [
+              "401410528"
+            ]
+          },
+          "401410528": {
+            "id": "401410528",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We just have to trust him. Let's go on ahead. We'd best get away from here, in case there are other bandits in the area waiting in ambush.",
+            "nextDialogs": [
+              "401410529"
+            ]
+          },
+          "401410529": {
+            "id": "401410529",
+            "speakerId": 10258,
+            "speakerName": "Cloud Retainer",
+            "text": "(All is going to plan...)",
+            "nextDialogs": [
+              "401410530"
+            ]
+          },
+          "401410530": {
+            "id": "401410530",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, we should be good to stop here.",
+            "nextDialogs": [
+              "401410531"
+            ]
+          },
+          "401410531": {
+            "id": "401410531",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Zhongli!? Oh no, what is he doing here？",
+            "nextDialogs": [
+              "401410532"
+            ]
+          },
+          "401410532": {
+            "id": "401410532",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Good sir, please listen to me. Reel in your line and leave this place as quickly as you can! There are bandits in the area.",
+            "nextDialogs": [
+              "401410533"
+            ]
+          },
+          "401410533": {
+            "id": "401410533",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Bandits? Acting in broad daylight...?",
+            "nextDialogs": [
+              "401410534"
+            ]
+          },
+          "401410534": {
+            "id": "401410534",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ahem! *cough* *cough*",
+            "nextDialogs": [
+              "401410535"
+            ]
+          },
+          "401410535": {
+            "id": "401410535",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Oh?",
+            "nextDialogs": [
+              "401410536"
+            ]
+          },
+          "401410536": {
+            "id": "401410536",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*cough*",
+            "nextDialogs": [
+              "401410537"
+            ]
+          },
+          "401410537": {
+            "id": "401410537",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Ah, I see.",
+            "nextDialogs": [
+              "401410538"
+            ]
+          },
+          "401410538": {
+            "id": "401410538",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "It appears many people are catching a chill as of late. If your throat is bothering you, Paimon, perhaps some tea and rest are in order.",
+            "nextDialogs": [
+              "401410539"
+            ]
+          },
+          "401410539": {
+            "id": "401410539",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Nope! No need. No need. Paimon's fine. She just... had some cake stuck in her throat...",
+            "nextDialogs": [
+              "401410540"
+            ]
+          },
+          "401410540": {
+            "id": "401410540",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(He must have figured it all out by now. Is he just playing dumb on purpose...)",
+            "nextDialogs": [
+              "401410541"
+            ]
+          },
+          "401410541": {
+            "id": "401410541",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "If there are indeed bandits in the area, then we should inform the Millelith at once.",
+            "nextDialogs": [
+              "401410542"
+            ]
+          },
+          "401410542": {
+            "id": "401410542",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The guard that was escorting us is already on their tail.",
+            "nextDialogs": [
+              "401410543"
+            ]
+          },
+          "401410543": {
+            "id": "401410543",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Oh? Well, if that's the case...",
+            "nextDialogs": [
+              "401410544"
+            ]
+          },
+          "401410544": {
+            "id": "401410544",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Such matters are best left to those with the necessary expertise, wouldn't you agree?",
+            "nextDialogs": [
+              "401410545"
+            ]
+          },
+          "401410545": {
+            "id": "401410545",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "*sigh* I suppose you're right... If ordinary people like us got involved, we would only cause more trouble.",
+            "nextDialogs": [
+              "401410546"
+            ]
+          },
+          "401410546": {
+            "id": "401410546",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Since we find ourselves otherwise unoccupied in this beautiful area, why don't we find a quiet place to relax while we wait for good news?",
+            "nextDialogs": [
+              "401410547"
+            ]
+          },
+          "401410547": {
+            "id": "401410547",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Hmm... That would be lovely."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014106",
+      "subQuestName": "Find a tea stall to rest at",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410601"
+        ],
+        "dialogs": {
+          "401410601": {
+            "id": "401410601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, uh, Uncle Yip does have reason to be worried. After all, Gaming, the guard we mentioned, is his son.",
+            "nextDialogs": [
+              "401410602"
+            ]
+          },
+          "401410602": {
+            "id": "401410602",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Gaming... The name sounds somewhat familiar. Ah yes, that is the name of the Wushou dancer who has been performing around Liyue Harbor recently, is it not?",
+            "nextDialogs": [
+              "401410603"
+            ]
+          },
+          "401410603": {
+            "id": "401410603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh? Have you seen him perform?",
+            "nextDialogs": [
+              "401410604"
+            ]
+          },
+          "401410604": {
+            "id": "401410604",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Indeed. I cannot help but admire his skill. He truly encapsulates the spirit of the suanni.",
+            "nextDialogs": [
+              "401410605"
+            ]
+          },
+          "401410605": {
+            "id": "401410605",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Wushou dancing has become more well-known in Liyue Harbor recently. However... Although performers are seeing budding success, they have, no doubt, had to face many hurdles along the way — ones not so easily understood by spectators such as ourselves.",
+            "nextDialogs": [
+              "401410606"
+            ]
+          },
+          "401410606": {
+            "id": "401410606",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "If you ask me, what truly deserves admiration is perseverance in the face of adversity. That is a rare attribute indeed.",
+            "nextDialogs": [
+              "401410607"
+            ]
+          },
+          "401410607": {
+            "id": "401410607",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I have heard many of my acquaintances praise Gaming for his kind, selfless, and courageous disposition... To have a child so accomplished and upright... You must be a very proud parent indeed, Uncle Yip.",
+            "nextDialogs": [
+              "401410608"
+            ]
+          },
+          "401410608": {
+            "id": "401410608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Uncle Yip...)",
+            "nextDialogs": [
+              "401410609"
+            ]
+          },
+          "401410609": {
+            "id": "401410609",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "(Seems like Zhongli has decided to skip the formalities...)",
+            "nextDialogs": [
+              "401410610"
+            ]
+          },
+          "401410610": {
+            "id": "401410610",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Ah, well...",
+            "nextDialogs": [
+              "401410611"
+            ]
+          },
+          "401410611": {
+            "id": "401410611",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "He... He's a hard worker, yes.",
+            "nextDialogs": [
+              "401410612"
+            ]
+          },
+          "401410612": {
+            "id": "401410612",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You should be sure to tell him you think that when he gets back!",
+            "nextDialogs": [
+              "401410613"
+            ]
+          },
+          "401410613": {
+            "id": "401410613",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I...",
+            "nextDialogs": [
+              "401410614"
+            ]
+          },
+          "401410614": {
+            "id": "401410614",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Your son is young yet. It's normal for someone his age to be a bit... hotheaded.",
+            "nextDialogs": [
+              "401410615"
+            ]
+          },
+          "401410615": {
+            "id": "401410615",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "It's understandable to find talking about such things in person difficult. If there's a particular sentiment you wish to convey, perhaps we could pass it along for you.",
+            "nextDialogs": [
+              "401410616"
+            ]
+          },
+          "401410616": {
+            "id": "401410616",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "No, no! It wouldn't be right to ask that of you...",
+            "nextDialogs": [
+              "401410617"
+            ]
+          },
+          "401410617": {
+            "id": "401410617",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "*sigh* This thing between us has festered for many years now. In truth... there are some things that simply aren't easy for us to talk through.",
+            "nextDialogs": [
+              "401410618"
+            ]
+          },
+          "401410618": {
+            "id": "401410618",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I've been in the tea business for most of my life, and I always hoped my child would do the same. Otherwise, how would he support himself?",
+            "nextDialogs": [
+              "401410619"
+            ]
+          },
+          "401410619": {
+            "id": "401410619",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Over the past few years, I heard how well he was doing for himself as a guard, how his work was taking him to farther and farther off places... I also heard that he never gave up on Wushou dancing. It made me happy... but I was also worried.",
+            "nextDialogs": [
+              "401410620"
+            ]
+          },
+          "401410620": {
+            "id": "401410620",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "When you're young, you can handle all that physically taxing work and manual labor. What young person isn't capable of making a living that way? My concern is what happens when you get old.",
+            "nextDialogs": [
+              "401410621"
+            ]
+          },
+          "401410621": {
+            "id": "401410621",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Every time I get to thinking like that, I cannot help but be reinforced in the belief that I was right... that I was right not to give in.",
+            "nextDialogs": [
+              "401410622"
+            ]
+          },
+          "401410622": {
+            "id": "401410622",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I often regret introducing him to Wushou dancing as a kid. If I had known how things would turn out, I would have never taken him to see those performances in the first place.",
+            "nextDialogs": [
+              "401410623"
+            ]
+          },
+          "401410623": {
+            "id": "401410623",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "It is only natural for a parent to strive to send their child down the right path. No one would begrudge you that sentiment, Uncle Yip. You need not worry.",
+            "nextDialogs": [
+              "401410624"
+            ]
+          },
+          "401410624": {
+            "id": "401410624",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "You seem quite young, Mr. Zhongli, yet you speak with such wisdom... Perhaps I have misjudged your age?",
+            "nextDialogs": [
+              "401410625"
+            ]
+          },
+          "401410625": {
+            "id": "401410625",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Hahaha, your words are too kind. Truth be told, one of my old friends has several grown daughters.",
+            "nextDialogs": [
+              "401410626"
+            ]
+          },
+          "401410626": {
+            "id": "401410626",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Rather than fretting about their future, however, she prefers to let them find their own way.",
+            "nextDialogs": [
+              "401410627"
+            ]
+          },
+          "401410627": {
+            "id": "401410627",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Then she is more easygoing than I could ever be. I fear... I lack such an open mind.",
+            "nextDialogs": [
+              "401410628"
+            ]
+          },
+          "401410628": {
+            "id": "401410628",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Oh, I meant to say earlier, there is no need to be so polite. Feel free to call me by my name, Yip Tak.",
+            "nextDialogs": [
+              "401410629"
+            ]
+          },
+          "401410629": {
+            "id": "401410629",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Sure.",
+            "nextDialogs": [
+              "401410630"
+            ]
+          },
+          "401410630": {
+            "id": "401410630",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "So, do you also think I fret too much, Mr. Zhongli?",
+            "nextDialogs": [
+              "401410631"
+            ]
+          },
+          "401410631": {
+            "id": "401410631",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "*sigh* That's not exactly what I was hoping to convey. Only a fool would ask a parent not to worry about their child. But think of it this way — raising a child is not unlike flying a kite. Hold the string too tight, and it can no longer soar.",
+            "nextDialogs": [
+              "401410632"
+            ]
+          },
+          "401410632": {
+            "id": "401410632",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "As my friend once said, if your children are aiming for the stars... clipping their wings will only cause them to come crashing down. You need to let out the line for a kite to soar.",
+            "nextDialogs": [
+              "401410633"
+            ]
+          },
+          "401410633": {
+            "id": "401410633",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...*sigh* It seems I was too stuck in my ways.",
+            "nextDialogs": [
+              "401410634"
+            ]
+          },
+          "401410634": {
+            "id": "401410634",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "You need not reproach your heart for caring. You simply need to loosen your hold a little.",
+            "nextDialogs": [
+              "401410635"
+            ]
+          },
+          "401410635": {
+            "id": "401410635",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Indeed with such a big heart, why not allocate the time you usually spend worrying about Gaming to the pursuit of other things, like going for a stroll, drinking tea, or taking in the scenery? You never know what surprises could be in store — things can change in the blink of an eye.",
+            "nextDialogs": [
+              "401410636"
+            ]
+          },
+          "401410636": {
+            "id": "401410636",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Haha, the blink of an eye, you say? Do things change so quickly?",
+            "nextDialogs": [
+              "401410637"
+            ]
+          },
+          "401410637": {
+            "id": "401410637",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Children grow up in quite the same way, do they not? Day after day, year after year, sometimes in the blink of an eye, but always when you least expect it. As a father, I'm sure you know that best.",
+            "nextDialogs": [
+              "401410638"
+            ]
+          },
+          "401410638": {
+            "id": "401410638",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Haha... Yes, you can say that again... One second, Gaming was a kid, the next thing I knew he was ready to fly the nest.",
+            "nextDialogs": [
+              "401410639"
+            ]
+          },
+          "401410639": {
+            "id": "401410639",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Zhongli certainly has a way with words...",
+            "nextDialogs": [
+              "401410640"
+            ]
+          },
+          "401410640": {
+            "id": "401410640",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! Gaming is back!",
+            "nextDialogs": [
+              "401410641"
+            ]
+          },
+          "401410641": {
+            "id": "401410641",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, Gaming, we're over here!",
+            "nextDialogs": [
+              "401410642"
+            ]
+          },
+          "401410642": {
+            "id": "401410642",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "#Dad, {NICKNAME}, Paimon. Good, you're all here. Oh! And Mr. Zhongli from the Wangsheng Funeral Parlor? You're here too?",
+            "nextDialogs": [
+              "401410643"
+            ]
+          },
+          "401410643": {
+            "id": "401410643",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Haha, a fated meeting indeed! We were just enjoying some pleasant conversation.",
+            "nextDialogs": [
+              "401410644"
+            ]
+          },
+          "401410644": {
+            "id": "401410644",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401410645"
+            ]
+          },
+          "401410645": {
+            "id": "401410645",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Is everything resolved?",
+            "nextDialogs": [
+              "401410646"
+            ]
+          },
+          "401410646": {
+            "id": "401410646",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Well, you could say that...",
+            "nextDialogs": [
+              "401410647"
+            ]
+          },
+          "401410647": {
+            "id": "401410647",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "What does that mean?",
+            "nextDialogs": [
+              "401410648"
+            ]
+          },
+          "401410648": {
+            "id": "401410648",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "#{NICKNAME}, Paimon, come with me. I need to talk to you.",
+            "nextDialogs": [
+              "401410649"
+            ]
+          },
+          "401410649": {
+            "id": "401410649",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401410650"
+            ]
+          },
+          "401410650": {
+            "id": "401410650",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Oh... Okay...",
+            "nextDialogs": [
+              "401410651"
+            ]
+          },
+          "401410651": {
+            "id": "401410651",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I'll come right out and say it. Those two bandits... You sent them, didn't you?",
+            "nextDialogs": [
+              "401410652"
+            ]
+          },
+          "401410652": {
+            "id": "401410652",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh!? So, that's how we're starting off?",
+            "nextDialogs": [
+              "401410653"
+            ]
+          },
+          "401410653": {
+            "id": "401410653",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Can't look me in the eye, huh? Guess I'm right, then.",
+            "nextDialogs": [
+              "401410654"
+            ]
+          },
+          "401410654": {
+            "id": "401410654",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay... But how did you know?",
+            "nextDialogs": [
+              "401410655"
+            ]
+          },
+          "401410655": {
+            "id": "401410655",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "At first, their mannerisms seemed a bit stilted. But once I got close, it was obvious that they possessed great skills.",
+            "nextDialogs": [
+              "401410656"
+            ]
+          },
+          "401410656": {
+            "id": "401410656",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I was right on their tail, and it should have taken only a few steps to catch up to them, yet somehow, I was never able to close that distance...",
+            "nextDialogs": [
+              "401410657"
+            ]
+          },
+          "401410657": {
+            "id": "401410657",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "People with that level of skill would have gone about things differently from the start, like sneaking up on us while we were distracted.",
+            "nextDialogs": [
+              "401410658"
+            ]
+          },
+          "401410658": {
+            "id": "401410658",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Unless, or course, their real motive was to lure me away from the group all along.",
+            "nextDialogs": [
+              "401410659"
+            ]
+          },
+          "401410659": {
+            "id": "401410659",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, you're pretty quick on the uptake!",
+            "nextDialogs": [
+              "401410660"
+            ]
+          },
+          "401410660": {
+            "id": "401410660",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I just have a lot of experience. I've dealt with many a ruthless bandit in my time, but I've never seen ones like them.",
+            "nextDialogs": [
+              "401410661"
+            ]
+          },
+          "401410661": {
+            "id": "401410661",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "In the end, I told them they would make good guards if they ever wanted to get back on the straight and narrow, and that they could come hang out with me in Liyue Harbor any time.",
+            "nextDialogs": [
+              "401410662"
+            ]
+          },
+          "401410662": {
+            "id": "401410662",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh... You ever consider that you might be a little too good at making friends?",
+            "nextDialogs": [
+              "401410663"
+            ]
+          },
+          "401410663": {
+            "id": "401410663",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I'm guessing you guys were trying to help resolve things between my dad and me?",
+            "nextDialogs": [
+              "401410664"
+            ]
+          },
+          "401410664": {
+            "id": "401410664",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yeah.",
+            "nextDialogs": [
+              "401410665"
+            ]
+          },
+          "401410665": {
+            "id": "401410665",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "*sigh*",
+            "nextDialogs": [
+              "401410666"
+            ]
+          },
+          "401410666": {
+            "id": "401410666",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I appreciate it. I really do.",
+            "nextDialogs": [
+              "401410667"
+            ]
+          },
+          "401410667": {
+            "id": "401410667",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "But this conflict between us has been going on for a long time.",
+            "nextDialogs": [
+              "401410668"
+            ]
+          },
+          "401410668": {
+            "id": "401410668",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Even if those two were real bandits, and I was able to subdue them and show him what I was capable of, it wouldn't change anything...",
+            "nextDialogs": [
+              "401410669"
+            ]
+          },
+          "401410669": {
+            "id": "401410669",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "You've seen the way he talks to me...",
+            "nextDialogs": [
+              "401410670"
+            ]
+          },
+          "401410670": {
+            "id": "401410670",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's not like that at all! Your dad really cares about you. You should see the way he talks about you when you're not around!",
+            "nextDialogs": [
+              "401410671"
+            ]
+          },
+          "401410671": {
+            "id": "401410671",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Zhongli was talking things through with him, and he nearly agreed to let it go...",
+            "nextDialogs": [
+              "401410672"
+            ]
+          },
+          "401410672": {
+            "id": "401410672",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "*sigh*",
+            "nextDialogs": [
+              "401410673"
+            ]
+          },
+          "401410673": {
+            "id": "401410673",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You don't believe us?",
+            "nextDialogs": [
+              "401410674"
+            ]
+          },
+          "401410674": {
+            "id": "401410674",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "He won't let it go. He can say as much as he wants to other people, but he won't talk to me. I'm certain of it.",
+            "nextDialogs": [
+              "401410675"
+            ]
+          },
+          "401410675": {
+            "id": "401410675",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And you? Will you talk to him?",
+            "nextDialogs": [
+              "401410676"
+            ]
+          },
+          "401410676": {
+            "id": "401410676",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...",
+            "nextDialogs": [
+              "401410677"
+            ]
+          },
+          "401410677": {
+            "id": "401410677",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You told us you wanted to prove yourself to your dad. Why don't you tell him about all the hard work you've done these past few years?",
+            "nextDialogs": [
+              "401410678"
+            ]
+          },
+          "401410678": {
+            "id": "401410678",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Will that even do anything? I'm not sure \"talking\" is enough...",
+            "nextDialogs": [
+              "401410679"
+            ]
+          },
+          "401410679": {
+            "id": "401410679",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You won't know unless you try! Just like how you won't know if something is delicious unless you taste it.",
+            "nextDialogs": [
+              "401410680"
+            ]
+          },
+          "401410680": {
+            "id": "401410680",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Listen to us. It's time to put these people skills to good use! You can make friends with anyone! So why not your dad?",
+            "nextDialogs": [
+              "401410683"
+            ]
+          },
+          "401410683": {
+            "id": "401410683",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Ha...",
+            "nextDialogs": [
+              "401410684"
+            ]
+          },
+          "401410684": {
+            "id": "401410684",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I'll do my best.",
+            "nextDialogs": [
+              "401410685"
+            ]
+          },
+          "401410685": {
+            "id": "401410685",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...You are very knowledgeable, Mr. Zhongli. I'm impressed!",
+            "nextDialogs": [
+              "401410686"
+            ]
+          },
+          "401410686": {
+            "id": "401410686",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Despite my being in the tea industry for several decades, it seems I still have much to learn about the art of tea tasting.",
+            "nextDialogs": [
+              "401410687"
+            ]
+          },
+          "401410687": {
+            "id": "401410687",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "You flatter me. It was nothing but a few humble musings.",
+            "nextDialogs": [
+              "401410688"
+            ]
+          },
+          "401410688": {
+            "id": "401410688",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "How much tea have you drank since we've been gone?",
+            "nextDialogs": [
+              "401410689"
+            ]
+          },
+          "401410689": {
+            "id": "401410689",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's not like it was alcohol...",
+            "nextDialogs": [
+              "401410690"
+            ]
+          },
+          "401410690": {
+            "id": "401410690",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Haha, Yip Tak and I have found many a common interest. Our friendship, much like a cup of tea, seems to grow stronger the longer it has to steep.",
+            "nextDialogs": [
+              "401410691"
+            ]
+          },
+          "401410691": {
+            "id": "401410691",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Well said, Mr. Zhongli.",
+            "nextDialogs": [
+              "401410692"
+            ]
+          },
+          "401410692": {
+            "id": "401410692",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Gaming, Mr. Zhongli is very knowledgeable. You should take the opportunity to learn from people like him when you're in the city.",
+            "nextDialogs": [
+              "401410693"
+            ]
+          },
+          "401410693": {
+            "id": "401410693",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Huh? Oh... Of course.",
+            "nextDialogs": [
+              "401410694"
+            ]
+          },
+          "401410694": {
+            "id": "401410694",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ahem... Zhongli...",
+            "nextDialogs": [
+              "401410695"
+            ]
+          },
+          "401410695": {
+            "id": "401410695",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I have very much enjoyed our conversation, Yip Tak, but I, unfortunately, have some unfinished Funeral Parlor business to attend to.",
+            "nextDialogs": [
+              "401410696"
+            ]
+          },
+          "401410696": {
+            "id": "401410696",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Oh! I hope I didn't keep you.",
+            "nextDialogs": [
+              "401410697"
+            ]
+          },
+          "401410697": {
+            "id": "401410697",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "My apologies for taking up so much of your time, Mr. Zhongli. No need to stay on my account. When you're less busy, let's find a time to meet. I'll treat you to dim sum.",
+            "nextDialogs": [
+              "401410698"
+            ]
+          },
+          "401410698": {
+            "id": "401410698",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "It would be an honor.",
+            "nextDialogs": [
+              "401410699"
+            ]
+          },
+          "401410699": {
+            "id": "401410699",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We'll see you off, Zhongli!",
+            "nextDialogs": [
+              "401410825"
+            ]
+          },
+          "401410825": {
+            "id": "401410825",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You two have a nice chat, alright?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014108",
+      "subQuestName": "Leave the tea stall and talk to Zhongli",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4014109",
+      "subQuestName": "Go to Liyue Harbor to deliver the goods",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401410901"
+        ],
+        "dialogs": {
+          "401410901": {
+            "id": "401410901",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "You must be Mr. Yip! Thank you for coming all this way.",
+            "nextDialogs": [
+              "401410902"
+            ]
+          },
+          "401410902": {
+            "id": "401410902",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "My name is Charlotte, and I am a reporter from Fontaine. You can find me writing for The Steambird. I invited you here not just to purchase your fine tea, but also with the hope that you might be willing to sit down for a short interview. What do you say?",
+            "nextDialogs": [
+              "401410903"
+            ]
+          },
+          "401410903": {
+            "id": "401410903",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "An interview? To advertise my teas?",
+            "nextDialogs": [
+              "401410904"
+            ]
+          },
+          "401410904": {
+            "id": "401410904",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "I suppose you could think of it that way. We Fontainians are big tea drinkers too.",
+            "nextDialogs": [
+              "401410905"
+            ]
+          },
+          "401410905": {
+            "id": "401410905",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "The Fontaine market...",
+            "nextDialogs": [
+              "401410906"
+            ]
+          },
+          "401410906": {
+            "id": "401410906",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Then I'll need some time to adequately prepare. Perhaps we could sit down and discuss the questions you intend to ask in advance.",
+            "nextDialogs": [
+              "401410907"
+            ]
+          },
+          "401410907": {
+            "id": "401410907",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Of course! Of course! Please follow me.",
+            "nextDialogs": [
+              "401410908"
+            ]
+          },
+          "401410908": {
+            "id": "401410908",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Is this person also involved in your plan?",
+            "nextDialogs": [
+              "401410911"
+            ]
+          },
+          "401410911": {
+            "id": "401410911",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "And here I thought I had lots of connections! I suppose I've been humbled. You sure know all kinds of cool and important people.",
+            "nextDialogs": [
+              "401410912"
+            ]
+          },
+          "401410912": {
+            "id": "401410912",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "Over here... Yoo-hoo! Over here...",
+            "nextDialogs": [
+              "401410913"
+            ]
+          },
+          "401410913": {
+            "id": "401410913",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Huh? Aunty Xianyun?",
+            "nextDialogs": [
+              "401410914"
+            ]
+          },
+          "401410914": {
+            "id": "401410914",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "She probably wants to talk about the next phase of the plan! Let's go while your dad is still distracted."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014110",
+      "subQuestName": "Talk to Xianyun",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411001"
+        ],
+        "dialogs": {
+          "401411001": {
+            "id": "401411001",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "...I take it that all is going well?",
+            "nextDialogs": [
+              "401411002"
+            ]
+          },
+          "401411002": {
+            "id": "401411002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't worry, Xianyun. Everything is going according to plan!",
+            "nextDialogs": [
+              "401411003"
+            ]
+          },
+          "401411003": {
+            "id": "401411003",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "(I knew it! I knew that was all an act earlier! Aunty Xianyun is really something!)",
+            "nextDialogs": [
+              "401411004"
+            ]
+          },
+          "401411004": {
+            "id": "401411004",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "(She was so determined to help me, she didn't even care about making herself and Shenhe appear foolish in front of my family. She truly knows how to look out for others! I still have a lot to learn.)",
+            "nextDialogs": [
+              "401411005"
+            ]
+          },
+          "401411005": {
+            "id": "401411005",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "As for the next step...",
+            "nextDialogs": [
+              "401411006"
+            ]
+          },
+          "401411006": {
+            "id": "401411006",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Oh, nooooo!",
+            "nextDialogs": [
+              "401411007"
+            ]
+          },
+          "401411007": {
+            "id": "401411007",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's wrong, Gaming?",
+            "nextDialogs": [
+              "401411008"
+            ]
+          },
+          "401411008": {
+            "id": "401411008",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Don't tell me... you're the ones footing the bill for all that tea? I can't let you do that...",
+            "nextDialogs": [
+              "401411009"
+            ]
+          },
+          "401411009": {
+            "id": "401411009",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "Fret not. Reimbursements will be made.",
+            "nextDialogs": [
+              "401411010"
+            ]
+          },
+          "401411010": {
+            "id": "401411010",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Exactly! Think of it more as an \"investment,\" as Ningguang would say.",
+            "nextDialogs": [
+              "401411011"
+            ]
+          },
+          "401411011": {
+            "id": "401411011",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We pooled together the Mora so that Charlotte could place the order. She's gonna bring it back to The Steambird as a gift, as well as a sample of the regional specialty.",
+            "nextDialogs": [
+              "401411012"
+            ]
+          },
+          "401411012": {
+            "id": "401411012",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Fontainians will probably fall in love with your dad's tea as soon as they lay their eyes on Charlotte's article. And once all the money from the new orders begin to roll in, getting our Mora back will be a piece of cake!",
+            "nextDialogs": [
+              "401411013"
+            ]
+          },
+          "401411013": {
+            "id": "401411013",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Oh, okay...",
+            "nextDialogs": [
+              "401411014"
+            ]
+          },
+          "401411014": {
+            "id": "401411014",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Business-related matters always seem to go over my head, but I refuse to let you all lose Mora on my behalf. I'll pay you back right now...",
+            "nextDialogs": [
+              "401411015"
+            ]
+          },
+          "401411015": {
+            "id": "401411015",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "We can talk about such matters at a later date. There are more important matters for you to consider at the moment, are there not?",
+            "nextDialogs": [
+              "401411016"
+            ]
+          },
+          "401411016": {
+            "id": "401411016",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Yes.",
+            "nextDialogs": [
+              "401411017"
+            ]
+          },
+          "401411017": {
+            "id": "401411017",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I've been thinking about it the whole way here.",
+            "nextDialogs": [
+              "401411018"
+            ]
+          },
+          "401411018": {
+            "id": "401411018",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I have an idea.",
+            "nextDialogs": [
+              "401411019"
+            ]
+          },
+          "401411019": {
+            "id": "401411019",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "But I'd hate to cause even more trouble for all of you...",
+            "nextDialogs": [
+              "401411020"
+            ]
+          },
+          "401411020": {
+            "id": "401411020",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "That is for us to decide.",
+            "nextDialogs": [
+              "401411021"
+            ]
+          },
+          "401411021": {
+            "id": "401411021",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! We're all friends here. Plus, we wouldn't be here if we didn't want to help, right? Just tell us about this idea of yours!",
+            "nextDialogs": [
+              "401411022"
+            ]
+          },
+          "401411022": {
+            "id": "401411022",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Okay! *exhale*... So it's like this...",
+            "nextDialogs": [
+              "401411023"
+            ]
+          },
+          "401411023": {
+            "id": "401411023",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Got it! Just leave it to us!",
+            "nextDialogs": [
+              "401411024"
+            ]
+          },
+          "401411024": {
+            "id": "401411024",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's split up and make it happen!",
+            "nextDialogs": [
+              "401411025"
+            ]
+          },
+          "401411025": {
+            "id": "401411025",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We need to do those things we talked about, but we also still have the kite-flying competition.",
+            "nextDialogs": [
+              "401411026"
+            ]
+          },
+          "401411026": {
+            "id": "401411026",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Since Xiao already tested out those kites for us... Why don't we also go buy one of those mechanical thingamabobs or whatever they're called? We can attach it to our kite!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014112",
+      "subQuestName": "Go to the kite stall",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411201"
+        ],
+        "dialogs": {
+          "401411201": {
+            "id": "401411201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hello again!",
+            "nextDialogs": [
+              "401411202"
+            ]
+          },
+          "401411202": {
+            "id": "401411202",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "Welcome back! I see you've returned from your trip. I really do have to thank you for all your help from before.",
+            "nextDialogs": [
+              "401411203"
+            ]
+          },
+          "401411203": {
+            "id": "401411203",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "Thanks to you, my daughter was able to build a kite with her grandmother that very same day. She even wrote a long letter telling me how much she loved it.",
+            "nextDialogs": [
+              "401411204"
+            ]
+          },
+          "401411204": {
+            "id": "401411204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, you should really be thanking Gaming, not us.",
+            "nextDialogs": [
+              "401411205"
+            ]
+          },
+          "401411205": {
+            "id": "401411205",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "I'll be sure to.",
+            "nextDialogs": [
+              "401411206"
+            ]
+          },
+          "401411206": {
+            "id": "401411206",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "Are you here to buy a kite? Please take your pick!",
+            "nextDialogs": [
+              "401411207"
+            ]
+          },
+          "401411207": {
+            "id": "401411207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, we already have a kite. We wanted to buy one of those, um... device thingies from Fontaine. Do you sell them separately?",
+            "nextDialogs": [
+              "401411208"
+            ]
+          },
+          "401411208": {
+            "id": "401411208",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "Ah, yes. Here you go. Please take it, free of charge. The directions are in the box. It's not hard to install at all.",
+            "nextDialogs": [
+              "401411209"
+            ]
+          },
+          "401411209": {
+            "id": "401411209",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um, it doesn't feel right for us to just take it...",
+            "nextDialogs": [
+              "401411210"
+            ]
+          },
+          "401411210": {
+            "id": "401411210",
+            "speakerId": 30474,
+            "speakerName": "Zhenyuan",
+            "text": "Well, nor would it feel right for me to take your Mora. Hehe, good luck in the kite-flying competition. I'll be rooting for you!",
+            "nextDialogs": [
+              "401411211"
+            ]
+          },
+          "401411211": {
+            "id": "401411211",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright then. Thank you!",
+            "nextDialogs": [
+              "401411212"
+            ]
+          },
+          "401411212": {
+            "id": "401411212",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Phew, it's done!",
+            "nextDialogs": [
+              "401411213"
+            ]
+          },
+          "401411213": {
+            "id": "401411213",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's get down to business!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014113",
+      "subQuestName": "Wait for Lantern Rite to begin",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411601"
+        ],
+        "dialogs": {
+          "401411601": {
+            "id": "401411601",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014111",
+      "subQuestName": "Talk to Gaming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411101"
+        ],
+        "dialogs": {
+          "401411101": {
+            "id": "401411101",
+            "speakerId": 13891,
+            "speakerName": "Shuyu",
+            "text": "I think I'll head off now. Is that okay?",
+            "nextDialogs": [
+              "401411102"
+            ]
+          },
+          "401411102": {
+            "id": "401411102",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Thank you, little girl. Do you want us to walk you back?",
+            "nextDialogs": [
+              "401411103"
+            ]
+          },
+          "401411103": {
+            "id": "401411103",
+            "speakerId": 13891,
+            "speakerName": "Shuyu",
+            "text": "No need! No need! Master is waiting for me right over there.",
+            "nextDialogs": [
+              "401411104"
+            ]
+          },
+          "401411104": {
+            "id": "401411104",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...",
+            "nextDialogs": [
+              "401411105"
+            ]
+          },
+          "401411105": {
+            "id": "401411105",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...",
+            "nextDialogs": [
+              "401411106"
+            ]
+          },
+          "401411106": {
+            "id": "401411106",
+            "speakerId": 1014,
+            "speakerName": "Gaming & Yip Tak",
+            "text": "Dad.\\nGaming.",
+            "nextDialogs": [
+              "401411107"
+            ]
+          },
+          "401411107": {
+            "id": "401411107",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Gaming.",
+            "nextDialogs": [
+              "401411108"
+            ]
+          },
+          "401411108": {
+            "id": "401411108",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...Heh.",
+            "nextDialogs": [
+              "401411109"
+            ]
+          },
+          "401411109": {
+            "id": "401411109",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...I suppose I'll go first this time.",
+            "nextDialogs": [
+              "401411110"
+            ]
+          },
+          "401411110": {
+            "id": "401411110",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Okay.",
+            "nextDialogs": [
+              "401411111"
+            ]
+          },
+          "401411111": {
+            "id": "401411111",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Your performance... I've seen many Wushou dances in my time, but I've got to admit... What you pulled off there was breathtaking.",
+            "nextDialogs": [
+              "401411112"
+            ]
+          },
+          "401411112": {
+            "id": "401411112",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Wow.",
+            "nextDialogs": [
+              "401411113"
+            ]
+          },
+          "401411113": {
+            "id": "401411113",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I never thought I'd live to hear you say that.",
+            "nextDialogs": [
+              "401411114"
+            ]
+          },
+          "401411114": {
+            "id": "401411114",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "You're... serious about doing this professionally?",
+            "nextDialogs": [
+              "401411115"
+            ]
+          },
+          "401411115": {
+            "id": "401411115",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Absolutely! I know it'll be difficult, but...",
+            "nextDialogs": [
+              "401411116"
+            ]
+          },
+          "401411116": {
+            "id": "401411116",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Then it doesn't matter.",
+            "nextDialogs": [
+              "401411117"
+            ]
+          },
+          "401411117": {
+            "id": "401411117",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "What I mean to say is, of course it'll be difficult... But if that's your decision, if that's your dream, then it doesn't matter how difficult it is. As long as you put in the work, then any obstacle can be overcome in time.",
+            "nextDialogs": [
+              "401411118"
+            ]
+          },
+          "401411118": {
+            "id": "401411118",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Really, when I was young, I also... Hehe. Actually, how about we save that story of my past for another time?",
+            "nextDialogs": [
+              "401411119"
+            ]
+          },
+          "401411119": {
+            "id": "401411119",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "All I really want to say is, I've changed my mind...",
+            "nextDialogs": [
+              "401411120"
+            ]
+          },
+          "401411120": {
+            "id": "401411120",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Much like this kite, you also deserve to soar to new heights.",
+            "nextDialogs": [
+              "401411121"
+            ]
+          },
+          "401411121": {
+            "id": "401411121",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Dad...",
+            "nextDialogs": [
+              "401411122"
+            ]
+          },
+          "401411122": {
+            "id": "401411122",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...Son.",
+            "nextDialogs": [
+              "401411123"
+            ]
+          },
+          "401411123": {
+            "id": "401411123",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Son? ...Haven't heard that in a while...",
+            "nextDialogs": [
+              "401411124"
+            ]
+          },
+          "401411124": {
+            "id": "401411124",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I bet you're wondering what's gotten into me, saying all this...",
+            "nextDialogs": [
+              "401411125"
+            ]
+          },
+          "401411125": {
+            "id": "401411125",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Well, uh... Hehehe, a little bit, yeah.",
+            "nextDialogs": [
+              "401411126"
+            ]
+          },
+          "401411126": {
+            "id": "401411126",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Anyway, I know I've never found the chance to say this before, but... Ahem!",
+            "nextDialogs": [
+              "401411127"
+            ]
+          },
+          "401411127": {
+            "id": "401411127",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "To me, Gaming, you've always been a great kid.",
+            "nextDialogs": [
+              "401411128"
+            ]
+          },
+          "401411128": {
+            "id": "401411128",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...",
+            "nextDialogs": [
+              "401411129"
+            ]
+          },
+          "401411129": {
+            "id": "401411129",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Alright. That's everything I've got. Did you have something you wanted to say, or...",
+            "nextDialogs": [
+              "401411130"
+            ]
+          },
+          "401411130": {
+            "id": "401411130",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...",
+            "nextDialogs": [
+              "401411131"
+            ]
+          },
+          "401411131": {
+            "id": "401411131",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...!",
+            "nextDialogs": [
+              "401411132"
+            ]
+          },
+          "401411132": {
+            "id": "401411132",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Seeing the two of them talk things through like this really gives Paimon a sense of accomplishment.",
+            "nextDialogs": [
+              "401411135"
+            ]
+          },
+          "401411135": {
+            "id": "401411135",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "...Now go.",
+            "nextDialogs": [
+              "401411136"
+            ]
+          },
+          "401411136": {
+            "id": "401411136",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Over there... Your friends are still waiting for you.",
+            "nextDialogs": [
+              "401411137"
+            ]
+          },
+          "401411137": {
+            "id": "401411137",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Huh? But, you came all this way...",
+            "nextDialogs": [
+              "401411138"
+            ]
+          },
+          "401411138": {
+            "id": "401411138",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "I'll be staying in Liyue Harbor for a bit longer. When you have time, we can grab dim sum together. Your treat, right?",
+            "nextDialogs": [
+              "401411139"
+            ]
+          },
+          "401411139": {
+            "id": "401411139",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Dad...! Honestly...",
+            "nextDialogs": [
+              "401411140"
+            ]
+          },
+          "401411140": {
+            "id": "401411140",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Hahaha. Go.",
+            "nextDialogs": [
+              "401411141"
+            ]
+          },
+          "401411141": {
+            "id": "401411141",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Okay, then I'm off. See you soon.",
+            "nextDialogs": [
+              "401411142"
+            ]
+          },
+          "401411142": {
+            "id": "401411142",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's quite the smile you've got there, Gaming!",
+            "nextDialogs": [
+              "401411143"
+            ]
+          },
+          "401411143": {
+            "id": "401411143",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "R—Really...?",
+            "nextDialogs": [
+              "401411144"
+            ]
+          },
+          "401411144": {
+            "id": "401411144",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's nothing to be embarrassed about!",
+            "nextDialogs": [
+              "401411145"
+            ]
+          },
+          "401411145": {
+            "id": "401411145",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is there anything else you'd like to do?",
+            "nextDialogs": [
+              "401411146"
+            ]
+          },
+          "401411146": {
+            "id": "401411146",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Hmm...",
+            "nextDialogs": [
+              "401411147"
+            ]
+          },
+          "401411147": {
+            "id": "401411147",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "I'd like to find and thank Aunty Xianyun, as well as everyone else who's helped me out.",
+            "nextDialogs": [
+              "401411148"
+            ]
+          },
+          "401411148": {
+            "id": "401411148",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "If everyone has time, maybe we could all get together and...",
+            "nextDialogs": [
+              "401411149"
+            ]
+          },
+          "401411149": {
+            "id": "401411149",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "Go fly a kite."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014114",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411401"
+        ],
+        "dialogs": {
+          "401411401": {
+            "id": "401411401",
+            "speakerId": 1045,
+            "speakerName": "Shenhe",
+            "text": "Master, did I say something wrong earlier?",
+            "nextDialogs": [
+              "401411402"
+            ]
+          },
+          "401411402": {
+            "id": "401411402",
+            "speakerId": 1045,
+            "speakerName": "Shenhe",
+            "text": "I tried to go along with your questions... But when I saw how you and that man reacted... I started to wonder.",
+            "nextDialogs": [
+              "401411403"
+            ]
+          },
+          "401411403": {
+            "id": "401411403",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "Not at all. Certain unforeseen variables may have presented themselves along the way... but the outcome proved favorable. The plan was a success.",
+            "nextDialogs": [
+              "401411404"
+            ]
+          },
+          "401411404": {
+            "id": "401411404",
+            "speakerId": 1045,
+            "speakerName": "Shenhe",
+            "text": "Then I helped?",
+            "nextDialogs": [
+              "401411405"
+            ]
+          },
+          "401411405": {
+            "id": "401411405",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "Naturally.",
+            "nextDialogs": [
+              "401411406"
+            ]
+          },
+          "401411406": {
+            "id": "401411406",
+            "speakerId": 1083,
+            "speakerName": "Xianyun",
+            "text": "Your purity of spirit is one of your greatest strengths, Shenhe. You need not change who you are."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014113",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411301"
+        ],
+        "dialogs": {
+          "401411301": {
+            "id": "401411301",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Should we sit?",
+            "nextDialogs": [
+              "401411302"
+            ]
+          },
+          "401411302": {
+            "id": "401411302",
+            "speakerId": 1084,
+            "speakerName": "Gaming",
+            "text": "...Sure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4014115",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401411501"
+        ],
+        "dialogs": {
+          "401411501": {
+            "id": "401411501",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "...Do your teas pair well with milk? What about sugar?",
+            "nextDialogs": [
+              "401411502"
+            ]
+          },
+          "401411502": {
+            "id": "401411502",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Uh... Can we skip that question?",
+            "nextDialogs": [
+              "401411503"
+            ]
+          },
+          "401411503": {
+            "id": "401411503",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Of course. You would much prefer that the teas be made plain, I suppose? Perhaps you could provide some descriptions of their flavor profiles during the interview.",
+            "nextDialogs": [
+              "401411504"
+            ]
+          },
+          "401411504": {
+            "id": "401411504",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Ah, no problem.",
+            "nextDialogs": [
+              "401411505"
+            ]
+          },
+          "401411505": {
+            "id": "401411505",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Noted. Now then, let's discuss tea box design, shall we?",
+            "nextDialogs": [
+              "401411506"
+            ]
+          },
+          "401411506": {
+            "id": "401411506",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Recently, I've learned a lot about traditional Liyue motifs and their deeper meanings. I was thinking, if there was some way to integrate these motifs into the design of the exterior packaging...",
+            "nextDialogs": [
+              "401411507"
+            ]
+          },
+          "401411507": {
+            "id": "401411507",
+            "speakerId": 13860,
+            "speakerName": "Yip Tak",
+            "text": "Now that's an interesting idea. If you ask me, I would probably..."
+          }
+        }
+      }
+    }
+  ]
+}

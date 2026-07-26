@@ -1,0 +1,649 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "克里托夫": 23,
+    "志琼": 23,
+    "派蒙": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7104103",
+      "subQuestName": "前往被盗宝团占据的营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710410301"
+        ],
+        "dialogs": {
+          "710410301": {
+            "id": "710410301",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "…闭锁机构还没有生锈，有润滑油的痕迹…似乎在封矿之后也有人护理过。",
+            "nextDialogs": [
+              "710410302"
+            ]
+          },
+          "710410302": {
+            "id": "710410302",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "炮闩也是完好的…只是保险机处于闭锁状态。",
+            "nextDialogs": [
+              "710410303"
+            ]
+          },
+          "710410303": {
+            "id": "710410303",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "听不懂…那是什么呀，咒语吗？",
+            "nextDialogs": [
+              "710410304"
+            ]
+          },
+          "710410304": {
+            "id": "710410304",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "前方的矿道先前撤离矿工时被人用巨石封堵了…看起来这门炮又要派上用场咯。",
+            "nextDialogs": [
+              "710410305"
+            ]
+          },
+          "710410305": {
+            "id": "710410305",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "没有炮弹的话，大炮就形同虚设。我们还需要找到炮弹才行。",
+            "nextDialogs": [
+              "710410306"
+            ]
+          },
+          "710410306": {
+            "id": "710410306",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "哼…别说得好像我不知道一样，聪明鬼。",
+            "nextDialogs": [
+              "710410307"
+            ]
+          },
+          "710410307": {
+            "id": "710410307",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "附近有一处库房，那里大概储存着炮弹…希望当年撤离的时候没有把炮弹也都搬走…",
+            "nextDialogs": [
+              "710410308"
+            ]
+          },
+          "710410308": {
+            "id": "710410308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们出发吧。",
+            "nextDialogs": [
+              "710410309"
+            ]
+          },
+          "710410309": {
+            "id": "710410309",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "我们走。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7104104",
+      "subQuestName": "清理矿工营地内的盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710410401"
+        ],
+        "dialogs": {
+          "710410401": {
+            "id": "710410401",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "就是这里了，前辈。咳咳…真不巧，大门锁上了。",
+            "nextDialogs": [
+              "710410402"
+            ]
+          },
+          "710410402": {
+            "id": "710410402",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "必须要同时拿到两个钥匙才能开门…唉，你们璃月人呀，总是在这种不知所谓的地方如此用心。",
+            "nextDialogs": [
+              "710410403"
+            ]
+          },
+          "710410403": {
+            "id": "710410403",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "少说些没用的话啦…你看大门旁贴的通知单，好歹我们还是知道，炮弹确实在库房里的。",
+            "nextDialogs": [
+              "710410404"
+            ]
+          },
+          "710410404": {
+            "id": "710410404",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "炮弹是一回事，我们还不知道引信的保存状况呢？我看还是从长计议比较好。",
+            "nextDialogs": [
+              "710410405"
+            ]
+          },
+          "710410405": {
+            "id": "710410405",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "好啦…你这家伙不要说丧气话了。什么事都不做，只会乌鸦嘴！",
+            "nextDialogs": [
+              "710410406"
+            ]
+          },
+          "710410406": {
+            "id": "710410406",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "况且我们何必要听从一个盗宝团的质疑？",
+            "nextDialogs": [
+              "710410409"
+            ]
+          },
+          "710410409": {
+            "id": "710410409",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对呀，你们两个就不要吵架啦…",
+            "nextDialogs": [
+              "710410410"
+            ]
+          },
+          "710410410": {
+            "id": "710410410",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "哼…就听前辈的。我们先继续吧，说不定瑾武姐知道该如何打开库房大门。",
+            "nextDialogs": [
+              "710410411"
+            ]
+          },
+          "710410411": {
+            "id": "710410411",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "而且在那之后，我们还需要忙活好一阵子呢…解锁炮闩还需要激活信号装置才行。",
+            "nextDialogs": [
+              "710410412"
+            ]
+          },
+          "710410412": {
+            "id": "710410412",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "听瑾武姐说，在能俯瞰大炮的高处应该设置着爆破组的观测点…从那边可以调节信号，用来在安全距离外解锁大炮。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7104108",
+      "subQuestName": "解救被盗宝团关在笼中的人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7104107",
+      "subQuestName": "与克里托夫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710410101"
+        ],
+        "dialogs": {
+          "710410101": {
+            "id": "710410101",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "呼…谢谢各位英雄，谢谢你们救了我一命…",
+            "nextDialogs": [
+              "710410102"
+            ]
+          },
+          "710410102": {
+            "id": "710410102",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "等等…我认得你，你就是之前在矿上那个托克里夫吧！",
+            "nextDialogs": [
+              "710410103"
+            ]
+          },
+          "710410103": {
+            "id": "710410103",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "啊，不…那个不是我，我不卖假药的。我是克里托夫，不卖药的克里托夫。",
+            "nextDialogs": [
+              "710410104"
+            ]
+          },
+          "710410104": {
+            "id": "710410104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "原来你卖的是假药？！",
+            "nextDialogs": [
+              "710410105"
+            ]
+          },
+          "710410105": {
+            "id": "710410105",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "不是…怎么可能！我卖的药可都是货真价实的大汉药水！你看，矿工们喝了不也很有精神吗！",
+            "nextDialogs": [
+              "710410106"
+            ]
+          },
+          "710410106": {
+            "id": "710410106",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "你不是不卖药的克里托夫吗？",
+            "nextDialogs": [
+              "710410107"
+            ]
+          },
+          "710410107": {
+            "id": "710410107",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "啊…对，那是在我的卖药生涯结束之后了…因为那个…对，都怪那个托克里夫，取了个假名招摇撞骗！",
+            "nextDialogs": [
+              "710410108"
+            ]
+          },
+          "710410108": {
+            "id": "710410108",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "他用假名卖假药，臭了我的名声！所以我从此以后发誓，再也不卖药了！",
+            "nextDialogs": [
+              "710410109"
+            ]
+          },
+          "710410109": {
+            "id": "710410109",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "结果刚改行没多久，就让这帮盗宝团的贼人给抓住了…",
+            "nextDialogs": [
+              "710410110"
+            ]
+          },
+          "710410110": {
+            "id": "710410110",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "这么说，那个卖假药的真是可恨…",
+            "nextDialogs": [
+              "710410111"
+            ]
+          },
+          "710410111": {
+            "id": "710410111",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对呀对呀，连卖药的同行都骗，真是个坏人！",
+            "nextDialogs": [
+              "710410112"
+            ]
+          },
+          "710410112": {
+            "id": "710410112",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「托克里夫」的假名是什么？",
+            "nextDialogs": [
+              "710410113"
+            ]
+          },
+          "710410113": {
+            "id": "710410113",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "克里托夫！",
+            "nextDialogs": [
+              "710410114"
+            ]
+          },
+          "710410114": {
+            "id": "710410114",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "…啊，不是…克里托夫不是假名，是真名…",
+            "nextDialogs": [
+              "710410115"
+            ]
+          },
+          "710410115": {
+            "id": "710410115",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那托克里夫就是假名咯…？",
+            "nextDialogs": [
+              "710410116"
+            ]
+          },
+          "710410116": {
+            "id": "710410116",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "没…是、是他冒用我的名字，所以克里托夫就成了假名，明白了吧？",
+            "nextDialogs": [
+              "710410117"
+            ]
+          },
+          "710410117": {
+            "id": "710410117",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦…所以「托克里夫」，就成了真名。",
+            "nextDialogs": [
+              "710410118"
+            ]
+          },
+          "710410118": {
+            "id": "710410118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "真可惜…",
+            "nextDialogs": [
+              "710410119"
+            ]
+          },
+          "710410119": {
+            "id": "710410119",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "可惜什么？",
+            "nextDialogs": [
+              "710410120"
+            ]
+          },
+          "710410120": {
+            "id": "710410120",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "可惜你差点就不打自招咯。",
+            "nextDialogs": [
+              "710410121"
+            ]
+          },
+          "710410121": {
+            "id": "710410121",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "我们带他上去吧，让千岩军的大哥们问问他到底怎么回事好了。",
+            "nextDialogs": [
+              "710410122"
+            ]
+          },
+          "710410122": {
+            "id": "710410122",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "或者我们就在这里解决掉他。",
+            "nextDialogs": [
+              "710410123"
+            ]
+          },
+          "710410123": {
+            "id": "710410123",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "啥？",
+            "nextDialogs": [
+              "710410124"
+            ]
+          },
+          "710410124": {
+            "id": "710410124",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "喂，不要突然开这种玩笑呀！",
+            "nextDialogs": [
+              "710410125"
+            ]
+          },
+          "710410125": {
+            "id": "710410125",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哈，哈，笑死我了。",
+            "nextDialogs": [
+              "710410126"
+            ]
+          },
+          "710410126": {
+            "id": "710410126",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "你都没在笑吧！这一点也不好笑！",
+            "nextDialogs": [
+              "710410128"
+            ]
+          },
+          "710410128": {
+            "id": "710410128",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "请你冷静点，前辈，现在不是拷问时间！",
+            "nextDialogs": [
+              "710410129"
+            ]
+          },
+          "710410129": {
+            "id": "710410129",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "我可不想背着一个被你们吓晕的盗宝团跑来跑去…不管怎样，先把他带回营地吧。",
+            "nextDialogs": [
+              "710410131"
+            ]
+          },
+          "710410131": {
+            "id": "710410131",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "等等，我对你们很有用的！请带上我一起探险吧！毕竟…你看，我已经被盗宝团扫地出门了…",
+            "nextDialogs": [
+              "710410132"
+            ]
+          },
+          "710410132": {
+            "id": "710410132",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "现在我也多少算是…清白之身了嘛！",
+            "nextDialogs": [
+              "710410133"
+            ]
+          },
+          "710410133": {
+            "id": "710410133",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来这就算清白之身了呀…",
+            "nextDialogs": [
+              "710410134"
+            ]
+          },
+          "710410134": {
+            "id": "710410134",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "你都会些什么？",
+            "nextDialogs": [
+              "710410135"
+            ]
+          },
+          "710410135": {
+            "id": "710410135",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "唔…比如说…调配炸药？",
+            "nextDialogs": [
+              "710410136"
+            ]
+          },
+          "710410136": {
+            "id": "710410136",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还是假药嘛…",
+            "nextDialogs": [
+              "710410137"
+            ]
+          },
+          "710410137": {
+            "id": "710410137",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是炸药，不是假药。",
+            "nextDialogs": [
+              "710410138"
+            ]
+          },
+          "710410138": {
+            "id": "710410138",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "不是假炸药？",
+            "nextDialogs": [
+              "710410139"
+            ]
+          },
+          "710410139": {
+            "id": "710410139",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "这次是真的！",
+            "nextDialogs": [
+              "710410140"
+            ]
+          },
+          "710410140": {
+            "id": "710410140",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "……",
+            "nextDialogs": [
+              "710410141"
+            ]
+          },
+          "710410141": {
+            "id": "710410141",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "…我可没权力让你轻易入队，怎么处置你这样的家伙，得让瑾武姐定夺。不过我猜她也只会把你移交千岩军的。",
+            "nextDialogs": [
+              "710410142"
+            ]
+          },
+          "710410142": {
+            "id": "710410142",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "但是我们会好好盯着你的。盗宝团的家伙，怎么看都觉得不应该信任。更何况是卖假药的…",
+            "nextDialogs": [
+              "710410143"
+            ]
+          },
+          "710410143": {
+            "id": "710410143",
+            "speakerId": 2617,
+            "speakerName": "克里托夫",
+            "text": "都说过我不卖假药了！",
+            "nextDialogs": [
+              "710410144"
+            ]
+          },
+          "710410144": {
+            "id": "710410144",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哎呀知道啦！我们快走吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7104101",
+      "subQuestName": "前往第二处被占据的营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7104102",
+      "subQuestName": "清理矿工营地中的盗宝团",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7104109",
+      "subQuestName": "调查矿道深处的大炮",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7104110",
+      "subQuestName": "前往存放炮弹的库房",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7104111",
+      "subQuestName": "与志琼交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Timmie": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7070601",
+      "subQuestName": "Give ten servings of Wheat to Timmie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707060101"
+        ],
+        "dialogs": {
+          "707060101": {
+            "id": "707060101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the wheat...",
+            "nextDialogs": [
+              "707060102"
+            ]
+          },
+          "707060102": {
+            "id": "707060102",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Ah, you saw my commission, didn't you?",
+            "nextDialogs": [
+              "707060103"
+            ]
+          },
+          "707060103": {
+            "id": "707060103",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "So did you get those ten spikes of Wheat?",
+            "nextDialogs": [
+              "707060106"
+            ]
+          },
+          "707060106": {
+            "id": "707060106",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Well, give them to me once you're ready, then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070602",
+      "subQuestName": "Talk to Timmie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707060201"
+        ],
+        "dialogs": {
+          "707060201": {
+            "id": "707060201",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Yup, this should do it! Thanks for helping me out. Take these, please.",
+            "nextDialogs": [
+              "707060202"
+            ]
+          },
+          "707060202": {
+            "id": "707060202",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Ten spikes of Wheat... We can make something delicious out of that for sure!"
+          }
+        }
+      }
+    }
+  ]
+}

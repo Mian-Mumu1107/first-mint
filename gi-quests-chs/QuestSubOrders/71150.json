@@ -1,0 +1,81 @@
+{
+  "lineCounts": {
+    "Player": 2,
+    "瓦雷莎": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7115001",
+      "subQuestName": "拍照-瓦雷莎$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7115002",
+      "subQuestName": "一天后NPC消失$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7115008",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711500802"
+        ],
+        "dialogs": {
+          "711500802": {
+            "id": "711500802",
+            "speakerId": 1098,
+            "speakerName": "瓦雷莎",
+            "text": "已经拍好了？我看看…",
+            "nextDialogs": [
+              "711500803"
+            ]
+          },
+          "711500803": {
+            "id": "711500803",
+            "speakerId": 1098,
+            "speakerName": "瓦雷莎",
+            "text": "呜哇，果然好看！我想想，挂在果园的哪里才比较合适呢…",
+            "nextDialogs": [
+              "711500804",
+              "711500807"
+            ]
+          },
+          "711500804": {
+            "id": "711500804",
+            "speakerId": 1098,
+            "speakerName": "瓦雷莎",
+            "text": "#哇…飞得好高喔。{NICKNAME}，霄灯能不能放很多盏啊，我想帮部族里的每个人都放一盏霄灯。",
+            "nextDialogs": [
+              "711500805"
+            ]
+          },
+          "711500805": {
+            "id": "711500805",
+            "speakerId": 1098,
+            "speakerName": "瓦雷莎",
+            "text": "大家想要放飞的那些愿望，我都记在笔记本上了，有好多呢，嘿嘿…得买好多盏才行。"
+          },
+          "711500807": {
+            "id": "711500807",
+            "speakerId": 1098,
+            "speakerName": "瓦雷莎",
+            "text": "谢谢你！嘿嘿嘿，我接下来要去吃好吃的了，就从…水煮鱼开始吧！"
+          }
+        }
+      }
+    }
+  ]
+}

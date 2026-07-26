@@ -1,0 +1,565 @@
+{
+  "lineCounts": {
+    "Player": 2,
+    "丘丘人": 6,
+    "艾拉·马斯克": 36
+  },
+  "subQuests": [
+    {
+      "subId": "2000909",
+      "subQuestName": "前往询问艾拉·马斯克",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090901"
+        ],
+        "dialogs": {
+          "200090901": {
+            "id": "200090901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好的，我现在就去抓一个…",
+            "nextDialogs": [
+              "200090902"
+            ]
+          },
+          "200090902": {
+            "id": "200090902",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "等等！别直接冲进去，这些到底是谁教你的啊？！",
+            "nextDialogs": [
+              "200090903"
+            ]
+          },
+          "200090903": {
+            "id": "200090903",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "等会和我一起，我们找一个丘丘人，友好地对话吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000901",
+      "subQuestName": "与艾拉·马斯克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2000902",
+      "subQuestName": "和艾拉·马斯克一起前往丘丘人营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090201"
+        ],
+        "dialogs": {
+          "200090201": {
+            "id": "200090201",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "这里刚好有个丘丘人醒着。",
+            "nextDialogs": [
+              "200090202"
+            ]
+          },
+          "200090202": {
+            "id": "200090202",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "就这位了，我们快点过去吧。",
+            "nextDialogs": [
+              "200090203"
+            ]
+          },
+          "200090203": {
+            "id": "200090203",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "小心点，过去的时候别吵醒其他丘丘人。",
+            "nextDialogs": [
+              "200090204"
+            ]
+          },
+          "200090204": {
+            "id": "200090204",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "不然他们肯定会误会，以为我们是准备来攻击他们。",
+            "nextDialogs": [
+              "200090205"
+            ]
+          },
+          "200090205": {
+            "id": "200090205",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "要是这样，肯定不能顺利地对话了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000903",
+      "subQuestName": "与艾拉·马斯克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2000912",
+      "subQuestName": "(test)触发交流成功分支$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2000913",
+      "subQuestName": "(test)触发交流失败分支$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2000908",
+      "subQuestName": "接近醒着的丘丘人，不能吵醒其他丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090801"
+        ],
+        "dialogs": {
+          "200090801": {
+            "id": "200090801",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "都说了别惊醒其他的丘丘人了，你难道从来没有「悄悄接近」丘丘人营地的经验吗？",
+            "nextDialogs": [
+              "200090802"
+            ]
+          },
+          "200090802": {
+            "id": "200090802",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "唉，这个营地已经没有丘丘人了，大好的机会就被这么浪费了。只能下次再说了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000910",
+      "subQuestName": "(test)惊醒丘丘人$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200091001"
+        ],
+        "dialogs": {
+          "200091001": {
+            "id": "200091001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还是你自己去吧。",
+            "nextDialogs": [
+              "200091002"
+            ]
+          },
+          "200091002": {
+            "id": "200091002",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "不行！这是个宝贵的学习机会，就算你想偷懒，我也不会放你走的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000914",
+      "subQuestName": "(test)陪同艾拉·马斯克与丘丘人对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090601"
+        ],
+        "dialogs": {
+          "200090601": {
+            "id": "200090601",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Olah! Muhe mimi, nye, eh... mosi aba?",
+            "nextDialogs": [
+              "200090602"
+            ]
+          },
+          "200090602": {
+            "id": "200090602",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Yo mimi beru si?",
+            "nextDialogs": [
+              "200090603"
+            ]
+          },
+          "200090603": {
+            "id": "200090603",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Buka...mita nye, guru-guru...yo mosi ka?",
+            "nextDialogs": [
+              "200090604"
+            ]
+          },
+          "200090604": {
+            "id": "200090604",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Ya odomu, Todo yo, buka guru-guru nye.",
+            "nextDialogs": [
+              "200090605"
+            ]
+          },
+          "200090605": {
+            "id": "200090605",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Mi? Dada! Valo.",
+            "nextDialogs": [
+              "200090606"
+            ]
+          },
+          "200090606": {
+            "id": "200090606",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Valo, ya odomu.",
+            "nextDialogs": [
+              "200090607"
+            ]
+          },
+          "200090607": {
+            "id": "200090607",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "嘻嘻，看这个丘丘人的动作，好像很开心的样子呢。",
+            "nextDialogs": [
+              "200090608"
+            ]
+          },
+          "200090608": {
+            "id": "200090608",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "看样子这次的交流成功了，我的丘丘人口语果然很不错。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000904",
+      "subQuestName": "(test)陪同艾拉·马斯克与丘丘人对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090301"
+        ],
+        "dialogs": {
+          "200090301": {
+            "id": "200090301",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Biat ye, ye pupu dada mosi! Plama ye upa dada!",
+            "nextDialogs": [
+              "200090302"
+            ]
+          },
+          "200090302": {
+            "id": "200090302",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Dala beru yo?! Kundala muhe, kucha?",
+            "nextDialogs": [
+              "200090303"
+            ]
+          },
+          "200090303": {
+            "id": "200090303",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Kundala gusha! Hahaha!",
+            "nextDialogs": [
+              "200090304"
+            ]
+          },
+          "200090304": {
+            "id": "200090304",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Biat ye, plata ye pupu!",
+            "nextDialogs": [
+              "200090305"
+            ]
+          },
+          "200090305": {
+            "id": "200090305",
+            "speakerId": 20025,
+            "speakerName": "丘丘人",
+            "text": "Movo unta nye kucha, mi dada tiga mitono!",
+            "nextDialogs": [
+              "200090306"
+            ]
+          },
+          "200090306": {
+            "id": "200090306",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "看来他听懂我说的话了，正在准备拿礼物给我们…",
+            "nextDialogs": [
+              "200090307"
+            ]
+          },
+          "200090307": {
+            "id": "200090307",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "是，是武器！呜呜呜呜呜，旅行者！救救我！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000907",
+      "subQuestName": "(test)控制刷怪$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090701"
+        ],
+        "dialogs": {
+          "200090701": {
+            "id": "200090701",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "怎么样？我的丘丘人口语很不错吧？只要语言能够相通，那么互相理解也只是时间问题。",
+            "nextDialogs": [
+              "200090702"
+            ]
+          },
+          "200090702": {
+            "id": "200090702",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "我是这么希望的…我的梦想，是和丘丘人们做朋友。",
+            "nextDialogs": [
+              "200090703"
+            ]
+          },
+          "200090703": {
+            "id": "200090703",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "对了，请收下这个吧，这是刚才那位丘丘人送给我们的。",
+            "nextDialogs": [
+              "200090704"
+            ]
+          },
+          "200090704": {
+            "id": "200090704",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "一份来自于丘丘人的礼物，还是很新奇的吧？",
+            "nextDialogs": [
+              "200090705"
+            ]
+          },
+          "200090705": {
+            "id": "200090705",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "那么我先走了，还有很多发现要记录下来，下次有机会再见吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000911",
+      "subQuestName": "(test)判断08或10完成$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200091101"
+        ],
+        "dialogs": {
+          "200091101": {
+            "id": "200091101",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "糟糕，他们全都醒了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000905",
+      "subQuestName": "击退生气的丘丘人",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090501"
+        ],
+        "dialogs": {
+          "200090501": {
+            "id": "200090501",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "小心点，过去的时候别吵醒其他丘丘人。",
+            "nextDialogs": [
+              "200090502"
+            ]
+          },
+          "200090502": {
+            "id": "200090502",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "不然他们肯定会误会，以为我们是准备来攻击他们。",
+            "nextDialogs": [
+              "200090503"
+            ]
+          },
+          "200090503": {
+            "id": "200090503",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "要是这样，肯定不能顺利地对话了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000906",
+      "subQuestName": "与艾拉·马斯克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090401"
+        ],
+        "dialogs": {
+          "200090401": {
+            "id": "200090401",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "还好有你在，不然我都不知道怎么收场了。",
+            "nextDialogs": [
+              "200090402"
+            ]
+          },
+          "200090402": {
+            "id": "200090402",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "我觉得我没说错什么地方呀，到底是哪里的发音出问题了？",
+            "nextDialogs": [
+              "200090403"
+            ]
+          },
+          "200090403": {
+            "id": "200090403",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "我回去得再好好研究一下…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2000915",
+      "subQuestName": "与艾拉·马斯克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2000901",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "200090101"
+        ],
+        "dialogs": {
+          "200090101": {
+            "id": "200090101",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "旅行者，这里，过来这里！",
+            "nextDialogs": [
+              "200090102"
+            ]
+          },
+          "200090102": {
+            "id": "200090102",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "别惊动了那些丘丘人，你怎么总是直挺挺地往营地里面冲呀…",
+            "nextDialogs": [
+              "200090103"
+            ]
+          },
+          "200090103": {
+            "id": "200090103",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "算了，不管这些了，我一直在研究丘丘人的语言，但是比起记录，我更想要研究口语。",
+            "nextDialogs": [
+              "200090104"
+            ]
+          },
+          "200090104": {
+            "id": "200090104",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "好不容易在这里遇见了一个完整的丘丘人营地，我可不能放过这个机会。",
+            "nextDialogs": [
+              "200090105"
+            ]
+          },
+          "200090105": {
+            "id": "200090105",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "所以，旅行者，你能和我一起去这营地里面，找个丘丘人来练习口语吗？"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 9,
+    "伊西多尔": 8,
+    "因卡纳克": 12,
+    "大胆的调查员": 12,
+    "大胆的调查员$UNRELEASED": 1,
+    "好奇的调查员": 4,
+    "年轻的行商": 3,
+    "年长的行商": 2,
+    "恰斯卡": 14,
+    "派蒙": 4,
+    "疑惑的调查员": 3,
+    "谨慎的调查员": 4,
+    "迷惑的调查员": 2,
+    "阿尔帕": 8
+  },
+  "subQuests": [
+    {
+      "subId": "1502001",
+      "subQuestName": "去找场地工作人员",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200101"
+        ],
+        "dialogs": {
+          "150200101": {
+            "id": "150200101",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "欸，恰斯卡？是阿尔帕长老让你来的吗？",
+            "nextDialogs": [
+              "150200102"
+            ]
+          },
+          "150200102": {
+            "id": "150200102",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "嗯，她还有其他事要做，这边的情况怎么样？",
+            "nextDialogs": [
+              "150200103"
+            ]
+          },
+          "150200103": {
+            "id": "150200103",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "唔…根据调查结果，应该是过去的几次深渊入侵，导致了地脉紊乱，在试炼场地里形成了各种各样的「阻塞」。",
+            "nextDialogs": [
+              "150200104"
+            ]
+          },
+          "150200104": {
+            "id": "150200104",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "理论上只要清理掉这些阻塞，就能让气态燃素再次充盈，但实际操作起来却各有各的问题…",
+            "nextDialogs": [
+              "150200105"
+            ]
+          },
+          "150200105": {
+            "id": "150200105",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "具体情况，你们可以直接下去看看？也可以问问在场的工作人员。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502013",
+      "subQuestName": "(test)靠近后触发对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201001"
+        ],
+        "dialogs": {
+          "150201001": {
+            "id": "150201001",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "咦，你们是来帮忙的吗？谢天谢地！我正愁没人配合呢。",
+            "nextDialogs": [
+              "150201002"
+            ]
+          },
+          "150201002": {
+            "id": "150201002",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "这里的「阻塞」要用特制的炸弹来清理，但是带着炸药爬上这么陡峭的山峰…",
+            "nextDialogs": [
+              "150201003"
+            ]
+          },
+          "150201003": {
+            "id": "150201003",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "磕一下碰一下，一条小命就没了！所以我打算把炸药运到对面，再用热气球送过来…",
+            "nextDialogs": [
+              "150201004"
+            ]
+          },
+          "150201004": {
+            "id": "150201004",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "只要有人能在这里<color=#00E1FFFF>看准时机击中热气球，让炸药刚刚好落在喷口上…</color>问题就解决了！",
+            "nextDialogs": [
+              "150201005"
+            ]
+          },
+          "150201005": {
+            "id": "150201005",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "怎么样？很简单易懂对吧？",
+            "nextDialogs": [
+              "150201006"
+            ]
+          },
+          "150201006": {
+            "id": "150201006",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "确实挺简单的…",
+            "nextDialogs": [
+              "150201007"
+            ]
+          },
+          "150201007": {
+            "id": "150201007",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "所以上面那个热气球也是你放的？",
+            "nextDialogs": [
+              "150201008"
+            ]
+          },
+          "150201008": {
+            "id": "150201008",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "嗯？你说那个啊…我也不知道是谁放的，居然能升得这么高。",
+            "nextDialogs": [
+              "150201009"
+            ]
+          },
+          "150201009": {
+            "id": "150201009",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "要是能飞上去看看它是用了什么技术就好了…不过现在修理场地的事更重要。",
+            "nextDialogs": [
+              "150201010"
+            ]
+          },
+          "150201010": {
+            "id": "150201010",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "我这就去对面布置，你们准备好了，就喊我一声！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502009",
+      "subQuestName": "清理场地内的阻塞",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200901"
+        ],
+        "dialogs": {
+          "150200901": {
+            "id": "150200901",
+            "speakerId": 21709,
+            "speakerName": "疑惑的调查员",
+            "text": "你！你看到了吗！刚刚有一头嵴锋龙突然出现了！",
+            "nextDialogs": [
+              "150200902"
+            ]
+          },
+          "150200902": {
+            "id": "150200902",
+            "speakerId": 21710,
+            "speakerName": "迷惑的调查员",
+            "text": "难…难道是路过的…？不管了，喷口清理完了就好…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502010",
+      "subQuestName": "清理场地内的阻塞",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1502011",
+      "subQuestName": "清理场地内的阻塞",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201101"
+        ],
+        "dialogs": {
+          "150201101": {
+            "id": "150201101",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "咦？你们怎么跑过来了？在这边可不好看清位置啊。",
+            "nextDialogs": [
+              "150201102"
+            ]
+          },
+          "150201102": {
+            "id": "150201102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "能重新说明一下计划吗？",
+            "nextDialogs": [
+              "150201103"
+            ]
+          },
+          "150201103": {
+            "id": "150201103",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "哦，我打算用热气球把炸药送到对面的喷口上空…",
+            "nextDialogs": [
+              "150201104"
+            ]
+          },
+          "150201104": {
+            "id": "150201104",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "只要你<color=#00E1FFFF>看准时机击中热气球，让炸药刚刚好落在喷口上…</color>问题就解决了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502012",
+      "subQuestName": "清理场地内的阻塞",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201201"
+        ],
+        "dialogs": {
+          "150201201": {
+            "id": "150201201",
+            "speakerId": 1005,
+            "speakerName": "大胆的调查员$UNRELEASED",
+            "text": "好嘞！准备好——$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502002",
+      "subQuestName": "清理场地内的阻塞$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200201"
+        ],
+        "dialogs": {
+          "150200201": {
+            "id": "150200201",
+            "speakerId": 21708,
+            "speakerName": "谨慎的调查员",
+            "text": "嗯…看起来这个喷口，<color=#00E1FFFF>只要进行多次打击就能清理掉。</color>",
+            "nextDialogs": [
+              "150200202"
+            ]
+          },
+          "150200202": {
+            "id": "150200202",
+            "speakerId": 21708,
+            "speakerName": "谨慎的调查员",
+            "text": "不过这里头似乎有奇怪的生命活动迹象，不知道直接动手会不会有危险啊…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502003",
+      "subQuestName": "返回高处与因卡纳克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200301"
+        ],
+        "dialogs": {
+          "150200301": {
+            "id": "150200301",
+            "speakerId": 21708,
+            "speakerName": "谨慎的调查员",
+            "text": "哈哈…我还以为自己要完了！这儿的喷口已经没事了，多谢你们。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502004",
+      "subQuestName": "与因卡纳克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200401"
+        ],
+        "dialogs": {
+          "150200401": {
+            "id": "150200401",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "居然用这么短的时间就清理完了…真不愧是你们！",
+            "nextDialogs": [
+              "150200402"
+            ]
+          },
+          "150200402": {
+            "id": "150200402",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "接下来只要等气态燃素逐渐充盈，飞行试炼就能正常举办了。",
+            "nextDialogs": [
+              "150200403"
+            ]
+          },
+          "150200403": {
+            "id": "150200403",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "唔…因卡纳克，我想先试飞一下，看看还有没有遗漏，能帮我安排一下吗？",
+            "nextDialogs": [
+              "150200404"
+            ]
+          },
+          "150200404": {
+            "id": "150200404",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "欸？可是场地才刚刚清理完，万一有什么危险没发现…",
+            "nextDialogs": [
+              "150200405"
+            ]
+          },
+          "150200405": {
+            "id": "150200405",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "所以才更应该由我来检查吧。",
+            "nextDialogs": [
+              "150200406"
+            ]
+          },
+          "150200406": {
+            "id": "150200406",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "啊…也对，以你的飞行技巧，就算有什么遗漏，也不会是致命的危险…",
+            "nextDialogs": [
+              "150200407"
+            ]
+          },
+          "150200407": {
+            "id": "150200407",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "这片区域里的环境还不稳定，不亲自试飞一下，很难检查出问题。",
+            "nextDialogs": [
+              "150200408"
+            ]
+          },
+          "150200408": {
+            "id": "150200408",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "那我这就去安排。你准备好的话，就随时跟我说一声吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502014",
+      "subQuestName": "与因卡纳克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201401"
+        ],
+        "dialogs": {
+          "150201401": {
+            "id": "150201401",
+            "speakerId": 21716,
+            "speakerName": "好奇的调查员",
+            "text": "奇怪…明明已经铆足了力气，怎么还是敲不破…",
+            "nextDialogs": [
+              "150201402"
+            ]
+          },
+          "150201402": {
+            "id": "150201402",
+            "speakerId": 21716,
+            "speakerName": "好奇的调查员",
+            "text": "难道真像因卡纳克说的，固态燃素内部已经形成稳定结构…需要同时击中所有弱点才能清理？",
+            "nextDialogs": [
+              "150201403"
+            ]
+          },
+          "150201403": {
+            "id": "150201403",
+            "speakerId": 21716,
+            "speakerName": "好奇的调查员",
+            "text": "——可是要怎么才能<color=#00E1FFFF>同时击中这些弱点</color>呢？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502005",
+      "subQuestName": "完成飞行挑战",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200501"
+        ],
+        "dialogs": {
+          "150200501": {
+            "id": "150200501",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "准备好了吗？虽然对恰斯卡来说不是什么难事，不过还是要注意安全。",
+            "nextDialogs": [
+              "150200503"
+            ]
+          },
+          "150200503": {
+            "id": "150200503",
+            "speakerId": 6247,
+            "speakerName": "因卡纳克",
+            "text": "嗯，那就大胆地飞吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502006",
+      "subQuestName": "与恰斯卡对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200601"
+        ],
+        "dialogs": {
+          "150200601": {
+            "id": "150200601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好精彩的飞行！我连眼睛都不舍得眨！",
+            "nextDialogs": [
+              "150200602"
+            ]
+          },
+          "150200602": {
+            "id": "150200602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还有什么遗漏吗？",
+            "nextDialogs": [
+              "150200603"
+            ]
+          },
+          "150200603": {
+            "id": "150200603",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "嗯…没什么大问题，只要再过几天，就能正常举行试炼了。",
+            "nextDialogs": [
+              "150200604"
+            ]
+          },
+          "150200604": {
+            "id": "150200604",
+            "speakerId": 15005,
+            "speakerName": "伊西多尔",
+            "text": "救——救命啊——",
+            "nextDialogs": [
+              "150200605"
+            ]
+          },
+          "150200605": {
+            "id": "150200605",
+            "speakerId": 15005,
+            "speakerName": "伊西多尔",
+            "text": "你们…你们是花羽会的人吧？快…快来帮帮我们！",
+            "nextDialogs": [
+              "150200606"
+            ]
+          },
+          "150200606": {
+            "id": "150200606",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "冷静点，出什么事了？",
+            "nextDialogs": [
+              "150200607"
+            ]
+          },
+          "150200607": {
+            "id": "150200607",
+            "speakerId": 15005,
+            "speakerName": "伊西多尔",
+            "text": "有…有一只绒翼龙，突然袭击了我们！",
+            "nextDialogs": [
+              "150200608"
+            ]
+          },
+          "150200608": {
+            "id": "150200608",
+            "speakerId": 15005,
+            "speakerName": "伊西多尔",
+            "text": "我的同伴跟货物都还在大道上…求求你们，快去救救他们吧！",
+            "nextDialogs": [
+              "150200609"
+            ]
+          },
+          "150200609": {
+            "id": "150200609",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？绒翼龙…有这么凶猛吗？一只直接袭击了一群人？",
+            "nextDialogs": [
+              "150200610"
+            ]
+          },
+          "150200610": {
+            "id": "150200610",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "按理说应该不会…但凡事总有例外，先过去看看！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502007",
+      "subQuestName": "前去救助商队",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200701"
+        ],
+        "dialogs": {
+          "150200701": {
+            "id": "150200701",
+            "speakerId": 21709,
+            "speakerName": "疑惑的调查员",
+            "text": "奇了怪了…这里怎么会出现那么多固态燃素？",
+            "nextDialogs": [
+              "150200702"
+            ]
+          },
+          "150200702": {
+            "id": "150200702",
+            "speakerId": 21710,
+            "speakerName": "迷惑的调查员",
+            "text": "是不是因为地脉紊乱，把「回声之子」的什么东西给卷进来了？<color=#00E1FFFF>我刚刚在悬崖上就有看见奇怪的印记…</color>",
+            "nextDialogs": [
+              "150200703"
+            ]
+          },
+          "150200703": {
+            "id": "150200703",
+            "speakerId": 21709,
+            "speakerName": "疑惑的调查员",
+            "text": "不会吧？难道我们还得去「回声之子」借一头<color=#00E1FFFF>嵴锋龙</color>来清理吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502008",
+      "subQuestName": "与阿尔帕对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200801"
+        ],
+        "dialogs": {
+          "150200801": {
+            "id": "150200801",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "#嗯？恰斯卡、{NICKNAME}，你们也来了？",
+            "nextDialogs": [
+              "150200802"
+            ]
+          },
+          "150200802": {
+            "id": "150200802",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "阿尔帕长老？咦？他们说的绒翼龙呢？",
+            "nextDialogs": [
+              "150200803"
+            ]
+          },
+          "150200803": {
+            "id": "150200803",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "已经先我们一步飞走了，看来是知道救兵要到，率先撤退了。",
+            "nextDialogs": [
+              "150200804"
+            ]
+          },
+          "150200804": {
+            "id": "150200804",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "那它突然袭击人类的目的…是商队运送的食物吗？",
+            "nextDialogs": [
+              "150200805"
+            ]
+          },
+          "150200805": {
+            "id": "150200805",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "不，这支商队运送的不是食物…",
+            "nextDialogs": [
+              "150200806"
+            ]
+          },
+          "150200806": {
+            "id": "150200806",
+            "speakerId": 21713,
+            "speakerName": "年轻的行商",
+            "text": "——哦！谢天谢地！「燃素翼」都还没事！",
+            "nextDialogs": [
+              "150200807"
+            ]
+          },
+          "150200807": {
+            "id": "150200807",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "…「燃素翼」？",
+            "nextDialogs": [
+              "150200808"
+            ]
+          },
+          "150200808": {
+            "id": "150200808",
+            "speakerId": 21712,
+            "speakerName": "伊西多尔",
+            "text": "哎呀，太感谢了。这批「燃素翼」是我们最重要的货物，万一有什么闪失，可真不知道该怎么办！",
+            "nextDialogs": [
+              "150200809"
+            ]
+          },
+          "150200809": {
+            "id": "150200809",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "…你们就是之前瓦尔米说的，要来跟我们谈合作的商队？",
+            "nextDialogs": [
+              "150200810"
+            ]
+          },
+          "150200810": {
+            "id": "150200810",
+            "speakerId": 21712,
+            "speakerName": "伊西多尔",
+            "text": "啊，没错没错，那…您就是阿尔帕长老咯？",
+            "nextDialogs": [
+              "150200811"
+            ]
+          },
+          "150200811": {
+            "id": "150200811",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "是我。各位舟车劳顿，又受了惊吓，就先跟我一起回花羽会好好休息吧，有什么事，可以之后再谈。",
+            "nextDialogs": [
+              "150200812"
+            ]
+          },
+          "150200812": {
+            "id": "150200812",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "阿尔帕长老，那绒翼龙袭击的事…",
+            "nextDialogs": [
+              "150200813"
+            ]
+          },
+          "150200813": {
+            "id": "150200813",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "唔，我看这些朋友并没有受重伤，货物也没什么损失…或许只是那只绒翼龙，偶然间受到了什么刺激吧。",
+            "nextDialogs": [
+              "150200814"
+            ]
+          },
+          "150200814": {
+            "id": "150200814",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "这附近的绒翼龙那么多，出现一两次意外也不奇怪，就不用费心去追查了…倒是飞行试炼那边，修整得怎么样了？",
+            "nextDialogs": [
+              "150200817"
+            ]
+          },
+          "150200817": {
+            "id": "150200817",
+            "speakerId": 21712,
+            "speakerName": "伊西多尔",
+            "text": "哦？飞行试炼？——那可真是巧了！阿尔帕长老，我们的「燃素翼」一定能在试炼上给您一个惊喜！",
+            "nextDialogs": [
+              "150200818"
+            ]
+          },
+          "150200818": {
+            "id": "150200818",
+            "speakerId": 21648,
+            "speakerName": "阿尔帕",
+            "text": "是吗？…听起来倒是挺有趣的。",
+            "nextDialogs": [
+              "150200819"
+            ]
+          },
+          "150200819": {
+            "id": "150200819",
+            "speakerId": 21712,
+            "speakerName": "伊西多尔",
+            "text": "嘿嘿，那绒翼龙的事就放一边…我们快回去谈谈「燃素翼」的合作吧！",
+            "nextDialogs": [
+              "150200820"
+            ]
+          },
+          "150200820": {
+            "id": "150200820",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "……",
+            "nextDialogs": [
+              "150200821"
+            ]
+          },
+          "150200821": {
+            "id": "150200821",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "问题好像都解决了？还怪顺利的嘛…那我们也走吧…咦？恰斯卡？",
+            "nextDialogs": [
+              "150200822"
+            ]
+          },
+          "150200822": {
+            "id": "150200822",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你在看什么呢？",
+            "nextDialogs": [
+              "150200823"
+            ]
+          },
+          "150200823": {
+            "id": "150200823",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "……",
+            "nextDialogs": [
+              "150200824"
+            ]
+          },
+          "150200824": {
+            "id": "150200824",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "染血的…羽毛？",
+            "nextDialogs": [
+              "150200825"
+            ]
+          },
+          "150200825": {
+            "id": "150200825",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": "这起风波最终不了了之，花羽会再次恢复了往日的平静。\\n在波澜不惊的日常中，飞行试炼也在紧锣密鼓地筹备…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502013",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201301"
+        ],
+        "dialogs": {
+          "150201301": {
+            "id": "150201301",
+            "speakerId": 21711,
+            "speakerName": "大胆的调查员",
+            "text": "从这边看过去，那只热气球飞得可真高啊…到底是谁放的？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502015",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201501"
+        ],
+        "dialogs": {
+          "150201501": {
+            "id": "150201501",
+            "speakerId": 21716,
+            "speakerName": "好奇的调查员",
+            "text": "原来是用这种方式来解决的吗？太厉害了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502016",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201601"
+        ],
+        "dialogs": {
+          "150201601": {
+            "id": "150201601",
+            "speakerId": 15006,
+            "speakerName": "年轻的行商",
+            "text": "哎哟…",
+            "nextDialogs": [
+              "150201602"
+            ]
+          },
+          "150201602": {
+            "id": "150201602",
+            "speakerId": 15007,
+            "speakerName": "年长的行商",
+            "text": "怎么会有这么凶猛的绒翼龙…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502017",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201701"
+        ],
+        "dialogs": {
+          "150201701": {
+            "id": "150201701",
+            "speakerId": 17166,
+            "speakerName": "因卡纳克",
+            "text": "具体情况，你们可以直接下去看看？也可以问问在场的工作人员。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150209901"
+        ],
+        "dialogs": {
+          "150209901": {
+            "id": "150209901",
+            "speakerId": 1092,
+            "speakerName": "恰斯卡",
+            "text": "气态燃素正在恢复…看来所有喷口都已经清理完了。我们先回高台上去吧。",
+            "nextDialogs": [
+              "150209902"
+            ]
+          },
+          "150209902": {
+            "id": "150209902",
+            "speakerId": 15006,
+            "speakerName": "年轻的行商",
+            "text": "哎哟…",
+            "nextDialogs": [
+              "150209903"
+            ]
+          },
+          "150209903": {
+            "id": "150209903",
+            "speakerId": 15007,
+            "speakerName": "年长的行商",
+            "text": "怎么会有这么凶猛的绒翼龙…",
+            "nextDialogs": [
+              "150209904"
+            ]
+          },
+          "150209904": {
+            "id": "150209904",
+            "speakerId": 21708,
+            "speakerName": "谨慎的调查员",
+            "text": "哈哈…我还以为自己要完了！这儿的喷口已经没事了，多谢你们。"
+          }
+        }
+      }
+    }
+  ]
+}

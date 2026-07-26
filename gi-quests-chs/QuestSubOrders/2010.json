@@ -1,0 +1,1410 @@
+{
+  "lineCounts": {
+    "Player": 18,
+    "剑鱼二番队代理队长": 5,
+    "剑鱼二番队老兵": 3,
+    "哲平": 38,
+    "嘉久": 5,
+    "大久保大介": 7,
+    "幸德": 9,
+    "派蒙": 30,
+    "珊瑚宫心海": 43,
+    "鲱鱼一番队队员": 1
+  },
+  "subQuests": [
+    {
+      "subId": "201001",
+      "subQuestName": "前往约定地点与哲平汇合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201002",
+      "subQuestName": "与哲平对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100201"
+        ],
+        "dialogs": {
+          "20100201": {
+            "id": "20100201",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "#哟，{NICKNAME}，你来啦。",
+            "nextDialogs": [
+              "20100202"
+            ]
+          },
+          "20100202": {
+            "id": "20100202",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "马上就到与珊瑚宫大人约定的日子了，我们也该出发了。",
+            "nextDialogs": [
+              "20100203"
+            ]
+          },
+          "20100203": {
+            "id": "20100203",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "准备好了吗？我先带你去我们<color=#00E1FFFF>海祇岛</color>的军营看看，之后我们一起去找珊瑚宫大人。",
+            "nextDialogs": [
+              "20100204"
+            ]
+          },
+          "20100204": {
+            "id": "20100204",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "如果中途晕船的话，要及时跟我说。不过听说你在南十字船队待过，应该没事吧…",
+            "nextDialogs": [
+              "20100205"
+            ]
+          },
+          "20100205": {
+            "id": "20100205",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "准备，起航！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201003",
+      "subQuestName": "前往反抗军营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201004",
+      "subQuestName": "与哲平对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100401"
+        ],
+        "dialogs": {
+          "20100401": {
+            "id": "20100401",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "这里就是我们海祇岛军队的训练营了。",
+            "nextDialogs": [
+              "20100402"
+            ]
+          },
+          "20100402": {
+            "id": "20100402",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "目前的反抗军，绝大部分都是由海祇岛的本土士兵组成。",
+            "nextDialogs": [
+              "20100403"
+            ]
+          },
+          "20100403": {
+            "id": "20100403",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "一部分人在踏鞴砂跟幕府军正面交战，一部分人留在海祇岛，保护百姓的安全。",
+            "nextDialogs": [
+              "20100404"
+            ]
+          },
+          "20100404": {
+            "id": "20100404",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哲平以前也在这里训练吗？",
+            "nextDialogs": [
+              "20100405"
+            ]
+          },
+          "20100405": {
+            "id": "20100405",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "是啊，可惜我还没有完全得到教官的认可，就不得不去踏鞴砂参战了，只能先在后勤部队帮点小忙…",
+            "nextDialogs": [
+              "20100406"
+            ]
+          },
+          "20100406": {
+            "id": "20100406",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我暂时会住在这里，如果你想找我的话，来这里就好。",
+            "nextDialogs": [
+              "20100407"
+            ]
+          },
+          "20100407": {
+            "id": "20100407",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "要是我不在，你可以写个字条，贴在附近的墙上。我看到了就会去找你…",
+            "nextDialogs": [
+              "20100408"
+            ]
+          },
+          "20100408": {
+            "id": "20100408",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "…糟了，快到与<color=#00E1FFFF>珊瑚宫大人</color>约定的时间了。",
+            "nextDialogs": [
+              "20100409"
+            ]
+          },
+          "20100409": {
+            "id": "20100409",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "下次再带你逛一逛海祇岛吧，我先带你去<color=#00E1FFFF>珊瑚宫</color>！",
+            "nextDialogs": [
+              "20100410"
+            ]
+          },
+          "20100410": {
+            "id": "20100410",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "珊瑚宫，应该就是那位<color=#00E1FFFF>珊瑚宫心海</color>住的地方…我们过去看看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201005",
+      "subQuestName": "前往珊瑚宫",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201006",
+      "subQuestName": "与珊瑚宫心海对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100601"
+        ],
+        "dialogs": {
+          "20100601": {
+            "id": "20100601",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "无论如何，粮草都是重中之重，不能有任何闪失。",
+            "nextDialogs": [
+              "20100602"
+            ]
+          },
+          "20100602": {
+            "id": "20100602",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "如今我们和幕府军之间的冲突日渐激烈，必须要优先保证后方稳定。",
+            "nextDialogs": [
+              "20100603"
+            ]
+          },
+          "20100603": {
+            "id": "20100603",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "是。我再想想办法…",
+            "nextDialogs": [
+              "20100604"
+            ]
+          },
+          "20100604": {
+            "id": "20100604",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "放心，有了之前那批物资，我也在着手扩充军队。",
+            "nextDialogs": [
+              "20100605"
+            ]
+          },
+          "20100605": {
+            "id": "20100605",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "人手不足的时候辛苦你们了，之后的局面应该会有所好转。",
+            "nextDialogs": [
+              "20100606"
+            ]
+          },
+          "20100606": {
+            "id": "20100606",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "扩充军队？太好了。虽然不知道这次是谁在背后资助我们，但真是帮大忙了…",
+            "nextDialogs": [
+              "20100607"
+            ]
+          },
+          "20100607": {
+            "id": "20100607",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "欸？这不是哲平吗，你小子回海祇岛了？",
+            "nextDialogs": [
+              "20100608"
+            ]
+          },
+          "20100608": {
+            "id": "20100608",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "这位是…",
+            "nextDialogs": [
+              "20100609"
+            ]
+          },
+          "20100609": {
+            "id": "20100609",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "#嘿嘿，是珊瑚宫大人的客人哦，我是负责把{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}带回海祇岛的。",
+            "nextDialogs": [
+              "20100610"
+            ]
+          },
+          "20100610": {
+            "id": "20100610",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "哦？莫非就是最近军队中已有传言的那位…力大无穷、百步穿杨、金刚不坏的新人？",
+            "nextDialogs": [
+              "20100611"
+            ]
+          },
+          "20100611": {
+            "id": "20100611",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "为什么会有这样的传闻啦！",
+            "nextDialogs": [
+              "20100612"
+            ]
+          },
+          "20100612": {
+            "id": "20100612",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "两位远道而来，多半是有要紧事。我就不多打扰了，之后有空，也可以来我这坐坐。",
+            "nextDialogs": [
+              "20100613"
+            ]
+          },
+          "20100613": {
+            "id": "20100613",
+            "speakerId": 3146,
+            "speakerName": "大久保大介",
+            "text": "那珊瑚宫大人，我就先行告退了。",
+            "nextDialogs": [
+              "20100614"
+            ]
+          },
+          "20100614": {
+            "id": "20100614",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "珊瑚宫大人，我刚刚好像听到大久保大哥说什么「资助」，那是什么？",
+            "nextDialogs": [
+              "20100615"
+            ]
+          },
+          "20100615": {
+            "id": "20100615",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "不久之前，有人写信给我，说愿意支持海祇岛的抗争，并且送来了大量的物资。",
+            "nextDialogs": [
+              "20100616"
+            ]
+          },
+          "20100616": {
+            "id": "20100616",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "拜此所赐，我们终于可以放开手脚招兵买马，与幕府军在正面战场展开对抗。",
+            "nextDialogs": [
+              "20100618",
+              "20100620"
+            ]
+          },
+          "20100618": {
+            "id": "20100618",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "其实我对此还有疑虑…不过海祇岛并不富庶，这笔物资确实是雪中送炭。",
+            "nextDialogs": [
+              "20100621"
+            ]
+          },
+          "20100621": {
+            "id": "20100621",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "对方的要求也不过分，只说让我们竭尽全力对抗幕府军。",
+            "nextDialogs": [
+              "20100622"
+            ]
+          },
+          "20100622": {
+            "id": "20100622",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "不管他们的目的是什么，至少在这一点上我们是一致的，那就当做是多了一个不愿露面的盟友吧。",
+            "nextDialogs": [
+              "20100623"
+            ]
+          },
+          "20100623": {
+            "id": "20100623",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "当然，也不能完全放松警惕。如果你们发现任何异样，请及时汇报给我。",
+            "nextDialogs": [
+              "20100624"
+            ]
+          },
+          "20100624": {
+            "id": "20100624",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "珊瑚宫大人，那前线的伙食是不是也会变好？前几天去伤兵营，那些家伙吵着要吃烤肉。",
+            "nextDialogs": [
+              "20100625"
+            ]
+          },
+          "20100625": {
+            "id": "20100625",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "呵呵…放心，我已经安排好了。烤肉管饱，不过还是不许喝酒。",
+            "nextDialogs": [
+              "20100626"
+            ]
+          },
+          "20100626": {
+            "id": "20100626",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "太好了！",
+            "nextDialogs": [
+              "20100627"
+            ]
+          },
+          "20100627": {
+            "id": "20100627",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "也难为你们了。从眼狩令颁布、我们起兵反抗以来，军中的饭菜确实很少更换。",
+            "nextDialogs": [
+              "20100628"
+            ]
+          },
+          "20100628": {
+            "id": "20100628",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "之后我会和后勤部队进行协商，在这方面做出一些改变。",
+            "nextDialogs": [
+              "20100629"
+            ]
+          },
+          "20100629": {
+            "id": "20100629",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "不过我们的物资还是有限，胜利之前，还希望你们再忍耐一下。",
+            "nextDialogs": [
+              "20100630"
+            ]
+          },
+          "20100630": {
+            "id": "20100630",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那眼狩令，什么时候才能结束呢？",
+            "nextDialogs": [
+              "20100631"
+            ]
+          },
+          "20100631": {
+            "id": "20100631",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "这个问题…我也没有答案。",
+            "nextDialogs": [
+              "20100632"
+            ]
+          },
+          "20100632": {
+            "id": "20100632",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "眼狩令的颁布本就很奇怪。不管是天领奉行，还是将军大人，他们的态度都很微妙。",
+            "nextDialogs": [
+              "20100633"
+            ]
+          },
+          "20100633": {
+            "id": "20100633",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "天领奉行突然对眼狩令追捧至极，而将军大人似乎也对眼狩令带来的战争视而不见…",
+            "nextDialogs": [
+              "20100634"
+            ]
+          },
+          "20100634": {
+            "id": "20100634",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "在解开这些谜题之前，眼狩令恐怕都不会结束。我只能向你保证，只要眼狩令还在，我们就不会放弃反抗。",
+            "nextDialogs": [
+              "20100635"
+            ]
+          },
+          "20100635": {
+            "id": "20100635",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "#{NICKNAME}，现在我想再确认一下。在了解到海祇岛和反抗军的现状之后，你还愿意与我们一同抗争吗？",
+            "nextDialogs": [
+              "20100636"
+            ]
+          },
+          "20100636": {
+            "id": "20100636",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我不会放弃。",
+            "nextDialogs": [
+              "20100637"
+            ]
+          },
+          "20100637": {
+            "id": "20100637",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "好，那现在，我正式颁布对你的任命——",
+            "nextDialogs": [
+              "20100638"
+            ]
+          },
+          "20100638": {
+            "id": "20100638",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "从现在起，你将升任海祇岛特别行动队「剑鱼二番队」的队长。",
+            "nextDialogs": [
+              "20100639"
+            ]
+          },
+          "20100639": {
+            "id": "20100639",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "剑剑剑剑鱼二番队？是我理解的那个，被冠以「剑鱼」之名的特别行动队吗？",
+            "nextDialogs": [
+              "20100640"
+            ]
+          },
+          "20100640": {
+            "id": "20100640",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我记得光是进入特别行动队就很难了，居然可以一口气当上队长…这也太厉害了！",
+            "nextDialogs": [
+              "20100641"
+            ]
+          },
+          "20100641": {
+            "id": "20100641",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "虽然是破格任命，但我相信以你的智慧、勇气与力量，可以带领这支队伍走向胜利。",
+            "nextDialogs": [
+              "20100642"
+            ]
+          },
+          "20100642": {
+            "id": "20100642",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好耶！那我们什么时候去上任呀？",
+            "nextDialogs": [
+              "20100643"
+            ]
+          },
+          "20100643": {
+            "id": "20100643",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "剑鱼二番队如今正在本岛<color=#00E1FFFF>西南</color>处的山谷待命，最近有一些<color=#00E1FFFF>流浪武士</color>闹事，需要特别行动队来稳定后方。",
+            "nextDialogs": [
+              "20100644"
+            ]
+          },
+          "20100644": {
+            "id": "20100644",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "委任书我已经写好，你给他们看一下就可以了。那些流浪武士，也麻烦你一起清剿。",
+            "nextDialogs": [
+              "20100645"
+            ]
+          },
+          "20100645": {
+            "id": "20100645",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "特别行动队的人都是海祇岛的精锐，身上或许会有些傲气，不过相信你能够赢得他们的信任。",
+            "nextDialogs": [
+              "20100646"
+            ]
+          },
+          "20100646": {
+            "id": "20100646",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "那，那我呢？珊瑚宫大人，有什么作战需要我吗？",
+            "nextDialogs": [
+              "20100647"
+            ]
+          },
+          "20100647": {
+            "id": "20100647",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我也想为反抗军多做一些贡献！",
+            "nextDialogs": [
+              "20100648"
+            ]
+          },
+          "20100648": {
+            "id": "20100648",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "当然有了，等下我也会给你安排。",
+            "nextDialogs": [
+              "20100649"
+            ]
+          },
+          "20100649": {
+            "id": "20100649",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "#保证完成任务！嘿嘿，{NICKNAME}，虽然你已经当上了剑鱼二番队的小队长，但我也不会输给你。",
+            "nextDialogs": [
+              "20100650"
+            ]
+          },
+          "20100650": {
+            "id": "20100650",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好吧，你小心一点，不要太勉强了。",
+            "nextDialogs": [
+              "20100651"
+            ]
+          },
+          "20100651": {
+            "id": "20100651",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们也出发吧。"
+          },
+          "20100620": {
+            "id": "20100620",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "我对此也有疑虑…不过海祇岛并不富庶，这笔物资确实是雪中送炭。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201012",
+      "subQuestName": "前往「剑鱼二番队」驻扎地点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201013",
+      "subQuestName": "与「剑鱼二番队」成员对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101301"
+        ],
+        "dialogs": {
+          "20101301": {
+            "id": "20101301",
+            "speakerId": 12146,
+            "speakerName": "剑鱼二番队代理队长",
+            "text": "你就是新任的剑鱼二番队队长吧，珊瑚宫大人已经跟我们说了。",
+            "nextDialogs": [
+              "20101302"
+            ]
+          },
+          "20101302": {
+            "id": "20101302",
+            "speakerId": 12146,
+            "speakerName": "剑鱼二番队代理队长",
+            "text": "军队中早有关于你的传闻，委任书也确认完毕。不过我尚有一个疑虑…",
+            "nextDialogs": [
+              "20101303"
+            ]
+          },
+          "20101303": {
+            "id": "20101303",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯？还有什么问题吗？",
+            "nextDialogs": [
+              "20101304"
+            ]
+          },
+          "20101304": {
+            "id": "20101304",
+            "speakerId": 12146,
+            "speakerName": "剑鱼二番队代理队长",
+            "text": "简单来说，就是你是否值得我们追随。",
+            "nextDialogs": [
+              "20101305"
+            ]
+          },
+          "20101305": {
+            "id": "20101305",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你们的意思是…",
+            "nextDialogs": [
+              "20101306"
+            ]
+          },
+          "20101306": {
+            "id": "20101306",
+            "speakerId": 12147,
+            "speakerName": "剑鱼二番队老兵",
+            "text": "放在平时，最直接的做法就是痛痛快快地打一场。不过现在嘛，这里有更好的靶子。",
+            "nextDialogs": [
+              "20101307"
+            ]
+          },
+          "20101307": {
+            "id": "20101307",
+            "speakerId": 12147,
+            "speakerName": "剑鱼二番队老兵",
+            "text": "我们驻扎在这里，是因为最近很多<color=#00E1FFFF>流浪武士</color>闹事。如果你能把这些<color=#00E1FFFF>流浪武士</color>干掉，我们就认可你的实力。",
+            "nextDialogs": [
+              "20101308"
+            ]
+          },
+          "20101308": {
+            "id": "20101308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没问题。",
+            "nextDialogs": [
+              "20101309"
+            ]
+          },
+          "20101309": {
+            "id": "20101309",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯嗯，就让他们心服口服吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201017",
+      "subQuestName": "(test)刷出怪物用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201007",
+      "subQuestName": "清除附近魔物威胁",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201014",
+      "subQuestName": "与「剑鱼二番队」成员对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101401"
+        ],
+        "dialogs": {
+          "20101401": {
+            "id": "20101401",
+            "speakerId": 12146,
+            "speakerName": "剑鱼二番队代理队长",
+            "text": "有两下子嘛…虽然不如传闻中那么夸张，但确实很厉害。",
+            "nextDialogs": [
+              "20101402"
+            ]
+          },
+          "20101402": {
+            "id": "20101402",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "介绍一下，我叫幸德，剑鱼二番队的代理队长。这位是嘉久，也是队伍中的老兵了。",
+            "nextDialogs": [
+              "20101403"
+            ]
+          },
+          "20101403": {
+            "id": "20101403",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "现在，我正式把「队长」一职交给你。剑鱼二番队，随时待命。",
+            "nextDialogs": [
+              "20101404"
+            ]
+          },
+          "20101404": {
+            "id": "20101404",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还有别的流浪武士闹事吗？",
+            "nextDialogs": [
+              "20101405"
+            ]
+          },
+          "20101405": {
+            "id": "20101405",
+            "speakerId": 12061,
+            "speakerName": "嘉久",
+            "text": "遭到袭击的重灾区有两处，这里的流浪武士已经被队长干掉，他们的据点就只剩下<color=#00E1FFFF>本岛东部</color>的浅滩了。",
+            "nextDialogs": [
+              "20101406"
+            ]
+          },
+          "20101406": {
+            "id": "20101406",
+            "speakerId": 12061,
+            "speakerName": "嘉久",
+            "text": "不过那里的流浪武士数量更多，战斗力也更强。",
+            "nextDialogs": [
+              "20101409"
+            ]
+          },
+          "20101409": {
+            "id": "20101409",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是呀，海祇岛还在和幕府军打仗呢，不能让这些坏家伙在后面捣乱！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201010",
+      "subQuestName": "前往有魔物威胁的地点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201016",
+      "subQuestName": "与「剑鱼二番队」成员对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101601"
+        ],
+        "dialogs": {
+          "20101601": {
+            "id": "20101601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好多流浪武士…",
+            "nextDialogs": [
+              "20101602"
+            ]
+          },
+          "20101602": {
+            "id": "20101602",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "这还只是其中的一部分，他们在附近还有两个营地。",
+            "nextDialogs": [
+              "20101603"
+            ]
+          },
+          "20101603": {
+            "id": "20101603",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "不管我们进攻哪个营地，其他两个营地的流浪武士都会成为隐患。他们可以自由选择支援或逃走。",
+            "nextDialogs": [
+              "20101604"
+            ]
+          },
+          "20101604": {
+            "id": "20101604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那就同时进攻…",
+            "nextDialogs": [
+              "20101605"
+            ]
+          },
+          "20101605": {
+            "id": "20101605",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "可是这样的话，队长有可能遇到危险…",
+            "nextDialogs": [
+              "20101606"
+            ]
+          },
+          "20101606": {
+            "id": "20101606",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "分兵之后，保护队长的人数太少，我有点不放心。",
+            "nextDialogs": [
+              "20101607"
+            ]
+          },
+          "20101607": {
+            "id": "20101607",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没事。",
+            "nextDialogs": [
+              "20101608"
+            ]
+          },
+          "20101608": {
+            "id": "20101608",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "没错没错，这点人还伤不到我们哦！",
+            "nextDialogs": [
+              "20101609"
+            ]
+          },
+          "20101609": {
+            "id": "20101609",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "好吧。那我们将他们一网打尽，之后再回来与队长会合！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201018",
+      "subQuestName": "(test)悄悄的把NPC换成怪物$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201008",
+      "subQuestName": "清除附近魔物威胁",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201015",
+      "subQuestName": "与「剑鱼二番队」成员对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101501"
+        ],
+        "dialogs": {
+          "20101501": {
+            "id": "20101501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#这样应该就可以了…{NICKNAME}，你没受伤吧？",
+            "nextDialogs": [
+              "20101504"
+            ]
+          },
+          "20101504": {
+            "id": "20101504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯嗯…也不知道幸德和嘉久那边怎么样了。要不要过去看看呢？",
+            "nextDialogs": [
+              "20101505"
+            ]
+          },
+          "20101505": {
+            "id": "20101505",
+            "speakerId": 12061,
+            "speakerName": "嘉久",
+            "text": "队长——",
+            "nextDialogs": [
+              "20101506"
+            ]
+          },
+          "20101506": {
+            "id": "20101506",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "报告队长，其他两个营地清剿完毕，这样整个海祇岛的后方就暂时安全了。",
+            "nextDialogs": [
+              "20101507"
+            ]
+          },
+          "20101507": {
+            "id": "20101507",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "太好了！嘿嘿，既解决了流浪武士的麻烦，又得到了大家的认可…",
+            "nextDialogs": [
+              "20101508"
+            ]
+          },
+          "20101508": {
+            "id": "20101508",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过之后应该做些什么呢？还是回去问问心海吧。",
+            "nextDialogs": [
+              "20101509"
+            ]
+          },
+          "20101509": {
+            "id": "20101509",
+            "speakerId": 12061,
+            "speakerName": "嘉久",
+            "text": "这次终于出了口恶气，早就看这帮流浪武士不顺眼了，不过幸德以前一直不让打。",
+            "nextDialogs": [
+              "20101510"
+            ]
+          },
+          "20101510": {
+            "id": "20101510",
+            "speakerId": 12098,
+            "speakerName": "幸德",
+            "text": "啊？说得好像没有队长在，你们打得过一样。我不是为了你们好吗？",
+            "nextDialogs": [
+              "20101511"
+            ]
+          },
+          "20101511": {
+            "id": "20101511",
+            "speakerId": 12061,
+            "speakerName": "嘉久",
+            "text": "明明是你比较胆小…",
+            "nextDialogs": [
+              "20101512"
+            ]
+          },
+          "20101512": {
+            "id": "20101512",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "喂喂，不可以吵架哦！",
+            "nextDialogs": [
+              "20101513"
+            ]
+          },
+          "20101513": {
+            "id": "20101513",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#真是的…{NICKNAME}，我们还是先去跟<color=#00E1FFFF>心海</color>复命吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201011",
+      "subQuestName": "回到本部，与珊瑚宫心海对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101101"
+        ],
+        "dialogs": {
+          "20101101": {
+            "id": "20101101",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "#怎么样，{NICKNAME}，上任的过程还顺利吗？",
+            "nextDialogs": [
+              "20101103",
+              "20101105"
+            ]
+          },
+          "20101103": {
+            "id": "20101103",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "呵呵…虽然这么说，但幸德他们应该还是稍微考验了你一下吧？",
+            "nextDialogs": [
+              "20101106"
+            ]
+          },
+          "20101106": {
+            "id": "20101106",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "不过，相信以你的能力，通过这种考验还是很轻松的。",
+            "nextDialogs": [
+              "20101107"
+            ]
+          },
+          "20101107": {
+            "id": "20101107",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "你回来复命，说明登陆海祇岛的流浪武士已经被赶跑了吧？",
+            "nextDialogs": [
+              "20101122"
+            ]
+          },
+          "20101122": {
+            "id": "20101122",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "当然啦，我们可是把他们揍得落花流水呢！",
+            "nextDialogs": [
+              "20101108"
+            ]
+          },
+          "20101108": {
+            "id": "20101108",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "这样就可以了，接下来只要让大久保派人严加看守，就可以避免他们再次闹事。",
+            "nextDialogs": [
+              "20101109"
+            ]
+          },
+          "20101109": {
+            "id": "20101109",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "辛苦了。有功当赏，必须要给你奖励才行。让我想想…升职不行，太快了。增加军饷…",
+            "nextDialogs": [
+              "20101110"
+            ]
+          },
+          "20101110": {
+            "id": "20101110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么没看见哲平？",
+            "nextDialogs": [
+              "20101111"
+            ]
+          },
+          "20101111": {
+            "id": "20101111",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "我给哲平也安排了任务，是一个奇袭幕府海军的作战。",
+            "nextDialogs": [
+              "20101112"
+            ]
+          },
+          "20101112": {
+            "id": "20101112",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "他不愿意呆在后方，我也尊重他的选择。",
+            "nextDialogs": [
+              "20101113"
+            ]
+          },
+          "20101113": {
+            "id": "20101113",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "#言归正传，{NICKNAME}，有一项特殊的任务，我想要交给你。",
+            "nextDialogs": [
+              "20101114"
+            ]
+          },
+          "20101114": {
+            "id": "20101114",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "「特殊的任务」？",
+            "nextDialogs": [
+              "20101115"
+            ]
+          },
+          "20101115": {
+            "id": "20101115",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "是的。在海祇岛和踏鞴砂之间，有一处<color=#00E1FFFF>魔神遗迹</color>。那里有几个小岛，经常被当做运送物资的中转站。",
+            "nextDialogs": [
+              "20101116"
+            ]
+          },
+          "20101116": {
+            "id": "20101116",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "不过这段时间，存放在那里的粮草经常会莫名其妙地消失。",
+            "nextDialogs": [
+              "20101117"
+            ]
+          },
+          "20101117": {
+            "id": "20101117",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "但是，军队路过的时候，却又说没有发现危险…我想委托你帮忙查证一下真相。",
+            "nextDialogs": [
+              "20101118"
+            ]
+          },
+          "20101118": {
+            "id": "20101118",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "此事并不急迫，不必太过匆忙。这几天，你们不妨先熟悉一下军队，也可以在海祇岛各处转转。",
+            "nextDialogs": [
+              "20101119"
+            ]
+          },
+          "20101119": {
+            "id": "20101119",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "等哲平回来之后，你可以跟他聊聊天，然后找个天气晴朗的日子出海。",
+            "nextDialogs": [
+              "20101120"
+            ]
+          },
+          "20101120": {
+            "id": "20101120",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哲平他真的没事吗…",
+            "nextDialogs": [
+              "20101121"
+            ]
+          },
+          "20101121": {
+            "id": "20101121",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#一想到他以前冒失的样子，就有点担心。对了，{NICKNAME}，我们去<color=#00E1FFFF>训练营</color>等他吧！"
+          },
+          "20101105": {
+            "id": "20101105",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "嗯，确实是他们的性格。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201009",
+      "subQuestName": "与哲平对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100901"
+        ],
+        "dialogs": {
+          "20100901": {
+            "id": "20100901",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "#好久不见啦，{NICKNAME}。",
+            "nextDialogs": [
+              "20100902"
+            ]
+          },
+          "20100902": {
+            "id": "20100902",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "怎么样，和剑鱼二番队那些人还合得来吗？",
+            "nextDialogs": [
+              "20100905"
+            ]
+          },
+          "20100905": {
+            "id": "20100905",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "嘿嘿，就让我这个前辈教你一些统兵之道吧！",
+            "nextDialogs": [
+              "20100906"
+            ]
+          },
+          "20100906": {
+            "id": "20100906",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "你要给他们增加军饷，还要设置一些悬赏，要让他们遵守纪律…还有什么来着？",
+            "nextDialogs": [
+              "20100907"
+            ]
+          },
+          "20100907": {
+            "id": "20100907",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇哦…哲平，你是从哪听来的啊？",
+            "nextDialogs": [
+              "20100908"
+            ]
+          },
+          "20100908": {
+            "id": "20100908",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "从一本八重堂出版的小说…那是好久以前的事了。当时我用好几个团子当贿赂，那个朋友才答应借我看。",
+            "nextDialogs": [
+              "20100909"
+            ]
+          },
+          "20100909": {
+            "id": "20100909",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "居然试图用小说里的东西指导军队，这就是别人说的「纸上谈兵」吗？",
+            "nextDialogs": [
+              "20100910"
+            ]
+          },
+          "20100910": {
+            "id": "20100910",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "哼哼，不要小看我哦。现在我可是和你们一样，正在学习和摸索「治军之道」呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201051",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105101"
+        ],
+        "dialogs": {
+          "20105101": {
+            "id": "20105101",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "今后，一起努力吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201052",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105201"
+        ],
+        "dialogs": {
+          "20105201": {
+            "id": "20105201",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "虽然直升队长确实很厉害，但我也不会掉队的！早晚有一天会赶上你的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201053",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105301"
+        ],
+        "dialogs": {
+          "20105301": {
+            "id": "20105301",
+            "speakerId": 12146,
+            "speakerName": "剑鱼二番队代理队长",
+            "text": "让我看看，你是否值得我们追随。",
+            "nextDialogs": [
+              "20105302"
+            ]
+          },
+          "20105302": {
+            "id": "20105302",
+            "speakerId": 12147,
+            "speakerName": "剑鱼二番队老兵",
+            "text": "上司无能的话，我们也会跟着送命。所以在这件事上我们可是很严格的。"
+          }
+        }
+      }
+    }
+  ]
+}

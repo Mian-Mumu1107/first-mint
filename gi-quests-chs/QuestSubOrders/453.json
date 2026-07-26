@@ -1,0 +1,568 @@
+{
+  "lineCounts": {
+    "Player": 6,
+    "安柏": 19,
+    "杜拉夫": 5,
+    "派蒙": 17,
+    "神奇的霍普金斯": 8
+  },
+  "subQuests": [
+    {
+      "subId": "45301",
+      "subQuestName": "与杜拉夫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530101"
+        ],
+        "dialogs": {
+          "4530101": {
+            "id": "4530101",
+            "speakerId": 1537,
+            "speakerName": "杜拉夫",
+            "text": "唉，真是凄惨啊。 站都站不起来了。",
+            "nextDialogs": [
+              "4530102"
+            ]
+          },
+          "4530102": {
+            "id": "4530102",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "什么？！真是太可恶了！",
+            "nextDialogs": [
+              "4530103"
+            ]
+          },
+          "4530103": {
+            "id": "4530103",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可是……他没有受伤啊。",
+            "nextDialogs": [
+              "4530104"
+            ]
+          },
+          "4530104": {
+            "id": "4530104",
+            "speakerId": 1537,
+            "speakerName": "杜拉夫",
+            "text": "没错，太凄惨了。 他被吓得站不起来了。",
+            "nextDialogs": [
+              "4530105"
+            ]
+          },
+          "4530105": {
+            "id": "4530105",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "哦……那，那真是太凄惨了。",
+            "nextDialogs": [
+              "4530106"
+            ]
+          },
+          "4530106": {
+            "id": "4530106",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "刚才还有没有目击到什么有用的情报？",
+            "nextDialogs": [
+              "4530107"
+            ]
+          },
+          "4530107": {
+            "id": "4530107",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "这，这还是我第一次见到狼，真是太吓人了…",
+            "nextDialogs": [
+              "4530108"
+            ]
+          },
+          "4530108": {
+            "id": "4530108",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "…看来是没有什么有用的目击情报了。",
+            "nextDialogs": [
+              "4530109"
+            ]
+          },
+          "4530109": {
+            "id": "4530109",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "还是再去调查一下现场的痕迹吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45302",
+      "subQuestName": "调查线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530201"
+        ],
+        "dialogs": {
+          "4530201": {
+            "id": "4530201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这爪印，看来狼不止两只！呃，而且居然大概有两米高！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45307",
+      "subQuestName": "与派蒙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530701"
+        ],
+        "dialogs": {
+          "4530701": {
+            "id": "4530701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个爪印——",
+            "nextDialogs": [
+              "4530702"
+            ]
+          },
+          "4530702": {
+            "id": "4530702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "通过爪印，可以推断出来狼的数量和大小。",
+            "nextDialogs": [
+              "4530703"
+            ]
+          },
+          "4530703": {
+            "id": "4530703",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "数量不止两条，大小的话，这一匹大概有——",
+            "nextDialogs": [
+              "4530704"
+            ]
+          },
+          "4530704": {
+            "id": "4530704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "大概有？",
+            "nextDialogs": [
+              "4530705"
+            ]
+          },
+          "4530705": {
+            "id": "4530705",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "…嗯，呃，大概有两米高！",
+            "nextDialogs": [
+              "4530706"
+            ]
+          },
+          "4530706": {
+            "id": "4530706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "…派蒙，你，见过狼吗？",
+            "nextDialogs": [
+              "4530707"
+            ]
+          },
+          "4530707": {
+            "id": "4530707",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "狼很神秘的，一般哪有机会看到。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45303",
+      "subQuestName": "调查线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45308",
+      "subQuestName": "与派蒙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530801"
+        ],
+        "dialogs": {
+          "4530801": {
+            "id": "4530801",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个是狼的牙齿。",
+            "nextDialogs": [
+              "4530802"
+            ]
+          },
+          "4530802": {
+            "id": "4530802",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好像是扑起来的时候，正好撞到了关上的门。",
+            "nextDialogs": [
+              "4530803"
+            ]
+          },
+          "4530803": {
+            "id": "4530803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "可能是有点缺钙。",
+            "nextDialogs": [
+              "4530804"
+            ]
+          },
+          "4530804": {
+            "id": "4530804",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "总之这次袭击，没有村民受致命伤，真是万幸。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45304",
+      "subQuestName": "调查线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45305",
+      "subQuestName": "重要线索$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530501"
+        ],
+        "dialogs": {
+          "4530501": {
+            "id": "4530501",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "这是狼的毛发。 据说璃月人会拿这个制作毛笔。",
+            "nextDialogs": [
+              "4530502"
+            ]
+          },
+          "4530502": {
+            "id": "4530502",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "毛色和书上说的蒙德狼毛色出入很大。说不定真的是外来的狼？",
+            "nextDialogs": [
+              "4530503"
+            ]
+          },
+          "4530503": {
+            "id": "4530503",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "狼身上有好几种毛发，颜色深浅都不同啦。",
+            "nextDialogs": [
+              "4530504"
+            ]
+          },
+          "4530504": {
+            "id": "4530504",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "不过，你看看这个——",
+            "nextDialogs": [
+              "4530505"
+            ]
+          },
+          "4530505": {
+            "id": "4530505",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这是另一撮毛，不过，上面沾了什么。",
+            "nextDialogs": [
+              "4530508"
+            ]
+          },
+          "4530508": {
+            "id": "4530508",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "哼哼，这是钩钩果的种子。看到了吗，种子上的这种钩子。",
+            "nextDialogs": [
+              "4530509"
+            ]
+          },
+          "4530509": {
+            "id": "4530509",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "蒙德境内，它只在奔狼领和明冠峡这种野地方才长。",
+            "nextDialogs": [
+              "4530510"
+            ]
+          },
+          "4530510": {
+            "id": "4530510",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那…果然还是奔狼领的狼群咯？",
+            "nextDialogs": [
+              "4530511"
+            ]
+          },
+          "4530511": {
+            "id": "4530511",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "嗯…同一地区，也可能会有多个狼群争夺领地的情况。",
+            "nextDialogs": [
+              "4530512"
+            ]
+          },
+          "4530512": {
+            "id": "4530512",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "虽然不知道详情，但这也是个重要的线索，足够推进调查了。",
+            "nextDialogs": [
+              "4530513"
+            ]
+          },
+          "4530513": {
+            "id": "4530513",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "在出发之前，我去安抚一下村民的情绪吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45306",
+      "subQuestName": "前往清泉镇，安抚众人情绪",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4530601"
+        ],
+        "dialogs": {
+          "4530601": {
+            "id": "4530601",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "你们调查找到什么结果了吗？",
+            "nextDialogs": [
+              "4530602"
+            ]
+          },
+          "4530602": {
+            "id": "4530602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜啊，你站起来了！",
+            "nextDialogs": [
+              "4530603"
+            ]
+          },
+          "4530603": {
+            "id": "4530603",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "我缓过来了。甚至可以说，我从地狱里爬回来了。",
+            "nextDialogs": [
+              "4530604"
+            ]
+          },
+          "4530604": {
+            "id": "4530604",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "所以骑士团调查有结果了吗？",
+            "nextDialogs": [
+              "4530605"
+            ]
+          },
+          "4530605": {
+            "id": "4530605",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "从残留的毛发里能看出来狼群生活在奔狼领。除此以外都不太明朗。",
+            "nextDialogs": [
+              "4530606"
+            ]
+          },
+          "4530606": {
+            "id": "4530606",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "不过请你们放心，我马上就去奔狼领把事件调查清楚。",
+            "nextDialogs": [
+              "4530607"
+            ]
+          },
+          "4530607": {
+            "id": "4530607",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "骑士团绝对不会放任这么危险的事情继续发生。",
+            "nextDialogs": [
+              "4530608"
+            ]
+          },
+          "4530608": {
+            "id": "4530608",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "行吧。补救得晚了点，好过完全不作为。",
+            "nextDialogs": [
+              "4530609"
+            ]
+          },
+          "4530609": {
+            "id": "4530609",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇，这个人好没礼貌。",
+            "nextDialogs": [
+              "4530610"
+            ]
+          },
+          "4530610": {
+            "id": "4530610",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "我们现在就要去做该做的事情了。",
+            "nextDialogs": [
+              "4530611"
+            ]
+          },
+          "4530611": {
+            "id": "4530611",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "喂，不要做蠢事啊。",
+            "nextDialogs": [
+              "4530612"
+            ]
+          },
+          "4530612": {
+            "id": "4530612",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "笑话，我们和骑士团不一样。这仇必须算清楚了。",
+            "nextDialogs": [
+              "4530613"
+            ]
+          },
+          "4530613": {
+            "id": "4530613",
+            "speakerId": 1543,
+            "speakerName": "神奇的霍普金斯",
+            "text": "我们走！",
+            "nextDialogs": [
+              "4530614"
+            ]
+          },
+          "4530614": {
+            "id": "4530614",
+            "speakerId": 1537,
+            "speakerName": "杜拉夫",
+            "text": "真是凄惨啊。",
+            "nextDialogs": [
+              "4530615"
+            ]
+          },
+          "4530615": {
+            "id": "4530615",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你在说什么？",
+            "nextDialogs": [
+              "4530616"
+            ]
+          },
+          "4530616": {
+            "id": "4530616",
+            "speakerId": 1537,
+            "speakerName": "杜拉夫",
+            "text": "说他们的未来。",
+            "nextDialogs": [
+              "4530617"
+            ]
+          },
+          "4530617": {
+            "id": "4530617",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我同意你的意见。",
+            "nextDialogs": [
+              "4530618"
+            ]
+          },
+          "4530618": {
+            "id": "4530618",
+            "speakerId": 1537,
+            "speakerName": "杜拉夫",
+            "text": "年轻人容易火气上头。劳烦各位再照顾一下吧，别让他们做蠢事。",
+            "nextDialogs": [
+              "4530619"
+            ]
+          },
+          "4530619": {
+            "id": "4530619",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "放心吧，这是我们职责所在——虽然这家伙真的很让人不爽。",
+            "nextDialogs": [
+              "4530620"
+            ]
+          },
+          "4530620": {
+            "id": "4530620",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "请交给我们吧。",
+            "nextDialogs": [
+              "4530621"
+            ]
+          },
+          "4530621": {
+            "id": "4530621",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那我们赶快去奔狼领吧！"
+          }
+        }
+      }
+    }
+  ]
+}

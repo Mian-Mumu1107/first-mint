@@ -1,0 +1,78 @@
+{
+  "lineCounts": {
+    "Freda": 6,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "4016101",
+      "subQuestName": "Go back to the shop",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401610101"
+        ],
+        "dialogs": {
+          "401610101": {
+            "id": "401610101",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "Hello there! We can improve the efficiency of our operations now.",
+            "nextDialogs": [
+              "401610102"
+            ]
+          },
+          "401610102": {
+            "id": "401610102",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "Currently, there are three areas you can improve — brewing, cultivation, and sales.",
+            "nextDialogs": [
+              "401610103"
+            ]
+          },
+          "401610103": {
+            "id": "401610103",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "Increasing your efficiency in these areas will make it much easier to run your business.",
+            "nextDialogs": [
+              "401610105",
+              "401610107",
+              "401610109"
+            ]
+          },
+          "401610105": {
+            "id": "401610105",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "Looks like all the preparations needed for this upgrade have been made! Please try it out."
+          },
+          "401610107": {
+            "id": "401610107",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "You're in luck! I just got a new batch of provisions! Please take a look and see if anything catches your eye!"
+          },
+          "401610109": {
+            "id": "401610109",
+            "speakerId": 30519,
+            "speakerName": "Freda",
+            "text": "Best of luck with your business!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4016102",
+      "subQuestName": "Talk to Freda",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

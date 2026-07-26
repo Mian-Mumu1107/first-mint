@@ -1,0 +1,856 @@
+{
+  "lineCounts": {
+    "Black Screen": 4,
+    "Caribert": 4,
+    "Chlothar": 18,
+    "Dainsleif": 30,
+    "Eide": 45,
+    "Forest Ranger": 7,
+    "Paimon": 12,
+    "Player": 60,
+    "Ranger Guard": 4
+  },
+  "subQuests": [
+    {
+      "subId": "801214",
+      "subQuestName": "Enter the cavern again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801222",
+      "subQuestName": "Enter the cavern again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801201",
+      "subQuestName": "Enter the cavern again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120101"
+        ],
+        "dialogs": {
+          "80120101": {
+            "id": "80120101",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "No, impossible... What happened?",
+            "nextDialogs": [
+              "80120104"
+            ]
+          },
+          "80120104": {
+            "id": "80120104",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "The hilichurl worshipers have disappeared, too...",
+            "nextDialogs": [
+              "80120105"
+            ]
+          },
+          "80120105": {
+            "id": "80120105",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Was it all an illusion?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "801224",
+      "subQuestName": "Enter the cavern again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801202",
+      "subQuestName": "Go to the mysterious statue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120201"
+        ],
+        "dialogs": {
+          "80120201": {
+            "id": "80120201",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You take Eide, who seems to be in a trance, back to the small house..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801203",
+      "subQuestName": "Go to the mysterious statue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801204",
+      "subQuestName": "Return to Eide's house",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120202"
+        ],
+        "dialogs": {
+          "80120202": {
+            "id": "80120202",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Caribert? Where has he gone!?",
+            "nextDialogs": [
+              "80120205"
+            ]
+          },
+          "80120205": {
+            "id": "80120205",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Oh no, no, no... Maybe someone else came by and found him?",
+            "nextDialogs": [
+              "80120206"
+            ]
+          },
+          "80120206": {
+            "id": "80120206",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "No, no, it can't have been that. There's no sign of a break-in, and no sign of anyone having been here..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801215",
+      "subQuestName": "Go inside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801205",
+      "subQuestName": "Look for clues outside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120301"
+        ],
+        "dialogs": {
+          "80120301": {
+            "id": "80120301",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "It's his scarf... he dropped it.",
+            "nextDialogs": [
+              "80120302"
+            ]
+          },
+          "80120302": {
+            "id": "80120302",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Looks like we're going the right way. Come on."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801216",
+      "subQuestName": "Go inside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801206",
+      "subQuestName": "Continue to search for Caribert",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120601"
+        ],
+        "dialogs": {
+          "80120601": {
+            "id": "80120601",
+            "speakerId": 13076,
+            "speakerName": "Caribert",
+            "text": "...",
+            "nextDialogs": [
+              "80120602"
+            ]
+          },
+          "80120602": {
+            "id": "80120602",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Caribert!",
+            "nextDialogs": [
+              "80120603"
+            ]
+          },
+          "80120603": {
+            "id": "80120603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We found him!",
+            "nextDialogs": [
+              "80120604"
+            ]
+          },
+          "80120604": {
+            "id": "80120604",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Caribert, stop! It's me! It's Papa!",
+            "nextDialogs": [
+              "80120605"
+            ]
+          },
+          "80120605": {
+            "id": "80120605",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Whatever you saw, it was... it was all a trick! An illusion!",
+            "nextDialogs": [
+              "80120606"
+            ]
+          },
+          "80120606": {
+            "id": "80120606",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "I told you, we're in a fairytale world now, nothing here is real... Please, Caribert, come back... it's time to go back!",
+            "nextDialogs": [
+              "80120607"
+            ]
+          },
+          "80120607": {
+            "id": "80120607",
+            "speakerId": 13076,
+            "speakerName": "Caribert",
+            "text": "...",
+            "nextDialogs": [
+              "80120608"
+            ]
+          },
+          "80120608": {
+            "id": "80120608",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Caribert?",
+            "nextDialogs": [
+              "80120611"
+            ]
+          },
+          "80120611": {
+            "id": "80120611",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "How could this happen? He regained his mind... He must be able to hear me, surely?",
+            "nextDialogs": [
+              "80120612"
+            ]
+          },
+          "80120612": {
+            "id": "80120612",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Come, Caribert, we have to go home now... Papa's here to take you home, alright?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "801217",
+      "subQuestName": "Go inside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801207",
+      "subQuestName": "Talk to the Forest Rangers",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120401"
+        ],
+        "dialogs": {
+          "80120401": {
+            "id": "80120401",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Curses... Forest Rangers.",
+            "nextDialogs": [
+              "80120402"
+            ]
+          },
+          "80120402": {
+            "id": "80120402",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "Hey! Who are you? We haven't seen you around here before. What's your business here?",
+            "nextDialogs": [
+              "80120403"
+            ]
+          },
+          "80120403": {
+            "id": "80120403",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Have you seen a hilichurl? A hilichurl should have come past this way... have you seen it?",
+            "nextDialogs": [
+              "80120404"
+            ]
+          },
+          "80120404": {
+            "id": "80120404",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "I asked you first... Don't make this more difficult than it needs to be!",
+            "nextDialogs": [
+              "80120405"
+            ]
+          },
+          "80120405": {
+            "id": "80120405",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "I said... have you seen... a HILICHURL!!!",
+            "nextDialogs": [
+              "80120406"
+            ]
+          },
+          "80120406": {
+            "id": "80120406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Eide...",
+            "nextDialogs": [
+              "80120407"
+            ]
+          },
+          "80120407": {
+            "id": "80120407",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "Hey, whoa... Look, Sir, there's no need to get so worked up...",
+            "nextDialogs": [
+              "80120408"
+            ]
+          },
+          "80120408": {
+            "id": "80120408",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "There are hilichurls everywhere, what's the big deal? We see plenty of them out here...",
+            "nextDialogs": [
+              "80120409"
+            ]
+          },
+          "80120409": {
+            "id": "80120409",
+            "speakerId": 13079,
+            "speakerName": "Ranger Guard",
+            "text": "Exactly. Matter of fact, we just took out a few of them back there. Those dumb boneheads...",
+            "nextDialogs": [
+              "80120410"
+            ]
+          },
+          "80120410": {
+            "id": "80120410",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "You... you...!",
+            "nextDialogs": [
+              "80120411"
+            ]
+          },
+          "80120411": {
+            "id": "80120411",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Forest Ranger scum! You spawn of The Seven are all the same! I'll have your heads if you so much as laid a finger on Caribert!",
+            "nextDialogs": [
+              "80120412"
+            ]
+          },
+          "80120412": {
+            "id": "80120412",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "You...! You're raving mad! You've got some gall, coming here to our nation, insulting the Forest Rangers!",
+            "nextDialogs": [
+              "80120501"
+            ]
+          },
+          "80120501": {
+            "id": "80120501",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Curse you all, Forest Rangers...",
+            "nextDialogs": [
+              "80120515"
+            ]
+          },
+          "80120515": {
+            "id": "80120515",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "Both sides calm down for now, thanks to your urging...",
+            "nextDialogs": [
+              "80120505"
+            ]
+          },
+          "80120505": {
+            "id": "80120505",
+            "speakerId": 13079,
+            "speakerName": "Ranger Guard",
+            "text": "I don't get it. Why make such a huge fuss over a few hilichurls...? It makes no sense...",
+            "nextDialogs": [
+              "80120506"
+            ]
+          },
+          "80120506": {
+            "id": "80120506",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "You...",
+            "nextDialogs": [
+              "80120507"
+            ]
+          },
+          "80120507": {
+            "id": "80120507",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "He'd only just regained his mind. How could you do this to him...",
+            "nextDialogs": [
+              "80120508"
+            ]
+          },
+          "80120508": {
+            "id": "80120508",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "So tell me, Forest Rangers... Did you really spare none of them? Did you really take out every last hilichurl you saw?",
+            "nextDialogs": [
+              "80120509"
+            ]
+          },
+          "80120509": {
+            "id": "80120509",
+            "speakerId": 13079,
+            "speakerName": "Ranger Guard",
+            "text": "Geez, you're really not gonna let this go... Fine, you weirdo. If you must know, I happened to cross paths with a solitary hilichurl when I left the team to, uh... use the toilet.",
+            "nextDialogs": [
+              "80120510"
+            ]
+          },
+          "80120510": {
+            "id": "80120510",
+            "speakerId": 13079,
+            "speakerName": "Ranger Guard",
+            "text": "I was frightened at first, but it didn't seem to have any interest in me at all. It was just bumbling along, in... that direction. So I left it alone.",
+            "nextDialogs": [
+              "80120511"
+            ]
+          },
+          "80120511": {
+            "id": "80120511",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There's still hope!",
+            "nextDialogs": [
+              "80120513"
+            ]
+          },
+          "80120513": {
+            "id": "80120513",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Yes! Wonderful... Wonderful. Let's go! We have to find him!",
+            "nextDialogs": [
+              "80120514"
+            ]
+          },
+          "80120514": {
+            "id": "80120514",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "Wait, you're leaving? Not even a \"Thanks for the info, goodbye\"?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "801220",
+      "subQuestName": "Go inside",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801210",
+      "subQuestName": "Use the clue to continue searching for Caribert",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801223",
+      "subQuestName": "Talk to Eide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801211",
+      "subQuestName": "Talk to Eide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120701"
+        ],
+        "dialogs": {
+          "80120701": {
+            "id": "80120701",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "...Haha, I see, I understand now...",
+            "nextDialogs": [
+              "80120702"
+            ]
+          },
+          "80120702": {
+            "id": "80120702",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "Finally, it all makes sense...",
+            "nextDialogs": [
+              "80120703"
+            ]
+          },
+          "80120703": {
+            "id": "80120703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What happened... did I faint? I remember Caribert taking his mask off, but then...)",
+            "nextDialogs": [
+              "80120704"
+            ]
+          },
+          "80120704": {
+            "id": "80120704",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "Aha, Traveler, you're awake... Finally, we can rejoice together!",
+            "nextDialogs": [
+              "80120705"
+            ]
+          },
+          "80120705": {
+            "id": "80120705",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "Wait, no... Why am I still calling you \"Traveler\"? I have known your true identity for some time now.",
+            "nextDialogs": [
+              "80120708"
+            ]
+          },
+          "80120708": {
+            "id": "80120708",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "Hehehe... I suspected it was you from the beginning! I had to talk to you to be sure.",
+            "nextDialogs": [
+              "80120709"
+            ]
+          },
+          "80120709": {
+            "id": "80120709",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But I've never met you...",
+            "nextDialogs": [
+              "80120710"
+            ]
+          },
+          "80120710": {
+            "id": "80120710",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "Oh, of course you haven't. With your status? You can hardly be expected to know all of us.",
+            "nextDialogs": [
+              "80120711"
+            ]
+          },
+          "80120711": {
+            "id": "80120711",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "In any case... I've been using a fake name this entire time. \"Eide\" is the name of a servant I once had...",
+            "nextDialogs": [
+              "80120712"
+            ]
+          },
+          "80120712": {
+            "id": "80120712",
+            "speakerId": 13174,
+            "speakerName": "Eide",
+            "text": "My real name is Chlothar...",
+            "nextDialogs": [
+              "80120713"
+            ]
+          },
+          "80120713": {
+            "id": "80120713",
+            "speakerId": 1005,
+            "speakerName": "Chlothar",
+            "text": "...Chlothar Alberich."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801213",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120801"
+        ],
+        "dialogs": {
+          "80120801": {
+            "id": "80120801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...You're awake! Oh, thank goodness, you're awake!",
+            "nextDialogs": [
+              "80120802"
+            ]
+          },
+          "80120802": {
+            "id": "80120802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon was worried sick! ...Uh, {NICKNAME}? {NICKNAME}?",
+            "nextDialogs": [
+              "80120803"
+            ]
+          },
+          "80120803": {
+            "id": "80120803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "80120804"
+            ]
+          },
+          "80120804": {
+            "id": "80120804",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "What happened while you were unconscious?",
+            "nextDialogs": [
+              "80120805"
+            ]
+          },
+          "80120805": {
+            "id": "80120805",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "I checked the Ley Lines nearby. It appears that the Abyss tampered with them, and they've been in turmoil ever since...",
+            "nextDialogs": [
+              "80120806"
+            ]
+          },
+          "80120806": {
+            "id": "80120806",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "Information and memories flow within the Ley Lines... What did you witness?",
+            "nextDialogs": [
+              "80120809"
+            ]
+          },
+          "80120809": {
+            "id": "80120809",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "You mean Chlothar Alberich?",
+            "nextDialogs": [
+              "80120810"
+            ]
+          },
+          "80120810": {
+            "id": "80120810",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "After founding the Abyss Order, his faith in the Abyss led him to do a great many things.",
+            "nextDialogs": [
+              "80120811"
+            ]
+          },
+          "80120811": {
+            "id": "80120811",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "But the curse of immortality continued to torment his body and mind, and in the end, neither his faith nor the Abyss he worshiped could save him.",
+            "nextDialogs": [
+              "80120812"
+            ]
+          },
+          "80120812": {
+            "id": "80120812",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "After a hundred years, he lost his mind completely, and was never seen again.",
+            "nextDialogs": [
+              "80120813"
+            ]
+          },
+          "80120813": {
+            "id": "80120813",
+            "speakerId": 1022,
+            "speakerName": "Dainsleif",
+            "text": "Yet his dark legacy lived on... The Defiled Statue that we encountered previously was just one perverse product of his use of Abyssal power during his life."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801212",
+      "subQuestName": "Talk to Dainsleif",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "801209",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120901"
+        ],
+        "dialogs": {
+          "80120901": {
+            "id": "80120901",
+            "speakerId": 13076,
+            "speakerName": "Caribert",
+            "text": "Do you live in the fairytale world as well? My name's Caribert, nice to meet you..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "801205",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80120504"
+        ],
+        "dialogs": {
+          "80120504": {
+            "id": "80120504",
+            "speakerId": 13078,
+            "speakerName": "Forest Ranger",
+            "text": "Don't go thinking this is over! Our superiors are gonna hear of this when we get back to Gandharva Ville!",
+            "nextDialogs": [
+              "80120512"
+            ]
+          },
+          "80120512": {
+            "id": "80120512",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That could well have been Caribert!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "801299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "80129901"
+        ],
+        "dialogs": {
+          "80129901": {
+            "id": "80129901",
+            "speakerId": 13072,
+            "speakerName": "Eide",
+            "text": "Caribert...! Caribert...! Where are you?",
+            "nextDialogs": [
+              "80129902"
+            ]
+          },
+          "80129902": {
+            "id": "80129902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Eide's out of control. I have to end this fight..."
+          }
+        }
+      }
+    }
+  ]
+}

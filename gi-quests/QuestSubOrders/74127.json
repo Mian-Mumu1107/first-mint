@@ -1,0 +1,975 @@
+{
+  "lineCounts": {
+    "Black Screen": 2,
+    "Choiseul": 14,
+    "Desnos": 20,
+    "Iaune": 59,
+    "Paimon": 10,
+    "Player": 30
+  },
+  "subQuests": [
+    {
+      "subId": "7412701",
+      "subQuestName": "Go to the Fontaine Research Institute",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270101"
+        ],
+        "dialogs": {
+          "741270101": {
+            "id": "741270101",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "...Just like I stressed before, dear Gestionnaire, that's how the procedure goes and there's nothing I can do.",
+            "nextDialogs": [
+              "741270102"
+            ]
+          },
+          "741270102": {
+            "id": "741270102",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "Mr. Roialte did send the list of required documents and I do have them ready.",
+            "nextDialogs": [
+              "741270103"
+            ]
+          },
+          "741270103": {
+            "id": "741270103",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "However, you can't simply come over and take any document. That does not conform with our letter delivery regulations.",
+            "nextDialogs": [
+              "741270107",
+              "741270106"
+            ]
+          },
+          "741270107": {
+            "id": "741270107",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hi, Iaune. You're looking good!",
+            "nextDialogs": [
+              "741270108"
+            ]
+          },
+          "741270108": {
+            "id": "741270108",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "You as well. It's all thanks to the help I've received from Mr. Roialte and Mr. Semaine.",
+            "nextDialogs": [
+              "741270109"
+            ]
+          },
+          "741270109": {
+            "id": "741270109",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "#You know {NICKNAME} too, Iaune?",
+            "nextDialogs": [
+              "741270110"
+            ]
+          },
+          "741270110": {
+            "id": "741270110",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "#Of course. {NICKNAME} did me a huge favor before. Without {M#him}{F#her}, I wouldn't still be working at the Maison Gestion.",
+            "nextDialogs": [
+              "741270111"
+            ]
+          },
+          "741270111": {
+            "id": "741270111",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "#Really? No wonder {NICKNAME} is an Honorary Senior Researcher of the Institute, hahahaha!"
+          },
+          "741270106": {
+            "id": "741270106",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "#{NICKNAME}! So glad to see you. What luck!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412706",
+      "subQuestName": "Go to the Mary-Ann Memorial Park",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7412707",
+      "subQuestName": "Defeat all of the malfunctioning meka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7412702",
+      "subQuestName": "Talk to Iaune",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270201"
+        ],
+        "dialogs": {
+          "741270201": {
+            "id": "741270201",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Uh, is this the Mary-Ann Memorial Park? I can't tell it's a park at all...",
+            "nextDialogs": [
+              "741270202"
+            ]
+          },
+          "741270202": {
+            "id": "741270202",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Mr. Roialte will be disappointed. He was hoping to have someone make a speech here.",
+            "nextDialogs": [
+              "741270203"
+            ]
+          },
+          "741270203": {
+            "id": "741270203",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Looking around, a speech is out of the question. There's not even an iconic landmark here, and it's not good for group photos.",
+            "nextDialogs": [
+              "741270204"
+            ]
+          },
+          "741270204": {
+            "id": "741270204",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You can take some meka back with you as a memento.",
+            "nextDialogs": [
+              "741270205"
+            ]
+          },
+          "741270205": {
+            "id": "741270205",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "You're funny, but there's no room in the Maison Gestion for such things.",
+            "nextDialogs": [
+              "741270206"
+            ]
+          },
+          "741270206": {
+            "id": "741270206",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "And even if I could, I'd still have to have the meka appraised, reported, categorized, then stored...",
+            "nextDialogs": [
+              "741270207"
+            ]
+          },
+          "741270207": {
+            "id": "741270207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! We're only joking. No need to get so focused on work all of a sudden...",
+            "nextDialogs": [
+              "741270208"
+            ]
+          },
+          "741270208": {
+            "id": "741270208",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Speaking of reports... I still can't get that document. Mr. Roialte will be disappointed again...",
+            "nextDialogs": [
+              "741270210"
+            ]
+          },
+          "741270210": {
+            "id": "741270210",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Not exactly. My request was not quite by-the-book, so it's no surprise that he rejected it.",
+            "nextDialogs": [
+              "741270212"
+            ]
+          },
+          "741270212": {
+            "id": "741270212",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "As you may know, the Institute is making plans to rebuild, right? Certain resources and personnel arrangements have to be made through the Maison Gestion.",
+            "nextDialogs": [
+              "741270213"
+            ]
+          },
+          "741270213": {
+            "id": "741270213",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "The Maison Gestion takes this matter very seriously, so it had Mr. Roialte select a team to conduct field studies in and around the vicinity.",
+            "nextDialogs": [
+              "741270214"
+            ]
+          },
+          "741270214": {
+            "id": "741270214",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Therefore, Mr. Roialte stayed behind at the Maison Gestion to do the head count, while I am to visit the Institute to coordinate the reception.",
+            "nextDialogs": [
+              "741270215"
+            ]
+          },
+          "741270215": {
+            "id": "741270215",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "It happens that the Institute has a letter for the Maison Gestion, so I thought since I'm here already, I might as well bring it back with me...",
+            "nextDialogs": [
+              "741270216"
+            ]
+          },
+          "741270216": {
+            "id": "741270216",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "But Mr. Choiseul insisted it was a violation of proper procedure and simply would not give it to me.",
+            "nextDialogs": [
+              "741270217"
+            ]
+          },
+          "741270217": {
+            "id": "741270217",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Violation of procedure? What procedure?",
+            "nextDialogs": [
+              "741270218"
+            ]
+          },
+          "741270218": {
+            "id": "741270218",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There are proper procedures for picking up a document?",
+            "nextDialogs": [
+              "741270219"
+            ]
+          },
+          "741270219": {
+            "id": "741270219",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, don't tell Paimon there's gonna be running around for approvals, signatures, and listening to bureaucrats babble on endlessly as well...",
+            "nextDialogs": [
+              "741270220"
+            ]
+          },
+          "741270220": {
+            "id": "741270220",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Simply put, most official correspondence within the Maison Gestion must be mailed.",
+            "nextDialogs": [
+              "741270221"
+            ]
+          },
+          "741270221": {
+            "id": "741270221",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? Then... What if the departments mailing the letter are on the same street, or even right across from each other?",
+            "nextDialogs": [
+              "741270222"
+            ]
+          },
+          "741270222": {
+            "id": "741270222",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Yes, you still have to mail it. That's for the purpose of being \"traceable.\"",
+            "nextDialogs": [
+              "741270223"
+            ]
+          },
+          "741270223": {
+            "id": "741270223",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Gestionnaires sure aren't afraid of work.",
+            "nextDialogs": [
+              "741270224"
+            ]
+          },
+          "741270224": {
+            "id": "741270224",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "I suppose everyone is just used to it all by now...",
+            "nextDialogs": [
+              "741270225"
+            ]
+          },
+          "741270225": {
+            "id": "741270225",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Never mind, let's just go to the next spot. Let me check the memo Mr. Roialte left for me... Uh...",
+            "nextDialogs": [
+              "741270226"
+            ]
+          },
+          "741270226": {
+            "id": "741270226",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "This place is called... the Institute's Academic Assembly Hall. Strange... I didn't see any buildings with such a sign when I came.",
+            "nextDialogs": [
+              "741270227"
+            ]
+          },
+          "741270227": {
+            "id": "741270227",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I know where it is, just follow me.",
+            "nextDialogs": [
+              "741270228"
+            ]
+          },
+          "741270228": {
+            "id": "741270228",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "I knew I could depend on you! What would I do without you?",
+            "nextDialogs": [
+              "741270229"
+            ]
+          },
+          "741270229": {
+            "id": "741270229",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Let's hurry, then. There might be more out-of-control meka around here..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412703",
+      "subQuestName": "Go to the Academic Assembly Hall",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270301"
+        ],
+        "dialogs": {
+          "741270301": {
+            "id": "741270301",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Is this the Academic Assembly Hall?",
+            "nextDialogs": [
+              "741270302"
+            ]
+          },
+          "741270302": {
+            "id": "741270302",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "I admit, the structure does look like a hall, but what's academic about it?",
+            "nextDialogs": [
+              "741270305"
+            ]
+          },
+          "741270305": {
+            "id": "741270305",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "All right, good thing I didn't come for anything academic today. Anyway, the building seems relatively... intact.",
+            "nextDialogs": [
+              "741270306"
+            ]
+          },
+          "741270306": {
+            "id": "741270306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Intact is all it has left.",
+            "nextDialogs": [
+              "741270307"
+            ]
+          },
+          "741270307": {
+            "id": "741270307",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Ahem! Come on, let's look around. I think this place is perfect for a group photo.",
+            "nextDialogs": [
+              "741270308"
+            ]
+          },
+          "741270308": {
+            "id": "741270308",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "I should go find a good vantage point so I won't be at a complete loss if Mr. Roialte grills me.",
+            "nextDialogs": [
+              "741270309"
+            ]
+          },
+          "741270309": {
+            "id": "741270309",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "#Please take a few pictures for me too, {NICKNAME}. I heard you're a good photographer, certainly better than me!",
+            "nextDialogs": [
+              "741270310"
+            ]
+          },
+          "741270310": {
+            "id": "741270310",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I got this."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412708",
+      "subQuestName": "Take pictures around the perimeter and give them to Iaune",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7412709",
+      "subQuestName": "Take pictures around the perimeter and give them to Iaune",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270901"
+        ],
+        "dialogs": {
+          "741270901": {
+            "id": "741270901",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "This one isn't bad... Have you finished taking pictures yet?",
+            "nextDialogs": [
+              "741270904"
+            ]
+          },
+          "741270904": {
+            "id": "741270904",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Once you're done, please show them to me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412704",
+      "subQuestName": "Talk to Iaune",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270401"
+        ],
+        "dialogs": {
+          "741270401": {
+            "id": "741270401",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Oh my... Too high, far too high!",
+            "nextDialogs": [
+              "741270402"
+            ]
+          },
+          "741270402": {
+            "id": "741270402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you describing the Institute's academic level?",
+            "nextDialogs": [
+              "741270403"
+            ]
+          },
+          "741270403": {
+            "id": "741270403",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "No, I'm marveling at the height of this place! Though the Institute's academics were certainly up there too...",
+            "nextDialogs": [
+              "741270404"
+            ]
+          },
+          "741270404": {
+            "id": "741270404",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "But now... *sigh* Who could've foreseen so many hardships for the Institute? And who knows how smooth the reconstruction will be...",
+            "nextDialogs": [
+              "741270405"
+            ]
+          },
+          "741270405": {
+            "id": "741270405",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "The last stop is... The Fontaine Research Institute Qualifications Review Representative Office.",
+            "nextDialogs": [
+              "741270406"
+            ]
+          },
+          "741270406": {
+            "id": "741270406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "All in one breath, impressive.",
+            "nextDialogs": [
+              "741270407"
+            ]
+          },
+          "741270407": {
+            "id": "741270407",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Thank you. But where is it? I didn't notice any such office in the Institute.",
+            "nextDialogs": [
+              "741270408"
+            ]
+          },
+          "741270408": {
+            "id": "741270408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is Desnos in charge of the office?",
+            "nextDialogs": [
+              "741270409"
+            ]
+          },
+          "741270409": {
+            "id": "741270409",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Yes! That's right! You know even this place? I shouldn't be surprised that the Honorary Senior Researcher knows everything about the Institute!",
+            "nextDialogs": [
+              "741270410"
+            ]
+          },
+          "741270410": {
+            "id": "741270410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon remembers now! Is it that office in the ruins? If you can count that as an office...",
+            "nextDialogs": [
+              "741270411"
+            ]
+          },
+          "741270411": {
+            "id": "741270411",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Maybe Mr. Desnos shortened the name to make it easy for you to understand.",
+            "nextDialogs": [
+              "741270412"
+            ]
+          },
+          "741270412": {
+            "id": "741270412",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Please lead the way. I have to get some files from Mr. Desnos too. Once I have them, I can return to the Maison Gestion.",
+            "nextDialogs": [
+              "741270413"
+            ]
+          },
+          "741270413": {
+            "id": "741270413",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "It's been such an uneventful day today. I should be able to go back and relax soon. The Fontaine Research Institute sure does things differently from... Ahem, I didn't say a thing."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412705",
+      "subQuestName": "Go to the Qualifications Review Representative Office",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741270501"
+        ],
+        "dialogs": {
+          "741270501": {
+            "id": "741270501",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "O Archons save me, may no more meka cause trouble... What are you doing here, Iaune?",
+            "nextDialogs": [
+              "741270502"
+            ]
+          },
+          "741270502": {
+            "id": "741270502",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Mr. Roialte has sent me here to conduct an inspection, so I thought I'd drop by and bring you some coffee.",
+            "nextDialogs": [
+              "741270503"
+            ]
+          },
+          "741270503": {
+            "id": "741270503",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "But I have to say that your working environment is indeed... quite difficult. I thought this \"office\" would at least have an actual room.",
+            "nextDialogs": [
+              "741270504"
+            ]
+          },
+          "741270504": {
+            "id": "741270504",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Thank you for the coffee, my dear Iaune. As for the work environment... I'm content with what I have. Look around, at least I'm working under an intact ceiling.",
+            "nextDialogs": [
+              "741270505"
+            ]
+          },
+          "741270505": {
+            "id": "741270505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you still in charge of the qualifications review?",
+            "nextDialogs": [
+              "741270506"
+            ]
+          },
+          "741270506": {
+            "id": "741270506",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "#{NICKNAME}! No... I should call you Honorary Senior Researcher! Glad to see you.",
+            "nextDialogs": [
+              "741270507"
+            ]
+          },
+          "741270507": {
+            "id": "741270507",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "And what's with that sad look, Iaune?",
+            "nextDialogs": [
+              "741270508"
+            ]
+          },
+          "741270508": {
+            "id": "741270508",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "*sigh*... It's like this...",
+            "nextDialogs": [
+              "741270509"
+            ]
+          },
+          "741270509": {
+            "id": "741270509",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "With a long face, Iaune recounts all that has happened...",
+            "nextDialogs": [
+              "741270510"
+            ]
+          },
+          "741270510": {
+            "id": "741270510",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Hmm... Is the correspondence some sort of classified document?",
+            "nextDialogs": [
+              "741270511"
+            ]
+          },
+          "741270511": {
+            "id": "741270511",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "It can't be. Replies like this are typically in the vein of \"Got it,\" \"I have no questions,\" \"I don't know,\" or something similar...",
+            "nextDialogs": [
+              "741270512"
+            ]
+          },
+          "741270512": {
+            "id": "741270512",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "At most, it's copied to different departments to let them know it's something they should care about.",
+            "nextDialogs": [
+              "741270513"
+            ]
+          },
+          "741270513": {
+            "id": "741270513",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Oh, no wonder I got a copy of the letter too... Have a look, is this it?",
+            "nextDialogs": [
+              "741270514"
+            ]
+          },
+          "741270514": {
+            "id": "741270514",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "What!? But Mr. Choiseul clearly said he hadn't mailed it yet!",
+            "nextDialogs": [
+              "741270515"
+            ]
+          },
+          "741270515": {
+            "id": "741270515",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "...Oh, he must've meant that the external letters haven't been sent out yet.",
+            "nextDialogs": [
+              "741270516"
+            ]
+          },
+          "741270516": {
+            "id": "741270516",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Once more, he failed to tell the whole story.",
+            "nextDialogs": [
+              "741270517"
+            ]
+          },
+          "741270517": {
+            "id": "741270517",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "People from the Institute are really good at getting under your skin, huh...",
+            "nextDialogs": [
+              "741270518"
+            ]
+          },
+          "741270518": {
+            "id": "741270518",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Judging from your reaction, this must be the document you wanted. I've read it several times already, myself.",
+            "nextDialogs": [
+              "741270519"
+            ]
+          },
+          "741270519": {
+            "id": "741270519",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "This is identical to the document you wanted.",
+            "nextDialogs": [
+              "741270520"
+            ]
+          },
+          "741270520": {
+            "id": "741270520",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "#Very astute, {NICKNAME}. I'm sure all the letters that Choiseul sent out are the same, Iaune.",
+            "nextDialogs": [
+              "741270521"
+            ]
+          },
+          "741270521": {
+            "id": "741270521",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Why don't you just take my copy back with you?",
+            "nextDialogs": [
+              "741270522"
+            ]
+          },
+          "741270522": {
+            "id": "741270522",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, what? If Iaune takes it, then won't you have lost yours?",
+            "nextDialogs": [
+              "741270523"
+            ]
+          },
+          "741270523": {
+            "id": "741270523",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Hahahaha, look at me! Nobody will care if someone in my position accidentally loses a nonessential letter.",
+            "nextDialogs": [
+              "741270526"
+            ]
+          },
+          "741270526": {
+            "id": "741270526",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "See, Iaune, I'm not just mooching coffee off you!",
+            "nextDialogs": [
+              "741270527"
+            ]
+          },
+          "741270527": {
+            "id": "741270527",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "No, Monsieur, I cannot do that. It's against regulations. I'll go back and wait for the official letter to be delivered.",
+            "nextDialogs": [
+              "741270528"
+            ]
+          },
+          "741270528": {
+            "id": "741270528",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "My dear Iaune, think outside the box, don't be a fool! Why must you insist on making it hard for yourself?",
+            "nextDialogs": [
+              "741270529"
+            ]
+          },
+          "741270529": {
+            "id": "741270529",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Who knows when that letter will get to you! The sooner you get it, the sooner you can start working and settle all that mess.",
+            "nextDialogs": [
+              "741270530"
+            ]
+          },
+          "741270530": {
+            "id": "741270530",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "No, Monsieur. Thank you, but I will not violate regulations. My duty as a civil servant demands it.",
+            "nextDialogs": [
+              "741270531"
+            ]
+          },
+          "741270531": {
+            "id": "741270531",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "#{NICKNAME}, Mr. Desnos, and Paimon, I must leave now. Mr. Roialte is still waiting for me to report back.",
+            "nextDialogs": [
+              "741270532"
+            ]
+          },
+          "741270532": {
+            "id": "741270532",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Iaune walks away with solemn, heavy steps...",
+            "nextDialogs": [
+              "741270533"
+            ]
+          },
+          "741270533": {
+            "id": "741270533",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "*sigh* Iaune can be such a fool. His brains have gone all rotten, haven't they?",
+            "nextDialogs": [
+              "741270534"
+            ]
+          },
+          "741270534": {
+            "id": "741270534",
+            "speakerId": 5253,
+            "speakerName": "Desnos",
+            "text": "Everyone else tries to make things easier for themselves, yet he insists on going through the motions, even for small things like this."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412751",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741275101"
+        ],
+        "dialogs": {
+          "741275101": {
+            "id": "741275101",
+            "speakerId": 5258,
+            "speakerName": "Choiseul",
+            "text": "Raimondo still isn't back yet... What is he up to?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7412799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "741279901"
+        ],
+        "dialogs": {
+          "741279901": {
+            "id": "741279901",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "Those meka look like they are out of control. I noticed as soon as I arrived.",
+            "nextDialogs": [
+              "741279902"
+            ]
+          },
+          "741279902": {
+            "id": "741279902",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "I even took the long route just to bypass them...",
+            "nextDialogs": [
+              "741279903"
+            ]
+          },
+          "741279903": {
+            "id": "741279903",
+            "speakerId": 5084,
+            "speakerName": "Iaune",
+            "text": "*sigh* The Fontaine Research Institute is just letting them run wild here, and doing nothing about them..."
+          }
+        }
+      }
+    }
+  ]
+}

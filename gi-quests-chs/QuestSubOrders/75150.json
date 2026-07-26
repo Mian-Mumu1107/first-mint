@@ -1,0 +1,954 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 4,
+    "Player": 18,
+    "派蒙": 12,
+    "秘源龙仆": 54
+  },
+  "subQuests": [
+    {
+      "subId": "7515002",
+      "subQuestName": "(test)隐藏接取环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500201"
+        ],
+        "dialogs": {
+          "751500201": {
+            "id": "751500201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "标记下一处深渊侵蚀的地点…",
+            "nextDialogs": [
+              "751500202"
+            ]
+          },
+          "751500202": {
+            "id": "751500202",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的，已为您进行标记…尽快清理被深渊侵蚀的区块，以回收其内存载的数据。",
+            "nextDialogs": [
+              "751500203"
+            ]
+          },
+          "751500203": {
+            "id": "751500203",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "由此，恢复保存与维护的数据库，以访问所需要的内容。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515010",
+      "subQuestName": "向前探索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501501"
+        ],
+        "dialogs": {
+          "751501501": {
+            "id": "751501501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，秘源龙仆…咦，这只是不是比别的要大上一圈？",
+            "nextDialogs": [
+              "751501502"
+            ]
+          },
+          "751501502": {
+            "id": "751501502",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "751501503"
+            ]
+          },
+          "751501503": {
+            "id": "751501503",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "？",
+            "nextDialogs": [
+              "751501504"
+            ]
+          },
+          "751501504": {
+            "id": "751501504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，这么快又见面了！",
+            "nextDialogs": [
+              "751501505"
+            ]
+          },
+          "751501505": {
+            "id": "751501505",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "…抱歉，几位的信息从未收录在我的数据库之中。",
+            "nextDialogs": [
+              "751501506"
+            ]
+          },
+          "751501506": {
+            "id": "751501506",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "居然有人类深入此地，这件事已经至少有五百年没有发生过了。",
+            "nextDialogs": [
+              "751501507"
+            ]
+          },
+          "751501507": {
+            "id": "751501507",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等等，你不是「阿玛鲁」…唔，也不是，你不是「厄卡特尔」吗？",
+            "nextDialogs": [
+              "751501508"
+            ]
+          },
+          "751501508": {
+            "id": "751501508",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "…确实有以此为识别称呼的个体，但是我并非它们中的任何一个。",
+            "nextDialogs": [
+              "751501509"
+            ]
+          },
+          "751501509": {
+            "id": "751501509",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "或许其中曾造成了一些误解。",
+            "nextDialogs": [
+              "751501510"
+            ]
+          },
+          "751501510": {
+            "id": "751501510",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "我是被制造出来，以供修库特尔大人进行信息记录的原型机，因此没有名字。",
+            "nextDialogs": [
+              "751501511"
+            ]
+          },
+          "751501511": {
+            "id": "751501511",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…",
+            "nextDialogs": [
+              "751501512"
+            ]
+          },
+          "751501512": {
+            "id": "751501512",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "不，我并非没有名字，我是……",
+            "nextDialogs": [
+              "751501513"
+            ]
+          },
+          "751501513": {
+            "id": "751501513",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "我是唯一一个有资格拥有智能的非领主龙仆个体，在修库特尔大人陨落之后，我仍负责最基础的…",
+            "nextDialogs": [
+              "751501514"
+            ]
+          },
+          "751501514": {
+            "id": "751501514",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "城市最基础的维护和信息的记录。",
+            "nextDialogs": [
+              "751501515"
+            ]
+          },
+          "751501515": {
+            "id": "751501515",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "…不过，因为阴影之大敌的侵入，记录散佚了一部分，所以，现在并没有自己名称的数据。",
+            "nextDialogs": [
+              "751501516"
+            ]
+          },
+          "751501516": {
+            "id": "751501516",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呃，看来确实是我们认错人了…",
+            "nextDialogs": [
+              "751501517"
+            ]
+          },
+          "751501517": {
+            "id": "751501517",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "没有关系。",
+            "nextDialogs": [
+              "751501518"
+            ]
+          },
+          "751501518": {
+            "id": "751501518",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔，这只机器人虽然大，但是看上去呆呆的。",
+            "nextDialogs": [
+              "751501519"
+            ]
+          },
+          "751501519": {
+            "id": "751501519",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，看来还真的不是那个躲在机器里说话的家伙…",
+            "nextDialogs": [
+              "751501520"
+            ]
+          },
+          "751501520": {
+            "id": "751501520",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过它不是说自己负责记录…唔，记录信息吗？",
+            "nextDialogs": [
+              "751501521"
+            ]
+          },
+          "751501521": {
+            "id": "751501521",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不如就问问看它知道什么，或者…呃，怎么去那个圣山之心吧！",
+            "nextDialogs": [
+              "751501524"
+            ]
+          },
+          "751501524": {
+            "id": "751501524",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515003",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501301"
+        ],
+        "dialogs": {
+          "751501301": {
+            "id": "751501301",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "请问，有什么需要询问的吗？",
+            "nextDialogs": [
+              "751501302"
+            ]
+          },
+          "751501302": {
+            "id": "751501302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "如何进入圣山之心？",
+            "nextDialogs": [
+              "751501303"
+            ]
+          },
+          "751501303": {
+            "id": "751501303",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "进入圣山之心的入口就在新开掘的入口…深入火山之底的裂隙之处，由秘源龙像看守。",
+            "nextDialogs": [
+              "751501304"
+            ]
+          },
+          "751501304": {
+            "id": "751501304",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "此外，任何进入圣山之心的访问者，都需要获得「许可」…",
+            "nextDialogs": [
+              "751501305"
+            ]
+          },
+          "751501305": {
+            "id": "751501305",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "如此才能获得，守卫…圣山之心，亦即「维奇洛波奇特利」…那位秘源龙像的认可…",
+            "nextDialogs": [
+              "751501306"
+            ]
+          },
+          "751501306": {
+            "id": "751501306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在什么地方能够获得许可…",
+            "nextDialogs": [
+              "751501307"
+            ]
+          },
+          "751501307": {
+            "id": "751501307",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "根据协议和修库特尔大人制订的谕令，想要进入…圣山之心亦即「维奇洛波奇特利」…的族裔…",
+            "nextDialogs": [
+              "751501308"
+            ]
+          },
+          "751501308": {
+            "id": "751501308",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "请前往「审议之庭」进行申请，并等待许可的下达。",
+            "nextDialogs": [
+              "751501309"
+            ]
+          },
+          "751501309": {
+            "id": "751501309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "秘源龙像所需的能源？",
+            "nextDialogs": [
+              "751501310"
+            ]
+          },
+          "751501310": {
+            "id": "751501310",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "正在，检索…没有可响应的数据条目类型…或许由于深渊侵蚀城市所致，数据有许多佚失…",
+            "nextDialogs": [
+              "751501311"
+            ]
+          },
+          "751501311": {
+            "id": "751501311",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "如果能够清除深渊的影响，回收数据，或许能够找到您所需的资料条目。",
+            "nextDialogs": [
+              "751501312"
+            ]
+          },
+          "751501312": {
+            "id": "751501312",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "为您标记可回收数据的可能存放地点，请清除该处深渊的侵蚀以恢复数据承载的区块。",
+            "nextDialogs": [
+              "751501313"
+            ]
+          },
+          "751501313": {
+            "id": "751501313",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "请问，有什么需要询问的吗？",
+            "nextDialogs": [
+              "751501314"
+            ]
+          },
+          "751501314": {
+            "id": "751501314",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没什么要问的了…",
+            "nextDialogs": [
+              "751501315"
+            ]
+          },
+          "751501315": {
+            "id": "751501315",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515004",
+      "subQuestName": "(test)播放rmd$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500901"
+        ],
+        "dialogs": {
+          "751500901": {
+            "id": "751500901",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "你好，检测到新的数据回收类目。",
+            "nextDialogs": [
+              "751500902"
+            ]
+          },
+          "751500902": {
+            "id": "751500902",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "…关于「秘源机关」的能源核心，条目已更新。",
+            "nextDialogs": [
+              "751500903"
+            ]
+          },
+          "751500903": {
+            "id": "751500903",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "驱动秘源机关的核心能源，即是「燃素」，只不过会是浓缩过，更接近光形态的「燃素」。",
+            "nextDialogs": [
+              "751500904"
+            ]
+          },
+          "751500904": {
+            "id": "751500904",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "在「数据佚失」的可控反应下，可以产生稳定的「单位燃素量」，更精准控制能源的投放。",
+            "nextDialogs": [
+              "751500905"
+            ]
+          },
+          "751500905": {
+            "id": "751500905",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "秘源机关所需的能源根据运行逻辑的复杂和机体大小都有关系，秘源龙仆所需的「单位燃素量」为「数据佚失」…",
+            "nextDialogs": [
+              "751500906"
+            ]
+          },
+          "751500906": {
+            "id": "751500906",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "而体型更大的秘源龙像所需的「单位燃素量」相较之下却更少，需求为三。",
+            "nextDialogs": [
+              "751500907"
+            ]
+          },
+          "751500907": {
+            "id": "751500907",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "「信息即是能量，能量即是信息」，你所回收的数据载体即为「单位燃素」…",
+            "nextDialogs": [
+              "751500908"
+            ]
+          },
+          "751500908": {
+            "id": "751500908",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "所以「单位燃素」就是火球…",
+            "nextDialogs": [
+              "751500909"
+            ]
+          },
+          "751500909": {
+            "id": "751500909",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "是的，可以这么视为，原本被深渊侵蚀的「单位燃素」被你们恢复，才能被我提取…",
+            "nextDialogs": [
+              "751500910"
+            ]
+          },
+          "751500910": {
+            "id": "751500910",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "也可作为被深渊侵蚀的秘源机关的替代能源。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515001",
+      "subQuestName": "寻找通往「圣山之心」之路",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500101"
+        ],
+        "dialogs": {
+          "751500101": {
+            "id": "751500101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「侵蚀及身体状况」的记录…",
+            "nextDialogs": [
+              "751500102"
+            ]
+          },
+          "751500102": {
+            "id": "751500102",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的，正在为您读取。",
+            "nextDialogs": [
+              "751500103"
+            ]
+          },
+          "751500103": {
+            "id": "751500103",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "记录播放完毕。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515003",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500301"
+        ],
+        "dialogs": {
+          "751500301": {
+            "id": "751500301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「人类…和其杰出者」的记录…",
+            "nextDialogs": [
+              "751500302"
+            ]
+          },
+          "751500302": {
+            "id": "751500302",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的，正在为您读取。",
+            "nextDialogs": [
+              "751500303"
+            ]
+          },
+          "751500303": {
+            "id": "751500303",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "记录播放完毕。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500401"
+        ],
+        "dialogs": {
+          "751500401": {
+            "id": "751500401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "如何进入圣山之心？",
+            "nextDialogs": [
+              "751500402"
+            ]
+          },
+          "751500402": {
+            "id": "751500402",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "圣山之心的入口即在，再造「图兰」的城市中心，为了得到稳定的实验环境，修库特尔大人向下开掘…",
+            "nextDialogs": [
+              "751500403"
+            ]
+          },
+          "751500403": {
+            "id": "751500403",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "在那里制造了对深渊的最终武器。",
+            "nextDialogs": [
+              "751500404"
+            ]
+          },
+          "751500404": {
+            "id": "751500404",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "不过，也因「封绝」，遭受到了深渊最深层次的侵蚀，以至于城市亦被占据…",
+            "nextDialogs": [
+              "751500405"
+            ]
+          },
+          "751500405": {
+            "id": "751500405",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "圣山之心的入口，即在圣城的裂隙之下…阴影之大敌，侵蚀至深之处。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515005",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500501"
+        ],
+        "dialogs": {
+          "751500501": {
+            "id": "751500501",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "请问，有什么需要询问的吗？或者，是否需要为您标记下一处可回收数据的可能存放的地点？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515006",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500601"
+        ],
+        "dialogs": {
+          "751500601": {
+            "id": "751500601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "访问已经恢复的数据…",
+            "nextDialogs": [
+              "751500602"
+            ]
+          },
+          "751500602": {
+            "id": "751500602",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "正在为您读取相应的内容…请问您需要访问的记录是？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515008",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751500801"
+        ],
+        "dialogs": {
+          "751500801": {
+            "id": "751500801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没什么要问的了…",
+            "nextDialogs": [
+              "751500802"
+            ]
+          },
+          "751500802": {
+            "id": "751500802",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515010",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501001"
+        ],
+        "dialogs": {
+          "751501001": {
+            "id": "751501001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于「制作龙仆…」的记录…",
+            "nextDialogs": [
+              "751501002"
+            ]
+          },
+          "751501002": {
+            "id": "751501002",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的，正在为您读取。",
+            "nextDialogs": [
+              "751501003"
+            ]
+          },
+          "751501003": {
+            "id": "751501003",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "记录播放完毕。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501101"
+        ],
+        "dialogs": {
+          "751501101": {
+            "id": "751501101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "在什么地方能够获得许可…",
+            "nextDialogs": [
+              "751501102"
+            ]
+          },
+          "751501102": {
+            "id": "751501102",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "根据协议和修库特尔大人制订的谕令，想要进入…圣山之心亦即「维奇洛波奇特利」…的族裔…",
+            "nextDialogs": [
+              "751501103"
+            ]
+          },
+          "751501103": {
+            "id": "751501103",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "请前往「审议之庭」进行申请，并等待许可的下达。",
+            "nextDialogs": [
+              "751501104"
+            ]
+          },
+          "751501104": {
+            "id": "751501104",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "那么，如果您需要前往的话，这就为您标记「审议之庭」所在的位置。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515014",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501401"
+        ],
+        "dialogs": {
+          "751501401": {
+            "id": "751501401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "算了，没什么想看的。",
+            "nextDialogs": [
+              "751501402"
+            ]
+          },
+          "751501402": {
+            "id": "751501402",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "好的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515016",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501601"
+        ],
+        "dialogs": {
+          "751501601": {
+            "id": "751501601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "访问已经恢复的数据…",
+            "nextDialogs": [
+              "751501602"
+            ]
+          },
+          "751501602": {
+            "id": "751501602",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "抱歉，暂时没有已经恢复的数据…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515019",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751501901"
+        ],
+        "dialogs": {
+          "751501901": {
+            "id": "751501901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "如何进入圣山之心？",
+            "nextDialogs": [
+              "751501902"
+            ]
+          },
+          "751501902": {
+            "id": "751501902",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "进入圣山之心的入口就在新开掘的入口…深入火山之底的裂隙之处，由秘源龙像看守。",
+            "nextDialogs": [
+              "751501903"
+            ]
+          },
+          "751501903": {
+            "id": "751501903",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "此外，任何进入圣山之心的访问者，都需要获得许可，并且为了保证安全…",
+            "nextDialogs": [
+              "751501904"
+            ]
+          },
+          "751501904": {
+            "id": "751501904",
+            "speakerId": 21800,
+            "speakerName": "秘源龙仆",
+            "text": "如此才能获得，守卫…圣山之心，亦即「维奇洛波奇特利」…那位秘源龙像的认可…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751509910"
+        ],
+        "dialogs": {
+          "751509910": {
+            "id": "751509910",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，之前阿玛鲁好像也说了…看守的龙像需要能源…",
+            "nextDialogs": [
+              "751509911"
+            ]
+          },
+          "751509911": {
+            "id": "751509911",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "「需求为三」，所以一共需要三个「小火球」，是这意思吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7515199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751519903"
+        ],
+        "dialogs": {
+          "751519903": {
+            "id": "751519903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…虽然不太明白，但总之，要去圣山之心，就要取得许可，清理深渊…",
+            "nextDialogs": [
+              "751519904"
+            ]
+          },
+          "751519904": {
+            "id": "751519904",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…呀…",
+            "nextDialogs": [
+              "751519905"
+            ]
+          },
+          "751519905": {
+            "id": "751519905",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，这就出发吧！"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "蒂玛乌斯": 2
+  },
+  "subQuests": [
+    {
+      "subId": "99601",
+      "subQuestName": "(test)在大教堂里创建凯亚$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "99602",
+      "subQuestName": "(test)销毁凯亚NPC$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "9960201"
+        ],
+        "dialogs": {
+          "9960201": {
+            "id": "9960201",
+            "speakerId": 1587,
+            "speakerName": "蒂玛乌斯",
+            "text": "(test)这是直接挂载的普通任务对话99602$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "99603",
+      "subQuestName": "(test)情境独占测试4$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "9960301"
+        ],
+        "dialogs": {
+          "9960301": {
+            "id": "9960301",
+            "speakerId": 1587,
+            "speakerName": "蒂玛乌斯",
+            "text": "(test)这是后接挂载的普通任务对话99603$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "99604",
+      "subQuestName": "(test)情境独占测试5$UNRELEASED",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

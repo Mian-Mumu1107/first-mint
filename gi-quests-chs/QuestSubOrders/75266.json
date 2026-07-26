@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「木偶」": 1,
+    "茜特菈莉": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7526601",
+      "subQuestName": "前往茜特菈莉的住所附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7526602",
+      "subQuestName": "前往茜特菈莉的住所附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7526603",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "752660301"
+        ],
+        "dialogs": {
+          "752660301": {
+            "id": "752660301",
+            "speakerId": 1096,
+            "speakerName": "茜特菈莉",
+            "text": "怎么了？吉约丹小姐。",
+            "nextDialogs": [
+              "752660302"
+            ]
+          },
+          "752660302": {
+            "id": "752660302",
+            "speakerId": 1319,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "752660304"
+            ]
+          },
+          "752660304": {
+            "id": "752660304",
+            "speakerId": 1096,
+            "speakerName": "茜特菈莉",
+            "text": "哦，好啊。欸，要不等下一起去喝一杯？也不能老是你请客。"
+          }
+        }
+      }
+    }
+  ]
+}

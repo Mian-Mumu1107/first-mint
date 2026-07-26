@@ -1,0 +1,102 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "阿扎木": 3
+  },
+  "subQuests": [
+    {
+      "subId": "1915801",
+      "subQuestName": "向凯瑟琳寻求帮助",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1915802",
+      "subQuestName": "与星相爱好者交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1915802",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191580297"
+        ],
+        "dialogs": {
+          "191580297": {
+            "id": "191580297",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "表现不好可能就没法得到信任了。",
+            "nextDialogs": [
+              "191580298"
+            ]
+          },
+          "191580298": {
+            "id": "191580298",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "对你来说这轻而易举吧。",
+            "nextDialogs": [
+              "191580299"
+            ]
+          },
+          "191580299": {
+            "id": "191580299",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "别紧张，只是讲一些你学到的知识而已。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1915899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191589901"
+        ],
+        "dialogs": {
+          "191589901": {
+            "id": "191589901",
+            "speakerId": 12910,
+            "speakerName": "阿扎木",
+            "text": "（不知道今天能不能去外面看星星…）",
+            "nextDialogs": [
+              "191589902"
+            ]
+          },
+          "191589902": {
+            "id": "191589902",
+            "speakerId": 12910,
+            "speakerName": "阿扎木",
+            "text": "（应该不用太担心…吧？）",
+            "nextDialogs": [
+              "191589903"
+            ]
+          },
+          "191589903": {
+            "id": "191589903",
+            "speakerId": 12910,
+            "speakerName": "阿扎木",
+            "text": "（应该不用太担心吧。）"
+          }
+        }
+      }
+    }
+  ]
+}

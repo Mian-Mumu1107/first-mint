@@ -1,0 +1,325 @@
+{
+  "lineCounts": {
+    "Beidou": 14,
+    "Katheryne": 7,
+    "Paimon": 10,
+    "Player": 16,
+    "Sea Drake": 7,
+    "Thoma": 8
+  },
+  "subQuests": [
+    {
+      "subId": "201101",
+      "subQuestName": "Ask Katheryne for information on going to Inazuma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20110101"
+        ],
+        "dialogs": {
+          "20110101": {
+            "id": "20110101",
+            "speakerId": 2078,
+            "speakerName": "Katheryne",
+            "text": "Ad astra abyssosque! What can I do for you, Traveler?",
+            "nextDialogs": [
+              "20110104"
+            ]
+          },
+          "20110104": {
+            "id": "20110104",
+            "speakerId": 2078,
+            "speakerName": "Katheryne",
+            "text": "Ah yes, I've heard that you've already made arrangements with the captain of the Crux Fleet regarding your passage to Inazuma. Is that correct?",
+            "nextDialogs": [
+              "20110105"
+            ]
+          },
+          "20110105": {
+            "id": "20110105",
+            "speakerId": 2078,
+            "speakerName": "Katheryne",
+            "text": "Now that I think about it, it's been quite some time since I last visited those lands. Unfortunately, I don't have any current intel that would be worth sharing with you.",
+            "nextDialogs": [
+              "20110106"
+            ]
+          },
+          "20110106": {
+            "id": "20110106",
+            "speakerId": 2440,
+            "speakerName": "Sea Drake",
+            "text": "There you are! You're the Traveler that Beidou will be taking to Inazuma, right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201102",
+      "subQuestName": "Board the Alcor and find Beidou",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201103",
+      "subQuestName": "Talk to Beidou",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20110301"
+        ],
+        "dialogs": {
+          "20110301": {
+            "id": "20110301",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Ah, you finally made it!",
+            "nextDialogs": [
+              "20110302"
+            ]
+          },
+          "20110302": {
+            "id": "20110302",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "All these years, come rain or storm, the Crux Fleet has never suffered a delay. If it were anyone else, I might've set sail already.",
+            "nextDialogs": [
+              "20110305"
+            ]
+          },
+          "20110305": {
+            "id": "20110305",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Hahaha, don't look too serious, I'm only joking. You're just on time, the crew have just finished making final preparations.",
+            "nextDialogs": [
+              "20110306"
+            ]
+          },
+          "20110306": {
+            "id": "20110306",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "*sigh* Well, now that everyone's here...",
+            "nextDialogs": [
+              "20110307"
+            ]
+          },
+          "20110307": {
+            "id": "20110307",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "We set sail for the land engulfed by storm and tempest... The nation of \"eternity\"!",
+            "nextDialogs": [
+              "20110308"
+            ]
+          },
+          "20110308": {
+            "id": "20110308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Anchors aweigh!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201104",
+      "subQuestName": "Go to Inazuma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201105",
+      "subQuestName": "Go to Inazuma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201106",
+      "subQuestName": "Go to Inazuma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201107",
+      "subQuestName": "Talk to your contact, Thoma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20110701"
+        ],
+        "dialogs": {
+          "20110701": {
+            "id": "20110701",
+            "speakerId": 1033,
+            "speakerName": "Thoma",
+            "text": "So, you finally made it. You sure kept me waiting, Captain.",
+            "nextDialogs": [
+              "20110702"
+            ]
+          },
+          "20110702": {
+            "id": "20110702",
+            "speakerId": 1033,
+            "speakerName": "Thoma",
+            "text": "And it appears we have a couple of stowaways... or perhaps I should say — honored guests.",
+            "nextDialogs": [
+              "20110703"
+            ]
+          },
+          "20110703": {
+            "id": "20110703",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! Shush!",
+            "nextDialogs": [
+              "20110704"
+            ]
+          },
+          "20110704": {
+            "id": "20110704",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "You can blame your Almighty Shogun. The tempests around Inazuma have been growing all the more fierce lately.",
+            "nextDialogs": [
+              "20110705"
+            ]
+          },
+          "20110705": {
+            "id": "20110705",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Though the fleet was fully up to the challenge, the inclement weather still caused some delay.",
+            "nextDialogs": [
+              "20110706"
+            ]
+          },
+          "20110706": {
+            "id": "20110706",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Now then, let me introduce everyone. This is Thoma, a trade partner that I've gotten to know recently.",
+            "nextDialogs": [
+              "20110707"
+            ]
+          },
+          "20110707": {
+            "id": "20110707",
+            "speakerId": 1033,
+            "speakerName": "Thoma",
+            "text": "Heh, you don't know how long I've been waiting to see you.",
+            "nextDialogs": [
+              "20110708"
+            ]
+          },
+          "20110708": {
+            "id": "20110708",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Thoma, these two are—",
+            "nextDialogs": [
+              "20110709"
+            ]
+          },
+          "20110709": {
+            "id": "20110709",
+            "speakerId": 1033,
+            "speakerName": "Thoma",
+            "text": "No need for introductions, their reputation precedes them. Seems even the stormy seas can't keep rumors of these outlanders' sterling deeds at bay.",
+            "nextDialogs": [
+              "20110712"
+            ]
+          },
+          "20110712": {
+            "id": "20110712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, it's sure nice to hear you say that~",
+            "nextDialogs": [
+              "20110713"
+            ]
+          },
+          "20110713": {
+            "id": "20110713",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Ha, with any luck, it'll give you a head start here.",
+            "nextDialogs": [
+              "20110714"
+            ]
+          },
+          "20110714": {
+            "id": "20110714",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "#{NICKNAME}, Thoma's resided on Ritou for quite some time now. It wouldn't be going too far to say he's the fixer around these parts.",
+            "nextDialogs": [
+              "20110715"
+            ]
+          },
+          "20110715": {
+            "id": "20110715",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "If you run into any problems here, just talk to Thoma. But if he tries to pull any moves on you, I'll be sure to deal with him personally the next time I'm around.",
+            "nextDialogs": [
+              "20110716"
+            ]
+          },
+          "20110716": {
+            "id": "20110716",
+            "speakerId": 1033,
+            "speakerName": "Thoma",
+            "text": "Hehehe, no need to worry. I'm sure we'll get along just fine.",
+            "nextDialogs": [
+              "20110717"
+            ]
+          },
+          "20110717": {
+            "id": "20110717",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Good. Then if it's all settled, I'll be going. I wouldn't want to be caught with my sails down here, I do have a wanted fugitive on board, after all.",
+            "nextDialogs": [
+              "20110718"
+            ]
+          },
+          "20110718": {
+            "id": "20110718",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, right. Kazuha...",
+            "nextDialogs": [
+              "20110719"
+            ]
+          },
+          "20110719": {
+            "id": "20110719",
+            "speakerId": 1031,
+            "speakerName": "Beidou",
+            "text": "Until next time, Traveler. Remember to give it your all, no matter what perilous \"storms\" you may encounter."
+          }
+        }
+      }
+    }
+  ]
+}

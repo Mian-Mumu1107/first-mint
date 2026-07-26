@@ -1,0 +1,304 @@
+{
+  "lineCounts": {
+    "Player": 6,
+    "奥拉夫": 9,
+    "派蒙": 4,
+    "香菱": 12
+  },
+  "subQuests": [
+    {
+      "subId": "1100301",
+      "subQuestName": "前往香菱提到的地方",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110030101"
+        ],
+        "dialogs": {
+          "110030101": {
+            "id": "110030101",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "那、那是…！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100302",
+      "subQuestName": "与香菱和瑟瑟发抖的人交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110030201"
+        ],
+        "dialogs": {
+          "110030201": {
+            "id": "110030201",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "好…好冷。",
+            "nextDialogs": [
+              "110030202"
+            ]
+          },
+          "110030202": {
+            "id": "110030202",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "他的身子好冷！得赶快帮他暖暖才行！",
+            "nextDialogs": [
+              "110030203"
+            ]
+          },
+          "110030203": {
+            "id": "110030203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那在这里生火吧！",
+            "nextDialogs": [
+              "110030204"
+            ]
+          },
+          "110030204": {
+            "id": "110030204",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "嗯，最好还能有一碗热汤。",
+            "nextDialogs": [
+              "110030205"
+            ]
+          },
+          "110030205": {
+            "id": "110030205",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "#{NICKNAME}，我在这里照顾他，能麻烦你去准备一份<color=#00E1FFFF>美味的热汤</color>吗？",
+            "nextDialogs": [
+              "110030206"
+            ]
+          },
+          "110030206": {
+            "id": "110030206",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "我记得来的路上有个丘丘人营地，那里多半就有能做汤的地方。",
+            "nextDialogs": [
+              "110030207"
+            ]
+          },
+          "110030207": {
+            "id": "110030207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没问题。",
+            "nextDialogs": [
+              "110030208"
+            ]
+          },
+          "110030208": {
+            "id": "110030208",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "好的，准备好了就尽快回来！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100303",
+      "subQuestName": "烹制「美味的萝卜时蔬汤」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1100304",
+      "subQuestName": "给猎人送上做好的汤",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110030401"
+        ],
+        "dialogs": {
+          "110030401": {
+            "id": "110030401",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "哈啊…哈啊…好多了。",
+            "nextDialogs": [
+              "110030402"
+            ]
+          },
+          "110030402": {
+            "id": "110030402",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "谢谢你们，这碗汤真好喝。",
+            "nextDialogs": [
+              "110030403"
+            ]
+          },
+          "110030403": {
+            "id": "110030403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么会冻成这个样子？",
+            "nextDialogs": [
+              "110030404"
+            ]
+          },
+          "110030404": {
+            "id": "110030404",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "我本来在追一只野猪，追了好远，它逃进了那边的地下遗迹里。",
+            "nextDialogs": [
+              "110030405"
+            ]
+          },
+          "110030405": {
+            "id": "110030405",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "我追进去，却遇到了一棵好大好大的急冻树。",
+            "nextDialogs": [
+              "110030406"
+            ]
+          },
+          "110030406": {
+            "id": "110030406",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "我被冻僵了，清醒之后就跑了出来，但跑到这里身子就使不上劲了。",
+            "nextDialogs": [
+              "110030407"
+            ]
+          },
+          "110030407": {
+            "id": "110030407",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "急冻树？一棵树，还会攻击人？",
+            "nextDialogs": [
+              "110030408"
+            ]
+          },
+          "110030408": {
+            "id": "110030408",
+            "speakerId": 1630,
+            "speakerName": "奥拉夫",
+            "text": "是啊，我以前只是听别人说过，亲眼见到还是头一次。",
+            "nextDialogs": [
+              "110030409"
+            ]
+          },
+          "110030409": {
+            "id": "110030409",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "听起来好危险…我们还是不要靠近那个遗迹吧。",
+            "nextDialogs": [
+              "110030410"
+            ]
+          },
+          "110030410": {
+            "id": "110030410",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "说不定会很好吃！",
+            "nextDialogs": [
+              "110030413"
+            ]
+          },
+          "110030413": {
+            "id": "110030413",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "就是这个！一锤定音的食材，肯定会很好吃的！",
+            "nextDialogs": [
+              "110030414"
+            ]
+          },
+          "110030414": {
+            "id": "110030414",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "冷静啊，这么凶猛的植物真的能吃吗？",
+            "nextDialogs": [
+              "110030415"
+            ]
+          },
+          "110030415": {
+            "id": "110030415",
+            "speakerId": 1012,
+            "speakerName": "香菱",
+            "text": "不试试看怎么知道，快，我们出发吧！",
+            "nextDialogs": [
+              "110030416"
+            ]
+          },
+          "110030416": {
+            "id": "110030416",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "又跑掉了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100398",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110039801"
+        ],
+        "dialogs": {
+          "110039801": {
+            "id": "110039801",
+            "speakerId": 10033,
+            "speakerName": "香菱",
+            "text": "我们来的时候路过了一个丘丘人的营地，那里应该有能做汤的地方。",
+            "nextDialogs": [
+              "110039802"
+            ]
+          },
+          "110039802": {
+            "id": "110039802",
+            "speakerId": 10033,
+            "speakerName": "香菱",
+            "text": "我在这里照顾他，麻烦你去准备一碗美味的热汤，给他暖暖身子吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1100399",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110039901"
+        ],
+        "dialogs": {
+          "110039901": {
+            "id": "110039901",
+            "speakerId": 10037,
+            "speakerName": "奥拉夫",
+            "text": "好冷啊…里面冷死了…"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 1,
+    "Adina": 4,
+    "Flins": 1,
+    "Khorin Family Grave": 2,
+    "Weeping Phantom": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7608702",
+      "subQuestName": "Search for \"Adina's\" resting place",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "686252701"
+        ],
+        "dialogs": {
+          "686252701": {
+            "id": "686252701",
+            "speakerId": 1000,
+            "speakerName": "Khorin Family Grave",
+            "text": "<color=#00E1FFFF>May little Adina's dreams be forever filled with flowers and candy.</color>",
+            "nextDialogs": [
+              "686252702"
+            ]
+          },
+          "686252702": {
+            "id": "686252702",
+            "speakerId": 1000,
+            "speakerName": "Khorin Family Grave",
+            "text": "<color=#00E1FFFF>Praise the courage of Danuta and Hamalainen. May they and their daughter enter a dream free from sorrow.</color>"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608703",
+      "subQuestName": "Talk to the weeping phantom",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760870201"
+        ],
+        "dialogs": {
+          "760870201": {
+            "id": "760870201",
+            "speakerId": 1001,
+            "speakerName": "Adina",
+            "text": "I can't find... *sobs* I can't find...",
+            "nextDialogs": [
+              "760870202"
+            ]
+          },
+          "760870202": {
+            "id": "760870202",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "We've found Danuta and Hamalainen.",
+            "nextDialogs": [
+              "760870203"
+            ]
+          },
+          "760870203": {
+            "id": "760870203",
+            "speakerId": 1001,
+            "speakerName": "Adina",
+            "text": "Daddy! Mommy! They're waiting for me at home. I've gotta get back there!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608704",
+      "subQuestName": "Witness \"Adina's\" homecoming",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760870301"
+        ],
+        "dialogs": {
+          "760870301": {
+            "id": "760870301",
+            "speakerId": 1001,
+            "speakerName": "Adina",
+            "text": "It's home! I've found the way back!",
+            "nextDialogs": [
+              "760870302"
+            ]
+          },
+          "760870302": {
+            "id": "760870302",
+            "speakerId": 7178,
+            "speakerName": "Weeping Phantom",
+            "text": "The lights are still on, and Mom's made piping-hot pie... Oh, it's wonderful!",
+            "nextDialogs": [
+              "760870303"
+            ]
+          },
+          "760870303": {
+            "id": "760870303",
+            "speakerId": 1001,
+            "speakerName": "Adina",
+            "text": "Daddy's waiting for me too... Daddy, Mommy, I'm home!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7608799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760879903"
+        ],
+        "dialogs": {
+          "760879903": {
+            "id": "760879903",
+            "speakerId": 1004,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "lineCounts": {
+    "Player": 21,
+    "志琼": 35,
+    "派蒙": 8,
+    "瑾武": 23
+  },
+  "subQuests": [
+    {
+      "subId": "7103801",
+      "subQuestName": "隔天隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103802",
+      "subQuestName": "与焦急的瑾武对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380201"
+        ],
+        "dialogs": {
+          "710380201": {
+            "id": "710380201",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "又是志琼那家伙，她去回收信标了…但现在还没回来。",
+            "nextDialogs": [
+              "710380202"
+            ]
+          },
+          "710380202": {
+            "id": "710380202",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "本来我也知道她那喜欢到处乱跑的臭毛病，给她多预留了三个小时回程…可现在都已经至少五六个小时了…",
+            "nextDialogs": [
+              "710380203"
+            ]
+          },
+          "710380203": {
+            "id": "710380203",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "那个孩子很尊敬你，还请你帮忙找找她吧。我可不希望再有人在我眼皮底下出事了。",
+            "nextDialogs": [
+              "710380204"
+            ]
+          },
+          "710380204": {
+            "id": "710380204",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗨呀！这家伙怎么回事啦！怎么又跑丢了！",
+            "nextDialogs": [
+              "710380207"
+            ]
+          },
+          "710380207": {
+            "id": "710380207",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "啊，对了！真是的，最重要的信息忘记告诉你了。",
+            "nextDialogs": [
+              "710380208"
+            ]
+          },
+          "710380208": {
+            "id": "710380208",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "她可能不会走太远，但会去哪里呢…",
+            "nextDialogs": [
+              "710380209"
+            ]
+          },
+          "710380209": {
+            "id": "710380209",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好啦，瑾武姐不要着急，我们去昨天布置信标的地方看看吧！",
+            "nextDialogs": [
+              "710380210"
+            ]
+          },
+          "710380210": {
+            "id": "710380210",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙说的没错。",
+            "nextDialogs": [
+              "710380211"
+            ]
+          },
+          "710380211": {
+            "id": "710380211",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "嗯…就这么办。如果找到那孩子的话…请尽快告诉我。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103816",
+      "subQuestName": "隐藏判断瑾武是否说过闲置$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380301"
+        ],
+        "dialogs": {
+          "710380301": {
+            "id": "710380301",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "志琼她怎么样？你找到她了吗？",
+            "nextDialogs": [
+              "710380304"
+            ]
+          },
+          "710380304": {
+            "id": "710380304",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "嗯…还请尽快找到她为好，如果出什么事的话…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103803",
+      "subQuestName": "去信标放置处寻找志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103804",
+      "subQuestName": "去信标放置处寻找志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380401"
+        ],
+        "dialogs": {
+          "710380401": {
+            "id": "710380401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你还能走路吗？",
+            "nextDialogs": [
+              "710380403"
+            ]
+          },
+          "710380403": {
+            "id": "710380403",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "对不起…对不起…瑾武姐…还有…咳咳…",
+            "nextDialogs": [
+              "710380406"
+            ]
+          },
+          "710380406": {
+            "id": "710380406",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "请你们不要…咳咳…哈…不要这样看着我…请不要对我们失望…",
+            "nextDialogs": [
+              "710380407"
+            ]
+          },
+          "710380407": {
+            "id": "710380407",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "金色的城…黑色的高阙…咳咳…！天上下来的使者们离开了…",
+            "nextDialogs": [
+              "710380404"
+            ]
+          },
+          "710380404": {
+            "id": "710380404",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不要说胡话啦！你这个人呀…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103805",
+      "subQuestName": "去信标放置处寻找志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103806",
+      "subQuestName": "去信标放置处寻找志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380601"
+        ],
+        "dialogs": {
+          "710380601": {
+            "id": "710380601",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "海迪夫给她开了些药…志琼恢复了一点意识，但她什么也不愿意跟我说。",
+            "nextDialogs": [
+              "710380602"
+            ]
+          },
+          "710380602": {
+            "id": "710380602",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "你们知道她是怎么回事吗？好好的一个人，怎么会变成这样？",
+            "nextDialogs": [
+              "710380603"
+            ]
+          },
+          "710380603": {
+            "id": "710380603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们发现她时，她被困在了黑泥里。",
+            "nextDialogs": [
+              "710380604"
+            ]
+          },
+          "710380604": {
+            "id": "710380604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对呀对呀，幸好我们及时把她救出来了！",
+            "nextDialogs": [
+              "710380605"
+            ]
+          },
+          "710380605": {
+            "id": "710380605",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "……",
+            "nextDialogs": [
+              "710380606"
+            ]
+          },
+          "710380606": {
+            "id": "710380606",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "算了，志琼现在最需要休息。请替我把这碗汤趁热递给她吧。",
+            "nextDialogs": [
+              "710380607"
+            ]
+          },
+          "710380607": {
+            "id": "710380607",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "虽然不太会做饭，照顾矿工的事情反正我也没少做过。还没人敢嫌弃我的手艺。",
+            "nextDialogs": [
+              "710380608"
+            ]
+          },
+          "710380608": {
+            "id": "710380608",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "好了，去吧，看看志琼好些了吗。",
+            "nextDialogs": [
+              "710380609"
+            ]
+          },
+          "710380609": {
+            "id": "710380609",
+            "speakerId": 20580,
+            "speakerName": "瑾武",
+            "text": "我需要跟沐宁反映一下，志琼不能留在地下了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103807",
+      "subQuestName": "去信标放置处寻找志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380701"
+        ],
+        "dialogs": {
+          "710380701": {
+            "id": "710380701",
+            "speakerId": 20523,
+            "speakerName": "志琼",
+            "text": "咳咳…！咳咳…抱歉…",
+            "nextDialogs": [
+              "710380702"
+            ]
+          },
+          "710380702": {
+            "id": "710380702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你也知道抱歉哇！到处乱跑的时候怎么就没想过要麻烦我们呢！",
+            "nextDialogs": [
+              "710380703"
+            ]
+          },
+          "710380703": {
+            "id": "710380703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好了，派蒙…",
+            "nextDialogs": [
+              "710380704"
+            ]
+          },
+          "710380704": {
+            "id": "710380704",
+            "speakerId": 20523,
+            "speakerName": "志琼",
+            "text": "咳咳…哈…是…失足，是不小心…失足了…有点好笑…哈哈…对吧？",
+            "nextDialogs": [
+              "710380705"
+            ]
+          },
+          "710380705": {
+            "id": "710380705",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好笑什么啦！你就不拿自己的生命当回事吗！",
+            "nextDialogs": [
+              "710380706"
+            ]
+          },
+          "710380706": {
+            "id": "710380706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你需要休息，瑾武姐给你做了汤。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103810",
+      "subQuestName": "击败志琼周围的怪物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103811",
+      "subQuestName": "与志琼对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380408"
+        ],
+        "dialogs": {
+          "710380408": {
+            "id": "710380408",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇啊！这家伙状态太不妙啦！我们快把她带回去吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103817",
+      "subQuestName": "2隐藏判断瑾武是否说过闲置$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710381601"
+        ],
+        "dialogs": {
+          "710381601": {
+            "id": "710381601",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "……",
+            "nextDialogs": [
+              "710381602"
+            ]
+          },
+          "710381602": {
+            "id": "710381602",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "…？啊，抱歉，我在想事情。抱歉…",
+            "nextDialogs": [
+              "710381603"
+            ]
+          },
+          "710381603": {
+            "id": "710381603",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "志琼那孩子，我要好好和她谈谈才行…",
+            "nextDialogs": [
+              "710381604"
+            ]
+          },
+          "710381604": {
+            "id": "710381604",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "我在矿上工作很久了，不是没有见过这样的孩子…",
+            "nextDialogs": [
+              "710381605"
+            ]
+          },
+          "710381605": {
+            "id": "710381605",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "有太多不成熟的孩子，把冒险当做了不得的目标去追逐，最终却落得愿望破碎离散的下场…为此追悔莫及。",
+            "nextDialogs": [
+              "710381606"
+            ]
+          },
+          "710381606": {
+            "id": "710381606",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "但我又能评判什么呢？唉…扎根在石缝里，长在岩间的琉璃袋，怎么去评价鸟儿的活法呢？",
+            "nextDialogs": [
+              "710381607"
+            ]
+          },
+          "710381607": {
+            "id": "710381607",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "但是，我怎么放心…咳咳，或许阻拦她终究是不对的…她已经是能照顾自己的大人了，是吧？",
+            "nextDialogs": [
+              "710381610"
+            ]
+          },
+          "710381610": {
+            "id": "710381610",
+            "speakerId": 2616,
+            "speakerName": "瑾武",
+            "text": "是啊…希望如此，希望如此。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103813",
+      "subQuestName": "与瑾武对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103814",
+      "subQuestName": "将瑾武的汤交给志琼",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7103815",
+      "subQuestName": "与醒来的志琼对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710380707"
+        ],
+        "dialogs": {
+          "710380707": {
+            "id": "710380707",
+            "speakerId": 20523,
+            "speakerName": "志琼",
+            "text": "是瑾武姐的手艺…？谢谢你们…请替我谢谢瑾武姐她们。",
+            "nextDialogs": [
+              "710380708"
+            ]
+          },
+          "710380708": {
+            "id": "710380708",
+            "speakerId": 20523,
+            "speakerName": "志琼",
+            "text": "没事的，我睡一觉就会好多了…",
+            "nextDialogs": [
+              "710380709"
+            ]
+          },
+          "710380709": {
+            "id": "710380709",
+            "speakerId": 20523,
+            "speakerName": "志琼",
+            "text": "实在对不起…咳咳…请你们过一阵子再回来吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7103604",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710360401"
+        ],
+        "dialogs": {
+          "710360401": {
+            "id": "710360401",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "你好，前辈！请找个地方坐坐吧。",
+            "nextDialogs": [
+              "710360402"
+            ]
+          },
+          "710360402": {
+            "id": "710360402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于冒险的事…",
+            "nextDialogs": [
+              "710360403"
+            ]
+          },
+          "710360403": {
+            "id": "710360403",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "你是想问，为什么我之前那么倔强，让大家如此费心吗？哈哈…我知道错啦，请不要再教训我了…",
+            "nextDialogs": [
+              "710360404"
+            ]
+          },
+          "710360404": {
+            "id": "710360404",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "不过话说回来，对「危险」的痴迷，或许是我们这些冒险家的本性吧。",
+            "nextDialogs": [
+              "710360405"
+            ]
+          },
+          "710360405": {
+            "id": "710360405",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "毕竟我们生来拥有坚韧的脊梁，轻捷的四肢…一想到身怀利器却安于无风无浪的一生，就总觉得不甘心呀。",
+            "nextDialogs": [
+              "710360406"
+            ]
+          },
+          "710360406": {
+            "id": "710360406",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "至于致命的风险，我也不是没有考虑过，但…嗯，我可以问你一个问题吗？",
+            "nextDialogs": [
+              "710360407"
+            ]
+          },
+          "710360407": {
+            "id": "710360407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "请说吧。",
+            "nextDialogs": [
+              "710360408"
+            ]
+          },
+          "710360408": {
+            "id": "710360408",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "蒙德的大冒险家斯坦利因他横穿烬寂海的壮举而闻名…他在这场冒险中失去了自己的挚友。",
+            "nextDialogs": [
+              "710360409"
+            ]
+          },
+          "710360409": {
+            "id": "710360409",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "因为他的这场冒险，那位死去的挚友…尽管很少有人知道他的名字是什么，但关于他的记忆却在冒险家中间流传至今。",
+            "nextDialogs": [
+              "710360410"
+            ]
+          },
+          "710360410": {
+            "id": "710360410",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "我在想…哈哈，请前辈不要笑我幼稚。斯坦利那位再不归来的友人…会不会并未逝去，而是正在真正地「活着」呢？",
+            "nextDialogs": [
+              "710360412",
+              "710360415",
+              "710360419"
+            ]
+          },
+          "710360412": {
+            "id": "710360412",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "但为人所铭记这件事本身…即使事业令他早夭，不也是一种生命的延续吗？",
+            "nextDialogs": [
+              "710360413"
+            ]
+          },
+          "710360413": {
+            "id": "710360413",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "就这样借助他人的憧憬与纪念，评价与凝视…以另一种方式活在众人中间。",
+            "nextDialogs": [
+              "710360422"
+            ]
+          },
+          "710360422": {
+            "id": "710360422",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "请不要太过在意别人的看法。",
+            "nextDialogs": [
+              "710360423"
+            ]
+          },
+          "710360423": {
+            "id": "710360423",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "已经有很多人这样劝过我了，「做你自己就好」「管好自己的事情就行了」…表面上是开导人的话，终究只是劝人放弃。",
+            "nextDialogs": [
+              "710360424"
+            ]
+          },
+          "710360424": {
+            "id": "710360424",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "其实我之前就说过了，我的冒险，不是为了别人…甚至不是为了自己。",
+            "nextDialogs": [
+              "710360425"
+            ]
+          },
+          "710360425": {
+            "id": "710360425",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "嗯…你有这样想过吗，前辈…？",
+            "nextDialogs": [
+              "710360426"
+            ]
+          },
+          "710360426": {
+            "id": "710360426",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "这个世界是由众神摆布的…但我们作为凡人，即使没有神灵恩赐的「眼」，也同样拥有不甘于安宁与遗忘的执着。",
+            "nextDialogs": [
+              "710360427"
+            ]
+          },
+          "710360427": {
+            "id": "710360427",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "我相信这份不甘的心情并非毫无意义，所以才会不要命地跑去探索那些险地。毕竟呀…",
+            "nextDialogs": [
+              "710360428"
+            ]
+          },
+          "710360428": {
+            "id": "710360428",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "以弱小之身与纵使神灵也为之恐惧的永恒角力，这才是人之所以为「人」的理由…我是这样相信的。"
+          },
+          "710360415": {
+            "id": "710360415",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "唔…我从没想过过一场「成功」的人生啦。相反，即使「失败」，只要能让众人都留下印象就好。",
+            "nextDialogs": [
+              "710360416"
+            ]
+          },
+          "710360416": {
+            "id": "710360416",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "至少有人会说：「志琼这个人，也是挑战过层岩巨渊的啊！」",
+            "nextDialogs": [
+              "710360417"
+            ]
+          },
+          "710360417": {
+            "id": "710360417",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "至少不会像那些牺牲在无人之地的前辈一样…至少不会像现在的我一样，被人遗忘。"
+          },
+          "710360419": {
+            "id": "710360419",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "这样吗…？或许那是因为像前辈这样的外来人，无论在哪里出现都会自然而然地成为视线的焦点吧。",
+            "nextDialogs": [
+              "710360420"
+            ]
+          },
+          "710360420": {
+            "id": "710360420",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "就像含着金汤匙出生的孩子，也只会把贫穷当成一场并非必需的刺激冒险一样。",
+            "nextDialogs": [
+              "710360421"
+            ]
+          },
+          "710360421": {
+            "id": "710360421",
+            "speakerId": 20006,
+            "speakerName": "志琼",
+            "text": "啊，抱歉…我不是那个意思，我只是说…没什么。当我没有问吧。"
+          }
+        }
+      }
+    }
+  ]
+}

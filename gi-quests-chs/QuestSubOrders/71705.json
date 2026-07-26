@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "言笑": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7170501",
+      "subQuestName": "将两份香肠交给言笑",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717050101"
+        ],
+        "dialogs": {
+          "717050101": {
+            "id": "717050101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于香肠…",
+            "nextDialogs": [
+              "717050102"
+            ]
+          },
+          "717050102": {
+            "id": "717050102",
+            "speakerId": 2204,
+            "speakerName": "言笑",
+            "text": "嗯，是我发的那个委托，怎么？你把两份香肠都准备好了吗？",
+            "nextDialogs": [
+              "717050105"
+            ]
+          },
+          "717050105": {
+            "id": "717050105",
+            "speakerId": 2204,
+            "speakerName": "言笑",
+            "text": "那你快着点，准备好了就赶紧拿过来，我还等着做菜呢，客人都要不耐烦了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170502",
+      "subQuestName": "与言笑对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717050201"
+        ],
+        "dialogs": {
+          "717050201": {
+            "id": "717050201",
+            "speakerId": 2204,
+            "speakerName": "言笑",
+            "text": "嗯…这两份香肠不错，应该够我做菜的了。",
+            "nextDialogs": [
+              "717050202"
+            ]
+          },
+          "717050202": {
+            "id": "717050202",
+            "speakerId": 2204,
+            "speakerName": "言笑",
+            "text": "这是报酬，拿好了。"
+          }
+        }
+      }
+    }
+  ]
+}

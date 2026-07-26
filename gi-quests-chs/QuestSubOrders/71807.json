@@ -1,0 +1,92 @@
+{
+  "lineCounts": {
+    "Player": 1,
+    "畅畅": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7180701",
+      "subQuestName": "与畅畅对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180702",
+      "subQuestName": "用一份禽肉向小狗喂食",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718070201"
+        ],
+        "dialogs": {
+          "718070201": {
+            "id": "718070201",
+            "speakerId": 2025,
+            "speakerName": "畅畅",
+            "text": "希望那只小狗别饿坏了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180703",
+      "subQuestName": "向畅畅回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718070301"
+        ],
+        "dialogs": {
+          "718070301": {
+            "id": "718070301",
+            "speakerId": 2025,
+            "speakerName": "畅畅",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，你喂过那只小狗了吗？",
+            "nextDialogs": [
+              "718070302"
+            ]
+          },
+          "718070302": {
+            "id": "718070302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "它应该吃饱了。",
+            "nextDialogs": [
+              "718070303"
+            ]
+          },
+          "718070303": {
+            "id": "718070303",
+            "speakerId": 2025,
+            "speakerName": "畅畅",
+            "text": "#太好啦…谢谢你，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}。",
+            "nextDialogs": [
+              "718070304"
+            ]
+          },
+          "718070304": {
+            "id": "718070304",
+            "speakerId": 2025,
+            "speakerName": "畅畅",
+            "text": "这些东西给你，是畅畅自己攒下来的哦，谢谢你帮忙。",
+            "nextDialogs": [
+              "718070305"
+            ]
+          },
+          "718070305": {
+            "id": "718070305",
+            "speakerId": 2025,
+            "speakerName": "畅畅",
+            "text": "过几天爷爷应该就可以带畅畅去喂它啦。"
+          }
+        }
+      }
+    }
+  ]
+}

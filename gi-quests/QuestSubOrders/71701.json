@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Herbalist Gui": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7170101",
+      "subQuestName": "Give Herbalist Gui three Qingxin",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717010101"
+        ],
+        "dialogs": {
+          "717010101": {
+            "id": "717010101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Qingxin...",
+            "nextDialogs": [
+              "717010102"
+            ]
+          },
+          "717010102": {
+            "id": "717010102",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Ah yes, you must've seen my commission then. I'm happy someone has finally turned up to help.",
+            "nextDialogs": [
+              "717010103"
+            ]
+          },
+          "717010103": {
+            "id": "717010103",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "So, how goes the search for those three Qingxin flowers? Have you got them yet?",
+            "nextDialogs": [
+              "717010106"
+            ]
+          },
+          "717010106": {
+            "id": "717010106",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Just remember to bring them back to me once you've gathered them. We've got medicine to make and people to cure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170102",
+      "subQuestName": "Talk to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717010201"
+        ],
+        "dialogs": {
+          "717010201": {
+            "id": "717010201",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Not bad, these Qingxin flowers will do just fine. Thanks a lot. Here, take these.",
+            "nextDialogs": [
+              "717010202"
+            ]
+          },
+          "717010202": {
+            "id": "717010202",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "I'll get these Qingxin flowers delivered right away. We have patients depending on it to get better."
+          }
+        }
+      }
+    }
+  ]
+}

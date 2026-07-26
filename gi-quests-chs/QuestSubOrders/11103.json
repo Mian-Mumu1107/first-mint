@@ -1,0 +1,1248 @@
+{
+  "lineCounts": {
+    "Player": 28,
+    "掇星攫辰天君": 25,
+    "派蒙": 47,
+    "秀华": 2,
+    "菲尔戈黛特": 5,
+    "铜雀": 11,
+    "雕像": 16,
+    "魈": 29
+  },
+  "subQuests": [
+    {
+      "subId": "1110313",
+      "subQuestName": "到达天衡山南部的庙宇",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110314",
+      "subQuestName": "与守庙人谈话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030101"
+        ],
+        "dialogs": {
+          "111030101": {
+            "id": "111030101",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "青山碧水魂飘飘，浮生得闲把扇摇…",
+            "nextDialogs": [
+              "111030102"
+            ]
+          },
+          "111030102": {
+            "id": "111030102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不好意思，打扰你的雅兴了…",
+            "nextDialogs": [
+              "111030103"
+            ]
+          },
+          "111030103": {
+            "id": "111030103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们想借一下这里的香炉和灯。",
+            "nextDialogs": [
+              "111030104"
+            ]
+          },
+          "111030104": {
+            "id": "111030104",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "…这还真是天底下最稀罕的事了。",
+            "nextDialogs": [
+              "111030105"
+            ]
+          },
+          "111030105": {
+            "id": "111030105",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "来到庙里不求仙，不拜神，反倒要把香炉都搬走，哈哈哈…",
+            "nextDialogs": [
+              "111030106"
+            ]
+          },
+          "111030106": {
+            "id": "111030106",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们也知道是很无礼的要求，但真的只借一会儿…",
+            "nextDialogs": [
+              "111030107"
+            ]
+          },
+          "111030107": {
+            "id": "111030107",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "是「梦游诸境法」的仪式所用吧？",
+            "nextDialogs": [
+              "111030108"
+            ]
+          },
+          "111030108": {
+            "id": "111030108",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊…你怎么会知道！",
+            "nextDialogs": [
+              "111030109"
+            ]
+          },
+          "111030109": {
+            "id": "111030109",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "我在此庙的时间，绝对远比你们想象得长。",
+            "nextDialogs": [
+              "111030110"
+            ]
+          },
+          "111030110": {
+            "id": "111030110",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "可能是心诚所致吧？「仙法」也有幸悟得一二。",
+            "nextDialogs": [
+              "111030111"
+            ]
+          },
+          "111030111": {
+            "id": "111030111",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还有这种事…",
+            "nextDialogs": [
+              "111030112"
+            ]
+          },
+          "111030112": {
+            "id": "111030112",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "罢了罢了，你们拿去吧。今天能有机会成人之美，也算一件幸事。",
+            "nextDialogs": [
+              "111030113"
+            ]
+          },
+          "111030113": {
+            "id": "111030113",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "…再留在此地，本身也没什么意义了。",
+            "nextDialogs": [
+              "111030115",
+              "111030117"
+            ]
+          },
+          "111030115": {
+            "id": "111030115",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "不必在意我，想要什么就快去取吧。"
+          },
+          "111030117": {
+            "id": "111030117",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "没关系，想要什么就快去取吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110301",
+      "subQuestName": "收集仪式所用道具——香炉",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110317",
+      "subQuestName": "(test)切香炉$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030201"
+        ],
+        "dialogs": {
+          "111030201": {
+            "id": "111030201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个香炉…应该没问题吧？",
+            "nextDialogs": [
+              "111030202"
+            ]
+          },
+          "111030202": {
+            "id": "111030202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "至少不像这座庙一样破破烂烂。",
+            "nextDialogs": [
+              "111030203"
+            ]
+          },
+          "111030203": {
+            "id": "111030203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "香炉之后…还要收集附近的「七星灯」，赶快行动吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110302",
+      "subQuestName": "收集仪式所用道具——七星灯",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110303",
+      "subQuestName": "回去找铜雀先生",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030301"
+        ],
+        "dialogs": {
+          "111030301": {
+            "id": "111030301",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "咦？怎么没人了，之前明明就在这里的…",
+            "nextDialogs": [
+              "111030302"
+            ]
+          },
+          "111030302": {
+            "id": "111030302",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "想不到你们还会在意我的去向…本以为你们拿了东西便会走了。",
+            "nextDialogs": [
+              "111030330"
+            ]
+          },
+          "111030330": {
+            "id": "111030330",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊！…是刚才那位先生的声音！你、你在哪里！？",
+            "nextDialogs": [
+              "111030303"
+            ]
+          },
+          "111030303": {
+            "id": "111030303",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "我的形体，千年之前就不在了。你们方才见到的，是「浮世留形法」所造的幻影。",
+            "nextDialogs": [
+              "111030304"
+            ]
+          },
+          "111030304": {
+            "id": "111030304",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "如今你们将「浮世留形法」所用的香炉与七星灯拿去，自然就见不到我了。",
+            "nextDialogs": [
+              "111030308",
+              "111030307"
+            ]
+          },
+          "111030308": {
+            "id": "111030308",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "我本是夜叉中的小仙，岩王帝君赐我仙名「铜雀」，数千年前实力不济，战死沙场。",
+            "nextDialogs": [
+              "111030309"
+            ]
+          },
+          "111030309": {
+            "id": "111030309",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "今天是我的忌日，看看今日的璃月是我的遗愿，因而冒昧在此施术。",
+            "nextDialogs": [
+              "111030310"
+            ]
+          },
+          "111030310": {
+            "id": "111030310",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "话说…你们是从「降魔大圣」那里来的吧？",
+            "nextDialogs": [
+              "111030311"
+            ]
+          },
+          "111030311": {
+            "id": "111030311",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来你们之间认识吗？",
+            "nextDialogs": [
+              "111030312"
+            ]
+          },
+          "111030312": {
+            "id": "111030312",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "我能从你们身上感受到他的气息…还有，愈发浓郁的「业障」的气息…",
+            "nextDialogs": [
+              "111030313"
+            ]
+          },
+          "111030313": {
+            "id": "111030313",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "唉…数千年来，他还一直在忍受着那样的痛苦吗…",
+            "nextDialogs": [
+              "111030314"
+            ]
+          },
+          "111030314": {
+            "id": "111030314",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "…真是令我无地自容。",
+            "nextDialogs": [
+              "111030315"
+            ]
+          },
+          "111030315": {
+            "id": "111030315",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "别这么说，「铜雀」先生不是为了璃月献出了生命吗？",
+            "nextDialogs": [
+              "111030316"
+            ]
+          },
+          "111030316": {
+            "id": "111030316",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "性命虽然珍贵…但比起「降魔大圣」所承受的，死亡不过是一种苟且偷安而已。",
+            "nextDialogs": [
+              "111030317"
+            ]
+          },
+          "111030317": {
+            "id": "111030317",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "「铜雀」先生…",
+            "nextDialogs": [
+              "111030318"
+            ]
+          },
+          "111030318": {
+            "id": "111030318",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "哈哈，真是不好意思。生日要快乐地度过，但忌日就难免感伤吧。",
+            "nextDialogs": [
+              "111030319"
+            ]
+          },
+          "111030319": {
+            "id": "111030319",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "「浮世留形法」的效力也快散尽了，请二位珍重，替我问候「降魔大圣」…"
+          },
+          "111030307": {
+            "id": "111030307",
+            "speakerId": 10221,
+            "speakerName": "雕像",
+            "text": "哈哈哈…这么说也没错。「仙」与「鬼」原本就是一线之隔。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110304",
+      "subQuestName": "收集仪式所用道具——冰雾花",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110312",
+      "subQuestName": "在夜晚前往「夜叉像」处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110305",
+      "subQuestName": "与魈对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030501"
+        ],
+        "dialogs": {
+          "111030501": {
+            "id": "111030501",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "仪式道具已经备齐了么？",
+            "nextDialogs": [
+              "111030502"
+            ]
+          },
+          "111030502": {
+            "id": "111030502",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "这香炉和七星灯的式样很完美，简直像是为仙法特制的…你们从哪里弄来的？",
+            "nextDialogs": [
+              "111030503"
+            ]
+          },
+          "111030503": {
+            "id": "111030503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "从名叫「铜雀」的夜叉那里…",
+            "nextDialogs": [
+              "111030504"
+            ]
+          },
+          "111030504": {
+            "id": "111030504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "而且「铜雀」先生托我们向你问好！",
+            "nextDialogs": [
+              "111030505"
+            ]
+          },
+          "111030505": {
+            "id": "111030505",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「铜雀」…",
+            "nextDialogs": [
+              "111030506"
+            ]
+          },
+          "111030506": {
+            "id": "111030506",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "…原来是他啊，确实有他的风格。",
+            "nextDialogs": [
+              "111030507"
+            ]
+          },
+          "111030507": {
+            "id": "111030507",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "果然「铜雀」也放不下璃月吧…但愿璃月今日的光景可以让他放心安息。",
+            "nextDialogs": [
+              "111030508"
+            ]
+          },
+          "111030508": {
+            "id": "111030508",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "那么现在开始仪式的准备吧。",
+            "nextDialogs": [
+              "111030509"
+            ]
+          },
+          "111030509": {
+            "id": "111030509",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "香炉置正中尊位，七星灯散落周围，极寒之物于其间点缀，安排好之后我们再继续。",
+            "nextDialogs": [
+              "111030510"
+            ]
+          },
+          "111030510": {
+            "id": "111030510",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "嗯，如此便可。接下来是「梦游诸境法」的关键…",
+            "nextDialogs": [
+              "111030511"
+            ]
+          },
+          "111030511": {
+            "id": "111030511",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "施术的过程共有四个环节：献香，冥思，施咒，放矢。",
+            "nextDialogs": [
+              "111030512"
+            ]
+          },
+          "111030512": {
+            "id": "111030512",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊…还要这么麻烦呀？",
+            "nextDialogs": [
+              "111030513"
+            ]
+          },
+          "111030513": {
+            "id": "111030513",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "仙法乃是绝云仙人千年所悟，其中玄奥颇深，切不可轻慢。",
+            "nextDialogs": [
+              "111030514"
+            ]
+          },
+          "111030514": {
+            "id": "111030514",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "否则可能反噬自身，魂魄离体难以复归…",
+            "nextDialogs": [
+              "111030515"
+            ]
+          },
+          "111030515": {
+            "id": "111030515",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对不起，我又说错话了！",
+            "nextDialogs": [
+              "111030516"
+            ]
+          },
+          "111030516": {
+            "id": "111030516",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「献香」，就是在香炉上香一柱，心怀对岩王帝君的敬畏。",
+            "nextDialogs": [
+              "111030517"
+            ]
+          },
+          "111030517": {
+            "id": "111030517",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「冥思」，断绝一切杂念，将施术对象的形象在脑中定格。",
+            "nextDialogs": [
+              "111030518"
+            ]
+          },
+          "111030518": {
+            "id": "111030518",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「施咒」，厉声将咒文念出——「帝婆夜叉，三尸押来」。",
+            "nextDialogs": [
+              "111030519"
+            ]
+          },
+          "111030519": {
+            "id": "111030519",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「放矢」，对两尊夜叉雕像各射出一箭，作为使役的契约。",
+            "nextDialogs": [
+              "111030520"
+            ]
+          },
+          "111030520": {
+            "id": "111030520",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "没有意外的话，片刻后那人的魂魄便会出现于此。",
+            "nextDialogs": [
+              "111030523"
+            ]
+          },
+          "111030523": {
+            "id": "111030523",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "没有疑问的话，就赶快开始吧。",
+            "nextDialogs": [
+              "111030524"
+            ]
+          },
+          "111030524": {
+            "id": "111030524",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那总之…先上柱香吧？要心怀对岩王帝君的敬意什么的…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110316",
+      "subQuestName": "(test)刷group$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110306",
+      "subQuestName": "依据仪式流程，进行仪式",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030601"
+        ],
+        "dialogs": {
+          "111030601": {
+            "id": "111030601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "然后是「冥思」…要回想那个骗子的形象真是好不情愿呢。",
+            "nextDialogs": [
+              "111030602"
+            ]
+          },
+          "111030602": {
+            "id": "111030602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "嗯……",
+            "nextDialogs": [
+              "111030603"
+            ]
+          },
+          "111030603": {
+            "id": "111030603",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯……",
+            "nextDialogs": [
+              "111030604"
+            ]
+          },
+          "111030604": {
+            "id": "111030604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "唔……",
+            "nextDialogs": [
+              "111030605"
+            ]
+          },
+          "111030605": {
+            "id": "111030605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔……",
+            "nextDialogs": [
+              "111030606"
+            ]
+          },
+          "111030606": {
+            "id": "111030606",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "嗯，嗯……",
+            "nextDialogs": [
+              "111030607"
+            ]
+          },
+          "111030607": {
+            "id": "111030607",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，嗯……",
+            "nextDialogs": [
+              "111030608"
+            ]
+          },
+          "111030608": {
+            "id": "111030608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「帝婆夜叉，三尸押来」！",
+            "nextDialogs": [
+              "111030609"
+            ]
+          },
+          "111030609": {
+            "id": "111030609",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，「三尸押来」！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110315",
+      "subQuestName": "依据仪式流程，射击两座夜叉雕像的发光处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110307",
+      "subQuestName": "(test)进行仪式3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030701"
+        ],
+        "dialogs": {
+          "111030701": {
+            "id": "111030701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "已经按照魈说的把仪式完成啦。",
+            "nextDialogs": [
+              "111030702"
+            ]
+          },
+          "111030702": {
+            "id": "111030702",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "……马马虎虎吧。",
+            "nextDialogs": [
+              "111030703"
+            ]
+          },
+          "111030703": {
+            "id": "111030703",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "剩下的交给我，你们做好准备「迎接」他。",
+            "nextDialogs": [
+              "111030704"
+            ]
+          },
+          "111030704": {
+            "id": "111030704",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "这里是…嗯？你们似乎有些眼熟。",
+            "nextDialogs": [
+              "111030705"
+            ]
+          },
+          "111030705": {
+            "id": "111030705",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "身体是怎么回事，轻飘飘的感觉不到重量…",
+            "nextDialogs": [
+              "111030707",
+              "111030710"
+            ]
+          },
+          "111030707": {
+            "id": "111030707",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "…仙法？哈哈哈哈哈，在本仙面前装成仙人，不知天高地厚。",
+            "nextDialogs": [
+              "111030708"
+            ]
+          },
+          "111030708": {
+            "id": "111030708",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "话说此地是何处，本仙明明刚在望舒客栈安安稳稳地睡下…",
+            "nextDialogs": [
+              "111030712"
+            ]
+          },
+          "111030712": {
+            "id": "111030712",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "对了，嗯，原来如此，不愧是本仙哈哈哈…",
+            "nextDialogs": [
+              "111030713"
+            ]
+          },
+          "111030713": {
+            "id": "111030713",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "本仙一定是在做梦！",
+            "nextDialogs": [
+              "111030714"
+            ]
+          },
+          "111030714": {
+            "id": "111030714",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯…对这个无可救药的人，似乎没法达到预期的效果…"
+          },
+          "111030710": {
+            "id": "111030710",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "死、死死死死了！？",
+            "nextDialogs": [
+              "111030711"
+            ]
+          },
+          "111030711": {
+            "id": "111030711",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "怎么可能，本仙明明刚在望舒客栈安安稳稳地睡下…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110308",
+      "subQuestName": "惩罚「假仙人」的魂魄",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110309",
+      "subQuestName": "(test)战斗后对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111030901"
+        ],
+        "dialogs": {
+          "111030901": {
+            "id": "111030901",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "快停下…我、我认输！哎哟…",
+            "nextDialogs": [
+              "111030903",
+              "111030905"
+            ]
+          },
+          "111030903": {
+            "id": "111030903",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "相信，相信！都要被你们打得魂飞魄散了…",
+            "nextDialogs": [
+              "111030906"
+            ]
+          },
+          "111030906": {
+            "id": "111030906",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "我这是何等的晦气，居然撞上你们这块铁板。",
+            "nextDialogs": [
+              "111030907"
+            ]
+          },
+          "111030907": {
+            "id": "111030907",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "还请两位大仙饶过我，一定不会有下次了…",
+            "nextDialogs": [
+              "111030908"
+            ]
+          },
+          "111030908": {
+            "id": "111030908",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们不是仙人，虽然魂魄是我们招来的，但真正的仙人是这一位。",
+            "nextDialogs": [
+              "111030909"
+            ]
+          },
+          "111030909": {
+            "id": "111030909",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "你终日招摇撞骗，冒顶仙名，驱邪而不除，置众生安危于不顾。",
+            "nextDialogs": [
+              "111030910"
+            ]
+          },
+          "111030910": {
+            "id": "111030910",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "久之必自食恶果，为妖邪所诱而堕万劫不复。",
+            "nextDialogs": [
+              "111030911"
+            ]
+          },
+          "111030911": {
+            "id": "111030911",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "啊…我…您是…",
+            "nextDialogs": [
+              "111030912"
+            ]
+          },
+          "111030912": {
+            "id": "111030912",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他好像被魈的气场吓得不会说话了欸。",
+            "nextDialogs": [
+              "111030913"
+            ]
+          },
+          "111030913": {
+            "id": "111030913",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "敢问…敢问仙名是？"
+          },
+          "111030905": {
+            "id": "111030905",
+            "speakerId": 10203,
+            "speakerName": "掇星攫辰天君",
+            "text": "不敢了，不敢了，都要被你们打得魂飞魄散了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110310",
+      "subQuestName": "前往望舒客栈，向菲尔戈黛特询问「假仙人」的情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111031001"
+        ],
+        "dialogs": {
+          "111031001": {
+            "id": "111031001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "老板，请问「掇星攫辰天君」是住在这里吧？",
+            "nextDialogs": [
+              "111031002"
+            ]
+          },
+          "111031002": {
+            "id": "111031002",
+            "speakerId": 2208,
+            "speakerName": "菲尔戈黛特",
+            "text": "「掇星攫辰天君」…你是说那个戴着面具的假仙人吧。",
+            "nextDialogs": [
+              "111031003"
+            ]
+          },
+          "111031003": {
+            "id": "111031003",
+            "speakerId": 2208,
+            "speakerName": "菲尔戈黛特",
+            "text": "他在我这里登记的名字是「王平安」哦。",
+            "nextDialogs": [
+              "111031006"
+            ]
+          },
+          "111031006": {
+            "id": "111031006",
+            "speakerId": 2208,
+            "speakerName": "菲尔戈黛特",
+            "text": "他已经把客房退了，说是要去独自游历山川…",
+            "nextDialogs": [
+              "111031007"
+            ]
+          },
+          "111031007": {
+            "id": "111031007",
+            "speakerId": 2208,
+            "speakerName": "菲尔戈黛特",
+            "text": "#哦对了，那人还说如果有位带着「会说话的小仙灵」的旅行者来找他，就把这封信给{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}。",
+            "nextDialogs": [
+              "111031008"
+            ]
+          },
+          "111031008": {
+            "id": "111031008",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "会说话的小仙灵？谁啊？",
+            "nextDialogs": [
+              "111031009"
+            ]
+          },
+          "111031009": {
+            "id": "111031009",
+            "speakerId": 2208,
+            "speakerName": "菲尔戈黛特",
+            "text": "嗯…他说的旅行者就是你吧。喏，信在这里。",
+            "nextDialogs": [
+              "111031010"
+            ]
+          },
+          "111031010": {
+            "id": "111031010",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "居然有信留给我们，该不会是什么新的骗术吧？",
+            "nextDialogs": [
+              "111031011"
+            ]
+          },
+          "111031011": {
+            "id": "111031011",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "赶快先拆开看看吧！我很好奇！",
+            "nextDialogs": [
+              "111031019"
+            ]
+          },
+          "111031019": {
+            "id": "111031019",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "……",
+            "nextDialogs": [
+              "111031012"
+            ]
+          },
+          "111031012": {
+            "id": "111031012",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，他好像确实随信附送了一些东西给我们…",
+            "nextDialogs": [
+              "111031013"
+            ]
+          },
+          "111031013": {
+            "id": "111031013",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "里面还有「百无禁忌箓」！",
+            "nextDialogs": [
+              "111031014"
+            ]
+          },
+          "111031014": {
+            "id": "111031014",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "真是好久没见过这么识相的坏蛋了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110311",
+      "subQuestName": "与魈对话，交还「百无禁忌箓」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111031101"
+        ],
+        "dialogs": {
+          "111031101": {
+            "id": "111031101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "果然在这里！",
+            "nextDialogs": [
+              "111031102"
+            ]
+          },
+          "111031102": {
+            "id": "111031102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们把「百无禁忌箓」回收了，你拿去收好吧？",
+            "nextDialogs": [
+              "111031103"
+            ]
+          },
+          "111031103": {
+            "id": "111031103",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "有劳二位。",
+            "nextDialogs": [
+              "111031104"
+            ]
+          },
+          "111031104": {
+            "id": "111031104",
+            "speakerId": 2091,
+            "speakerName": "秀华",
+            "text": "需要点菜吗，这位先生？",
+            "nextDialogs": [
+              "111031105"
+            ]
+          },
+          "111031105": {
+            "id": "111031105",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "一份「烤螭虎鱼」。",
+            "nextDialogs": [
+              "111031106"
+            ]
+          },
+          "111031106": {
+            "id": "111031106",
+            "speakerId": 2091,
+            "speakerName": "秀华",
+            "text": "好的，马上给您下厨！",
+            "nextDialogs": [
+              "111031107"
+            ]
+          },
+          "111031107": {
+            "id": "111031107",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯？这次居然不是杏仁豆腐，对魈来说太少见了。",
+            "nextDialogs": [
+              "111031108"
+            ]
+          },
+          "111031108": {
+            "id": "111031108",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "这是「铜雀」生前喜欢吃的…",
+            "nextDialogs": [
+              "111031109"
+            ]
+          },
+          "111031109": {
+            "id": "111031109",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "我只是想，尝尝是什么味道。",
+            "nextDialogs": [
+              "111031110"
+            ]
+          },
+          "111031110": {
+            "id": "111031110",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样啊…",
+            "nextDialogs": [
+              "111031111"
+            ]
+          },
+          "111031111": {
+            "id": "111031111",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "「惊涛入海觅螭虎，风雪归山斩妖邪」…",
+            "nextDialogs": [
+              "111031112"
+            ]
+          },
+          "111031112": {
+            "id": "111031112",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "……",
+            "nextDialogs": [
+              "111031113"
+            ]
+          },
+          "111031113": {
+            "id": "111031113",
+            "speakerId": 10204,
+            "speakerName": "魈",
+            "text": "两位还有事么？我比较习惯一个人吃饭。",
+            "nextDialogs": [
+              "111031116"
+            ]
+          },
+          "111031116": {
+            "id": "111031116",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，派蒙和旅行者，就这样帅气地，静静离开吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110320",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111032001"
+        ],
+        "dialogs": {
+          "111032001": {
+            "id": "111032001",
+            "speakerId": 10201,
+            "speakerName": "铜雀",
+            "text": "不必在意我，想要什么就快去取吧。"
+          }
+        }
+      }
+    }
+  ]
+}

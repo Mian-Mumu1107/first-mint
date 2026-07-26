@@ -1,0 +1,214 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "失眠的丘丘人": 8,
+    "派蒙": 3,
+    "艾拉·马斯克": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7001901",
+      "subQuestName": "与另一个愿意交流的丘丘人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700190101"
+        ],
+        "dialogs": {
+          "700190101": {
+            "id": "700190101",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Yoyo dala si?",
+            "nextDialogs": [
+              "700190102"
+            ]
+          },
+          "700190102": {
+            "id": "700190102",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Mimi tomo. Mimi mani ye.",
+            "nextDialogs": [
+              "700190103"
+            ]
+          },
+          "700190103": {
+            "id": "700190103",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Yoyo mani mi? Mi muhe Upa Celi nini. Mi muhe mi nunu si, mi muhe mi nye.",
+            "nextDialogs": [
+              "700190104"
+            ]
+          },
+          "700190104": {
+            "id": "700190104",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "他说他希望天上的太阳不见，想要一睡不醒，想要死。是什么让它这么痛苦啊。",
+            "nextDialogs": [
+              "700190105"
+            ]
+          },
+          "700190105": {
+            "id": "700190105",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Biat. Mi muhe <color=#00E1FFFF>celi lata</color>. Mi nunu nye.",
+            "nextDialogs": [
+              "700190106"
+            ]
+          },
+          "700190106": {
+            "id": "700190106",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "唔，不如我们就把它想要的东西交给它，权作安慰吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001902",
+      "subQuestName": "向丘丘人交付物品",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700190301"
+        ],
+        "dialogs": {
+          "700190301": {
+            "id": "700190301",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Yeye dada.",
+            "nextDialogs": [
+              "700190302"
+            ]
+          },
+          "700190302": {
+            "id": "700190302",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Wei? Du odomu tomo zido mi si, du zido <color=#00E1FFFF>unta nunu</color>！",
+            "nextDialogs": [
+              "700190303"
+            ]
+          },
+          "700190303": {
+            "id": "700190303",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "<color=#00E1FFFF>Unta nunu</color>…它在提示我们时间吧？",
+            "nextDialogs": [
+              "700190306"
+            ]
+          },
+          "700190306": {
+            "id": "700190306",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Valo, mi tomo!",
+            "nextDialogs": [
+              "700190307"
+            ]
+          },
+          "700190307": {
+            "id": "700190307",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "Valo!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001903",
+      "subQuestName": "（test）成功交付$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7001904",
+      "subQuestName": "（test）失败交付回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700190401"
+        ],
+        "dialogs": {
+          "700190401": {
+            "id": "700190401",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Nye nye nye!",
+            "nextDialogs": [
+              "700190402"
+            ]
+          },
+          "700190402": {
+            "id": "700190402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "似乎不太对。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001902",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700190201"
+        ],
+        "dialogs": {
+          "700190201": {
+            "id": "700190201",
+            "speakerId": 1000,
+            "speakerName": "失眠的丘丘人",
+            "text": "Mi muhe <color=#00E1FFFF>celi lata</color>.",
+            "nextDialogs": [
+              "700190202"
+            ]
+          },
+          "700190202": {
+            "id": "700190202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（是这个吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001999",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700199901"
+        ],
+        "dialogs": {
+          "700199901": {
+            "id": "700199901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呼呼，终于找到了。"
+          }
+        }
+      }
+    }
+  ]
+}

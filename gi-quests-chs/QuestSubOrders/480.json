@@ -1,0 +1,359 @@
+{
+  "lineCounts": {
+    "Player": 5,
+    "安柏": 24,
+    "派蒙": 3
+  },
+  "subQuests": [
+    {
+      "subId": "48005",
+      "subQuestName": "前往考试地点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48001",
+      "subQuestName": "与安柏对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4800101"
+        ],
+        "dialogs": {
+          "4800101": {
+            "id": "4800101",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "喂——我在这我在这。",
+            "nextDialogs": [
+              "4800102"
+            ]
+          },
+          "4800102": {
+            "id": "4800102",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "风起地简易飞行，开始！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48002",
+      "subQuestName": "按指定路线限时飞抵终点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48006",
+      "subQuestName": "(test)倒计时UI显示$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4800401"
+        ],
+        "dialogs": {
+          "4800401": {
+            "id": "4800401",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "很好！不愧是在暴风里也能掌握平衡的你，顺利通过了。",
+            "nextDialogs": [
+              "4800402"
+            ]
+          },
+          "4800402": {
+            "id": "4800402",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "接下来的测验是在蒙德城，那么我先去城里了，你也快点过来吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48003",
+      "subQuestName": "在安柏的指导下重考",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4800303"
+        ],
+        "dialogs": {
+          "4800303": {
+            "id": "4800303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我再试一次。",
+            "nextDialogs": [
+              "4800304"
+            ]
+          },
+          "4800304": {
+            "id": "4800304",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "好，这次一定没问题。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48004",
+      "subQuestName": "与安柏对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "48003",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4800301"
+        ],
+        "dialogs": {
+          "4800301": {
+            "id": "4800301",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "飞行的时候，要把握好诀窍啦。",
+            "nextDialogs": [
+              "4800302"
+            ]
+          },
+          "4800302": {
+            "id": "4800302",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "想要再试一次的话，就来告诉我吧。",
+            "nextDialogs": [
+              "4800305"
+            ]
+          },
+          "4800305": {
+            "id": "4800305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我还要再准备一下。",
+            "nextDialogs": [
+              "4800306"
+            ]
+          },
+          "4800306": {
+            "id": "4800306",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "没问题，起飞之前可要好好准备。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48202",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4820201"
+        ],
+        "dialogs": {
+          "4820201": {
+            "id": "4820201",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "啊，你来了。已经把飞行指南好好看过了吗？规章制度都熟悉了吧？",
+            "nextDialogs": [
+              "4820204"
+            ]
+          },
+          "4820204": {
+            "id": "4820204",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "唔，这个勉强的语气，我了解我了解。",
+            "nextDialogs": [
+              "4820205"
+            ]
+          },
+          "4820205": {
+            "id": "4820205",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "飞行指南就是这么枯燥无趣啦，我也一点都看不下去…呀，别告诉琴团长我说过这话。",
+            "nextDialogs": [
+              "4820206"
+            ]
+          },
+          "4820206": {
+            "id": "4820206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是吗？我觉得这本「飞行指南」里讲的故事其实还蛮有趣的？",
+            "nextDialogs": [
+              "4820207"
+            ]
+          },
+          "4820207": {
+            "id": "4820207",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "有趣的故事？哦——你是说后面附录的案例啊？",
+            "nextDialogs": [
+              "4820208"
+            ]
+          },
+          "4820208": {
+            "id": "4820208",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "有些我也挺喜欢，最喜欢的是用风史莱姆违规起飞的那个。",
+            "nextDialogs": [
+              "4820209"
+            ]
+          },
+          "4820209": {
+            "id": "4820209",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "借助风史莱姆被打破的时候爆发的气流，说是能一下子飞得很高很高，真想试试看哪——",
+            "nextDialogs": [
+              "4820210"
+            ]
+          },
+          "4820210": {
+            "id": "4820210",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不是这个啦！是一只小鸟想要学会飞行的故事…",
+            "nextDialogs": [
+              "4820211"
+            ]
+          },
+          "4820211": {
+            "id": "4820211",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "咦…啊？！",
+            "nextDialogs": [
+              "4820212"
+            ]
+          },
+          "4820212": {
+            "id": "4820212",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "我看看…呀！这不是我小时候最喜欢读的寓言书吗？",
+            "nextDialogs": [
+              "4820213"
+            ]
+          },
+          "4820213": {
+            "id": "4820213",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "对不起！我昨天把它和骑士团飞行指南放在一起，肯定是出门的时候拿错了。",
+            "nextDialogs": [
+              "4820214"
+            ]
+          },
+          "4820214": {
+            "id": "4820214",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这两本书…有拿错的可能性吗？",
+            "nextDialogs": [
+              "4820215"
+            ]
+          },
+          "4820215": {
+            "id": "4820215",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "呃…事到如今再聊这个，实在有些不好意思。",
+            "nextDialogs": [
+              "4820216"
+            ]
+          },
+          "4820216": {
+            "id": "4820216",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "但拿错的原因，也许是因为在我心里，这本书才是教会我飞行的指南吧…",
+            "nextDialogs": [
+              "4820217"
+            ]
+          },
+          "4820217": {
+            "id": "4820217",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "「重要的不是强风而是勇气，是它让你们成为世上最初的飞鸟」。",
+            "nextDialogs": [
+              "4820218"
+            ]
+          },
+          "4820218": {
+            "id": "4820218",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "就是这句话给了我飞行的勇气，让我成为侦察骑士，和蒙德城的飞行冠军…",
+            "nextDialogs": [
+              "4820219"
+            ]
+          },
+          "4820219": {
+            "id": "4820219",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "好了好了，不说这些了，我们赶紧开始考试吧。",
+            "nextDialogs": [
+              "4820220"
+            ]
+          },
+          "4820220": {
+            "id": "4820220",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "别紧张，只要发挥出你平时的飞行水准就好啦。",
+            "nextDialogs": [
+              "4820221"
+            ]
+          },
+          "4820221": {
+            "id": "4820221",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "按照我给你<color=#00E1FFFF>标记好的路线</color>，一路平稳地飞到终点吧。",
+            "nextDialogs": [
+              "4820222"
+            ]
+          },
+          "4820222": {
+            "id": "4820222",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我准备好了。"
+          }
+        }
+      }
+    }
+  ]
+}

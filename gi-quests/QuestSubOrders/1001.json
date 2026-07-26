@@ -1,0 +1,55 @@
+{
+  "lineCounts": {
+    "Paimon": 2,
+    "Tianquan's Assistant": 1
+  },
+  "subQuests": [
+    {
+      "subId": "100101",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10010101"
+        ],
+        "dialogs": {
+          "10010101": {
+            "id": "10010101",
+            "speakerId": 2002901,
+            "speakerName": "Tianquan's Assistant",
+            "text": "Halt. Those not involved in the proceedings are not permitted to go any further!",
+            "nextDialogs": [
+              "10010102"
+            ]
+          },
+          "10010102": {
+            "id": "10010102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Pfft... Killjoy..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "10",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1001"
+        ],
+        "dialogs": {
+          "1001": {
+            "id": "1001",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "..."
+          }
+        }
+      }
+    }
+  ]
+}

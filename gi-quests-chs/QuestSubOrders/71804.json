@@ -1,0 +1,753 @@
+{
+  "lineCounts": {
+    "Player": 14,
+    "伊凡诺维奇": 24,
+    "公告板": 4,
+    "嘉义": 7,
+    "小安": 9,
+    "小昭": 8,
+    "派蒙": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7180401",
+      "subQuestName": "与伊凡诺维奇对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180402",
+      "subQuestName": "抄写有关新经营许可证的公告",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040201"
+        ],
+        "dialogs": {
+          "718040201": {
+            "id": "718040201",
+            "speakerId": 20135,
+            "speakerName": "公告板",
+            "text": "此乃绯云坡公告板，街区新闻、店铺广告，无论大小，皆以公示。闲人如无要事，请勿擅自张贴。",
+            "nextDialogs": [
+              "718040203",
+              "718040206",
+              "718040209"
+            ]
+          },
+          "718040203": {
+            "id": "718040203",
+            "speakerId": 20135,
+            "speakerName": "公告板",
+            "text": "「总务司人事调动公示如下…」",
+            "nextDialogs": [
+              "718040204"
+            ]
+          },
+          "718040204": {
+            "id": "718040204",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等一下，总务司的人事调动应该跟经营许可证没有关系吧。"
+          },
+          "718040206": {
+            "id": "718040206",
+            "speakerId": 20135,
+            "speakerName": "公告板",
+            "text": "「关于绯云坡近来水源污染一事…」",
+            "nextDialogs": [
+              "718040207"
+            ]
+          },
+          "718040207": {
+            "id": "718040207",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "伊凡诺维奇先生急着办事呢，我们没有时间关心水源污染问题啦。"
+          },
+          "718040209": {
+            "id": "718040209",
+            "speakerId": 20135,
+            "speakerName": "公告板",
+            "text": "「如需申请新版经营许可证，需有如下手续…」",
+            "nextDialogs": [
+              "718040210"
+            ]
+          },
+          "718040210": {
+            "id": "718040210",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这应该就是伊凡诺维奇先生想要申请的新版经营许可证了，我们赶快抄下来吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180403",
+      "subQuestName": "与伊凡诺维奇对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040301"
+        ],
+        "dialogs": {
+          "718040301": {
+            "id": "718040301",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "你找到关于新版经营许可证的公告了吗？",
+            "nextDialogs": [
+              "718040302"
+            ]
+          },
+          "718040302": {
+            "id": "718040302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "已经抄下来了。",
+            "nextDialogs": [
+              "718040303"
+            ]
+          },
+          "718040303": {
+            "id": "718040303",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "太好了，我来仔细看看…",
+            "nextDialogs": [
+              "718040304"
+            ]
+          },
+          "718040304": {
+            "id": "718040304",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "出海申请批复件，经营场所证明及经营安全许诺书和…还有旧的经营许可证…",
+            "nextDialogs": [
+              "718040305"
+            ]
+          },
+          "718040305": {
+            "id": "718040305",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "还好，还好，这几份文件我前几天刚刚跑去签好了，可把我跑得够呛。",
+            "nextDialogs": [
+              "718040306"
+            ]
+          },
+          "718040306": {
+            "id": "718040306",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "旅行者，麻烦你再帮我跑一趟，把这些文件分别交上去吧。",
+            "nextDialogs": [
+              "718040307"
+            ]
+          },
+          "718040307": {
+            "id": "718040307",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "咳咳…可能要交的人有点多…",
+            "nextDialogs": [
+              "718040308"
+            ]
+          },
+          "718040308": {
+            "id": "718040308",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "呃，首先，<color=#00E1FFFF>出海申请批复件</color>交给小安，<color=#00E1FFFF>经营场所证明及经营安全许诺书</color>交给千岩军嘉义…",
+            "nextDialogs": [
+              "718040309"
+            ]
+          },
+          "718040309": {
+            "id": "718040309",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "还有<color=#00E1FFFF>旧的经营许可</color>，去交给小昭就可以了。",
+            "nextDialogs": [
+              "718040310"
+            ]
+          },
+          "718040310": {
+            "id": "718040310",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "旅行者，就拜托你再帮我跑跑了，我一定会准备好足够的报酬。",
+            "nextDialogs": [
+              "718040311"
+            ]
+          },
+          "718040311": {
+            "id": "718040311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好吧，好吧…",
+            "nextDialogs": [
+              "718040312"
+            ]
+          },
+          "718040312": {
+            "id": "718040312",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "希望跑完这些手续之后，我就不用再跑了…",
+            "nextDialogs": [
+              "718040313"
+            ]
+          },
+          "718040313": {
+            "id": "718040313",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "希望以后不用跑了。",
+            "nextDialogs": [
+              "718040314"
+            ]
+          },
+          "718040314": {
+            "id": "718040314",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "你之后应该不用跑这种手续了，但是我嘛…在这里做生意，之后免不了还得跑。",
+            "nextDialogs": [
+              "718040315"
+            ]
+          },
+          "718040315": {
+            "id": "718040315",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "唉，虽然这种办事方式确实让人安心，但如果能再简化一些就更好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180404",
+      "subQuestName": "将相应材料交给小安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040401"
+        ],
+        "dialogs": {
+          "718040401": {
+            "id": "718040401",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "这份材料的手续怎么又不全…",
+            "nextDialogs": [
+              "718040402"
+            ]
+          },
+          "718040402": {
+            "id": "718040402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于伊凡诺维奇的新版经营许可证…",
+            "nextDialogs": [
+              "718040403"
+            ]
+          },
+          "718040403": {
+            "id": "718040403",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "伊凡诺维奇…哦，之前他来过几趟，我有印象。",
+            "nextDialogs": [
+              "718040404"
+            ]
+          },
+          "718040404": {
+            "id": "718040404",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "他是在跑新版经营许可证的手续吗？哈哈…那他估计跑得够呛…",
+            "nextDialogs": [
+              "718040405"
+            ]
+          },
+          "718040405": {
+            "id": "718040405",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "你是来帮他代办的吧，<color=#00E1FFFF>出海申请批复件</color>带来了吗？我上次和他说了，他的手续不全，得去其他地方补一下…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180447",
+      "subQuestName": "将相应材料交给小安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718044701"
+        ],
+        "dialogs": {
+          "718044701": {
+            "id": "718044701",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "我看看…这材料不对啊，我这里只处理海事司负责的业务，其他的材料不归我管。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180444",
+      "subQuestName": "将相应材料交给小安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718044401"
+        ],
+        "dialogs": {
+          "718044401": {
+            "id": "718044401",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "我看看…这材料不对啊，我这里只处理海事司负责的业务，其他的材料不归我管。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180434",
+      "subQuestName": "将相应材料交给小安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718043401"
+        ],
+        "dialogs": {
+          "718043401": {
+            "id": "718043401",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "我看看…嗯，这样应该就可以了，那这份文件我收下了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180405",
+      "subQuestName": "将相应材料交给嘉义",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040501"
+        ],
+        "dialogs": {
+          "718040501": {
+            "id": "718040501",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "请保持秩序，保持秩序！",
+            "nextDialogs": [
+              "718040503",
+              "718040505"
+            ]
+          },
+          "718040503": {
+            "id": "718040503",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "啊？你是来帮人代办的吧，那你把经营场所证明…和那什么来着？哦…经营安全许诺书，都带来了吗？"
+          },
+          "718040505": {
+            "id": "718040505",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "没有，没有。我只是临时过来帮忙的，小昭那边文件收不过来了，我暂时先来帮忙收一下，归个档。",
+            "nextDialogs": [
+              "718040506"
+            ]
+          },
+          "718040506": {
+            "id": "718040506",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "嗨，这活干得真是头晕…好了，你把经营场所证明，还有经营安全许诺书带来了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180445",
+      "subQuestName": "将相应材料交给嘉义",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718044501"
+        ],
+        "dialogs": {
+          "718044501": {
+            "id": "718044501",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "你交的这个不对啊，我这边只收经营场所证明及经营安全许诺书。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180435",
+      "subQuestName": "将相应材料交给嘉义",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718043501"
+        ],
+        "dialogs": {
+          "718043501": {
+            "id": "718043501",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "行，我先把这些文件收着吧。等会我就交给小昭去。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180446",
+      "subQuestName": "请在白天工作时间找小昭办理业务",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7180406",
+      "subQuestName": "将相应材料交给小昭",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040601"
+        ],
+        "dialogs": {
+          "718040601": {
+            "id": "718040601",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "你好，有什么要提交的材料，或者有什么要问的吗？",
+            "nextDialogs": [
+              "718040602"
+            ]
+          },
+          "718040602": {
+            "id": "718040602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于伊凡诺维奇的新版经营许可证…",
+            "nextDialogs": [
+              "718040603"
+            ]
+          },
+          "718040603": {
+            "id": "718040603",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "你是帮他代办新的经营许可证吧，那伊凡诺维奇的<color=#00E1FFFF>旧经营许可证</color>带来了吗？",
+            "nextDialogs": [
+              "718040604"
+            ]
+          },
+          "718040604": {
+            "id": "718040604",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "带来的话就给我吧，要换成新经营许可证的话，旧的那张必须回收才行。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180436",
+      "subQuestName": "将相应材料交给小昭",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718043601"
+        ],
+        "dialogs": {
+          "718043601": {
+            "id": "718043601",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "嗯，没错，那这张旧经营许可证我就收下了。",
+            "nextDialogs": [
+              "718043602"
+            ]
+          },
+          "718043602": {
+            "id": "718043602",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "还有其他的相关文件和材料，你都提交好了吗？如果没提交好的话，说不定过几天你又得再跑一趟了。",
+            "nextDialogs": [
+              "718043603"
+            ]
+          },
+          "718043603": {
+            "id": "718043603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "都提交了。",
+            "nextDialogs": [
+              "718043604"
+            ]
+          },
+          "718043604": {
+            "id": "718043604",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "好，如果材料齐全合规的话，新版经营许可证应该很快就能办下来了。",
+            "nextDialogs": [
+              "718043605"
+            ]
+          },
+          "718043605": {
+            "id": "718043605",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "办下来了之后，我会让人去通知伊凡诺维奇过来取的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180407",
+      "subQuestName": "向伊凡诺维奇回报",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718040701"
+        ],
+        "dialogs": {
+          "718040701": {
+            "id": "718040701",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "你把材料都提交好了吗？",
+            "nextDialogs": [
+              "718040702"
+            ]
+          },
+          "718040702": {
+            "id": "718040702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "都提交好了。",
+            "nextDialogs": [
+              "718040703"
+            ]
+          },
+          "718040703": {
+            "id": "718040703",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "呼，那太好了，只要新版经营许可证批下来，我就能接着在这做生意了。",
+            "nextDialogs": [
+              "718040704"
+            ]
+          },
+          "718040704": {
+            "id": "718040704",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "谢谢你帮我跑这一趟，实在是太感谢了，这是给你的报酬。",
+            "nextDialogs": [
+              "718040705"
+            ]
+          },
+          "718040705": {
+            "id": "718040705",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "希望以后不用再跑这么多手续了，真是…太让人疲惫了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180451",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718045101"
+        ],
+        "dialogs": {
+          "718045101": {
+            "id": "718045101",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "总算能歇一会了，再跑一天…我估计我非昏倒在地上不可…",
+            "nextDialogs": [
+              "718045103",
+              "718045107"
+            ]
+          },
+          "718045103": {
+            "id": "718045103",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "哈哈哈，毕竟在璃月港里「契约」是重点嘛。",
+            "nextDialogs": [
+              "718045104"
+            ]
+          },
+          "718045104": {
+            "id": "718045104",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "大事小情，总要落个白纸黑字才能让人安心不是？",
+            "nextDialogs": [
+              "718045105"
+            ]
+          },
+          "718045105": {
+            "id": "718045105",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "虽然…这些白纸实在是太多了，我头都要晕了…"
+          },
+          "718045107": {
+            "id": "718045107",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "你说办事的方式吗？那还是有点不一样的…",
+            "nextDialogs": [
+              "718045108"
+            ]
+          },
+          "718045108": {
+            "id": "718045108",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "唔，具体怎么个不一样法，光是说也说不清。",
+            "nextDialogs": [
+              "718045109"
+            ]
+          },
+          "718045109": {
+            "id": "718045109",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "以后你要是有机会去至冬，就自己去感受一下吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180453",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718045301"
+        ],
+        "dialogs": {
+          "718045301": {
+            "id": "718045301",
+            "speakerId": 2072,
+            "speakerName": "伊凡诺维奇",
+            "text": "唉，虽然这种办事方式确实让人安心，但如果能再简化一些就更好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180454",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718045401"
+        ],
+        "dialogs": {
+          "718045401": {
+            "id": "718045401",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "这个得盖章，这个缺证明，这个信息不全…",
+            "nextDialogs": [
+              "718045402"
+            ]
+          },
+          "718045402": {
+            "id": "718045402",
+            "speakerId": 2012,
+            "speakerName": "小安",
+            "text": "唉，这些又得送回去…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180455",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718045501"
+        ],
+        "dialogs": {
+          "718045501": {
+            "id": "718045501",
+            "speakerId": 2056,
+            "speakerName": "嘉义",
+            "text": "这么多材料，这么多文件，要是弄混了可怎么办…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7180456",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718045601"
+        ],
+        "dialogs": {
+          "718045601": {
+            "id": "718045601",
+            "speakerId": 2085,
+            "speakerName": "小昭",
+            "text": "这些手续应该都齐全了…"
+          }
+        }
+      }
+    }
+  ]
+}

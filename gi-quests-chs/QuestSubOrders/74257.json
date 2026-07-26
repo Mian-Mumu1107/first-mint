@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「木偶」": 1,
+    "林尼": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7425701",
+      "subQuestName": "前往布法蒂公馆附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7425702",
+      "subQuestName": "前往布法蒂公馆附近开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7425703",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "742500201"
+        ],
+        "dialogs": {
+          "742500201": {
+            "id": "742500201",
+            "speakerId": 1071,
+            "speakerName": "林尼",
+            "text": "多谢桑多涅女士的款待。",
+            "nextDialogs": [
+              "742500202"
+            ]
+          },
+          "742500202": {
+            "id": "742500202",
+            "speakerId": 1319,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "742500204"
+            ]
+          },
+          "742500204": {
+            "id": "742500204",
+            "speakerId": 1071,
+            "speakerName": "林尼",
+            "text": "嗯，您慢走。"
+          }
+        }
+      }
+    }
+  ]
+}

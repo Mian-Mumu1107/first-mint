@@ -1,0 +1,415 @@
+{
+  "lineCounts": {
+    "Black Screen": 7,
+    "Paimon": 20,
+    "Player": 7,
+    "Research Terminal": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7401203",
+      "subQuestName": "Explore the tall tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401205",
+      "subQuestName": "Look for clues in the nearby camps",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120501"
+        ],
+        "dialogs": {
+          "740120501": {
+            "id": "740120501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa! So strict! Paimon definitely doesn't want to work for that guy!",
+            "nextDialogs": [
+              "740120502"
+            ]
+          },
+          "740120502": {
+            "id": "740120502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Where do they get the nerve to talk about \"a sense of collective honor\"? Where's the honor in not even letting anyone eat?",
+            "nextDialogs": [
+              "740120504",
+              "740120506"
+            ]
+          },
+          "740120504": {
+            "id": "740120504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, discipline is important, but... surely this is taking it too far?",
+            "nextDialogs": [
+              "740120507"
+            ]
+          },
+          "740120507": {
+            "id": "740120507",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Come to think of it, if we also cause a commotion, we can probably lure that platoon leader Shumilov down, right?",
+            "nextDialogs": [
+              "740120508"
+            ]
+          },
+          "740120508": {
+            "id": "740120508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Then, we'd be able to get up there... {NICKNAME}, let's give it a try!"
+          },
+          "740120506": {
+            "id": "740120506",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Right!? The more someone doesn't know how to get things done, the weirder they get about discipline and rules..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401206",
+      "subQuestName": "Strike the cooking pot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120601"
+        ],
+        "dialogs": {
+          "740120601": {
+            "id": "740120601",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "Thump... thump... thump...\\nNot long after, hurried and frantic footsteps can be heard coming from higher up in the tower..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401207",
+      "subQuestName": "Defeat the Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120701"
+        ],
+        "dialogs": {
+          "740120701": {
+            "id": "740120701",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "The platoon leader fled with his subordinates..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401208",
+      "subQuestName": "Keep exploring the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7401209",
+      "subQuestName": "Examine the terminal",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121001"
+        ],
+        "dialogs": {
+          "740121001": {
+            "id": "740121001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Pull the lever.",
+            "nextDialogs": [
+              "740121002"
+            ]
+          },
+          "740121002": {
+            "id": "740121002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Whoa! What are you doing, {NICKNAME}?",
+            "nextDialogs": [
+              "740121003"
+            ]
+          },
+          "740121003": {
+            "id": "740121003",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You pull the lever without the slightest hesitation.\\nThe entire tower then immediately trembles with a thunderous, ear-splitting rumble. It's as if the sky is crumbling and the earth is splitting...",
+            "nextDialogs": [
+              "740121004"
+            ]
+          },
+          "740121004": {
+            "id": "740121004",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "Then... with a pop, the machine spits out a stack of paper tape right into your hands.\\nAll is quiet once more.",
+            "nextDialogs": [
+              "740121005"
+            ]
+          },
+          "740121005": {
+            "id": "740121005",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is... Is that it?",
+            "nextDialogs": [
+              "740121006"
+            ]
+          },
+          "740121006": {
+            "id": "740121006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm... Paimon doesn't have a clue what's on it, but it looks pretty important...",
+            "nextDialogs": [
+              "740121007"
+            ]
+          },
+          "740121007": {
+            "id": "740121007",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, why don't we keep this paper tape for now? Who knows, it might come in handy later..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401209",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740120901"
+        ],
+        "dialogs": {
+          "740120901": {
+            "id": "740120901",
+            "speakerId": 21226,
+            "speakerName": "Research Terminal",
+            "text": "(There's a memo stuck next to the lever on the right side of the console. In neat and elegant handwriting, it reads, \"Do NOT touch under any circumstances!\")"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401211",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121101"
+        ],
+        "dialogs": {
+          "740121101": {
+            "id": "740121101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We probably shouldn't touch it...",
+            "nextDialogs": [
+              "740121102"
+            ]
+          },
+          "740121102": {
+            "id": "740121102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#R... Right. It does seem dangerous... {NICKNAME}, maybe we should take a step back..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121201"
+        ],
+        "dialogs": {
+          "740121201": {
+            "id": "740121201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? It's a console just like the one in that other tower from before...",
+            "nextDialogs": [
+              "740121202"
+            ]
+          },
+          "740121202": {
+            "id": "740121202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Pull the lever.",
+            "nextDialogs": [
+              "740121203"
+            ]
+          },
+          "740121203": {
+            "id": "740121203",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You pull the lever.\\nJust like before, the machine spits out a stack of paper tape after a moment of rumbling and shaking...",
+            "nextDialogs": [
+              "740121204"
+            ]
+          },
+          "740121204": {
+            "id": "740121204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, it's paper tape, just like before...",
+            "nextDialogs": [
+              "740121205"
+            ]
+          },
+          "740121205": {
+            "id": "740121205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon still doesn't get it, but we should probably take this stuff with us in case we need it later."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401213",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121301"
+        ],
+        "dialogs": {
+          "740121301": {
+            "id": "740121301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What do we have here... Right, looks like a lever with \"Do NOT touch under any circumstances!\" written next to it!",
+            "nextDialogs": [
+              "740121302"
+            ]
+          },
+          "740121302": {
+            "id": "740121302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Pull the lever.",
+            "nextDialogs": [
+              "740121303"
+            ]
+          },
+          "740121303": {
+            "id": "740121303",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You pull the lever.\\nAfter some rumbling and shaking, the machine spits out a stack of paper tape...",
+            "nextDialogs": [
+              "740121304"
+            ]
+          },
+          "740121304": {
+            "id": "740121304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! Now we have the monitoring data from the Crepes Suzette Station!",
+            "nextDialogs": [
+              "740121305"
+            ]
+          },
+          "740121305": {
+            "id": "740121305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#All that's left now is the Pate de Fruit Station. Let's go, {NICKNAME}!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7401214",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740121401"
+        ],
+        "dialogs": {
+          "740121401": {
+            "id": "740121401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What do we have here... Right, looks like a lever with \"Do NOT touch under any circumstances!\" written next to it!",
+            "nextDialogs": [
+              "740121402"
+            ]
+          },
+          "740121402": {
+            "id": "740121402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Pull the lever.",
+            "nextDialogs": [
+              "740121403"
+            ]
+          },
+          "740121403": {
+            "id": "740121403",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You pull the lever.\\nAfter some rumbling and shaking, the machine spits out a stack of paper tape...",
+            "nextDialogs": [
+              "740121404"
+            ]
+          },
+          "740121404": {
+            "id": "740121404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! Now we have the monitoring data from both the Pate de Fruit and Crepes Suzette Stations!",
+            "nextDialogs": [
+              "740121405"
+            ]
+          },
+          "740121405": {
+            "id": "740121405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, let's go back to Broglie now!"
+          }
+        }
+      }
+    }
+  ]
+}

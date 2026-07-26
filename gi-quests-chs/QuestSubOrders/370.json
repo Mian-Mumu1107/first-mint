@@ -1,0 +1,675 @@
+{
+  "lineCounts": {
+    "Player": 7,
+    "丽莎": 11,
+    "安娜斯塔西娅": 8,
+    "安柏": 1,
+    "派蒙": 9,
+    "琴": 33
+  },
+  "subQuests": [
+    {
+      "subId": "37001",
+      "subQuestName": "回到蒙德城",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "37002",
+      "subQuestName": "听听琴和神秘人的对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3700201"
+        ],
+        "dialogs": {
+          "3700201": {
+            "id": "3700201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "咦？那不是琴团长吗？",
+            "nextDialogs": [
+              "3700202"
+            ]
+          },
+          "3700202": {
+            "id": "3700202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "她好像在和什么人说话…",
+            "nextDialogs": [
+              "3700203"
+            ]
+          },
+          "3700203": {
+            "id": "3700203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等她们说完，过去打个招呼吧？",
+            "nextDialogs": [
+              "3700204"
+            ]
+          },
+          "3700204": {
+            "id": "3700204",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "…所以，我们的态度就是这样。",
+            "nextDialogs": [
+              "3700205"
+            ]
+          },
+          "3700205": {
+            "id": "3700205",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "若无法立刻剿灭作乱的魔龙，不如将蒙德的城防移交给「愚人众」。",
+            "nextDialogs": [
+              "3700206"
+            ]
+          },
+          "3700206": {
+            "id": "3700206",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "蒙德的龙灾是可以处理的，只要让我们把那头野兽…",
+            "nextDialogs": [
+              "3700207"
+            ]
+          },
+          "3700207": {
+            "id": "3700207",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "「野兽」？",
+            "nextDialogs": [
+              "3700208"
+            ]
+          },
+          "3700208": {
+            "id": "3700208",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "嗯？代理团长大人的意思是？",
+            "nextDialogs": [
+              "3700209"
+            ]
+          },
+          "3700209": {
+            "id": "3700209",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "呼…",
+            "nextDialogs": [
+              "3700210"
+            ]
+          },
+          "3700210": {
+            "id": "3700210",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "希望贵国的外交官能拿出更职业的态度来。",
+            "nextDialogs": [
+              "3700211"
+            ]
+          },
+          "3700211": {
+            "id": "3700211",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "你们想「处理」蒙德的四风守护之一？",
+            "nextDialogs": [
+              "3700212"
+            ]
+          },
+          "3700212": {
+            "id": "3700212",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "我不希望有人在西风骑士面前说这种疯话。",
+            "nextDialogs": [
+              "3700213"
+            ]
+          },
+          "3700213": {
+            "id": "3700213",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "呵…呵呵呵…也没你说的那么疯吧。",
+            "nextDialogs": [
+              "3700214"
+            ]
+          },
+          "3700214": {
+            "id": "3700214",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "很好，今天的磋商到此为止。",
+            "nextDialogs": [
+              "3700215"
+            ]
+          },
+          "3700215": {
+            "id": "3700215",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "这次的成果就是「双方坦诚地交换了建设性的意见」，对吗？",
+            "nextDialogs": [
+              "3700216"
+            ]
+          },
+          "3700216": {
+            "id": "3700216",
+            "speakerId": 1487,
+            "speakerName": "安娜斯塔西娅",
+            "text": "我会…如实记录的…",
+            "nextDialogs": [
+              "3700217"
+            ]
+          },
+          "3700217": {
+            "id": "3700217",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "#啊，{NICKNAME}，你回来了。",
+            "nextDialogs": [
+              "3700218"
+            ]
+          },
+          "3700218": {
+            "id": "3700218",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "十分感谢你的协助，城市周围的元素循环终于安定了。",
+            "nextDialogs": [
+              "3700219"
+            ]
+          },
+          "3700219": {
+            "id": "3700219",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "风魔龙上次袭击的余波，算是暂时告一段落了吧。",
+            "nextDialogs": [
+              "3700220"
+            ]
+          },
+          "3700220": {
+            "id": "3700220",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "不过，使团那边施加的压力，也已经大到了很难无视的地步……",
+            "nextDialogs": [
+              "3700221"
+            ]
+          },
+          "3700221": {
+            "id": "3700221",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "使团？",
+            "nextDialogs": [
+              "3700222"
+            ]
+          },
+          "3700222": {
+            "id": "3700222",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是外交使团吗…来自璃月港吗？还是稻妻城？",
+            "nextDialogs": [
+              "3700223"
+            ]
+          },
+          "3700223": {
+            "id": "3700223",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "是至冬国，在七神中信奉冰神的国家。",
+            "nextDialogs": [
+              "3700224"
+            ]
+          },
+          "3700224": {
+            "id": "3700224",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "他们的使者有个特殊的名字：愚人众——听说过么？",
+            "nextDialogs": [
+              "3700225"
+            ]
+          },
+          "3700225": {
+            "id": "3700225",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，原来是「愚人众」。确实有听过！",
+            "nextDialogs": [
+              "3700226"
+            ]
+          },
+          "3700226": {
+            "id": "3700226",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过，是那种不太好的名声呢。",
+            "nextDialogs": [
+              "3700227"
+            ]
+          },
+          "3700227": {
+            "id": "3700227",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "我不认为直接杀死风魔龙是正确的行为。",
+            "nextDialogs": [
+              "3700228"
+            ]
+          },
+          "3700228": {
+            "id": "3700228",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "而且，冰之神统率的「愚人众」，觊觎着风神眷属的力量…",
+            "nextDialogs": [
+              "3700229"
+            ]
+          },
+          "3700229": {
+            "id": "3700229",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "这件事本身就已经非常可疑了。",
+            "nextDialogs": [
+              "3700230"
+            ]
+          },
+          "3700230": {
+            "id": "3700230",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "说到「力量」…",
+            "nextDialogs": [
+              "3700231"
+            ]
+          },
+          "3700231": {
+            "id": "3700231",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "#怎么了，{NICKNAME}？",
+            "nextDialogs": [
+              "3700232"
+            ]
+          },
+          "3700232": {
+            "id": "3700232",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "有件东西想让骑士团看看…",
+            "nextDialogs": [
+              "3700233"
+            ]
+          },
+          "3700233": {
+            "id": "3700233",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "嗯？好，那我们就回骑士团总部吧。",
+            "nextDialogs": [
+              "3700234"
+            ]
+          },
+          "3700234": {
+            "id": "3700234",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "不要在…这种地方，谈论重要的事。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "37004",
+      "subQuestName": "与琴一同回到骑士团总部",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3700401"
+        ],
+        "dialogs": {
+          "3700401": {
+            "id": "3700401",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "是蕴含着某种力量的结晶…但，丽莎，你能分析它的构成吗？",
+            "nextDialogs": [
+              "3700402"
+            ]
+          },
+          "3700402": {
+            "id": "3700402",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "嗯，我来看看。",
+            "nextDialogs": [
+              "3700403"
+            ]
+          },
+          "3700403": {
+            "id": "3700403",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "可以发现结晶内部有些污秽杂质，不过更进一步的研究就…",
+            "nextDialogs": [
+              "3700404"
+            ]
+          },
+          "3700404": {
+            "id": "3700404",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "很抱歉，现在还得不出有用的结论。给我一点时间，我去禁书区找些资料吧。",
+            "nextDialogs": [
+              "3700405"
+            ]
+          },
+          "3700405": {
+            "id": "3700405",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "那么丽莎，之后的研究调查就交给你了。",
+            "nextDialogs": [
+              "3700406"
+            ]
+          },
+          "3700406": {
+            "id": "3700406",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "嗯，如果有什么进展，我会通知大家的。",
+            "nextDialogs": [
+              "3700407"
+            ]
+          },
+          "3700407": {
+            "id": "3700407",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "不过嘛，不要太期待上古的文献能有什么帮助。而且——咿啊！",
+            "nextDialogs": [
+              "3700408"
+            ]
+          },
+          "3700408": {
+            "id": "3700408",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "呜…好痛…",
+            "nextDialogs": [
+              "3700409"
+            ]
+          },
+          "3700409": {
+            "id": "3700409",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "结晶里的那种污秽杂质，稍稍靠近，就会让我感到刺痛…",
+            "nextDialogs": [
+              "3700410"
+            ]
+          },
+          "3700410": {
+            "id": "3700410",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "是了，原来是这样啊…是与「神之眼」的互斥呢。",
+            "nextDialogs": [
+              "3700411"
+            ]
+          },
+          "3700411": {
+            "id": "3700411",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "那种污秽的力量，会和我们体内的元素之力相互排斥，纠缠相杀。",
+            "nextDialogs": [
+              "3700412"
+            ]
+          },
+          "3700412": {
+            "id": "3700412",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "#不过，真是奇怪。{NICKNAME}明明也能使用元素之力，却不受影响呢。",
+            "nextDialogs": [
+              "3700413"
+            ]
+          },
+          "3700413": {
+            "id": "3700413",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "……",
+            "nextDialogs": [
+              "3700414"
+            ]
+          },
+          "3700414": {
+            "id": "3700414",
+            "speakerId": 1007,
+            "speakerName": "丽莎",
+            "text": "总之，这枚结晶还是让小可爱保管吧。放在我们手里也只是徒增疼痛。",
+            "nextDialogs": [
+              "3700417"
+            ]
+          },
+          "3700417": {
+            "id": "3700417",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "…真是不可思议的现象。",
+            "nextDialogs": [
+              "3700418"
+            ]
+          },
+          "3700418": {
+            "id": "3700418",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "你对这一切——对自己身上这些特殊的地方，有什么头绪吗？",
+            "nextDialogs": [
+              "3700419"
+            ]
+          },
+          "3700419": {
+            "id": "3700419",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "……（主角摇头）",
+            "nextDialogs": [
+              "3700420"
+            ]
+          },
+          "3700420": {
+            "id": "3700420",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "我想也是…",
+            "nextDialogs": [
+              "3700421"
+            ]
+          },
+          "3700421": {
+            "id": "3700421",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "#那么，{NICKNAME}。这是骑士团第二次的不情之请：",
+            "nextDialogs": [
+              "3700422"
+            ]
+          },
+          "3700422": {
+            "id": "3700422",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "请接受西风骑士团荣誉骑士的爵位…与代理团长的谢意。",
+            "nextDialogs": [
+              "3700423"
+            ]
+          },
+          "3700423": {
+            "id": "3700423",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "……（主角微微惊讶）",
+            "nextDialogs": [
+              "3700424"
+            ]
+          },
+          "3700424": {
+            "id": "3700424",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "西风的…荣誉骑士？！",
+            "nextDialogs": [
+              "3700425"
+            ]
+          },
+          "3700425": {
+            "id": "3700425",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "……（琴点头）",
+            "nextDialogs": [
+              "3700426"
+            ]
+          },
+          "3700426": {
+            "id": "3700426",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "也请你再次帮助我们，寻找这些谜团的答案。",
+            "nextDialogs": [
+              "3700427"
+            ]
+          },
+          "3700427": {
+            "id": "3700427",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "魔龙的狂乱，与怪异的结晶…我想，这背后的答案一定关系着蒙德的和平。",
+            "nextDialogs": [
+              "3700428"
+            ]
+          },
+          "3700428": {
+            "id": "3700428",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "愿风擦拭你的双眼，让你看清真相。",
+            "nextDialogs": [
+              "3700429"
+            ]
+          },
+          "3700429": {
+            "id": "3700429",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "如果有什么最新发现，我们就在这里再会吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "37005",
+      "subQuestName": "与琴对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "37003",
+      "subQuestName": "(test)你一进门我就触发接对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3700301"
+        ],
+        "dialogs": {
+          "3700301": {
+            "id": "3700301",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "蒙德与至冬是平等的，同为此世七国之一。",
+            "nextDialogs": [
+              "3700302"
+            ]
+          },
+          "3700302": {
+            "id": "3700302",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "蒙德是独立城邦，不属于别的什么国家。",
+            "nextDialogs": [
+              "3700303"
+            ]
+          },
+          "3700303": {
+            "id": "3700303",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "至冬「国」也只是建立时政体不同，所以称呼不同而已。",
+            "nextDialogs": [
+              "3700304"
+            ]
+          },
+          "3700304": {
+            "id": "3700304",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "但在外交方面，至冬国的「愚人众」恐怕可以算是大陆上最强势的一方…",
+            "nextDialogs": [
+              "3700305"
+            ]
+          },
+          "3700305": {
+            "id": "3700305",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，没错。比如刚才的家伙，语气就非常讨厌呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "48202",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4820221"
+        ],
+        "dialogs": {
+          "4820221": {
+            "id": "4820221",
+            "speakerId": 1002,
+            "speakerName": "安柏",
+            "text": "按照我给你<color=#00E1FFFF>标记好的路线</color>，一路平稳地飞到终点吧。"
+          }
+        }
+      }
+    }
+  ]
+}

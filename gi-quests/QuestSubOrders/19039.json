@@ -1,0 +1,105 @@
+{
+  "lineCounts": {
+    "Gorou": 1,
+    "Player": 1,
+    "Shikanoin Heizou": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1903901",
+      "subQuestName": "Investigate the goods at the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903902",
+      "subQuestName": "Investigate the goods at the camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903905",
+      "subQuestName": "Talk to Heizou",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903906",
+      "subQuestName": "Go to Sangonomiya Shrine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903907",
+      "subQuestName": "Talk to Shibata",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190390701"
+        ],
+        "dialogs": {
+          "190390701": {
+            "id": "190390701",
+            "speakerId": 1057,
+            "speakerName": "Shikanoin Heizou",
+            "text": "So, have you found anything?",
+            "nextDialogs": [
+              "190390702"
+            ]
+          },
+          "190390702": {
+            "id": "190390702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm about to start looking.",
+            "nextDialogs": [
+              "190390703"
+            ]
+          },
+          "190390703": {
+            "id": "190390703",
+            "speakerId": 1057,
+            "speakerName": "Shikanoin Heizou",
+            "text": "Good, better get a move on. I've already noticed a few things of interest. Let's meet back here later."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1903908",
+      "subQuestName": "Go to a nearby location and talk to Heizou",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "190390801"
+        ],
+        "dialogs": {
+          "190390801": {
+            "id": "190390801",
+            "speakerId": 1039,
+            "speakerName": "Gorou",
+            "text": "#{NICKNAME}, exercise caution when traveling to Ritou. If you come across any unexpected dangers, retreat first. Your safety is the priority. You must approach this issue with a long-term strategy in mind."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 8,
+    "Manqu": 35,
+    "Paimon": 11,
+    "Player": 8
+  },
+  "subQuests": [
+    {
+      "subId": "7500803",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750080301"
+        ],
+        "dialogs": {
+          "750080301": {
+            "id": "750080301",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Forgive my presumption, but I am confident that you will emerge victorious from the final trial — safe and sound, and having obtained the token."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500802",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750080201"
+        ],
+        "dialogs": {
+          "750080201": {
+            "id": "750080201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Manqu, we're back!",
+            "nextDialogs": [
+              "750080202"
+            ]
+          },
+          "750080202": {
+            "id": "750080202",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080203"
+            ]
+          },
+          "750080203": {
+            "id": "750080203",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Phew, that sure was one long wait. Not gonna lie, the longer I waited, the more anxious I became.",
+            "nextDialogs": [
+              "750080204"
+            ]
+          },
+          "750080204": {
+            "id": "750080204",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "It was my idea in the first place, true, but if you went into the ruins only to never return, I'd be beside myself with guilt...",
+            "nextDialogs": [
+              "750080205"
+            ]
+          },
+          "750080205": {
+            "id": "750080205",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Though, if you'll excuse my bluntness, I must ask — surely you've found the token that the Sage of the Stolen Flame left within the ruins?",
+            "nextDialogs": [
+              "750080208"
+            ]
+          },
+          "750080208": {
+            "id": "750080208",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Hah, I knew you'd do it!",
+            "nextDialogs": [
+              "750080209"
+            ]
+          },
+          "750080209": {
+            "id": "750080209",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080210"
+            ]
+          },
+          "750080210": {
+            "id": "750080210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Look, they turned out to be these disk thingamajigs! We've already gotten our hands on both of the tokens!",
+            "nextDialogs": [
+              "750080211"
+            ]
+          },
+          "750080211": {
+            "id": "750080211",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "No, surely not... two Golden Entreaties!? G—Golden Entreaties actually exist? Incredible! I must include this in my research.",
+            "nextDialogs": [
+              "750080212"
+            ]
+          },
+          "750080212": {
+            "id": "750080212",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So these things are called Golden Entreaties, huh...",
+            "nextDialogs": [
+              "750080213"
+            ]
+          },
+          "750080213": {
+            "id": "750080213",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Th—That's right. Apologies, I'm just so excited. It is said that they were once handled by the legendary Sage of the Stolen Flame, and even the first Pyro Archon...",
+            "nextDialogs": [
+              "750080214"
+            ]
+          },
+          "750080214": {
+            "id": "750080214",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "For a moment there, I was thinking about what it might be like to keep them for myself as family heirlooms or something of the sort...",
+            "nextDialogs": [
+              "750080215"
+            ]
+          },
+          "750080215": {
+            "id": "750080215",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#No way! We need them to save {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750080216"
+            ]
+          },
+          "750080216": {
+            "id": "750080216",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080217"
+            ]
+          },
+          "750080217": {
+            "id": "750080217",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "I know, I know... Well, I suppose now you must set forth for the Great Volcano of Tollan.",
+            "nextDialogs": [
+              "750080218"
+            ]
+          },
+          "750080218": {
+            "id": "750080218",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Legend has it that long ago, before Xbalanque became the Pyro Archon, it was there that he fought against the Flamelord who wielded the powers of blinding light and searing heat...",
+            "nextDialogs": [
+              "750080219"
+            ]
+          },
+          "750080219": {
+            "id": "750080219",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "When the dust had finally settled, the triumphant hero Xbalanque returned alive to become the first Pyro Archon.",
+            "nextDialogs": [
+              "750080220"
+            ]
+          },
+          "750080220": {
+            "id": "750080220",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "But as for what lies within the volcano, no one knows for sure. Some believe that an ancient dragon still resides there, deep in hibernation — yet others say it is but a husk, all inside having been incinerated by Xbalanque's flames.",
+            "nextDialogs": [
+              "750080221"
+            ]
+          },
+          "750080221": {
+            "id": "750080221",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "If you ask me though, these are nothing but storytellers' speculations...",
+            "nextDialogs": [
+              "750080222"
+            ]
+          },
+          "750080222": {
+            "id": "750080222",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "I'd love to go with you, but I'm afraid that would be asking a bit too much of this poor old body of mine...",
+            "nextDialogs": [
+              "750080223"
+            ]
+          },
+          "750080223": {
+            "id": "750080223",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't sweat it. You've already told us plenty!",
+            "nextDialogs": [
+              "750080224"
+            ]
+          },
+          "750080224": {
+            "id": "750080224",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080225"
+            ]
+          },
+          "750080225": {
+            "id": "750080225",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Well, I must thank the two of you once again. I can't tell you how much seeing those Golden Entreaties means to me. Speaking of which, I'd better hurry back and get all this recorded...",
+            "nextDialogs": [
+              "750080226"
+            ]
+          },
+          "750080226": {
+            "id": "750080226",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "#Thank you once more, {NICKNAME} and Paimon. I wish you a safe journey...",
+            "nextDialogs": [
+              "750080227"
+            ]
+          },
+          "750080227": {
+            "id": "750080227",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "#And {REALNAME[ID(2)|SHOWHOST(true)]}, I wish you success removing the mark of the Flamelord's Blessing.",
+            "nextDialogs": [
+              "750080228"
+            ]
+          },
+          "750080228": {
+            "id": "750080228",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Farewell!",
+            "nextDialogs": [
+              "750080229"
+            ]
+          },
+          "750080229": {
+            "id": "750080229",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Yes... At the journey's end, the place where all souls come to rest, we will meet again — I am sure of it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500801",
+      "subQuestName": "Talk to Manqu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750080101"
+        ],
+        "dialogs": {
+          "750080101": {
+            "id": "750080101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Manqu, we're back!",
+            "nextDialogs": [
+              "750080102"
+            ]
+          },
+          "750080102": {
+            "id": "750080102",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080103"
+            ]
+          },
+          "750080103": {
+            "id": "750080103",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Phew, that sure was one long wait. Not gonna lie, the longer I waited, the more anxious I became.",
+            "nextDialogs": [
+              "750080104"
+            ]
+          },
+          "750080104": {
+            "id": "750080104",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "It was my idea in the first place, true, but if you went into the ruins only to never return, I'd be beside myself with guilt...",
+            "nextDialogs": [
+              "750080105"
+            ]
+          },
+          "750080105": {
+            "id": "750080105",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Though, if you'll excuse my bluntness, I must ask — surely you've found the token that the Sage of the Stolen Flame left within the ruins?",
+            "nextDialogs": [
+              "750080108"
+            ]
+          },
+          "750080108": {
+            "id": "750080108",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Hah, I knew you'd do it!",
+            "nextDialogs": [
+              "750080109"
+            ]
+          },
+          "750080109": {
+            "id": "750080109",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080110"
+            ]
+          },
+          "750080110": {
+            "id": "750080110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Look, it turned out to be this disc thingamajig!",
+            "nextDialogs": [
+              "750080111"
+            ]
+          },
+          "750080111": {
+            "id": "750080111",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "No, surely not... a Golden Entreaty!? G—Golden Entreaties actually exist? Incredible! I must include this in my research.",
+            "nextDialogs": [
+              "750080112"
+            ]
+          },
+          "750080112": {
+            "id": "750080112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So this thing's called a Golden Entreaty, huh...",
+            "nextDialogs": [
+              "750080113"
+            ]
+          },
+          "750080113": {
+            "id": "750080113",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Th—That's right. Apologies, I'm just so excited. It's said that this was once handled by the Sage of the Stolen Flame himself...",
+            "nextDialogs": [
+              "750080114"
+            ]
+          },
+          "750080114": {
+            "id": "750080114",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "For a moment there, I was thinking about what it might be like to keep it for myself as some kind of family heirloom...",
+            "nextDialogs": [
+              "750080115"
+            ]
+          },
+          "750080115": {
+            "id": "750080115",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#No way! We need it to save {REALNAME[ID(2)|SHOWHOST(true)]}!",
+            "nextDialogs": [
+              "750080116"
+            ]
+          },
+          "750080116": {
+            "id": "750080116",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080117"
+            ]
+          },
+          "750080117": {
+            "id": "750080117",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "I know... But as for clues about the tokens' whereabouts, well, I'm all out. I haven't the slightest idea where the other one might be.",
+            "nextDialogs": [
+              "750080118"
+            ]
+          },
+          "750080118": {
+            "id": "750080118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ochkanatlan...",
+            "nextDialogs": [
+              "750080119"
+            ]
+          },
+          "750080119": {
+            "id": "750080119",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "#Huh? Forgive my asking, {NICKNAME}, but did I just hear you say \"Ochkanatlan\"...?",
+            "nextDialogs": [
+              "750080120"
+            ]
+          },
+          "750080120": {
+            "id": "750080120",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Explain that you saw it when you touched the stone tablet...)",
+            "nextDialogs": [
+              "750080121"
+            ]
+          },
+          "750080121": {
+            "id": "750080121",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Wow, who'd have thought it'd be in Ochkanatlan... The ruins of an ancient city that lies across a narrow stretch of water, north of the Flower-Feather Clan...",
+            "nextDialogs": [
+              "750080122"
+            ]
+          },
+          "750080122": {
+            "id": "750080122",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "If that's where it is, then I am truly sorry, but I cannot help you. Not only does my tribe forbid me to go there, but so does the Saurian Relics Association...",
+            "nextDialogs": [
+              "750080123"
+            ]
+          },
+          "750080123": {
+            "id": "750080123",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Apparently, it is said that many years ago, some Association members received a commission to investigate that place, but after setting out, they vanished without a trace.",
+            "nextDialogs": [
+              "750080124"
+            ]
+          },
+          "750080124": {
+            "id": "750080124",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Since then, the Association has steered well clear of anything to do with Ochkanatlan.",
+            "nextDialogs": [
+              "750080125"
+            ]
+          },
+          "750080125": {
+            "id": "750080125",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't sweat it. You've already told us plenty!",
+            "nextDialogs": [
+              "750080126"
+            ]
+          },
+          "750080126": {
+            "id": "750080126",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "750080127"
+            ]
+          },
+          "750080127": {
+            "id": "750080127",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Well, I must thank the two of you once again. I can't tell you how much seeing a Golden Entreaty means to me. Speaking of which, I'd better hurry back and get all this recorded...",
+            "nextDialogs": [
+              "750080128"
+            ]
+          },
+          "750080128": {
+            "id": "750080128",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "#Thank you once more, {NICKNAME} and Paimon. I wish you a safe journey...",
+            "nextDialogs": [
+              "750080129"
+            ]
+          },
+          "750080129": {
+            "id": "750080129",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "#And {REALNAME[ID(2)|SHOWHOST(true)]}, I wish you success removing the mark of the Flamelord's Blessing.",
+            "nextDialogs": [
+              "750080130"
+            ]
+          },
+          "750080130": {
+            "id": "750080130",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Farewell!",
+            "nextDialogs": [
+              "750080131"
+            ]
+          },
+          "750080131": {
+            "id": "750080131",
+            "speakerId": 21481,
+            "speakerName": "Manqu",
+            "text": "Yes... At the journey's end, the place where all souls come to rest, we will meet again — I am sure of it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7500899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750089901"
+        ],
+        "dialogs": {
+          "750089901": {
+            "id": "750089901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah, remember to show Manqu the token you got. He should still be waiting for us over at the entrance to the ruins..."
+          }
+        }
+      }
+    }
+  ]
+}

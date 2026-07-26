@@ -1,0 +1,671 @@
+{
+  "lineCounts": {
+    "Hilichurl": 11,
+    "Jack": 7,
+    "Paimon": 24,
+    "Player": 21,
+    "Stanley": 4,
+    "Venti": 28
+  },
+  "subQuests": [
+    {
+      "subId": "1011201",
+      "subQuestName": "Search for the Sword of Brilliant Valor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120101"
+        ],
+        "dialogs": {
+          "101120101": {
+            "id": "101120101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, that bunch of hilichurls... are they holding some kind of ceremony?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011202",
+      "subQuestName": "Defeat the hilichurls conducting a ritual",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011203",
+      "subQuestName": "Retrieve the Sword of Brilliant Valor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011204",
+      "subQuestName": "Talk to Venti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120401"
+        ],
+        "dialogs": {
+          "101120401": {
+            "id": "101120401",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Eh-he. Lo and behold, the <color=#00E1FFFF>Sword of Brilliant Valor</color>!",
+            "nextDialogs": [
+              "101120402"
+            ]
+          },
+          "101120402": {
+            "id": "101120402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Are you sure? Looks kinda basic to Paimon, and a little worse for wear too!",
+            "nextDialogs": [
+              "101120403"
+            ]
+          },
+          "101120403": {
+            "id": "101120403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Why would hilichurls be bowing down before a piece of junk like this?",
+            "nextDialogs": [
+              "101120404"
+            ]
+          },
+          "101120404": {
+            "id": "101120404",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "(Ahh... Seems somebody tossed an old sword into a pile of spoils these hilichurls were already celebrating...)",
+            "nextDialogs": [
+              "101120405"
+            ]
+          },
+          "101120405": {
+            "id": "101120405",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "This is in terrible shape! And it's so basic, I... I'm at a loss for words.",
+            "nextDialogs": [
+              "101120406"
+            ]
+          },
+          "101120406": {
+            "id": "101120406",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Hmm... say, Jack, have you ever seen an Anemo Crystalfly? They're found in the open country around Mondstadt City.",
+            "nextDialogs": [
+              "101120407"
+            ]
+          },
+          "101120407": {
+            "id": "101120407",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "If you saw one in broad daylight, you wouldn't bat an eyelid. But in the pitch blackness of night? Its brilliant glow is mesmerizing — it truly resembles an exquisite crystal dancing in the night air.",
+            "nextDialogs": [
+              "101120408"
+            ]
+          },
+          "101120408": {
+            "id": "101120408",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Is valor not the same? When everything is going your way, it seems meaningless — fades into the background. But when you're in dire straits, valor is the thing that gets you fired up and fighting back. It's the brilliant ray of light that guides you out from the darkness.",
+            "nextDialogs": [
+              "101120412"
+            ]
+          },
+          "101120412": {
+            "id": "101120412",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "You're right... you're right! Then this has to be it — this is the Sword of Brilliant Valor!",
+            "nextDialogs": [
+              "101120413"
+            ]
+          },
+          "101120413": {
+            "id": "101120413",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Ehehe, mm-hmm! So, we got our sword — now we just need that shield!",
+            "nextDialogs": [
+              "101120414"
+            ]
+          },
+          "101120414": {
+            "id": "101120414",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Let's scout around! It's definitely in <color=#00E1FFFF>Dadaupa Gorge</color> some— huh?",
+            "nextDialogs": [
+              "101120415"
+            ]
+          },
+          "101120415": {
+            "id": "101120415",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's somebody there!",
+            "nextDialogs": [
+              "101120416"
+            ]
+          },
+          "101120416": {
+            "id": "101120416",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Stanley? What's he doing here?",
+            "nextDialogs": [
+              "101120417"
+            ]
+          },
+          "101120417": {
+            "id": "101120417",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He's acting so weird...",
+            "nextDialogs": [
+              "101120418"
+            ]
+          },
+          "101120418": {
+            "id": "101120418",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "What happened? Why did you stop all of a sudden?",
+            "nextDialogs": [
+              "101120419"
+            ]
+          },
+          "101120419": {
+            "id": "101120419",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Huh? Oh, ah, it's nothing. Just one of those Mora-spouting weasel thieves passed by is all.",
+            "nextDialogs": [
+              "101120420"
+            ]
+          },
+          "101120420": {
+            "id": "101120420",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "What? Where? I wanna see!",
+            "nextDialogs": [
+              "101120421"
+            ]
+          },
+          "101120421": {
+            "id": "101120421",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Maybe another time, hehe. We have a shield to find, remember?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011205",
+      "subQuestName": "Seek the Shield of Magnificent Honor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011206",
+      "subQuestName": "Cut a deal with the hilichurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120601"
+        ],
+        "dialogs": {
+          "101120601": {
+            "id": "101120601",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Lo and behold, the <color=#00E1FFFF>Shield of Magnificent Honor</color>!",
+            "nextDialogs": [
+              "101120602"
+            ]
+          },
+          "101120602": {
+            "id": "101120602",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Liar, liar, pants on fire! It's a chunk of wood!",
+            "nextDialogs": [
+              "101120603"
+            ]
+          },
+          "101120603": {
+            "id": "101120603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "A chunk of scrap wood with a handle attached... Who in their right mind would use this as a shield!?",
+            "nextDialogs": [
+              "101120604"
+            ]
+          },
+          "101120604": {
+            "id": "101120604",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "There's also wine stains on it... Yeah, I'm pretty sure this was just taken from a wine barrel...",
+            "nextDialogs": [
+              "101120605"
+            ]
+          },
+          "101120605": {
+            "id": "101120605",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "And yet, my bard's intuition tells me that this is none other than the Shield of Magnificent Honor.",
+            "nextDialogs": [
+              "101120606"
+            ]
+          },
+          "101120606": {
+            "id": "101120606",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Warriors wear their battle scars with pride, and shields are no different.",
+            "nextDialogs": [
+              "101120607"
+            ]
+          },
+          "101120607": {
+            "id": "101120607",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Surely, an intact shield is one that has shied away from the battlefield. Is not the broken and splintered shield the one that has fought in countless wars and lived to tell the tale?",
+            "nextDialogs": [
+              "101120608"
+            ]
+          },
+          "101120608": {
+            "id": "101120608",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Though the soldier's body be tired and torn, still they fight till the very end, till they have no blood left to bleed. Such magnificent strength of will... is that not the true meaning of honor?",
+            "nextDialogs": [
+              "101120612"
+            ]
+          },
+          "101120612": {
+            "id": "101120612",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You do have a point... Shiny new shields don't stay new and shiny for long...",
+            "nextDialogs": [
+              "101120613"
+            ]
+          },
+          "101120613": {
+            "id": "101120613",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay then... Well, maybe if we ask nicely, he'll just let us take the Shield of Magnificent Honor for free?",
+            "nextDialogs": [
+              "101120614"
+            ]
+          },
+          "101120614": {
+            "id": "101120614",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*clears throat* Excuse me, Mr. Hilichurl?",
+            "nextDialogs": [
+              "101120615"
+            ]
+          },
+          "101120615": {
+            "id": "101120615",
+            "speakerId": 10222,
+            "speakerName": "Hilichurl",
+            "text": "Dala?",
+            "nextDialogs": [
+              "101120616"
+            ]
+          },
+          "101120616": {
+            "id": "101120616",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Welp! Okay, you take it from here, {NICKNAME}! Hope you've picked up some Hilichurlian by now. If not, there's always body language..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011207",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120701"
+        ],
+        "dialogs": {
+          "101120701": {
+            "id": "101120701",
+            "speakerId": 10222,
+            "speakerName": "Hilichurl",
+            "text": "Muhe vin plata? Mani ye! Mani dada!",
+            "nextDialogs": [
+              "101120702"
+            ]
+          },
+          "101120702": {
+            "id": "101120702",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! He actually gave us the shield!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011208",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101120801"
+        ],
+        "dialogs": {
+          "101120801": {
+            "id": "101120801",
+            "speakerId": 10222,
+            "speakerName": "Hilichurl",
+            "text": "Yaya ika! Kundala ye plata!",
+            "nextDialogs": [
+              "101120802"
+            ]
+          },
+          "101120802": {
+            "id": "101120802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "On no! We ticked him off, big time!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011209",
+      "subQuestName": "Defeat the attacking hilichurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1011210",
+      "subQuestName": "Talk to the hilichurl",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101121101"
+        ],
+        "dialogs": {
+          "101121101": {
+            "id": "101121101",
+            "speakerId": 10222,
+            "speakerName": "Hilichurl",
+            "text": "Biadam!",
+            "nextDialogs": [
+              "101121102"
+            ]
+          },
+          "101121102": {
+            "id": "101121102",
+            "speakerId": 10222,
+            "speakerName": "Hilichurl",
+            "text": "Yaya ika! Mani ye!",
+            "nextDialogs": [
+              "101121103"
+            ]
+          },
+          "101121103": {
+            "id": "101121103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, he dropped the <color=#00E1FFFF>Shield of Magnificent Honor</color> and ran!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1011211",
+      "subQuestName": "Talk to Venti",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "101121001"
+        ],
+        "dialogs": {
+          "101121001": {
+            "id": "101121001",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "Guys, thank you so much! I can't believe I actually found them!",
+            "nextDialogs": [
+              "101121002"
+            ]
+          },
+          "101121002": {
+            "id": "101121002",
+            "speakerId": 1413,
+            "speakerName": "Jack",
+            "text": "Mom! Dad! Check out the legendary weapons I found!",
+            "nextDialogs": [
+              "101121003"
+            ]
+          },
+          "101121003": {
+            "id": "101121003",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Hey, wait!",
+            "nextDialogs": [
+              "101121004"
+            ]
+          },
+          "101121004": {
+            "id": "101121004",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "The wine, you promised! Ugh, and I actually helped a lot this time—",
+            "nextDialogs": [
+              "101121005"
+            ]
+          },
+          "101121005": {
+            "id": "101121005",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Hmm? What're you doing here, Stanley? Out for a stroll?",
+            "nextDialogs": [
+              "101121006"
+            ]
+          },
+          "101121006": {
+            "id": "101121006",
+            "speakerId": 1411,
+            "speakerName": "Stanley",
+            "text": "Ah... haha, ah— hey...! What're you doing here, bard! Fancy that, huh? You, uh... out for a stroll, too?",
+            "nextDialogs": [
+              "101121007"
+            ]
+          },
+          "101121007": {
+            "id": "101121007",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "That's right, an after-dinner stroll to be precise. We were also helping a friend look for something.",
+            "nextDialogs": [
+              "101121008"
+            ]
+          },
+          "101121008": {
+            "id": "101121008",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "(Paimon's starting to think Stanley might be a fraud...)",
+            "nextDialogs": [
+              "101121011"
+            ]
+          },
+          "101121011": {
+            "id": "101121011",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "(Did Stanley plant the sword and shield here in advance so as to not hurt Jack's feelings?)",
+            "nextDialogs": [
+              "101121012"
+            ]
+          },
+          "101121012": {
+            "id": "101121012",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Adventurers must be pretty familiar with Dadaupa Gorge? You've fought battles here before, after all.",
+            "nextDialogs": [
+              "101121013"
+            ]
+          },
+          "101121013": {
+            "id": "101121013",
+            "speakerId": 1411,
+            "speakerName": "Stanley",
+            "text": "You'd better believe it! I could navigate this whole area with my eyes closed!",
+            "nextDialogs": [
+              "101121014"
+            ]
+          },
+          "101121014": {
+            "id": "101121014",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Wow. Then I admire your perseverance, and your memory too.",
+            "nextDialogs": [
+              "101121015"
+            ]
+          },
+          "101121015": {
+            "id": "101121015",
+            "speakerId": 1411,
+            "speakerName": "Stanley",
+            "text": "It's only to be expected of a great adventurer like me! You guys had better watch out though. This place is crawling with hilichurls!",
+            "nextDialogs": [
+              "101121016"
+            ]
+          },
+          "101121016": {
+            "id": "101121016",
+            "speakerId": 1411,
+            "speakerName": "Stanley",
+            "text": "I, ah— I'll get back to my, um... ah... stroll now. Goodbye.",
+            "nextDialogs": [
+              "101121017"
+            ]
+          },
+          "101121017": {
+            "id": "101121017",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Guilty conscience, much?",
+            "nextDialogs": [
+              "101121018"
+            ]
+          },
+          "101121018": {
+            "id": "101121018",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Well, he shouldn't have gotten so carried away bragging to Jack, should he?",
+            "nextDialogs": [
+              "101121019"
+            ]
+          },
+          "101121019": {
+            "id": "101121019",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Although... on further reflection, I must say I'm intrigued.",
+            "nextDialogs": [
+              "101121020"
+            ]
+          },
+          "101121020": {
+            "id": "101121020",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Someone who can't let go of the past, and gives up on the present instead...",
+            "nextDialogs": [
+              "101121021"
+            ]
+          },
+          "101121021": {
+            "id": "101121021",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "I wonder... if such a person was forced to take their first step towards the future, which way would they go?",
+            "nextDialogs": [
+              "101121022"
+            ]
+          },
+          "101121022": {
+            "id": "101121022",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What are you talking about?",
+            "nextDialogs": [
+              "101121023"
+            ]
+          },
+          "101121023": {
+            "id": "101121023",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Haha, I'm just musing to myself.",
+            "nextDialogs": [
+              "101121024"
+            ]
+          },
+          "101121024": {
+            "id": "101121024",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "#Anyway, {NICKNAME}, I propose we take a trip to <color=#00E1FFFF>Angel's Share</color> tonight."
+          }
+        }
+      }
+    }
+  ]
+}

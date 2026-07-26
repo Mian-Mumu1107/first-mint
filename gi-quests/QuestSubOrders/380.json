@@ -1,0 +1,123 @@
+{
+  "lineCounts": {
+    "Diluc": 1,
+    "Jean": 3,
+    "Paimon": 2,
+    "Venti": 1
+  },
+  "subQuests": [
+    {
+      "subId": "38001",
+      "subQuestName": "Go to the Thousand Winds Temple",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3800101"
+        ],
+        "dialogs": {
+          "3800101": {
+            "id": "3800101",
+            "speakerId": 1006,
+            "speakerName": "Jean",
+            "text": "Hey Diluc, I heard that the Fatui have recently proclaimed you \"persona non grata.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "38002",
+      "subQuestName": "Defeat the monsters guarding the ruin to complete the challenge",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38003",
+      "subQuestName": "Obtain Dvalin's Tear",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38004",
+      "subQuestName": "Talk to Jean",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3810118"
+        ],
+        "dialogs": {
+          "3810118": {
+            "id": "3810118",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon didn't think we'd find Dvalin's tears in a place like this.",
+            "nextDialogs": [
+              "3810119"
+            ]
+          },
+          "3810119": {
+            "id": "3810119",
+            "speakerId": 1006,
+            "speakerName": "Jean",
+            "text": "As knights, we are taught to hone our investigative skills.",
+            "nextDialogs": [
+              "3810120"
+            ]
+          },
+          "3810120": {
+            "id": "3810120",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow! Very impressive!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "37905",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3790501"
+        ],
+        "dialogs": {
+          "3790501": {
+            "id": "3790501",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Are you really going to call me the \"Tone-Deaf Bard\" forever? Poor me...",
+            "nextDialogs": [
+              "3790502"
+            ]
+          },
+          "3790502": {
+            "id": "3790502",
+            "speakerId": 1006,
+            "speakerName": "Jean",
+            "text": "Let's go!",
+            "nextDialogs": [
+              "3790503"
+            ]
+          },
+          "3790503": {
+            "id": "3790503",
+            "speakerId": 1009,
+            "speakerName": "Diluc",
+            "text": "I don't know how they came to this, but... okay, I guess."
+          }
+        }
+      }
+    }
+  ]
+}

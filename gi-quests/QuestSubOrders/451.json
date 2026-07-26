@@ -1,0 +1,485 @@
+{
+  "lineCounts": {
+    "???": 3,
+    "Paimon": 20,
+    "Player": 4,
+    "Razor": 18
+  },
+  "subQuests": [
+    {
+      "subId": "45109",
+      "subQuestName": "Go to Wolvendom",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45101",
+      "subQuestName": "Go to Wolvendom",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510101"
+        ],
+        "dialogs": {
+          "4510101": {
+            "id": "4510101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This is Wolvendom. People from Mondstadt hardly ever come here...",
+            "nextDialogs": [
+              "4510102"
+            ]
+          },
+          "4510102": {
+            "id": "4510102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Even though it's not so far away from the city, the environment here is totally untouched. It's a wild place ruled by the laws of nature.",
+            "nextDialogs": [
+              "4510103"
+            ]
+          },
+          "4510103": {
+            "id": "4510103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's survival of the fittest out here. Even the slimes around here are huuuge!",
+            "nextDialogs": [
+              "4510104"
+            ]
+          },
+          "4510104": {
+            "id": "4510104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Like those super-duper massive ones over there!",
+            "nextDialogs": [
+              "4510105"
+            ]
+          },
+          "4510105": {
+            "id": "4510105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Eek, they've seen us! Prepare for battle!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45102",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45107",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45103",
+      "subQuestName": "Defeat the slimes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510301"
+        ],
+        "dialogs": {
+          "4510301": {
+            "id": "4510301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*panting* Th—Thank you— Aaah! Wolves! Ruuuun!",
+            "nextDialogs": [
+              "4510303"
+            ]
+          },
+          "4510303": {
+            "id": "4510303",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Do not worry. Wolves friends. But, you are...?",
+            "nextDialogs": [
+              "4510304"
+            ]
+          },
+          "4510304": {
+            "id": "4510304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We're just some boring old travelers passing through...",
+            "nextDialogs": [
+              "4510305"
+            ]
+          },
+          "4510305": {
+            "id": "4510305",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Don't smell boring. You smell... *sniff* familiar...",
+            "nextDialogs": [
+              "4510306"
+            ]
+          },
+          "4510306": {
+            "id": "4510306",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...We smell?",
+            "nextDialogs": [
+              "4510307"
+            ]
+          },
+          "4510307": {
+            "id": "4510307",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "You smell like Knights of Favonius. They are friends.",
+            "nextDialogs": [
+              "4510310",
+              "4510313"
+            ]
+          },
+          "4510310": {
+            "id": "4510310",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "I am Razor.",
+            "nextDialogs": [
+              "4510311"
+            ]
+          },
+          "4510311": {
+            "id": "4510311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Are you one of the Knights of Favonius too?",
+            "nextDialogs": [
+              "4510312"
+            ]
+          },
+          "4510312": {
+            "id": "4510312",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "I am not.",
+            "nextDialogs": [
+              "4510314"
+            ]
+          },
+          "4510314": {
+            "id": "4510314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "4510315"
+            ]
+          },
+          "4510315": {
+            "id": "4510315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's with the wolf pack?",
+            "nextDialogs": [
+              "4510316"
+            ]
+          },
+          "4510316": {
+            "id": "4510316",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "My wolf pack... they are my family.",
+            "nextDialogs": [
+              "4510317"
+            ]
+          },
+          "4510317": {
+            "id": "4510317",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Your family!?",
+            "nextDialogs": [
+              "4510318"
+            ]
+          },
+          "4510318": {
+            "id": "4510318",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "Yes. They raised me. We live together. We are family.",
+            "nextDialogs": [
+              "4510319"
+            ]
+          },
+          "4510319": {
+            "id": "4510319",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So many questions...",
+            "nextDialogs": [
+              "4510320"
+            ]
+          },
+          "4510320": {
+            "id": "4510320",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "They are angry with me. I help you, exposed our ambush, boar ran away.",
+            "nextDialogs": [
+              "4510321"
+            ]
+          },
+          "4510321": {
+            "id": "4510321",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Oh, ah... don't worry, Paimon will get {NICKNAME} to catch you another boar.",
+            "nextDialogs": [
+              "4510322"
+            ]
+          },
+          "4510322": {
+            "id": "4510322",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME} is stronger than {M#he}{F#she} looks.",
+            "nextDialogs": [
+              "4510323"
+            ]
+          },
+          "4510323": {
+            "id": "4510323",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "N—No need. When knights try to help, wolves go hungry...",
+            "nextDialogs": [
+              "4510324"
+            ]
+          },
+          "4510324": {
+            "id": "4510324",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't be silly! Wait here — we won't screw this up, just watch!"
+          },
+          "4510313": {
+            "id": "4510313",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "I am Razor. I am no knight."
+          }
+        }
+      }
+    },
+    {
+      "subId": "45104",
+      "subQuestName": "Thank the boy for his help",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45105",
+      "subQuestName": "Collect enough Raw Meat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510501"
+        ],
+        "dialogs": {
+          "4510501": {
+            "id": "4510501",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "...You really want to help?",
+            "nextDialogs": [
+              "4510502"
+            ]
+          },
+          "4510502": {
+            "id": "4510502",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "Wolves hunt on instinct. Works every time. But... setting trap sounds fun.",
+            "nextDialogs": [
+              "4510503"
+            ]
+          },
+          "4510503": {
+            "id": "4510503",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "First, we set trap. Next, chase boar in — yes?",
+            "nextDialogs": [
+              "4510504"
+            ]
+          },
+          "4510504": {
+            "id": "4510504",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "Hope it won't explode..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "45108",
+      "subQuestName": "Hunting Tip",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510801"
+        ],
+        "dialogs": {
+          "4510801": {
+            "id": "4510801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ho-ho! Time to show us what you're made of!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45106",
+      "subQuestName": "Give three chunks of Raw Meat to Razor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510601"
+        ],
+        "dialogs": {
+          "4510601": {
+            "id": "4510601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Haha! Told you we could do it!",
+            "nextDialogs": [
+              "4510602"
+            ]
+          },
+          "4510602": {
+            "id": "4510602",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "I— thanks, but...",
+            "nextDialogs": [
+              "4510603"
+            ]
+          },
+          "4510603": {
+            "id": "4510603",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "...Wolves catch five or six every hunt... *sigh* Tonight, they go hungry...",
+            "nextDialogs": [
+              "4510604"
+            ]
+          },
+          "4510604": {
+            "id": "4510604",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh-oh...",
+            "nextDialogs": [
+              "4510605"
+            ]
+          },
+          "4510605": {
+            "id": "4510605",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "Don't worry. You tried.",
+            "nextDialogs": [
+              "4510606"
+            ]
+          },
+          "4510606": {
+            "id": "4510606",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "At least you did better than other knight friend... the red one, burny girl.",
+            "nextDialogs": [
+              "4510607"
+            ]
+          },
+          "4510607": {
+            "id": "4510607",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "If she was here, whole mountain is fire. Can't catch even one boar.",
+            "nextDialogs": [
+              "4510608"
+            ]
+          },
+          "4510608": {
+            "id": "4510608",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "I must go now.",
+            "nextDialogs": [
+              "4510609"
+            ]
+          },
+          "4510609": {
+            "id": "4510609",
+            "speakerId": 1011,
+            "speakerName": "Razor",
+            "text": "Here is not safe. Careful. Always watching.",
+            "nextDialogs": [
+              "4510610"
+            ]
+          },
+          "4510610": {
+            "id": "4510610",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What a weirdo...",
+            "nextDialogs": [
+              "4510611"
+            ]
+          },
+          "4510611": {
+            "id": "4510611",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"Burny girl\"? From the Knights of Favonius? What is he—",
+            "nextDialogs": [
+              "4510612"
+            ]
+          },
+          "4510612": {
+            "id": "4510612",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, who do you think it is?"
+          }
+        }
+      }
+    }
+  ]
+}

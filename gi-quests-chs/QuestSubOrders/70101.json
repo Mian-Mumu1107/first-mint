@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "派蒙": 2,
+    "玩家": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7010103",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "701010401"
+        ],
+        "dialogs": {
+          "701010401": {
+            "id": "701010401",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯…上面的文字已经风化得看不清了…",
+            "nextDialogs": [
+              "701010402"
+            ]
+          },
+          "701010402": {
+            "id": "701010402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#看上去像是为谁立的碑。{NICKNAME}，如果带了鲜花的话…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7010101",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "701010201"
+        ],
+        "dialogs": {
+          "701010201": {
+            "id": "701010201",
+            "speakerId": 1001,
+            "speakerName": "玩家",
+            "text": "准备好了"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7010105",
+      "subQuestName": "完成父任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

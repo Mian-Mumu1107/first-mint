@@ -1,0 +1,223 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 4,
+    "奇怪的商人": 11,
+    "派蒙": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7112101",
+      "subQuestName": "(test)西山一窟鬼$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7112102",
+      "subQuestName": "(test)与NPC对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711210201"
+        ],
+        "dialogs": {
+          "711210201": {
+            "id": "711210201",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "万分感谢！嗨呀，要不是有你们搭救，我的货物险些就全完了！",
+            "nextDialogs": [
+              "711210202"
+            ]
+          },
+          "711210202": {
+            "id": "711210202",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "请别客气，我身上也没多少钱，就请收下这些做报酬吧。",
+            "nextDialogs": [
+              "711210203"
+            ]
+          },
+          "711210203": {
+            "id": "711210203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇，你也太客气啦！",
+            "nextDialogs": [
+              "711210204"
+            ]
+          },
+          "711210204": {
+            "id": "711210204",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "哈哈，我们就此别过，希望下次还有机会相见！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7112105",
+      "subQuestName": "(test)7112102锁定环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7112103",
+      "subQuestName": "(test)NPC瑟缩角落$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711210301"
+        ],
+        "dialogs": {
+          "711210301": {
+            "id": "711210301",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "大、大侠饶命…欸，是你们？！",
+            "nextDialogs": [
+              "711210302"
+            ]
+          },
+          "711210302": {
+            "id": "711210302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是你？！",
+            "nextDialogs": [
+              "711210303"
+            ]
+          },
+          "711210303": {
+            "id": "711210303",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "嘿嘿，无巧不成书嘛这不是…哈哈，你们先忙着，我先走了哈！",
+            "nextDialogs": [
+              "711210304"
+            ]
+          },
+          "711210304": {
+            "id": "711210304",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "我建议你看看他们留下了什么宝贝，唔…别担心我，我把它们都登记备案了…该归还的东西由我归还就好。",
+            "nextDialogs": [
+              "711210305"
+            ]
+          },
+          "711210305": {
+            "id": "711210305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "等等…！",
+            "nextDialogs": [
+              "711210306"
+            ]
+          },
+          "711210306": {
+            "id": "711210306",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "没关系，反正之后我们还有机会再见！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7112104",
+      "subQuestName": "(test)判定商人能不能说话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7112151",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "711215101"
+        ],
+        "dialogs": {
+          "711215101": {
+            "id": "711215101",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "大、大侠饶命！我和他们不是一伙儿的！",
+            "nextDialogs": [
+              "711215102"
+            ]
+          },
+          "711215102": {
+            "id": "711215102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你是什么人？！",
+            "nextDialogs": [
+              "711215103"
+            ]
+          },
+          "711215103": {
+            "id": "711215103",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "我是…我…呃，说来话长…？他们偷走了一些东西，我便受主人之托，把他们登记备案，再还回去而已。",
+            "nextDialogs": [
+              "711215104"
+            ]
+          },
+          "711215104": {
+            "id": "711215104",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "好啦，反正你把贼人都打跑了，我这里的工作也完成了。那我就先走咯！",
+            "nextDialogs": [
+              "711215105"
+            ]
+          },
+          "711215105": {
+            "id": "711215105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "等等…！",
+            "nextDialogs": [
+              "711215106"
+            ]
+          },
+          "711215106": {
+            "id": "711215106",
+            "speakerId": 21395,
+            "speakerName": "奇怪的商人",
+            "text": "没关系，反正之后我们还有机会再见！",
+            "nextDialogs": [
+              "711215107"
+            ]
+          },
+          "711215107": {
+            "id": "711215107",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "奇怪的商人很快离开了…"
+          }
+        }
+      }
+    }
+  ]
+}

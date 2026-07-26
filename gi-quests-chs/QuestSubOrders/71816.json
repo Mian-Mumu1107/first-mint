@@ -1,0 +1,485 @@
+{
+  "lineCounts": {
+    "Player": 9,
+    "弗朗西斯": 5,
+    "黄衫": 33
+  },
+  "subQuests": [
+    {
+      "subId": "7181609",
+      "subQuestName": "(test)隐藏任务UI界面领取用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181601",
+      "subQuestName": "与黄衫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160101"
+        ],
+        "dialogs": {
+          "718160101": {
+            "id": "718160101",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "这叫我怎么送得过来…",
+            "nextDialogs": [
+              "718160102"
+            ]
+          },
+          "718160102": {
+            "id": "718160102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "怎么了？",
+            "nextDialogs": [
+              "718160103"
+            ]
+          },
+          "718160103": {
+            "id": "718160103",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "是旅行者吧，这时候来璃月正好能赶上海灯节，你运气不错，但是我就没法开心了…",
+            "nextDialogs": [
+              "718160104"
+            ]
+          },
+          "718160104": {
+            "id": "718160104",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "我们璃月人有海灯节放霄灯的传统，所以每年这时候霄灯材料的货运量都很大。",
+            "nextDialogs": [
+              "718160105"
+            ]
+          },
+          "718160105": {
+            "id": "718160105",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "今年不知道是不是我的错觉，货运量好像比往年还多了不少。",
+            "nextDialogs": [
+              "718160106"
+            ]
+          },
+          "718160106": {
+            "id": "718160106",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "我一个人还真有些忙不过来，这个客商还是个不了解璃月路况的枫丹客商，一直在催…",
+            "nextDialogs": [
+              "718160107"
+            ]
+          },
+          "718160107": {
+            "id": "718160107",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "我有心请人帮把手，又一直找不到合适的人选，你愿不愿意来帮忙走一趟镖？",
+            "nextDialogs": [
+              "718160109",
+              "718160112"
+            ]
+          },
+          "718160109": {
+            "id": "718160109",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "好！我就喜欢爽快的人，要是接镖的那位也能像你这么爽利就好了…",
+            "nextDialogs": [
+              "718160110"
+            ]
+          },
+          "718160110": {
+            "id": "718160110",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "那位的名字叫什么来着，好像是弗朗…弗朗西斯来着，外国人的名字我实在念不来。",
+            "nextDialogs": [
+              "718160115"
+            ]
+          },
+          "718160115": {
+            "id": "718160115",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "你愿意帮忙的话，就请你到存放货物的地方和我碰头吧。",
+            "nextDialogs": [
+              "718160116"
+            ]
+          },
+          "718160116": {
+            "id": "718160116",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "具体地点我已经帮你标注在地图上了，那我先行一步，我们稍后见。"
+          },
+          "718160112": {
+            "id": "718160112",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "没错，叫什么…弗郎…弗朗西斯，外国人名字真是难念。",
+            "nextDialogs": [
+              "718160113"
+            ]
+          },
+          "718160113": {
+            "id": "718160113",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "也不知道他订这么大一批霄灯材料要干嘛，不过…人家出钱，我出力嘛。",
+            "nextDialogs": [
+              "718160114"
+            ]
+          },
+          "718160114": {
+            "id": "718160114",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "放心，你帮了忙之后，报酬肯定也少不了你的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181603",
+      "subQuestName": "前往货物存放地点与黄衫对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160201"
+        ],
+        "dialogs": {
+          "718160201": {
+            "id": "718160201",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "这里就是存放货物的地方了，毕竟是麻烦你帮忙，你只要押送这一辆货运热气球就好了。",
+            "nextDialogs": [
+              "718160202"
+            ]
+          },
+          "718160202": {
+            "id": "718160202",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "不过我得提醒你，这些货都是制霄灯的原材料，脆弱得很。",
+            "nextDialogs": [
+              "718160203"
+            ]
+          },
+          "718160203": {
+            "id": "718160203",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "要是被弄坏或者烧花了可不行，路上务必小心谨慎。",
+            "nextDialogs": [
+              "718160204"
+            ]
+          },
+          "718160204": {
+            "id": "718160204",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "这条道上，时不时有魔物和盗宝团的家伙经过，你得多防备。",
+            "nextDialogs": [
+              "718160205"
+            ]
+          },
+          "718160205": {
+            "id": "718160205",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "那就由你押这趟镖了，一路安全送到弗朗西斯手上就好，事毕之后，我们在吃虎岩西南边的桥外见。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181604",
+      "subQuestName": "护送货运热气球至弗朗西斯处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160401"
+        ],
+        "dialogs": {
+          "718160401": {
+            "id": "718160401",
+            "speakerId": 2063,
+            "speakerName": "弗朗西斯",
+            "text": "这是…我订的货物，哦天呐，终于送到了。",
+            "nextDialogs": [
+              "718160402"
+            ]
+          },
+          "718160402": {
+            "id": "718160402",
+            "speakerId": 2063,
+            "speakerName": "弗朗西斯",
+            "text": "看你的装束，运货的这位朋友，你也不是璃月本地人吧。",
+            "nextDialogs": [
+              "718160403"
+            ]
+          },
+          "718160403": {
+            "id": "718160403",
+            "speakerId": 2063,
+            "speakerName": "弗朗西斯",
+            "text": "亲爱的朋友，不知道你有没有尝试过璃月美食，那简直是太美妙了，相信我，你真该去试试。",
+            "nextDialogs": [
+              "718160404"
+            ]
+          },
+          "718160404": {
+            "id": "718160404",
+            "speakerId": 2063,
+            "speakerName": "弗朗西斯",
+            "text": "好了，现在这批货也到了，我可以先放心去享受美食了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181605",
+      "subQuestName": "与弗朗西斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181606",
+      "subQuestName": "前往指定地点寻找黄衫",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181608",
+      "subQuestName": "将编好的霄灯交给黄衫",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160701"
+        ],
+        "dialogs": {
+          "718160701": {
+            "id": "718160701",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "哦？这霄灯真不错，多谢你了。我想想，霄灯里的愿望该怎么写…",
+            "nextDialogs": [
+              "718160702"
+            ]
+          },
+          "718160702": {
+            "id": "718160702",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "我这人也琢磨不出多好听的愿望…那就写个「万事如意」吧。",
+            "nextDialogs": [
+              "718160703"
+            ]
+          },
+          "718160703": {
+            "id": "718160703",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "只要所有事都能像预料的那样走，我就谢谢岩王爷了。",
+            "nextDialogs": [
+              "718160704"
+            ]
+          },
+          "718160704": {
+            "id": "718160704",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "对了，这些是报酬，收下吧，多谢你帮我的忙，还有你送我的那盏霄灯。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181607",
+      "subQuestName": "(test)对话刷霄灯$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181610",
+      "subQuestName": "(test)精简交付对话用$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160501"
+        ],
+        "dialogs": {
+          "718160501": {
+            "id": "718160501",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "我和弗朗西斯联络过了，那批货物他已经收到，多亏了你。",
+            "nextDialogs": [
+              "718160502"
+            ]
+          },
+          "718160502": {
+            "id": "718160502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "什么时候联络的？",
+            "nextDialogs": [
+              "718160503"
+            ]
+          },
+          "718160503": {
+            "id": "718160503",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "哈哈，不用在意，我们镖师的腿脚比一般人快不少，交接事务嘛…自然也快不少。",
+            "nextDialogs": [
+              "718160504"
+            ]
+          },
+          "718160504": {
+            "id": "718160504",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "这趟多亏你帮忙，干活拿报酬是天经地义，我也不会短你的。你稍等一下啊…",
+            "nextDialogs": [
+              "718160505"
+            ]
+          },
+          "718160505": {
+            "id": "718160505",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "海灯节也不休息吗？",
+            "nextDialogs": [
+              "718160506"
+            ]
+          },
+          "718160506": {
+            "id": "718160506",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "干我们这行的，生意一时有一时无，海灯节也着不了家，没办法嘛。",
+            "nextDialogs": [
+              "718160507"
+            ]
+          },
+          "718160507": {
+            "id": "718160507",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "你是在四处旅行吧，大家在海灯节的时候都会放霄灯，你也可以体验体验。",
+            "nextDialogs": [
+              "718160509",
+              "718160511"
+            ]
+          },
+          "718160509": {
+            "id": "718160509",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "每年都在外面跑，我倒几乎没什么闲工夫放过霄灯。",
+            "nextDialogs": [
+              "718160512"
+            ]
+          },
+          "718160512": {
+            "id": "718160512",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "要是有现成的，放一盏博个好彩头也不错，可惜我是没空自己编霄灯了…",
+            "nextDialogs": [
+              "718160513"
+            ]
+          },
+          "718160513": {
+            "id": "718160513",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "虽然少了点节日气氛，但也无所谓…"
+          },
+          "718160511": {
+            "id": "718160511",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "这倒还没有，我们在外漂泊的人，哪有这些闲功夫。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181602",
+      "subQuestName": "(test)(废弃)前往货物存放地点",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7181603",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160301"
+        ],
+        "dialogs": {
+          "718160301": {
+            "id": "718160301",
+            "speakerId": 2063,
+            "speakerName": "弗朗西斯",
+            "text": "货怎么还没来，我的肚子已经饿得咕咕叫了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7181608",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "718160801"
+        ],
+        "dialogs": {
+          "718160801": {
+            "id": "718160801",
+            "speakerId": 2207,
+            "speakerName": "黄衫",
+            "text": "你真打算帮我准备霄灯么？"
+          }
+        }
+      }
+    }
+  ]
+}

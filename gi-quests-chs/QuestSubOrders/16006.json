@@ -1,0 +1,45 @@
+{
+  "lineCounts": {
+    "杜林": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1600602",
+      "subQuestName": "等待魔法书给出后续篇章的提示",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1600118",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "160011801"
+        ],
+        "dialogs": {
+          "160011801": {
+            "id": "160011801",
+            "speakerId": 1320,
+            "speakerName": "杜林",
+            "text": "我想在这里仔细读一读这本书。",
+            "nextDialogs": [
+              "160011802"
+            ]
+          },
+          "160011802": {
+            "id": "160011802",
+            "speakerId": 1320,
+            "speakerName": "杜林",
+            "text": "如果想回故事里看看，来找我就好。"
+          }
+        }
+      }
+    }
+  ]
+}

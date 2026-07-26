@@ -1,0 +1,3094 @@
+{
+  "lineCounts": {
+    "Black Screen": 6,
+    "Caterpillar": 92,
+    "Estienne": 26,
+    "Lanoire": 30,
+    "Maupoil": 15,
+    "Monglane": 6,
+    "Noailles": 32,
+    "Paimon": 76,
+    "Player": 53
+  },
+  "subQuests": [
+    {
+      "subId": "7402601",
+      "subQuestName": "Leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402602",
+      "subQuestName": "Talk to Lanoire",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260201"
+        ],
+        "dialogs": {
+          "740260201": {
+            "id": "740260201",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "#{M#Mr.}{F#Ms.} {NICKNAME}, Ms. Paimon, do you see any walls? I don't see a wall anywhere around here.",
+            "nextDialogs": [
+              "740260202"
+            ]
+          },
+          "740260202": {
+            "id": "740260202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Walls? There are no walls here.",
+            "nextDialogs": [
+              "740260203"
+            ]
+          },
+          "740260203": {
+            "id": "740260203",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Then, are the walls somewhere really far away? Cater once told me that if they're too far away to see with your eyes, they'll look like the \"horizon.\"",
+            "nextDialogs": [
+              "740260204"
+            ]
+          },
+          "740260204": {
+            "id": "740260204",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "#{M#Mr.}{F#Ms.} {NICKNAME}, Ms. Paimon, where are we?",
+            "nextDialogs": [
+              "740260206",
+              "740260208",
+              "740260210"
+            ]
+          },
+          "740260206": {
+            "id": "740260206",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "The water here is lying flat, and there's no walls to separate it from us...",
+            "nextDialogs": [
+              "740260211"
+            ]
+          },
+          "740260211": {
+            "id": "740260211",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Hm... That thing up in the sky must be the \"moon,\" right? If it were the \"sun,\" it would probably hurt my eyes like the evil sorcerers' magic.",
+            "nextDialogs": [
+              "740260212"
+            ]
+          },
+          "740260212": {
+            "id": "740260212",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "#All around me are things I've never seen before... and things I've only seen in books! {M#Mr.}{F#Ms.} {NICKNAME}, Ms. Paimon, let's go on another adventure!",
+            "nextDialogs": [
+              "740260213"
+            ]
+          },
+          "740260213": {
+            "id": "740260213",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Cater was right! Adventuring outside is way more fun than in Meropide!",
+            "nextDialogs": [
+              "740260214"
+            ]
+          },
+          "740260214": {
+            "id": "740260214",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's right. The world outside is vast.",
+            "nextDialogs": [
+              "740260215"
+            ]
+          },
+          "740260215": {
+            "id": "740260215",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "I really envy the two of you...",
+            "nextDialogs": [
+              "740260216"
+            ]
+          },
+          "740260216": {
+            "id": "740260216",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Lanoire, let's discuss adventuring later. We really should find your family first...",
+            "nextDialogs": [
+              "740260217"
+            ]
+          },
+          "740260217": {
+            "id": "740260217",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Freeze, all of you! Where do you think you're going? Also, what's with that little girl?",
+            "nextDialogs": [
+              "740260218"
+            ]
+          },
+          "740260218": {
+            "id": "740260218",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Th—The evil sorcerer found us!",
+            "nextDialogs": [
+              "740260219"
+            ]
+          },
+          "740260219": {
+            "id": "740260219",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "What business is it of yours? Weren't you on leave? Patrolling with a Gardemek in your off hours won't get you promoted, you know.",
+            "nextDialogs": [
+              "740260220"
+            ]
+          },
+          "740260220": {
+            "id": "740260220",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "I came back as soon as I received the report... Have you gotten yourself mixed up with them? You're making a grave mistake, Estienne.",
+            "nextDialogs": [
+              "740260221"
+            ]
+          },
+          "740260221": {
+            "id": "740260221",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Actually, I think you'll find that I'm rectifying a mistake... and saving everyone a lot of paperwork. Ms. Monglane might even invite me to dinner as thanks.",
+            "nextDialogs": [
+              "740260222"
+            ]
+          },
+          "740260222": {
+            "id": "740260222",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "No... No! They're... criminals! Even if the papers with their serial numbers on them are missing, they're still criminals!"
+          },
+          "740260208": {
+            "id": "740260208",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Fontaine... It's a blue and green place. The Fortress of Meropide is all yellow and gray."
+          },
+          "740260210": {
+            "id": "740260210",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "The continent of Teyvat... Is it just like the Fortress of Meropide? I can't see its walls anywhere, that must make it a really, really big Fortress, right?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402603",
+      "subQuestName": "Defeat the Gardemeks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402604",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260401"
+        ],
+        "dialogs": {
+          "740260401": {
+            "id": "740260401",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402605",
+      "subQuestName": "Defeat the Gardemeks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402606",
+      "subQuestName": "Talk to Noailles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260601"
+        ],
+        "dialogs": {
+          "740260601": {
+            "id": "740260601",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Good heavens! I'm your colleague, you're not thinking of taking me in too?",
+            "nextDialogs": [
+              "740260602"
+            ]
+          },
+          "740260602": {
+            "id": "740260602",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Since you've thrown your lot in with them, you deserve the same punishment.",
+            "nextDialogs": [
+              "740260603"
+            ]
+          },
+          "740260603": {
+            "id": "740260603",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "#Cater... {M#Mr.}{F#Ms.} {NICKNAME}, Ms. Paimon... *sob*...",
+            "nextDialogs": [
+              "740260604"
+            ]
+          },
+          "740260604": {
+            "id": "740260604",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Gardemeks simply get scrapped, but you... Even if you are monsters, you can still feel pain, right?",
+            "nextDialogs": [
+              "740260605"
+            ]
+          },
+          "740260605": {
+            "id": "740260605",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is... Is this Hilichurl really Caterpillar? Paimon can't wrap her head around this...",
+            "nextDialogs": [
+              "740260606"
+            ]
+          },
+          "740260606": {
+            "id": "740260606",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Ms. Paimon, how do you not recognize him? That's Cater...",
+            "nextDialogs": [
+              "740260607"
+            ]
+          },
+          "740260607": {
+            "id": "740260607",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'm... I'm a monster in human skin.",
+            "nextDialogs": [
+              "740260608"
+            ]
+          },
+          "740260608": {
+            "id": "740260608",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "A monster... I never imagined such a monster even existed in the Fortress... A Hilichurl that can talk! Who would have thought?",
+            "nextDialogs": [
+              "740260609"
+            ]
+          },
+          "740260609": {
+            "id": "740260609",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Heh, how did you manage to pull the wool over everyone's eyes?",
+            "nextDialogs": [
+              "740260610"
+            ]
+          },
+          "740260610": {
+            "id": "740260610",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "What sorcery could allow a mindless creature to worm its way into our midst like a wolf in sheep's clothing...",
+            "nextDialogs": [
+              "740260611"
+            ]
+          },
+          "740260611": {
+            "id": "740260611",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Why haven't you run away yet? Are you pretending to be human? Of course, I will catch you even if you do run.",
+            "nextDialogs": [
+              "740260612"
+            ]
+          },
+          "740260612": {
+            "id": "740260612",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "A dangerous monster like you...",
+            "nextDialogs": [
+              "740260613"
+            ]
+          },
+          "740260613": {
+            "id": "740260613",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'm guilty. But she hasn't done anything wrong. She shouldn't be here.",
+            "nextDialogs": [
+              "740260614"
+            ]
+          },
+          "740260614": {
+            "id": "740260614",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "You won't find her name on any sentencing documents, she is innocent. She only ended up stuck in the Fortress due to a few mishaps.",
+            "nextDialogs": [
+              "740260615"
+            ]
+          },
+          "740260615": {
+            "id": "740260615",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'll return to the Fortress with you, but have Estienne take her back home.",
+            "nextDialogs": [
+              "740260616"
+            ]
+          },
+          "740260616": {
+            "id": "740260616",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Cater...",
+            "nextDialogs": [
+              "740260617"
+            ]
+          },
+          "740260617": {
+            "id": "740260617",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "The monster actually wants to make a deal with me?",
+            "nextDialogs": [
+              "740260618"
+            ]
+          },
+          "740260618": {
+            "id": "740260618",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I do indeed. Let her go home. As far as the Fortress of Meropide is concerned, she never existed in the first place. Her absence will not be felt.",
+            "nextDialogs": [
+              "740260619"
+            ]
+          },
+          "740260619": {
+            "id": "740260619",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "But catching a monster like me should be a big deal, no? Fontaine hasn't seen a monster like me for several centuries now...",
+            "nextDialogs": [
+              "740260620"
+            ]
+          },
+          "740260620": {
+            "id": "740260620",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "If you pass up this opportunity, I'll put my human skin back on and slip away into the crowd... You'll never get a chance like this again.",
+            "nextDialogs": [
+              "740260621"
+            ]
+          },
+          "740260621": {
+            "id": "740260621",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "...",
+            "nextDialogs": [
+              "740260622"
+            ]
+          },
+          "740260622": {
+            "id": "740260622",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "You're right. I've never seen her in the Fortress before, she's completely irrelevant.",
+            "nextDialogs": [
+              "740260623"
+            ]
+          },
+          "740260623": {
+            "id": "740260623",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "But you... You're too dangerous. I can't risk... letting an evil monster like you get away...",
+            "nextDialogs": [
+              "740260624"
+            ]
+          },
+          "740260624": {
+            "id": "740260624",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "We have a deal. You'll return to the Fortress of Meropide, and the girl can leave.",
+            "nextDialogs": [
+              "740260627"
+            ]
+          },
+          "740260627": {
+            "id": "740260627",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "The guilty return to where they should be, and Lanoire returns to her family's side. Everything on the right track, as it should be.",
+            "nextDialogs": [
+              "740260628"
+            ]
+          },
+          "740260628": {
+            "id": "740260628",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "He is someone who follows the rules. This is also in accordance with the rules.",
+            "nextDialogs": [
+              "740260629"
+            ]
+          },
+          "740260629": {
+            "id": "740260629",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Enough, monster, I've caught you now. You're all coming back to the Fortress of Meropide with me — the girl included.",
+            "nextDialogs": [
+              "740260630"
+            ]
+          },
+          "740260630": {
+            "id": "740260630",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? But didn't you just...",
+            "nextDialogs": [
+              "740260631"
+            ]
+          },
+          "740260631": {
+            "id": "740260631",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Who would actually make a deal with a monster? Could anyone be sure that the words coming out of his mouth aren't some beguiling incantation to stunt human wisdom?",
+            "nextDialogs": [
+              "740260632"
+            ]
+          },
+          "740260632": {
+            "id": "740260632",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "I won't be fooled again, so I've decided to play by my own rules. Your documents are missing? Then you'll stay in the Fortress of Meropide for the rest of your lives."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402607",
+      "subQuestName": "Talk to Monglane",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260701"
+        ],
+        "dialogs": {
+          "740260701": {
+            "id": "740260701",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "...Welcome back.",
+            "nextDialogs": [
+              "740260702"
+            ]
+          },
+          "740260702": {
+            "id": "740260702",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "Noailles filled appeal forms out for you already. But you should stay out of trouble until a final decision has been made.",
+            "nextDialogs": [
+              "740260703"
+            ]
+          },
+          "740260703": {
+            "id": "740260703",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "More specifically, do not rile him up.",
+            "nextDialogs": [
+              "740260704"
+            ]
+          },
+          "740260704": {
+            "id": "740260704",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "I thought I was getting a coworker who knew what he's doing, so I could be less stressed. But as it turns out, I've only gotten busier since he arrived..",
+            "nextDialogs": [
+              "740260705"
+            ]
+          },
+          "740260705": {
+            "id": "740260705",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "I really want to take a vacation in Natlan.",
+            "nextDialogs": [
+              "740260707"
+            ]
+          },
+          "740260707": {
+            "id": "740260707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, this is not the time for chit-chat! Paimon is wondering how Lanoire and the others are doing...",
+            "nextDialogs": [
+              "740260709"
+            ]
+          },
+          "740260709": {
+            "id": "740260709",
+            "speakerId": 5202,
+            "speakerName": "Monglane",
+            "text": "They're being kept under strict watch now. If you don't want the same treatment, then follow the rules."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402608",
+      "subQuestName": "Look for Caterpillar and Lanoire",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402609",
+      "subQuestName": "Talk to Estienne",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260901"
+        ],
+        "dialogs": {
+          "740260901": {
+            "id": "740260901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's you!",
+            "nextDialogs": [
+              "740260902"
+            ]
+          },
+          "740260902": {
+            "id": "740260902",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Indeed, it's me!",
+            "nextDialogs": [
+              "740260903"
+            ]
+          },
+          "740260903": {
+            "id": "740260903",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Noailles would probably call it \"atoning for my sins.\" But I've got seniority, so he doesn't get to order me around.",
+            "nextDialogs": [
+              "740260904"
+            ]
+          },
+          "740260904": {
+            "id": "740260904",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Then what are you doing here?",
+            "nextDialogs": [
+              "740260905"
+            ]
+          },
+          "740260905": {
+            "id": "740260905",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Atoning for my sins, what else?",
+            "nextDialogs": [
+              "740260906"
+            ]
+          },
+          "740260906": {
+            "id": "740260906",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Why does Paimon get the feeling you aren't the least bit surprised? Did you already know Caterpillar's, um... do you know his true identity?",
+            "nextDialogs": [
+              "740260907"
+            ]
+          },
+          "740260907": {
+            "id": "740260907",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "I only knew that he'd been here a long time. Longer than any of us.",
+            "nextDialogs": [
+              "740260908"
+            ]
+          },
+          "740260908": {
+            "id": "740260908",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "As for the rest, is any of it really important? He looks like a human, and he talks like one, too. What can I say? I like chatting with him.",
+            "nextDialogs": [
+              "740260909"
+            ]
+          },
+          "740260909": {
+            "id": "740260909",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Maybe appearances matter more to me than what's inside.",
+            "nextDialogs": [
+              "740260912"
+            ]
+          },
+          "740260912": {
+            "id": "740260912",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "In any case, if you're looking for Caterpillar, he's inside.",
+            "nextDialogs": [
+              "740260913"
+            ]
+          },
+          "740260913": {
+            "id": "740260913",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What about Lanoire? Is she in there with him?",
+            "nextDialogs": [
+              "740260914"
+            ]
+          },
+          "740260914": {
+            "id": "740260914",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "She was taken to go fill in some registration form. But don't worry, she'll be back soon.",
+            "nextDialogs": [
+              "740260915"
+            ]
+          },
+          "740260915": {
+            "id": "740260915",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, then let's ask Caterpillar... Just what's going on with him..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402610",
+      "subQuestName": "Talk to Caterpillar",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261001"
+        ],
+        "dialogs": {
+          "740261001": {
+            "id": "740261001",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I'm sorry for dragging you two into this. My plan was to get Lanoire home to her family, then return on my own. But it looks like that plan was a complete failure.",
+            "nextDialogs": [
+              "740261002"
+            ]
+          },
+          "740261002": {
+            "id": "740261002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There's a lot I want to ask you.",
+            "nextDialogs": [
+              "740261003"
+            ]
+          },
+          "740261003": {
+            "id": "740261003",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I imagine so.",
+            "nextDialogs": [
+              "740261004"
+            ]
+          },
+          "740261004": {
+            "id": "740261004",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You... You really are Caterpillar, right?",
+            "nextDialogs": [
+              "740261005"
+            ]
+          },
+          "740261005": {
+            "id": "740261005",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I am.",
+            "nextDialogs": [
+              "740261006"
+            ]
+          },
+          "740261006": {
+            "id": "740261006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then, um, you're a Hilichurl?",
+            "nextDialogs": [
+              "740261007"
+            ]
+          },
+          "740261007": {
+            "id": "740261007",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I am.",
+            "nextDialogs": [
+              "740261008"
+            ]
+          },
+          "740261008": {
+            "id": "740261008",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But.... aren't Hilichurls all, um, kinda dumb? And you looked just like a regular kid before. Ugh... Paimon doesn't know what's real anymore...",
+            "nextDialogs": [
+              "740261009"
+            ]
+          },
+          "740261009": {
+            "id": "740261009",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You said before that you looked like this because you got sick, after all, everyone has things they'd rather not tell anyone... And you're also so good to Lanoire, and she trusts you too...",
+            "nextDialogs": [
+              "740261010"
+            ]
+          },
+          "740261010": {
+            "id": "740261010",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But you're not a human at all... If you're a Hilichurl...",
+            "nextDialogs": [
+              "740261011"
+            ]
+          },
+          "740261011": {
+            "id": "740261011",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Then you can't trust me.",
+            "nextDialogs": [
+              "740261012"
+            ]
+          },
+          "740261012": {
+            "id": "740261012",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well...",
+            "nextDialogs": [
+              "740261013"
+            ]
+          },
+          "740261013": {
+            "id": "740261013",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I want the answers to the questions Noailles asked before.",
+            "nextDialogs": [
+              "740261014"
+            ]
+          },
+          "740261014": {
+            "id": "740261014",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I'll answer all your questions truthfully.",
+            "nextDialogs": [
+              "740261015"
+            ]
+          },
+          "740261015": {
+            "id": "740261015",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "When did you come to the Fortress of Meropide?",
+            "nextDialogs": [
+              "740261016"
+            ]
+          },
+          "740261016": {
+            "id": "740261016",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Over 400 years ago.",
+            "nextDialogs": [
+              "740261017"
+            ]
+          },
+          "740261017": {
+            "id": "740261017",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "F—Four hundred years ago!? When you said you'd been here a long time, Paimon thought you meant something like three to five years...",
+            "nextDialogs": [
+              "740261018"
+            ]
+          },
+          "740261018": {
+            "id": "740261018",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But 400 years is, like, several generations, isn't it? Oh, right... You're a Hilichurl...",
+            "nextDialogs": [
+              "740261019"
+            ]
+          },
+          "740261019": {
+            "id": "740261019",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What was your crime?",
+            "nextDialogs": [
+              "740261020"
+            ]
+          },
+          "740261020": {
+            "id": "740261020",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "If you're interested in history... I was a member of the Narzissenkreuz Ordo. I was found guilty of being an accessory to the master's scheme.",
+            "nextDialogs": [
+              "740261021"
+            ]
+          },
+          "740261021": {
+            "id": "740261021",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "The prophecy of the apocalypse... My master believed that he could stop this future of destruction from coming to pass. We did much to prepare for this. It was a powerful magic, and also an evil plan...",
+            "nextDialogs": [
+              "740261022"
+            ]
+          },
+          "740261022": {
+            "id": "740261022",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "But perhaps none of this is important now. The plan failed, and the Narzissenkreuz Ordo has essentially ceased to exist. Whether Fontaine is destroyed or not, it no longer has anything to do with me.",
+            "nextDialogs": [
+              "740261023"
+            ]
+          },
+          "740261023": {
+            "id": "740261023",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just who was this master you spoke of?",
+            "nextDialogs": [
+              "740261024"
+            ]
+          },
+          "740261024": {
+            "id": "740261024",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Narzissenkreuz, a powerful mage. He taught me human speech and granted me memory and intelligence.",
+            "nextDialogs": [
+              "740261025"
+            ]
+          },
+          "740261025": {
+            "id": "740261025",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Was there really someone who could do something like that? Hmm... But, your appearance aside, you really do seem like an ordinary human...",
+            "nextDialogs": [
+              "740261026"
+            ]
+          },
+          "740261026": {
+            "id": "740261026",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Though many details of the past have faded into memory, I remember this very well...",
+            "nextDialogs": [
+              "740261027"
+            ]
+          },
+          "740261027": {
+            "id": "740261027",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "This was a very, very long time ago. I couldn't change how I appeared to others at will then.",
+            "nextDialogs": [
+              "740261028"
+            ]
+          },
+          "740261028": {
+            "id": "740261028",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Many humans — some in finery, others in rags, some with curiosity, others with disdain — would all ask similar questions.",
+            "nextDialogs": [
+              "740261029"
+            ]
+          },
+          "740261029": {
+            "id": "740261029",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "\"Can Hilichurls really talk?\" \"Are Hilichurls really capable of intelligence?\"",
+            "nextDialogs": [
+              "740261030"
+            ]
+          },
+          "740261030": {
+            "id": "740261030",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "My master raised the Holy Blade of Narzissenkreuz high. It was a ceremonial sword, so the blade wasn't sharp, but still it glistened in the sunlight.",
+            "nextDialogs": [
+              "740261031"
+            ]
+          },
+          "740261031": {
+            "id": "740261031",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "\"Behold,\" he said, \"even a hideous monster such as this can attain wisdom and redemption through my power as the incarnation of Narzissenkreuz.\"",
+            "nextDialogs": [
+              "740261032"
+            ]
+          },
+          "740261032": {
+            "id": "740261032",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I was one of his creations. And as a testament to Narzissenkreuz's power, I once wielded a blade for the Ordo.",
+            "nextDialogs": [
+              "740261033"
+            ]
+          },
+          "740261033": {
+            "id": "740261033",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "But the sacred sword evidently couldn't save my master from a fate of failure and ruin. And the mystical, magical weapon... no longer exists.",
+            "nextDialogs": [
+              "740261034"
+            ]
+          },
+          "740261034": {
+            "id": "740261034",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "And there will be no more monsters in human skin like me.",
+            "nextDialogs": [
+              "740261035"
+            ]
+          },
+          "740261035": {
+            "id": "740261035",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Why do you want to help Lanoire?",
+            "nextDialogs": [
+              "740261036"
+            ]
+          },
+          "740261036": {
+            "id": "740261036",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Because of \"compassion\"...",
+            "nextDialogs": [
+              "740261037"
+            ]
+          },
+          "740261037": {
+            "id": "740261037",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Humanity might be unattainable for me, but at the very least, I can imitate it. Just like how I learned to change how I appear to others.",
+            "nextDialogs": [
+              "740261038"
+            ]
+          },
+          "740261038": {
+            "id": "740261038",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't get it...",
+            "nextDialogs": [
+              "740261039"
+            ]
+          },
+          "740261039": {
+            "id": "740261039",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "#{NICKNAME}, Paimon, you both innately possess kindness and benevolence. Because of this, you don't need to think twice about helping others. You simply do.",
+            "nextDialogs": [
+              "740261040"
+            ]
+          },
+          "740261040": {
+            "id": "740261040",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "If you look at their outcomes alone, plenty of actions are indistinguishable from each other. We all agree that Lanoire shouldn't stay in the Fortress of Meropide and that she should return to her family, so we chose to help her.",
+            "nextDialogs": [
+              "740261041"
+            ]
+          },
+          "740261041": {
+            "id": "740261041",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Your actions come from an innate benevolence that doesn't require excessive consideration or calculation. For me, however... it is because by doing so, I will be more like a human.",
+            "nextDialogs": [
+              "740261042"
+            ]
+          },
+          "740261042": {
+            "id": "740261042",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Funny, isn't it? I'll never truly become human, yet I can't stop mimicking human behavior.",
+            "nextDialogs": [
+              "740261043"
+            ]
+          },
+          "740261043": {
+            "id": "740261043",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "It's like \"atonement\"... As far as human law is concerned, I've long since atoned for my sins. But a human... What would a true human do?",
+            "nextDialogs": [
+              "740261044"
+            ]
+          },
+          "740261044": {
+            "id": "740261044",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "They would never forgive themselves for the mistakes they made, the harm they caused, and the people or things they failed to save...",
+            "nextDialogs": [
+              "740261045"
+            ]
+          },
+          "740261045": {
+            "id": "740261045",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "So, my sins can never be absolved, and I will forever be my own prisoner.",
+            "nextDialogs": [
+              "740261046"
+            ]
+          },
+          "740261046": {
+            "id": "740261046",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you plan to do next?",
+            "nextDialogs": [
+              "740261047"
+            ]
+          },
+          "740261047": {
+            "id": "740261047",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I'll bring Lanoire back to her family.",
+            "nextDialogs": [
+              "740261048"
+            ]
+          },
+          "740261048": {
+            "id": "740261048",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? But... Forget about getting out of the Fortress, we can't even get past this door!",
+            "nextDialogs": [
+              "740261049"
+            ]
+          },
+          "740261049": {
+            "id": "740261049",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I made a promise to her... so I have to fulfill it. She shouldn't stay here any longer, especially not by my side.",
+            "nextDialogs": [
+              "740261050"
+            ]
+          },
+          "740261050": {
+            "id": "740261050",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "The Geode Mine Shaft... It's a dangerous route, but it's feasible.",
+            "nextDialogs": [
+              "740261051"
+            ]
+          },
+          "740261051": {
+            "id": "740261051",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Geode Mine Shaft... That's right, Clynes said that there's an opening there that leads outside...",
+            "nextDialogs": [
+              "740261052"
+            ]
+          },
+          "740261052": {
+            "id": "740261052",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, the guards asked him to install a locking mechanism like the one at the Rift of Erosion there.",
+            "nextDialogs": [
+              "740261053"
+            ]
+          },
+          "740261053": {
+            "id": "740261053",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "He also said something about having prepared a \"surprise\"...",
+            "nextDialogs": [
+              "740261054"
+            ]
+          },
+          "740261054": {
+            "id": "740261054",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yikes, there's no way that's anything good! Are you sure you want to go from there? Paimon seems to remember that the research terminal there has to be operated by two people at the same time.",
+            "nextDialogs": [
+              "740261055"
+            ]
+          },
+          "740261055": {
+            "id": "740261055",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And Lanoire's so small, Paimon doesn't think she'll be able to operate it...",
+            "nextDialogs": [
+              "740261056"
+            ]
+          },
+          "740261056": {
+            "id": "740261056",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Why don't we help them, {NICKNAME}?",
+            "nextDialogs": [
+              "740261059"
+            ]
+          },
+          "740261059": {
+            "id": "740261059",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay!",
+            "nextDialogs": [
+              "740261060"
+            ]
+          },
+          "740261060": {
+            "id": "740261060",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I have a few more questions about the Ordo, as well...",
+            "nextDialogs": [
+              "740261061"
+            ]
+          },
+          "740261061": {
+            "id": "740261061",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I think there are other places better suited to discussing the history of the Narzissenkreuz Ordo. Somewhere that isn't the Fortress of Meropide, for example.",
+            "nextDialogs": [
+              "740261062"
+            ]
+          },
+          "740261062": {
+            "id": "740261062",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then we'll just have to wait until after Lanoire is reunited with her family... Before any of that, we need to think of a way out of here. And we need to meet back up with Lanoire.",
+            "nextDialogs": [
+              "740261063"
+            ]
+          },
+          "740261063": {
+            "id": "740261063",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Estienne will help us open the door. But there's a limit to how much he can help us...",
+            "nextDialogs": [
+              "740261064"
+            ]
+          },
+          "740261064": {
+            "id": "740261064",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He should be at the entrance, right? Let's go ask him!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402611",
+      "subQuestName": "Prepare to leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261201"
+        ],
+        "dialogs": {
+          "740261201": {
+            "id": "740261201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yep, let's go.",
+            "nextDialogs": [
+              "740261202"
+            ]
+          },
+          "740261202": {
+            "id": "740261202",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Thanks for your help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402612",
+      "subQuestName": "Go to the abandoned production zone without being noticed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402632",
+      "subQuestName": "Prepare to leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402633",
+      "subQuestName": "Use the searchlight to draw away the guards",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402635",
+      "subQuestName": "Go to the abandoned production zone without being noticed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402629",
+      "subQuestName": "Prepare to leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402613",
+      "subQuestName": "Go to the abandoned production zone without being noticed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261301"
+        ],
+        "dialogs": {
+          "740261301": {
+            "id": "740261301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Not yet, I need a little more time.",
+            "nextDialogs": [
+              "740261302"
+            ]
+          },
+          "740261302": {
+            "id": "740261302",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Of course."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402631",
+      "subQuestName": "Prepare to leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402628",
+      "subQuestName": "Use the loudspeaker to draw away the guards",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402614",
+      "subQuestName": "Go to the abandoned production zone without being noticed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261401"
+        ],
+        "dialogs": {
+          "740261401": {
+            "id": "740261401",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "Ready to leave?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402630",
+      "subQuestName": "Prepare to leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402615",
+      "subQuestName": "Go to the abandoned production zone without being noticed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261501"
+        ],
+        "dialogs": {
+          "740261501": {
+            "id": "740261501",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "Ready to leave?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402616",
+      "subQuestName": "Operate the drive valve to open the passage leading to the Geode Mine Shaft",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261601"
+        ],
+        "dialogs": {
+          "740261601": {
+            "id": "740261601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes.",
+            "nextDialogs": [
+              "740261602"
+            ]
+          },
+          "740261602": {
+            "id": "740261602",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "Take care."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402617",
+      "subQuestName": "Go to the Geode Mine Shaft",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261701"
+        ],
+        "dialogs": {
+          "740261701": {
+            "id": "740261701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Not yet.",
+            "nextDialogs": [
+              "740261702"
+            ]
+          },
+          "740261702": {
+            "id": "740261702",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "Stay out of trouble... Though I guess it's a little late to be saying that."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402618",
+      "subQuestName": "Talk to Caterpillar",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261801"
+        ],
+        "dialogs": {
+          "740261801": {
+            "id": "740261801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is this the Geode Mine Shaft? Paimon's heard of it before, but it's a little different than she imagined...",
+            "nextDialogs": [
+              "740261802"
+            ]
+          },
+          "740261802": {
+            "id": "740261802",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Wooow! What pretty rocks! Are all of these gems?",
+            "nextDialogs": [
+              "740261803"
+            ]
+          },
+          "740261803": {
+            "id": "740261803",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "It's Arkhium. Arkhium mining operations stopped after the Fontaine Research Institute accident.",
+            "nextDialogs": [
+              "740261804"
+            ]
+          },
+          "740261804": {
+            "id": "740261804",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Maybe we should keep our distance then.",
+            "nextDialogs": [
+              "740261805"
+            ]
+          },
+          "740261805": {
+            "id": "740261805",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, there really is a research terminal here. Hmm... Is that a note next to it? Could Clynes have left it here? Let's see what it says!",
+            "nextDialogs": [
+              "740261806"
+            ]
+          },
+          "740261806": {
+            "id": "740261806",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is this the \"surprise\" Clynes was talking about...? More like a shock!",
+            "nextDialogs": [
+              "740261807"
+            ]
+          },
+          "740261807": {
+            "id": "740261807",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hm... To activate this research terminal, we'll need a mobile energy storage device. But once we have one, we'll get chased by some sort of flying energy thief...",
+            "nextDialogs": [
+              "740261808"
+            ]
+          },
+          "740261808": {
+            "id": "740261808",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Looks like we'll just have to beat this energy thief in a race!",
+            "nextDialogs": [
+              "740261810",
+              "740261812"
+            ]
+          },
+          "740261810": {
+            "id": "740261810",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "W—We can't blame it all on him...",
+            "nextDialogs": [
+              "740261813"
+            ]
+          },
+          "740261813": {
+            "id": "740261813",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "There's going to be a race? I'll be rooting for you two!",
+            "nextDialogs": [
+              "740261814"
+            ]
+          },
+          "740261814": {
+            "id": "740261814",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright, let's leave this terminal to Caterpillar and Lanoire. We'll take care of the rest.",
+            "nextDialogs": [
+              "740261815"
+            ]
+          },
+          "740261815": {
+            "id": "740261815",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "I'll keep watch. Be careful."
+          },
+          "740261812": {
+            "id": "740261812",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "How can you give up before the race has even started?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402624",
+      "subQuestName": "Acquire the energy storage device and unlock the research terminal ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402625",
+      "subQuestName": "Acquire the energy storage device and unlock the research terminal ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402626",
+      "subQuestName": "Acquire the energy storage device and unlock the research terminal ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402642",
+      "subQuestName": "Keep moving",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402620",
+      "subQuestName": "Talk to Caterpillar",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740262001"
+        ],
+        "dialogs": {
+          "740262001": {
+            "id": "740262001",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Why is it off again?",
+            "nextDialogs": [
+              "740262003",
+              "740262006"
+            ]
+          },
+          "740262003": {
+            "id": "740262003",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did it malfunction? At least it won't explode this time... probably.",
+            "nextDialogs": [
+              "740262004"
+            ]
+          },
+          "740262004": {
+            "id": "740262004",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Maybe someone's catching up to us...",
+            "nextDialogs": [
+              "740262007"
+            ]
+          },
+          "740262007": {
+            "id": "740262007",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sh—Should we go back and take a look then?",
+            "nextDialogs": [
+              "740262008"
+            ]
+          },
+          "740262008": {
+            "id": "740262008",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "No need to trouble yourselves, esteemed guests.",
+            "nextDialogs": [
+              "740262009"
+            ]
+          },
+          "740262009": {
+            "id": "740262009",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "You're evil, and I represent the side of justice... Even without Gardemeks, I won't let you get away...",
+            "nextDialogs": [
+              "740262010"
+            ]
+          },
+          "740262010": {
+            "id": "740262010",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Lay down your arms and surrender!"
+          },
+          "740262006": {
+            "id": "740262006",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Maybe."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402621",
+      "subQuestName": "Defeat Noailles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402622",
+      "subQuestName": "Talk to Noailles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740262201"
+        ],
+        "dialogs": {
+          "740262201": {
+            "id": "740262201",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "He's... He's just a monster! Why would you help him? Why would anyone help him?",
+            "nextDialogs": [
+              "740262202"
+            ]
+          },
+          "740262202": {
+            "id": "740262202",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Cater isn't a monster! Why... Why would you call him that, evil sorcerer...?",
+            "nextDialogs": [
+              "740262203"
+            ]
+          },
+          "740262203": {
+            "id": "740262203",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "Ever since Mother left Meropide, Cater's been really nice to me, he's never lied to me...",
+            "nextDialogs": [
+              "740262204"
+            ]
+          },
+          "740262204": {
+            "id": "740262204",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "There are other nice people here too... but none of them are as nice as Cater. He tells me all kinds of stories, and listens to mine, too...",
+            "nextDialogs": [
+              "740262205"
+            ]
+          },
+          "740262205": {
+            "id": "740262205",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "I won't let you call him a monster!",
+            "nextDialogs": [
+              "740262206"
+            ]
+          },
+          "740262206": {
+            "id": "740262206",
+            "speakerId": 21072,
+            "speakerName": "Noailles",
+            "text": "Why? Justice should triumph over evil...",
+            "nextDialogs": [
+              "740262207"
+            ]
+          },
+          "740262207": {
+            "id": "740262207",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "There's no such thing as good or evil here.",
+            "nextDialogs": [
+              "740262208"
+            ]
+          },
+          "740262208": {
+            "id": "740262208",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Estienne! What are you doing here?",
+            "nextDialogs": [
+              "740262210",
+              "740262212"
+            ]
+          },
+          "740262210": {
+            "id": "740262210",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "So sorry about that.",
+            "nextDialogs": [
+              "740262213"
+            ]
+          },
+          "740262213": {
+            "id": "740262213",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "It took me quite some time to retrieve those Gardemeks he utilized without authorization. Well done, you didn't just break the rules, but also violated regulations.",
+            "nextDialogs": [
+              "740262214"
+            ]
+          },
+          "740262214": {
+            "id": "740262214",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Now it's your turn to accept your punishment. You're coming back with me.",
+            "nextDialogs": [
+              "740262215"
+            ]
+          },
+          "740262215": {
+            "id": "740262215",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "As for you guys... If you want to leave, this is your last chance. *sigh* With all the fuss he's been making, who knows what will happen later.",
+            "nextDialogs": [
+              "740262216"
+            ]
+          },
+          "740262216": {
+            "id": "740262216",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Of course, it's also possible that nothing will happen at all.",
+            "nextDialogs": [
+              "740262217"
+            ]
+          },
+          "740262217": {
+            "id": "740262217",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Thank you.",
+            "nextDialogs": [
+              "740262218"
+            ]
+          },
+          "740262218": {
+            "id": "740262218",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "If you really want to thank me, don't come back again.",
+            "nextDialogs": [
+              "740262219"
+            ]
+          },
+          "740262219": {
+            "id": "740262219",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "Then, with Estienne's help, the path is reopened...",
+            "nextDialogs": [
+              "740262220"
+            ]
+          },
+          "740262220": {
+            "id": "740262220",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon guesses we can go now... We should be in the clear now, right? Hm... Let's get a move on before we run into any more surprises!",
+            "nextDialogs": [
+              "740262221"
+            ]
+          },
+          "740262221": {
+            "id": "740262221",
+            "speakerId": 5203,
+            "speakerName": "Lanoire",
+            "text": "We're leaving Meropide again? Will we ever come back?"
+          },
+          "740262212": {
+            "id": "740262212",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "\"Atoning for my sins,\" of course."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402643",
+      "subQuestName": "Leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402623",
+      "subQuestName": "Leave the Fortress of Meropide",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402600",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740260001"
+        ],
+        "dialogs": {
+          "740260001": {
+            "id": "740260001",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "You follow Estienne out of the Fortress of Meropide...",
+            "nextDialogs": [
+              "740260002"
+            ]
+          },
+          "740260002": {
+            "id": "740260002",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "Together with Lanoire and Caterpillar, you carefully avoided detection by the evil sorcerers, and made it to safety...",
+            "nextDialogs": [
+              "740260003"
+            ]
+          },
+          "740260003": {
+            "id": "740260003",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "Using shimmering magic to beat back the evil sorcerers, you made it to safety undetected...",
+            "nextDialogs": [
+              "740260004"
+            ]
+          },
+          "740260004": {
+            "id": "740260004",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "Using shimmering magic to beat back the evil sorcerers, and later, with the help of the speaker, you made it to safety undetected...",
+            "nextDialogs": [
+              "740260011"
+            ]
+          },
+          "740260011": {
+            "id": "740260011",
+            "speakerId": 1007,
+            "speakerName": "Black Screen",
+            "text": "You are escorted back to the Fortress of Meropide..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402611",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740261101"
+        ],
+        "dialogs": {
+          "740261101": {
+            "id": "740261101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um... Should we try knocking?",
+            "nextDialogs": [
+              "740261102"
+            ]
+          },
+          "740261102": {
+            "id": "740261102",
+            "speakerId": 5218,
+            "speakerName": "Maupoil",
+            "text": "...Going somewhere?",
+            "nextDialogs": [
+              "740261103"
+            ]
+          },
+          "740261103": {
+            "id": "740261103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? You're not Estienne!",
+            "nextDialogs": [
+              "740261104"
+            ]
+          },
+          "740261104": {
+            "id": "740261104",
+            "speakerId": 5218,
+            "speakerName": "Maupoil",
+            "text": "He had something to do, so he asked me to cover for him. *sigh*... When are people finally going to get it into their heads that I have my own work to do, too?",
+            "nextDialogs": [
+              "740261105"
+            ]
+          },
+          "740261105": {
+            "id": "740261105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh... Th—Then can we leave?",
+            "nextDialogs": [
+              "740261106"
+            ]
+          },
+          "740261106": {
+            "id": "740261106",
+            "speakerId": 5218,
+            "speakerName": "Maupoil",
+            "text": "You can... but it's dangerous out there. How dangerous, you ask? About as dangerous as the mental state of the new guard, I'd say...",
+            "nextDialogs": [
+              "740261107"
+            ]
+          },
+          "740261107": {
+            "id": "740261107",
+            "speakerId": 5218,
+            "speakerName": "Maupoil",
+            "text": "He really is a lunatic. I had no idea that there were so many Gardemeks on the move! Not only that, people actually approve of his methods... Not that I know how serious those people are.",
+            "nextDialogs": [
+              "740261108"
+            ]
+          },
+          "740261108": {
+            "id": "740261108",
+            "speakerId": 5218,
+            "speakerName": "Maupoil",
+            "text": "If you want to go, you'd better be prepared... I mean, it would be best if you didn't come back again.",
+            "nextDialogs": [
+              "740261109"
+            ]
+          },
+          "740261109": {
+            "id": "740261109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But Lanoire's not back yet...",
+            "nextDialogs": [
+              "740261110"
+            ]
+          },
+          "740261110": {
+            "id": "740261110",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "I'm here! Mr. Maupoil just brought me back.",
+            "nextDialogs": [
+              "740261111"
+            ]
+          },
+          "740261111": {
+            "id": "740261111",
+            "speakerId": 21172,
+            "speakerName": "Caterpillar",
+            "text": "Then there's no time to lose. Lanoire, I know we lost the last game to the evil sorcerer, but are you ready for a new challenge?",
+            "nextDialogs": [
+              "740261112"
+            ]
+          },
+          "740261112": {
+            "id": "740261112",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "A new game? You mean a new adventure? I'm ready! We can't let the evil sorcerer catch us again...",
+            "nextDialogs": [
+              "740261113"
+            ]
+          },
+          "740261113": {
+            "id": "740261113",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Looks like they're all good. Are you ready then, {NICKNAME}?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402650",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740265001"
+        ],
+        "dialogs": {
+          "740265001": {
+            "id": "740265001",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'm sorry for dragging you two into this. My plan was to get Lanoire home to her family, then return on my own. But it looks like that plan was a complete failure.",
+            "nextDialogs": [
+              "740265002"
+            ]
+          },
+          "740265002": {
+            "id": "740265002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "There's a lot I want to ask you.",
+            "nextDialogs": [
+              "740265003"
+            ]
+          },
+          "740265003": {
+            "id": "740265003",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I imagine so.",
+            "nextDialogs": [
+              "740265004"
+            ]
+          },
+          "740265004": {
+            "id": "740265004",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You... You really are Caterpillar, right?",
+            "nextDialogs": [
+              "740265005"
+            ]
+          },
+          "740265005": {
+            "id": "740265005",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I am.",
+            "nextDialogs": [
+              "740265006"
+            ]
+          },
+          "740265006": {
+            "id": "740265006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then, um, you're a Hilichurl?",
+            "nextDialogs": [
+              "740265007"
+            ]
+          },
+          "740265007": {
+            "id": "740265007",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I am.",
+            "nextDialogs": [
+              "740265008"
+            ]
+          },
+          "740265008": {
+            "id": "740265008",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But.... aren't Hilichurls all, um, kinda dumb? And you looked just like a regular kid before. Ugh... Paimon doesn't know what's real anymore...",
+            "nextDialogs": [
+              "740265009"
+            ]
+          },
+          "740265009": {
+            "id": "740265009",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You said before that you looked like this because you got sick, after all, everyone has things they'd rather not tell anyone... And you're also so good to Lanoire, and she trusts you too...",
+            "nextDialogs": [
+              "740265010"
+            ]
+          },
+          "740265010": {
+            "id": "740265010",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But you're not a human at all... If you're a Hilichurl...",
+            "nextDialogs": [
+              "740265011"
+            ]
+          },
+          "740265011": {
+            "id": "740265011",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Then you can't trust me.",
+            "nextDialogs": [
+              "740265012"
+            ]
+          },
+          "740265012": {
+            "id": "740265012",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well...",
+            "nextDialogs": [
+              "740265013"
+            ]
+          },
+          "740265013": {
+            "id": "740265013",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I want the answers to the questions Noailles asked before.",
+            "nextDialogs": [
+              "740265014"
+            ]
+          },
+          "740265014": {
+            "id": "740265014",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'll answer all your questions truthfully.",
+            "nextDialogs": [
+              "740265015"
+            ]
+          },
+          "740265015": {
+            "id": "740265015",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "When did you come to the Fortress of Meropide?",
+            "nextDialogs": [
+              "740265016"
+            ]
+          },
+          "740265016": {
+            "id": "740265016",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Over 400 years ago.",
+            "nextDialogs": [
+              "740265017"
+            ]
+          },
+          "740265017": {
+            "id": "740265017",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "F—Four hundred years ago!? When you said you'd been here a long time, Paimon thought you meant something like three to five years...",
+            "nextDialogs": [
+              "740265018"
+            ]
+          },
+          "740265018": {
+            "id": "740265018",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But 400 years is, like, several generations, isn't it? Oh, right... You're a Hilichurl...",
+            "nextDialogs": [
+              "740265019"
+            ]
+          },
+          "740265019": {
+            "id": "740265019",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What was your crime?",
+            "nextDialogs": [
+              "740265020"
+            ]
+          },
+          "740265020": {
+            "id": "740265020",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "If you're interested in history... I was a member of the Narzissenkreuz Ordo. I was found guilty of being an accessory to the master's scheme.",
+            "nextDialogs": [
+              "740265021"
+            ]
+          },
+          "740265021": {
+            "id": "740265021",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Narzissenkreuz Ordo... We've heard of that before!",
+            "nextDialogs": [
+              "740265022"
+            ]
+          },
+          "740265022": {
+            "id": "740265022",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'm surprised anyone still remembers it...",
+            "nextDialogs": [
+              "740265023"
+            ]
+          },
+          "740265023": {
+            "id": "740265023",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "The prophecy of the apocalypse... My master believed that he could stop this future of destruction from coming to pass. We did much to prepare for this. It was a powerful magic, and also an evil plan...",
+            "nextDialogs": [
+              "740265024"
+            ]
+          },
+          "740265024": {
+            "id": "740265024",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "But perhaps none of this is important now. The plan failed, and the Narzissenkreuz Ordo has essentially ceased to exist. Whether Fontaine is destroyed or not, it no longer has anything to do with me.",
+            "nextDialogs": [
+              "740265025"
+            ]
+          },
+          "740265025": {
+            "id": "740265025",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just who was this master you spoke of?",
+            "nextDialogs": [
+              "740265026"
+            ]
+          },
+          "740265026": {
+            "id": "740265026",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Narzissenkreuz, a powerful mage. He taught me human speech and granted me memory and intelligence.",
+            "nextDialogs": [
+              "740265027"
+            ]
+          },
+          "740265027": {
+            "id": "740265027",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Was there really someone who could do something like that? Hmm... But, your appearance aside, you really do seem like an ordinary human...",
+            "nextDialogs": [
+              "740265028"
+            ]
+          },
+          "740265028": {
+            "id": "740265028",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Though many details of the past have faded into memory, I remember this very well...",
+            "nextDialogs": [
+              "740265029"
+            ]
+          },
+          "740265029": {
+            "id": "740265029",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "This was a very, very long time ago. I couldn't change how I appeared to others at will then.",
+            "nextDialogs": [
+              "740265030"
+            ]
+          },
+          "740265030": {
+            "id": "740265030",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Many humans — some in finery, others in rags, some with curiosity, others with disdain — would all ask similar questions.",
+            "nextDialogs": [
+              "740265031"
+            ]
+          },
+          "740265031": {
+            "id": "740265031",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "\"Can Hilichurls really talk?\" \"Are Hilichurls really capable of intelligence?\"",
+            "nextDialogs": [
+              "740265032"
+            ]
+          },
+          "740265032": {
+            "id": "740265032",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "My master raised the Holy Blade of Narzissenkreuz high. It was a ceremonial sword, so the blade wasn't sharp, but still it glistened in the sunlight.",
+            "nextDialogs": [
+              "740265033"
+            ]
+          },
+          "740265033": {
+            "id": "740265033",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "\"Behold,\" he said, \"even a hideous monster such as this can attain wisdom and redemption through my power as the incarnation of Narzissenkreuz.\"",
+            "nextDialogs": [
+              "740265034"
+            ]
+          },
+          "740265034": {
+            "id": "740265034",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I was one of his creations. And as a testament to Narzissenkreuz's power, I once wielded a blade for the Ordo.",
+            "nextDialogs": [
+              "740265035"
+            ]
+          },
+          "740265035": {
+            "id": "740265035",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "But the sacred sword evidently couldn't save my master from a fate of failure and ruin. And the mystical, magical weapon... no longer exists.",
+            "nextDialogs": [
+              "740265036"
+            ]
+          },
+          "740265036": {
+            "id": "740265036",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "And there will be no more monsters in human skin like me.",
+            "nextDialogs": [
+              "740265037"
+            ]
+          },
+          "740265037": {
+            "id": "740265037",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Why do you want to help Lanoire?",
+            "nextDialogs": [
+              "740265038"
+            ]
+          },
+          "740265038": {
+            "id": "740265038",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Because of \"compassion\"...",
+            "nextDialogs": [
+              "740265039"
+            ]
+          },
+          "740265039": {
+            "id": "740265039",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Humanity might be unattainable for me, but at the very least, I can imitate it. Just like how I learned to change how I appear to others.",
+            "nextDialogs": [
+              "740265040"
+            ]
+          },
+          "740265040": {
+            "id": "740265040",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't get it...",
+            "nextDialogs": [
+              "740265041"
+            ]
+          },
+          "740265041": {
+            "id": "740265041",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "#{NICKNAME}, Paimon, you both innately possess kindness and benevolence. Because of this, you don't need to think twice about helping others. You simply do.",
+            "nextDialogs": [
+              "740265042"
+            ]
+          },
+          "740265042": {
+            "id": "740265042",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "If you look at their outcomes alone, plenty of actions are indistinguishable from each other. We all agree that Lanoire shouldn't stay in the Fortress Meropide and that she should return to her family, so we chose to help her.",
+            "nextDialogs": [
+              "740265043"
+            ]
+          },
+          "740265043": {
+            "id": "740265043",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Your actions come from an innate benevolence that doesn't require excessive consideration or calculation. For me, however... it is because by doing so, I will be more like a human.",
+            "nextDialogs": [
+              "740265044"
+            ]
+          },
+          "740265044": {
+            "id": "740265044",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Funny, isn't it? I'll never truly become human, yet I can't stop mimicking human behavior.",
+            "nextDialogs": [
+              "740265045"
+            ]
+          },
+          "740265045": {
+            "id": "740265045",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "It's like \"atonement\"... As far as human law is concerned, I've long since atoned for my sins. But a human... What would a true human do?",
+            "nextDialogs": [
+              "740265046"
+            ]
+          },
+          "740265046": {
+            "id": "740265046",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "They would never forgive themselves for the mistakes they made, the harm they caused, and the people or things they failed to save...",
+            "nextDialogs": [
+              "740265047"
+            ]
+          },
+          "740265047": {
+            "id": "740265047",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "So, my sins can never be absolved, and I will forever be my own prisoner.",
+            "nextDialogs": [
+              "740265048"
+            ]
+          },
+          "740265048": {
+            "id": "740265048",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What do you plan to do next?",
+            "nextDialogs": [
+              "740265049"
+            ]
+          },
+          "740265049": {
+            "id": "740265049",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I'll bring Lanoire back to her family.",
+            "nextDialogs": [
+              "740265050"
+            ]
+          },
+          "740265050": {
+            "id": "740265050",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? But... Forget about getting out of the Fortress, we can't even get past this door!",
+            "nextDialogs": [
+              "740265051"
+            ]
+          },
+          "740265051": {
+            "id": "740265051",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I made a promise to her... so I have to fulfill it. She shouldn't stay here any longer, especially not by my side.",
+            "nextDialogs": [
+              "740265052"
+            ]
+          },
+          "740265052": {
+            "id": "740265052",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "The Geode Mine Shaft... It's a dangerous route, but it's feasible.",
+            "nextDialogs": [
+              "740265053"
+            ]
+          },
+          "740265053": {
+            "id": "740265053",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Geode Mine Shaft... That's right, Clynes said that there's an opening there that leads outside...",
+            "nextDialogs": [
+              "740265054"
+            ]
+          },
+          "740265054": {
+            "id": "740265054",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, the guards asked him to install a locking mechanism like the one at the Rift of Erosion.",
+            "nextDialogs": [
+              "740265055"
+            ]
+          },
+          "740265055": {
+            "id": "740265055",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "He also said something about having prepared a \"surprise\"...",
+            "nextDialogs": [
+              "740265056"
+            ]
+          },
+          "740265056": {
+            "id": "740265056",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yikes, there's no way that's anything good! Are you sure you want to go from there? Paimon seems to remember that the research terminal there has to be operated by two people at the same time.",
+            "nextDialogs": [
+              "740265057"
+            ]
+          },
+          "740265057": {
+            "id": "740265057",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And Lanoire's so small, Paimon doesn't think she'll be able to operate it...",
+            "nextDialogs": [
+              "740265058"
+            ]
+          },
+          "740265058": {
+            "id": "740265058",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Why don't we help them, {NICKNAME}?",
+            "nextDialogs": [
+              "740265061"
+            ]
+          },
+          "740265061": {
+            "id": "740265061",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay!",
+            "nextDialogs": [
+              "740265062"
+            ]
+          },
+          "740265062": {
+            "id": "740265062",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I have a few more questions about the Ordo, as well...",
+            "nextDialogs": [
+              "740265063"
+            ]
+          },
+          "740265063": {
+            "id": "740265063",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "I think there are other places better suited to discussing the history of the Narzissenkreuz Ordo. Somewhere that isn't the Fortress of Meropide, for example.",
+            "nextDialogs": [
+              "740265064"
+            ]
+          },
+          "740265064": {
+            "id": "740265064",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then we'll just have to wait until after Lanoire is reunited with her family... Before any of that, we need to think of a way out of here. And we need to meet back up with Lanoire.",
+            "nextDialogs": [
+              "740265065"
+            ]
+          },
+          "740265065": {
+            "id": "740265065",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Estienne will help us open the door. But there's a limit to how much he can help us...",
+            "nextDialogs": [
+              "740265066"
+            ]
+          },
+          "740265066": {
+            "id": "740265066",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He should be at the entrance, right? Let's go ask him!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402651",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740265101"
+        ],
+        "dialogs": {
+          "740265101": {
+            "id": "740265101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Where's Estienne?",
+            "nextDialogs": [
+              "740265102"
+            ]
+          },
+          "740265102": {
+            "id": "740265102",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "He had something to do, so he asked me to cover for him. *sigh*... When are people finally going to get it into their heads that I have my own work to do, too?",
+            "nextDialogs": [
+              "740265103"
+            ]
+          },
+          "740265103": {
+            "id": "740265103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh... Th—Then can we...",
+            "nextDialogs": [
+              "740265104"
+            ]
+          },
+          "740265104": {
+            "id": "740265104",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "You want to get Lanoire out of here, right? It's not that you can't...",
+            "nextDialogs": [
+              "740265105"
+            ]
+          },
+          "740265105": {
+            "id": "740265105",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "But it's dangerous out there. How dangerous, you ask? About as dangerous as the mental state of the new guard, I'd say...",
+            "nextDialogs": [
+              "740265106"
+            ]
+          },
+          "740265106": {
+            "id": "740265106",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "He really is a lunatic. I had no idea that there were so many Gardemeks on the move! Not only that, people actually approve of his methods... Not that I know how serious those people are.",
+            "nextDialogs": [
+              "740265107"
+            ]
+          },
+          "740265107": {
+            "id": "740265107",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "If you want to go, you'd better be prepared... I mean, it would be best if you didn't come back again.",
+            "nextDialogs": [
+              "740265108"
+            ]
+          },
+          "740265108": {
+            "id": "740265108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Got it! But... more importantly, where's Lanoire?",
+            "nextDialogs": [
+              "740265109"
+            ]
+          },
+          "740265109": {
+            "id": "740265109",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "I'm here! Mr. Maupoil just brought me back.",
+            "nextDialogs": [
+              "740265110"
+            ]
+          },
+          "740265110": {
+            "id": "740265110",
+            "speakerId": 21107,
+            "speakerName": "Maupoil",
+            "text": "That's right. The thoughtful, considerate Maupoil brought her back while he was covering for Estienne.",
+            "nextDialogs": [
+              "740265111"
+            ]
+          },
+          "740265111": {
+            "id": "740265111",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "Thank you, thoughtful and considerate Mr. Maupoil!",
+            "nextDialogs": [
+              "740265112"
+            ]
+          },
+          "740265112": {
+            "id": "740265112",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Then there's no time to lose. Lanoire, I know we lost the last game to the evil sorcerer, but are you ready for a new challenge?",
+            "nextDialogs": [
+              "740265113"
+            ]
+          },
+          "740265113": {
+            "id": "740265113",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "A new game? You mean a new adventure? I'm ready! We can't let the evil sorcerer catch us again...",
+            "nextDialogs": [
+              "740265114"
+            ]
+          },
+          "740265114": {
+            "id": "740265114",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Looks like they're all good. Are you ready then, {NICKNAME}?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402681",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268101"
+        ],
+        "dialogs": {
+          "740268101": {
+            "id": "740268101",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "Natural wind really feels better, doesn't it?",
+            "nextDialogs": [
+              "740268102"
+            ]
+          },
+          "740268102": {
+            "id": "740268102",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "We might have fans down there, but most of the air feels kind of stale.",
+            "nextDialogs": [
+              "740268103"
+            ]
+          },
+          "740268103": {
+            "id": "740268103",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "The fans in the Pankration Ring are just like Noailles. The fans are indeed needed there, but when their blades spin, they bring the same misery to everyone no matter who they are.",
+            "nextDialogs": [
+              "740268104"
+            ]
+          },
+          "740268104": {
+            "id": "740268104",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "I think you know what I'm talking about."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402682",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268201"
+        ],
+        "dialogs": {
+          "740268201": {
+            "id": "740268201",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "#I'll be rooting for you, {M#Mr.}{F#Ms.} {NICKNAME} and Ms. Paimon!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402683",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268301"
+        ],
+        "dialogs": {
+          "740268301": {
+            "id": "740268301",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "We'll take care of things here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402684",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268401"
+        ],
+        "dialogs": {
+          "740268401": {
+            "id": "740268401",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Let's ask the guards first."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402685",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268501"
+        ],
+        "dialogs": {
+          "740268501": {
+            "id": "740268501",
+            "speakerId": 21048,
+            "speakerName": "Caterpillar",
+            "text": "Now that Lanoire's back, we can set off at any time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402686",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268601"
+        ],
+        "dialogs": {
+          "740268601": {
+            "id": "740268601",
+            "speakerId": 21034,
+            "speakerName": "Lanoire",
+            "text": "#A new adventure... I'm ready! Let's go, {M#Mr.}{F#Ms.} {NICKNAME}. We won't lose to the evil sorcerer this time!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402689",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740268901"
+        ],
+        "dialogs": {
+          "740268901": {
+            "id": "740268901",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": "If you're looking for Caterpillar, he's inside. As for Lanoire, she'll be back after she finishes filling out her registration form."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402690",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740269001"
+        ],
+        "dialogs": {
+          "740269001": {
+            "id": "740269001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "",
+            "nextDialogs": [
+              "740269002"
+            ]
+          },
+          "740269002": {
+            "id": "740269002",
+            "speakerId": 5248,
+            "speakerName": "Estienne",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402691",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740269101"
+        ],
+        "dialogs": {
+          "740269101": {
+            "id": "740269101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

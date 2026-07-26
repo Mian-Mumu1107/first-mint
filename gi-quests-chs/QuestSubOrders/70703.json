@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "康纳": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7070301",
+      "subQuestName": "将三份蒲公英籽交给康纳",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707030101"
+        ],
+        "dialogs": {
+          "707030101": {
+            "id": "707030101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于蒲公英籽…",
+            "nextDialogs": [
+              "707030102"
+            ]
+          },
+          "707030102": {
+            "id": "707030102",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "你是看到了我的委托吧，怎么样，三份蒲公英籽已经搜集齐了吗？",
+            "nextDialogs": [
+              "707030105"
+            ]
+          },
+          "707030105": {
+            "id": "707030105",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "还没有吗…那你搜集齐了之后，请尽快拿来给我吧，我急着用来酿酒呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070302",
+      "subQuestName": "与康纳对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707030201"
+        ],
+        "dialogs": {
+          "707030201": {
+            "id": "707030201",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "嗯…这些蒲公英籽应该够我用一段时间了。",
+            "nextDialogs": [
+              "707030202"
+            ]
+          },
+          "707030202": {
+            "id": "707030202",
+            "speakerId": 1529,
+            "speakerName": "康纳",
+            "text": "这些东西请你收下，谢谢你帮我忙。"
+          }
+        }
+      }
+    }
+  ]
+}

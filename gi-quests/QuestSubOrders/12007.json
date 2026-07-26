@@ -1,0 +1,981 @@
+{
+  "lineCounts": {
+    "Conspicuous Stone Wall": 1,
+    "Kamisato Ayaka": 64,
+    "Paimon": 26,
+    "Player": 12
+  },
+  "subQuests": [
+    {
+      "subId": "1200701",
+      "subQuestName": "Head over to the designated area recorded in the notebook",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120070101"
+        ],
+        "dialogs": {
+          "120070101": {
+            "id": "120070101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So a transcendent being lives here?",
+            "nextDialogs": [
+              "120070102"
+            ]
+          },
+          "120070102": {
+            "id": "120070102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Brr... If someone lives here, then why is it so chilly?",
+            "nextDialogs": [
+              "120070103"
+            ]
+          },
+          "120070103": {
+            "id": "120070103",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Hmm... I'm asking myself the same question...",
+            "nextDialogs": [
+              "120070104"
+            ]
+          },
+          "120070104": {
+            "id": "120070104",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "How strange, I'm quite sure that this is the location my mother wrote about, but... surely...",
+            "nextDialogs": [
+              "120070107"
+            ]
+          },
+          "120070107": {
+            "id": "120070107",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Hmm... I'm starting to have second thoughts...",
+            "nextDialogs": [
+              "120070108"
+            ]
+          },
+          "120070108": {
+            "id": "120070108",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "But, since we're here, I still think we should go inside and explore in full.",
+            "nextDialogs": [
+              "120070109"
+            ]
+          },
+          "120070109": {
+            "id": "120070109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, makes sense. Who knows, maybe there's a surprise waiting in there for us.",
+            "nextDialogs": [
+              "120070110"
+            ]
+          },
+          "120070110": {
+            "id": "120070110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, um... what does the notebook say, exactly?",
+            "nextDialogs": [
+              "120070111"
+            ]
+          },
+          "120070111": {
+            "id": "120070111",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Let me think...",
+            "nextDialogs": [
+              "120070112"
+            ]
+          },
+          "120070112": {
+            "id": "120070112",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "\"A crane brings <color=#00E1FFFF>1</color> fresh flower in its beak to decorate my hair, while a white rabbit sews a hemline from <color=#00E1FFFF>4</color> rays of moonlight. Dressed appropriately, I face <color=#00E1FFFF>eastward</color> and call out Tsubaki's name <color=#00E1FFFF>7</color> times. In the blink of an eye, I am standing on the path that leads to her house.\"",
+            "nextDialogs": [
+              "120070113"
+            ]
+          },
+          "120070113": {
+            "id": "120070113",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sounds like a fairytale... So your mom would do a little ritual and just like that, Tsubaki would come to meet her?",
+            "nextDialogs": [
+              "120070114"
+            ]
+          },
+          "120070114": {
+            "id": "120070114",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It does sound a lot like an adeptus, actually.",
+            "nextDialogs": [
+              "120070115"
+            ]
+          },
+          "120070115": {
+            "id": "120070115",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I have a feeling that it could be some sort of code...",
+            "nextDialogs": [
+              "120070116"
+            ]
+          },
+          "120070116": {
+            "id": "120070116",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Let's get a little closer before coming to any conclusions.",
+            "nextDialogs": [
+              "120070117"
+            ]
+          },
+          "120070117": {
+            "id": "120070117",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Good idea!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200702",
+      "subQuestName": "Talk to Kamisato Ayaka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200703",
+      "subQuestName": "Search for suspicious places based on the hints",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120070301"
+        ],
+        "dialogs": {
+          "120070301": {
+            "id": "120070301",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "*sigh* Here will do just fine.",
+            "nextDialogs": [
+              "120070302"
+            ]
+          },
+          "120070302": {
+            "id": "120070302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright, let's see what the notebook says!",
+            "nextDialogs": [
+              "120070303"
+            ]
+          },
+          "120070303": {
+            "id": "120070303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, Paimon bets it's all about mysterious treasure! Ah, so exciting!",
+            "nextDialogs": [
+              "120070304"
+            ]
+          },
+          "120070304": {
+            "id": "120070304",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Psst, Paimon.",
+            "nextDialogs": [
+              "120070305"
+            ]
+          },
+          "120070305": {
+            "id": "120070305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What is it? Why are you whispering all of a sudden? You're making Paimon nervous...",
+            "nextDialogs": [
+              "120070306"
+            ]
+          },
+          "120070306": {
+            "id": "120070306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Come with me. Let's go over there.",
+            "nextDialogs": [
+              "120070307"
+            ]
+          },
+          "120070307": {
+            "id": "120070307",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...",
+            "nextDialogs": [
+              "120070308"
+            ]
+          },
+          "120070308": {
+            "id": "120070308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ohhhh, you want to let Ayaka read the notebook without distraction. Seems whatever's written in there must be pretty major after all.",
+            "nextDialogs": [
+              "120070309"
+            ]
+          },
+          "120070309": {
+            "id": "120070309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But, um, based on her expression... probably not a treasure map.",
+            "nextDialogs": [
+              "120070310"
+            ]
+          },
+          "120070310": {
+            "id": "120070310",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, what could it be?",
+            "nextDialogs": [
+              "120070311"
+            ]
+          },
+          "120070311": {
+            "id": "120070311",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...",
+            "nextDialogs": [
+              "120070312"
+            ]
+          },
+          "120070312": {
+            "id": "120070312",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "*long exhale*",
+            "nextDialogs": [
+              "120070313"
+            ]
+          },
+          "120070313": {
+            "id": "120070313",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Traveler, Paimon, sorry to keep you waiting so long.",
+            "nextDialogs": [
+              "120070314"
+            ]
+          },
+          "120070314": {
+            "id": "120070314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "No worries, it wasn't long at all! You're a very fast reader.",
+            "nextDialogs": [
+              "120070315"
+            ]
+          },
+          "120070315": {
+            "id": "120070315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Have you finished reading the notebook?",
+            "nextDialogs": [
+              "120070316"
+            ]
+          },
+          "120070316": {
+            "id": "120070316",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Yes, I have.",
+            "nextDialogs": [
+              "120070317"
+            ]
+          },
+          "120070317": {
+            "id": "120070317",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I think I ought to share the truth of this notebook with you both.",
+            "nextDialogs": [
+              "120070318"
+            ]
+          },
+          "120070318": {
+            "id": "120070318",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Even though the contents are completely different than what I was expecting...",
+            "nextDialogs": [
+              "120070319"
+            ]
+          },
+          "120070319": {
+            "id": "120070319",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Different how? You mean, it wasn't a fox envoy who wrote this?",
+            "nextDialogs": [
+              "120070320"
+            ]
+          },
+          "120070320": {
+            "id": "120070320",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Not a fox envoy, no.",
+            "nextDialogs": [
+              "120070321"
+            ]
+          },
+          "120070321": {
+            "id": "120070321",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "It turns out that Tsubaki's real identity...",
+            "nextDialogs": [
+              "120070322"
+            ]
+          },
+          "120070322": {
+            "id": "120070322",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...is my mother herself.",
+            "nextDialogs": [
+              "120070323"
+            ]
+          },
+          "120070323": {
+            "id": "120070323",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh!?",
+            "nextDialogs": [
+              "120070324"
+            ]
+          },
+          "120070324": {
+            "id": "120070324",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Surprised? M—Me too... But that's what it says at the very beginning of the notebook.",
+            "nextDialogs": [
+              "120070325"
+            ]
+          },
+          "120070325": {
+            "id": "120070325",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Ahem... \"Tsubaki and I are the same person, and yet we are different. When I become Tsubaki, I stop being Kamisato Kayo and become the most ordinary woman in the world.\"",
+            "nextDialogs": [
+              "120070326"
+            ]
+          },
+          "120070326": {
+            "id": "120070326",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "\"What follows in these pages is the ordinary, everyday life of a regular person. Nothing more, nothing less.\"",
+            "nextDialogs": [
+              "120070327"
+            ]
+          },
+          "120070327": {
+            "id": "120070327",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "This notebook is, for the most part, a collection of my mother's musings, both private and trivial. All of the things we thought were about Tsubaki... were in fact about my mother herself.",
+            "nextDialogs": [
+              "120070328"
+            ]
+          },
+          "120070328": {
+            "id": "120070328",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So... that means that the kimono design, and the international dishes...",
+            "nextDialogs": [
+              "120070329"
+            ]
+          },
+          "120070329": {
+            "id": "120070329",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Are things that my mother wished to try, yes.",
+            "nextDialogs": [
+              "120070330"
+            ]
+          },
+          "120070330": {
+            "id": "120070330",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I'm sure this all sounds utterly bizarre to you, but to me at least, my mother's behavior is completely understandable.",
+            "nextDialogs": [
+              "120070331"
+            ]
+          },
+          "120070331": {
+            "id": "120070331",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Or to put it another way, I... I—I actually have another side to myself as well.",
+            "nextDialogs": [
+              "120070332"
+            ]
+          },
+          "120070332": {
+            "id": "120070332",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I was at a loss for words when I started reading the contents of the notebook... It almost felt like... like someone had looked inside my mind, examined my thoughts, and then written them all down on paper...",
+            "nextDialogs": [
+              "120070333"
+            ]
+          },
+          "120070333": {
+            "id": "120070333",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ayaka...",
+            "nextDialogs": [
+              "120070334"
+            ]
+          },
+          "120070334": {
+            "id": "120070334",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "From the moment my mother married my father, she became the mother of the Kamisato household, and with that came all sorts of duties. At the same time, the prestige of the Yashiro Commission brought its own share of responsibility.",
+            "nextDialogs": [
+              "120070335"
+            ]
+          },
+          "120070335": {
+            "id": "120070335",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "On top of that, every action she ever took was seen as representing the Kamisato Clan. People were always watching her. Under such circumstances, she never had much time to do the things she really wanted to do.",
+            "nextDialogs": [
+              "120070336"
+            ]
+          },
+          "120070336": {
+            "id": "120070336",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "After my parents passed away, Ayato and I took over responsibility for the affairs of the clan. We ran into all sorts of difficulties during that time... I'm not sure if people outside the clan could ever imagine what it was like.",
+            "nextDialogs": [
+              "120070337"
+            ]
+          },
+          "120070337": {
+            "id": "120070337",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Every time I found myself up against a difficult issue, I'd ask myself: Did my mother go through this, too? What would she have done in this situation?",
+            "nextDialogs": [
+              "120070338"
+            ]
+          },
+          "120070338": {
+            "id": "120070338",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Maybe it's because it'd been so long since I last saw her, but... somehow, all that was left of her in my mind was the side of her that inspired awe and commanded respect...",
+            "nextDialogs": [
+              "120070339"
+            ]
+          },
+          "120070339": {
+            "id": "120070339",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "120070340"
+            ]
+          },
+          "120070340": {
+            "id": "120070340",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "But... my image of her was incorrect.",
+            "nextDialogs": [
+              "120070341"
+            ]
+          },
+          "120070341": {
+            "id": "120070341",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "When I read this notebook, I realized... She was just like me. Underneath whatever position she may have held, she was just an ordinary person.",
+            "nextDialogs": [
+              "120070342"
+            ]
+          },
+          "120070342": {
+            "id": "120070342",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "She liked pretty kimonos, she wanted to try food from different places, she yearned to see sights she'd never seen before...",
+            "nextDialogs": [
+              "120070343"
+            ]
+          },
+          "120070343": {
+            "id": "120070343",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Maybe this all sounds immature to you, but... I feel just the same way. I want to live life not as Kamisato Ayaka, but as an ordinary woman.",
+            "nextDialogs": [
+              "120070344"
+            ]
+          },
+          "120070344": {
+            "id": "120070344",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Mother wrote that she'd always wanted to go to a local Inazuman festival. She said that sometimes, on a clear night, if you looked out from our house, you could see lights off in the distance.",
+            "nextDialogs": [
+              "120070345"
+            ]
+          },
+          "120070345": {
+            "id": "120070345",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I've seen those lights too! It looks so lively with so many people — and it's so brightly lit it makes the whole sky glow... Of course, sometimes it does make me a bit anxious from a public order perspective.",
+            "nextDialogs": [
+              "120070346"
+            ]
+          },
+          "120070346": {
+            "id": "120070346",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "But for someone of my position to just show up at a festival with no warning — it could be considered improper etiquette. Especially in my parents' generation, when the Yashiro Commission didn't have a particularly close relationship with the populace...",
+            "nextDialogs": [
+              "120070347"
+            ]
+          },
+          "120070347": {
+            "id": "120070347",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Even if no one stopped us, the idea of the Yashiro Commission going out into the crowd... It'd certainly draw some strange looks. People would probably start thinking there was trouble afoot.",
+            "nextDialogs": [
+              "120070348"
+            ]
+          },
+          "120070348": {
+            "id": "120070348",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Mother said that she didn't want to put people on edge — she wanted everyone to enjoy the fun and freedom of the festival... She didn't want to disturb them, and didn't have much free time anyway, so she never went. Not even once.",
+            "nextDialogs": [
+              "120070349"
+            ]
+          },
+          "120070349": {
+            "id": "120070349",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aw... So the kimono design — that must have been the outfit she planned on wearing if she ever did go to a festival, right?",
+            "nextDialogs": [
+              "120070350"
+            ]
+          },
+          "120070350": {
+            "id": "120070350",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "That's right. And sometimes, festivals sell international food. She wanted to try that, too.",
+            "nextDialogs": [
+              "120070351"
+            ]
+          },
+          "120070351": {
+            "id": "120070351",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I hope this isn't a disrespectful thing to say, but... I never knew my mother was so in touch with her inner child, haha.",
+            "nextDialogs": [
+              "120070352"
+            ]
+          },
+          "120070352": {
+            "id": "120070352",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's not disrespectful at all! Paimon thinks your mom was the best of both — a big softie on the inside and a big sense of responsibility on the outside!",
+            "nextDialogs": [
+              "120070353"
+            ]
+          },
+          "120070353": {
+            "id": "120070353",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...",
+            "nextDialogs": [
+              "120070354"
+            ]
+          },
+          "120070354": {
+            "id": "120070354",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Without knowing it, I've ended up fulfilling several of my mother's wishes already. *sigh* But going to a festival is the one thing that I cannot do for her.",
+            "nextDialogs": [
+              "120070355"
+            ]
+          },
+          "120070355": {
+            "id": "120070355",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Perhaps this is one thing that can simply never be.",
+            "nextDialogs": [
+              "120070358"
+            ]
+          },
+          "120070358": {
+            "id": "120070358",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I understand.",
+            "nextDialogs": [
+              "120070359"
+            ]
+          },
+          "120070359": {
+            "id": "120070359",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...Thank you. I think I realize something now.",
+            "nextDialogs": [
+              "120070360"
+            ]
+          },
+          "120070360": {
+            "id": "120070360",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Mother and I are so similar in so many ways. The things she faced are things that I too will go on to face.",
+            "nextDialogs": [
+              "120070361"
+            ]
+          },
+          "120070361": {
+            "id": "120070361",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "She chose to place her unfulfilled wishes onto the identity of Tsubaki. As for me... I've already decided.",
+            "nextDialogs": [
+              "120070362"
+            ]
+          },
+          "120070362": {
+            "id": "120070362",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! So you've decided on an alter ego too?",
+            "nextDialogs": [
+              "120070363"
+            ]
+          },
+          "120070363": {
+            "id": "120070363",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "No, um...",
+            "nextDialogs": [
+              "120070364"
+            ]
+          },
+          "120070364": {
+            "id": "120070364",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I don't plan to do anything like that. I think... I think I will set myself a new goal: To live each day without regrets.",
+            "nextDialogs": [
+              "120070365"
+            ]
+          },
+          "120070365": {
+            "id": "120070365",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "So, um... Traveler, I... Ahem...",
+            "nextDialogs": [
+              "120070366"
+            ]
+          },
+          "120070366": {
+            "id": "120070366",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Whew, deep breaths, Ayaka, deep breaths...",
+            "nextDialogs": [
+              "120070367"
+            ]
+          },
+          "120070367": {
+            "id": "120070367",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "*sigh* Would you be at all interested in checking out an Inazuman festival?",
+            "nextDialogs": [
+              "120070368"
+            ]
+          },
+          "120070368": {
+            "id": "120070368",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon's been dying to go ever since we saw that poster! Paimon would love to go with you Ayaka!",
+            "nextDialogs": [
+              "120070369"
+            ]
+          },
+          "120070369": {
+            "id": "120070369",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, you've really never been to a festival?",
+            "nextDialogs": [
+              "120070370"
+            ]
+          },
+          "120070370": {
+            "id": "120070370",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Hey, come on, don't make fun! It's just because I used to have the same concerns that my mother did... but now, I think I don't need to worry about it so much.",
+            "nextDialogs": [
+              "120070371"
+            ]
+          },
+          "120070371": {
+            "id": "120070371",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "I'm going to be true to myself and fulfill the wish that my mother and I shared. I know that you of all people can understand me going my own way on this...",
+            "nextDialogs": [
+              "120070372"
+            ]
+          },
+          "120070372": {
+            "id": "120070372",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "So... let's do this, you and me! Let's go to a festival together!",
+            "nextDialogs": [
+              "120070373"
+            ]
+          },
+          "120070373": {
+            "id": "120070373",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'd love to join you.",
+            "nextDialogs": [
+              "120070374"
+            ]
+          },
+          "120070374": {
+            "id": "120070374",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon wants to come! Festivals here have loads of tasty snacks too, right? Oh, and fun and games? Hee-hee!",
+            "nextDialogs": [
+              "120070375"
+            ]
+          },
+          "120070375": {
+            "id": "120070375",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "...Great! Thanks, you guys!",
+            "nextDialogs": [
+              "120070376"
+            ]
+          },
+          "120070376": {
+            "id": "120070376",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "If we head over now, we should still make it in time.",
+            "nextDialogs": [
+              "120070377"
+            ]
+          },
+          "120070377": {
+            "id": "120070377",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, good point, today's the last day, right? What are we waiting for — let's go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200708",
+      "subQuestName": "Investigate the shrubbery on the stone wall",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3477901"
+        ],
+        "dialogs": {
+          "3477901": {
+            "id": "3477901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Knock seven times",
+            "nextDialogs": [
+              "3478092"
+            ]
+          },
+          "3478092": {
+            "id": "3478092",
+            "speakerId": 20302,
+            "speakerName": "Conspicuous Stone Wall",
+            "text": "Some strange sounds can be heard coming from within the stone wall."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200704",
+      "subQuestName": "Open the mysterious box",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200705",
+      "subQuestName": "Talk to Kamisato Ayaka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "120070201"
+        ],
+        "dialogs": {
+          "120070201": {
+            "id": "120070201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did it open, did it open? Did our \"Inazumadeptus\" leave any treasure here?",
+            "nextDialogs": [
+              "120070202"
+            ]
+          },
+          "120070202": {
+            "id": "120070202",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "What's this?",
+            "nextDialogs": [
+              "120070203"
+            ]
+          },
+          "120070203": {
+            "id": "120070203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh... Looks like a book.",
+            "nextDialogs": [
+              "120070204"
+            ]
+          },
+          "120070204": {
+            "id": "120070204",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "It seems to be another notebook.",
+            "nextDialogs": [
+              "120070205"
+            ]
+          },
+          "120070205": {
+            "id": "120070205",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Could it be Tsubaki's notebook...?",
+            "nextDialogs": [
+              "120070206"
+            ]
+          },
+          "120070206": {
+            "id": "120070206",
+            "speakerId": 1013,
+            "speakerName": "Kamisato Ayaka",
+            "text": "Let's step back outside now. The atmosphere here is different than I'd imagined. Somehow... it makes me a little reluctant to open the notebook.",
+            "nextDialogs": [
+              "120070207"
+            ]
+          },
+          "120070207": {
+            "id": "120070207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon knows what you mean — reading in low light is really bad for your eyes. C'mon, let's get back outside!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1200706",
+      "subQuestName": "Go outside the cave to check the notebook",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1200707",
+      "subQuestName": "Talk to Kamisato Ayaka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

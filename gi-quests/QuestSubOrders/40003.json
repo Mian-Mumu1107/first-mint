@@ -1,0 +1,603 @@
+{
+  "lineCounts": {
+    "Jiayi": 5,
+    "Paimon": 30,
+    "Player": 9,
+    "Xiao": 13,
+    "Xinghuo": 5
+  },
+  "subQuests": [
+    {
+      "subId": "4000301",
+      "subQuestName": "Paimon Dialog (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030101"
+        ],
+        "dialogs": {
+          "400030101": {
+            "id": "400030101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon wonders what progress the Ministry of Civil Affairs is making."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000302",
+      "subQuestName": "Talk to Jiayi at the Ministry of Civil Affairs",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030201"
+        ],
+        "dialogs": {
+          "400030201": {
+            "id": "400030201",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Erm... Ah yes, you two were here yesterday to report some suspicious activity.",
+            "nextDialogs": [
+              "400030202"
+            ]
+          },
+          "400030202": {
+            "id": "400030202",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "I... *sigh* I won't lie to you, the Ministry of Civil Affairs is unbelievably busy during Lantern Rite. We simply don't have the staff to cover this case at the moment.",
+            "nextDialogs": [
+              "400030203"
+            ]
+          },
+          "400030203": {
+            "id": "400030203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? Are you kidding me!?",
+            "nextDialogs": [
+              "400030204"
+            ]
+          },
+          "400030204": {
+            "id": "400030204",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "I do hate to let you down like this, and I appreciate that you took the trouble to report this out of the goodness of your hearts. Hmm, I wonder if...",
+            "nextDialogs": [
+              "400030205"
+            ]
+          },
+          "400030205": {
+            "id": "400030205",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "I do believe we have one smaller squad that just might be able to help. They only have one assignment left today.",
+            "nextDialogs": [
+              "400030206"
+            ]
+          },
+          "400030206": {
+            "id": "400030206",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "They are currently subduing the monster presence at the Guili Plains. If you are able to make contact with them..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000305",
+      "subQuestName": "Find the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000303",
+      "subQuestName": "Defeat the hilichurls and their roadblock",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030301"
+        ],
+        "dialogs": {
+          "400030301": {
+            "id": "400030301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's a hilichurl blockade! Paimon wonders what they're doing here... Waiting to ambush someone, maybe?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000304",
+      "subQuestName": "Talk to the squad of the Millelith",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030401"
+        ],
+        "dialogs": {
+          "400030401": {
+            "id": "400030401",
+            "speakerId": 242801,
+            "speakerName": "Xinghuo",
+            "text": "The monster presence has been duly investigated. Dismissed! ...Huh?",
+            "nextDialogs": [
+              "400030402"
+            ]
+          },
+          "400030402": {
+            "id": "400030402",
+            "speakerId": 242801,
+            "speakerName": "Xinghuo",
+            "text": "Who are you with?",
+            "nextDialogs": [
+              "400030403"
+            ]
+          },
+          "400030403": {
+            "id": "400030403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Jiayi sent us to find you, he said...",
+            "nextDialogs": [
+              "400030404"
+            ]
+          },
+          "400030404": {
+            "id": "400030404",
+            "speakerId": 242801,
+            "speakerName": "Xinghuo",
+            "text": "I see. I understand.",
+            "nextDialogs": [
+              "400030405"
+            ]
+          },
+          "400030405": {
+            "id": "400030405",
+            "speakerId": 242801,
+            "speakerName": "Xinghuo",
+            "text": "The Ministry of Civil Affairs is grateful for your support. Your case is well noted and will be scheduled for investigation as soon as possible.",
+            "nextDialogs": [
+              "400030406"
+            ]
+          },
+          "400030406": {
+            "id": "400030406",
+            "speakerId": 242801,
+            "speakerName": "Xinghuo",
+            "text": "May our paths cross again in Liyue, kind travelers.",
+            "nextDialogs": [
+              "400030407"
+            ]
+          },
+          "400030407": {
+            "id": "400030407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, Paimon is starting to feel like...",
+            "nextDialogs": [
+              "400030409",
+              "400030414"
+            ]
+          },
+          "400030409": {
+            "id": "400030409",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Exactly! Paimon thinks so too!",
+            "nextDialogs": [
+              "400030410"
+            ]
+          },
+          "400030410": {
+            "id": "400030410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The locals must take all their tasty treats for granted by now.",
+            "nextDialogs": [
+              "400030411"
+            ]
+          },
+          "400030411": {
+            "id": "400030411",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But for a poor traveler, all alone out in the wilderness, often forced to survive on nothing but the most mysterious of mushrooms...",
+            "nextDialogs": [
+              "400030412"
+            ]
+          },
+          "400030412": {
+            "id": "400030412",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "For you, the Lantern Rite is the most important of all festivals!",
+            "nextDialogs": [
+              "400030416"
+            ]
+          },
+          "400030416": {
+            "id": "400030416",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So let's go back to the place where we witnessed the shady-looking guy.",
+            "nextDialogs": [
+              "400030417"
+            ]
+          },
+          "400030417": {
+            "id": "400030417",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon hears from patrol officers that criminals love to go back for another look at the crime scene after the event. Eh, it's a psychological thing, apparently.",
+            "nextDialogs": [
+              "400030418"
+            ]
+          },
+          "400030418": {
+            "id": "400030418",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But the crime hasn't even happened yet...",
+            "nextDialogs": [
+              "400030419"
+            ]
+          },
+          "400030419": {
+            "id": "400030419",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's why there's no time to lose! When there's highly flammable materials involved, once the crime happens it'll be too late!"
+          },
+          "400030414": {
+            "id": "400030414",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon thinks so too!",
+            "nextDialogs": [
+              "400030415"
+            ]
+          },
+          "400030415": {
+            "id": "400030415",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "With our wealth of experience adventuring far and wide, we should be able to get to the bottom of this."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000306",
+      "subQuestName": "Go back to the crime scene",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000307",
+      "subQuestName": "Talk to Paimon (Hidden)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030701"
+        ],
+        "dialogs": {
+          "400030701": {
+            "id": "400030701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aha! Knew it!",
+            "nextDialogs": [
+              "400030704"
+            ]
+          },
+          "400030704": {
+            "id": "400030704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, there's another person—"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000308",
+      "subQuestName": "（test）去案犯现场再看看",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4000309",
+      "subQuestName": "Talk to the stranger",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400030901"
+        ],
+        "dialogs": {
+          "400030901": {
+            "id": "400030901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "400030902"
+            ]
+          },
+          "400030902": {
+            "id": "400030902",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "400030903"
+            ]
+          },
+          "400030903": {
+            "id": "400030903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hey {NICKNAME}, Paimon reckons this guy is gonna make a difficult conversation partner...",
+            "nextDialogs": [
+              "400030904"
+            ]
+          },
+          "400030904": {
+            "id": "400030904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "If Paimon was gonna hazard a guess, Paimon would say he's definitely not one of the good guys!",
+            "nextDialogs": [
+              "400030905"
+            ]
+          },
+          "400030905": {
+            "id": "400030905",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Your hazardous guesswork is a woefully insufficient means of judging between good and evil.",
+            "nextDialogs": [
+              "400030906"
+            ]
+          },
+          "400030906": {
+            "id": "400030906",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Nevertheless, you surmise correctly. I am a malevolent spirit. A guardian yaksha, slaughterer of monsters and vanquisher of demons - Xiao.",
+            "nextDialogs": [
+              "400030907"
+            ]
+          },
+          "400030907": {
+            "id": "400030907",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Guardian Yaksha!",
+            "nextDialogs": [
+              "400030910"
+            ]
+          },
+          "400030910": {
+            "id": "400030910",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yes... Someone from Liyue was telling us that yakshas are also a kind of adeptus. Supernatural beings that protect Liyue.",
+            "nextDialogs": [
+              "400030911"
+            ]
+          },
+          "400030911": {
+            "id": "400030911",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "They stand guard over the human world in secret, protecting it from monsters and demons. But most people don't even know they exist.",
+            "nextDialogs": [
+              "400030912"
+            ]
+          },
+          "400030912": {
+            "id": "400030912",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Wait, doesn't that make you the good guys by most definitions?",
+            "nextDialogs": [
+              "400030913"
+            ]
+          },
+          "400030913": {
+            "id": "400030913",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...No. Do not mistake the yakshas' guardianship for some sort of good will towards humanity.",
+            "nextDialogs": [
+              "400030914"
+            ]
+          },
+          "400030914": {
+            "id": "400030914",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmph, charming! There's a whole city of humans out there working hard to prepare for Lantern Rite, all for the sake of honoring the heroes of Liyue's history...",
+            "nextDialogs": [
+              "400030915"
+            ]
+          },
+          "400030915": {
+            "id": "400030915",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Turns out we have here an actual historical hero, who has miraculously survived through to this day... and yet, he doesn't even appreciate the gesture!",
+            "nextDialogs": [
+              "400030916"
+            ]
+          },
+          "400030916": {
+            "id": "400030916",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "400030917"
+            ]
+          },
+          "400030917": {
+            "id": "400030917",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, Mr. Xiao... Uh, that is, assuming \"Mr.\" is the correct way to address an adeptus... Why didn't you stop that shady character earlier?",
+            "nextDialogs": [
+              "400030918"
+            ]
+          },
+          "400030918": {
+            "id": "400030918",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I sensed a malign influence here. I'm here to investigate.",
+            "nextDialogs": [
+              "400030919"
+            ]
+          },
+          "400030919": {
+            "id": "400030919",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "When a shackle is loosened in the realms of deities and demons, I take full responsibility.",
+            "nextDialogs": [
+              "400030920"
+            ]
+          },
+          "400030920": {
+            "id": "400030920",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "But this time, the threat comes from the mortal world — your world. Thus you shall take full responsibility, mortal traveler.",
+            "nextDialogs": [
+              "400030921"
+            ]
+          },
+          "400030921": {
+            "id": "400030921",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "When the time comes, I hope you shall act promptly and decisively...",
+            "nextDialogs": [
+              "400030922"
+            ]
+          },
+          "400030922": {
+            "id": "400030922",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I do not wish for the tassel of the polearm that has slaughtered countless demons to become stained with mortal blood.",
+            "nextDialogs": [
+              "400030923"
+            ]
+          },
+          "400030923": {
+            "id": "400030923",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's this?",
+            "nextDialogs": [
+              "400030924"
+            ]
+          },
+          "400030924": {
+            "id": "400030924",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "A symbol that your suspected evildoer left behind.",
+            "nextDialogs": [
+              "400030925"
+            ]
+          },
+          "400030925": {
+            "id": "400030925",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Paimon, do you recognize it?",
+            "nextDialogs": [
+              "400030926"
+            ]
+          },
+          "400030926": {
+            "id": "400030926",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Doesn't look familiar to Paimon.",
+            "nextDialogs": [
+              "400030927"
+            ]
+          },
+          "400030927": {
+            "id": "400030927",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Well, you will have to show me how much you can accomplish on your own strength.",
+            "nextDialogs": [
+              "400030928"
+            ]
+          },
+          "400030928": {
+            "id": "400030928",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Because if I become involved, there is a possibility that the streets of Liyue Harbor will be painted red this Lantern Rite.",
+            "nextDialogs": [
+              "400030929"
+            ]
+          },
+          "400030929": {
+            "id": "400030929",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Actually, quite a festive color in this part of the world...",
+            "nextDialogs": [
+              "400030930"
+            ]
+          },
+          "400030930": {
+            "id": "400030930",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That sounds terrible!",
+            "nextDialogs": [
+              "400030932"
+            ]
+          },
+          "400030932": {
+            "id": "400030932",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ahh, let's not be impulsive. Why don't we figure out the origins of this symbol first?"
+          }
+        }
+      }
+    }
+  ]
+}

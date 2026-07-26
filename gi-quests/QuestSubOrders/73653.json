@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Amir": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7365301",
+      "subQuestName": "Give Amir eight servings of Raw Meat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736530101"
+        ],
+        "dialogs": {
+          "736530101": {
+            "id": "736530101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Raw Meat...",
+            "nextDialogs": [
+              "736530102"
+            ]
+          },
+          "736530102": {
+            "id": "736530102",
+            "speakerId": 4301,
+            "speakerName": "Amir",
+            "text": "Yeah, I did post a commission on Raw Meat.",
+            "nextDialogs": [
+              "736530103"
+            ]
+          },
+          "736530103": {
+            "id": "736530103",
+            "speakerId": 4301,
+            "speakerName": "Amir",
+            "text": "Did you get enough? I need eight pieces of them.",
+            "nextDialogs": [
+              "736530105"
+            ]
+          },
+          "736530105": {
+            "id": "736530105",
+            "speakerId": 4301,
+            "speakerName": "Amir",
+            "text": "Well, it's no small amount, just let me know when you're ready then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365302",
+      "subQuestName": "Talk to Amir",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736530201"
+        ],
+        "dialogs": {
+          "736530201": {
+            "id": "736530201",
+            "speakerId": 4301,
+            "speakerName": "Amir",
+            "text": "The quality is good. The search and rescue dogs won't starve. Thanks."
+          }
+        }
+      }
+    }
+  ]
+}

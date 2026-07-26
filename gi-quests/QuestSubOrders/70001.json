@@ -1,0 +1,599 @@
+{
+  "lineCounts": {
+    "Crestfallen Citizen": 6,
+    "Paimon": 6,
+    "Player": 13,
+    "Restless Citizen": 4,
+    "Suspicious Citizen": 5,
+    "Vile": 21
+  },
+  "subQuests": [
+    {
+      "subId": "7000110",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700011001"
+        ],
+        "dialogs": {
+          "700011001": {
+            "id": "700011001",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "Don't worry about me. I just need a bit of time to get my feelings under control again."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000101",
+      "subQuestName": "Look for Vile",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7000102",
+      "subQuestName": "Talk to Vile",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010201"
+        ],
+        "dialogs": {
+          "700010201": {
+            "id": "700010201",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Why, if it isn't the Traveler. We meet again. How are you finding the city's atmosphere?",
+            "nextDialogs": [
+              "700010202"
+            ]
+          },
+          "700010202": {
+            "id": "700010202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's pretty good.",
+            "nextDialogs": [
+              "700010203"
+            ]
+          },
+          "700010203": {
+            "id": "700010203",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "And it's good that you think so. Still... this might not quite fit in with the festive mood, but perhaps you might be able to help me with something related to the festival.",
+            "nextDialogs": [
+              "700010204"
+            ]
+          },
+          "700010204": {
+            "id": "700010204",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Well, more accurately, \"that gentleman\" would like your help in this matter.",
+            "nextDialogs": [
+              "700010205"
+            ]
+          },
+          "700010205": {
+            "id": "700010205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I thought people didn't go around asking others to do stuff during the Windblume Festival...",
+            "nextDialogs": [
+              "700010206"
+            ]
+          },
+          "700010206": {
+            "id": "700010206",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Ah, don't fret. This request does not fall within the usual strictures of the festival.",
+            "nextDialogs": [
+              "700010207"
+            ]
+          },
+          "700010207": {
+            "id": "700010207",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "As you've surely noticed, the Windblume Festival is a most busy time. People come and go, hustle and bustle... Almost everyone's completely immersed in the festive mood. The Knights will be too busy maintaining order to pay any attention to anything else...",
+            "nextDialogs": [
+              "700010208"
+            ]
+          },
+          "700010208": {
+            "id": "700010208",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Defenseless crowds, overworked Knights... To ones such as the Treasure Hoarders, this must surely be a great opportunity.",
+            "nextDialogs": [
+              "700010209"
+            ]
+          },
+          "700010209": {
+            "id": "700010209",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "According to intelligence from that gentleman, some Treasure Hoarders have already infiltrated the city in all the hubbub, and are currently amidst the shops, pretending to enjoy the festival, when they are simply laying the groundwork for future operations.",
+            "nextDialogs": [
+              "700010210"
+            ]
+          },
+          "700010210": {
+            "id": "700010210",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "If the Knights begin a large-scale search now, they will not only alert the Treasure Hoarders but also ruin the atmosphere. Yet we cannot leave these criminals be...",
+            "nextDialogs": [
+              "700010211"
+            ]
+          },
+          "700010211": {
+            "id": "700010211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And this is where I come in.",
+            "nextDialogs": [
+              "700010212"
+            ]
+          },
+          "700010212": {
+            "id": "700010212",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Of course. That gentleman specifically asked for you in this case, too. According to him, you're the best person for the job.",
+            "nextDialogs": [
+              "700010213"
+            ]
+          },
+          "700010213": {
+            "id": "700010213",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Alright then, let's get to the heart of things. According to the intelligence that I've gathered, the infiltrating Treasure Hoarders all carry <color=#00E1FFFF>a pouch</color> to help identify each other, and will use a <color=#00E1FFFF>code</color> to confirm their comrades' identities.",
+            "nextDialogs": [
+              "700010214"
+            ]
+          },
+          "700010214": {
+            "id": "700010214",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "<color=#00E1FFFF>When the wind blows the flowers about — that's when bystanders should watch out.</color>",
+            "nextDialogs": [
+              "700010217"
+            ]
+          },
+          "700010217": {
+            "id": "700010217",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Those who can recite this code would be our infiltrators. You should be able to get the location of their outdoor base from them.",
+            "nextDialogs": [
+              "700010218"
+            ]
+          },
+          "700010218": {
+            "id": "700010218",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Once you have that intel in hand, please take the opportunity to take care of all of them.",
+            "nextDialogs": [
+              "700010219"
+            ]
+          },
+          "700010219": {
+            "id": "700010219",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And the Knights can't help with this?",
+            "nextDialogs": [
+              "700010220"
+            ]
+          },
+          "700010220": {
+            "id": "700010220",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Why, they must be at their wits' end just trying to maintain order during the festival.",
+            "nextDialogs": [
+              "700010221"
+            ]
+          },
+          "700010221": {
+            "id": "700010221",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "At times like these, it's the duty of concerned citizens to... share the load a little.",
+            "nextDialogs": [
+              "700010222"
+            ]
+          },
+          "700010222": {
+            "id": "700010222",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Well, we're counting on you, Honorary Knight."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000106",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010401"
+        ],
+        "dialogs": {
+          "700010401": {
+            "id": "700010401",
+            "speakerId": 10397,
+            "speakerName": "Restless Citizen",
+            "text": "Eh? What is it?",
+            "nextDialogs": [
+              "700010402"
+            ]
+          },
+          "700010402": {
+            "id": "700010402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "When the wind blows the flowers about...",
+            "nextDialogs": [
+              "700010403"
+            ]
+          },
+          "700010403": {
+            "id": "700010403",
+            "speakerId": 10397,
+            "speakerName": "Restless Citizen",
+            "text": "Wind? Flowers? You mean the Dandelions?",
+            "nextDialogs": [
+              "700010404"
+            ]
+          },
+          "700010404": {
+            "id": "700010404",
+            "speakerId": 10397,
+            "speakerName": "Restless Citizen",
+            "text": "What about that? It's totally normal.",
+            "nextDialogs": [
+              "700010405"
+            ]
+          },
+          "700010405": {
+            "id": "700010405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um, it's nothing. Sorry for disturbing you...",
+            "nextDialogs": [
+              "700010406"
+            ]
+          },
+          "700010406": {
+            "id": "700010406",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, that seems to have been an ordinary citizen. Let's go ask someone else."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000107",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010501"
+        ],
+        "dialogs": {
+          "700010501": {
+            "id": "700010501",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "I wonder if I still have a chance...",
+            "nextDialogs": [
+              "700010502"
+            ]
+          },
+          "700010502": {
+            "id": "700010502",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "Hmm? Is something the matter?",
+            "nextDialogs": [
+              "700010503"
+            ]
+          },
+          "700010503": {
+            "id": "700010503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "When the wind blows the flowers about...",
+            "nextDialogs": [
+              "700010504"
+            ]
+          },
+          "700010504": {
+            "id": "700010504",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "Well, yes, that's this time of the year for sure. I know, I know, I should be enjoying it.",
+            "nextDialogs": [
+              "700010505"
+            ]
+          },
+          "700010505": {
+            "id": "700010505",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "Actually, that's true. Why should I be so down just because I got rejected? This festival isn't over yet.",
+            "nextDialogs": [
+              "700010506"
+            ]
+          },
+          "700010506": {
+            "id": "700010506",
+            "speakerId": 10398,
+            "speakerName": "Crestfallen Citizen",
+            "text": "Thanks for your encouragement. I'll pick myself back up for sure!",
+            "nextDialogs": [
+              "700010507"
+            ]
+          },
+          "700010507": {
+            "id": "700010507",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Looks like that person misunderstood. Well, at least they're not someone suspicious..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000103",
+      "subQuestName": "Look for the suspicious person with the package",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010301"
+        ],
+        "dialogs": {
+          "700010301": {
+            "id": "700010301",
+            "speakerId": 10396,
+            "speakerName": "Suspicious Citizen",
+            "text": "Wonderful, this place is positively bustling!",
+            "nextDialogs": [
+              "700010302"
+            ]
+          },
+          "700010302": {
+            "id": "700010302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "When the wind blows the flowers about...",
+            "nextDialogs": [
+              "700010303"
+            ]
+          },
+          "700010303": {
+            "id": "700010303",
+            "speakerId": 10396,
+            "speakerName": "Suspicious Citizen",
+            "text": "Oh? Hmm... that's when bystanders should watch out.",
+            "nextDialogs": [
+              "700010304"
+            ]
+          },
+          "700010304": {
+            "id": "700010304",
+            "speakerId": 10396,
+            "speakerName": "Suspicious Citizen",
+            "text": "Ah, so you're one of ours. You're just in time: I've got my eyes on a pair of careless little lovebirds. What say we go get us some Mora, eh?",
+            "nextDialogs": [
+              "700010305"
+            ]
+          },
+          "700010305": {
+            "id": "700010305",
+            "speakerId": 10396,
+            "speakerName": "Suspicious Citizen",
+            "text": "You attract their attention, I'll cut their purses. Once we've got 'em, let's head back to Windrise to meet up with the rest. Wonder how they're doing...",
+            "nextDialogs": [
+              "700010306"
+            ]
+          },
+          "700010306": {
+            "id": "700010306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Oh, sure. You're just going to have to go on a little trip with me first.",
+            "nextDialogs": [
+              "700010307"
+            ]
+          },
+          "700010307": {
+            "id": "700010307",
+            "speakerId": 10396,
+            "speakerName": "Suspicious Citizen",
+            "text": "Eh!? Wait, you ain't a Treasure Hoarder. Who are you?",
+            "nextDialogs": [
+              "700010308"
+            ]
+          },
+          "700010308": {
+            "id": "700010308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just a friendly neighborhood Knight.",
+            "nextDialogs": [
+              "700010309"
+            ]
+          },
+          "700010309": {
+            "id": "700010309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, guess that's one guy in Knight custody. But Paimon wonders how they got here so fast...",
+            "nextDialogs": [
+              "700010310"
+            ]
+          },
+          "700010310": {
+            "id": "700010310",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, guess that's not too important. Didn't he say that they were going to meet up at Windrise? Let's go check it out."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000104",
+      "subQuestName": "Go to the Treasure Hoarder camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7000105",
+      "subQuestName": "Clear out the Treasure Hoarder camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7000111",
+      "subQuestName": "Return to Vile",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010601"
+        ],
+        "dialogs": {
+          "700010601": {
+            "id": "700010601",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "How goes the matter of the Treasure Hoarders?",
+            "nextDialogs": [
+              "700010602"
+            ]
+          },
+          "700010602": {
+            "id": "700010602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "They won't be giving us any trouble.",
+            "nextDialogs": [
+              "700010603"
+            ]
+          },
+          "700010603": {
+            "id": "700010603",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Ah, as expected of the Honorary Knight. Well done. You did well chatting that Treasure Hoarder up previously as well... as expected of the one that gentleman has his eye on.",
+            "nextDialogs": [
+              "700010604"
+            ]
+          },
+          "700010604": {
+            "id": "700010604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Excuse me, have you been watching us this whole time?",
+            "nextDialogs": [
+              "700010605"
+            ]
+          },
+          "700010605": {
+            "id": "700010605",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "Why, of course! How else was I going to call the Knights over in the nick of time, hmm?",
+            "nextDialogs": [
+              "700010606"
+            ]
+          },
+          "700010606": {
+            "id": "700010606",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "All in all, thank you for your help. Please take these, and don't be shy about it. These are funds that our dear gentleman set aside for me to use.",
+            "nextDialogs": [
+              "700010607"
+            ]
+          },
+          "700010607": {
+            "id": "700010607",
+            "speakerId": 1525,
+            "speakerName": "Vile",
+            "text": "I'll see you around, then. Have a nice day."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000108",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700010801"
+        ],
+        "dialogs": {
+          "700010801": {
+            "id": "700010801",
+            "speakerId": 10397,
+            "speakerName": "Restless Citizen",
+            "text": "*sigh* What flowers should I send..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7000112",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700011201"
+        ],
+        "dialogs": {
+          "700011201": {
+            "id": "700011201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, that's settled, then. We should go report back to Vile."
+          }
+        }
+      }
+    }
+  ]
+}

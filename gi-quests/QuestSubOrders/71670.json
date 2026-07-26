@@ -1,0 +1,131 @@
+{
+  "lineCounts": {
+    "Fangjin": 4,
+    "Keqing": 29,
+    "Millelith Warrior": 2,
+    "Paimon": 18,
+    "Player": 15,
+    "Yelan": 21
+  },
+  "subQuests": [
+    {
+      "subId": "7167002",
+      "subQuestName": "Go to the area around Sal Terrae",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "716700201"
+        ],
+        "dialogs": {
+          "716700201": {
+            "id": "716700201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uhhh... Yeah, something's definitely off here. Look at all that spooky smoke around the Ley Line deposit over there... Could that be where the monsters are coming from?",
+            "nextDialogs": [
+              "716700202"
+            ]
+          },
+          "716700202": {
+            "id": "716700202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Looks like the Millelith have set up camp to deal with this. There are soldiers and fortifications everywhere!",
+            "nextDialogs": [
+              "716700205"
+            ]
+          },
+          "716700205": {
+            "id": "716700205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! Let's fight side by side with the Millelith and send those monsters packing — just like old times! Then we can focus on what to do about that weird deposit.",
+            "nextDialogs": [
+              "716700206"
+            ]
+          },
+          "716700206": {
+            "id": "716700206",
+            "speakerId": 1001,
+            "speakerName": "Millelith Warrior",
+            "text": "Halt, you two! There's danger up ahead. I'll have to ask you to turn back.",
+            "nextDialogs": [
+              "716700207"
+            ]
+          },
+          "716700207": {
+            "id": "716700207",
+            "speakerId": 1001,
+            "speakerName": "Millelith Warrior",
+            "text": "#No, wait... I think I recognize you. Are you Sergeant {NICKNAME}?",
+            "nextDialogs": [
+              "716700208"
+            ]
+          },
+          "716700208": {
+            "id": "716700208",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sergeant? What the heck? Have you been doing night shifts in the Millelith while Paimon's asleep?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7167003",
+      "subQuestName": "Enter the Domain through the disturbance point",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "716701101"
+        ],
+        "dialogs": {
+          "716701101": {
+            "id": "716701101",
+            "speakerId": 1048,
+            "speakerName": "Yelan",
+            "text": "It looks like this wave is finally over. Things have finally settled down.",
+            "nextDialogs": [
+              "716701102"
+            ]
+          },
+          "716701102": {
+            "id": "716701102",
+            "speakerId": 1016,
+            "speakerName": "Keqing",
+            "text": "For now, at least. We haven't eliminated the root cause. It's only a matter of time before the next surge of activity.",
+            "nextDialogs": [
+              "716701103"
+            ]
+          },
+          "716701103": {
+            "id": "716701103",
+            "speakerId": 1016,
+            "speakerName": "Keqing",
+            "text": "Still... we've won ourselves some valuable down time. Let's take this time to get some proper rest, and then prepare for the next battle.",
+            "nextDialogs": [
+              "716701104"
+            ]
+          },
+          "716701104": {
+            "id": "716701104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yes, M'am! You don't have to tell us twice!",
+            "nextDialogs": [
+              "716701105"
+            ]
+          },
+          "716701105": {
+            "id": "716701105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The best order is a rest order! We're gonna eat good, sleep good, and get our strength back! ...Uh, and then do some strategic thinking... stuff!"
+          }
+        }
+      }
+    }
+  ]
+}

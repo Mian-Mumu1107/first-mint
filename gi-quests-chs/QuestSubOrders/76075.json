@@ -1,0 +1,84 @@
+{
+  "lineCounts": {
+    "(test)开始祭祀$UNRELEASED": 3,
+    "Black Screen": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7607501",
+      "subQuestName": "(test)搜寻附近遗迹里散落的信息$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760750101"
+        ],
+        "dialogs": {
+          "760750101": {
+            "id": "760750101",
+            "speakerId": 22298,
+            "speakerName": "(test)开始祭祀$UNRELEASED",
+            "text": "(test)按照收集到的信息，正要进行祭祀。进行到一半，还没完成时……$UNRELEASED",
+            "nextDialogs": [
+              "760750102"
+            ]
+          },
+          "760750102": {
+            "id": "760750102",
+            "speakerId": 22298,
+            "speakerName": "(test)开始祭祀$UNRELEASED",
+            "text": "(test祭祀的步骤引来了深渊袭击$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7607502",
+      "subQuestName": "(test)在祭坛处尝试进行祭祀$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7607503",
+      "subQuestName": "(test)解决深渊袭击$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7607504",
+      "subQuestName": "(test)重新完成祭祀$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760750201"
+        ],
+        "dialogs": {
+          "760750201": {
+            "id": "760750201",
+            "speakerId": 22298,
+            "speakerName": "(test)开始祭祀$UNRELEASED",
+            "text": "(test)按顺序完成祭祀$UNRELEASED",
+            "nextDialogs": [
+              "760750202"
+            ]
+          },
+          "760750202": {
+            "id": "760750202",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "(test)雕像闪烁了一下，月灵们环绕在了雕像周围$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

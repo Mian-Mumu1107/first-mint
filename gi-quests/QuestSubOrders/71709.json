@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Geri": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7170901",
+      "subQuestName": "Give two Sweet Madames to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717090101"
+        ],
+        "dialogs": {
+          "717090101": {
+            "id": "717090101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Sweet Madame...",
+            "nextDialogs": [
+              "717090102"
+            ]
+          },
+          "717090102": {
+            "id": "717090102",
+            "speakerId": 2046,
+            "speakerName": "Geri",
+            "text": "Yes, that's my commission. Have you brought me two Sweet Madames?",
+            "nextDialogs": [
+              "717090105"
+            ]
+          },
+          "717090105": {
+            "id": "717090105",
+            "speakerId": 2046,
+            "speakerName": "Geri",
+            "text": "Please bring me them as soon as possible. I need to get over the taste of that Zhongyuan Chop Suey... Yuck!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170902",
+      "subQuestName": "Talk to Geri",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717090201"
+        ],
+        "dialogs": {
+          "717090201": {
+            "id": "717090201",
+            "speakerId": 2046,
+            "speakerName": "Geri",
+            "text": "Oh, that aroma... It's just as I remembered it.",
+            "nextDialogs": [
+              "717090202"
+            ]
+          },
+          "717090202": {
+            "id": "717090202",
+            "speakerId": 2046,
+            "speakerName": "Geri",
+            "text": "I can't thank you enough! Here, these are for you.",
+            "nextDialogs": [
+              "717090203"
+            ]
+          },
+          "717090203": {
+            "id": "717090203",
+            "speakerId": 2046,
+            "speakerName": "Geri",
+            "text": "I will savor every bite... And do my darnedest to forget that Zhongyuan Chop Suey!"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "lineCounts": {
+    "Master Lu": 8,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "2101311",
+      "subQuestName": "Defeat all hilichurls at Fanmu Carpenter's",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2101399",
+      "subQuestName": "Talk to the owner of the carpentry workshop",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2101302",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210130201"
+        ],
+        "dialogs": {
+          "210130201": {
+            "id": "210130201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is something troubling you?",
+            "nextDialogs": [
+              "210130202"
+            ]
+          },
+          "210130202": {
+            "id": "210130202",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "Oh! Guests have arrived.",
+            "nextDialogs": [
+              "210130203"
+            ]
+          },
+          "210130203": {
+            "id": "210130203",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "I welcome you to the Fanmu Carpenter's, one of the longest-running carpentry workshops in Qingce Village! You name it, I build it, whether it's a yo-yo or a new house!",
+            "nextDialogs": [
+              "210130204"
+            ]
+          },
+          "210130204": {
+            "id": "210130204",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "This is a carpentry workshop?",
+            "nextDialogs": [
+              "210130205"
+            ]
+          },
+          "210130205": {
+            "id": "210130205",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "No, of course not. My workshop is up that hill over there.",
+            "nextDialogs": [
+              "210130206"
+            ]
+          },
+          "210130206": {
+            "id": "210130206",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "But from time to time it gets overrun by monsters, and they mess the place up.",
+            "nextDialogs": [
+              "210130207"
+            ]
+          },
+          "210130207": {
+            "id": "210130207",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "I tried getting some strapping young lads from The Millelith to help, but every time they approached, the monsters would make a run for it. Of course, then they return as soon as the lads leave...",
+            "nextDialogs": [
+              "210130208"
+            ]
+          },
+          "210130208": {
+            "id": "210130208",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "There's no way I can get any meaningful work done in the workshop with all this going on... *sigh*"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2101303",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "210130301"
+        ],
+        "dialogs": {
+          "210130301": {
+            "id": "210130301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Goodbye.",
+            "nextDialogs": [
+              "210130302"
+            ]
+          },
+          "210130302": {
+            "id": "210130302",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "You're leaving? Do be careful those monsters don't get you.",
+            "nextDialogs": [
+              "210130303"
+            ]
+          },
+          "210130303": {
+            "id": "210130303",
+            "speakerId": 2310,
+            "speakerName": "Master Lu",
+            "text": "*sigh* Whatever am I to do about the workshop..."
+          }
+        }
+      }
+    }
+  ]
+}

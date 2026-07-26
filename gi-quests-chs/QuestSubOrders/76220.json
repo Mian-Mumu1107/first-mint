@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "「仆人」": 2,
+    "「木偶」": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7622001",
+      "subQuestName": "前往月矩力试验设计局高处开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7622002",
+      "subQuestName": "前往月矩力试验设计局高处开启茶会",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7622003",
+      "subQuestName": "享受茶会时光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "762200301"
+        ],
+        "dialogs": {
+          "762200301": {
+            "id": "762200301",
+            "speakerId": 1080,
+            "speakerName": "「仆人」",
+            "text": "惬意的时光。多谢你的款待，桑多涅。",
+            "nextDialogs": [
+              "762200302"
+            ]
+          },
+          "762200302": {
+            "id": "762200302",
+            "speakerId": 1319,
+            "speakerName": "「木偶」",
+            "text": "（再这么坐一会儿吧。）",
+            "nextDialogs": [
+              "762200304"
+            ]
+          },
+          "762200304": {
+            "id": "762200304",
+            "speakerId": 1080,
+            "speakerName": "「仆人」",
+            "text": "好，我们下次再见。"
+          }
+        }
+      }
+    }
+  ]
+}

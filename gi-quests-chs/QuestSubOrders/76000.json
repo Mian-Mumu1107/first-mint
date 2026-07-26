@@ -1,0 +1,693 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 9,
+    "奇怪的罐子": 1,
+    "查看": 1,
+    "派蒙": 45,
+    "白色的盗宝鼬": 1,
+    "研究记录": 1,
+    "通告": 1,
+    "霍洛多夫": 2,
+    "？？？": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7600001",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000101"
+        ],
+        "dialogs": {
+          "760000101": {
+            "id": "760000101",
+            "speakerId": 10301,
+            "speakerName": "查看",
+            "text": "（test）阅读物占位-通告",
+            "nextDialogs": [
+              "760000102"
+            ]
+          },
+          "760000102": {
+            "id": "760000102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个不是我们要找的东西…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600002",
+      "subQuestName": "调查入口",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000201"
+        ],
+        "dialogs": {
+          "760000201": {
+            "id": "760000201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…这扇门好像没办法打开。不过真的好好奇里面到底有什么…",
+            "nextDialogs": [
+              "760000203",
+              "760000205"
+            ]
+          },
+          "760000203": {
+            "id": "760000203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "从地理位置上看，的确这边不太可能放太重要的东西…",
+            "nextDialogs": [
+              "760000206"
+            ]
+          },
+          "760000206": {
+            "id": "760000206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不管怎么说，我们还是想办法进去看看吧！不然感觉谜团一直留在心里，就像吃了太多挪德卡莱热狗消化不了一样难受。",
+            "nextDialogs": [
+              "760000207"
+            ]
+          },
+          "760000207": {
+            "id": "760000207",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "门虽然打不开，说不定有别的路可以进去呢。"
+          },
+          "760000205": {
+            "id": "760000205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "邪、邪恶的实验…如果是这样的话，这里的戒备也太宽松了吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600003",
+      "subQuestName": "进入神秘设施",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000301"
+        ],
+        "dialogs": {
+          "760000301": {
+            "id": "760000301",
+            "speakerId": 1002,
+            "speakerName": "研究记录",
+            "text": "（test）阅读物占位-研究记录-差图片",
+            "nextDialogs": [
+              "760000302"
+            ]
+          },
+          "760000302": {
+            "id": "760000302",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看起来是研究记录？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600004",
+      "subQuestName": "继续深入",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000401"
+        ],
+        "dialogs": {
+          "760000401": {
+            "id": "760000401",
+            "speakerId": 1003,
+            "speakerName": "奇怪的罐子",
+            "text": "（不知道里面装了什么…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600005",
+      "subQuestName": "继续深入",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600006",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000601"
+        ],
+        "dialogs": {
+          "760000601": {
+            "id": "760000601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好多罐子！而且里面装的…该不会是月矩力吧？",
+            "nextDialogs": [
+              "760000602"
+            ]
+          },
+          "760000602": {
+            "id": "760000602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "愚人众在这么深的地下放这些东西，到底是要做什么…",
+            "nextDialogs": [
+              "760000604",
+              "760000606"
+            ]
+          },
+          "760000604": {
+            "id": "760000604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这我当然知道啦！可到底是拿来做什么用呢？总不会是用来泡澡吧？",
+            "nextDialogs": [
+              "760000607"
+            ]
+          },
+          "760000607": {
+            "id": "760000607",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，总之我们先在这里调查看看好了，说不定能发现什么线索。"
+          },
+          "760000606": {
+            "id": "760000606",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "真是太邪恶了愚人众！可是到底是什么邪恶实验啊？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600007",
+      "subQuestName": "在附近寻找线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000701"
+        ],
+        "dialogs": {
+          "760000701": {
+            "id": "760000701",
+            "speakerId": 21372,
+            "speakerName": "通告",
+            "text": "（test）阅读物占位-研究日志",
+            "nextDialogs": [
+              "760000702"
+            ]
+          },
+          "760000702": {
+            "id": "760000702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…这个好像没什么用处。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600021",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000801"
+        ],
+        "dialogs": {
+          "760000801": {
+            "id": "760000801",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看来他们的确在进行实验，不过实验的场地好像不止这里一处，在地面上也有三处。",
+            "nextDialogs": [
+              "760000802"
+            ]
+          },
+          "760000802": {
+            "id": "760000802",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#说是要收集三处的数据汇总到这儿进行分析呢。{NICKNAME}，你说要是我们先把数据都拿走…",
+            "nextDialogs": [
+              "760000803"
+            ]
+          },
+          "760000803": {
+            "id": "760000803",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔，也有点好奇实验的结果到底是什么，不如…不如我们把三处的数据带回来，看过结论之后再把它们都拿走！",
+            "nextDialogs": [
+              "760000805",
+              "760000807"
+            ]
+          },
+          "760000805": {
+            "id": "760000805",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哎呀，重点不是我们有，而是让愚人众没有！",
+            "nextDialogs": [
+              "760000808"
+            ]
+          },
+          "760000808": {
+            "id": "760000808",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#而且{NICKNAME}就不想知道结论吗，总会有那么一点点好奇的吧？我们就试试看嘛。"
+          },
+          "760000807": {
+            "id": "760000807",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那、那样的话不会闹得太大吗？还是不要因为这种小事闹出那么大的动静吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600008",
+      "subQuestName": "前往标出的地点回收数据",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600009",
+      "subQuestName": "前往标出的地点回收数据",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760000901"
+        ],
+        "dialogs": {
+          "760000901": {
+            "id": "760000901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看来他们的确在进行实验，不过实验的场地好像不止这里一处，在地面上也有三处。",
+            "nextDialogs": [
+              "760000902"
+            ]
+          },
+          "760000902": {
+            "id": "760000902",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸，等一下，我们之前拿到的东西难道就是愚人众要回收的数据？",
+            "nextDialogs": [
+              "760000903"
+            ]
+          },
+          "760000903": {
+            "id": "760000903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不如…不如我们把数据放进去，看过结论之后再把它们都拿走？",
+            "nextDialogs": [
+              "760000905",
+              "760000907"
+            ]
+          },
+          "760000905": {
+            "id": "760000905",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哎呀，重点不是我们有，而是让愚人众没有！",
+            "nextDialogs": [
+              "760000908"
+            ]
+          },
+          "760000908": {
+            "id": "760000908",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#而且{NICKNAME}就不想知道结论吗，总会有那么一点点好奇的吧？我们就试试看嘛。"
+          },
+          "760000907": {
+            "id": "760000907",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那、那样的话不会闹得太大吗？还是不要因为这种小事闹出那么大的动静吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600010",
+      "subQuestName": "前往标出的地点回收数据",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600011",
+      "subQuestName": "(test)隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600012",
+      "subQuestName": "返回神秘设施",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600013",
+      "subQuestName": "提交数据",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600014",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760001401"
+        ],
+        "dialogs": {
+          "760001401": {
+            "id": "760001401",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们被关起来了！果然这也是陷阱吧，该怎么出去…",
+            "nextDialogs": [
+              "760001402"
+            ]
+          },
+          "760001402": {
+            "id": "760001402",
+            "speakerId": 21819,
+            "speakerName": "霍洛多夫",
+            "text": "装置被启动了？难道说…",
+            "nextDialogs": [
+              "760001403"
+            ]
+          },
+          "760001403": {
+            "id": "760001403",
+            "speakerId": 21819,
+            "speakerName": "霍洛多夫",
+            "text": "让我看看这又是哪里来的鼠辈…是你们？你们就是破坏了试验场地的犯人吧！居然跑到这里自投罗网！",
+            "nextDialogs": [
+              "760001404"
+            ]
+          },
+          "760001404": {
+            "id": "760001404",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们可不能在这儿挨打啊，得想办法解除屏障才行！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600015",
+      "subQuestName": "设法脱困",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7600016",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760001601"
+        ],
+        "dialogs": {
+          "760001601": {
+            "id": "760001601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "总算是赶走他们了，欸？这机器不显示了…难道是刚才被打坏了？还是被愚人众关掉了？",
+            "nextDialogs": [
+              "760001602"
+            ]
+          },
+          "760001602": {
+            "id": "760001602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可恶，到最后还是没看到结论是什么…",
+            "nextDialogs": [
+              "760001603"
+            ]
+          },
+          "760001603": {
+            "id": "760001603",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "……",
+            "nextDialogs": [
+              "760001604"
+            ]
+          },
+          "760001604": {
+            "id": "760001604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#…{NICKNAME}，你有没有听到什么奇怪的声音？好、好像是从那边传过来的…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600017",
+      "subQuestName": "调查奇怪声音的源头",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760001701"
+        ],
+        "dialogs": {
+          "760001701": {
+            "id": "760001701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "…哇！是白色的盗宝鼬？我还从来没见过这么白的盗宝鼬呢。",
+            "nextDialogs": [
+              "760001702"
+            ]
+          },
+          "760001702": {
+            "id": "760001702",
+            "speakerId": 22101,
+            "speakerName": "白色的盗宝鼬",
+            "text": "……",
+            "nextDialogs": [
+              "760001703"
+            ]
+          },
+          "760001703": {
+            "id": "760001703",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我、我的摩拉！小偷！别跑！",
+            "nextDialogs": [
+              "760001704"
+            ]
+          },
+          "760001704": {
+            "id": "760001704",
+            "speakerId": 1008,
+            "speakerName": "Black Screen",
+            "text": "追赶不及，还是让白色盗宝鼬逃脱了…",
+            "nextDialogs": [
+              "760001705"
+            ]
+          },
+          "760001705": {
+            "id": "760001705",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可恶，一溜烟就跑掉了…",
+            "nextDialogs": [
+              "760001706"
+            ]
+          },
+          "760001706": {
+            "id": "760001706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "幸好我没损失。",
+            "nextDialogs": [
+              "760001707"
+            ]
+          },
+          "760001707": {
+            "id": "760001707",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可是我有呀！我的小金库，呜呜…如果再让我遇到它，一定要让它加倍奉还！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7600099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760009901"
+        ],
+        "dialogs": {
+          "760009901": {
+            "id": "760009901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "咦？这里可以进去？我还以为这种充满秘密的地方会更加戒备森严呢。",
+            "nextDialogs": [
+              "760009902"
+            ]
+          },
+          "760009902": {
+            "id": "760009902",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇——居然在地下这么深的地方！",
+            "nextDialogs": [
+              "760009903"
+            ]
+          },
+          "760009903": {
+            "id": "760009903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "什么嘛…果然还是封上的！",
+            "nextDialogs": [
+              "760009904"
+            ]
+          },
+          "760009904": {
+            "id": "760009904",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过越来越让人好奇了，这里到底是做什么的设施呢？如果能进去看看的话…",
+            "nextDialogs": [
+              "760009905"
+            ]
+          },
+          "760009905": {
+            "id": "760009905",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "居然有陷阱！但是没听到警报的声音欸。",
+            "nextDialogs": [
+              "760009906"
+            ]
+          },
+          "760009906": {
+            "id": "760009906",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "该不会工作人员也得自己想办法通过吧？好歹毒的设计…",
+            "nextDialogs": [
+              "760009907"
+            ]
+          },
+          "760009907": {
+            "id": "760009907",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还要向下？这些人每天在不见天日的地方工作，不会觉得难受吗？",
+            "nextDialogs": [
+              "760009908"
+            ]
+          },
+          "760009908": {
+            "id": "760009908",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，说不定就是因为看不到太阳，所以也不知道什么时候该下班了，真是可怕！",
+            "nextDialogs": [
+              "760009909"
+            ]
+          },
+          "760009909": {
+            "id": "760009909",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样三处的数据都拿到了，我们回地下的实验室吧！",
+            "nextDialogs": [
+              "760009910"
+            ]
+          },
+          "760009910": {
+            "id": "760009910",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，快把收集到的数据放进去吧！",
+            "nextDialogs": [
+              "760009911"
+            ]
+          },
+          "760009911": {
+            "id": "760009911",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这是什么…好像是记录数据的东西？"
+          }
+        }
+      }
+    }
+  ]
+}

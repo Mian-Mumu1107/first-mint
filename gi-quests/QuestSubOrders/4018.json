@@ -1,0 +1,967 @@
+{
+  "lineCounts": {
+    "Alexis": 13,
+    "Black Screen": 2,
+    "Fielding": 8,
+    "Leonide": 14,
+    "Paimon": 62,
+    "Player": 39,
+    "Poirier": 15,
+    "Vidoc": 11
+  },
+  "subQuests": [
+    {
+      "subId": "401801",
+      "subQuestName": "Get up and talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180101"
+        ],
+        "dialogs": {
+          "40180101": {
+            "id": "40180101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, so we've investigated two of the \"hidden rules.\" Paimon didn't think this prison would have... so many weird things going on.",
+            "nextDialogs": [
+              "40180102"
+            ]
+          },
+          "40180102": {
+            "id": "40180102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We'd better pick up the pace with our investigation. Otherwise, we'll never get anywhere.",
+            "nextDialogs": [
+              "40180103"
+            ]
+          },
+          "40180103": {
+            "id": "40180103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's spend some coupons to skip our shifts so we can go investigate.",
+            "nextDialogs": [
+              "40180104"
+            ]
+          },
+          "40180104": {
+            "id": "40180104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, let's skip work for now and put our time to good use!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "401802",
+      "subQuestName": "Continue asking around for clues",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181301"
+        ],
+        "dialogs": {
+          "40181301": {
+            "id": "40181301",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Oho, seeing you at this time must mean you've already saved up a lot of Credit Coupons. Or at least enough to skip work... Heh, seems you're getting into the swing of things around here.",
+            "nextDialogs": [
+              "40181304"
+            ]
+          },
+          "40181304": {
+            "id": "40181304",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Impressive... Very impressive...",
+            "nextDialogs": [
+              "40181305"
+            ]
+          },
+          "40181305": {
+            "id": "40181305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, now can you tell us about the hidden rules you know?",
+            "nextDialogs": [
+              "40181306"
+            ]
+          },
+          "40181306": {
+            "id": "40181306",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Ah, if that's what you what to know, I guess you couldn't have come at a better time.",
+            "nextDialogs": [
+              "40181307"
+            ]
+          },
+          "40181307": {
+            "id": "40181307",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, what do you mean it's a good time?",
+            "nextDialogs": [
+              "40181308"
+            ]
+          },
+          "40181308": {
+            "id": "40181308",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Leonide and those other pesky broke urchins have all gone to work in the production zone. I wouldn't want them listening in without paying up.",
+            "nextDialogs": [
+              "40181309"
+            ]
+          },
+          "40181309": {
+            "id": "40181309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We get it, just tell us already!",
+            "nextDialogs": [
+              "40181310"
+            ]
+          },
+          "40181310": {
+            "id": "40181310",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "So, you know those pipes that make strange sounds? Don't ever, ever go near them at night. Even if you manage to avoid the guards, you might find something even more terrible there...",
+            "nextDialogs": [
+              "40181311"
+            ]
+          },
+          "40181311": {
+            "id": "40181311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Something even more terrible? Like what?",
+            "nextDialogs": [
+              "40181312"
+            ]
+          },
+          "40181312": {
+            "id": "40181312",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "A group of cannibals.",
+            "nextDialogs": [
+              "40181313"
+            ]
+          },
+          "40181313": {
+            "id": "40181313",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cannibals!? In the Fortress of Meropide!?",
+            "nextDialogs": [
+              "40181314"
+            ]
+          },
+          "40181314": {
+            "id": "40181314",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Every month, they meet a few times in the dead of night. Rumor has it that they might be connected to the people that've disappeared here.",
+            "nextDialogs": [
+              "40181315"
+            ]
+          },
+          "40181315": {
+            "id": "40181315",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "But what's even scarier is that they have a \"special\" proclivity...",
+            "nextDialogs": [
+              "40181316"
+            ]
+          },
+          "40181316": {
+            "id": "40181316",
+            "speakerId": 13515,
+            "speakerName": "Vidoc",
+            "text": "Since they have no way to dispose of the leftover remains, they have ways to transform them into other forms and keep them in the Fortress forever.",
+            "nextDialogs": [
+              "40181317"
+            ]
+          },
+          "40181317": {
+            "id": "40181317",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, Paimon might already know what you mean by \"other forms\"... So that's what's going on here. Ugh, Paimon's stomach doesn't feel so good..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401805",
+      "subQuestName": "Return and investigate again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "401813",
+      "subQuestName": "Ask the trio that hangs out together often",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181201"
+        ],
+        "dialogs": {
+          "40181201": {
+            "id": "40181201",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "...",
+            "nextDialogs": [
+              "40181202"
+            ]
+          },
+          "40181202": {
+            "id": "40181202",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "Just stay away from me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401811",
+      "subQuestName": "Ask the trio that hangs out together often",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180201"
+        ],
+        "dialogs": {
+          "40180201": {
+            "id": "40180201",
+            "speakerId": 13518,
+            "speakerName": "Leonide",
+            "text": "...What are you talking about? Listen, you should keep your nose out of other people's business."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401812",
+      "subQuestName": "Ask the trio that hangs out together often",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181101"
+        ],
+        "dialogs": {
+          "40181101": {
+            "id": "40181101",
+            "speakerId": 13519,
+            "speakerName": "Alexis",
+            "text": "What!? What are you saying!? You shouldn't go around saying stuff like that."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401814",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181401"
+        ],
+        "dialogs": {
+          "40181401": {
+            "id": "40181401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, so we've investigated two of the \"hidden rules.\" Paimon didn't think this prison would have... so many weird things going on.",
+            "nextDialogs": [
+              "40181402"
+            ]
+          },
+          "40181402": {
+            "id": "40181402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We'd better pick up the pace with our investigation. Otherwise, we'll never get anywhere.",
+            "nextDialogs": [
+              "40181403"
+            ]
+          },
+          "40181403": {
+            "id": "40181403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But I don't have enough Credit Coupons.",
+            "nextDialogs": [
+              "40181404"
+            ]
+          },
+          "40181404": {
+            "id": "40181404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? We already used up all our coupons?",
+            "nextDialogs": [
+              "40181405"
+            ]
+          },
+          "40181405": {
+            "id": "40181405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ugh, fine... Paimon secretly stashed some coupons away to buy some souvenirs and stuff, but it sounds like we really need them now.",
+            "nextDialogs": [
+              "40181406"
+            ]
+          },
+          "40181406": {
+            "id": "40181406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Where did you get coupons?",
+            "nextDialogs": [
+              "40181407"
+            ]
+          },
+          "40181407": {
+            "id": "40181407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, Paimon's been working too, you know! Paimon just doesn't earn much, that's all...",
+            "nextDialogs": [
+              "40181408"
+            ]
+          },
+          "40181408": {
+            "id": "40181408",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Anyway, let's use these coupons to get out of work so we have time to investigate!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "401803",
+      "subQuestName": "Summarize the information you have collected",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180301"
+        ],
+        "dialogs": {
+          "40180301": {
+            "id": "40180301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Their attitude sure is suspicious, like they're trying to avoid us...",
+            "nextDialogs": [
+              "40180304"
+            ]
+          },
+          "40180304": {
+            "id": "40180304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But if they're being so obvious about acting weirdly, do you think they might just be trying to lure us in?",
+            "nextDialogs": [
+              "40180305"
+            ]
+          },
+          "40180305": {
+            "id": "40180305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This is all getting way too creepy for Paimon..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401806",
+      "subQuestName": "Ask the guard at the dormitories",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180601"
+        ],
+        "dialogs": {
+          "40180601": {
+            "id": "40180601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hello, Fielding.",
+            "nextDialogs": [
+              "40180602"
+            ]
+          },
+          "40180602": {
+            "id": "40180602",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "Whaddaya want? Criminals like you oughta be working right now, catch my drift?",
+            "nextDialogs": [
+              "40180603"
+            ]
+          },
+          "40180603": {
+            "id": "40180603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We just want to ask you a simple question...",
+            "nextDialogs": [
+              "40180604"
+            ]
+          },
+          "40180604": {
+            "id": "40180604",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Have you ever discovered anything odd during your nighttime patrols?",
+            "nextDialogs": [
+              "40180605"
+            ]
+          },
+          "40180605": {
+            "id": "40180605",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "Why're you asking about something like that? Whatever happens at night isn't your concern. All you need to worry about is getting enough sleep.",
+            "nextDialogs": [
+              "40180606"
+            ]
+          },
+          "40180606": {
+            "id": "40180606",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Well...",
+            "nextDialogs": [
+              "40180609"
+            ]
+          },
+          "40180609": {
+            "id": "40180609",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "R—Right, we've heard it happens a few times every month. Paimon has sensitive ears, so it makes it hard to sleep!",
+            "nextDialogs": [
+              "40180610"
+            ]
+          },
+          "40180610": {
+            "id": "40180610",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "Really? I see... but it's not like I'm on duty every night.",
+            "nextDialogs": [
+              "40180611"
+            ]
+          },
+          "40180611": {
+            "id": "40180611",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "Now that you mention it, I recall my colleagues talking about something like that before. They say that strange things tend to happen at night on pipe-cleaning days. Lots of us don't willingly take those shifts.",
+            "nextDialogs": [
+              "40180612"
+            ]
+          },
+          "40180612": {
+            "id": "40180612",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So what happens at night on pipe-cleaning days?",
+            "nextDialogs": [
+              "40180613"
+            ]
+          },
+          "40180613": {
+            "id": "40180613",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "They just conduct regular cleaning of the Fortress' drainage facilities.",
+            "nextDialogs": [
+              "40180614"
+            ]
+          },
+          "40180614": {
+            "id": "40180614",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "There are three pipe-cleaning days per month... And it just so happens that today is one of the scheduled days. You can try to confirm the sounds tonight if you want, and if they're real, then I can report the issue to my superiors for you.",
+            "nextDialogs": [
+              "40180615"
+            ]
+          },
+          "40180615": {
+            "id": "40180615",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, okay. Then we'll keep both ears out tonight!",
+            "nextDialogs": [
+              "40180616"
+            ]
+          },
+          "40180616": {
+            "id": "40180616",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "If that's all, then I'll be leaving now. I'd advise you not to try anything funny, though. Even if I'm not on duty tonight, someone will still be watching you.",
+            "nextDialogs": [
+              "40180617"
+            ]
+          },
+          "40180617": {
+            "id": "40180617",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't worry, we don't want any time added to our sentences!",
+            "nextDialogs": [
+              "40180618"
+            ]
+          },
+          "40180618": {
+            "id": "40180618",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He left... So, what do you think about the pipe-cleaning days he mentioned?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "401807",
+      "subQuestName": "Return to the dormitories and rest until night",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180701"
+        ],
+        "dialogs": {
+          "40180701": {
+            "id": "40180701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*yawn* Paimon's so tired... But we can't sleep yet. They'll be cleaning the pipes tonight, so it's the perfect chance for us to investigate...",
+            "nextDialogs": [
+              "40180704"
+            ]
+          },
+          "40180704": {
+            "id": "40180704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whatever, just be sure to wake Paimon if she dozes off... Paimon's worried something might happen if you go alone...",
+            "nextDialogs": [
+              "40180705"
+            ]
+          },
+          "40180705": {
+            "id": "40180705",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Huh? {NICKNAME}? Did you fall asleep already!?",
+            "nextDialogs": [
+              "40180706"
+            ]
+          },
+          "40180706": {
+            "id": "40180706",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "\"Something is calling me, I have to go.\"",
+            "nextDialogs": [
+              "40180707"
+            ]
+          },
+          "40180707": {
+            "id": "40180707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}! C'mon, wake up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "401816",
+      "subQuestName": "Go to where the rumored pipes are",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "401804",
+      "subQuestName": "Go to where the rumored pipes are",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180801"
+        ],
+        "dialogs": {
+          "40180801": {
+            "id": "40180801",
+            "speakerId": 13518,
+            "speakerName": "Leonide",
+            "text": "I know you... You were the ones we saw...",
+            "nextDialogs": [
+              "40180802"
+            ]
+          },
+          "40180802": {
+            "id": "40180802",
+            "speakerId": 13519,
+            "speakerName": "Alexis",
+            "text": "Hmph, you've got guts showing up here. You know who we are, right?",
+            "nextDialogs": [
+              "40180803"
+            ]
+          },
+          "40180803": {
+            "id": "40180803",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "You'd better leave now, ain't nobody coming here to save you!",
+            "nextDialogs": [
+              "40180804"
+            ]
+          },
+          "40180804": {
+            "id": "40180804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Enough with the theatrics...",
+            "nextDialogs": [
+              "40180805"
+            ]
+          },
+          "40180805": {
+            "id": "40180805",
+            "speakerId": 13519,
+            "speakerName": "Alexis",
+            "text": "What you say!?",
+            "nextDialogs": [
+              "40180808"
+            ]
+          },
+          "40180808": {
+            "id": "40180808",
+            "speakerId": 13519,
+            "speakerName": "Alexis",
+            "text": "Yeah, so what if they were? If you push us, we can make those rumors a reality at any time!",
+            "nextDialogs": [
+              "40180809"
+            ]
+          },
+          "40180809": {
+            "id": "40180809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! What's the point of all those rumors anyway? What exactly are you trying to do?",
+            "nextDialogs": [
+              "40180810"
+            ]
+          },
+          "40180810": {
+            "id": "40180810",
+            "speakerId": 13518,
+            "speakerName": "Leonide",
+            "text": "I don't have to tell you anything. If you turn around, go back to the dormitories, and act like you never saw anything, then I'll pretend that you never showed up here!",
+            "nextDialogs": [
+              "40180811"
+            ]
+          },
+          "40180811": {
+            "id": "40180811",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "Yeah, scram. Nothing worth seeing here..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401815",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181501"
+        ],
+        "dialogs": {
+          "40181501": {
+            "id": "40181501",
+            "speakerId": 13548,
+            "speakerName": "Fielding",
+            "text": "Using coupons to skip work doesn't bring freedom, but only pulls you closer to the abyss of degeneracy... That's what an old guard here used to say, you'd do well to remember it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401809",
+      "subQuestName": "Enter the pipe",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180901"
+        ],
+        "dialogs": {
+          "40180901": {
+            "id": "40180901",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "The way up from here has been sealed off. It's impossible to get through.",
+            "nextDialogs": [
+              "40180902"
+            ]
+          },
+          "40180902": {
+            "id": "40180902",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "Boss left by going down from here. It wasn't full of water at the time...",
+            "nextDialogs": [
+              "40180903"
+            ]
+          },
+          "40180903": {
+            "id": "40180903",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "Later, we came back hoping to have a look. That's when we found out it had been completely flooded.",
+            "nextDialogs": [
+              "40180904"
+            ]
+          },
+          "40180904": {
+            "id": "40180904",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "It's impossible to navigate unless you're an extremely skilled diver.",
+            "nextDialogs": [
+              "40180905"
+            ]
+          },
+          "40180905": {
+            "id": "40180905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Do you think Childe got trapped by the water?",
+            "nextDialogs": [
+              "40180906"
+            ]
+          },
+          "40180906": {
+            "id": "40180906",
+            "speakerId": 13518,
+            "speakerName": "Leonide",
+            "text": "Not likely, we all know that boss was an incredible swimmer.",
+            "nextDialogs": [
+              "40180907"
+            ]
+          },
+          "40180907": {
+            "id": "40180907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I know a good diver.",
+            "nextDialogs": [
+              "40180908"
+            ]
+          },
+          "40180908": {
+            "id": "40180908",
+            "speakerId": 13519,
+            "speakerName": "Alexis",
+            "text": "Really? Then have him come investigate, pronto! Just be sure to tell us if you get any news about Boss.",
+            "nextDialogs": [
+              "40180909"
+            ]
+          },
+          "40180909": {
+            "id": "40180909",
+            "speakerId": 13520,
+            "speakerName": "Poirier",
+            "text": "It's getting late. We should leave before the guards come this way.",
+            "nextDialogs": [
+              "40180910"
+            ]
+          },
+          "40180910": {
+            "id": "40180910",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, we learned a lot about what happened to Childe here. Let's get going."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401810",
+      "subQuestName": "Return to the dormitories",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40181001"
+        ],
+        "dialogs": {
+          "40181001": {
+            "id": "40181001",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew... We finally learned some key information. Seems all of our investigative work has finally started to pay off!",
+            "nextDialogs": [
+              "40181002"
+            ]
+          },
+          "40181002": {
+            "id": "40181002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "When you said you knew a diver, you were talking about Freminet, right? If we ask Lyney, he'll definitely have Freminet help us.",
+            "nextDialogs": [
+              "40181003"
+            ]
+          },
+          "40181003": {
+            "id": "40181003",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Argh! Why is Childe like this... What was he doing going into the pipes? Not making our jobs easier, that's for sure.",
+            "nextDialogs": [
+              "40181004"
+            ]
+          },
+          "40181004": {
+            "id": "40181004",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Fortunately, though, it seems like it's only a matter of time now before we find out what really happened.",
+            "nextDialogs": [
+              "40181005"
+            ]
+          },
+          "40181005": {
+            "id": "40181005",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Now that we can finally relax, Paimon's starting to feel super sleepy. Let's try to get some rest while we still can. Nighty-night, {NICKNAME}."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401804",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40180401"
+        ],
+        "dialogs": {
+          "40180401": {
+            "id": "40180401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay... Well, it's about time for us to get moving. Just be careful to avoid the patrolling guards."
+          }
+        }
+      }
+    },
+    {
+      "subId": "401899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "40189901"
+        ],
+        "dialogs": {
+          "40189901": {
+            "id": "40189901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, isn't that Vidoc over there? Huh, is it just Paimon, or are there fewer people than usual here today?",
+            "nextDialogs": [
+              "40189902"
+            ]
+          },
+          "40189902": {
+            "id": "40189902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, Vidoc isn't here, but the guys who went to work in the morning are back. Let's go ask them.",
+            "nextDialogs": [
+              "40189903"
+            ]
+          },
+          "40189903": {
+            "id": "40189903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, not this way! We need to get to that pipe, remember?",
+            "nextDialogs": [
+              "40189904"
+            ]
+          },
+          "40189904": {
+            "id": "40189904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Shhh, careful! We'll get in trouble if the guards catch us.",
+            "nextDialogs": [
+              "40189905"
+            ]
+          },
+          "40189905": {
+            "id": "40189905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh oh! They spotted us!",
+            "nextDialogs": [
+              "40189906"
+            ]
+          },
+          "40189906": {
+            "id": "40189906",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, this should be the place."
+          }
+        }
+      }
+    }
+  ]
+}

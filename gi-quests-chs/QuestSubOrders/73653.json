@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "阿米尔": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7365301",
+      "subQuestName": "将八份兽肉交给阿米尔",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736530101"
+        ],
+        "dialogs": {
+          "736530101": {
+            "id": "736530101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于兽肉…",
+            "nextDialogs": [
+              "736530102"
+            ]
+          },
+          "736530102": {
+            "id": "736530102",
+            "speakerId": 4301,
+            "speakerName": "阿米尔",
+            "text": "哦没错，我的确发布过请人提供兽肉的委托。",
+            "nextDialogs": [
+              "736530103"
+            ]
+          },
+          "736530103": {
+            "id": "736530103",
+            "speakerId": 4301,
+            "speakerName": "阿米尔",
+            "text": "你准备好了足够的兽肉吗？我需要八份。",
+            "nextDialogs": [
+              "736530105"
+            ]
+          },
+          "736530105": {
+            "id": "736530105",
+            "speakerId": 4301,
+            "speakerName": "阿米尔",
+            "text": "八份兽肉的确不是小数量，还是等你准备好了之后，再来找我吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365302",
+      "subQuestName": "与阿米尔对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736530201"
+        ],
+        "dialogs": {
+          "736530201": {
+            "id": "736530201",
+            "speakerId": 4301,
+            "speakerName": "阿米尔",
+            "text": "肉的品质都很不错，谢谢你，搜救犬们的加餐有着落了。"
+          }
+        }
+      }
+    }
+  ]
+}

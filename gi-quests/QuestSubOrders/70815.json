@@ -1,0 +1,744 @@
+{
+  "lineCounts": {
+    "Granny Ruoxin": 20,
+    "Jiayi": 14,
+    "Little Liu": 27,
+    "Player": 15
+  },
+  "subQuests": [
+    {
+      "subId": "7081501",
+      "subQuestName": "Talk to Jiayi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081502",
+      "subQuestName": "Talk to Granny Ruoxin",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150501"
+        ],
+        "dialogs": {
+          "708150501": {
+            "id": "708150501",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "Oh, where has that child run off to...",
+            "nextDialogs": [
+              "708150502"
+            ]
+          },
+          "708150502": {
+            "id": "708150502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Can I ask about Little Liu?",
+            "nextDialogs": [
+              "708150503"
+            ]
+          },
+          "708150503": {
+            "id": "708150503",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "Are you looking for her? *sigh* What perfectly terrible timing. I don't know where's she's gone.",
+            "nextDialogs": [
+              "708150504"
+            ]
+          },
+          "708150504": {
+            "id": "708150504",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "She received a letter that her father asked someone to send over from Liyue Harbor that stated that he'd be back soon.",
+            "nextDialogs": [
+              "708150505"
+            ]
+          },
+          "708150505": {
+            "id": "708150505",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "Little Liu was so happy. She said she wanted to prepare a gift for her father, and roped some other children into picking fruits and flowers...",
+            "nextDialogs": [
+              "708150506"
+            ]
+          },
+          "708150506": {
+            "id": "708150506",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "But a few days afterward, he sent word, saying that he had a last-minute assignment and wouldn't be able to return.",
+            "nextDialogs": [
+              "708150507"
+            ]
+          },
+          "708150507": {
+            "id": "708150507",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "She threw a tantrum, and nothing we said could dissuade her from insisting that she would go to Liyue Harbor herself, since her father wasn't coming.",
+            "nextDialogs": [
+              "708150508"
+            ]
+          },
+          "708150508": {
+            "id": "708150508",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "We thought it a joke for a while. But this morning, she was gone.",
+            "nextDialogs": [
+              "708150509"
+            ]
+          },
+          "708150509": {
+            "id": "708150509",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "*sigh* We've already sent people out to look for her, but if you're willing, you can join in as well.",
+            "nextDialogs": [
+              "708150511",
+              "708150513"
+            ]
+          },
+          "708150511": {
+            "id": "708150511",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "I apologize for the trouble. *sigh* This child..."
+          },
+          "708150513": {
+            "id": "708150513",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "I doubt she could go far. She's probably still close by, but the wilds are a dangerous place... Please, find her quickly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081503",
+      "subQuestName": "Find Little Liu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081504",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150401"
+        ],
+        "dialogs": {
+          "708150401": {
+            "id": "708150401",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "*sigh* I was counting down the days before I'd be able to go back. Just two or three days more...",
+            "nextDialogs": [
+              "708150402"
+            ]
+          },
+          "708150402": {
+            "id": "708150402",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "With all the leave I've saved up until this point, I could have spent over a week together with Little Liu.",
+            "nextDialogs": [
+              "708150403"
+            ]
+          },
+          "708150403": {
+            "id": "708150403",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "But with but one order, all our leaves were canceled. Even the people on leave were recalled.",
+            "nextDialogs": [
+              "708150404"
+            ]
+          },
+          "708150404": {
+            "id": "708150404",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "In my experience, this means at least another month without any hope of returning to Qingce Village. What terrible luck..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081505",
+      "subQuestName": "Talk to Little Liu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150701"
+        ],
+        "dialogs": {
+          "708150701": {
+            "id": "708150701",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Are you here to catch me and take me back to Qingce Village?",
+            "nextDialogs": [
+              "708150703",
+              "708150705"
+            ]
+          },
+          "708150703": {
+            "id": "708150703",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Hmph. So you are here to catch me. Well, I'm not going back.",
+            "nextDialogs": [
+              "708150706"
+            ]
+          },
+          "708150706": {
+            "id": "708150706",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Go back and tell the villagers that I'm going to Liyue Harbor to look for Daddy.",
+            "nextDialogs": [
+              "708150707"
+            ]
+          },
+          "708150707": {
+            "id": "708150707",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "They don't have to worry. Once I find him, I'll just talk to him for a while, then I'll come back."
+          },
+          "708150705": {
+            "id": "708150705",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "I don't need anything from you. You're just trying to bribe me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081506",
+      "subQuestName": "Catch up to Little Liu (if she gets more than 30m away, the quest will be failed)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150601"
+        ],
+        "dialogs": {
+          "708150601": {
+            "id": "708150601",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "That Jiayi, too. How could he just cancel on his daughter like that...",
+            "nextDialogs": [
+              "708150602"
+            ]
+          },
+          "708150602": {
+            "id": "708150602",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "She doesn't see him any more than a few times a year. Is this how a father should behave?",
+            "nextDialogs": [
+              "708150604",
+              "708150606"
+            ]
+          },
+          "708150604": {
+            "id": "708150604",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "That's what he says every year. I've lost count of the number of times he's said that..."
+          },
+          "708150606": {
+            "id": "708150606",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "Well, it's also his job to take care of his daughter. Little Liu is growing up day by day.",
+            "nextDialogs": [
+              "708150607"
+            ]
+          },
+          "708150607": {
+            "id": "708150607",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "If he's not careful, she'll be the one going out to work by the time he returns.",
+            "nextDialogs": [
+              "708150608"
+            ]
+          },
+          "708150608": {
+            "id": "708150608",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "This father and his daughter just can't get together, can they?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081507",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7081508",
+      "subQuestName": "Talk to Little Liu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150801"
+        ],
+        "dialogs": {
+          "708150801": {
+            "id": "708150801",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "What are you following me for, anyway? I said, I'm going to Liyue Harbor!",
+            "nextDialogs": [
+              "708150802"
+            ]
+          },
+          "708150802": {
+            "id": "708150802",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "I'll get around these monsters myself. They won't find me.",
+            "nextDialogs": [
+              "708150803"
+            ]
+          },
+          "708150803": {
+            "id": "708150803",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Don't treat me like a kid! I'm a grown-up now!",
+            "nextDialogs": [
+              "708150804"
+            ]
+          },
+          "708150804": {
+            "id": "708150804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "This is from your father...",
+            "nextDialogs": [
+              "708150805"
+            ]
+          },
+          "708150805": {
+            "id": "708150805",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "From Daddy? Did he ask you to send it over...",
+            "nextDialogs": [
+              "708150806"
+            ]
+          },
+          "708150806": {
+            "id": "708150806",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "I'm sure it's more things for children to play with... if it's not kites, it's dolls.",
+            "nextDialogs": [
+              "708150807"
+            ]
+          },
+          "708150807": {
+            "id": "708150807",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You don't like them?",
+            "nextDialogs": [
+              "708150808"
+            ]
+          },
+          "708150808": {
+            "id": "708150808",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "...I do. It's something Daddy gave me. How could I not like it?",
+            "nextDialogs": [
+              "708150809"
+            ]
+          },
+          "708150809": {
+            "id": "708150809",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "But if I always like these things, doesn't that mean that I'll always be a kid?",
+            "nextDialogs": [
+              "708150810"
+            ]
+          },
+          "708150810": {
+            "id": "708150810",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "If I keep playing with them, when will I become an adventurer, or get my own Vision?",
+            "nextDialogs": [
+              "708150811"
+            ]
+          },
+          "708150811": {
+            "id": "708150811",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What did you want a Vision for, again?",
+            "nextDialogs": [
+              "708150812"
+            ]
+          },
+          "708150812": {
+            "id": "708150812",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "If I had a Vision, I'd be able to do so many things, whether it be making money or something else...",
+            "nextDialogs": [
+              "708150813"
+            ]
+          },
+          "708150813": {
+            "id": "708150813",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Then, Daddy wouldn't have to work in Liyue Harbor all the time. He could come back and spend time with me.",
+            "nextDialogs": [
+              "708150814"
+            ]
+          },
+          "708150814": {
+            "id": "708150814",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Right now, I can't even go to Liyue Harbor myself without a Vision...",
+            "nextDialogs": [
+              "708150815"
+            ]
+          },
+          "708150815": {
+            "id": "708150815",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "But since Daddy has already sent you here with his presents, I might just be giving him more trouble by going to look for him.",
+            "nextDialogs": [
+              "708150816"
+            ]
+          },
+          "708150816": {
+            "id": "708150816",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "<color=#00E1FFFF>I had presents ready for him too</color>. I wanted to give him a surprise... But I can't take them to him now.",
+            "nextDialogs": [
+              "708150817"
+            ]
+          },
+          "708150817": {
+            "id": "708150817",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "<color=#00E1FFFF>If only someone could help me do that</color>... It's alright. I'm going back. There's no need to follow me, I know the way home."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081509",
+      "subQuestName": "Talk to Little Liu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708150901"
+        ],
+        "dialogs": {
+          "708150901": {
+            "id": "708150901",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "Dolls... kites... pinwheels. Daddy sent these again, just like I thought.",
+            "nextDialogs": [
+              "708150902"
+            ]
+          },
+          "708150902": {
+            "id": "708150902",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "*sigh* It's just a shame that I wasn't able to send him my gifts too.",
+            "nextDialogs": [
+              "708150903"
+            ]
+          },
+          "708150903": {
+            "id": "708150903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll take them to your father.",
+            "nextDialogs": [
+              "708150904"
+            ]
+          },
+          "708150904": {
+            "id": "708150904",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "You'll help me? Well... Even though you don't have a Vision either, it looked like those monsters didn't give you a hard time at all.",
+            "nextDialogs": [
+              "708150905"
+            ]
+          },
+          "708150905": {
+            "id": "708150905",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "I guess we'll have to do it this way, then. Thank you.",
+            "nextDialogs": [
+              "708150906"
+            ]
+          },
+          "708150906": {
+            "id": "708150906",
+            "speakerId": 2308,
+            "speakerName": "Little Liu",
+            "text": "*sigh* If only I could be as strong as you..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081510",
+      "subQuestName": "Talk to Jiayi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708151101"
+        ],
+        "dialogs": {
+          "708151101": {
+            "id": "708151101",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Have you handed the presents to Little Liu yet?",
+            "nextDialogs": [
+              "708151103",
+              "708151105"
+            ]
+          },
+          "708151103": {
+            "id": "708151103",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "That's good. Those toys are her favorite. Thank you — please take these as a token of my thanks."
+          },
+          "708151105": {
+            "id": "708151105",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "I want to go back too. But with Liyue Harbor in this state, I don't think that's possible for the time being.",
+            "nextDialogs": [
+              "708151106"
+            ]
+          },
+          "708151106": {
+            "id": "708151106",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Still, thank you so much. I hope those presents will improve her mood a bit — they are her favorites, after all.",
+            "nextDialogs": [
+              "708151107"
+            ]
+          },
+          "708151107": {
+            "id": "708151107",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Please, take this as thanks."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081511",
+      "subQuestName": "Talk to Jiayi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708151201"
+        ],
+        "dialogs": {
+          "708151201": {
+            "id": "708151201",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Have you handed the presents to Little Liu yet?",
+            "nextDialogs": [
+              "708151202"
+            ]
+          },
+          "708151202": {
+            "id": "708151202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, this is from Little Liu.",
+            "nextDialogs": [
+              "708151203"
+            ]
+          },
+          "708151203": {
+            "id": "708151203",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "This... is from Little Liu, for me? So many... How much work did she have to put in...",
+            "nextDialogs": [
+              "708151204"
+            ]
+          },
+          "708151204": {
+            "id": "708151204",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "I want nothing more than to drop everything and run back to Qingce Village right now. But the Ministry of Civil Affairs would...",
+            "nextDialogs": [
+              "708151205"
+            ]
+          },
+          "708151205": {
+            "id": "708151205",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "Thank you once again. Take these as thanks, please.",
+            "nextDialogs": [
+              "708151206"
+            ]
+          },
+          "708151206": {
+            "id": "708151206",
+            "speakerId": 2056,
+            "speakerName": "Jiayi",
+            "text": "*sigh* I have no idea when this whole affair will be over, or when the Ministry will approve my leave, either..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081510",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708151001"
+        ],
+        "dialogs": {
+          "708151001": {
+            "id": "708151001",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "You've returned. Thank you for your help. Little Liu has already returned, and with quite the bag of things, too.",
+            "nextDialogs": [
+              "708151002"
+            ]
+          },
+          "708151002": {
+            "id": "708151002",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Jiayi sent them to her.",
+            "nextDialogs": [
+              "708151003"
+            ]
+          },
+          "708151003": {
+            "id": "708151003",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "Did he, now... But still, what Little Liu really wants is for him to come back in person.",
+            "nextDialogs": [
+              "708151004"
+            ]
+          },
+          "708151004": {
+            "id": "708151004",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "That child really has grown up like the bamboo around the village. Blink, and you'll miss just how much she's grown.",
+            "nextDialogs": [
+              "708151005"
+            ]
+          },
+          "708151005": {
+            "id": "708151005",
+            "speakerId": 2306,
+            "speakerName": "Granny Ruoxin",
+            "text": "The days when your child is young will never return again once you miss them..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7081513",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "708151301"
+        ],
+        "dialogs": {
+          "708151301": {
+            "id": "708151301",
+            "speakerId": 1616,
+            "speakerName": "Little Liu",
+            "text": "If only I had a Vision! With it, I could do so many things, whether it's making money or whatever...",
+            "nextDialogs": [
+              "708151302"
+            ]
+          },
+          "708151302": {
+            "id": "708151302",
+            "speakerId": 1616,
+            "speakerName": "Little Liu",
+            "text": "At least, I would have no trouble making it to Liyue on my own.",
+            "nextDialogs": [
+              "708151303"
+            ]
+          },
+          "708151303": {
+            "id": "708151303",
+            "speakerId": 1616,
+            "speakerName": "Little Liu",
+            "text": "But, how do I get my hands on one..."
+          }
+        }
+      }
+    }
+  ]
+}

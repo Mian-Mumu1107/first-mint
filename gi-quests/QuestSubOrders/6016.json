@@ -1,0 +1,1560 @@
+{
+  "lineCounts": {
+    "Albedo": 8,
+    "Black Screen": 1,
+    "Columbina": 2,
+    "Durin": 6,
+    "Flins": 11,
+    "Il Dottore": 34,
+    "Lauma": 13,
+    "Marionette": 16,
+    "Nefer": 12,
+    "Paimon": 13,
+    "Player": 21,
+    "The Doctor": 5
+  },
+  "subQuests": [
+    {
+      "subId": "601601",
+      "subQuestName": "Reunite with your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601602",
+      "subQuestName": "Talk to Marionette",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160201"
+        ],
+        "dialogs": {
+          "60160201": {
+            "id": "60160201",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Ah, you're here.",
+            "nextDialogs": [
+              "60160202"
+            ]
+          },
+          "60160202": {
+            "id": "60160202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sandrone! How are things going?",
+            "nextDialogs": [
+              "60160203"
+            ]
+          },
+          "60160203": {
+            "id": "60160203",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Glad you asked. You two are about to become the first people to lay eyes upon my masterpiece... Or should that be the first person and the first, uh... Specter?",
+            "nextDialogs": [
+              "60160204"
+            ]
+          },
+          "60160204": {
+            "id": "60160204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey!",
+            "nextDialogs": [
+              "60160205"
+            ]
+          },
+          "60160205": {
+            "id": "60160205",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Eh, whatever. Come. Feast your eyes on this.",
+            "nextDialogs": [
+              "60160206"
+            ]
+          },
+          "60160206": {
+            "id": "60160206",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, we've never seen something like this before!",
+            "nextDialogs": [
+              "60160207"
+            ]
+          },
+          "60160207": {
+            "id": "60160207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It looks impressive!",
+            "nextDialogs": [
+              "60160208"
+            ]
+          },
+          "60160208": {
+            "id": "60160208",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "This meter displays the progress of my formula. Currently, it's still making the most important connections.",
+            "nextDialogs": [
+              "60160209"
+            ]
+          },
+          "60160209": {
+            "id": "60160209",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Once it's finished running, I'll deliver it right to your side, and then, we can finally bring Columbina back.",
+            "nextDialogs": [
+              "60160210"
+            ]
+          },
+          "60160210": {
+            "id": "60160210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What do you mean, deliver it? Can't you just tell us over the Dodocommunication Device? It'll just be some numbers, right?",
+            "nextDialogs": [
+              "60160211"
+            ]
+          },
+          "60160211": {
+            "id": "60160211",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Ugh. You're such a greenhorn. This isn't the kind of formula you solve in math class. It's a highly complex algorithm capable of constructing a framework of rules.",
+            "nextDialogs": [
+              "60160212"
+            ]
+          },
+          "60160212": {
+            "id": "60160212",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "...Whatever. We'll be here all day if I start trying to explain it. All you need to know is, the formula must be completed before we can bring Columbina back.",
+            "nextDialogs": [
+              "60160213"
+            ]
+          },
+          "60160213": {
+            "id": "60160213",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Got it.",
+            "nextDialogs": [
+              "60160214"
+            ]
+          },
+          "60160214": {
+            "id": "60160214",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "I'll share the data with you. Nicole's agreed to let me use her information channel, so we just need to use the Dodocommunication Device like so, and...",
+            "nextDialogs": [
+              "60160215"
+            ]
+          },
+          "60160215": {
+            "id": "60160215",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "There. Now you can check in on my progress.",
+            "nextDialogs": [
+              "60160216"
+            ]
+          },
+          "60160216": {
+            "id": "60160216",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, look at that! You're amazing, Sandrone!",
+            "nextDialogs": [
+              "60160217"
+            ]
+          },
+          "60160217": {
+            "id": "60160217",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Pfft, about time you recognized my genius! Took you long enough! Hahaha.",
+            "nextDialogs": [
+              "60160218"
+            ]
+          },
+          "60160218": {
+            "id": "60160218",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Anyway, that's all from me. You should check on the others if you have time — make sure we don't have any weak links in the chain.",
+            "nextDialogs": [
+              "60160219"
+            ]
+          },
+          "60160219": {
+            "id": "60160219",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "That might sound harsh to you, but close supervision is a common practice in the Fatui. Not looking to catch anyone out — I just care about everything going smoothly, that's all.",
+            "nextDialogs": [
+              "60160220"
+            ]
+          },
+          "60160220": {
+            "id": "60160220",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "I'm kinda stuck here while the formula's running, so I need you to be my second pair of eyes in the meantime."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601603",
+      "subQuestName": "Talk to your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160301"
+        ],
+        "dialogs": {
+          "60160301": {
+            "id": "60160301",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "#{NICKNAME}, Paimon. A pleasure to see you both.",
+            "nextDialogs": [
+              "60160302"
+            ]
+          },
+          "60160302": {
+            "id": "60160302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Flins! How's everything coming along?",
+            "nextDialogs": [
+              "60160303"
+            ]
+          },
+          "60160303": {
+            "id": "60160303",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Fairly well, if I do say so myself. Personally, I am ready to confront Dottore head-on.",
+            "nextDialogs": [
+              "60160304"
+            ]
+          },
+          "60160304": {
+            "id": "60160304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, you sound much more serious than usual.",
+            "nextDialogs": [
+              "60160305"
+            ]
+          },
+          "60160305": {
+            "id": "60160305",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "To be honest, I am not usually fond of exercising my full strength. For one thing, it's hardly conducive to maintaining a low profile. Besides, I believe one should have the right to choose when to show their hand.",
+            "nextDialogs": [
+              "60160306"
+            ]
+          },
+          "60160306": {
+            "id": "60160306",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I am conserving my strength until the moment of battle is upon us. Anything to boost our chances of victory.",
+            "nextDialogs": [
+              "60160307"
+            ]
+          },
+          "60160307": {
+            "id": "60160307",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Seeing you get in the zone like this really puts Paimon at ease. Huh, {NICKNAME}?",
+            "nextDialogs": [
+              "60160310"
+            ]
+          },
+          "60160310": {
+            "id": "60160310",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I consider it an honor to have your trust.",
+            "nextDialogs": [
+              "60160311"
+            ]
+          },
+          "60160311": {
+            "id": "60160311",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Rest well. I look forward to seeing you both in your element during the battle."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601604",
+      "subQuestName": "Talk to your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160401"
+        ],
+        "dialogs": {
+          "60160401": {
+            "id": "60160401",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Yes, Miss Moonchanter? What are you staring at?",
+            "nextDialogs": [
+              "60160402"
+            ]
+          },
+          "60160402": {
+            "id": "60160402",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "You always address me in the strangest ways. \"Lady Moonchanter\" one minute, \"Miss Moonchanter\" the next...",
+            "nextDialogs": [
+              "60160403"
+            ]
+          },
+          "60160403": {
+            "id": "60160403",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Yes, and? Are either of those incorrect?",
+            "nextDialogs": [
+              "60160404"
+            ]
+          },
+          "60160404": {
+            "id": "60160404",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Not as such. It's just that I simply call you \"Nefer\" nowadays.",
+            "nextDialogs": [
+              "60160405"
+            ]
+          },
+          "60160405": {
+            "id": "60160405",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Uh-huh, that's my name. What's your point?",
+            "nextDialogs": [
+              "60160406"
+            ]
+          },
+          "60160406": {
+            "id": "60160406",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The point is, I don't add any honorifics or titles.",
+            "nextDialogs": [
+              "60160407"
+            ]
+          },
+          "60160407": {
+            "id": "60160407",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Meaning what?",
+            "nextDialogs": [
+              "60160408"
+            ]
+          },
+          "60160408": {
+            "id": "60160408",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "That... maybe we're on friendlier terms now than we used to be.",
+            "nextDialogs": [
+              "60160409"
+            ]
+          },
+          "60160409": {
+            "id": "60160409",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Is that how you see it? And I thought I was the one with eye damage.",
+            "nextDialogs": [
+              "60160410"
+            ]
+          },
+          "60160410": {
+            "id": "60160410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Nefer! Lauma!",
+            "nextDialogs": [
+              "60160411"
+            ]
+          },
+          "60160411": {
+            "id": "60160411",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "#Paimon. {NICKNAME}.",
+            "nextDialogs": [
+              "60160412"
+            ]
+          },
+          "60160412": {
+            "id": "60160412",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just swinging by to check in on you! How are things going? Did you manage to get some rest?",
+            "nextDialogs": [
+              "60160413"
+            ]
+          },
+          "60160413": {
+            "id": "60160413",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Don't worry about me. I won't slow us down.",
+            "nextDialogs": [
+              "60160414"
+            ]
+          },
+          "60160414": {
+            "id": "60160414",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And I give my all to ensure our victory.",
+            "nextDialogs": [
+              "60160415"
+            ]
+          },
+          "60160415": {
+            "id": "60160415",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Ah, yes. Allow me to give you two a quick checkup...",
+            "nextDialogs": [
+              "60160416"
+            ]
+          },
+          "60160416": {
+            "id": "60160416",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...All done. You're both in good shape.",
+            "nextDialogs": [
+              "60160419"
+            ]
+          },
+          "60160419": {
+            "id": "60160419",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "You're welcome. You'll have your work cut out for you in this battle against Dottore, so make sure to get some rest in first.",
+            "nextDialogs": [
+              "60160420"
+            ]
+          },
+          "60160420": {
+            "id": "60160420",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon will keep an eye on {M#him}{F#her}, don't you worry!",
+            "nextDialogs": [
+              "60160421"
+            ]
+          },
+          "60160421": {
+            "id": "60160421",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I'm glad to hear it. Take good care of yourself too, Paimon.",
+            "nextDialogs": [
+              "60160422"
+            ]
+          },
+          "60160422": {
+            "id": "60160422",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sure thing!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601605",
+      "subQuestName": "Talk to your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160501"
+        ],
+        "dialogs": {
+          "60160501": {
+            "id": "60160501",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Thankfully, Miss Nicole has come to our aid. Nasha Town is now looking very well defended!",
+            "nextDialogs": [
+              "60160502"
+            ]
+          },
+          "60160502": {
+            "id": "60160502",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Golden flame... Yes, that's Nicole's power, alright.",
+            "nextDialogs": [
+              "60160503"
+            ]
+          },
+          "60160503": {
+            "id": "60160503",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Based on the latest message from Grand Master Varka, it sounds like they've reached an agreement.",
+            "nextDialogs": [
+              "60160504"
+            ]
+          },
+          "60160504": {
+            "id": "60160504",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "The situation should be more stable with her assistance. Everyone will have at least some degree of protection.",
+            "nextDialogs": [
+              "60160505"
+            ]
+          },
+          "60160505": {
+            "id": "60160505",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Albedo, Durin!",
+            "nextDialogs": [
+              "60160506"
+            ]
+          },
+          "60160506": {
+            "id": "60160506",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Hello there, you two!",
+            "nextDialogs": [
+              "60160507"
+            ]
+          },
+          "60160507": {
+            "id": "60160507",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Are you well-rested?",
+            "nextDialogs": [
+              "60160508"
+            ]
+          },
+          "60160508": {
+            "id": "60160508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thanks for your concern. I'm doing alright.",
+            "nextDialogs": [
+              "60160509"
+            ]
+          },
+          "60160509": {
+            "id": "60160509",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "That's good to hear.",
+            "nextDialogs": [
+              "60160510"
+            ]
+          },
+          "60160510": {
+            "id": "60160510",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "As per the plan, Albedo and I will be in charge of Nasha Town.",
+            "nextDialogs": [
+              "60160511"
+            ]
+          },
+          "60160511": {
+            "id": "60160511",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "As Dottore's energy field expands, it's creeping ever closer in that direction... but we will do our best to hold our position.",
+            "nextDialogs": [
+              "60160512"
+            ]
+          },
+          "60160512": {
+            "id": "60160512",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "We've fought side-by-side many times before, and always with great success.",
+            "nextDialogs": [
+              "60160513"
+            ]
+          },
+          "60160513": {
+            "id": "60160513",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I believe this time will be no different. So don't worry about us — focus on fighting Dottore."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601606",
+      "subQuestName": "Talk to your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601607",
+      "subQuestName": "Defeat the opponent(s) before you",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160701"
+        ],
+        "dialogs": {
+          "60160701": {
+            "id": "60160701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...!)",
+            "nextDialogs": [
+              "60160702"
+            ]
+          },
+          "60160702": {
+            "id": "60160702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Hostiles incoming... Are these The Doctor's minions?)",
+            "nextDialogs": [
+              "60160703"
+            ]
+          },
+          "60160703": {
+            "id": "60160703",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Here they come. That's quite a horde.",
+            "nextDialogs": [
+              "60160704"
+            ]
+          },
+          "60160704": {
+            "id": "60160704",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "As we expected.",
+            "nextDialogs": [
+              "60160705"
+            ]
+          },
+          "60160705": {
+            "id": "60160705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Get ready, everyone!",
+            "nextDialogs": [
+              "60160706"
+            ]
+          },
+          "60160706": {
+            "id": "60160706",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Take your positions and prepare to engage!",
+            "nextDialogs": [
+              "60160707"
+            ]
+          },
+          "60160707": {
+            "id": "60160707",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Let's begin.",
+            "nextDialogs": [
+              "60160708"
+            ]
+          },
+          "60160708": {
+            "id": "60160708",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "I'm at the ready!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601608",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601609",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60160901"
+        ],
+        "dialogs": {
+          "60160901": {
+            "id": "60160901",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "601610",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601611",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60161101"
+        ],
+        "dialogs": {
+          "60161101": {
+            "id": "60161101",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "601612",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601613",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60161301"
+        ],
+        "dialogs": {
+          "60161301": {
+            "id": "60161301",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "601614",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601615",
+      "subQuestName": "Defend Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60161501"
+        ],
+        "dialogs": {
+          "60161501": {
+            "id": "60161501",
+            "speakerId": 12695,
+            "speakerName": "The Doctor",
+            "text": "You're looking well. I trust you've had a good couple of days?",
+            "nextDialogs": [
+              "60161502"
+            ]
+          },
+          "60161502": {
+            "id": "60161502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Dottore!",
+            "nextDialogs": [
+              "60161503"
+            ]
+          },
+          "60161503": {
+            "id": "60161503",
+            "speakerId": 12695,
+            "speakerName": "The Doctor",
+            "text": "It's actually a good thing, in my view. If the subjects of my experiment were to die prematurely, it would throw quite a wrench in the works.",
+            "nextDialogs": [
+              "60161504"
+            ]
+          },
+          "60161504": {
+            "id": "60161504",
+            "speakerId": 12695,
+            "speakerName": "The Doctor",
+            "text": "And so, I must thank you all for your resilience.",
+            "nextDialogs": [
+              "60161505"
+            ]
+          },
+          "60161505": {
+            "id": "60161505",
+            "speakerId": 12695,
+            "speakerName": "The Doctor",
+            "text": "We are no longer on the same level, but you are nonetheless worthy of my respect. A creator-god should be merciful and gracious, after all.",
+            "nextDialogs": [
+              "60161506"
+            ]
+          },
+          "60161506": {
+            "id": "60161506",
+            "speakerId": 12695,
+            "speakerName": "The Doctor",
+            "text": "And in any case, it is only right that, before I end your lives, the world is informed of the arrival of their new god."
+          }
+        }
+      }
+    },
+    {
+      "subId": "601616",
+      "subQuestName": "Return to the battle",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601617",
+      "subQuestName": "Fight The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601618",
+      "subQuestName": "Fight The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601628",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60161901"
+        ],
+        "dialogs": {
+          "60161901": {
+            "id": "60161901",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "I'm aware you've been working on some little tricks to surprise me with, but it appears that none of them have come to fruition.",
+            "nextDialogs": [
+              "60161902"
+            ]
+          },
+          "60161902": {
+            "id": "60161902",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "My guess would be that you're trying to bring Columbina back. But then, where is Sandrone? Or are you trying to buy time for her?",
+            "nextDialogs": [
+              "60161903"
+            ]
+          },
+          "60161903": {
+            "id": "60161903",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Heh... I always found their friendship to be a curious phenomenon. Two highly incongruent personalities, and yet they share a deep connection.",
+            "nextDialogs": [
+              "60161904"
+            ]
+          },
+          "60161904": {
+            "id": "60161904",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Speaking of Columbina, I once saw her as like a younger sister. We got along quite amicably while she was with the Fatui.",
+            "nextDialogs": [
+              "60161905"
+            ]
+          },
+          "60161905": {
+            "id": "60161905",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "But then one day, she suddenly decided she would refuse to take part in any further experiments. To this day, I truly don't understand what I could have done to upset her so much.",
+            "nextDialogs": [
+              "60161906"
+            ]
+          },
+          "60161906": {
+            "id": "60161906",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "It's such a pity. I could have had a sister, a family... But alas, she grew to dislike me...",
+            "nextDialogs": [
+              "60161907"
+            ]
+          },
+          "60161907": {
+            "id": "60161907",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You're not fit to be family to her.",
+            "nextDialogs": [
+              "60161908"
+            ]
+          },
+          "60161908": {
+            "id": "60161908",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "That, I can't deny.",
+            "nextDialogs": [
+              "60161909"
+            ]
+          },
+          "60161909": {
+            "id": "60161909",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "So many people, all obsessed with playing out the same tired old dramas. This world is rotten to the core.",
+            "nextDialogs": [
+              "60161910"
+            ]
+          },
+          "60161910": {
+            "id": "60161910",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "And then there's you... You had every opportunity to reach the right conclusion. The thought of killing you off like this... Hehe.",
+            "nextDialogs": [
+              "60161911"
+            ]
+          },
+          "60161911": {
+            "id": "60161911",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "But I maintain that I approached you in good faith. So I will offer you another chance. Will you work with me? You have until I count to ten to make your choice.",
+            "nextDialogs": [
+              "60161912"
+            ]
+          },
+          "60161912": {
+            "id": "60161912",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "One. Two. Three...",
+            "nextDialogs": [
+              "60161913"
+            ]
+          },
+          "60161913": {
+            "id": "60161913",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Not in a million years!)",
+            "nextDialogs": [
+              "60161914"
+            ]
+          },
+          "60161914": {
+            "id": "60161914",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "...",
+            "nextDialogs": [
+              "60161915"
+            ]
+          },
+          "60161915": {
+            "id": "60161915",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Sandrone? What a pleasant surprise. I didn't think you'd join us all the way up here.",
+            "nextDialogs": [
+              "60161916"
+            ]
+          },
+          "60161916": {
+            "id": "60161916",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "You're as sick and twisted as ever. Don't fool yourself into thinking anyone's grateful for the chances you're offering them.",
+            "nextDialogs": [
+              "60161944"
+            ]
+          },
+          "60161944": {
+            "id": "60161944",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Sandrone? But the formula hasn't finished running yet...)",
+            "nextDialogs": [
+              "60161917"
+            ]
+          },
+          "60161917": {
+            "id": "60161917",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "#Funnily enough, I was just discussing a collaboration opportunity with {NICKNAME}. And then I see you... who, I must say, is a good example of an opportunity gone to waste.",
+            "nextDialogs": [
+              "60161918"
+            ]
+          },
+          "60161918": {
+            "id": "60161918",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Gone to waste?",
+            "nextDialogs": [
+              "60161919"
+            ]
+          },
+          "60161919": {
+            "id": "60161919",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "I said that everyone would get one chance. And you've used yours to march right back into the lion's den... So yes, it's an utterly wasted opportunity.",
+            "nextDialogs": [
+              "60161920"
+            ]
+          },
+          "60161920": {
+            "id": "60161920",
+            "speakerId": 1319,
+            "speakerName": "Marionette",
+            "text": "Hah! And what makes you think I believe a word that comes out of your mouth?",
+            "nextDialogs": [
+              "60161921"
+            ]
+          },
+          "60161921": {
+            "id": "60161921",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "I was planning on disposing of your little formula after wrapping up more urgent business here. But since you've taken the trouble of serving it to me on a silver platter, I can simply bring it forward in the schedule.",
+            "nextDialogs": [
+              "60161922"
+            ]
+          },
+          "60161922": {
+            "id": "60161922",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "CS",
+            "nextDialogs": [
+              "60161923"
+            ]
+          },
+          "60161923": {
+            "id": "60161923",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sandrone...!",
+            "nextDialogs": [
+              "60161924"
+            ]
+          },
+          "60161924": {
+            "id": "60161924",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Now you see how fragile mechanical contraptions are. Just a gentle tap... and they fall to pieces.",
+            "nextDialogs": [
+              "60161925"
+            ]
+          },
+          "60161925": {
+            "id": "60161925",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "However keen of an inventor Sandrone may have been, her death spells the end of the formula that was running inside her body.",
+            "nextDialogs": [
+              "60161926"
+            ]
+          },
+          "60161926": {
+            "id": "60161926",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Of course, I have to commend her for making it this far. As her colleague, I have to admire her stubborn tenacity.",
+            "nextDialogs": [
+              "60161927"
+            ]
+          },
+          "60161927": {
+            "id": "60161927",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Now, it is time for you to take your place by my side.",
+            "nextDialogs": [
+              "60161928"
+            ]
+          },
+          "60161928": {
+            "id": "60161928",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "60161929"
+            ]
+          },
+          "60161929": {
+            "id": "60161929",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "My count was interrupted, but the second chance I extended to you still stands. Once again — you are welcome to join me.",
+            "nextDialogs": [
+              "60161930"
+            ]
+          },
+          "60161930": {
+            "id": "60161930",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "By now, I'm sure you have gained a greater appreciation for the power and authority I wield. What is stopping you from embracing a new world of endless possibilities?",
+            "nextDialogs": [
+              "60161931"
+            ]
+          },
+          "60161931": {
+            "id": "60161931",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "60161932"
+            ]
+          },
+          "60161932": {
+            "id": "60161932",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Not in the mood to talk? As you wish. You seem less talkative than usual today.",
+            "nextDialogs": [
+              "60161933"
+            ]
+          },
+          "60161933": {
+            "id": "60161933",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "I'll change the topic to something more... apropos. Sandrone was always like this. Never trusting anyone, always so reluctant to share her research with them.",
+            "nextDialogs": [
+              "60161934"
+            ]
+          },
+          "60161934": {
+            "id": "60161934",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Objectively speaking, she had her strengths. It is remarkable how she extracted and even optimized the world-formula from so much data.",
+            "nextDialogs": [
+              "60161935"
+            ]
+          },
+          "60161935": {
+            "id": "60161935",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "But her inability to trust was her undoing. Had she allowed someone else to monitor or run the formula for her, you might still have a chance at victory even now.",
+            "nextDialogs": [
+              "60161936"
+            ]
+          },
+          "60161936": {
+            "id": "60161936",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "But regrettably, she was a stubborn fool. As much as it pains me, she had to go.",
+            "nextDialogs": [
+              "60161937"
+            ]
+          },
+          "60161937": {
+            "id": "60161937",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Dottore.",
+            "nextDialogs": [
+              "60161938"
+            ]
+          },
+          "60161938": {
+            "id": "60161938",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Maybe this is news to you, but people can change. Columbina surprised you when she escaped... And I think Sandrone would surprise you, too.",
+            "nextDialogs": [
+              "60161939"
+            ]
+          },
+          "60161939": {
+            "id": "60161939",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Change?",
+            "nextDialogs": [
+              "60161940"
+            ]
+          },
+          "60161940": {
+            "id": "60161940",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You can twist the truth however you want, but I see it, clear as day: You're the one who can't trust other people.",
+            "nextDialogs": [
+              "60161941"
+            ]
+          },
+          "60161941": {
+            "id": "60161941",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "Is that how you see me?",
+            "nextDialogs": [
+              "60161942"
+            ]
+          },
+          "60161942": {
+            "id": "60161942",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "60161943"
+            ]
+          },
+          "60161943": {
+            "id": "60161943",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "By this point, what can you hope to do about it?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601619",
+      "subQuestName": "Talk to The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601620",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601629",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601621",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601626",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601627",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601630",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601631",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "601622",
+      "subQuestName": "Defeat The Doctor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600399",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60039904"
+        ],
+        "dialogs": {
+          "60039904": {
+            "id": "60039904",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "My apologies. I had not intended to take your teammates from you.",
+            "nextDialogs": [
+              "60039905"
+            ]
+          },
+          "60039905": {
+            "id": "60039905",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "But you have a choice in the matter. Obey, and I can release them.",
+            "nextDialogs": [
+              "60039906"
+            ]
+          },
+          "60039906": {
+            "id": "60039906",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "An excellent deal, if you ask me. Won't you consider it?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "601699",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60169901"
+        ],
+        "dialogs": {
+          "60169901": {
+            "id": "60169901",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Oh... I've been moved inside another space, and it's sealed off.",
+            "nextDialogs": [
+              "60169902"
+            ]
+          },
+          "60169902": {
+            "id": "60169902",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Looking at the structure of it... It seems like Dottore intends to trap us here.",
+            "nextDialogs": [
+              "60169903"
+            ]
+          },
+          "60169903": {
+            "id": "60169903",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "There's no exit. Our endurance is about to be put to the test.",
+            "nextDialogs": [
+              "60169904"
+            ]
+          },
+          "60169904": {
+            "id": "60169904",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Looks like Dottore has opted for a divide and conquer strategy...",
+            "nextDialogs": [
+              "60169905"
+            ]
+          },
+          "60169905": {
+            "id": "60169905",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "But we will not allow him to triumph.",
+            "nextDialogs": [
+              "60169906"
+            ]
+          },
+          "60169906": {
+            "id": "60169906",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Now, I shall pray for our victory.",
+            "nextDialogs": [
+              "60169907"
+            ]
+          },
+          "60169907": {
+            "id": "60169907",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "What's this supposed to be? A knockoff version of the space Columbina got trapped in?",
+            "nextDialogs": [
+              "60169908"
+            ]
+          },
+          "60169908": {
+            "id": "60169908",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Huh... There really is no way out...",
+            "nextDialogs": [
+              "60169909"
+            ]
+          },
+          "60169909": {
+            "id": "60169909",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "We'll see about that, Dottore.",
+            "nextDialogs": [
+              "60169910"
+            ]
+          },
+          "60169910": {
+            "id": "60169910",
+            "speakerId": 16252,
+            "speakerName": "Columbina",
+            "text": "I grant you the new moon's blessing.",
+            "nextDialogs": [
+              "60169911"
+            ]
+          },
+          "60169911": {
+            "id": "60169911",
+            "speakerId": 16252,
+            "speakerName": "Columbina",
+            "text": "The new moon shines upon you.",
+            "nextDialogs": [
+              "60169912"
+            ]
+          },
+          "60169912": {
+            "id": "60169912",
+            "speakerId": 16700,
+            "speakerName": "Il Dottore",
+            "text": "I am growing weary of your stubborn resistance..."
+          }
+        }
+      }
+    }
+  ]
+}

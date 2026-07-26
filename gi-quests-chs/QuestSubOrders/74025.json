@@ -1,0 +1,5674 @@
+{
+  "lineCounts": {
+    "Black Screen": 30,
+    "Player": 192,
+    "克兰茨": 3,
+    "卡特皮拉": 121,
+    "嘉维娅": 2,
+    "嘉维娜": 2,
+    "埃尔瓦德": 10,
+    "埃纳夫": 14,
+    "富尔蒙": 3,
+    "尼扎米": 3,
+    "布兰": 11,
+    "布瓦列特": 8,
+    "德拉索": 5,
+    "格内薇芙": 25,
+    "梅亚": 3,
+    "派蒙": 203,
+    "艾蒂安": 39,
+    "莉诺尔": 113,
+    "莫莱妮": 11,
+    "诺瓦勒斯": 34,
+    "达希": 45,
+    "雷维": 42,
+    "？？？": 10
+  },
+  "subQuests": [
+    {
+      "subId": "7402501",
+      "subQuestName": "(test)探照灯挑战失败$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402552",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255201"
+        ],
+        "dialogs": {
+          "740255201": {
+            "id": "740255201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "监舍区发信室。",
+            "nextDialogs": [
+              "740255202"
+            ]
+          },
+          "740255202": {
+            "id": "740255202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402503",
+      "subQuestName": "(test)通过裂隙进入监狱$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402504",
+      "subQuestName": "与嘉维娜对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250401"
+        ],
+        "dialogs": {
+          "740250401": {
+            "id": "740250401",
+            "speakerId": 5213,
+            "speakerName": "嘉维娜",
+            "text": "我就知道，这里的问题一天不解决，像你们这样的家伙就会层出不穷。克兰茨那个混蛋，就不能快点想想办法吗…",
+            "nextDialogs": [
+              "740250402"
+            ]
+          },
+          "740250402": {
+            "id": "740250402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等一等，我们是…",
+            "nextDialogs": [
+              "740250403"
+            ]
+          },
+          "740250403": {
+            "id": "740250403",
+            "speakerId": 5213,
+            "speakerName": "嘉维娜",
+            "text": "好啦，什么程序文件之类的问题别跟我说，我解决不了。去找莫莱妮吧，她才是负责这些的人。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402553",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255301"
+        ],
+        "dialogs": {
+          "740255301": {
+            "id": "740255301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "破烂骨头商店。",
+            "nextDialogs": [
+              "740255302"
+            ]
+          },
+          "740255302": {
+            "id": "740255302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402502",
+      "subQuestName": "向莫莱妮询问情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250201"
+        ],
+        "dialogs": {
+          "740250201": {
+            "id": "740250201",
+            "speakerId": 5202,
+            "speakerName": "莫莱妮",
+            "text": "名字。",
+            "nextDialogs": [
+              "740250203",
+              "740250206"
+            ]
+          },
+          "740250203": {
+            "id": "740250203",
+            "speakerId": 5202,
+            "speakerName": "莫莱妮",
+            "text": "我是梅洛彼得堡接待员，大家都叫我莫莱妮。好了，轮到你们了。",
+            "nextDialogs": [
+              "740250204"
+            ]
+          },
+          "740250204": {
+            "id": "740250204",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#呃，我是派蒙，{M#他}{F#她}是{NICKNAME}…",
+            "nextDialogs": [
+              "740250207"
+            ]
+          },
+          "740250207": {
+            "id": "740250207",
+            "speakerId": 5202,
+            "speakerName": "莫莱妮",
+            "text": "#{NICKNAME}和派蒙…没听过的名字，梅洛彼得堡有这两个人吗？"
+          },
+          "740250206": {
+            "id": "740250206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "叫我派蒙吧…咳咳，故意压低嗓子说话结果听起来一点也不深沉，而且好怪！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402505",
+      "subQuestName": "向莫莱妮询问情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402506",
+      "subQuestName": "与达希对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258301"
+        ],
+        "dialogs": {
+          "740258301": {
+            "id": "740258301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还等什么？我们走吧！",
+            "nextDialogs": [
+              "740258302"
+            ]
+          },
+          "740258302": {
+            "id": "740258302",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "我们走！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402507",
+      "subQuestName": "与达希对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258501"
+        ],
+        "dialogs": {
+          "740258501": {
+            "id": "740258501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好啊，那我们走吧。",
+            "nextDialogs": [
+              "740258502"
+            ]
+          },
+          "740258502": {
+            "id": "740258502",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "出发！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402508",
+      "subQuestName": "和达希一起去见艾蒂安",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250801"
+        ],
+        "dialogs": {
+          "740250801": {
+            "id": "740250801",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "怎么样，要现在跟我一起去找艾蒂安吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402509",
+      "subQuestName": "与艾蒂安对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250901"
+        ],
+        "dialogs": {
+          "740250901": {
+            "id": "740250901",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "艾蒂安，你好呀，我带了两个新朋友过来。",
+            "nextDialogs": [
+              "740250902"
+            ]
+          },
+          "740250902": {
+            "id": "740250902",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "新朋友可能来的不是时候，你瞧，他们那边还得吵一会儿呢。",
+            "nextDialogs": [
+              "740250903"
+            ]
+          },
+          "740250903": {
+            "id": "740250903",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "…不是科学的记分方式，而且，对于参与者也缺少监管，这样的结果能够让人信服吗？我认为应该重新评估。",
+            "nextDialogs": [
+              "740250904"
+            ]
+          },
+          "740250904": {
+            "id": "740250904",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "既然是竞争，当然要机制完善、规则公平才好。对于不遵守规则的参与者，应该取消参与资格。",
+            "nextDialogs": [
+              "740250905"
+            ]
+          },
+          "740250905": {
+            "id": "740250905",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "说得头头是道，不愧是吃过亏的人。",
+            "nextDialogs": [
+              "740250906"
+            ]
+          },
+          "740250906": {
+            "id": "740250906",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "如果你是在说论文造假的案子，我已经重申过多次，那个案子还在调查中。你想用这点来攻击我是没有意义的。",
+            "nextDialogs": [
+              "740250907"
+            ]
+          },
+          "740250907": {
+            "id": "740250907",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "你说是那就是吧，毕竟实情如何只有你自己知道。",
+            "nextDialogs": [
+              "740250908"
+            ]
+          },
+          "740250908": {
+            "id": "740250908",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "哎哟，又是格内薇芙和雷维他们俩，那我的事就之后再说吧，先走一步…两位新朋友就拜托你了！",
+            "nextDialogs": [
+              "740250909"
+            ]
+          },
+          "740250909": {
+            "id": "740250909",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "达希快步离开了…",
+            "nextDialogs": [
+              "740250910"
+            ]
+          },
+          "740250910": {
+            "id": "740250910",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "居然扔下我们不管了…哪有这样当向导的，我要给他打零分！零分！",
+            "nextDialogs": [
+              "740250911"
+            ]
+          },
+          "740250911": {
+            "id": "740250911",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "看守阁下，这是关乎规则的讨论，您作为主办者，不应该置身事外吧？",
+            "nextDialogs": [
+              "740250912"
+            ]
+          },
+          "740250912": {
+            "id": "740250912",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "哈哈，不过是打发时间的游戏罢了，我也没想到大家参与热情会这么高…还有这么较真的参与者。",
+            "nextDialogs": [
+              "740250913"
+            ]
+          },
+          "740250913": {
+            "id": "740250913",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "对了，不如我们向新的参加者介绍一下游戏规则吧。",
+            "nextDialogs": [
+              "740250915",
+              "740250917"
+            ]
+          },
+          "740250915": {
+            "id": "740250915",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哼哼，没有我俩赢不了的游戏！等一下，我们还不知道游戏内容呢…",
+            "nextDialogs": [
+              "740250918"
+            ]
+          },
+          "740250918": {
+            "id": "740250918",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "别想转移话题！游戏已经到了中盘，却连最基本的规则也模糊不清，我无法认同。",
+            "nextDialogs": [
+              "740250919"
+            ]
+          },
+          "740250919": {
+            "id": "740250919",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "所以你们到底在玩什么？",
+            "nextDialogs": [
+              "740250920"
+            ]
+          },
+          "740250920": {
+            "id": "740250920",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "特许券大富翁。",
+            "nextDialogs": [
+              "740250921"
+            ]
+          },
+          "740250921": {
+            "id": "740250921",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "从来没听过这种游戏…",
+            "nextDialogs": [
+              "740250922"
+            ]
+          },
+          "740250922": {
+            "id": "740250922",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "那当然了，这是无良看守消遣我们的游戏。所有的参与者都是输家，至于谁赢了，你们应该能想到吧。",
+            "nextDialogs": [
+              "740250923"
+            ]
+          },
+          "740250923": {
+            "id": "740250923",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "哪里的话，各位在游戏过程中靠自己的劳动获得了特许券，而我也为赚得最多特许券的赢家准备了比特许券更珍贵的奖品。",
+            "nextDialogs": [
+              "740250924"
+            ]
+          },
+          "740250924": {
+            "id": "740250924",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "应该说，所有人都是赢家，只是有人赢得更多，对吧？",
+            "nextDialogs": [
+              "740250925"
+            ]
+          },
+          "740250925": {
+            "id": "740250925",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "比特许券更珍贵的奖品…那是什么呀？",
+            "nextDialogs": [
+              "740250926"
+            ]
+          },
+          "740250926": {
+            "id": "740250926",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "如果用达希的话来说就是，晒太阳的机会？因为有些常规的检查工作需要在外边进行，而我有权决定由谁来完成这些工作。",
+            "nextDialogs": [
+              "740250927"
+            ]
+          },
+          "740250927": {
+            "id": "740250927",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "如果只是凭我个人的喜好来决定人选，不就太没趣了吗？",
+            "nextDialogs": [
+              "740250928"
+            ]
+          },
+          "740250928": {
+            "id": "740250928",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "所以就有了这个特许券大富翁的游戏，想获得外出机会的人可以自由参加，在期限内获得最多特许券的玩家就是胜者。",
+            "nextDialogs": [
+              "740250929"
+            ]
+          },
+          "740250929": {
+            "id": "740250929",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "如果觉得一个人势单力薄，几个人组成团体也是可以的。至于赚取特许券的手段嘛，我是不会过问的。",
+            "nextDialogs": [
+              "740250930"
+            ]
+          },
+          "740250930": {
+            "id": "740250930",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "作为游戏来说，它的规则太过模糊了。",
+            "nextDialogs": [
+              "740250931"
+            ]
+          },
+          "740250931": {
+            "id": "740250931",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "这也算是策略的一部分吧。枫丹科学院真的没有类似的「游戏」吗？",
+            "nextDialogs": [
+              "740250932"
+            ]
+          },
+          "740250932": {
+            "id": "740250932",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "……",
+            "nextDialogs": [
+              "740250933"
+            ]
+          },
+          "740250933": {
+            "id": "740250933",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "那么，达希的两位新朋友，有兴趣参与吗？"
+          },
+          "740250917": {
+            "id": "740250917",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对啊，我们都还不知道游戏的内容呢。要是大胃王比赛，我肯定参加！如果是什么又辛苦奖励又少的游戏…那还是算了吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402510",
+      "subQuestName": "与小女孩对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259501"
+        ],
+        "dialogs": {
+          "740259501": {
+            "id": "740259501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "出发！",
+            "nextDialogs": [
+              "740259502"
+            ]
+          },
+          "740259502": {
+            "id": "740259502",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "嘿嘿，我们出发！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402551",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255101"
+        ],
+        "dialogs": {
+          "740255101": {
+            "id": "740255101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "通向海蚀裂隙的入口。",
+            "nextDialogs": [
+              "740255102"
+            ]
+          },
+          "740255102": {
+            "id": "740255102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402511",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251101"
+        ],
+        "dialogs": {
+          "740251101": {
+            "id": "740251101",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{M#哥哥姐姐}{F#姐姐们}，准备好出发了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402512",
+      "subQuestName": "击打拳击桩",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402548",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402513",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402514",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251401"
+        ],
+        "dialogs": {
+          "740251401": {
+            "id": "740251401",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "哎呀！",
+            "nextDialogs": [
+              "740251402"
+            ]
+          },
+          "740251402": {
+            "id": "740251402",
+            "speakerId": 5252,
+            "speakerName": "克兰茨",
+            "text": "抱歉抱歉！你们没事吧？",
+            "nextDialogs": [
+              "740251403"
+            ]
+          },
+          "740251403": {
+            "id": "740251403",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "吓死我了，怎么回事？",
+            "nextDialogs": [
+              "740251404"
+            ]
+          },
+          "740251404": {
+            "id": "740251404",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "是坏巫师的魔法！被照到的话会被抓走的！",
+            "nextDialogs": [
+              "740251405"
+            ]
+          },
+          "740251405": {
+            "id": "740251405",
+            "speakerId": 5214,
+            "speakerName": "嘉维娅",
+            "text": "莉诺尔，还有两位，真是对不起。探照灯故障了，专家的修理技术又不如他自己嘴上说的那么好…",
+            "nextDialogs": [
+              "740251406"
+            ]
+          },
+          "740251406": {
+            "id": "740251406",
+            "speakerId": 5252,
+            "speakerName": "克兰茨",
+            "text": "我根本没说过吧…",
+            "nextDialogs": [
+              "740251407"
+            ]
+          },
+          "740251407": {
+            "id": "740251407",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "唔，原来是巫师姐姐，巫师姐姐是好巫师，所以没关系。",
+            "nextDialogs": [
+              "740251408"
+            ]
+          },
+          "740251408": {
+            "id": "740251408",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "不过照得眼睛好痛…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402542",
+      "subQuestName": "(test)对话中关灯$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740254201"
+        ],
+        "dialogs": {
+          "740254201": {
+            "id": "740254201",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "抱歉，耽搁了一些时间，关于之前说的获取特许券的手段…",
+            "nextDialogs": [
+              "740254202"
+            ]
+          },
+          "740254202": {
+            "id": "740254202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你对他做了什么？",
+            "nextDialogs": [
+              "740254203"
+            ]
+          },
+          "740254203": {
+            "id": "740254203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看他之前一直气势汹汹的样子，不像是会听人劝的类型呢。怎么刚才放弃得这么干脆…",
+            "nextDialogs": [
+              "740254204"
+            ]
+          },
+          "740254204": {
+            "id": "740254204",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "只是一些小把戏。",
+            "nextDialogs": [
+              "740254205"
+            ]
+          },
+          "740254205": {
+            "id": "740254205",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "「负罪之人在他应在的地方。」这事实确凿无疑。",
+            "nextDialogs": [
+              "740254206"
+            ]
+          },
+          "740254206": {
+            "id": "740254206",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "那么，让像他那样耿直的人「确信」一件确凿无疑的事实，并不是难事吧。",
+            "nextDialogs": [
+              "740254207"
+            ]
+          },
+          "740254207": {
+            "id": "740254207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "就像于连那时一样？",
+            "nextDialogs": [
+              "740254208"
+            ]
+          },
+          "740254208": {
+            "id": "740254208",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "是的。就像于连那时一样。",
+            "nextDialogs": [
+              "740254209"
+            ]
+          },
+          "740254209": {
+            "id": "740254209",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "你们知道，我在这里待了很久。在一个地方待得久了，自然会学会几个方便的把戏，对于周遭也多少会有一些影响力。",
+            "nextDialogs": [
+              "740254212"
+            ]
+          },
+          "740254212": {
+            "id": "740254212",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "只是简单说几句话就可以改变一个顽固的人的想法，感觉像是魔法一样…我们该不会也在自己不知道的时候被魔法影响了吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402549",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402515",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402516",
+      "subQuestName": "听听「噪音盒子」播放的内容",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251601"
+        ],
+        "dialogs": {
+          "740251601": {
+            "id": "740251601",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "呼，探险该结束了。特许食堂就是我们的终点。",
+            "nextDialogs": [
+              "740251602"
+            ]
+          },
+          "740251602": {
+            "id": "740251602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "所以探险的终点是吃饭。",
+            "nextDialogs": [
+              "740251603"
+            ]
+          },
+          "740251603": {
+            "id": "740251603",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这不是挺好的嘛！探险可是很消耗体力的，消耗这么大，当然就得靠美食来补充能量了。",
+            "nextDialogs": [
+              "740251604"
+            ]
+          },
+          "740251604": {
+            "id": "740251604",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "对呀对呀，说起来，我还没见过派蒙这么小的姐姐呢，比希格雯姐姐还小…派蒙姐姐应该多吃一点，这样才能长大。",
+            "nextDialogs": [
+              "740251606",
+              "740251608"
+            ]
+          },
+          "740251606": {
+            "id": "740251606",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我也觉得！",
+            "nextDialogs": [
+              "740251609"
+            ]
+          },
+          "740251609": {
+            "id": "740251609",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#说起来，{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐有特许券吗？",
+            "nextDialogs": [
+              "740251610"
+            ]
+          },
+          "740251610": {
+            "id": "740251610",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好、好像没有欸…",
+            "nextDialogs": [
+              "740251611"
+            ]
+          },
+          "740251611": {
+            "id": "740251611",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这下没饭吃了，呜呜。",
+            "nextDialogs": [
+              "740251612"
+            ]
+          },
+          "740251612": {
+            "id": "740251612",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "不会的！只要和布兰说，就可以拿到一份福利餐喔。",
+            "nextDialogs": [
+              "740251613"
+            ]
+          },
+          "740251613": {
+            "id": "740251613",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "对了，布兰就是那边的发条机关，听说原本它已经坏掉了不能用了，是韦尔赛叔叔把它修好的。",
+            "nextDialogs": [
+              "740251614"
+            ]
+          },
+          "740251614": {
+            "id": "740251614",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "唔，但是福利餐每人每天只能领一次，而且不知道会拿到什么…如果是好吃的塔塞斯杂烩就太好啦。",
+            "nextDialogs": [
+              "740251615"
+            ]
+          },
+          "740251615": {
+            "id": "740251615",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不知道会拿到什么？为什么不能想吃什么就点什么呢？",
+            "nextDialogs": [
+              "740251616"
+            ]
+          },
+          "740251616": {
+            "id": "740251616",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "韦尔赛叔叔说过，因为是免费的饭嘛，所以「惊喜和风险并存」。如果不想承担任何风险，就得付出特许券。",
+            "nextDialogs": [
+              "740251617"
+            ]
+          },
+          "740251617": {
+            "id": "740251617",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#怎么样，{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐要试试特许食堂的福利餐吗？",
+            "nextDialogs": [
+              "740251618"
+            ]
+          },
+          "740251618": {
+            "id": "740251618",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "试试就试试！我相信自己的运气！而且这可是免费的饭，免费的饭怎么可能难吃。"
+          },
+          "740251608": {
+            "id": "740251608",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你这家伙是不是在想什么很失礼的事…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402550",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255001"
+        ],
+        "dialogs": {
+          "740255001": {
+            "id": "740255001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（卡特皮拉大概是去别处赚取特许券了吧，但是看来他为我们也留下了一些线索…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402517",
+      "subQuestName": "和莉诺尔一起「探险」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251701"
+        ],
+        "dialogs": {
+          "740251701": {
+            "id": "740251701",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "呼，探险该结束了。特许食堂就是我们的终点。",
+            "nextDialogs": [
+              "740251702"
+            ]
+          },
+          "740251702": {
+            "id": "740251702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "所以探险的终点是吃饭。",
+            "nextDialogs": [
+              "740251703"
+            ]
+          },
+          "740251703": {
+            "id": "740251703",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这不是挺好的嘛！探险可是很消耗体力的，消耗这么大，当然就得靠美食来补充能量了。",
+            "nextDialogs": [
+              "740251704"
+            ]
+          },
+          "740251704": {
+            "id": "740251704",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "对呀对呀，说起来，我还没见过派蒙这么小的姐姐呢，比希格雯姐姐还小…派蒙姐姐应该多吃一点，这样才能长大。",
+            "nextDialogs": [
+              "740251706",
+              "740251708"
+            ]
+          },
+          "740251706": {
+            "id": "740251706",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我也觉得！",
+            "nextDialogs": [
+              "740251709"
+            ]
+          },
+          "740251709": {
+            "id": "740251709",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们去找布兰试试运气吧！这次一定要吃到好吃的饭！",
+            "nextDialogs": [
+              "740251710"
+            ]
+          },
+          "740251710": {
+            "id": "740251710",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "嗯！如果能吃到好吃的塔塞斯杂烩就太好啦。"
+          },
+          "740251708": {
+            "id": "740251708",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你这家伙是不是在想什么很失礼的事…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402518",
+      "subQuestName": "和莉诺尔一起在特许食堂用餐",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251801"
+        ],
+        "dialogs": {
+          "740251801": {
+            "id": "740251801",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "你好啊，布兰。",
+            "nextDialogs": [
+              "740251802"
+            ]
+          },
+          "740251802": {
+            "id": "740251802",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "您好，请问有何需要。",
+            "nextDialogs": [
+              "740251804",
+              "740251809",
+              "740251815"
+            ]
+          },
+          "740251804": {
+            "id": "740251804",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "收到。",
+            "nextDialogs": [
+              "740251805"
+            ]
+          },
+          "740251805": {
+            "id": "740251805",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "请慢用。",
+            "nextDialogs": [
+              "740251806"
+            ]
+          },
+          "740251806": {
+            "id": "740251806",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还有我的呢！",
+            "nextDialogs": [
+              "740251807"
+            ]
+          },
+          "740251807": {
+            "id": "740251807",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "请慢用。",
+            "nextDialogs": [
+              "740251820"
+            ]
+          },
+          "740251820": {
+            "id": "740251820",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "也请给我一份。",
+            "nextDialogs": [
+              "740251821"
+            ]
+          },
+          "740251821": {
+            "id": "740251821",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "收到。请慢用。",
+            "nextDialogs": [
+              "740251822"
+            ]
+          },
+          "740251822": {
+            "id": "740251822",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐，我们一起打开吧！三——二——",
+            "nextDialogs": [
+              "740251823"
+            ]
+          },
+          "740251823": {
+            "id": "740251823",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "好欸，是好吃的塔塞斯杂烩！",
+            "nextDialogs": [
+              "740251824"
+            ]
+          },
+          "740251824": {
+            "id": "740251824",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐都拿到了什么呢？"
+          },
+          "740251809": {
+            "id": "740251809",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "否定。根据「梅洛彼得堡特许食堂管理条例」，每人每天限领一份。",
+            "nextDialogs": [
+              "740251810"
+            ]
+          },
+          "740251810": {
+            "id": "740251810",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我帮派蒙也领一份。",
+            "nextDialogs": [
+              "740251811"
+            ]
+          },
+          "740251811": {
+            "id": "740251811",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对，别把我给忘了！",
+            "nextDialogs": [
+              "740251812"
+            ]
+          },
+          "740251812": {
+            "id": "740251812",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "…收到。",
+            "nextDialogs": [
+              "740251813"
+            ]
+          },
+          "740251813": {
+            "id": "740251813",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "请慢用。"
+          },
+          "740251815": {
+            "id": "740251815",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "否定。根据「梅洛彼得堡特许食堂管理条例」，每人每天限领一份。",
+            "nextDialogs": [
+              "740251816"
+            ]
+          },
+          "740251816": {
+            "id": "740251816",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我帮大家领一下…",
+            "nextDialogs": [
+              "740251817"
+            ]
+          },
+          "740251817": {
+            "id": "740251817",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你是想把这里所有人都喂饱吗！我们两个只需要两份就好啦。",
+            "nextDialogs": [
+              "740251818"
+            ]
+          },
+          "740251818": {
+            "id": "740251818",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "…收到。",
+            "nextDialogs": [
+              "740251819"
+            ]
+          },
+          "740251819": {
+            "id": "740251819",
+            "speakerId": 5247,
+            "speakerName": "布兰",
+            "text": "请慢用。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402520",
+      "subQuestName": "和莉诺尔一起前往「破烂骨头商店」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402521",
+      "subQuestName": "与埃尔瓦德对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252101"
+        ],
+        "dialogs": {
+          "740252101": {
+            "id": "740252101",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "埃尔瓦德叔叔好。",
+            "nextDialogs": [
+              "740252102"
+            ]
+          },
+          "740252102": {
+            "id": "740252102",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "哦，小云雀。要来杯枫达吗？最近来了不少货，朋友们也来两杯如何。",
+            "nextDialogs": [
+              "740252103"
+            ]
+          },
+          "740252103": {
+            "id": "740252103",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这里就是「破烂骨头商店」啊。",
+            "nextDialogs": [
+              "740252104"
+            ]
+          },
+          "740252104": {
+            "id": "740252104",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "只要有特许券，从浊水幻灵克星等居家用品到拳力斗技场上使用的辅助器械…",
+            "nextDialogs": [
+              "740252105"
+            ]
+          },
+          "740252105": {
+            "id": "740252105",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "…童叟无欺备受好评的「破烂骨头商店」都能为您置办齐备。",
+            "nextDialogs": [
+              "740252107",
+              "740252109"
+            ]
+          },
+          "740252107": {
+            "id": "740252107",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们应该不需要这个吧？",
+            "nextDialogs": [
+              "740252110"
+            ]
+          },
+          "740252110": {
+            "id": "740252110",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "不过这些特殊的物件都得提前预订，或者运气够好的话，你想要的物件正好在出售清单上。",
+            "nextDialogs": [
+              "740252111"
+            ]
+          },
+          "740252111": {
+            "id": "740252111",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "嗜好品一类的东西倒是差不多随时都有。所以说，几位朋友，要来点枫达吗？",
+            "nextDialogs": [
+              "740252112"
+            ]
+          },
+          "740252112": {
+            "id": "740252112",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "嗯…埃尔瓦德叔叔店里的东西我全都要。",
+            "nextDialogs": [
+              "740252113"
+            ]
+          },
+          "740252113": {
+            "id": "740252113",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "可以是可以，让我看看…这批货都卖得差不多了，剩下的都是饮料和食物，不过这也得不少特许券。",
+            "nextDialogs": [
+              "740252114"
+            ]
+          },
+          "740252114": {
+            "id": "740252114",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？！真的没问题吗？",
+            "nextDialogs": [
+              "740252115"
+            ]
+          },
+          "740252115": {
+            "id": "740252115",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "问题？如果是说特许券的话，卡特哥哥给了我好多，应该够。这里有好多好吃好喝的，派蒙姐姐一定也会喜欢的！",
+            "nextDialogs": [
+              "740252116"
+            ]
+          },
+          "740252116": {
+            "id": "740252116",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "卡特哥哥说过，特许券可以让不公平的事变得公平。刚才在特许食堂，只有我拿到好吃的塔塞斯杂烩，这就太不公平啦。",
+            "nextDialogs": [
+              "740252117"
+            ]
+          },
+          "740252117": {
+            "id": "740252117",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#所以现在要用特许券让{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐也吃上好吃的，这样才公平。"
+          },
+          "740252109": {
+            "id": "740252109",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "这个嘛，是只供熟客的。当然，如果能找到本店的熟客作为介绍人，也不是不能破例展示。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402544",
+      "subQuestName": "找到「卡特哥哥」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402522",
+      "subQuestName": "与「卡特哥哥」对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252201"
+        ],
+        "dialogs": {
+          "740252201": {
+            "id": "740252201",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "卡特哥哥！我回来啦！",
+            "nextDialogs": [
+              "740252202"
+            ]
+          },
+          "740252202": {
+            "id": "740252202",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "莉诺尔，欢迎回来。看来你交到了新朋友。",
+            "nextDialogs": [
+              "740252203"
+            ]
+          },
+          "740252203": {
+            "id": "740252203",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#嗯！是{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐哦。你瞧你瞧，派蒙姐姐这样小，又会飞，但是却不是小鸟呢。",
+            "nextDialogs": [
+              "740252204"
+            ]
+          },
+          "740252204": {
+            "id": "740252204",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "应该也不是仙灵…该不会是小小的纯水精灵吧？难怪大家都没见过，都不知道。",
+            "nextDialogs": [
+              "740252205"
+            ]
+          },
+          "740252205": {
+            "id": "740252205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙就是派蒙。",
+            "nextDialogs": [
+              "740252206"
+            ]
+          },
+          "740252206": {
+            "id": "740252206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对啦，我就是我，才不是什么仙灵或者纯水精灵…等等，你就是「卡特哥哥」？！",
+            "nextDialogs": [
+              "740252207"
+            ]
+          },
+          "740252207": {
+            "id": "740252207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "看起来和莉诺尔差不多大…",
+            "nextDialogs": [
+              "740252208"
+            ]
+          },
+          "740252208": {
+            "id": "740252208",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "#{NICKNAME}{M#先生}{F#女士}和派蒙女士，请叫我卡特皮拉吧。",
+            "nextDialogs": [
+              "740252209"
+            ]
+          },
+          "740252209": {
+            "id": "740252209",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦、哦…要不还是别这么毕恭毕敬了，感觉怪怪的…",
+            "nextDialogs": [
+              "740252210"
+            ]
+          },
+          "740252210": {
+            "id": "740252210",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "既然是莉诺尔的朋友，当然没问题。",
+            "nextDialogs": [
+              "740252211"
+            ]
+          },
+          "740252211": {
+            "id": "740252211",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等等，「卡特皮拉」…我们是不是在哪里听过这个名字…",
+            "nextDialogs": [
+              "740252214"
+            ]
+          },
+          "740252214": {
+            "id": "740252214",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#对了，是于连呀，在聚香海岸遇到的画家，{NICKNAME}还记得他吗？原来他说的朋友就是莉诺尔的卡特哥哥啊。",
+            "nextDialogs": [
+              "740252215"
+            ]
+          },
+          "740252215": {
+            "id": "740252215",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "你们见过于连？原来他真的去须弥了…他过得好吗？",
+            "nextDialogs": [
+              "740252216"
+            ]
+          },
+          "740252216": {
+            "id": "740252216",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个嘛…",
+            "nextDialogs": [
+              "740252217"
+            ]
+          },
+          "740252217": {
+            "id": "740252217",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "讲述了在须弥遇到于连的经历…",
+            "nextDialogs": [
+              "740252218"
+            ]
+          },
+          "740252218": {
+            "id": "740252218",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "按于连的话说，他的「画什么像什么的能力」是卡特皮拉赋予的…你真有这么厉害的能力吗？",
+            "nextDialogs": [
+              "740252219"
+            ]
+          },
+          "740252219": {
+            "id": "740252219",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "他是这样说的？真不知道该说是过誉还是…",
+            "nextDialogs": [
+              "740252220"
+            ]
+          },
+          "740252220": {
+            "id": "740252220",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？是假的吗？可是他给胡椒画的像真的就像画片一样…虽然颜色很怪！",
+            "nextDialogs": [
+              "740252221"
+            ]
+          },
+          "740252221": {
+            "id": "740252221",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "那也是他自身的能力。我所做的，只是让他自己获得这样的「确信」。越是纯粹的人，这份助力的效用也就越明显。",
+            "nextDialogs": [
+              "740252222"
+            ]
+          },
+          "740252222": {
+            "id": "740252222",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "纯粹…他的确一副很容易上当受骗的样子呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402523",
+      "subQuestName": "在附近休息一下",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258701"
+        ],
+        "dialogs": {
+          "740258701": {
+            "id": "740258701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "休息。",
+            "nextDialogs": [
+              "740258702"
+            ]
+          },
+          "740258702": {
+            "id": "740258702",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「卡特哥哥，今天会讲什么故事呢？我已经听过好多主角是勇者的故事了…」\\n「那今天就讲一个小女孩的故事吧。」\\n「小女孩…小女孩也可以当故事的主角吗？」\\n「在她自己的故事里，她当然是主角。在别的故事里，她可以是勇者，也可以是恶龙。她可以扮演很多角色。」",
+            "nextDialogs": [
+              "740258703"
+            ]
+          },
+          "740258703": {
+            "id": "740258703",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "很久很久以前，有一个小女孩，她住在巨人的花园里。\\n巨人精心照料花园里的花朵，绝不允许任何人摘掉哪怕一朵。为了不让外人闯进花园，巨人为花园搭建了高高的围墙。\\n因此，住在巨人花园的小女孩也从来没有离开花园一步。巨人总是对她说，外边的世界很危险，哪里都不如这里安全，只要安心在这里生活就好。",
+            "nextDialogs": [
+              "740258704"
+            ]
+          },
+          "740258704": {
+            "id": "740258704",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「那之后呢？小女孩有没有听巨人的话？我猜一定没有，如果她这么听话，故事就不会继续了！」\\n「是啊，小女孩总是很不听话的。」\\n「嗯…？」\\n「之后的故事，就留到下次再讲吧。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402524",
+      "subQuestName": "寻找卡特皮拉和莉诺尔",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252401"
+        ],
+        "dialogs": {
+          "740252401": {
+            "id": "740252401",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "卡特哥哥！我回来啦！",
+            "nextDialogs": [
+              "740252402"
+            ]
+          },
+          "740252402": {
+            "id": "740252402",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "莉诺尔，欢迎回来。看来你交到了新朋友。",
+            "nextDialogs": [
+              "740252403"
+            ]
+          },
+          "740252403": {
+            "id": "740252403",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#嗯！是{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐哦。你瞧你瞧，派蒙姐姐这样小，又会飞，但是却不是小鸟呢。",
+            "nextDialogs": [
+              "740252404"
+            ]
+          },
+          "740252404": {
+            "id": "740252404",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "应该也不是仙灵…该不会是小小的纯水精灵吧？难怪大家都没见过，都不知道。",
+            "nextDialogs": [
+              "740252405"
+            ]
+          },
+          "740252405": {
+            "id": "740252405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙就是派蒙。",
+            "nextDialogs": [
+              "740252406"
+            ]
+          },
+          "740252406": {
+            "id": "740252406",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对啦，我就是我，才不是什么仙灵或者纯水精灵…等等，你就是「卡特哥哥」？！",
+            "nextDialogs": [
+              "740252407"
+            ]
+          },
+          "740252407": {
+            "id": "740252407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "看起来和莉诺尔差不多大…",
+            "nextDialogs": [
+              "740252408"
+            ]
+          },
+          "740252408": {
+            "id": "740252408",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "#{NICKNAME}{M#先生}{F#女士}和派蒙女士，请叫我卡特皮拉吧。",
+            "nextDialogs": [
+              "740252409"
+            ]
+          },
+          "740252409": {
+            "id": "740252409",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦、哦…要不还是别这么毕恭毕敬了，感觉怪怪的…",
+            "nextDialogs": [
+              "740252410"
+            ]
+          },
+          "740252410": {
+            "id": "740252410",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "既然是莉诺尔的朋友，当然没问题。",
+            "nextDialogs": [
+              "740252411"
+            ]
+          },
+          "740252411": {
+            "id": "740252411",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "话说回来…既然莉诺尔和卡特皮拉都是小孩子，你们的监护人也在这里吗？不然为什么两个小孩子会在这种地方…",
+            "nextDialogs": [
+              "740252412"
+            ]
+          },
+          "740252412": {
+            "id": "740252412",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "卡特哥哥不是小孩子喔。",
+            "nextDialogs": [
+              "740252413"
+            ]
+          },
+          "740252413": {
+            "id": "740252413",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我的确不是小孩子。至于我为什么是你们现在所看到的样子…你们可以认为，这是一种疾病。",
+            "nextDialogs": [
+              "740252414"
+            ]
+          },
+          "740252414": {
+            "id": "740252414",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来是这样…",
+            "nextDialogs": [
+              "740252415"
+            ]
+          },
+          "740252415": {
+            "id": "740252415",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我在这里已经很久了，当然，因为过去我的所做所为。至于莉诺尔，她的情况就复杂得多…",
+            "nextDialogs": [
+              "740252416"
+            ]
+          },
+          "740252416": {
+            "id": "740252416",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "她是在这里出生的。",
+            "nextDialogs": [
+              "740252417"
+            ]
+          },
+          "740252417": {
+            "id": "740252417",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？在这里？在梅洛彼得堡？",
+            "nextDialogs": [
+              "740252418"
+            ]
+          },
+          "740252418": {
+            "id": "740252418",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "派蒙姐姐真奇怪，之前不是说过了吗？我一直都在这里呀。",
+            "nextDialogs": [
+              "740252419"
+            ]
+          },
+          "740252419": {
+            "id": "740252419",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "莉诺尔的母亲艾格妮丝原本就痼疾缠身，前段时间因病离世了。",
+            "nextDialogs": [
+              "740252420"
+            ]
+          },
+          "740252420": {
+            "id": "740252420",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我并没有打探他人隐私的习惯，所以对于她们母女的情况原本并不特别了解…可艾格妮丝去世后，莉诺尔就无人照顾了。",
+            "nextDialogs": [
+              "740252421"
+            ]
+          },
+          "740252421": {
+            "id": "740252421",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "或许是因为我在这里的时间比较久，莉诺尔更熟悉我，同我比较亲近。所以艾蒂安就暂时将照看她的任务交给我了。",
+            "nextDialogs": [
+              "740252422"
+            ]
+          },
+          "740252422": {
+            "id": "740252422",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样啊…可是，这么说来，莉诺尔根本就不应该待在这里吧？她并没有做错任何事啊。",
+            "nextDialogs": [
+              "740252423"
+            ]
+          },
+          "740252423": {
+            "id": "740252423",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "你说得对，让我代为照看只是临时的处置，正确的做法是把她交给有血缘关系的亲人抚养。",
+            "nextDialogs": [
+              "740252424"
+            ]
+          },
+          "740252424": {
+            "id": "740252424",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "所幸，在梅洛彼得堡以外，的确有她的亲人。",
+            "nextDialogs": [
+              "740252425"
+            ]
+          },
+          "740252425": {
+            "id": "740252425",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来之前莉诺尔说的自己不知道的家是这个意思…那莉诺尔应该很快就能和外边的亲人团聚了吧？",
+            "nextDialogs": [
+              "740252426"
+            ]
+          },
+          "740252426": {
+            "id": "740252426",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "关于这件事…有些难办的地方，恐怕没有这么快。",
+            "nextDialogs": [
+              "740252427"
+            ]
+          },
+          "740252427": {
+            "id": "740252427",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？这又是为什么？",
+            "nextDialogs": [
+              "740252428"
+            ]
+          },
+          "740252428": {
+            "id": "740252428",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "因为她没有身份证明。或许艾格妮丝自己也没有料到吧，要将莉诺尔送出梅洛彼得堡，手续原本应当由她办理。",
+            "nextDialogs": [
+              "740252429"
+            ]
+          },
+          "740252429": {
+            "id": "740252429",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "刚才说的外边的亲人呢？",
+            "nextDialogs": [
+              "740252430"
+            ]
+          },
+          "740252430": {
+            "id": "740252430",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "据艾蒂安说，艾格妮丝以前寄过信，但是没有回音，之后就再也没有联系过了。如果对方知道现在的情况，或许会回心转意。",
+            "nextDialogs": [
+              "740252431"
+            ]
+          },
+          "740252431": {
+            "id": "740252431",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "所以，我想将莉诺尔送回亲人的身边。要是对方看到莉诺尔之后还是不肯改变主意…到时就另想别的办法吧。",
+            "nextDialogs": [
+              "740252432"
+            ]
+          },
+          "740252432": {
+            "id": "740252432",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "为什么不可以一直待在梅洛彼得堡呢？虽然这里有可怕的坏巫师，但是也有好巫师和卡特哥哥呀。我…我不想离开。",
+            "nextDialogs": [
+              "740252433"
+            ]
+          },
+          "740252433": {
+            "id": "740252433",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "妈妈离开梅洛彼得堡之后就不见了，再也不回来了。",
+            "nextDialogs": [
+              "740252434"
+            ]
+          },
+          "740252434": {
+            "id": "740252434",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "我要是离开了，是不是也和妈妈一样，再也回不来了，再也见不到卡特哥哥了…",
+            "nextDialogs": [
+              "740252435"
+            ]
+          },
+          "740252435": {
+            "id": "740252435",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "艾格妮丝离开了梅洛彼得堡？",
+            "nextDialogs": [
+              "740252436"
+            ]
+          },
+          "740252436": {
+            "id": "740252436",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（她大概还不能理解发生了什么。）",
+            "nextDialogs": [
+              "740252437"
+            ]
+          },
+          "740252437": {
+            "id": "740252437",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊…",
+            "nextDialogs": [
+              "740252438"
+            ]
+          },
+          "740252438": {
+            "id": "740252438",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "不管怎么说，梅洛彼得堡不是适合小孩子生活的地方。在没有阳光的地方，新芽要如何健康成长呢。",
+            "nextDialogs": [
+              "740252439"
+            ]
+          },
+          "740252439": {
+            "id": "740252439",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "到外边去吧，莉诺尔。那些故事你也都听得生厌了，外边有真正的世界，还有与你血脉相连的亲人。",
+            "nextDialogs": [
+              "740252440"
+            ]
+          },
+          "740252440": {
+            "id": "740252440",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "没什么可怕的，我会陪你出去的。",
+            "nextDialogs": [
+              "740252441"
+            ]
+          },
+          "740252441": {
+            "id": "740252441",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "嗯…卡特哥哥从没骗过我，我相信你。",
+            "nextDialogs": [
+              "740252442"
+            ]
+          },
+          "740252442": {
+            "id": "740252442",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "话说回来，没有身份证明的话，要怎么把莉诺尔送到外边去呢？有没有我们能帮忙的地方？",
+            "nextDialogs": [
+              "740252443"
+            ]
+          },
+          "740252443": {
+            "id": "740252443",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "不走正规途径的话，秘密通道之类？",
+            "nextDialogs": [
+              "740252444"
+            ]
+          },
+          "740252444": {
+            "id": "740252444",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "的确有这样的路，但是太危险了。不如走正规，但又不那么正规的路。",
+            "nextDialogs": [
+              "740252445"
+            ]
+          },
+          "740252445": {
+            "id": "740252445",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？那是什么路？",
+            "nextDialogs": [
+              "740252446"
+            ]
+          },
+          "740252446": {
+            "id": "740252446",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "每隔一段时间，艾蒂安就会带一些人去处理外边的工作。就利用这个机会，把莉诺尔送回亲人身边。",
+            "nextDialogs": [
+              "740252447"
+            ]
+          },
+          "740252447": {
+            "id": "740252447",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "因为她原本就没有身份证明，一个记录上不存在的人消失了，对梅洛彼得堡来说并没有任何影响。",
+            "nextDialogs": [
+              "740252448"
+            ]
+          },
+          "740252448": {
+            "id": "740252448",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "该不会是说「特许券大富翁」吧？我记得艾蒂安说，期限内获得最多特许券的玩家是胜者，可以获得外出的机会…",
+            "nextDialogs": [
+              "740252449"
+            ]
+          },
+          "740252449": {
+            "id": "740252449",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "坏了。特许券进肚了。",
+            "nextDialogs": [
+              "740252450"
+            ]
+          },
+          "740252450": {
+            "id": "740252450",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊！莉诺尔花了好多特许券，把破烂骨头商店都买空了，这下岂不是输定了！这可怎么办呀？",
+            "nextDialogs": [
+              "740252451"
+            ]
+          },
+          "740252451": {
+            "id": "740252451",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "不会输的，卡特哥哥说了会赢，就一定会赢的。",
+            "nextDialogs": [
+              "740252452"
+            ]
+          },
+          "740252452": {
+            "id": "740252452",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "莉诺尔…果然完全不明白事情的严重性吧！",
+            "nextDialogs": [
+              "740252454"
+            ]
+          },
+          "740252454": {
+            "id": "740252454",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "消费行为已经完成了，这套说辞恐怕很困难吧。",
+            "nextDialogs": [
+              "740252456"
+            ]
+          },
+          "740252456": {
+            "id": "740252456",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "没关系，交给莉诺尔的特许券原本就是由她自由支配的，这点误差不会影响到结果。",
+            "nextDialogs": [
+              "740252457"
+            ]
+          },
+          "740252457": {
+            "id": "740252457",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "总觉得有点过意不去，要不我们也来帮忙吧，记得艾蒂安说过可以组成团体参加游戏。",
+            "nextDialogs": [
+              "740252458"
+            ]
+          },
+          "740252458": {
+            "id": "740252458",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#哇！{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐也要和我们一起参加游戏吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402525",
+      "subQuestName": "与卡特皮拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252501"
+        ],
+        "dialogs": {
+          "740252501": {
+            "id": "740252501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊，我们来得好像不是时候…",
+            "nextDialogs": [
+              "740252503"
+            ]
+          },
+          "740252503": {
+            "id": "740252503",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "哈哈！",
+            "nextDialogs": [
+              "740252504"
+            ]
+          },
+          "740252504": {
+            "id": "740252504",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "…什么？",
+            "nextDialogs": [
+              "740252506"
+            ]
+          },
+          "740252506": {
+            "id": "740252506",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "#你们是…{NICKNAME}和派蒙对吧？你们的问题稍后再说。",
+            "nextDialogs": [
+              "740252507"
+            ]
+          },
+          "740252507": {
+            "id": "740252507",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "我查询了最近一百年的档案，没有找到有关「卡特皮拉」的记录。考虑到文件遗失的可能，需要你本人配合，协助我们重制档案。",
+            "nextDialogs": [
+              "740252508"
+            ]
+          },
+          "740252508": {
+            "id": "740252508",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "要我说，这也不是什么迫在眉睫的工作，没必要催得这么急吧。",
+            "nextDialogs": [
+              "740252509"
+            ]
+          },
+          "740252509": {
+            "id": "740252509",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "艾蒂安，你的言行时常让我有种感觉，那就是你并不希望重整这里的秩序。",
+            "nextDialogs": [
+              "740252510"
+            ]
+          },
+          "740252510": {
+            "id": "740252510",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "对于你的观点，我无法苟同。习惯了放任的人不会意识到过度的自由对他们来说是有害的。",
+            "nextDialogs": [
+              "740252511"
+            ]
+          },
+          "740252511": {
+            "id": "740252511",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "我会以我的方式修正这种无序的混乱状态，也再次奉劝你不要阻碍我执行公务。",
+            "nextDialogs": [
+              "740252512"
+            ]
+          },
+          "740252512": {
+            "id": "740252512",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "什么无序、混乱，这不就是很多人推崇的「灵活的应对」吗。唉，算了。",
+            "nextDialogs": [
+              "740252513"
+            ]
+          },
+          "740252513": {
+            "id": "740252513",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "「卡特皮拉」是你的本名吗？另外，需要你尽可能详细地陈述你的罪行。时间、地点，以及最终宣判的刑期。",
+            "nextDialogs": [
+              "740252514"
+            ]
+          },
+          "740252514": {
+            "id": "740252514",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你提供的信息越详尽，找回记录的可能性也越大。万一文件确实遗失，也可以根据你的陈述，补全一部分记录。",
+            "nextDialogs": [
+              "740252515"
+            ]
+          },
+          "740252515": {
+            "id": "740252515",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "自从我有记忆起就被叫做「卡特皮拉」了。我想，这是最适合我的名字，也是最接近本质的名字。",
+            "nextDialogs": [
+              "740252516"
+            ]
+          },
+          "740252516": {
+            "id": "740252516",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "本名…「卡特皮拉」，确认无误。接下来，陈述你的罪行。",
+            "nextDialogs": [
+              "740252517"
+            ]
+          },
+          "740252517": {
+            "id": "740252517",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我听从主人的命令，执行某项任务。任务失败了，但依然有人因此陷入不幸。这就是我的罪行。",
+            "nextDialogs": [
+              "740252518"
+            ]
+          },
+          "740252518": {
+            "id": "740252518",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你的主人？我需要具体的姓名。还有，这是什么时候发生的事？",
+            "nextDialogs": [
+              "740252519"
+            ]
+          },
+          "740252519": {
+            "id": "740252519",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "不像我，他有很多名字。这是很久以前发生的事了。",
+            "nextDialogs": [
+              "740252520"
+            ]
+          },
+          "740252520": {
+            "id": "740252520",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "…你在和我开玩笑吗？",
+            "nextDialogs": [
+              "740252521"
+            ]
+          },
+          "740252521": {
+            "id": "740252521",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我说的都是事实。",
+            "nextDialogs": [
+              "740252522"
+            ]
+          },
+          "740252522": {
+            "id": "740252522",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "那是不似从孩童的躯体中发出的低沉音调。\\n「还是说，你需要更多煽情的陈述？或者一些可供想象力发挥的庸俗的细节？」",
+            "nextDialogs": [
+              "740252523"
+            ]
+          },
+          "740252523": {
+            "id": "740252523",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「关于那天发生的事，我可以事无巨细地为你讲述，从秘密厅堂的陈设，到我冒昧揣测的同伴的所想。」",
+            "nextDialogs": [
+              "740252524"
+            ]
+          },
+          "740252524": {
+            "id": "740252524",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「但那不过是事后追忆的编造，你也很清楚，你不需要这些。因为这些叙述不过是对真相的矫饰。而真实的历史已经随荒废的庭园一道烟消云散了。」",
+            "nextDialogs": [
+              "740252525"
+            ]
+          },
+          "740252525": {
+            "id": "740252525",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「你想知道的是更单纯的事实。事实就是负罪之人在他应在的地方。而其他细枝末节的琐碎事项对你来说没有意义。」\\n「它们无关紧要，因此也不会动摇你的秩序分毫。」",
+            "nextDialogs": [
+              "740252526"
+            ]
+          },
+          "740252526": {
+            "id": "740252526",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「这里没有任何事需要您费心，一切都在轨道上。」",
+            "nextDialogs": [
+              "740252527"
+            ]
+          },
+          "740252527": {
+            "id": "740252527",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "负罪之人在他应在的地方…",
+            "nextDialogs": [
+              "740252528"
+            ]
+          },
+          "740252528": {
+            "id": "740252528",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "这里没有任何事需要我费心，一切都在轨道上…",
+            "nextDialogs": [
+              "740252529"
+            ]
+          },
+          "740252529": {
+            "id": "740252529",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "比起「暂时」没有找到的文件，还是洛氏扩音机的滥用问题更显而易见吧。",
+            "nextDialogs": [
+              "740252530"
+            ]
+          },
+          "740252530": {
+            "id": "740252530",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "除了未经允许挪作他用，最近也接到了不少反复播放导致神经衰弱的投诉…",
+            "nextDialogs": [
+              "740252531"
+            ]
+          },
+          "740252531": {
+            "id": "740252531",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "艾蒂安，你说得对。看守当中更应该杜绝此类违反规定的行为，我们应该立刻调查这件事。",
+            "nextDialogs": [
+              "740252532"
+            ]
+          },
+          "740252532": {
+            "id": "740252532",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "那事不宜迟，我们现在就走吧。",
+            "nextDialogs": [
+              "740252533"
+            ]
+          },
+          "740252533": {
+            "id": "740252533",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "（奇怪，他怎么态度说变就变？）",
+            "nextDialogs": [
+              "740252534"
+            ]
+          },
+          "740252534": {
+            "id": "740252534",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（有点蹊跷。）",
+            "nextDialogs": [
+              "740252535"
+            ]
+          },
+          "740252535": {
+            "id": "740252535",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "和卡特皮拉说的那段话会有什么关系吗？我听了只觉得有点困…",
+            "nextDialogs": [
+              "740252536"
+            ]
+          },
+          "740252536": {
+            "id": "740252536",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "要不我们直接问问他吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402543",
+      "subQuestName": "与卡特皮拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402526",
+      "subQuestName": "获取特许券",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402545",
+      "subQuestName": "回老地方会合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402527",
+      "subQuestName": "与卡特皮拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252701"
+        ],
+        "dialogs": {
+          "740252701": {
+            "id": "740252701",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐，我们落后了好多喔。",
+            "nextDialogs": [
+              "740252702"
+            ]
+          },
+          "740252702": {
+            "id": "740252702",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "嗯，我去找艾蒂安打听了一下，目前的状况应该是这样。",
+            "nextDialogs": [
+              "740252703"
+            ]
+          },
+          "740252703": {
+            "id": "740252703",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我看看…哦！卡特皮拉之后也赚到了一些特许券呢…不对！等等！我们这不是排在最后吗！",
+            "nextDialogs": [
+              "740252704"
+            ]
+          },
+          "740252704": {
+            "id": "740252704",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "居然连达希也排在我们前面，他应该是独自参加比赛吧？怎么会这样…",
+            "nextDialogs": [
+              "740252705"
+            ]
+          },
+          "740252705": {
+            "id": "740252705",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "因为他帮看守处理了不少麻烦的杂事，比如莫莱妮小姐就经常拜托他帮忙。",
+            "nextDialogs": [
+              "740252706"
+            ]
+          },
+          "740252706": {
+            "id": "740252706",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来如此…等等，难道他一开始对我们那么热情也是因为有利可图…？",
+            "nextDialogs": [
+              "740252707"
+            ]
+          },
+          "740252707": {
+            "id": "740252707",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样下去我们岂不是要输掉了？要是之前没在破烂骨头商店吃那么多就好了…",
+            "nextDialogs": [
+              "740252708"
+            ]
+          },
+          "740252708": {
+            "id": "740252708",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "没关系的，游戏统计的是期限内获得的特许券的总量，消耗手中的特许券不会影响总量的计算。",
+            "nextDialogs": [
+              "740252709"
+            ]
+          },
+          "740252709": {
+            "id": "740252709",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "所以派蒙姐姐还可以再多吃点！",
+            "nextDialogs": [
+              "740252710"
+            ]
+          },
+          "740252710": {
+            "id": "740252710",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "莉诺尔…现在的问题是我们快输掉比赛啦！你们怎么一点也不担心啊？",
+            "nextDialogs": [
+              "740252711"
+            ]
+          },
+          "740252711": {
+            "id": "740252711",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "到结束为止还有不少时间，还来得及。",
+            "nextDialogs": [
+              "740252713",
+              "740252718"
+            ]
+          },
+          "740252713": {
+            "id": "740252713",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}累了吗？我来给你捶捶肩！",
+            "nextDialogs": [
+              "740252714"
+            ]
+          },
+          "740252714": {
+            "id": "740252714",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "莉诺尔好偏心，我也好累。",
+            "nextDialogs": [
+              "740252715"
+            ]
+          },
+          "740252715": {
+            "id": "740252715",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "好喔，那给派蒙姐姐也揉揉肩膀。",
+            "nextDialogs": [
+              "740252716"
+            ]
+          },
+          "740252716": {
+            "id": "740252716",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，好欸！",
+            "nextDialogs": [
+              "740252721"
+            ]
+          },
+          "740252721": {
+            "id": "740252721",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "明天我们分开行动，有些收获之后再回到这里碰头，如何？这样效率应该更高。",
+            "nextDialogs": [
+              "740252722"
+            ]
+          },
+          "740252722": {
+            "id": "740252722",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "确实…这样比较好。",
+            "nextDialogs": [
+              "740252723"
+            ]
+          },
+          "740252723": {
+            "id": "740252723",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "另外，不嫌弃的话，就和之前一样在这里休息吧。",
+            "nextDialogs": [
+              "740252724"
+            ]
+          },
+          "740252724": {
+            "id": "740252724",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#嗯，{NICKNAME}，如果累了的话，就歇一下吧。"
+          },
+          "740252718": {
+            "id": "740252718",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "的确，听起来像常见的励志故事…不过，我们真的能行吗？",
+            "nextDialogs": [
+              "740252719"
+            ]
+          },
+          "740252719": {
+            "id": "740252719",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "派蒙姐姐要多一点自信哦，故事的主角都是很自信的，所以，自信的人才可以当主角。",
+            "nextDialogs": [
+              "740252720"
+            ]
+          },
+          "740252720": {
+            "id": "740252720",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…莉诺尔说得对！我们肯定能赢！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402528",
+      "subQuestName": "在附近休息一下",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258801"
+        ],
+        "dialogs": {
+          "740258801": {
+            "id": "740258801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "休息。",
+            "nextDialogs": [
+              "740258802"
+            ]
+          },
+          "740258802": {
+            "id": "740258802",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「卡特哥哥，该讲小女孩的故事了！」\\n「上次说到，住在巨人花园的小女孩…」\\n「我猜她一定离开了巨人的花园，不过，她是怎么离开的呢…」",
+            "nextDialogs": [
+              "740258803"
+            ]
+          },
+          "740258803": {
+            "id": "740258803",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "有一天，小女孩听到高高的围墙外传来女人的声音。\\n好心的巨人，我非常需要你的花园里的紫色小花，请分给我一些吧。\\n巨人当然不会同意，他愤怒地大吼，让围墙外的女人快点离开。\\n可是女人的声音并没有远去，而是哀叹，原来她从很远的地方来，为了给朋友治病，非常需要花园里的紫色小花。\\n小女孩听到女人的哀叹，觉得女人和她的朋友都十分可怜。巨人的花园里有这么多花，就算少个一朵两朵，又有什么关系呢？",
+            "nextDialogs": [
+              "740258804"
+            ]
+          },
+          "740258804": {
+            "id": "740258804",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "于是小女孩隔着围墙，小声对围墙外的女人说，她愿意帮忙带出一些紫色小花，只是巨人不让她出去，这里的围墙又太高，她不知道怎样才能将小花交到女人的手上。\\n围墙外的声音说，其实她是懂得很多魔法的女巫，只要小女孩愿意带出花园里的紫色小花，她就可以用魔法让小女孩离开巨人的花园…",
+            "nextDialogs": [
+              "740258805"
+            ]
+          },
+          "740258805": {
+            "id": "740258805",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「那小女孩答应女巫了吗？唔…她肯定答应了，不然，女巫的朋友的病不就治不好了？可是…可是巨人说不要离开花园，离开花园的话，会受到什么惩罚呢？」\\n「今天已经很晚了，之后的故事，就留到下次再讲吧。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402529",
+      "subQuestName": "获取特许券",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402530",
+      "subQuestName": "回老地方会合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402531",
+      "subQuestName": "与雷维对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253101"
+        ],
+        "dialogs": {
+          "740253101": {
+            "id": "740253101",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "陪小孩子过家家玩得开心吗？",
+            "nextDialogs": [
+              "740253103",
+              "740253105",
+              "740253107"
+            ]
+          },
+          "740253103": {
+            "id": "740253103",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "我们之前应该见过吧。",
+            "nextDialogs": [
+              "740253108"
+            ]
+          },
+          "740253108": {
+            "id": "740253108",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你找我们有什么事吗？我们可是竞争对手，总不会真的是来问我们开不开心吧？",
+            "nextDialogs": [
+              "740253109"
+            ]
+          },
+          "740253109": {
+            "id": "740253109",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "我有很多品质，其中一项让我受益良多，那就是「好奇」。",
+            "nextDialogs": [
+              "740253110"
+            ]
+          },
+          "740253110": {
+            "id": "740253110",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "对于不能理解的事，我总是刨根问底，所以往往比其他人更了解真实情况。"
+          },
+          "740253105": {
+            "id": "740253105",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "看来艾蒂安确实应该办个儿童专场。"
+          },
+          "740253107": {
+            "id": "740253107",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "如我所料。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402546",
+      "subQuestName": "回老地方会合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402532",
+      "subQuestName": "与卡特皮拉对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253201"
+        ],
+        "dialogs": {
+          "740253201": {
+            "id": "740253201",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐！欢迎回来！",
+            "nextDialogs": [
+              "740253202"
+            ]
+          },
+          "740253202": {
+            "id": "740253202",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "今天收获还不错。目前的情况应该是…",
+            "nextDialogs": [
+              "740253203"
+            ]
+          },
+          "740253203": {
+            "id": "740253203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可恶，居然只是刚刚超过达希而已…",
+            "nextDialogs": [
+              "740253204"
+            ]
+          },
+          "740253204": {
+            "id": "740253204",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "好欸！我们不是倒数第一了！",
+            "nextDialogs": [
+              "740253205"
+            ]
+          },
+          "740253205": {
+            "id": "740253205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可是我们有四个人欸…",
+            "nextDialogs": [
+              "740253206"
+            ]
+          },
+          "740253206": {
+            "id": "740253206",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "我们四个真厉害！",
+            "nextDialogs": [
+              "740253208"
+            ]
+          },
+          "740253208": {
+            "id": "740253208",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可是这样下去真的没问题吗？我们前面可是还有两道难关呢…",
+            "nextDialogs": [
+              "740253210"
+            ]
+          },
+          "740253210": {
+            "id": "740253210",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "卡特哥哥答应过我，我们一定会赢的，对吧？",
+            "nextDialogs": [
+              "740253211"
+            ]
+          },
+          "740253211": {
+            "id": "740253211",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "#是的。所以{NICKNAME}和派蒙也不用太过担心了。虽然这么说或许有些奇怪，不过…",
+            "nextDialogs": [
+              "740253212"
+            ]
+          },
+          "740253212": {
+            "id": "740253212",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "有时忘记结果，只是享受玩乐的过程也是不错的选择。",
+            "nextDialogs": [
+              "740253213"
+            ]
+          },
+          "740253213": {
+            "id": "740253213",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好吧…",
+            "nextDialogs": [
+              "740253214"
+            ]
+          },
+          "740253214": {
+            "id": "740253214",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "话说回来，我们刚才被排名第一的家伙邀请了呢。不过他说话好没礼貌，说卡特皮拉是…是…",
+            "nextDialogs": [
+              "740253215"
+            ]
+          },
+          "740253215": {
+            "id": "740253215",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…总之是很失礼的话！",
+            "nextDialogs": [
+              "740253216"
+            ]
+          },
+          "740253216": {
+            "id": "740253216",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你们之间发生了什么？",
+            "nextDialogs": [
+              "740253217"
+            ]
+          },
+          "740253217": {
+            "id": "740253217",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "只是些小矛盾。他也曾经邀请过我，不过我实在没有理由接受，就拒绝了。",
+            "nextDialogs": [
+              "740253218"
+            ]
+          },
+          "740253218": {
+            "id": "740253218",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "后来他找了些手下想给我点教训…我的确是个怪物，像他那样的人不应该来招惹我。",
+            "nextDialogs": [
+              "740253219"
+            ]
+          },
+          "740253219": {
+            "id": "740253219",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "别、别这么说嘛！卡特皮拉也不是自己愿意才变成这样的吧？",
+            "nextDialogs": [
+              "740253220"
+            ]
+          },
+          "740253220": {
+            "id": "740253220",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "如果卡特哥哥是怪物，那也是好怪物。就像有好巫师和坏巫师…呼啊…",
+            "nextDialogs": [
+              "740253221"
+            ]
+          },
+          "740253221": {
+            "id": "740253221",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "怎么了？莉诺尔这是困了吗？",
+            "nextDialogs": [
+              "740253222"
+            ]
+          },
+          "740253222": {
+            "id": "740253222",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "唔…不过昨天的故事还没有听完…",
+            "nextDialogs": [
+              "740253223"
+            ]
+          },
+          "740253223": {
+            "id": "740253223",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "困了的话还是早点休息吧。",
+            "nextDialogs": [
+              "740253224"
+            ]
+          },
+          "740253224": {
+            "id": "740253224",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐，我们明天还会见面吗？",
+            "nextDialogs": [
+              "740253225"
+            ]
+          },
+          "740253225": {
+            "id": "740253225",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "为什么突然这么问？",
+            "nextDialogs": [
+              "740253226"
+            ]
+          },
+          "740253226": {
+            "id": "740253226",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "如果…如果你们不要和我们一队了…",
+            "nextDialogs": [
+              "740253227"
+            ]
+          },
+          "740253227": {
+            "id": "740253227",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "怎么会呢，不是说好要一起拿第一吗？我们前面还有两队呢！明天得加油了！",
+            "nextDialogs": [
+              "740253228"
+            ]
+          },
+          "740253228": {
+            "id": "740253228",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#嗯，加油！呼啊…好困。明天再加油吧…希望{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐也能做个好梦…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402533",
+      "subQuestName": "在附近休息一下",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258901"
+        ],
+        "dialogs": {
+          "740258901": {
+            "id": "740258901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "休息。",
+            "nextDialogs": [
+              "740258902"
+            ]
+          },
+          "740258902": {
+            "id": "740258902",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「上次讲到，女巫告诉小女孩，只要小女孩愿意交出紫色小花，她可以用魔法将小女孩带出巨人的花园。」\\n「呼啊…好困，可是好在意故事的后续…小女孩在那之后怎么样了？女巫的朋友得救了吗？」",
+            "nextDialogs": [
+              "740258903"
+            ]
+          },
+          "740258903": {
+            "id": "740258903",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "虽然巨人告诫过小女孩，外面非常危险，但是小女孩从没见过外面是什么样子，因此也不知道什么是危险。\\n她对围墙外边的声音说，她愿意帮忙带出一些紫色小花，围墙里有许多同样的花朵，看起来都是一样美丽，她不知道为什么巨人将这些花看得这样宝贵。\\n小女孩听到，从围墙外传来了笑声。之后，她手上握着一束花，乘着一阵风，来到了外面的世界。",
+            "nextDialogs": [
+              "740258904"
+            ]
+          },
+          "740258904": {
+            "id": "740258904",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "高高的女巫从她手中接过了紫色的小花。小女孩觉得自己做了一件好事，非常高兴。可当她想要返回花园时，却发现围墙、花园还有巨人，都不复存在了。\\n好心的女巫，我想再回到巨人的花园，能请你用魔法帮帮我吗？小女孩恳求女巫。\\n可是，现在你要拿什么交换呢？女巫问。",
+            "nextDialogs": [
+              "740258905"
+            ]
+          },
+          "740258905": {
+            "id": "740258905",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「欸？那小女孩就再也回不去了吗？虽然这样女巫的朋友就得救了…但是我不喜欢这个故事…」\\n「每个人都有不喜欢的故事。」\\n「那下次我来讲，我来讲故事给卡特哥哥听…今天就先休息了…呼…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402534",
+      "subQuestName": "获取特许券",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402535",
+      "subQuestName": "回老地方会合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402536",
+      "subQuestName": "与格内薇芙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253601"
+        ],
+        "dialogs": {
+          "740253601": {
+            "id": "740253601",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "你们好…",
+            "nextDialogs": [
+              "740253603"
+            ]
+          },
+          "740253603": {
+            "id": "740253603",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "感觉同样的事之前也发生过…你找我们是有什么事呢？",
+            "nextDialogs": [
+              "740253605"
+            ]
+          },
+          "740253605": {
+            "id": "740253605",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "那我就有话直说了。我希望你们和我一起向艾蒂安发起抗议。",
+            "nextDialogs": [
+              "740253606"
+            ]
+          },
+          "740253606": {
+            "id": "740253606",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊？",
+            "nextDialogs": [
+              "740253607"
+            ]
+          },
+          "740253607": {
+            "id": "740253607",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "既然你们也加入了这场游戏，那就应该能理解我的主张吧。我们应该在更加公开透明的规则下…",
+            "nextDialogs": [
+              "740253608"
+            ]
+          },
+          "740253608": {
+            "id": "740253608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "改变规则的代价是什么呢？",
+            "nextDialogs": [
+              "740253609"
+            ]
+          },
+          "740253609": {
+            "id": "740253609",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "我们应该在新规则的框架下重新比赛。",
+            "nextDialogs": [
+              "740253610"
+            ]
+          },
+          "740253610": {
+            "id": "740253610",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "什么？！那我们前面的辛苦岂不是白费了？",
+            "nextDialogs": [
+              "740253611"
+            ]
+          },
+          "740253611": {
+            "id": "740253611",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "这不是很普通的事吗？就像在研究领域，如果没有意识到理论或者方法错误，几年的研究结果全都被推翻也是很正常的。",
+            "nextDialogs": [
+              "740253612"
+            ]
+          },
+          "740253612": {
+            "id": "740253612",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这根本不是一回事吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402547",
+      "subQuestName": "回老地方会合",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402537",
+      "subQuestName": "与诺瓦勒斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253701"
+        ],
+        "dialogs": {
+          "740253701": {
+            "id": "740253701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "为、为什么看守会在这里…",
+            "nextDialogs": [
+              "740253702"
+            ]
+          },
+          "740253702": {
+            "id": "740253702",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你们来得正好。",
+            "nextDialogs": [
+              "740253704",
+              "740253706"
+            ]
+          },
+          "740253704": {
+            "id": "740253704",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "等一下，先回答我的问题。",
+            "nextDialogs": [
+              "740253707"
+            ]
+          },
+          "740253707": {
+            "id": "740253707",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你们应该知道，遗失的档案需要重制。这对他来说未必是件坏事，如果没有档案，即便他已经依法赎清了罪，也无法离开这里。",
+            "nextDialogs": [
+              "740253708"
+            ]
+          },
+          "740253708": {
+            "id": "740253708",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "所以，希望你们能诚实地回答我的提问。",
+            "nextDialogs": [
+              "740253709"
+            ]
+          },
+          "740253709": {
+            "id": "740253709",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你们知道卡特皮拉是什么时候来到梅洛彼得堡的吗？",
+            "nextDialogs": [
+              "740253710"
+            ]
+          },
+          "740253710": {
+            "id": "740253710",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这…他只说过是很久以前就在这里了，具体是什么时候我们也不太清楚…",
+            "nextDialogs": [
+              "740253711"
+            ]
+          },
+          "740253711": {
+            "id": "740253711",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "那么，看来你们应该也不知道他的刑期和具体的罪行。",
+            "nextDialogs": [
+              "740253712"
+            ]
+          },
+          "740253712": {
+            "id": "740253712",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "确实不知道…",
+            "nextDialogs": [
+              "740253713"
+            ]
+          },
+          "740253713": {
+            "id": "740253713",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "关于他之前提到的「主人」，你们知道什么信息吗？",
+            "nextDialogs": [
+              "740253714"
+            ]
+          },
+          "740253714": {
+            "id": "740253714",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好像没听他提起过…",
+            "nextDialogs": [
+              "740253715"
+            ]
+          },
+          "740253715": {
+            "id": "740253715",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "你们同他交谈时，有没有察觉到异样的情况？"
+          },
+          "740253706": {
+            "id": "740253706",
+            "speakerId": 21072,
+            "speakerName": "诺瓦勒斯",
+            "text": "还在调查阶段，具体的情况不能向你们透露，但是需要你们回答几个问题。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402538",
+      "subQuestName": "在附近休息一下",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259001"
+        ],
+        "dialogs": {
+          "740259001": {
+            "id": "740259001",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "休息。",
+            "nextDialogs": [
+              "740259002"
+            ]
+          },
+          "740259002": {
+            "id": "740259002",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「这次轮到我讲故事了！我听了好多故事，已经学会讲自己的故事啦。」\\n「那这次我就是听众了。」\\n「嗯。我的故事也要从巨人的花园开始说起…」",
+            "nextDialogs": [
+              "740259003"
+            ]
+          },
+          "740259003": {
+            "id": "740259003",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "很久很久以前，在开满了紫色花朵的花园里，住着王子、公主，还有勇士…哦！还有花园的主人，一个坏脾气的巨人。\\n女巫最想要的东西就是那些紫色的花朵，可是坏脾气的巨人非常爱惜这些花，绝对不会允许有人摘掉哪怕一朵。\\n女巫问巨人，好心的巨人先生，我非常需要你的花园里的紫色小花，你有这么多花，请问能不能分给我一朵呢？\\n坏脾气的巨人不同意，大声叫嚷着，不行，这里的每一朵花都是我的，我不愿意把它们分给任何人。",
+            "nextDialogs": [
+              "740259004"
+            ]
+          },
+          "740259004": {
+            "id": "740259004",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "女巫接着说，好心的巨人先生，请听我说，我从很远很远的喷泉处过来，那里的纯水精灵生病了，紫色花朵的香气让人安心，如果能把这里的花带一朵给她，或许她的症状能够缓解…\\n巨人没有一点怜悯之心，生硬地拒绝了女巫的请求。远方的纯水精灵生病，和他有什么关系呀。",
+            "nextDialogs": [
+              "740259005"
+            ]
+          },
+          "740259005": {
+            "id": "740259005",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "那么，我能为你做些什么呢？女巫说，我懂得很多魔法，如果这些魔法中有能够帮到你的…作为交换，好心的巨人先生，是不是就愿意答应我的请求了？\\n巨人想了想，说自己丢失了很重要的东西，如果女巫能用魔法帮他找回来…",
+            "nextDialogs": [
+              "740259006"
+            ]
+          },
+          "740259006": {
+            "id": "740259006",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "「这么说，他们达成了交易？」\\n「对呀，最后，女巫的朋友也得救了，巨人也找回了丢失的东西，这样的故事不是更好吗？至少在故事里，大家都有好的结局…」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402539",
+      "subQuestName": "获取特许券",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402540",
+      "subQuestName": "前往管理区公示处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402541",
+      "subQuestName": "与艾蒂安对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740254101"
+        ],
+        "dialogs": {
+          "740254101": {
+            "id": "740254101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "奇怪，卡特皮拉和莉诺尔还没来吗？",
+            "nextDialogs": [
+              "740254102"
+            ]
+          },
+          "740254102": {
+            "id": "740254102",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "既然知道结果必输，又何必要来。",
+            "nextDialogs": [
+              "740254103"
+            ]
+          },
+          "740254103": {
+            "id": "740254103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那可未必。",
+            "nextDialogs": [
+              "740254104"
+            ]
+          },
+          "740254104": {
+            "id": "740254104",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "就是就是！你们不过只是领先一点点而已嘛…",
+            "nextDialogs": [
+              "740254105"
+            ]
+          },
+          "740254105": {
+            "id": "740254105",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "一点点？哈哈。",
+            "nextDialogs": [
+              "740254106"
+            ]
+          },
+          "740254106": {
+            "id": "740254106",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "艾蒂安，能现在公开结果吗？不…还是等等好了。毕竟，精彩的戏码还是得留到最后啊。",
+            "nextDialogs": [
+              "740254107"
+            ]
+          },
+          "740254107": {
+            "id": "740254107",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "看来也不用多等了，他们来了。",
+            "nextDialogs": [
+              "740254108"
+            ]
+          },
+          "740254108": {
+            "id": "740254108",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#{NICKNAME}{M#哥哥}{F#姐姐}！派蒙姐姐！你们看到结果了吗？我们赢了吗？",
+            "nextDialogs": [
+              "740254109"
+            ]
+          },
+          "740254109": {
+            "id": "740254109",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "现在还不知道呢…",
+            "nextDialogs": [
+              "740254110"
+            ]
+          },
+          "740254110": {
+            "id": "740254110",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "人都到齐了，艾蒂安，现在可以公开了吧。",
+            "nextDialogs": [
+              "740254111"
+            ]
+          },
+          "740254111": {
+            "id": "740254111",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "当然。哦，不过卡特皮拉那边的结果还得计算一会儿…",
+            "nextDialogs": [
+              "740254112"
+            ]
+          },
+          "740254112": {
+            "id": "740254112",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "真是坏心眼的看守啊，从开始到结束都要拿我们这些可怜人消遣。",
+            "nextDialogs": [
+              "740254113"
+            ]
+          },
+          "740254113": {
+            "id": "740254113",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "不如从你的良知里挤出仅剩的一点仁慈，让他们知道我们之间的差距是不可逾越的，不要再用虚假的希望折磨我们了。",
+            "nextDialogs": [
+              "740254114"
+            ]
+          },
+          "740254114": {
+            "id": "740254114",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "虽然不是最终的结果，但是…",
+            "nextDialogs": [
+              "740254115"
+            ]
+          },
+          "740254115": {
+            "id": "740254115",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "加上卡特哥哥今天拿到的特许券，我们就能赢了，对吧？",
+            "nextDialogs": [
+              "740254116"
+            ]
+          },
+          "740254116": {
+            "id": "740254116",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "等一下，为什么格内薇芙那一队的分数都被清空了？",
+            "nextDialogs": [
+              "740254117"
+            ]
+          },
+          "740254117": {
+            "id": "740254117",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "我是反对过的。但是从结果来看，这是更合理的做法。",
+            "nextDialogs": [
+              "740254118"
+            ]
+          },
+          "740254118": {
+            "id": "740254118",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "什么意思…呜哇，雷维那队的分数好多！",
+            "nextDialogs": [
+              "740254119"
+            ]
+          },
+          "740254119": {
+            "id": "740254119",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "他不需要外出的机会，而我们也不需要第一的名号。",
+            "nextDialogs": [
+              "740254120"
+            ]
+          },
+          "740254120": {
+            "id": "740254120",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你们把自己的特许券全都给雷维了？这难道不是违反规则的吗？",
+            "nextDialogs": [
+              "740254121"
+            ]
+          },
+          "740254121": {
+            "id": "740254121",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "并没有规则禁止这种行为。我原本是主张修订规则以确保公平竞争的，但是各位似乎都不以为然。",
+            "nextDialogs": [
+              "740254122"
+            ]
+          },
+          "740254122": {
+            "id": "740254122",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "的确没有规则禁止这种行为。唉，如果各位能充分利用规则，这场比赛原本会更加精彩的。",
+            "nextDialogs": [
+              "740254123"
+            ]
+          },
+          "740254123": {
+            "id": "740254123",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "「精彩」，只是对你而言吧。这种无聊的游戏，规则什么的根本无所谓吧。说到底，只是面子问题。",
+            "nextDialogs": [
+              "740254124"
+            ]
+          },
+          "740254124": {
+            "id": "740254124",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "好了，既然分数已经公示完毕，是时候宣布最终结果了吧？",
+            "nextDialogs": [
+              "740254125"
+            ]
+          },
+          "740254125": {
+            "id": "740254125",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我们今天的得分还没有加上。",
+            "nextDialogs": [
+              "740254126"
+            ]
+          },
+          "740254126": {
+            "id": "740254126",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "哼…杯水车薪。",
+            "nextDialogs": [
+              "740254127"
+            ]
+          },
+          "740254127": {
+            "id": "740254127",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "全部加上的话，应该是这样吧。",
+            "nextDialogs": [
+              "740254128"
+            ]
+          },
+          "740254128": {
+            "id": "740254128",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#好欸！{NICKNAME}{M#哥哥}{F#姐姐}，派蒙姐姐，快看快看，是我们赢了！",
+            "nextDialogs": [
+              "740254129"
+            ]
+          },
+          "740254129": {
+            "id": "740254129",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "什么…？这不可能！你做了什么？",
+            "nextDialogs": [
+              "740254130"
+            ]
+          },
+          "740254130": {
+            "id": "740254130",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇…这么多吗？我要数不清了…唔…",
+            "nextDialogs": [
+              "740254131"
+            ]
+          },
+          "740254131": {
+            "id": "740254131",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "是比魔法更简单的伎俩。",
+            "nextDialogs": [
+              "740254132"
+            ]
+          },
+          "740254132": {
+            "id": "740254132",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "用之前积攒的特许券雇了很多人帮我工作，他们这段时间的产出就是我们的所得了。这也算是规则容许的范围吧。",
+            "nextDialogs": [
+              "740254133"
+            ]
+          },
+          "740254133": {
+            "id": "740254133",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "就算是这样，这个数量也太异常了…",
+            "nextDialogs": [
+              "740254134"
+            ]
+          },
+          "740254134": {
+            "id": "740254134",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "我有必须获胜的理由，并且，又得到两位朋友的帮助。如果输掉的话，就太可惜了。",
+            "nextDialogs": [
+              "740254136"
+            ]
+          },
+          "740254136": {
+            "id": "740254136",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "虚荣？或许有吧。",
+            "nextDialogs": [
+              "740254138"
+            ]
+          },
+          "740254138": {
+            "id": "740254138",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "#既然已经结算完毕了，那就宣布最终结果吧。本次游戏的胜者是卡特皮拉、{NICKNAME}{M#先生}{F#女士}以及派蒙女士。",
+            "nextDialogs": [
+              "740254139"
+            ]
+          },
+          "740254139": {
+            "id": "740254139",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "各位都没有异议吧？",
+            "nextDialogs": [
+              "740254140"
+            ]
+          },
+          "740254140": {
+            "id": "740254140",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "我没什么可说的。看来是我选错了对手，上次因为一气之下揍了人被送到这里来，这次我可不会犯同样的错误了。",
+            "nextDialogs": [
+              "740254141"
+            ]
+          },
+          "740254141": {
+            "id": "740254141",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "…你会为你的选择付出代价的。",
+            "nextDialogs": [
+              "740254142"
+            ]
+          },
+          "740254142": {
+            "id": "740254142",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇，居然真的有人会说这种话。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402519",
+      "subQuestName": "(test)获取盲盒$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7402500",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250001"
+        ],
+        "dialogs": {
+          "740250001": {
+            "id": "740250001",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "在探照灯的警戒范围内逗留了太久，被梅洛彼得堡看守当成可疑人物带到了室内…",
+            "nextDialogs": [
+              "740250006"
+            ]
+          },
+          "740250006": {
+            "id": "740250006",
+            "speakerId": 1006,
+            "speakerName": "Black Screen",
+            "text": "被带到了接待处…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402505",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250501"
+        ],
+        "dialogs": {
+          "740250501": {
+            "id": "740250501",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "怎么样，要现在跟我一起去找艾蒂安吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402506",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250601"
+        ],
+        "dialogs": {
+          "740250601": {
+            "id": "740250601",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "新人？而且是两个？欢迎你们来到梅洛彼得堡！我是达希，在外边他们都叫我「漂亮脸蛋」，但是这个绰号一点也不酷！",
+            "nextDialogs": [
+              "740250602"
+            ]
+          },
+          "740250602": {
+            "id": "740250602",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "你们也这么觉得吧？所以我决定给自己起一个新绰号，一个很酷的新绰号！现在我叫「脏脸」达希，怎么样，很酷对吧？",
+            "nextDialogs": [
+              "740250606",
+              "740250605"
+            ]
+          },
+          "740250606": {
+            "id": "740250606",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "比起这个，我们有很多想问的…",
+            "nextDialogs": [
+              "740250607"
+            ]
+          },
+          "740250607": {
+            "id": "740250607",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "哦哦，当然，当然，新人嘛，搞不清楚状况也很正常。就让「脏脸」达希来帮助你们吧！",
+            "nextDialogs": [
+              "740250608"
+            ]
+          },
+          "740250608": {
+            "id": "740250608",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "有什么问题尽管问吧！"
+          },
+          "740250605": {
+            "id": "740250605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "毕竟是大家公认的称号嘛，想起来就觉得内心充满了勇气呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402507",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740250701"
+        ],
+        "dialogs": {
+          "740250701": {
+            "id": "740250701",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "#{M#先生}{F#女士}，还有可爱的同伴，你们好呀！「脏脸」达希，随时为您效劳！",
+            "nextDialogs": [
+              "740250702"
+            ]
+          },
+          "740250702": {
+            "id": "740250702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "「脏脸」？",
+            "nextDialogs": [
+              "740250703"
+            ]
+          },
+          "740250703": {
+            "id": "740250703",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "对，请叫我「脏脸」达希。以前在外边，他们都叫我「漂亮脸蛋」…这绰号简直太不酷了！",
+            "nextDialogs": [
+              "740250704"
+            ]
+          },
+          "740250704": {
+            "id": "740250704",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "请务必叫我「脏脸」达希…啊，这只是个很酷的绰号而已，我每天都有认真洗脸，请不要站那么远…",
+            "nextDialogs": [
+              "740250708",
+              "740250707"
+            ]
+          },
+          "740250708": {
+            "id": "740250708",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "真可惜，拳力斗技还不是时候呢…让我想想。",
+            "nextDialogs": [
+              "740250709"
+            ]
+          },
+          "740250709": {
+            "id": "740250709",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "对了，不如我带你们去看看热闹吧，最近有几伙人为了外出机会斗得难解难分，我以前都不知道枫丹科学院的人这么能说会道…",
+            "nextDialogs": [
+              "740250710"
+            ]
+          },
+          "740250710": {
+            "id": "740250710",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "我猜他们这会儿差不多快来了…怎么样？就当是拳力斗技开始之前打发时间，要不要去看看热闹？"
+          },
+          "740250707": {
+            "id": "740250707",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}怎么会这样说话？难道…难道是学坏了…不行！不可以！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402510",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740251001"
+        ],
+        "dialogs": {
+          "740251001": {
+            "id": "740251001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "原来你在这儿呀！",
+            "nextDialogs": [
+              "740251002"
+            ]
+          },
+          "740251002": {
+            "id": "740251002",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "#啊，是刚才的{M#哥哥}{F#姐姐}，还有你…你是小鸟吗？",
+            "nextDialogs": [
+              "740251003"
+            ]
+          },
+          "740251003": {
+            "id": "740251003",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "小鸟？我哪里像小鸟了…",
+            "nextDialogs": [
+              "740251005"
+            ]
+          },
+          "740251005": {
+            "id": "740251005",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "应该说是，清脆悦耳的鸣叫吧！",
+            "nextDialogs": [
+              "740251007"
+            ]
+          },
+          "740251007": {
+            "id": "740251007",
+            "speakerId": 5203,
+            "speakerName": "莉诺尔",
+            "text": "好怪喔…会飞，但又不是小鸟，那你是恶龙吗？是恶龙宝宝吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402523",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252301"
+        ],
+        "dialogs": {
+          "740252301": {
+            "id": "740252301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（感觉有些疲惫，要不要现在休息呢？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402528",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740252801"
+        ],
+        "dialogs": {
+          "740252801": {
+            "id": "740252801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（现在休息吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402533",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253301"
+        ],
+        "dialogs": {
+          "740253301": {
+            "id": "740253301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（现在休息吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402538",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740253801"
+        ],
+        "dialogs": {
+          "740253801": {
+            "id": "740253801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（现在休息吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402543",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740254301"
+        ],
+        "dialogs": {
+          "740254301": {
+            "id": "740254301",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "抱歉，耽搁了一些时间，关于之前说的获取特许券的手段…",
+            "nextDialogs": [
+              "740254302"
+            ]
+          },
+          "740254302": {
+            "id": "740254302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你对他做了什么？",
+            "nextDialogs": [
+              "740254303"
+            ]
+          },
+          "740254303": {
+            "id": "740254303",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看他之前一直气势汹汹的样子，不像是会听人劝的类型呢。怎么刚才放弃得这么干脆…",
+            "nextDialogs": [
+              "740254304"
+            ]
+          },
+          "740254304": {
+            "id": "740254304",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "只是一些小把戏。",
+            "nextDialogs": [
+              "740254305"
+            ]
+          },
+          "740254305": {
+            "id": "740254305",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "「负罪之人在他应在的地方。」这事实确凿无疑。",
+            "nextDialogs": [
+              "740254306"
+            ]
+          },
+          "740254306": {
+            "id": "740254306",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "那么，让像他那样耿直的人「确信」一件确凿无疑的事实，并不是难事吧。",
+            "nextDialogs": [
+              "740254307"
+            ]
+          },
+          "740254307": {
+            "id": "740254307",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "越是纯粹的人往往越是容易被他人的言语影响。",
+            "nextDialogs": [
+              "740254308"
+            ]
+          },
+          "740254308": {
+            "id": "740254308",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "你们知道，我在这里待了很久。在一个地方待得久了，自然会学会几个方便的把戏，对于周遭也多少会有一些影响力。",
+            "nextDialogs": [
+              "740254311"
+            ]
+          },
+          "740254311": {
+            "id": "740254311",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "只是简单说几句话就可以改变一个顽固的人的想法，感觉像是魔法一样…我们该不会也在自己不知道的时候被魔法影响了吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402554",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255401"
+        ],
+        "dialogs": {
+          "740255401": {
+            "id": "740255401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "生产区下层北侧。",
+            "nextDialogs": [
+              "740255402"
+            ]
+          },
+          "740255402": {
+            "id": "740255402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402555",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255501"
+        ],
+        "dialogs": {
+          "740255501": {
+            "id": "740255501",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "监舍区南侧。",
+            "nextDialogs": [
+              "740255502"
+            ]
+          },
+          "740255502": {
+            "id": "740255502",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402556",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255601"
+        ],
+        "dialogs": {
+          "740255601": {
+            "id": "740255601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "生产区上层东南侧。",
+            "nextDialogs": [
+              "740255602"
+            ]
+          },
+          "740255602": {
+            "id": "740255602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（说不定有获取特许券的机会…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402557",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255701"
+        ],
+        "dialogs": {
+          "740255701": {
+            "id": "740255701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（看来卡特皮拉为我们留下了一些获取特许券的线索…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402558",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740255801"
+        ],
+        "dialogs": {
+          "740255801": {
+            "id": "740255801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "去碰碰运气吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402560",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256001"
+        ],
+        "dialogs": {
+          "740256001": {
+            "id": "740256001",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "「脏脸」达希，随时为您效劳！",
+            "nextDialogs": [
+              "740256002"
+            ]
+          },
+          "740256002": {
+            "id": "740256002",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你这家伙…到底是几时给谁效劳呀！刚才居然扔下我们就跑！",
+            "nextDialogs": [
+              "740256003"
+            ]
+          },
+          "740256003": {
+            "id": "740256003",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "那也没办法嘛，研究员絮叨起来就没个完，第一次看还挺新鲜的，可我已经看过好多次啦。",
+            "nextDialogs": [
+              "740256004"
+            ]
+          },
+          "740256004": {
+            "id": "740256004",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "你们应该是第一次见吧？怎么样，好玩吗？",
+            "nextDialogs": [
+              "740256006",
+              "740256008"
+            ]
+          },
+          "740256006": {
+            "id": "740256006",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我也完全不懂到底哪里好玩了…",
+            "nextDialogs": [
+              "740256009"
+            ]
+          },
+          "740256009": {
+            "id": "740256009",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "唔…可惜现在还不是拳力斗技的比赛期间，那个大概更有趣吧！不过现在就只好先等等啦。"
+          },
+          "740256008": {
+            "id": "740256008",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，你是认真的吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402561",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256101"
+        ],
+        "dialogs": {
+          "740256101": {
+            "id": "740256101",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "如果改变心意了就再来找我吧。虽然已经到中盘了，中途参与意味着落后开始。不过就是这样的游戏才更有趣吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402562",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256201"
+        ],
+        "dialogs": {
+          "740256201": {
+            "id": "740256201",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "我早告诉你了，跟那个人说这些也是白费口舌，他根本不在乎。",
+            "nextDialogs": [
+              "740256202"
+            ]
+          },
+          "740256202": {
+            "id": "740256202",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "那你不也早就知道我们不是一类人，我可没办法像你一样靠直觉得出结论，我得亲自试过才能做出判断。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402563",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256301"
+        ],
+        "dialogs": {
+          "740256301": {
+            "id": "740256301",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "找我有事？",
+            "nextDialogs": [
+              "740256303",
+              "740256305",
+              "740256307"
+            ]
+          },
+          "740256303": {
+            "id": "740256303",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "笑脸迎人的人更要多提防。",
+            "nextDialogs": [
+              "740256309"
+            ]
+          },
+          "740256309": {
+            "id": "740256309",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "…小孩子就早点回家吧，如果你们还有家可回的话。"
+          },
+          "740256305": {
+            "id": "740256305",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "#{M#你不会也想跟女人讲道理吧？}{F#你看起来比她更明智。}"
+          },
+          "740256307": {
+            "id": "740256307",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "我没什么好说的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402564",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256401"
+        ],
+        "dialogs": {
+          "740256401": {
+            "id": "740256401",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "老板，有特许券吗？",
+            "nextDialogs": [
+              "740256403",
+              "740256405"
+            ]
+          },
+          "740256403": {
+            "id": "740256403",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "你不是老板？早说啊。"
+          },
+          "740256405": {
+            "id": "740256405",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "没有？白叫老板了，亏了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402565",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256501"
+        ],
+        "dialogs": {
+          "740256501": {
+            "id": "740256501",
+            "speakerId": 21157,
+            "speakerName": "德拉索",
+            "text": "……"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402566",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256601"
+        ],
+        "dialogs": {
+          "740256601": {
+            "id": "740256601",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "破烂骨头商店，应有尽有…哈哈，现在是什么都没有。",
+            "nextDialogs": [
+              "740256604"
+            ]
+          },
+          "740256604": {
+            "id": "740256604",
+            "speakerId": 5205,
+            "speakerName": "埃尔瓦德",
+            "text": "之后会进些新货，记得来看啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402567",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256701"
+        ],
+        "dialogs": {
+          "740256701": {
+            "id": "740256701",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#跟{NICKNAME}{M#哥哥}{F#姐姐}还有派蒙姐姐尝了味道很奇妙的枫达…派蒙姐姐喝了好多，但是完全不会掉下来呢！",
+            "nextDialogs": [
+              "740256702"
+            ]
+          },
+          "740256702": {
+            "id": "740256702",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "那她一定懂很多很厉害的魔法吧。",
+            "nextDialogs": [
+              "740256703"
+            ]
+          },
+          "740256703": {
+            "id": "740256703",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "哇…派蒙姐姐好强喔！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402568",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256801"
+        ],
+        "dialogs": {
+          "740256801": {
+            "id": "740256801",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "和莫莱妮姐姐聊天…她说纳塔和枫丹很不一样，她也想去泡火山温泉。",
+            "nextDialogs": [
+              "740256802"
+            ]
+          },
+          "740256802": {
+            "id": "740256802",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "火山…就是会冒火的山吗？山是…很高很高的岩石和土堆？唔…",
+            "nextDialogs": [
+              "740256803"
+            ]
+          },
+          "740256803": {
+            "id": "740256803",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "离开这里之后，你也有机会去见识这些的，不管是火山还是别的。",
+            "nextDialogs": [
+              "740256804"
+            ]
+          },
+          "740256804": {
+            "id": "740256804",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#那我要和卡特哥哥一起去探险！嗯…也邀请{NICKNAME}{M#哥哥}{F#姐姐}和派蒙姐姐吧，一定会很开心的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402569",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740256901"
+        ],
+        "dialogs": {
+          "740256901": {
+            "id": "740256901",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "呼啊…好困喔。",
+            "nextDialogs": [
+              "740256902"
+            ]
+          },
+          "740256902": {
+            "id": "740256902",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "那就早点休息吧。",
+            "nextDialogs": [
+              "740256903"
+            ]
+          },
+          "740256903": {
+            "id": "740256903",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "唔…可是故事还没有听完，等听完之后再休息…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402570",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257001"
+        ],
+        "dialogs": {
+          "740257001": {
+            "id": "740257001",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "嘉维娜姐姐给我的糖果…好甜喔。",
+            "nextDialogs": [
+              "740257002"
+            ]
+          },
+          "740257002": {
+            "id": "740257002",
+            "speakerId": 21048,
+            "speakerName": "卡特皮拉",
+            "text": "休息之前要记得刷牙。",
+            "nextDialogs": [
+              "740257003"
+            ]
+          },
+          "740257003": {
+            "id": "740257003",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "唔…知道啦！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402571",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257101"
+        ],
+        "dialogs": {
+          "740257101": {
+            "id": "740257101",
+            "speakerId": 5251,
+            "speakerName": "尼扎米",
+            "text": "陪小孩子玩闹很累吧？累了休息一会儿可以来和我对练！",
+            "nextDialogs": [
+              "740257103",
+              "740257105"
+            ]
+          },
+          "740257103": {
+            "id": "740257103",
+            "speakerId": 5251,
+            "speakerName": "尼扎米",
+            "text": "对手当然得越强越好啊！"
+          },
+          "740257105": {
+            "id": "740257105",
+            "speakerId": 5251,
+            "speakerName": "尼扎米",
+            "text": "嗯？那话怎么说的来着…生命在于运动！和活人对练总比和拳击桩对练有意思吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402572",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257201"
+        ],
+        "dialogs": {
+          "740257201": {
+            "id": "740257201",
+            "speakerId": 5214,
+            "speakerName": "嘉维娅",
+            "text": "需要花费这么长时间吗？你该不会是…",
+            "nextDialogs": [
+              "740257202"
+            ]
+          },
+          "740257202": {
+            "id": "740257202",
+            "speakerId": 5252,
+            "speakerName": "克兰茨",
+            "text": "我也想快点从这堆麻烦事里脱身，倒是你们…能不能按操作手册以正常的方式使用设备啊？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402573",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257301"
+        ],
+        "dialogs": {
+          "740257301": {
+            "id": "740257301",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "找我有事？",
+            "nextDialogs": [
+              "740257303",
+              "740257305"
+            ]
+          },
+          "740257303": {
+            "id": "740257303",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "#{M#是啊，一年到头只有偶尔会有少许降水。}{F#您很幽默，小姐。}"
+          },
+          "740257305": {
+            "id": "740257305",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "那就祝您度过愉快的一天。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402574",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257401"
+        ],
+        "dialogs": {
+          "740257401": {
+            "id": "740257401",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "喂，你说现在加入还有赚头吗？",
+            "nextDialogs": [
+              "740257402"
+            ]
+          },
+          "740257402": {
+            "id": "740257402",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "这枫达也太霸道了吧，虽然口味挺多的…",
+            "nextDialogs": [
+              "740257403"
+            ]
+          },
+          "740257403": {
+            "id": "740257403",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "我觉得须弥人搞的什么健康饮料，说不定有点希望，要不给他投资一点…",
+            "nextDialogs": [
+              "740257404"
+            ]
+          },
+          "740257404": {
+            "id": "740257404",
+            "speakerId": 21157,
+            "speakerName": "德拉索",
+            "text": "虽然我不是你的朋友，但是我的建议是不要投资。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402575",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257501"
+        ],
+        "dialogs": {
+          "740257501": {
+            "id": "740257501",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "……",
+            "nextDialogs": [
+              "740257502"
+            ]
+          },
+          "740257502": {
+            "id": "740257502",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "…抱歉，我有些问题需要考虑。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402576",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257601"
+        ],
+        "dialogs": {
+          "740257601": {
+            "id": "740257601",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "怎么了，你的猫也丢了吗？",
+            "nextDialogs": [
+              "740257602"
+            ]
+          },
+          "740257602": {
+            "id": "740257602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "什么猫？",
+            "nextDialogs": [
+              "740257603"
+            ]
+          },
+          "740257603": {
+            "id": "740257603",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "哦！你还不知道，那没事了。",
+            "nextDialogs": [
+              "740257604"
+            ]
+          },
+          "740257604": {
+            "id": "740257604",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "这里应该没人会丢猫吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402577",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257701"
+        ],
+        "dialogs": {
+          "740257701": {
+            "id": "740257701",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "哎呀，工作真辛苦啊。",
+            "nextDialogs": [
+              "740257703",
+              "740257705"
+            ]
+          },
+          "740257703": {
+            "id": "740257703",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "哈哈，你们也辛苦了。"
+          },
+          "740257705": {
+            "id": "740257705",
+            "speakerId": 5248,
+            "speakerName": "艾蒂安",
+            "text": "脑力劳动也算劳动嘛。因为是看不见的劳动，所以也无法为它确定价值，真可怕啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402578",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257801"
+        ],
+        "dialogs": {
+          "740257801": {
+            "id": "740257801",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "我仔细思考之后还是决定给他投资了。",
+            "nextDialogs": [
+              "740257802"
+            ]
+          },
+          "740257802": {
+            "id": "740257802",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "比起一时的快乐和一时的精神振作，还是长久的健康比较重要吧？",
+            "nextDialogs": [
+              "740257803"
+            ]
+          },
+          "740257803": {
+            "id": "740257803",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "大家都是聪明人，肯定明白这个道理。",
+            "nextDialogs": [
+              "740257804"
+            ]
+          },
+          "740257804": {
+            "id": "740257804",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "我觉得这项事业很有前途！",
+            "nextDialogs": [
+              "740257805"
+            ]
+          },
+          "740257805": {
+            "id": "740257805",
+            "speakerId": 21157,
+            "speakerName": "德拉索",
+            "text": "我建议你下次不要再问我的意见了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402579",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740257901"
+        ],
+        "dialogs": {
+          "740257901": {
+            "id": "740257901",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "…根本不需要那么多技术人员吧。",
+            "nextDialogs": [
+              "740257902"
+            ]
+          },
+          "740257902": {
+            "id": "740257902",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "什么？",
+            "nextDialogs": [
+              "740257903"
+            ]
+          },
+          "740257903": {
+            "id": "740257903",
+            "speakerId": 21073,
+            "speakerName": "格内薇芙",
+            "text": "啊，没什么。只是感慨，这里有些在枫丹科学院见过的熟面孔呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402580",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258001"
+        ],
+        "dialogs": {
+          "740258001": {
+            "id": "740258001",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "你们不应该拒绝我的提议。",
+            "nextDialogs": [
+              "740258003",
+              "740258005"
+            ]
+          },
+          "740258003": {
+            "id": "740258003",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "希望你能坚持自己的观点，直到最后。"
+          },
+          "740258005": {
+            "id": "740258005",
+            "speakerId": 21074,
+            "speakerName": "雷维",
+            "text": "机不可失，时不再来。这个道理你应该明白的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402581",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258101"
+        ],
+        "dialogs": {
+          "740258101": {
+            "id": "740258101",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "…要扩大生产呀，得追加投资才行。",
+            "nextDialogs": [
+              "740258102"
+            ]
+          },
+          "740258102": {
+            "id": "740258102",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "但是最近实在是手头有点紧，你看是不是…",
+            "nextDialogs": [
+              "740258103"
+            ]
+          },
+          "740258103": {
+            "id": "740258103",
+            "speakerId": 21157,
+            "speakerName": "德拉索",
+            "text": "不是，没有，别找我。",
+            "nextDialogs": [
+              "740258104"
+            ]
+          },
+          "740258104": {
+            "id": "740258104",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "别这么说嘛！咱俩谁跟谁，你看，到时有收益了多分你一份。",
+            "nextDialogs": [
+              "740258105"
+            ]
+          },
+          "740258105": {
+            "id": "740258105",
+            "speakerId": 21099,
+            "speakerName": "埃纳夫",
+            "text": "…还是不行吗？真的不行吗？",
+            "nextDialogs": [
+              "740258106"
+            ]
+          },
+          "740258106": {
+            "id": "740258106",
+            "speakerId": 21157,
+            "speakerName": "德拉索",
+            "text": "没有就是没有。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402582",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258201"
+        ],
+        "dialogs": {
+          "740258201": {
+            "id": "740258201",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "到头来还是得靠自己啊。",
+            "nextDialogs": [
+              "740258203",
+              "740258205"
+            ]
+          },
+          "740258203": {
+            "id": "740258203",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "人类真是孤独的生物，你也这么觉得，对吧。"
+          },
+          "740258205": {
+            "id": "740258205",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "那当然是想依靠他人，结果失败了。",
+            "nextDialogs": [
+              "740258206"
+            ]
+          },
+          "740258206": {
+            "id": "740258206",
+            "speakerId": 21124,
+            "speakerName": "布瓦列特",
+            "text": "说起来也算是意料之中吧。好在我总是有备用方案的，还不算完全走投无路。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402584",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258401"
+        ],
+        "dialogs": {
+          "740258401": {
+            "id": "740258401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我跟不上了…让我想想。",
+            "nextDialogs": [
+              "740258402"
+            ]
+          },
+          "740258402": {
+            "id": "740258402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你说得太快了，让我们考虑一下…",
+            "nextDialogs": [
+              "740258403"
+            ]
+          },
+          "740258403": {
+            "id": "740258403",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "哦！抱歉，我当然没有逼迫你们的意思，你们可以慢慢考虑，决定好了记得来找我！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402586",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740258601"
+        ],
+        "dialogs": {
+          "740258601": {
+            "id": "740258601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "待会儿再说吧。",
+            "nextDialogs": [
+              "740258602"
+            ]
+          },
+          "740258602": {
+            "id": "740258602",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "就当做是打发时间嘛！没关系，等你决定好了就来找我吧。我带你们去见见艾蒂安，我的看守好兄弟！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402591",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259101"
+        ],
+        "dialogs": {
+          "740259101": {
+            "id": "740259101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "还有其他事。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402592",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259201"
+        ],
+        "dialogs": {
+          "740259201": {
+            "id": "740259201",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再等我考虑一下。",
+            "nextDialogs": [
+              "740259202"
+            ]
+          },
+          "740259202": {
+            "id": "740259202",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "没问题！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402593",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259301"
+        ],
+        "dialogs": {
+          "740259301": {
+            "id": "740259301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那我们现在走吧。",
+            "nextDialogs": [
+              "740259302"
+            ]
+          },
+          "740259302": {
+            "id": "740259302",
+            "speakerId": 5201,
+            "speakerName": "达希",
+            "text": "出发！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402594",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259401"
+        ],
+        "dialogs": {
+          "740259401": {
+            "id": "740259401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "再等我一下。",
+            "nextDialogs": [
+              "740259402"
+            ]
+          },
+          "740259402": {
+            "id": "740259402",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "好喔。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402596",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259601"
+        ],
+        "dialogs": {
+          "740259601": {
+            "id": "740259601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "待会儿吧。",
+            "nextDialogs": [
+              "740259602"
+            ]
+          },
+          "740259602": {
+            "id": "740259602",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "#唔…那…那我在这里等等{M#哥哥姐姐}{F#姐姐们}。我会很耐心的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7402597",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740259701"
+        ],
+        "dialogs": {
+          "740259701": {
+            "id": "740259701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "出发！",
+            "nextDialogs": [
+              "740259702"
+            ]
+          },
+          "740259702": {
+            "id": "740259702",
+            "speakerId": 21034,
+            "speakerName": "莉诺尔",
+            "text": "嘿嘿，我们出发！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7406801",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "740680101"
+        ],
+        "dialogs": {
+          "740680101": {
+            "id": "740680101",
+            "speakerId": 5221,
+            "speakerName": "富尔蒙",
+            "text": "「啊，你、你这毒妇！我想起来了，我想起来了…」",
+            "nextDialogs": [
+              "740680102"
+            ]
+          },
+          "740680102": {
+            "id": "740680102",
+            "speakerId": 5222,
+            "speakerName": "梅亚",
+            "text": "不行不行，你念这句台词的时候，一定要正面面对观众，表情要有三分悔恨，六分惊恐和四分劫后余生的小侥幸。",
+            "nextDialogs": [
+              "740680103"
+            ]
+          },
+          "740680103": {
+            "id": "740680103",
+            "speakerId": 5221,
+            "speakerName": "富尔蒙",
+            "text": "你最好自己加一加这些加起来一共有几分…啊，百分制的吗？",
+            "nextDialogs": [
+              "740680104"
+            ]
+          },
+          "740680104": {
+            "id": "740680104",
+            "speakerId": 5222,
+            "speakerName": "梅亚",
+            "text": "不要在意这些啦，总之你要正面对着…对，那个椅子就是我们预设的观众席方向吧，到时候你得朝着那边…",
+            "nextDialogs": [
+              "740680105"
+            ]
+          },
+          "740680105": {
+            "id": "740680105",
+            "speakerId": 5222,
+            "speakerName": "梅亚",
+            "text": "你得想象那边有人坐在那里看才行！",
+            "nextDialogs": [
+              "740680106"
+            ]
+          },
+          "740680106": {
+            "id": "740680106",
+            "speakerId": 5221,
+            "speakerName": "富尔蒙",
+            "text": "唉…好吧好吧，我再试试。"
+          }
+        }
+      }
+    }
+  ]
+}

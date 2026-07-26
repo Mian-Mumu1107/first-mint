@@ -1,0 +1,63 @@
+{
+  "lineCounts": {
+    "Player": 2,
+    "Screen": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7610401",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "761040101"
+        ],
+        "dialogs": {
+          "761040101": {
+            "id": "761040101",
+            "speakerId": 1000,
+            "speakerName": "Screen",
+            "text": "(...)",
+            "nextDialogs": [
+              "761040102"
+            ]
+          },
+          "761040102": {
+            "id": "761040102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Switch surveillance camera angle.)",
+            "nextDialogs": [
+              "761040103"
+            ]
+          },
+          "761040103": {
+            "id": "761040103",
+            "speakerId": 1000,
+            "speakerName": "Screen",
+            "text": "(...)",
+            "nextDialogs": [
+              "761040104"
+            ]
+          },
+          "761040104": {
+            "id": "761040104",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Switch surveillance camera angle.)",
+            "nextDialogs": [
+              "761040105"
+            ]
+          },
+          "761040105": {
+            "id": "761040105",
+            "speakerId": 1000,
+            "speakerName": "Screen",
+            "text": "(...)"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "lineCounts": {
+    "Kenjirou": 8,
+    "Mahiru": 10,
+    "Paimon": 35,
+    "Player": 9,
+    "Tejima": 25
+  },
+  "subQuests": [
+    {
+      "subId": "200401",
+      "subQuestName": "Go to Konda Village and find out what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040101"
+        ],
+        "dialogs": {
+          "20040101": {
+            "id": "20040101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's see, where's the person Ayaka told us about...",
+            "nextDialogs": [
+              "20040102"
+            ]
+          },
+          "20040102": {
+            "id": "20040102",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Why are you doing this? Why leave all of a sudden, after all these years?",
+            "nextDialogs": [
+              "20040103"
+            ]
+          },
+          "20040103": {
+            "id": "20040103",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "Precisely, it's much too sudden. We've had no time to prepare...",
+            "nextDialogs": [
+              "20040104"
+            ]
+          },
+          "20040104": {
+            "id": "20040104",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "The children are desperate for you to take them out to play... Please, we urge you to reconsider!",
+            "nextDialogs": [
+              "20040105"
+            ]
+          },
+          "20040105": {
+            "id": "20040105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That must be the guy Ayaka told us about. Let's go over and see!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200406",
+      "subQuestName": "Ask the crowd for news",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040601"
+        ],
+        "dialogs": {
+          "20040601": {
+            "id": "20040601",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Ah... You must also be here to try and convince Tejima to stay?",
+            "nextDialogs": [
+              "20040602"
+            ]
+          },
+          "20040602": {
+            "id": "20040602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's happened?",
+            "nextDialogs": [
+              "20040603"
+            ]
+          },
+          "20040603": {
+            "id": "20040603",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Tejima has protected this place ever since he arrived here 30 years ago.",
+            "nextDialogs": [
+              "20040604"
+            ]
+          },
+          "20040604": {
+            "id": "20040604",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Keeping out the Treasure Hoarders, fending off any monsters that draw near, resolving quarrels between the villagers... he has put an enormous amount of work into looking after this place, and we all think the world of him.",
+            "nextDialogs": [
+              "20040605"
+            ]
+          },
+          "20040605": {
+            "id": "20040605",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "But now, all of a sudden, he says he plans to leave us... We can't help but wonder — was it something we did?",
+            "nextDialogs": [
+              "20040606"
+            ]
+          },
+          "20040606": {
+            "id": "20040606",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "We will gladly apologize if that's the case... All we want is for him to stay..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200407",
+      "subQuestName": "Ask the crowd for news",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040701"
+        ],
+        "dialogs": {
+          "20040701": {
+            "id": "20040701",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "*sigh* ...",
+            "nextDialogs": [
+              "20040702"
+            ]
+          },
+          "20040702": {
+            "id": "20040702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So why the change?",
+            "nextDialogs": [
+              "20040703"
+            ]
+          },
+          "20040703": {
+            "id": "20040703",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "If you want my opinion, something to do with the Vision Hunt Decree.",
+            "nextDialogs": [
+              "20040704"
+            ]
+          },
+          "20040704": {
+            "id": "20040704",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "It's clear that Tejima had done nothing wrong. And still they confiscated his Vision. After that... he became a completely different person.",
+            "nextDialogs": [
+              "20040705"
+            ]
+          },
+          "20040705": {
+            "id": "20040705",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "I can't claim to fully understand it, but I could tell that he'd lost something very important to him. He went off on a walk, alone, circled the village a few times, and then out of the blue, he announced that he was going to leave and become a wanderer.",
+            "nextDialogs": [
+              "20040706"
+            ]
+          },
+          "20040706": {
+            "id": "20040706",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "Truth be told, we aren't sure whether trying to keep him here is the right thing to do. But equally... it doesn't feel right to let him leave when he's in this state. He's a lost soul.",
+            "nextDialogs": [
+              "20040707"
+            ]
+          },
+          "20040707": {
+            "id": "20040707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Seems like he's a well-respected guy around here."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200408",
+      "subQuestName": "Talk to Tejima and find out what happened",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040801"
+        ],
+        "dialogs": {
+          "20040801": {
+            "id": "20040801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You must be Tejima? So, what's made you wanna up and leave all of a sudden?",
+            "nextDialogs": [
+              "20040802"
+            ]
+          },
+          "20040802": {
+            "id": "20040802",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Me...? I... It's not a question of why I want to leave... but a question of... what reason I would have to stay.",
+            "nextDialogs": [
+              "20040803"
+            ]
+          },
+          "20040803": {
+            "id": "20040803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You've lived here for a long time.",
+            "nextDialogs": [
+              "20040804"
+            ]
+          },
+          "20040804": {
+            "id": "20040804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Everyone depends on you.",
+            "nextDialogs": [
+              "20040805"
+            ]
+          },
+          "20040805": {
+            "id": "20040805",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "True... but that's not why I chose to stay here...",
+            "nextDialogs": [
+              "20040806"
+            ]
+          },
+          "20040806": {
+            "id": "20040806",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "...and what made me want to come here 30 years ago? And why have I never wanted to leave in all that time?",
+            "nextDialogs": [
+              "20040807"
+            ]
+          },
+          "20040807": {
+            "id": "20040807",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "*sigh* I don't have answers to those questions, because I can't remember anymore. Ever since they took my Vision away, it's like... a slice of my memory is gone.",
+            "nextDialogs": [
+              "20040808"
+            ]
+          },
+          "20040808": {
+            "id": "20040808",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "In the past, I knew I wanted to stay here... but whatever resolve I had then, it's gone now. So I thought, what's to stop me from moving around instead? The emptiness inside me will be there either way.",
+            "nextDialogs": [
+              "20040809"
+            ]
+          },
+          "20040809": {
+            "id": "20040809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay... Well, in that case, if we help you rediscover the reason you chose to stay, you won't need to leave anymore, right?",
+            "nextDialogs": [
+              "20040810"
+            ]
+          },
+          "20040810": {
+            "id": "20040810",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm... But if you can't remember anything, it's not gonna be easy.",
+            "nextDialogs": [
+              "20040811"
+            ]
+          },
+          "20040811": {
+            "id": "20040811",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! Maybe if you just try a little harder to remember, then... it'll all come flooding back?",
+            "nextDialogs": [
+              "20040812"
+            ]
+          },
+          "20040812": {
+            "id": "20040812",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Oh, that reminds me... Last time I brought Tejima some fruit, I do believe I saw him writing in a diary.",
+            "nextDialogs": [
+              "20040813"
+            ]
+          },
+          "20040813": {
+            "id": "20040813",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "...I keep a diary? If you say so... I honestly can't seem to remember.",
+            "nextDialogs": [
+              "20040814"
+            ]
+          },
+          "20040814": {
+            "id": "20040814",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "Yes, yes, you do! And what's more, I remember you saying at the time that you wanted to make a note of a few interesting things — things which would prove very important at a later date.",
+            "nextDialogs": [
+              "20040815"
+            ]
+          },
+          "20040815": {
+            "id": "20040815",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Perfect! So, if we wanna keep Tejima from leaving, we just need to find his diary. It must be around here somewhere, let's take a look.",
+            "nextDialogs": [
+              "20040816"
+            ]
+          },
+          "20040816": {
+            "id": "20040816",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "If you don't mind, we will leave you to find the diary... we should head back to the village to inform the others of Tejima's situation."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200402",
+      "subQuestName": "Find the clues to Tejima's memory",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040201"
+        ],
+        "dialogs": {
+          "20040201": {
+            "id": "20040201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This looks like Tejima's diary alright.",
+            "nextDialogs": [
+              "20040202"
+            ]
+          },
+          "20040202": {
+            "id": "20040202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's see what we have here...",
+            "nextDialogs": [
+              "20040203"
+            ]
+          },
+          "20040203": {
+            "id": "20040203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"Today, the villagers and I got together to cook Dry-Braised Salted Fish. I messed up and burned mine a little, so I had to pretend that it was Black Snakehead instead.\"",
+            "nextDialogs": [
+              "20040204"
+            ]
+          },
+          "20040204": {
+            "id": "20040204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"Today, I helped rescue a kid who had fallen in the water. After I pulled him out, he told me that his best friend, Banbu, was still in the water. I searched the water the whole afternoon before finding out that Banbu was the name of his pet crab.\"",
+            "nextDialogs": [
+              "20040205"
+            ]
+          },
+          "20040205": {
+            "id": "20040205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"I went kite-flying today. The string broke, so I chased after it as fast as I could. I soon realized I was never going to get it back, so I just found somewhere to sit and watch as it flew away into the distance.\"",
+            "nextDialogs": [
+              "20040206"
+            ]
+          },
+          "20040206": {
+            "id": "20040206",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm... Seems like your average diary of daily village life...",
+            "nextDialogs": [
+              "20040207"
+            ]
+          },
+          "20040207": {
+            "id": "20040207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Wait — there's more!",
+            "nextDialogs": [
+              "20040208"
+            ]
+          },
+          "20040208": {
+            "id": "20040208",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"I went to pray at the shrine again today, and stayed there a while. The omamori you gave me has faded a little, but it is still my most treasured possession...\"",
+            "nextDialogs": [
+              "20040209"
+            ]
+          },
+          "20040209": {
+            "id": "20040209",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Now that's the kind of info we're looking for! Time to pay a visit to the shrine!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200403",
+      "subQuestName": "Go investigate the shrine nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040301"
+        ],
+        "dialogs": {
+          "20040301": {
+            "id": "20040301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So this is the omamori Tejima wrote about.",
+            "nextDialogs": [
+              "20040302"
+            ]
+          },
+          "20040302": {
+            "id": "20040302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Interesting... looking at the color and the design, Paimon would've thought it belonged to a child...",
+            "nextDialogs": [
+              "20040303"
+            ]
+          },
+          "20040303": {
+            "id": "20040303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But anyway, if he had this with him all the time, there's a chance some of his elemental energy remained on it. D'you think that might come in handy?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "200404",
+      "subQuestName": "Use Elemental Sight to find clues in the diary",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040401"
+        ],
+        "dialogs": {
+          "20040401": {
+            "id": "20040401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Here we are! This seems to be somewhere that Tejima visited a lot.",
+            "nextDialogs": [
+              "20040402"
+            ]
+          },
+          "20040402": {
+            "id": "20040402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The soil looks like it's been disturbed... Maybe Tejima buried something precious here — something that's kept him in the village all these years?",
+            "nextDialogs": [
+              "20040403"
+            ]
+          },
+          "20040403": {
+            "id": "20040403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Must be something pretty amazing if it made him stick around for 30 years. Let's dig it up and take a look~!",
+            "nextDialogs": [
+              "20040404"
+            ]
+          },
+          "20040404": {
+            "id": "20040404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It looks like... a letter? The paper's gone yellow — must have been written a really long time ago.",
+            "nextDialogs": [
+              "20040405"
+            ]
+          },
+          "20040405": {
+            "id": "20040405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"Konda Village\"... Sounds so familiar — where is that place, again?",
+            "nextDialogs": [
+              "20040406"
+            ]
+          },
+          "20040406": {
+            "id": "20040406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's here.",
+            "nextDialogs": [
+              "20040407"
+            ]
+          },
+          "20040407": {
+            "id": "20040407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? So the reason Tejima came here was to wait for someone?",
+            "nextDialogs": [
+              "20040408"
+            ]
+          },
+          "20040408": {
+            "id": "20040408",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But he's been here for 30 years... Aw, guess they didn't show up in the end, huh...",
+            "nextDialogs": [
+              "20040409"
+            ]
+          },
+          "20040409": {
+            "id": "20040409",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, let's go give Tejima his stuff back and take it from there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200405",
+      "subQuestName": "Talk to Tejima",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040501"
+        ],
+        "dialogs": {
+          "20040501": {
+            "id": "20040501",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Well, I'll be... That's certainly my handwriting... and I guess the omamori and letter belong to me too.",
+            "nextDialogs": [
+              "20040502"
+            ]
+          },
+          "20040502": {
+            "id": "20040502",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "...But I have no memory of anything that's written in this diary.",
+            "nextDialogs": [
+              "20040503"
+            ]
+          },
+          "20040503": {
+            "id": "20040503",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Still... it's clear that I was waiting for someone here, and that I chose to wait for 30 years.",
+            "nextDialogs": [
+              "20040504"
+            ]
+          },
+          "20040504": {
+            "id": "20040504",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Over the years, I must have made a note of anything interesting... anything that I could share with her when we were finally reunited.",
+            "nextDialogs": [
+              "20040505"
+            ]
+          },
+          "20040505": {
+            "id": "20040505",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "And just look at all the things that did happen over the years... The time has flown by so quickly. 30 years feels like the blink of an eye.",
+            "nextDialogs": [
+              "20040506"
+            ]
+          },
+          "20040506": {
+            "id": "20040506",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "How could I have forgotten something so important to me? Hmm... Now that I think about it, when my Vision was taken from me, it felt like I'd suddenly been... hollowed out.",
+            "nextDialogs": [
+              "20040507"
+            ]
+          },
+          "20040507": {
+            "id": "20040507",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Love, regret... everything I felt for her... it's all disappeared.",
+            "nextDialogs": [
+              "20040508"
+            ]
+          },
+          "20040508": {
+            "id": "20040508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Does that make you feel sad?",
+            "nextDialogs": [
+              "20040509"
+            ]
+          },
+          "20040509": {
+            "id": "20040509",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "No... not especially.",
+            "nextDialogs": [
+              "20040510"
+            ]
+          },
+          "20040510": {
+            "id": "20040510",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "After all, I've forgotten who she was. Her face, her voice, the things we experienced together... I barely recall any of it.",
+            "nextDialogs": [
+              "20040511"
+            ]
+          },
+          "20040511": {
+            "id": "20040511",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "It's as if she'd never been in my life to begin with... as if, all these years have been nothing but a hazy dream.",
+            "nextDialogs": [
+              "20040513"
+            ]
+          },
+          "20040513": {
+            "id": "20040513",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, do you still plan on leaving?",
+            "nextDialogs": [
+              "20040514"
+            ]
+          },
+          "20040514": {
+            "id": "20040514",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Mm... I think... maybe not. If this is something I waited most of my life for, I suppose I should carry on waiting.",
+            "nextDialogs": [
+              "20040516"
+            ]
+          },
+          "20040516": {
+            "id": "20040516",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "Although, what if she were to turn up eventually, only to find I didn't remember so much as her name... Wouldn't that be upsetting for her?",
+            "nextDialogs": [
+              "20040517"
+            ]
+          },
+          "20040517": {
+            "id": "20040517",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "When I think about it like that... I do feel a slight tinge of sadness in my heart.",
+            "nextDialogs": [
+              "20040518"
+            ]
+          },
+          "20040518": {
+            "id": "20040518",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "How curious... Why am I thinking like this when I don't even remember who she is? It's just like that feeling of emptiness, the feeling that something is... missing...",
+            "nextDialogs": [
+              "20040519"
+            ]
+          },
+          "20040519": {
+            "id": "20040519",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "*sigh* Thank you both for helping me reconnect with my reason for staying here.",
+            "nextDialogs": [
+              "20040520"
+            ]
+          },
+          "20040520": {
+            "id": "20040520",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "I shall remain here, and keep waiting for her.",
+            "nextDialogs": [
+              "20040522"
+            ]
+          },
+          "20040522": {
+            "id": "20040522",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Tejima seems to be dealing... okay, but still... it makes Paimon really sad...",
+            "nextDialogs": [
+              "20040525"
+            ]
+          },
+          "20040525": {
+            "id": "20040525",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Seems it's just like Ayaka and Thoma were saying. If you lose your Vision, you lose all your hopes and dreams, too...",
+            "nextDialogs": [
+              "20040526"
+            ]
+          },
+          "20040526": {
+            "id": "20040526",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That certainly explains the state Tejima was in earlier.",
+            "nextDialogs": [
+              "20040527"
+            ]
+          },
+          "20040527": {
+            "id": "20040527",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "At least we were able to help him... weren't we?",
+            "nextDialogs": [
+              "20040528"
+            ]
+          },
+          "20040528": {
+            "id": "20040528",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*sigh* ...Well, let's go find the next person."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200409",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20040901"
+        ],
+        "dialogs": {
+          "20040901": {
+            "id": "20040901",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200410",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20041001"
+        ],
+        "dialogs": {
+          "20041001": {
+            "id": "20041001",
+            "speakerId": 12040,
+            "speakerName": "Mahiru",
+            "text": "What could be the matter..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200411",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20041101"
+        ],
+        "dialogs": {
+          "20041101": {
+            "id": "20041101",
+            "speakerId": 12041,
+            "speakerName": "Kenjirou",
+            "text": "We can't let him leave while he's in such a bad state..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200412",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20041201"
+        ],
+        "dialogs": {
+          "20041201": {
+            "id": "20041201",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200413",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20041301"
+        ],
+        "dialogs": {
+          "20041301": {
+            "id": "20041301",
+            "speakerId": 3129,
+            "speakerName": "Tejima",
+            "text": "I'll stay here, and keep waiting for her..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "200499",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20049901"
+        ],
+        "dialogs": {
+          "20049901": {
+            "id": "20049901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This should be the place.",
+            "nextDialogs": [
+              "20049902"
+            ]
+          },
+          "20049902": {
+            "id": "20049902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "According to Miss Kamisato, the second one who lost their Vision is a samurai from the Tenryou Commission."
+          }
+        }
+      }
+    }
+  ]
+}

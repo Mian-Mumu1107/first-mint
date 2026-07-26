@@ -1,0 +1,845 @@
+{
+  "lineCounts": {
+    "Player": 22,
+    "兰贡迪": 37,
+    "派蒙": 51
+  },
+  "subQuests": [
+    {
+      "subId": "7301701",
+      "subQuestName": "前往梦景林莽寻找兰贡迪",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301713",
+      "subQuestName": "在指定地点弹奏「大梦的曲调」以引出兰那罗",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301702",
+      "subQuestName": "与兰贡迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730170201"
+        ],
+        "dialogs": {
+          "730170201": {
+            "id": "730170201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦！可算找到你啦！你就是兰贡迪吧！",
+            "nextDialogs": [
+              "730170202"
+            ]
+          },
+          "730170202": {
+            "id": "730170202",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "我可以不是。",
+            "nextDialogs": [
+              "730170203"
+            ]
+          },
+          "730170203": {
+            "id": "730170203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯？这是什么意思？",
+            "nextDialogs": [
+              "730170204"
+            ]
+          },
+          "730170204": {
+            "id": "730170204",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "因为我可以是树，可以是雨，可以是桓那的梦，也可以是乐器的弦。",
+            "nextDialogs": [
+              "730170205"
+            ]
+          },
+          "730170205": {
+            "id": "730170205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦…",
+            "nextDialogs": [
+              "730170206"
+            ]
+          },
+          "730170206": {
+            "id": "730170206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#完全没听懂他在说什么呢！{NICKNAME}，你知道他在说什么吗？",
+            "nextDialogs": [
+              "730170208",
+              "730170210"
+            ]
+          },
+          "730170208": {
+            "id": "730170208",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "感觉每个字都知道是什么意思，但是连成句子就听不懂了…",
+            "nextDialogs": [
+              "730170213"
+            ]
+          },
+          "730170213": {
+            "id": "730170213",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "金色的那菈，和会飞的小东西，为什么要找兰贡迪？",
+            "nextDialogs": [
+              "730170214"
+            ]
+          },
+          "730170214": {
+            "id": "730170214",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我不是什么「会飞的小东西」啦！等等，我好像确实是…？哎！总之，我叫派蒙！",
+            "nextDialogs": [
+              "730170215"
+            ]
+          },
+          "730170215": {
+            "id": "730170215",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#「金色的那菈」也有自己的名字，{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}叫{NICKNAME}。",
+            "nextDialogs": [
+              "730170216"
+            ]
+          },
+          "730170216": {
+            "id": "730170216",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是兰般度告诉我们的，说兰贡迪在梦景林莽，让我们来看看情况。",
+            "nextDialogs": [
+              "730170217"
+            ]
+          },
+          "730170217": {
+            "id": "730170217",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "派蒙可以告诉兰般度，兰贡迪很好，梦景林莽很好，潮湿的梦也很好。",
+            "nextDialogs": [
+              "730170218"
+            ]
+          },
+          "730170218": {
+            "id": "730170218",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#好哦…{NICKNAME}，那我们回去找兰般度吧。",
+            "nextDialogs": [
+              "730170219"
+            ]
+          },
+          "730170219": {
+            "id": "730170219",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "…才不是啦！我们是来治好法留纳神机的！好险，差点被牵着鼻子走了…",
+            "nextDialogs": [
+              "730170220"
+            ]
+          },
+          "730170220": {
+            "id": "730170220",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "派蒙可以告诉兰般度，兰贡迪不想牵派蒙的鼻子。",
+            "nextDialogs": [
+              "730170221"
+            ]
+          },
+          "730170221": {
+            "id": "730170221",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "兰般度可能不想知道这个。",
+            "nextDialogs": [
+              "730170222"
+            ]
+          },
+          "730170222": {
+            "id": "730170222",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我也不想知道啦！这个兰那罗到底是怎么回事嘛！",
+            "nextDialogs": [
+              "730170223"
+            ]
+          },
+          "730170223": {
+            "id": "730170223",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "记得兰般度说过…",
+            "nextDialogs": [
+              "730170224"
+            ]
+          },
+          "730170224": {
+            "id": "730170224",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "兰般度提到兰贡迪的时候说，「他和那菈更疏远」…意思是，他不知道怎么和人交流吗？",
+            "nextDialogs": [
+              "730170225"
+            ]
+          },
+          "730170225": {
+            "id": "730170225",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是我们不知道怎么和兰那罗交流。",
+            "nextDialogs": [
+              "730170226"
+            ]
+          },
+          "730170226": {
+            "id": "730170226",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊！说的也是，「入乡随俗」，应该是我们学习他们的交流方式才对？",
+            "nextDialogs": [
+              "730170227"
+            ]
+          },
+          "730170227": {
+            "id": "730170227",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过，事到如今仔细想想，兰那罗的交流方式到底是什么样的呢？"
+          },
+          "730170210": {
+            "id": "730170210",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "太厉害了！那么他的话到底是什么意思呢？",
+            "nextDialogs": [
+              "730170211"
+            ]
+          },
+          "730170211": {
+            "id": "730170211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他说他可以变形成很多其他的东西。",
+            "nextDialogs": [
+              "730170212"
+            ]
+          },
+          "730170212": {
+            "id": "730170212",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#真的吗？{NICKNAME}可不要骗我…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301703",
+      "subQuestName": "和兰贡迪一起找到「枝」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301704",
+      "subQuestName": "和兰贡迪一起找到「枝」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730170401"
+        ],
+        "dialogs": {
+          "730170401": {
+            "id": "730170401",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "大树的根，很好，可以听到潮湿的呼吸，是昏昏欲睡的曲调。",
+            "nextDialogs": [
+              "730170402"
+            ]
+          },
+          "730170402": {
+            "id": "730170402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦…还是没听懂兰贡迪在说什么，不过算了！",
+            "nextDialogs": [
+              "730170403"
+            ]
+          },
+          "730170403": {
+            "id": "730170403",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "说起来，里面居然有这么大的空间，这就叫「盘根错节」吗？而且，总觉得这里的氛围和其他地方很不一样呢。",
+            "nextDialogs": [
+              "730170404"
+            ]
+          },
+          "730170404": {
+            "id": "730170404",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "要在这种地方找到给法留纳神机输送能量的「叶」吗…",
+            "nextDialogs": [
+              "730170405"
+            ]
+          },
+          "730170405": {
+            "id": "730170405",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "在这里，但是又不在。听得到它的声音，闻得到它的气息，看得到它的脉络，但是派蒙找不到它。",
+            "nextDialogs": [
+              "730170406"
+            ]
+          },
+          "730170406": {
+            "id": "730170406",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊？那是怎么回事…",
+            "nextDialogs": [
+              "730170407"
+            ]
+          },
+          "730170407": {
+            "id": "730170407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙找不到，那我呢？",
+            "nextDialogs": [
+              "730170408"
+            ]
+          },
+          "730170408": {
+            "id": "730170408",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "金色的那菈，看得到旋律，像夜晚的凉风，倏忽而至的雨，破碎湖面一千片的梦。",
+            "nextDialogs": [
+              "730170409"
+            ]
+          },
+          "730170409": {
+            "id": "730170409",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "听起来很厉害的样子。",
+            "nextDialogs": [
+              "730170410"
+            ]
+          },
+          "730170410": {
+            "id": "730170410",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#不愧是{NICKNAME}！",
+            "nextDialogs": [
+              "730170411"
+            ]
+          },
+          "730170411": {
+            "id": "730170411",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "嘿嘿。",
+            "nextDialogs": [
+              "730170412"
+            ]
+          },
+          "730170412": {
+            "id": "730170412",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#嘿嘿…不对啦！{NICKNAME}这不是在抢我的词吗！",
+            "nextDialogs": [
+              "730170413"
+            ]
+          },
+          "730170413": {
+            "id": "730170413",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈{NICKNAME}变成派蒙…比在无留陀和蘑菇一起跳舞更可怕…",
+            "nextDialogs": [
+              "730170414"
+            ]
+          },
+          "730170414": {
+            "id": "730170414",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "无法想象…",
+            "nextDialogs": [
+              "730170415"
+            ]
+          },
+          "730170415": {
+            "id": "730170415",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "所以说这种事情是不会发生的啦！最好是不要发生…",
+            "nextDialogs": [
+              "730170416"
+            ]
+          },
+          "730170416": {
+            "id": "730170416",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "兰贡迪也是，就不能说得明白点吗？我们到底要去哪里找法留纳神机的「叶」呢？",
+            "nextDialogs": [
+              "730170417"
+            ]
+          },
+          "730170417": {
+            "id": "730170417",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "在梦里找。",
+            "nextDialogs": [
+              "730170418"
+            ]
+          },
+          "730170418": {
+            "id": "730170418",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦…等等，那你为什么不一开始就这么说呢？",
+            "nextDialogs": [
+              "730170419"
+            ]
+          },
+          "730170419": {
+            "id": "730170419",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "因为派蒙问为什么，没有问在哪里。",
+            "nextDialogs": [
+              "730170420"
+            ]
+          },
+          "730170420": {
+            "id": "730170420",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸…我好像突然明白兰那罗的交流方式了！",
+            "nextDialogs": [
+              "730170421"
+            ]
+          },
+          "730170421": {
+            "id": "730170421",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "兰贡迪可不可以告诉我们要找的三个「叶」分别具体在哪里呢？",
+            "nextDialogs": [
+              "730170422"
+            ]
+          },
+          "730170422": {
+            "id": "730170422",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "可以呀。",
+            "nextDialogs": [
+              "730170423"
+            ]
+          },
+          "730170423": {
+            "id": "730170423",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哇，兰贡迪是真的只会回答被直接问到的问题…好吧，那这三个地方具体在哪里呢？",
+            "nextDialogs": [
+              "730170424"
+            ]
+          },
+          "730170424": {
+            "id": "730170424",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "在这边、那边和另一边。",
+            "nextDialogs": [
+              "730170425"
+            ]
+          },
+          "730170425": {
+            "id": "730170425",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯嗯…不是，你这不是什么也没说吗！",
+            "nextDialogs": [
+              "730170426"
+            ]
+          },
+          "730170426": {
+            "id": "730170426",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙大失败。",
+            "nextDialogs": [
+              "730170427"
+            ]
+          },
+          "730170427": {
+            "id": "730170427",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#派蒙大失败和{NICKNAME}大失败是一回事啦！兰贡迪的话根本没法参考嘛…我们该怎么找到那三个地方呢…",
+            "nextDialogs": [
+              "730170428"
+            ]
+          },
+          "730170428": {
+            "id": "730170428",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "法留纳神机是最了不起的兰那罗造的，「枝」和「叶」的联系，看不见，又看得见。",
+            "nextDialogs": [
+              "730170429"
+            ]
+          },
+          "730170429": {
+            "id": "730170429",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈{NICKNAME}看得见兰那罗，看得见兰那罗的痕迹，就能找到方向。",
+            "nextDialogs": [
+              "730170430"
+            ]
+          },
+          "730170430": {
+            "id": "730170430",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我、我居然听懂了！",
+            "nextDialogs": [
+              "730170431"
+            ]
+          },
+          "730170431": {
+            "id": "730170431",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "跟着兰那罗的痕迹就能找到，对吧？",
+            "nextDialogs": [
+              "730170432"
+            ]
+          },
+          "730170432": {
+            "id": "730170432",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜呜…至少把这次回答的机会让给我嘛！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301715",
+      "subQuestName": "在「修梨薜那」前，弹奏「大梦的曲调」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301710",
+      "subQuestName": "让梦境中的三个「叶」都朝向「枝」的方向",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730171001"
+        ],
+        "dialogs": {
+          "730171001": {
+            "id": "730171001",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "潮湿的梦，干燥的梦…叮咚，嘀嗒，沙沙，是桓那的曲子…",
+            "nextDialogs": [
+              "730171002"
+            ]
+          },
+          "730171002": {
+            "id": "730171002",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈{NICKNAME}？「叶」在梦里，「枝」在这里。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301716",
+      "subQuestName": "在「修梨薜那」前，弹奏「大梦的曲调」",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7301712",
+      "subQuestName": "与兰贡迪对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "730171201"
+        ],
+        "dialogs": {
+          "730171201": {
+            "id": "730171201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们回来啦！",
+            "nextDialogs": [
+              "730171202"
+            ]
+          },
+          "730171202": {
+            "id": "730171202",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "听到了，呜咽变成了婉转的曲调，但是要汇入声音的大流还需要…",
+            "nextDialogs": [
+              "730171203"
+            ]
+          },
+          "730171203": {
+            "id": "730171203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还需要兰贡迪帮忙！嘿嘿，接下来就拜托你啦！",
+            "nextDialogs": [
+              "730171204"
+            ]
+          },
+          "730171204": {
+            "id": "730171204",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "兰贡迪知道。",
+            "nextDialogs": [
+              "730171205"
+            ]
+          },
+          "730171205": {
+            "id": "730171205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哦！这样应该没问题了吧！希望能快点治好法留纳神机，不然水天丛林那边全是孢子…光是想想就…阿嚏——呜…",
+            "nextDialogs": [
+              "730171206"
+            ]
+          },
+          "730171206": {
+            "id": "730171206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "真不敢相信兰那罗居然对孢子没什么反应…难道兰那罗都不会受影响吗？",
+            "nextDialogs": [
+              "730171207"
+            ]
+          },
+          "730171207": {
+            "id": "730171207",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "兰那罗会煮蘑菇，不是没事。「孢子」，太小太多，抓不到。",
+            "nextDialogs": [
+              "730171208"
+            ]
+          },
+          "730171208": {
+            "id": "730171208",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "法留纳神机没有坏的时候，桓那没有这么多蘑菇，所以治好法留纳神机，都会变好。除了无留陀。",
+            "nextDialogs": [
+              "730171209"
+            ]
+          },
+          "730171209": {
+            "id": "730171209",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "一定会变好的。",
+            "nextDialogs": [
+              "730171210"
+            ]
+          },
+          "730171210": {
+            "id": "730171210",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#对呀，我和{NICKNAME}也会帮忙的！",
+            "nextDialogs": [
+              "730171211"
+            ]
+          },
+          "730171211": {
+            "id": "730171211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "无留陀也会有办法解决的。",
+            "nextDialogs": [
+              "730171212"
+            ]
+          },
+          "730171212": {
+            "id": "730171212",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈{NICKNAME}是那菈法留纳吗？",
+            "nextDialogs": [
+              "730171213"
+            ]
+          },
+          "730171213": {
+            "id": "730171213",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "欸？为什么突然这样问？",
+            "nextDialogs": [
+              "730171214"
+            ]
+          },
+          "730171214": {
+            "id": "730171214",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "兰般度说，那菈法留纳是金色的、勇敢的那菈，和兰那罗一起治好了法留纳神机，赶走了黑色的雨和泥，带回了月亮和太阳。",
+            "nextDialogs": [
+              "730171215"
+            ]
+          },
+          "730171215": {
+            "id": "730171215",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈{NICKNAME}也帮兰那罗治法留纳神机，也是金色的、勇敢的那菈，不是吗？",
+            "nextDialogs": [
+              "730171216"
+            ]
+          },
+          "730171216": {
+            "id": "730171216",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "可是，那菈法留纳不是很早以前的人吗…",
+            "nextDialogs": [
+              "730171217"
+            ]
+          },
+          "730171217": {
+            "id": "730171217",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#那菈法留纳没有又回到桓那吗？那菈{NICKNAME}是完全不一样的那菈？",
+            "nextDialogs": [
+              "730171218"
+            ]
+          },
+          "730171218": {
+            "id": "730171218",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "不一样的那菈，也会有相似的旋律吗？",
+            "nextDialogs": [
+              "730171221"
+            ]
+          },
+          "730171221": {
+            "id": "730171221",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "兰贡迪没有见过那菈法留纳，但是兰般度讲了很多。",
+            "nextDialogs": [
+              "730171222"
+            ]
+          },
+          "730171222": {
+            "id": "730171222",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#{MATEAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}的旋律，一定和那菈{NICKNAME}一样，听到就会开心。",
+            "nextDialogs": [
+              "730171223"
+            ]
+          },
+          "730171223": {
+            "id": "730171223",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#是哦，我只要和{NICKNAME}在一起，总是很开心！如果哪天就像那菈法留纳离开森林一样，{NICKNAME}也要离开我的话…",
+            "nextDialogs": [
+              "730171224"
+            ]
+          },
+          "730171224": {
+            "id": "730171224",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜呜…",
+            "nextDialogs": [
+              "730171225"
+            ]
+          },
+          "730171225": {
+            "id": "730171225",
+            "speakerId": 4190,
+            "speakerName": "兰贡迪",
+            "text": "#兰般度一定在「歇脚处」等我们了，那菈{NICKNAME}，和兰贡迪一起回去吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7301714",
+      "subQuestName": "（test）（隐藏）自动完成任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

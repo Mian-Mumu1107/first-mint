@@ -1,0 +1,558 @@
+{
+  "lineCounts": {
+    "???": 2,
+    "Amal": 1,
+    "Dehya": 9,
+    "Guard": 2,
+    "Kimiya": 1,
+    "Merchant": 1,
+    "Nahida": 12,
+    "Paimon": 26,
+    "Player": 14,
+    "Vihar": 1
+  },
+  "subQuests": [
+    {
+      "subId": "301005",
+      "subQuestName": "Talk to Nahida",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "301001",
+      "subQuestName": "Talk to Nahida",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30100101"
+        ],
+        "dialogs": {
+          "30100101": {
+            "id": "30100101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon remembers everything!",
+            "nextDialogs": [
+              "30100102"
+            ]
+          },
+          "30100102": {
+            "id": "30100102",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "...Good, you adapted quickly this time.",
+            "nextDialogs": [
+              "30100103"
+            ]
+          },
+          "30100103": {
+            "id": "30100103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "At the end of last night...",
+            "nextDialogs": [
+              "30100104"
+            ]
+          },
+          "30100104": {
+            "id": "30100104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We definitely took off our Akasha Terminals last night, but we still heard that beep. Why's that?",
+            "nextDialogs": [
+              "30100107"
+            ]
+          },
+          "30100107": {
+            "id": "30100107",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But now, we can at least confirm one thing: The Akasha definitely has something to do with whatever's trapping us in this cycle!",
+            "nextDialogs": [
+              "30100108"
+            ]
+          },
+          "30100108": {
+            "id": "30100108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon doesn't get it... Why would the Akasha go this far if all it wants is everybody's wisdom?",
+            "nextDialogs": [
+              "30100109"
+            ]
+          },
+          "30100109": {
+            "id": "30100109",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "It's extremely difficult for lab rats in an experiment to understand why they're being treated the way they are.",
+            "nextDialogs": [
+              "30100110"
+            ]
+          },
+          "30100110": {
+            "id": "30100110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "If we're lab rats, then what are you? Nahida, you've never told us anything about yourself...",
+            "nextDialogs": [
+              "30100111"
+            ]
+          },
+          "30100111": {
+            "id": "30100111",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Hmm... I guess I'm the Moon.",
+            "nextDialogs": [
+              "30100112"
+            ]
+          },
+          "30100112": {
+            "id": "30100112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Moon? Wasn't that the result of our divination?",
+            "nextDialogs": [
+              "30100113"
+            ]
+          },
+          "30100113": {
+            "id": "30100113",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "30100114"
+            ]
+          },
+          "30100114": {
+            "id": "30100114",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Anyway, knowing who I am won't help you get closer to the truth, so you should focus on other things. Don't get distracted and miss any clues~",
+            "nextDialogs": [
+              "30100115"
+            ]
+          },
+          "30100115": {
+            "id": "30100115",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay then... Dehya helped us a lot yesterday, so let's go find her. If Paimon's reading the time correctly, those kidnappers should be showing up soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "301002",
+      "subQuestName": "Talk to Dehya",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30100201"
+        ],
+        "dialogs": {
+          "30100201": {
+            "id": "30100201",
+            "speakerId": 1052,
+            "speakerName": "Dehya",
+            "text": "Ah, there you are. I've already taken care of those kidnappers. My lady, did you get hurt?",
+            "nextDialogs": [
+              "30100202"
+            ]
+          },
+          "30100202": {
+            "id": "30100202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hold on, something's not right...",
+            "nextDialogs": [
+              "30100203"
+            ]
+          },
+          "30100203": {
+            "id": "30100203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh? Dehya!?",
+            "nextDialogs": [
+              "30100204"
+            ]
+          },
+          "30100204": {
+            "id": "30100204",
+            "speakerId": 1052,
+            "speakerName": "Dehya",
+            "text": "What's wrong? Why are you both gawking at me like that?",
+            "nextDialogs": [
+              "30100205"
+            ]
+          },
+          "30100205": {
+            "id": "30100205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Y—You didn't get hurt this time!?",
+            "nextDialogs": [
+              "30100206"
+            ]
+          },
+          "30100206": {
+            "id": "30100206",
+            "speakerId": 1052,
+            "speakerName": "Dehya",
+            "text": "Huh? What do you mean, \"this time\"? Why are you so surprised that I managed to get out unscathed? Those kids were amateurs.",
+            "nextDialogs": [
+              "30100209"
+            ]
+          },
+          "30100209": {
+            "id": "30100209",
+            "speakerId": 1052,
+            "speakerName": "Dehya",
+            "text": "Shhh... How did you know about my greatsword? I haven't told anyone about it. Please don't tell Miss Dunyarzad!",
+            "nextDialogs": [
+              "30100210"
+            ]
+          },
+          "30100210": {
+            "id": "30100210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So Dehya's lost her memories after all..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "301003",
+      "subQuestName": "Talk to Nahida",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30100301"
+        ],
+        "dialogs": {
+          "30100301": {
+            "id": "30100301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Phew, it's finally nighttime. Aside from Dehya not getting injured, everything seems to have stayed the same.",
+            "nextDialogs": [
+              "30100302"
+            ]
+          },
+          "30100302": {
+            "id": "30100302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Listen, Nahida! We found out that Dehya got out just fine today, even though she got injured every other time she fought the kidnappers.",
+            "nextDialogs": [
+              "30100303"
+            ]
+          },
+          "30100303": {
+            "id": "30100303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Do you think the samsara has been broken? Have we saved Dunyarzad?",
+            "nextDialogs": [
+              "30100304"
+            ]
+          },
+          "30100304": {
+            "id": "30100304",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Really? Good job on all that progress. Get some good sleep tonight.",
+            "nextDialogs": [
+              "30100305"
+            ]
+          },
+          "30100305": {
+            "id": "30100305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, what kind of an answer is that?",
+            "nextDialogs": [
+              "30100306"
+            ]
+          },
+          "30100306": {
+            "id": "30100306",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "\"Tomorrow will come.\" Everyone assumes this as common knowledge, but the only way you can know that for sure is if you experience tomorrow.",
+            "nextDialogs": [
+              "30100307"
+            ]
+          },
+          "30100307": {
+            "id": "30100307",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "How many \"today\"s has it been? Is it possible that \"today\" will be followed by \"yesterday\"? Does \"tomorrow\" truly exist as anything beyond a made-up concept?",
+            "nextDialogs": [
+              "30100308"
+            ]
+          },
+          "30100308": {
+            "id": "30100308",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "It's even possible that this entire world is a lie, and the history of the whole world has just been one endless Sabzeruz Festival.",
+            "nextDialogs": [
+              "30100309"
+            ]
+          },
+          "30100309": {
+            "id": "30100309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, okay, no more! Paimon's brain has already shut down!",
+            "nextDialogs": [
+              "30100310"
+            ]
+          },
+          "30100310": {
+            "id": "30100310",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Hehe... That's why it makes no sense to waste your energy thinking about things you will learn tomorrow.",
+            "nextDialogs": [
+              "30100311"
+            ]
+          },
+          "30100311": {
+            "id": "30100311",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Get some good rest! Ya know... Use the bathroom and flush your anxiety dookie away~",
+            "nextDialogs": [
+              "30100312"
+            ]
+          },
+          "30100312": {
+            "id": "30100312",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Hold on, what did you just say? Did Paimon hear you correctly?",
+            "nextDialogs": [
+              "30100313"
+            ]
+          },
+          "30100313": {
+            "id": "30100313",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "Hm? People always say they feel a sense of relief after they take a dook-dook. That's why I suggested you could try that. Is that so strange?",
+            "nextDialogs": [
+              "30100314"
+            ]
+          },
+          "30100314": {
+            "id": "30100314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ugh... It's so strange and so against common sense that Paimon is at a loss for words... You were sounding kinda smart just a minute ago!",
+            "nextDialogs": [
+              "30100315"
+            ]
+          },
+          "30100315": {
+            "id": "30100315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...We're going to go get some rest.",
+            "nextDialogs": [
+              "30100316"
+            ]
+          },
+          "30100316": {
+            "id": "30100316",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah... Even though it's happy and lively at the Sabzeruz Festival every day, it feels like it's been a long time since we've really gotten to relax. Let's go back to our room.",
+            "nextDialogs": [
+              "30100317"
+            ]
+          },
+          "30100317": {
+            "id": "30100317",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "*beep*",
+            "nextDialogs": [
+              "30100318"
+            ]
+          },
+          "30100318": {
+            "id": "30100318",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Continue the harvest. Compared to what we stand to achieve, these sacrifices are trivial."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300720",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30072001"
+        ],
+        "dialogs": {
+          "30072001": {
+            "id": "30072001",
+            "speakerId": 12657,
+            "speakerName": "Guard",
+            "text": "Hey! Stop right there! No one is allowed to enter or leave Sumeru City right now. Go away!",
+            "nextDialogs": [
+              "30072002"
+            ]
+          },
+          "30072002": {
+            "id": "30072002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa... Ugh, okay."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300723",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30072301"
+        ],
+        "dialogs": {
+          "30072301": {
+            "id": "30072301",
+            "speakerId": 12658,
+            "speakerName": "Merchant",
+            "text": "*sigh* How am I supposed to conduct business when I'm not allowed to leave the city?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "300726",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30072601"
+        ],
+        "dialogs": {
+          "30072601": {
+            "id": "30072601",
+            "speakerId": 12657,
+            "speakerName": "Guard",
+            "text": "Hey! Stop right there! No one is allowed to enter or leave Sumeru City right now. Go away!",
+            "nextDialogs": [
+              "30072602"
+            ]
+          },
+          "30072602": {
+            "id": "30072602",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa... Ugh, okay."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300803",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30080301"
+        ],
+        "dialogs": {
+          "30080301": {
+            "id": "30080301",
+            "speakerId": 12652,
+            "speakerName": "Amal",
+            "text": "I picked all of these from the forest yesterday, so their freshness is guaranteed!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "300810",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30081001"
+        ],
+        "dialogs": {
+          "30081001": {
+            "id": "30081001",
+            "speakerId": 4018,
+            "speakerName": "Kimiya",
+            "text": "This is divine wisdom..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "300811",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30081101"
+        ],
+        "dialogs": {
+          "30081101": {
+            "id": "30081101",
+            "speakerId": 12653,
+            "speakerName": "Vihar",
+            "text": "Atten-tion! Any more requests, young soldiers?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "300923",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "30092301"
+        ],
+        "dialogs": {
+          "30092301": {
+            "id": "30092301",
+            "speakerId": 1056,
+            "speakerName": "Nahida",
+            "text": "We don't have many more festivals to waste. Hurry and find the truth."
+          }
+        }
+      }
+    }
+  ]
+}

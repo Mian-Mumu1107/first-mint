@@ -1,0 +1,55 @@
+{
+  "lineCounts": {
+    "派蒙": 2,
+    "琳": 1
+  },
+  "subQuests": [
+    {
+      "subId": "9000101",
+      "subQuestName": "接入成功？$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "900010101"
+        ],
+        "dialogs": {
+          "900010101": {
+            "id": "900010101",
+            "speakerId": 10010,
+            "speakerName": "琳",
+            "text": "对话内容测试$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "9000102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "900010201"
+        ],
+        "dialogs": {
+          "900010201": {
+            "id": "900010201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "大世界平移测试对话1$UNRELEASED",
+            "nextDialogs": [
+              "900010202"
+            ]
+          },
+          "900010202": {
+            "id": "900010202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "大世界平移测试对话2$UNRELEASED"
+          }
+        }
+      }
+    }
+  ]
+}

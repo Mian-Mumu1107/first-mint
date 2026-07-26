@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Kamla": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7365501",
+      "subQuestName": "Give fifteen Berries to Kamla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736550101"
+        ],
+        "dialogs": {
+          "736550101": {
+            "id": "736550101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the Berries...",
+            "nextDialogs": [
+              "736550102"
+            ]
+          },
+          "736550102": {
+            "id": "736550102",
+            "speakerId": 4164,
+            "speakerName": "Kamla",
+            "text": "You must have seen my post and came here to deliver the Berries, right?",
+            "nextDialogs": [
+              "736550103"
+            ]
+          },
+          "736550103": {
+            "id": "736550103",
+            "speakerId": 4164,
+            "speakerName": "Kamla",
+            "text": "So, did you get fifteen Berries?",
+            "nextDialogs": [
+              "736550105"
+            ]
+          },
+          "736550105": {
+            "id": "736550105",
+            "speakerId": 4164,
+            "speakerName": "Kamla",
+            "text": "When you're ready, then. I need dry fruit and no one would dry them one at a time, after all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7365502",
+      "subQuestName": "Talk to Kamla",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "736550201"
+        ],
+        "dialogs": {
+          "736550201": {
+            "id": "736550201",
+            "speakerId": 4164,
+            "speakerName": "Kamla",
+            "text": "I'll take them back to dry. Then I'll have dried berries again for my next trip to the sea."
+          }
+        }
+      }
+    }
+  ]
+}

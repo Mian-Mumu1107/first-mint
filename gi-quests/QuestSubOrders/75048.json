@@ -1,0 +1,994 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 9,
+    "???": 5,
+    "Black Screen": 2,
+    "Bona": 95,
+    "Cocouik": 6,
+    "Paimon": 73,
+    "Player": 34
+  },
+  "subQuests": [
+    {
+      "subId": "7504802",
+      "subQuestName": "Go to the tower containing the statue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504803",
+      "subQuestName": "Go to the tower containing the statue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750480343"
+        ],
+        "dialogs": {
+          "750480343": {
+            "id": "750480343",
+            "speakerId": 1000,
+            "speakerName": "Black Screen",
+            "text": "As an enormous explosion rings out, you all slide to the bottom amidst sloughing rubble and sand..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504804",
+      "subQuestName": "Go to Ochkanatlan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504805",
+      "subQuestName": "Keep exploring Ochkanatlan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504863",
+      "subQuestName": "Try to get into the tower up ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504806",
+      "subQuestName": "Explore the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504853",
+      "subQuestName": "Explore the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750480701"
+        ],
+        "dialogs": {
+          "750480701": {
+            "id": "750480701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Th—That was close!",
+            "nextDialogs": [
+              "750480702"
+            ]
+          },
+          "750480702": {
+            "id": "750480702",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Was Paimon seeing things? We were saved by a flash of golden light.",
+            "nextDialogs": [
+              "750480704"
+            ]
+          },
+          "750480704": {
+            "id": "750480704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Could it be the same kind of gold pattern that we saw when we encountered {REALNAME[ID(2)|SHOWHOST(true)]}? Did the pattern guide us here?",
+            "nextDialogs": [
+              "750480705"
+            ]
+          },
+          "750480705": {
+            "id": "750480705",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Feels like we're being helped by some kind of higher power somehow!",
+            "nextDialogs": [
+              "750480707"
+            ]
+          },
+          "750480707": {
+            "id": "750480707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And this looks like a safer spot either way. Ugh, Paimon never thought we'd have to run from hilichurls!",
+            "nextDialogs": [
+              "750480708"
+            ]
+          },
+          "750480708": {
+            "id": "750480708",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr... Ehrr?",
+            "nextDialogs": [
+              "750480709"
+            ]
+          },
+          "750480709": {
+            "id": "750480709",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#What's wrong? Are you okay, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "750480710"
+            ]
+          },
+          "750480710": {
+            "id": "750480710",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrroo...",
+            "nextDialogs": [
+              "750480711"
+            ]
+          },
+          "750480711": {
+            "id": "750480711",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did something in here catch your attention?",
+            "nextDialogs": [
+              "750480712"
+            ]
+          },
+          "750480712": {
+            "id": "750480712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, not that we'll be leaving anytime soon with them blocking the door, so let's just explore this place."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504817",
+      "subQuestName": "Explore the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750481701"
+        ],
+        "dialogs": {
+          "750481701": {
+            "id": "750481701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ugh, Paimon can't believe it got away again!",
+            "nextDialogs": [
+              "750481702"
+            ]
+          },
+          "750481702": {
+            "id": "750481702",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We almost had it, but the dragon's strength was suddenly restored somehow...",
+            "nextDialogs": [
+              "750481704"
+            ]
+          },
+          "750481704": {
+            "id": "750481704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? You could understand what that dragon was saying?",
+            "nextDialogs": [
+              "750481705"
+            ]
+          },
+          "750481705": {
+            "id": "750481705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The words came from the golden pattern.",
+            "nextDialogs": [
+              "750481707"
+            ]
+          },
+          "750481707": {
+            "id": "750481707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hmm, is that the same pattern we saw when we encountered {REALNAME[ID(2)|SHOWHOST(true)]}? Could this evil dragon be related to him somehow?",
+            "nextDialogs": [
+              "750481708"
+            ]
+          },
+          "750481708": {
+            "id": "750481708",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rroo...",
+            "nextDialogs": [
+              "750481709"
+            ]
+          },
+          "750481709": {
+            "id": "750481709",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Oh, Paimon isn't suspecting you or anything, {REALNAME[ID(2)|SHOWHOST(true)]}! But it feels like someone has been guiding us ever since we stepped into this ancient city...",
+            "nextDialogs": [
+              "750481710"
+            ]
+          },
+          "750481710": {
+            "id": "750481710",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Maybe Paimon's overthinking this...",
+            "nextDialogs": [
+              "750481711"
+            ]
+          },
+          "750481711": {
+            "id": "750481711",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Hmm? What are you talking about?",
+            "nextDialogs": [
+              "750481712"
+            ]
+          },
+          "750481712": {
+            "id": "750481712",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Gah... That was quite an ordeal. I thought we had it dead to rights there, but it lives to fight another day, huh?",
+            "nextDialogs": [
+              "750481713"
+            ]
+          },
+          "750481713": {
+            "id": "750481713",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "If nothing else, though, we can get my Pyrophosphorite back... Ah, yes. It's right over here!",
+            "nextDialogs": [
+              "750481714"
+            ]
+          },
+          "750481714": {
+            "id": "750481714",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Speaking of that, what should we do now? We came here looking for the Jade of Return that adventurer spoke of...",
+            "nextDialogs": [
+              "750481715"
+            ]
+          },
+          "750481715": {
+            "id": "750481715",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But we don't know what that thing is yet, do we?",
+            "nextDialogs": [
+              "750481716"
+            ]
+          },
+          "750481716": {
+            "id": "750481716",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You must know something about it, right, Bona? Is it one of those things that'll require three Pyrophosphorite chunks to unseal or something?",
+            "nextDialogs": [
+              "750481717"
+            ]
+          },
+          "750481717": {
+            "id": "750481717",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "If only it were that simple... But in truth, it's not to be found within this city, but instead, in the sky.",
+            "nextDialogs": [
+              "750481718"
+            ]
+          },
+          "750481718": {
+            "id": "750481718",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? But the notes we found in the tower said... Did those adventurers make a mistake?",
+            "nextDialogs": [
+              "750481719"
+            ]
+          },
+          "750481719": {
+            "id": "750481719",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Wait, you came to Ochkanatlan, the forbidden city, on account of some notes you just... happened to pick up? Heh. \"The more skilled the person, the more bold their deeds,\" I guess.",
+            "nextDialogs": [
+              "750481720"
+            ]
+          },
+          "750481720": {
+            "id": "750481720",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Since you don't know anything about the Jade of Return, you probably haven't heard about the story of Tona{RUBY#[D]The Skyserpent Ship}tiuh, then?",
+            "nextDialogs": [
+              "750481721"
+            ]
+          },
+          "750481721": {
+            "id": "750481721",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "As the name suggests, it was a sky-faring ship built by Python King Och-Kan, the tyrant who ruled Ochkanatlan. The ship was filled to the brim with treasures, and countless adventurers from Natlan have pursued it.",
+            "nextDialogs": [
+              "750481722"
+            ]
+          },
+          "750481722": {
+            "id": "750481722",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "My old man included, of course. He was the best adventurer from the Flower-Feather Clan.",
+            "nextDialogs": [
+              "750481723"
+            ]
+          },
+          "750481723": {
+            "id": "750481723",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "But the Tonatiuh did hold greater significance to him beyond his ambitions as an adventurer.",
+            "nextDialogs": [
+              "750481724"
+            ]
+          },
+          "750481724": {
+            "id": "750481724",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "The Abyss calamity devastated our tribe decades ago, and the evil dragon that occupies this ancient city also appeared around the same time.",
+            "nextDialogs": [
+              "750481725"
+            ]
+          },
+          "750481725": {
+            "id": "750481725",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Rumor had it that one of the countless treasures aboard the ship was the Jade of{RUBY#[D]Ometeotl} Return, and that locating it would quell this Abyss-tainted ancient city.",
+            "nextDialogs": [
+              "750481726"
+            ]
+          },
+          "750481726": {
+            "id": "750481726",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "At that time, we'd just witnessed the nightmare of the Abyss. So if we could find the Jade and suppress the contamination here in the city, our tribe would no longer have to live in fear.",
+            "nextDialogs": [
+              "750481727"
+            ]
+          },
+          "750481727": {
+            "id": "750481727",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "My old man set off on a journey for that purpose... but he never returned. All that remains is this Pyrophosphorite chunk, which he found in the ruins."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504807",
+      "subQuestName": "Explore the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504808",
+      "subQuestName": "Talk to the mysterious adventurer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750480801"
+        ],
+        "dialogs": {
+          "750480801": {
+            "id": "750480801",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Hey, you over there!",
+            "nextDialogs": [
+              "750480802"
+            ]
+          },
+          "750480802": {
+            "id": "750480802",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Yes, I'm talking about the three of you! Turn around.",
+            "nextDialogs": [
+              "750480803"
+            ]
+          },
+          "750480803": {
+            "id": "750480803",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Looks like you understand what I'm saying.",
+            "nextDialogs": [
+              "750480804"
+            ]
+          },
+          "750480804": {
+            "id": "750480804",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Phew. You scared me back there, you know? I thought you were Abyss monsters pretending to be humans. If you hadn't responded, I'd have struck first.",
+            "nextDialogs": [
+              "750480806",
+              "750480808"
+            ]
+          },
+          "750480806": {
+            "id": "750480806",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, we sure didn't think there would be other people here!",
+            "nextDialogs": [
+              "750480810"
+            ]
+          },
+          "750480810": {
+            "id": "750480810",
+            "speakerId": 21583,
+            "speakerName": "Bona",
+            "text": "Heh. Anyway, the way we're meeting here, I'd call it destiny. I'm the ace adventurer of the Flower-Feather Clan. Call me Bona."
+          },
+          "750480808": {
+            "id": "750480808",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Is that why you exposed your back to me with such confidence?",
+            "nextDialogs": [
+              "750480809"
+            ]
+          },
+          "750480809": {
+            "id": "750480809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, we didn't think there would be other people here!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504818",
+      "subQuestName": "Leave the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504865",
+      "subQuestName": "Leave the tower",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504809",
+      "subQuestName": "Explore Ashflow Street and collect Secret Source Scrap(s)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504810",
+      "subQuestName": "Explore Ashflow Street",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750481001"
+        ],
+        "dialogs": {
+          "750481001": {
+            "id": "750481001",
+            "speakerId": 21583,
+            "speakerName": "Bona",
+            "text": "About time, too. If we can shoot it down from here...",
+            "nextDialogs": [
+              "750481002"
+            ]
+          },
+          "750481002": {
+            "id": "750481002",
+            "speakerId": 21602,
+            "speakerName": "Cocouik",
+            "text": "Chee! Kuchee!",
+            "nextDialogs": [
+              "750481003"
+            ]
+          },
+          "750481003": {
+            "id": "750481003",
+            "speakerId": 21583,
+            "speakerName": "Bona",
+            "text": "#Yes, we just need to use that thing. Try putting your hand on Coco, {NICKNAME}...",
+            "nextDialogs": [
+              "750481004"
+            ]
+          },
+          "750481004": {
+            "id": "750481004",
+            "speakerId": 21583,
+            "speakerName": "Bona",
+            "text": "\"Super Awesomesauce Laser,\" fire!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504811",
+      "subQuestName": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504843",
+      "subQuestName": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504812",
+      "subQuestName": "Track the evil dragon down",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750481201"
+        ],
+        "dialogs": {
+          "750481201": {
+            "id": "750481201",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Nice! The Super Awesomesauce Laser is pretty hot stuff, eh?",
+            "nextDialogs": [
+              "750481202"
+            ]
+          },
+          "750481202": {
+            "id": "750481202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! But why's it called that, though? You sure have strange tastes...",
+            "nextDialogs": [
+              "750481203"
+            ]
+          },
+          "750481203": {
+            "id": "750481203",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "You don't think it sounds awesome? Speaking from my experience as an adventurer, it's much easier for people to remember and pass on skill names if they're flashy.",
+            "nextDialogs": [
+              "750481204"
+            ]
+          },
+          "750481204": {
+            "id": "750481204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's forget about the name for a moment here... Thanks for helping us out again, Coco. We couldn't have beat the dragon back without you.",
+            "nextDialogs": [
+              "750481205"
+            ]
+          },
+          "750481205": {
+            "id": "750481205",
+            "speakerId": 21602,
+            "speakerName": "Cocouik",
+            "text": "Kru...",
+            "nextDialogs": [
+              "750481206"
+            ]
+          },
+          "750481206": {
+            "id": "750481206",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Wrrooo...",
+            "nextDialogs": [
+              "750481207"
+            ]
+          },
+          "750481207": {
+            "id": "750481207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Don't be sad! We're not saying that you didn't do anything, {REALNAME[ID(2)|SHOWHOST(true)]}.",
+            "nextDialogs": [
+              "750481209",
+              "750481211"
+            ]
+          },
+          "750481209": {
+            "id": "750481209",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#C'mon, just help Paimon explain, {NICKNAME}! We've all got different strengths! This just wasn't the time for {REALNAME[ID(2)|SHOWHOST(true)]} to shine yet!",
+            "nextDialogs": [
+              "750481212"
+            ]
+          },
+          "750481212": {
+            "id": "750481212",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Anyway, the evil dragon flew off in that direction, huh?",
+            "nextDialogs": [
+              "750481213"
+            ]
+          },
+          "750481213": {
+            "id": "750481213",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Hmph. An injured beast always flees to its nest first. I'll bet that's its lair over that way",
+            "nextDialogs": [
+              "750481214"
+            ]
+          },
+          "750481214": {
+            "id": "750481214",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "We'll have to get the Pyrophosphorite back before it recovers!",
+            "nextDialogs": [
+              "750481215"
+            ]
+          },
+          "750481215": {
+            "id": "750481215",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "If I were alone, I wouldn't have dared to take the dragon on even if it were injured.",
+            "nextDialogs": [
+              "750481216"
+            ]
+          },
+          "750481216": {
+            "id": "750481216",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "But we're a group now, and you're pretty good... I think we'll be fine."
+          },
+          "750481211": {
+            "id": "750481211",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#That's right. You'll get your chance soon, {REALNAME[ID(2)|SHOWHOST(true)]}, Paimon knows it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504813",
+      "subQuestName": "Track the evil dragon down",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504814",
+      "subQuestName": "Defeat the evil dragon in its lair",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504815",
+      "subQuestName": "Defeat the evil dragon in its lair",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7504816",
+      "subQuestName": "Retrieve the Pyrophosphorite",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750481601"
+        ],
+        "dialogs": {
+          "750481601": {
+            "id": "750481601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ugh, Paimon can't believe it got away again!",
+            "nextDialogs": [
+              "750481602"
+            ]
+          },
+          "750481602": {
+            "id": "750481602",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We almost had it, but the dragon's strength was suddenly restored somehow...",
+            "nextDialogs": [
+              "750481604"
+            ]
+          },
+          "750481604": {
+            "id": "750481604",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? You could understand what that dragon was saying?",
+            "nextDialogs": [
+              "750481605"
+            ]
+          },
+          "750481605": {
+            "id": "750481605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The words came from the golden pattern.",
+            "nextDialogs": [
+              "750481607"
+            ]
+          },
+          "750481607": {
+            "id": "750481607",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh? You saw the golden pattern again? Was it a hint left behind by that, uh, Sage of the Stolen Flame?",
+            "nextDialogs": [
+              "750481608"
+            ]
+          },
+          "750481608": {
+            "id": "750481608",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, is looking for the treasure in this ancient city one of his trials, too?",
+            "nextDialogs": [
+              "750481609"
+            ]
+          },
+          "750481609": {
+            "id": "750481609",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Hmm? What are you talking about?",
+            "nextDialogs": [
+              "750481610"
+            ]
+          },
+          "750481610": {
+            "id": "750481610",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Gah... That was quite an ordeal. I thought we had it dead to rights there, but it lives to fight another day, huh?",
+            "nextDialogs": [
+              "750481611"
+            ]
+          },
+          "750481611": {
+            "id": "750481611",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "If nothing else, though, we can get my Pyrophosphorite back... Ah, yes. It's right over here!",
+            "nextDialogs": [
+              "750481612"
+            ]
+          },
+          "750481612": {
+            "id": "750481612",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Speaking of that, what should we do now? We came here looking for the Jade of Return that adventurer spoke of...",
+            "nextDialogs": [
+              "750481613"
+            ]
+          },
+          "750481613": {
+            "id": "750481613",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But we don't know what that thing is yet, do we?",
+            "nextDialogs": [
+              "750481614"
+            ]
+          },
+          "750481614": {
+            "id": "750481614",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You must know something about it, right, Bona? Is it one of those things that'll require three Pyrophosphorite chunks to unseal or something?",
+            "nextDialogs": [
+              "750481615"
+            ]
+          },
+          "750481615": {
+            "id": "750481615",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "If only it were that simple... But in truth, it's not to be found within this city, but instead, in the sky.",
+            "nextDialogs": [
+              "750481616"
+            ]
+          },
+          "750481616": {
+            "id": "750481616",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? But the notes we found in the tower said... Did those adventurers make a mistake?",
+            "nextDialogs": [
+              "750481617"
+            ]
+          },
+          "750481617": {
+            "id": "750481617",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Wait, you came to Ochkanatlan, the forbidden city, on account of some notes you just... happened to pick up? Heh. \"The more skilled the person, the more bold their deeds,\" I guess.",
+            "nextDialogs": [
+              "750481618"
+            ]
+          },
+          "750481618": {
+            "id": "750481618",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Since you don't know anything about the Jade of Return, you probably haven't heard about the story of the Tona{RUBY#[D]Skyserpent Ship}tiuh, then?",
+            "nextDialogs": [
+              "750481619"
+            ]
+          },
+          "750481619": {
+            "id": "750481619",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "As the name suggests, it was a sky-faring ship built by Python King Och-Kan, the tyrant who ruled Ochkanatlan. The ship was filled to the brim with treasures, and countless adventurers from Natlan have pursued it.",
+            "nextDialogs": [
+              "750481620"
+            ]
+          },
+          "750481620": {
+            "id": "750481620",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "My old man included, of course. He was the best adventurer from the Flower-Feather Clan.",
+            "nextDialogs": [
+              "750481621"
+            ]
+          },
+          "750481621": {
+            "id": "750481621",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "But the Tonatiuh did hold greater significance to him beyond his ambitions as an adventurer.",
+            "nextDialogs": [
+              "750481622"
+            ]
+          },
+          "750481622": {
+            "id": "750481622",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "The Abyss calamity devastated our tribe decades ago, and the evil dragon that occupies this ancient city also appeared around the same time.",
+            "nextDialogs": [
+              "750481623"
+            ]
+          },
+          "750481623": {
+            "id": "750481623",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "Rumor had it that one of the countless treasures aboard the ship was the Jade of{RUBY#[D]Ometeotl} Return, and that locating it would quell this Abyss-tainted ancient city.",
+            "nextDialogs": [
+              "750481624"
+            ]
+          },
+          "750481624": {
+            "id": "750481624",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "At that time, we'd just witnessed the nightmare of the Abyss. So if we could find the Jade and suppress the contamination here in the city, our tribe would no longer have to live in fear.",
+            "nextDialogs": [
+              "750481625"
+            ]
+          },
+          "750481625": {
+            "id": "750481625",
+            "speakerId": 14631,
+            "speakerName": "Bona",
+            "text": "My old man set off on a journey for that purpose... but he never returned. All that remains is this Pyrophosphorite chunk, which he found in the ruins."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7504861",
+      "subQuestName": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

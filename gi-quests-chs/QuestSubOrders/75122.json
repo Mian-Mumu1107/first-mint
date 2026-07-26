@@ -1,0 +1,125 @@
+{
+  "lineCounts": {
+    "Player": 6,
+    "挑战起点": 3,
+    "曼尤雅": 1,
+    "派蒙": 1,
+    "马塔伽": 1
+  },
+  "subQuests": [
+    {
+      "subId": "7512201",
+      "subQuestName": "test翼手龙NPC挑战1$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7512202",
+      "subQuestName": "test翼手龙NPC挑战2$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7512203",
+      "subQuestName": "test翼手龙NPC挑战3$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751220301"
+        ],
+        "dialogs": {
+          "751220301": {
+            "id": "751220301",
+            "speakerId": 21731,
+            "speakerName": "挑战起点",
+            "text": "是否开始训练？",
+            "nextDialogs": [
+              "751220303"
+            ]
+          },
+          "751220303": {
+            "id": "751220303",
+            "speakerId": 6136,
+            "speakerName": "马塔伽",
+            "text": "向前冲！冲！冲！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7512204",
+      "subQuestName": "test翼手龙1回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751220401"
+        ],
+        "dialogs": {
+          "751220401": {
+            "id": "751220401",
+            "speakerId": 21729,
+            "speakerName": "挑战起点",
+            "text": "是否开始飞行？",
+            "nextDialogs": [
+              "751220403"
+            ]
+          },
+          "751220403": {
+            "id": "751220403",
+            "speakerId": 6138,
+            "speakerName": "曼尤雅",
+            "text": "我也准备好了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7512205",
+      "subQuestName": "test翼手龙2回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7512206",
+      "subQuestName": "test翼手龙3回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751220601"
+        ],
+        "dialogs": {
+          "751220601": {
+            "id": "751220601",
+            "speakerId": 21731,
+            "speakerName": "挑战起点",
+            "text": "是否开始飞行？",
+            "nextDialogs": [
+              "751220603"
+            ]
+          },
+          "751220603": {
+            "id": "751220603",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "冒险家，拜托了！"
+          }
+        }
+      }
+    }
+  ]
+}

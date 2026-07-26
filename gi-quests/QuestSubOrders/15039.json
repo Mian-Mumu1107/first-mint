@@ -1,0 +1,2633 @@
+{
+  "lineCounts": {
+    "???": 1,
+    "Amilotl": 5,
+    "Asha": 14,
+    "Bennett": 94,
+    "Black Screen": 2,
+    "Chasca": 24,
+    "Miztli": 3,
+    "Mualani": 57,
+    "Paimon": 43,
+    "Player": 24,
+    "Ukucha": 20,
+    "Voice From Afar": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1503901",
+      "subQuestName": "Read the invitation letter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503902",
+      "subQuestName": "Talk to the staff member",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150390201"
+        ],
+        "dialogs": {
+          "150390201": {
+            "id": "150390201",
+            "speakerId": 21902,
+            "speakerName": "Amilotl",
+            "text": "#Well, whaddya know? If it isn't our hero, the one and only {NICKNAME}, and {M#his}{F#her} trusty sidekick Paimon. Welcome to the Easybreeze Holiday Resort!",
+            "nextDialogs": [
+              "150390202"
+            ]
+          },
+          "150390202": {
+            "id": "150390202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, someone who knows us! But... Isn't this place supposed to be called Tenochtzitoc? You're saying it's actually a resort? How come we're only hearing about this now?",
+            "nextDialogs": [
+              "150390203"
+            ]
+          },
+          "150390203": {
+            "id": "150390203",
+            "speakerId": 21902,
+            "speakerName": "Amilotl",
+            "text": "Haha, well, it hasn't always been. The resort's only just been built — in fact, technically, it's not even completely finished yet...",
+            "nextDialogs": [
+              "150390204"
+            ]
+          },
+          "150390204": {
+            "id": "150390204",
+            "speakerId": 21902,
+            "speakerName": "Amilotl",
+            "text": "Anyway, here — take this invitation!",
+            "nextDialogs": [
+              "150390205"
+            ]
+          },
+          "150390205": {
+            "id": "150390205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait... So during the trial period, we can eat, drink, and enjoy ourselves as much as we want? Hehe, and look here, it even says: \"All food, lodging, and entertainment expenses will be fully covered.\"",
+            "nextDialogs": [
+              "150390206"
+            ]
+          },
+          "150390206": {
+            "id": "150390206",
+            "speakerId": 21902,
+            "speakerName": "Amilotl",
+            "text": "Exactly! Just kick back, relax, and enjoy your holiday at whatever pace suits you.",
+            "nextDialogs": [
+              "150390207"
+            ]
+          },
+          "150390207": {
+            "id": "150390207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Say no more! No one knows how to have a good time like Paimon, hehe...",
+            "nextDialogs": [
+              "150390208"
+            ]
+          },
+          "150390208": {
+            "id": "150390208",
+            "speakerId": 21902,
+            "speakerName": "Amilotl",
+            "text": "Haha, then I won't keep you any longer. All that's left for me to say is — have a blast!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503905",
+      "subQuestName": "Head to the Tenochtzitoc harbor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503906",
+      "subQuestName": "Head to the Tenochtzitoc harbor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150390601"
+        ],
+        "dialogs": {
+          "150390601": {
+            "id": "150390601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hold up, doesn't that person over there look kinda familiar...?",
+            "nextDialogs": [
+              "150390602"
+            ]
+          },
+          "150390602": {
+            "id": "150390602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hey, isn't that... Bennett!?",
+            "nextDialogs": [
+              "150390603"
+            ]
+          },
+          "150390603": {
+            "id": "150390603",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "...Nice bandana!",
+            "nextDialogs": [
+              "150390604"
+            ]
+          },
+          "150390604": {
+            "id": "150390604",
+            "speakerId": 21856,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150390605"
+            ]
+          },
+          "150390605": {
+            "id": "150390605",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Wait, you mean... you like my bandana too? Hahaha, thanks a bunch!",
+            "nextDialogs": [
+              "150390606"
+            ]
+          },
+          "150390606": {
+            "id": "150390606",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Bennett! And... Huh, a Monetoo that looks kinda... different.",
+            "nextDialogs": [
+              "150390607"
+            ]
+          },
+          "150390607": {
+            "id": "150390607",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "#Whoa, {NICKNAME}! Paimon! I'm not dreaming, am I? It's really you?",
+            "nextDialogs": [
+              "150390608"
+            ]
+          },
+          "150390608": {
+            "id": "150390608",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I feel like I got enough sleep last night, and... Yep, didn't forget to pack my bandages either...",
+            "nextDialogs": [
+              "150390609"
+            ]
+          },
+          "150390609": {
+            "id": "150390609",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "#And I can remember things, like {NICKNAME} becoming a hero, and saving all of Natlan... So, nope! Definitely not dreaming!",
+            "nextDialogs": [
+              "150390610"
+            ]
+          },
+          "150390610": {
+            "id": "150390610",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, that was one-hundred percent real life.",
+            "nextDialogs": [
+              "150390611"
+            ]
+          },
+          "150390611": {
+            "id": "150390611",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, and this little guy's a new friend I just made. He came running up to say hi the moment I got here... He's super friendly!",
+            "nextDialogs": [
+              "150390612"
+            ]
+          },
+          "150390612": {
+            "id": "150390612",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "And my luck's been so unreal lately! Look, I'm so unused to it that my fingers are shaking...",
+            "nextDialogs": [
+              "150390613"
+            ]
+          },
+          "150390613": {
+            "id": "150390613",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, your luck's finally turning around?",
+            "nextDialogs": [
+              "150390614"
+            ]
+          },
+          "150390614": {
+            "id": "150390614",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yeah! So many good things have happened to me recently, I can't even fit them all into my travel journal.",
+            "nextDialogs": [
+              "150390615"
+            ]
+          },
+          "150390615": {
+            "id": "150390615",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, what kind of stuff? Did you win some kind of lottery or something?",
+            "nextDialogs": [
+              "150390616"
+            ]
+          },
+          "150390616": {
+            "id": "150390616",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Nah, nothing like that! With my luck, you really think I'd bother signing myself up for a lottery? Haha...",
+            "nextDialogs": [
+              "150390617"
+            ]
+          },
+          "150390617": {
+            "id": "150390617",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Here, I'll read you some of my recent entries... \"Day One: Didn't fall into a puddle. Didn't miss the ferry.\"",
+            "nextDialogs": [
+              "150390618"
+            ]
+          },
+          "150390618": {
+            "id": "150390618",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "\"Day Five: At lunch, the Violetgold Angler Gulls didn't swoop in and steal my food. I even fed them some bread, and they were really friendly...\"",
+            "nextDialogs": [
+              "150390619"
+            ]
+          },
+          "150390619": {
+            "id": "150390619",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, and here's a good one! \"Day Eleven: Got my hands on a sweet outfit from a shop in Natlan. Snagged a killer discount, and it's great quality too!\"",
+            "nextDialogs": [
+              "150390620"
+            ]
+          },
+          "150390620": {
+            "id": "150390620",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "\"Day Twelve: Finally caught myself a real, live fish from a pond — and for once, not a boot or some other pile of junk!\"",
+            "nextDialogs": [
+              "150390621"
+            ]
+          },
+          "150390621": {
+            "id": "150390621",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow... For Bennett, that actually does sound way luckier than usual!",
+            "nextDialogs": [
+              "150390622"
+            ]
+          },
+          "150390622": {
+            "id": "150390622",
+            "speakerId": 21856,
+            "speakerName": "Asha",
+            "text": "?",
+            "nextDialogs": [
+              "150390623"
+            ]
+          },
+          "150390623": {
+            "id": "150390623",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "It does, right? Once this trip's over, I'd better go thank that shopkeeper... The lucky color she picked for me actually worked!",
+            "nextDialogs": [
+              "150390624"
+            ]
+          },
+          "150390624": {
+            "id": "150390624",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Lucky color? So, like... yellowy-orange?",
+            "nextDialogs": [
+              "150390625"
+            ]
+          },
+          "150390625": {
+            "id": "150390625",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Nope, lake blue!",
+            "nextDialogs": [
+              "150390626"
+            ]
+          },
+          "150390626": {
+            "id": "150390626",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I passed by a watersports shop that day, had a look around, but I didn't actually end up buying anything.",
+            "nextDialogs": [
+              "150390627"
+            ]
+          },
+          "150390627": {
+            "id": "150390627",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "The shopkeeper was super friendly, though! She said she thought lake blue would suit me and suggested I give it a try.",
+            "nextDialogs": [
+              "150390628"
+            ]
+          },
+          "150390628": {
+            "id": "150390628",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...I think I know who you're talking about.",
+            "nextDialogs": [
+              "150390629"
+            ]
+          },
+          "150390629": {
+            "id": "150390629",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Anyway, while my luck's holding out — is there anything I can help you guys with?",
+            "nextDialogs": [
+              "150390630"
+            ]
+          },
+          "150390630": {
+            "id": "150390630",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Any treasure maps you can't make out, clients you can't get in touch with, stuff like that? The way my luck's looking right now, I'm sure I'll be able to sort it out!",
+            "nextDialogs": [
+              "150390631"
+            ]
+          },
+          "150390631": {
+            "id": "150390631",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "No, no, no. No work talk! We're meant to be on vacation! Our top three priorities right now are fun, fun, and fun!",
+            "nextDialogs": [
+              "150390632"
+            ]
+          },
+          "150390632": {
+            "id": "150390632",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Sure, whatever you want. Seriously though, if you need anything, just let me know. Stuff like this never happens to me. So, I'd love to make the most of this lucky streak by helping out my friends!",
+            "nextDialogs": [
+              "150390633"
+            ]
+          },
+          "150390633": {
+            "id": "150390633",
+            "speakerId": 21856,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150390634"
+            ]
+          },
+          "150390634": {
+            "id": "150390634",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Of course you can come! We're friends now too, after all! Let's go on an adventure!",
+            "nextDialogs": [
+              "150390635"
+            ]
+          },
+          "150390635": {
+            "id": "150390635",
+            "speakerId": 1004,
+            "speakerName": "Voice From Afar",
+            "text": "Look, there they are!",
+            "nextDialogs": [
+              "150390636"
+            ]
+          },
+          "150390636": {
+            "id": "150390636",
+            "speakerId": 1004,
+            "speakerName": "Voice From Afar",
+            "text": "Hey there, friends, watch out! The ferry's coming in hot!",
+            "nextDialogs": [
+              "150390637"
+            ]
+          },
+          "150390637": {
+            "id": "150390637",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's that noise? Is it coming from the ocean?",
+            "nextDialogs": [
+              "150390638"
+            ]
+          },
+          "150390638": {
+            "id": "150390638",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "With the deep blue sea beneath you and my lucky Sharky Surfboard leading the way, are you ready to crank up the speed?",
+            "nextDialogs": [
+              "150390639"
+            ]
+          },
+          "150390639": {
+            "id": "150390639",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Take a deep breath, *inhale*... And... GO! C'mon, faster... faster!",
+            "nextDialogs": [
+              "150390640"
+            ]
+          },
+          "150390640": {
+            "id": "150390640",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Let's share the fun and excitement with our friends on shore by giving them a nice big WAVE!",
+            "nextDialogs": [
+              "150390641"
+            ]
+          },
+          "150390641": {
+            "id": "150390641",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Yoo-hoo!",
+            "nextDialogs": [
+              "150390642"
+            ]
+          },
+          "150390642": {
+            "id": "150390642",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's Mualani!",
+            "nextDialogs": [
+              "150390643"
+            ]
+          },
+          "150390643": {
+            "id": "150390643",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "It's the shopkeeper!",
+            "nextDialogs": [
+              "150390644"
+            ]
+          },
+          "150390644": {
+            "id": "150390644",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's... a massive wave!",
+            "nextDialogs": [
+              "150390645"
+            ]
+          },
+          "150390645": {
+            "id": "150390645",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "*sigh* If there's one thing that girl can do... It's making a \"splash\" wherever she goes.",
+            "nextDialogs": [
+              "150390646"
+            ]
+          },
+          "150390646": {
+            "id": "150390646",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Ahhh... Nothing like the feeling of the sea breeze in your face!",
+            "nextDialogs": [
+              "150390647"
+            ]
+          },
+          "150390647": {
+            "id": "150390647",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Woohoo! Did you see that, everyone? A perfect landing, if I do say so myself!",
+            "nextDialogs": [
+              "150390648"
+            ]
+          },
+          "150390648": {
+            "id": "150390648",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "#Good thing {NICKNAME} managed to pull those two back in time, otherwise they would've gotten soaked!",
+            "nextDialogs": [
+              "150390649"
+            ]
+          },
+          "150390649": {
+            "id": "150390649",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Ahaha, and? It's so sunny here, they'd dry off in no time!",
+            "nextDialogs": [
+              "150390650"
+            ]
+          },
+          "150390650": {
+            "id": "150390650",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "And who might this be?",
+            "nextDialogs": [
+              "150390651"
+            ]
+          },
+          "150390651": {
+            "id": "150390651",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Hello, my name's Bennett! I'm an adventurer from Mondstadt.",
+            "nextDialogs": [
+              "150390652"
+            ]
+          },
+          "150390652": {
+            "id": "150390652",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Aka the big boss of Benny's Adventure Team.",
+            "nextDialogs": [
+              "150390653"
+            ]
+          },
+          "150390653": {
+            "id": "150390653",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yeah, but as Adventurer Teams go, we're... not exactly the stuff of legends. I really admire you guys in Natlan. There are stories of legendary adventurers wherever you look...",
+            "nextDialogs": [
+              "150390654"
+            ]
+          },
+          "150390654": {
+            "id": "150390654",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "The people here are so skilled, and you work in perfect sync with your saurian companions, helping solve problems wherever you go... It's inspiring!",
+            "nextDialogs": [
+              "150390655"
+            ]
+          },
+          "150390655": {
+            "id": "150390655",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "As for me... Ahem... Well, I might officially be the \"leader,\" but... in reality, it's a team of one.",
+            "nextDialogs": [
+              "150390657",
+              "150390660",
+              "150390662"
+            ]
+          },
+          "150390657": {
+            "id": "150390657",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "#Hah, yeah right! Don't listen to {M#him}{F#her}, guys. {M#He's}{F#She's} just joking.",
+            "nextDialogs": [
+              "150390658"
+            ]
+          },
+          "150390658": {
+            "id": "150390658",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "If anything, it was the other way around. And even then, I was probably more of a hindrance than a help... Haha.",
+            "nextDialogs": [
+              "150390663"
+            ]
+          },
+          "150390663": {
+            "id": "150390663",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "#Nice outfit, by the way! I knew you'd look good in lake blue. I wish I'd known you were a friend of {NICKNAME}. I'd have given you a little souvenir from the shop!",
+            "nextDialogs": [
+              "150390664"
+            ]
+          },
+          "150390664": {
+            "id": "150390664",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Picking out a lucky color for me was the best gift I could have asked for! Oh, sorry, I still don't know your names!",
+            "nextDialogs": [
+              "150390665"
+            ]
+          },
+          "150390665": {
+            "id": "150390665",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "I'm Mualani — when I'm not around running my shop, I'm out and about being a tour guide. And this here is Chasca, Peacemaker of the Flower-Feather Clan. Trust me, you do not wanna get on her bad side!",
+            "nextDialogs": [
+              "150390666"
+            ]
+          },
+          "150390666": {
+            "id": "150390666",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Uh... Sorry, but what would that look like? Getting on her bad side...",
+            "nextDialogs": [
+              "150390667"
+            ]
+          },
+          "150390667": {
+            "id": "150390667",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "You strike me as a pure-hearted adventurer — the humble, genuine type. You don't have to worry about that.",
+            "nextDialogs": [
+              "150390668"
+            ]
+          },
+          "150390668": {
+            "id": "150390668",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Wow, high praise right off the bat! Chasca's good at reading people. Do me next!",
+            "nextDialogs": [
+              "150390669"
+            ]
+          },
+          "150390669": {
+            "id": "150390669",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Look me in the eyes and tell me what I'm thinking!",
+            "nextDialogs": [
+              "150390670"
+            ]
+          },
+          "150390670": {
+            "id": "150390670",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "I've already told you, mind-reading isn't a required skill for a Peacemaker. Stop acting like I'm some kind of soul-seeing obsidian mirror.",
+            "nextDialogs": [
+              "150390671"
+            ]
+          },
+          "150390671": {
+            "id": "150390671",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "C'mon, just do it! Pretty please! You got it right the last two times.",
+            "nextDialogs": [
+              "150390672"
+            ]
+          },
+          "150390672": {
+            "id": "150390672",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "*sigh* Stop fantasizing about turning Soulsniper into a giant water gun. There's no way Xilonen will agree to that.",
+            "nextDialogs": [
+              "150390673"
+            ]
+          },
+          "150390673": {
+            "id": "150390673",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Right on the Mora!",
+            "nextDialogs": [
+              "150390674"
+            ]
+          },
+          "150390674": {
+            "id": "150390674",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, how did you know that, Chasca?",
+            "nextDialogs": [
+              "150390675"
+            ]
+          },
+          "150390675": {
+            "id": "150390675",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "'Cause on the surf over, she wouldn't stop shouting: \"I really really want a water gun!\" I've never wanted qucusaur wings more than that moment. Anything to block out the noise, honestly...",
+            "nextDialogs": [
+              "150390676"
+            ]
+          },
+          "150390676": {
+            "id": "150390676",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "C'mon, water guns are SO much fun! Besides, summer's not summer without a good water fight... or ten!",
+            "nextDialogs": [
+              "150390677"
+            ]
+          },
+          "150390677": {
+            "id": "150390677",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I know exactly what you mean! I have this one friend... Well, long story short, every time she heads down to the lake to go fish blasting, I get soaked from head to toe. It's so much fun!",
+            "nextDialogs": [
+              "150390678"
+            ]
+          },
+          "150390678": {
+            "id": "150390678",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Exactly! Playing with water's all about letting go of your worries and just having a blast!",
+            "nextDialogs": [
+              "150390679"
+            ]
+          },
+          "150390679": {
+            "id": "150390679",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You two sure speak the same language, alright...",
+            "nextDialogs": [
+              "150390680"
+            ]
+          },
+          "150390680": {
+            "id": "150390680",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "But this time, having fun in the water's not the only reason I'm here.",
+            "nextDialogs": [
+              "150390681"
+            ]
+          },
+          "150390681": {
+            "id": "150390681",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Some serious business to take care of?",
+            "nextDialogs": [
+              "150390682"
+            ]
+          },
+          "150390682": {
+            "id": "150390682",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Yep! As a guide, if you want to create the best possible travel plan, you have to go out and experience everything for yourself! It's like being a guinea pig for your future clients!",
+            "nextDialogs": [
+              "150390683"
+            ]
+          },
+          "150390683": {
+            "id": "150390683",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Chasca's here to scope out the resort for her qucusaur family, too. After all, human or saurian, who doesn't love a good vacation?",
+            "nextDialogs": [
+              "150390684"
+            ]
+          },
+          "150390684": {
+            "id": "150390684",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Obviously, the resort is still in the trial phase, so there's bound to be some bumps in the road. But, we have tons of time on our hands, so we decided to officially sign ourselves up as testers!",
+            "nextDialogs": [
+              "150390685"
+            ]
+          },
+          "150390685": {
+            "id": "150390685",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Oh, Ifa and Ororon signed up, too. They got here earlier than us, though — said they were gonna go check up on the health of the saurian staff and aphids here at the resort.",
+            "nextDialogs": [
+              "150390686"
+            ]
+          },
+          "150390686": {
+            "id": "150390686",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "They should be just about wrapping things up by now, right? Maybe we'll run into them somewhere.",
+            "nextDialogs": [
+              "150390687"
+            ]
+          },
+          "150390687": {
+            "id": "150390687",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Well, seeing as we're all here for the same reason, why don't we stick together?",
+            "nextDialogs": [
+              "150390688"
+            ]
+          },
+          "150390688": {
+            "id": "150390688",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "After all, when it comes down to it, adventure's all about teamwork!",
+            "nextDialogs": [
+              "150390689"
+            ]
+          },
+          "150390689": {
+            "id": "150390689",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Sure! Sounds good to me.",
+            "nextDialogs": [
+              "150390690"
+            ]
+          },
+          "150390690": {
+            "id": "150390690",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Yeah, I'm down! The more, the merrier!",
+            "nextDialogs": [
+              "150390691"
+            ]
+          },
+          "150390691": {
+            "id": "150390691",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "I heard there's this incredible, can't-miss experience called \"Dreambow Drift\" just over there in that canyon. Let's go check it out!",
+            "nextDialogs": [
+              "150390692"
+            ]
+          },
+          "150390692": {
+            "id": "150390692",
+            "speakerId": 21856,
+            "speakerName": "Asha",
+            "text": "♪"
+          },
+          "150390660": {
+            "id": "150390660",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "All thanks to me getting myself into danger. Heh, sorry about that... Anyway, I've been training hard lately, so I should be a lot stronger now!"
+          },
+          "150390662": {
+            "id": "150390662",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Thanks for saying that, haha. Being your friend is one of the things I'm most proud of!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503908",
+      "subQuestName": "Head to the entrance of the canyon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503910",
+      "subQuestName": "Experience \"Dreambow Drift\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503911",
+      "subQuestName": "Board the cruise ship",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150395004"
+        ],
+        "dialogs": {
+          "150395004": {
+            "id": "150395004",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We're ready.",
+            "nextDialogs": [
+              "150395005"
+            ]
+          },
+          "150395005": {
+            "id": "150395005",
+            "speakerId": 6549,
+            "speakerName": "Miztli",
+            "text": "Please embark from here! We'll set sail soon!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503903",
+      "subQuestName": "Ride the cruise ship and watch the show",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503912",
+      "subQuestName": "Ride the cruise ship and watch the show",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503913",
+      "subQuestName": "Reunite with your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503916",
+      "subQuestName": "Continue onward",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503917",
+      "subQuestName": "Continue onward",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150391701"
+        ],
+        "dialogs": {
+          "150391701": {
+            "id": "150391701",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Now that I think about it, I don't think I've seen an Asha anywhere else in Natlan...",
+            "nextDialogs": [
+              "150391702"
+            ]
+          },
+          "150391702": {
+            "id": "150391702",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "That's right, you won't find them outside of Tenochtzitoc.",
+            "nextDialogs": [
+              "150391703"
+            ]
+          },
+          "150391703": {
+            "id": "150391703",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "They're amazing artists, too! You should see their Chromalime graffiti...",
+            "nextDialogs": [
+              "150391704"
+            ]
+          },
+          "150391704": {
+            "id": "150391704",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "It's really incredible. Sounds like something out of a fairy tale, doesn't it?",
+            "nextDialogs": [
+              "150391705"
+            ]
+          },
+          "150391705": {
+            "id": "150391705",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I'm not sure my dads will even believe me if I tell them all this...",
+            "nextDialogs": [
+              "150391706"
+            ]
+          },
+          "150391706": {
+            "id": "150391706",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Oh, that's not all. According to Granny Citlali, Tenochtzitoc's full of spiritual energy. I guess it follows that the Asha must be some kind of mysterious spiritual phenomenon.",
+            "nextDialogs": [
+              "150391707"
+            ]
+          },
+          "150391707": {
+            "id": "150391707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did she mention anything else about the Asha?",
+            "nextDialogs": [
+              "150391708"
+            ]
+          },
+          "150391708": {
+            "id": "150391708",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Nope. Granny's such a recluse, I doubt she's even seen one for herself!",
+            "nextDialogs": [
+              "150391709"
+            ]
+          },
+          "150391709": {
+            "id": "150391709",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "This one time, I knocked on her door, and when she answered, she had these huge dark circles and all she said was, \"Evening.\" Except it was noon! The cloud-cover confused her, I guess...",
+            "nextDialogs": [
+              "150391710"
+            ]
+          },
+          "150391710": {
+            "id": "150391710",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Well, sounds like she's got personality, that's for sure...",
+            "nextDialogs": [
+              "150391711"
+            ]
+          },
+          "150391711": {
+            "id": "150391711",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391712"
+            ]
+          },
+          "150391712": {
+            "id": "150391712",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, do you think he wants us to follow? Let's go take a look!",
+            "nextDialogs": [
+              "150391713"
+            ]
+          },
+          "150391713": {
+            "id": "150391713",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "You're here early! Lots of visitors today?",
+            "nextDialogs": [
+              "150391714"
+            ]
+          },
+          "150391714": {
+            "id": "150391714",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391715"
+            ]
+          },
+          "150391715": {
+            "id": "150391715",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Over there.",
+            "nextDialogs": [
+              "150391716"
+            ]
+          },
+          "150391716": {
+            "id": "150391716",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Oh, hello!",
+            "nextDialogs": [
+              "150391717"
+            ]
+          },
+          "150391717": {
+            "id": "150391717",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Could I see your invitation, please? I'll get you all checked in to your accommodations.",
+            "nextDialogs": [
+              "150391718"
+            ]
+          },
+          "150391718": {
+            "id": "150391718",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, hello. Is this what you mean? That's what Mr. Cyrus gave me.",
+            "nextDialogs": [
+              "150391719"
+            ]
+          },
+          "150391719": {
+            "id": "150391719",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Let me see... Ah, yes. This is one of the invitations that was sent out to adventurers all over Teyvat. One moment, please...",
+            "nextDialogs": [
+              "150391720"
+            ]
+          },
+          "150391720": {
+            "id": "150391720",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391721"
+            ]
+          },
+          "150391721": {
+            "id": "150391721",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Let's not trouble our guests, now, Asha...",
+            "nextDialogs": [
+              "150391722"
+            ]
+          },
+          "150391722": {
+            "id": "150391722",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh no, he's been no trouble at all! He's been super helpful! Led us right where we needed to go!",
+            "nextDialogs": [
+              "150391723"
+            ]
+          },
+          "150391723": {
+            "id": "150391723",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, and he seems to have taken a special liking to Bennett! Won't even leave his side!",
+            "nextDialogs": [
+              "150391724"
+            ]
+          },
+          "150391724": {
+            "id": "150391724",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Ah, I see what's going on here. Wanted to show off that new friend you made, didn't you?",
+            "nextDialogs": [
+              "150391725"
+            ]
+          },
+          "150391725": {
+            "id": "150391725",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391726"
+            ]
+          },
+          "150391726": {
+            "id": "150391726",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Aw, I appreciate that, little guy!",
+            "nextDialogs": [
+              "150391727"
+            ]
+          },
+          "150391727": {
+            "id": "150391727",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391728"
+            ]
+          },
+          "150391728": {
+            "id": "150391728",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Well, from the sound of it, he wants to stick by your side.",
+            "nextDialogs": [
+              "150391729"
+            ]
+          },
+          "150391729": {
+            "id": "150391729",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Seriously? That'd be great!",
+            "nextDialogs": [
+              "150391730"
+            ]
+          },
+          "150391730": {
+            "id": "150391730",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I'll look after him! I promise!",
+            "nextDialogs": [
+              "150391731"
+            ]
+          },
+          "150391731": {
+            "id": "150391731",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Huh, looks like they've really clicked.",
+            "nextDialogs": [
+              "150391732"
+            ]
+          },
+          "150391732": {
+            "id": "150391732",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "What if it's the color? Maybe his lucky color is lake blue, too!",
+            "nextDialogs": [
+              "150391733"
+            ]
+          },
+          "150391733": {
+            "id": "150391733",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, or, hear Paimon out — maybe it's got something to do with spiritual energy?",
+            "nextDialogs": [
+              "150391734"
+            ]
+          },
+          "150391734": {
+            "id": "150391734",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Well, if you don't mind, sir, then by all means... Spend as much time together as you like.",
+            "nextDialogs": [
+              "150391735"
+            ]
+          },
+          "150391735": {
+            "id": "150391735",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Congratulations! Benny's Adventure Team has a new member!",
+            "nextDialogs": [
+              "150391736"
+            ]
+          },
+          "150391736": {
+            "id": "150391736",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Guess we gotta look out for each other now, huh?",
+            "nextDialogs": [
+              "150391737"
+            ]
+          },
+          "150391737": {
+            "id": "150391737",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391738"
+            ]
+          },
+          "150391738": {
+            "id": "150391738",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Now then, before I give you a brief introduction to the resort, please take this map, along with a special commemorative photo album we prepared for all our guests.",
+            "nextDialogs": [
+              "150391739"
+            ]
+          },
+          "150391739": {
+            "id": "150391739",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "The resort is made up of four main areas: Colorfall Cliffs, Guiztli Ridge, Wavey Bay, and Tete Isle. Feel free to explore them at your leisure!",
+            "nextDialogs": [
+              "150391740"
+            ]
+          },
+          "150391740": {
+            "id": "150391740",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "...Wavey Bay!",
+            "nextDialogs": [
+              "150391741"
+            ]
+          },
+          "150391741": {
+            "id": "150391741",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "If you're interested in trying out our most popular attractions...",
+            "nextDialogs": [
+              "150391742"
+            ]
+          },
+          "150391742": {
+            "id": "150391742",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "We highly recommend checking out the main challenge in each area. If you complete it, make sure to take a photo by the attraction and place it into the matching slot in your album.",
+            "nextDialogs": [
+              "150391743"
+            ]
+          },
+          "150391743": {
+            "id": "150391743",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Once you've collected all four photos, come back here to claim your final prize.",
+            "nextDialogs": [
+              "150391744"
+            ]
+          },
+          "150391744": {
+            "id": "150391744",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Of course, the album is yours to keep, so feel free to fill it up with all sorts of memories from your adventures!",
+            "nextDialogs": [
+              "150391745"
+            ]
+          },
+          "150391745": {
+            "id": "150391745",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wowwwww!",
+            "nextDialogs": [
+              "150391746"
+            ]
+          },
+          "150391746": {
+            "id": "150391746",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Whoa, Paimon's psyched out about this photo album.",
+            "nextDialogs": [
+              "150391749"
+            ]
+          },
+          "150391749": {
+            "id": "150391749",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Final... prize...",
+            "nextDialogs": [
+              "150391750"
+            ]
+          },
+          "150391750": {
+            "id": "150391750",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Earth to Paimon! Helloooo! Uh... On second thought, I don't think it's the album she's focused on...",
+            "nextDialogs": [
+              "150391751"
+            ]
+          },
+          "150391751": {
+            "id": "150391751",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh man, a prize? What could it be? I gotta know!",
+            "nextDialogs": [
+              "150391752"
+            ]
+          },
+          "150391752": {
+            "id": "150391752",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Uh-oh, we're losing another one...",
+            "nextDialogs": [
+              "150391753"
+            ]
+          },
+          "150391753": {
+            "id": "150391753",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150391754"
+            ]
+          },
+          "150391754": {
+            "id": "150391754",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Lastly, allow me to apologize in advance for a few things.",
+            "nextDialogs": [
+              "150391755"
+            ]
+          },
+          "150391755": {
+            "id": "150391755",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Due to ongoing construction, Tete Isle is temporarily closed. We kindly ask for your patience as we wrap that up and recommend saving it for last.",
+            "nextDialogs": [
+              "150391756"
+            ]
+          },
+          "150391756": {
+            "id": "150391756",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Also, we're still in the trial phase of operation, so you may encounter instances of understaffing in some areas...",
+            "nextDialogs": [
+              "150391757"
+            ]
+          },
+          "150391757": {
+            "id": "150391757",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Don't sweat it! We're a big group. We're more than happy to lend a hand.",
+            "nextDialogs": [
+              "150391758"
+            ]
+          },
+          "150391758": {
+            "id": "150391758",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "That's great to hear.",
+            "nextDialogs": [
+              "150391759"
+            ]
+          },
+          "150391759": {
+            "id": "150391759",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Well, your accommodations are in that direction. Feel free to head there if you need some rest. And, if you're looking to do some shopping, the Easybreeze Market — our busiest attraction — is right over here.",
+            "nextDialogs": [
+              "150391760"
+            ]
+          },
+          "150391760": {
+            "id": "150391760",
+            "speakerId": 6550,
+            "speakerName": "Ukucha",
+            "text": "Let me just double check... Yes, if you head over right now, you might just be in time to catch the Asha celebration parade.",
+            "nextDialogs": [
+              "150391761"
+            ]
+          },
+          "150391761": {
+            "id": "150391761",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Sounds great! Thanks for such a thorough rundown — not much even a guide like me could add!",
+            "nextDialogs": [
+              "150391762"
+            ]
+          },
+          "150391762": {
+            "id": "150391762",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oops, Paimon's supposed to be a guide, too, isn't she... Oh, hehe, sorry, she got distracted by the prize for a second...",
+            "nextDialogs": [
+              "150391763"
+            ]
+          },
+          "150391763": {
+            "id": "150391763",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Longest second I've ever seen.",
+            "nextDialogs": [
+              "150391764"
+            ]
+          },
+          "150391764": {
+            "id": "150391764",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's leave it to our two guides, then. Where to first?",
+            "nextDialogs": [
+              "150391765"
+            ]
+          },
+          "150391765": {
+            "id": "150391765",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "To the Easybreeze Market, and then straight to our rooms, of course! Who's ready to kick things off with a bonfire party?",
+            "nextDialogs": [
+              "150391766"
+            ]
+          },
+          "150391766": {
+            "id": "150391766",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Count me in!",
+            "nextDialogs": [
+              "150391767"
+            ]
+          },
+          "150391767": {
+            "id": "150391767",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait a second! Bennett, weren't we on the same wavelength just now? Obviously, we should start with the challenges so we can nab the prize!",
+            "nextDialogs": [
+              "150391768"
+            ]
+          },
+          "150391768": {
+            "id": "150391768",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Hey, there's no rush. It's not like the prize is suddenly gonna grow a pair of wings and fly off — and even if it did, we'd just chase it back down again.",
+            "nextDialogs": [
+              "150391769"
+            ]
+          },
+          "150391769": {
+            "id": "150391769",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Besides, our vacation's just getting started. Enjoying ourselves is way more important than chasing after the prize!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503918",
+      "subQuestName": "Head to Easybreeze Market",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503919",
+      "subQuestName": "Go to the resort's accommodations",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150392001"
+        ],
+        "dialogs": {
+          "150392001": {
+            "id": "150392001",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "A moment later, the table is covered in mouthwatering food.",
+            "nextDialogs": [
+              "150392002"
+            ]
+          },
+          "150392002": {
+            "id": "150392002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "By the way — *hic* — why'd you decide to visit Natlan, Bennett?",
+            "nextDialogs": [
+              "150392003"
+            ]
+          },
+          "150392003": {
+            "id": "150392003",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Was it the invitation from Cyrus?",
+            "nextDialogs": [
+              "150392004"
+            ]
+          },
+          "150392004": {
+            "id": "150392004",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yeah, exactly!",
+            "nextDialogs": [
+              "150392005"
+            ]
+          },
+          "150392005": {
+            "id": "150392005",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "The Branch Master said that the Natlan Adventurers' Guild was inviting adventurers from all over to come check out the resort, and asked if I'd be willing to represent Mondstadt.",
+            "nextDialogs": [
+              "150392006"
+            ]
+          },
+          "150392006": {
+            "id": "150392006",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I've been waiting for a chance to go adventuring in a far-off land for ages now!",
+            "nextDialogs": [
+              "150392007"
+            ]
+          },
+          "150392007": {
+            "id": "150392007",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I just always used to worry about leaving my dads behind. And with my luck, I figured half the trip would be spent dealing with trouble along the way...",
+            "nextDialogs": [
+              "150392008"
+            ]
+          },
+          "150392008": {
+            "id": "150392008",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Well, things have been looking up for you lately, right? Just gotta find a way to make it last!",
+            "nextDialogs": [
+              "150392009"
+            ]
+          },
+          "150392009": {
+            "id": "150392009",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Haha, I'll do my best...",
+            "nextDialogs": [
+              "150392010"
+            ]
+          },
+          "150392010": {
+            "id": "150392010",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Ah, I know! We should take you to visit Granny Citlali in the Masters of the Night-Wind. She can read your fortune, tell you what to watch out for, stuff like that... Seriously, she's scary accurate!",
+            "nextDialogs": [
+              "150392011"
+            ]
+          },
+          "150392011": {
+            "id": "150392011",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, she's the old granny you mentioned earlier, right? Hey, do you think she could tell us more about the Asha?",
+            "nextDialogs": [
+              "150392012"
+            ]
+          },
+          "150392012": {
+            "id": "150392012",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Old... isn't really the best word to describe this particular granny. You'll see once you meet her.",
+            "nextDialogs": [
+              "150392013"
+            ]
+          },
+          "150392013": {
+            "id": "150392013",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150392014"
+            ]
+          },
+          "150392014": {
+            "id": "150392014",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Alright, looks like everyone's just about finished eating, right? Time for our next activity — the \"sun\" offering ceremony... slash bonfire party!",
+            "nextDialogs": [
+              "150392015"
+            ]
+          },
+          "150392015": {
+            "id": "150392015",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Any volunteers to light the flame? Five, four, three, two, one... Great! Thank you all for so selflessly giving up such a precious opportunity!",
+            "nextDialogs": [
+              "150392016"
+            ]
+          },
+          "150392016": {
+            "id": "150392016",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "She didn't even give anyone else a chance to chime in! Once Mualani's in party mode, she's like a kid on a sugar rush...",
+            "nextDialogs": [
+              "150392017"
+            ]
+          },
+          "150392017": {
+            "id": "150392017",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Ahem...",
+            "nextDialogs": [
+              "150392018"
+            ]
+          },
+          "150392018": {
+            "id": "150392018",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "As the sun sinks beneath the western shroud, let the sparks of flame guide us home.",
+            "nextDialogs": [
+              "150392019"
+            ]
+          },
+          "150392019": {
+            "id": "150392019",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "And a blazing light burn anew to cleanse impurities of old.",
+            "nextDialogs": [
+              "150392020"
+            ]
+          },
+          "150392020": {
+            "id": "150392020",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "...",
+            "nextDialogs": [
+              "150392021"
+            ]
+          },
+          "150392021": {
+            "id": "150392021",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "150392022"
+            ]
+          },
+          "150392022": {
+            "id": "150392022",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Uh, why's everyone so quiet?",
+            "nextDialogs": [
+              "150392023"
+            ]
+          },
+          "150392023": {
+            "id": "150392023",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, we can talk now?",
+            "nextDialogs": [
+              "150392024"
+            ]
+          },
+          "150392024": {
+            "id": "150392024",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Of course you can! Now that the blessing's done, the floor's open — go ahead and state your wishes.",
+            "nextDialogs": [
+              "150392025"
+            ]
+          },
+          "150392025": {
+            "id": "150392025",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "...Ah, to the fire, not to me.",
+            "nextDialogs": [
+              "150392026"
+            ]
+          },
+          "150392026": {
+            "id": "150392026",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "May my family be safe, and may war be gone forever from Natlan.",
+            "nextDialogs": [
+              "150392027"
+            ]
+          },
+          "150392027": {
+            "id": "150392027",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Short, sweet, and full of impact!",
+            "nextDialogs": [
+              "150392028"
+            ]
+          },
+          "150392028": {
+            "id": "150392028",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "May all my friends, and all the people of Natlan, live the lives of their dreams...",
+            "nextDialogs": [
+              "150392029"
+            ]
+          },
+          "150392029": {
+            "id": "150392029",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "And above all, may Natlan's Ley Lines stay strong and steady...",
+            "nextDialogs": [
+              "150392030"
+            ]
+          },
+          "150392030": {
+            "id": "150392030",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, is it my turn? But... I'm not from Natlan. Will the Pyro Archon even know who's speaking?",
+            "nextDialogs": [
+              "150392031"
+            ]
+          },
+          "150392031": {
+            "id": "150392031",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just introduce yourself first!",
+            "nextDialogs": [
+              "150392032"
+            ]
+          },
+          "150392032": {
+            "id": "150392032",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Hello, great Pyro Archon. Um, you don't know me, but my name is Bennett, and I'm an adventurer from Mondstadt.",
+            "nextDialogs": [
+              "150392033"
+            ]
+          },
+          "150392033": {
+            "id": "150392033",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I heard there was a terrible war in Natlan not too long ago, and that all the tribes suffered great pain and loss. I'm so sorry you and your people had to go through that.",
+            "nextDialogs": [
+              "150392034"
+            ]
+          },
+          "150392034": {
+            "id": "150392034",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I'd like to offer a blessing for this wounded land, and for the people who worked so hard to save it.",
+            "nextDialogs": [
+              "150392035"
+            ]
+          },
+          "150392035": {
+            "id": "150392035",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I wish for timely rains, plentiful harvests, and for all people of this land to heal from the struggles of the past and embrace the dawn of a new day...",
+            "nextDialogs": [
+              "150392036"
+            ]
+          },
+          "150392036": {
+            "id": "150392036",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Hmm, well said.",
+            "nextDialogs": [
+              "150392037"
+            ]
+          },
+          "150392037": {
+            "id": "150392037",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, and if you don't mind... there's also something a little more personal I'd like to add.",
+            "nextDialogs": [
+              "150392038"
+            ]
+          },
+          "150392038": {
+            "id": "150392038",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I miss my family back in Mondstadt. Sometimes while I'm off having fun with friends, I look up at the stars and wonder... Are they gazing at the same sky and feeling lonely instead?",
+            "nextDialogs": [
+              "150392039"
+            ]
+          },
+          "150392039": {
+            "id": "150392039",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "So, I'd like to wish all of my dads health and happiness.",
+            "nextDialogs": [
+              "150392040"
+            ]
+          },
+          "150392040": {
+            "id": "150392040",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "That's all.",
+            "nextDialogs": [
+              "150392041"
+            ]
+          },
+          "150392041": {
+            "id": "150392041",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Aww, hearing you say that, you've got me missing my mom and dad, too...",
+            "nextDialogs": [
+              "150392042"
+            ]
+          },
+          "150392042": {
+            "id": "150392042",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Their business abroad's been booming lately — when they're not out working all day, they're away on business trips for days on end. They're busier than I am most of the time, so I barely get to see them...",
+            "nextDialogs": [
+              "150392043"
+            ]
+          },
+          "150392043": {
+            "id": "150392043",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, um... Ahem, well, don't forget to bring them back plenty of souvenirs from the resort.",
+            "nextDialogs": [
+              "150392044"
+            ]
+          },
+          "150392044": {
+            "id": "150392044",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How've your dads been doing, Bennett?",
+            "nextDialogs": [
+              "150392045"
+            ]
+          },
+          "150392045": {
+            "id": "150392045",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh! They're doing great, thanks.",
+            "nextDialogs": [
+              "150392046"
+            ]
+          },
+          "150392046": {
+            "id": "150392046",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "When I asked them if I could go on this trip, they were all smiles.",
+            "nextDialogs": [
+              "150392047"
+            ]
+          },
+          "150392047": {
+            "id": "150392047",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "They told me to get out there and see the world, and then come back and tell them all about my adventures.",
+            "nextDialogs": [
+              "150392048"
+            ]
+          },
+          "150392048": {
+            "id": "150392048",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Normally, if you asked the seven of them something completely mundane — like... what's the best flavor of sausage — you get eight different opinions.",
+            "nextDialogs": [
+              "150392049"
+            ]
+          },
+          "150392049": {
+            "id": "150392049",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I mean, the night before, two of them had actually gotten into an argument over a game of cards. But, in that moment, they were all in agreement.",
+            "nextDialogs": [
+              "150392052"
+            ]
+          },
+          "150392052": {
+            "id": "150392052",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yeah... Now that you mention it, that sounds about right.",
+            "nextDialogs": [
+              "150392053"
+            ]
+          },
+          "150392053": {
+            "id": "150392053",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just goes to show how impressed they are with all your hard work. Your dads are rooting for you!",
+            "nextDialogs": [
+              "150392054"
+            ]
+          },
+          "150392054": {
+            "id": "150392054",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150392055"
+            ]
+          },
+          "150392055": {
+            "id": "150392055",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Just to double check, when you say \"dads,\" are you referring to the people who take care of Bennett?",
+            "nextDialogs": [
+              "150392056"
+            ]
+          },
+          "150392056": {
+            "id": "150392056",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "More like Bennett takes care of them, nowadays...",
+            "nextDialogs": [
+              "150392057"
+            ]
+          },
+          "150392057": {
+            "id": "150392057",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Well, my dads are getting up there in age, so they don't have the energy for some stuff, y'know? I just lend them a hand when I can.",
+            "nextDialogs": [
+              "150392058"
+            ]
+          },
+          "150392058": {
+            "id": "150392058",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Sounds pretty impressive to me.",
+            "nextDialogs": [
+              "150392059"
+            ]
+          },
+          "150392059": {
+            "id": "150392059",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Ah, it's nothing. That's what family's for.",
+            "nextDialogs": [
+              "150392060"
+            ]
+          },
+          "150392060": {
+            "id": "150392060",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "So does that mean...",
+            "nextDialogs": [
+              "150392061"
+            ]
+          },
+          "150392061": {
+            "id": "150392061",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yep, I'm an orphan. I've been with the Adventurers' Guild for as long as I can remember. Haha, when you think about it, maybe I really was born to be an adventurer.",
+            "nextDialogs": [
+              "150392062"
+            ]
+          },
+          "150392062": {
+            "id": "150392062",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Even though my luck's always been terrible, my dads never gave up on me. With their help, I made it to where I am now, bumps along the road and all.",
+            "nextDialogs": [
+              "150392063"
+            ]
+          },
+          "150392063": {
+            "id": "150392063",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Growing up, I received so much kindness from people I didn't even know — and that's made me all the more determined to pay it forward, y'know?",
+            "nextDialogs": [
+              "150392064"
+            ]
+          },
+          "150392064": {
+            "id": "150392064",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Kinda like a relay race!",
+            "nextDialogs": [
+              "150392065"
+            ]
+          },
+          "150392065": {
+            "id": "150392065",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Yeah, that's a good way to put it. Just like a relay race.",
+            "nextDialogs": [
+              "150392066"
+            ]
+          },
+          "150392066": {
+            "id": "150392066",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Hah, sounds like we've got a lot in common.",
+            "nextDialogs": [
+              "150392067"
+            ]
+          },
+          "150392067": {
+            "id": "150392067",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Y'know, relays are a team sport. So, by your own metaphor, you're not a solo adventurer at all!",
+            "nextDialogs": [
+              "150392068"
+            ]
+          },
+          "150392068": {
+            "id": "150392068",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Uh... Yeah, but don't forget, I'm super unlucky. In the past, bad luck has followed me wherever I've been... Most people wouldn't even dare team up with me.",
+            "nextDialogs": [
+              "150392069"
+            ]
+          },
+          "150392069": {
+            "id": "150392069",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Well, what kind of adventure doesn't have a few bumps in the road? Just ask me or Mualani — you can't fly without a little turbulence, or surf without making waves.",
+            "nextDialogs": [
+              "150392070"
+            ]
+          },
+          "150392070": {
+            "id": "150392070",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Heh, you really think so? Still, when it comes to me, it's usually more like tornados and tsunamis...",
+            "nextDialogs": [
+              "150392071"
+            ]
+          },
+          "150392071": {
+            "id": "150392071",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "That's not such a bad thing — sounds thrilling! Next time you go adventuring, I'm coming with! I've got mad surfing skills. You'll see!",
+            "nextDialogs": [
+              "150392072"
+            ]
+          },
+          "150392072": {
+            "id": "150392072",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Count me in too.",
+            "nextDialogs": [
+              "150392073"
+            ]
+          },
+          "150392073": {
+            "id": "150392073",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oooh, does this mean that Benny's Adventure Team is expanding once again?",
+            "nextDialogs": [
+              "150392074"
+            ]
+          },
+          "150392074": {
+            "id": "150392074",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll take care of logistics.",
+            "nextDialogs": [
+              "150392075"
+            ]
+          },
+          "150392075": {
+            "id": "150392075",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Aren't you kind of overqualified for that...? Fine. Guess I'll be team cheerleader, then!",
+            "nextDialogs": [
+              "150392076"
+            ]
+          },
+          "150392076": {
+            "id": "150392076",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "When fighting's off the table, I can always step in as an interpreter...?",
+            "nextDialogs": [
+              "150392077"
+            ]
+          },
+          "150392077": {
+            "id": "150392077",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "♪",
+            "nextDialogs": [
+              "150392078"
+            ]
+          },
+          "150392078": {
+            "id": "150392078",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Ha! I... can't tell you how grateful I am. I'm just... so lucky...",
+            "nextDialogs": [
+              "150392079"
+            ]
+          },
+          "150392079": {
+            "id": "150392079",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I've met the best bunch of people in the whole wide world. I'll treasure this friendship! I swear!",
+            "nextDialogs": [
+              "150392080"
+            ]
+          },
+          "150392080": {
+            "id": "150392080",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, something get in your eyes?",
+            "nextDialogs": [
+              "150392081"
+            ]
+          },
+          "150392081": {
+            "id": "150392081",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "It's the sparks... ahem, I mean, the smoke. S'just a little... strong.",
+            "nextDialogs": [
+              "150392082"
+            ]
+          },
+          "150392082": {
+            "id": "150392082",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Well, that just leaves the two of you. Anything you wanna say to the Pyro Archon?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503911",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150391101"
+        ],
+        "dialogs": {
+          "150391101": {
+            "id": "150391101",
+            "speakerId": 6549,
+            "speakerName": "Miztli",
+            "text": "Are you ready to board?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503919",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150391901"
+        ],
+        "dialogs": {
+          "150391901": {
+            "id": "150391901",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Oh, so this is the dining area! Gimme a sec, I'll go find a staff member! See what they recommend!",
+            "nextDialogs": [
+              "150391902"
+            ]
+          },
+          "150391902": {
+            "id": "150391902",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Need a hand with that?",
+            "nextDialogs": [
+              "150391903"
+            ]
+          },
+          "150391903": {
+            "id": "150391903",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "No need. You all sit tight. I'll be right back.",
+            "nextDialogs": [
+              "150391904"
+            ]
+          },
+          "150391904": {
+            "id": "150391904",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Are you sure? I can—",
+            "nextDialogs": [
+              "150391905"
+            ]
+          },
+          "150391905": {
+            "id": "150391905",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "That's Mualani for you, extrovert to the core, always making friends and taking care of people.",
+            "nextDialogs": [
+              "150391906"
+            ]
+          },
+          "150391906": {
+            "id": "150391906",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Stick her in a corner by herself and tell her not to talk, and she wouldn't know what to do with herself.",
+            "nextDialogs": [
+              "150391907"
+            ]
+          },
+          "150391907": {
+            "id": "150391907",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh, really? You must've been friends for ages to know her so well!",
+            "nextDialogs": [
+              "150391908"
+            ]
+          },
+          "150391908": {
+            "id": "150391908",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Yeah, it's been a while. She talks, I listen, sometimes we spar — that's our friendship in a nutshell.",
+            "nextDialogs": [
+              "150391909"
+            ]
+          },
+          "150391909": {
+            "id": "150391909",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "How about you, Bennett — this your first time in Natlan? Anyone make the trip with you?",
+            "nextDialogs": [
+              "150391910"
+            ]
+          },
+          "150391910": {
+            "id": "150391910",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Oh yeah! Funny you ask, I do have a travel buddy. His name's Venti, and he's the best bard in all of Mondstadt.",
+            "nextDialogs": [
+              "150391911"
+            ]
+          },
+          "150391911": {
+            "id": "150391911",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Tone-Deaf Bard! It's been ages since we last saw him. Why haven't we seen him yet?",
+            "nextDialogs": [
+              "150391912"
+            ]
+          },
+          "150391912": {
+            "id": "150391912",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "He said he was planning on visiting a friend somewhere else in Natlan first, so he'll be a few days late. He told me to just go ahead and have fun in the meantime.",
+            "nextDialogs": [
+              "150391913"
+            ]
+          },
+          "150391913": {
+            "id": "150391913",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "A friend in Natlan? Huh. Who could that be?",
+            "nextDialogs": [
+              "150391914"
+            ]
+          },
+          "150391914": {
+            "id": "150391914",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Sorry, I didn't think to ask... But considering how amazing he is, I wouldn't be surprised if he knew just about anyone!",
+            "nextDialogs": [
+              "150391915"
+            ]
+          },
+          "150391915": {
+            "id": "150391915",
+            "speakerId": 1087,
+            "speakerName": "Mualani",
+            "text": "Okay everyone, hope you're feeling hungry! Come grab a seat, I picked out all the best dishes."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503951",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150395102"
+        ],
+        "dialogs": {
+          "150395102": {
+            "id": "150395102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Just a little longer.",
+            "nextDialogs": [
+              "150395103"
+            ]
+          },
+          "150395103": {
+            "id": "150395103",
+            "speakerId": 6549,
+            "speakerName": "Miztli",
+            "text": "Take your time! Just let me know when you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503999",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150399902"
+        ],
+        "dialogs": {
+          "150399902": {
+            "id": "150399902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Beep-beep, keywords detected! \"All food, lodging, and entertainment expenses will be fully covered during the trial period.\"",
+            "nextDialogs": [
+              "150399903"
+            ]
+          },
+          "150399903": {
+            "id": "150399903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Does that mean... We get to go back to full-on vacation mode again!?",
+            "nextDialogs": [
+              "150399904"
+            ]
+          },
+          "150399904": {
+            "id": "150399904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What are we waiting for? Next stop, Tenochtzitoc!",
+            "nextDialogs": [
+              "150399911"
+            ]
+          },
+          "150399911": {
+            "id": "150399911",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "Back in Mondstadt, our transport balloons always have an Anemo Slime inside them... or at least something that looks just like one.",
+            "nextDialogs": [
+              "150399912"
+            ]
+          },
+          "150399912": {
+            "id": "150399912",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "I used to love picking up this one commission from Katheryne called \"Safe Conduct.\"",
+            "nextDialogs": [
+              "150399913"
+            ]
+          },
+          "150399913": {
+            "id": "150399913",
+            "speakerId": 1024,
+            "speakerName": "Bennett",
+            "text": "All the monsters would just rush straight for me, totally ignoring the balloon! Haha...",
+            "nextDialogs": [
+              "150399919"
+            ]
+          },
+          "150399919": {
+            "id": "150399919",
+            "speakerId": 1009,
+            "speakerName": "Black Screen",
+            "text": "You meet up with your companions by the shore..."
+          }
+        }
+      }
+    }
+  ]
+}

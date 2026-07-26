@@ -1,0 +1,75 @@
+{
+  "lineCounts": {
+    "Barbara": 1,
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1900601",
+      "subQuestName": "Look for High-quality Sweet Flowers",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900602",
+      "subQuestName": "Defeat all opponents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1900603",
+      "subQuestName": "Talk to Barbara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "19006011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1900601110"
+        ],
+        "dialogs": {
+          "1900601110": {
+            "id": "1900601110",
+            "speakerId": 1008,
+            "speakerName": "Barbara",
+            "text": "",
+            "nextDialogs": [
+              "1900601191"
+            ]
+          },
+          "1900601191": {
+            "id": "1900601191",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...No problem. See what you can find, I'll take care of him.",
+            "nextDialogs": [
+              "1900601192"
+            ]
+          },
+          "1900601192": {
+            "id": "1900601192",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hold on, Barbara. He's a suspicious character, we should take him to see the Knights first."
+          }
+        }
+      }
+    }
+  ]
+}

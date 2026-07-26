@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Alfred": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7070801",
+      "subQuestName": "Give Alfred three Cecilias",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707080101"
+        ],
+        "dialogs": {
+          "707080101": {
+            "id": "707080101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Heard you need Cecilias...",
+            "nextDialogs": [
+              "707080102"
+            ]
+          },
+          "707080102": {
+            "id": "707080102",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "You saw my commission, I presume? Thank you for coming all this way...",
+            "nextDialogs": [
+              "707080103"
+            ]
+          },
+          "707080103": {
+            "id": "707080103",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "So, have you already gathered those three Cecilias?",
+            "nextDialogs": [
+              "707080106"
+            ]
+          },
+          "707080106": {
+            "id": "707080106",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "Well, please pass them to me once you've gathered them — do hurry, or they might wilt."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070802",
+      "subQuestName": "Speak to Alfred",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707080201"
+        ],
+        "dialogs": {
+          "707080201": {
+            "id": "707080201",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "I'm sure my daughter will love these Cecilias.",
+            "nextDialogs": [
+              "707080202"
+            ]
+          },
+          "707080202": {
+            "id": "707080202",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "Thank you very much. Here's a little something for your trouble."
+          }
+        }
+      }
+    }
+  ]
+}

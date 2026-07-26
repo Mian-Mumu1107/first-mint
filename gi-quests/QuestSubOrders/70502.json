@@ -1,0 +1,418 @@
+{
+  "lineCounts": {
+    "Charles": 13,
+    "Luka": 11,
+    "Paimon": 9,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "7050201",
+      "subQuestName": "Talk to Luka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020116"
+        ],
+        "dialogs": {
+          "705020116": {
+            "id": "705020116",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Okay, we'll give it a shot.",
+            "nextDialogs": [
+              "705020117"
+            ]
+          },
+          "705020117": {
+            "id": "705020117",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Great, then please come on in. First, Charles will walk you through some basic techniques."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050202",
+      "subQuestName": "Talk to Luka and enter the tavern",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020201"
+        ],
+        "dialogs": {
+          "705020201": {
+            "id": "705020201",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Hey, I know you two. So, what can I get for you today?",
+            "nextDialogs": [
+              "705020202"
+            ]
+          },
+          "705020202": {
+            "id": "705020202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hi, Charles.",
+            "nextDialogs": [
+              "705020203"
+            ]
+          },
+          "705020203": {
+            "id": "705020203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, Charles! Actually, we came to be bartenders today!",
+            "nextDialogs": [
+              "705020204"
+            ]
+          },
+          "705020204": {
+            "id": "705020204",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Bartenders? Oh, so Luka roped you two in, did he? He's got quite a knack for that.",
+            "nextDialogs": [
+              "705020205"
+            ]
+          },
+          "705020205": {
+            "id": "705020205",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "#{NICKNAME}, you're certainly talented at handling difficult tasks, there's no doubt about that. But mixing cocktails is a whole different game, it's delicate work and requires a certain amount of finesse.",
+            "nextDialogs": [
+              "705020206"
+            ]
+          },
+          "705020206": {
+            "id": "705020206",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Everything from the ratios of your ingredients to your mixing techniques could affect the final product.",
+            "nextDialogs": [
+              "705020207"
+            ]
+          },
+          "705020207": {
+            "id": "705020207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Don't worry. {F#She's}{M#He's} a fantastic cook. Cooking and cocktail-making have a lot in common, you know!",
+            "nextDialogs": [
+              "705020208"
+            ]
+          },
+          "705020208": {
+            "id": "705020208",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Alright, I'll take your word for it. Oh, and one more thing...",
+            "nextDialogs": [
+              "705020209"
+            ]
+          },
+          "705020209": {
+            "id": "705020209",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "In a previous event, we had a student who arbitrarily mixed three kinds of hard liquor. Just one glass was enough to leave a customer passed out on the floor.",
+            "nextDialogs": [
+              "705020210"
+            ]
+          },
+          "705020210": {
+            "id": "705020210",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "So in light of that incident, we decided to no longer provide alcoholic ingredients to beginners. I hope you'll understand.",
+            "nextDialogs": [
+              "705020211"
+            ]
+          },
+          "705020211": {
+            "id": "705020211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No problem at all.",
+            "nextDialogs": [
+              "705020212"
+            ]
+          },
+          "705020212": {
+            "id": "705020212",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Great, that just about covers all I have to say. You'll learn all the skills and techniques you need on the fly."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050203",
+      "subQuestName": "Talk to Charles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7050204",
+      "subQuestName": "Learn how to make the specified drinks",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020401"
+        ],
+        "dialogs": {
+          "705020401": {
+            "id": "705020401",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "So, what do you think? Will you give the academy a try?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050205",
+      "subQuestName": "Talk to Charles",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020301"
+        ],
+        "dialogs": {
+          "705020301": {
+            "id": "705020301",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Mmm, you're a quick learner, this tastes pretty good.",
+            "nextDialogs": [
+              "705020302"
+            ]
+          },
+          "705020302": {
+            "id": "705020302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon agrees! This is amazing!",
+            "nextDialogs": [
+              "705020303"
+            ]
+          },
+          "705020303": {
+            "id": "705020303",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "That was just practice, though. On the job, customers often will have special requests for their drinks.",
+            "nextDialogs": [
+              "705020304"
+            ]
+          },
+          "705020304": {
+            "id": "705020304",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Some may enjoy a stiffer drink, while others might prefer something more sour, everyone has their own preferences. Adjusting the amounts of the ingredients is always the key.",
+            "nextDialogs": [
+              "705020305"
+            ]
+          },
+          "705020305": {
+            "id": "705020305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon would like a Caramel Pinecone, extra sweet, in the biggest glass you have. Please and thank you!",
+            "nextDialogs": [
+              "705020306"
+            ]
+          },
+          "705020306": {
+            "id": "705020306",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Well, that's about all there is to it. But, to become a truly exceptional bartender, in addition to mixing skills, you'll also need to master conversing with your customers...",
+            "nextDialogs": [
+              "705020309"
+            ]
+          },
+          "705020309": {
+            "id": "705020309",
+            "speakerId": 30114,
+            "speakerName": "Charles",
+            "text": "Alright, in that case, you two can take this counter. If you have questions or need any help, just give me a holler.",
+            "nextDialogs": [
+              "705020310"
+            ]
+          },
+          "705020310": {
+            "id": "705020310",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew... Class dismissed! Wait, where's Paimon's Caramel Pinecone?",
+            "nextDialogs": [
+              "705020311"
+            ]
+          },
+          "705020311": {
+            "id": "705020311",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So you really did want a Caramel Pinecone..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7050201",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "705020101"
+        ],
+        "dialogs": {
+          "705020101": {
+            "id": "705020101",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Hello there! So, you must be the renowned Traveler.",
+            "nextDialogs": [
+              "705020104"
+            ]
+          },
+          "705020104": {
+            "id": "705020104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, don't forget about the equally renowned Paimon!",
+            "nextDialogs": [
+              "705020105"
+            ]
+          },
+          "705020105": {
+            "id": "705020105",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Hehe, of course. Well, it just so happens that our tavern, Angel's Share, is hosting a Bartender's Academy Week. I'm hoping the event might interest you.",
+            "nextDialogs": [
+              "705020106"
+            ]
+          },
+          "705020106": {
+            "id": "705020106",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Basically, you'll have full access to all of our ingredients to mix cocktails or any other drink you please.",
+            "nextDialogs": [
+              "705020107"
+            ]
+          },
+          "705020107": {
+            "id": "705020107",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "As long as you refrain from being wasteful, you can enjoy unlimited refills for the drinks you create.",
+            "nextDialogs": [
+              "705020108"
+            ]
+          },
+          "705020108": {
+            "id": "705020108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Unlimited refills!",
+            "nextDialogs": [
+              "705020109"
+            ]
+          },
+          "705020109": {
+            "id": "705020109",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Also, you'll be rewarded handsomely if the guests are happy with your drinks.",
+            "nextDialogs": [
+              "705020110"
+            ]
+          },
+          "705020110": {
+            "id": "705020110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? There's even rewards!?",
+            "nextDialogs": [
+              "705020111"
+            ]
+          },
+          "705020111": {
+            "id": "705020111",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Well, Paimon is sold...",
+            "nextDialogs": [
+              "705020112"
+            ]
+          },
+          "705020112": {
+            "id": "705020112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Where do we sign up!?",
+            "nextDialogs": [
+              "705020113"
+            ]
+          },
+          "705020113": {
+            "id": "705020113",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "It's called an \"academy\" but attendance is certainly not mandatory...",
+            "nextDialogs": [
+              "705020114"
+            ]
+          },
+          "705020114": {
+            "id": "705020114",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "And you don't have to make your decision right away. You're more than welcome to give it a try first.",
+            "nextDialogs": [
+              "705020115"
+            ]
+          },
+          "705020115": {
+            "id": "705020115",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "So, what do you think? Will you give the academy a try?"
+          },
+          "705020118": {
+            "id": "705020118",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We need some time to consider.",
+            "nextDialogs": [
+              "705020119"
+            ]
+          },
+          "705020119": {
+            "id": "705020119",
+            "speakerId": 30112,
+            "speakerName": "Luka",
+            "text": "Sure, no problem. Please come back whenever you're ready."
+          }
+        }
+      }
+    }
+  ]
+}

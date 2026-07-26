@@ -1,0 +1,656 @@
+{
+  "lineCounts": {
+    "Player": 19,
+    "派蒙": 17,
+    "观察桌子": 2,
+    "观察置物架": 1,
+    "观察记录板": 2,
+    "阿贝多": 49
+  },
+  "subQuests": [
+    {
+      "subId": "1104406",
+      "subQuestName": "参观营地中的设施",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440601"
+        ],
+        "dialogs": {
+          "110440601": {
+            "id": "110440601",
+            "speakerId": 2003035,
+            "speakerName": "观察置物架",
+            "text": "（堆放了很多书籍与药剂瓶的置物架，看来使用者有一边看书一边研究药剂的习惯。）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104407",
+      "subQuestName": "参观营地中的设施",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440701"
+        ],
+        "dialogs": {
+          "110440701": {
+            "id": "110440701",
+            "speakerId": 2003036,
+            "speakerName": "观察桌子",
+            "text": "（看起来像是炼金术的工作台，上面摆放了一些药水和装置。阿贝多就是用这些来研究世界的吗？）",
+            "nextDialogs": [
+              "110440702"
+            ]
+          },
+          "110440702": {
+            "id": "110440702",
+            "speakerId": 2003036,
+            "speakerName": "观察桌子",
+            "text": "（稍微碰一下…应该没事吧？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104408",
+      "subQuestName": "参观营地中的设施",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440801"
+        ],
+        "dialogs": {
+          "110440801": {
+            "id": "110440801",
+            "speakerId": 2003037,
+            "speakerName": "观察记录板",
+            "text": "（贴有实验报告的记录板，上面贴了一些看不懂的内容。）",
+            "nextDialogs": [
+              "110440802"
+            ]
+          },
+          "110440802": {
+            "id": "110440802",
+            "speakerId": 2003037,
+            "speakerName": "观察记录板",
+            "text": "（不过，从这里至少能看出实验有所进展。）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104409",
+      "subQuestName": "(test)进度计数$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104410",
+      "subQuestName": "(test)回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104401",
+      "subQuestName": "与返回的阿贝多交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440141"
+        ],
+        "dialogs": {
+          "110440141": {
+            "id": "110440141",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "我回来了，你们看到什么有意思的东西了吗？",
+            "nextDialogs": [
+              "110440143",
+              "110440145"
+            ]
+          },
+          "110440143": {
+            "id": "110440143",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "没关系，只是一些炼金术的常用物件而已，生活中不太会用到。",
+            "nextDialogs": [
+              "110440146"
+            ]
+          },
+          "110440146": {
+            "id": "110440146",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "总之，抓紧时间进行下一项研究吧。",
+            "nextDialogs": [
+              "110440101"
+            ]
+          },
+          "110440101": {
+            "id": "110440101",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "不同的世界之间，可能存在非常大的差异。",
+            "nextDialogs": [
+              "110440102"
+            ]
+          },
+          "110440102": {
+            "id": "110440102",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "打个比方来说，在提瓦特，拥有神之眼的人就可以使用元素力。",
+            "nextDialogs": [
+              "110440103"
+            ]
+          },
+          "110440103": {
+            "id": "110440103",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "但也可能存在「只有一人可以使用元素力的世界」，又或者「每个人都能使用元素力的世界」。",
+            "nextDialogs": [
+              "110440104"
+            ]
+          },
+          "110440104": {
+            "id": "110440104",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "#所以，{NICKNAME}，除了元素之外…你是否还掌握一些，这个世界没有的特殊力量呢？",
+            "nextDialogs": [
+              "110440105"
+            ]
+          },
+          "110440105": {
+            "id": "110440105",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "还是只能用之前的办法，用实验来测定了。"
+          },
+          "110440145": {
+            "id": "110440145",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "嗯，同感，我也正想找个时间收拾一下，不过实验一个接一个…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104404",
+      "subQuestName": "(test)获得料理$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104414",
+      "subQuestName": "(test)交付料理$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104415",
+      "subQuestName": "(test)交付美味之后对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440500"
+        ],
+        "dialogs": {
+          "110440500": {
+            "id": "110440500",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "唔，实验上看非常普通，但滋味实在美妙。你很有烹饪的天赋。",
+            "nextDialogs": [
+              "110440502"
+            ]
+          },
+          "110440502": {
+            "id": "110440502",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "我最期待的增殖现象并没有出现，看来就算是你的世界也无法摆脱食物的困扰。",
+            "nextDialogs": [
+              "110440503"
+            ]
+          },
+          "110440503": {
+            "id": "110440503",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "不对，可能是这个世界的法则限制了你的特殊能力？",
+            "nextDialogs": [
+              "110440504"
+            ]
+          },
+          "110440504": {
+            "id": "110440504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "首先是不知道要怎么样把元素力，像调味品一样放进料理吧。",
+            "nextDialogs": [
+              "110440505"
+            ]
+          },
+          "110440505": {
+            "id": "110440505",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "没关系，至少没有浪费可口的食物，你们也不必感到沮丧。",
+            "nextDialogs": [
+              "110440506"
+            ]
+          },
+          "110440506": {
+            "id": "110440506",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "这里是答应要分享给你的那一份，慢慢享用吧，带走也没问题。",
+            "nextDialogs": [
+              "110440507"
+            ]
+          },
+          "110440507": {
+            "id": "110440507",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "谢谢你，居然好好地记得这件事！",
+            "nextDialogs": [
+              "110440510"
+            ]
+          },
+          "110440510": {
+            "id": "110440510",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "因为我能看出她是你很好的朋友，实验过程中她一直在提醒你，也在担心你的安危。",
+            "nextDialogs": [
+              "110440511"
+            ]
+          },
+          "110440511": {
+            "id": "110440511",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "虽然这些提醒和担心有没有起到作用，是需要另外讨论的…",
+            "nextDialogs": [
+              "110440512"
+            ]
+          },
+          "110440512": {
+            "id": "110440512",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "喂，不要突然说我坏话啊。",
+            "nextDialogs": [
+              "110440513"
+            ]
+          },
+          "110440513": {
+            "id": "110440513",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过你请我吃了好吃的，我愿意原谅你。",
+            "nextDialogs": [
+              "110440514"
+            ]
+          },
+          "110440514": {
+            "id": "110440514",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "也不用羡慕我们关系这么好啦。你不是也有朋友，还有学生吗？",
+            "nextDialogs": [
+              "110440515"
+            ]
+          },
+          "110440515": {
+            "id": "110440515",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "…嗯，是啊，我也算幸运的吧。不说这些了，我们进行下一项实验吧。",
+            "nextDialogs": [
+              "110440516"
+            ]
+          },
+          "110440516": {
+            "id": "110440516",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "炼金术用品种类繁杂，如何收纳存放是个令人头疼的问题。前不久因为意外，我的收藏品散落了一地。",
+            "nextDialogs": [
+              "110440517"
+            ]
+          },
+          "110440517": {
+            "id": "110440517",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "虽然大部分都找了回来，但有一瓶风晶蝶的元素萃取物，还有一瓶无相之雷的粉末，怎么都找不到了。",
+            "nextDialogs": [
+              "110440518"
+            ]
+          },
+          "110440518": {
+            "id": "110440518",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "做饭之后，接下来又是找东西？",
+            "nextDialogs": [
+              "110440519"
+            ]
+          },
+          "110440519": {
+            "id": "110440519",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "没关系，本来就打算重新制备了，只是如果能找到，就可以省去很多麻烦。",
+            "nextDialogs": [
+              "110440520"
+            ]
+          },
+          "110440520": {
+            "id": "110440520",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "假如你拥有「夜视」，或者「震动感知」之类的超能力，要找到遗失的小物件就是轻而易举了。",
+            "nextDialogs": [
+              "110440521"
+            ]
+          },
+          "110440521": {
+            "id": "110440521",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "东西应该就掉在之前你们参观过的地方的某个角落里。",
+            "nextDialogs": [
+              "110440522"
+            ]
+          },
+          "110440522": {
+            "id": "110440522",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那…就只能试试看了？",
+            "nextDialogs": [
+              "110440523"
+            ]
+          },
+          "110440523": {
+            "id": "110440523",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "丢的东西好像都有元素力。",
+            "nextDialogs": [
+              "110440524"
+            ]
+          },
+          "110440524": {
+            "id": "110440524",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对哦！可以用元素视野！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104416",
+      "subQuestName": "(test)交付普通之后对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440501"
+        ],
+        "dialogs": {
+          "110440501": {
+            "id": "110440501",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "唔，是非常普通的好吃料理呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104405",
+      "subQuestName": "烹饪「黄油煎鱼」并交给阿贝多",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104402",
+      "subQuestName": "(test)完成元素视野解谜$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104411",
+      "subQuestName": "(test)完成元素视野解谜$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104412",
+      "subQuestName": "使用「元素视野」寻找失物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1104413",
+      "subQuestName": "(test)回滚隔离$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110441301"
+        ],
+        "dialogs": {
+          "110441301": {
+            "id": "110441301",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "听到了一个很有意思的词，嗯，真是有趣。",
+            "nextDialogs": [
+              "110441302"
+            ]
+          },
+          "110441302": {
+            "id": "110441302",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "去找找看吧，我在这里等你。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1104403",
+      "subQuestName": "与阿贝多交谈，获取结论",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110440320"
+        ],
+        "dialogs": {
+          "110440320": {
+            "id": "110440320",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "没想到你们真的全都找到了，非常感谢。",
+            "nextDialogs": [
+              "110440321"
+            ]
+          },
+          "110440321": {
+            "id": "110440321",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "寻找物品，还有之前来雪山找我的时候，用到的都是「元素视野」，对吧？",
+            "nextDialogs": [
+              "110440322"
+            ]
+          },
+          "110440322": {
+            "id": "110440322",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是的，这个应该算是超能力吧？",
+            "nextDialogs": [
+              "110440323"
+            ]
+          },
+          "110440323": {
+            "id": "110440323",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "有点遗憾，虽然「元素视野」比较罕见，但是总归是提瓦特大陆存在的能力。",
+            "nextDialogs": [
+              "110440324"
+            ]
+          },
+          "110440324": {
+            "id": "110440324",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "只有完全没有听说过的异世界超能力，才能为我的研究提供帮助。",
+            "nextDialogs": [
+              "110440325"
+            ]
+          },
+          "110440325": {
+            "id": "110440325",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "也就是说，又白忙一场…",
+            "nextDialogs": [
+              "110440326"
+            ]
+          },
+          "110440326": {
+            "id": "110440326",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "不用太沮丧，这也在预料之中，而且能回收失物，这次实验已经非常有价值了。",
+            "nextDialogs": [
+              "110440301"
+            ]
+          },
+          "110440301": {
+            "id": "110440301",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "你们能够想到失物都具有元素力这一点，也值得称赞。",
+            "nextDialogs": [
+              "110440302"
+            ]
+          },
+          "110440302": {
+            "id": "110440302",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "好了，之前都是在研究异世界可能存在的与众不同之处，但是对于你人类的身份的研究，现在才要开始。",
+            "nextDialogs": [
+              "110440305"
+            ]
+          },
+          "110440305": {
+            "id": "110440305",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "人类的个体差异，集中体现在智能和身体机能的水平上，我们就从身体机能方面开始吧。",
+            "nextDialogs": [
+              "110440306"
+            ]
+          },
+          "110440306": {
+            "id": "110440306",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "从这里望出去，你可以看见砂糖她现在在做什么吗？",
+            "nextDialogs": [
+              "110440307"
+            ]
+          },
+          "110440307": {
+            "id": "110440307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "不能。",
+            "nextDialogs": [
+              "110440308"
+            ]
+          },
+          "110440308": {
+            "id": "110440308",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "那如果你平地起跳，跳到那边的山崖上，能看到吗？",
+            "nextDialogs": [
+              "110440309"
+            ]
+          },
+          "110440309": {
+            "id": "110440309",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "不能。",
+            "nextDialogs": [
+              "110440310"
+            ]
+          },
+          "110440310": {
+            "id": "110440310",
+            "speakerId": 1018,
+            "speakerName": "阿贝多",
+            "text": "那如果你一拳打碎面前的山体，能看到吗？"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Manly Jack": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7071101",
+      "subQuestName": "Give Manly Jack three servings of Mondstadt Grilled Fish",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707110101"
+        ],
+        "dialogs": {
+          "707110101": {
+            "id": "707110101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Need some Mondstadt Grilled Fish?",
+            "nextDialogs": [
+              "707110102"
+            ]
+          },
+          "707110102": {
+            "id": "707110102",
+            "speakerId": 1656,
+            "speakerName": "Manly Jack",
+            "text": "I guess you saw that commission, huh? Nice! Now, do you have three servings of Mondstadt Grilled Fish for me?",
+            "nextDialogs": [
+              "707110105"
+            ]
+          },
+          "707110105": {
+            "id": "707110105",
+            "speakerId": 1656,
+            "speakerName": "Manly Jack",
+            "text": "Well, just bring them to me once you've got all three."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7071102",
+      "subQuestName": "Talk to Manly Jack",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707110201"
+        ],
+        "dialogs": {
+          "707110201": {
+            "id": "707110201",
+            "speakerId": 1656,
+            "speakerName": "Manly Jack",
+            "text": "Wow, these Mondstadt Grilled Fishes smell pretty good...",
+            "nextDialogs": [
+              "707110202"
+            ]
+          },
+          "707110202": {
+            "id": "707110202",
+            "speakerId": 1656,
+            "speakerName": "Manly Jack",
+            "text": "Oh, yeah. Here's something to thank you for your help.",
+            "nextDialogs": [
+              "707110203"
+            ]
+          },
+          "707110203": {
+            "id": "707110203",
+            "speakerId": 1656,
+            "speakerName": "Manly Jack",
+            "text": "Will this stuff make me manlier, I wonder..."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "lineCounts": {
+    "Player": 30,
+    "刻痕": 8,
+    "派蒙": 69,
+    "老旧的刻痕": 9,
+    "陈旧的笔记": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7901301",
+      "subQuestName": "(test)阅读笔记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790130101"
+        ],
+        "dialogs": {
+          "790130101": {
+            "id": "790130101",
+            "speakerId": 20609,
+            "speakerName": "陈旧的笔记",
+            "text": "（test)翻开了一本笔记"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901302",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790130201"
+        ],
+        "dialogs": {
+          "790130201": {
+            "id": "790130201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，甜甜花酿鸡真的很好吃。",
+            "nextDialogs": [
+              "790130202"
+            ]
+          },
+          "790130202": {
+            "id": "790130202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "确实能理解为什么这个叫「沃尔夫冈」的冒险家会念念不忘呢！",
+            "nextDialogs": [
+              "790130203"
+            ]
+          },
+          "790130203": {
+            "id": "790130203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过被关在这里，最后连甜甜花酿鸡都吃不到，真是可怜…",
+            "nextDialogs": [
+              "790130206"
+            ]
+          },
+          "790130206": {
+            "id": "790130206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#是哦…但是这么说来…{NICKNAME}，还记得我们从岛上的水池那样的东西进入另一边的岛吗…",
+            "nextDialogs": [
+              "790130217"
+            ]
+          },
+          "790130217": {
+            "id": "790130217",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "水池里岛上的建筑比起水池外的岛，看上去要完整很多。",
+            "nextDialogs": [
+              "790130218"
+            ]
+          },
+          "790130218": {
+            "id": "790130218",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "现在岛上的建筑跟那里的建筑比起来，就像遗迹一样…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901303",
+      "subQuestName": "前往水池中的岛查看过去的遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901304",
+      "subQuestName": "前往水池中的岛查看过去的遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901305",
+      "subQuestName": "前往水池中岛上的笔记遗留之处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901306",
+      "subQuestName": "找到打开密室的办法",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790130601"
+        ],
+        "dialogs": {
+          "790130601": {
+            "id": "790130601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯！就在这里留言吧，这下他应该能看得见了！",
+            "nextDialogs": [
+              "790130602"
+            ]
+          },
+          "790130602": {
+            "id": "790130602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们现在回到水池外的岛上吧…说不定就没有那本笔记了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901329",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131101"
+        ],
+        "dialogs": {
+          "790131101": {
+            "id": "790131101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "门打开了！真是有点麻烦的机关…",
+            "nextDialogs": [
+              "790131102"
+            ]
+          },
+          "790131102": {
+            "id": "790131102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，这里好像还没有沃尔夫冈的笔记…",
+            "nextDialogs": [
+              "790131103"
+            ]
+          },
+          "790131103": {
+            "id": "790131103",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "说明他还没来过…",
+            "nextDialogs": [
+              "790131104"
+            ]
+          },
+          "790131104": {
+            "id": "790131104",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那我们就算提前帮他解开密室了…这下他就不会被关起来了吧！",
+            "nextDialogs": [
+              "790131107"
+            ]
+          },
+          "790131107": {
+            "id": "790131107",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那怎么办呀…唔，不如我们给他留言！",
+            "nextDialogs": [
+              "790131108"
+            ]
+          },
+          "790131108": {
+            "id": "790131108",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们用刻痕，把留言留在比较显眼的地方，告诉他解开机关的方法吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901307",
+      "subQuestName": "为沃尔夫冈留下提示的刻痕",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901308",
+      "subQuestName": "返回水池之外查看沃尔夫冈的笔记",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790130801"
+        ],
+        "dialogs": {
+          "790130801": {
+            "id": "790130801",
+            "speakerId": 20609,
+            "speakerName": "陈旧的笔记",
+            "text": "(test）查看笔记"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901309",
+      "subQuestName": "返回水池之外查看沃尔夫冈的笔记",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790130901"
+        ],
+        "dialogs": {
+          "790130901": {
+            "id": "790130901",
+            "speakerId": 20609,
+            "speakerName": "陈旧的笔记",
+            "text": "（test)找到一本笔记"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901310",
+      "subQuestName": "前去查看沃尔夫冈的笔记",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901323",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132401"
+        ],
+        "dialogs": {
+          "790132401": {
+            "id": "790132401",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他居然真的从那个密室里逃出来了诶！居然还夸自己细心…留言的刻痕明明就是我们特意留在显眼处的！",
+            "nextDialogs": [
+              "790132410"
+            ]
+          },
+          "790132410": {
+            "id": "790132410",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "还有，这个人到底随身带着多少本笔记本啊…",
+            "nextDialogs": [
+              "790132402"
+            ]
+          },
+          "790132402": {
+            "id": "790132402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唉…没想到他被关密室，居然没有回去，还敢继续冒险…",
+            "nextDialogs": [
+              "790132405"
+            ]
+          },
+          "790132405": {
+            "id": "790132405",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是哦，原本将他一直困着的密室，现在就变成了他轻易克服的困难之一啦…",
+            "nextDialogs": [
+              "790132406"
+            ]
+          },
+          "790132406": {
+            "id": "790132406",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过，他说的山上的遗迹，在水池外的岛上就看不见了。",
+            "nextDialogs": [
+              "790132407"
+            ]
+          },
+          "790132407": {
+            "id": "790132407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "毕竟过了很久嘛…",
+            "nextDialogs": [
+              "790132408"
+            ]
+          },
+          "790132408": {
+            "id": "790132408",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不会是崩塌了，然后落到海里去了吧…总觉得好像在外面的海面上看到过类似的建筑…",
+            "nextDialogs": [
+              "790132409"
+            ]
+          },
+          "790132409": {
+            "id": "790132409",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们有空的时候就到附近的海上看看吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901311",
+      "subQuestName": "前往海面遗迹寻找沃尔夫冈的踪迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901324",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132501"
+        ],
+        "dialogs": {
+          "790132501": {
+            "id": "790132501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个笔记…啊，是「沃尔夫冈」。",
+            "nextDialogs": [
+              "790132504"
+            ]
+          },
+          "790132504": {
+            "id": "790132504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "只有吃到苦头的人才能吸取到教训呢…",
+            "nextDialogs": [
+              "790132505"
+            ]
+          },
+          "790132505": {
+            "id": "790132505",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#这个海底的建筑…应该就是水池那一边岛上，山上的遗迹…{NICKNAME}，我们去水池里的岛上看看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901312",
+      "subQuestName": "前往水池中岛上的笔记遗留之处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131201"
+        ],
+        "dialogs": {
+          "790131201": {
+            "id": "790131201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "留在这里应该够显眼了吧！",
+            "nextDialogs": [
+              "790131202"
+            ]
+          },
+          "790131202": {
+            "id": "790131202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "希望沃尔夫冈能够看到，不要再跑到这个遗迹的密室里来了…",
+            "nextDialogs": [
+              "790131203"
+            ]
+          },
+          "790131203": {
+            "id": "790131203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们回去看看吧，说不定这次笔记也会有变化啦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901313",
+      "subQuestName": "前往水池中岛上的笔记遗留之处",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901314",
+      "subQuestName": "找到从密室逃脱的办法",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131401"
+        ],
+        "dialogs": {
+          "790131401": {
+            "id": "790131401",
+            "speakerId": 20609,
+            "speakerName": "陈旧的笔记",
+            "text": "（test）查看笔记"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901330",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790133501"
+        ],
+        "dialogs": {
+          "790133501": {
+            "id": "790133501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这次也是一样，沃尔夫冈还没留下笔记，他还没有到这里来。",
+            "nextDialogs": [
+              "790133502"
+            ]
+          },
+          "790133502": {
+            "id": "790133502",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们这次也留下如何解开密室的提示吧！",
+            "nextDialogs": [
+              "790133505"
+            ]
+          },
+          "790133505": {
+            "id": "790133505",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对啊，如果沃尔夫冈没法使用元素力量的话…",
+            "nextDialogs": [
+              "790133506"
+            ]
+          },
+          "790133506": {
+            "id": "790133506",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "就算知道解法也没有用。那该怎么办呀…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901315",
+      "subQuestName": "选择合适地点留下提示刻痕",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901316",
+      "subQuestName": "返回水池之外查看沃尔夫冈的笔记",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131601"
+        ],
+        "dialogs": {
+          "790131601": {
+            "id": "790131601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "什么呀，这家伙只顾着说一些帅气的话…",
+            "nextDialogs": [
+              "790131602"
+            ]
+          },
+          "790131602": {
+            "id": "790131602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不行，我们得去雪山…",
+            "nextDialogs": [
+              "790131605"
+            ]
+          },
+          "790131605": {
+            "id": "790131605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "…啊…对哦，金苹果群岛整个都被那个装置影响，沃尔夫冈才…",
+            "nextDialogs": [
+              "790131606"
+            ]
+          },
+          "790131606": {
+            "id": "790131606",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "所以我才以为沃尔夫冈已经被救出密室了…其实到最后，他都在最初的密室里没有出来吧…",
+            "nextDialogs": [
+              "790131607"
+            ]
+          },
+          "790131607": {
+            "id": "790131607",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过！不过这个「沃尔夫冈」还是让人生气…我们都那么帮助他了，他还觉得「帮别人踩坑」就不错…",
+            "nextDialogs": [
+              "790131608"
+            ]
+          },
+          "790131608": {
+            "id": "790131608",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他就不能，更珍惜自己的生命一点吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901317",
+      "subQuestName": "前去查看沃尔夫冈的笔记",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901325",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132601"
+        ],
+        "dialogs": {
+          "790132601": {
+            "id": "790132601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好歹他没有再进去啦，真是松了口气…",
+            "nextDialogs": [
+              "790132602"
+            ]
+          },
+          "790132602": {
+            "id": "790132602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "但是不知道为什么看他洋洋得意的样子，总觉得有点生气呢！",
+            "nextDialogs": [
+              "790132603"
+            ]
+          },
+          "790132603": {
+            "id": "790132603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "总觉得更得意了一点…",
+            "nextDialogs": [
+              "790132604"
+            ]
+          },
+          "790132604": {
+            "id": "790132604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过他说高处的遗迹，应该就在上次掉落在海里的遗迹旁边…",
+            "nextDialogs": [
+              "790132605"
+            ]
+          },
+          "790132605": {
+            "id": "790132605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们去看看吧…真不知道他能不能安全爬到那么高的地方…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901318",
+      "subQuestName": "前往已沉于海中的高处遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131801"
+        ],
+        "dialogs": {
+          "790131801": {
+            "id": "790131801",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "（老旧的刻痕，留下刻痕的人写着…）",
+            "nextDialogs": [
+              "790131802"
+            ]
+          },
+          "790131802": {
+            "id": "790131802",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「风很大，就不用笔记本了。」",
+            "nextDialogs": [
+              "790131803"
+            ]
+          },
+          "790131803": {
+            "id": "790131803",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「这里日出很美，历经艰险来到此处，心中十分满足。」",
+            "nextDialogs": [
+              "790131804"
+            ]
+          },
+          "790131804": {
+            "id": "790131804",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「不知在我之后，是否有人能来这儿看到同样的景色呢。」",
+            "nextDialogs": [
+              "790131805"
+            ]
+          },
+          "790131805": {
+            "id": "790131805",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「…如此险境我也来过了，下次，就去龙脊雪山吧！」",
+            "nextDialogs": [
+              "790131806"
+            ]
+          },
+          "790131806": {
+            "id": "790131806",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「此处甚好，可惜没有甜甜花酿鸡…」",
+            "nextDialogs": [
+              "790131807"
+            ]
+          },
+          "790131807": {
+            "id": "790131807",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「沃尔夫冈留。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901327",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790131901"
+        ],
+        "dialogs": {
+          "790131901": {
+            "id": "790131901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "就说怎么没有笔记本，原来是把留言刻在柱子上…这家伙成功到这儿啦。",
+            "nextDialogs": [
+              "790131902"
+            ]
+          },
+          "790131902": {
+            "id": "790131902",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过，他到底哪来的信心…要是没有我们帮他，他早就困在遗迹的密室里了。",
+            "nextDialogs": [
+              "790131903"
+            ]
+          },
+          "790131903": {
+            "id": "790131903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他去雪山，一定会被冻成「冷鲜肉」的！",
+            "nextDialogs": [
+              "790131905",
+              "790131907"
+            ]
+          },
+          "790131905": {
+            "id": "790131905",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我、我是说，他去雪山，肯定会遭遇危险的啦。",
+            "nextDialogs": [
+              "790131908"
+            ]
+          },
+          "790131908": {
+            "id": "790131908",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们得告诉他，不能去雪山呀！",
+            "nextDialogs": [
+              "790131909"
+            ]
+          },
+          "790131909": {
+            "id": "790131909",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "那就再给他留一次言吧…",
+            "nextDialogs": [
+              "790131910"
+            ]
+          },
+          "790131910": {
+            "id": "790131910",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯嗯，我也是这么想的…对了，这一次，再准备一份甜甜花酿鸡！",
+            "nextDialogs": [
+              "790131911"
+            ]
+          },
+          "790131911": {
+            "id": "790131911",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "说不定他吃了甜甜花酿鸡，就会想起蒙德的温暖，不会去雪山了！",
+            "nextDialogs": [
+              "790131912"
+            ]
+          },
+          "790131912": {
+            "id": "790131912",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "甜甜花酿鸡会坏掉的吧…",
+            "nextDialogs": [
+              "790131913"
+            ]
+          },
+          "790131913": {
+            "id": "790131913",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯…只是一份心意啦！"
+          },
+          "790131907": {
+            "id": "790131907",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对啊，雪山上那么冷，还有那么多丘丘人，还有…大雪猪王！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901328",
+      "subQuestName": "前往水池中的岛上的高处遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901319",
+      "subQuestName": "留下提示刻痕与甜甜花酿鸡",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901331",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132701"
+        ],
+        "dialogs": {
+          "790132701": {
+            "id": "790132701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "希望沃尔夫冈能够打消去雪山的念头…",
+            "nextDialogs": [
+              "790132702"
+            ]
+          },
+          "790132702": {
+            "id": "790132702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们通过水池出去以后，就去刚才的遗迹看看吧…说不定就能读到他回心转意的刻痕了！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901321",
+      "subQuestName": "返回水池之外查看沃尔夫冈的刻痕",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132101"
+        ],
+        "dialogs": {
+          "790132101": {
+            "id": "790132101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "留在这里真的有用吗…不如再找找，应该在门口附近留言才对。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901322",
+      "subQuestName": "前去查看沃尔夫冈留下的刻痕",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132901"
+        ],
+        "dialogs": {
+          "790132901": {
+            "id": "790132901",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "（老旧的刻痕，留下刻痕的人写着…）",
+            "nextDialogs": [
+              "790132902"
+            ]
+          },
+          "790132902": {
+            "id": "790132902",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「风很大，就不用笔记本了。」",
+            "nextDialogs": [
+              "790132910"
+            ]
+          },
+          "790132910": {
+            "id": "790132910",
+            "speakerId": 20611,
+            "speakerName": "刻痕",
+            "text": "「上来发现尚有余温的甜甜花酿鸡，简直就是奇迹！」",
+            "nextDialogs": [
+              "790132903"
+            ]
+          },
+          "790132903": {
+            "id": "790132903",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「先不提谁留的，竟然知道我想吃甜甜花酿鸡，虽觉得奇怪，但更多的仍是感谢之情。」",
+            "nextDialogs": [
+              "790132904"
+            ]
+          },
+          "790132904": {
+            "id": "790132904",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「感谢留下刻痕的人，你的甜甜花酿鸡是我吃过的最好吃的甜甜花酿鸡。」",
+            "nextDialogs": [
+              "790132905"
+            ]
+          },
+          "790132905": {
+            "id": "790132905",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「谢谢，我知道雪山危险，也有自知之明…但我还是想去雪山。」",
+            "nextDialogs": [
+              "790132906"
+            ]
+          },
+          "790132906": {
+            "id": "790132906",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「我去雪山，耗尽生命，也许只能留下『此处有陷阱』的提示。」",
+            "nextDialogs": [
+              "790132907"
+            ]
+          },
+          "790132907": {
+            "id": "790132907",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「可是若有人因此绕过危险，较之我所达到之处，再向前一步。于我而言，就是比吃甜甜花酿鸡还幸福之事了。」",
+            "nextDialogs": [
+              "790132908"
+            ]
+          },
+          "790132908": {
+            "id": "790132908",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「谢谢你，留下刻痕之人，正是因为雪山危险，所以才有冒险家嘛。」",
+            "nextDialogs": [
+              "790132909"
+            ]
+          },
+          "790132909": {
+            "id": "790132909",
+            "speakerId": 1003,
+            "speakerName": "老旧的刻痕",
+            "text": "「爱你的，沃尔夫冈留。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901326",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7901320",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790132001"
+        ],
+        "dialogs": {
+          "790132001": {
+            "id": "790132001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看到这条留言的时候，他已经到密室里了吧…留言不就没有作用了嘛…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7901346",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "790134601"
+        ],
+        "dialogs": {
+          "790134601": {
+            "id": "790134601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "就在这里留言，然后在这里留下一份甜甜花酿鸡！"
+          }
+        }
+      }
+    }
+  ]
+}

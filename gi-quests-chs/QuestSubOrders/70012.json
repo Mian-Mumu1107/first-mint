@@ -1,0 +1,205 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "派蒙": 2,
+    "疑惑的丘丘人": 5,
+    "艾拉·马斯克": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7001201",
+      "subQuestName": "与丘丘人对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700120101"
+        ],
+        "dialogs": {
+          "700120101": {
+            "id": "700120101",
+            "speakerId": 1000,
+            "speakerName": "疑惑的丘丘人",
+            "text": "Mi muhe<color=#00E1FFFF> Upano</color>!",
+            "nextDialogs": [
+              "700120102"
+            ]
+          },
+          "700120102": {
+            "id": "700120102",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "它好像想要…某种东西呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001202",
+      "subQuestName": "向丘丘人交付物品",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700120301"
+        ],
+        "dialogs": {
+          "700120301": {
+            "id": "700120301",
+            "speakerId": 1000,
+            "speakerName": "疑惑的丘丘人",
+            "text": "yeye mimi tomo! Mosi mita!",
+            "nextDialogs": [
+              "700120302"
+            ]
+          },
+          "700120302": {
+            "id": "700120302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mosi mita!",
+            "nextDialogs": [
+              "700120303"
+            ]
+          },
+          "700120303": {
+            "id": "700120303",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "果然是这样，又验证了一个词汇…",
+            "nextDialogs": [
+              "700120304"
+            ]
+          },
+          "700120304": {
+            "id": "700120304",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "Du odomu tomo dala?",
+            "nextDialogs": [
+              "700120305"
+            ]
+          },
+          "700120305": {
+            "id": "700120305",
+            "speakerId": 1000,
+            "speakerName": "疑惑的丘丘人",
+            "text": "Du Wei dala? Mito nye! Mi mito ya zido mito, beru ya!",
+            "nextDialogs": [
+              "700120306"
+            ]
+          },
+          "700120306": {
+            "id": "700120306",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "它也不知道，不过我们可以找它认识的人问一问。",
+            "nextDialogs": [
+              "700120307"
+            ]
+          },
+          "700120307": {
+            "id": "700120307",
+            "speakerId": 1565,
+            "speakerName": "艾拉·马斯克",
+            "text": "我把它朋友的位置标出来了，我们去看看吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001203",
+      "subQuestName": "（test）成功交付$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7001204",
+      "subQuestName": "（test）失败交付回滚$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700120401"
+        ],
+        "dialogs": {
+          "700120401": {
+            "id": "700120401",
+            "speakerId": 1000,
+            "speakerName": "疑惑的丘丘人",
+            "text": "Biadam! Mani nye!",
+            "nextDialogs": [
+              "700120402"
+            ]
+          },
+          "700120402": {
+            "id": "700120402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "好像不太对…我们再试一次吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001202",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700120201"
+        ],
+        "dialogs": {
+          "700120201": {
+            "id": "700120201",
+            "speakerId": 1000,
+            "speakerName": "疑惑的丘丘人",
+            "text": "Mi muhe Upano!",
+            "nextDialogs": [
+              "700120202"
+            ]
+          },
+          "700120202": {
+            "id": "700120202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（是这个吗？）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7001299",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "700129901"
+        ],
+        "dialogs": {
+          "700129901": {
+            "id": "700129901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那个丘丘人好像在往这边看呢，我们试着接近它看看？",
+            "nextDialogs": [
+              "700129902"
+            ]
+          },
+          "700129902": {
+            "id": "700129902",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "丘丘人的生活可真不容易呢…"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Paban": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7465501",
+      "subQuestName": "Give 8 bottles of Milk to Paban",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746550101"
+        ],
+        "dialogs": {
+          "746550101": {
+            "id": "746550101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Milk...",
+            "nextDialogs": [
+              "746550102"
+            ]
+          },
+          "746550102": {
+            "id": "746550102",
+            "speakerId": 5014,
+            "speakerName": "Paban",
+            "text": "Are you the interested supplier?",
+            "nextDialogs": [
+              "746550103"
+            ]
+          },
+          "746550103": {
+            "id": "746550103",
+            "speakerId": 5014,
+            "speakerName": "Paban",
+            "text": "Have you prepared your dairy product samples? Don't worry, they'll be safe with me.",
+            "nextDialogs": [
+              "746550105"
+            ]
+          },
+          "746550105": {
+            "id": "746550105",
+            "speakerId": 5014,
+            "speakerName": "Paban",
+            "text": "Well, I'd suggest you hurry, then. You're not the only party after this contract."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465502",
+      "subQuestName": "Talk to Paban",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746550201"
+        ],
+        "dialogs": {
+          "746550201": {
+            "id": "746550201",
+            "speakerId": 5014,
+            "speakerName": "Paban",
+            "text": "Very well. Here is the fee for your samples, with a service fee added in. I will inform you when a supplier has been selected."
+          }
+        }
+      }
+    }
+  ]
+}

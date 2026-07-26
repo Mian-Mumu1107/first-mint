@@ -1,0 +1,1507 @@
+{
+  "lineCounts": {
+    "Player": 29,
+    "「愚人众」守卫": 11,
+    "「胆小」的守卫": 20,
+    "「贪婪」的守卫": 26,
+    "债务处理人": 1,
+    "派蒙": 23
+  },
+  "subQuests": [
+    {
+      "subId": "2010100",
+      "subQuestName": "(test)判断玩家回到大世界 把酒馆里得人搞出来$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010101",
+      "subQuestName": "进入愚人众的藏身地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010102",
+      "subQuestName": "盘问守卫以获得线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010103",
+      "subQuestName": "盘问守卫以获得线索",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010301"
+        ],
+        "dialogs": {
+          "201010301": {
+            "id": "201010301",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "哇啊…不要吃我！——呃，你们…是人类？",
+            "nextDialogs": [
+              "201010302"
+            ]
+          },
+          "201010302": {
+            "id": "201010302",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "一整层的防御…都被突破了…我还以为是「深渊教团」的怪物攻来了…",
+            "nextDialogs": [
+              "201010304",
+              "201010306"
+            ]
+          },
+          "201010304": {
+            "id": "201010304",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "你，你们怎么知道「天空之琴」在这里…",
+            "nextDialogs": [
+              "201010309"
+            ]
+          },
+          "201010309": {
+            "id": "201010309",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "存放圣物的地方是上锁的，你们要找钥匙的话…往前走吧，不要找我！",
+            "nextDialogs": [
+              "201010310"
+            ]
+          },
+          "201010310": {
+            "id": "201010310",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "钥匙不知道是在哪位先遣队员手里…但总之你可以去房间里找他们。",
+            "nextDialogs": [
+              "201010311"
+            ]
+          },
+          "201010311": {
+            "id": "201010311",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "是个被吓破胆了的人呢。",
+            "nextDialogs": [
+              "201010312"
+            ]
+          },
+          "201010312": {
+            "id": "201010312",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "哼…你，你们好自为之吧！",
+            "nextDialogs": [
+              "201010313"
+            ]
+          },
+          "201010313": {
+            "id": "201010313",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "我们「愚人众」在蒙德…可是有「执行官」坐镇的！",
+            "nextDialogs": [
+              "201010314"
+            ]
+          },
+          "201010314": {
+            "id": "201010314",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "「女士」大人会找到你们，把你们吊起来折磨——到那时可不要连累我啊！"
+          },
+          "201010306": {
+            "id": "201010306",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "咿——",
+            "nextDialogs": [
+              "201010307"
+            ]
+          },
+          "201010307": {
+            "id": "201010307",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "不要这样…！我有珍贵的情报要坦白！",
+            "nextDialogs": [
+              "201010308"
+            ]
+          },
+          "201010308": {
+            "id": "201010308",
+            "speakerId": 1501,
+            "speakerName": "「愚人众」守卫",
+            "text": "其实我们把蒙德的至宝，「天空之琴」，藏在这座遗迹深处。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010144",
+      "subQuestName": "(test)来自关卡的开门回调-销毁钥匙$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010104",
+      "subQuestName": "(test)踩中1号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010105",
+      "subQuestName": "(test)与1号房NPC对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010501"
+        ],
+        "dialogs": {
+          "201010501": {
+            "id": "201010501",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "你…你们是什么人，你们要干什么！啊啊啊！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010106",
+      "subQuestName": "(test)对NPC威胁$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010601"
+        ],
+        "dialogs": {
+          "201010601": {
+            "id": "201010601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "投降吧，没人会来帮你的。",
+            "nextDialogs": [
+              "201010602"
+            ]
+          },
+          "201010602": {
+            "id": "201010602",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "其他守卫都被打倒了吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010107",
+      "subQuestName": "(test)对NPC贿赂$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010701"
+        ],
+        "dialogs": {
+          "201010701": {
+            "id": "201010701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（欺骗对话内容）",
+            "nextDialogs": [
+              "201010702"
+            ]
+          },
+          "201010702": {
+            "id": "201010702",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "你…你竟然"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010108",
+      "subQuestName": "(test)对NPC宣战$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010801"
+        ],
+        "dialogs": {
+          "201010801": {
+            "id": "201010801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没什么可多说的，看招!",
+            "nextDialogs": [
+              "201010802"
+            ]
+          },
+          "201010802": {
+            "id": "201010802",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "哇…就这样开打了吗！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010109",
+      "subQuestName": "(test)与NPC交涉成功-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010901"
+        ],
+        "dialogs": {
+          "201010901": {
+            "id": "201010901",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "唔……"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010110",
+      "subQuestName": "(test)与NPC交涉失败-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011001"
+        ],
+        "dialogs": {
+          "201011001": {
+            "id": "201011001",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "嗯……",
+            "nextDialogs": [
+              "2010110011"
+            ]
+          },
+          "2010110011": {
+            "id": "2010110011",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "好吧！我也实在没办法…",
+            "nextDialogs": [
+              "2010110012"
+            ]
+          },
+          "2010110012": {
+            "id": "2010110012",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "作为守卫，我放过你们了。",
+            "nextDialogs": [
+              "2010110013"
+            ]
+          },
+          "2010110013": {
+            "id": "2010110013",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "但可惜，钥匙不在我这里。你们还是去找下一个人看看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010111",
+      "subQuestName": "(test)与NPC交涉破裂-战斗前触发$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011101"
+        ],
+        "dialogs": {
+          "201011101": {
+            "id": "201011101",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "呵呵……",
+            "nextDialogs": [
+              "2010111011"
+            ]
+          },
+          "2010111011": {
+            "id": "2010111011",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "我受够了！",
+            "nextDialogs": [
+              "2010111012"
+            ]
+          },
+          "2010111012": {
+            "id": "2010111012",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "我也是至冬国光荣的一员，我是不会屈服的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010112",
+      "subQuestName": "(test)与NPC交涉失败-战斗环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011201"
+        ],
+        "dialogs": {
+          "201011201": {
+            "id": "201011201",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "呵，愚蠢的蒙德人，区区摩拉就想收买我吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010113",
+      "subQuestName": "(test)一号房间-完成标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011301"
+        ],
+        "dialogs": {
+          "201011301": {
+            "id": "201011301",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "我也是至冬国光荣的一员，我是不会屈服的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010145",
+      "subQuestName": "(test)1号房间-交涉成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010146",
+      "subQuestName": "(test)1号房间-战斗成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010153",
+      "subQuestName": "(test)（好感+2）没错，都被我打倒了$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010605"
+        ],
+        "dialogs": {
+          "201010605": {
+            "id": "201010605",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没错，都被我打倒了。",
+            "nextDialogs": [
+              "201010609"
+            ]
+          },
+          "201010609": {
+            "id": "201010609",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "什么？！我…我不怕，先遣队的「债务处理人」会来支援我的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010154",
+      "subQuestName": "（(test)好感+1）他们突然有急事回至冬国$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010603"
+        ],
+        "dialogs": {
+          "201010603": {
+            "id": "201010603",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他们突然有急事回至冬国。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010155",
+      "subQuestName": "(test)（好感+2）他也被我顺手解决了$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010610"
+        ],
+        "dialogs": {
+          "201010610": {
+            "id": "201010610",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他也被我顺手解决了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010156",
+      "subQuestName": "(test)（好感+1）别指望了，根本没见这个人$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010612"
+        ],
+        "dialogs": {
+          "201010612": {
+            "id": "201010612",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "别指望了，根本没见这个人。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010157",
+      "subQuestName": "(test)（好感+0）他在猫尾酒馆喝酒啊$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201010614"
+        ],
+        "dialogs": {
+          "201010614": {
+            "id": "201010614",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "他在猫尾酒馆喝酒啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010114",
+      "subQuestName": "(test)踩中2号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010115",
+      "subQuestName": "(test)与2号房NPC对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011501"
+        ],
+        "dialogs": {
+          "201011501": {
+            "id": "201011501",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "你…你们是什么人，怎么混进来的？！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010116",
+      "subQuestName": "(test)对NPC2威胁$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011601"
+        ],
+        "dialogs": {
+          "201011601": {
+            "id": "201011601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（威胁对话内容）",
+            "nextDialogs": [
+              "201011602"
+            ]
+          },
+          "201011602": {
+            "id": "201011602",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "你…你竟然敢威胁我"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010117",
+      "subQuestName": "(test)对NPC2贿赂$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011701"
+        ],
+        "dialogs": {
+          "201011701": {
+            "id": "201011701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们是蒙冬友爱协会的亲善大使。",
+            "nextDialogs": [
+              "201011799"
+            ]
+          },
+          "201011799": {
+            "id": "201011799",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "这个…还有这种协会吗？",
+            "nextDialogs": [
+              "201011702"
+            ]
+          },
+          "201011702": {
+            "id": "201011702",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "你们来这里要做什么？",
+            "nextDialogs": [
+              "201011704",
+              "201011706",
+              "201011708"
+            ]
+          },
+          "201011704": {
+            "id": "201011704",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "…太可疑了吧，就不能用好一点的借口来骗我吗？",
+            "nextDialogs": [
+              "201011709"
+            ]
+          },
+          "201011709": {
+            "id": "201011709",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "那么，你们打算怎么来「借」呢？"
+          },
+          "201011706": {
+            "id": "201011706",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "哦？呵呵，我们可以细谈一下…",
+            "nextDialogs": [
+              "2010117061"
+            ]
+          },
+          "2010117061": {
+            "id": "2010117061",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "你们是为了天空之琴来的吧？"
+          },
+          "201011708": {
+            "id": "201011708",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "岂有此理！哪里冒出来的小鬼，把我当傻子吗！",
+            "nextDialogs": [
+              "2010117081"
+            ]
+          },
+          "2010117081": {
+            "id": "2010117081",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "你们是为了天空之琴来的吧？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010118",
+      "subQuestName": "(test)对NPC2宣战$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011801"
+        ],
+        "dialogs": {
+          "201011801": {
+            "id": "201011801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没什么可多说的，你投降吧。",
+            "nextDialogs": [
+              "201011802"
+            ]
+          },
+          "201011802": {
+            "id": "201011802",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "哼…我可不吃这一套！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010119",
+      "subQuestName": "(test)与NPC2交涉成功-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011901"
+        ],
+        "dialogs": {
+          "201011901": {
+            "id": "201011901",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "唔…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010120",
+      "subQuestName": "(test)与NPC2交涉失败-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012001"
+        ],
+        "dialogs": {
+          "201012001": {
+            "id": "201012001",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "嗯……",
+            "nextDialogs": [
+              "2010120011"
+            ]
+          },
+          "2010120011": {
+            "id": "2010120011",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "好吧！你们的好意我也不会拒绝。",
+            "nextDialogs": [
+              "2010120012"
+            ]
+          },
+          "2010120012": {
+            "id": "2010120012",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "作为守卫，我放过你们了。",
+            "nextDialogs": [
+              "2010120013"
+            ]
+          },
+          "2010120013": {
+            "id": "2010120013",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "但可惜，钥匙不在我这里。你们还是去找下一个人看看吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010121",
+      "subQuestName": "(test)与NPC2交涉破裂-战斗前触发$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012101"
+        ],
+        "dialogs": {
+          "201012101": {
+            "id": "201012101",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "呵，愚蠢的蒙德人。冬之国的意志如冰一般坚硬，我可不会屈服！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010122",
+      "subQuestName": "(test)与NPC2交涉失败-战斗环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012201"
+        ],
+        "dialogs": {
+          "201012201": {
+            "id": "201012201",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "呵呵……",
+            "nextDialogs": [
+              "2010122011"
+            ]
+          },
+          "2010122011": {
+            "id": "2010122011",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "小鬼，真是把我看扁了啊！",
+            "nextDialogs": [
+              "2010122012"
+            ]
+          },
+          "2010122012": {
+            "id": "2010122012",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "至冬国的意志如冰一般坚硬，我是不会屈服的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010123",
+      "subQuestName": "(test)2号房间-完成标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012301"
+        ],
+        "dialogs": {
+          "201012301": {
+            "id": "201012301",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "至冬国的意志如冰一般坚硬，我是不会屈服的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010147",
+      "subQuestName": "(test)2号房间-交涉成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010148",
+      "subQuestName": "(test)2号房间-战斗成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010158",
+      "subQuestName": "(test)（好感+2）事成之后，五十万摩拉？$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011710"
+        ],
+        "dialogs": {
+          "201011710": {
+            "id": "201011710",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "事成之后，五十万摩拉？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010159",
+      "subQuestName": "(test)（好感+1）我们会向蒙冬友爱协会引荐你。$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011712"
+        ],
+        "dialogs": {
+          "201011712": {
+            "id": "201011712",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们会向蒙冬友爱协会引荐你。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010160",
+      "subQuestName": "(test)（好感+0）这个苹果给你吃？$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011714"
+        ],
+        "dialogs": {
+          "201011714": {
+            "id": "201011714",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这个苹果给你吃？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010149",
+      "subQuestName": "(test)3号房间-交涉成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010150",
+      "subQuestName": "(test)3号房间-战斗成功、获得钥匙任务标记$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010134",
+      "subQuestName": "(test)踩中4号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010135",
+      "subQuestName": "(test)4号房间-战斗环&标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010138",
+      "subQuestName": "(test)踩中6号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010139",
+      "subQuestName": "(test)6号房间-战斗环&标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010140",
+      "subQuestName": "(test)进度记录-三次记录$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010141",
+      "subQuestName": "深入愚人众藏身地寻找钥匙",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010142",
+      "subQuestName": "打开紧闭的大门",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010143",
+      "subQuestName": "进入存放圣物的地方",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010152",
+      "subQuestName": "取得天空之琴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201015201"
+        ],
+        "dialogs": {
+          "201015201": {
+            "id": "201015201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他说钥匙不在这里…去<color=#00E1FFFF>别的房间</color>看看吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010151",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201015101"
+        ],
+        "dialogs": {
+          "201015101": {
+            "id": "201015101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "说起来，刚才那个人，消失不见了…",
+            "nextDialogs": [
+              "201015102"
+            ]
+          },
+          "201015102": {
+            "id": "201015102",
+            "speakerId": 10048,
+            "speakerName": "债务处理人",
+            "text": "「女士」会制裁你们…蒙德的诗人会用你们的下场，编写令孩童无眠的梦魇！",
+            "nextDialogs": [
+              "201015103"
+            ]
+          },
+          "201015103": {
+            "id": "201015103",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "说得很凶狠但还是跑路了呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010124",
+      "subQuestName": "(test)踩中3号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010125",
+      "subQuestName": "(test)与3号房NPC对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012501"
+        ],
+        "dialogs": {
+          "201012501": {
+            "id": "201012501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "（贪婪，吃软不吃硬）你…你们是什么人，怎么混进来的？！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010126",
+      "subQuestName": "(test)对NPC3威胁$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012601"
+        ],
+        "dialogs": {
+          "201012601": {
+            "id": "201012601",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（威胁对话内容）",
+            "nextDialogs": [
+              "201012602"
+            ]
+          },
+          "201012602": {
+            "id": "201012602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你…你竟然敢威胁我"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010127",
+      "subQuestName": "(test)对NPC3贿赂$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012701"
+        ],
+        "dialogs": {
+          "201012701": {
+            "id": "201012701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "（欺骗对话内容）我们是蒙冬友爱协会的成员",
+            "nextDialogs": [
+              "201012799"
+            ]
+          },
+          "201012799": {
+            "id": "201012799",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我们代表协会会来犒劳你们，不过要先找到你们队长「沟通」下。",
+            "nextDialogs": [
+              "201012702"
+            ]
+          },
+          "201012702": {
+            "id": "201012702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你怎么看出来我愿意帮助你们？",
+            "nextDialogs": [
+              "201012704",
+              "201012706",
+              "201012708"
+            ]
+          },
+          "201012704": {
+            "id": "201012704",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "什么？！",
+            "nextDialogs": [
+              "201012709"
+            ]
+          },
+          "201012709": {
+            "id": "201012709",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我可以帮助你们，不过队长同意后，我需要2000摩拉的犒赏金。"
+          },
+          "201012706": {
+            "id": "201012706",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样的话，也不错…"
+          },
+          "201012708": {
+            "id": "201012708",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "岂有此理…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010128",
+      "subQuestName": "(test)对NPC3宣战$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012801"
+        ],
+        "dialogs": {
+          "201012801": {
+            "id": "201012801",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "对NPC宣战",
+            "nextDialogs": [
+              "201012802"
+            ]
+          },
+          "201012802": {
+            "id": "201012802",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你…你竟然敢威胁我"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010129",
+      "subQuestName": "(test)与NPC3交涉成功-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012901"
+        ],
+        "dialogs": {
+          "201012901": {
+            "id": "201012901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔唔",
+            "nextDialogs": [
+              "201012902"
+            ]
+          },
+          "201012902": {
+            "id": "201012902",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我明白了…",
+            "nextDialogs": [
+              "201012903"
+            ]
+          },
+          "201012903": {
+            "id": "201012903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样的话…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010130",
+      "subQuestName": "(test)与NPC3交涉失败-返回$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201013001"
+        ],
+        "dialogs": {
+          "201013001": {
+            "id": "201013001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你的礼物还不错，可惜<color=#00E1FFFF>钥匙</color>不在我这。\\n你去其他守卫那问问，别忘了我的赏金！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010131",
+      "subQuestName": "(test)与NPC3交涉破裂-战斗前触发$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201013101"
+        ],
+        "dialogs": {
+          "201013101": {
+            "id": "201013101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呵，愚蠢的蒙德人。冬之国的意志如冰一般坚硬，我可不会屈服！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010132",
+      "subQuestName": "(test)与NPC3交涉失败-战斗环$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201013201"
+        ],
+        "dialogs": {
+          "201013201": {
+            "id": "201013201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呵，愚蠢的蒙德人，这样的说辞就想收买我吗？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010133",
+      "subQuestName": "(test)3号房间-完成标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201013301"
+        ],
+        "dialogs": {
+          "201013301": {
+            "id": "201013301",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你们果然是私闯进来的蝼蚁，接受暴力的惩罚吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010136",
+      "subQuestName": "(test)踩中5号触发器$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010137",
+      "subQuestName": "(test)5号房间-战斗环&标记任务$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "20101100",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "2010110021"
+        ],
+        "dialogs": {
+          "2010110021": {
+            "id": "2010110021",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "好吧！我也实在没办法…",
+            "nextDialogs": [
+              "2010110022"
+            ]
+          },
+          "2010110022": {
+            "id": "2010110022",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "作为守卫，我放过你们了。",
+            "nextDialogs": [
+              "2010110023"
+            ]
+          },
+          "2010110023": {
+            "id": "2010110023",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "<color=#00E1FFFF>钥匙</color>在这里…从大厅继续往前走就是了，可别说是我给你的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010113",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201011302"
+        ],
+        "dialogs": {
+          "201011302": {
+            "id": "201011302",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "快，快走吧！你的目的都已经达到了吧！",
+            "nextDialogs": [
+              "201011303"
+            ]
+          },
+          "201011303": {
+            "id": "201011303",
+            "speakerId": 1503,
+            "speakerName": "「胆小」的守卫",
+            "text": "快，快走吧！去找别人！去！去！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010120",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012002"
+        ],
+        "dialogs": {
+          "201012002": {
+            "id": "201012002",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "嗯……",
+            "nextDialogs": [
+              "2010120021"
+            ]
+          },
+          "2010120021": {
+            "id": "2010120021",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "好吧！你们的好意我也不会拒绝。",
+            "nextDialogs": [
+              "2010120022"
+            ]
+          },
+          "2010120022": {
+            "id": "2010120022",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "钥匙在这里…从大厅继续往前走就是了，可别说是我给你的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010123",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201012302"
+        ],
+        "dialogs": {
+          "201012302": {
+            "id": "201012302",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "事成之后，可千万别赖账啊。",
+            "nextDialogs": [
+              "201012303"
+            ]
+          },
+          "201012303": {
+            "id": "201012303",
+            "speakerId": 1504,
+            "speakerName": "「贪婪」的守卫",
+            "text": "还不离开？别连累我啊。"
+          }
+        }
+      }
+    }
+  ]
+}

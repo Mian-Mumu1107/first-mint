@@ -1,0 +1,211 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 3,
+    "Paimon": 25,
+    "Player": 13
+  },
+  "subQuests": [
+    {
+      "subId": "7509402",
+      "subQuestName": "Investigate the hidden chamber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751260601"
+        ],
+        "dialogs": {
+          "751260601": {
+            "id": "751260601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "To think that these things happened... Milchi, and the person who left these notes behind... Everyone was so brave...",
+            "nextDialogs": [
+              "751260602"
+            ]
+          },
+          "751260602": {
+            "id": "751260602",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751260603"
+            ]
+          },
+          "751260603": {
+            "id": "751260603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This is... This is that hibernating Saurian egg mentioned in those notes!",
+            "nextDialogs": [
+              "751260604"
+            ]
+          },
+          "751260604": {
+            "id": "751260604",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Are you trying to say that we should use the incubator to hatch it, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "751260605"
+            ]
+          },
+          "751260605": {
+            "id": "751260605",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Rawr!",
+            "nextDialogs": [
+              "751260606"
+            ]
+          },
+          "751260606": {
+            "id": "751260606",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, the egg does look like it's in good shape, and there's a manual for the incubator. Let's give it a try, shall we?",
+            "nextDialogs": [
+              "751260609"
+            ]
+          },
+          "751260609": {
+            "id": "751260609",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7509405",
+      "subQuestName": "Investigate the hidden chamber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509404",
+      "subQuestName": "Investigate the hidden chamber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7509406",
+      "subQuestName": "Activate the incubator",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750940601"
+        ],
+        "dialogs": {
+          "750940601": {
+            "id": "750940601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew... That sure was scary, with those monsters attacking out of nowhere like that. Good thing we're super strong, huh?",
+            "nextDialogs": [
+              "750940603",
+              "750940605"
+            ]
+          },
+          "750940603": {
+            "id": "750940603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? No no no, Paimon can't do that! Who'd want to fight those scary monsters, anyway!?",
+            "nextDialogs": [
+              "750940606"
+            ]
+          },
+          "750940606": {
+            "id": "750940606",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr! Rawr!",
+            "nextDialogs": [
+              "750940607"
+            ]
+          },
+          "750940607": {
+            "id": "750940607",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Heh, looks like he's getting anxious already. Let's just find a way to hatch the egg first!",
+            "nextDialogs": [
+              "750940608"
+            ]
+          },
+          "750940608": {
+            "id": "750940608",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Activate the incubator.",
+            "nextDialogs": [
+              "750940609"
+            ]
+          },
+          "750940609": {
+            "id": "750940609",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "The incubator is back in action...\\nAll you need to do now is wait...\\nHours pass, but nothing happens to the Saurian egg. It doesn't change at all...",
+            "nextDialogs": [
+              "750940610"
+            ]
+          },
+          "750940610": {
+            "id": "750940610",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Err... Errh?",
+            "nextDialogs": [
+              "750940611"
+            ]
+          },
+          "750940611": {
+            "id": "750940611",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Weird. Nothing seems to have happened. Have we messed something up? Let's try again!"
+          },
+          "750940605": {
+            "id": "750940605",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Exactly! You'd think they'd be super strong with how scary they looked! But really, our little fella hits harder than they do!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7509403",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750940301"
+        ],
+        "dialogs": {
+          "750940301": {
+            "id": "750940301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "lineCounts": {
+    "Player": 4,
+    "派蒙": 20,
+    "雷泽": 18,
+    "？？？": 3
+  },
+  "subQuests": [
+    {
+      "subId": "45109",
+      "subQuestName": "前往奔狼领$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45101",
+      "subQuestName": "前往奔狼领",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510101"
+        ],
+        "dialogs": {
+          "4510101": {
+            "id": "4510101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这里叫做「奔狼领」，据说蒙德的人很少涉足这里…",
+            "nextDialogs": [
+              "4510102"
+            ]
+          },
+          "4510102": {
+            "id": "4510102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "虽然就在蒙德城附近，但这里生态原始，是一个自然法则至上的地方。",
+            "nextDialogs": [
+              "4510103"
+            ]
+          },
+          "4510103": {
+            "id": "4510103",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "正所谓弱肉强食，连史莱姆都能长得很巨大哦！",
+            "nextDialogs": [
+              "4510104"
+            ]
+          },
+          "4510104": {
+            "id": "4510104",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看，就是这——么巨大。",
+            "nextDialogs": [
+              "4510105"
+            ]
+          },
+          "4510105": {
+            "id": "4510105",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "…它们进攻过来了！做好准备！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45102",
+      "subQuestName": "与派蒙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45107",
+      "subQuestName": "与派蒙对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45103",
+      "subQuestName": "消灭史莱姆",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510301"
+        ],
+        "dialogs": {
+          "4510301": {
+            "id": "4510301",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "谢…谢谢你——奔狼领的狼群来了！快逃吧！",
+            "nextDialogs": [
+              "4510303"
+            ]
+          },
+          "4510303": {
+            "id": "4510303",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "不用担心。 狼是朋友。 可，你们是谁？",
+            "nextDialogs": [
+              "4510304"
+            ]
+          },
+          "4510304": {
+            "id": "4510304",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们只是普通的旅行者……",
+            "nextDialogs": [
+              "4510305"
+            ]
+          },
+          "4510305": {
+            "id": "4510305",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "不普通，你们。 不过，有熟悉的气味。",
+            "nextDialogs": [
+              "4510306"
+            ]
+          },
+          "4510306": {
+            "id": "4510306",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "熟悉的气味？",
+            "nextDialogs": [
+              "4510307"
+            ]
+          },
+          "4510307": {
+            "id": "4510307",
+            "speakerId": 10205,
+            "speakerName": "？？？",
+            "text": "骑士团，对吧？骑士团里有朋友。",
+            "nextDialogs": [
+              "4510310",
+              "4510313"
+            ]
+          },
+          "4510310": {
+            "id": "4510310",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "我是雷泽。",
+            "nextDialogs": [
+              "4510311"
+            ]
+          },
+          "4510311": {
+            "id": "4510311",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你也是西风骑士团的人吗？",
+            "nextDialogs": [
+              "4510312"
+            ]
+          },
+          "4510312": {
+            "id": "4510312",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "和骑士团没关系。",
+            "nextDialogs": [
+              "4510314"
+            ]
+          },
+          "4510314": {
+            "id": "4510314",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜啊…",
+            "nextDialogs": [
+              "4510315"
+            ]
+          },
+          "4510315": {
+            "id": "4510315",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "狼群…是怎么回事？",
+            "nextDialogs": [
+              "4510316"
+            ]
+          },
+          "4510316": {
+            "id": "4510316",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "啊……狼群，是家人。",
+            "nextDialogs": [
+              "4510317"
+            ]
+          },
+          "4510317": {
+            "id": "4510317",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "家人？",
+            "nextDialogs": [
+              "4510318"
+            ]
+          },
+          "4510318": {
+            "id": "4510318",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "家人。将我养大，和我一起生活的家人。",
+            "nextDialogs": [
+              "4510319"
+            ]
+          },
+          "4510319": {
+            "id": "4510319",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好像这中间有很复杂的故事……",
+            "nextDialogs": [
+              "4510320"
+            ]
+          },
+          "4510320": {
+            "id": "4510320",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "他们在责怪我。为了帮助你们，埋伏暴露了。没有抓到野猪。",
+            "nextDialogs": [
+              "4510321"
+            ]
+          },
+          "4510321": {
+            "id": "4510321",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#这样吗…那就让{NICKNAME}来帮忙抓野猪吧。",
+            "nextDialogs": [
+              "4510322"
+            ]
+          },
+          "4510322": {
+            "id": "4510322",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}也是很厉害的。",
+            "nextDialogs": [
+              "4510323"
+            ]
+          },
+          "4510323": {
+            "id": "4510323",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "我，我觉得不必了。骑士团的朋友每次动手，狼群都要饿肚子…",
+            "nextDialogs": [
+              "4510324"
+            ]
+          },
+          "4510324": {
+            "id": "4510324",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不用和我们客气啦。你们就等着我们的好消息吧。"
+          },
+          "4510313": {
+            "id": "4510313",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "我是雷泽。 和骑士团没有关系。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45104",
+      "subQuestName": "感谢相助的少年",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "45105",
+      "subQuestName": "获取足够的兽肉",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510501"
+        ],
+        "dialogs": {
+          "4510501": {
+            "id": "4510501",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "啊，你们真的要帮忙吗…",
+            "nextDialogs": [
+              "4510502"
+            ]
+          },
+          "4510502": {
+            "id": "4510502",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "狼群有自己的方法，更有效。不过陷阱，很新鲜。",
+            "nextDialogs": [
+              "4510503"
+            ]
+          },
+          "4510503": {
+            "id": "4510503",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "放置好以后，把野猪赶过去，对吧。",
+            "nextDialogs": [
+              "4510504"
+            ]
+          },
+          "4510504": {
+            "id": "4510504",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "不会爆炸吧…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45108",
+      "subQuestName": "狩猎提示$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510801"
+        ],
+        "dialogs": {
+          "4510801": {
+            "id": "4510801",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哼哼，那么是时候拿出真正的本事了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "45106",
+      "subQuestName": "将三块兽肉带给雷泽",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4510601"
+        ],
+        "dialogs": {
+          "4510601": {
+            "id": "4510601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你看，我们弄到了！",
+            "nextDialogs": [
+              "4510602"
+            ]
+          },
+          "4510602": {
+            "id": "4510602",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "谢谢你们。不过…",
+            "nextDialogs": [
+              "4510603"
+            ]
+          },
+          "4510603": {
+            "id": "4510603",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "不过要是我们自己来，能抓五六头。有狼今晚要空肚子了…",
+            "nextDialogs": [
+              "4510604"
+            ]
+          },
+          "4510604": {
+            "id": "4510604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜啊…",
+            "nextDialogs": [
+              "4510605"
+            ]
+          },
+          "4510605": {
+            "id": "4510605",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "不要在意，谢谢你们。",
+            "nextDialogs": [
+              "4510606"
+            ]
+          },
+          "4510606": {
+            "id": "4510606",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "你们比起骑士团那个红色，看起来很烫的女孩子——朋友，要厉害多了。",
+            "nextDialogs": [
+              "4510607"
+            ]
+          },
+          "4510607": {
+            "id": "4510607",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "她出手的话，估计山会烧起来。猪，一头也抓不到。",
+            "nextDialogs": [
+              "4510608"
+            ]
+          },
+          "4510608": {
+            "id": "4510608",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "我该走了。",
+            "nextDialogs": [
+              "4510609"
+            ]
+          },
+          "4510609": {
+            "id": "4510609",
+            "speakerId": 1011,
+            "speakerName": "雷泽",
+            "text": "最近这里不安全。你们小心，保护好自己。",
+            "nextDialogs": [
+              "4510610"
+            ]
+          },
+          "4510610": {
+            "id": "4510610",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "真是奇特的人啊。",
+            "nextDialogs": [
+              "4510611"
+            ]
+          },
+          "4510611": {
+            "id": "4510611",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "他提到的骑士团那个朋友。红色，很烫的女孩子——",
+            "nextDialogs": [
+              "4510612"
+            ]
+          },
+          "4510612": {
+            "id": "4510612",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，你想到了谁？"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1427 @@
+{
+  "lineCounts": {
+    "???": 2,
+    "Baizhu": 15,
+    "Black Screen": 4,
+    "Captain Wu": 2,
+    "Changsheng": 5,
+    "Chef Mao": 8,
+    "Lan": 1,
+    "Paimon": 73,
+    "Pedestrian at Pharmacy Entrance": 1,
+    "Player": 46,
+    "Skirk": 57
+  },
+  "subQuests": [
+    {
+      "subId": "1503410",
+      "subQuestName": "Listen to Paimon's advice",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150341001"
+        ],
+        "dialogs": {
+          "150341001": {
+            "id": "150341001",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "#How are you, {NICKNAME}? Feeling any better today?",
+            "nextDialogs": [
+              "150341002"
+            ]
+          },
+          "150341002": {
+            "id": "150341002",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You tell Baizhu about your dream and the special helper you encountered.",
+            "nextDialogs": [
+              "150341003"
+            ]
+          },
+          "150341003": {
+            "id": "150341003",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "You were pulled into a mysterious space inside a dream and stabbed by a spike?",
+            "nextDialogs": [
+              "150341004"
+            ]
+          },
+          "150341004": {
+            "id": "150341004",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "I can't offer much about the spike, but there are many ancient texts that describe the phenomenon of being transported to a different world in dream.",
+            "nextDialogs": [
+              "150341005"
+            ]
+          },
+          "150341005": {
+            "id": "150341005",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "For example, \"A Drunken Adeptal Dream\" describes the story of a woodcutter whose soul was mistakenly pulled into another world and remained there for several years before making it back.",
+            "nextDialogs": [
+              "150341006"
+            ]
+          },
+          "150341006": {
+            "id": "150341006",
+            "speakerId": 1002,
+            "speakerName": "Changsheng",
+            "text": "If I'm not mistaken, there used to be a god whose power involved dreams and souls. But, I thought that god had died...",
+            "nextDialogs": [
+              "150341007"
+            ]
+          },
+          "150341007": {
+            "id": "150341007",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "#A god, hmm... Well, in any case, caution is the name of the game, I think. Take care of yourself, {NICKNAME}, and don't hesitate to contact us if you need help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503414",
+      "subQuestName": "Look for Baizhu at Bubu Pharmacy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503411",
+      "subQuestName": "Meet Baizhu in the back room of the pharmacy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150341101"
+        ],
+        "dialogs": {
+          "150341101": {
+            "id": "150341101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You should get some rest. Paimon can tell how tired you are."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503401",
+      "subQuestName": "Meet Baizhu in the back room of the pharmacy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340101"
+        ],
+        "dialogs": {
+          "150340101": {
+            "id": "150340101",
+            "speakerId": 1002,
+            "speakerName": "Changsheng",
+            "text": "Ah, looks like we have a special guest.",
+            "nextDialogs": [
+              "150340102"
+            ]
+          },
+          "150340102": {
+            "id": "150340102",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "#{NICKNAME}, Paimon, welcome! What can I do for you?",
+            "nextDialogs": [
+              "150340103"
+            ]
+          },
+          "150340103": {
+            "id": "150340103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#It's {NICKNAME} — {M#he}{F#she} looks absolutely beat these days. {M#He}{F#She} has these huge dark circles around {M#his}{F#her} eyes, like {M#he}{F#she} hasn't slept a wink.",
+            "nextDialogs": [
+              "150340104"
+            ]
+          },
+          "150340104": {
+            "id": "150340104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#And {M#he}{F#she} keeps spacing out! You have to call {M#his}{F#her} name several times before {M#he}{F#she} snaps out of it... What do you think it is? Is {M#he}{F#she} sick?",
+            "nextDialogs": [
+              "150340105"
+            ]
+          },
+          "150340105": {
+            "id": "150340105",
+            "speakerId": 1002,
+            "speakerName": "Changsheng",
+            "text": "#Oh? Is {NICKNAME} prone to sickness? I find this surprising.",
+            "nextDialogs": [
+              "150340108"
+            ]
+          },
+          "150340108": {
+            "id": "150340108",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Very peculiar... In all the time we've been acquainted, this is the first time you've come to me with a health complaint. Come, let me take a look at you.",
+            "nextDialogs": [
+              "150340109"
+            ]
+          },
+          "150340109": {
+            "id": "150340109",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Hmm...",
+            "nextDialogs": [
+              "150340110"
+            ]
+          },
+          "150340110": {
+            "id": "150340110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, Paimon does not like that expression, Baizhu... It's not serious, is it?",
+            "nextDialogs": [
+              "150340111"
+            ]
+          },
+          "150340111": {
+            "id": "150340111",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Hmm, complexion is good, eyes are clear, breathing is steady, pulse is strong...",
+            "nextDialogs": [
+              "150340112"
+            ]
+          },
+          "150340112": {
+            "id": "150340112",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "#Physically, you appear to be in good condition, {NICKNAME}. In theory, your energy level should reflect that. You should be feeling right as rain.",
+            "nextDialogs": [
+              "150340113"
+            ]
+          },
+          "150340113": {
+            "id": "150340113",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "And yet... I do feel like something is \"off.\"",
+            "nextDialogs": [
+              "150340114"
+            ]
+          },
+          "150340114": {
+            "id": "150340114",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Hence my concern. A clean bill of health is usually a good thing. But, in this case, it likely means your situation is more complicated.",
+            "nextDialogs": [
+              "150340115"
+            ]
+          },
+          "150340115": {
+            "id": "150340115",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Physical illnesses come with detectable symptoms that can be used to diagnose, medicate, and cure the condition. But afflictions of a non-physical nature... they fall outside a doctor's realm of expertise.",
+            "nextDialogs": [
+              "150340116"
+            ]
+          },
+          "150340116": {
+            "id": "150340116",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? What do you mean, \"non-physical nature\"?",
+            "nextDialogs": [
+              "150340117"
+            ]
+          },
+          "150340117": {
+            "id": "150340117",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Curses, dark magic... It's hard to say. It could just as easily be a simple case of mental fatigue.",
+            "nextDialogs": [
+              "150340118"
+            ]
+          },
+          "150340118": {
+            "id": "150340118",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "Why don't you rest here for a bit? Whatever it is we're dealing with, clues to your condition are sure to reveal themselves in time. Once we know the root cause, we can administer the right treatment.",
+            "nextDialogs": [
+              "150340119"
+            ]
+          },
+          "150340119": {
+            "id": "150340119",
+            "speakerId": 1002,
+            "speakerName": "Changsheng",
+            "text": "I've seen my fair share of mental afflictions. To start with, some calming incense, a good night's sleep, and a good meal will do you a world of good.",
+            "nextDialogs": [
+              "150340120"
+            ]
+          },
+          "150340120": {
+            "id": "150340120",
+            "speakerId": 10234,
+            "speakerName": "Baizhu",
+            "text": "In the meantime, Changsheng and I will review the relevant literature for afflictions that present with mental fatigue.",
+            "nextDialogs": [
+              "150340121"
+            ]
+          },
+          "150340121": {
+            "id": "150340121",
+            "speakerId": 1002,
+            "speakerName": "Changsheng",
+            "text": "*sigh*... Still, we're not experts on this kind of thing. I say, we should strongly consider calling in a specialist as soon as possible.",
+            "nextDialogs": [
+              "150340122"
+            ]
+          },
+          "150340122": {
+            "id": "150340122",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh... Must be a rare condition if not even Baizhu and Changsheng have seen it before...",
+            "nextDialogs": [
+              "150340123"
+            ]
+          },
+          "150340123": {
+            "id": "150340123",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, all we can do is take their advice. You look like you're about to collapse, anyway.",
+            "nextDialogs": [
+              "150340124"
+            ]
+          },
+          "150340124": {
+            "id": "150340124",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Just get some rest. Paimon will be right here by your side! Fingers crossed you'll be all better when you wake up!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503402",
+      "subQuestName": "Take a rest in the back room of the pharmacy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503412",
+      "subQuestName": "Take a rest in the back room of the pharmacy",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503403",
+      "subQuestName": "Explore the mysterious space",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340301"
+        ],
+        "dialogs": {
+          "150340301": {
+            "id": "150340301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Where am I?)",
+            "nextDialogs": [
+              "150340302"
+            ]
+          },
+          "150340302": {
+            "id": "150340302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(There's a thick fog covering my field of vision.)",
+            "nextDialogs": [
+              "150340303"
+            ]
+          },
+          "150340303": {
+            "id": "150340303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(This feels more real than a dream, but too chilling to be real life. My breath freezes in my throat before I can even exhale it... It feels like my soul has been wrenched from my body and thrust into this strange and unfamiliar space.)",
+            "nextDialogs": [
+              "150340304"
+            ]
+          },
+          "150340304": {
+            "id": "150340304",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Whichever direction I look in, there's no end in sight. And worse than that... I think there's something in the fog, following me like a shadow.)",
+            "nextDialogs": [
+              "150340305"
+            ]
+          },
+          "150340305": {
+            "id": "150340305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(If this is a dream, how long till I wake up? And if it's not, then where in the world am I?)",
+            "nextDialogs": [
+              "150340306"
+            ]
+          },
+          "150340306": {
+            "id": "150340306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Oof...!",
+            "nextDialogs": [
+              "150340307"
+            ]
+          },
+          "150340307": {
+            "id": "150340307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What in the... Something just pierced through the fog and stabbed me in the back. But, there's no blood...)",
+            "nextDialogs": [
+              "150340308"
+            ]
+          },
+          "150340308": {
+            "id": "150340308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(There's a strange light coming from the wound, and I see this familiar-looking spike retreating back into the darkness... Deep inside, it feels like a part of me is missing. And now another wave of fatigue is washing over me...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503404",
+      "subQuestName": "Awaken from the \"dream\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340401"
+        ],
+        "dialogs": {
+          "150340401": {
+            "id": "150340401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}! {NICKNAME}!",
+            "nextDialogs": [
+              "150340402"
+            ]
+          },
+          "150340402": {
+            "id": "150340402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Rise and shine! Time to wake up!",
+            "nextDialogs": [
+              "150340403"
+            ]
+          },
+          "150340403": {
+            "id": "150340403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "150340404"
+            ]
+          },
+          "150340404": {
+            "id": "150340404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*yawn*... For once, you're making Paimon look like an early riser. It's already afternoon! Hopefully all that sleep did you some good. Feeling any better?",
+            "nextDialogs": [
+              "150340407"
+            ]
+          },
+          "150340407": {
+            "id": "150340407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "A cut? What, did you scratch yourself in your sleep? Alright, let Paimon take a look...",
+            "nextDialogs": [
+              "150340408"
+            ]
+          },
+          "150340408": {
+            "id": "150340408",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Nope! Nothing there... *gasp* Wait, did you have a nightmare?",
+            "nextDialogs": [
+              "150340409"
+            ]
+          },
+          "150340409": {
+            "id": "150340409",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uhh... Okay, don't panic, umm... Paimon heard that dreams tell us what we need by showing us the opposite, so... if you had a nightmare, maybe all you need is something to cheer you up! C'mon, Paimon will treat you to something yummy!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503413",
+      "subQuestName": "Go have a meal with Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503405",
+      "subQuestName": "Go have a meal with Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340501"
+        ],
+        "dialogs": {
+          "150340501": {
+            "id": "150340501",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "You and Paimon head to Wanmin Restaurant. Sensing that something isn't right, Paimon orders a bunch of dishes to cheer you up.",
+            "nextDialogs": [
+              "150340502"
+            ]
+          },
+          "150340502": {
+            "id": "150340502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? So in this dream, you were trapped in a weird place with thick fog everywhere, and then a spike came out of nowhere and stabbed you in the back?",
+            "nextDialogs": [
+              "150340503"
+            ]
+          },
+          "150340503": {
+            "id": "150340503",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, well that's a new one. Are you sure it was a dream? 'Cause from the way you describe it, it sounds like you were really there...",
+            "nextDialogs": [
+              "150340504"
+            ]
+          },
+          "150340504": {
+            "id": "150340504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But, then again, you woke up right where you went to bed. And you were definitely in a deep sleep this morning.",
+            "nextDialogs": [
+              "150340507"
+            ]
+          },
+          "150340507": {
+            "id": "150340507",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then, it's decided. Paimon will stay up and watch over you tonight! If anyone tries to mess with you, Paimon will beat 'em up!",
+            "nextDialogs": [
+              "150340508"
+            ]
+          },
+          "150340508": {
+            "id": "150340508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Or, uh... Wake you up first and then we can beat 'em up together!",
+            "nextDialogs": [
+              "150340509"
+            ]
+          },
+          "150340509": {
+            "id": "150340509",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Paimon's smile has a way of putting me at ease.)",
+            "nextDialogs": [
+              "150340510"
+            ]
+          },
+          "150340510": {
+            "id": "150340510",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(But, what I saw is still bothering me. That dream was so chilling, and it almost feels like there's something watching me from some corner of the world even now...)",
+            "nextDialogs": [
+              "150340511"
+            ]
+          },
+          "150340511": {
+            "id": "150340511",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Something stabbed me in my dream, but when I woke up, there was no wound. Still, if I focus on that area, I feel a vague aching... almost as if, deep underneath the flesh, something is...)",
+            "nextDialogs": [
+              "150340512"
+            ]
+          },
+          "150340512": {
+            "id": "150340512",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "...Something is missing?",
+            "nextDialogs": [
+              "150340513"
+            ]
+          },
+          "150340513": {
+            "id": "150340513",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(!!!)",
+            "nextDialogs": [
+              "150340514"
+            ]
+          },
+          "150340514": {
+            "id": "150340514",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, did you just say something?",
+            "nextDialogs": [
+              "150340515"
+            ]
+          },
+          "150340515": {
+            "id": "150340515",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You heard that, too?",
+            "nextDialogs": [
+              "150340516"
+            ]
+          },
+          "150340516": {
+            "id": "150340516",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "The flesh remains whole, but the soul is incomplete. Left unresolved, the mind will wither away along with it.",
+            "nextDialogs": [
+              "150340517"
+            ]
+          },
+          "150340517": {
+            "id": "150340517",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wah, what the... Wait! Paimon remembers you! You're Childe's master! Sk... ork?",
+            "nextDialogs": [
+              "150340518"
+            ]
+          },
+          "150340518": {
+            "id": "150340518",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Skirk.",
+            "nextDialogs": [
+              "150340519"
+            ]
+          },
+          "150340519": {
+            "id": "150340519",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Right! What are you doing here?",
+            "nextDialogs": [
+              "150340520"
+            ]
+          },
+          "150340520": {
+            "id": "150340520",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The last time we saw you was at the Primordial Sea in Fontaine, right? But, then we left and never learned where you went after that.",
+            "nextDialogs": [
+              "150340521"
+            ]
+          },
+          "150340521": {
+            "id": "150340521",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Childe's been looking everywhere for you, by the way. What brings you to Wanmin Restaurant, of all places? You came here looking for us? And were you the one behind that hocus-pocus just now?",
+            "nextDialogs": [
+              "150340522"
+            ]
+          },
+          "150340522": {
+            "id": "150340522",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Tell me. What is it that you saw?",
+            "nextDialogs": [
+              "150340523"
+            ]
+          },
+          "150340523": {
+            "id": "150340523",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "150340524"
+            ]
+          },
+          "150340524": {
+            "id": "150340524",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Tight-lipped, huh? I suppose that's fair.",
+            "nextDialogs": [
+              "150340525"
+            ]
+          },
+          "150340525": {
+            "id": "150340525",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "You. I'll take a glass of wine.",
+            "nextDialogs": [
+              "150340526"
+            ]
+          },
+          "150340526": {
+            "id": "150340526",
+            "speakerId": 2045,
+            "speakerName": "Chef Mao",
+            "text": "Hmm? Oh, of course. Coming right up.",
+            "nextDialogs": [
+              "150340527"
+            ]
+          },
+          "150340527": {
+            "id": "150340527",
+            "speakerId": 2045,
+            "speakerName": "Chef Mao",
+            "text": "We make this one in-house — it's not too strong. Enjoy!",
+            "nextDialogs": [
+              "150340528"
+            ]
+          },
+          "150340528": {
+            "id": "150340528",
+            "speakerId": 2041,
+            "speakerName": "Captain Wu",
+            "text": "Chef Mao, I'll take a Grilled Tiger Fish over here!",
+            "nextDialogs": [
+              "150340529"
+            ]
+          },
+          "150340529": {
+            "id": "150340529",
+            "speakerId": 2045,
+            "speakerName": "Chef Mao",
+            "text": "Coming right up! *sigh*... If I knew we'd be this busy, I wouldn't have approved Shenhe's vacation...",
+            "nextDialogs": [
+              "150340530"
+            ]
+          },
+          "150340530": {
+            "id": "150340530",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "At the end of the day, what happens to you is of little consequence to me. I'm not here to try and win you over. Trust me or not — the choice is yours.",
+            "nextDialogs": [
+              "150340531"
+            ]
+          },
+          "150340531": {
+            "id": "150340531",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "If you want my help, now's the time to speak up. You have until I finish my drink."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503406",
+      "subQuestName": "Go to Guili Plains to investigate",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340601"
+        ],
+        "dialogs": {
+          "150340601": {
+            "id": "150340601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, what are all these Rifthounds doing here?",
+            "nextDialogs": [
+              "150340602"
+            ]
+          },
+          "150340602": {
+            "id": "150340602",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, looks like they're collecting something...",
+            "nextDialogs": [
+              "150340603"
+            ]
+          },
+          "150340603": {
+            "id": "150340603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's go check it out!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503407",
+      "subQuestName": "Defeat the suspicious Rifthounds",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1503408",
+      "subQuestName": "Investigate the surrounding area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340801"
+        ],
+        "dialogs": {
+          "150340801": {
+            "id": "150340801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, this is what they were collecting. It looks kinda like...",
+            "nextDialogs": [
+              "150340802"
+            ]
+          },
+          "150340802": {
+            "id": "150340802",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "God remains?",
+            "nextDialogs": [
+              "150340803"
+            ]
+          },
+          "150340803": {
+            "id": "150340803",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! What is going on here...",
+            "nextDialogs": [
+              "150340804"
+            ]
+          },
+          "150340804": {
+            "id": "150340804",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "From the moment they are born, all beings with great power have an impact on this world. Even if their body is sundered and their soul extinguished, their influence remains.",
+            "nextDialogs": [
+              "150340805"
+            ]
+          },
+          "150340805": {
+            "id": "150340805",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Gods are the most common example of that. The remnants of gods who fell thousands of years ago remain buried deep within the earth, carrying within them a warped will and a dark curse.",
+            "nextDialogs": [
+              "150340806"
+            ]
+          },
+          "150340806": {
+            "id": "150340806",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Together, these remnants form what you call \"god remains.\" And it appears that some of those sealed here were dug up and removed. There are traces left, but they're fading fast.",
+            "nextDialogs": [
+              "150340807"
+            ]
+          },
+          "150340807": {
+            "id": "150340807",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "...What are you doing?",
+            "nextDialogs": [
+              "150340808"
+            ]
+          },
+          "150340808": {
+            "id": "150340808",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "N—Nothing! Just wanted to make sure you were, um, real...",
+            "nextDialogs": [
+              "150340809"
+            ]
+          },
+          "150340809": {
+            "id": "150340809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#She's definitely not a ghost, {NICKNAME}. Paimon poked her and she's solid...",
+            "nextDialogs": [
+              "150340812"
+            ]
+          },
+          "150340812": {
+            "id": "150340812",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Your life hangs in the balance, and that's what you're fixated on? Strange set of priorities...",
+            "nextDialogs": [
+              "150340813"
+            ]
+          },
+          "150340813": {
+            "id": "150340813",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "It was just a trick to avoid being perceived. If someone notices me, those memories are erased, simple as that.",
+            "nextDialogs": [
+              "150340814"
+            ]
+          },
+          "150340814": {
+            "id": "150340814",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Unlike you, I have no desire to establish a connection with the world. The weak and the lowly have no right to remember me. They're lucky they only have a few missing memories to show for it.",
+            "nextDialogs": [
+              "150340815"
+            ]
+          },
+          "150340815": {
+            "id": "150340815",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Now, can we please get back on track?",
+            "nextDialogs": [
+              "150340816"
+            ]
+          },
+          "150340816": {
+            "id": "150340816",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay! Um, where were we...?",
+            "nextDialogs": [
+              "150340817"
+            ]
+          },
+          "150340817": {
+            "id": "150340817",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Right, the god remains! So basically, there's now less of them here than there used to be, right? Isn't that a good thing?",
+            "nextDialogs": [
+              "150340818"
+            ]
+          },
+          "150340818": {
+            "id": "150340818",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "In our experience, god remains are one-hundred percent bad news. A lot of terrible things have happened because of them!",
+            "nextDialogs": [
+              "150340819"
+            ]
+          },
+          "150340819": {
+            "id": "150340819",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Maybe it's a good thing by human standards. But, power doesn't come from nothing, and it doesn't just disappear for no reason.",
+            "nextDialogs": [
+              "150340820"
+            ]
+          },
+          "150340820": {
+            "id": "150340820",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "The remains aren't just gone — they were taken.",
+            "nextDialogs": [
+              "150340821"
+            ]
+          },
+          "150340821": {
+            "id": "150340821",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Like part of my soul was taken?",
+            "nextDialogs": [
+              "150340822"
+            ]
+          },
+          "150340822": {
+            "id": "150340822",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "#Very clever, {NICKNAME}. You aren't the only one who had something taken from you. There are victims like you everywhere — the only difference being, you can speak, and the remains cannot. So, it went unnoticed.",
+            "nextDialogs": [
+              "150340823"
+            ]
+          },
+          "150340823": {
+            "id": "150340823",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Something similar happened in Sumeru. Within the span of one night, countless Consecrated Beasts were slaughtered, and a large amount of the god remains buried in the desert went missing.",
+            "nextDialogs": [
+              "150340824"
+            ]
+          },
+          "150340824": {
+            "id": "150340824",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Of course, god remains are just one of the targets. The culprit is chipping away at sources of power all over this world, including the Stella Fortuna above.",
+            "nextDialogs": [
+              "150340825"
+            ]
+          },
+          "150340825": {
+            "id": "150340825",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, you mean... the stars?",
+            "nextDialogs": [
+              "150340826"
+            ]
+          },
+          "150340826": {
+            "id": "150340826",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Mm-hmm. Forty-two of them have died out in the past few months alone.",
+            "nextDialogs": [
+              "150340827"
+            ]
+          },
+          "150340827": {
+            "id": "150340827",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "In Khaenri'ah, people believed that powerful individuals have corresponding Stella Fortuna. Even should that individual fall, their Stella Fortuna would not disappear, but gradually evolve into a new constellation.",
+            "nextDialogs": [
+              "150340828"
+            ]
+          },
+          "150340828": {
+            "id": "150340828",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Yet now, stars are disappearing from the skies entirely, and it's not hard to deduce what's happening to the power they contain.",
+            "nextDialogs": [
+              "150340829"
+            ]
+          },
+          "150340829": {
+            "id": "150340829",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Something has been leeching power from this world like a parasite steals nutrients from a host. And, now, it's no longer satisfied with the remains of the dead — it wants you.",
+            "nextDialogs": [
+              "150340830"
+            ]
+          },
+          "150340830": {
+            "id": "150340830",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "This time, it only took a fragment of your soul. But next time? There's no telling how far it could go.",
+            "nextDialogs": [
+              "150340831"
+            ]
+          },
+          "150340831": {
+            "id": "150340831",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "But, why me?",
+            "nextDialogs": [
+              "150340832"
+            ]
+          },
+          "150340832": {
+            "id": "150340832",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "No one knows. All I know for certain is this — getting back what you lost will not be easy.",
+            "nextDialogs": [
+              "150340833"
+            ]
+          },
+          "150340833": {
+            "id": "150340833",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Considering how much power this entity has stolen, it must be a god-level being by now at least. But, that's not the real concern. Souls are fragile things, and yours could easily be crushed if you go up against it.",
+            "nextDialogs": [
+              "150340834"
+            ]
+          },
+          "150340834": {
+            "id": "150340834",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um... So, you're gonna help us, right?",
+            "nextDialogs": [
+              "150340835"
+            ]
+          },
+          "150340835": {
+            "id": "150340835",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "We're going to help each other. You are my ticket to uncovering this thing's true identity.",
+            "nextDialogs": [
+              "150340836"
+            ]
+          },
+          "150340836": {
+            "id": "150340836",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, great! You seem super strong, and you know a lot about the Abyss, so Paimon will take it!",
+            "nextDialogs": [
+              "150340837"
+            ]
+          },
+          "150340837": {
+            "id": "150340837",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thank you.",
+            "nextDialogs": [
+              "150340838"
+            ]
+          },
+          "150340838": {
+            "id": "150340838",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Don't get all mushy on me. All I'm doing is helping you get back to normal after a sudden crisis.",
+            "nextDialogs": [
+              "150340839"
+            ]
+          },
+          "150340839": {
+            "id": "150340839",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "And, I should warn you, getting mixed up with me can have unforeseen consequences. We're on very different journeys. You don't want to be in my debt, trust me.",
+            "nextDialogs": [
+              "150340840"
+            ]
+          },
+          "150340840": {
+            "id": "150340840",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "You help me uncover the truth behind this entity, and I'll help you recover what you lost. This is a transaction, that's all.",
+            "nextDialogs": [
+              "150340841"
+            ]
+          },
+          "150340841": {
+            "id": "150340841",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "You would do well to remember that. Now, come along.",
+            "nextDialogs": [
+              "150340842"
+            ]
+          },
+          "150340842": {
+            "id": "150340842",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeesh... You'd think she'd be a little friendlier since she's agreed to help us. But nope, she's just like when we met her in the Primordial Sea... So cold...",
+            "nextDialogs": [
+              "150340843"
+            ]
+          },
+          "150340843": {
+            "id": "150340843",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, whatever! If that's how it's gonna be, then she doesn't deserve our friendship! What she does deserve is a super embarrassing nickname...",
+            "nextDialogs": [
+              "150340844"
+            ]
+          },
+          "150340844": {
+            "id": "150340844",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah, Paimon's got it! \"Frosty the Lavender Melon\"! Hehe, serves that ice queen right.",
+            "nextDialogs": [
+              "150340845"
+            ]
+          },
+          "150340845": {
+            "id": "150340845",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Anyway, the important thing is that we get that piece of your soul back! So, let's follow her and see what sort of plan she's got!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503409",
+      "subQuestName": "Follow Skirk through the Abyssal rift",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150340901"
+        ],
+        "dialogs": {
+          "150340901": {
+            "id": "150340901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, this place is way bigger than Paimon expected! Where are we?",
+            "nextDialogs": [
+              "150340902"
+            ]
+          },
+          "150340902": {
+            "id": "150340902",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "This is where I live. I suppose it's the closest thing I have to a \"home\" here.",
+            "nextDialogs": [
+              "150340903"
+            ]
+          },
+          "150340903": {
+            "id": "150340903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It seems more like somewhere in the Abyss?",
+            "nextDialogs": [
+              "150340904"
+            ]
+          },
+          "150340904": {
+            "id": "150340904",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "It is. I brought you here because time flows differently in this place.",
+            "nextDialogs": [
+              "150340905"
+            ]
+          },
+          "150340905": {
+            "id": "150340905",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "I don't know how much Ajax has told you, but when he fell into this space, I mentored him for three months. In that time, only three days passed in the outside world.",
+            "nextDialogs": [
+              "150340906"
+            ]
+          },
+          "150340906": {
+            "id": "150340906",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ajax... Oh, right! That's Childe's real name. Yeah, Paimon remembers him mentioning something like that...",
+            "nextDialogs": [
+              "150340907"
+            ]
+          },
+          "150340907": {
+            "id": "150340907",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, a month here is equivalent to one day in the outside world? That should mean we're safe from that power-hungry soul-snatcher for now, right?",
+            "nextDialogs": [
+              "150340908"
+            ]
+          },
+          "150340908": {
+            "id": "150340908",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "#Yes, well, I didn't bring you here just to show you around. In the outside world, {NICKNAME} could be attacked at any moment. But, coming here has bought us quite a bit of time.",
+            "nextDialogs": [
+              "150340909"
+            ]
+          },
+          "150340909": {
+            "id": "150340909",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Now, we just need to figure out how to investigate that place you saw. The one full of fog.",
+            "nextDialogs": [
+              "150340910"
+            ]
+          },
+          "150340910": {
+            "id": "150340910",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Both your description and the Abyssal disturbance I felt point to that space having some connection to the Abyss. It could even be a domain similar to this one.",
+            "nextDialogs": [
+              "150340911"
+            ]
+          },
+          "150340911": {
+            "id": "150340911",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "The thief who stole that fragment of your soul is hiding there. But the Abyss is a chaotic and turbulent place. If we want to pinpoint their location, we need to see what that space looks like without the fog.",
+            "nextDialogs": [
+              "150340912"
+            ]
+          },
+          "150340912": {
+            "id": "150340912",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Abyssal power can grant a special form of sight. Have you ever wielded Abyssal power before?",
+            "nextDialogs": [
+              "150340915"
+            ]
+          },
+          "150340915": {
+            "id": "150340915",
+            "speakerId": 13790,
+            "speakerName": "Skirk",
+            "text": "Okay, do you plan to learn?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1503499",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150349901"
+        ],
+        "dialogs": {
+          "150349901": {
+            "id": "150349901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}! {NICKNAME}!",
+            "nextDialogs": [
+              "150349902"
+            ]
+          },
+          "150349902": {
+            "id": "150349902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Geez! You're like \"space out\" city over there! What's up with you today?",
+            "nextDialogs": [
+              "150349903"
+            ]
+          },
+          "150349903": {
+            "id": "150349903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Why does Paimon's voice sound so far away?)",
+            "nextDialogs": [
+              "150349904"
+            ]
+          },
+          "150349904": {
+            "id": "150349904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You feeling okay? Hmm... We've been traveling all over lately, so maybe you've come down with something... That's it — we're getting Baizhu to check you over.",
+            "nextDialogs": [
+              "150349905"
+            ]
+          },
+          "150349905": {
+            "id": "150349905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, Baizhu isn't in his shop...",
+            "nextDialogs": [
+              "150349906"
+            ]
+          },
+          "150349906": {
+            "id": "150349906",
+            "speakerId": 15285,
+            "speakerName": "Pedestrian at Pharmacy Entrance",
+            "text": "Oh, you're looking for Dr. Baizhu? He's resting today, but he said to send any patients to the back room.",
+            "nextDialogs": [
+              "150349907"
+            ]
+          },
+          "150349907": {
+            "id": "150349907",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah, okay! Thanks! We'll head on through."
+          }
+        }
+      }
+    }
+  ]
+}

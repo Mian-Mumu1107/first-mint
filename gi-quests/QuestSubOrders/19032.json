@@ -1,0 +1,74 @@
+{
+  "lineCounts": {
+    "Player": 9,
+    "Qianqian": 15
+  },
+  "subQuests": [
+    {
+      "subId": "1903203",
+      "subQuestName": "Split up with Chongyun and look for evil spirits",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1903205",
+      "subQuestName": "Talk to Qianqian",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1903203101"
+        ],
+        "dialogs": {
+          "1903203101": {
+            "id": "1903203101",
+            "speakerId": 10907,
+            "speakerName": "Qianqian",
+            "text": "*sobbing* Huh...? Um...",
+            "nextDialogs": [
+              "1903203102"
+            ]
+          },
+          "1903203102": {
+            "id": "1903203102",
+            "speakerId": 10907,
+            "speakerName": "Qianqian",
+            "text": "Um... Can... C—Can you help me...?",
+            "nextDialogs": [
+              "1903203105"
+            ]
+          },
+          "1903203105": {
+            "id": "1903203105",
+            "speakerId": 10907,
+            "speakerName": "Qianqian",
+            "text": "Um, that exorcist... with that blue hair... is so scary!",
+            "nextDialogs": [
+              "1903203106"
+            ]
+          },
+          "1903203106": {
+            "id": "1903203106",
+            "speakerId": 10907,
+            "speakerName": "Qianqian",
+            "text": "C—Can you lead him away from here? He makes me feel so frightened..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1903204",
+      "subQuestName": "Talk to Chongyun about Qianqian",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

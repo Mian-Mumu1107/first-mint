@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Connor": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7070301",
+      "subQuestName": "Give three sets of Dandelions Seeds to Connor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707030101"
+        ],
+        "dialogs": {
+          "707030101": {
+            "id": "707030101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, I hear you need dandelions...",
+            "nextDialogs": [
+              "707030102"
+            ]
+          },
+          "707030102": {
+            "id": "707030102",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Oh, you must have seen my commission, then. Well, what about it? Have you gathered three sets of Dandelion Seeds?",
+            "nextDialogs": [
+              "707030105"
+            ]
+          },
+          "707030105": {
+            "id": "707030105",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Not yet, eh... Well, be sure to give them to me once you've got them. I need to start brewing wine soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070302",
+      "subQuestName": "Talk to Connor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707030201"
+        ],
+        "dialogs": {
+          "707030201": {
+            "id": "707030201",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Yes... These Dandelion Seeds should last me for a while.",
+            "nextDialogs": [
+              "707030202"
+            ]
+          },
+          "707030202": {
+            "id": "707030202",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Please accept this. Thanks for helping me out."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3208 @@
+{
+  "lineCounts": {
+    "\"Neuvillette's Note\"": 1,
+    "About Wriothesley...": 3,
+    "About the Representative Council's proposal...": 3,
+    "About the Spina di Rosula...": 3,
+    "About the bribery case...": 3,
+    "About the smuggling case...": 3,
+    "Black Screen": 4,
+    "Charlotte": 16,
+    "Clorinde": 6,
+    "Eloffe": 10,
+    "Graciette": 2,
+    "Kiara": 29,
+    "Neuvillette": 159,
+    "Paimon": 124,
+    "Player": 42,
+    "Sedene": 15,
+    "Trudaine": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1400701",
+      "subQuestName": "Go to the Palais Mermonia",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070101"
+        ],
+        "dialogs": {
+          "140070101": {
+            "id": "140070101",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "Wait, did I hear that right? Monsieur Neuvillette, are you sure you'd like to take over the case yourself?",
+            "nextDialogs": [
+              "140070102"
+            ]
+          },
+          "140070102": {
+            "id": "140070102",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's right.",
+            "nextDialogs": [
+              "140070103"
+            ]
+          },
+          "140070103": {
+            "id": "140070103",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "But why? Technically speaking, cases like this are better left to the Gardes...",
+            "nextDialogs": [
+              "140070104"
+            ]
+          },
+          "140070104": {
+            "id": "140070104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Neuvillette, Sedene, hey there! What are you two talking about?",
+            "nextDialogs": [
+              "140070105"
+            ]
+          },
+          "140070105": {
+            "id": "140070105",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "#{NICKNAME} and Paimon, please help me talk our Chief Justice out of this. He wants to investigate a case on his own!",
+            "nextDialogs": [
+              "140070106"
+            ]
+          },
+          "140070106": {
+            "id": "140070106",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "This is completely unprecedented. How can we have the Iudex acting like a private detective?",
+            "nextDialogs": [
+              "140070108",
+              "140070111"
+            ]
+          },
+          "140070108": {
+            "id": "140070108",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you for your concern, but I currently have no such plans.",
+            "nextDialogs": [
+              "140070109"
+            ]
+          },
+          "140070109": {
+            "id": "140070109",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Oh... apologies. I took your question in earnest, but it now occurs to me that it was mostly likely in jest.",
+            "nextDialogs": [
+              "140070112"
+            ]
+          },
+          "140070112": {
+            "id": "140070112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So what is it exactly? It sure sounds serious if it's something you've got to investigate personally!",
+            "nextDialogs": [
+              "140070113"
+            ]
+          },
+          "140070113": {
+            "id": "140070113",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "A Melusine named Kiara received a threat letter.",
+            "nextDialogs": [
+              "140070114"
+            ]
+          },
+          "140070114": {
+            "id": "140070114",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And then...?",
+            "nextDialogs": [
+              "140070115"
+            ]
+          },
+          "140070115": {
+            "id": "140070115",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That is all the information I have acquired at this stage.",
+            "nextDialogs": [
+              "140070116"
+            ]
+          },
+          "140070116": {
+            "id": "140070116",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "140070117"
+            ]
+          },
+          "140070117": {
+            "id": "140070117",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "*sigh* I have no idea why you're so hung up over this.",
+            "nextDialogs": [
+              "140070118"
+            ]
+          },
+          "140070118": {
+            "id": "140070118",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "I've checked the schedule in advance, and it seems like there aren't any trials today. So if you insist... I have no objections.",
+            "nextDialogs": [
+              "140070119"
+            ]
+          },
+          "140070119": {
+            "id": "140070119",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you for understanding. I will leave a note explaining my absence on my desk — I would appreciate it if you could take it to Lady Furina.",
+            "nextDialogs": [
+              "140070120"
+            ]
+          },
+          "140070120": {
+            "id": "140070120",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "She may have no interest in official affairs, but standard procedure dictates that I'm still responsible for reporting to her.",
+            "nextDialogs": [
+              "140070121"
+            ]
+          },
+          "140070121": {
+            "id": "140070121",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "Yes yes! Understood. I'll come back later and deliver the note to her.",
+            "nextDialogs": [
+              "140070122"
+            ]
+          },
+          "140070122": {
+            "id": "140070122",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Judging from Sedene's reaction, it must be pretty rare for you to investigate stuff personally. What's so special about this case?",
+            "nextDialogs": [
+              "140070123"
+            ]
+          },
+          "140070123": {
+            "id": "140070123",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I cannot tell you just yet, but it reminded me of certain past events.",
+            "nextDialogs": [
+              "140070124"
+            ]
+          },
+          "140070124": {
+            "id": "140070124",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There could be complicated conflicts of interest behind all this, so I must eliminate all risks in advance."
+          },
+          "140070111": {
+            "id": "140070111",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I trust that you'd be able to work that out with how well-connected you are, but I must apologize. I do not plan on relying on anyone else's help for this matter."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400702",
+      "subQuestName": "Talk to Neuvillette",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1400703",
+      "subQuestName": "Ask Kiara about the threatening letter",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070501"
+        ],
+        "dialogs": {
+          "140070501": {
+            "id": "140070501",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Whew... The weather's amazing today.",
+            "nextDialogs": [
+              "140070502"
+            ]
+          },
+          "140070502": {
+            "id": "140070502",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Kiara.",
+            "nextDialogs": [
+              "140070503"
+            ]
+          },
+          "140070503": {
+            "id": "140070503",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Huh, Monsieur Neuvillette! And you are...",
+            "nextDialogs": [
+              "140070504"
+            ]
+          },
+          "140070504": {
+            "id": "140070504",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "#Oh, I remember! You're {NICKNAME} and Paimon. I've heard about you.",
+            "nextDialogs": [
+              "140070505"
+            ]
+          },
+          "140070505": {
+            "id": "140070505",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aww, she's adorable! Hey there, it's nice to meet you!",
+            "nextDialogs": [
+              "140070506"
+            ]
+          },
+          "140070506": {
+            "id": "140070506",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Hehe, thanks for the compliment. Is there anything I can do for you?",
+            "nextDialogs": [
+              "140070507"
+            ]
+          },
+          "140070507": {
+            "id": "140070507",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I heard from Sedene that you received a threatening letter.",
+            "nextDialogs": [
+              "140070508"
+            ]
+          },
+          "140070508": {
+            "id": "140070508",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "A threatening letter... Oh, right, I remember now.",
+            "nextDialogs": [
+              "140070509"
+            ]
+          },
+          "140070509": {
+            "id": "140070509",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "The letter fell through the crack in my door as I was heading out this morning. It said something about catching me, so I thought someone wanted to play hide-and-seek.",
+            "nextDialogs": [
+              "140070510"
+            ]
+          },
+          "140070510": {
+            "id": "140070510",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "But Sedene told me it was a threatening letter and that I could be in danger. But that's not gonna happen with everyone looking after me, right?",
+            "nextDialogs": [
+              "140070511"
+            ]
+          },
+          "140070511": {
+            "id": "140070511",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Have you run into any suspicious-looking people recently?",
+            "nextDialogs": [
+              "140070512"
+            ]
+          },
+          "140070512": {
+            "id": "140070512",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Suspicious-looking people? What counts as suspicious?",
+            "nextDialogs": [
+              "140070515"
+            ]
+          },
+          "140070515": {
+            "id": "140070515",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Ah!",
+            "nextDialogs": [
+              "140070516"
+            ]
+          },
+          "140070516": {
+            "id": "140070516",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did you think of something?",
+            "nextDialogs": [
+              "140070517"
+            ]
+          },
+          "140070517": {
+            "id": "140070517",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Nope! I don't remember meeting anyone like that!",
+            "nextDialogs": [
+              "140070518"
+            ]
+          },
+          "140070518": {
+            "id": "140070518",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Do you still have the letter with you? I want you to show me what it says.",
+            "nextDialogs": [
+              "140070519"
+            ]
+          },
+          "140070519": {
+            "id": "140070519",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Oh, ah... Let's see... Found it!",
+            "nextDialogs": [
+              "140070520"
+            ]
+          },
+          "140070520": {
+            "id": "140070520",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Now then... \"Get lost! If you don't leave the Marechaussee Phantom, I will come and catch you in person. Don't say I didn't warn you!\"",
+            "nextDialogs": [
+              "140070521"
+            ]
+          },
+          "140070521": {
+            "id": "140070521",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Hmm, a simple threat. Neither the handwriting nor the content itself reveals anything about the writer's intentions.",
+            "nextDialogs": [
+              "140070522"
+            ]
+          },
+          "140070522": {
+            "id": "140070522",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are they concealing their identity on purpose?",
+            "nextDialogs": [
+              "140070523"
+            ]
+          },
+          "140070523": {
+            "id": "140070523",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "We can't rule out that possibility.",
+            "nextDialogs": [
+              "140070524"
+            ]
+          },
+          "140070524": {
+            "id": "140070524",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Since you can't think of anyone suspicious, I'll be heading back to the Palais Mermonia to review some official documents.",
+            "nextDialogs": [
+              "140070525"
+            ]
+          },
+          "140070525": {
+            "id": "140070525",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Kiara, you should come with us. It's safer if you stay close by.",
+            "nextDialogs": [
+              "140070526"
+            ]
+          },
+          "140070526": {
+            "id": "140070526",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Sure!",
+            "nextDialogs": [
+              "140070527"
+            ]
+          },
+          "140070527": {
+            "id": "140070527",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Wait, no, no, no, I still have a case to work on! I promised Eloffe that I'd check on her place later.",
+            "nextDialogs": [
+              "140070528"
+            ]
+          },
+          "140070528": {
+            "id": "140070528",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "But you're being watched right now. Going off on your own could be dangerous...",
+            "nextDialogs": [
+              "140070529"
+            ]
+          },
+          "140070529": {
+            "id": "140070529",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And that's where we come in to help! We'll stay with Kiara and make sure she's safe.",
+            "nextDialogs": [
+              "140070530"
+            ]
+          },
+          "140070530": {
+            "id": "140070530",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "With us around, anyone scheming to hurt Kiara can forget about it!",
+            "nextDialogs": [
+              "140070531"
+            ]
+          },
+          "140070531": {
+            "id": "140070531",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "#Thank you, {NICKNAME}, Big Sis Paimon!",
+            "nextDialogs": [
+              "140070532"
+            ]
+          },
+          "140070532": {
+            "id": "140070532",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Big Sis Paimon...",
+            "nextDialogs": [
+              "140070533"
+            ]
+          },
+          "140070533": {
+            "id": "140070533",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Ahem! Don't worry, your Big Sis Paimon is super strong!",
+            "nextDialogs": [
+              "140070534"
+            ]
+          },
+          "140070534": {
+            "id": "140070534",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Alright, let us go our separate ways for now. Please take care of Kiara.",
+            "nextDialogs": [
+              "140070535"
+            ]
+          },
+          "140070535": {
+            "id": "140070535",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We'll take her to Eloffe's place right away. See you around!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400704",
+      "subQuestName": "Protect Kiara during her work",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070401"
+        ],
+        "dialogs": {
+          "140070401": {
+            "id": "140070401",
+            "speakerId": 5039,
+            "speakerName": "Graciette",
+            "text": "We should've gone up to him and said something...",
+            "nextDialogs": [
+              "140070402"
+            ]
+          },
+          "140070402": {
+            "id": "140070402",
+            "speakerId": 5038,
+            "speakerName": "Trudaine",
+            "text": "Yeah, that was the perfect opportunity..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400719",
+      "subQuestName": "Follow Kiara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071901"
+        ],
+        "dialogs": {
+          "140071901": {
+            "id": "140071901",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "Huh? Did I hear that right? Monsieur Neuvillette, are you sure you'd like to take over the case yourself?",
+            "nextDialogs": [
+              "140071902"
+            ]
+          },
+          "140071902": {
+            "id": "140071902",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's right.",
+            "nextDialogs": [
+              "140071903"
+            ]
+          },
+          "140071903": {
+            "id": "140071903",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "But why? Technically speaking, cases like this are better left to the Gardes...",
+            "nextDialogs": [
+              "140071904"
+            ]
+          },
+          "140071904": {
+            "id": "140071904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Neuvillette, Sedene, hey there! What are you two talking about?",
+            "nextDialogs": [
+              "140071905"
+            ]
+          },
+          "140071905": {
+            "id": "140071905",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "#{NICKNAME} and Paimon, please help me talk our Chief Justice out of this. He wants to investigate a case on his own!",
+            "nextDialogs": [
+              "140071906"
+            ]
+          },
+          "140071906": {
+            "id": "140071906",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "This is completely unprecedented. How can we have the Iudex acting like a private detective?",
+            "nextDialogs": [
+              "140071908",
+              "140071911"
+            ]
+          },
+          "140071908": {
+            "id": "140071908",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you for your concern, but I currently have no such plans.",
+            "nextDialogs": [
+              "140071909"
+            ]
+          },
+          "140071909": {
+            "id": "140071909",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Oh... apologies. I took your question in earnest, but it now occurs to me that it was mostly likely in jest.",
+            "nextDialogs": [
+              "140071912"
+            ]
+          },
+          "140071912": {
+            "id": "140071912",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So what is it exactly? It sure sounds serious if it's something you've got to investigate personally!",
+            "nextDialogs": [
+              "140071913"
+            ]
+          },
+          "140071913": {
+            "id": "140071913",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "A Melusine named Kiara received a threat letter.",
+            "nextDialogs": [
+              "140071914"
+            ]
+          },
+          "140071914": {
+            "id": "140071914",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And then...?",
+            "nextDialogs": [
+              "140071915"
+            ]
+          },
+          "140071915": {
+            "id": "140071915",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That is all the information I have acquired at this stage.",
+            "nextDialogs": [
+              "140071916"
+            ]
+          },
+          "140071916": {
+            "id": "140071916",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "140071917"
+            ]
+          },
+          "140071917": {
+            "id": "140071917",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "*sigh* I have no idea why you're so hung up over this.",
+            "nextDialogs": [
+              "140071918"
+            ]
+          },
+          "140071918": {
+            "id": "140071918",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "I've checked the schedule in advance, and it seems like there aren't any trials today. So if you insist... I have no objections.",
+            "nextDialogs": [
+              "140071919"
+            ]
+          },
+          "140071919": {
+            "id": "140071919",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you for understanding.",
+            "nextDialogs": [
+              "140071920"
+            ]
+          },
+          "140071920": {
+            "id": "140071920",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "Then I shall return to my post for now. Should anyone visit while you are away, I will be sure to make a record of it. I sincerely hope that you will return soon.",
+            "nextDialogs": [
+              "140071921"
+            ]
+          },
+          "140071921": {
+            "id": "140071921",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Judging from Sedene's reaction, it must be pretty rare for you to investigate stuff personally. What's so special about this case?",
+            "nextDialogs": [
+              "140071922"
+            ]
+          },
+          "140071922": {
+            "id": "140071922",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I can't tell you just yet, but it reminded me of certain past events.",
+            "nextDialogs": [
+              "140071923"
+            ]
+          },
+          "140071923": {
+            "id": "140071923",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There could be complicated conflicts of interest behind all this, so I must eliminate all risks in advance."
+          },
+          "140071911": {
+            "id": "140071911",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I trust that you'd be able to work that out with how well-connected you are, but I must apologize. I don't plan on relying on anyone else's help for this matter."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400705",
+      "subQuestName": "Talk to Kiara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070601"
+        ],
+        "dialogs": {
+          "140070601": {
+            "id": "140070601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Strange... Paimon felt like someone was following us...",
+            "nextDialogs": [
+              "140070602"
+            ]
+          },
+          "140070602": {
+            "id": "140070602",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Eloffe!",
+            "nextDialogs": [
+              "140070603"
+            ]
+          },
+          "140070603": {
+            "id": "140070603",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Kiara, you're here! Huh? Wait, aren't these two...",
+            "nextDialogs": [
+              "140070604"
+            ]
+          },
+          "140070604": {
+            "id": "140070604",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "#They're {NICKNAME} and Big Sis Paimon!",
+            "nextDialogs": [
+              "140070605"
+            ]
+          },
+          "140070605": {
+            "id": "140070605",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "I thought so. What brings you here?",
+            "nextDialogs": [
+              "140070607",
+              "140070609"
+            ]
+          },
+          "140070607": {
+            "id": "140070607",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Alright, guess I shouldn't have asked.",
+            "nextDialogs": [
+              "140070611"
+            ]
+          },
+          "140070611": {
+            "id": "140070611",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "May I begin inspecting the store as planned?",
+            "nextDialogs": [
+              "140070612"
+            ]
+          },
+          "140070612": {
+            "id": "140070612",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Of course, go ahead!",
+            "nextDialogs": [
+              "140070613"
+            ]
+          },
+          "140070613": {
+            "id": "140070613",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Hmm... No hazards detected. You've cleared the inspection. Seems like the criminal from that case last month never set foot in here at all.",
+            "nextDialogs": [
+              "140070614"
+            ]
+          },
+          "140070614": {
+            "id": "140070614",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That was quick! What were you inspecting?",
+            "nextDialogs": [
+              "140070615"
+            ]
+          },
+          "140070615": {
+            "id": "140070615",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "I took a look around the shop. Neuvillette says that us Melusines have special eyes that can see things people can't.",
+            "nextDialogs": [
+              "140070616"
+            ]
+          },
+          "140070616": {
+            "id": "140070616",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Things like bloodstains. No matter how hard you try to clean them up, we Melusines can see their residual stains for some time. Pretty cool, huh?",
+            "nextDialogs": [
+              "140070617"
+            ]
+          },
+          "140070617": {
+            "id": "140070617",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Alright, alright, now that you're done inspecting, can we have a chat?",
+            "nextDialogs": [
+              "140070618"
+            ]
+          },
+          "140070618": {
+            "id": "140070618",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Hear me out. I'm planning to release an outfit for children next month and wanted to hire you as my model. Is that okay with you?",
+            "nextDialogs": [
+              "140070619"
+            ]
+          },
+          "140070619": {
+            "id": "140070619",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Of course! Is there anything I need to do?",
+            "nextDialogs": [
+              "140070620"
+            ]
+          },
+          "140070620": {
+            "id": "140070620",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Please wait a moment while I take your measurements. The sample should be a perfect fit...",
+            "nextDialogs": [
+              "140070621"
+            ]
+          },
+          "140070621": {
+            "id": "140070621",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Seems like they get along really well!",
+            "nextDialogs": [
+              "140070622"
+            ]
+          },
+          "140070622": {
+            "id": "140070622",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Huh, {NICKNAME}? What are you looking at?",
+            "nextDialogs": [
+              "140070623"
+            ]
+          },
+          "140070623": {
+            "id": "140070623",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I think there's someone over there...",
+            "nextDialogs": [
+              "140070624"
+            ]
+          },
+          "140070624": {
+            "id": "140070624",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is there really someone watching us!? Shh... Let's sneak over and take a look."
+          },
+          "140070609": {
+            "id": "140070609",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "Did you run into any trouble?",
+            "nextDialogs": [
+              "140070610"
+            ]
+          },
+          "140070610": {
+            "id": "140070610",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh, it's not really trouble anymore with us around."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400714",
+      "subQuestName": "Look for the suspicious person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070801"
+        ],
+        "dialogs": {
+          "140070801": {
+            "id": "140070801",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Strange... Why isn't he back yet...",
+            "nextDialogs": [
+              "140070802"
+            ]
+          },
+          "140070802": {
+            "id": "140070802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Gotcha!",
+            "nextDialogs": [
+              "140070803"
+            ]
+          },
+          "140070803": {
+            "id": "140070803",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Whoa!!",
+            "nextDialogs": [
+              "140070804"
+            ]
+          },
+          "140070804": {
+            "id": "140070804",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Charlotte!? What are you doing here?",
+            "nextDialogs": [
+              "140070805"
+            ]
+          },
+          "140070805": {
+            "id": "140070805",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, don't tell Paimon you're the one who sent Kiara that threatening letter! But you don't seem like the type to—",
+            "nextDialogs": [
+              "140070806"
+            ]
+          },
+          "140070806": {
+            "id": "140070806",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Threat letter? What threat letter?",
+            "nextDialogs": [
+              "140070807"
+            ]
+          },
+          "140070807": {
+            "id": "140070807",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What are you doing here, exactly?",
+            "nextDialogs": [
+              "140070808"
+            ]
+          },
+          "140070808": {
+            "id": "140070808",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Uh, this is starting to feel like an interrogation... Okay, I'll be straight with you. I don't know the slightest thing about that threat letter you mentioned — I only wanted to follow Monsieur Neuvillette and request an interview with him.",
+            "nextDialogs": [
+              "140070809"
+            ]
+          },
+          "140070809": {
+            "id": "140070809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You wanna interview him?",
+            "nextDialogs": [
+              "140070810"
+            ]
+          },
+          "140070810": {
+            "id": "140070810",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "That's right! I'm not the only one, y'know. Interviewing him is every journalist's dream.",
+            "nextDialogs": [
+              "140070811"
+            ]
+          },
+          "140070811": {
+            "id": "140070811",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "But it's not an easy task to accomplish. The Palais Mermonia rarely accepts appointment requests from us, and we never have the chance to interrupt when the court's in session.",
+            "nextDialogs": [
+              "140070812"
+            ]
+          },
+          "140070812": {
+            "id": "140070812",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "So imagine how surprised I was seeing him out on the streets today! It seemed like you were investigating something too... The perfect opportunity to whip up an exclusive, don't you think?",
+            "nextDialogs": [
+              "140070813"
+            ]
+          },
+          "140070813": {
+            "id": "140070813",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Of course, I'll make sure to turn in my manuscript to him for review. I have my principles, and I'd never publish an article without the consent of all parties involved.",
+            "nextDialogs": [
+              "140070816"
+            ]
+          },
+          "140070816": {
+            "id": "140070816",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! We're doing a secret investigation that can't be made public knowledge!",
+            "nextDialogs": [
+              "140070817"
+            ]
+          },
+          "140070817": {
+            "id": "140070817",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "I see... Well, if you say so, I guess I'll put this matter aside for now. What a shame... Chances like this don't come by very often, you know.",
+            "nextDialogs": [
+              "140070818"
+            ]
+          },
+          "140070818": {
+            "id": "140070818",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "In exchange, could you tell me what the threat letter is about? I swear I won't tell!",
+            "nextDialogs": [
+              "140070819"
+            ]
+          },
+          "140070819": {
+            "id": "140070819",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright then...",
+            "nextDialogs": [
+              "140070820"
+            ]
+          },
+          "140070820": {
+            "id": "140070820",
+            "speakerId": 1008,
+            "speakerName": "Black Screen",
+            "text": "You tell Charlotte about the letter Kiara received...",
+            "nextDialogs": [
+              "140070821"
+            ]
+          },
+          "140070821": {
+            "id": "140070821",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "WHAT!? Someone's targeting a cute little Melusine?",
+            "nextDialogs": [
+              "140070822"
+            ]
+          },
+          "140070822": {
+            "id": "140070822",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Shh, not so loud!",
+            "nextDialogs": [
+              "140070823"
+            ]
+          },
+          "140070823": {
+            "id": "140070823",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "It just so happens that I did an interview with Kiara — last month, in fact. It was well-received by our readers, so I was planning to continue the series... and now someone's coming after her?",
+            "nextDialogs": [
+              "140070824"
+            ]
+          },
+          "140070824": {
+            "id": "140070824",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "I'll ask my colleagues about it. Who knows? We might find something. And don't worry, I know what I'm doing! This secret's safe with me.",
+            "nextDialogs": [
+              "140070825"
+            ]
+          },
+          "140070825": {
+            "id": "140070825",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "But I gotta warn you, even if I keep my lips sealed, others will know eventually.",
+            "nextDialogs": [
+              "140070826"
+            ]
+          },
+          "140070826": {
+            "id": "140070826",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Why?",
+            "nextDialogs": [
+              "140070827"
+            ]
+          },
+          "140070827": {
+            "id": "140070827",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "People care a great deal about Monsieur Neuvillette's each and every move. Some may have already realized that something was up. Besides, the case involves Melusines, so...",
+            "nextDialogs": [
+              "140070828"
+            ]
+          },
+          "140070828": {
+            "id": "140070828",
+            "speakerId": 1070,
+            "speakerName": "Charlotte",
+            "text": "Anyway, I'll get going now. Watch yourselves, alright?",
+            "nextDialogs": [
+              "140070829"
+            ]
+          },
+          "140070829": {
+            "id": "140070829",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, that was a nice chat... Let's head back and check on Kiara."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400715",
+      "subQuestName": "Rendezvous with Kiara",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070901"
+        ],
+        "dialogs": {
+          "140070901": {
+            "id": "140070901",
+            "speakerId": 5037,
+            "speakerName": "Eloffe",
+            "text": "What do you think? The design looks pretty good, huh?",
+            "nextDialogs": [
+              "140070902"
+            ]
+          },
+          "140070902": {
+            "id": "140070902",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "I think it's great!",
+            "nextDialogs": [
+              "140070903"
+            ]
+          },
+          "140070903": {
+            "id": "140070903",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "It's very pretty indeed.",
+            "nextDialogs": [
+              "140070904"
+            ]
+          },
+          "140070904": {
+            "id": "140070904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Clorinde! What are you doing here?",
+            "nextDialogs": [
+              "140070905"
+            ]
+          },
+          "140070905": {
+            "id": "140070905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It seems that you just showed up out of nowhere.",
+            "nextDialogs": [
+              "140070906"
+            ]
+          },
+          "140070906": {
+            "id": "140070906",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "As I passed by the Palais Mermonia, I heard that Neuvillette was investigating a case with you.",
+            "nextDialogs": [
+              "140070907"
+            ]
+          },
+          "140070907": {
+            "id": "140070907",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "Technically speaking, he and I are under an employer-employee relationship. It didn't feel right to have my employer personally take on such trivial cases.",
+            "nextDialogs": [
+              "140070908"
+            ]
+          },
+          "140070908": {
+            "id": "140070908",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "I happen to have some time at the moment and came to take a look. I sometimes have my clothes custom-made at this boutique, in any case, so we always have a lot to talk about.",
+            "nextDialogs": [
+              "140070909"
+            ]
+          },
+          "140070909": {
+            "id": "140070909",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Neuvillette sure is lucky to have someone like you!",
+            "nextDialogs": [
+              "140070910"
+            ]
+          },
+          "140070910": {
+            "id": "140070910",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "Leave this to me. You should go meet up with Neuvillette.",
+            "nextDialogs": [
+              "140070911"
+            ]
+          },
+          "140070911": {
+            "id": "140070911",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay then, we'll leave Kiara in your hands. C'mon, Let's go find Neuvillette!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400706",
+      "subQuestName": "Return to the Palais Mermonia",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1400707",
+      "subQuestName": "Ask Neuvillette about how the investigation is coming along",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071101"
+        ],
+        "dialogs": {
+          "140071101": {
+            "id": "140071101",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Oh? You're back. Is everything alright?",
+            "nextDialogs": [
+              "140071102"
+            ]
+          },
+          "140071102": {
+            "id": "140071102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We ran into Clorinde! She offered to help us protect Kiara.",
+            "nextDialogs": [
+              "140071103"
+            ]
+          },
+          "140071103": {
+            "id": "140071103",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That is good to hear — I trust her abilities. It looks like Kiara's in good hands.",
+            "nextDialogs": [
+              "140071104"
+            ]
+          },
+          "140071104": {
+            "id": "140071104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We thought so too! Well, did you find any leads?",
+            "nextDialogs": [
+              "140071105"
+            ]
+          },
+          "140071105": {
+            "id": "140071105",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I've been looking through the case records. Specifically, inspection reports submitted by Kiara and major cases I've judged over the past decade.",
+            "nextDialogs": [
+              "140071106"
+            ]
+          },
+          "140071106": {
+            "id": "140071106",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I've come up with two plans. On one hand, I could start with Kiara and track down the group behind all this, step by step.",
+            "nextDialogs": [
+              "140071107"
+            ]
+          },
+          "140071107": {
+            "id": "140071107",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "On the other... I could also analyze the conflicting interests of these major cases and confirm my suspicions if there is indeed a mysterious group that bears a grudge against me.",
+            "nextDialogs": [
+              "140071108"
+            ]
+          },
+          "140071108": {
+            "id": "140071108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, they both sound like pretty solid plans! But can you really finish browsing through all these documents? That's a lot of reading... even for Paimon.",
+            "nextDialogs": [
+              "140071109"
+            ]
+          },
+          "140071109": {
+            "id": "140071109",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Don't worry, I'm a fast reader when it comes to official documents. After all, I have several hundred years of reviewing under my belt.",
+            "nextDialogs": [
+              "140071110"
+            ]
+          },
+          "140071110": {
+            "id": "140071110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We'll help you read through them! We have nothing else to do.",
+            "nextDialogs": [
+              "140071111"
+            ]
+          },
+          "140071111": {
+            "id": "140071111",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you. I will continue looking through the ones piled up on the desk, but feel free to browse through anything else in this room."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400708",
+      "subQuestName": "Review official documents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071301"
+        ],
+        "dialogs": {
+          "140071301": {
+            "id": "140071301",
+            "speakerId": 1010,
+            "speakerName": "About Wriothesley...",
+            "text": "\"The defendant, Wriothesley, has confessed to his crimes, and was declared guilty by Iudex Neuvillette.\"",
+            "nextDialogs": [
+              "140071302"
+            ]
+          },
+          "140071302": {
+            "id": "140071302",
+            "speakerId": 1010,
+            "speakerName": "About Wriothesley...",
+            "text": "\"Wriothesley will be exiled to the Fortress of Meropide, where he will be serving his sentence.\"",
+            "nextDialogs": [
+              "140071303"
+            ]
+          },
+          "140071303": {
+            "id": "140071303",
+            "speakerId": 1010,
+            "speakerName": "About Wriothesley...",
+            "text": "\"During the trial, Neuvillette remained silent for a long time.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400709",
+      "subQuestName": "Review official documents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071401"
+        ],
+        "dialogs": {
+          "140071401": {
+            "id": "140071401",
+            "speakerId": 1011,
+            "speakerName": "About the Spina di Rosula...",
+            "text": "\"Callas, boss of the Spina di Rosula, was defeated in the duel and died of serious injuries.\"",
+            "nextDialogs": [
+              "140071402"
+            ]
+          },
+          "140071402": {
+            "id": "140071402",
+            "speakerId": 1011,
+            "speakerName": "About the Spina di Rosula...",
+            "text": "\"The defense of his honor has now come to a close. The defendant did not raise any objections throughout the trial.\"",
+            "nextDialogs": [
+              "140071403"
+            ]
+          },
+          "140071403": {
+            "id": "140071403",
+            "speakerId": 1011,
+            "speakerName": "About the Spina di Rosula...",
+            "text": "\"Iudex Neuvillette reserved judgment in this case. Its details are still under investigation.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400710",
+      "subQuestName": "Review official documents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071501"
+        ],
+        "dialogs": {
+          "140071501": {
+            "id": "140071501",
+            "speakerId": 1012,
+            "speakerName": "About the smuggling case...",
+            "text": "\"The smuggling case was solved by the joint forces of the Gardes and Marechaussee Phantom.\"",
+            "nextDialogs": [
+              "140071502"
+            ]
+          },
+          "140071502": {
+            "id": "140071502",
+            "speakerId": 1012,
+            "speakerName": "About the smuggling case...",
+            "text": "\"The principal offenders have received judgment based on the severity of their crimes.\"",
+            "nextDialogs": [
+              "140071503"
+            ]
+          },
+          "140071503": {
+            "id": "140071503",
+            "speakerId": 1012,
+            "speakerName": "About the smuggling case...",
+            "text": "\"Please refer to the appendix for the list of names.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400717",
+      "subQuestName": "Review official documents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071601"
+        ],
+        "dialogs": {
+          "140071601": {
+            "id": "140071601",
+            "speakerId": 1013,
+            "speakerName": "About the bribery case...",
+            "text": "\"There has been a severe bribery scandal within the Gardes.\"",
+            "nextDialogs": [
+              "140071602"
+            ]
+          },
+          "140071602": {
+            "id": "140071602",
+            "speakerId": 1013,
+            "speakerName": "About the bribery case...",
+            "text": "\"The Special Security and Surveillance Patrol has investigated the case. All suspects involved have been arrested.\"",
+            "nextDialogs": [
+              "140071603"
+            ]
+          },
+          "140071603": {
+            "id": "140071603",
+            "speakerId": 1013,
+            "speakerName": "About the bribery case...",
+            "text": "\"The suspects have confessed to their crimes.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400718",
+      "subQuestName": "Review official documents",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071701"
+        ],
+        "dialogs": {
+          "140071701": {
+            "id": "140071701",
+            "speakerId": 1014,
+            "speakerName": "About the Representative Council's proposal...",
+            "text": "\"The Representative Council has filed a request to collaborate with the Marechaussee Phantom on certain public events.\"",
+            "nextDialogs": [
+              "140071702"
+            ]
+          },
+          "140071702": {
+            "id": "140071702",
+            "speakerId": 1014,
+            "speakerName": "About the Representative Council's proposal...",
+            "text": "\"Based on research, they believe that Melusines can enhance the popularity of these events.\"",
+            "nextDialogs": [
+              "140071703"
+            ]
+          },
+          "140071703": {
+            "id": "140071703",
+            "speakerId": 1014,
+            "speakerName": "About the Representative Council's proposal...",
+            "text": "\"The Marechaussee Phantom has yet to respond. However, it has not prohibited the Melusines from participating in such activities.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400712",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071201"
+        ],
+        "dialogs": {
+          "140071201": {
+            "id": "140071201",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "...You're done reading already? Please wait a moment, I still need some time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400713",
+      "subQuestName": "Talk to Neuvillette",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071801"
+        ],
+        "dialogs": {
+          "140071801": {
+            "id": "140071801",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Have you made any progress?",
+            "nextDialogs": [
+              "140071802"
+            ]
+          },
+          "140071802": {
+            "id": "140071802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We skimmed through some of them, but there wasn't anything useful.",
+            "nextDialogs": [
+              "140071803"
+            ]
+          },
+          "140071803": {
+            "id": "140071803",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's so many documents lying around! Just how many cases have you handled!?",
+            "nextDialogs": [
+              "140071804"
+            ]
+          },
+          "140071804": {
+            "id": "140071804",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I would love to answer that question, but the truth is, I've never made a precise calculation myself.",
+            "nextDialogs": [
+              "140071805"
+            ]
+          },
+          "140071805": {
+            "id": "140071805",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If memory serves me right, there should be at least one hundred thousand cases. The documents you see are just a small fraction of what is really there.",
+            "nextDialogs": [
+              "140071806"
+            ]
+          },
+          "140071806": {
+            "id": "140071806",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa... that's a lot! Looks like the work of a Chief Justice isn't easy at all.",
+            "nextDialogs": [
+              "140071807"
+            ]
+          },
+          "140071807": {
+            "id": "140071807",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That might be how it seems like from another's perspective, but trials and official duties are, to me, simply routine.",
+            "nextDialogs": [
+              "140071808"
+            ]
+          },
+          "140071808": {
+            "id": "140071808",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There are many documents here. Take a break if you're tired.",
+            "nextDialogs": [
+              "140071809"
+            ]
+          },
+          "140071809": {
+            "id": "140071809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew, you read Paimon's mind!",
+            "nextDialogs": [
+              "140071810"
+            ]
+          },
+          "140071810": {
+            "id": "140071810",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Alright, let us take a break then.",
+            "nextDialogs": [
+              "140071811"
+            ]
+          },
+          "140071811": {
+            "id": "140071811",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "...",
+            "nextDialogs": [
+              "140071812"
+            ]
+          },
+          "140071812": {
+            "id": "140071812",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "140071813"
+            ]
+          },
+          "140071813": {
+            "id": "140071813",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "140071814"
+            ]
+          },
+          "140071814": {
+            "id": "140071814",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Even though resting is a part of taking a break, shouldn't we at least talk about something?",
+            "nextDialogs": [
+              "140071815"
+            ]
+          },
+          "140071815": {
+            "id": "140071815",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "All this silence is making Paimon feel really awkward...",
+            "nextDialogs": [
+              "140071816"
+            ]
+          },
+          "140071816": {
+            "id": "140071816",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Please pardon my lack of consideration. People rarely come to the Palais Mermonia for matters outside of work. To be quite honest, I'm not sure what we should do.",
+            "nextDialogs": [
+              "140071817"
+            ]
+          },
+          "140071817": {
+            "id": "140071817",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Would you like to have some drinks, perhaps? You must be thirsty after all that work.",
+            "nextDialogs": [
+              "140071818"
+            ]
+          },
+          "140071818": {
+            "id": "140071818",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, drinks! Thank you!",
+            "nextDialogs": [
+              "140071819"
+            ]
+          },
+          "140071819": {
+            "id": "140071819",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon wonders what Neuvillette likes to drink... Oh! Maybe he's a fan of really fancy wines!",
+            "nextDialogs": [
+              "140071820"
+            ]
+          },
+          "140071820": {
+            "id": "140071820",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He seems like the type of person who'd own an entire winery... Y'know, like Diluc!",
+            "nextDialogs": [
+              "140071821"
+            ]
+          },
+          "140071821": {
+            "id": "140071821",
+            "speakerId": 1008,
+            "speakerName": "Black Screen",
+            "text": "Neuvillette momentarily leaves and brings back several exquisite wine glasses...",
+            "nextDialogs": [
+              "140071822"
+            ]
+          },
+          "140071822": {
+            "id": "140071822",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... What's inside these glasses? It looks just like water...",
+            "nextDialogs": [
+              "140071823"
+            ]
+          },
+          "140071823": {
+            "id": "140071823",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "An astute observation. It is indeed water.",
+            "nextDialogs": [
+              "140071824"
+            ]
+          },
+          "140071824": {
+            "id": "140071824",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So it's just plain old water!?",
+            "nextDialogs": [
+              "140071825"
+            ]
+          },
+          "140071825": {
+            "id": "140071825",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "What did you think it was?",
+            "nextDialogs": [
+              "140071826"
+            ]
+          },
+          "140071826": {
+            "id": "140071826",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um... Since you're the Chief Justice and all, Paimon thought you'd prefer something more sophisticated.",
+            "nextDialogs": [
+              "140071827"
+            ]
+          },
+          "140071827": {
+            "id": "140071827",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "This water is indeed very special. It would not be an overstatement to call it \"sophisticated.\"",
+            "nextDialogs": [
+              "140071828"
+            ]
+          },
+          "140071828": {
+            "id": "140071828",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "140071829"
+            ]
+          },
+          "140071829": {
+            "id": "140071829",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I believe you've already tried Fonta. In fact, there are many other drink factories in Fontaine, including those that specialize in packaging pure drinking water.",
+            "nextDialogs": [
+              "140071830"
+            ]
+          },
+          "140071830": {
+            "id": "140071830",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Said water is sourced from all across Teyvat, including Mondstadt's Cider Lake, Liyue's Qingce Village, and Inazuma's Konda Village...",
+            "nextDialogs": [
+              "140071831"
+            ]
+          },
+          "140071831": {
+            "id": "140071831",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Here's one of their latest products: water from Sumeru's Apam Woods.",
+            "nextDialogs": [
+              "140071834"
+            ]
+          },
+          "140071834": {
+            "id": "140071834",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If I were to comment on their mouthfeel... The waters of Cider Lake warm the heart, the waters of Qingce Village have a poignant touch, while one might call the waters of Konda Village placid.",
+            "nextDialogs": [
+              "140071835"
+            ]
+          },
+          "140071835": {
+            "id": "140071835",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Distinct differences exist between the waters of each area. You'll appreciate their intricacies once you taste them carefully.",
+            "nextDialogs": [
+              "140071836"
+            ]
+          },
+          "140071836": {
+            "id": "140071836",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Really? Let Paimon try...",
+            "nextDialogs": [
+              "140071837"
+            ]
+          },
+          "140071837": {
+            "id": "140071837",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "What do you think?",
+            "nextDialogs": [
+              "140071838"
+            ]
+          },
+          "140071838": {
+            "id": "140071838",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Nope, Paimon couldn't taste any difference at all! Isn't this just normal water?",
+            "nextDialogs": [
+              "140071839"
+            ]
+          },
+          "140071839": {
+            "id": "140071839",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "How regrettable. It seems like you still have a long way to go in refining your tastes.",
+            "nextDialogs": [
+              "140071840"
+            ]
+          },
+          "140071840": {
+            "id": "140071840",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, this doesn't have to do with refining our tastes! Paimon's pretty sure most ordinary people can't tell the difference... How'd you do it anyway?",
+            "nextDialogs": [
+              "140071841"
+            ]
+          },
+          "140071841": {
+            "id": "140071841",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! Could it be because you're the Hydro Dragon?",
+            "nextDialogs": [
+              "140071842"
+            ]
+          },
+          "140071842": {
+            "id": "140071842",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That could be the case.",
+            "nextDialogs": [
+              "140071843"
+            ]
+          },
+          "140071843": {
+            "id": "140071843",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, we are allowed to bring that up, right? Since no one else is around...",
+            "nextDialogs": [
+              "140071844"
+            ]
+          },
+          "140071844": {
+            "id": "140071844",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon's been wanting to ask this for ages! If you're the Hydro Dragon, why would you become Chief Justice in human society?",
+            "nextDialogs": [
+              "140071845"
+            ]
+          },
+          "140071845": {
+            "id": "140071845",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "...",
+            "nextDialogs": [
+              "140071846"
+            ]
+          },
+          "140071846": {
+            "id": "140071846",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, sorry, Paimon was just curious. You don't have to answer!",
+            "nextDialogs": [
+              "140071847"
+            ]
+          },
+          "140071847": {
+            "id": "140071847",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There's nothing to hide. I was simply organizing my thoughts.",
+            "nextDialogs": [
+              "140071848"
+            ]
+          },
+          "140071848": {
+            "id": "140071848",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I accepted this position because I wanted to seek out answers to questions that have perplexed me.",
+            "nextDialogs": [
+              "140071849"
+            ]
+          },
+          "140071849": {
+            "id": "140071849",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Questions? Are there really things you can't figure out?",
+            "nextDialogs": [
+              "140071850"
+            ]
+          },
+          "140071850": {
+            "id": "140071850",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Many, in fact. But the one question that puzzles me the most concerns my own existence.",
+            "nextDialogs": [
+              "140071851"
+            ]
+          },
+          "140071851": {
+            "id": "140071851",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "In essence... I neither know why I was born in this form, nor do I understand where my long life should take me.",
+            "nextDialogs": [
+              "140071852"
+            ]
+          },
+          "140071852": {
+            "id": "140071852",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I lost many memories from the moment I was born. The Primordial Sea, for example. I can only vaguely recall its connection to me, but I am unaware of what that connection is exactly.",
+            "nextDialogs": [
+              "140071853"
+            ]
+          },
+          "140071853": {
+            "id": "140071853",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is there anyone who can answer those questions?",
+            "nextDialogs": [
+              "140071854"
+            ]
+          },
+          "140071854": {
+            "id": "140071854",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps the elemental dragons of other nations may have some form of an answer. However, they are scattered across all of Teyvat. Abruptly visiting could very well pose an unpredictable risk.",
+            "nextDialogs": [
+              "140071855"
+            ]
+          },
+          "140071855": {
+            "id": "140071855",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "True... Some of them have very... unique personalities too.",
+            "nextDialogs": [
+              "140071856"
+            ]
+          },
+          "140071856": {
+            "id": "140071856",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I have been holding on to these unanswered questions for a long time...",
+            "nextDialogs": [
+              "140071857"
+            ]
+          },
+          "140071857": {
+            "id": "140071857",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "But there's one thing I've discovered along the way: My emotions easily resonate with those of others... even I don't have the slightest idea what they mean.",
+            "nextDialogs": [
+              "140071858"
+            ]
+          },
+          "140071858": {
+            "id": "140071858",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "My guess would be that there are at least some similarities between humans and myself. By observing their behavior, perhaps I could one day understand the meaning of my existence.",
+            "nextDialogs": [
+              "140071859"
+            ]
+          },
+          "140071859": {
+            "id": "140071859",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I see.",
+            "nextDialogs": [
+              "140071860"
+            ]
+          },
+          "140071860": {
+            "id": "140071860",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Have you made any progress then?",
+            "nextDialogs": [
+              "140071861"
+            ]
+          },
+          "140071861": {
+            "id": "140071861",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps, but I find such progress difficult to describe. As an outsider, chances to engage in meaningful interactions with others are few and far between.",
+            "nextDialogs": [
+              "140071862"
+            ]
+          },
+          "140071862": {
+            "id": "140071862",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's why I'm quite thankful for this chat — such opportunities are rare. Alas, time is limited. We should move on with our investigation.",
+            "nextDialogs": [
+              "140071863"
+            ]
+          },
+          "140071863": {
+            "id": "140071863",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Are we gonna continue reading these documents? Ugh, Paimon's getting dizzy already.",
+            "nextDialogs": [
+              "140071864"
+            ]
+          },
+          "140071864": {
+            "id": "140071864",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I wasn't able to find any leads even after browsing through most of the documents, but while we were on the topic of \"water\" a moment ago, another idea came to me.",
+            "nextDialogs": [
+              "140071865"
+            ]
+          },
+          "140071865": {
+            "id": "140071865",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Water? Do you mean...",
+            "nextDialogs": [
+              "140071866"
+            ]
+          },
+          "140071866": {
+            "id": "140071866",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The Fountain of Lucine?",
+            "nextDialogs": [
+              "140071867"
+            ]
+          },
+          "140071867": {
+            "id": "140071867",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's right.",
+            "nextDialogs": [
+              "140071868"
+            ]
+          },
+          "140071868": {
+            "id": "140071868",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "The Fountain of Lucine is where all of Fontaine's waters converge. It is the vessel of countless memories and emotions.",
+            "nextDialogs": [
+              "140071869"
+            ]
+          },
+          "140071869": {
+            "id": "140071869",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If there really were an organization attempting to use Melusines against me, they should also hold an intense resentment towards me.",
+            "nextDialogs": [
+              "140071870"
+            ]
+          },
+          "140071870": {
+            "id": "140071870",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps we'll be able to find some new leads by sensing the Hydro element within the fountain.",
+            "nextDialogs": [
+              "140071871"
+            ]
+          },
+          "140071871": {
+            "id": "140071871",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh. Why didn't Paimon think of that? C'mon, let's go take a look!",
+            "nextDialogs": [
+              "140071872"
+            ]
+          },
+          "140071872": {
+            "id": "140071872",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps we should go, there shouldn't be too many people near the Fountain of Lucine during the evening."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400702",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070201"
+        ],
+        "dialogs": {
+          "140070201": {
+            "id": "140070201",
+            "speakerId": 5087,
+            "speakerName": "Sedene",
+            "text": "I hope the Chief Justice returns soon..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400703",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070301"
+        ],
+        "dialogs": {
+          "140070301": {
+            "id": "140070301",
+            "speakerId": 13625,
+            "speakerName": "\"Neuvillette's Note\"",
+            "text": "\"Away for personal reasons. Will be back in a day.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400707",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140070701"
+        ],
+        "dialogs": {
+          "140070701": {
+            "id": "140070701",
+            "speakerId": 14072,
+            "speakerName": "Eloffe",
+            "text": "I think light and frilly clothes look best on you. You'd definitely look cute wearing them.",
+            "nextDialogs": [
+              "140070702"
+            ]
+          },
+          "140070702": {
+            "id": "140070702",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "I love them too! Especially the soft and fluffy kind..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400710",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140071001"
+        ],
+        "dialogs": {
+          "140071001": {
+            "id": "140071001",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "How has your work been recently?",
+            "nextDialogs": [
+              "140071002"
+            ]
+          },
+          "140071002": {
+            "id": "140071002",
+            "speakerId": 1077,
+            "speakerName": "Clorinde",
+            "text": "Same as usual. My schedule normally isn't too packed, so I have plenty of time for myself.",
+            "nextDialogs": [
+              "140071003"
+            ]
+          },
+          "140071003": {
+            "id": "140071003",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Ooh, then shall we go out to play? How about a beach vacation, like last time?",
+            "nextDialogs": [
+              "140071004"
+            ]
+          },
+          "140071004": {
+            "id": "140071004",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "I've even signed up as a volunteer lifeguard! I'm really good at swimming, so I'm sure I can help."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400720",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140072001"
+        ],
+        "dialogs": {
+          "140072001": {
+            "id": "140072001",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Have you made any progress?",
+            "nextDialogs": [
+              "140072002"
+            ]
+          },
+          "140072002": {
+            "id": "140072002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We skimmed through some of them, but there wasn't anything useful.",
+            "nextDialogs": [
+              "140072003"
+            ]
+          },
+          "140072003": {
+            "id": "140072003",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's so many documents lying around! Just how many cases have you handled!?",
+            "nextDialogs": [
+              "140072004"
+            ]
+          },
+          "140072004": {
+            "id": "140072004",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I would love to answer that question, but the truth is, I've never made a precise calculation myself.",
+            "nextDialogs": [
+              "140072005"
+            ]
+          },
+          "140072005": {
+            "id": "140072005",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If memory serves me right, there should be at least one hundred thousand cases. The documents you see are just a small fraction of what is really there.",
+            "nextDialogs": [
+              "140072006"
+            ]
+          },
+          "140072006": {
+            "id": "140072006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa... that's a lot! Looks like the work of a Chief Justice isn't easy at all.",
+            "nextDialogs": [
+              "140072007"
+            ]
+          },
+          "140072007": {
+            "id": "140072007",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That might be how it seems from another's perspective, but trials and official duties are, to me, simply routine.",
+            "nextDialogs": [
+              "140072008"
+            ]
+          },
+          "140072008": {
+            "id": "140072008",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There are many documents here. Take a break if you're tired.",
+            "nextDialogs": [
+              "140072009"
+            ]
+          },
+          "140072009": {
+            "id": "140072009",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew, you read Paimon's mind!",
+            "nextDialogs": [
+              "140072010"
+            ]
+          },
+          "140072010": {
+            "id": "140072010",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Alright, let us take a break then.",
+            "nextDialogs": [
+              "140072011"
+            ]
+          },
+          "140072011": {
+            "id": "140072011",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "...",
+            "nextDialogs": [
+              "140072012"
+            ]
+          },
+          "140072012": {
+            "id": "140072012",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...",
+            "nextDialogs": [
+              "140072013"
+            ]
+          },
+          "140072013": {
+            "id": "140072013",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...",
+            "nextDialogs": [
+              "140072014"
+            ]
+          },
+          "140072014": {
+            "id": "140072014",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Even though resting is a part of taking a break, shouldn't we at least talk about something?",
+            "nextDialogs": [
+              "140072015"
+            ]
+          },
+          "140072015": {
+            "id": "140072015",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "All this silence is making Paimon feel really awkward...",
+            "nextDialogs": [
+              "140072016"
+            ]
+          },
+          "140072016": {
+            "id": "140072016",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Please pardon my lack of consideration. People rarely come to the Palais Mermonia for matters outside of work. To be quite honest, I'm not sure what we should do.",
+            "nextDialogs": [
+              "140072017"
+            ]
+          },
+          "140072017": {
+            "id": "140072017",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Would you like to have some drinks, perhaps? You must be thirsty after all that work.",
+            "nextDialogs": [
+              "140072018"
+            ]
+          },
+          "140072018": {
+            "id": "140072018",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, drinks! Thank you!",
+            "nextDialogs": [
+              "140072019"
+            ]
+          },
+          "140072019": {
+            "id": "140072019",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon wonders what Neuvillette likes to drink... Oh! Maybe he's a fan of really fancy wines!",
+            "nextDialogs": [
+              "140072020"
+            ]
+          },
+          "140072020": {
+            "id": "140072020",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "He seems like the type of person who'd own an entire winery... Y'know, like Diluc!",
+            "nextDialogs": [
+              "140072021"
+            ]
+          },
+          "140072021": {
+            "id": "140072021",
+            "speakerId": 1008,
+            "speakerName": "Black Screen",
+            "text": "Neuvillette momentarily leaves and brings back several exquisite wine glasses...",
+            "nextDialogs": [
+              "140072022"
+            ]
+          },
+          "140072022": {
+            "id": "140072022",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... What's inside these glasses? It looks just like water...",
+            "nextDialogs": [
+              "140072023"
+            ]
+          },
+          "140072023": {
+            "id": "140072023",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "An astute observation. It is indeed water.",
+            "nextDialogs": [
+              "140072024"
+            ]
+          },
+          "140072024": {
+            "id": "140072024",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So it's just plain old water!?",
+            "nextDialogs": [
+              "140072025"
+            ]
+          },
+          "140072025": {
+            "id": "140072025",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "What did you think it was?",
+            "nextDialogs": [
+              "140072026"
+            ]
+          },
+          "140072026": {
+            "id": "140072026",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um... Since you're the Chief Justice and all, Paimon thought you'd prefer something more sophisticated.",
+            "nextDialogs": [
+              "140072027"
+            ]
+          },
+          "140072027": {
+            "id": "140072027",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "This water is indeed very special. It would not be an overstatement to call it \"sophisticated.\"",
+            "nextDialogs": [
+              "140072028"
+            ]
+          },
+          "140072028": {
+            "id": "140072028",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh?",
+            "nextDialogs": [
+              "140072029"
+            ]
+          },
+          "140072029": {
+            "id": "140072029",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I believe you've already tried Fonta. In fact, there are many other drink factories in Fontaine, including those that specialize in packaging pure drinking water.",
+            "nextDialogs": [
+              "140072030"
+            ]
+          },
+          "140072030": {
+            "id": "140072030",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Said water is sourced from all across Teyvat, including Mondstadt's Cider Lake, Liyue's Qingce Village, and Inazuma's Konda Village...",
+            "nextDialogs": [
+              "140072031"
+            ]
+          },
+          "140072031": {
+            "id": "140072031",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Here's one of their latest products: water from Sumeru's Apam Woods.",
+            "nextDialogs": [
+              "140072034"
+            ]
+          },
+          "140072034": {
+            "id": "140072034",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If I were to comment on their mouthfeel... The waters of Cider Lake warm the heart, the waters of Qingce Village have a poignant touch, while one might call the waters of Konda Village placid.",
+            "nextDialogs": [
+              "140072035"
+            ]
+          },
+          "140072035": {
+            "id": "140072035",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Distinct differences exist between the waters of each area. You'll appreciate their intricacies once you taste them carefully.",
+            "nextDialogs": [
+              "140072036"
+            ]
+          },
+          "140072036": {
+            "id": "140072036",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Really? Let Paimon try...",
+            "nextDialogs": [
+              "140072037"
+            ]
+          },
+          "140072037": {
+            "id": "140072037",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "What do you think?",
+            "nextDialogs": [
+              "140072038"
+            ]
+          },
+          "140072038": {
+            "id": "140072038",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Nope, Paimon couldn't taste any difference at all! Isn't this just normal water?",
+            "nextDialogs": [
+              "140072039"
+            ]
+          },
+          "140072039": {
+            "id": "140072039",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "How regrettable. It seems like you still have a long way to go in refining your tastes.",
+            "nextDialogs": [
+              "140072040"
+            ]
+          },
+          "140072040": {
+            "id": "140072040",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, this doesn't have to do with refining our tastes! Paimon's pretty sure most ordinary people can't tell the difference... How'd you do it anyway?",
+            "nextDialogs": [
+              "140072041"
+            ]
+          },
+          "140072041": {
+            "id": "140072041",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh! Could it be because you're the Hydro Dragon?",
+            "nextDialogs": [
+              "140072042"
+            ]
+          },
+          "140072042": {
+            "id": "140072042",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That could be the case.",
+            "nextDialogs": [
+              "140072043"
+            ]
+          },
+          "140072043": {
+            "id": "140072043",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, we are allowed to bring that up, right? Since no one else is around...",
+            "nextDialogs": [
+              "140072044"
+            ]
+          },
+          "140072044": {
+            "id": "140072044",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon's been wanting to ask this for ages! If you're the Hydro Dragon, why would you become Chief Justice in human society?",
+            "nextDialogs": [
+              "140072045"
+            ]
+          },
+          "140072045": {
+            "id": "140072045",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "...",
+            "nextDialogs": [
+              "140072046"
+            ]
+          },
+          "140072046": {
+            "id": "140072046",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, sorry, Paimon was just curious. You don't have to answer!",
+            "nextDialogs": [
+              "140072047"
+            ]
+          },
+          "140072047": {
+            "id": "140072047",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "There's nothing to hide. I was simply organizing my thoughts.",
+            "nextDialogs": [
+              "140072048"
+            ]
+          },
+          "140072048": {
+            "id": "140072048",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I accepted this position because I wanted to seek out answers to questions that have perplexed me.",
+            "nextDialogs": [
+              "140072049"
+            ]
+          },
+          "140072049": {
+            "id": "140072049",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Questions? Are there really things you can't figure out?",
+            "nextDialogs": [
+              "140072050"
+            ]
+          },
+          "140072050": {
+            "id": "140072050",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Many, in fact. But the one question that puzzles me the most concerns my own existence.",
+            "nextDialogs": [
+              "140072051"
+            ]
+          },
+          "140072051": {
+            "id": "140072051",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "In essence... I neither know why I was born in this form, nor do I understand where my long life should take me.",
+            "nextDialogs": [
+              "140072052"
+            ]
+          },
+          "140072052": {
+            "id": "140072052",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "For a long time, my memory was rather incomplete. With regard to the Primordial Sea, for example. I used to only be able to vaguely recall its connection to me, but I was unaware of what that connection was exactly.",
+            "nextDialogs": [
+              "140072053"
+            ]
+          },
+          "140072053": {
+            "id": "140072053",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is there anyone who can answer those questions?",
+            "nextDialogs": [
+              "140072054"
+            ]
+          },
+          "140072054": {
+            "id": "140072054",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps the elemental dragons of other nations may have some form of an answer. However, they are scattered across all of Teyvat. Abruptly visiting could very well pose an unpredictable risk.",
+            "nextDialogs": [
+              "140072055"
+            ]
+          },
+          "140072055": {
+            "id": "140072055",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "True... Some of them have very... unique personalities too.",
+            "nextDialogs": [
+              "140072056"
+            ]
+          },
+          "140072056": {
+            "id": "140072056",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I have been holding on to these unanswered questions for a long time...",
+            "nextDialogs": [
+              "140072057"
+            ]
+          },
+          "140072057": {
+            "id": "140072057",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "But there's one thing I've discovered along the way: My emotions easily resonate with those of others... even I don't have the slightest idea what they mean.",
+            "nextDialogs": [
+              "140072058"
+            ]
+          },
+          "140072058": {
+            "id": "140072058",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "My guess would be that there are at least some similarities between humans and myself. By observing their behavior, perhaps I could one day understand the meaning of my existence.",
+            "nextDialogs": [
+              "140072059"
+            ]
+          },
+          "140072059": {
+            "id": "140072059",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I see.",
+            "nextDialogs": [
+              "140072060"
+            ]
+          },
+          "140072060": {
+            "id": "140072060",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Have you made any progress then?",
+            "nextDialogs": [
+              "140072061"
+            ]
+          },
+          "140072061": {
+            "id": "140072061",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps, but I find such progress difficult to describe. As an outsider, chances to engage in meaningful interactions with others are few and far between.",
+            "nextDialogs": [
+              "140072062"
+            ]
+          },
+          "140072062": {
+            "id": "140072062",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's why I'm quite thankful for this chat — such opportunities are rare. Alas, time is limited. We should move on with our investigation.",
+            "nextDialogs": [
+              "140072063"
+            ]
+          },
+          "140072063": {
+            "id": "140072063",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Are we gonna continue reading these documents? Ugh, Paimon's getting dizzy already.",
+            "nextDialogs": [
+              "140072064"
+            ]
+          },
+          "140072064": {
+            "id": "140072064",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "I wasn't able to find any leads even after browsing through most of the documents, but while we were on the topic of \"water\" a moment ago, another idea came to me.",
+            "nextDialogs": [
+              "140072065"
+            ]
+          },
+          "140072065": {
+            "id": "140072065",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Water? Do you mean...",
+            "nextDialogs": [
+              "140072066"
+            ]
+          },
+          "140072066": {
+            "id": "140072066",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "The Fountain of Lucine?",
+            "nextDialogs": [
+              "140072067"
+            ]
+          },
+          "140072067": {
+            "id": "140072067",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "That's right.",
+            "nextDialogs": [
+              "140072068"
+            ]
+          },
+          "140072068": {
+            "id": "140072068",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "The Fountain of Lucine is where all of Fontaine's waters converge. It is the vessel of countless memories and emotions.",
+            "nextDialogs": [
+              "140072069"
+            ]
+          },
+          "140072069": {
+            "id": "140072069",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "If there really were an organization attempting to use Melusines against me, they should also hold an intense resentment towards me.",
+            "nextDialogs": [
+              "140072070"
+            ]
+          },
+          "140072070": {
+            "id": "140072070",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps we'll be able to find some new leads by sensing the Hydro element within the fountain.",
+            "nextDialogs": [
+              "140072071"
+            ]
+          },
+          "140072071": {
+            "id": "140072071",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh. Why didn't Paimon think of that? C'mon, let's go take a look!",
+            "nextDialogs": [
+              "140072072"
+            ]
+          },
+          "140072072": {
+            "id": "140072072",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Perhaps we should go, there shouldn't be too many people near the Fountain of Lucine during the evening."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1400799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "140079901"
+        ],
+        "dialogs": {
+          "140079901": {
+            "id": "140079901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's been a while since we last saw Neuvillette. Paimon wonders what he's been up to.",
+            "nextDialogs": [
+              "140079902"
+            ]
+          },
+          "140079902": {
+            "id": "140079902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon has so many questions about his true identity... Let's go talk to him and find out!",
+            "nextDialogs": [
+              "140079903"
+            ]
+          },
+          "140079903": {
+            "id": "140079903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon's been thinking... You called yourself a \"fish out of water,\" right?",
+            "nextDialogs": [
+              "140079904"
+            ]
+          },
+          "140079904": {
+            "id": "140079904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But since you're the Hydro Dragon, wouldn't \"dragon out of water\" suit you better?",
+            "nextDialogs": [
+              "140079905"
+            ]
+          },
+          "140079905": {
+            "id": "140079905",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Thank you for your suggestion. I will consider using the more accurate term in private occasions.",
+            "nextDialogs": [
+              "140079906"
+            ]
+          },
+          "140079906": {
+            "id": "140079906",
+            "speakerId": 1076,
+            "speakerName": "Neuvillette",
+            "text": "Please allow me to rephrase: As a dragon out of water...",
+            "nextDialogs": [
+              "140079907"
+            ]
+          },
+          "140079907": {
+            "id": "140079907",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Pfft! That sounds kinda weird! Let's stick with the previous version instead.",
+            "nextDialogs": [
+              "140079908"
+            ]
+          },
+          "140079908": {
+            "id": "140079908",
+            "speakerId": 17161,
+            "speakerName": "Graciette",
+            "text": "I never thought I'd see him here...",
+            "nextDialogs": [
+              "140079909"
+            ]
+          },
+          "140079909": {
+            "id": "140079909",
+            "speakerId": 17162,
+            "speakerName": "Trudaine",
+            "text": "Does anyone have a Kamera?",
+            "nextDialogs": [
+              "140079910"
+            ]
+          },
+          "140079910": {
+            "id": "140079910",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So, Kiara, how old are you?",
+            "nextDialogs": [
+              "140079911"
+            ]
+          },
+          "140079911": {
+            "id": "140079911",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "Hmm, lemme think... One, two, ten... Uh, I can't remember.",
+            "nextDialogs": [
+              "140079912"
+            ]
+          },
+          "140079912": {
+            "id": "140079912",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "But I remember coming to the Court of Fontaine with Carole and Neuvillette. That must've been a long time ago.",
+            "nextDialogs": [
+              "140079913"
+            ]
+          },
+          "140079913": {
+            "id": "140079913",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Carole... Didn't Neuvillette mention her just now? That was more than four hundred years ago! Why would Paimon be a big sister to you?",
+            "nextDialogs": [
+              "140079914"
+            ]
+          },
+          "140079914": {
+            "id": "140079914",
+            "speakerId": 13503,
+            "speakerName": "Kiara",
+            "text": "My memory isn't that good, but Carole told me I could address others based on how I feel about them... Paimon feels a lot more grown-up than me, so you're Big Sis.",
+            "nextDialogs": [
+              "140079915"
+            ]
+          },
+          "140079915": {
+            "id": "140079915",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, Paimon sees...",
+            "nextDialogs": [
+              "140079916"
+            ]
+          },
+          "140079916": {
+            "id": "140079916",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hey {NICKNAME}, did you hear that?"
+          }
+        }
+      }
+    }
+  ]
+}

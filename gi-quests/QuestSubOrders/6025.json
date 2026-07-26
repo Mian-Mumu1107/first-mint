@@ -1,0 +1,4206 @@
+{
+  "lineCounts": {
+    "Albedo": 16,
+    "Black Screen": 2,
+    "Darimir": 2,
+    "Durin": 32,
+    "Flins": 36,
+    "Ilmatar": 1,
+    "Ina": 1,
+    "Jahoda": 15,
+    "Kari": 2,
+    "Katheryne": 8,
+    "Kettu": 2,
+    "Kielo": 1,
+    "Kuuti": 1,
+    "Lauma": 73,
+    "Luonnotar": 2,
+    "Mielitty": 1,
+    "Nefer": 24,
+    "Paimon": 100,
+    "Player": 67,
+    "Rimehorn Deer": 2,
+    "Sarakka": 2,
+    "Satatieto": 2,
+    "The Damselette": 30,
+    "Varka": 62,
+    "Veikko": 1,
+    "Wecksell": 1,
+    "Zirnytsia": 2
+  },
+  "subQuests": [
+    {
+      "subId": "602501",
+      "subQuestName": "Go to the Adventurers' Guild in Nasha Town",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250101"
+        ],
+        "dialogs": {
+          "60250101": {
+            "id": "60250101",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "Thank you for waiting. I've finished checking your Adventurer Handbook. Here are your commission rewards.",
+            "nextDialogs": [
+              "60250102"
+            ]
+          },
+          "60250102": {
+            "id": "60250102",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "We have no other urgent commissions on the books at present. Thank you for all your hard work lately. Perhaps you two could consider taking a vacation.",
+            "nextDialogs": [
+              "60250103"
+            ]
+          },
+          "60250103": {
+            "id": "60250103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Amazing! Paimon never thought we'd end up having down time in Nod-Krai.",
+            "nextDialogs": [
+              "60250104"
+            ]
+          },
+          "60250104": {
+            "id": "60250104",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Things were pretty hectic when we first got here. Everywhere you looked, it was either The Wild Hunt causing chaos or the Fatui stirring up trouble...",
+            "nextDialogs": [
+              "60250105"
+            ]
+          },
+          "60250105": {
+            "id": "60250105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It felt like this whole region was one giant slime-in-a-barrel, ready to go \"boom\" at any moment!",
+            "nextDialogs": [
+              "60250107",
+              "60250109"
+            ]
+          },
+          "60250107": {
+            "id": "60250107",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sure have... Things were looking pretty dicey, but in the end we managed to turn it around. ...Whoa, Paimon just got deja vu... Oh, that's right — it's because we've done this, like, a million times now, hehe.",
+            "nextDialogs": [
+              "60250110"
+            ]
+          },
+          "60250110": {
+            "id": "60250110",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "Ah, yes. Are you two aware that the Moon-Prayer Night is soon to take place?",
+            "nextDialogs": [
+              "60250111"
+            ]
+          },
+          "60250111": {
+            "id": "60250111",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! Lauma told us that was coming up soon.",
+            "nextDialogs": [
+              "60250112"
+            ]
+          },
+          "60250112": {
+            "id": "60250112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, why do you mention it, though? Do people in Nasha Town celebrate it too? Paimon thought it was just for Moon Goddess worshipers.",
+            "nextDialogs": [
+              "60250113"
+            ]
+          },
+          "60250113": {
+            "id": "60250113",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "You're partially right. Most people in Nasha Town just see the festival as an opportunity to do business. They do not concern themselves with the religious element.",
+            "nextDialogs": [
+              "60250114"
+            ]
+          },
+          "60250114": {
+            "id": "60250114",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "The festival was first celebrated by the Frostmoon Scions. On this day, they would wear Moon-Prayer Blossoms and celebrate the birth of the Moon Goddess through song and dance.",
+            "nextDialogs": [
+              "60250115"
+            ]
+          },
+          "60250115": {
+            "id": "60250115",
+            "speakerId": 7000,
+            "speakerName": "Katheryne",
+            "text": "They would also prepare food and handicrafts, and give them as gifts to others. Over time, it became Nod-Krai's most lively festival.",
+            "nextDialogs": [
+              "60250116"
+            ]
+          },
+          "60250116": {
+            "id": "60250116",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, sounds like fun!",
+            "nextDialogs": [
+              "60250117"
+            ]
+          },
+          "60250117": {
+            "id": "60250117",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm definitely up for it.",
+            "nextDialogs": [
+              "60250118"
+            ]
+          },
+          "60250118": {
+            "id": "60250118",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! Hehe, well, in the meantime, since Katheryne doesn't have any commissions for us, let's focus on some personal business instead.",
+            "nextDialogs": [
+              "60250119"
+            ]
+          },
+          "60250119": {
+            "id": "60250119",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "When we first got here, you mentioned that this was where your spaceship landed.",
+            "nextDialogs": [
+              "60250120"
+            ]
+          },
+          "60250120": {
+            "id": "60250120",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We didn't get to follow up on it at the time, 'cause we got wrapped up in that whole Rerir situation. But now, we can finally start investigating it properly!",
+            "nextDialogs": [
+              "60250121"
+            ]
+          },
+          "60250121": {
+            "id": "60250121",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Except, we have no idea where to start...",
+            "nextDialogs": [
+              "60250122"
+            ]
+          },
+          "60250122": {
+            "id": "60250122",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well... There's a saying Paimon's heard around these parts, which goes: \"If you lift up a rock, you'll find something you weren't looking for.\"",
+            "nextDialogs": [
+              "60250123"
+            ]
+          },
+          "60250123": {
+            "id": "60250123",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "By that logic, you'll never find what you're looking for while you're searching, but the moment you stop looking, it'll jump right out at you!",
+            "nextDialogs": [
+              "60250124"
+            ]
+          },
+          "60250124": {
+            "id": "60250124",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm not sure it's as simple as that...",
+            "nextDialogs": [
+              "60250125"
+            ]
+          },
+          "60250125": {
+            "id": "60250125",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Could be worth a try though, right? Anyway, Paimon suggests we focus on other stuff we wanna do for now, and just keep an ear out for spaceship-related intel as we go.",
+            "nextDialogs": [
+              "60250126"
+            ]
+          },
+          "60250126": {
+            "id": "60250126",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(We haven't seen Columbina in a while...)",
+            "nextDialogs": [
+              "60250127"
+            ]
+          },
+          "60250127": {
+            "id": "60250127",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(She used a huge amount of power in the final battle against Rerir, and has been much weaker since then.)",
+            "nextDialogs": [
+              "60250128"
+            ]
+          },
+          "60250128": {
+            "id": "60250128",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I don't know if I can do anything to genuinely help her... but surely a little chat can do no harm.)",
+            "nextDialogs": [
+              "60250129"
+            ]
+          },
+          "60250129": {
+            "id": "60250129",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(One other thing that concerns me is... We've seen no trace of The Doctor so far.)",
+            "nextDialogs": [
+              "60250130"
+            ]
+          },
+          "60250130": {
+            "id": "60250130",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's wrong? You look super serious all of a sudden.",
+            "nextDialogs": [
+              "60250131"
+            ]
+          },
+          "60250131": {
+            "id": "60250131",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I was just thinking about Columbina and The Doctor.",
+            "nextDialogs": [
+              "60250132"
+            ]
+          },
+          "60250132": {
+            "id": "60250132",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh!? Paimon gets why you'd be concerned about Columbina... But what does The Doctor have to do with anything?"
+          },
+          "60250109": {
+            "id": "60250109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, that's right! Another win for Teyvat's top duo!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602502",
+      "subQuestName": "Go to the Silvermoon Hall",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250201"
+        ],
+        "dialogs": {
+          "60250201": {
+            "id": "60250201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, she's sitting up!",
+            "nextDialogs": [
+              "60250202"
+            ]
+          },
+          "60250202": {
+            "id": "60250202",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Is me sitting here a rare sight?",
+            "nextDialogs": [
+              "60250203"
+            ]
+          },
+          "60250203": {
+            "id": "60250203",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No. We just thought you'd be resting.",
+            "nextDialogs": [
+              "60250204"
+            ]
+          },
+          "60250204": {
+            "id": "60250204",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Perhaps I would have been, were it not for the sudden arrival of some unexpected guests.",
+            "nextDialogs": [
+              "60250205"
+            ]
+          },
+          "60250205": {
+            "id": "60250205",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Not that I consider it a disturbance. After all, you are the only ones who are free to enter.",
+            "nextDialogs": [
+              "60250206"
+            ]
+          },
+          "60250206": {
+            "id": "60250206",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "...Would it not be a little unfriendly of me to lie down while we speak?",
+            "nextDialogs": [
+              "60250207"
+            ]
+          },
+          "60250207": {
+            "id": "60250207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I didn't realize you put so much thought into little things like that.",
+            "nextDialogs": [
+              "60250208"
+            ]
+          },
+          "60250208": {
+            "id": "60250208",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Only sometimes. There have been moments lately where I think about you and your companions.",
+            "nextDialogs": [
+              "60250209"
+            ]
+          },
+          "60250209": {
+            "id": "60250209",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "They are warm, mysterious, and cozy memories. Very few of my past memories are anything like that.",
+            "nextDialogs": [
+              "60250210"
+            ]
+          },
+          "60250210": {
+            "id": "60250210",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "...They say that travelers return home bearing bags full of souvenirs. But my luggage was empty, and I believed it would stay that way.",
+            "nextDialogs": [
+              "60250211"
+            ]
+          },
+          "60250211": {
+            "id": "60250211",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Return home...? So, you're still planning on returning to the moon...",
+            "nextDialogs": [
+              "60250212"
+            ]
+          },
+          "60250212": {
+            "id": "60250212",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Yes. This planet continues to reject me, reminding me that I do not belong here.",
+            "nextDialogs": [
+              "60250213"
+            ]
+          },
+          "60250213": {
+            "id": "60250213",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "If I remain in Teyvat, there will come a day that I disintegrate. And I don't mean reduced to dust, or turned into food for the flowers. I mean, I will cease to exist entirely.",
+            "nextDialogs": [
+              "60250214"
+            ]
+          },
+          "60250214": {
+            "id": "60250214",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright then. Well, we're sure gonna miss you... but it sounds like we'll have to say goodbye.",
+            "nextDialogs": [
+              "60250215"
+            ]
+          },
+          "60250215": {
+            "id": "60250215",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How do you intend to return?",
+            "nextDialogs": [
+              "60250216"
+            ]
+          },
+          "60250216": {
+            "id": "60250216",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "The Moon-Prayer Night is soon to arrive. On that day, the moon will be closest to Teyvat.",
+            "nextDialogs": [
+              "60250217"
+            ]
+          },
+          "60250217": {
+            "id": "60250217",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "The kuuvahki in this land will reach its peak at that time. I merely need to grasp the tide, and with relatively little effort...",
+            "nextDialogs": [
+              "60250218"
+            ]
+          },
+          "60250218": {
+            "id": "60250218",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, Paimon gets it. It'll work like a slingshot!",
+            "nextDialogs": [
+              "60250219"
+            ]
+          },
+          "60250219": {
+            "id": "60250219",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You make it sound like she's gonna get blasted up to the moon.",
+            "nextDialogs": [
+              "60250220"
+            ]
+          },
+          "60250220": {
+            "id": "60250220",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "If I did that, I suspect I would crash into the false sky.",
+            "nextDialogs": [
+              "60250221"
+            ]
+          },
+          "60250221": {
+            "id": "60250221",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "I will be using a much gentler approach. But I do like the analogy. It's fun.",
+            "nextDialogs": [
+              "60250222"
+            ]
+          },
+          "60250222": {
+            "id": "60250222",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, you see? She gets Paimon's sense of humor.",
+            "nextDialogs": [
+              "60250223"
+            ]
+          },
+          "60250223": {
+            "id": "60250223",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "In the blink of an eye, the time has come to part ways.",
+            "nextDialogs": [
+              "60250224"
+            ]
+          },
+          "60250224": {
+            "id": "60250224",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "It does feel that way, doesn't it? Time seems to fly fastest when you are enjoying it.",
+            "nextDialogs": [
+              "60250225"
+            ]
+          },
+          "60250225": {
+            "id": "60250225",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "I have always thought of myself as a wanderer on this earth. And it has never expressed any desire to keep me here.",
+            "nextDialogs": [
+              "60250226"
+            ]
+          },
+          "60250226": {
+            "id": "60250226",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Yet just as I plan to depart, it tugs at my arm... Is this a gesture of affection, or is the world mocking me?",
+            "nextDialogs": [
+              "60250227"
+            ]
+          },
+          "60250227": {
+            "id": "60250227",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Oh... Were you hoping I can answer that?",
+            "nextDialogs": [
+              "60250228"
+            ]
+          },
+          "60250228": {
+            "id": "60250228",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Yes. You are a Traveler, so you must have a lot of experience in this area.",
+            "nextDialogs": [
+              "60250229"
+            ]
+          },
+          "60250229": {
+            "id": "60250229",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Then, what I would say is... enjoy the moment.",
+            "nextDialogs": [
+              "60250230"
+            ]
+          },
+          "60250230": {
+            "id": "60250230",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's right! Don't overthink it. Happiness is happiness, and joy is joy. The point is to enjoy it, not analyze it.",
+            "nextDialogs": [
+              "60250231"
+            ]
+          },
+          "60250231": {
+            "id": "60250231",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "I see. Then, what I would say is... even though I am very tired right now, I am still happy.",
+            "nextDialogs": [
+              "60250232"
+            ]
+          },
+          "60250232": {
+            "id": "60250232",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I can't tell from the tone of your voice.",
+            "nextDialogs": [
+              "60250233"
+            ]
+          },
+          "60250233": {
+            "id": "60250233",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Oh, really? You... don't think I sound happy?",
+            "nextDialogs": [
+              "60250234"
+            ]
+          },
+          "60250234": {
+            "id": "60250234",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm just kidding. I could tell you were in a good mood today from the moment we saw you.",
+            "nextDialogs": [
+              "60250235"
+            ]
+          },
+          "60250235": {
+            "id": "60250235",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Ah. A joke. Albeit not a funny one.",
+            "nextDialogs": [
+              "60250236"
+            ]
+          },
+          "60250236": {
+            "id": "60250236",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Anyway. I assume you're here about you-know-what? Give me your hand.",
+            "nextDialogs": [
+              "60250237"
+            ]
+          },
+          "60250237": {
+            "id": "60250237",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Actually, it's not that. There's something else we wanted to discuss with you.",
+            "nextDialogs": [
+              "60250238"
+            ]
+          },
+          "60250238": {
+            "id": "60250238",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Oh. Then, do you still want to give me your hand, or not?",
+            "nextDialogs": [
+              "60250239"
+            ]
+          },
+          "60250239": {
+            "id": "60250239",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Sure.",
+            "nextDialogs": [
+              "60250240"
+            ]
+          },
+          "60250240": {
+            "id": "60250240",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thank you. So, I've heard that in the Moon-Prayer Nights of the past, people here would hold celebrations in the Moon Goddess's honor.",
+            "nextDialogs": [
+              "60250241"
+            ]
+          },
+          "60250241": {
+            "id": "60250241",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Since you helped so much in our fight against the Rächer of Solnari, I think you deserve a farewell party before you return home.",
+            "nextDialogs": [
+              "60250242"
+            ]
+          },
+          "60250242": {
+            "id": "60250242",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I haven't asked everyone else for their opinions on this yet, but I'd like to invite you to join the upcoming Moon-Prayer Night.",
+            "nextDialogs": [
+              "60250243"
+            ]
+          },
+          "60250243": {
+            "id": "60250243",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "...I've never joined a Moon-Prayer Night before. I'm not sure what I would even do.",
+            "nextDialogs": [
+              "60250244"
+            ]
+          },
+          "60250244": {
+            "id": "60250244",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, don't worry about that. We'd take care of everything! All you'd need to do is show up.",
+            "nextDialogs": [
+              "60250245"
+            ]
+          },
+          "60250245": {
+            "id": "60250245",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Of course, there's no need to force it if you're not feeling strong enough. It's just, this kinda felt like a golden opportunity...",
+            "nextDialogs": [
+              "60250246"
+            ]
+          },
+          "60250246": {
+            "id": "60250246",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "But, they call me Kuutar. And the Fatui have an arrest warrant out for me. I shouldn't appear in public right now...",
+            "nextDialogs": [
+              "60250247"
+            ]
+          },
+          "60250247": {
+            "id": "60250247",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Yeah, there will definitely be complications... but...)",
+            "nextDialogs": [
+              "60250248"
+            ]
+          },
+          "60250248": {
+            "id": "60250248",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll make it work. You have my word.",
+            "nextDialogs": [
+              "60250249"
+            ]
+          },
+          "60250249": {
+            "id": "60250249",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Yeah, we got your back! Well, {M#he}{F#she} does. Paimon's actually not too sure what {M#he's}{F#she's} planning...",
+            "nextDialogs": [
+              "60250250"
+            ]
+          },
+          "60250250": {
+            "id": "60250250",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Alright. If you're sure... I will not refuse your invitation.",
+            "nextDialogs": [
+              "60250251"
+            ]
+          },
+          "60250251": {
+            "id": "60250251",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "I suppose it wouldn't hurt to pack a few more sights from this world into my suitcase before finally learning what my homeland looks like.",
+            "nextDialogs": [
+              "60250252"
+            ]
+          },
+          "60250252": {
+            "id": "60250252",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Oh, if you see Lauma, please tell her that my answer to the question she asked me is neither \"yes\" nor \"no.\"",
+            "nextDialogs": [
+              "60250253"
+            ]
+          },
+          "60250253": {
+            "id": "60250253",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "Rather, it is \"there is no need.\"",
+            "nextDialogs": [
+              "60250254"
+            ]
+          },
+          "60250254": {
+            "id": "60250254",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uhh... That was kinda cryptic, but sure. Guess it's between the two of you. We'll pass along the message. Bye for now!",
+            "nextDialogs": [
+              "60250255"
+            ]
+          },
+          "60250255": {
+            "id": "60250255",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "...",
+            "nextDialogs": [
+              "60250256"
+            ]
+          },
+          "60250256": {
+            "id": "60250256",
+            "speakerId": 1318,
+            "speakerName": "The Damselette",
+            "text": "And also... I do not know..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602503",
+      "subQuestName": "Return to Hiisi Island",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250301"
+        ],
+        "dialogs": {
+          "60250301": {
+            "id": "60250301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey Lauma, it's us! ...Huh? Varka? What are you doing here?",
+            "nextDialogs": [
+              "60250302"
+            ]
+          },
+          "60250302": {
+            "id": "60250302",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Hahaha, beats me. I had a bit too much to drink last night, and when I woke up, I was on Hiisi Island.",
+            "nextDialogs": [
+              "60250303"
+            ]
+          },
+          "60250303": {
+            "id": "60250303",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Mr. Varka is helping to oversee Nasha Town's preparations for Moon-Prayer Night. He is here to go over some details regarding the decorations and custom cloth designs.",
+            "nextDialogs": [
+              "60250304"
+            ]
+          },
+          "60250304": {
+            "id": "60250304",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Right, yeah. That too.",
+            "nextDialogs": [
+              "60250305"
+            ]
+          },
+          "60250305": {
+            "id": "60250305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What do you mean, \"that too\"!?",
+            "nextDialogs": [
+              "60250306"
+            ]
+          },
+          "60250306": {
+            "id": "60250306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, preparations are already underway?",
+            "nextDialogs": [
+              "60250307"
+            ]
+          },
+          "60250307": {
+            "id": "60250307",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Yes. Celebrating this festival is a long-held tradition here in Nod-Krai.",
+            "nextDialogs": [
+              "60250308"
+            ]
+          },
+          "60250308": {
+            "id": "60250308",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "On this day, the crescent moon at the top branches of the Verdant Crest turns into a full moon, and the Moon-Prayer Blossoms bloom with a special radiance. Our people take these to be blessed omens.",
+            "nextDialogs": [
+              "60250309"
+            ]
+          },
+          "60250309": {
+            "id": "60250309",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "It's an especially welcome event coming off the back of all that nasty business with Rerir. Everyone got put through the wringer recently, and now they're looking to turn their fortunes around.",
+            "nextDialogs": [
+              "60250310"
+            ]
+          },
+          "60250310": {
+            "id": "60250310",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "The big shots in town all agree that a big, lively celebration is just what we need to rebuild people's faith in this place.",
+            "nextDialogs": [
+              "60250311"
+            ]
+          },
+          "60250311": {
+            "id": "60250311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "No wonder Katheryne said that people weren't so bothered about the religious element.",
+            "nextDialogs": [
+              "60250312"
+            ]
+          },
+          "60250312": {
+            "id": "60250312",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "That's right, it's become more of a local custom by this point. The celebrations have little to do with whether the religious stories behind this event are true or not.",
+            "nextDialogs": [
+              "60250313"
+            ]
+          },
+          "60250313": {
+            "id": "60250313",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Even the Frostmoon Scions are eagerly awaiting the coming of Moon-Prayer Night, despite now knowing that their past beliefs were founded on a falsehood.",
+            "nextDialogs": [
+              "60250314"
+            ]
+          },
+          "60250314": {
+            "id": "60250314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's fair. It's a bit like the Lantern Rite in Liyue. It's a chance for people to enjoy themselves, not debate the existence of the adepti.",
+            "nextDialogs": [
+              "60250317"
+            ]
+          },
+          "60250317": {
+            "id": "60250317",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, one other thing — we just went to see Columbina. We went ahead and invited her to take part in the festival this time. Hope that's okay.",
+            "nextDialogs": [
+              "60250318"
+            ]
+          },
+          "60250318": {
+            "id": "60250318",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Wait, so... You mean, she agreed to it? Huh. That's quite a surprise.",
+            "nextDialogs": [
+              "60250319"
+            ]
+          },
+          "60250319": {
+            "id": "60250319",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Then I suppose that she intends to return to the moon on that day.",
+            "nextDialogs": [
+              "60250320"
+            ]
+          },
+          "60250320": {
+            "id": "60250320",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, yeah. It's kind of a complicated process, but basically... Uh... It's like a slingshot!",
+            "nextDialogs": [
+              "60250321"
+            ]
+          },
+          "60250321": {
+            "id": "60250321",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "She probably shouldn't have endorsed your metaphor...",
+            "nextDialogs": [
+              "60250322"
+            ]
+          },
+          "60250322": {
+            "id": "60250322",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I understand. Hm... In truth, I had a feeling that she might make such a decision.",
+            "nextDialogs": [
+              "60250323"
+            ]
+          },
+          "60250323": {
+            "id": "60250323",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Well, if Kuutar has decided to participate in the festival, we should prepare accordingly.",
+            "nextDialogs": [
+              "60250324"
+            ]
+          },
+          "60250324": {
+            "id": "60250324",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, exactly! She was saying how it could be risky for her to show her face in public. We were wondering if there was any way we could hide her...",
+            "nextDialogs": [
+              "60250325"
+            ]
+          },
+          "60250325": {
+            "id": "60250325",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Hmm... Unfortunately, the people who carved the statues did an excellent job of capturing her likeness. It will be very challenging to hide a goddess whose face everyone is so familiar with...",
+            "nextDialogs": [
+              "60250326"
+            ]
+          },
+          "60250326": {
+            "id": "60250326",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Darn. We may have bitten off more than we can chew here...",
+            "nextDialogs": [
+              "60250327"
+            ]
+          },
+          "60250327": {
+            "id": "60250327",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Ah, don't sweat the small stuff! We can handle that.",
+            "nextDialogs": [
+              "60250328"
+            ]
+          },
+          "60250328": {
+            "id": "60250328",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Are you saying you have a plan?",
+            "nextDialogs": [
+              "60250329"
+            ]
+          },
+          "60250329": {
+            "id": "60250329",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Not as such, no. But the most important thing with a festival is to keep the mood light and your spirits up.",
+            "nextDialogs": [
+              "60250330"
+            ]
+          },
+          "60250330": {
+            "id": "60250330",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "You can't go preparing for a festival with those long faces. You'll never convince anyone to enjoy themselves!",
+            "nextDialogs": [
+              "60250331"
+            ]
+          },
+          "60250331": {
+            "id": "60250331",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Mondstadter spirit is strong with this one...",
+            "nextDialogs": [
+              "60250332"
+            ]
+          },
+          "60250332": {
+            "id": "60250332",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "As it happens, I agree with Mr. Varka.",
+            "nextDialogs": [
+              "60250333"
+            ]
+          },
+          "60250333": {
+            "id": "60250333",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Let's start by making our appreciation for Kuutar the beating heart of the festive atmosphere.",
+            "nextDialogs": [
+              "60250334"
+            ]
+          },
+          "60250334": {
+            "id": "60250334",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And who knows? Once we get the ball rolling, perhaps everything will just... fall into place?",
+            "nextDialogs": [
+              "60250335"
+            ]
+          },
+          "60250335": {
+            "id": "60250335",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! Did you catch that? Lauma said the thing! Or, close enough at least!",
+            "nextDialogs": [
+              "60250336"
+            ]
+          },
+          "60250336": {
+            "id": "60250336",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Hmm...?",
+            "nextDialogs": [
+              "60250337"
+            ]
+          },
+          "60250337": {
+            "id": "60250337",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Haha, I'm looking forward to the Moon-Prayer Night already... We have a festival in Mondstadt called Windblume, and you could always tell which couples are celebrating it for their first time by the smiles on their faces. Big, beaming smiles, like their whole face is glowing.",
+            "nextDialogs": [
+              "60250338"
+            ]
+          },
+          "60250338": {
+            "id": "60250338",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "And I have a feeling we'll get to see that same smile on the Moon Goddess's face at this festival.",
+            "nextDialogs": [
+              "60250339"
+            ]
+          },
+          "60250339": {
+            "id": "60250339",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uhh... Not quite the same, surely...",
+            "nextDialogs": [
+              "60250340"
+            ]
+          },
+          "60250340": {
+            "id": "60250340",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Anyway, I'll take care of business in the city, but I'll have to leave the decor up to you and the Frostmoon Scions. No one else can capture that traditional aesthetic quite like you guys.",
+            "nextDialogs": [
+              "60250341"
+            ]
+          },
+          "60250341": {
+            "id": "60250341",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "But lastly, there's the final key element that brings the festival to life — companionship.",
+            "nextDialogs": [
+              "60250342"
+            ]
+          },
+          "60250342": {
+            "id": "60250342",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "We'll take care of that part.",
+            "nextDialogs": [
+              "60250343"
+            ]
+          },
+          "60250343": {
+            "id": "60250343",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Before you leave, let me show you something that we've been preparing. Mr. Varka had asked to see it already, so you may as well tag along.",
+            "nextDialogs": [
+              "60250344"
+            ]
+          },
+          "60250344": {
+            "id": "60250344",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Also, I have some further questions about Kuutar's decision."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602504",
+      "subQuestName": "Follow Lauma and look around",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250401"
+        ],
+        "dialogs": {
+          "60250401": {
+            "id": "60250401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh. What's this? They sure look like they're having fun.",
+            "nextDialogs": [
+              "60250402"
+            ]
+          },
+          "60250402": {
+            "id": "60250402",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I believe so. Kuuhenki seem very skilled at playing drums like these, although I'm not sure where they learned it from...",
+            "nextDialogs": [
+              "60250403"
+            ]
+          },
+          "60250403": {
+            "id": "60250403",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Maybe it's an innate talent? In their eyes, they're probably just playing with toys.",
+            "nextDialogs": [
+              "60250404"
+            ]
+          },
+          "60250404": {
+            "id": "60250404",
+            "speakerId": 15380,
+            "speakerName": "Luonnotar",
+            "text": "...!",
+            "nextDialogs": [
+              "60250405"
+            ]
+          },
+          "60250405": {
+            "id": "60250405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Luonnotar! You wanna play too?",
+            "nextDialogs": [
+              "60250406"
+            ]
+          },
+          "60250406": {
+            "id": "60250406",
+            "speakerId": 15380,
+            "speakerName": "Luonnotar",
+            "text": "...?",
+            "nextDialogs": [
+              "60250407"
+            ]
+          },
+          "60250407": {
+            "id": "60250407",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Guess not...",
+            "nextDialogs": [
+              "60250408"
+            ]
+          },
+          "60250408": {
+            "id": "60250408",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Yeah... She looks more confused than anything.",
+            "nextDialogs": [
+              "60250409"
+            ]
+          },
+          "60250409": {
+            "id": "60250409",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Maybe we can teach her next time if we get the chance."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602505",
+      "subQuestName": "Continue following Lauma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250601"
+        ],
+        "dialogs": {
+          "60250601": {
+            "id": "60250601",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Let's talk here. To tell the truth, I am very surprised to hear that Kuutar is willing to participate in the festival.",
+            "nextDialogs": [
+              "60250602"
+            ]
+          },
+          "60250602": {
+            "id": "60250602",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I once asked her if she'd be willing to stay with the Frostmoon Scions. I could introduce her to everyone, and we could be a family to one another.",
+            "nextDialogs": [
+              "60250603"
+            ]
+          },
+          "60250603": {
+            "id": "60250603",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "She did not answer, but she has not appeared here since.",
+            "nextDialogs": [
+              "60250604"
+            ]
+          },
+          "60250604": {
+            "id": "60250604",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I took this to mean her answer was \"no,\" but if that were the case, she would not have accepted this invitation...",
+            "nextDialogs": [
+              "60250607"
+            ]
+          },
+          "60250607": {
+            "id": "60250607",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Ah...",
+            "nextDialogs": [
+              "60250608"
+            ]
+          },
+          "60250608": {
+            "id": "60250608",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I see... Maybe she is right. Maybe the Frostmoon Scions of today no longer need a Moon Goddess.",
+            "nextDialogs": [
+              "60250609"
+            ]
+          },
+          "60250609": {
+            "id": "60250609",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "But my wish was not for her to come here and be worshiped as a deity. I simply wanted to offer her a place to stay.",
+            "nextDialogs": [
+              "60250610"
+            ]
+          },
+          "60250610": {
+            "id": "60250610",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I'm sure she believes that showing herself here might invite Fatui intervention, and as such, she does not wish to cause us trouble.",
+            "nextDialogs": [
+              "60250611"
+            ]
+          },
+          "60250611": {
+            "id": "60250611",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "But what really pains me about all this is that... This is her birthplace, she ought to belong here, yet no one has been able to grant her shelter.",
+            "nextDialogs": [
+              "60250612"
+            ]
+          },
+          "60250612": {
+            "id": "60250612",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I think I'm qualified to weigh in here... When someone's about to depart on a long trip, what they need is blessings, not burdens. We should wish her the best, not make the journey harder than it already is.",
+            "nextDialogs": [
+              "60250613"
+            ]
+          },
+          "60250613": {
+            "id": "60250613",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Anyway, she's agreed to attend, hasn't she? All we need to do is simply respect her decision.",
+            "nextDialogs": [
+              "60250614"
+            ]
+          },
+          "60250614": {
+            "id": "60250614",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I see your point... Yes, she will soon depart, after all.",
+            "nextDialogs": [
+              "60250615"
+            ]
+          },
+          "60250615": {
+            "id": "60250615",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Our job is to leave her with some happy memories. Besides, who's to say her journey to the moon is a one-way trip? It's not like she can't come back and visit if she wants, right?",
+            "nextDialogs": [
+              "60250616"
+            ]
+          },
+          "60250616": {
+            "id": "60250616",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon agrees wholeheartedly! Festivals are all about having fun, so let's keep it simple!",
+            "nextDialogs": [
+              "60250617"
+            ]
+          },
+          "60250617": {
+            "id": "60250617",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Alright, I'm gonna head back to Nasha Town soon. Wanna come with? I'm guessing you have some other folks to visit there.",
+            "nextDialogs": [
+              "60250618"
+            ]
+          },
+          "60250618": {
+            "id": "60250618",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sure thing, let's go. Bye for now, Lauma!",
+            "nextDialogs": [
+              "60250619"
+            ]
+          },
+          "60250619": {
+            "id": "60250619",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Thank you all. Goodbye.",
+            "nextDialogs": [
+              "60250620"
+            ]
+          },
+          "60250620": {
+            "id": "60250620",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(A traveler needs blessings, not burdens...)",
+            "nextDialogs": [
+              "60250621"
+            ]
+          },
+          "60250621": {
+            "id": "60250621",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(It sounds good in principle. But will blessings alone be enough for Columbina?)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602507",
+      "subQuestName": "Return to Nasha Town together with Varka",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250701"
+        ],
+        "dialogs": {
+          "60250701": {
+            "id": "60250701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm? Hey, over there... It's Durin and Albedo with Flins. What could they be chatting about?",
+            "nextDialogs": [
+              "60250702"
+            ]
+          },
+          "60250702": {
+            "id": "60250702",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Your guess is as good as mine.",
+            "nextDialogs": [
+              "60250703"
+            ]
+          },
+          "60250703": {
+            "id": "60250703",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "#Ah, Grand Master. And {NICKNAME} and Paimon.",
+            "nextDialogs": [
+              "60250704"
+            ]
+          },
+          "60250704": {
+            "id": "60250704",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Hello there. It's been a while.",
+            "nextDialogs": [
+              "60250705"
+            ]
+          },
+          "60250705": {
+            "id": "60250705",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Perfect, we have some new volunteers for our investigation.",
+            "nextDialogs": [
+              "60250706"
+            ]
+          },
+          "60250706": {
+            "id": "60250706",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sorry, what investigation?",
+            "nextDialogs": [
+              "60250707"
+            ]
+          },
+          "60250707": {
+            "id": "60250707",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Wait, wait, let me guess... The righteous Lightkeepers are finally ready to hunt down the Abyssal dragon?",
+            "nextDialogs": [
+              "60250708"
+            ]
+          },
+          "60250708": {
+            "id": "60250708",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Haha. Yes, that too.",
+            "nextDialogs": [
+              "60250709"
+            ]
+          },
+          "60250709": {
+            "id": "60250709",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, right! Uh... Wait, why does everyone keep saying \"that too\"?",
+            "nextDialogs": [
+              "60250710"
+            ]
+          },
+          "60250710": {
+            "id": "60250710",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Well, to be precise, the facts match, but not the causality.",
+            "nextDialogs": [
+              "60250711"
+            ]
+          },
+          "60250711": {
+            "id": "60250711",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Wait, so I guessed right!?",
+            "nextDialogs": [
+              "60250712"
+            ]
+          },
+          "60250712": {
+            "id": "60250712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Half right! Don't act so impressed with yourself!",
+            "nextDialogs": [
+              "60250713"
+            ]
+          },
+          "60250713": {
+            "id": "60250713",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Um, maybe I can explain... We ran into Mr. Flins north of Nasha Town.",
+            "nextDialogs": [
+              "60250714"
+            ]
+          },
+          "60250714": {
+            "id": "60250714",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "At that time, we'd just noticed a few Abyssal creatures out in the wild, but the strange thing was... I didn't detect any traces of Abyssal energy on them at all.",
+            "nextDialogs": [
+              "60250715"
+            ]
+          },
+          "60250715": {
+            "id": "60250715",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "On closer inspection, we realized that they were not real monsters, but something akin to reflections in the water... or perhaps a mirage.",
+            "nextDialogs": [
+              "60250716"
+            ]
+          },
+          "60250716": {
+            "id": "60250716",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? What do you mean? Like, you could see them but not touch them?",
+            "nextDialogs": [
+              "60250717"
+            ]
+          },
+          "60250717": {
+            "id": "60250717",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Exactly. It was very peculiar. They roared and tried to attack us, but we could not make any physical contact with them.",
+            "nextDialogs": [
+              "60250718"
+            ]
+          },
+          "60250718": {
+            "id": "60250718",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I think I've heard of things like that happening in Nod-Krai before... but I don't know much about it.",
+            "nextDialogs": [
+              "60250719"
+            ]
+          },
+          "60250719": {
+            "id": "60250719",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Yes, it's a known phenomenon. Mirage-like illusions tend to appear in Nod-Krai in the run-up to Moon-Prayer Night.",
+            "nextDialogs": [
+              "60250720"
+            ]
+          },
+          "60250720": {
+            "id": "60250720",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "From a distance, they appear quite real.",
+            "nextDialogs": [
+              "60250721"
+            ]
+          },
+          "60250721": {
+            "id": "60250721",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I myself thought that Misters Durin and Albedo were locked in battle with Abyssal monsters when I first arrived.",
+            "nextDialogs": [
+              "60250722"
+            ]
+          },
+          "60250722": {
+            "id": "60250722",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "But after sharing intel and investigating a little further, we can confirm that these illusions are harmless. There is no great cause for concern.",
+            "nextDialogs": [
+              "60250725"
+            ]
+          },
+          "60250725": {
+            "id": "60250725",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Hmm. All the mirage stories I've heard are either animals, rocks, or small houses. Abyssal monsters, though? That's a first.",
+            "nextDialogs": [
+              "60250726"
+            ]
+          },
+          "60250726": {
+            "id": "60250726",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "It's a first for me, too, so I'm planning to look into it further just to be on the safe side. I intend to inspect a few more locations.",
+            "nextDialogs": [
+              "60250727"
+            ]
+          },
+          "60250727": {
+            "id": "60250727",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "What about you two? Any plans?",
+            "nextDialogs": [
+              "60250728"
+            ]
+          },
+          "60250728": {
+            "id": "60250728",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Alice contacted me a few days ago. She'd like me and Durin to assist her with an experiment.",
+            "nextDialogs": [
+              "60250729"
+            ]
+          },
+          "60250729": {
+            "id": "60250729",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "But we lost contact shortly after receiving the message. I'm sure that comes as no surprise to anyone familiar with her.",
+            "nextDialogs": [
+              "60250730"
+            ]
+          },
+          "60250730": {
+            "id": "60250730",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "We don't know when the wind will blow, yet when the wind blows, we will know. That, in a nutshell, describes how Alice operates.",
+            "nextDialogs": [
+              "60250731"
+            ]
+          },
+          "60250731": {
+            "id": "60250731",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah. That tracks.",
+            "nextDialogs": [
+              "60250732"
+            ]
+          },
+          "60250732": {
+            "id": "60250732",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Okay. Well, I suggest we investigate this mirage business in the meantime. It's piqued my curiosity, and I'm pretty sure I know someone who will already be ten steps ahead of us.",
+            "nextDialogs": [
+              "60250733"
+            ]
+          },
+          "60250733": {
+            "id": "60250733",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Hah, well said.",
+            "nextDialogs": [
+              "60250734"
+            ]
+          },
+          "60250734": {
+            "id": "60250734",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Right? Whatever's happening in Nod-Krai, she always seems to be the first one to know.",
+            "nextDialogs": [
+              "60250735"
+            ]
+          },
+          "60250735": {
+            "id": "60250735",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's go see what she knows. We can invite her and her staff to the festival while we're at it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602508",
+      "subQuestName": "Visit the Curatorium of Secrets",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250801"
+        ],
+        "dialogs": {
+          "60250801": {
+            "id": "60250801",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "You're right, I have noticed. There's certainly something a little fishy about this situation. Only a little, though.",
+            "nextDialogs": [
+              "60250802"
+            ]
+          },
+          "60250802": {
+            "id": "60250802",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Records indicate that this phenomenon can occur in the days before and following Moon-Prayer Night. That said, it has always been a rare sight in the past.",
+            "nextDialogs": [
+              "60250803"
+            ]
+          },
+          "60250803": {
+            "id": "60250803",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "The odds of encountering these phantoms are similar to looking up in the night sky, happening to see a shooting star, and managing to make a wish before it disappears.",
+            "nextDialogs": [
+              "60250804"
+            ]
+          },
+          "60250804": {
+            "id": "60250804",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "But this time... either everyone's getting lucky, or they're appearing far more frequently than usual.",
+            "nextDialogs": [
+              "60250805"
+            ]
+          },
+          "60250805": {
+            "id": "60250805",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Jahoda's out gathering intel as we speak. In the meantime, let me check off some points of interest.",
+            "nextDialogs": [
+              "60250806"
+            ]
+          },
+          "60250806": {
+            "id": "60250806",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "First, the Abyss.",
+            "nextDialogs": [
+              "60250807"
+            ]
+          },
+          "60250807": {
+            "id": "60250807",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "The ones we saw seemed to be Abyssal monsters.",
+            "nextDialogs": [
+              "60250808"
+            ]
+          },
+          "60250808": {
+            "id": "60250808",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Indeed. But we have identified one location where many more of them have made an appearance. And not just monsters, but human phantoms, too.",
+            "nextDialogs": [
+              "60250809"
+            ]
+          },
+          "60250809": {
+            "id": "60250809",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Given the scale and nature of the phantoms, it's almost as if... someone's last memories are coming to life. Or perhaps the memories of multiple people.",
+            "nextDialogs": [
+              "60250810"
+            ]
+          },
+          "60250810": {
+            "id": "60250810",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh...",
+            "nextDialogs": [
+              "60250811"
+            ]
+          },
+          "60250811": {
+            "id": "60250811",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "So you mean, the phantom monsters are hunting down the phantom humans?",
+            "nextDialogs": [
+              "60250812"
+            ]
+          },
+          "60250812": {
+            "id": "60250812",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Exactly. The phantoms can interact with each other, but we have no means of intervening.",
+            "nextDialogs": [
+              "60250813"
+            ]
+          },
+          "60250813": {
+            "id": "60250813",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "In addition, some of the human phantoms would seem to be from the very distant past. This is clear both from the clothing they wear and the stories they tell.",
+            "nextDialogs": [
+              "60250814"
+            ]
+          },
+          "60250814": {
+            "id": "60250814",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "They claim to be from Hyperborea — a name which I've heard from Lauma before. If this is true, it means they must be from 6,000 years ago...",
+            "nextDialogs": [
+              "60250815"
+            ]
+          },
+          "60250815": {
+            "id": "60250815",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did Paimon hear that right? Six thousand years!?",
+            "nextDialogs": [
+              "60250816"
+            ]
+          },
+          "60250816": {
+            "id": "60250816",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "It sounds like this merits further exploration.",
+            "nextDialogs": [
+              "60250817"
+            ]
+          },
+          "60250817": {
+            "id": "60250817",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "That'd be a big help. I'll leave it with you, Albedo — my knowledge of ancient history is non-existent. I used to doze off every time the pre-Knights of Favonius era came up in class...",
+            "nextDialogs": [
+              "60250818"
+            ]
+          },
+          "60250818": {
+            "id": "60250818",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "It's quite a miracle that you were able to understand these phantoms' speech, given how long ago they lived.",
+            "nextDialogs": [
+              "60250819"
+            ]
+          },
+          "60250819": {
+            "id": "60250819",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "I suppose you're right. But I'll leave the archaeologists to ruminate over that conundrum. As an intelligence broker, my sole interest is in the value of the information I gather.",
+            "nextDialogs": [
+              "60250820"
+            ]
+          },
+          "60250820": {
+            "id": "60250820",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Which, in this case, hopefully means earning myself some good favor with our dear Lady Moonchanter.",
+            "nextDialogs": [
+              "60250821"
+            ]
+          },
+          "60250821": {
+            "id": "60250821",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So calculating... This intel broker logic always catches Paimon by surprise.",
+            "nextDialogs": [
+              "60250822"
+            ]
+          },
+          "60250822": {
+            "id": "60250822",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Sounds to me like we can split the work up.",
+            "nextDialogs": [
+              "60250823"
+            ]
+          },
+          "60250823": {
+            "id": "60250823",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "I think the Abyssal phenomenon is best left to Albedo, Flins, and me.",
+            "nextDialogs": [
+              "60250824"
+            ]
+          },
+          "60250824": {
+            "id": "60250824",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Agreed. It coincides with my duty as a Lightkeeper.",
+            "nextDialogs": [
+              "60250825"
+            ]
+          },
+          "60250825": {
+            "id": "60250825",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "For my part, I'd like to understand the Abyss better. Even a little knowledge would go a long way.",
+            "nextDialogs": [
+              "60250826"
+            ]
+          },
+          "60250826": {
+            "id": "60250826",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "This is certainly a rare opportunity to study the Abyss. But even rarer, perhaps, is the chance to make contact with the ancients.",
+            "nextDialogs": [
+              "60250827"
+            ]
+          },
+          "60250827": {
+            "id": "60250827",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "The Curatorium will take the lead on investigating the Hyperboreans. We put in the work to learn what we know so far — it seems only fair that we get some quantity of exclusive intel.",
+            "nextDialogs": [
+              "60250828"
+            ]
+          },
+          "60250828": {
+            "id": "60250828",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "That just leaves our trusty team of two unassigned.",
+            "nextDialogs": [
+              "60250831"
+            ]
+          },
+          "60250831": {
+            "id": "60250831",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Since you became an Honorary Knight, of course. This was part of my grand plan all along, hahaha!",
+            "nextDialogs": [
+              "60250832"
+            ]
+          },
+          "60250832": {
+            "id": "60250832",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! By the way, we managed to convince Columbina to come to the Moon-Prayer Night celebrations. Would you and Jahoda like to join too?",
+            "nextDialogs": [
+              "60250833"
+            ]
+          },
+          "60250833": {
+            "id": "60250833",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "#She agreed to that? Huh. Quite an achievement. Never underestimate {NICKNAME}, I guess.",
+            "nextDialogs": [
+              "60250834"
+            ]
+          },
+          "60250834": {
+            "id": "60250834",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "I'd be happy to join. No point shutting myself inside when the streets are all decked out. I doubt any clients will be visiting during the festival in any case.",
+            "nextDialogs": [
+              "60250835"
+            ]
+          },
+          "60250835": {
+            "id": "60250835",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "And Jahoda loves a party, so I'm sure she'll jump at the opportunity.",
+            "nextDialogs": [
+              "60250836"
+            ]
+          },
+          "60250836": {
+            "id": "60250836",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "No, no, no no nonononono...",
+            "nextDialogs": [
+              "60250837"
+            ]
+          },
+          "60250837": {
+            "id": "60250837",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Tsk, way to contradict me in front of—",
+            "nextDialogs": [
+              "60250838"
+            ]
+          },
+          "60250838": {
+            "id": "60250838",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Wait, no! That's not what I... I have bad news, Boss!",
+            "nextDialogs": [
+              "60250839"
+            ]
+          },
+          "60250839": {
+            "id": "60250839",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "So many people... Alright, everyone inside, quick!",
+            "nextDialogs": [
+              "60250840"
+            ]
+          },
+          "60250840": {
+            "id": "60250840",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "This is gonna sound crazy, but hear me out... I saw one of those phantoms at Starsand Shoal, and it was... it was some sorta... flying ship!",
+            "nextDialogs": [
+              "60250841"
+            ]
+          },
+          "60250841": {
+            "id": "60250841",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Like a spaceship!?",
+            "nextDialogs": [
+              "60250842"
+            ]
+          },
+          "60250842": {
+            "id": "60250842",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "A spaceship at Starsand Shoal...",
+            "nextDialogs": [
+              "60250843"
+            ]
+          },
+          "60250843": {
+            "id": "60250843",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's gotta be the one you came to Teyvat in. You said you saw the same thing through the Moon Marrow, right?",
+            "nextDialogs": [
+              "60250844"
+            ]
+          },
+          "60250844": {
+            "id": "60250844",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Huh? You already know about it? Ugh... And I thought it was gonna blow people's minds, turns out I'm the last to find out...",
+            "nextDialogs": [
+              "60250845"
+            ]
+          },
+          "60250845": {
+            "id": "60250845",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Wait, back up! You came here in a spaceship!? Now MY mind is blown. What's it like on the inside? What's it like flying through space? Ahhh, I wanna know everything!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602509",
+      "subQuestName": "Go to the spaceship phantom's location",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250901"
+        ],
+        "dialogs": {
+          "60250901": {
+            "id": "60250901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, whaddya know? Jahoda was right on the money. This phantom really is your spaceship...",
+            "nextDialogs": [
+              "60250902"
+            ]
+          },
+          "60250902": {
+            "id": "60250902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But that's so weird. Why would it show up here? Is it some kind of projection? Or... a ghost? Like, maybe it no longer exists, but somehow it left an afterimage...?",
+            "nextDialogs": [
+              "60250903"
+            ]
+          },
+          "60250903": {
+            "id": "60250903",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm not sure either...",
+            "nextDialogs": [
+              "60250904"
+            ]
+          },
+          "60250904": {
+            "id": "60250904",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Ah, you're already here.",
+            "nextDialogs": [
+              "60250905"
+            ]
+          },
+          "60250905": {
+            "id": "60250905",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Miss Lauma, what a surprise. I thought you were busy with festival preparations?",
+            "nextDialogs": [
+              "60250906"
+            ]
+          },
+          "60250906": {
+            "id": "60250906",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I was, until one of our people informed me that a strange sight had appeared at Starsand Shoal.",
+            "nextDialogs": [
+              "60250907"
+            ]
+          },
+          "60250907": {
+            "id": "60250907",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "No one's ever seen something quite like this before. I thought I should see it for myself.",
+            "nextDialogs": [
+              "60250908"
+            ]
+          },
+          "60250908": {
+            "id": "60250908",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Same here! Oh — so, we heard that these things appear around the festival period. Any idea why that is?",
+            "nextDialogs": [
+              "60250909"
+            ]
+          },
+          "60250909": {
+            "id": "60250909",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Unfortunately not. We have very limited information about them, since they can't be interacted with, and no human phantoms have ever made an appearance before now.",
+            "nextDialogs": [
+              "60250910"
+            ]
+          },
+          "60250910": {
+            "id": "60250910",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The most we've been able to deduce is that these sightings appear to be connected to the increase in kuuvahki energy around this time.",
+            "nextDialogs": [
+              "60250911"
+            ]
+          },
+          "60250911": {
+            "id": "60250911",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's look around and see what we can find out.",
+            "nextDialogs": [
+              "60250912"
+            ]
+          },
+          "60250912": {
+            "id": "60250912",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah. Seems like that's all we can do. This is all so confusing.",
+            "nextDialogs": [
+              "60250913"
+            ]
+          },
+          "60250913": {
+            "id": "60250913",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Allow me to lend you a hand."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602510",
+      "subQuestName": "Seek help from the animals together with Lauma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60252001"
+        ],
+        "dialogs": {
+          "60252001": {
+            "id": "60252001",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Everyone, our friend here should be able to provide us with some information.",
+            "nextDialogs": [
+              "60252002"
+            ]
+          },
+          "60252002": {
+            "id": "60252002",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is that.... a phantom Rimehorn Deer...?",
+            "nextDialogs": [
+              "60252003"
+            ]
+          },
+          "60252003": {
+            "id": "60252003",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I've heard about how the Frostmoon Scions live in harmony with the animals, and can even communicate with them. That's coming in handy now, for sure.",
+            "nextDialogs": [
+              "60252004"
+            ]
+          },
+          "60252004": {
+            "id": "60252004",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Okay... yes, I understand... Then, how about this...",
+            "nextDialogs": [
+              "60252005"
+            ]
+          },
+          "60252005": {
+            "id": "60252005",
+            "speakerId": 16057,
+            "speakerName": "Rimehorn Deer",
+            "text": "♪",
+            "nextDialogs": [
+              "60252006"
+            ]
+          },
+          "60252006": {
+            "id": "60252006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, it's leaving...",
+            "nextDialogs": [
+              "60252007"
+            ]
+          },
+          "60252007": {
+            "id": "60252007",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "It appears to share our curiosity about this giant spaceship, so I asked it if it wouldn't mind investigating along with some friends.",
+            "nextDialogs": [
+              "60252008"
+            ]
+          },
+          "60252008": {
+            "id": "60252008",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "In return, I told it about some nearby spots where the wild fruit grows abundantly.",
+            "nextDialogs": [
+              "60252009"
+            ]
+          },
+          "60252009": {
+            "id": "60252009",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "We may live in a different era from these phantoms, but I trust that the terrain, climate, and ecology here are more resistant to the effects of time than some things are.",
+            "nextDialogs": [
+              "60252010"
+            ]
+          },
+          "60252010": {
+            "id": "60252010",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Let's give them a moment, and hope for the best.",
+            "nextDialogs": [
+              "60252011"
+            ]
+          },
+          "60252011": {
+            "id": "60252011",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": "After a few moments, the Rimehorn Deer and its companions return happily.",
+            "nextDialogs": [
+              "60252012"
+            ]
+          },
+          "60252012": {
+            "id": "60252012",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "All back together? Must've been a lot of fruit.",
+            "nextDialogs": [
+              "60252013"
+            ]
+          },
+          "60252013": {
+            "id": "60252013",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Indeed. Now let me ask them some questions...",
+            "nextDialogs": [
+              "60252014"
+            ]
+          },
+          "60252014": {
+            "id": "60252014",
+            "speakerId": 16057,
+            "speakerName": "Rimehorn Deer",
+            "text": "♪",
+            "nextDialogs": [
+              "60252015"
+            ]
+          },
+          "60252015": {
+            "id": "60252015",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "It did find a lot of wild fruit, enough for them to feast for a long while.",
+            "nextDialogs": [
+              "60252016"
+            ]
+          },
+          "60252016": {
+            "id": "60252016",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "This puffin circled in the air several times, but didn't spot anything out of the ordinary. Certainly nothing to do with the spaceship.",
+            "nextDialogs": [
+              "60252017"
+            ]
+          },
+          "60252017": {
+            "id": "60252017",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh... Well, it definitely makes sense to get a bird's eye view.",
+            "nextDialogs": [
+              "60252018"
+            ]
+          },
+          "60252018": {
+            "id": "60252018",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Indeed. Other than that, I was also thinking that the world these phantoms see is also different from ours.",
+            "nextDialogs": [
+              "60252019"
+            ]
+          },
+          "60252019": {
+            "id": "60252019",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Oh, I get what you mean. The \"wild fruit\" exist in both times and spaces, but there might also be things that only exist in that space-time, which we can't see.",
+            "nextDialogs": [
+              "60252022"
+            ]
+          },
+          "60252022": {
+            "id": "60252022",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Good point... Great thinking, Lauma!",
+            "nextDialogs": [
+              "60252023"
+            ]
+          },
+          "60252023": {
+            "id": "60252023",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Blunthorn Rhinos can use kuuvahki to shift great rocks, but this one says it couldn't get that ship to budge by even an inch.",
+            "nextDialogs": [
+              "60252024"
+            ]
+          },
+          "60252024": {
+            "id": "60252024",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The Sniffer Mole tried too. But despite being a skilled digger, it could not get through.",
+            "nextDialogs": [
+              "60252025"
+            ]
+          },
+          "60252025": {
+            "id": "60252025",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "They say that the spaceship looks robust and undamaged. It seems completely impervious to any and all attacks. Whatever lies within is well-defended from harm.",
+            "nextDialogs": [
+              "60252026"
+            ]
+          },
+          "60252026": {
+            "id": "60252026",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "So, just like us humans, there was nothing they could do about this spaceship either.",
+            "nextDialogs": [
+              "60252027"
+            ]
+          },
+          "60252027": {
+            "id": "60252027",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Yes. Still, they deserve our thanks.",
+            "nextDialogs": [
+              "60252028"
+            ]
+          },
+          "60252028": {
+            "id": "60252028",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "We are grateful for all your efforts, dear friends. Now go, and enjoy your feast.",
+            "nextDialogs": [
+              "60252029"
+            ]
+          },
+          "60252029": {
+            "id": "60252029",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I've noticed some other human phantoms gathered nearby. C'mon. Let's go talk to them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602513",
+      "subQuestName": "Join Varka in communicating with the phantoms",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60252101"
+        ],
+        "dialogs": {
+          "60252101": {
+            "id": "60252101",
+            "speakerId": 15954,
+            "speakerName": "Kielo",
+            "text": "What is this thing? I've never seen it move, and there's no way to get inside.",
+            "nextDialogs": [
+              "60252102"
+            ]
+          },
+          "60252102": {
+            "id": "60252102",
+            "speakerId": 15955,
+            "speakerName": "Kettu",
+            "text": "Goodness knows. My grandpa says it's been sitting here at least since his grandpa was still alive.",
+            "nextDialogs": [
+              "60252103"
+            ]
+          },
+          "60252103": {
+            "id": "60252103",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "What about his grandpa? Did he say anything to your grandpa's grandpa about it?",
+            "nextDialogs": [
+              "60252104"
+            ]
+          },
+          "60252104": {
+            "id": "60252104",
+            "speakerId": 15955,
+            "speakerName": "Kettu",
+            "text": "Huh? Um... I don't know. In all likelihood, it was here back then too. Hard to imagine something this huge could move.",
+            "nextDialogs": [
+              "60252105"
+            ]
+          },
+          "60252105": {
+            "id": "60252105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm. Guess that means that as far as they're concerned, this ship's been around a long time."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602514",
+      "subQuestName": "Join Varka in communicating with the phantoms",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60252201"
+        ],
+        "dialogs": {
+          "60252201": {
+            "id": "60252201",
+            "speakerId": 15956,
+            "speakerName": "Darimir",
+            "text": "Come on, brothers! If we can get even a small chunk off of this thing, it's gotta be worth a fortune! Today is the day we strike it rich!",
+            "nextDialogs": [
+              "60252202"
+            ]
+          },
+          "60252202": {
+            "id": "60252202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh...? Y—You mean Paimon?",
+            "nextDialogs": [
+              "60252203"
+            ]
+          },
+          "60252203": {
+            "id": "60252203",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Yes, brother! I shall join you! Let's make our fortune!",
+            "nextDialogs": [
+              "60252204"
+            ]
+          },
+          "60252204": {
+            "id": "60252204",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...We should go with them.",
+            "nextDialogs": [
+              "60252205"
+            ]
+          },
+          "60252205": {
+            "id": "60252205",
+            "speakerId": 15956,
+            "speakerName": "Darimir",
+            "text": "What the... This thing is crazy tough, I can't even scratch it. What's it made of!?",
+            "nextDialogs": [
+              "60252206"
+            ]
+          },
+          "60252206": {
+            "id": "60252206",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Sorry, brother... Looks like we'll have to seek our fortunes elsewhere...",
+            "nextDialogs": [
+              "60252207"
+            ]
+          },
+          "60252207": {
+            "id": "60252207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Enjoying yourself?",
+            "nextDialogs": [
+              "60252208"
+            ]
+          },
+          "60252208": {
+            "id": "60252208",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I was just seeing if I could influence this phantom's perception by playing — but nope. No dice."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602515",
+      "subQuestName": "Discuss the situation with your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251001"
+        ],
+        "dialogs": {
+          "60251001": {
+            "id": "60251001",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "I'm sure we're all starting to build up an idea of what's going on here now that we've spoken to some of the people.",
+            "nextDialogs": [
+              "60251002"
+            ]
+          },
+          "60251002": {
+            "id": "60251002",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "These phantoms are reenacting real, historical events in Nod-Krai.",
+            "nextDialogs": [
+              "60251003"
+            ]
+          },
+          "60251003": {
+            "id": "60251003",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "It's almost like we're in some kind of interactive stage play. We can talk to the actors, but the plot is fixed, and we can't influence it.",
+            "nextDialogs": [
+              "60251004"
+            ]
+          },
+          "60251004": {
+            "id": "60251004",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "It makes sense. History is set in stone. The objective facts of the past cannot be changed.",
+            "nextDialogs": [
+              "60251005"
+            ]
+          },
+          "60251005": {
+            "id": "60251005",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon totally thought you were just goofing around earlier... But actually, you were doing some serious investigating.",
+            "nextDialogs": [
+              "60251006"
+            ]
+          },
+          "60251006": {
+            "id": "60251006",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Of course I was. Anyway, at this point, I think we're forced to conclude that although the phantom spaceship is right there in front of us, we aren't gonna learn much about it from these people.",
+            "nextDialogs": [
+              "60251007"
+            ]
+          },
+          "60251007": {
+            "id": "60251007",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "#(If only this showed the moment when my {M#sister}{F#brother} was searching for me. Maybe then, I could've discovered why {M#she}{F#he} wasn't in the spaceship...)",
+            "nextDialogs": [
+              "60251008"
+            ]
+          },
+          "60251008": {
+            "id": "60251008",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(...Or, if it showed the moment when it disappeared, I might've found out who was piloting it, and where they were headed...)",
+            "nextDialogs": [
+              "60251009"
+            ]
+          },
+          "60251009": {
+            "id": "60251009",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(But no such luck. All we've seen is an arbitrary moment in time during its long stay here.)",
+            "nextDialogs": [
+              "60251010"
+            ]
+          },
+          "60251010": {
+            "id": "60251010",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Don't be discouraged. If nothing else, this is proof of the ship's existence.",
+            "nextDialogs": [
+              "60251011"
+            ]
+          },
+          "60251011": {
+            "id": "60251011",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "And think about it. So many people tried to hack their way inside, but no one could get the door open. It's made of very tough material.",
+            "nextDialogs": [
+              "60251012"
+            ]
+          },
+          "60251012": {
+            "id": "60251012",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "To me, that says that we'll either find the ship itself, or the story behind it — it's just a matter of time.",
+            "nextDialogs": [
+              "60251013"
+            ]
+          },
+          "60251013": {
+            "id": "60251013",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Thanks, Varka.",
+            "nextDialogs": [
+              "60251014"
+            ]
+          },
+          "60251014": {
+            "id": "60251014",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, every now and then, when Varka gets serious, he actually does seem like Grand Master material for once...",
+            "nextDialogs": [
+              "60251015"
+            ]
+          },
+          "60251015": {
+            "id": "60251015",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I wonder how the others are doing... Let's head back for now.",
+            "nextDialogs": [
+              "60251016"
+            ]
+          },
+          "60251016": {
+            "id": "60251016",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Sounds good. Also, drinks are on me if Team Knights of Favonius is the first to finish.",
+            "nextDialogs": [
+              "60251017"
+            ]
+          },
+          "60251017": {
+            "id": "60251017",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, we have a team name now...?",
+            "nextDialogs": [
+              "60251018"
+            ]
+          },
+          "60251018": {
+            "id": "60251018",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Am I in \"Team Knights of Favonius\" as well?",
+            "nextDialogs": [
+              "60251019"
+            ]
+          },
+          "60251019": {
+            "id": "60251019",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "You're very welcome to join. We've even got a cathedral ready for you!",
+            "nextDialogs": [
+              "60251020"
+            ]
+          },
+          "60251020": {
+            "id": "60251020",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Isn't that technically blasphemy? You wouldn't dare make a joke like that if Barbatos was in earshot...",
+            "nextDialogs": [
+              "60251021"
+            ]
+          },
+          "60251021": {
+            "id": "60251021",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Hahaha! Nah, I'm sure Barbatos doesn't mind a little harmless blasphemy once in a while."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602511",
+      "subQuestName": "Try to make contact with the phantom in this area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251101"
+        ],
+        "dialogs": {
+          "60251101": {
+            "id": "60251101",
+            "speakerId": 15957,
+            "speakerName": "Satatieto",
+            "text": "Help!",
+            "nextDialogs": [
+              "60251102"
+            ]
+          },
+          "60251102": {
+            "id": "60251102",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Oh no! Get away!",
+            "nextDialogs": [
+              "60251103"
+            ]
+          },
+          "60251103": {
+            "id": "60251103",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Oh...",
+            "nextDialogs": [
+              "60251104"
+            ]
+          },
+          "60251104": {
+            "id": "60251104",
+            "speakerId": 15957,
+            "speakerName": "Satatieto",
+            "text": "Aaaaaaggghhh!",
+            "nextDialogs": [
+              "60251105"
+            ]
+          },
+          "60251105": {
+            "id": "60251105",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I know it's hard to stomach, Mr. Durin. But as I'm sure you've noticed, there is nothing we can do to intervene in that which unfolds before us.",
+            "nextDialogs": [
+              "60251106"
+            ]
+          },
+          "60251106": {
+            "id": "60251106",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "*panting* But... we have to at least try...",
+            "nextDialogs": [
+              "60251107"
+            ]
+          },
+          "60251107": {
+            "id": "60251107",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "And try you have. But are you aware of how many unsuccessful attempts you've made now?",
+            "nextDialogs": [
+              "60251108"
+            ]
+          },
+          "60251108": {
+            "id": "60251108",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Uh... I wasn't keeping count...",
+            "nextDialogs": [
+              "60251109"
+            ]
+          },
+          "60251109": {
+            "id": "60251109",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I'm afraid this is the thirty-ninth failure so far. Or the fifth, if we're only counting this particular victim.",
+            "nextDialogs": [
+              "60251110"
+            ]
+          },
+          "60251110": {
+            "id": "60251110",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "There are no indications that these phantoms may be altered in any way.",
+            "nextDialogs": [
+              "60251111"
+            ]
+          },
+          "60251111": {
+            "id": "60251111",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "...",
+            "nextDialogs": [
+              "60251112"
+            ]
+          },
+          "60251112": {
+            "id": "60251112",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "You seem to have calmed down a little.",
+            "nextDialogs": [
+              "60251113"
+            ]
+          },
+          "60251113": {
+            "id": "60251113",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I'll make us a fire. You should rest and have some water.",
+            "nextDialogs": [
+              "60251114"
+            ]
+          },
+          "60251114": {
+            "id": "60251114",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Feeling any better now, Mr. Durin?",
+            "nextDialogs": [
+              "60251115"
+            ]
+          },
+          "60251115": {
+            "id": "60251115",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "...May I ask a few questions?",
+            "nextDialogs": [
+              "60251116"
+            ]
+          },
+          "60251116": {
+            "id": "60251116",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Be my guest.",
+            "nextDialogs": [
+              "60251117"
+            ]
+          },
+          "60251117": {
+            "id": "60251117",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "What exactly are we witnessing here? What happened to those people?",
+            "nextDialogs": [
+              "60251118"
+            ]
+          },
+          "60251118": {
+            "id": "60251118",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "My guess would be that we are seeing Nod-Krai during the Khaenri'ahn Cataclysm. Would that be accurate?",
+            "nextDialogs": [
+              "60251119"
+            ]
+          },
+          "60251119": {
+            "id": "60251119",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Khaenri'ah...",
+            "nextDialogs": [
+              "60251120"
+            ]
+          },
+          "60251120": {
+            "id": "60251120",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "That is correct.",
+            "nextDialogs": [
+              "60251121"
+            ]
+          },
+          "60251121": {
+            "id": "60251121",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "As you know, once the Abyss senses even the tiniest crack, it floods in and spreads like wildfire.",
+            "nextDialogs": [
+              "60251122"
+            ]
+          },
+          "60251122": {
+            "id": "60251122",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "There was a time in the distant past when it permeated all of Nod-Krai, causing immeasurable harm. The people paid a terrible price to heal this land.",
+            "nextDialogs": [
+              "60251123"
+            ]
+          },
+          "60251123": {
+            "id": "60251123",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Then, five hundred years ago, the whole of Teyvat suffered an Abyssal disaster. Once more, Nod-Krai was dealt a devastating blow.",
+            "nextDialogs": [
+              "60251124"
+            ]
+          },
+          "60251124": {
+            "id": "60251124",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "I see...",
+            "nextDialogs": [
+              "60251125"
+            ]
+          },
+          "60251125": {
+            "id": "60251125",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "In the face of the Abyssal onslaught, all were like grains of sand tossed around by a tidal wave, be they human, fae, or god.",
+            "nextDialogs": [
+              "60251126"
+            ]
+          },
+          "60251126": {
+            "id": "60251126",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "The moment you witnessed is but one drop in a whole ocean of catastrophe.",
+            "nextDialogs": [
+              "60251127"
+            ]
+          },
+          "60251127": {
+            "id": "60251127",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Alright... I guess that answers my second question, too. I wanted to know why there's nothing I could do to help them — and that's because what we are seeing is history.",
+            "nextDialogs": [
+              "60251128"
+            ]
+          },
+          "60251128": {
+            "id": "60251128",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "That would be my guess as well.",
+            "nextDialogs": [
+              "60251129"
+            ]
+          },
+          "60251129": {
+            "id": "60251129",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "As I understand it, history and fate are not all that dissimilar. The latter may be unseen to us, but both are immutable.",
+            "nextDialogs": [
+              "60251130"
+            ]
+          },
+          "60251130": {
+            "id": "60251130",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Yes, fate was determined long, long ago.",
+            "nextDialogs": [
+              "60251131"
+            ]
+          },
+          "60251131": {
+            "id": "60251131",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "I still have a couple of other questions for you, Mr. Flins...",
+            "nextDialogs": [
+              "60251132"
+            ]
+          },
+          "60251132": {
+            "id": "60251132",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "You mentioned more than one Abyssal disaster that has struck this land in the past. How can you be sure that what we're seeing is from the Khaenri'ahn incident?",
+            "nextDialogs": [
+              "60251133"
+            ]
+          },
+          "60251133": {
+            "id": "60251133",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "And also... how are you able to stay so calm when you're talking about these events?",
+            "nextDialogs": [
+              "60251134"
+            ]
+          },
+          "60251134": {
+            "id": "60251134",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "From everything I know about you, you're not cold or ruthless, and you're not indifferent to the suffering of others...",
+            "nextDialogs": [
+              "60251135"
+            ]
+          },
+          "60251135": {
+            "id": "60251135",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Hmph... Alas, I am forced to show my age. I must be six or seven hundred years old by human measure.",
+            "nextDialogs": [
+              "60251136"
+            ]
+          },
+          "60251136": {
+            "id": "60251136",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Wait... So you...",
+            "nextDialogs": [
+              "60251137"
+            ]
+          },
+          "60251137": {
+            "id": "60251137",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "One is not easily moved by history when one has witnessed the truth firsthand.",
+            "nextDialogs": [
+              "60251138"
+            ]
+          },
+          "60251138": {
+            "id": "60251138",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "I'm sorry.",
+            "nextDialogs": [
+              "60251139"
+            ]
+          },
+          "60251139": {
+            "id": "60251139",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "You needn't apologize. Your passion is a good thing to have. Treasure it, because someday, you may find it in terribly short supply.",
+            "nextDialogs": [
+              "60251140"
+            ]
+          },
+          "60251140": {
+            "id": "60251140",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Now, at the risk of offending you, I have a question in return...",
+            "nextDialogs": [
+              "60251141"
+            ]
+          },
+          "60251141": {
+            "id": "60251141",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Your curiosity toward the Abyss — is it born from hatred, or because you sense its call?",
+            "nextDialogs": [
+              "60251142"
+            ]
+          },
+          "60251142": {
+            "id": "60251142",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I only ask because I kept a fragment of Rerir's body in my lantern for a short time — specifically, his heart. So, I know what a burden it can be to carry the Abyss with you.",
+            "nextDialogs": [
+              "60251143"
+            ]
+          },
+          "60251143": {
+            "id": "60251143",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "And I hear its power growling from somewhere within you. In my eyes, your mere existence is a miracle.",
+            "nextDialogs": [
+              "60251144"
+            ]
+          },
+          "60251144": {
+            "id": "60251144",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "My honest answer is... I don't know. I don't think I have the confidence to say for certain. What I will say is, the Abyss is not the only issue that haunts me.",
+            "nextDialogs": [
+              "60251145"
+            ]
+          },
+          "60251145": {
+            "id": "60251145",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Even before I became who I am today, the question dogged me constantly... should I even exist at all?",
+            "nextDialogs": [
+              "60251146"
+            ]
+          },
+          "60251146": {
+            "id": "60251146",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "My doubts remain unresolved. But... when we fought Rerir, something became a little clearer to me...",
+            "nextDialogs": [
+              "60251147"
+            ]
+          },
+          "60251147": {
+            "id": "60251147",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Sometimes, it is the darkness within us that allows us to achieve the impossible.",
+            "nextDialogs": [
+              "60251148"
+            ]
+          },
+          "60251148": {
+            "id": "60251148",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "I certainly got the sense from your thirty-nine attempts that you were trying to achieve the impossible.",
+            "nextDialogs": [
+              "60251149"
+            ]
+          },
+          "60251149": {
+            "id": "60251149",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "It sounds like you've resolved to see the truth for yourself.",
+            "nextDialogs": [
+              "60251150"
+            ]
+          },
+          "60251150": {
+            "id": "60251150",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Absolutely. In that sense, he and I are quite similar.",
+            "nextDialogs": [
+              "60251151"
+            ]
+          },
+          "60251151": {
+            "id": "60251151",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Then I wish you every success. I look forward to the day of your transcension.",
+            "nextDialogs": [
+              "60251152"
+            ]
+          },
+          "60251152": {
+            "id": "60251152",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Well, if everyone's caught their breath, I suppose we should head back. Oh, and one last thing... I'd appreciate if you kept our discussion about history a secret."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602512",
+      "subQuestName": "Return to the Curatorium of Secrets to exchange intel",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251201"
+        ],
+        "dialogs": {
+          "60251201": {
+            "id": "60251201",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Incredibly, our separate investigations led us all to the same conclusion. Hooray for consensus.",
+            "nextDialogs": [
+              "60251202"
+            ]
+          },
+          "60251202": {
+            "id": "60251202",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Yeah, but we barely learned anything though... I totally thought this would be the motherlode! Talking with the ancients? I mean, come on! But nope, all we got was useless snippets of conversation...",
+            "nextDialogs": [
+              "60251203"
+            ]
+          },
+          "60251203": {
+            "id": "60251203",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "And all this stuff about moons, and \"hyberorpea\"? What a load of baloney. Seems like people back then had a few screws loose.",
+            "nextDialogs": [
+              "60251204"
+            ]
+          },
+          "60251204": {
+            "id": "60251204",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I understand your frustration. We found the same issue — each phantom only showed a very brief moment in time.",
+            "nextDialogs": [
+              "60251205"
+            ]
+          },
+          "60251205": {
+            "id": "60251205",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "There isn't much value to be found in these miscellaneous fragments of a civilization's history, no matter how glorious it may have been.",
+            "nextDialogs": [
+              "60251206"
+            ]
+          },
+          "60251206": {
+            "id": "60251206",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "If there's a silver lining, it's that these phantoms are harmless to the present reality. They shouldn't get in the way of the festivities.",
+            "nextDialogs": [
+              "60251207"
+            ]
+          },
+          "60251207": {
+            "id": "60251207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon agrees! And not just because it's the first thing she understood in this whole conversation.",
+            "nextDialogs": [
+              "60251208"
+            ]
+          },
+          "60251208": {
+            "id": "60251208",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "You look disappointed, Nefer. Is something the matter?",
+            "nextDialogs": [
+              "60251209"
+            ]
+          },
+          "60251209": {
+            "id": "60251209",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "What do you think? We all worked our tails off, but the only one to gain anything from it was you, Lady Moonchanter.",
+            "nextDialogs": [
+              "60251210"
+            ]
+          },
+          "60251210": {
+            "id": "60251210",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Well, please do share the Hyperborean records with me. I will gladly inscribe them in our people's documents.",
+            "nextDialogs": [
+              "60251211"
+            ]
+          },
+          "60251211": {
+            "id": "60251211",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Oh, duh, yeah, that was it! Hyperborea, Hyperborea...",
+            "nextDialogs": [
+              "60251212"
+            ]
+          },
+          "60251212": {
+            "id": "60251212",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I'm serious. Only an expert in the Frostmoon Scions and their history can turn these records into valuable research material.",
+            "nextDialogs": [
+              "60251213"
+            ]
+          },
+          "60251213": {
+            "id": "60251213",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The alternative is to let them gather dust on the Curatorium's storage shelves until the pages turn yellow.",
+            "nextDialogs": [
+              "60251214"
+            ]
+          },
+          "60251214": {
+            "id": "60251214",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Nefer, you're wise enough to know that cooperating and sharing the profits is the best course of action here.",
+            "nextDialogs": [
+              "60251215"
+            ]
+          },
+          "60251215": {
+            "id": "60251215",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "Well, that goes without saying. Sure, let's do that.",
+            "nextDialogs": [
+              "60251216"
+            ]
+          },
+          "60251216": {
+            "id": "60251216",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Huh? But didn't you say we aren't supposed to give out intel for free..? Aaah, sorry! Shutting up, shutting up!",
+            "nextDialogs": [
+              "60251217"
+            ]
+          },
+          "60251217": {
+            "id": "60251217",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Now is not a good time to push Nefer's buttons...",
+            "nextDialogs": [
+              "60251218"
+            ]
+          },
+          "60251218": {
+            "id": "60251218",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Haha. Anyway, back to Moon-Prayer Night. I'm thinking that we should prepare something a little special, aside from the usual decorations and so on.",
+            "nextDialogs": [
+              "60251219"
+            ]
+          },
+          "60251219": {
+            "id": "60251219",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "You mean, a parting gift?",
+            "nextDialogs": [
+              "60251220"
+            ]
+          },
+          "60251220": {
+            "id": "60251220",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Can't go wrong with food! Although... Hmm, does food go bad on the moon?",
+            "nextDialogs": [
+              "60251221"
+            ]
+          },
+          "60251221": {
+            "id": "60251221",
+            "speakerId": 1314,
+            "speakerName": "Flins",
+            "text": "Perhaps a lantern would be a better choice. It might be dark up there.",
+            "nextDialogs": [
+              "60251222"
+            ]
+          },
+          "60251222": {
+            "id": "60251222",
+            "speakerId": 1018,
+            "speakerName": "Albedo",
+            "text": "Mm... It could prove difficult to light a lantern on the moon. Magical stones might serve that purpose better.",
+            "nextDialogs": [
+              "60251223"
+            ]
+          },
+          "60251223": {
+            "id": "60251223",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "What about a clockwork meka model from Fontaine? I've got a whole bunch at home. I use 'em for fighting practice in my free time!",
+            "nextDialogs": [
+              "60251224"
+            ]
+          },
+          "60251224": {
+            "id": "60251224",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "None of these sound like things she would be even remotely interested in. But we don't interact with her enough to know what she likes...",
+            "nextDialogs": [
+              "60251225"
+            ]
+          },
+          "60251225": {
+            "id": "60251225",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Yeah. It would really save us the guesswork if someone could find out what she's into.",
+            "nextDialogs": [
+              "60251226"
+            ]
+          },
+          "60251226": {
+            "id": "60251226",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Wait, what the... Uh, {NICKNAME}, they're all looking at you!",
+            "nextDialogs": [
+              "60251229"
+            ]
+          },
+          "60251229": {
+            "id": "60251229",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Great! Haha, problem solved. Now, I need to stop by Dori's. Gonna need her help sourcing a bunch of stuff for the festival.",
+            "nextDialogs": [
+              "60251230"
+            ]
+          },
+          "60251230": {
+            "id": "60251230",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "#Then let's leave it there for now. We all have our own business to attend to. {NICKNAME} — if you find out what Kuutar likes, let us know right away.",
+            "nextDialogs": [
+              "60251231"
+            ]
+          },
+          "60251231": {
+            "id": "60251231",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Gotcha.",
+            "nextDialogs": [
+              "60251232"
+            ]
+          },
+          "60251232": {
+            "id": "60251232",
+            "speakerId": 1320,
+            "speakerName": "Durin",
+            "text": "Is something the matter?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602505",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60250501"
+        ],
+        "dialogs": {
+          "60250501": {
+            "id": "60250501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Everyone seems hard at work...",
+            "nextDialogs": [
+              "60250502"
+            ]
+          },
+          "60250502": {
+            "id": "60250502",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "They are preparing items for Moon-Prayer Night. For instance, the sculpture being made over here. Mr. Varka and I were just finalizing the details of where it will be placed.",
+            "nextDialogs": [
+              "60250503"
+            ]
+          },
+          "60250503": {
+            "id": "60250503",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Ah, there she is. I didn't know the finished article would be so large...",
+            "nextDialogs": [
+              "60250504"
+            ]
+          },
+          "60250504": {
+            "id": "60250504",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Not to worry, though, all the necessary arrangements have been made. Just let me know once it's ready, and I'll get some people to ship it over.",
+            "nextDialogs": [
+              "60250505"
+            ]
+          },
+          "60250505": {
+            "id": "60250505",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "You have my thanks. And over here, we are preparing a very traditional confection.",
+            "nextDialogs": [
+              "60250506"
+            ]
+          },
+          "60250506": {
+            "id": "60250506",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aw, look at all these colors. It looks great! Can Paimon try one?",
+            "nextDialogs": [
+              "60250507"
+            ]
+          },
+          "60250507": {
+            "id": "60250507",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Hehe, of course. I have a feeling you'll like it a lot.",
+            "nextDialogs": [
+              "60250508"
+            ]
+          },
+          "60250508": {
+            "id": "60250508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You bet! Sweets and treats are Paimon's favorite!",
+            "nextDialogs": [
+              "60250509"
+            ]
+          },
+          "60250509": {
+            "id": "60250509",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Haha, if you included those in the Feast of the Moon, I bet Paimon would have joined the Frostmoon Scions by now.",
+            "nextDialogs": [
+              "60250510"
+            ]
+          },
+          "60250510": {
+            "id": "60250510",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "There will also be Verdant Crests like this present in Nasha Town during the festival.",
+            "nextDialogs": [
+              "60250511"
+            ]
+          },
+          "60250511": {
+            "id": "60250511",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The timing of Moon-Prayer Night is not completely set in advance. We make a rough estimate, then observe the changes in the Verdant Crests and Moon-Prayer Blossoms to guide us.",
+            "nextDialogs": [
+              "60250512"
+            ]
+          },
+          "60250512": {
+            "id": "60250512",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "As such, the wait itself is a fun feature of this particular festival."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602513",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251301"
+        ],
+        "dialogs": {
+          "60251301": {
+            "id": "60251301",
+            "speakerId": 7099,
+            "speakerName": "Kari",
+            "text": "Moon-Prayer Night's nearly here! Hehe, candy, here we come!",
+            "nextDialogs": [
+              "60251302"
+            ]
+          },
+          "60251302": {
+            "id": "60251302",
+            "speakerId": 7100,
+            "speakerName": "Ina",
+            "text": "Don't go feeding all the candy to the animals...",
+            "nextDialogs": [
+              "60251303"
+            ]
+          },
+          "60251303": {
+            "id": "60251303",
+            "speakerId": 7099,
+            "speakerName": "Kari",
+            "text": "I—I wasn't gonna!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602514",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251401"
+        ],
+        "dialogs": {
+          "60251401": {
+            "id": "60251401",
+            "speakerId": 16098,
+            "speakerName": "Zirnytsia",
+            "text": "We're fully focused on festival preparations at the moment. So far, it's all going well.",
+            "nextDialogs": [
+              "60251402"
+            ]
+          },
+          "60251402": {
+            "id": "60251402",
+            "speakerId": 16098,
+            "speakerName": "Zirnytsia",
+            "text": "Please have patience. The Moon-Prayer Night will soon be upon us."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602515",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251501"
+        ],
+        "dialogs": {
+          "60251501": {
+            "id": "60251501",
+            "speakerId": 7098,
+            "speakerName": "Sarakka",
+            "text": "This Moonveil doesn't seem translucent enough...",
+            "nextDialogs": [
+              "60251502"
+            ]
+          },
+          "60251502": {
+            "id": "60251502",
+            "speakerId": 7098,
+            "speakerName": "Sarakka",
+            "text": "I think I should take it down and work on it some more."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602516",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251601"
+        ],
+        "dialogs": {
+          "60251601": {
+            "id": "60251601",
+            "speakerId": 7105,
+            "speakerName": "Wecksell",
+            "text": "The frame is done, and I've got a nice new set of tools. Yep, this is looking good."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602517",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251701"
+        ],
+        "dialogs": {
+          "60251701": {
+            "id": "60251701",
+            "speakerId": 1316,
+            "speakerName": "Nefer",
+            "text": "We can't unshare information, any more than water spilled on sand can be put back in the bucket. I'll just have to balance the books some other way...",
+            "nextDialogs": [
+              "60251702"
+            ]
+          },
+          "60251702": {
+            "id": "60251702",
+            "speakerId": 1317,
+            "speakerName": "Jahoda",
+            "text": "Please, Boss, there's gotta be another way... Who knows — depending on what they find, maybe this will work in our favor, hehe... Please don't fine me, pleeease!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602518",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251801"
+        ],
+        "dialogs": {
+          "60251801": {
+            "id": "60251801",
+            "speakerId": 15959,
+            "speakerName": "Veikko",
+            "text": "Have you ever seen anything like this?",
+            "nextDialogs": [
+              "60251802"
+            ]
+          },
+          "60251802": {
+            "id": "60251802",
+            "speakerId": 15960,
+            "speakerName": "Mielitty",
+            "text": "Nope. Never seen or heard anything this weird..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602519",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60251901"
+        ],
+        "dialogs": {
+          "60251901": {
+            "id": "60251901",
+            "speakerId": 15961,
+            "speakerName": "Kuuti",
+            "text": "Those illusions, and those people... It's all a little creepy, don't you think?",
+            "nextDialogs": [
+              "60251902"
+            ]
+          },
+          "60251902": {
+            "id": "60251902",
+            "speakerId": 15962,
+            "speakerName": "Ilmatar",
+            "text": "Hahaha! Nah, all part of the festive atmosphere!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "602527",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60252701"
+        ],
+        "dialogs": {
+          "60252701": {
+            "id": "60252701",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Goodbye for now. I look forward to the festival."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602551",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60255101"
+        ],
+        "dialogs": {
+          "60255101": {
+            "id": "60255101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Y—You won't snitch on us, will you?",
+            "nextDialogs": [
+              "60255102"
+            ]
+          },
+          "60255102": {
+            "id": "60255102",
+            "speakerId": 12913,
+            "speakerName": "Katheryne",
+            "text": "I'm not entirely sure what you're talking about. But rest assured, I protect client and adventurer confidentiality as a matter of principle.",
+            "nextDialogs": [
+              "60255103"
+            ]
+          },
+          "60255103": {
+            "id": "60255103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Phew, that's a relief... Paimon does not wanna get an earful from her..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "602598",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60259801"
+        ],
+        "dialogs": {
+          "60259801": {
+            "id": "60259801",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "602599",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60259901"
+        ],
+        "dialogs": {
+          "60259901": {
+            "id": "60259901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Since she's agreed to join the festival, let's go see who else wants to take part.",
+            "nextDialogs": [
+              "60259902"
+            ]
+          },
+          "60259902": {
+            "id": "60259902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Lauma's gotta be the person most familiar with the Moon-Prayer Night. We should start with her.",
+            "nextDialogs": [
+              "60259903"
+            ]
+          },
+          "60259903": {
+            "id": "60259903",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Also, what exactly is your plan to keep her safe?",
+            "nextDialogs": [
+              "60259904"
+            ]
+          },
+          "60259904": {
+            "id": "60259904",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Not sure yet. I'll figure something out.",
+            "nextDialogs": [
+              "60259905"
+            ]
+          },
+          "60259905": {
+            "id": "60259905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? Are you serious!? And Paimon even gave you her vote of confidence back there... When did you become so sneaky?",
+            "nextDialogs": [
+              "60259906"
+            ]
+          },
+          "60259906": {
+            "id": "60259906",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What are these floaty things?",
+            "nextDialogs": [
+              "60259907"
+            ]
+          },
+          "60259907": {
+            "id": "60259907",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Moonveils. We hang them from buildings in the city during the festival. When you look at the sky through them, it creates a lovely misty effect.",
+            "nextDialogs": [
+              "60259908"
+            ]
+          },
+          "60259908": {
+            "id": "60259908",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "They are the Verdant Crests. When the Night of Moon-Prayer descends, their branches unfurl from crescent to full moon, bathed in divine grace.",
+            "nextDialogs": [
+              "60259909"
+            ]
+          },
+          "60259909": {
+            "id": "60259909",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "That's also when the grandest celebration of the night begins.",
+            "nextDialogs": [
+              "60259910"
+            ]
+          },
+          "60259910": {
+            "id": "60259910",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "You could say, that's when the feast starts.",
+            "nextDialogs": [
+              "60259911"
+            ]
+          },
+          "60259911": {
+            "id": "60259911",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The timing of Moon-Prayer Night is not completely set in advance. We make a rough estimate, then observe the changes in the Verdant Crests and Moon-Prayer Blossoms to guide us.",
+            "nextDialogs": [
+              "60259912"
+            ]
+          },
+          "60259912": {
+            "id": "60259912",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "As such, the wait itself is a fun feature of this particular festival.",
+            "nextDialogs": [
+              "60259913"
+            ]
+          },
+          "60259913": {
+            "id": "60259913",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Mmm... smells wonderful! Are these for the festival too?",
+            "nextDialogs": [
+              "60259914"
+            ]
+          },
+          "60259914": {
+            "id": "60259914",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Yes, they're all traditional desserts of the Frostmoon Children. I'm sure they'll suit your taste, Paimon.",
+            "nextDialogs": [
+              "60259915"
+            ]
+          },
+          "60259915": {
+            "id": "60259915",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You bet! Sweets and treats are Paimon's favorite!",
+            "nextDialogs": [
+              "60259916"
+            ]
+          },
+          "60259916": {
+            "id": "60259916",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "Haha, if you included those in the Sacred Feast, I bet Paimon would have joined the Frostmoon Scions by now."
+          }
+        }
+      }
+    }
+  ]
+}

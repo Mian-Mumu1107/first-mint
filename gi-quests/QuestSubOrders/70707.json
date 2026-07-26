@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Alfred": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7070701",
+      "subQuestName": "Give Alfred three Windwheel Asters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707070101"
+        ],
+        "dialogs": {
+          "707070101": {
+            "id": "707070101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I believe you needed some Windwheel Asters...",
+            "nextDialogs": [
+              "707070102"
+            ]
+          },
+          "707070102": {
+            "id": "707070102",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "Ah, you must have seen my commission, then. Thanks for coming all this way.",
+            "nextDialogs": [
+              "707070103"
+            ]
+          },
+          "707070103": {
+            "id": "707070103",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "So, do you have three Windwheel Asters ready?",
+            "nextDialogs": [
+              "707070106"
+            ]
+          },
+          "707070106": {
+            "id": "707070106",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "Well, please pass them to me once you've gathered them — do hurry, or they might wilt."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070702",
+      "subQuestName": "Speak to Alfred",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707070201"
+        ],
+        "dialogs": {
+          "707070201": {
+            "id": "707070201",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "I'm sure my daughter will love them.",
+            "nextDialogs": [
+              "707070202"
+            ]
+          },
+          "707070202": {
+            "id": "707070202",
+            "speakerId": 1643,
+            "speakerName": "Alfred",
+            "text": "Thank you very much. Here's a little something for your trouble."
+          }
+        }
+      }
+    }
+  ]
+}

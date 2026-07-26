@@ -1,0 +1,744 @@
+{
+  "lineCounts": {
+    "Black Screen": 6,
+    "Gesine": 69,
+    "Paimon": 36,
+    "Player": 34
+  },
+  "subQuests": [
+    {
+      "subId": "7068101",
+      "subQuestName": "Go to <color=#00E1FFFF>Windwail Highland</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068102",
+      "subQuestName": "Save the adventurer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068103",
+      "subQuestName": "Talk to the adventurer",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810301"
+        ],
+        "dialogs": {
+          "706810301": {
+            "id": "706810301",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Phew... Saved at last... Thank you so much!",
+            "nextDialogs": [
+              "706810302"
+            ]
+          },
+          "706810302": {
+            "id": "706810302",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I am called Gesine. As you can see, I am an Adventurer.",
+            "nextDialogs": [
+              "706810303"
+            ]
+          },
+          "706810303": {
+            "id": "706810303",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "#Someone as skilled as you is surely no ordinary person! Are you a well-meaning knight? Or perhaps an errant {M#hero}{F#heroine}, wandering the land?",
+            "nextDialogs": [
+              "706810309",
+              "706810306"
+            ]
+          },
+          "706810309": {
+            "id": "706810309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon's name is Paimon, and {M#he's}{F#she's} {NICKNAME}, who also happens to be a member of the Adventurers' Guild!",
+            "nextDialogs": [
+              "706810310"
+            ]
+          },
+          "706810310": {
+            "id": "706810310",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "So you are an adventurer after all, and quite the experienced one at that! You were able to dispose of such powerful monsters so easily... there really always is a bigger fish.",
+            "nextDialogs": [
+              "706810311"
+            ]
+          },
+          "706810311": {
+            "id": "706810311",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Whereas for me... In training, I can easily remember what to do, but the second I have to do it for real, my body just doesn't listen to me...",
+            "nextDialogs": [
+              "706810312"
+            ]
+          },
+          "706810312": {
+            "id": "706810312",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Do I really have to train for another three to five years like my teacher said? But it'll be totally humiliating if I go back empty-handed like this... *sobs*",
+            "nextDialogs": [
+              "706810313"
+            ]
+          },
+          "706810313": {
+            "id": "706810313",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aww, it's probably just because we have more experience! It took us a long time and a lot of battles before we got this strong!"
+          },
+          "706810306": {
+            "id": "706810306",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I understand! You must be charged with a secret mission, and must be discreet in your dealings...",
+            "nextDialogs": [
+              "706810307"
+            ]
+          },
+          "706810307": {
+            "id": "706810307",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yep, that's pretty much it.",
+            "nextDialogs": [
+              "706810308"
+            ]
+          },
+          "706810308": {
+            "id": "706810308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, that's enough with the mysterious act!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068104",
+      "subQuestName": "Continue forward with Gesine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810401"
+        ],
+        "dialogs": {
+          "706810401": {
+            "id": "706810401",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Sorry! Can you wait here for a moment?",
+            "nextDialogs": [
+              "706810402"
+            ]
+          },
+          "706810402": {
+            "id": "706810402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What is it?",
+            "nextDialogs": [
+              "706810403"
+            ]
+          },
+          "706810403": {
+            "id": "706810403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did you forget something?",
+            "nextDialogs": [
+              "706810404"
+            ]
+          },
+          "706810404": {
+            "id": "706810404",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "No, that I didn't. But looking at the map, if we go any further, we'll have left Mondstadt.",
+            "nextDialogs": [
+              "706810405"
+            ]
+          },
+          "706810405": {
+            "id": "706810405",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "And there's no way to know when I'll return... When my teacher sees my message, he'll flip his lid...",
+            "nextDialogs": [
+              "706810408"
+            ]
+          },
+          "706810408": {
+            "id": "706810408",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Yes... When he first became an Adventurer, he ran into some Mitachurls out in the wild. During the melee, he let his guard down and got knocked out by an axe.",
+            "nextDialogs": [
+              "706810409"
+            ]
+          },
+          "706810409": {
+            "id": "706810409",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "He was lucky a passing Knight saved him and took him back.",
+            "nextDialogs": [
+              "706810410"
+            ]
+          },
+          "706810410": {
+            "id": "706810410",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "He was so ashamed, he decided to train his combat skills to the absolute max before he went out again. He's now been training for a decade...",
+            "nextDialogs": [
+              "706810411"
+            ]
+          },
+          "706810411": {
+            "id": "706810411",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "He always says the basics are the most important, but I just can't stand hacking away at wooden dummies every day!",
+            "nextDialogs": [
+              "706810412"
+            ]
+          },
+          "706810412": {
+            "id": "706810412",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "So I went out alone, without telling him..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068105",
+      "subQuestName": "Go to the <color=#00E1FFFF>Stone Gate</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810501"
+        ],
+        "dialogs": {
+          "706810501": {
+            "id": "706810501",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "That's <color=#00E1FFFF>Dihua Marsh</color> up ahead, right? It's so beautiful! You won't see anything like this in Mondstadt.",
+            "nextDialogs": [
+              "706810502"
+            ]
+          },
+          "706810502": {
+            "id": "706810502",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I knew that going on a journey was the right decision!",
+            "nextDialogs": [
+              "706810503"
+            ]
+          },
+          "706810503": {
+            "id": "706810503",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Oh, right! This doesn't happen every day, so let's take a picture together as a keepsake!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068106",
+      "subQuestName": "Take a commemorative photo nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7068107",
+      "subQuestName": "Talk to Gesine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810701"
+        ],
+        "dialogs": {
+          "706810701": {
+            "id": "706810701",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I'll treasure this photo of us together!",
+            "nextDialogs": [
+              "706810702"
+            ]
+          },
+          "706810702": {
+            "id": "706810702",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Ah! I didn't realize how hungry I was until I relaxed...",
+            "nextDialogs": [
+              "706810703"
+            ]
+          },
+          "706810703": {
+            "id": "706810703",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Now you mention it, Paimon's tummy is starting to rumble too...",
+            "nextDialogs": [
+              "706810708",
+              "706810706"
+            ]
+          },
+          "706810708": {
+            "id": "706810708",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's take a look around, find a place we can score some food!",
+            "nextDialogs": [
+              "706810709"
+            ]
+          },
+          "706810709": {
+            "id": "706810709",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "There don't seem to be any suitable restaurants nearby... Given how much you've helped and how much I look up to you, I'd feel bad eating at just any old place.",
+            "nextDialogs": [
+              "706810710"
+            ]
+          },
+          "706810710": {
+            "id": "706810710",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Speaking of food, might that building on top of that giant rock up ahead be the famous <color=#00E1FFFF>Wangshu Inn</color>?",
+            "nextDialogs": [
+              "706810711"
+            ]
+          },
+          "706810711": {
+            "id": "706810711",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I heard from a Liyue merchant who does business in Mondstadt that the food there is simply superb!",
+            "nextDialogs": [
+              "706810712"
+            ]
+          },
+          "706810712": {
+            "id": "706810712",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Let me treat you to a feast as thanks!",
+            "nextDialogs": [
+              "706810713"
+            ]
+          },
+          "706810713": {
+            "id": "706810713",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Woo-hoo! Let's go get some food!"
+          },
+          "706810706": {
+            "id": "706810706",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! You can't just order Paimon around like that!",
+            "nextDialogs": [
+              "706810707"
+            ]
+          },
+          "706810707": {
+            "id": "706810707",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Besides, it's not like you don't know what Paimon's cooking is like..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068108",
+      "subQuestName": "Arrive at <color=#00E1FFFF>Wangshu Inn</color>",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706810801"
+        ],
+        "dialogs": {
+          "706810801": {
+            "id": "706810801",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I've heard that Liyue cuisine has a holistic focus on appearance, smell, and taste! It really does look so different.",
+            "nextDialogs": [
+              "706810802"
+            ]
+          },
+          "706810802": {
+            "id": "706810802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And Paimon's mouth is watering just looking at it!",
+            "nextDialogs": [
+              "706810803"
+            ]
+          },
+          "706810803": {
+            "id": "706810803",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "Together, you savor the delicacies of Wangshu Inn...",
+            "nextDialogs": [
+              "706810804"
+            ]
+          },
+          "706810804": {
+            "id": "706810804",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wowowow, this is delicious too, and this, and that... Ahhh, I'm too stuffed to eat another bite!",
+            "nextDialogs": [
+              "706810807"
+            ]
+          },
+          "706810807": {
+            "id": "706810807",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Thank you so much for everything you've done! If it weren't for you, I can't imagine how much more difficult it would've been for me to get here.",
+            "nextDialogs": [
+              "706810808"
+            ]
+          },
+          "706810808": {
+            "id": "706810808",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "One of the staff here told me that if I stay on this road, <color=#00E1FFFF>Liyue Harbor</color> will be just up ahead.",
+            "nextDialogs": [
+              "706810809"
+            ]
+          },
+          "706810809": {
+            "id": "706810809",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I plan to rest here for a few days, and ask around about where I can find legendary experts, then decide where I should go next.",
+            "nextDialogs": [
+              "706810810"
+            ]
+          },
+          "706810810": {
+            "id": "706810810",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Though I really enjoyed traveling with you, I can't keep imposing on you like this.",
+            "nextDialogs": [
+              "706810811"
+            ]
+          },
+          "706810811": {
+            "id": "706810811",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Moving forward, it's up to me to get stronger, so that I can become an Adventurer just as reliable as you!",
+            "nextDialogs": [
+              "706810812"
+            ]
+          },
+          "706810812": {
+            "id": "706810812",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, though we didn't spend that much time together, we had a good time too!",
+            "nextDialogs": [
+              "706810813"
+            ]
+          },
+          "706810813": {
+            "id": "706810813",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "I hope we'll meet again sometime!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068112",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706811201"
+        ],
+        "dialogs": {
+          "706811201": {
+            "id": "706811201",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I've heard that Liyue cuisine has a holistic focus on appearance, smell, and taste! It really does look so different.",
+            "nextDialogs": [
+              "706811202"
+            ]
+          },
+          "706811202": {
+            "id": "706811202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And Paimon's mouth is watering just looking at it!",
+            "nextDialogs": [
+              "706811203"
+            ]
+          },
+          "706811203": {
+            "id": "706811203",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "Together, you savor the delicacies of Wangshu Inn...",
+            "nextDialogs": [
+              "706811204"
+            ]
+          },
+          "706811204": {
+            "id": "706811204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wowowow, this is delicious too, and this, and that... Ahhh, I'm too stuffed to eat another bite!",
+            "nextDialogs": [
+              "706811207"
+            ]
+          },
+          "706811207": {
+            "id": "706811207",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Thank you so much for everything you've done! If it weren't for you, I can't imagine how much more difficult it would've been for me to get here.",
+            "nextDialogs": [
+              "706811208"
+            ]
+          },
+          "706811208": {
+            "id": "706811208",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "One of the staff here told me that if I stay on this road, <color=#00E1FFFF>Liyue Harbor</color> will be just up ahead.",
+            "nextDialogs": [
+              "706811209"
+            ]
+          },
+          "706811209": {
+            "id": "706811209",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I plan to rest here for a few days, and ask around about where I can find legendary experts, then decide where I should go next.",
+            "nextDialogs": [
+              "706811210"
+            ]
+          },
+          "706811210": {
+            "id": "706811210",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Though I really enjoyed traveling with you, I can't keep imposing on you like this.",
+            "nextDialogs": [
+              "706811211"
+            ]
+          },
+          "706811211": {
+            "id": "706811211",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Moving forward, it's up to me to get stronger, so that I can become an Adventurer just as reliable as you!",
+            "nextDialogs": [
+              "706811212"
+            ]
+          },
+          "706811212": {
+            "id": "706811212",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, though we didn't spend that much time together, we had a good time too!",
+            "nextDialogs": [
+              "706811213"
+            ]
+          },
+          "706811213": {
+            "id": "706811213",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "I hope we'll meet again sometime!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068131",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706813101"
+        ],
+        "dialogs": {
+          "706813101": {
+            "id": "706813101",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Phew... Saved at last... Thank you so much!",
+            "nextDialogs": [
+              "706813102"
+            ]
+          },
+          "706813102": {
+            "id": "706813102",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I am called Gesine. As you can see, I am an Adventurer.",
+            "nextDialogs": [
+              "706813103"
+            ]
+          },
+          "706813103": {
+            "id": "706813103",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "#Someone as skilled as you is surely no ordinary person! Are you a well-meaning knight? Or perhaps an errant {M#hero}{F#heroine}, wandering the land?",
+            "nextDialogs": [
+              "706813109",
+              "706813106"
+            ]
+          },
+          "706813109": {
+            "id": "706813109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon's name is Paimon, and {M#he's}{F#she's} {NICKNAME}, who also happens to be a member of the Adventurers' Guild!",
+            "nextDialogs": [
+              "706813110"
+            ]
+          },
+          "706813110": {
+            "id": "706813110",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "So you are an adventurer after all, and quite the experienced one at that! You were able to dispose of such powerful monsters so easily... there really always is a bigger fish.",
+            "nextDialogs": [
+              "706813111"
+            ]
+          },
+          "706813111": {
+            "id": "706813111",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Whereas for me... In training, I can easily remember what to do, but the second I have to do it for real, my body just doesn't listen to me...",
+            "nextDialogs": [
+              "706813112"
+            ]
+          },
+          "706813112": {
+            "id": "706813112",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Do I really have to train for another three to five years like my teacher said? But it'll be totally humiliating if I go back empty-handed like this... *sobs*",
+            "nextDialogs": [
+              "706813113"
+            ]
+          },
+          "706813113": {
+            "id": "706813113",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aww, it's probably just because we have more experience! It took us a long time and a lot of battles before we got this strong!"
+          },
+          "706813106": {
+            "id": "706813106",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "I understand! You must be charged with a secret mission, and must be discreet in your dealings...",
+            "nextDialogs": [
+              "706813107"
+            ]
+          },
+          "706813107": {
+            "id": "706813107",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yep, that's pretty much it.",
+            "nextDialogs": [
+              "706813108"
+            ]
+          },
+          "706813108": {
+            "id": "706813108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, that's enough with the mysterious act!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7068199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "706819904"
+        ],
+        "dialogs": {
+          "706819904": {
+            "id": "706819904",
+            "speakerId": 14466,
+            "speakerName": "Gesine",
+            "text": "Save me...!",
+            "nextDialogs": [
+              "706819905"
+            ]
+          },
+          "706819905": {
+            "id": "706819905",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "Gesine inquires after the menu with the innkeeper, and orders several dishes as expensive as they are famous..."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1683 @@
+{
+  "lineCounts": {
+    "Player": 55,
+    "五郎": 7,
+    "冰封之心": 2,
+    "哲平": 39,
+    "奥兹": 7,
+    "旁白": 4,
+    "枫原万叶": 37,
+    "派蒙": 27,
+    "温迪": 2,
+    "火炽之心": 2,
+    "珊瑚宫心海": 8,
+    "莫娜": 29,
+    "莱昂": 1,
+    "菲谢尔": 19,
+    "辛焱": 30
+  },
+  "subQuests": [
+    {
+      "subId": "201401",
+      "subQuestName": "前往古代遗迹调查",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201402",
+      "subQuestName": "与派蒙对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20140201"
+        ],
+        "dialogs": {
+          "20140201": {
+            "id": "20140201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "应该就是这里了。不过，确实没看到什么可疑的家伙…",
+            "nextDialogs": [
+              "20140202"
+            ]
+          },
+          "20140202": {
+            "id": "20140202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#难道说是躲起来了吗？{NICKNAME}，我们在附近搜寻一下吧。",
+            "nextDialogs": [
+              "20140203"
+            ]
+          },
+          "20140203": {
+            "id": "20140203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这些<color=#00E1FFFF>雷元素方碑</color>，感觉有些可疑…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201403",
+      "subQuestName": "调查古代遗迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201404",
+      "subQuestName": "击败出现的魔物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201405",
+      "subQuestName": "与派蒙聊天",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20140501"
+        ],
+        "dialogs": {
+          "20140501": {
+            "id": "20140501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呼…终于搞定了。",
+            "nextDialogs": [
+              "20140502"
+            ]
+          },
+          "20140502": {
+            "id": "20140502",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "真是个难对付的家伙啊，不过这里为什么会有这么大一个丘丘雷兜王呢？",
+            "nextDialogs": [
+              "20140503"
+            ]
+          },
+          "20140503": {
+            "id": "20140503",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "想不明白…而且这里的气氛也有点古怪。",
+            "nextDialogs": [
+              "20140504"
+            ]
+          },
+          "20140504": {
+            "id": "20140504",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "总之，这里的事情应该已经搞定了，我们还是快跑吧…欸，哲平，你怎么也在这里？",
+            "nextDialogs": [
+              "20140505"
+            ]
+          },
+          "20140505": {
+            "id": "20140505",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "咳咳…我也很惊讶，原来是你们在这里调查啊。",
+            "nextDialogs": [
+              "20140506"
+            ]
+          },
+          "20140506": {
+            "id": "20140506",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我刚刚运完物资从前线回来，想要顺便清理一下附近的威胁。咳…",
+            "nextDialogs": [
+              "20140507"
+            ]
+          },
+          "20140507": {
+            "id": "20140507",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "没事吧，你看上去有点怪怪的。",
+            "nextDialogs": [
+              "20140508"
+            ]
+          },
+          "20140508": {
+            "id": "20140508",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "没事没事，估计是前两天出海的时候冻着了。",
+            "nextDialogs": [
+              "20140509"
+            ]
+          },
+          "20140509": {
+            "id": "20140509",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "路过这里的时候，我听说有人不久前刚刚登岛调查，就想过来看看。",
+            "nextDialogs": [
+              "20140510"
+            ]
+          },
+          "20140510": {
+            "id": "20140510",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "万一有什么危险，说不定我还可以当一回英雄…可惜遇到的是你们，看来我算是白来啦。",
+            "nextDialogs": [
+              "20140511"
+            ]
+          },
+          "20140511": {
+            "id": "20140511",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哲平，你有没有觉得这里的氛围有些特别？",
+            "nextDialogs": [
+              "20140512"
+            ]
+          },
+          "20140512": {
+            "id": "20140512",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "嗯…这么说的话，确实有一点。",
+            "nextDialogs": [
+              "20140513"
+            ]
+          },
+          "20140513": {
+            "id": "20140513",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "可能是因为这里靠近魔神奥罗巴斯的骸骨，祟神的气息比较浓郁吧。",
+            "nextDialogs": [
+              "20140514"
+            ]
+          },
+          "20140514": {
+            "id": "20140514",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "魔神奥罗巴斯，那是…",
+            "nextDialogs": [
+              "20140515"
+            ]
+          },
+          "20140515": {
+            "id": "20140515",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "你看，那个就是奥罗巴斯留下来的骸骨。",
+            "nextDialogs": [
+              "20140516"
+            ]
+          },
+          "20140516": {
+            "id": "20140516",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜哇！这么大的蛇骨，看上去好吓人！",
+            "nextDialogs": [
+              "20140517"
+            ]
+          },
+          "20140517": {
+            "id": "20140517",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "是奥罗巴斯把我们的祖先从渊下宫带到地面上，才有今天的海祇岛。",
+            "nextDialogs": [
+              "20140518"
+            ]
+          },
+          "20140518": {
+            "id": "20140518",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我们的祖先一直视它为守护神，但魔神战争期间，奥罗巴斯入侵了八酝岛。",
+            "nextDialogs": [
+              "20140519"
+            ]
+          },
+          "20140519": {
+            "id": "20140519",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "雷电将军亲自赶来，以「无想的一刀」将其斩杀。那一刀，也形成了如今的「无想刃狭间」。",
+            "nextDialogs": [
+              "20140520"
+            ]
+          },
+          "20140520": {
+            "id": "20140520",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "「无想刃狭间」，居然是被雷电将军砍出来的…好厉害…",
+            "nextDialogs": [
+              "20140521"
+            ]
+          },
+          "20140521": {
+            "id": "20140521",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "是啊，不过魔神战争异常残酷，八酝岛在那场战役中化为废墟，据说将军也曾在那时失去了珍视的事物。",
+            "nextDialogs": [
+              "20140522"
+            ]
+          },
+          "20140522": {
+            "id": "20140522",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "奥罗巴斯死后，海祇岛与幕府就多有不和。但这次成立反抗军，不是为了信仰，只是针对眼狩令。",
+            "nextDialogs": [
+              "20140523"
+            ]
+          },
+          "20140523": {
+            "id": "20140523",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "奥罗巴斯毁灭文明，是将军站出来阻止了它。",
+            "nextDialogs": [
+              "20140524"
+            ]
+          },
+          "20140524": {
+            "id": "20140524",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "如今将军颁布眼狩令，剥夺民众的愿望，也必须有人站出来阻止将军…咳咳。",
+            "nextDialogs": [
+              "20140525"
+            ]
+          },
+          "20140525": {
+            "id": "20140525",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "我先回去了，刚解决完幕府军的精锐武士，我回去休息一下，等会儿还有其他要做的事。",
+            "nextDialogs": [
+              "20140526"
+            ]
+          },
+          "20140526": {
+            "id": "20140526",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "你们也赶紧向珊瑚宫大人汇报吧。这里说不定还有残留的祟神气息，长时间呆在这里，对身体不好…",
+            "nextDialogs": [
+              "20140527"
+            ]
+          },
+          "20140527": {
+            "id": "20140527",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "咳咳…咳…",
+            "nextDialogs": [
+              "20140530"
+            ]
+          },
+          "20140530": {
+            "id": "20140530",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "别担心，我的身体硬朗着呢。",
+            "nextDialogs": [
+              "20140531"
+            ]
+          },
+          "20140531": {
+            "id": "20140531",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "没想到哲平已经能和幕府军的武士交战了，不知不觉他也成长了很多呢。",
+            "nextDialogs": [
+              "20140532"
+            ]
+          },
+          "20140532": {
+            "id": "20140532",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我们回去向<color=#00E1FFFF>心海</color>汇报吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201406",
+      "subQuestName": "回到本部，与珊瑚宫心海对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20140601"
+        ],
+        "dialogs": {
+          "20140601": {
+            "id": "20140601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "心海，我们回…咦，五郎也在呢。",
+            "nextDialogs": [
+              "20140602"
+            ]
+          },
+          "20140602": {
+            "id": "20140602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "发生什么事了吗？他们的表情看上去好严肃…",
+            "nextDialogs": [
+              "20140603"
+            ]
+          },
+          "20140603": {
+            "id": "20140603",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "出现这种异常情况的人，大概有多少？",
+            "nextDialogs": [
+              "20140604"
+            ]
+          },
+          "20140604": {
+            "id": "20140604",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "还没来得及完全统计…",
+            "nextDialogs": [
+              "20140605"
+            ]
+          },
+          "20140605": {
+            "id": "20140605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "心海，五郎，发生什么事了吗？",
+            "nextDialogs": [
+              "20140606"
+            ]
+          },
+          "20140606": {
+            "id": "20140606",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "#{NICKNAME}，最近反抗军部分军士，出现了诡异的老化症状。",
+            "nextDialogs": [
+              "20140607"
+            ]
+          },
+          "20140607": {
+            "id": "20140607",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "我将他们叫来盘问，才知道他们私底下从资助方那里拿到了一些「秘密武器」。",
+            "nextDialogs": [
+              "20140608"
+            ]
+          },
+          "20140608": {
+            "id": "20140608",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "他们大多争强好胜，对眼狩令极为不满，拿到这些秘密武器后，一直在悄悄使用。",
+            "nextDialogs": [
+              "20140609"
+            ]
+          },
+          "20140609": {
+            "id": "20140609",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "难怪最近战局异常顺利…但这绝非正道，必须尽快禁止。",
+            "nextDialogs": [
+              "20140610"
+            ]
+          },
+          "20140610": {
+            "id": "20140610",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "五郎，你有拿到他们所谓的「秘密武器」吗？",
+            "nextDialogs": [
+              "20140611"
+            ]
+          },
+          "20140611": {
+            "id": "20140611",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "大部分持有秘密武器的人不肯交出，但我还是拿到了一枚…",
+            "nextDialogs": [
+              "20140612"
+            ]
+          },
+          "20140612": {
+            "id": "20140612",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "这是…",
+            "nextDialogs": [
+              "20140613"
+            ]
+          },
+          "20140613": {
+            "id": "20140613",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "#{NICKNAME}，你知道这个东西吗？",
+            "nextDialogs": [
+              "20140614"
+            ]
+          },
+          "20140614": {
+            "id": "20140614",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "愚人众的…邪眼…",
+            "nextDialogs": [
+              "20140615"
+            ]
+          },
+          "20140615": {
+            "id": "20140615",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "这么说，资助方的身份其实是愚人众？",
+            "nextDialogs": [
+              "20140616"
+            ]
+          },
+          "20140616": {
+            "id": "20140616",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "可愚人众为什么要这么做…",
+            "nextDialogs": [
+              "20140617"
+            ]
+          },
+          "20140617": {
+            "id": "20140617",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "没时间细想了，现在最重要的是，尽快通知军队放弃使用邪眼。",
+            "nextDialogs": [
+              "20140618"
+            ]
+          },
+          "20140618": {
+            "id": "20140618",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "最近有异常的士兵都需要接受治疗，希望还赶得上。",
+            "nextDialogs": [
+              "20140619"
+            ]
+          },
+          "20140619": {
+            "id": "20140619",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#等等，{NICKNAME}，说到有异常的士兵…",
+            "nextDialogs": [
+              "20140620"
+            ]
+          },
+          "20140620": {
+            "id": "20140620",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "哲平他…",
+            "nextDialogs": [
+              "20140621"
+            ]
+          },
+          "20140621": {
+            "id": "20140621",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "应，应该不会吧…",
+            "nextDialogs": [
+              "20140622"
+            ]
+          },
+          "20140622": {
+            "id": "20140622",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们快过去看看！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201407",
+      "subQuestName": "寻找哲平",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201408",
+      "subQuestName": "与哲平对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20140801"
+        ],
+        "dialogs": {
+          "20140801": {
+            "id": "20140801",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哲平！！",
+            "nextDialogs": [
+              "20140802"
+            ]
+          },
+          "20140802": {
+            "id": "20140802",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "啊…是你们啊。你们来了？",
+            "nextDialogs": [
+              "20140803"
+            ]
+          },
+          "20140803": {
+            "id": "20140803",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "等一下啊，我先站起来…奇怪，总觉得身体没什么力气…",
+            "nextDialogs": [
+              "20140806"
+            ]
+          },
+          "20140806": {
+            "id": "20140806",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "嗯？",
+            "nextDialogs": [
+              "20140807"
+            ]
+          },
+          "20140807": {
+            "id": "20140807",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "哦哦，还没来得及跟你细说。我最近啊，又立了好几件功劳。",
+            "nextDialogs": [
+              "20140808"
+            ]
+          },
+          "20140808": {
+            "id": "20140808",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "乘船与幕府军海战、一个人击退幕府武士、营救被围困的同伴，以前的我做梦都不敢想。",
+            "nextDialogs": [
+              "20140809"
+            ]
+          },
+          "20140809": {
+            "id": "20140809",
+            "speakerId": 12013,
+            "speakerName": "哲平",
+            "text": "如果我能再强一点就好了。再强一点，就能做到更多的事了…奇怪，我的「秘密武器」呢？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201450",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20145001"
+        ],
+        "dialogs": {
+          "20145001": {
+            "id": "20145001",
+            "speakerId": 1037,
+            "speakerName": "珊瑚宫心海",
+            "text": "五郎，我们也去反抗军营地。必须立刻制止邪眼的流通。",
+            "nextDialogs": [
+              "20145002"
+            ]
+          },
+          "20145002": {
+            "id": "20145002",
+            "speakerId": 1039,
+            "speakerName": "五郎",
+            "text": "是，珊瑚宫大人！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006411",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400641101"
+        ],
+        "dialogs": {
+          "400641101": {
+            "id": "400641101",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "听着海风享用美食，当真是一件乐事。辛焱，多谢你为大家准备的晚餐。",
+            "nextDialogs": [
+              "400641102"
+            ]
+          },
+          "400641102": {
+            "id": "400641102",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "没事，不用客气。看大家吃得开心，我也满足得很。我还担心自己对数量把控缺乏经验，不够吃…或者吃剩好多呢。",
+            "nextDialogs": [
+              "400641103"
+            ]
+          },
+          "400641103": {
+            "id": "400641103",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "啊，对了…你们逛得怎么样，有没有去高点的地方看看风景？",
+            "nextDialogs": [
+              "400641104"
+            ]
+          },
+          "400641104": {
+            "id": "400641104",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "嗯，吟游诗人口中「绿宝石般的」岛屿名副其实。",
+            "nextDialogs": [
+              "400641105"
+            ]
+          },
+          "400641105": {
+            "id": "400641105",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "哦？难道那一整个故事也都是真的？",
+            "nextDialogs": [
+              "400641106"
+            ]
+          },
+          "400641106": {
+            "id": "400641106",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "不好说。不过，我倒是相信的。",
+            "nextDialogs": [
+              "400641107"
+            ]
+          },
+          "400641107": {
+            "id": "400641107",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "那要是明天醒来，我们就能见到故事里的魔王或者嘟嘟可，一定会很有意思。",
+            "nextDialogs": [
+              "400641108"
+            ]
+          },
+          "400641108": {
+            "id": "400641108",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "…不对，见不到也没关系。能来到故事里的岛屿，还能交到蒙德的朋友，已经很有收获了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006412",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400641201"
+        ],
+        "dialogs": {
+          "400641201": {
+            "id": "400641201",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "凡尘的诱惑迫使真相却步，昭告胜利的判决未能显现在我的面前。",
+            "nextDialogs": [
+              "400641202"
+            ]
+          },
+          "400641202": {
+            "id": "400641202",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "没想到，你还好意思再提起这个话题。",
+            "nextDialogs": [
+              "400641203"
+            ]
+          },
+          "400641203": {
+            "id": "400641203",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "#你跟奥兹一唱一和，拼命在{NICKNAME}和派蒙耳边暗示，我看早就偏离了公平吧。",
+            "nextDialogs": [
+              "400641204"
+            ]
+          },
+          "400641204": {
+            "id": "400641204",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "而且，也只有输了的人才会想要得到…",
+            "nextDialogs": [
+              "400641205"
+            ]
+          },
+          "400641205": {
+            "id": "400641205",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "你说什么？",
+            "nextDialogs": [
+              "400641206"
+            ]
+          },
+          "400641206": {
+            "id": "400641206",
+            "speakerId": 10012,
+            "speakerName": "奥兹",
+            "text": "小姐，她的意思是你输了。",
+            "nextDialogs": [
+              "400641207"
+            ]
+          },
+          "400641207": {
+            "id": "400641207",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "多嘴！奥兹！",
+            "nextDialogs": [
+              "400641208"
+            ]
+          },
+          "400641208": {
+            "id": "400641208",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "咳咳…梅姬斯图斯卿，且让这神圣的胜负暂且搁置。待我重回幽夜的王座，再邀你于忘忧之御膳园中一决高下。",
+            "nextDialogs": [
+              "400641209"
+            ]
+          },
+          "400641209": {
+            "id": "400641209",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "可以是可以，反正再来几次结果都是一样的…但那到底是个什么地方啊？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006413",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400641301"
+        ],
+        "dialogs": {
+          "400641301": {
+            "id": "400641301",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "哈啾！",
+            "nextDialogs": [
+              "400641302"
+            ]
+          },
+          "400641302": {
+            "id": "400641302",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "唔…果然还是不能离猫太近…我就待在房顶上吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006707",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400670701"
+        ],
+        "dialogs": {
+          "400670701": {
+            "id": "400670701",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "水占盘…究竟是怎么一回事呢。",
+            "nextDialogs": [
+              "400670702"
+            ]
+          },
+          "400670702": {
+            "id": "400670702",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "进一步的观测就交给专业人士我吧，有情况第一时间通知你。嗯，合作愉快。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006708",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400670801"
+        ],
+        "dialogs": {
+          "400670801": {
+            "id": "400670801",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "万叶还算豁达，皇女殿下有莫娜陪伴，也不用过于操心。",
+            "nextDialogs": [
+              "400670802"
+            ]
+          },
+          "400670802": {
+            "id": "400670802",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "#至于{NICKNAME}…你的状态看起来就和我一样好嘛！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006709",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400670901"
+        ],
+        "dialogs": {
+          "400670901": {
+            "id": "400670901",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "「此身恰如秋叶，浮流远山海。」",
+            "nextDialogs": [
+              "400670902"
+            ]
+          },
+          "400670902": {
+            "id": "400670902",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "如今的我仍在旅途之中，但回想自己曾经写下的诗句，心境却有不同。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4006799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400679917"
+        ],
+        "dialogs": {
+          "400679917": {
+            "id": "400679917",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "我曾问自己，此行路途坎坷，必有颠沛流离之苦。",
+            "nextDialogs": [
+              "400679918"
+            ]
+          },
+          "400679918": {
+            "id": "400679918",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "该去吗？去何处，又如何去？",
+            "nextDialogs": [
+              "400679919"
+            ]
+          },
+          "400679919": {
+            "id": "400679919",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "但我不得不走。天高海阔，人必往之。",
+            "nextDialogs": [
+              "400679920"
+            ]
+          },
+          "400679920": {
+            "id": "400679920",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "祖父大人，父亲大人，永别了。",
+            "nextDialogs": [
+              "400679921"
+            ]
+          },
+          "400679921": {
+            "id": "400679921",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "说「永别」，是以为此生再不会回到这里。",
+            "nextDialogs": [
+              "400679922"
+            ]
+          },
+          "400679922": {
+            "id": "400679922",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "可若有一日，我真的回到稻妻…",
+            "nextDialogs": [
+              "400679923"
+            ]
+          },
+          "400679923": {
+            "id": "400679923",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "…不，或许，不会有那样一天。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007001",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400700101"
+        ],
+        "dialogs": {
+          "400700101": {
+            "id": "400700101",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "菲谢尔不想面对的幻境，会是什么样子呢？",
+            "nextDialogs": [
+              "400700102"
+            ]
+          },
+          "400700102": {
+            "id": "400700102",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "该不会…出现一堆幻影自称自己才是菲谢尔·冯·露弗施洛斯·那菲多特，幽夜净土的主人，漆黑烬灭的统御者…",
+            "nextDialogs": [
+              "400700103"
+            ]
+          },
+          "400700103": {
+            "id": "400700103",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "紧接着用各种难懂的语言来争论些有的没的…咿。",
+            "nextDialogs": [
+              "400700104"
+            ]
+          },
+          "400700104": {
+            "id": "400700104",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "算了算了，不该自己吓自己…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007002",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400700201"
+        ],
+        "dialogs": {
+          "400700201": {
+            "id": "400700201",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "直到现在，我的脑海中还回荡着先前的旋律。真是不可思议的经历！",
+            "nextDialogs": [
+              "400700202"
+            ]
+          },
+          "400700202": {
+            "id": "400700202",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "话说回来，我的愿望是实现了，但不知道其他人的幻境之旅会不会顺利…",
+            "nextDialogs": [
+              "400700203"
+            ]
+          },
+          "400700203": {
+            "id": "400700203",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "先养足精力吧！无论出现怎样的情况，我该做的都是支持同伴。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007003",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400700301"
+        ],
+        "dialogs": {
+          "400700301": {
+            "id": "400700301",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "为了不增添大家的焦虑，当时我没有着重提及…愚人众不见踪迹这件事，让我有些在意。",
+            "nextDialogs": [
+              "400700302"
+            ]
+          },
+          "400700302": {
+            "id": "400700302",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "看你的样子…我明白了，看来我们的判断相近。",
+            "nextDialogs": [
+              "400700303"
+            ]
+          },
+          "400700303": {
+            "id": "400700303",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "那我们就继续保持留意和警惕吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007006",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400700601"
+        ],
+        "dialogs": {
+          "400700601": {
+            "id": "400700601",
+            "speakerId": 12616,
+            "speakerName": "火炽之心",
+            "text": "为反抗高歌！",
+            "nextDialogs": [
+              "400700602"
+            ]
+          },
+          "400700602": {
+            "id": "400700602",
+            "speakerId": 12616,
+            "speakerName": "火炽之心",
+            "text": "嗯，充满气势地喊出这句话，心情就会变得舒畅。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007007",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400700701"
+        ],
+        "dialogs": {
+          "400700701": {
+            "id": "400700701",
+            "speakerId": 12623,
+            "speakerName": "冰封之心",
+            "text": "嘘…静下心来，仔细听。",
+            "nextDialogs": [
+              "400700702"
+            ]
+          },
+          "400700702": {
+            "id": "400700702",
+            "speakerId": 12623,
+            "speakerName": "冰封之心",
+            "text": "听到了吗？海洋，天空，山崖…世间万物都有只属于它们自己的歌声。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400709901"
+        ],
+        "dialogs": {
+          "400709901": {
+            "id": "400709901",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "嗯，这样应该就算种好了吧。",
+            "nextDialogs": [
+              "400709902"
+            ]
+          },
+          "400709902": {
+            "id": "400709902",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "岛上好像有声音。",
+            "nextDialogs": [
+              "400709903"
+            ]
+          },
+          "400709903": {
+            "id": "400709903",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "万叶，你能感觉到风吗？它往哪里吹？",
+            "nextDialogs": [
+              "400709904"
+            ]
+          },
+          "400709904": {
+            "id": "400709904",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "从那边过来了。我带你们去有风的山头。",
+            "nextDialogs": [
+              "400709905"
+            ]
+          },
+          "400709905": {
+            "id": "400709905",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜哇，从哪冒出来的！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007301",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400730101"
+        ],
+        "dialogs": {
+          "400730101": {
+            "id": "400730101",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "奥兹，总之…那个…咳咳，还是要谢谢你。",
+            "nextDialogs": [
+              "400730102"
+            ]
+          },
+          "400730102": {
+            "id": "400730102",
+            "speakerId": 10012,
+            "speakerName": "奥兹",
+            "text": "小姐不必客气，这都是我应该做的。能够追随小姐你，是我的荣幸。",
+            "nextDialogs": [
+              "400730103"
+            ]
+          },
+          "400730103": {
+            "id": "400730103",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "那本皇女便赐你随侍我左右的殊荣，一同去看看戏剧吧。",
+            "nextDialogs": [
+              "400730104"
+            ]
+          },
+          "400730104": {
+            "id": "400730104",
+            "speakerId": 10012,
+            "speakerName": "奥兹",
+            "text": "一如小姐所愿。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007303",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400730301"
+        ],
+        "dialogs": {
+          "400730301": {
+            "id": "400730301",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "菲谢尔的矛盾，确实在于「自我」。不过幻影只有一个，看来我此前的猜想还是激进了一些。",
+            "nextDialogs": [
+              "400730302"
+            ]
+          },
+          "400730302": {
+            "id": "400730302",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "好在一番折腾之后，她总算是和自己和解了。",
+            "nextDialogs": [
+              "400730303"
+            ]
+          },
+          "400730303": {
+            "id": "400730303",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "就是我这位「宫廷大法师」，不得不继续当下去了啊。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007305",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400730501"
+        ],
+        "dialogs": {
+          "400730501": {
+            "id": "400730501",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "菲谢尔的那番驳斥相当不错！戏剧感很强，又有力量。要不是担心打断她说话，真想为她配上一段激昂的伴奏。",
+            "nextDialogs": [
+              "400730502"
+            ]
+          },
+          "400730502": {
+            "id": "400730502",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "现在所有人重新聚在一起，剧场也搭起来了。我很喜欢这种感觉。",
+            "nextDialogs": [
+              "400730503"
+            ]
+          },
+          "400730503": {
+            "id": "400730503",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "趁着这个时候，一起狂欢吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007307",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400730701"
+        ],
+        "dialogs": {
+          "400730701": {
+            "id": "400730701",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "「寻路归故里，夜鸦轻啼向空去…」",
+            "nextDialogs": [
+              "400730702"
+            ]
+          },
+          "400730702": {
+            "id": "400730702",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "嗯…虽然幻境的主题大不相同，但我总觉得其中也有某种共性。",
+            "nextDialogs": [
+              "400730703"
+            ]
+          },
+          "400730703": {
+            "id": "400730703",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "…有了，结尾就用：「雨霁留虹霓。」"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007399",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400739901"
+        ],
+        "dialogs": {
+          "400739901": {
+            "id": "400739901",
+            "speakerId": 12674,
+            "speakerName": "旁白",
+            "text": "「…在龙血凝成的暴雨中讲演。她说道：『令我的子民自由，不囿于古老法则。』」",
+            "nextDialogs": [
+              "400739902"
+            ]
+          },
+          "400739902": {
+            "id": "400739902",
+            "speakerId": 10012,
+            "speakerName": "奥兹",
+            "text": "多么富有智慧与博爱的词句，果真是小姐手笔。",
+            "nextDialogs": [
+              "400739903"
+            ]
+          },
+          "400739903": {
+            "id": "400739903",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "哼，可这片王国看起来绝非如此。背后掩藏着的阴影，令人在意…",
+            "nextDialogs": [
+              "400739904"
+            ]
+          },
+          "400739904": {
+            "id": "400739904",
+            "speakerId": 12674,
+            "speakerName": "旁白",
+            "text": "「皇女殿下又咏唱起来，音节连通，即为『幽夜净土』之圣歌。」",
+            "nextDialogs": [
+              "400739905"
+            ]
+          },
+          "400739905": {
+            "id": "400739905",
+            "speakerId": 12674,
+            "speakerName": "旁白",
+            "text": "「捡起石头，搭出城堡与乡镇，铺上山岭和海洋。」",
+            "nextDialogs": [
+              "400739906"
+            ]
+          },
+          "400739906": {
+            "id": "400739906",
+            "speakerId": 12674,
+            "speakerName": "旁白",
+            "text": "「我等金碧辉煌的王国，是狭小又禁忌的乐土。」",
+            "nextDialogs": [
+              "400739910"
+            ]
+          },
+          "400739910": {
+            "id": "400739910",
+            "speakerId": 12626,
+            "speakerName": "莱昂",
+            "text": "啊——救命啊——",
+            "nextDialogs": [
+              "400739913"
+            ]
+          },
+          "400739913": {
+            "id": "400739913",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "书在那里！去把它合上吧。",
+            "nextDialogs": [
+              "400739914"
+            ]
+          },
+          "400739914": {
+            "id": "400739914",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "但愿这次不要被传到什么奇怪的地方…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007703",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400770301"
+        ],
+        "dialogs": {
+          "400770301": {
+            "id": "400770301",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "哦呵呵，是本皇女最忠实的扈从。",
+            "nextDialogs": [
+              "400770303",
+              "400770305"
+            ]
+          },
+          "400770303": {
+            "id": "400770303",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "自然可以，本皇女赐你提问的权力。"
+          },
+          "400770305": {
+            "id": "400770305",
+            "speakerId": 10011,
+            "speakerName": "菲谢尔",
+            "text": "与吾命运交错之人，在此乐土畅游吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007704",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400770401"
+        ],
+        "dialogs": {
+          "400770401": {
+            "id": "400770401",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "假日要接近尾声了吗…",
+            "nextDialogs": [
+              "400770403",
+              "400770405"
+            ]
+          },
+          "400770403": {
+            "id": "400770403",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "行啊，有什么要问我的吗？"
+          },
+          "400770405": {
+            "id": "400770405",
+            "speakerId": 10095,
+            "speakerName": "莫娜",
+            "text": "嗯，离开这片海岛前，再多多享受一下吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007705",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400770501"
+        ],
+        "dialogs": {
+          "400770501": {
+            "id": "400770501",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "又有了新的作曲灵感…",
+            "nextDialogs": [
+              "400770503",
+              "400770505"
+            ]
+          },
+          "400770503": {
+            "id": "400770503",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "好啊好啊，我非常乐意。"
+          },
+          "400770505": {
+            "id": "400770505",
+            "speakerId": 1042,
+            "speakerName": "辛焱",
+            "text": "好，别累着自己了哦。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007706",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400770601"
+        ],
+        "dialogs": {
+          "400770601": {
+            "id": "400770601",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "四周「自然」的声音安逸，可以放心了…",
+            "nextDialogs": [
+              "400770603",
+              "400770605"
+            ]
+          },
+          "400770603": {
+            "id": "400770603",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "好，你想到些什么了？"
+          },
+          "400770605": {
+            "id": "400770605",
+            "speakerId": 1032,
+            "speakerName": "枫原万叶",
+            "text": "这些日子你也多有操劳，好好休息。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4007799",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400779903"
+        ],
+        "dialogs": {
+          "400779903": {
+            "id": "400779903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这样一来就都找齐啦，快点把晶核放回装置里！"
+          }
+        }
+      }
+    }
+  ]
+}

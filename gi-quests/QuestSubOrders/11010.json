@@ -1,0 +1,578 @@
+{
+  "lineCounts": {
+    "???": 11,
+    "Childe": 27,
+    "Daipai": 22,
+    "Ekaterina": 2,
+    "Paimon": 35,
+    "Player": 29,
+    "Teucer": 18
+  },
+  "subQuests": [
+    {
+      "subId": "1101001",
+      "subQuestName": "Ask the Millelith about the situation",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100101"
+        ],
+        "dialogs": {
+          "110100101": {
+            "id": "110100101",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Be on your guard, Traveler. Now is no time for sightseeing.",
+            "nextDialogs": [
+              "110100102"
+            ]
+          },
+          "110100102": {
+            "id": "110100102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, why's that? Has something happened?",
+            "nextDialogs": [
+              "110100103"
+            ]
+          },
+          "110100103": {
+            "id": "110100103",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Yes. As unusual as this may sound, numerous eyewitness reports have confirmed an active Ruin Guard presence in this area, even though this is far beyond their normal area of activity.",
+            "nextDialogs": [
+              "110100104"
+            ]
+          },
+          "110100104": {
+            "id": "110100104",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Sergeant sent someone to find out just where these ancient machines might have come from. It appears that they simply left their ruin and marched off all of a sudden, for no clear reason.",
+            "nextDialogs": [
+              "110100105"
+            ]
+          },
+          "110100105": {
+            "id": "110100105",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So did somebody wake them up?",
+            "nextDialogs": [
+              "110100106"
+            ]
+          },
+          "110100106": {
+            "id": "110100106",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "As I say, the reason is still unclear. We have very little intelligence at present.",
+            "nextDialogs": [
+              "110100107"
+            ]
+          },
+          "110100107": {
+            "id": "110100107",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Moreover... The ruin in question is of the especially spooky variety. Strange noises are often heard coming from within...",
+            "nextDialogs": [
+              "110100108"
+            ]
+          },
+          "110100108": {
+            "id": "110100108",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "As such, we are not permitted to investigate until the order comes through from headquarters.",
+            "nextDialogs": [
+              "110100113",
+              "110100111"
+            ]
+          },
+          "110100113": {
+            "id": "110100113",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "In any case, the only sensible strategy in the meantime is to increase Millelith patrols. We must not let innocent civilians come to harm.",
+            "nextDialogs": [
+              "110100114"
+            ]
+          },
+          "110100114": {
+            "id": "110100114",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's a good point... Ruin Guards are probably pretty dangerous for regular folk...",
+            "nextDialogs": [
+              "110100115"
+            ]
+          },
+          "110100115": {
+            "id": "110100115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is there any way I can help?",
+            "nextDialogs": [
+              "110100116"
+            ]
+          },
+          "110100116": {
+            "id": "110100116",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Wow, uh... I'm very grateful indeed for the offer, but... it just wouldn't be worth the risk.",
+            "nextDialogs": [
+              "110100117"
+            ]
+          },
+          "110100117": {
+            "id": "110100117",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Oh, don't worry about that! {NICKNAME} here, {M#he}{F#she} beats up Ruin Guards for breakfast!"
+          },
+          "110100111": {
+            "id": "110100111",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "Sorry? Did you say something?",
+            "nextDialogs": [
+              "110100112"
+            ]
+          },
+          "110100112": {
+            "id": "110100112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Was that supposed to be your impression of Master Diluc talking about the Knights of Favonius?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1101002",
+      "subQuestName": "Investigate the Ruin Guard's whereabouts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100201"
+        ],
+        "dialogs": {
+          "110100201": {
+            "id": "110100201",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Hey, you! Check this out, isn't it awesome!",
+            "nextDialogs": [
+              "110100202"
+            ]
+          },
+          "110100202": {
+            "id": "110100202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...What is he wearing?",
+            "nextDialogs": [
+              "110100203"
+            ]
+          },
+          "110100203": {
+            "id": "110100203",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "I've never seen one this close before! Have you ever seen one?",
+            "nextDialogs": [
+              "110100205",
+              "110100207"
+            ]
+          },
+          "110100205": {
+            "id": "110100205",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Um, excuse me? His name is Mr. Cyclops, actually! What sorta dumb name is \"Ruin Guard\"?",
+            "nextDialogs": [
+              "110100208"
+            ]
+          },
+          "110100208": {
+            "id": "110100208",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "\"Mr. Cyclops\"? Aw, that's cute... Wait, what? Do people seriously call them that?",
+            "nextDialogs": [
+              "110100209"
+            ]
+          },
+          "110100209": {
+            "id": "110100209",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Yep! My brother said so. And he's the best toy seller in the whole world! It's his job to sell this kinda stuff!",
+            "nextDialogs": [
+              "110100210"
+            ]
+          },
+          "110100210": {
+            "id": "110100210",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Right now he's at the Institute for Toy Research in Liyue. That's where Mr. Cyclopses come from.",
+            "nextDialogs": [
+              "110100211"
+            ]
+          },
+          "110100211": {
+            "id": "110100211",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "It's always nice to meet someone else who likes toys. So tell me, where'd you get your toy from? Must be a pretty new kind, I've never seen one that can fly and talk before!"
+          },
+          "110100207": {
+            "id": "110100207",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "You bet! Mr. Cyclopses are crazy strong! No bad guys can escape from these guys, that's for sure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1101007",
+      "subQuestName": "Investigate the Ruin Guard's whereabouts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1101008",
+      "subQuestName": "Investigate the Ruin Guard's whereabouts",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1101003",
+      "subQuestName": "Defeat the Ruin Guard",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100301"
+        ],
+        "dialogs": {
+          "110100301": {
+            "id": "110100301",
+            "speakerId": 10235,
+            "speakerName": "Ekaterina",
+            "text": "That seems a little inappropriate, don't you think, sir? How can you—",
+            "nextDialogs": [
+              "110100302"
+            ]
+          },
+          "110100302": {
+            "id": "110100302",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "Relax, once in a while can't hurt. It'll be fine!",
+            "nextDialogs": [
+              "110100303"
+            ]
+          },
+          "110100303": {
+            "id": "110100303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? What's he doing here...",
+            "nextDialogs": [
+              "110100304"
+            ]
+          },
+          "110100304": {
+            "id": "110100304",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "Yay, my brother! I found you!",
+            "nextDialogs": [
+              "110100305"
+            ]
+          },
+          "110100305": {
+            "id": "110100305",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "I know that voice... Why, if it isn't my little brother, Teucer! My goodness!",
+            "nextDialogs": [
+              "110100306"
+            ]
+          },
+          "110100306": {
+            "id": "110100306",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "Haha... What a nice surprise, Teucer! I thought I would have to wait till I return home before seeing you again...",
+            "nextDialogs": [
+              "110100307"
+            ]
+          },
+          "110100307": {
+            "id": "110100307",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "How are the others — sister Tonia and brother Anthon? Is everybody keeping well?",
+            "nextDialogs": [
+              "110100308"
+            ]
+          },
+          "110100308": {
+            "id": "110100308",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "They miss you a lot! Tonia prays for you every day at dinner...",
+            "nextDialogs": [
+              "110100309"
+            ]
+          },
+          "110100309": {
+            "id": "110100309",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "...Wait a second, what are you doing here in Liyue, Teucer? How have I not heard anything about this?",
+            "nextDialogs": [
+              "110100310"
+            ]
+          },
+          "110100310": {
+            "id": "110100310",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "Well... what happened was... I saw a boat that looked like it was selling toys, so obviously I thought you were on board...",
+            "nextDialogs": [
+              "110100311"
+            ]
+          },
+          "110100311": {
+            "id": "110100311",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "And then when I got off I just kept walking and walking... and then, I found a Mr. Cyclops!",
+            "nextDialogs": [
+              "110100312"
+            ]
+          },
+          "110100312": {
+            "id": "110100312",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "#Mr. Cyclops scared off a bad guy, and then I found this nice {M#guy}{F#lady} to help me come look for you...",
+            "nextDialogs": [
+              "110100314"
+            ]
+          },
+          "110100314": {
+            "id": "110100314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And also... Teucer is Childe's brother!?",
+            "nextDialogs": [
+              "110100316"
+            ]
+          },
+          "110100316": {
+            "id": "110100316",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cool! Suddenly, Paimon doesn't feel so bad about taking Teucer's money!",
+            "nextDialogs": [
+              "110100317"
+            ]
+          },
+          "110100317": {
+            "id": "110100317",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "Teucer, what you did was extremely dangerous... I'm so happy to see you, really I am, but please... Promise me you won't do anything like this ever again...",
+            "nextDialogs": [
+              "110100318"
+            ]
+          },
+          "110100318": {
+            "id": "110100318",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "Okay, I promise... Please don't be mad at me...",
+            "nextDialogs": [
+              "110100319"
+            ]
+          },
+          "110100319": {
+            "id": "110100319",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "I'm not mad at you. I just care about your safety, that's all.",
+            "nextDialogs": [
+              "110100320"
+            ]
+          },
+          "110100320": {
+            "id": "110100320",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "If you hadn't met these nice people, things could have been a lot more dangerous for you, Teucer. I hope you said a big thank-you to them?",
+            "nextDialogs": [
+              "110100321"
+            ]
+          },
+          "110100321": {
+            "id": "110100321",
+            "speakerId": 10265,
+            "speakerName": "Teucer",
+            "text": "Yep! I always remember my pleases and thank-yous.",
+            "nextDialogs": [
+              "110100322"
+            ]
+          },
+          "110100322": {
+            "id": "110100322",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, so you did notice we were here, you were just ignoring us. Gotcha.",
+            "nextDialogs": [
+              "110100323"
+            ]
+          },
+          "110100323": {
+            "id": "110100323",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "Hahaha, forgive me, it's always family first where I'm from. Don't take it personally.",
+            "nextDialogs": [
+              "110100324"
+            ]
+          },
+          "110100324": {
+            "id": "110100324",
+            "speakerId": 10200,
+            "speakerName": "Childe",
+            "text": "I know we've had our differences up to now, but... a few minor quibbles aside, we get on quite well, don't you think?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1101009",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100501"
+        ],
+        "dialogs": {
+          "110100501": {
+            "id": "110100501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, that's one down.",
+            "nextDialogs": [
+              "110100502"
+            ]
+          },
+          "110100502": {
+            "id": "110100502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let's keep looking around. Maybe we'll find some more."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1101004",
+      "subQuestName": "Keep searching the surrounding area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1101005",
+      "subQuestName": "Go to Northland Bank",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1101006",
+      "subQuestName": "Talk to Childe",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1101004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100402"
+        ],
+        "dialogs": {
+          "110100402": {
+            "id": "110100402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And here's another one. Yep, seems the Ruin Guards did come out for a walk after all.",
+            "nextDialogs": [
+              "110100403"
+            ]
+          },
+          "110100403": {
+            "id": "110100403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The trail of Ruin Guard footprints leads us here, to... Ah! A Ruin Guard! Over there!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1101006",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "110100601"
+        ],
+        "dialogs": {
+          "110100601": {
+            "id": "110100601",
+            "speakerId": 10304,
+            "speakerName": "Daipai",
+            "text": "I must continue with my patrol now. Let's rendezvous shortly."
+          }
+        }
+      }
+    }
+  ]
+}

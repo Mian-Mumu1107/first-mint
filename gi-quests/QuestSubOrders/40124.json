@@ -1,0 +1,3626 @@
+{
+  "lineCounts": {
+    "???": 1,
+    "Black Screen": 9,
+    "Callirhoe": 21,
+    "Chongyun": 58,
+    "Diona": 43,
+    "Diona & Chongyun": 1,
+    "Hu Tao": 27,
+    "Huanxi": 1,
+    "Levin": 1,
+    "Mika": 38,
+    "Noelle": 31,
+    "Paimon": 61,
+    "Player": 39,
+    "Venti": 28,
+    "Xiao": 35,
+    "Xingqiu": 48,
+    "Zhongli": 16
+  },
+  "subQuests": [
+    {
+      "subId": "4012401",
+      "subQuestName": "Wait until the following day (08:00 – 10:00)",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012402",
+      "subQuestName": "Go to the event venue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401240201"
+        ],
+        "dialogs": {
+          "401240201": {
+            "id": "401240201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, everyone got here so early.",
+            "nextDialogs": [
+              "401240202"
+            ]
+          },
+          "401240202": {
+            "id": "401240202",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "The sun is shining bright today! As soon as that leaf floats past Stone Gate, we shall reveal today's poetry theme!",
+            "nextDialogs": [
+              "401240203"
+            ]
+          },
+          "401240203": {
+            "id": "401240203",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "The theme of the second day of the \"Neighboring Nations Congenial Poetry Gala\" is... Pairing couplets!",
+            "nextDialogs": [
+              "401240204"
+            ]
+          },
+          "401240204": {
+            "id": "401240204",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "(Pairing couplets? I've heard of that — it's a Liyue art form where you have to create new lines of poetry based on fixed rules. Kind of like... a fill-in-the-blanks game, but for poetry?)",
+            "nextDialogs": [
+              "401240205"
+            ]
+          },
+          "401240205": {
+            "id": "401240205",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Heaven and earth, rain and wind, the endless sky and the boundless land. Forest boars and ocean shrimp, Lavender Melons and Matsutake 'shrooms!",
+            "nextDialogs": [
+              "401240206"
+            ]
+          },
+          "401240206": {
+            "id": "401240206",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Based on a given line of poetry, you must create the second line to form a pair, or \"couplet\"! As long as you take inspiration from the wide world around you, you'll find it's not so difficult after all.",
+            "nextDialogs": [
+              "401240207"
+            ]
+          },
+          "401240207": {
+            "id": "401240207",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "The two lines should be neatly matched, complementing each other both semantically and rhythmically. In essence, it's just like most other forms of poetry.",
+            "nextDialogs": [
+              "401240208"
+            ]
+          },
+          "401240208": {
+            "id": "401240208",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "To buoy your imaginations and allow the winds of inspiration to fill your sails, we've added an additional component: an inspiration walk!",
+            "nextDialogs": [
+              "401240209"
+            ]
+          },
+          "401240209": {
+            "id": "401240209",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(...An \"inspiration walk\"?)",
+            "nextDialogs": [
+              "401240210"
+            ]
+          },
+          "401240210": {
+            "id": "401240210",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "By inspiration walk, we simply mean wandering around in the wild, taking in the scenery, and pocketing any poetic thoughts.",
+            "nextDialogs": [
+              "401240211"
+            ]
+          },
+          "401240211": {
+            "id": "401240211",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Of course, to all our friends, old and new, please be careful while out and about. Wangsheng Funeral Parlor is already fully booked for the month ahead, and if there's any more demand, I'll be the only one with a smile on my face.",
+            "nextDialogs": [
+              "401240212"
+            ]
+          },
+          "401240212": {
+            "id": "401240212",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "In short, please roam freely as the mood takes you, enjoy the spectacular scenery of our two beautiful nations, and fill your imaginations with the most pleasing of poetry! We will all reconvene here tonight.",
+            "nextDialogs": [
+              "401240213"
+            ]
+          },
+          "401240213": {
+            "id": "401240213",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "#{NICKNAME}, can you round up Xingqiu, Chongyun, and the Mondstadt contingent? I have a favor to ask of you.",
+            "nextDialogs": [
+              "401240214"
+            ]
+          },
+          "401240214": {
+            "id": "401240214",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, is it that thing from yesterday?",
+            "nextDialogs": [
+              "401240215"
+            ]
+          },
+          "401240215": {
+            "id": "401240215",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No problem.",
+            "nextDialogs": [
+              "401240216"
+            ]
+          },
+          "401240216": {
+            "id": "401240216",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Hehe, thanks, I'm counting on you!",
+            "nextDialogs": [
+              "401240217"
+            ]
+          },
+          "401240217": {
+            "id": "401240217",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "You gather the team, and briefly describe what's really going on...",
+            "nextDialogs": [
+              "401240218"
+            ]
+          },
+          "401240218": {
+            "id": "401240218",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "So, we hope that each of you can keep an eye out for this while you're out on your inspiration walk.",
+            "nextDialogs": [
+              "401240219"
+            ]
+          },
+          "401240219": {
+            "id": "401240219",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Are you sure this is okay? It was just something I ran into, and now we're imposing my business on everyone else...",
+            "nextDialogs": [
+              "401240220"
+            ]
+          },
+          "401240220": {
+            "id": "401240220",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Please don't say that, Mr. Chongyun. Master Jean ordered us to work with you however we can to improve cooperation. Helping each other out is exactly what we're here for.",
+            "nextDialogs": [
+              "401240221"
+            ]
+          },
+          "401240221": {
+            "id": "401240221",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Besides, investigating any strange occurrences near Mondstadt and making a report to the Knights of Favonius is also part of our job.",
+            "nextDialogs": [
+              "401240222"
+            ]
+          },
+          "401240222": {
+            "id": "401240222",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "I don't mind either. 'Cause while we're out, I can look for new cocktail ingredients too.",
+            "nextDialogs": [
+              "401240223"
+            ]
+          },
+          "401240223": {
+            "id": "401240223",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, just think of it like an outing with friends. It'll be fun!",
+            "nextDialogs": [
+              "401240224"
+            ]
+          },
+          "401240224": {
+            "id": "401240224",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No need to feel bad.",
+            "nextDialogs": [
+              "401240225"
+            ]
+          },
+          "401240225": {
+            "id": "401240225",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "The way I see it, you should just humbly accept their willingness to help.",
+            "nextDialogs": [
+              "401240226"
+            ]
+          },
+          "401240226": {
+            "id": "401240226",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Alright, in that case, thank you all very much. I will be sure to repay your kindness some day.",
+            "nextDialogs": [
+              "401240227"
+            ]
+          },
+          "401240227": {
+            "id": "401240227",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Now, how about we split into two groups for the day?",
+            "nextDialogs": [
+              "401240228"
+            ]
+          },
+          "401240228": {
+            "id": "401240228",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "You mean, to cover more ground?",
+            "nextDialogs": [
+              "401240229"
+            ]
+          },
+          "401240229": {
+            "id": "401240229",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Not just that. Don't forget, this is still part of the poetry gala!",
+            "nextDialogs": [
+              "401240230"
+            ]
+          },
+          "401240230": {
+            "id": "401240230",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "If we all see the same sights and sounds during our inspiration walk, how can we write unique poems?",
+            "nextDialogs": [
+              "401240231"
+            ]
+          },
+          "401240231": {
+            "id": "401240231",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "That's true... but how do we decide who goes in which group?",
+            "nextDialogs": [
+              "401240232"
+            ]
+          },
+          "401240232": {
+            "id": "401240232",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Why don't we draw lots?",
+            "nextDialogs": [
+              "401240233"
+            ]
+          },
+          "401240233": {
+            "id": "401240233",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah! Hehe, that'll make things even more fun.",
+            "nextDialogs": [
+              "401240234"
+            ]
+          },
+          "401240234": {
+            "id": "401240234",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(Drawing lots!? But what if I end up with the Liyue crowd, and I can't think of anything to say to them?)",
+            "nextDialogs": [
+              "401240235"
+            ]
+          },
+          "401240235": {
+            "id": "401240235",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "I've got the slips of paper here. Who wants to go first?",
+            "nextDialogs": [
+              "401240236"
+            ]
+          },
+          "401240236": {
+            "id": "401240236",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, Paimon! Paimon wants to go first!",
+            "nextDialogs": [
+              "401240237"
+            ]
+          },
+          "401240237": {
+            "id": "401240237",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "Everyone draws a lot...",
+            "nextDialogs": [
+              "401240238"
+            ]
+          },
+          "401240238": {
+            "id": "401240238",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "#Okay, so that's {NICKNAME}, Paimon, Diona, and Chongyun in one group, and Xingqiu, Mika, and Noelle in the other.",
+            "nextDialogs": [
+              "401240239"
+            ]
+          },
+          "401240239": {
+            "id": "401240239",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(What a relief... at least I'll have Noelle with me...)",
+            "nextDialogs": [
+              "401240240"
+            ]
+          },
+          "401240240": {
+            "id": "401240240",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Then I humbly place myself at your instruction.",
+            "nextDialogs": [
+              "401240241"
+            ]
+          },
+          "401240241": {
+            "id": "401240241",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Oh... Uh, I don't think... That won't be...",
+            "nextDialogs": [
+              "401240242"
+            ]
+          },
+          "401240242": {
+            "id": "401240242",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I also await your guidance.",
+            "nextDialogs": [
+              "401240245"
+            ]
+          },
+          "401240245": {
+            "id": "401240245",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Take care, everyone. See you all tonight!",
+            "nextDialogs": [
+              "401240246"
+            ]
+          },
+          "401240246": {
+            "id": "401240246",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Did anyone forget to bring anything? If not, then let's get going! C'mon!",
+            "nextDialogs": [
+              "401240247"
+            ]
+          },
+          "401240247": {
+            "id": "401240247",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Wow... are those ears and tail real? So fluffy...)",
+            "nextDialogs": [
+              "401240248"
+            ]
+          },
+          "401240248": {
+            "id": "401240248",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Alright. Miss Diona, is there someplace in particular you would like to go?",
+            "nextDialogs": [
+              "401240249"
+            ]
+          },
+          "401240249": {
+            "id": "401240249",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Just call me Diona! Since we're trying to find that thing you saw, why don't we start with the place you saw it last time?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012403",
+      "subQuestName": "Follow Chongyun to the location of the incident",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401240301"
+        ],
+        "dialogs": {
+          "401240301": {
+            "id": "401240301",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Right over there, next to the water. That's where I saw it. But it was a little foggy at the time, so I didn't get a clear look.",
+            "nextDialogs": [
+              "401240302"
+            ]
+          },
+          "401240302": {
+            "id": "401240302",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Uhh... The view from here's great, but there's kind of a gloomy atmosphere around here. Is this the kind of place you like to take a walk?",
+            "nextDialogs": [
+              "401240303"
+            ]
+          },
+          "401240303": {
+            "id": "401240303",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I wasn't taking a walk. I come here to train.",
+            "nextDialogs": [
+              "401240304"
+            ]
+          },
+          "401240304": {
+            "id": "401240304",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Train? Like how knights train for combat?",
+            "nextDialogs": [
+              "401240305"
+            ]
+          },
+          "401240305": {
+            "id": "401240305",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Um, it's a bit different. As an exorcist of Liyue, my training involves practising techniques for the exorcism of evil spirits.",
+            "nextDialogs": [
+              "401240306"
+            ]
+          },
+          "401240306": {
+            "id": "401240306",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Exorcism?",
+            "nextDialogs": [
+              "401240307"
+            ]
+          },
+          "401240307": {
+            "id": "401240307",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I've always wanted to demonstrate the power of exorcism, but... it's a pity, I've never actually gotten the chance.",
+            "nextDialogs": [
+              "401240308"
+            ]
+          },
+          "401240308": {
+            "id": "401240308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Chongyun is one-in-a-million: He has a pure-yang spirit! So, as soon as he gets close, evil spirits run and hide!",
+            "nextDialogs": [
+              "401240309"
+            ]
+          },
+          "401240309": {
+            "id": "401240309",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Huh? Isn't that a good thing?",
+            "nextDialogs": [
+              "401240310"
+            ]
+          },
+          "401240310": {
+            "id": "401240310",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "It's awful! Have you ever heard of an exorcist that's never seen an evil spirit? A lot of people think I'm a fraud because of this condition of mine.",
+            "nextDialogs": [
+              "401240311"
+            ]
+          },
+          "401240311": {
+            "id": "401240311",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Your physical constitution is far rarer than the techniques still passed down by exorcists today. You should treasure it.",
+            "nextDialogs": [
+              "401240312"
+            ]
+          },
+          "401240312": {
+            "id": "401240312",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Conqueror of Demons?",
+            "nextDialogs": [
+              "401240313"
+            ]
+          },
+          "401240313": {
+            "id": "401240313",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Is that a friend of yours?",
+            "nextDialogs": [
+              "401240314"
+            ]
+          },
+          "401240314": {
+            "id": "401240314",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yep! This is Xiao, an Adeptus of Liyue!",
+            "nextDialogs": [
+              "401240315"
+            ]
+          },
+          "401240315": {
+            "id": "401240315",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "(An adeptus? Wow! I've never seen one of those before!)",
+            "nextDialogs": [
+              "401240316"
+            ]
+          },
+          "401240316": {
+            "id": "401240316",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Uh... Hello, Mr. Adeptus.",
+            "nextDialogs": [
+              "401240317"
+            ]
+          },
+          "401240317": {
+            "id": "401240317",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Just call me Xiao.",
+            "nextDialogs": [
+              "401240318"
+            ]
+          },
+          "401240318": {
+            "id": "401240318",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Sooo... are you here to train too? Or are you out for an inspiration walk?",
+            "nextDialogs": [
+              "401240319"
+            ]
+          },
+          "401240319": {
+            "id": "401240319",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...When I heard about the exorcist's encounter, my suspicions were roused. That's why I'm here.",
+            "nextDialogs": [
+              "401240320"
+            ]
+          },
+          "401240320": {
+            "id": "401240320",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I've already informed the owner of the inn. If you see anything out of the ordinary, return immediately and leave it to me.",
+            "nextDialogs": [
+              "401240321"
+            ]
+          },
+          "401240321": {
+            "id": "401240321",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I, um... aw, I'm really sorry. I didn't mean to drag even the Conqueror of Demons into this...",
+            "nextDialogs": [
+              "401240322"
+            ]
+          },
+          "401240322": {
+            "id": "401240322",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I have already patrolled the area and found nothing amiss. Either the anomaly you encountered was no evil spirit, or perhaps it already left.",
+            "nextDialogs": [
+              "401240323"
+            ]
+          },
+          "401240323": {
+            "id": "401240323",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I guess that means we came all this way for nothing...",
+            "nextDialogs": [
+              "401240324"
+            ]
+          },
+          "401240324": {
+            "id": "401240324",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "If there's no other business, I'll be taking my leave now.",
+            "nextDialogs": [
+              "401240327"
+            ]
+          },
+          "401240327": {
+            "id": "401240327",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "....",
+            "nextDialogs": [
+              "401240328"
+            ]
+          },
+          "401240328": {
+            "id": "401240328",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah, you should come! There's no one else around here anyway, so you don't need to worry.",
+            "nextDialogs": [
+              "401240329"
+            ]
+          },
+          "401240329": {
+            "id": "401240329",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "But...",
+            "nextDialogs": [
+              "401240330"
+            ]
+          },
+          "401240330": {
+            "id": "401240330",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I would also be honored if you joined us, Adeptus Xiao. It is a rare opportunity, and... I have many questions about exorcising evil spirits that I would like to ask you.",
+            "nextDialogs": [
+              "401240331"
+            ]
+          },
+          "401240331": {
+            "id": "401240331",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401240332"
+            ]
+          },
+          "401240332": {
+            "id": "401240332",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Fine.",
+            "nextDialogs": [
+              "401240333"
+            ]
+          },
+          "401240333": {
+            "id": "401240333",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "(Seems like this adeptus is pretty shy... or maybe all the adepti in Liyue are like this?)",
+            "nextDialogs": [
+              "401240334"
+            ]
+          },
+          "401240334": {
+            "id": "401240334",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Team Chongyun has a new member, yay!",
+            "nextDialogs": [
+              "401240335"
+            ]
+          },
+          "401240335": {
+            "id": "401240335",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Wh—What? When did this become my team? Now that Adeptus Xiao is joining us, if anyone's team leader, it should be—",
+            "nextDialogs": [
+              "401240336"
+            ]
+          },
+          "401240336": {
+            "id": "401240336",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't overthink it! Diona, didn't you say you wanted to find some new ingredients?",
+            "nextDialogs": [
+              "401240337"
+            ]
+          },
+          "401240337": {
+            "id": "401240337",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Yeah. I don't get to come to Liyue very often, so I wanna gather some new ingredients while I'm here!",
+            "nextDialogs": [
+              "401240338"
+            ]
+          },
+          "401240338": {
+            "id": "401240338",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "I've heard that Liyue's Jueyun Chilis can set your throat on fire! Is that true? I'm gonna mix them into my drinks and give it a try!",
+            "nextDialogs": [
+              "401240339"
+            ]
+          },
+          "401240339": {
+            "id": "401240339",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Huh? Jueyun Chilis?)",
+            "nextDialogs": [
+              "401240340"
+            ]
+          },
+          "401240340": {
+            "id": "401240340",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Um... I'm not sure that would taste very good...",
+            "nextDialogs": [
+              "401240341"
+            ]
+          },
+          "401240341": {
+            "id": "401240341",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Really? Purrfect! Let's go pick a whole bunch of 'em!",
+            "nextDialogs": [
+              "401240342"
+            ]
+          },
+          "401240342": {
+            "id": "401240342",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "What the...?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012419",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241901"
+        ],
+        "dialogs": {
+          "401241901": {
+            "id": "401241901",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Have fun, you two. I'll have the tent set up soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012420",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401242001"
+        ],
+        "dialogs": {
+          "401242001": {
+            "id": "401242001",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "With this wood and the food I brought along, we can definitely put together a decent lunch.",
+            "nextDialogs": [
+              "401242002"
+            ]
+          },
+          "401242002": {
+            "id": "401242002",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "You've got quite a knack for wilderness survival, I'll give you that.",
+            "nextDialogs": [
+              "401242003"
+            ]
+          },
+          "401242003": {
+            "id": "401242003",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Thanks! I... I was on an expedition with the Grand Master of the Knights of Favonius for a while not too long ago. I was in charge of surveying and mapping.",
+            "nextDialogs": [
+              "401242004"
+            ]
+          },
+          "401242004": {
+            "id": "401242004",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Oh? You sound like a character from an adventure novel, charging across the world, sword in hand!",
+            "nextDialogs": [
+              "401242005"
+            ]
+          },
+          "401242005": {
+            "id": "401242005",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Wha...? No, I'm nowhere near as amazing as all that...",
+            "nextDialogs": [
+              "401242006"
+            ]
+          },
+          "401242006": {
+            "id": "401242006",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "If I really run into a powerful enemy, I always leave it for someone stronger to deal with...",
+            "nextDialogs": [
+              "401242007"
+            ]
+          },
+          "401242007": {
+            "id": "401242007",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "You're too modest, Mika. A hero is measured not by the blood on his sword, but by what's in his heart.",
+            "nextDialogs": [
+              "401242008"
+            ]
+          },
+          "401242008": {
+            "id": "401242008",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "As long as a righteous heart that yearns to aid others beats within your chest, no matter where you go, or what you have achieved, you may be called a \"hero.\"",
+            "nextDialogs": [
+              "401242009"
+            ]
+          },
+          "401242009": {
+            "id": "401242009",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(That all sounded pretty profound... I've never even thought about any of that before.)",
+            "nextDialogs": [
+              "401242010"
+            ]
+          },
+          "401242010": {
+            "id": "401242010",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(He must be one of Liyue's great martial arts heroes! I wish I could express myself as clearly and confidently as he can...)",
+            "nextDialogs": [
+              "401242011"
+            ]
+          },
+          "401242011": {
+            "id": "401242011",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Hello? Are you okay? Maybe we should return, lest Noelle be forced to wait on us.",
+            "nextDialogs": [
+              "401242012"
+            ]
+          },
+          "401242012": {
+            "id": "401242012",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Oh, sure."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012413",
+      "subQuestName": "Collect fresh Jueyun Chilis",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012416",
+      "subQuestName": "Defeat the Hydro Slimes",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241601"
+        ],
+        "dialogs": {
+          "401241601": {
+            "id": "401241601",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "There's a poem written on it. The Conqueror of Demons has truly amazing vision...",
+            "nextDialogs": [
+              "401241602"
+            ]
+          },
+          "401241602": {
+            "id": "401241602",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Let Paimon see...",
+            "nextDialogs": [
+              "401241603"
+            ]
+          },
+          "401241603": {
+            "id": "401241603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm... It sounds like the author is writing about the first time they met their true love...",
+            "nextDialogs": [
+              "401241604"
+            ]
+          },
+          "401241604": {
+            "id": "401241604",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Although the following lines suggest that they didn't end up together.",
+            "nextDialogs": [
+              "401241605"
+            ]
+          },
+          "401241605": {
+            "id": "401241605",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...Why write a poem on a fallen leaf?",
+            "nextDialogs": [
+              "401241606"
+            ]
+          },
+          "401241606": {
+            "id": "401241606",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "The flowing waters are ruthless — they carry the leaves away with the current. This poem would likely have vanished into the void had we not found it.",
+            "nextDialogs": [
+              "401241607"
+            ]
+          },
+          "401241607": {
+            "id": "401241607",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...It makes no sense to me.",
+            "nextDialogs": [
+              "401241610"
+            ]
+          },
+          "401241610": {
+            "id": "401241610",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "That's true. I've heard Xingqiu say something similar before.",
+            "nextDialogs": [
+              "401241611"
+            ]
+          },
+          "401241611": {
+            "id": "401241611",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "When there's things that you're unable to say, or just never had the chance to say before it was too late... If it can be put on paper, it can be expressed as poetry.",
+            "nextDialogs": [
+              "401241612"
+            ]
+          },
+          "401241612": {
+            "id": "401241612",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Is it kinda like wishing at a fountain? I used to do that sometimes when I was little.",
+            "nextDialogs": [
+              "401241613"
+            ]
+          },
+          "401241613": {
+            "id": "401241613",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So... That means that our mystery poet was probably hoping that someone would read it, right?",
+            "nextDialogs": [
+              "401241614"
+            ]
+          },
+          "401241614": {
+            "id": "401241614",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "You think? Then... Should we write a poem in reply?",
+            "nextDialogs": [
+              "401241615"
+            ]
+          },
+          "401241615": {
+            "id": "401241615",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "But we don't know who wrote it. How can we reply?",
+            "nextDialogs": [
+              "401241616"
+            ]
+          },
+          "401241616": {
+            "id": "401241616",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...Why not go upstream?",
+            "nextDialogs": [
+              "401241617"
+            ]
+          },
+          "401241617": {
+            "id": "401241617",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Upstream? Why?",
+            "nextDialogs": [
+              "401241618"
+            ]
+          },
+          "401241618": {
+            "id": "401241618",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "The ink looks fresh. It can't have been written too long ago.",
+            "nextDialogs": [
+              "401241619"
+            ]
+          },
+          "401241619": {
+            "id": "401241619",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "This withered leaf floated down with the current. If we travel further upstream and drop a leaf into the same waters, it should be carried down past the original writer.",
+            "nextDialogs": [
+              "401241620"
+            ]
+          },
+          "401241620": {
+            "id": "401241620",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cool! Ah, this is so romantic — communicating with a mystery person using poems on fallen leaves!",
+            "nextDialogs": [
+              "401241621"
+            ]
+          },
+          "401241621": {
+            "id": "401241621",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "But how do we make sure that they'll receive it?",
+            "nextDialogs": [
+              "401241622"
+            ]
+          },
+          "401241622": {
+            "id": "401241622",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "We can write extra copies and drop the leaves in different places! As they say, where there's a will, there's a way. Surely at least one of our leaves will find a path?",
+            "nextDialogs": [
+              "401241623"
+            ]
+          },
+          "401241623": {
+            "id": "401241623",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Either way, it's our only option.",
+            "nextDialogs": [
+              "401241624"
+            ]
+          },
+          "401241624": {
+            "id": "401241624",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then let's make like a tree and head upstream!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012405",
+      "subQuestName": "Talk to Diona",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401240501"
+        ],
+        "dialogs": {
+          "401240501": {
+            "id": "401240501",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Okay, this should be enough!",
+            "nextDialogs": [
+              "401240502"
+            ]
+          },
+          "401240502": {
+            "id": "401240502",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "...Diona, you seem really committed to, uh... making alcoholic drinks available to people of all tastes.",
+            "nextDialogs": [
+              "401240503"
+            ]
+          },
+          "401240503": {
+            "id": "401240503",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "What!? No! Never! I HATE alcohol!",
+            "nextDialogs": [
+              "401240504"
+            ]
+          },
+          "401240504": {
+            "id": "401240504",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "When grown-ups drink too much, they get that stupid drunk look on their faces, can't speak clearly, and don't even respond properly! Sometimes they just sleep on the floor all night! Alcohol is the root of all kinds of evil...",
+            "nextDialogs": [
+              "401240505"
+            ]
+          },
+          "401240505": {
+            "id": "401240505",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "So I'm on a mission to mix the most disgusting drink in the whole world, and show everyone just how awful alcohol really is! Nothing can stand in my way — if it means coming out to Liyue every day to pick fresh Jueyun Chilis, then so be it, hmph!",
+            "nextDialogs": [
+              "401240506"
+            ]
+          },
+          "401240506": {
+            "id": "401240506",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Um... Is it really worth all that effort?",
+            "nextDialogs": [
+              "401240507"
+            ]
+          },
+          "401240507": {
+            "id": "401240507",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Uh, yeah! 'Cause all my previous efforts have failed... Those stinkin' boozehounds not only haven't woken up to the truth of how bad alcohol is, they even keep praising my drinks! It makes me FURIOUS!",
+            "nextDialogs": [
+              "401240508"
+            ]
+          },
+          "401240508": {
+            "id": "401240508",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "But... how is that possible? If this is the kind of stuff you're throwing into their drinks, it must taste absolutely vile, surely?",
+            "nextDialogs": [
+              "401240509"
+            ]
+          },
+          "401240509": {
+            "id": "401240509",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401240510"
+            ]
+          },
+          "401240510": {
+            "id": "401240510",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Are you calling me a liar!? Well, if you don't believe me, I'll fix you a drink right now, then you'll see!",
+            "nextDialogs": [
+              "401240511"
+            ]
+          },
+          "401240511": {
+            "id": "401240511",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Huh? Uh, no... no need, I...",
+            "nextDialogs": [
+              "401240512"
+            ]
+          },
+          "401240512": {
+            "id": "401240512",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Hmph! Just you wait.",
+            "nextDialogs": [
+              "401240513"
+            ]
+          },
+          "401240513": {
+            "id": "401240513",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Oh no, is she really going to add those Jueyun Chilis?)",
+            "nextDialogs": [
+              "401240514"
+            ]
+          },
+          "401240514": {
+            "id": "401240514",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...If her claims are true, perhaps she, too, possesses a unique constitution of some kind?",
+            "nextDialogs": [
+              "401240515"
+            ]
+          },
+          "401240515": {
+            "id": "401240515",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I don't see how it could have anything to do with her. Unless... she's under the influence of some kind of power? Maybe an evil spirit?",
+            "nextDialogs": [
+              "401240516"
+            ]
+          },
+          "401240516": {
+            "id": "401240516",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "No. I sense no trace of the demonic in her — although there are traces of something else. Something rather special.",
+            "nextDialogs": [
+              "401240517"
+            ]
+          },
+          "401240517": {
+            "id": "401240517",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "In Liyue, we might say this child has adeptal affinity.",
+            "nextDialogs": [
+              "401240518"
+            ]
+          },
+          "401240518": {
+            "id": "401240518",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "It's ready. Here, I made one for Xiao too.",
+            "nextDialogs": [
+              "401240519"
+            ]
+          },
+          "401240519": {
+            "id": "401240519",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401240520"
+            ]
+          },
+          "401240520": {
+            "id": "401240520",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Oh boy, look at that color... Yep, she definitely added Jueyun Chilis.)",
+            "nextDialogs": [
+              "401240521"
+            ]
+          },
+          "401240521": {
+            "id": "401240521",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "What's wrong? You're not allergic to anything, are you?",
+            "nextDialogs": [
+              "401240522"
+            ]
+          },
+          "401240522": {
+            "id": "401240522",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Don't worry, there isn't even any alcohol in it. It's a Slime Condensate base with a seasoning of Jueyun Chilis and finished with frog legs.",
+            "nextDialogs": [
+              "401240523"
+            ]
+          },
+          "401240523": {
+            "id": "401240523",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Surely, there's no way this can possibly taste good...)",
+            "nextDialogs": [
+              "401240524"
+            ]
+          },
+          "401240524": {
+            "id": "401240524",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't force yourselves.",
+            "nextDialogs": [
+              "401240525"
+            ]
+          },
+          "401240525": {
+            "id": "401240525",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401240526"
+            ]
+          },
+          "401240526": {
+            "id": "401240526",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...!",
+            "nextDialogs": [
+              "401240527"
+            ]
+          },
+          "401240527": {
+            "id": "401240527",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Xiao downed it in a single gulp! Ugh, great... If the Conqueror of Demons drank it, it'd be rude of me to refuse...)",
+            "nextDialogs": [
+              "401240528"
+            ]
+          },
+          "401240528": {
+            "id": "401240528",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "...!",
+            "nextDialogs": [
+              "401240529"
+            ]
+          },
+          "401240529": {
+            "id": "401240529",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Chongyun drank his too! Is he gonna be okay?",
+            "nextDialogs": [
+              "401240530"
+            ]
+          },
+          "401240530": {
+            "id": "401240530",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "This drink is...",
+            "nextDialogs": [
+              "401240531"
+            ]
+          },
+          "401240531": {
+            "id": "401240531",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "...Delicious!",
+            "nextDialogs": [
+              "401240532"
+            ]
+          },
+          "401240532": {
+            "id": "401240532",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "It does have a touch of Jueyun Chili, but it isn't at all overpowering! It's completely different from Xiangling's cooking or those drinks Xingqiu makes to mess with me!",
+            "nextDialogs": [
+              "401240533"
+            ]
+          },
+          "401240533": {
+            "id": "401240533",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "It's crisp and refreshing, with just a hint of numbness, and the Jueyun Chili flavor combines with the smooth but not slimy texture of the frog legs to form a heavenly mixture!",
+            "nextDialogs": [
+              "401240534"
+            ]
+          },
+          "401240534": {
+            "id": "401240534",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "And oh, the Slimes! Can we talk about the Slimes!? Before this, I never knew that they had such a pure and herby taste, like... fresh grass after the rain! The power and purity of nature, distilled into a cup! Amazing! Simply unbelievable!",
+            "nextDialogs": [
+              "401240535"
+            ]
+          },
+          "401240535": {
+            "id": "401240535",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's right! Slimes are absolutely sublime!",
+            "nextDialogs": [
+              "401240536"
+            ]
+          },
+          "401240536": {
+            "id": "401240536",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Ugh, I failed again... But wait... What's gotten into Chongyun? He's been so quiet up until now...",
+            "nextDialogs": [
+              "401240537"
+            ]
+          },
+          "401240537": {
+            "id": "401240537",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you okay?",
+            "nextDialogs": [
+              "401240538"
+            ]
+          },
+          "401240538": {
+            "id": "401240538",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I'm great! And I gotta try another — Diona, if you please, one more!",
+            "nextDialogs": [
+              "401240539"
+            ]
+          },
+          "401240539": {
+            "id": "401240539",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "At your instruction, Diona serves Chongyun with an ice-cold drink...",
+            "nextDialogs": [
+              "401240540"
+            ]
+          },
+          "401240540": {
+            "id": "401240540",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I... *panting* ...Okay, I think I've calmed down a bit.",
+            "nextDialogs": [
+              "401240541"
+            ]
+          },
+          "401240541": {
+            "id": "401240541",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I'm sorry, I can't believe I let you all see me like that.",
+            "nextDialogs": [
+              "401240542"
+            ]
+          },
+          "401240542": {
+            "id": "401240542",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "It's fine. My fault for not checking your spice tolerance first.",
+            "nextDialogs": [
+              "401240543"
+            ]
+          },
+          "401240543": {
+            "id": "401240543",
+            "speakerId": 502,
+            "speakerName": "Diona",
+            "text": "Looks like this \"pure-yang spirit\" isn't such a great thing to have after all.",
+            "nextDialogs": [
+              "401240544"
+            ]
+          },
+          "401240544": {
+            "id": "401240544",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Actually... before I drank it, I very much doubted what you said about your drinks...",
+            "nextDialogs": [
+              "401240545"
+            ]
+          },
+          "401240545": {
+            "id": "401240545",
+            "speakerId": 1010,
+            "speakerName": "Diona & Chongyun",
+            "text": "*sigh*",
+            "nextDialogs": [
+              "401240546"
+            ]
+          },
+          "401240546": {
+            "id": "401240546",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Who'd have thought it... Diona and Chongyun are actually kinda similar.",
+            "nextDialogs": [
+              "401240547"
+            ]
+          },
+          "401240547": {
+            "id": "401240547",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...Hm?",
+            "nextDialogs": [
+              "401240548"
+            ]
+          },
+          "401240548": {
+            "id": "401240548",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Xiao, what's wrong?",
+            "nextDialogs": [
+              "401240549"
+            ]
+          },
+          "401240549": {
+            "id": "401240549",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Look over there.",
+            "nextDialogs": [
+              "401240550"
+            ]
+          },
+          "401240550": {
+            "id": "401240550",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "You mean the leaf?",
+            "nextDialogs": [
+              "401240551"
+            ]
+          },
+          "401240551": {
+            "id": "401240551",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Something's written on it.",
+            "nextDialogs": [
+              "401240552"
+            ]
+          },
+          "401240552": {
+            "id": "401240552",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? You can see that from over here?",
+            "nextDialogs": [
+              "401240553"
+            ]
+          },
+          "401240553": {
+            "id": "401240553",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's grab it and take a look.",
+            "nextDialogs": [
+              "401240554"
+            ]
+          },
+          "401240554": {
+            "id": "401240554",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh yeah! Or it'll get swept away!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012406",
+      "subQuestName": "Pick up the leaf in the water",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012414",
+      "subQuestName": "Place the poem upstream",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241401"
+        ],
+        "dialogs": {
+          "401241401": {
+            "id": "401241401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Upstream, upstream, up we go~! Oh, did you think of what to write yet?",
+            "nextDialogs": [
+              "401241402"
+            ]
+          },
+          "401241402": {
+            "id": "401241402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I already finished writing it.",
+            "nextDialogs": [
+              "401241403"
+            ]
+          },
+          "401241403": {
+            "id": "401241403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! Now give it here, and Paimon'll toss it on the water!",
+            "nextDialogs": [
+              "401241404"
+            ]
+          },
+          "401241404": {
+            "id": "401241404",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401241407"
+            ]
+          },
+          "401241407": {
+            "id": "401241407",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...\"Things you never had the chance to say before it was too late\"... When silence is the final word, we mourn the loss of things unheard...",
+            "nextDialogs": [
+              "401241408"
+            ]
+          },
+          "401241408": {
+            "id": "401241408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "You should try writing a poem too, Xiao.",
+            "nextDialogs": [
+              "401241409"
+            ]
+          },
+          "401241409": {
+            "id": "401241409",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I have little talent for nor knowledge of poetry...",
+            "nextDialogs": [
+              "401241410"
+            ]
+          },
+          "401241410": {
+            "id": "401241410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The leaf's in the water! Look, it's like a little boat. Merrily, merrily down the stream, life is but a dream!",
+            "nextDialogs": [
+              "401241411"
+            ]
+          },
+          "401241411": {
+            "id": "401241411",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "We should probably pick up the pace. We still have a few more leaves to set afloat, and we need to get back before it gets dark.",
+            "nextDialogs": [
+              "401241412"
+            ]
+          },
+          "401241412": {
+            "id": "401241412",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, let's gooo... Huh?",
+            "nextDialogs": [
+              "401241413"
+            ]
+          },
+          "401241413": {
+            "id": "401241413",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's this? You two having a private chat?",
+            "nextDialogs": [
+              "401241414"
+            ]
+          },
+          "401241414": {
+            "id": "401241414",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...No, it's nothing.",
+            "nextDialogs": [
+              "401241415"
+            ]
+          },
+          "401241415": {
+            "id": "401241415",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I just hope this isn't all in vain."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012407",
+      "subQuestName": "Go on a walk to get some inspiration",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401240702"
+        ],
+        "dialogs": {
+          "401240702": {
+            "id": "401240702",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Ah, the scenery here is quite beautiful. Let's pause here to seek some inspiration.",
+            "nextDialogs": [
+              "401240703"
+            ]
+          },
+          "401240703": {
+            "id": "401240703",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Should we set up camp? Please wait a moment, I'll pitch the tent.",
+            "nextDialogs": [
+              "401240704"
+            ]
+          },
+          "401240704": {
+            "id": "401240704",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "It's an inspiration \"walk,\" there's no need for all that...",
+            "nextDialogs": [
+              "401240705"
+            ]
+          },
+          "401240705": {
+            "id": "401240705",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Okay, well I'll conduct reconnaissance nearby to ensure this area is safe, and see if I can't scavenge any firewood or food while I'm at it.",
+            "nextDialogs": [
+              "401240706"
+            ]
+          },
+          "401240706": {
+            "id": "401240706",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Wait... reconnaissance?",
+            "nextDialogs": [
+              "401240707"
+            ]
+          },
+          "401240707": {
+            "id": "401240707",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "It means survey the environment and plan our route forward. It's the foundation of all operations while out in the wild.",
+            "nextDialogs": [
+              "401240708"
+            ]
+          },
+          "401240708": {
+            "id": "401240708",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "(Are all inspiration walks in Mondstadt this complicated...?)",
+            "nextDialogs": [
+              "401240709"
+            ]
+          },
+          "401240709": {
+            "id": "401240709",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "(They're acting like this is completely normal... am I the weirdo here?)",
+            "nextDialogs": [
+              "401240710"
+            ]
+          },
+          "401240710": {
+            "id": "401240710",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "In that case, I'll \"conduct reconnaissance\" with Mika.",
+            "nextDialogs": [
+              "401240711"
+            ]
+          },
+          "401240711": {
+            "id": "401240711",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Huh? Oh... okay then.",
+            "nextDialogs": [
+              "401240712"
+            ]
+          },
+          "401240712": {
+            "id": "401240712",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(Crumbs, now I have to try and make small talk... Should I mention the scenery? The weather?)",
+            "nextDialogs": [
+              "401240713"
+            ]
+          },
+          "401240713": {
+            "id": "401240713",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Very well, then leave the camp to me!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012408",
+      "subQuestName": "Collect wood nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012417",
+      "subQuestName": "Look for cooking ingredients nearby",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012418",
+      "subQuestName": "Collect fresh Berries",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012409",
+      "subQuestName": "Sort through the supplies",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4012410",
+      "subQuestName": "Go back to camp and talk to Noelle",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241001"
+        ],
+        "dialogs": {
+          "401241001": {
+            "id": "401241001",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "You're back! Did everything go smoothly? Do you need a cloth to wipe the sweat from your brow?",
+            "nextDialogs": [
+              "401241002"
+            ]
+          },
+          "401241002": {
+            "id": "401241002",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "No need, thanks. All clear. There's no danger in the vicinity.",
+            "nextDialogs": [
+              "401241003"
+            ]
+          },
+          "401241003": {
+            "id": "401241003",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "The team lights a fire and starts preparing lunch.",
+            "nextDialogs": [
+              "401241004"
+            ]
+          },
+          "401241004": {
+            "id": "401241004",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "Before long, a delicious meal is ready.",
+            "nextDialogs": [
+              "401241005"
+            ]
+          },
+          "401241005": {
+            "id": "401241005",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Noelle, your cooking is amazing! Every single dish is so tasty.",
+            "nextDialogs": [
+              "401241006"
+            ]
+          },
+          "401241006": {
+            "id": "401241006",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Truly astounding, I never imagined it was possible to enjoy such a satisfying meal in the great outdoors.",
+            "nextDialogs": [
+              "401241007"
+            ]
+          },
+          "401241007": {
+            "id": "401241007",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Really? Then what do you usually eat when you're out on an inspiration walk?",
+            "nextDialogs": [
+              "401241008"
+            ]
+          },
+          "401241008": {
+            "id": "401241008",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Oh, well, since I usually sneak out from home, I just grab some dried snacks to take with me. Add in whatever fruit I pick along the way, and that's my lunch.",
+            "nextDialogs": [
+              "401241009"
+            ]
+          },
+          "401241009": {
+            "id": "401241009",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "By sneaking out, you mean... running away from home?",
+            "nextDialogs": [
+              "401241010"
+            ]
+          },
+          "401241010": {
+            "id": "401241010",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "That's right! Or sometimes, I'll tell a cover story, like... I'm going out to take care of business.",
+            "nextDialogs": [
+              "401241011"
+            ]
+          },
+          "401241011": {
+            "id": "401241011",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "But... if you get caught, won't you get disciplined?",
+            "nextDialogs": [
+              "401241012"
+            ]
+          },
+          "401241012": {
+            "id": "401241012",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "So just don't get caught!",
+            "nextDialogs": [
+              "401241013"
+            ]
+          },
+          "401241013": {
+            "id": "401241013",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "...",
+            "nextDialogs": [
+              "401241014"
+            ]
+          },
+          "401241014": {
+            "id": "401241014",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(With such a devil-may-care attitude, no wonder he seems so carefree. Maybe I should take a leaf out of his book...)",
+            "nextDialogs": [
+              "401241015"
+            ]
+          },
+          "401241015": {
+            "id": "401241015",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Anyway, did anything interesting come up while you were out scouting?",
+            "nextDialogs": [
+              "401241016"
+            ]
+          },
+          "401241016": {
+            "id": "401241016",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Well, Xingqiu and I talked about what it means to be a \"hero.\"",
+            "nextDialogs": [
+              "401241017"
+            ]
+          },
+          "401241017": {
+            "id": "401241017",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Now that I think about it, by Xingqiu's definition, you should be considered a hero too, Noelle!",
+            "nextDialogs": [
+              "401241018"
+            ]
+          },
+          "401241018": {
+            "id": "401241018",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Huh? Me?",
+            "nextDialogs": [
+              "401241019"
+            ]
+          },
+          "401241019": {
+            "id": "401241019",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "You're always happy to help everyone in the Knights of Favonius. Not only that, but whenever we're out training, you help out the citizens of Mondstadt.",
+            "nextDialogs": [
+              "401241020"
+            ]
+          },
+          "401241020": {
+            "id": "401241020",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Remember that time when a giant boulder was blocking the road? You cut it in two with a single blow!",
+            "nextDialogs": [
+              "401241021"
+            ]
+          },
+          "401241021": {
+            "id": "401241021",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Oh? Sounds like she has both a heroic spirit and incredible martial prowess.",
+            "nextDialogs": [
+              "401241022"
+            ]
+          },
+          "401241022": {
+            "id": "401241022",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Don't... Please don't praise me like that! ...We should talk about what we came here to do: finding inspiration.",
+            "nextDialogs": [
+              "401241023"
+            ]
+          },
+          "401241023": {
+            "id": "401241023",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Miss Hu Tao said something about pocketing our... poetic thoughts. But so far all we've done is gather some firewood and cook lunch. I have no idea what to write...",
+            "nextDialogs": [
+              "401241024"
+            ]
+          },
+          "401241024": {
+            "id": "401241024",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "You can write about anything.",
+            "nextDialogs": [
+              "401241025"
+            ]
+          },
+          "401241025": {
+            "id": "401241025",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Looking at Cor Lapis, one can't help but wonder if one's own heart is as bright and clear as jade. Observing silk, so bright and beautiful, one pauses to consider whether it ever feels the sadness and sorrow that humans do.",
+            "nextDialogs": [
+              "401241026"
+            ]
+          },
+          "401241026": {
+            "id": "401241026",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "So, we have to connect our internal world with the external one?",
+            "nextDialogs": [
+              "401241027"
+            ]
+          },
+          "401241027": {
+            "id": "401241027",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Exactly! But that's just one of many possible methods.",
+            "nextDialogs": [
+              "401241028"
+            ]
+          },
+          "401241028": {
+            "id": "401241028",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Perhaps you might gaze out at the bridge in the distance, and see a woman leaning on the railing, looking as if her heart is laden by sorrows that even the rushing waters below cannot wash away...",
+            "nextDialogs": [
+              "401241029"
+            ]
+          },
+          "401241029": {
+            "id": "401241029",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Huh? Wait, I saw her at the gala yesterday. She wrote one of the riddles we answered.",
+            "nextDialogs": [
+              "401241030"
+            ]
+          },
+          "401241030": {
+            "id": "401241030",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Why don't we go say hi?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012404",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401240401"
+        ],
+        "dialogs": {
+          "401240401": {
+            "id": "401240401",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Enjoy your inspiration walks! I'm looking forward to some splendid poetry tonight."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012415",
+      "subQuestName": "Talk to the woman on the bridge",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241501"
+        ],
+        "dialogs": {
+          "401241501": {
+            "id": "401241501",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Hello, Ma'am. How fortuitous it is that we meet again.",
+            "nextDialogs": [
+              "401241502"
+            ]
+          },
+          "401241502": {
+            "id": "401241502",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Hello. Are you here on your inspiration walk too?",
+            "nextDialogs": [
+              "401241503"
+            ]
+          },
+          "401241503": {
+            "id": "401241503",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Yes. Allow me to introduce ourselves: I am Xingqiu, and this is Noelle and Mika.",
+            "nextDialogs": [
+              "401241504"
+            ]
+          },
+          "401241504": {
+            "id": "401241504",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Thank you for accepting our answer to your riddle yesterday.",
+            "nextDialogs": [
+              "401241505"
+            ]
+          },
+          "401241505": {
+            "id": "401241505",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Oh, don't mention it. It's all in good fun. I'm Callirhoe.",
+            "nextDialogs": [
+              "401241506"
+            ]
+          },
+          "401241506": {
+            "id": "401241506",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "...So, Miss Callirhoe, are you from Fontaine?",
+            "nextDialogs": [
+              "401241507"
+            ]
+          },
+          "401241507": {
+            "id": "401241507",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "That's right! I was traveling in the area, and just happened to see there was a poetry event being held at Stone Gate. It looked fun, so I thought I'd drop in.",
+            "nextDialogs": [
+              "401241508"
+            ]
+          },
+          "401241508": {
+            "id": "401241508",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Your riddle yesterday made quite an impression on me. It was uniquely evocative. Have you studied Liyue poetry before?",
+            "nextDialogs": [
+              "401241509"
+            ]
+          },
+          "401241509": {
+            "id": "401241509",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "I haven't, actually. I've just picked up a few things here and there from chatting with people throughout my travels.",
+            "nextDialogs": [
+              "401241510"
+            ]
+          },
+          "401241510": {
+            "id": "401241510",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Amazing! So you're a natural poet!",
+            "nextDialogs": [
+              "401241511"
+            ]
+          },
+          "401241511": {
+            "id": "401241511",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "We noticed you standing on the bridge from quite some distance away. Are you drawing poetic inspiration from the flowing current beneath your feet?",
+            "nextDialogs": [
+              "401241512"
+            ]
+          },
+          "401241512": {
+            "id": "401241512",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Haha, I haven't finished my poem yet. The water here was just so peaceful and calming, I stopped for a moment and lost myself in admiring it...",
+            "nextDialogs": [
+              "401241513"
+            ]
+          },
+          "401241513": {
+            "id": "401241513",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Well, since we're all here, why not head back with us to the venue for tonight's festivities? It's getting late, after all.",
+            "nextDialogs": [
+              "401241514"
+            ]
+          },
+          "401241514": {
+            "id": "401241514",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "...Huh? Are... Are you sure?",
+            "nextDialogs": [
+              "401241515"
+            ]
+          },
+          "401241515": {
+            "id": "401241515",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "We can walk and talk. Perhaps the mingling of ideas will give rise to new inspiration.",
+            "nextDialogs": [
+              "401241516"
+            ]
+          },
+          "401241516": {
+            "id": "401241516",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "I'd personally like to hear Miss Callirhoe's couplet. I'm sure I can learn something.",
+            "nextDialogs": [
+              "401241517"
+            ]
+          },
+          "401241517": {
+            "id": "401241517",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Haha, well if you're all in agreement, I've got no reason not to join you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012411",
+      "subQuestName": "Return to the event venue",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241101"
+        ],
+        "dialogs": {
+          "401241101": {
+            "id": "401241101",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Woohoo, the first team is back, right on schedule!",
+            "nextDialogs": [
+              "401241102"
+            ]
+          },
+          "401241102": {
+            "id": "401241102",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Huh? The others have yet to return?",
+            "nextDialogs": [
+              "401241103"
+            ]
+          },
+          "401241103": {
+            "id": "401241103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...C'mon, let's hurry!",
+            "nextDialogs": [
+              "401241104"
+            ]
+          },
+          "401241104": {
+            "id": "401241104",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "*wheezing* We... *panting* ...We're not too late, are we?",
+            "nextDialogs": [
+              "401241105"
+            ]
+          },
+          "401241105": {
+            "id": "401241105",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Just how far did you all go?",
+            "nextDialogs": [
+              "401241106"
+            ]
+          },
+          "401241106": {
+            "id": "401241106",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Haha, everyone catch your breath... Come on, deep breaths, one... two. Now don't panic, the party hasn't started yet!",
+            "nextDialogs": [
+              "401241107"
+            ]
+          },
+          "401241107": {
+            "id": "401241107",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Phew... We made it... Paimon's exhausted...",
+            "nextDialogs": [
+              "401241108"
+            ]
+          },
+          "401241108": {
+            "id": "401241108",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Since when do you get tired from flying...",
+            "nextDialogs": [
+              "401241109"
+            ]
+          },
+          "401241109": {
+            "id": "401241109",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon gets tired if she has to fly too fast!",
+            "nextDialogs": [
+              "401241110"
+            ]
+          },
+          "401241110": {
+            "id": "401241110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Not to mention dropping all those leaves. Paimon's hands are cramping up...",
+            "nextDialogs": [
+              "401241111"
+            ]
+          },
+          "401241111": {
+            "id": "401241111",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "Hmph! Sounds like someone needs to exercise more.",
+            "nextDialogs": [
+              "401241112"
+            ]
+          },
+          "401241112": {
+            "id": "401241112",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? You guys picked up a new teammate while you were out?",
+            "nextDialogs": [
+              "401241113"
+            ]
+          },
+          "401241113": {
+            "id": "401241113",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Indeed. This is Callirhoe — I believe you'll remember her from yesterday, though you weren't introduced.",
+            "nextDialogs": [
+              "401241114"
+            ]
+          },
+          "401241114": {
+            "id": "401241114",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Hi everyone.",
+            "nextDialogs": [
+              "401241115"
+            ]
+          },
+          "401241115": {
+            "id": "401241115",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hello! But you're not the only ones who called in reinforcements! Hee-hee, look who we got...",
+            "nextDialogs": [
+              "401241116"
+            ]
+          },
+          "401241116": {
+            "id": "401241116",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait... Xiao? Where'd he go?",
+            "nextDialogs": [
+              "401241117"
+            ]
+          },
+          "401241117": {
+            "id": "401241117",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "XIAOOOOOO! Come on oooout~!",
+            "nextDialogs": [
+              "401241118"
+            ]
+          },
+          "401241118": {
+            "id": "401241118",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "401241119"
+            ]
+          },
+          "401241119": {
+            "id": "401241119",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Ahem, now that we've all regrouped, let's... Huh. Scratch that, looks like we're still waiting on my co-host.",
+            "nextDialogs": [
+              "401241120"
+            ]
+          },
+          "401241120": {
+            "id": "401241120",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Hohoho, they say roosters crow at first light, and finches go to bed at night, but Director Hu Tao's always on the ball — anytime, anywhere, she'll answer your call!",
+            "nextDialogs": [
+              "401241121"
+            ]
+          },
+          "401241121": {
+            "id": "401241121",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Um... Are the theatrics really necessary? We're already on day two of the festival. The opening ceremony is over...",
+            "nextDialogs": [
+              "401241122"
+            ]
+          },
+          "401241122": {
+            "id": "401241122",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Oh ho, but my dear dear Paimon, it seems you are not yet aware. That was not for my own sake, but for a special guest who is joining us today—",
+            "nextDialogs": [
+              "401241123"
+            ]
+          },
+          "401241123": {
+            "id": "401241123",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Director Hu's manner is as exuberant as ever. It always makes quite an impression.",
+            "nextDialogs": [
+              "401241124"
+            ]
+          },
+          "401241124": {
+            "id": "401241124",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Oh boy, now this is a surprise!",
+            "nextDialogs": [
+              "401241125"
+            ]
+          },
+          "401241125": {
+            "id": "401241125",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Mr. Zhongli, I hope you are well.",
+            "nextDialogs": [
+              "401241126"
+            ]
+          },
+          "401241126": {
+            "id": "401241126",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Xingqiu... What can you tell me about Mister Zhongli? He seems like somebody very important.",
+            "nextDialogs": [
+              "401241127"
+            ]
+          },
+          "401241127": {
+            "id": "401241127",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Yes — he's held in very high regard in Liyue Harbor. He's extremely erudite in many different domains of knowledge.",
+            "nextDialogs": [
+              "401241128"
+            ]
+          },
+          "401241128": {
+            "id": "401241128",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Allow me to introduce you all to Zhongli, a consultant at the Wangsheng Funeral Parlor.",
+            "nextDialogs": [
+              "401241129"
+            ]
+          },
+          "401241129": {
+            "id": "401241129",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "His expertise is limitless, stretching from the celestial orbs to the terrestrial ores, spanning modern and ancient culture, delving into literature both prosaic and poetic.",
+            "nextDialogs": [
+              "401241130"
+            ]
+          },
+          "401241130": {
+            "id": "401241130",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "He may be my subordinate, but he is certainly a qualified poetry expert. And so, we have invited him here tonight to judge the compositions.",
+            "nextDialogs": [
+              "401241131"
+            ]
+          },
+          "401241131": {
+            "id": "401241131",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "The director exaggerates. I am but vaguely acquainted with a few lines of classical poetry. Should you consider me to be remiss in my appraisal of your own compositions, please correct me.",
+            "nextDialogs": [
+              "401241132"
+            ]
+          },
+          "401241132": {
+            "id": "401241132",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Aiya, enough with the modesty already! If I didn't know better, I'd say you seemed nervous. Just focus on judging.",
+            "nextDialogs": [
+              "401241133"
+            ]
+          },
+          "401241133": {
+            "id": "401241133",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Please rest assured that I shall rise to the occasion, Director.",
+            "nextDialogs": [
+              "401241134"
+            ]
+          },
+          "401241134": {
+            "id": "401241134",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Let me do a quick count... one, two, three, four... Great, equal numbers on both sides.",
+            "nextDialogs": [
+              "401241135"
+            ]
+          },
+          "401241135": {
+            "id": "401241135",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "Huh? Are you counting me, too?",
+            "nextDialogs": [
+              "401241138"
+            ]
+          },
+          "401241138": {
+            "id": "401241138",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "Okay, fine... But consider this a favor!",
+            "nextDialogs": [
+              "401241139"
+            ]
+          },
+          "401241139": {
+            "id": "401241139",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Hmm, with our Fontaine friend present, perhaps we should rename this event to the \"Three Nations Congenial Poetry Gala\"...",
+            "nextDialogs": [
+              "401241140"
+            ]
+          },
+          "401241140": {
+            "id": "401241140",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "#Also, I'm just noticing that Paimon should only count as a half-teammate at most...? Hmm, that kinda puts Team {NICKNAME} at a bit of a disadvantage...",
+            "nextDialogs": [
+              "401241141"
+            ]
+          },
+          "401241141": {
+            "id": "401241141",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Well, how about this: I'll join in as well! Director Hu Tao, here to help out in your hour of greatest need! What does everyone think?",
+            "nextDialogs": [
+              "401241142"
+            ]
+          },
+          "401241142": {
+            "id": "401241142",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Naturally, the more the merrier. Being the host of the festival shouldn't stop you from having the chance to enjoy it like the rest of us.",
+            "nextDialogs": [
+              "401241143"
+            ]
+          },
+          "401241143": {
+            "id": "401241143",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Then it's settled! Everyone else in the audience, feel free to join in too, and support your favorite team!",
+            "nextDialogs": [
+              "401241144"
+            ]
+          },
+          "401241144": {
+            "id": "401241144",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "What about me? Shall I keep track of the score?",
+            "nextDialogs": [
+              "401241145"
+            ]
+          },
+          "401241145": {
+            "id": "401241145",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "No need for that! The teams are just a formality. We're all friends here, and this isn't intended to be competitive. But what do you think, Judge Zhongli?",
+            "nextDialogs": [
+              "401241146"
+            ]
+          },
+          "401241146": {
+            "id": "401241146",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "I concur, Director. Moreover, it would be disingenuous to impose upon our friends from Mondstadt and Fontaine a competition in which they are judged on how rigorously they can adhere to Liyue poetic conventions.",
+            "nextDialogs": [
+              "401241147"
+            ]
+          },
+          "401241147": {
+            "id": "401241147",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Since this is a \"Congenial Poetry Gala,\" should we not begin with inspiration and finish with friendly conversation? The aim being for all participants to enjoy themselves.",
+            "nextDialogs": [
+              "401241148"
+            ]
+          },
+          "401241148": {
+            "id": "401241148",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Phew, that's a relief... I was so nervous about this, but it sounds like it's gonna be pretty relaxed...",
+            "nextDialogs": [
+              "401241149"
+            ]
+          },
+          "401241149": {
+            "id": "401241149",
+            "speakerId": 1021,
+            "speakerName": "Hu Tao",
+            "text": "Couldn't have asked for a better judge — Zhongli said everything I was supposed to say, only far more eloquently. So without further ado... I shall pass the baton to Venti.",
+            "nextDialogs": [
+              "401241150"
+            ]
+          },
+          "401241150": {
+            "id": "401241150",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "No problem.",
+            "nextDialogs": [
+              "401241151"
+            ]
+          },
+          "401241151": {
+            "id": "401241151",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Friends old and new, put on your thinking caps and take a deep breath of fresh air! The second stage of our poetry gala will now commence: matching couplets!",
+            "nextDialogs": [
+              "401241152"
+            ]
+          },
+          "401241152": {
+            "id": "401241152",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Perhaps I could break the ice with a humble contribution to inspire others to share their brilliance.",
+            "nextDialogs": [
+              "401241153"
+            ]
+          },
+          "401241153": {
+            "id": "401241153",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Please listen to the first line in the couplet: \"Lounging in luxury inside a Xinyue Kiosk booth, delighting in countless contemporary tastes.\"",
+            "nextDialogs": [
+              "401241154"
+            ]
+          },
+          "401241154": {
+            "id": "401241154",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "(What? He managed to think of one already? He seems like a real expert at this...)",
+            "nextDialogs": [
+              "401241155"
+            ]
+          },
+          "401241155": {
+            "id": "401241155",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm, Xinyue Kiosk... Should that be paired with Liuli Pavilion? Or are they too similar for a couplet? Ugh, this is pretty difficult!",
+            "nextDialogs": [
+              "401241156"
+            ]
+          },
+          "401241156": {
+            "id": "401241156",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Xinyue Kiosk... contemporary tastes... Hmm, I guess I should pair the modernity of their VIP dining experience with an emblem of the past... Ah! Maybe where I was training that one time? That was quite ancient. The weather was terrible that day...)",
+            "nextDialogs": [
+              "401241157"
+            ]
+          },
+          "401241157": {
+            "id": "401241157",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "...Okay! I got something!",
+            "nextDialogs": [
+              "401241158"
+            ]
+          },
+          "401241158": {
+            "id": "401241158",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "...\"Surrounded by history outside a Tianheng Pass pavilion, as lightning sets the boundless tenebrous skies ablaze.\"",
+            "nextDialogs": [
+              "401241159"
+            ]
+          },
+          "401241159": {
+            "id": "401241159",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow! Chongyun completed the couplet!",
+            "nextDialogs": [
+              "401241160"
+            ]
+          },
+          "401241160": {
+            "id": "401241160",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "Hmm... Xinyue Kiosk is a renowned modern restaurant, while the mountain pass of Tianheng is a prominent historical landmark. These two iconic locations form a complementary pair.",
+            "nextDialogs": [
+              "401241161"
+            ]
+          },
+          "401241161": {
+            "id": "401241161",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "The imagery also contrasts rather well between the two halves of the couplet, one half describing a leisurely and comfortable indoor scene, the other portraying a hazardous outdoor scenario where there is no protection from the elements.",
+            "nextDialogs": [
+              "401241162"
+            ]
+          },
+          "401241162": {
+            "id": "401241162",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "(Huh? I was just describing what I experienced that day... I guess I just got lucky?)",
+            "nextDialogs": [
+              "401241163"
+            ]
+          },
+          "401241163": {
+            "id": "401241163",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Alright then, I guess I'll start the next couplet:",
+            "nextDialogs": [
+              "401241164"
+            ]
+          },
+          "401241164": {
+            "id": "401241164",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "\"Mind pines for Mingyun, flesh confined to Qingce, spirit striding high on Jueyun's clouds.\"",
+            "nextDialogs": [
+              "401241165"
+            ]
+          },
+          "401241165": {
+            "id": "401241165",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "(Oh, Chongyun, you dark horse... Looks like you came to play today...)",
+            "nextDialogs": [
+              "401241166"
+            ]
+          },
+          "401241166": {
+            "id": "401241166",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "This conjures the image of one with lofty aspirations, whose life is limited to a small town, but who awaits the opportunity to one day ascend above the clouds. The use of various locations for their symbolism is quite novel indeed.",
+            "nextDialogs": [
+              "401241167"
+            ]
+          },
+          "401241167": {
+            "id": "401241167",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "...Oh!",
+            "nextDialogs": [
+              "401241168"
+            ]
+          },
+          "401241168": {
+            "id": "401241168",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "\"Soul shines like jadestone, dressed in finest silkwear, lucent heart still beats within me now.\"",
+            "nextDialogs": [
+              "401241169"
+            ]
+          },
+          "401241169": {
+            "id": "401241169",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, how did Noelle do that!?",
+            "nextDialogs": [
+              "401241170"
+            ]
+          },
+          "401241170": {
+            "id": "401241170",
+            "speakerId": 10232,
+            "speakerName": "Zhongli",
+            "text": "A superb line. It employs the metaphor of precious stone to describe one of noble and moral character, with a pure and clear heart. The symbolism in this case is centered around objects. Truly, the work of a skilled poet.",
+            "nextDialogs": [
+              "401241171"
+            ]
+          },
+          "401241171": {
+            "id": "401241171",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "That was a commendable couplet.",
+            "nextDialogs": [
+              "401241172"
+            ]
+          },
+          "401241172": {
+            "id": "401241172",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "All thanks to your guidance while we were out on our inspiration walk.",
+            "nextDialogs": [
+              "401241173"
+            ]
+          },
+          "401241173": {
+            "id": "401241173",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "I'd like to start the next couplet:",
+            "nextDialogs": [
+              "401241174"
+            ]
+          },
+          "401241174": {
+            "id": "401241174",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "\"Up into the misty karst, down among the grassy marsh, all for Lotus Seed and Bird Egg Soup.\"",
+            "nextDialogs": [
+              "401241175"
+            ]
+          },
+          "401241175": {
+            "id": "401241175",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "...Lotus Seed and Bird Egg Soup?",
+            "nextDialogs": [
+              "401241176"
+            ]
+          },
+          "401241176": {
+            "id": "401241176",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What is it, Diona? Did you think of a second line for the couplet?",
+            "nextDialogs": [
+              "401241177"
+            ]
+          },
+          "401241177": {
+            "id": "401241177",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "No, everyone's poems are so complicated. I need more time just to understand them...",
+            "nextDialogs": [
+              "401241178"
+            ]
+          },
+          "401241178": {
+            "id": "401241178",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "But when I heard \"Lotus Seed and Bird Egg Soup,\" it made me think of Berry and Mint Burst... maybe because I mixed a similar drink recently."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012412",
+      "subQuestName": "Talk to everyone",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401241201"
+        ],
+        "dialogs": {
+          "401241201": {
+            "id": "401241201",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "In high spirits, the laughter and couplets continue late into the night...",
+            "nextDialogs": [
+              "401241202"
+            ]
+          },
+          "401241202": {
+            "id": "401241202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Woohoo, Paimon's so happy! Paimon managed to match a bunch of couplets at the end! You did hear them all, right?",
+            "nextDialogs": [
+              "401241203"
+            ]
+          },
+          "401241203": {
+            "id": "401241203",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "I really enjoyed myself too! I never knew Liyue's couplet poetry was so much fun.",
+            "nextDialogs": [
+              "401241204"
+            ]
+          },
+          "401241204": {
+            "id": "401241204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You were amazing today, Noelle! You did so many couplets.",
+            "nextDialogs": [
+              "401241205"
+            ]
+          },
+          "401241205": {
+            "id": "401241205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon especially liked your one about reading \"Heart of Clear Springs.\" Paimon never could've thought of that!",
+            "nextDialogs": [
+              "401241206"
+            ]
+          },
+          "401241206": {
+            "id": "401241206",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "...",
+            "nextDialogs": [
+              "401241207"
+            ]
+          },
+          "401241207": {
+            "id": "401241207",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Callirhoe?",
+            "nextDialogs": [
+              "401241208"
+            ]
+          },
+          "401241208": {
+            "id": "401241208",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Miss Callirhoe, are you okay? You look like you're getting tired.",
+            "nextDialogs": [
+              "401241209"
+            ]
+          },
+          "401241209": {
+            "id": "401241209",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Don't worry, I'm fine. Thanks for asking.",
+            "nextDialogs": [
+              "401241210"
+            ]
+          },
+          "401241210": {
+            "id": "401241210",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Although... I do have a question I'd like to ask.",
+            "nextDialogs": [
+              "401241211"
+            ]
+          },
+          "401241211": {
+            "id": "401241211",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Have all of you read \"Heart of Clear Springs\"?",
+            "nextDialogs": [
+              "401241214"
+            ]
+          },
+          "401241214": {
+            "id": "401241214",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "I haven't actually read it.",
+            "nextDialogs": [
+              "401241215"
+            ]
+          },
+          "401241215": {
+            "id": "401241215",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "My dad told me the story once. It's about a spring fairy and a young boy.",
+            "nextDialogs": [
+              "401241216"
+            ]
+          },
+          "401241216": {
+            "id": "401241216",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Oh yes, the story of a spring fairy who left her homeland, and met a boy under the moonlight in a faraway land.",
+            "nextDialogs": [
+              "401241217"
+            ]
+          },
+          "401241217": {
+            "id": "401241217",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "The boy poured out his heart to her, and she listened to his stories.",
+            "nextDialogs": [
+              "401241218"
+            ]
+          },
+          "401241218": {
+            "id": "401241218",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Over time, the boy grew up, and began to develop feelings for the spring fairy. But the spring fairy didn't understand human love, and was afraid that making a promise to him would ultimately end in tragedy... and so... um...",
+            "nextDialogs": [
+              "401241219"
+            ]
+          },
+          "401241219": {
+            "id": "401241219",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "(I don't know if Diona's father mentioned the part about the kiss to her...)",
+            "nextDialogs": [
+              "401241220"
+            ]
+          },
+          "401241220": {
+            "id": "401241220",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "In the end, the spring fairy left the boy, and was never heard from again.",
+            "nextDialogs": [
+              "401241221"
+            ]
+          },
+          "401241221": {
+            "id": "401241221",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "Ah, yes, that's it! Many years went by, and the boy became an old man, but he never stopped believing that the fairy was real, and not just a dream.",
+            "nextDialogs": [
+              "401241222"
+            ]
+          },
+          "401241222": {
+            "id": "401241222",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Sounds like a tragic tale...",
+            "nextDialogs": [
+              "401241223"
+            ]
+          },
+          "401241223": {
+            "id": "401241223",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "So, what do you guys think of the spring fairy in the story?",
+            "nextDialogs": [
+              "401241224"
+            ]
+          },
+          "401241224": {
+            "id": "401241224",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "I'm sure she made her decision with the best of intentions, but the boy couldn't hope to understand why she left... It's a shame that the misunderstanding never got cleared up.",
+            "nextDialogs": [
+              "401241225"
+            ]
+          },
+          "401241225": {
+            "id": "401241225",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Well... Do you think she should go back and see that boy again, if she ever had another chance?",
+            "nextDialogs": [
+              "401241226"
+            ]
+          },
+          "401241226": {
+            "id": "401241226",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Now? But... isn't he an old man by the end of the story?",
+            "nextDialogs": [
+              "401241227"
+            ]
+          },
+          "401241227": {
+            "id": "401241227",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Hmm... isn't it a bit late? What if it just led to more regrets?",
+            "nextDialogs": [
+              "401241228"
+            ]
+          },
+          "401241228": {
+            "id": "401241228",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Ah! Sorry, maybe I'm being too pessimistic...",
+            "nextDialogs": [
+              "401241229"
+            ]
+          },
+          "401241229": {
+            "id": "401241229",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "If Paimon was that boy... Hmm, actually, Paimon would definitely want to see the spring fairy again. No matter how old Paimon got. After all, she's the love of his life, right?",
+            "nextDialogs": [
+              "401241230"
+            ]
+          },
+          "401241230": {
+            "id": "401241230",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "I see...",
+            "nextDialogs": [
+              "401241231"
+            ]
+          },
+          "401241231": {
+            "id": "401241231",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Oh? Looks like the party's still going strong over here. Are you coming up with more couplets? Need my help?",
+            "nextDialogs": [
+              "401241232"
+            ]
+          },
+          "401241232": {
+            "id": "401241232",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Stick to hosting, Tone-Deaf Bard! If you get involved, you'll only match every couplet yourself and not leave any for the rest of us!",
+            "nextDialogs": [
+              "401241233"
+            ]
+          },
+          "401241233": {
+            "id": "401241233",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Haha, I never knew you had such a high opinion of my abilities, Paimon.",
+            "nextDialogs": [
+              "401241234"
+            ]
+          },
+          "401241234": {
+            "id": "401241234",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "But the couplet games are all over now! Tomorrow's theme is \"Freestyle Poetry\"!",
+            "nextDialogs": [
+              "401241235"
+            ]
+          },
+          "401241235": {
+            "id": "401241235",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Do we have to share our own poems with everyone?",
+            "nextDialogs": [
+              "401241236"
+            ]
+          },
+          "401241236": {
+            "id": "401241236",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "That's right! If you're not feeling confident, don't worry — it's never too late to register for Venti's Poetry Cram Class.",
+            "nextDialogs": [
+              "401241237"
+            ]
+          },
+          "401241237": {
+            "id": "401241237",
+            "speakerId": 1027,
+            "speakerName": "Noelle",
+            "text": "I'll sign up!",
+            "nextDialogs": [
+              "401241238"
+            ]
+          },
+          "401241238": {
+            "id": "401241238",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Me too!",
+            "nextDialogs": [
+              "401241239"
+            ]
+          },
+          "401241239": {
+            "id": "401241239",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hold on, buster... Before you start peddling your classes, just how much freedom is there with this freestyle poetry, exactly? Aren't there any requirements at all?",
+            "nextDialogs": [
+              "401241240"
+            ]
+          },
+          "401241240": {
+            "id": "401241240",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "It's as free as the winds that blow, and there's nothing freer! There are no limits to genre, form, content, or anything else. So long as it comes from the heart, you're welcome to put it into poetry.",
+            "nextDialogs": [
+              "401241241"
+            ]
+          },
+          "401241241": {
+            "id": "401241241",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Give it a try, there's no better chance to express your innermost thoughts!",
+            "nextDialogs": [
+              "401241242"
+            ]
+          },
+          "401241242": {
+            "id": "401241242",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Whoa... That's almost too much freedom! Paimon can't decide which way to go... Our travels? Or maybe all the food that {NICKNAME} has cooked for Paimon...",
+            "nextDialogs": [
+              "401241243"
+            ]
+          },
+          "401241243": {
+            "id": "401241243",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Will you come too, Callirhoe? Paimon wants to see what you write!",
+            "nextDialogs": [
+              "401241244"
+            ]
+          },
+          "401241244": {
+            "id": "401241244",
+            "speakerId": 13431,
+            "speakerName": "Callirhoe",
+            "text": "Oh, um... Yes. I'll be there.",
+            "nextDialogs": [
+              "401241245"
+            ]
+          },
+          "401241245": {
+            "id": "401241245",
+            "speakerId": 1001,
+            "speakerName": "Venti",
+            "text": "Oof, my nose is starting to itch again... Alright, I shall leave you to privately ponder your poems and bid you all goodnight! See you tomorrow!",
+            "nextDialogs": [
+              "401241246"
+            ]
+          },
+          "401241246": {
+            "id": "401241246",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "As the host declares the day's events over, the crowd reluctantly disperses..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4012499",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "401249903"
+        ],
+        "dialogs": {
+          "401249903": {
+            "id": "401249903",
+            "speakerId": 1061,
+            "speakerName": "Diona",
+            "text": "As well as Jueyun Chilis, I also need some Slime Condensate or Loach Pearls.",
+            "nextDialogs": [
+              "401249904"
+            ]
+          },
+          "401249904": {
+            "id": "401249904",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Are those really fit for human consumption? This is starting to sound like something Xiangling would make...",
+            "nextDialogs": [
+              "401249905"
+            ]
+          },
+          "401249905": {
+            "id": "401249905",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "So, Xingqiu... Uh, d—do you, um, go on inspiration walks often, or...?",
+            "nextDialogs": [
+              "401249906"
+            ]
+          },
+          "401249906": {
+            "id": "401249906",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "I do. I always get bored when I'm cooped up at home, so I head out for a stroll.",
+            "nextDialogs": [
+              "401249907"
+            ]
+          },
+          "401249907": {
+            "id": "401249907",
+            "speakerId": 10045,
+            "speakerName": "Xingqiu",
+            "text": "Life gets busy. You have to steal a moment of leisure when you can.",
+            "nextDialogs": [
+              "401249908"
+            ]
+          },
+          "401249908": {
+            "id": "401249908",
+            "speakerId": 1060,
+            "speakerName": "Mika",
+            "text": "Cool... Oh! Over there! Firewood!",
+            "nextDialogs": [
+              "401249909"
+            ]
+          },
+          "401249909": {
+            "id": "401249909",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "The group walk back to the venue, laughing and joking as they go.",
+            "nextDialogs": [
+              "401249910"
+            ]
+          },
+          "401249910": {
+            "id": "401249910",
+            "speakerId": 1005,
+            "speakerName": "Black Screen",
+            "text": "Some time ago, in a team far, far away..."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,837 @@
+{
+  "lineCounts": {
+    "Katheryne": 7,
+    "Paimon": 34,
+    "Player": 29,
+    "Ryuuji": 45,
+    "Sango": 28
+  },
+  "subQuests": [
+    {
+      "subId": "4003101",
+      "subQuestName": "Go to the Adventurers' Guild in Inazuma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400310101"
+        ],
+        "dialogs": {
+          "400310101": {
+            "id": "400310101",
+            "speakerId": 3004,
+            "speakerName": "Katheryne",
+            "text": "Hello, Traveler. You couldn't have come at a better time...",
+            "nextDialogs": [
+              "400310102"
+            ]
+          },
+          "400310102": {
+            "id": "400310102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, Paimon knows where this one's going.",
+            "nextDialogs": [
+              "400310105"
+            ]
+          },
+          "400310105": {
+            "id": "400310105",
+            "speakerId": 3004,
+            "speakerName": "Katheryne",
+            "text": "Mm, as expected of an experienced adventurer. It is as you say: we do have a new commission that may suit you.",
+            "nextDialogs": [
+              "400310106"
+            ]
+          },
+          "400310106": {
+            "id": "400310106",
+            "speakerId": 3004,
+            "speakerName": "Katheryne",
+            "text": "Bantan Sango Detective Agency is in need of manpower, and they requested your help specifically in investigating the \"large scale disappearance of many small animals.\"",
+            "nextDialogs": [
+              "400310107"
+            ]
+          },
+          "400310107": {
+            "id": "400310107",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh? Just a couple of small animals?",
+            "nextDialogs": [
+              "400310108"
+            ]
+          },
+          "400310108": {
+            "id": "400310108",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Aw, come on. You sure something this simple needs our glorious {NICKNAME} to step forward?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003102",
+      "subQuestName": "Go to Bantan Sango Detective Agency",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400310202"
+        ],
+        "dialogs": {
+          "400310202": {
+            "id": "400310202",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Pretty good. You arrived more quickly than I thought.",
+            "nextDialogs": [
+              "400310203"
+            ]
+          },
+          "400310203": {
+            "id": "400310203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Of course! We came running the moment we heard about the gener— Uh, about the missing animals!",
+            "nextDialogs": [
+              "400310204"
+            ]
+          },
+          "400310204": {
+            "id": "400310204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Alright then. What's the issue? Never fear, Paimon and {NICKNAME} are here!",
+            "nextDialogs": [
+              "400310205"
+            ]
+          },
+          "400310205": {
+            "id": "400310205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Come on, we both know who's gonna do all the work...",
+            "nextDialogs": [
+              "400310206"
+            ]
+          },
+          "400310206": {
+            "id": "400310206",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon'll cheer for you! That counts for something, right?",
+            "nextDialogs": [
+              "400310207"
+            ]
+          },
+          "400310207": {
+            "id": "400310207",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Ah, energetic as always. Well then, here's the issue. We've received a ton of commissions lately concerning lost animals. To the effect that we should find them, of course.",
+            "nextDialogs": [
+              "400310208"
+            ]
+          },
+          "400310208": {
+            "id": "400310208",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "They're mostly pets of some kind, which means that they really shouldn't have run off by themselves.",
+            "nextDialogs": [
+              "400310209"
+            ]
+          },
+          "400310209": {
+            "id": "400310209",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Inazuma does have its fair share of strange tales. But everything happens for a reason, and there is nothing that cannot be solved through logic. Our on-scene investigations have borne this axiom out.",
+            "nextDialogs": [
+              "400310210"
+            ]
+          },
+          "400310210": {
+            "id": "400310210",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Wait, don't you mean \"my on-scene investigations\"?",
+            "nextDialogs": [
+              "400310211"
+            ]
+          },
+          "400310211": {
+            "id": "400310211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ehe, looks like Paimon's gonna have to cheer you on too, huh?",
+            "nextDialogs": [
+              "400310212"
+            ]
+          },
+          "400310212": {
+            "id": "400310212",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What!?",
+            "nextDialogs": [
+              "400310213"
+            ]
+          },
+          "400310213": {
+            "id": "400310213",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Thanks for the offer, but it's fine.",
+            "nextDialogs": [
+              "400310214"
+            ]
+          },
+          "400310214": {
+            "id": "400310214",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I've been on the trail of the missing animals these past few days, and I wound up discovering some encampments out in the wild. Some of them were guarded by monsters — no big deal, really.",
+            "nextDialogs": [
+              "400310215"
+            ]
+          },
+          "400310215": {
+            "id": "400310215",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "However, just as I was attempting to release some of the trapped animals in one of the camps...",
+            "nextDialogs": [
+              "400310216"
+            ]
+          },
+          "400310216": {
+            "id": "400310216",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "...He was taken out by \"a dark shadow that suddenly appeared.\"",
+            "nextDialogs": [
+              "400310217"
+            ]
+          },
+          "400310217": {
+            "id": "400310217",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "When I woke up, the camp was empty as a grave.",
+            "nextDialogs": [
+              "400310218"
+            ]
+          },
+          "400310218": {
+            "id": "400310218",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Tsk, not a good look for our Ryuuji, eh? *sigh* Whatever happened to the Ryuuji who roared like the wicked oni Torachiyo himself as he defeated the perpetrator of the \"Sanbongatana Kinpachi\" incident?",
+            "nextDialogs": [
+              "400310219"
+            ]
+          },
+          "400310219": {
+            "id": "400310219",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Why, and then he held me fast as I feigned death, crying out...",
+            "nextDialogs": [
+              "400310220"
+            ]
+          },
+          "400310220": {
+            "id": "400310220",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Wait, stop! Stop, I say!",
+            "nextDialogs": [
+              "400310221"
+            ]
+          },
+          "400310221": {
+            "id": "400310221",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, come on! What happened next?",
+            "nextDialogs": [
+              "400310227",
+              "400310224"
+            ]
+          },
+          "400310227": {
+            "id": "400310227",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Whatever the case, we at Bantan Sango require the aid of an adroit adventurer such as yourself to help us save these animals!",
+            "nextDialogs": [
+              "400310228"
+            ]
+          },
+          "400310228": {
+            "id": "400310228",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "As long as you're there, we'll have an eyewitness even if Ryuuji gets knocked out again.",
+            "nextDialogs": [
+              "400310229"
+            ]
+          },
+          "400310229": {
+            "id": "400310229",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh, Sango, so why don't you go yourself again?",
+            "nextDialogs": [
+              "400310230"
+            ]
+          },
+          "400310230": {
+            "id": "400310230",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Ah, ah, don't forget. I'm the brains of the party here. That's my job — using my brain. As far as I'm concerned, my flesh is but an accessory to my mind.",
+            "nextDialogs": [
+              "400310231"
+            ]
+          },
+          "400310231": {
+            "id": "400310231",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "(Whoa, she's lazy, and insistently so, too!)",
+            "nextDialogs": [
+              "400310232"
+            ]
+          },
+          "400310232": {
+            "id": "400310232",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Of course, you won't be working for free. You will be paid, just as we agreed.",
+            "nextDialogs": [
+              "400310233"
+            ]
+          },
+          "400310233": {
+            "id": "400310233",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's what Paimon likes to hear! C'mon, let's go!"
+          },
+          "400310224": {
+            "id": "400310224",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Oh ho, are you interested in a case we closed previously? Well, back then, the usually kindly policeman named Kinpachi...",
+            "nextDialogs": [
+              "400310225"
+            ]
+          },
+          "400310225": {
+            "id": "400310225",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "P—Please, let's just return to the current issue...",
+            "nextDialogs": [
+              "400310226"
+            ]
+          },
+          "400310226": {
+            "id": "400310226",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "...You know what? Sure. Sorry, Ryuuji."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003103",
+      "subQuestName": "Go to the investigation site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400310301"
+        ],
+        "dialogs": {
+          "400310301": {
+            "id": "400310301",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "According to our current investigations, this should be the place.",
+            "nextDialogs": [
+              "400310302"
+            ]
+          },
+          "400310302": {
+            "id": "400310302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, there really are a ton of lil' critters here. Did they all go missing?",
+            "nextDialogs": [
+              "400310303"
+            ]
+          },
+          "400310303": {
+            "id": "400310303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And this is a... dog?",
+            "nextDialogs": [
+              "400310304"
+            ]
+          },
+          "400310304": {
+            "id": "400310304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's a dog guarding this place?",
+            "nextDialogs": [
+              "400310305"
+            ]
+          },
+          "400310305": {
+            "id": "400310305",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Huh, so that's how it was. Mm... This is embarrassing.",
+            "nextDialogs": [
+              "400310306"
+            ]
+          },
+          "400310306": {
+            "id": "400310306",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Eh? What are you embarrassed about, Ryuuji?",
+            "nextDialogs": [
+              "400310307"
+            ]
+          },
+          "400310307": {
+            "id": "400310307",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "...This dog is the \"dark shadow\" that took me out in one go.",
+            "nextDialogs": [
+              "400310309",
+              "400310311"
+            ]
+          },
+          "400310309": {
+            "id": "400310309",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "There's... no need to comfort me like that. My skills were lacking.",
+            "nextDialogs": [
+              "400310312"
+            ]
+          },
+          "400310312": {
+            "id": "400310312",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Still, that upright stance and that high-flown pride...",
+            "nextDialogs": [
+              "400310313"
+            ]
+          },
+          "400310313": {
+            "id": "400310313",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh, doesn't that remind you of someone?"
+          },
+          "400310311": {
+            "id": "400310311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! The dog was just too strong, that's all! Paimon doubts she'd win either, you know?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003104",
+      "subQuestName": "Save the small animals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4003105",
+      "subQuestName": "Report back to Ryuuji",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400310501"
+        ],
+        "dialogs": {
+          "400310501": {
+            "id": "400310501",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Very impressive! You really do have some spectacular moves.",
+            "nextDialogs": [
+              "400310502"
+            ]
+          },
+          "400310502": {
+            "id": "400310502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hehehe! Piece of cake for our {NICKNAME}, don'cha know?",
+            "nextDialogs": [
+              "400310503"
+            ]
+          },
+          "400310503": {
+            "id": "400310503",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Well, then. On to our next target.",
+            "nextDialogs": [
+              "400310504"
+            ]
+          },
+          "400310504": {
+            "id": "400310504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait. There's more?",
+            "nextDialogs": [
+              "400310505"
+            ]
+          },
+          "400310505": {
+            "id": "400310505",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "There's more. If the number of commissions Sango received is no exaggeration, this must be the biggest disappearance of small animals in Inazuma's history.",
+            "nextDialogs": [
+              "400310506"
+            ]
+          },
+          "400310506": {
+            "id": "400310506",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I say this, but even without history as our judge, having this many small animals disappear at once is simply abnormal.",
+            "nextDialogs": [
+              "400310507"
+            ]
+          },
+          "400310507": {
+            "id": "400310507",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I did follow the trails I detected to other areas, and I found trapped animals there, too.",
+            "nextDialogs": [
+              "400310508"
+            ]
+          },
+          "400310508": {
+            "id": "400310508",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Stealth required?",
+            "nextDialogs": [
+              "400310509"
+            ]
+          },
+          "400310509": {
+            "id": "400310509",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Not this time.",
+            "nextDialogs": [
+              "400310510"
+            ]
+          },
+          "400310510": {
+            "id": "400310510",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "The opponents there should be no match for your skills. You'll know when you get there."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003106",
+      "subQuestName": "Head to the other investigation site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4003107",
+      "subQuestName": "Save the small animals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "4003108",
+      "subQuestName": "Report back to Ryuuji",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400310801"
+        ],
+        "dialogs": {
+          "400310801": {
+            "id": "400310801",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Thank you very much. You've been a big help.",
+            "nextDialogs": [
+              "400310802"
+            ]
+          },
+          "400310802": {
+            "id": "400310802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Right? {NICKNAME}'s the strongest there is!",
+            "nextDialogs": [
+              "400310803"
+            ]
+          },
+          "400310803": {
+            "id": "400310803",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Does the number of animals tally up now?",
+            "nextDialogs": [
+              "400310804"
+            ]
+          },
+          "400310804": {
+            "id": "400310804",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "One moment... Huh. There's still some missing.",
+            "nextDialogs": [
+              "400310805"
+            ]
+          },
+          "400310805": {
+            "id": "400310805",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? But how...",
+            "nextDialogs": [
+              "400310806"
+            ]
+          },
+          "400310806": {
+            "id": "400310806",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I'd hardly consider this a loss. We weren't taken out by our Black Shadow, and we managed to get a number of animals back.",
+            "nextDialogs": [
+              "400310807"
+            ]
+          },
+          "400310807": {
+            "id": "400310807",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "As such, our investigation's making progress. We're just out of leads for the time being.",
+            "nextDialogs": [
+              "400310808"
+            ]
+          },
+          "400310808": {
+            "id": "400310808",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Let me tell you what. I'll keep investigating. You keep doing what you usually do for a while... Let's meet up at Bantan Sango Detective Agency once something new comes up.",
+            "nextDialogs": [
+              "400310809"
+            ]
+          },
+          "400310809": {
+            "id": "400310809",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Well, it's not as if we've got better options."
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003151",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400315101"
+        ],
+        "dialogs": {
+          "400315101": {
+            "id": "400315101",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "#Do you need anything, {NICKNAME}?",
+            "nextDialogs": [
+              "400315103",
+              "400315108",
+              "400315111"
+            ]
+          },
+          "400315103": {
+            "id": "400315103",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Ah, that. Well, I was originally going to have Ryuuji use it.",
+            "nextDialogs": [
+              "400315104"
+            ]
+          },
+          "400315104": {
+            "id": "400315104",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "It's not as if our work isn't dangerous, you know? Ryuuji's been injured several times before. So I was thinking — how do I extend the range at which we can capture criminals?",
+            "nextDialogs": [
+              "400315105"
+            ]
+          },
+          "400315105": {
+            "id": "400315105",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "I read a lot of old books and wound up designing this net, even commissioning a friend to construct it. In the end, however, \"catching small animals\" was as far as we got...",
+            "nextDialogs": [
+              "400315106"
+            ]
+          },
+          "400315106": {
+            "id": "400315106",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "But whatever the case, it's come to good use in your hands, so that's a plus."
+          },
+          "400315108": {
+            "id": "400315108",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Ooh, so you're curious about that, huh? Well, here's what happened...",
+            "nextDialogs": [
+              "400315109"
+            ]
+          },
+          "400315109": {
+            "id": "400315109",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "...Actually, you know what? Never mind. If Ryuuji's that opposed to me discussing that matter, I'll refrain."
+          },
+          "400315111": {
+            "id": "400315111",
+            "speakerId": 3041,
+            "speakerName": "Sango",
+            "text": "Please do. Stay safe!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4003152",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400315201"
+        ],
+        "dialogs": {
+          "400315201": {
+            "id": "400315201",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Leave what comes after the animals are found to me. I will take them home as soon as possible.",
+            "nextDialogs": [
+              "400315203",
+              "400315208",
+              "400315211"
+            ]
+          },
+          "400315203": {
+            "id": "400315203",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I've heard tell of a secret organization that trains ninken, or ninja dogs.",
+            "nextDialogs": [
+              "400315204"
+            ]
+          },
+          "400315204": {
+            "id": "400315204",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "They say that one such dog, code-named Inujin, destroyed countless monsters that threatened Inazuma in the shadows...",
+            "nextDialogs": [
+              "400315205"
+            ]
+          },
+          "400315205": {
+            "id": "400315205",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "...Of course, this is just a legend. Still, I wonder if this Black Shadow could be the legendary ninken...",
+            "nextDialogs": [
+              "400315206"
+            ]
+          },
+          "400315206": {
+            "id": "400315206",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Whatever. I shouldn't make excuses for my defeat..."
+          },
+          "400315208": {
+            "id": "400315208",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "I was unable to save the animals while evading its case, but while I was casing the joint, I did find the time to place a few smoke dispensers nearby.",
+            "nextDialogs": [
+              "400315209"
+            ]
+          },
+          "400315209": {
+            "id": "400315209",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "If you activate these mechanisms, should be able to temporarily divert its attention. I hope that they will help."
+          },
+          "400315211": {
+            "id": "400315211",
+            "speakerId": 3042,
+            "speakerName": "Ryuuji",
+            "text": "Good, thank you. I will stand guard here."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "（test）守夜人看守$UNRELEASED": 2,
+    "（test）被抓获的盗宝团$UNRELEASED": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7607201",
+      "subQuestName": "(test)踩圈刷新NPC$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760720101"
+        ],
+        "dialogs": {
+          "760720101": {
+            "id": "760720101",
+            "speakerId": 22289,
+            "speakerName": "（test）守夜人看守$UNRELEASED",
+            "text": "(test)说明这些盗宝团因为盗猎被抓，同时也说还有提灯的失窃也和他们相关$UNRELEASED",
+            "nextDialogs": [
+              "760720102"
+            ]
+          },
+          "760720102": {
+            "id": "760720102",
+            "speakerId": 22290,
+            "speakerName": "（test）被抓获的盗宝团$UNRELEASED",
+            "text": "(test)喊冤嘴硬不承认盗窃，但有点心虚$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7607202",
+      "subQuestName": "(test)找出了宝藏，group通知了$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "760720201"
+        ],
+        "dialogs": {
+          "760720201": {
+            "id": "760720201",
+            "speakerId": 22289,
+            "speakerName": "（test）守夜人看守$UNRELEASED",
+            "text": "(test)果然还藏了！跟我回去数罪并罚！$UNRELEASED",
+            "nextDialogs": [
+              "760720202"
+            ]
+          },
+          "760720202": {
+            "id": "760720202",
+            "speakerId": 22290,
+            "speakerName": "（test）被抓获的盗宝团$UNRELEASED",
+            "text": "(test)饶命啊！我错了！灯是我们偷的，别的都是攒的私房钱啊！$UNRELEASED",
+            "nextDialogs": [
+              "760720203"
+            ]
+          },
+          "760720203": {
+            "id": "760720203",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "(test)守夜人回收了提灯，其余的留做你的报酬，押送着罪犯离开了。$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7607203",
+      "subQuestName": "(test)对话后结束$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "lineCounts": {
+    "Player": 10,
+    "派蒙": 10,
+    "温迪": 15,
+    "琴": 3,
+    "迪卢克": 1
+  },
+  "subQuests": [
+    {
+      "subId": "39301",
+      "subQuestName": "激活入口的封印",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3930101"
+        ],
+        "dialogs": {
+          "3930101": {
+            "id": "3930101",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "我在想，一切结束以后，我要把这些都写进歌里…",
+            "nextDialogs": [
+              "3930104"
+            ]
+          },
+          "3930104": {
+            "id": "3930104",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "嗯，这首歌也会像《温妮莎传奇》一样，被蒙德的人们传唱下去吧。",
+            "nextDialogs": [
+              "3930105"
+            ]
+          },
+          "3930105": {
+            "id": "3930105",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "我从小就很喜欢那首歌。",
+            "nextDialogs": [
+              "3930106"
+            ]
+          },
+          "3930106": {
+            "id": "3930106",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "#那么，{NICKNAME}…你今天状态如何？",
+            "nextDialogs": [
+              "3930107"
+            ]
+          },
+          "3930107": {
+            "id": "3930107",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "我已经调整到了最佳状态，一定能成为各位的助力。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "39302",
+      "subQuestName": "回到塔顶",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3930201"
+        ],
+        "dialogs": {
+          "3930201": {
+            "id": "3930201",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "让万物生长的风变成冒险的风也不错呢。",
+            "nextDialogs": [
+              "3930202"
+            ]
+          },
+          "3930202": {
+            "id": "3930202",
+            "speakerId": 1001,
+            "speakerName": "温迪",
+            "text": "<color=#00E1FFFF>特瓦林</color>就拜托你咯。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "39303",
+      "subQuestName": "(test)与温迪对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    }
+  ]
+}

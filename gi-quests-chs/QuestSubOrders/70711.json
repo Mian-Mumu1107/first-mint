@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "男子汉杰克": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7071101",
+      "subQuestName": "将三份蒙德烤鱼交给男子汉杰克",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707110101"
+        ],
+        "dialogs": {
+          "707110101": {
+            "id": "707110101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于蒙德烤鱼…",
+            "nextDialogs": [
+              "707110102"
+            ]
+          },
+          "707110102": {
+            "id": "707110102",
+            "speakerId": 1656,
+            "speakerName": "男子汉杰克",
+            "text": "你是看见委托了吗？太好了，你把三份蒙德烤鱼带来了吗？",
+            "nextDialogs": [
+              "707110105"
+            ]
+          },
+          "707110105": {
+            "id": "707110105",
+            "speakerId": 1656,
+            "speakerName": "男子汉杰克",
+            "text": "好吧，那你把三份蒙德烤鱼都准备好了之后，就快点带来给人家吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7071102",
+      "subQuestName": "与男子汉杰克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707110201"
+        ],
+        "dialogs": {
+          "707110201": {
+            "id": "707110201",
+            "speakerId": 1656,
+            "speakerName": "男子汉杰克",
+            "text": "唔，这几份蒙德烤鱼闻起来味道不错…",
+            "nextDialogs": [
+              "707110202"
+            ]
+          },
+          "707110202": {
+            "id": "707110202",
+            "speakerId": 1656,
+            "speakerName": "男子汉杰克",
+            "text": "对了，这些东西请你收下吧，谢谢你帮我忙。",
+            "nextDialogs": [
+              "707110203"
+            ]
+          },
+          "707110203": {
+            "id": "707110203",
+            "speakerId": 1656,
+            "speakerName": "男子汉杰克",
+            "text": "不知道吃这个能不能长力气…"
+          }
+        }
+      }
+    }
+  ]
+}

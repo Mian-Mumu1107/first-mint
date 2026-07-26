@@ -1,0 +1,286 @@
+{
+  "lineCounts": {
+    "Black Screen": 1,
+    "Player": 4,
+    "凝光": 2,
+    "澜阳": 8,
+    "鸿如": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1913207",
+      "subQuestName": "等待到第二天早上（7-8点）",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913209",
+      "subQuestName": "(test)判断是否在海灯节见过凝光时装$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913208",
+      "subQuestName": "唤醒凝光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913201",
+      "subQuestName": "与凝光交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913202",
+      "subQuestName": "与凝光共进早餐",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913203",
+      "subQuestName": "找澜阳取礼服",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191320401"
+        ],
+        "dialogs": {
+          "191320401": {
+            "id": "191320401",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "你好，请问有什么事吗？",
+            "nextDialogs": [
+              "191320402"
+            ]
+          },
+          "191320402": {
+            "id": "191320402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我是来帮凝光取衣服的。",
+            "nextDialogs": [
+              "191320403"
+            ]
+          },
+          "191320403": {
+            "id": "191320403",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "哦，我之前听说了，那请你稍等片刻，我进去取一下。",
+            "nextDialogs": [
+              "191320404"
+            ]
+          },
+          "191320404": {
+            "id": "191320404",
+            "speakerId": 1001,
+            "speakerName": "Black Screen",
+            "text": "在等待了很长时间之后，澜阳终于回来了。",
+            "nextDialogs": [
+              "191320405"
+            ]
+          },
+          "191320405": {
+            "id": "191320405",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "就是这个，麻烦你将这个交给凝光大人吧。",
+            "nextDialogs": [
+              "191320406"
+            ]
+          },
+          "191320406": {
+            "id": "191320406",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你好像花了挺长时间。",
+            "nextDialogs": [
+              "191320407"
+            ]
+          },
+          "191320407": {
+            "id": "191320407",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "嗯，因为这个房间里放了很多凝光大人的收藏品，不只是衣服，还有各种文玩，玉器…",
+            "nextDialogs": [
+              "191320408"
+            ]
+          },
+          "191320408": {
+            "id": "191320408",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "最近正在按照凝光大人的意思调整布局，所以房间比较杂乱，目前并不方便随意出入。",
+            "nextDialogs": [
+              "191320411"
+            ]
+          },
+          "191320411": {
+            "id": "191320411",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "总之谢谢你，这个衣服就交给你了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913204",
+      "subQuestName": "将礼服交给凝光",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913205",
+      "subQuestName": "与凝光交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191320501"
+        ],
+        "dialogs": {
+          "191320501": {
+            "id": "191320501",
+            "speakerId": 10211,
+            "speakerName": "凝光",
+            "text": "#你已经拿到了吗，{NICKNAME}？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913206",
+      "subQuestName": "前往琉璃亭赴宴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1913203",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191320301"
+        ],
+        "dialogs": {
+          "191320301": {
+            "id": "191320301",
+            "speakerId": 10211,
+            "speakerName": "凝光",
+            "text": "(test)麻烦你去我的衣帽间管家那里取我的礼服来吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913211",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191321101"
+        ],
+        "dialogs": {
+          "191321101": {
+            "id": "191321101",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "麻烦你将衣服带去凝光大人那里吧，谢谢你。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913212",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191321201"
+        ],
+        "dialogs": {
+          "191321201": {
+            "id": "191321201",
+            "speakerId": 12310,
+            "speakerName": "澜阳",
+            "text": "(test)我是澜阳，凝光大人的收藏室总管。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913214",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191321401"
+        ],
+        "dialogs": {
+          "191321401": {
+            "id": "191321401",
+            "speakerId": 10236,
+            "speakerName": "鸿如",
+            "text": "已经为您安排好了，祝您用餐愉快。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1913215",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "191321501"
+        ],
+        "dialogs": {
+          "191321501": {
+            "id": "191321501",
+            "speakerId": 10236,
+            "speakerName": "鸿如",
+            "text": "欢迎下次光临。"
+          }
+        }
+      }
+    }
+  ]
+}

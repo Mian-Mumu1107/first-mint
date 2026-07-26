@@ -1,0 +1,927 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 4,
+    "Player": 9,
+    "呆呆的小嵴锋龙": 3,
+    "家长般的大嵴锋龙": 7,
+    "小嵴锋龙们": 2,
+    "机灵的小嵴锋龙": 6,
+    "树上的小嵴锋龙": 2,
+    "活跃的小嵴锋龙": 2,
+    "派蒙": 38,
+    "练习钻地的小嵴锋龙": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7502501",
+      "subQuestName": "等待龙伙伴玩耍归来$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250101"
+        ],
+        "dialogs": {
+          "750250101": {
+            "id": "750250101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "呜啊，这是什么神奇的地方？居然有这么多小嵴锋龙…",
+            "nextDialogs": [
+              "750250102"
+            ]
+          },
+          "750250102": {
+            "id": "750250102",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "难道是什么嵴锋龙的…聚集地？",
+            "nextDialogs": [
+              "750250103"
+            ]
+          },
+          "750250103": {
+            "id": "750250103",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！…唔呀？",
+            "nextDialogs": [
+              "750250104"
+            ]
+          },
+          "750250104": {
+            "id": "750250104",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#难得遇到这么多同伴，{REALNAME[ID(2)|SHOWHOST(true)]}看上去也显得很兴奋呢…",
+            "nextDialogs": [
+              "750250105"
+            ]
+          },
+          "750250105": {
+            "id": "750250105",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀？",
+            "nextDialogs": [
+              "750250106"
+            ]
+          },
+          "750250106": {
+            "id": "750250106",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#哦，你是想去那边和它们一起玩吗？唔，{NICKNAME}，这么一想，{REALNAME[ID(2)|SHOWHOST(true)]}确实很少和小嵴锋龙们一起…",
+            "nextDialogs": [
+              "750250109"
+            ]
+          },
+          "750250109": {
+            "id": "750250109",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750250110"
+            ]
+          },
+          "750250110": {
+            "id": "750250110",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#虽然还是有点担心，不过现在我们就找个地方坐下来，边吃东西边聊天，等着{REALNAME[ID(2)|SHOWHOST(true)]}好了。",
+            "nextDialogs": [
+              "750250111"
+            ]
+          },
+          "750250111": {
+            "id": "750250111",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "#你和派蒙在附近找到了一块不错的休息处，等待{REALNAME[ID(2)|SHOWHOST(true)]}结束游玩归来。",
+            "nextDialogs": [
+              "750250112"
+            ]
+          },
+          "750250112": {
+            "id": "750250112",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "只不过，等待的时间似乎长了一些…",
+            "nextDialogs": [
+              "750250113"
+            ]
+          },
+          "750250113": {
+            "id": "750250113",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#…咦，{REALNAME[ID(2)|SHOWHOST(true)]}怎么还没有回来？",
+            "nextDialogs": [
+              "750250114"
+            ]
+          },
+          "750250114": {
+            "id": "750250114",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不会是出了什么事了吧…",
+            "nextDialogs": [
+              "750250115"
+            ]
+          },
+          "750250115": {
+            "id": "750250115",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "也许是玩得太开心了？",
+            "nextDialogs": [
+              "750250116"
+            ]
+          },
+          "750250116": {
+            "id": "750250116",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "要是这样，也得好好说说它，天都要黑了还不回来！",
+            "nextDialogs": [
+              "750250117"
+            ]
+          },
+          "750250117": {
+            "id": "750250117",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔…我们快点去找找它吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502504",
+      "subQuestName": "去寻找未归的龙伙伴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502506",
+      "subQuestName": "(test)和幼崽A对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250601"
+        ],
+        "dialogs": {
+          "750250601": {
+            "id": "750250601",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#你好你好，请问你看到过{REALNAME[ID(2)|SHOWHOST(true)]}吗？就是那只新来的小嵴锋龙…",
+            "nextDialogs": [
+              "750250602"
+            ]
+          },
+          "750250602": {
+            "id": "750250602",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "头上有印记，尾巴上有丝带…",
+            "nextDialogs": [
+              "750250603"
+            ]
+          },
+          "750250603": {
+            "id": "750250603",
+            "speakerId": 21502,
+            "speakerName": "呆呆的小嵴锋龙",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "750250604"
+            ]
+          },
+          "750250604": {
+            "id": "750250604",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "唔，看上去好像没法理解我们说的话。",
+            "nextDialogs": [
+              "750250605"
+            ]
+          },
+          "750250605": {
+            "id": "750250605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，看来我们只能一个一个找过去了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502507",
+      "subQuestName": "(test)和幼崽B对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250701"
+        ],
+        "dialogs": {
+          "750250701": {
+            "id": "750250701",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看看这只小嵴锋龙…真会选地方！",
+            "nextDialogs": [
+              "750250702"
+            ]
+          },
+          "750250702": {
+            "id": "750250702",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#也不对，尾巴上没有丝巾，不是{REALNAME[ID(2)|SHOWHOST(true)]}呢。",
+            "nextDialogs": [
+              "750250703"
+            ]
+          },
+          "750250703": {
+            "id": "750250703",
+            "speakerId": 21503,
+            "speakerName": "树上的小嵴锋龙",
+            "text": "唔嗯？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502508",
+      "subQuestName": "(test)和幼崽C对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250801"
+        ],
+        "dialogs": {
+          "750250801": {
+            "id": "750250801",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哎呀，你有没有见过…",
+            "nextDialogs": [
+              "750250802"
+            ]
+          },
+          "750250802": {
+            "id": "750250802",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "#派蒙向看上去机灵的小嵴锋龙描述了{REALNAME[ID(2)|SHOWHOST(true)]}的样子。",
+            "nextDialogs": [
+              "750250803"
+            ]
+          },
+          "750250803": {
+            "id": "750250803",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "呀！",
+            "nextDialogs": [
+              "750250804"
+            ]
+          },
+          "750250804": {
+            "id": "750250804",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "呀！！",
+            "nextDialogs": [
+              "750250805"
+            ]
+          },
+          "750250805": {
+            "id": "750250805",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#等等，这个反应，难道你知道我们要找{REALNAME[ID(2)|SHOWHOST(true)]}？真聪明！",
+            "nextDialogs": [
+              "750250806"
+            ]
+          },
+          "750250806": {
+            "id": "750250806",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "我们赶快跟上它吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502513",
+      "subQuestName": "(test)幼崽C走到树莓地点$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502514",
+      "subQuestName": "(test)幼崽C拿出树莓$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250501"
+        ],
+        "dialogs": {
+          "750250501": {
+            "id": "750250501",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#啊，好多树莓，谢谢你…不对不对，我们要找的不是树莓，是{REALNAME[ID(2)|SHOWHOST(true)]}啦。",
+            "nextDialogs": [
+              "750250502"
+            ]
+          },
+          "750250502": {
+            "id": "750250502",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "750250505"
+            ]
+          },
+          "750250505": {
+            "id": "750250505",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "呀！",
+            "nextDialogs": [
+              "750250506"
+            ]
+          },
+          "750250506": {
+            "id": "750250506",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#收到了树莓倒是很开心，但是看来{REALNAME[ID(2)|SHOWHOST(true)]}不在这里，还是再找找吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502515",
+      "subQuestName": "(test)找出钻地的幼崽D$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502509",
+      "subQuestName": "(test)和幼崽D对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750250901"
+        ],
+        "dialogs": {
+          "750250901": {
+            "id": "750250901",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好啦，找到一只在地下悉悉索索的小嵴锋龙——",
+            "nextDialogs": [
+              "750250902"
+            ]
+          },
+          "750250902": {
+            "id": "750250902",
+            "speakerId": 21505,
+            "speakerName": "练习钻地的小嵴锋龙",
+            "text": "？",
+            "nextDialogs": [
+              "750250903"
+            ]
+          },
+          "750250903": {
+            "id": "750250903",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#也不是{REALNAME[ID(2)|SHOWHOST(true)]}？",
+            "nextDialogs": [
+              "750250904"
+            ]
+          },
+          "750250904": {
+            "id": "750250904",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#真是的，这里的小嵴锋龙也太多了点吧，唉，{REALNAME[ID(2)|SHOWHOST(true)]}究竟到哪去了？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502510",
+      "subQuestName": "(test)和幼崽E对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251001"
+        ],
+        "dialogs": {
+          "750251001": {
+            "id": "750251001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你好你好…",
+            "nextDialogs": [
+              "750251002"
+            ]
+          },
+          "750251002": {
+            "id": "750251002",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不对，为什么我下意识就和小嵴锋龙这么打招呼了啦？",
+            "nextDialogs": [
+              "750251003"
+            ]
+          },
+          "750251003": {
+            "id": "750251003",
+            "speakerId": 21506,
+            "speakerName": "活跃的小嵴锋龙",
+            "text": "呀！呀！",
+            "nextDialogs": [
+              "750251004"
+            ]
+          },
+          "750251004": {
+            "id": "750251004",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "派蒙有礼貌！",
+            "nextDialogs": [
+              "750251005"
+            ]
+          },
+          "750251005": {
+            "id": "750251005",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，谢谢夸奖啦…",
+            "nextDialogs": [
+              "750251006"
+            ]
+          },
+          "750251006": {
+            "id": "750251006",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#不过言归正传，这只小嵴锋龙明显也不是{REALNAME[ID(2)|SHOWHOST(true)]}…",
+            "nextDialogs": [
+              "750251007"
+            ]
+          },
+          "750251007": {
+            "id": "750251007",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#嗯…要是{REALNAME[ID(2)|SHOWHOST(true)]}也像这只小嵴锋龙这样，一直这么开心就好了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502511",
+      "subQuestName": "与龙伙伴对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251101"
+        ],
+        "dialogs": {
+          "750251101": {
+            "id": "750251101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "啊！原来你在这里睡觉呢，难怪我们半天都找不到…",
+            "nextDialogs": [
+              "750251102"
+            ]
+          },
+          "750251102": {
+            "id": "750251102",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯…",
+            "nextDialogs": [
+              "750251103"
+            ]
+          },
+          "750251103": {
+            "id": "750251103",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "看来你玩得很开心嘛，都把自己累到犯困了。",
+            "nextDialogs": [
+              "750251104"
+            ]
+          },
+          "750251104": {
+            "id": "750251104",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过在外面这样很危险哦，如果觉得困了，或者想休息了，一定要回到我们身边来啦…",
+            "nextDialogs": [
+              "750251107"
+            ]
+          },
+          "750251107": {
+            "id": "750251107",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…",
+            "nextDialogs": [
+              "750251108"
+            ]
+          },
+          "750251108": {
+            "id": "750251108",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "好啦好啦，偶尔玩得尽兴也挺好的嘛。不过，以后一定要注意啦。",
+            "nextDialogs": [
+              "750251109"
+            ]
+          },
+          "750251109": {
+            "id": "750251109",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "对了，我们去和那边的大嵴锋龙打个招呼吧，说不定以后还能在别的地方遇到，到时候再一起和他们玩吧！",
+            "nextDialogs": [
+              "750251110"
+            ]
+          },
+          "750251110": {
+            "id": "750251110",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502516",
+      "subQuestName": "找到龙伙伴$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502512",
+      "subQuestName": "与大嵴锋龙告别",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750251201"
+        ],
+        "dialogs": {
+          "750251201": {
+            "id": "750251201",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "唔嗯？",
+            "nextDialogs": [
+              "750251202"
+            ]
+          },
+          "750251202": {
+            "id": "750251202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#这段时间，{REALNAME[ID(2)|SHOWHOST(true)]}有劳你关照了哦，谢谢你啦！",
+            "nextDialogs": [
+              "750251203"
+            ]
+          },
+          "750251203": {
+            "id": "750251203",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "唔…",
+            "nextDialogs": [
+              "750251204"
+            ]
+          },
+          "750251204": {
+            "id": "750251204",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750251205"
+            ]
+          },
+          "750251205": {
+            "id": "750251205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "虽然也听不懂龙在说什么啦…",
+            "nextDialogs": [
+              "750251206"
+            ]
+          },
+          "750251206": {
+            "id": "750251206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#那就要说再见了…{REALNAME[ID(2)|SHOWHOST(true)]}，要好好道别。",
+            "nextDialogs": [
+              "750251207"
+            ]
+          },
+          "750251207": {
+            "id": "750251207",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…",
+            "nextDialogs": [
+              "750251208"
+            ]
+          },
+          "750251208": {
+            "id": "750251208",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "没关系，道别是为了下一次相遇。",
+            "nextDialogs": [
+              "750251209"
+            ]
+          },
+          "750251209": {
+            "id": "750251209",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯…呀！",
+            "nextDialogs": [
+              "750251210"
+            ]
+          },
+          "750251210": {
+            "id": "750251210",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "唔嗯…",
+            "nextDialogs": [
+              "750251211"
+            ]
+          },
+          "750251211": {
+            "id": "750251211",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "嗷——",
+            "nextDialogs": [
+              "750251212"
+            ]
+          },
+          "750251212": {
+            "id": "750251212",
+            "speakerId": 1009,
+            "speakerName": "小嵴锋龙们",
+            "text": "呀！",
+            "nextDialogs": [
+              "750251213"
+            ]
+          },
+          "750251213": {
+            "id": "750251213",
+            "speakerId": 1009,
+            "speakerName": "小嵴锋龙们",
+            "text": "呀，唔嗯…",
+            "nextDialogs": [
+              "750251214"
+            ]
+          },
+          "750251214": {
+            "id": "750251214",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "唔嗯…",
+            "nextDialogs": [
+              "750251215"
+            ]
+          },
+          "750251215": {
+            "id": "750251215",
+            "speakerId": 1002,
+            "speakerName": "Black Screen",
+            "text": "似乎是到了嵴锋龙们回巢的时候，大嵴锋龙转身…\\n而小嵴锋龙们也跟着它，一同离去了。",
+            "nextDialogs": [
+              "750251216"
+            ]
+          },
+          "750251216": {
+            "id": "750251216",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…",
+            "nextDialogs": [
+              "750251217"
+            ]
+          },
+          "750251217": {
+            "id": "750251217",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#哎呀，{REALNAME[ID(2)|SHOWHOST(true)]}，是觉得寂寞了吗？",
+            "nextDialogs": [
+              "750251218"
+            ]
+          },
+          "750251218": {
+            "id": "750251218",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嘿嘿，别忘了，你身边还有我们在呢！",
+            "nextDialogs": [
+              "750251219"
+            ]
+          },
+          "750251219": {
+            "id": "750251219",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔嗯，呀！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502530",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253001"
+        ],
+        "dialogs": {
+          "750253001": {
+            "id": "750253001",
+            "speakerId": 21502,
+            "speakerName": "呆呆的小嵴锋龙",
+            "text": "颗粒果，好好吃…",
+            "nextDialogs": [
+              "750253002"
+            ]
+          },
+          "750253002": {
+            "id": "750253002",
+            "speakerId": 21502,
+            "speakerName": "呆呆的小嵴锋龙",
+            "text": "嗝。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502531",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253101"
+        ],
+        "dialogs": {
+          "750253101": {
+            "id": "750253101",
+            "speakerId": 21503,
+            "speakerName": "树上的小嵴锋龙",
+            "text": "站在这里，其他的龙，变得小小，像蜜虫一样…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502532",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253201"
+        ],
+        "dialogs": {
+          "750253201": {
+            "id": "750253201",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "好朋友，吃东西！",
+            "nextDialogs": [
+              "750253202"
+            ]
+          },
+          "750253202": {
+            "id": "750253202",
+            "speakerId": 21504,
+            "speakerName": "机灵的小嵴锋龙",
+            "text": "树莓、苦种、颗粒果！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502533",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253301"
+        ],
+        "dialogs": {
+          "750253301": {
+            "id": "750253301",
+            "speakerId": 21505,
+            "speakerName": "练习钻地的小嵴锋龙",
+            "text": "被抓住了…要…钻得更快！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502534",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253401"
+        ],
+        "dialogs": {
+          "750253401": {
+            "id": "750253401",
+            "speakerId": 21506,
+            "speakerName": "活跃的小嵴锋龙",
+            "text": "开心开心~开心开心~"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502535",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750253501"
+        ],
+        "dialogs": {
+          "750253501": {
+            "id": "750253501",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "呼呼，真有活力呀…真好…",
+            "nextDialogs": [
+              "750253502"
+            ]
+          },
+          "750253502": {
+            "id": "750253502",
+            "speakerId": 21507,
+            "speakerName": "家长般的大嵴锋龙",
+            "text": "不过，一共有几只…来着？"
+          }
+        }
+      }
+    }
+  ]
+}

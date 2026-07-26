@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "帕班": 4
+  },
+  "subQuests": [
+    {
+      "subId": "7465501",
+      "subQuestName": "将8瓶牛奶交给帕班",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746550101"
+        ],
+        "dialogs": {
+          "746550101": {
+            "id": "746550101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于牛奶…",
+            "nextDialogs": [
+              "746550102"
+            ]
+          },
+          "746550102": {
+            "id": "746550102",
+            "speakerId": 5014,
+            "speakerName": "帕班",
+            "text": "您就是来接洽的供应商吗？",
+            "nextDialogs": [
+              "746550103"
+            ]
+          },
+          "746550103": {
+            "id": "746550103",
+            "speakerId": 5014,
+            "speakerName": "帕班",
+            "text": "牛奶样品您都准备好了吧？交给我就行。",
+            "nextDialogs": [
+              "746550105"
+            ]
+          },
+          "746550105": {
+            "id": "746550105",
+            "speakerId": 5014,
+            "speakerName": "帕班",
+            "text": "那您得抓紧了，投标的可不止您一家。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7465502",
+      "subQuestName": "与帕班对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "746550201"
+        ],
+        "dialogs": {
+          "746550201": {
+            "id": "746550201",
+            "speakerId": 5014,
+            "speakerName": "帕班",
+            "text": "好的，我收下了，这是付您的样品加服务费，投标结果回去等通知吧。"
+          }
+        }
+      }
+    }
+  ]
+}

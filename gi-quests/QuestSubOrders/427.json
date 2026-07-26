@@ -1,0 +1,480 @@
+{
+  "lineCounts": {
+    "Amber": 20,
+    "Otto": 13,
+    "Paimon": 3,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "42709",
+      "subQuestName": "Go to the door of Mondstadt Cathedral",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42701",
+      "subQuestName": "Talk to Amber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270201"
+        ],
+        "dialogs": {
+          "4270201": {
+            "id": "4270201",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Hey — here, over here!",
+            "nextDialogs": [
+              "4270202"
+            ]
+          },
+          "4270202": {
+            "id": "4270202",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "I'm all set up. Let's carry on with the exam.",
+            "nextDialogs": [
+              "4270203"
+            ]
+          },
+          "4270203": {
+            "id": "4270203",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Same deal as before, glide through the markers and get to the finish without stopping in the middle.",
+            "nextDialogs": [
+              "4270204"
+            ]
+          },
+          "4270204": {
+            "id": "4270204",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "42702",
+      "subQuestName": "Follow the route and fly to the finish line in time",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42703",
+      "subQuestName": "Follow Amber's instructions and take the exam again",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270303"
+        ],
+        "dialogs": {
+          "4270303": {
+            "id": "4270303",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm ready.",
+            "nextDialogs": [
+              "4270304"
+            ]
+          },
+          "4270304": {
+            "id": "4270304",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Keep a firm grasp on the wind glider and let the wind guide you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "42704",
+      "subQuestName": "Talk to Amber",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270401"
+        ],
+        "dialogs": {
+          "4270401": {
+            "id": "4270401",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Hahaha... Seems like you've got the hang of wind gliding now! Let's do the final stage.",
+            "nextDialogs": [
+              "4270402"
+            ]
+          },
+          "4270402": {
+            "id": "4270402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Easy! You've flown this way before anyway...",
+            "nextDialogs": [
+              "4270403"
+            ]
+          },
+          "4270403": {
+            "id": "4270403",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Once you've passed this final stage, you'll finally be able to get your very own gliding license.",
+            "nextDialogs": [
+              "4270404"
+            ]
+          },
+          "4270404": {
+            "id": "4270404",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Just keep thinking about that license. Ready...",
+            "nextDialogs": [
+              "4270405"
+            ]
+          },
+          "4270405": {
+            "id": "4270405",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "42705",
+      "subQuestName": "Follow the markers to arrive at the finish line in time",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42706",
+      "subQuestName": "Follow the route and fly to the finish line in time",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270602"
+        ],
+        "dialogs": {
+          "4270602": {
+            "id": "4270602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm ready.",
+            "nextDialogs": [
+              "4270603"
+            ]
+          },
+          "4270603": {
+            "id": "4270603",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "You can do it! Your gliding license is within your grasp!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "42707",
+      "subQuestName": "Reach the doors of the Adventurers' Guild",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "42708",
+      "subQuestName": "Undergo inspection by the Knights of Favonius",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270801"
+        ],
+        "dialogs": {
+          "4270801": {
+            "id": "4270801",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "I am Otto of the Knights of Favonius.",
+            "nextDialogs": [
+              "4270802"
+            ]
+          },
+          "4270802": {
+            "id": "4270802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wh—What's going on?",
+            "nextDialogs": [
+              "4270803"
+            ]
+          },
+          "4270803": {
+            "id": "4270803",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "Please show me your gliding license.",
+            "nextDialogs": [
+              "4270806"
+            ]
+          },
+          "4270806": {
+            "id": "4270806",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "It is against the law to glide without a license! I am arresting you under Section 7, Article 12 of the Mondstadt Penal Code.",
+            "nextDialogs": [
+              "4270807"
+            ]
+          },
+          "4270807": {
+            "id": "4270807",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "You have the right to remain silent. Anything you say will forever carry on the wind.",
+            "nextDialogs": [
+              "4270808"
+            ]
+          },
+          "4270808": {
+            "id": "4270808",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Wait... I'm an instructor. This is a gliding exam.",
+            "nextDialogs": [
+              "4270809"
+            ]
+          },
+          "4270809": {
+            "id": "4270809",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "Oh... I see.",
+            "nextDialogs": [
+              "4270810"
+            ]
+          },
+          "4270810": {
+            "id": "4270810",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "Well, you picked a bad time to hold your gliding exam.",
+            "nextDialogs": [
+              "4270811"
+            ]
+          },
+          "4270811": {
+            "id": "4270811",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Really, why?",
+            "nextDialogs": [
+              "4270812"
+            ]
+          },
+          "4270812": {
+            "id": "4270812",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "The Knights of Favonius received a report from a Sister at the Cathedral claiming she saw Raptor gliding around these parts. I thought your student here must have been his partner in crime.",
+            "nextDialogs": [
+              "4270813"
+            ]
+          },
+          "4270813": {
+            "id": "4270813",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Raptor? Who's that?",
+            "nextDialogs": [
+              "4270814"
+            ]
+          },
+          "4270814": {
+            "id": "4270814",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "A known criminal in Mondstadt. He always uses a wind glider to commit his crimes, so people started calling him Raptor.",
+            "nextDialogs": [
+              "4270815"
+            ]
+          },
+          "4270815": {
+            "id": "4270815",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Wow. He flies fast, then?",
+            "nextDialogs": [
+              "4270816"
+            ]
+          },
+          "4270816": {
+            "id": "4270816",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "So far we haven't managed to catch him... Our plan this time was to draw him into the Cathedral with a precious artifact, and ambush him inside.",
+            "nextDialogs": [
+              "4270817"
+            ]
+          },
+          "4270817": {
+            "id": "4270817",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "...But he escaped with the artifact.",
+            "nextDialogs": [
+              "4270818"
+            ]
+          },
+          "4270818": {
+            "id": "4270818",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "Fortunately, one of the Sisters put some secret markings on the artifact using elemental magic!",
+            "nextDialogs": [
+              "4270819"
+            ]
+          },
+          "4270819": {
+            "id": "4270819",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "...But he was too fast, and we couldn't even keep up with the trail the markings left behind.",
+            "nextDialogs": [
+              "4270820"
+            ]
+          },
+          "4270820": {
+            "id": "4270820",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Well, if you need help chasing down a gliding criminal, I'm the one for the job! So tell me, which way did he go?",
+            "nextDialogs": [
+              "4270821"
+            ]
+          },
+          "4270821": {
+            "id": "4270821",
+            "speakerId": 1162,
+            "speakerName": "Otto",
+            "text": "As far as I know, he was last seen near Springvale, but that was some time ago.",
+            "nextDialogs": [
+              "4270822"
+            ]
+          },
+          "4270822": {
+            "id": "4270822",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "#Leave it to me! With me and {NICKNAME} chasing him down together, he doesn't stand a chance."
+          }
+        }
+      }
+    },
+    {
+      "subId": "42703",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270301"
+        ],
+        "dialogs": {
+          "4270301": {
+            "id": "4270301",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "You didn't hurt yourself, did you?",
+            "nextDialogs": [
+              "4270302"
+            ]
+          },
+          "4270302": {
+            "id": "4270302",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Once you're ready, let's try again.",
+            "nextDialogs": [
+              "4270305"
+            ]
+          },
+          "4270305": {
+            "id": "4270305",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll think about it.",
+            "nextDialogs": [
+              "4270306"
+            ]
+          },
+          "4270306": {
+            "id": "4270306",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Before you launch, make sure you're completely ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "42706",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "4270601"
+        ],
+        "dialogs": {
+          "4270601": {
+            "id": "4270601",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Try to stay calm. You need to be brave at takeoff, but the trick to a good landing is to keep your cool.",
+            "nextDialogs": [
+              "4270604"
+            ]
+          },
+          "4270604": {
+            "id": "4270604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm going to take another look around.",
+            "nextDialogs": [
+              "4270605"
+            ]
+          },
+          "4270605": {
+            "id": "4270605",
+            "speakerId": 1002,
+            "speakerName": "Amber",
+            "text": "Take your time, I'll be right here when you're done."
+          }
+        }
+      }
+    }
+  ]
+}

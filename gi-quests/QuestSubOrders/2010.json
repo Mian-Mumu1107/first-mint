@@ -1,0 +1,1390 @@
+{
+  "lineCounts": {
+    "Herring Section 1 Squad Member": 1,
+    "Koutoku": 9,
+    "Ookubo Daisuke": 7,
+    "Paimon": 30,
+    "Player": 18,
+    "Sangonomiya Kokomi": 43,
+    "Swordfish II Provisional Squad Leader": 5,
+    "Swordfish II Veteran": 3,
+    "Teppei": 38,
+    "Yoshihisa": 5
+  },
+  "subQuests": [
+    {
+      "subId": "201001",
+      "subQuestName": "Go to the agreed location and meet Teppei",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201002",
+      "subQuestName": "Talk to Teppei",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100201"
+        ],
+        "dialogs": {
+          "20100201": {
+            "id": "20100201",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "#Aha, {NICKNAME}, there you are, good to see you.",
+            "nextDialogs": [
+              "20100202"
+            ]
+          },
+          "20100202": {
+            "id": "20100202",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Your appointment with Sangonomiya is fast approaching. We should get going.",
+            "nextDialogs": [
+              "20100203"
+            ]
+          },
+          "20100203": {
+            "id": "20100203",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Are you ready? We'll start by heading to the camp on <color=#00E1FFFF>Watatsumi Island</color>, and then we'll go meet Her Excellency together from there.",
+            "nextDialogs": [
+              "20100204"
+            ]
+          },
+          "20100204": {
+            "id": "20100204",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "If you start to feel seasick at any point during the trip, let me know straight away. That said, you've spent time with the Crux Fleet in the past, so I think you'll probably be fine...",
+            "nextDialogs": [
+              "20100205"
+            ]
+          },
+          "20100205": {
+            "id": "20100205",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Ready... and away we go!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201003",
+      "subQuestName": "Go to the resistance camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201004",
+      "subQuestName": "Talk to Teppei",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100401"
+        ],
+        "dialogs": {
+          "20100401": {
+            "id": "20100401",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Here we are. The training grounds for Watatsumi Island's troops.",
+            "nextDialogs": [
+              "20100402"
+            ]
+          },
+          "20100402": {
+            "id": "20100402",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Right now, the resistance is predominantly made up of local soldiers from Watatsumi Island.",
+            "nextDialogs": [
+              "20100403"
+            ]
+          },
+          "20100403": {
+            "id": "20100403",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Some of them are fighting with the Shogun's Army in Tatarasuna, and some of them are stationed here on the island to keep the locals safe.",
+            "nextDialogs": [
+              "20100404"
+            ]
+          },
+          "20100404": {
+            "id": "20100404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did you use to train here, too?",
+            "nextDialogs": [
+              "20100405"
+            ]
+          },
+          "20100405": {
+            "id": "20100405",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Yep! Unfortunately, I had to join the fight in Tatarasuna before I'd had the chance to impress the instructors. So they had me start off by helping out in the logistics division...",
+            "nextDialogs": [
+              "20100406"
+            ]
+          },
+          "20100406": {
+            "id": "20100406",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "I'll be staying here for now. If you need me for anything, just come here.",
+            "nextDialogs": [
+              "20100407"
+            ]
+          },
+          "20100407": {
+            "id": "20100407",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "If I'm not around, just write a note and stick it on the wall. As soon as I see it, I'll come find you...",
+            "nextDialogs": [
+              "20100408"
+            ]
+          },
+          "20100408": {
+            "id": "20100408",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "...Shoot, it's nearly time for the appointment with <color=#00E1FFFF>Her Excellency</color>.",
+            "nextDialogs": [
+              "20100409"
+            ]
+          },
+          "20100409": {
+            "id": "20100409",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "I'll have to show you around Watatsumi Island some other time. For now, let's get ourselves over to <color=#00E1FFFF>Sangonomiya</color>!",
+            "nextDialogs": [
+              "20100410"
+            ]
+          },
+          "20100410": {
+            "id": "20100410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So Sangonomiya is the name of the place where <color=#00E1FFFF>Sangonomiya Kokomi</color> lives... huh. Let's go check it out."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201005",
+      "subQuestName": "Go to Sangonomiya Shrine",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201006",
+      "subQuestName": "Talk to Sangonomiya Kokomi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100601"
+        ],
+        "dialogs": {
+          "20100601": {
+            "id": "20100601",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Food supplies are the absolute top priority, period. We cannot afford any losses.",
+            "nextDialogs": [
+              "20100602"
+            ]
+          },
+          "20100602": {
+            "id": "20100602",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "With the conflict between us and the Shogun's Army getting more intense by the day, we must prioritize the stability of the rearguard.",
+            "nextDialogs": [
+              "20100603"
+            ]
+          },
+          "20100603": {
+            "id": "20100603",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "Understood. I will think of a way...",
+            "nextDialogs": [
+              "20100604"
+            ]
+          },
+          "20100604": {
+            "id": "20100604",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Take heart. We have a fresh batch of supplies in hand, and I'm working on expanding the army.",
+            "nextDialogs": [
+              "20100605"
+            ]
+          },
+          "20100605": {
+            "id": "20100605",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I appreciate that the lack of manpower has been hard on all of you. But things are going to get better.",
+            "nextDialogs": [
+              "20100606"
+            ]
+          },
+          "20100606": {
+            "id": "20100606",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "We're expanding the army? Oh, that's great. Whoever this mystery supporter is, they're doing us a great service...",
+            "nextDialogs": [
+              "20100607"
+            ]
+          },
+          "20100607": {
+            "id": "20100607",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "Huh? Teppei? What are you doing back on Watatsumi Island?",
+            "nextDialogs": [
+              "20100608"
+            ]
+          },
+          "20100608": {
+            "id": "20100608",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "Might I ask, who...",
+            "nextDialogs": [
+              "20100609"
+            ]
+          },
+          "20100609": {
+            "id": "20100609",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Haha, VIP guests of Her Excellency, that's who. I'm acting under orders to escort them both here.",
+            "nextDialogs": [
+              "20100610"
+            ]
+          },
+          "20100610": {
+            "id": "20100610",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "Oh really? Wait, so are you the new recruit everyone's been talking about? Strength of twenty men, splits an arrow in twain from a hundred paces, skin as hard as diamond... That's you?",
+            "nextDialogs": [
+              "20100611"
+            ]
+          },
+          "20100611": {
+            "id": "20100611",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Seriously, what is going on with these rumors!",
+            "nextDialogs": [
+              "20100612"
+            ]
+          },
+          "20100612": {
+            "id": "20100612",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "You've come a long way. I'm sure you must be here on pressing business, so I won't disturb you any further. Feel free to visit me if you have any time to spare.",
+            "nextDialogs": [
+              "20100613"
+            ]
+          },
+          "20100613": {
+            "id": "20100613",
+            "speakerId": 3146,
+            "speakerName": "Ookubo Daisuke",
+            "text": "Your Excellency, I'll take my leave.",
+            "nextDialogs": [
+              "20100614"
+            ]
+          },
+          "20100614": {
+            "id": "20100614",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Your Excellency, I couldn't help but overhear Ookubo mention something about... a third party supporter? What was that about?",
+            "nextDialogs": [
+              "20100615"
+            ]
+          },
+          "20100615": {
+            "id": "20100615",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Not long ago, someone wrote to me saying that they wished to support the Watatsumi Island resistance effort. To that end, they also furnished us with a great deal of supplies.",
+            "nextDialogs": [
+              "20100616"
+            ]
+          },
+          "20100616": {
+            "id": "20100616",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Thanks to them, we can finally start recruiting troops on the scale we need to openly confront the Shogun's Army on the front line.",
+            "nextDialogs": [
+              "20100618",
+              "20100620"
+            ]
+          },
+          "20100618": {
+            "id": "20100618",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I am not without my doubts about the whole affair... but Watatsumi Island is hardly affluent, and these supplies are a much-needed lifeline for us.",
+            "nextDialogs": [
+              "20100621"
+            ]
+          },
+          "20100621": {
+            "id": "20100621",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The sender's conditions were also reasonable. They simply ask us to dedicate ourselves fully to fighting against the Shogun's Army.",
+            "nextDialogs": [
+              "20100622"
+            ]
+          },
+          "20100622": {
+            "id": "20100622",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Whatever other motives they may have, we are at least aligned on this. So let's consider them an anonymous ally.",
+            "nextDialogs": [
+              "20100623"
+            ]
+          },
+          "20100623": {
+            "id": "20100623",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Naturally, we shouldn't let our guard down. If you discover anything out of the ordinary, please report it to me at once.",
+            "nextDialogs": [
+              "20100624"
+            ]
+          },
+          "20100624": {
+            "id": "20100624",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Your Excellency, does this mean that the food at the front line is gonna get any better? I was at the field hospital the other day, and everyone was begging for some barbecued meat.",
+            "nextDialogs": [
+              "20100625"
+            ]
+          },
+          "20100625": {
+            "id": "20100625",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Hehe... Don't worry. I've already made arrangements for that. Everyone will have their fill of meat. But to be clear, still no alcohol.",
+            "nextDialogs": [
+              "20100626"
+            ]
+          },
+          "20100626": {
+            "id": "20100626",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "That's fantastic!",
+            "nextDialogs": [
+              "20100627"
+            ]
+          },
+          "20100627": {
+            "id": "20100627",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I understand how hard it's been on everyone. The resistance army's rations have barely changed at all since the Vision Hunt Decree was first announced.",
+            "nextDialogs": [
+              "20100628"
+            ]
+          },
+          "20100628": {
+            "id": "20100628",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I will discuss this with the logistics division to see what further improvements can be made.",
+            "nextDialogs": [
+              "20100629"
+            ]
+          },
+          "20100629": {
+            "id": "20100629",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "However, our supplies are still limited. I must ask you to remain patient until victory is ours.",
+            "nextDialogs": [
+              "20100630"
+            ]
+          },
+          "20100630": {
+            "id": "20100630",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "When will the Vision Hunt Decree finally end?",
+            "nextDialogs": [
+              "20100631"
+            ]
+          },
+          "20100631": {
+            "id": "20100631",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "That's the question... and I'm afraid I don't have an answer.",
+            "nextDialogs": [
+              "20100632"
+            ]
+          },
+          "20100632": {
+            "id": "20100632",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The mere existence of the Vision Hunt Decree is baffling. The Tenryou Commission's attitude just doesn't seem to add up, and neither does the Shogun's.",
+            "nextDialogs": [
+              "20100633"
+            ]
+          },
+          "20100633": {
+            "id": "20100633",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The Tenryou Commission's zealous support for the decree seemed to come out of nowhere. And the Shogun seems completely indifferent to the fact that it has effectively caused a civil war...",
+            "nextDialogs": [
+              "20100634"
+            ]
+          },
+          "20100634": {
+            "id": "20100634",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I suspect the Vision Hunt Decree won't end until these mysteries are solved. All I can say for certain is that as long as the Vision Hunt Decree remains in force, we will never give up our fight.",
+            "nextDialogs": [
+              "20100635"
+            ]
+          },
+          "20100635": {
+            "id": "20100635",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "#{NICKNAME}, to confirm... knowing the current situation facing Watatsumi Island and the resistance, are you still willing to fight with us?",
+            "nextDialogs": [
+              "20100636"
+            ]
+          },
+          "20100636": {
+            "id": "20100636",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Yes. I won't give up, either.",
+            "nextDialogs": [
+              "20100637"
+            ]
+          },
+          "20100637": {
+            "id": "20100637",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Good. Then here is your assignment:",
+            "nextDialogs": [
+              "20100638"
+            ]
+          },
+          "20100638": {
+            "id": "20100638",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I hereby appoint you as captain of the Watatsumi Island special operations unit: Swordfish II.",
+            "nextDialogs": [
+              "20100639"
+            ]
+          },
+          "20100639": {
+            "id": "20100639",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Whoa, whoa, whaaaat!? Swordfish II!? Is this the same Swordfish special ops unit that I'm thinking of?",
+            "nextDialogs": [
+              "20100640"
+            ]
+          },
+          "20100640": {
+            "id": "20100640",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "It's hard enough getting into a special ops unit at the bottom rung, let alone jumping to captain in one fell swoop... this is incredible!",
+            "nextDialogs": [
+              "20100641"
+            ]
+          },
+          "20100641": {
+            "id": "20100641",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Although this appointment breaks with convention, I firmly believe that with your wisdom, courage, and strength, you can lead your team to victory.",
+            "nextDialogs": [
+              "20100642"
+            ]
+          },
+          "20100642": {
+            "id": "20100642",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! So when do we take up our post?",
+            "nextDialogs": [
+              "20100643"
+            ]
+          },
+          "20100643": {
+            "id": "20100643",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The members of <color=#00E1FFFF>Swordfish II</color> are currently on standby in a <color=#00E1FFFF>valley to the southwest</color>. Ronin have been causing trouble down there lately, and we need a special operations unit to eliminate them and stabilize the rearguard.",
+            "nextDialogs": [
+              "20100644"
+            ]
+          },
+          "20100644": {
+            "id": "20100644",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I have already written your Appointment Letter, which you'll need to show them on arrival. Once that's out of the way, please lead them in ridding the area of ronin.",
+            "nextDialogs": [
+              "20100645"
+            ]
+          },
+          "20100645": {
+            "id": "20100645",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "The special ops unit comprises Watatsumi Island's elite soldiers. They can be a little rough around the edges, but I have every confidence that you will win their trust.",
+            "nextDialogs": [
+              "20100646"
+            ]
+          },
+          "20100646": {
+            "id": "20100646",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Um, what about me, Your Excellency? Any battles you need me to get involved in?",
+            "nextDialogs": [
+              "20100647"
+            ]
+          },
+          "20100647": {
+            "id": "20100647",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "I want to make a contribution to the resistance, too!",
+            "nextDialogs": [
+              "20100648"
+            ]
+          },
+          "20100648": {
+            "id": "20100648",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Of course. I'll arrange something and brief you shortly.",
+            "nextDialogs": [
+              "20100649"
+            ]
+          },
+          "20100649": {
+            "id": "20100649",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "#Alright! One successful operation, coming right up! Hehe {NICKNAME}, you may have swiped the captaincy of Swordfish II, but watch this space, 'cause this guy's on his way up!",
+            "nextDialogs": [
+              "20100650"
+            ]
+          },
+          "20100650": {
+            "id": "20100650",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, sure. Well, be careful out there. Don't push yourself too hard.",
+            "nextDialogs": [
+              "20100651"
+            ]
+          },
+          "20100651": {
+            "id": "20100651",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Well {NICKNAME}, let's move out."
+          },
+          "20100620": {
+            "id": "20100620",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I am not without my doubts... but Watatsumi Island is hardly affluent, and these supplies are a much-needed lifeline for us."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201012",
+      "subQuestName": "Go to where Swordfish II is stationed",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201013",
+      "subQuestName": "Speak to the members of Swordfish II",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101301"
+        ],
+        "dialogs": {
+          "20101301": {
+            "id": "20101301",
+            "speakerId": 12146,
+            "speakerName": "Swordfish II Provisional Squad Leader",
+            "text": "Ah, you must be the new captain of Swordfish II. Her Excellency briefed us in advance.",
+            "nextDialogs": [
+              "20101302"
+            ]
+          },
+          "20101302": {
+            "id": "20101302",
+            "speakerId": 12146,
+            "speakerName": "Swordfish II Provisional Squad Leader",
+            "text": "Your reputation precedes you, and the Appointment Letter is all in order. But I still have my doubts...",
+            "nextDialogs": [
+              "20101303"
+            ]
+          },
+          "20101303": {
+            "id": "20101303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm? Do you have any other questions?",
+            "nextDialogs": [
+              "20101304"
+            ]
+          },
+          "20101304": {
+            "id": "20101304",
+            "speakerId": 12146,
+            "speakerName": "Swordfish II Provisional Squad Leader",
+            "text": "I'll be straight with you. I want to know whether you have what it takes to lead us.",
+            "nextDialogs": [
+              "20101305"
+            ]
+          },
+          "20101305": {
+            "id": "20101305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You mean... like a duel?",
+            "nextDialogs": [
+              "20101306"
+            ]
+          },
+          "20101306": {
+            "id": "20101306",
+            "speakerId": 12147,
+            "speakerName": "Swordfish II Veteran",
+            "text": "Normally, a duel would be the quickest way to settle the question. But this time, we've got a better way.",
+            "nextDialogs": [
+              "20101307"
+            ]
+          },
+          "20101307": {
+            "id": "20101307",
+            "speakerId": 12147,
+            "speakerName": "Swordfish II Veteran",
+            "text": "We're stationed here because of all the <color=#00E1FFFF>ronin</color> causing trouble in these parts. If you can get rid of <color=#00E1FFFF>them</color> for us, we'll take that as a measure of your strength.",
+            "nextDialogs": [
+              "20101308"
+            ]
+          },
+          "20101308": {
+            "id": "20101308",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sure.",
+            "nextDialogs": [
+              "20101309"
+            ]
+          },
+          "20101309": {
+            "id": "20101309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright, let's show them what you're made of!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201007",
+      "subQuestName": "Clear out the nearby monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201014",
+      "subQuestName": "Speak to the members of Swordfish II",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101401"
+        ],
+        "dialogs": {
+          "20101401": {
+            "id": "20101401",
+            "speakerId": 12146,
+            "speakerName": "Swordfish II Provisional Squad Leader",
+            "text": "Okay, seems like you can hold your own... The rumors are exaggerations, of course, but still, your abilities are admirable.",
+            "nextDialogs": [
+              "20101402"
+            ]
+          },
+          "20101402": {
+            "id": "20101402",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "Allow me to introduce myself. My name is Koutoku, Acting Captain of Swordfish II. This is Yoshihisa, a fellow veteran of the team.",
+            "nextDialogs": [
+              "20101403"
+            ]
+          },
+          "20101403": {
+            "id": "20101403",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "I now formally cede the position of captain to you. Swordfish II awaits your orders.",
+            "nextDialogs": [
+              "20101404"
+            ]
+          },
+          "20101404": {
+            "id": "20101404",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are there any other ronin to deal with?",
+            "nextDialogs": [
+              "20101405"
+            ]
+          },
+          "20101405": {
+            "id": "20101405",
+            "speakerId": 12061,
+            "speakerName": "Yoshihisa",
+            "text": "There are two hard-hit areas. This was one of them, but thanks to you, this area is now secure. Their only remaining stronghold is located at the shallows on the <color=#00E1FFFF>east side of the island</color>.",
+            "nextDialogs": [
+              "20101406"
+            ]
+          },
+          "20101406": {
+            "id": "20101406",
+            "speakerId": 12061,
+            "speakerName": "Yoshihisa",
+            "text": "That said, the ones over there are tougher, and there's more of them.",
+            "nextDialogs": [
+              "20101409"
+            ]
+          },
+          "20101409": {
+            "id": "20101409",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You got that right. Watatsumi Island is busy fighting the Shogun's Army on the front line. We can't let these guys mess up things at the rear!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201010",
+      "subQuestName": "Go to the area threatened by monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201016",
+      "subQuestName": "Speak to the members of Swordfish II",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101601"
+        ],
+        "dialogs": {
+          "20101601": {
+            "id": "20101601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There's so many of them...",
+            "nextDialogs": [
+              "20101602"
+            ]
+          },
+          "20101602": {
+            "id": "20101602",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "That's not even all of them. They have two more camps nearby.",
+            "nextDialogs": [
+              "20101603"
+            ]
+          },
+          "20101603": {
+            "id": "20101603",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "Whichever camp we attack, it's the ronin in the other two camps that'll cause us issues. They might decide to provide backup or abandon them and escape on their own.",
+            "nextDialogs": [
+              "20101604"
+            ]
+          },
+          "20101604": {
+            "id": "20101604",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Then let's attack them all at once.",
+            "nextDialogs": [
+              "20101605"
+            ]
+          },
+          "20101605": {
+            "id": "20101605",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "But Captain, that would put you in great danger...",
+            "nextDialogs": [
+              "20101606"
+            ]
+          },
+          "20101606": {
+            "id": "20101606",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "If we spread our troops too thin, we won't have enough men to guard you. It's too risky.",
+            "nextDialogs": [
+              "20101607"
+            ]
+          },
+          "20101607": {
+            "id": "20101607",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'm fine.",
+            "nextDialogs": [
+              "20101608"
+            ]
+          },
+          "20101608": {
+            "id": "20101608",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yup, the Traveler eats amateurs like these for breakfast!",
+            "nextDialogs": [
+              "20101609"
+            ]
+          },
+          "20101609": {
+            "id": "20101609",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "All right then. We'll deal with them all in one go and rendezvous with you on completion!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201008",
+      "subQuestName": "Clear out the nearby monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "201015",
+      "subQuestName": "Speak to the members of Swordfish II",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101501"
+        ],
+        "dialogs": {
+          "20101501": {
+            "id": "20101501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#That should be the last of them... {NICKNAME}, you didn't get hurt, did you?",
+            "nextDialogs": [
+              "20101504"
+            ]
+          },
+          "20101504": {
+            "id": "20101504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cool... Paimon wonders how everything is going with Koutoku and Yoshihisa. Should we go over and check on them?",
+            "nextDialogs": [
+              "20101505"
+            ]
+          },
+          "20101505": {
+            "id": "20101505",
+            "speakerId": 12061,
+            "speakerName": "Yoshihisa",
+            "text": "Captain!",
+            "nextDialogs": [
+              "20101506"
+            ]
+          },
+          "20101506": {
+            "id": "20101506",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "Captain, the other two camps have been cleared. The entire rearguard of Watatsumi Island is now secure.",
+            "nextDialogs": [
+              "20101507"
+            ]
+          },
+          "20101507": {
+            "id": "20101507",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great! Hee-hee, we solved the ronin problem and got everyone to look up to us, too...",
+            "nextDialogs": [
+              "20101508"
+            ]
+          },
+          "20101508": {
+            "id": "20101508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But what's next? Let's go back and check with Kokomi.",
+            "nextDialogs": [
+              "20101509"
+            ]
+          },
+          "20101509": {
+            "id": "20101509",
+            "speakerId": 12061,
+            "speakerName": "Yoshihisa",
+            "text": "Finally, we got it done. These ronin have been bugging me for ages, but Koutoku wouldn't let us at 'em till now.",
+            "nextDialogs": [
+              "20101510"
+            ]
+          },
+          "20101510": {
+            "id": "20101510",
+            "speakerId": 12098,
+            "speakerName": "Koutoku",
+            "text": "What? No way could you have taken them down without the new captain here. I was putting the safety of the team first, got it?",
+            "nextDialogs": [
+              "20101511"
+            ]
+          },
+          "20101511": {
+            "id": "20101511",
+            "speakerId": 12061,
+            "speakerName": "Yoshihisa",
+            "text": "Oh come on, you were just being a coward...",
+            "nextDialogs": [
+              "20101512"
+            ]
+          },
+          "20101512": {
+            "id": "20101512",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, cut the attitude!",
+            "nextDialogs": [
+              "20101513"
+            ]
+          },
+          "20101513": {
+            "id": "20101513",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#These guys, honestly... {NICKNAME}, forget them, <color=#00E1FFFF>let's go</color>!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "201011",
+      "subQuestName": "Return to headquarters and talk to Sangonomiya Kokomi",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20101101"
+        ],
+        "dialogs": {
+          "20101101": {
+            "id": "20101101",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "#How was it, {NICKNAME}? Did your initiation go smoothly?",
+            "nextDialogs": [
+              "20101103",
+              "20101105"
+            ]
+          },
+          "20101103": {
+            "id": "20101103",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Hehe... I'm sure you're playing it down a little. Koutoku and the others put you through your paces, I presume?",
+            "nextDialogs": [
+              "20101106"
+            ]
+          },
+          "20101106": {
+            "id": "20101106",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "But with your level of ability, I'm sure it was a walk in the park.",
+            "nextDialogs": [
+              "20101107"
+            ]
+          },
+          "20101107": {
+            "id": "20101107",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Since you're back, I take it that the ronin are now gone from Watatsumi Island?",
+            "nextDialogs": [
+              "20101122"
+            ]
+          },
+          "20101122": {
+            "id": "20101122",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You bet. We sure showed them who's boss!",
+            "nextDialogs": [
+              "20101108"
+            ]
+          },
+          "20101108": {
+            "id": "20101108",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Good. Now we just need to make sure Ookubo keeps a close watch to prevent their resurgence.",
+            "nextDialogs": [
+              "20101109"
+            ]
+          },
+          "20101109": {
+            "id": "20101109",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Thank you. I believe in rewarding merit, so you will be compensated for your hard work. Let me see... too soon for another promotion, I think. I could increase your pay...",
+            "nextDialogs": [
+              "20101110"
+            ]
+          },
+          "20101110": {
+            "id": "20101110",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Hey, where did Teppei go?",
+            "nextDialogs": [
+              "20101111"
+            ]
+          },
+          "20101111": {
+            "id": "20101111",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "I gave him an assignment. He's taking part in a surprise attack against the Shogun's Navy.",
+            "nextDialogs": [
+              "20101112"
+            ]
+          },
+          "20101112": {
+            "id": "20101112",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "He expressed a desire to be on the front line, so I honored his wishes.",
+            "nextDialogs": [
+              "20101113"
+            ]
+          },
+          "20101113": {
+            "id": "20101113",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "#Now. Speaking of assignments, {NICKNAME}, I have a special mission I'd like to give you.",
+            "nextDialogs": [
+              "20101114"
+            ]
+          },
+          "20101114": {
+            "id": "20101114",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "A special mission?",
+            "nextDialogs": [
+              "20101115"
+            ]
+          },
+          "20101115": {
+            "id": "20101115",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Yes. In between Watatsumi Island and Tatarasuna, <color=#00E1FFFF>there are some ruins relating to a god who fell in the Archon War</color>. There are several small islands there, often used as a transit point when transporting supplies.",
+            "nextDialogs": [
+              "20101116"
+            ]
+          },
+          "20101116": {
+            "id": "20101116",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Recently, however, supplies stored there have started to go missing for no obvious reason.",
+            "nextDialogs": [
+              "20101117"
+            ]
+          },
+          "20101117": {
+            "id": "20101117",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Stranger still, the resistance army passed by and reported they found no signs of danger... I'd like to task you with getting to the bottom of this.",
+            "nextDialogs": [
+              "20101118"
+            ]
+          },
+          "20101118": {
+            "id": "20101118",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "It's not urgent, so there is no need to leave immediately. I suggest you take a few days to familiarize yourselves with the army and also with Watatsumi Island.",
+            "nextDialogs": [
+              "20101119"
+            ]
+          },
+          "20101119": {
+            "id": "20101119",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "When Teppei returns, you can catch up with him, then pick a day when the weather's good to set sail for the islands.",
+            "nextDialogs": [
+              "20101120"
+            ]
+          },
+          "20101120": {
+            "id": "20101120",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Is Teppei really gonna be okay?",
+            "nextDialogs": [
+              "20101121"
+            ]
+          },
+          "20101121": {
+            "id": "20101121",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#He has a tendency to dive into action without thinking things through... Paimon can't help but feel a little worried about him. Oh {NICKNAME}, why don't we go wait for him at the <color=#00E1FFFF>training grounds</color>?"
+          },
+          "20101105": {
+            "id": "20101105",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "Mm, yes. That's standard for the team."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201009",
+      "subQuestName": "Talk to Teppei",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20100901"
+        ],
+        "dialogs": {
+          "20100901": {
+            "id": "20100901",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "#Long time no see, {NICKNAME}!",
+            "nextDialogs": [
+              "20100902"
+            ]
+          },
+          "20100902": {
+            "id": "20100902",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "So, how's Swordfish II treating you? Getting along okay with everyone?",
+            "nextDialogs": [
+              "20100905"
+            ]
+          },
+          "20100905": {
+            "id": "20100905",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Hehe, well you're in luck, because this seasoned veteran's got a few leadership tips for you!",
+            "nextDialogs": [
+              "20100906"
+            ]
+          },
+          "20100906": {
+            "id": "20100906",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Raising their pay will boost morale, while giving them a few bounties will act as an incentive to go the extra mile. It's also important to maintain strict discipline at all times, and finally... uh, wait, what was it, what was it...",
+            "nextDialogs": [
+              "20100907"
+            ]
+          },
+          "20100907": {
+            "id": "20100907",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow... Where'd ya learn all that, Teppei?",
+            "nextDialogs": [
+              "20100908"
+            ]
+          },
+          "20100908": {
+            "id": "20100908",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "I read it in a novel from the Yae Publishing House... it was a long time ago. You wouldn't believe how many Dango it took to convince my friend to let me borrow it.",
+            "nextDialogs": [
+              "20100909"
+            ]
+          },
+          "20100909": {
+            "id": "20100909",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You're seriously gonna use a novel to tell people how to run an army? Pretty sure that's called being an \"armchair general\"...",
+            "nextDialogs": [
+              "20100910"
+            ]
+          },
+          "20100910": {
+            "id": "20100910",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "Haw-haw, that's where you underestimate me! That's right, I'm learning military management on the job now, just like you."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201051",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105101"
+        ],
+        "dialogs": {
+          "20105101": {
+            "id": "20105101",
+            "speakerId": 1037,
+            "speakerName": "Sangonomiya Kokomi",
+            "text": "From now on, let's fight together."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201052",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105201"
+        ],
+        "dialogs": {
+          "20105201": {
+            "id": "20105201",
+            "speakerId": 12013,
+            "speakerName": "Teppei",
+            "text": "I'll admit, being promoted directly to captain is pretty amazing. But I'm not about to get left behind! I'll see you at the top some day soon."
+          }
+        }
+      }
+    },
+    {
+      "subId": "201053",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "20105301"
+        ],
+        "dialogs": {
+          "20105301": {
+            "id": "20105301",
+            "speakerId": 12146,
+            "speakerName": "Swordfish II Provisional Squad Leader",
+            "text": "Show me that you are worthy to lead us.",
+            "nextDialogs": [
+              "20105302"
+            ]
+          },
+          "20105302": {
+            "id": "20105302",
+            "speakerId": 12147,
+            "speakerName": "Swordfish II Veteran",
+            "text": "We make no apologies for holding our leader to the highest standard. Because at the end of the day, your competence decides whether we live or die."
+          }
+        }
+      }
+    }
+  ]
+}

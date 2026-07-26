@@ -1,0 +1,64 @@
+{
+  "lineCounts": {
+    "枭总管": 3,
+    "派蒙": 1
+  },
+  "subQuests": [
+    {
+      "subId": "4000901",
+      "subQuestName": "(test)海灯节做灯教学奖励$UNRELEASED$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400011001"
+        ],
+        "dialogs": {
+          "400011001": {
+            "id": "400011001",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#{NICKNAME}，我发现了一个很严重的问题…$UNRELEASED"
+          }
+        }
+      }
+    },
+    {
+      "subId": "4000105",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "400010501"
+        ],
+        "dialogs": {
+          "400010501": {
+            "id": "400010501",
+            "speakerId": 2004,
+            "speakerName": "枭总管",
+            "text": "怎么说？你也是来做「霄灯」的吗？",
+            "nextDialogs": [
+              "400010502"
+            ]
+          },
+          "400010502": {
+            "id": "400010502",
+            "speakerId": 2004,
+            "speakerName": "枭总管",
+            "text": "不错不错，年轻人自己动动手，是好事！",
+            "nextDialogs": [
+              "400010503"
+            ]
+          },
+          "400010503": {
+            "id": "400010503",
+            "speakerId": 2004,
+            "speakerName": "枭总管",
+            "text": "来，这些材料送你…你应该会用<color=#00E1FFFF>「合成台」</color>吧？"
+          }
+        }
+      }
+    }
+  ]
+}

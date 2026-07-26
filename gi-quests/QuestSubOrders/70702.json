@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Connor": 5,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7070201",
+      "subQuestName": "Give Connor ten servings of Wheat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707020101"
+        ],
+        "dialogs": {
+          "707020101": {
+            "id": "707020101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the wheat...",
+            "nextDialogs": [
+              "707020102"
+            ]
+          },
+          "707020102": {
+            "id": "707020102",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "You... Ah. Saw my commission, did you?",
+            "nextDialogs": [
+              "707020103"
+            ]
+          },
+          "707020103": {
+            "id": "707020103",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "So, gathered those ten spikes of Wheat yet?",
+            "nextDialogs": [
+              "707020106"
+            ]
+          },
+          "707020106": {
+            "id": "707020106",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Well, pass them to me once you're done gathering them. I need to rest for a while more..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070202",
+      "subQuestName": "Talk to Connor",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707020201"
+        ],
+        "dialogs": {
+          "707020201": {
+            "id": "707020201",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Let me see... Yes, I think this is enough.",
+            "nextDialogs": [
+              "707020202"
+            ]
+          },
+          "707020202": {
+            "id": "707020202",
+            "speakerId": 1529,
+            "speakerName": "Connor",
+            "text": "Thank you. Please accept a token of my appreciation..."
+          }
+        }
+      }
+    }
+  ]
+}

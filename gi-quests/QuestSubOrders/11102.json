@@ -1,0 +1,473 @@
+{
+  "lineCounts": {
+    "Female Believer": 1,
+    "Male Believer": 1,
+    "Mercantile Believer": 1,
+    "Paimon": 21,
+    "Player": 8,
+    "Starsnatcher": 1,
+    "Xiao": 31
+  },
+  "subQuests": [
+    {
+      "subId": "1110201",
+      "subQuestName": "Use Elemental Sight to track down the hilichurls with the evil aura",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110202",
+      "subQuestName": "Talk to Xiao",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020201"
+        ],
+        "dialogs": {
+          "111020201": {
+            "id": "111020201",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "It's you... I remember you.",
+            "nextDialogs": [
+              "111020202"
+            ]
+          },
+          "111020202": {
+            "id": "111020202",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I was purging some living beings that had been tainted by the demonic. It would appear that I have caused you some trouble.",
+            "nextDialogs": [
+              "111020203"
+            ]
+          },
+          "111020203": {
+            "id": "111020203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "(Huh? He isn't usually this polite, what's going on...)",
+            "nextDialogs": [
+              "111020204"
+            ]
+          },
+          "111020204": {
+            "id": "111020204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But you were exorcizing demons, how is that causing trouble?",
+            "nextDialogs": [
+              "111020205"
+            ]
+          },
+          "111020205": {
+            "id": "111020205",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "That is because the changes that occurred in these monsters stem from me — or more precisely, from the karma I have accumulated.",
+            "nextDialogs": [
+              "111020206"
+            ]
+          },
+          "111020206": {
+            "id": "111020206",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Mutations, karma... Does that mean...",
+            "nextDialogs": [
+              "111020209"
+            ]
+          },
+          "111020209": {
+            "id": "111020209",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah. Paimon remembers that Xiao is also called the Vigilant Yaksha, isn't he?",
+            "nextDialogs": [
+              "111020210"
+            ]
+          },
+          "111020210": {
+            "id": "111020210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So... so that means... Aww...",
+            "nextDialogs": [
+              "111020211"
+            ]
+          },
+          "111020211": {
+            "id": "111020211",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "*sniff* P—Poor Xiao...",
+            "nextDialogs": [
+              "111020212"
+            ]
+          },
+          "111020212": {
+            "id": "111020212",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110203",
+      "subQuestName": "Head to the karma-heavy cavern",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1110204",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020401"
+        ],
+        "dialogs": {
+          "111020401": {
+            "id": "111020401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, this place gives Paimon goosebumps!",
+            "nextDialogs": [
+              "111020402"
+            ]
+          },
+          "111020402": {
+            "id": "111020402",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I will use the ritual known as the Bane of All Evil to relieve this place of its karma.",
+            "nextDialogs": [
+              "111020403"
+            ]
+          },
+          "111020403": {
+            "id": "111020403",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "You must remain calm. Do not allow yourself to be affected by the lingering wrath of bygone gods."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110206",
+      "subQuestName": "Clear the cavern of the hilichurls with the evil aura",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111020601"
+        ],
+        "dialogs": {
+          "111020601": {
+            "id": "111020601",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "It is good that we came here. An unusual number of living things had fallen under infernal influence. Had we not arrived in good time, the consequences would have been unthinkable.",
+            "nextDialogs": [
+              "111020602"
+            ]
+          },
+          "111020602": {
+            "id": "111020602",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Now. This \"Starsnatcher\" you speak of. What is the situation?",
+            "nextDialogs": [
+              "111020603"
+            ]
+          },
+          "111020603": {
+            "id": "111020603",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ooh, Paimon'll tell you!",
+            "nextDialogs": [
+              "111020604"
+            ]
+          },
+          "111020604": {
+            "id": "111020604",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "An adeptus who grants wishes... To think that people could be so easily deceived by such blatant lies...",
+            "nextDialogs": [
+              "111020605"
+            ]
+          },
+          "111020605": {
+            "id": "111020605",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "As an adeptus, do you have the power to grant wishes, Xiao?",
+            "nextDialogs": [
+              "111020606"
+            ]
+          },
+          "111020606": {
+            "id": "111020606",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "The Liyue of yesteryear would never ask the adepti for boons unearned.",
+            "nextDialogs": [
+              "111020607"
+            ]
+          },
+          "111020607": {
+            "id": "111020607",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Millennia ago, the ancestral people of Liyue asked for nothing more than the strength to defend the land they called their home.",
+            "nextDialogs": [
+              "111020608"
+            ]
+          },
+          "111020608": {
+            "id": "111020608",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ehh... To be honest, an adepti who grants people's wishes is probably more appealing to people nowadays...",
+            "nextDialogs": [
+              "111020609"
+            ]
+          },
+          "111020609": {
+            "id": "111020609",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "However feeble people nowadays may be, they are not my concern. I concern myself only with following Rex Lapis' original decree.",
+            "nextDialogs": [
+              "111020610"
+            ]
+          },
+          "111020610": {
+            "id": "111020610",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoops... Paimon spoke without thinking again...",
+            "nextDialogs": [
+              "111020611"
+            ]
+          },
+          "111020611": {
+            "id": "111020611",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, ah, one more thing! That fake adeptus has a Sigil of Permission. It's what he uses to exorcise demons!",
+            "nextDialogs": [
+              "111020612"
+            ]
+          },
+          "111020612": {
+            "id": "111020612",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Wait, truly? Hmph. Fool. Exorcizing demons without exterminating them — it is no wonder they have been congregating here.",
+            "nextDialogs": [
+              "111020613"
+            ]
+          },
+          "111020613": {
+            "id": "111020613",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "If this continues, things may spiral out of even my control... We must confiscate his Sigil of Permission.",
+            "nextDialogs": [
+              "111020616"
+            ]
+          },
+          "111020616": {
+            "id": "111020616",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Great minds think alike! Paimon agrees, we've gotta show that trickster what you get for trying to fool us!",
+            "nextDialogs": [
+              "111020617"
+            ]
+          },
+          "111020617": {
+            "id": "111020617",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "And it just so happens that we've got a real adeptus with us too! If Xiao were to teach Starsnatcher a lesson, you can bet he'll never dare to pose as an adeptus ever again!",
+            "nextDialogs": [
+              "111020618"
+            ]
+          },
+          "111020618": {
+            "id": "111020618",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "No. I only slay demons — I do not kill mortals.",
+            "nextDialogs": [
+              "111020619"
+            ]
+          },
+          "111020619": {
+            "id": "111020619",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Who said anything about killing him!?",
+            "nextDialogs": [
+              "111020620"
+            ]
+          },
+          "111020620": {
+            "id": "111020620",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "...",
+            "nextDialogs": [
+              "111020621"
+            ]
+          },
+          "111020621": {
+            "id": "111020621",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "It would certainly benefit Liyue if we could convince him to cease his wicked ways.",
+            "nextDialogs": [
+              "111020622"
+            ]
+          },
+          "111020622": {
+            "id": "111020622",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "I possess an art called Dream Trawler. It is normally used to separate the soul from the body, that one might cultivate oneself in a waking dream...",
+            "nextDialogs": [
+              "111020623"
+            ]
+          },
+          "111020623": {
+            "id": "111020623",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "But it can also be used to call forth the spirits of others.",
+            "nextDialogs": [
+              "111020624"
+            ]
+          },
+          "111020624": {
+            "id": "111020624",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, now that's a real adepti art for ya!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110220",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022001"
+        ],
+        "dialogs": {
+          "111022001": {
+            "id": "111022001",
+            "speakerId": 10217,
+            "speakerName": "Male Believer",
+            "text": "It's not like the Master of Stars to fail an exorcism — perhaps he isn't feeling well today?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110221",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022101"
+        ],
+        "dialogs": {
+          "111022101": {
+            "id": "111022101",
+            "speakerId": 10219,
+            "speakerName": "Female Believer",
+            "text": "What happened there? Good thing we had you around, huh..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110222",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022201"
+        ],
+        "dialogs": {
+          "111022201": {
+            "id": "111022201",
+            "speakerId": 10218,
+            "speakerName": "Mercantile Believer",
+            "text": "I can't believe that the Master of Stars wasn't powerful enough to defeat those hilichurls..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110223",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022301"
+        ],
+        "dialogs": {
+          "111022301": {
+            "id": "111022301",
+            "speakerId": 10202,
+            "speakerName": "Starsnatcher",
+            "text": "One is merely feeling unwell. One hopes that you shall not spread these tidings wantonly..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1110224",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "111022401"
+        ],
+        "dialogs": {
+          "111022401": {
+            "id": "111022401",
+            "speakerId": 10204,
+            "speakerName": "Xiao",
+            "text": "Finish your preparations, and we shall enter — we should not leave those monsters be for too long."
+          }
+        }
+      }
+    }
+  ]
+}

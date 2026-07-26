@@ -1,0 +1,456 @@
+{
+  "lineCounts": {
+    "Player": 7,
+    "塞琉斯": 16,
+    "杰克": 20
+  },
+  "subQuests": [
+    {
+      "subId": "2060101",
+      "subQuestName": "与塞琉斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060102",
+      "subQuestName": "寻找杰克的踪迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060103",
+      "subQuestName": "寻找杰克的踪迹",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060104",
+      "subQuestName": "解救被围困的杰克",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010401"
+        ],
+        "dialogs": {
+          "206010401": {
+            "id": "206010401",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "班尼特这小子又跑到哪去了，唉，这个关头…他可别再出什么意外…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060105",
+      "subQuestName": "与杰克对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010501"
+        ],
+        "dialogs": {
+          "206010501": {
+            "id": "206010501",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "嘶，疼…",
+            "nextDialogs": [
+              "206010502"
+            ]
+          },
+          "206010502": {
+            "id": "206010502",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "谢谢你，我还以为自己回不去了。",
+            "nextDialogs": [
+              "206010503"
+            ]
+          },
+          "206010503": {
+            "id": "206010503",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "你怎么样？",
+            "nextDialogs": [
+              "206010504"
+            ]
+          },
+          "206010504": {
+            "id": "206010504",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "哈，一点小伤…呃！一点…小伤，我没问题。",
+            "nextDialogs": [
+              "206010505"
+            ]
+          },
+          "206010505": {
+            "id": "206010505",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "我是因为发现一群丘丘人正在向前面的营地里集结，觉得它们想要做什么，才跟了上去。",
+            "nextDialogs": [
+              "206010506"
+            ]
+          },
+          "206010506": {
+            "id": "206010506",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "…但我跟踪调查的时候靠得太近，不小心就被它们发现了。",
+            "nextDialogs": [
+              "206010507"
+            ]
+          },
+          "206010507": {
+            "id": "206010507",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "不说这个了，不用担心我，请快点去把前面的丘丘人都清理掉！",
+            "nextDialogs": [
+              "206010508"
+            ]
+          },
+          "206010508": {
+            "id": "206010508",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "它们的数量越来越多，绝不能让它们的阴谋得逞。",
+            "nextDialogs": [
+              "206010509"
+            ]
+          },
+          "206010509": {
+            "id": "206010509",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "至于我…我会照顾好我自己的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060106",
+      "subQuestName": "清理营地",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010601"
+        ],
+        "dialogs": {
+          "206010601": {
+            "id": "206010601",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "你已经清理掉那个营地了吧。",
+            "nextDialogs": [
+              "206010602"
+            ]
+          },
+          "206010602": {
+            "id": "206010602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "是的。",
+            "nextDialogs": [
+              "206010603"
+            ]
+          },
+          "206010603": {
+            "id": "206010603",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "你的实力可真强啊，要是我能像你一样优秀就好了…",
+            "nextDialogs": [
+              "206010604"
+            ]
+          },
+          "206010604": {
+            "id": "206010604",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "我也想留下斩杀恶龙、拯救世界的传说，但到头来连丘丘人都没法胜过…",
+            "nextDialogs": [
+              "206010605"
+            ]
+          },
+          "206010605": {
+            "id": "206010605",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "呃，那个…虽然很不好意思，但是我有件事拜托你…",
+            "nextDialogs": [
+              "206010606"
+            ]
+          },
+          "206010606": {
+            "id": "206010606",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "其实我这次之所以会去千风神殿调查，是因为我马上就要「冒险等阶评定」了…",
+            "nextDialogs": [
+              "206010607"
+            ]
+          },
+          "206010607": {
+            "id": "206010607",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "我想着如果能在这个时候展现出实力的话，等阶评定一定会顺利不少。",
+            "nextDialogs": [
+              "206010608"
+            ]
+          },
+          "206010608": {
+            "id": "206010608",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "但是没想到，实力没展现出来，反而差点把自己给赔进去。",
+            "nextDialogs": [
+              "206010609"
+            ]
+          },
+          "206010609": {
+            "id": "206010609",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "能，能拜托你，别把我的惨样告诉塞琉斯先生吗？要是真的影响到「冒险等阶评定」，那我就真的惨了…",
+            "nextDialogs": [
+              "206010611",
+              "206010613"
+            ]
+          },
+          "206010611": {
+            "id": "206010611",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "太谢谢你了！我以后一定不会再这么鲁莽了！"
+          },
+          "206010613": {
+            "id": "206010613",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "我知道这样不好，塞琉斯先生也说「冒险家应该直面自己」…",
+            "nextDialogs": [
+              "206010614"
+            ]
+          },
+          "206010614": {
+            "id": "206010614",
+            "speakerId": 1413,
+            "speakerName": "杰克",
+            "text": "但是…唉，算了，希望塞琉斯先生不会太生我的气…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060107",
+      "subQuestName": "与塞琉斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010701"
+        ],
+        "dialogs": {
+          "206010701": {
+            "id": "206010701",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "你回来了，杰克也回来了，但是一瘸一拐的…",
+            "nextDialogs": [
+              "206010702"
+            ]
+          },
+          "206010702": {
+            "id": "206010702",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "到底发生什么了？",
+            "nextDialogs": [
+              "206010703"
+            ]
+          },
+          "206010703": {
+            "id": "206010703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "杰克因为冒进受伤了…",
+            "nextDialogs": [
+              "206010704"
+            ]
+          },
+          "206010704": {
+            "id": "206010704",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "果然和我想的一样，唉…平时我和他说的话，他都没怎么记得。",
+            "nextDialogs": [
+              "206010705"
+            ]
+          },
+          "206010705": {
+            "id": "206010705",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "虽然我也理解他想要证明自己的心思，但是…",
+            "nextDialogs": [
+              "206010706"
+            ]
+          },
+          "206010706": {
+            "id": "206010706",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "算了，这件事我已经了解了，杰克那边我会去和他谈谈。",
+            "nextDialogs": [
+              "206010707"
+            ]
+          },
+          "206010707": {
+            "id": "206010707",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "这是给你的，算是你冒险的奖励吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060108",
+      "subQuestName": "与杰克对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2060109",
+      "subQuestName": "与塞琉斯对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206010801"
+        ],
+        "dialogs": {
+          "206010801": {
+            "id": "206010801",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "你回来了，杰克也回来了，但是一瘸一拐的。",
+            "nextDialogs": [
+              "206010802"
+            ]
+          },
+          "206010802": {
+            "id": "206010802",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "到底发生什么了？",
+            "nextDialogs": [
+              "206010804",
+              "206010808"
+            ]
+          },
+          "206010804": {
+            "id": "206010804",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "你和他并肩作战了吗？原来他是这么受伤的…",
+            "nextDialogs": [
+              "206010805"
+            ]
+          },
+          "206010805": {
+            "id": "206010805",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "唉，英勇是好事…但我宁愿他更加稳重一些，毕竟，活下来的冒险家才是冒险家。",
+            "nextDialogs": [
+              "206010806"
+            ]
+          },
+          "206010806": {
+            "id": "206010806",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "旅行者，你和杰克的勇气都值得嘉奖，这些东西你拿着，算是你冒险的奖励吧。"
+          },
+          "206010808": {
+            "id": "206010808",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "果然和我想的一样，唉…平时我和他说的话，他都没怎么记得。",
+            "nextDialogs": [
+              "206010809"
+            ]
+          },
+          "206010809": {
+            "id": "206010809",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "虽然我也理解他想要证明自己的心思，但是…",
+            "nextDialogs": [
+              "206010810"
+            ]
+          },
+          "206010810": {
+            "id": "206010810",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "算了，这件事我已经了解了，杰克那边我会去和他谈谈。",
+            "nextDialogs": [
+              "206010811"
+            ]
+          },
+          "206010811": {
+            "id": "206010811",
+            "speakerId": 1409,
+            "speakerName": "塞琉斯",
+            "text": "这是给你的，算是你冒险的奖励吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2060110",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "206011001"
+        ],
+        "dialogs": {
+          "206011001": {
+            "id": "206011001",
+            "speakerId": 1212,
+            "speakerName": "杰克",
+            "text": "唉，希望我的「冒险等阶评定」不会受到影响…"
+          }
+        }
+      }
+    }
+  ]
+}

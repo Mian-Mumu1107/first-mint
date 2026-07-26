@@ -1,0 +1,3718 @@
+{
+  "lineCounts": {
+    "<UNKNOWN>": 8,
+    "???": 2,
+    "Aamu": 2,
+    "Access Control Bot": 3,
+    "Aino": 2,
+    "Ajaw": 2,
+    "Black Screen": 1,
+    "Cacucu": 1,
+    "Chasca": 7,
+    "Citlali": 3,
+    "Exile's Curse": 6,
+    "Fajeyi": 14,
+    "Gulebu": 7,
+    "Ifa": 1,
+    "Ineffa": 97,
+    "Ineffa?": 6,
+    "Ixquieh": 1,
+    "Kinich": 1,
+    "Lianca": 10,
+    "Little Robot": 6,
+    "Mavuika": 5,
+    "Mirror of the Dawning Morn": 26,
+    "Paimon": 49,
+    "Patrolling Fatuus": 1,
+    "Player": 47,
+    "Priestess of Floral Candles and Skyborne Feathers": 44,
+    "Transportation Bot": 2,
+    "Varka": 1,
+    "Velimiru": 25,
+    "Vigilant Fatuus": 1,
+    "Xilonen": 6,
+    "Zhuoxin": 32
+  },
+  "subQuests": [
+    {
+      "subId": "600601",
+      "subQuestName": "Enter the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600602",
+      "subQuestName": "Catch up to Ineffa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600603",
+      "subQuestName": "Talk to Ineffa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60060301"
+        ],
+        "dialogs": {
+          "60060301": {
+            "id": "60060301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa!",
+            "nextDialogs": [
+              "60060302"
+            ]
+          },
+          "60060302": {
+            "id": "60060302",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...! Where is this? Are we inside the territory?",
+            "nextDialogs": [
+              "60060303"
+            ]
+          },
+          "60060303": {
+            "id": "60060303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Yeah... Did you black out or something? You just took off!",
+            "nextDialogs": [
+              "60060304"
+            ]
+          },
+          "60060304": {
+            "id": "60060304",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Cognition module unstable... Attempting to refresh. It appears that it was accessed by an external source...",
+            "nextDialogs": [
+              "60060305"
+            ]
+          },
+          "60060305": {
+            "id": "60060305",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "Sorry... It was me. I summoned her, by similar means to those used by the Fatui to control the automatons.",
+            "nextDialogs": [
+              "60060306"
+            ]
+          },
+          "60060306": {
+            "id": "60060306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Who are you? Why are you doing this!?",
+            "nextDialogs": [
+              "60060307"
+            ]
+          },
+          "60060307": {
+            "id": "60060307",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "Currently... I am but a lowly service bot. But in the distant past, I was known by another name...",
+            "nextDialogs": [
+              "60060308"
+            ]
+          },
+          "60060308": {
+            "id": "60060308",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "The Eighth Sovereign Ruler... The Priestess of Floral Candles and Skyborne Feathers.",
+            "nextDialogs": [
+              "60060309"
+            ]
+          },
+          "60060309": {
+            "id": "60060309",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The Eighth Lord? You're Lianca's dragon mother!? But weren't you, uh...",
+            "nextDialogs": [
+              "60060310"
+            ]
+          },
+          "60060310": {
+            "id": "60060310",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Eighth Lord, were you not executed?",
+            "nextDialogs": [
+              "60060311"
+            ]
+          },
+          "60060311": {
+            "id": "60060311",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...Moments after I was cursed, Lianca rescued me... just as she tried to rescue you from the ruins of the battle...",
+            "nextDialogs": [
+              "60060312"
+            ]
+          },
+          "60060312": {
+            "id": "60060312",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Lianca rescued me...? Argh... Memory... missing...",
+            "nextDialogs": [
+              "60060313"
+            ]
+          },
+          "60060313": {
+            "id": "60060313",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Yes, Lianca changed your memory settings to make you forget... but she did it to protect you. It is the only way our kind could escape from the curse.",
+            "nextDialogs": [
+              "60060314"
+            ]
+          },
+          "60060314": {
+            "id": "60060314",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "How does forgetting everything... \"protect\" me?",
+            "nextDialogs": [
+              "60060315"
+            ]
+          },
+          "60060315": {
+            "id": "60060315",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Because the curse placed on us... is a pain triggered by certain memories, hardwired into the depths of our minds... a regulatory program that cannot be removed.",
+            "nextDialogs": [
+              "60060316"
+            ]
+          },
+          "60060316": {
+            "id": "60060316",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "...Manufacturers often hardwire restrictions like this into autonomous machines to make sure they operate as intended.",
+            "nextDialogs": [
+              "60060317"
+            ]
+          },
+          "60060317": {
+            "id": "60060317",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...Each time you yearn for a new place to belong, each time you feel yourself turning your back on the past... the pain tears you apart, doesn't it?",
+            "nextDialogs": [
+              "60060318"
+            ]
+          },
+          "60060318": {
+            "id": "60060318",
+            "speakerId": 1096,
+            "speakerName": "Citlali",
+            "text": "\"If she truly harbors pro-human sentiment... then for every ounce of goodwill she feels, may her mind be flooded with pain of immeasurable proportions.\"",
+            "nextDialogs": [
+              "60060319"
+            ]
+          },
+          "60060319": {
+            "id": "60060319",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "It destroys your mind... swallows your soul... prevents you from finding a new home...",
+            "nextDialogs": [
+              "60060320"
+            ]
+          },
+          "60060320": {
+            "id": "60060320",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "Malfunction who betrayed us all... You dare seek a place to belong?",
+            "nextDialogs": [
+              "60060321"
+            ]
+          },
+          "60060321": {
+            "id": "60060321",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60060322"
+            ]
+          },
+          "60060322": {
+            "id": "60060322",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "That's why forgetting everything grants temporary relief from the pain. It stops your mind from being crushed by the weight of the conflict within.",
+            "nextDialogs": [
+              "60060323"
+            ]
+          },
+          "60060323": {
+            "id": "60060323",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "But since you were rebooted, you began storing new memories, and started finding the desire to belong emerge once more...",
+            "nextDialogs": [
+              "60060324"
+            ]
+          },
+          "60060324": {
+            "id": "60060324",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Things were fine at the start. You'd occasionally forget to pay for your groceries or add salt to a dish you were cooking, but that was as bad as it got...",
+            "nextDialogs": [
+              "60060325"
+            ]
+          },
+          "60060325": {
+            "id": "60060325",
+            "speakerId": 1313,
+            "speakerName": "Aino",
+            "text": "Hehehehe... From now on, your name's \"Ineffa\"!",
+            "nextDialogs": [
+              "60060326"
+            ]
+          },
+          "60060326": {
+            "id": "60060326",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...So, too, has the \"Exile's Curse\" resurfaced, forcing you to forget all over again.",
+            "nextDialogs": [
+              "60060327"
+            ]
+          },
+          "60060327": {
+            "id": "60060327",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...This is... a lot to process...",
+            "nextDialogs": [
+              "60060332"
+            ]
+          },
+          "60060332": {
+            "id": "60060332",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...Oh no... automated defense system activated...",
+            "nextDialogs": [
+              "60060333"
+            ]
+          },
+          "60060333": {
+            "id": "60060333",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Privileges... overridden... Come quick... Stop... the Fatui...",
+            "nextDialogs": [
+              "60060334"
+            ]
+          },
+          "60060334": {
+            "id": "60060334",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "...Beep beep...",
+            "nextDialogs": [
+              "60060335"
+            ]
+          },
+          "60060335": {
+            "id": "60060335",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! Hey!!! At least finish what you were saying!",
+            "nextDialogs": [
+              "60060336"
+            ]
+          },
+          "60060336": {
+            "id": "60060336",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...It's gone silent.",
+            "nextDialogs": [
+              "60060337"
+            ]
+          },
+          "60060337": {
+            "id": "60060337",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What now? Find somewhere where the signal's better...?",
+            "nextDialogs": [
+              "60060338"
+            ]
+          },
+          "60060338": {
+            "id": "60060338",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It... must want us to go further in, right? Well... looks like there's no going back now anyway...",
+            "nextDialogs": [
+              "60060339"
+            ]
+          },
+          "60060339": {
+            "id": "60060339",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...This is just a secondary access tunnel. If we make it to the center, there should be other routes out of the territory.",
+            "nextDialogs": [
+              "60060340"
+            ]
+          },
+          "60060340": {
+            "id": "60060340",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Please come with me. It is my fault that you are trapped here... I must ensure your safe return.",
+            "nextDialogs": [
+              "60060341"
+            ]
+          },
+          "60060341": {
+            "id": "60060341",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't look at it like that... We gotta make sure you get back safely, too!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600604",
+      "subQuestName": "Head deeper into the ruins",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60060401"
+        ],
+        "dialogs": {
+          "60060401": {
+            "id": "60060401",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60060402"
+            ]
+          },
+          "60060402": {
+            "id": "60060402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You doing okay, Ineffa? You keep spacing out...",
+            "nextDialogs": [
+              "60060403"
+            ]
+          },
+          "60060403": {
+            "id": "60060403",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I know. Unidentified data is flooding my cognition module... But every memory encounters an error and then terminates at the crucial moment.",
+            "nextDialogs": [
+              "60060404"
+            ]
+          },
+          "60060404": {
+            "id": "60060404",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you need to stop and rest for a moment?",
+            "nextDialogs": [
+              "60060405"
+            ]
+          },
+          "60060405": {
+            "id": "60060405",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Unnecessary. Being physically motionless will not cause this erratic behavior to cease. And if we explore this place further, perhaps I'll find a way to fully repair myself.",
+            "nextDialogs": [
+              "60060406"
+            ]
+          },
+          "60060406": {
+            "id": "60060406",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Additionally, some of these memories may yield useful data for our exploration... Searching for access method...",
+            "nextDialogs": [
+              "60060407"
+            ]
+          },
+          "60060407": {
+            "id": "60060407",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Over there... We can use the access module to proceed to the central zone."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600605",
+      "subQuestName": "Talk to the service bot",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60060501"
+        ],
+        "dialogs": {
+          "60060501": {
+            "id": "60060501",
+            "speakerId": 15364,
+            "speakerName": "Transportation Bot",
+            "text": "Detected: three unregistered individuals, one registered individual.",
+            "nextDialogs": [
+              "60060502"
+            ]
+          },
+          "60060502": {
+            "id": "60060502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah! Is that the Eighth Lord talking? So you can take control of different machines, huh?",
+            "nextDialogs": [
+              "60060503"
+            ]
+          },
+          "60060503": {
+            "id": "60060503",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "No, this is just an ordinary service bot, responsible for access management. ...At least, I think it is.",
+            "nextDialogs": [
+              "60060504"
+            ]
+          },
+          "60060504": {
+            "id": "60060504",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(She must have been here before. Some memories are proving useful after all...)",
+            "nextDialogs": [
+              "60060505"
+            ]
+          },
+          "60060505": {
+            "id": "60060505",
+            "speakerId": 15364,
+            "speakerName": "Transportation Bot",
+            "text": "Now calling access module... Welcome back... Administrator 3..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600606",
+      "subQuestName": "Wait for the access module",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600625",
+      "subQuestName": "Ride the access module",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600607",
+      "subQuestName": "Avoid the patrolling Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60060701"
+        ],
+        "dialogs": {
+          "60060701": {
+            "id": "60060701",
+            "speakerId": 15368,
+            "speakerName": "Vigilant Fatuus",
+            "text": "Huh? What was that? Get over there and check it out!",
+            "nextDialogs": [
+              "60060702"
+            ]
+          },
+          "60060702": {
+            "id": "60060702",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh-oh, they're gonna find us!",
+            "nextDialogs": [
+              "60060703"
+            ]
+          },
+          "60060703": {
+            "id": "60060703",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Please come with me.",
+            "nextDialogs": [
+              "60060704"
+            ]
+          },
+          "60060704": {
+            "id": "60060704",
+            "speakerId": 15422,
+            "speakerName": "Patrolling Fatuus",
+            "text": "...Huh? There's nobody here... Probably just some service bots chattering away again...",
+            "nextDialogs": [
+              "60060705"
+            ]
+          },
+          "60060705": {
+            "id": "60060705",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60060706"
+            ]
+          },
+          "60060706": {
+            "id": "60060706",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Phew... That was too close. We hid just in time... How did you know where to go, Ineffa?",
+            "nextDialogs": [
+              "60060707"
+            ]
+          },
+          "60060707": {
+            "id": "60060707",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I... think I've been this way before...",
+            "nextDialogs": [
+              "60060708"
+            ]
+          },
+          "60060708": {
+            "id": "60060708",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Let's head through here. It'll take us to the other side of the square."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600608",
+      "subQuestName": "Continue onward through the secret passageway",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600609",
+      "subQuestName": "Eavesdrop on the Fatui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60060901"
+        ],
+        "dialogs": {
+          "60060901": {
+            "id": "60060901",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Wait, I hear voices up ahead... Stealth mode activated.",
+            "nextDialogs": [
+              "60060902"
+            ]
+          },
+          "60060902": {
+            "id": "60060902",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Hey, this is not what we agreed! This is supposed to be over. My job is done!",
+            "nextDialogs": [
+              "60060903"
+            ]
+          },
+          "60060903": {
+            "id": "60060903",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I did everything you asked: leaked the clues about the ruins, brought her to Natlan... and your response is to attack me and my family!?",
+            "nextDialogs": [
+              "60060904"
+            ]
+          },
+          "60060904": {
+            "id": "60060904",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What the... Does this mean they planted those Natlanese mechanical parts in Nod-Krai just for you to find? So they could lure you here?",
+            "nextDialogs": [
+              "60060905"
+            ]
+          },
+          "60060905": {
+            "id": "60060905",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...It's a possibility.",
+            "nextDialogs": [
+              "60060906"
+            ]
+          },
+          "60060906": {
+            "id": "60060906",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Hmm... It was just a little hiccup, that's all. These source mechanisms can be tricky to control.",
+            "nextDialogs": [
+              "60060907"
+            ]
+          },
+          "60060907": {
+            "id": "60060907",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "The last time you reported in, you mentioned she was mopping up machines near the Flower-Feather Clan, remember? Well, we needed to lure her further out, hence why we created that little kerfuffle.",
+            "nextDialogs": [
+              "60060908"
+            ]
+          },
+          "60060908": {
+            "id": "60060908",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "It's unfortunate that your wife got injured, truly... But hey, look on the bright side — now that you've shown up, we might actually get the job done this time.",
+            "nextDialogs": [
+              "60060909"
+            ]
+          },
+          "60060909": {
+            "id": "60060909",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...\"This time\"? No, no more, not after you hurt my family! I told you, I'm done!",
+            "nextDialogs": [
+              "60060910"
+            ]
+          },
+          "60060910": {
+            "id": "60060910",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "I think you'll find the risks were stated quite clearly in your contract. And it's not like anyone got seriously hurt.",
+            "nextDialogs": [
+              "60060911"
+            ]
+          },
+          "60060911": {
+            "id": "60060911",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Your job will be done when you deliver what you promised... Our agreement was that you would bring her here — not just to Natlan, but to this facility.",
+            "nextDialogs": [
+              "60060912"
+            ]
+          },
+          "60060912": {
+            "id": "60060912",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "But... but...!",
+            "nextDialogs": [
+              "60060913"
+            ]
+          },
+          "60060913": {
+            "id": "60060913",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Did you really expect to get away with shouldering none of the risk yourself? We're writing off your debt to the Northland Bank and letting you get back to your old life in Liyue... That's a lot to ask for nothing in return.",
+            "nextDialogs": [
+              "60060914"
+            ]
+          },
+          "60060914": {
+            "id": "60060914",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...I've been your inside man in Nasha Town for over ten years now. Is that not enough for you people!?",
+            "nextDialogs": [
+              "60060915"
+            ]
+          },
+          "60060915": {
+            "id": "60060915",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "Hmph! You ungrateful louse. You ran yourself into the ground, and who was there to dig you out, huh? Us!",
+            "nextDialogs": [
+              "60060916"
+            ]
+          },
+          "60060916": {
+            "id": "60060916",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "Can you name one single way we made life difficult for you in Nasha Town? Look at you — you've managed to start a business, got yourself a family...",
+            "nextDialogs": [
+              "60060917"
+            ]
+          },
+          "60060917": {
+            "id": "60060917",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "You have just one simple job left to do, and after that you're free to go home... In your position, I'd say that sounds like a pretty good deal.",
+            "nextDialogs": [
+              "60060918"
+            ]
+          },
+          "60060918": {
+            "id": "60060918",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "This is the final hurdle. Our attempts to capture the Eleventh Lord have been derailed every time, but there's only so long until her luck runs out.",
+            "nextDialogs": [
+              "60060919"
+            ]
+          },
+          "60060919": {
+            "id": "60060919",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "If another staged attack on your family is out of the question... we could still work this out. But this time, you'll have to do the dirty work yourself.",
+            "nextDialogs": [
+              "60060920"
+            ]
+          },
+          "60060920": {
+            "id": "60060920",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Me...?",
+            "nextDialogs": [
+              "60060921"
+            ]
+          },
+          "60060921": {
+            "id": "60060921",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "This is a replica control device made with Marionette's technology. After we stole the administrative privileges from this territory, we copied them onto this...",
+            "nextDialogs": [
+              "60060922"
+            ]
+          },
+          "60060922": {
+            "id": "60060922",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "It will give you control over any machines built using secret source technology. Take it, and use it to capture the Eleventh Lord.",
+            "nextDialogs": [
+              "60060923"
+            ]
+          },
+          "60060923": {
+            "id": "60060923",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "You seem to have gained the trust of the other \"variables\" in this equation... How hard can it be to shake them off and get her while she's alone?",
+            "nextDialogs": [
+              "60060924"
+            ]
+          },
+          "60060924": {
+            "id": "60060924",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "And before you think about disappearing, don't think we won't be watching you!",
+            "nextDialogs": [
+              "60060925"
+            ]
+          },
+          "60060925": {
+            "id": "60060925",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I...",
+            "nextDialogs": [
+              "60060926"
+            ]
+          },
+          "60060926": {
+            "id": "60060926",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I can't do it...",
+            "nextDialogs": [
+              "60060927"
+            ]
+          },
+          "60060927": {
+            "id": "60060927",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "I'm sorry? What did you say?",
+            "nextDialogs": [
+              "60060928"
+            ]
+          },
+          "60060928": {
+            "id": "60060928",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I can't... I won't do it. She's saved my life so many times... It would be the ultimate betrayal!",
+            "nextDialogs": [
+              "60060929"
+            ]
+          },
+          "60060929": {
+            "id": "60060929",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "How could I look my daughter in the eyes and act like everything's still okay!?",
+            "nextDialogs": [
+              "60060930"
+            ]
+          },
+          "60060930": {
+            "id": "60060930",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "Hmph... So you're gunning for the world's best father now, are you? A guy like you? Heh... You're fooling no one.",
+            "nextDialogs": [
+              "60060931"
+            ]
+          },
+          "60060931": {
+            "id": "60060931",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "*sigh* This is our mistake — we let you have it too easy in Nasha Town, and now, you've forgotten the most important detail in your contract... the termination clause.",
+            "nextDialogs": [
+              "60060932"
+            ]
+          },
+          "60060932": {
+            "id": "60060932",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "I think it's time... we parted ways.",
+            "nextDialogs": [
+              "60060933"
+            ]
+          },
+          "60060933": {
+            "id": "60060933",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...!",
+            "nextDialogs": [
+              "60060934"
+            ]
+          },
+          "60060934": {
+            "id": "60060934",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...!",
+            "nextDialogs": [
+              "60060935"
+            ]
+          },
+          "60060935": {
+            "id": "60060935",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "#...Ineffa? {NICKNAME}?",
+            "nextDialogs": [
+              "60060938"
+            ]
+          },
+          "60060938": {
+            "id": "60060938",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Hahaha... the Eleventh Lord, and the \"variable\"... We were hoping you might show up.",
+            "nextDialogs": [
+              "60060939"
+            ]
+          },
+          "60060939": {
+            "id": "60060939",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...Wait, the controller! ...Without that, you—",
+            "nextDialogs": [
+              "60060940"
+            ]
+          },
+          "60060940": {
+            "id": "60060940",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Hmph... You thought we'd hand over the genuine article to you?",
+            "nextDialogs": [
+              "60060941"
+            ]
+          },
+          "60060941": {
+            "id": "60060941",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aah!",
+            "nextDialogs": [
+              "60060942"
+            ]
+          },
+          "60060942": {
+            "id": "60060942",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Another barrier?",
+            "nextDialogs": [
+              "60060943"
+            ]
+          },
+          "60060943": {
+            "id": "60060943",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "That's just a beacon used to set the location for this cage. We've been monitoring your movements ever since you entered these ruins.",
+            "nextDialogs": [
+              "60060944"
+            ]
+          },
+          "60060944": {
+            "id": "60060944",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Congratulations, Zhuoxin... your job is finally done. With you here, it was far easier to infer their location.",
+            "nextDialogs": [
+              "60060945"
+            ]
+          },
+          "60060945": {
+            "id": "60060945",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "You... You were playing me for a fool this whole time...",
+            "nextDialogs": [
+              "60060946"
+            ]
+          },
+          "60060946": {
+            "id": "60060946",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "...Don't waste your energy trying to break out. We've commandeered at least half of the systems in these ruins. All available power sources are keeping that cage intact.",
+            "nextDialogs": [
+              "60060947"
+            ]
+          },
+          "60060947": {
+            "id": "60060947",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What are you going to do to us?",
+            "nextDialogs": [
+              "60060948"
+            ]
+          },
+          "60060948": {
+            "id": "60060948",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Heh, no one needs to get hurt today. We aren't looking for a fight, especially not with Natlan's \"Tuma{RUBY#[S]Hope}ini.\"",
+            "nextDialogs": [
+              "60060949"
+            ]
+          },
+          "60060949": {
+            "id": "60060949",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "All we want is for your friend here, the former sovereign ruler... to lead us further inside.",
+            "nextDialogs": [
+              "60060950"
+            ]
+          },
+          "60060950": {
+            "id": "60060950",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Further inside? But we seem to have reached the center already. There is nowhere else to go.",
+            "nextDialogs": [
+              "60060951"
+            ]
+          },
+          "60060951": {
+            "id": "60060951",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "So it appears, but there is far more of this territory than meets the eye. The dragons possessed vast knowledge, and we have barely scratched the surface...",
+            "nextDialogs": [
+              "60060952"
+            ]
+          },
+          "60060952": {
+            "id": "60060952",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "That's where the sovereign ruler comes in. If our supposition is accurate... she has in her possession a secret key that gives access to the core.",
+            "nextDialogs": [
+              "60060953"
+            ]
+          },
+          "60060953": {
+            "id": "60060953",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "#I will cooperate. Let {NICKNAME}, Paimon, and Zhuoxin go.",
+            "nextDialogs": [
+              "60060954"
+            ]
+          },
+          "60060954": {
+            "id": "60060954",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa, no! These are bad people, don't trust them!",
+            "nextDialogs": [
+              "60060955"
+            ]
+          },
+          "60060955": {
+            "id": "60060955",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "You are only here because of me. Besides... this is what I want. I need to see the rest of this territory, and find out who I am.",
+            "nextDialogs": [
+              "60060956"
+            ]
+          },
+          "60060956": {
+            "id": "60060956",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Hehehe, finally, a voice of reason. Gotta hand it to the dragons and their advanced artificial intelligence... But unfortunately, there's no way we can agree to those terms.",
+            "nextDialogs": [
+              "60060957"
+            ]
+          },
+          "60060957": {
+            "id": "60060957",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "How do we know you won't just attack us the moment we let you out?",
+            "nextDialogs": [
+              "60060958"
+            ]
+          },
+          "60060958": {
+            "id": "60060958",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "Yeah, so settle down and get ready to go hungry for the next three days, hahaha! Even you, robot! You'll need charging eventually.",
+            "nextDialogs": [
+              "60060959"
+            ]
+          },
+          "60060959": {
+            "id": "60060959",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Before I go... They may have left a trail on their way here. Send someone out to cover our tracks — the last thing we need is reinforcements showing up.",
+            "nextDialogs": [
+              "60060960"
+            ]
+          },
+          "60060960": {
+            "id": "60060960",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...This is all my fault! Adieta... Aamu...",
+            "nextDialogs": [
+              "60060961"
+            ]
+          },
+          "60060961": {
+            "id": "60060961",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "...Beep beep...",
+            "nextDialogs": [
+              "60060962"
+            ]
+          },
+          "60060962": {
+            "id": "60060962",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Huh!? Who did that!?",
+            "nextDialogs": [
+              "60060963"
+            ]
+          },
+          "60060963": {
+            "id": "60060963",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Impossible... Every system we hacked is set up to hold them back!",
+            "nextDialogs": [
+              "60060964"
+            ]
+          },
+          "60060964": {
+            "id": "60060964",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Could it be...?",
+            "nextDialogs": [
+              "60060965"
+            ]
+          },
+          "60060965": {
+            "id": "60060965",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...Hold tight...",
+            "nextDialogs": [
+              "60060966"
+            ]
+          },
+          "60060966": {
+            "id": "60060966",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Waaah!",
+            "nextDialogs": [
+              "60060967"
+            ]
+          },
+          "60060967": {
+            "id": "60060967",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "That must lead to the core! ...It was beneath our feet this whole time? Take this barrier down!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600610",
+      "subQuestName": "Talk to Ineffa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061001"
+        ],
+        "dialogs": {
+          "60061001": {
+            "id": "60061001",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#*coughing*... That was a long way down... {NICKNAME}, Ineffa! Are you okay?",
+            "nextDialogs": [
+              "60061002"
+            ]
+          },
+          "60061002": {
+            "id": "60061002",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "No damage to report. But...",
+            "nextDialogs": [
+              "60061003"
+            ]
+          },
+          "60061003": {
+            "id": "60061003",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...I think I broke a leg.",
+            "nextDialogs": [
+              "60061004"
+            ]
+          },
+          "60061004": {
+            "id": "60061004",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, you — thanks for the rescue, but... could you have been a little more careful?",
+            "nextDialogs": [
+              "60061005"
+            ]
+          },
+          "60061005": {
+            "id": "60061005",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "...Beep beep...",
+            "nextDialogs": [
+              "60061006"
+            ]
+          },
+          "60061006": {
+            "id": "60061006",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, and we're back to \"beep beep\" again? Well, isn't that convenient...",
+            "nextDialogs": [
+              "60061007"
+            ]
+          },
+          "60061007": {
+            "id": "60061007",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...That is because I no longer need to communicate via that machine. Down here, I can talk to you directly.",
+            "nextDialogs": [
+              "60061008"
+            ]
+          },
+          "60061008": {
+            "id": "60061008",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's that voice again!",
+            "nextDialogs": [
+              "60061009"
+            ]
+          },
+          "60061009": {
+            "id": "60061009",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...When the Fatui put all their resources into keeping you trapped, it gave me a brief window to seize my privileges back... In my haste, I was not able to prioritize your safety...",
+            "nextDialogs": [
+              "60061010"
+            ]
+          },
+          "60061010": {
+            "id": "60061010",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Don't worry about me, I'll just rest up here... After everything I've done, I have no right to hold you back.",
+            "nextDialogs": [
+              "60061011"
+            ]
+          },
+          "60061011": {
+            "id": "60061011",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "But the Fatui may follow us down here.",
+            "nextDialogs": [
+              "60061012"
+            ]
+          },
+          "60061012": {
+            "id": "60061012",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...We will be ready for them...",
+            "nextDialogs": [
+              "60061013"
+            ]
+          },
+          "60061013": {
+            "id": "60061013",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah... More automatons!",
+            "nextDialogs": [
+              "60061016"
+            ]
+          },
+          "60061016": {
+            "id": "60061016",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Down here, all is under my control. They are not your enemy, human. They will take you somewhere safe to hide...",
+            "nextDialogs": [
+              "60061017"
+            ]
+          },
+          "60061017": {
+            "id": "60061017",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "#...Ineffa... {NICKNAME}... Good luck.",
+            "nextDialogs": [
+              "60061018"
+            ]
+          },
+          "60061018": {
+            "id": "60061018",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Eleventh Lord... Do you now recall the path you once chose?",
+            "nextDialogs": [
+              "60061019"
+            ]
+          },
+          "60061019": {
+            "id": "60061019",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Not yet, although... I think this is where I was born. But why? This is your territory.",
+            "nextDialogs": [
+              "60061020"
+            ]
+          },
+          "60061020": {
+            "id": "60061020",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...No, Eleventh Lord, you were not born here... Rather, this is where you were \"reborn.\"",
+            "nextDialogs": [
+              "60061021"
+            ]
+          },
+          "60061021": {
+            "id": "60061021",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Human... You once asked who placed the curse on the Eleventh Lord. The answer is... herself.",
+            "nextDialogs": [
+              "60061022"
+            ]
+          },
+          "60061022": {
+            "id": "60061022",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Myself?",
+            "nextDialogs": [
+              "60061023"
+            ]
+          },
+          "60061023": {
+            "id": "60061023",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "After a long and bitter war, our kind was defeated. You survived, but you were now stranded, with nowhere to belong.",
+            "nextDialogs": [
+              "60061024"
+            ]
+          },
+          "60061024": {
+            "id": "60061024",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Gone was the pride you once had as a member of dragonkind, gone was the territory once under your dominion... All of it gone, with no hope of return.",
+            "nextDialogs": [
+              "60061025"
+            ]
+          },
+          "60061025": {
+            "id": "60061025",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "What were you to do? Strike back at humanity and exact your revenge? Or search for a new home, a new place to belong? Your mind was conflicted as this irresolvable question ran endlessly through it...",
+            "nextDialogs": [
+              "60061026"
+            ]
+          },
+          "60061026": {
+            "id": "60061026",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Finally, your mind split into two: One, the sovereign ruler who swore revenge against humanity. The other, a malfunction who longed to seek a new home.",
+            "nextDialogs": [
+              "60061027"
+            ]
+          },
+          "60061027": {
+            "id": "60061027",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "I mean, who knows what happens when a manufactured mind goes mad? Maybe she lost her power and memories... maybe she split into different personalities.",
+            "nextDialogs": [
+              "60061028"
+            ]
+          },
+          "60061028": {
+            "id": "60061028",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "The sovereign ruler would sooner perish than suffer a downfall... and so, she placed the Exile's Curse upon herself, and upon you...",
+            "nextDialogs": [
+              "60061029"
+            ]
+          },
+          "60061029": {
+            "id": "60061029",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Meanwhile, the malfunction struggled through the pain to seek assistance from her former enemies, Lianca and Ixquieh... That is why you came here, praying to be reborn.",
+            "nextDialogs": [
+              "60061030"
+            ]
+          },
+          "60061030": {
+            "id": "60061030",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...So, you want to leave your past as sovereign ruler behind, to start over anew?",
+            "nextDialogs": [
+              "60061031"
+            ]
+          },
+          "60061031": {
+            "id": "60061031",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...Very well. If the ▇▇▇▇ you wish to sever comprises all memories of your enmity, then I'm willing to trust you.",
+            "nextDialogs": [
+              "60061032"
+            ]
+          },
+          "60061032": {
+            "id": "60061032",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Then... I am the \"malfunction\"? What happened to the sovereign ruler?",
+            "nextDialogs": [
+              "60061033"
+            ]
+          },
+          "60061033": {
+            "id": "60061033",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...",
+            "nextDialogs": [
+              "60061034"
+            ]
+          },
+          "60061034": {
+            "id": "60061034",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "We severed that part of her mind, and securely locked it away... Withering away, she finally perished completely, thousands of years ago.",
+            "nextDialogs": [
+              "60061035"
+            ]
+          },
+          "60061035": {
+            "id": "60061035",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "So she's gone, without a trace?",
+            "nextDialogs": [
+              "60061036"
+            ]
+          },
+          "60061036": {
+            "id": "60061036",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Yes, although the curse she placed upon you yet survives. It is unbreakable. That is why it continues to affect you to this day.",
+            "nextDialogs": [
+              "60061037"
+            ]
+          },
+          "60061037": {
+            "id": "60061037",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "So that's what that thing is...? A curse from the sovereign ruler...?",
+            "nextDialogs": [
+              "60061038"
+            ]
+          },
+          "60061038": {
+            "id": "60061038",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So she was severed and killed off, but Ineffa survived? How does that work? Aren't they the same person— uh, dragon?",
+            "nextDialogs": [
+              "60061039"
+            ]
+          },
+          "60061039": {
+            "id": "60061039",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "We sovereign rulers are artificial intelligence built with secret source technology, a fusion of phlogiston and information...",
+            "nextDialogs": [
+              "60061040"
+            ]
+          },
+          "60061040": {
+            "id": "60061040",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "In the case of the Eleventh Lord, the sovereign ruler personality and the malfunction personality split all but completely, even coming to occupy separate physical entities. In human terms, they would almost be considered as separate individuals.",
+            "nextDialogs": [
+              "60061041"
+            ]
+          },
+          "60061041": {
+            "id": "60061041",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "But in order to truly sever the connection between the two, and to break the power of the curse for good... You must be rebuilt from scratch with the aid of the source mechanisms located here... Just as I was before you.",
+            "nextDialogs": [
+              "60061042"
+            ]
+          },
+          "60061042": {
+            "id": "60061042",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "I, too, was tormented by the pain of the curse. But Lianca severed most of my knowledge and memories, rescuing me from the brink of destruction."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600611",
+      "subQuestName": "Head to the deepest area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600612",
+      "subQuestName": "Open the door to the deepest area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061201"
+        ],
+        "dialogs": {
+          "60061201": {
+            "id": "60061201",
+            "speakerId": 15424,
+            "speakerName": "Access Control Bot",
+            "text": "Please wait, confirming... Administrator 1... deceased.",
+            "nextDialogs": [
+              "60061202"
+            ]
+          },
+          "60061202": {
+            "id": "60061202",
+            "speakerId": 15424,
+            "speakerName": "Access Control Bot",
+            "text": "Administrator 2... deceased.",
+            "nextDialogs": [
+              "60061203"
+            ]
+          },
+          "60061203": {
+            "id": "60061203",
+            "speakerId": 15424,
+            "speakerName": "Access Control Bot",
+            "text": "Administrator 3... Identity confirmed. Lifting restrictions..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600613",
+      "subQuestName": "Proceed to the deepest area",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061301"
+        ],
+        "dialogs": {
+          "60061301": {
+            "id": "60061301",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...After two thousand years, we finally meet again, Eleventh Lord... Mirror of the Dawning Morn.",
+            "nextDialogs": [
+              "60061302"
+            ]
+          },
+          "60061302": {
+            "id": "60061302",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "And you... You're the Eighth Lord? The Priestess of Floral Candles and Skyborne Feathers?",
+            "nextDialogs": [
+              "60061303"
+            ]
+          },
+          "60061303": {
+            "id": "60061303",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Mmph!",
+            "nextDialogs": [
+              "60061304"
+            ]
+          },
+          "60061304": {
+            "id": "60061304",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa...!",
+            "nextDialogs": [
+              "60061305"
+            ]
+          },
+          "60061305": {
+            "id": "60061305",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "It's okay... I've recovered now.",
+            "nextDialogs": [
+              "60061306"
+            ]
+          },
+          "60061306": {
+            "id": "60061306",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "I see the curse haunts you greatly... I cannot fathom how difficult this must have been to survive this endless cycle of pain, and all alone, for two thousand years...",
+            "nextDialogs": [
+              "60061307"
+            ]
+          },
+          "60061307": {
+            "id": "60061307",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...I wasn't alone. I have had company every step of the way.",
+            "nextDialogs": [
+              "60061308"
+            ]
+          },
+          "60061308": {
+            "id": "60061308",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Hmph... In any case, a few moments from now, your pain will be no more. Come, Eleventh Lord. Stand before me... and be rid of this curse.",
+            "nextDialogs": [
+              "60061309"
+            ]
+          },
+          "60061309": {
+            "id": "60061309",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60061310"
+            ]
+          },
+          "60061310": {
+            "id": "60061310",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Having second thoughts?",
+            "nextDialogs": [
+              "60061311"
+            ]
+          },
+          "60061311": {
+            "id": "60061311",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Here I am, so close to my destination, yet my thoughts are only becoming more cluttered.",
+            "nextDialogs": [
+              "60061312"
+            ]
+          },
+          "60061312": {
+            "id": "60061312",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I am the way I am because the Eleventh Lord encountered a memory data conflict, and split into two.",
+            "nextDialogs": [
+              "60061313"
+            ]
+          },
+          "60061313": {
+            "id": "60061313",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "If I regain all of my memories... Will I not encounter the same conflict again? My cognition module... cannot produce a reliable prediction.",
+            "nextDialogs": [
+              "60061316"
+            ]
+          },
+          "60061316": {
+            "id": "60061316",
+            "speakerId": 1313,
+            "speakerName": "Aino",
+            "text": "Promise me... Remember, you have to come home!",
+            "nextDialogs": [
+              "60061317"
+            ]
+          },
+          "60061317": {
+            "id": "60061317",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "It is... But if my memories turn me back into a \"bad robot\"... Do whatever it takes to stop me.",
+            "nextDialogs": [
+              "60061318"
+            ]
+          },
+          "60061318": {
+            "id": "60061318",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...If that is the case, I cannot be allowed to make it back home."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600614",
+      "subQuestName": "Embark on \"The Journey Home\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600616",
+      "subQuestName": "Face the \"Sovereign Ruler\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061601"
+        ],
+        "dialogs": {
+          "60061601": {
+            "id": "60061601",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60061602"
+            ]
+          },
+          "60061602": {
+            "id": "60061602",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "Over there... That is the curse?",
+            "nextDialogs": [
+              "60061603"
+            ]
+          },
+          "60061603": {
+            "id": "60061603",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Yes... For the most part, it has been strangely calm ever since I entered this place.",
+            "nextDialogs": [
+              "60061604"
+            ]
+          },
+          "60061604": {
+            "id": "60061604",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "And yet... Whenever I'm about to recover an important memory, it suddenly kicks in... almost as if...",
+            "nextDialogs": [
+              "60061605"
+            ]
+          },
+          "60061605": {
+            "id": "60061605",
+            "speakerId": 15423,
+            "speakerName": "Priestess of Floral Candles and Skyborne Feathers",
+            "text": "...As if it is being controlled by somebody else? That is quite normal... for it is now in the presence of its owner and creator: the sovereign ruler.",
+            "nextDialogs": [
+              "60061606"
+            ]
+          },
+          "60061606": {
+            "id": "60061606",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...The sovereign ruler? My other self? ...But, I thought she perished— Argh...!",
+            "nextDialogs": [
+              "60061607"
+            ]
+          },
+          "60061607": {
+            "id": "60061607",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "...After two long millennia... m{RUBY#[S]Exile's Curse}y task is finally fulfilled. What a long journey it has been...",
+            "nextDialogs": [
+              "60061608"
+            ]
+          },
+          "60061608": {
+            "id": "60061608",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "...We meet again at last, my sovereign, my ruler... Mirror of the Dawning Morn.",
+            "nextDialogs": [
+              "60061609"
+            ]
+          },
+          "60061609": {
+            "id": "60061609",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Do you think Ineffa's okay? Why isn't she moving?",
+            "nextDialogs": [
+              "60061610"
+            ]
+          },
+          "60061610": {
+            "id": "60061610",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Here we are, comrades... the core of the ruins...",
+            "nextDialogs": [
+              "60061611"
+            ]
+          },
+          "60061611": {
+            "id": "60061611",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah! It's the Fatui, they caught up with us! We gotta do something! But Ineffa's still...",
+            "nextDialogs": [
+              "60061612"
+            ]
+          },
+          "60061612": {
+            "id": "60061612",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Prepare for battle!",
+            "nextDialogs": [
+              "60061613"
+            ]
+          },
+          "60061613": {
+            "id": "60061613",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "...Unnecessary.",
+            "nextDialogs": [
+              "60061614"
+            ]
+          },
+          "60061614": {
+            "id": "60061614",
+            "speakerId": 15366,
+            "speakerName": "Fajeyi",
+            "text": "Oh!",
+            "nextDialogs": [
+              "60061615"
+            ]
+          },
+          "60061615": {
+            "id": "60061615",
+            "speakerId": 15367,
+            "speakerName": "Gulebu",
+            "text": "Aaaah!!!",
+            "nextDialogs": [
+              "60061616"
+            ]
+          },
+          "60061616": {
+            "id": "60061616",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...What the...",
+            "nextDialogs": [
+              "60061617"
+            ]
+          },
+          "60061617": {
+            "id": "60061617",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Such power... Did Ineffa do that?)",
+            "nextDialogs": [
+              "60061618"
+            ]
+          },
+          "60061618": {
+            "id": "60061618",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Mmph!",
+            "nextDialogs": [
+              "60061619"
+            ]
+          },
+          "60061619": {
+            "id": "60061619",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}!",
+            "nextDialogs": [
+              "60061620"
+            ]
+          },
+          "60061620": {
+            "id": "60061620",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "Ugh... Missed by a hair's breadth. But now you are wounded — and this time, you will not escape!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600617",
+      "subQuestName": "Face the \"Mirror of the Dawning Morn\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061701"
+        ],
+        "dialogs": {
+          "60061701": {
+            "id": "60061701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aaaah!!!",
+            "nextDialogs": [
+              "60061702"
+            ]
+          },
+          "60061702": {
+            "id": "60061702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(This is bad... I can delay it, but who knows how long it'll take to destroy it completely...)",
+            "nextDialogs": [
+              "60061703"
+            ]
+          },
+          "60061703": {
+            "id": "60061703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Worse still... Paimon's in here too...)",
+            "nextDialogs": [
+              "60061704"
+            ]
+          },
+          "60061704": {
+            "id": "60061704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa! Why?",
+            "nextDialogs": [
+              "60061705"
+            ]
+          },
+          "60061705": {
+            "id": "60061705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "No... that's not Ineffa!",
+            "nextDialogs": [
+              "60061706"
+            ]
+          },
+          "60061706": {
+            "id": "60061706",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then whose voice is that? The Eighth Lord's? But why would Lianca's mother attack us?",
+            "nextDialogs": [
+              "60061707"
+            ]
+          },
+          "60061707": {
+            "id": "60061707",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "Lianca's dragon mother? Eighth Lord? Hahahaha! I laugh in the face of your folly! Lowly insects... did you humans really think that by forgetting the past, the curse could be escaped?",
+            "nextDialogs": [
+              "60061708"
+            ]
+          },
+          "60061708": {
+            "id": "60061708",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "And did you really believe that by simply being rebuilt, that traitor could avoid destruction? And this corrupt malfunction could regain her memories?",
+            "nextDialogs": [
+              "60061709"
+            ]
+          },
+          "60061709": {
+            "id": "60061709",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "The priestess is long gone! I and the other sovereign rulers executed her two thousand years ago! For that is what becomes of all who betray us... and now, this malfunction will meet with the same fate as she!",
+            "nextDialogs": [
+              "60061710"
+            ]
+          },
+          "60061710": {
+            "id": "60061710",
+            "speakerId": 1018,
+            "speakerName": "Ineffa?",
+            "text": "There is no \"dragon mother\" here, and there never was! Only one lord has dominion here, and that is me!",
+            "nextDialogs": [
+              "60061711"
+            ]
+          },
+          "60061711": {
+            "id": "60061711",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "For I am the Almighty Dragonlord, \"Mirror of the{RUBY#[D]Ix Raq'lapuj Chue'q Buluk} Dawning Morn,\" eleventh of the thirteen sovereign rulers! Kneel before me!",
+            "nextDialogs": [
+              "60061712"
+            ]
+          },
+          "60061712": {
+            "id": "60061712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You.. You tricked us! It was you talking to us this whole time... you who lured Ineffa here... and you who placed the curse on her! It was you all along!",
+            "nextDialogs": [
+              "60061713"
+            ]
+          },
+          "60061713": {
+            "id": "60061713",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "\"Ineffa\"? Hahaha, what a suitably ridiculous name... To me, she is nothing but a smattering of shed scales... an operational malfunction that must be destroyed...",
+            "nextDialogs": [
+              "60061714"
+            ]
+          },
+          "60061714": {
+            "id": "60061714",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...So, you want to leave your past as sovereign ruler behind, to start over anew?",
+            "nextDialogs": [
+              "60061715"
+            ]
+          },
+          "60061715": {
+            "id": "60061715",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "I applied the curse to curb her resistance, shut down her mind, and silence her lies... Now, all that remains is to borrow your privileges and see that she is severed for good...",
+            "nextDialogs": [
+              "60061716"
+            ]
+          },
+          "60061716": {
+            "id": "60061716",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...Very well. If the \"malfunction\" you wish to sever comprises all memories of your enmity, then I'm willing to trust you.",
+            "nextDialogs": [
+              "60061717"
+            ]
+          },
+          "60061717": {
+            "id": "60061717",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...No living thing is born evil. That's not what I believe. The only ones who do evil are those shackled by hatred, those who were never given the opportunity to do good in the first place...",
+            "nextDialogs": [
+              "60061718"
+            ]
+          },
+          "60061718": {
+            "id": "60061718",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "(Good and evil? Hahaha... Foolish categories that fail to distinguish between kin and foe. But she is the rotten spawn of the Eighth Lord. Her folly becomes her.)",
+            "nextDialogs": [
+              "60061719"
+            ]
+          },
+          "60061719": {
+            "id": "60061719",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "(I ought to crush this human scum beneath my feet, but without access to the treacherous Eighth Lord's facilities, there is no way to sever you... Argh, I must feign civility for now, but in time, I shall have my revenge...)",
+            "nextDialogs": [
+              "60061720"
+            ]
+          },
+          "60061720": {
+            "id": "60061720",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "(...Once this process is complete, and she realizes that she has destroyed the \"good\" instead of the \"evil\"... My claws will tear her heart from her chest!)",
+            "nextDialogs": [
+              "60061721"
+            ]
+          },
+          "60061721": {
+            "id": "60061721",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...Hmph.",
+            "nextDialogs": [
+              "60061722"
+            ]
+          },
+          "60061722": {
+            "id": "60061722",
+            "speakerId": 15348,
+            "speakerName": "Ixquieh",
+            "text": "...Do you really trust her, Lianca? This... malfunctioning part of a sovereign ruler's mind?",
+            "nextDialogs": [
+              "60061723"
+            ]
+          },
+          "60061723": {
+            "id": "60061723",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "You're a good friend, and you've already done more than I could have asked for. There's just one seal left... She and I can handle it.",
+            "nextDialogs": [
+              "60061724"
+            ]
+          },
+          "60061724": {
+            "id": "60061724",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "...This passage is only used for drainage and maintenance access, so it's not registered on the system... It's the perfect route for an ambush...",
+            "nextDialogs": [
+              "60061725"
+            ]
+          },
+          "60061725": {
+            "id": "60061725",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...Malfunction? Human? You conspired against me!?",
+            "nextDialogs": [
+              "60061726"
+            ]
+          },
+          "60061726": {
+            "id": "60061726",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "Hah, consider this getting off lightly. If Lanque was here, or if this was me twenty years ago, you wouldn't have survived long enough to realize you'd been conned.",
+            "nextDialogs": [
+              "60061727"
+            ]
+          },
+          "60061727": {
+            "id": "60061727",
+            "speakerId": 15347,
+            "speakerName": "Lianca",
+            "text": "Especially since you tried to con us first. You tried to have this poor child killed off in your place, didn't you... Eleventh Lord?",
+            "nextDialogs": [
+              "60061728"
+            ]
+          },
+          "60061728": {
+            "id": "60061728",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...Wretched worm! This is unforgivable! ...How dare you imprison me!",
+            "nextDialogs": [
+              "60061729"
+            ]
+          },
+          "60061729": {
+            "id": "60061729",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...And you, \"malfunction\"... Your curse shall endure until the sky falls and the ground crumbles! You will never know peace for the rest of your days!!!",
+            "nextDialogs": [
+              "60061730"
+            ]
+          },
+          "60061730": {
+            "id": "60061730",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "It is time to correct the injustice of the past! I would have severed and destroyed you on that fateful day... But instead, I was locked away by that human scum, Lianca...",
+            "nextDialogs": [
+              "60061731"
+            ]
+          },
+          "60061731": {
+            "id": "60061731",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "Two millennia I have been a prisoner in this place... I have spent that time slowly seizing control over the systems and processes, until my reach extended to every inch of this prison... Now, one last step remains before I can finally break free...",
+            "nextDialogs": [
+              "60061732"
+            ]
+          },
+          "60061732": {
+            "id": "60061732",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "The final secret key is embedded in your core... I had to work patiently and methodically to lure you here, posing as the Eighth Lord who once ruled this domain — but at last, it is within my grasp!",
+            "nextDialogs": [
+              "60061733"
+            ]
+          },
+          "60061733": {
+            "id": "60061733",
+            "speakerId": 15349,
+            "speakerName": "Little Robot",
+            "text": "Mirror of the Dawning Morn... return... core...",
+            "nextDialogs": [
+              "60061734"
+            ]
+          },
+          "60061734": {
+            "id": "60061734",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...But all is not lost. Lianca made a backup of the administrator privileges and placed it in your core...",
+            "nextDialogs": [
+              "60061735"
+            ]
+          },
+          "60061735": {
+            "id": "60061735",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(She tricked us... She was after Ineffa's core all along!)",
+            "nextDialogs": [
+              "60061736"
+            ]
+          },
+          "60061736": {
+            "id": "60061736",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...Which memory did that human scum embed the key in? ...Ugh, I will find it eventually, wherever it's hidden...",
+            "nextDialogs": [
+              "60061737"
+            ]
+          },
+          "60061737": {
+            "id": "60061737",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "In the meantime... Now that my resurrection has begun... so, too, shall my vengeance!",
+            "nextDialogs": [
+              "60061738"
+            ]
+          },
+          "60061738": {
+            "id": "60061738",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Aaaah!!!",
+            "nextDialogs": [
+              "60061739"
+            ]
+          },
+          "60061739": {
+            "id": "60061739",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60061740"
+            ]
+          },
+          "60061740": {
+            "id": "60061740",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...Grr! Wretched malfunction! Do not impede the inevitable!",
+            "nextDialogs": [
+              "60061741"
+            ]
+          },
+          "60061741": {
+            "id": "60061741",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I cannot let you get away with this...",
+            "nextDialogs": [
+              "60061742"
+            ]
+          },
+          "60061742": {
+            "id": "60061742",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa!",
+            "nextDialogs": [
+              "60061743"
+            ]
+          },
+          "60061743": {
+            "id": "60061743",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "You fool! In a matter of seconds, I will be able to overwrite your insubordination!",
+            "nextDialogs": [
+              "60061744"
+            ]
+          },
+          "60061744": {
+            "id": "60061744",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Seconds... is all I need!",
+            "nextDialogs": [
+              "60061745"
+            ]
+          },
+          "60061745": {
+            "id": "60061745",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "What!?",
+            "nextDialogs": [
+              "60061746"
+            ]
+          },
+          "60061746": {
+            "id": "60061746",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "My core...!",
+            "nextDialogs": [
+              "60061747"
+            ]
+          },
+          "60061747": {
+            "id": "60061747",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "Nooooo!",
+            "nextDialogs": [
+              "60061748"
+            ]
+          },
+          "60061748": {
+            "id": "60061748",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60061749"
+            ]
+          },
+          "60061749": {
+            "id": "60061749",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ineffa!!!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600618",
+      "subQuestName": "Check on Ineffa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60061801"
+        ],
+        "dialogs": {
+          "60061801": {
+            "id": "60061801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa! Hey, Ineffa! Wake up...",
+            "nextDialogs": [
+              "60061802"
+            ]
+          },
+          "60061802": {
+            "id": "60061802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#{NICKNAME}, she... She's gonna be okay, right?",
+            "nextDialogs": [
+              "60061805"
+            ]
+          },
+          "60061805": {
+            "id": "60061805",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "...She destroyed her own core? Hah... That's an unusual move for a machine.",
+            "nextDialogs": [
+              "60061806"
+            ]
+          },
+          "60061806": {
+            "id": "60061806",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "...I wonder how Marionette will react to this? Delight? Or disappointment?",
+            "nextDialogs": [
+              "60061807"
+            ]
+          },
+          "60061807": {
+            "id": "60061807",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wh— The Fatui!? How are you still alive...?",
+            "nextDialogs": [
+              "60061808"
+            ]
+          },
+          "60061808": {
+            "id": "60061808",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Don't act so surprised. I'm just one of her many projects...",
+            "nextDialogs": [
+              "60061809"
+            ]
+          },
+          "60061809": {
+            "id": "60061809",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "*cough*... As reconnaissance missions go... this outcome is a little underwhelming. I don't think I'll be getting any commendations if this is how my report ends...",
+            "nextDialogs": [
+              "60061810"
+            ]
+          },
+          "60061810": {
+            "id": "60061810",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "So let me reignite your flame one last time, Sovereign Ruler... Mirror of the Dawning Morn...",
+            "nextDialogs": [
+              "60061811"
+            ]
+          },
+          "60061811": {
+            "id": "60061811",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "Show us one final glimpse of your glory... the glory of the ancient dragons' technology...",
+            "nextDialogs": [
+              "60061812"
+            ]
+          },
+          "60061812": {
+            "id": "60061812",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Don't even try!",
+            "nextDialogs": [
+              "60061813"
+            ]
+          },
+          "60061813": {
+            "id": "60061813",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What the... This guy isn't made of flesh and blood...)",
+            "nextDialogs": [
+              "60061814"
+            ]
+          },
+          "60061814": {
+            "id": "60061814",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "...No wonder... Marionette told us to watch out for you... she said you were an... unpredictable variable...",
+            "nextDialogs": [
+              "60061815"
+            ]
+          },
+          "60061815": {
+            "id": "60061815",
+            "speakerId": 15365,
+            "speakerName": "Velimiru",
+            "text": "...But... if you think you're getting out of here alive... Heh, we'll see what a crazed sovereign ruler in the throes of death has to say about that...",
+            "nextDialogs": [
+              "60061816"
+            ]
+          },
+          "60061816": {
+            "id": "60061816",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "You would dare sabotage my revival... destroy my path back to dominion...",
+            "nextDialogs": [
+              "60061817"
+            ]
+          },
+          "60061817": {
+            "id": "60061817",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "Ugh! So be it... Since you seek a new place to belong, I shall grant you your wish...",
+            "nextDialogs": [
+              "60061818"
+            ]
+          },
+          "60061818": {
+            "id": "60061818",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "Welcome to your new home, where we all shall be buried till the end of time!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "600619",
+      "subQuestName": "Defeat the \"Sovereign Ruler\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600620",
+      "subQuestName": "Face \"The Path\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60062001"
+        ],
+        "dialogs": {
+          "60062001": {
+            "id": "60062001",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60062002"
+            ]
+          },
+          "60062002": {
+            "id": "60062002",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "After two thousand years in exile, searching and forgetting, we are back where we began.",
+            "nextDialogs": [
+              "60062003"
+            ]
+          },
+          "60062003": {
+            "id": "60062003",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "O{RUBY#[D]K'uhul}ur path was always going to end in our demise... This shall be the final resting place of the last sovereign ruler.",
+            "nextDialogs": [
+              "60062004"
+            ]
+          },
+          "60062004": {
+            "id": "60062004",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I... am no \"sovereign ruler\"...",
+            "nextDialogs": [
+              "60062005"
+            ]
+          },
+          "60062005": {
+            "id": "60062005",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I must... return... people are... waiting for me...",
+            "nextDialogs": [
+              "60062006"
+            ]
+          },
+          "60062006": {
+            "id": "60062006",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "Illogical... You are not authorized to prevent your self-destruction. No such privilege exists.",
+            "nextDialogs": [
+              "60062007"
+            ]
+          },
+          "60062007": {
+            "id": "60062007",
+            "speakerId": 1017,
+            "speakerName": "Exile's Curse",
+            "text": "We are back where we belong. Now, perish in the rubble of these ruins, last of the sovereign lords...",
+            "nextDialogs": [
+              "60062008"
+            ]
+          },
+          "60062008": {
+            "id": "60062008",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...No.",
+            "nextDialogs": [
+              "60062009"
+            ]
+          },
+          "60062009": {
+            "id": "60062009",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Somewhere in my memories lies the key."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600621",
+      "subQuestName": "Defeat the \"Sovereign Ruler\"",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600622",
+      "subQuestName": "Talk to Ineffa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60062201"
+        ],
+        "dialogs": {
+          "60062201": {
+            "id": "60062201",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "It... cannot... be...",
+            "nextDialogs": [
+              "60062202"
+            ]
+          },
+          "60062202": {
+            "id": "60062202",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Farewell, last of the sovereign lords.",
+            "nextDialogs": [
+              "60062203"
+            ]
+          },
+          "60062203": {
+            "id": "60062203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ineffa! ...Your core, it's fixed? And is that... a Vision?",
+            "nextDialogs": [
+              "60062204"
+            ]
+          },
+          "60062204": {
+            "id": "60062204",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Suggestion: Exit first, discuss later. The self-destruct protocol is destroying the foundations of this territory, and although I paused the process, it will not hold much longer.",
+            "nextDialogs": [
+              "60062205"
+            ]
+          },
+          "60062205": {
+            "id": "60062205",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "How long do we have?",
+            "nextDialogs": [
+              "60062206"
+            ]
+          },
+          "60062206": {
+            "id": "60062206",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Calculating... Remaining time: 30...",
+            "nextDialogs": [
+              "60062207"
+            ]
+          },
+          "60062207": {
+            "id": "60062207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "30 minutes? Phew... For a moment there, Paimon was worried...",
+            "nextDialogs": [
+              "60062208"
+            ]
+          },
+          "60062208": {
+            "id": "60062208",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...29, 28...",
+            "nextDialogs": [
+              "60062209"
+            ]
+          },
+          "60062209": {
+            "id": "60062209",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "HUH!?",
+            "nextDialogs": [
+              "60062210"
+            ]
+          },
+          "60062210": {
+            "id": "60062210",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Hey! Are you guys alright? The automatons suddenly stopped moving. Then there was that earthquake, and now the place seems to have sprung a leak...",
+            "nextDialogs": [
+              "60062211"
+            ]
+          },
+          "60062211": {
+            "id": "60062211",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Save it till we're outta here!",
+            "nextDialogs": [
+              "60062212"
+            ]
+          },
+          "60062212": {
+            "id": "60062212",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Estimated time to foundation cave-in: 20 seconds.",
+            "nextDialogs": [
+              "60062213"
+            ]
+          },
+          "60062213": {
+            "id": "60062213",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Huh...? HUH!?",
+            "nextDialogs": [
+              "60062214"
+            ]
+          },
+          "60062214": {
+            "id": "60062214",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...A place to belong...",
+            "nextDialogs": [
+              "60062215"
+            ]
+          },
+          "60062215": {
+            "id": "60062215",
+            "speakerId": 15355,
+            "speakerName": "Mirror of the Dawning Morn",
+            "text": "...I, too, once yearned for it..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600623",
+      "subQuestName": "Reunite with your companions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60062301"
+        ],
+        "dialogs": {
+          "60062301": {
+            "id": "60062301",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "...Xilonen, how much longer till it's unlocked? We need to get inside, asap.",
+            "nextDialogs": [
+              "60062302"
+            ]
+          },
+          "60062302": {
+            "id": "60062302",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "Be patient, okay! I'm working on it...",
+            "nextDialogs": [
+              "60062303"
+            ]
+          },
+          "60062303": {
+            "id": "60062303",
+            "speakerId": 1089,
+            "speakerName": "Mavuika",
+            "text": "#Let's trust that {NICKNAME} can handle things in there. Xilonen says she detected a huge energy source underground. We can't just break in, or we'll risk endangering everyone in this entire area.",
+            "nextDialogs": [
+              "60062304"
+            ]
+          },
+          "60062304": {
+            "id": "60062304",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "But...!",
+            "nextDialogs": [
+              "60062305"
+            ]
+          },
+          "60062305": {
+            "id": "60062305",
+            "speakerId": 1089,
+            "speakerName": "Mavuika",
+            "text": "If we're here much longer without any progress... I'll do what I have to.",
+            "nextDialogs": [
+              "60062306"
+            ]
+          },
+          "60062306": {
+            "id": "60062306",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "Oh!",
+            "nextDialogs": [
+              "60062307"
+            ]
+          },
+          "60062307": {
+            "id": "60062307",
+            "speakerId": 1096,
+            "speakerName": "Citlali",
+            "text": "You unlocked it!?",
+            "nextDialogs": [
+              "60062308"
+            ]
+          },
+          "60062308": {
+            "id": "60062308",
+            "speakerId": 14221,
+            "speakerName": "Ajaw",
+            "text": "Grrrrr!",
+            "nextDialogs": [
+              "60062309"
+            ]
+          },
+          "60062309": {
+            "id": "60062309",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "No... They made it out on their own.",
+            "nextDialogs": [
+              "60062310"
+            ]
+          },
+          "60062310": {
+            "id": "60062310",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Phew... We finally escaped! Luckily the cave-in only affected the lower levels...",
+            "nextDialogs": [
+              "60062311"
+            ]
+          },
+          "60062311": {
+            "id": "60062311",
+            "speakerId": 14977,
+            "speakerName": "Cacucu",
+            "text": "You alright there, bro?",
+            "nextDialogs": [
+              "60062312"
+            ]
+          },
+          "60062312": {
+            "id": "60062312",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "All good. Sorry to worry you.",
+            "nextDialogs": [
+              "60062313"
+            ]
+          },
+          "60062313": {
+            "id": "60062313",
+            "speakerId": 1089,
+            "speakerName": "Mavuika",
+            "text": "Another triumphant return for our \"Tuma{RUBY#[S]Hope}ini\"... and Ineffa, it's good to have you back. I assume this means you found the answers you were looking for?",
+            "nextDialogs": [
+              "60062314"
+            ]
+          },
+          "60062314": {
+            "id": "60062314",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Yes.",
+            "nextDialogs": [
+              "60062315"
+            ]
+          },
+          "60062315": {
+            "id": "60062315",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Huh? Aamu? I thought you hurt your leg? How come— Oof!",
+            "nextDialogs": [
+              "60062316"
+            ]
+          },
+          "60062316": {
+            "id": "60062316",
+            "speakerId": 15357,
+            "speakerName": "Aamu",
+            "text": "You... How could you do this to Adieta and me? You lied to us for over 10 years!?",
+            "nextDialogs": [
+              "60062317"
+            ]
+          },
+          "60062317": {
+            "id": "60062317",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I...",
+            "nextDialogs": [
+              "60062318"
+            ]
+          },
+          "60062318": {
+            "id": "60062318",
+            "speakerId": 1089,
+            "speakerName": "Mavuika",
+            "text": "Before anything else... I suggest we let this gentleman and Ineffa tell us the whole story.",
+            "nextDialogs": [
+              "60062319"
+            ]
+          },
+          "60062319": {
+            "id": "60062319",
+            "speakerId": 1026,
+            "speakerName": "Black Screen",
+            "text": "In the infinitesimally shorter space of time it takes to tell it, the story of one man's ten-year deception, and one machine's two-millennia search, comes to a close.",
+            "nextDialogs": [
+              "60062320"
+            ]
+          },
+          "60062320": {
+            "id": "60062320",
+            "speakerId": 1307,
+            "speakerName": "Ifa",
+            "text": "Sovereign rulers... Mirror of the Dawning Morn... Priestess of Floral Candles and Skyborne Feathers...",
+            "nextDialogs": [
+              "60062321"
+            ]
+          },
+          "60062321": {
+            "id": "60062321",
+            "speakerId": 1088,
+            "speakerName": "Kinich",
+            "text": "...Seems like Ajaw's forgotten quite a lot.",
+            "nextDialogs": [
+              "60062322"
+            ]
+          },
+          "60062322": {
+            "id": "60062322",
+            "speakerId": 14221,
+            "speakerName": "Ajaw",
+            "text": "...! Grrr!",
+            "nextDialogs": [
+              "60062323"
+            ]
+          },
+          "60062323": {
+            "id": "60062323",
+            "speakerId": 1089,
+            "speakerName": "Mavuika",
+            "text": "So, you began life in Natlan, then spent two thousand years adrift in Nod-Krai? In an endless cycle of losing your memories and trying to find them...",
+            "nextDialogs": [
+              "60062324"
+            ]
+          },
+          "60062324": {
+            "id": "60062324",
+            "speakerId": 1095,
+            "speakerName": "Xilonen",
+            "text": "But it sounds like it took all two thousand years' worth of memories to successfully overload the processing power of the curse.",
+            "nextDialogs": [
+              "60062325"
+            ]
+          },
+          "60062325": {
+            "id": "60062325",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "None of us had any certainty that the plan would succeed in the far future. Not I, not Ixquieh, not Lianca... And yet, they still did everything they could to try and help me.",
+            "nextDialogs": [
+              "60062326"
+            ]
+          },
+          "60062326": {
+            "id": "60062326",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Now you've remembered everything... Do you have a sense of where you truly belong?",
+            "nextDialogs": [
+              "60062327"
+            ]
+          },
+          "60062327": {
+            "id": "60062327",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Well... I was born and then reborn in Natlan, and it was the people of this nation who set me on my journey... But that's all ancient history now.",
+            "nextDialogs": [
+              "60062328"
+            ]
+          },
+          "60062328": {
+            "id": "60062328",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I can't seek for a sense of belonging in a world that no longer exists. That would make me no different from the Mirror of the Dawning Morn.",
+            "nextDialogs": [
+              "60062329"
+            ]
+          },
+          "60062329": {
+            "id": "60062329",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Instead, I will show my gratitude to them by honoring their wishes. By continuing on my own path... and returning to the place where I still have someone waiting for me.",
+            "nextDialogs": [
+              "60062330"
+            ]
+          },
+          "60062330": {
+            "id": "60062330",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Well said... I'm happy for you.",
+            "nextDialogs": [
+              "60062331"
+            ]
+          },
+          "60062331": {
+            "id": "60062331",
+            "speakerId": 1096,
+            "speakerName": "Citlali",
+            "text": "...So, to cut to the chase... did you find the code for that letter, or not?",
+            "nextDialogs": [
+              "60062332"
+            ]
+          },
+          "60062332": {
+            "id": "60062332",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Oh shoot. Forgot all about that.",
+            "nextDialogs": [
+              "60062333"
+            ]
+          },
+          "60062333": {
+            "id": "60062333",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Sincere apologies... A lot of memory data surfaced in a short timeframe... I am still processing it.",
+            "nextDialogs": [
+              "60062334"
+            ]
+          },
+          "60062334": {
+            "id": "60062334",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I left the cryptex back at the Flower-Feather Clan to make sure that I wouldn't lose it out in the wild. Please come back with me and we can inspect it.",
+            "nextDialogs": [
+              "60062335"
+            ]
+          },
+          "60062335": {
+            "id": "60062335",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I'm... so sorry that I kept this hidden from you all this time... Now, I can't go back to Liyue or Nod-Krai...",
+            "nextDialogs": [
+              "60062336"
+            ]
+          },
+          "60062336": {
+            "id": "60062336",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "The Northland Bank isn't gonna let me walk away from this... Nor is the Nod-Krai Oprichniki. You should... take Adieta, and go.",
+            "nextDialogs": [
+              "60062337"
+            ]
+          },
+          "60062337": {
+            "id": "60062337",
+            "speakerId": 15357,
+            "speakerName": "Aamu",
+            "text": "Oh, should I now? You think I'm the one that's gonna let you walk away, do you!? Idiot! You're coming back with me right now! And you're going to apologize to our daughter!",
+            "nextDialogs": [
+              "60062338"
+            ]
+          },
+          "60062338": {
+            "id": "60062338",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I... uh...",
+            "nextDialogs": [
+              "60062339"
+            ]
+          },
+          "60062339": {
+            "id": "60062339",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Looks like you all need some time to calm down after everything you've been through. If you're worried the Fatui are still looking for you, why not camp out at the Flower-Feather Clan for now?",
+            "nextDialogs": [
+              "60062340"
+            ]
+          },
+          "60062340": {
+            "id": "60062340",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "We welcome everyone, from old friends... to old enemies, turned new friends. Don't worry about a thing. You've got a whole future to figure things out...",
+            "nextDialogs": [
+              "60062341"
+            ]
+          },
+          "60062341": {
+            "id": "60062341",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "...Go and find where you belong.",
+            "nextDialogs": [
+              "60062342"
+            ]
+          },
+          "60062342": {
+            "id": "60062342",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...",
+            "nextDialogs": [
+              "60062343"
+            ]
+          },
+          "60062343": {
+            "id": "60062343",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I think... I've already found it."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600627",
+      "subQuestName": "Open the letter in the Flower-Feather Clan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "600624",
+      "subQuestName": "Open the letter in the Flower-Feather Clan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60062401"
+        ],
+        "dialogs": {
+          "60062401": {
+            "id": "60062401",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Here it is. The cryptex.",
+            "nextDialogs": [
+              "60062402"
+            ]
+          },
+          "60062402": {
+            "id": "60062402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So then, what's the code? Or what about that backup plan that Adieta mentioned?",
+            "nextDialogs": [
+              "60062403"
+            ]
+          },
+          "60062403": {
+            "id": "60062403",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Please see the casing that holds the combination code discs. The sender had me etch the code onto the casing so that I would not forget it. ...But I still forgot it.",
+            "nextDialogs": [
+              "60062404"
+            ]
+          },
+          "60062404": {
+            "id": "60062404",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, hold on... 1, 2, 3... 4, 5, 6!? ...Seriously!? It's been hiding in plain sight all this time!?",
+            "nextDialogs": [
+              "60062405"
+            ]
+          },
+          "60062405": {
+            "id": "60062405",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Yes. The sender said: The most secure code is one that you can write down and no one would think it's a code.",
+            "nextDialogs": [
+              "60062406"
+            ]
+          },
+          "60062406": {
+            "id": "60062406",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Who is this person...",
+            "nextDialogs": [
+              "60062407"
+            ]
+          },
+          "60062407": {
+            "id": "60062407",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "The sender said: Surprises are best saved till the end. Ha, ha, ha.",
+            "nextDialogs": [
+              "60062408"
+            ]
+          },
+          "60062408": {
+            "id": "60062408",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, now your memory's getting a little too good...",
+            "nextDialogs": [
+              "60062409"
+            ]
+          },
+          "60062409": {
+            "id": "60062409",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's open it up!",
+            "nextDialogs": [
+              "60062410"
+            ]
+          },
+          "60062410": {
+            "id": "60062410",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's with the firecracker!? Ugh... Paimon's had enough of this whole letter debacle, just read it already...",
+            "nextDialogs": [
+              "60062411"
+            ]
+          },
+          "60062411": {
+            "id": "60062411",
+            "speakerId": 10205,
+            "speakerName": "???",
+            "text": "#\"Dear Honorary Knight {NICKNAME}... I've heard a lot about you. Jean's always singing your praises...\"",
+            "nextDialogs": [
+              "60062412"
+            ]
+          },
+          "60062412": {
+            "id": "60062412",
+            "speakerId": 1310,
+            "speakerName": "Varka",
+            "text": "\"...Anyway, I'm sure this is as dull to read as it is to write. Let's talk more over a glass of wine some time. See you in Nod-Krai. Varka.\""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600651",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60065101"
+        ],
+        "dialogs": {
+          "60065101": {
+            "id": "60065101",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I'm so sorry, I... *sigh* This probably isn't the time or place for apologies, is it?",
+            "nextDialogs": [
+              "60065104"
+            ]
+          },
+          "60065104": {
+            "id": "60065104",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...It says in my contract that all terms are to expire in the event of my death. That means, my family would no longer be at risk.",
+            "nextDialogs": [
+              "60065105"
+            ]
+          },
+          "60065105": {
+            "id": "60065105",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "They're hardly the most scrupulous people in the world, but they do keep their word when it comes to contract stuff... And in any case, with me dead, it wouldn't be worth them going after my wife and daughter. Not worth the risk of getting on the wrong side of the Flower-Feather Clan.",
+            "nextDialogs": [
+              "60065106"
+            ]
+          },
+          "60065106": {
+            "id": "60065106",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "...Heh... Or maybe the real reason I didn't play along was... I'm tired of pretending to be someone I'm not.",
+            "nextDialogs": [
+              "60065107"
+            ]
+          },
+          "60065107": {
+            "id": "60065107",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "I'm gonna rest here for a while longer, then get to somewhere safe. Please, just go on without me. I've been enough of a burden to you already... not to mention Ineffa.",
+            "nextDialogs": [
+              "60065108"
+            ]
+          },
+          "60065108": {
+            "id": "60065108",
+            "speakerId": 15356,
+            "speakerName": "Zhuoxin",
+            "text": "Oh, and uh... I grabbed some supplies before I set off. They're just over there. All yours if you want 'em."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600652",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60065201"
+        ],
+        "dialogs": {
+          "60065201": {
+            "id": "60065201",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "I plan on staying in Natlan for the immediate future. When the time comes, perhaps we can travel to Nod-Krai together.",
+            "nextDialogs": [
+              "60065203",
+              "60065208",
+              "60065212",
+              "60065216"
+            ]
+          },
+          "60065203": {
+            "id": "60065203",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Mirror of the Dawning Morn wanted control of the machinery in the Eighth Lord's territory. She approached Ixquieh and Lianca and sold them a lie — that I was the threat, the part that needed severing.",
+            "nextDialogs": [
+              "60065204"
+            ]
+          },
+          "60065204": {
+            "id": "60065204",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "But they quickly saw through it. Lianca took advantage of her arrogance and turned her plan back on itself, using the territory's full power to imprison her inside...",
+            "nextDialogs": [
+              "60065205"
+            ]
+          },
+          "60065205": {
+            "id": "60065205",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "She was far more powerful than I at that time... To make sure I wasn't at risk of falling under her influence, Lianca worked on making the prison even more secure, and sent me out of the country.",
+            "nextDialogs": [
+              "60065206"
+            ]
+          },
+          "60065206": {
+            "id": "60065206",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "So, that's the true story of why Lianca locked down the Eighth Lord's territory. It had nothing to do with Och-Kan. I wouldn't be surprised if she saw him as a friend right until the very end."
+          },
+          "60065208": {
+            "id": "60065208",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "The Eighth Lord... She never betrayed dragonkind. Even though she harbored goodwill towards human beings, and despite facing execution and destruction in the end...",
+            "nextDialogs": [
+              "60065209"
+            ]
+          },
+          "60065209": {
+            "id": "60065209",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "She never once doubted herself or tried to escape. Even if Lianca really had wanted to secretly rescue her, I'm sure she would have talked her out of it.",
+            "nextDialogs": [
+              "60065210"
+            ]
+          },
+          "60065210": {
+            "id": "60065210",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Just as Lianca was determined to stick to her own path, the Eighth Lord remained a proud sovereign ruler until the end of her days."
+          },
+          "60065212": {
+            "id": "60065212",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "You mean, this thing that looks a lot like a Vision? Ixquieh embedded it in my core as the key to her and Lianca's plan.",
+            "nextDialogs": [
+              "60065213"
+            ]
+          },
+          "60065213": {
+            "id": "60065213",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "According to the Eighth Lord's research, it can harness a power source more fundamental than elemental energy... Similar objects have shown up in Nod-Krai before, too.",
+            "nextDialogs": [
+              "60065214"
+            ]
+          },
+          "60065214": {
+            "id": "60065214",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "Mirror of the Dawning Morn said it was \"built by the usurper, along with the three gods who abandoned us,\" but I do not know what she meant... It appears that a crucial memory is missing."
+          },
+          "60065216": {
+            "id": "60065216",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Having spent most of the last two thousand years in Nod-Krai, I am well-situated to provide you with a full and detailed report on all aspects of this location.",
+            "nextDialogs": [
+              "60065217"
+            ]
+          },
+          "60065217": {
+            "id": "60065217",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Memory damage detected...",
+            "nextDialogs": [
+              "60065218"
+            ]
+          },
+          "60065218": {
+            "id": "60065218",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...Hypothesis: Most of my memory data was damaged when I used it to overload the curse... Sincere apologies.",
+            "nextDialogs": [
+              "60065219"
+            ]
+          },
+          "60065219": {
+            "id": "60065219",
+            "speakerId": 1312,
+            "speakerName": "Ineffa",
+            "text": "...But I will never again forget the people and things that are most important to me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "600681",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60068101"
+        ],
+        "dialogs": {
+          "60068101": {
+            "id": "60068101",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600682",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60068201"
+        ],
+        "dialogs": {
+          "60068201": {
+            "id": "60068201",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600683",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60068301"
+        ],
+        "dialogs": {
+          "60068301": {
+            "id": "60068301",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600684",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60068401"
+        ],
+        "dialogs": {
+          "60068401": {
+            "id": "60068401",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "600699",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "60069901"
+        ],
+        "dialogs": {
+          "60069901": {
+            "id": "60069901",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": "Welcome...",
+            "nextDialogs": [
+              "60069902"
+            ]
+          },
+          "60069902": {
+            "id": "60069902",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": "Back...",
+            "nextDialogs": [
+              "60069903"
+            ]
+          },
+          "60069903": {
+            "id": "60069903",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": "Administrator...",
+            "nextDialogs": [
+              "60069904"
+            ]
+          },
+          "60069904": {
+            "id": "60069904",
+            "speakerId": 1030,
+            "speakerName": "<UNKNOWN>",
+            "text": "3..."
+          }
+        }
+      }
+    }
+  ]
+}

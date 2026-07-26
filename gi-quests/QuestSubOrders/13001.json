@@ -1,0 +1,1806 @@
+{
+  "lineCounts": {
+    "Asha": 1,
+    "Black Screen": 3,
+    "Collei": 1,
+    "Jasar": 10,
+    "Mechanical Crab": 23,
+    "Paimon": 45,
+    "Player": 29,
+    "Tighnari": 113,
+    "Yara": 1
+  },
+  "subQuests": [
+    {
+      "subId": "1300101",
+      "subQuestName": "Look for the mechanical crab",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010101"
+        ],
+        "dialogs": {
+          "130010101": {
+            "id": "130010101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We're here! This should be... Huh? Where's the crab?",
+            "nextDialogs": [
+              "130010102"
+            ]
+          },
+          "130010102": {
+            "id": "130010102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Did it secretly scuttle away?",
+            "nextDialogs": [
+              "130010103"
+            ]
+          },
+          "130010103": {
+            "id": "130010103",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "The traps weren't triggered, so it should still be here... Odd...",
+            "nextDialogs": [
+              "130010104"
+            ]
+          },
+          "130010104": {
+            "id": "130010104",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kuli...",
+            "nextDialogs": [
+              "130010105"
+            ]
+          },
+          "130010105": {
+            "id": "130010105",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010106"
+            ]
+          },
+          "130010106": {
+            "id": "130010106",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "It's here!",
+            "nextDialogs": [
+              "130010107"
+            ]
+          },
+          "130010107": {
+            "id": "130010107",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "You honored our agreement and waited here until we returned.",
+            "nextDialogs": [
+              "130010108"
+            ]
+          },
+          "130010108": {
+            "id": "130010108",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "As such, I'll hold up my end and give you another mechanical part. Keep it safe. I'm not giving you another one if you lose it.",
+            "nextDialogs": [
+              "130010109"
+            ]
+          },
+          "130010109": {
+            "id": "130010109",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010110"
+            ]
+          },
+          "130010110": {
+            "id": "130010110",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Glad you're satisfied. If you want more mechanical parts, take us deeper into the contaminated region.",
+            "nextDialogs": [
+              "130010111"
+            ]
+          },
+          "130010111": {
+            "id": "130010111",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I want to see what happened there — what caused the Avidya Forest to become like this."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300102",
+      "subQuestName": "Set off for the contaminated region",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010501"
+        ],
+        "dialogs": {
+          "130010501": {
+            "id": "130010501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So this is the contaminated region that everyone's been talking about... It definitely looks different from normal!",
+            "nextDialogs": [
+              "130010502"
+            ]
+          },
+          "130010502": {
+            "id": "130010502",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's like... really creepy and suffocating...",
+            "nextDialogs": [
+              "130010503"
+            ]
+          },
+          "130010503": {
+            "id": "130010503",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Do you feel unwell at all?",
+            "nextDialogs": [
+              "130010504"
+            ]
+          },
+          "130010504": {
+            "id": "130010504",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Doing fine so far.",
+            "nextDialogs": [
+              "130010505"
+            ]
+          },
+          "130010505": {
+            "id": "130010505",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Good. It's as I predicted: Elemental power confers a degree of resistance against the contaminated region's influence.",
+            "nextDialogs": [
+              "130010506"
+            ]
+          },
+          "130010506": {
+            "id": "130010506",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "How do you know that?",
+            "nextDialogs": [
+              "130010507"
+            ]
+          },
+          "130010507": {
+            "id": "130010507",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I haven't entered the contaminated region for a proper investigation, but I've conducted quite a few controlled experiments.",
+            "nextDialogs": [
+              "130010508"
+            ]
+          },
+          "130010508": {
+            "id": "130010508",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "My observations during our time here have all but confirmed my hypothesis. Look at these flowers. How are they different from normal?",
+            "nextDialogs": [
+              "130010511"
+            ]
+          },
+          "130010511": {
+            "id": "130010511",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "This flower species is formally known as the \"Sumeru Rose,\" but it is also known as the \"Ley Line Lodestar.\"",
+            "nextDialogs": [
+              "130010512"
+            ]
+          },
+          "130010512": {
+            "id": "130010512",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "They're sensitive to Ley Lines and emit varying amounts of light in response. Excessive brightness indicates a dangerous level of Ley Line activity in the surrounding area.",
+            "nextDialogs": [
+              "130010513"
+            ]
+          },
+          "130010513": {
+            "id": "130010513",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "From the looks of things, the Ley Lines around here are already out of control.",
+            "nextDialogs": [
+              "130010514"
+            ]
+          },
+          "130010514": {
+            "id": "130010514",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You're saying that the contamination here is coming from Ley Lines?",
+            "nextDialogs": [
+              "130010515"
+            ]
+          },
+          "130010515": {
+            "id": "130010515",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I can't confirm that right now, but I think that is the case.",
+            "nextDialogs": [
+              "130010516"
+            ]
+          },
+          "130010516": {
+            "id": "130010516",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Let's take another look around and see if we can discover more clues."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300103",
+      "subQuestName": "Head toward the depths of the contaminated region",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010301"
+        ],
+        "dialogs": {
+          "130010301": {
+            "id": "130010301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You know, we haven't seen any animals this entire time!",
+            "nextDialogs": [
+              "130010302"
+            ]
+          },
+          "130010302": {
+            "id": "130010302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The birds used to chirp really loudly, and there were a lot of foxes...",
+            "nextDialogs": [
+              "130010303"
+            ]
+          },
+          "130010303": {
+            "id": "130010303",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "The contaminated region currently appears to have a critical efflux of Ley Line energy, which is probably the root cause of the patients' cognitive disturbances.",
+            "nextDialogs": [
+              "130010304"
+            ]
+          },
+          "130010304": {
+            "id": "130010304",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Some animals have keen awareness. They sensed something abnormal in this area and fled.",
+            "nextDialogs": [
+              "130010305"
+            ]
+          },
+          "130010305": {
+            "id": "130010305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Leaky Ley Lines sure can cause a lot of damage, huh?",
+            "nextDialogs": [
+              "130010306"
+            ]
+          },
+          "130010306": {
+            "id": "130010306",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Like how plants have preferred growth conditions, we also gradually habituate to our surrounding environment.",
+            "nextDialogs": [
+              "130010307"
+            ]
+          },
+          "130010307": {
+            "id": "130010307",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Climate, temperature, humidity, intensity of Ley Line energies. When people live under fixed conditions, they reach a sort of \"homeostasis\" with their environment.",
+            "nextDialogs": [
+              "130010308"
+            ]
+          },
+          "130010308": {
+            "id": "130010308",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "This equilibrium is broken when the surrounding environment abruptly changes, causing people's bodies to react in abnormal ways.",
+            "nextDialogs": [
+              "130010309"
+            ]
+          },
+          "130010309": {
+            "id": "130010309",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "If normal fluctuations in temperature occur, then our bodies automatically adjust. However, the average person cannot adapt to changes in Ley Line energy, and so they fall ill.",
+            "nextDialogs": [
+              "130010310"
+            ]
+          },
+          "130010310": {
+            "id": "130010310",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Ah, I see.",
+            "nextDialogs": [
+              "130010311"
+            ]
+          },
+          "130010311": {
+            "id": "130010311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Then why are we okay?",
+            "nextDialogs": [
+              "130010312"
+            ]
+          },
+          "130010312": {
+            "id": "130010312",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "#I'm not sure why you are, but {NICKNAME} and I are fine because our elemental capabilities allow us to adapt to this kind of change.",
+            "nextDialogs": [
+              "130010313"
+            ]
+          },
+          "130010313": {
+            "id": "130010313",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Of course, it's not a good idea to spend too much time in areas with concentrated Ley Line energy. The only one who can freely traverse this place is probably the mechanical crab.",
+            "nextDialogs": [
+              "130010314"
+            ]
+          },
+          "130010314": {
+            "id": "130010314",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kulilu?",
+            "nextDialogs": [
+              "130010315"
+            ]
+          },
+          "130010315": {
+            "id": "130010315",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That's about it for the investigation. Help me find an open space. I want to test something."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300104",
+      "subQuestName": "Install a Purification Device",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010401"
+        ],
+        "dialogs": {
+          "130010401": {
+            "id": "130010401",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Environment... No wind... Target parameters... Normal...",
+            "nextDialogs": [
+              "130010402"
+            ]
+          },
+          "130010402": {
+            "id": "130010402",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Setup complete. Excellent — looks like it's working.",
+            "nextDialogs": [
+              "130010403"
+            ]
+          },
+          "130010403": {
+            "id": "130010403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What's this?",
+            "nextDialogs": [
+              "130010404"
+            ]
+          },
+          "130010404": {
+            "id": "130010404",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "A Purification Device I made. It can absorb excess Ley Line energy and temporarily stabilize an area.",
+            "nextDialogs": [
+              "130010405"
+            ]
+          },
+          "130010405": {
+            "id": "130010405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What a neat thing! Let's set up more and cover the entire region!",
+            "nextDialogs": [
+              "130010406"
+            ]
+          },
+          "130010406": {
+            "id": "130010406",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I wouldn't mind if that would actually work. Unfortunately, once this \"contamination\" is present, it isn't something that a few Purification Devices can fix.",
+            "nextDialogs": [
+              "130010407"
+            ]
+          },
+          "130010407": {
+            "id": "130010407",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "The Purification Devices have their limits. At best, they can only prevent the contaminated region from expanding temporarily.",
+            "nextDialogs": [
+              "130010408"
+            ]
+          },
+          "130010408": {
+            "id": "130010408",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "If we want to permanently eradicate the contamination from the Ley Line effluence, we'll need to tackle the source.",
+            "nextDialogs": [
+              "130010409"
+            ]
+          },
+          "130010409": {
+            "id": "130010409",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "At the heart of the contaminated region?",
+            "nextDialogs": [
+              "130010410"
+            ]
+          },
+          "130010410": {
+            "id": "130010410",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That's right.",
+            "nextDialogs": [
+              "130010411"
+            ]
+          },
+          "130010411": {
+            "id": "130010411",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kulilu?",
+            "nextDialogs": [
+              "130010412"
+            ]
+          },
+          "130010412": {
+            "id": "130010412",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010413"
+            ]
+          },
+          "130010413": {
+            "id": "130010413",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? The mechanical crab is acting a little strange.",
+            "nextDialogs": [
+              "130010414"
+            ]
+          },
+          "130010414": {
+            "id": "130010414",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Something's approaching...",
+            "nextDialogs": [
+              "130010415"
+            ]
+          },
+          "130010415": {
+            "id": "130010415",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "So that's it. Now that the Ley Line energy has stabilized, the monsters that had left are starting to return.",
+            "nextDialogs": [
+              "130010416"
+            ]
+          },
+          "130010416": {
+            "id": "130010416",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Get rid of them quickly! Don't let them get close to the Purification Device!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300106",
+      "subQuestName": "Defeat the attracted monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1300107",
+      "subQuestName": "Catch up with the Mechanical Crab",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010801"
+        ],
+        "dialogs": {
+          "130010801": {
+            "id": "130010801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whew... That's all of them.",
+            "nextDialogs": [
+              "130010802"
+            ]
+          },
+          "130010802": {
+            "id": "130010802",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010803"
+            ]
+          },
+          "130010803": {
+            "id": "130010803",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010804"
+            ]
+          },
+          "130010804": {
+            "id": "130010804",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, where are you— Wait for us!",
+            "nextDialogs": [
+              "130010805"
+            ]
+          },
+          "130010805": {
+            "id": "130010805",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Let's hurry and keep up, {NICKNAME}!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300108",
+      "subQuestName": "Defeat the nearby mechanical monsters",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1300109",
+      "subQuestName": "Talk to the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130010901"
+        ],
+        "dialogs": {
+          "130010901": {
+            "id": "130010901",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Aaah... Spare me, please spare me!",
+            "nextDialogs": [
+              "130010902"
+            ]
+          },
+          "130010902": {
+            "id": "130010902",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, are you okay?",
+            "nextDialogs": [
+              "130010903"
+            ]
+          },
+          "130010903": {
+            "id": "130010903",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "These injuries are superficial. Don't move. I'll patch you up.",
+            "nextDialogs": [
+              "130010904"
+            ]
+          },
+          "130010904": {
+            "id": "130010904",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Who are you all? What happened to those mechanical monsters?",
+            "nextDialogs": [
+              "130010905"
+            ]
+          },
+          "130010905": {
+            "id": "130010905",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Don't worry, we took care of them!",
+            "nextDialogs": [
+              "130010906"
+            ]
+          },
+          "130010906": {
+            "id": "130010906",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Good. Haha... That's good...",
+            "nextDialogs": [
+              "130010907"
+            ]
+          },
+          "130010907": {
+            "id": "130010907",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010908"
+            ]
+          },
+          "130010908": {
+            "id": "130010908",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Aaah, it's a monster! Hurry, attack it!",
+            "nextDialogs": [
+              "130010909"
+            ]
+          },
+          "130010909": {
+            "id": "130010909",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kulilu?",
+            "nextDialogs": [
+              "130010910"
+            ]
+          },
+          "130010910": {
+            "id": "130010910",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "How do we explain this? Crabby here isn't a bad guy.",
+            "nextDialogs": [
+              "130010911"
+            ]
+          },
+          "130010911": {
+            "id": "130010911",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It heard you shouting for help and brought us here to rescue you.",
+            "nextDialogs": [
+              "130010912"
+            ]
+          },
+          "130010912": {
+            "id": "130010912",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "It's faking it — it has to be! Maybe it's gonna partner up with the other mechanical monsters and kill me!",
+            "nextDialogs": [
+              "130010913"
+            ]
+          },
+          "130010913": {
+            "id": "130010913",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Do you know what's inside the forest? It's all... It's all crawling with mechanical freaks!",
+            "nextDialogs": [
+              "130010914"
+            ]
+          },
+          "130010914": {
+            "id": "130010914",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "I just came here to pick herbs, but I accidentally went into the contaminated region and almost died.",
+            "nextDialogs": [
+              "130010915"
+            ]
+          },
+          "130010915": {
+            "id": "130010915",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "...",
+            "nextDialogs": [
+              "130010916"
+            ]
+          },
+          "130010916": {
+            "id": "130010916",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "I gotta get out of here. Yes... Yes, I have to escape...",
+            "nextDialogs": [
+              "130010917"
+            ]
+          },
+          "130010917": {
+            "id": "130010917",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "Be careful. These mechanical life forms are up to no good. It'd be best if you stayed far, far away from them!",
+            "nextDialogs": [
+              "130010918"
+            ]
+          },
+          "130010918": {
+            "id": "130010918",
+            "speakerId": 12612,
+            "speakerName": "Jasar",
+            "text": "No wonder the Akademiya wanted to completely ban the existence of mechanical life forms. Those things should be annihilated...",
+            "nextDialogs": [
+              "130010919"
+            ]
+          },
+          "130010919": {
+            "id": "130010919",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Are you okay?",
+            "nextDialogs": [
+              "130010920"
+            ]
+          },
+          "130010920": {
+            "id": "130010920",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "His inarticulate speech and bodily tremors indicate psyche disruption. He's been inside the contaminated region for too long.",
+            "nextDialogs": [
+              "130010921"
+            ]
+          },
+          "130010921": {
+            "id": "130010921",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "We've purified the Ley Line energy over there. Follow this path out and you'll soon see the village.",
+            "nextDialogs": [
+              "130010922"
+            ]
+          },
+          "130010922": {
+            "id": "130010922",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "When he gets to the village, someone will bring him to Collei for help. I already prepared medication that will return him to normal.",
+            "nextDialogs": [
+              "130010923"
+            ]
+          },
+          "130010923": {
+            "id": "130010923",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010926"
+            ]
+          },
+          "130010926": {
+            "id": "130010926",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Hmm... So you think you did a \"good job\" and want a part as your reward?",
+            "nextDialogs": [
+              "130010927"
+            ]
+          },
+          "130010927": {
+            "id": "130010927",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130010928"
+            ]
+          },
+          "130010928": {
+            "id": "130010928",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's so hard to understand...",
+            "nextDialogs": [
+              "130010929"
+            ]
+          },
+          "130010929": {
+            "id": "130010929",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Alright, regardless of what you're thinking, you did some real good this time.",
+            "nextDialogs": [
+              "130010930"
+            ]
+          },
+          "130010930": {
+            "id": "130010930",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That's why I'll give you another mechanical part. Need any help with it?",
+            "nextDialogs": [
+              "130010931"
+            ]
+          },
+          "130010931": {
+            "id": "130010931",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kelukulo.",
+            "nextDialogs": [
+              "130010932"
+            ]
+          },
+          "130010932": {
+            "id": "130010932",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Guess not. Well, make sure to hang on to it. What was going through your owner's mind when he made you, I wonder? You're like a giant mechanical crab on the outside and a fluffy little hamster on the inside.",
+            "nextDialogs": [
+              "130010933"
+            ]
+          },
+          "130010933": {
+            "id": "130010933",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "And also, how do you feel about that person saying that you're as evil as the other mechanical life forms?",
+            "nextDialogs": [
+              "130010934"
+            ]
+          },
+          "130010934": {
+            "id": "130010934",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kulilu?",
+            "nextDialogs": [
+              "130010935"
+            ]
+          },
+          "130010935": {
+            "id": "130010935",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Okay, it definitely doesn't understand you.",
+            "nextDialogs": [
+              "130010936"
+            ]
+          },
+          "130010936": {
+            "id": "130010936",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "It seems like it possesses limited understanding only towards matters related to mechanical components.",
+            "nextDialogs": [
+              "130010937"
+            ]
+          },
+          "130010937": {
+            "id": "130010937",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "\"Help others to get parts.\" That's probably its thought process. As for why it — rather, its owner — is collecting so many components, I'm not sure.",
+            "nextDialogs": [
+              "130010938"
+            ]
+          },
+          "130010938": {
+            "id": "130010938",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "It's getting late. Let's set up camp for the night. We'll explore further tomorrow after a night's rest."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300105",
+      "subQuestName": "Look for a spot to set up a tent",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1300112",
+      "subQuestName": "Prepare to make camp",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011201"
+        ],
+        "dialogs": {
+          "130011201": {
+            "id": "130011201",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Let's set up camp here.",
+            "nextDialogs": [
+              "130011202"
+            ]
+          },
+          "130011202": {
+            "id": "130011202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright! Paimon also thinks it's a good spot!",
+            "nextDialogs": [
+              "130011203"
+            ]
+          },
+          "130011203": {
+            "id": "130011203",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Oh? Any particular reason?",
+            "nextDialogs": [
+              "130011204"
+            ]
+          },
+          "130011204": {
+            "id": "130011204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "This place is perfect to put up a big tent!",
+            "nextDialogs": [
+              "130011205"
+            ]
+          },
+          "130011205": {
+            "id": "130011205",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We can also set up a cooking pot and cook tons of delicious food!",
+            "nextDialogs": [
+              "130011206"
+            ]
+          },
+          "130011206": {
+            "id": "130011206",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "A very Paimon reason.",
+            "nextDialogs": [
+              "130011207"
+            ]
+          },
+          "130011207": {
+            "id": "130011207",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "You're not wrong, but the primary reason for choosing this place is because its higher elevation keeps us away from the water vapor below.",
+            "nextDialogs": [
+              "130011208"
+            ]
+          },
+          "130011208": {
+            "id": "130011208",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Rainforests are very wet. You should always be careful when spending the night in damp places.",
+            "nextDialogs": [
+              "130011209"
+            ]
+          },
+          "130011209": {
+            "id": "130011209",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "For the next tasks at hand, let's divide and conquer. I'll set up the tent, you'll be in charge of making the fire, and Paimon will forage for edibles nearby.",
+            "nextDialogs": [
+              "130011210"
+            ]
+          },
+          "130011210": {
+            "id": "130011210",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Leave it to Paimon! Paimon's a pro!",
+            "nextDialogs": [
+              "130011211"
+            ]
+          },
+          "130011211": {
+            "id": "130011211",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I'm not expecting that much. Just do what you can.",
+            "nextDialogs": [
+              "130011212"
+            ]
+          },
+          "130011212": {
+            "id": "130011212",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Thanks to Tighnari's guidance, you safely start a fire...",
+            "nextDialogs": [
+              "130011213"
+            ]
+          },
+          "130011213": {
+            "id": "130011213",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That's right. You can use rushes to start a fire in the wilderness.",
+            "nextDialogs": [
+              "130011214"
+            ]
+          },
+          "130011214": {
+            "id": "130011214",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Their piths are relatively dry and can be readily set aflame. The downside is that they produce a lot of smoke.",
+            "nextDialogs": [
+              "130011215"
+            ]
+          },
+          "130011215": {
+            "id": "130011215",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#*sob* {NICKNAME}, Tighnari... Paimon couldn't find any food.",
+            "nextDialogs": [
+              "130011216"
+            ]
+          },
+          "130011216": {
+            "id": "130011216",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon didn't know that rainforests had so many interesting plants until we came here! There were all sorts of weird-looking mushrooms, but Paimon didn't know which ones were edible.",
+            "nextDialogs": [
+              "130011217"
+            ]
+          },
+          "130011217": {
+            "id": "130011217",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon also saw wild berries on the ground, and Paimon was gonna fly over and pick them up, but the dead leaves on top suddenly started moving! It freaked Paimon out!",
+            "nextDialogs": [
+              "130011218"
+            ]
+          },
+          "130011218": {
+            "id": "130011218",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Those were probably Deadleaf Butterflies. They camouflage as dead leaves to evade predators.",
+            "nextDialogs": [
+              "130011219"
+            ]
+          },
+          "130011219": {
+            "id": "130011219",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "My guess is that they mistook you for a bird when you flew over, so they fled. Little did they know that you were more scared than they were.",
+            "nextDialogs": [
+              "130011220"
+            ]
+          },
+          "130011220": {
+            "id": "130011220",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Never mind. The tent's up, so you two go rest. I'll forage for food.",
+            "nextDialogs": [
+              "130011221"
+            ]
+          },
+          "130011221": {
+            "id": "130011221",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130011222"
+            ]
+          },
+          "130011222": {
+            "id": "130011222",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Oh? You found some already.",
+            "nextDialogs": [
+              "130011226",
+              "130011225"
+            ]
+          },
+          "130011226": {
+            "id": "130011226",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130011227"
+            ]
+          },
+          "130011227": {
+            "id": "130011227",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon understands it this time! It wants mechanical parts again!",
+            "nextDialogs": [
+              "130011228"
+            ]
+          },
+          "130011228": {
+            "id": "130011228",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Sorry, no part this time.",
+            "nextDialogs": [
+              "130011229"
+            ]
+          },
+          "130011229": {
+            "id": "130011229",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kulilu?",
+            "nextDialogs": [
+              "130011230"
+            ]
+          },
+          "130011230": {
+            "id": "130011230",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That task wasn't important enough. If every little thing resulted in a reward, then it might start to take advantage of the system.",
+            "nextDialogs": [
+              "130011231"
+            ]
+          },
+          "130011231": {
+            "id": "130011231",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I'll note little things like this and give a cumulative reward at a later time.",
+            "nextDialogs": [
+              "130011232"
+            ]
+          },
+          "130011232": {
+            "id": "130011232",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you running low on parts...?",
+            "nextDialogs": [
+              "130011233"
+            ]
+          },
+          "130011233": {
+            "id": "130011233",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Ahem, that is one reason.",
+            "nextDialogs": [
+              "130011234"
+            ]
+          },
+          "130011234": {
+            "id": "130011234",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kuli...",
+            "nextDialogs": [
+              "130011235"
+            ]
+          },
+          "130011235": {
+            "id": "130011235",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It looks really sad...",
+            "nextDialogs": [
+              "130011236"
+            ]
+          },
+          "130011236": {
+            "id": "130011236",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "...After some further thought, it might come up with some weird misunderstanding if I don't give it something. Alright, here's another for you.",
+            "nextDialogs": [
+              "130011237"
+            ]
+          },
+          "130011237": {
+            "id": "130011237",
+            "speakerId": 1002,
+            "speakerName": "Mechanical Crab",
+            "text": "Kolu!",
+            "nextDialogs": [
+              "130011238"
+            ]
+          },
+          "130011238": {
+            "id": "130011238",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I'm off to prepare dinner. We'll take shifts on lookout duty tonight. You two can sleep first. I'll wake you up later.",
+            "nextDialogs": [
+              "130011239"
+            ]
+          },
+          "130011239": {
+            "id": "130011239",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We need lookouts?",
+            "nextDialogs": [
+              "130011240"
+            ]
+          },
+          "130011240": {
+            "id": "130011240",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Yes.",
+            "nextDialogs": [
+              "130011241"
+            ]
+          },
+          "130011241": {
+            "id": "130011241",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Even though most animals fled because of the Ley Lines, we can't completely let down our guard.",
+            "nextDialogs": [
+              "130011242"
+            ]
+          },
+          "130011242": {
+            "id": "130011242",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "It's settled, then. I'll set up some pest-repelling devices so poisonous insects don't come crawling into the tent.",
+            "nextDialogs": [
+              "130011243"
+            ]
+          },
+          "130011243": {
+            "id": "130011243",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Have a good night. Not too good, though."
+          },
+          "130011225": {
+            "id": "130011225",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300110",
+      "subQuestName": "Go into the tent to rest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011301"
+        ],
+        "dialogs": {
+          "130011301": {
+            "id": "130011301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon's getting sleepy... Ah! Is this because of the Ley Lines?",
+            "nextDialogs": [
+              "130011302"
+            ]
+          },
+          "130011302": {
+            "id": "130011302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "It's been a while since we camped outside like this!",
+            "nextDialogs": [
+              "130011303"
+            ]
+          },
+          "130011303": {
+            "id": "130011303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Hehe... This feels like when we just started adventuring together! Nighty night! {NICKNAME}!",
+            "nextDialogs": [
+              "130011304"
+            ]
+          },
+          "130011304": {
+            "id": "130011304",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Paimon gradually falls asleep while reminiscing..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300111",
+      "subQuestName": "Talk to Tighnari",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011101"
+        ],
+        "dialogs": {
+          "130011101": {
+            "id": "130011101",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Hm? You're awake earlier than I expected. Did you sleep well?",
+            "nextDialogs": [
+              "130011103",
+              "130011106"
+            ]
+          },
+          "130011103": {
+            "id": "130011103",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "That's good. I was worried that you two wouldn't be able to sleep, so I used two of my homemade incenses.",
+            "nextDialogs": [
+              "130011104"
+            ]
+          },
+          "130011104": {
+            "id": "130011104",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Don't worry, they're made from all-natural ingredients. They have a light fragrance and aren't harmful to the body.",
+            "nextDialogs": [
+              "130011110"
+            ]
+          },
+          "130011110": {
+            "id": "130011110",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Speaking of which, have you seen the crab?",
+            "nextDialogs": [
+              "130011111"
+            ]
+          },
+          "130011111": {
+            "id": "130011111",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "It was scampering around over there just now, but I don't know where it went.",
+            "nextDialogs": [
+              "130011112"
+            ]
+          },
+          "130011112": {
+            "id": "130011112",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Are you wary of it?",
+            "nextDialogs": [
+              "130011113"
+            ]
+          },
+          "130011113": {
+            "id": "130011113",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "So you can tell. My suspicion is less towards the crab, and more directed to its unrevealed owner.",
+            "nextDialogs": [
+              "130011114"
+            ]
+          },
+          "130011114": {
+            "id": "130011114",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "A Ley Line effluence of this magnitude occurred without any warning. Someone probably disrupted the natural flow of the Ley Lines.",
+            "nextDialogs": [
+              "130011115"
+            ]
+          },
+          "130011115": {
+            "id": "130011115",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Until we fully understand the situation, take extra caution. The Akademiya has banned mechanical life form research for years, so the origin of these creatures is very suspect."
+          },
+          "130011106": {
+            "id": "130011106",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "You have to maintain constant vigilance in dangerous places like this. Yawning all the time like that is no good.",
+            "nextDialogs": [
+              "130011107"
+            ]
+          },
+          "130011107": {
+            "id": "130011107",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "If you can't stay awake, it's okay. Go sleep some more. I'm not tired yet.",
+            "nextDialogs": [
+              "130011108"
+            ]
+          },
+          "130011108": {
+            "id": "130011108",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I can manage.",
+            "nextDialogs": [
+              "130011109"
+            ]
+          },
+          "130011109": {
+            "id": "130011109",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Really? You don't need to push yourself. I'm used to staying up all night because many plant and animal species can only be observed during nighttime."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300114",
+      "subQuestName": "Retrieve the pest-repelling devices",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011401"
+        ],
+        "dialogs": {
+          "130011401": {
+            "id": "130011401",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Hm? You're still awake?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300116",
+      "subQuestName": "Prepare to set off",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011601"
+        ],
+        "dialogs": {
+          "130011601": {
+            "id": "130011601",
+            "speakerId": 1004,
+            "speakerName": "Black Screen",
+            "text": "Last night's pest-repelling devices are recovered...",
+            "nextDialogs": [
+              "130011602"
+            ]
+          },
+          "130011602": {
+            "id": "130011602",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Alright, it's about time to head out. As we go further in, we may encounter more berserk machines.",
+            "nextDialogs": [
+              "130011603"
+            ]
+          },
+          "130011603": {
+            "id": "130011603",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "The effects of the Ley Lines will also increase. If you're struggling, it would be wise to avoid conflict.",
+            "nextDialogs": [
+              "130011604"
+            ]
+          },
+          "130011604": {
+            "id": "130011604",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Try to conserve as much energy as possible until we reach the source of the contamination."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300117",
+      "subQuestName": "Go to the depths of the contaminated region",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130011701"
+        ],
+        "dialogs": {
+          "130011701": {
+            "id": "130011701",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Guess it'll have to wait until we return.",
+            "nextDialogs": [
+              "130011702"
+            ]
+          },
+          "130011702": {
+            "id": "130011702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's going on?",
+            "nextDialogs": [
+              "130011704"
+            ]
+          },
+          "130011704": {
+            "id": "130011704",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I also just remembered that I forgot to apply essential oil to my tail. You probably noticed that it isn't as glossy as usual.",
+            "nextDialogs": [
+              "130011705"
+            ]
+          },
+          "130011705": {
+            "id": "130011705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "...Nope, I don't see it.",
+            "nextDialogs": [
+              "130011706"
+            ]
+          },
+          "130011706": {
+            "id": "130011706",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Hmm... Perhaps one night doesn't make too much of a difference.",
+            "nextDialogs": [
+              "130011707"
+            ]
+          },
+          "130011707": {
+            "id": "130011707",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "I'll make a new blend when we get back. It should make up for last night. I should have some leftover herbs from last month..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300118",
+      "subQuestName": "Defeat the monsters in your path",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1300123",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130012301"
+        ],
+        "dialogs": {
+          "130012301": {
+            "id": "130012301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "How do you put out a fire...?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300124",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130012401"
+        ],
+        "dialogs": {
+          "130012401": {
+            "id": "130012401",
+            "speakerId": 12597,
+            "speakerName": "Yara",
+            "text": "Thank you. I feel much better now."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300125",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130012501"
+        ],
+        "dialogs": {
+          "130012501": {
+            "id": "130012501",
+            "speakerId": 1051,
+            "speakerName": "Collei",
+            "text": "I can do this. I can do this..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300126",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130012601"
+        ],
+        "dialogs": {
+          "130012601": {
+            "id": "130012601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright! Now that the fire's out, we just need to pack up the cooking pot..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300127",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130012701"
+        ],
+        "dialogs": {
+          "130012701": {
+            "id": "130012701",
+            "speakerId": 12598,
+            "speakerName": "Asha",
+            "text": "(Murmuring to herself, Asha seems to be praying for her son's recovery.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1300199",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "130019901"
+        ],
+        "dialogs": {
+          "130019901": {
+            "id": "130019901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "The mechanical crab went that way. Let's keep up!",
+            "nextDialogs": [
+              "130019903"
+            ]
+          },
+          "130019903": {
+            "id": "130019903",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Hey! Over here!",
+            "nextDialogs": [
+              "130019904"
+            ]
+          },
+          "130019904": {
+            "id": "130019904",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "Come on you big lummox, raise your head and look up!",
+            "nextDialogs": [
+              "130019905"
+            ]
+          },
+          "130019905": {
+            "id": "130019905",
+            "speakerId": 1050,
+            "speakerName": "Tighnari",
+            "text": "As I thought. The closer we get to the contamination's source, the more mechanical monsters that appear..."
+          }
+        }
+      }
+    }
+  ]
+}

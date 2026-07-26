@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "海伦": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7070001",
+      "subQuestName": "将十朵甜甜花交给海伦",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707000101"
+        ],
+        "dialogs": {
+          "707000101": {
+            "id": "707000101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "关于甜甜花…",
+            "nextDialogs": [
+              "707000102"
+            ]
+          },
+          "707000102": {
+            "id": "707000102",
+            "speakerId": 1644,
+            "speakerName": "海伦",
+            "text": "你是看到了我的委托吗？太好了…总算有人愿意帮忙了。",
+            "nextDialogs": [
+              "707000103"
+            ]
+          },
+          "707000103": {
+            "id": "707000103",
+            "speakerId": 1644,
+            "speakerName": "海伦",
+            "text": "十朵甜甜花，你已经搜集齐了吗？",
+            "nextDialogs": [
+              "707000106"
+            ]
+          },
+          "707000106": {
+            "id": "707000106",
+            "speakerId": 1644,
+            "speakerName": "海伦",
+            "text": "好吧…那你搜集齐了之后，请尽快拿给我吧，我的嗓子越来越难受了…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7070002",
+      "subQuestName": "与海伦对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707000201"
+        ],
+        "dialogs": {
+          "707000201": {
+            "id": "707000201",
+            "speakerId": 1644,
+            "speakerName": "海伦",
+            "text": "太好了，谢谢你帮忙，这些请你收下。",
+            "nextDialogs": [
+              "707000202"
+            ]
+          },
+          "707000202": {
+            "id": "707000202",
+            "speakerId": 1644,
+            "speakerName": "海伦",
+            "text": "我等会就拿它们去泡茶喝，希望能让我的嗓子好受些…"
+          }
+        }
+      }
+    }
+  ]
+}

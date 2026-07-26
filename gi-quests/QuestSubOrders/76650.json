@@ -1,0 +1,631 @@
+{
+  "lineCounts": {
+    "Lauma": 59,
+    "Longplume Ibis": 7,
+    "Paimon": 20,
+    "Player": 31,
+    "Puffin": 1,
+    "Weasel Thief": 9
+  },
+  "subQuests": [
+    {
+      "subId": "7665006",
+      "subQuestName": "Go to the Frostmoon Enclave $HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7665001",
+      "subQuestName": "Go to the Frostmoon Enclave",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "766500101"
+        ],
+        "dialogs": {
+          "766500101": {
+            "id": "766500101",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "~♪",
+            "nextDialogs": [
+              "766500102"
+            ]
+          },
+          "766500102": {
+            "id": "766500102",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Yes, I'm sure you have very many friends indeed, but that's not the issue. Even if you summoned every ibis on Hiisi Island, I still don't think you'd be able to move the Moon Mirror.",
+            "nextDialogs": [
+              "766500103"
+            ]
+          },
+          "766500103": {
+            "id": "766500103",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And even if you managed it, the Lunar Semblance within would still—",
+            "nextDialogs": [
+              "766500104"
+            ]
+          },
+          "766500104": {
+            "id": "766500104",
+            "speakerId": 15522,
+            "speakerName": "Weasel Thief",
+            "text": "!!!",
+            "nextDialogs": [
+              "766500105"
+            ]
+          },
+          "766500105": {
+            "id": "766500105",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Dig it out? Hmm. You could, but moving the Mirror would still pose a challenge, even for you.",
+            "nextDialogs": [
+              "766500106"
+            ]
+          },
+          "766500106": {
+            "id": "766500106",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "♪",
+            "nextDialogs": [
+              "766500107"
+            ]
+          },
+          "766500107": {
+            "id": "766500107",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Huh? You really can summon every ibis on the island, if that's what it takes...?",
+            "nextDialogs": [
+              "766500108"
+            ]
+          },
+          "766500108": {
+            "id": "766500108",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...And you, on the other hand, think this plan is a joke, even if the Ibis gets its entire family involved...?",
+            "nextDialogs": [
+              "766500109"
+            ]
+          },
+          "766500109": {
+            "id": "766500109",
+            "speakerId": 15522,
+            "speakerName": "Weasel Thief",
+            "text": "!!!",
+            "nextDialogs": [
+              "766500110"
+            ]
+          },
+          "766500110": {
+            "id": "766500110",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, things are really kicking off over here... Looks like we've got a Weasel Thief in a heated argument with a bird...",
+            "nextDialogs": [
+              "766500113"
+            ]
+          },
+          "766500113": {
+            "id": "766500113",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "We're \"plotting and scheming,\" to be precise. I'm told we have to \"get all our ducks in a row\" before moving forward on this job.",
+            "nextDialogs": [
+              "766500114"
+            ]
+          },
+          "766500114": {
+            "id": "766500114",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "But my co-conspirators disagree quite strongly on the best approach, and they're not exactly being diplomatic about it. Choice words have been spoken...",
+            "nextDialogs": [
+              "766500115"
+            ]
+          },
+          "766500115": {
+            "id": "766500115",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "♪",
+            "nextDialogs": [
+              "766500116"
+            ]
+          },
+          "766500116": {
+            "id": "766500116",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Alright, alright, I believe you — I'm sure you do have friends in high places. Although, where did you learn to speak like that...",
+            "nextDialogs": [
+              "766500117"
+            ]
+          },
+          "766500117": {
+            "id": "766500117",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "♪",
+            "nextDialogs": [
+              "766500118"
+            ]
+          },
+          "766500118": {
+            "id": "766500118",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...From a short girl with a metal arm and a hat?",
+            "nextDialogs": [
+              "766500119"
+            ]
+          },
+          "766500119": {
+            "id": "766500119",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "♪",
+            "nextDialogs": [
+              "766500120"
+            ]
+          },
+          "766500120": {
+            "id": "766500120",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Oh, of course you can keep talking like that, so long as you enjoy it. But... be sensible around her, okay? Don't copy everything she does.",
+            "nextDialogs": [
+              "766500121"
+            ]
+          },
+          "766500121": {
+            "id": "766500121",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "#I'm going to have a little chat with {NICKNAME} and Paimon now, so be good and pipe down a little.",
+            "nextDialogs": [
+              "766500122"
+            ]
+          },
+          "766500122": {
+            "id": "766500122",
+            "speakerId": 15521,
+            "speakerName": "Longplume Ibis",
+            "text": "♪",
+            "nextDialogs": [
+              "766500123"
+            ]
+          },
+          "766500123": {
+            "id": "766500123",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, it really did quiet down. Being able to understand animal-speak is so cool! Paimon wishes she had that ability...",
+            "nextDialogs": [
+              "766500124"
+            ]
+          },
+          "766500124": {
+            "id": "766500124",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...Trust me, Paimon. You would not enjoy it very much at all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7665002",
+      "subQuestName": "Go to the Moon Mirror",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "766500201"
+        ],
+        "dialogs": {
+          "766500201": {
+            "id": "766500201",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Here we are. What you see now is the Moon Mirror, within which the Lunar Semblance is sealed.",
+            "nextDialogs": [
+              "766500202"
+            ]
+          },
+          "766500202": {
+            "id": "766500202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Must be a pretty precious statue if they went to all this effort to seal it away... Will there be some traps inside? Y'know, the kind that send arrows flying out if you step in the wrong place?",
+            "nextDialogs": [
+              "766500205"
+            ]
+          },
+          "766500205": {
+            "id": "766500205",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Do not worry. This little one did some scouting for me ahead of time. The seal does not contain any such fatal traps.",
+            "nextDialogs": [
+              "766500206"
+            ]
+          },
+          "766500206": {
+            "id": "766500206",
+            "speakerId": 15522,
+            "speakerName": "Weasel Thief",
+            "text": "♪",
+            "nextDialogs": [
+              "766500207"
+            ]
+          },
+          "766500207": {
+            "id": "766500207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Oh, nice! That's good to know. And yeah, that sounds like a job for a weasel thief."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7665003",
+      "subQuestName": "Operate the device(s) within the Moon Mirror",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "766500301"
+        ],
+        "dialogs": {
+          "766500301": {
+            "id": "766500301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wow, what a huuuge statue... Yeah, no amount of birds or weasels is shifting that.",
+            "nextDialogs": [
+              "766500302"
+            ]
+          },
+          "766500302": {
+            "id": "766500302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "They probably couldn't even get past the mirror... So Lauma, just how valuable is this statue, anyway?",
+            "nextDialogs": [
+              "766500303"
+            ]
+          },
+          "766500303": {
+            "id": "766500303",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "In terms of Mora? Not much, I suspect.",
+            "nextDialogs": [
+              "766500304"
+            ]
+          },
+          "766500304": {
+            "id": "766500304",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "It's crudely fashioned, and the kind of stone it's carved from is found everywhere around these parts...",
+            "nextDialogs": [
+              "766500305"
+            ]
+          },
+          "766500305": {
+            "id": "766500305",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "But to the Moonchanter of that era, and to the Frostmoon Scions of today, it is a priceless treasure.",
+            "nextDialogs": [
+              "766500306"
+            ]
+          },
+          "766500306": {
+            "id": "766500306",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "If nothing else, I now have concrete proof of its existence. That's enough to confirm the reliability of several documents on the topic.",
+            "nextDialogs": [
+              "766500307"
+            ]
+          },
+          "766500307": {
+            "id": "766500307",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "To me, that makes this a very successful trip.",
+            "nextDialogs": [
+              "766500308"
+            ]
+          },
+          "766500308": {
+            "id": "766500308",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "#Thank you for your help, {NICKNAME}. I knew I had judged you correctly — the Moon Mirror posed no obstacle to you.",
+            "nextDialogs": [
+              "766500309"
+            ]
+          },
+          "766500309": {
+            "id": "766500309",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And our little friend here was very impressed with your mechanism-operating skills.",
+            "nextDialogs": [
+              "766500310"
+            ]
+          },
+          "766500310": {
+            "id": "766500310",
+            "speakerId": 15522,
+            "speakerName": "Weasel Thief",
+            "text": "♪",
+            "nextDialogs": [
+              "766500311"
+            ]
+          },
+          "766500311": {
+            "id": "766500311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What is it saying, Lauma?",
+            "nextDialogs": [
+              "766500312"
+            ]
+          },
+          "766500312": {
+            "id": "766500312",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "#It says that {NICKNAME} is the best treasure-hunter it's ever seen. It wishes it could join {M#him}{F#her} on a quest to unlock all the treasure chests in the world.",
+            "nextDialogs": [
+              "766500315"
+            ]
+          },
+          "766500315": {
+            "id": "766500315",
+            "speakerId": 15522,
+            "speakerName": "Weasel Thief",
+            "text": "♪",
+            "nextDialogs": [
+              "766500316"
+            ]
+          },
+          "766500316": {
+            "id": "766500316",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "\"From now on, I'll call on you if I ever find a treasure chest I can't crack!\"",
+            "nextDialogs": [
+              "766500317"
+            ]
+          },
+          "766500317": {
+            "id": "766500317",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Uh... Okay, bye then... Didn't even give us a choice in the matter!",
+            "nextDialogs": [
+              "766500318"
+            ]
+          },
+          "766500318": {
+            "id": "766500318",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Don't worry, it won't come knocking on your window every day with a Mora coin in its jaws, trying to drag you off on a treasure hunt...",
+            "nextDialogs": [
+              "766500319"
+            ]
+          },
+          "766500319": {
+            "id": "766500319",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And it certainly won't be visiting your room in the dead of night, moaning about locks it can't pick...",
+            "nextDialogs": [
+              "766500320"
+            ]
+          },
+          "766500320": {
+            "id": "766500320",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Uh oh, we'd better make sure to lock all our doors and windows before we go to sleep tonight, {NICKNAME}!",
+            "nextDialogs": [
+              "766500321"
+            ]
+          },
+          "766500321": {
+            "id": "766500321",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Relax. That weasel's only a child, it means no harm. It's just... more talkative than most.",
+            "nextDialogs": [
+              "766500322"
+            ]
+          },
+          "766500322": {
+            "id": "766500322",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Alright, let's head back. It's almost time for dinner.",
+            "nextDialogs": [
+              "766500323"
+            ]
+          },
+          "766500323": {
+            "id": "766500323",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Oh, and we still need to figure out how to get this statue back to our library...",
+            "nextDialogs": [
+              "766500324"
+            ]
+          },
+          "766500324": {
+            "id": "766500324",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "...It seems like I'll need a little help from my friends after all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7665004",
+      "subQuestName": "Talk to Lauma",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7665005",
+      "subQuestName": "Return to the Frostmoon Enclave",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "766500401"
+        ],
+        "dialogs": {
+          "766500401": {
+            "id": "766500401",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Just here will do.",
+            "nextDialogs": [
+              "766500402"
+            ]
+          },
+          "766500402": {
+            "id": "766500402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh. That all went down without much fanfare. Paimon was expecting something exciting to happen once we put it down.",
+            "nextDialogs": [
+              "766500403"
+            ]
+          },
+          "766500403": {
+            "id": "766500403",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Hehe, well, it's just a plain old statue — a historical relic. It doesn't hold any kind of mystical power.",
+            "nextDialogs": [
+              "766500404"
+            ]
+          },
+          "766500404": {
+            "id": "766500404",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "The real value lies in the stories behind it... My job is to dig those stories up wherever they might be hiding, verify them, and then share them with the people.",
+            "nextDialogs": [
+              "766500405"
+            ]
+          },
+          "766500405": {
+            "id": "766500405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Cool! Well, it's a good thing we got it back here in one piece.",
+            "nextDialogs": [
+              "766500406"
+            ]
+          },
+          "766500406": {
+            "id": "766500406",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "Indeed, and you two have my thanks for that. Please, take these fruits and quench your thirst — I had the animals gather them in the woods.",
+            "nextDialogs": [
+              "766500407"
+            ]
+          },
+          "766500407": {
+            "id": "766500407",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "And after that... Forgive me, but I have another request to make of you.",
+            "nextDialogs": [
+              "766500408"
+            ]
+          },
+          "766500408": {
+            "id": "766500408",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Sure. What do you need?",
+            "nextDialogs": [
+              "766500409"
+            ]
+          },
+          "766500409": {
+            "id": "766500409",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "I apologize if this is presumptuous of me, but I've seen how well-connected you are, and I've heard of your many travels into secret and forgotten places.",
+            "nextDialogs": [
+              "766500410"
+            ]
+          },
+          "766500410": {
+            "id": "766500410",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "On your future travels, if you ever come across any texts about the Frostmoon Scions, could I borrow them and make a copy with which to enrich our library?",
+            "nextDialogs": [
+              "766500413"
+            ]
+          },
+          "766500413": {
+            "id": "766500413",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "You have my sincere gratitude, on behalf of the Frostmoon Scions."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7665005",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "766500501"
+        ],
+        "dialogs": {
+          "766500501": {
+            "id": "766500501",
+            "speakerId": 1315,
+            "speakerName": "Lauma",
+            "text": "If you head over there and take the mechanism on that side, I'll take this side."
+          }
+        }
+      }
+    }
+  ]
+}

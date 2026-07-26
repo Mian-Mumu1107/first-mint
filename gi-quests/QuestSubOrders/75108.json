@@ -1,0 +1,622 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 4,
+    "Now-Healthy Blubberbeast": 1,
+    "Paimon": 54,
+    "Player": 51,
+    "Victimized Blubberbeast": 1,
+    "Weakened Blubberbeast": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7510801",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080101"
+        ],
+        "dialogs": {
+          "751080101": {
+            "id": "751080101",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We said we were going to cook, but what exactly should we make?",
+            "nextDialogs": [
+              "751080102"
+            ]
+          },
+          "751080102": {
+            "id": "751080102",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm... We used to feed fish to the Blubberbeast Berrypuff, didn't we? In that case, a fish dish should do just fine!",
+            "nextDialogs": [
+              "751080103"
+            ]
+          },
+          "751080103": {
+            "id": "751080103",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#If we want the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat well... Natlan's special Grilled Fish in Mint Sauce might be a pretty good choice.",
+            "nextDialogs": [
+              "751080106"
+            ]
+          },
+          "751080106": {
+            "id": "751080106",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright, let's get started then. Paimon will give you some pointers while you're at it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510803",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080301"
+        ],
+        "dialogs": {
+          "751080301": {
+            "id": "751080301",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sure enough, there are still some Saurians locked up here...",
+            "nextDialogs": [
+              "751080302"
+            ]
+          },
+          "751080302": {
+            "id": "751080302",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Who'd have thought they'd persist in their wicked ways and keep hurting Saurians, even after we destroyed their base...",
+            "nextDialogs": [
+              "751080303"
+            ]
+          },
+          "751080303": {
+            "id": "751080303",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Had we known, we could've chased them down and wiped them all out.",
+            "nextDialogs": [
+              "751080305",
+              "751080307"
+            ]
+          },
+          "751080305": {
+            "id": "751080305",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "True. Now let's save 'em, quick!",
+            "nextDialogs": [
+              "751080308"
+            ]
+          },
+          "751080308": {
+            "id": "751080308",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          },
+          "751080307": {
+            "id": "751080307",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Paimon can hardly imagine you being like that, {NICKNAME}... Anyway, let's help 'em first!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510804",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080401"
+        ],
+        "dialogs": {
+          "751080401": {
+            "id": "751080401",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hmm? Why are there Saurians in the cages here?",
+            "nextDialogs": [
+              "751080402"
+            ]
+          },
+          "751080402": {
+            "id": "751080402",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Something's not right here... Wait. Could they all have been captured by those people?",
+            "nextDialogs": [
+              "751080403"
+            ]
+          },
+          "751080403": {
+            "id": "751080403",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Have we busted some kinda Saurian trafficking ring without even realizing it?",
+            "nextDialogs": [
+              "751080405",
+              "751080407"
+            ]
+          },
+          "751080405": {
+            "id": "751080405",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That's right! Now let's get all these Saurians outta here!",
+            "nextDialogs": [
+              "751080408"
+            ]
+          },
+          "751080408": {
+            "id": "751080408",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          },
+          "751080407": {
+            "id": "751080407",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "C'mon, it matters a lot — that the kidnapped Saurians can now regain their freedom, that is. Let's help them, pronto!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510805",
+      "subQuestName": "Rescue the animals",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080501"
+        ],
+        "dialogs": {
+          "751080501": {
+            "id": "751080501",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait, there's a... Blubberbeast in here? How in the world—? Guess bad guys really will sell anything...",
+            "nextDialogs": [
+              "751080502"
+            ]
+          },
+          "751080502": {
+            "id": "751080502",
+            "speakerId": 1002,
+            "speakerName": "Victimized Blubberbeast",
+            "text": "Awrr... Bluboo!",
+            "nextDialogs": [
+              "751080503"
+            ]
+          },
+          "751080503": {
+            "id": "751080503",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rroo... Mrrooh!",
+            "nextDialogs": [
+              "751080504"
+            ]
+          },
+          "751080504": {
+            "id": "751080504",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Huh? You're kinda interested in the Blubberbeast, aren't you, {REALNAME[ID(2)|SHOWHOST(true)]}?",
+            "nextDialogs": [
+              "751080505"
+            ]
+          },
+          "751080505": {
+            "id": "751080505",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} listens intently to the cries of the Blubberbeast and, seemingly understanding something, lifts the creature by the tail to take it over to the shallows, where they play together.",
+            "nextDialogs": [
+              "751080512"
+            ]
+          },
+          "751080512": {
+            "id": "751080512",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751080508"
+            ]
+          },
+          "751080508": {
+            "id": "751080508",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Sure does! Maybe they can become friends?",
+            "nextDialogs": [
+              "751080509"
+            ]
+          },
+          "751080509": {
+            "id": "751080509",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But that Blubberbeast doesn't seem to have the slightest bit of strength, and its two... Err, paws...? Either way, they don't seem able to flap around much.",
+            "nextDialogs": [
+              "751080510"
+            ]
+          },
+          "751080510": {
+            "id": "751080510",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "There wasn't even a plate of food around... Perhaps they've been locked up so long that they're starving.",
+            "nextDialogs": [
+              "751080511"
+            ]
+          },
+          "751080511": {
+            "id": "751080511",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#If that's so, let's make something for the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510802",
+      "subQuestName": "Prepare food for your animal friends",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7510806",
+      "subQuestName": "Deliver food to your animal friends",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7510807",
+      "subQuestName": "Deliver food to your animal friends",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080701"
+        ],
+        "dialogs": {
+          "751080701": {
+            "id": "751080701",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Here comes something yummy! Don't just play around — you have to replenish your energy, too.",
+            "nextDialogs": [
+              "751080702"
+            ]
+          },
+          "751080702": {
+            "id": "751080702",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751080703"
+            ]
+          },
+          "751080703": {
+            "id": "751080703",
+            "speakerId": 21689,
+            "speakerName": "Weakened Blubberbeast",
+            "text": "A... Aooouhh!",
+            "nextDialogs": [
+              "751080704"
+            ]
+          },
+          "751080704": {
+            "id": "751080704",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hehe, looks like they're having a great time. Will you choke if you eat upside down like that, though...?",
+            "nextDialogs": [
+              "751080705"
+            ]
+          },
+          "751080705": {
+            "id": "751080705",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Stay safe. Don't be like that Blubberbeast.",
+            "nextDialogs": [
+              "751080706"
+            ]
+          },
+          "751080706": {
+            "id": "751080706",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey, what's with that patronizing tone? Paimon's no Blubberbeast. She's not gonna be so silly as to eat like that.",
+            "nextDialogs": [
+              "751080707"
+            ]
+          },
+          "751080707": {
+            "id": "751080707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Try it yourself and you'll see.",
+            "nextDialogs": [
+              "751080708"
+            ]
+          },
+          "751080708": {
+            "id": "751080708",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Hey! Paimon's not gonna eat like that — she isn't a Blubberbeast anyway!",
+            "nextDialogs": [
+              "751080709"
+            ]
+          },
+          "751080709": {
+            "id": "751080709",
+            "speakerId": 1003,
+            "speakerName": "Black Screen",
+            "text": "The Blubberbeast seems to have recovered enough strength for it to flap over and tumble into the sea...",
+            "nextDialogs": [
+              "751080719"
+            ]
+          },
+          "751080719": {
+            "id": "751080719",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Mmm... Aourgh!",
+            "nextDialogs": [
+              "751080710"
+            ]
+          },
+          "751080710": {
+            "id": "751080710",
+            "speakerId": 1005,
+            "speakerName": "Now-Healthy Blubberbeast",
+            "text": "Aohh! Woo... Arr!",
+            "nextDialogs": [
+              "751080712"
+            ]
+          },
+          "751080712": {
+            "id": "751080712",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Ah, it's gone...",
+            "nextDialogs": [
+              "751080713"
+            ]
+          },
+          "751080713": {
+            "id": "751080713",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "That's just how things are. I mean, it's not indigenous to Natlan.",
+            "nextDialogs": [
+              "751080715"
+            ]
+          },
+          "751080715": {
+            "id": "751080715",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rrooh...",
+            "nextDialogs": [
+              "751080716"
+            ]
+          },
+          "751080716": {
+            "id": "751080716",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Don't be sad, {REALNAME[ID(2)|SHOWHOST(true)]}. You had so much fun just now, and you're already friends!",
+            "nextDialogs": [
+              "751080717"
+            ]
+          },
+          "751080717": {
+            "id": "751080717",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Anyway, Paimon's got a feeling that this isn't the last we've seen of that Blubberbeast!",
+            "nextDialogs": [
+              "751080718"
+            ]
+          },
+          "751080718": {
+            "id": "751080718",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510802",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751080201"
+        ],
+        "dialogs": {
+          "751080201": {
+            "id": "751080201",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We said we were going to cook, but what exactly should we make?",
+            "nextDialogs": [
+              "751080202"
+            ]
+          },
+          "751080202": {
+            "id": "751080202",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Blubberbeasts live in the water, so it must eat fish, right? Let's do a fish dish, then.",
+            "nextDialogs": [
+              "751080203"
+            ]
+          },
+          "751080203": {
+            "id": "751080203",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#If we want the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat well... Natlan's special Grilled Fish in Mint Sauce might be a pretty good choice.",
+            "nextDialogs": [
+              "751080206"
+            ]
+          },
+          "751080206": {
+            "id": "751080206",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Alright, let's get started then. Paimon will give you some pointers while you're at it!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510813",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751081301"
+        ],
+        "dialogs": {
+          "751081301": {
+            "id": "751081301",
+            "speakerId": 21689,
+            "speakerName": "Weakened Blubberbeast",
+            "text": "Aouhhh...",
+            "nextDialogs": [
+              "751081302"
+            ]
+          },
+          "751081302": {
+            "id": "751081302",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Arawr?",
+            "nextDialogs": [
+              "751081303"
+            ]
+          },
+          "751081303": {
+            "id": "751081303",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Awwrr...",
+            "nextDialogs": [
+              "751081304"
+            ]
+          },
+          "751081304": {
+            "id": "751081304",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "Rawr!",
+            "nextDialogs": [
+              "751081305"
+            ]
+          },
+          "751081305": {
+            "id": "751081305",
+            "speakerId": 21689,
+            "speakerName": "Weakened Blubberbeast",
+            "text": "Aouh?",
+            "nextDialogs": [
+              "751081306"
+            ]
+          },
+          "751081306": {
+            "id": "751081306",
+            "speakerId": 21689,
+            "speakerName": "Weakened Blubberbeast",
+            "text": "Aouh...",
+            "nextDialogs": [
+              "751081307"
+            ]
+          },
+          "751081307": {
+            "id": "751081307",
+            "speakerId": 21689,
+            "speakerName": "Weakened Blubberbeast",
+            "text": "Auh!",
+            "nextDialogs": [
+              "751081308"
+            ]
+          },
+          "751081308": {
+            "id": "751081308",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon can't understand their conversation at all, but it seems they've reached an understanding...?",
+            "nextDialogs": [
+              "751081311"
+            ]
+          },
+          "751081311": {
+            "id": "751081311",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Makes sense. Even though the Blubberbeast doesn't have much strength, it feels like they're really happy — and Paimon feels happy for 'em, too!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7510899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "751089901"
+        ],
+        "dialogs": {
+          "751089901": {
+            "id": "751089901",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": ""
+          }
+        }
+      }
+    }
+  ]
+}

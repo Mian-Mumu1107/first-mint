@@ -1,0 +1,713 @@
+{
+  "lineCounts": {
+    "Player": 18,
+    "璐璐": 21,
+    "莺儿": 36
+  },
+  "subQuests": [
+    {
+      "subId": "2250001",
+      "subQuestName": "与璐璐对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000101"
+        ],
+        "dialogs": {
+          "225000101": {
+            "id": "225000101",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "什么时候才能做好呢…",
+            "nextDialogs": [
+              "225000102"
+            ]
+          },
+          "225000102": {
+            "id": "225000102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "今天没玩游戏吗？",
+            "nextDialogs": [
+              "225000103"
+            ]
+          },
+          "225000103": {
+            "id": "225000103",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，是你呀，最近不适合玩游戏呢。",
+            "nextDialogs": [
+              "225000104"
+            ]
+          },
+          "225000104": {
+            "id": "225000104",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "小蒙好像有点不开心，老是一个人发呆，阿飞也时不时就找不到人了。",
+            "nextDialogs": [
+              "225000105"
+            ]
+          },
+          "225000105": {
+            "id": "225000105",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "我问小蒙怎么了，小蒙也不和我说…总觉得，大家最近都有点奇怪。",
+            "nextDialogs": [
+              "225000107",
+              "225000111"
+            ]
+          },
+          "225000107": {
+            "id": "225000107",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "人长大了，就会不开心吗？但是小蒙和阿飞都很想长大…",
+            "nextDialogs": [
+              "225000108"
+            ]
+          },
+          "225000108": {
+            "id": "225000108",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "如果是这样的话，那我还是先不长大比较好。",
+            "nextDialogs": [
+              "225000109"
+            ]
+          },
+          "225000109": {
+            "id": "225000109",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#先不说这个了，我有点小事，想请{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}帮忙。",
+            "nextDialogs": [
+              "225000112"
+            ]
+          },
+          "225000112": {
+            "id": "225000112",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "你能帮我去莺儿姐姐那里拿点东西吗？我和她已经说好了，那里应该已经把东西留给我了。"
+          },
+          "225000111": {
+            "id": "225000111",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#我？我还好喔，不过…还是有点小事想请{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}帮忙。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250002",
+      "subQuestName": "与莺儿对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000301"
+        ],
+        "dialogs": {
+          "225000301": {
+            "id": "225000301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "三千摩拉够了吗？",
+            "nextDialogs": [
+              "225000302"
+            ]
+          },
+          "225000302": {
+            "id": "225000302",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "你可真是个急性子…好吧，就当看在我们情谊的份儿上，我会先做璐璐的那份香膏的。",
+            "nextDialogs": [
+              "225000303"
+            ]
+          },
+          "225000303": {
+            "id": "225000303",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "不过，白天我还得看店，只有晚上才能做些私事。",
+            "nextDialogs": [
+              "225000304"
+            ]
+          },
+          "225000304": {
+            "id": "225000304",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "请你晚上再来找我吧，我会先把准备工作做好的。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250003",
+      "subQuestName": "等待夜晚降临",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250004",
+      "subQuestName": "与莺儿对话取得香膏",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000501"
+        ],
+        "dialogs": {
+          "225000501": {
+            "id": "225000501",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "香膏已经做好了，是我用薄荷精油特别制作的喔。",
+            "nextDialogs": [
+              "225000502"
+            ]
+          },
+          "225000502": {
+            "id": "225000502",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "来，拿好了，带回去给璐璐吧。",
+            "nextDialogs": [
+              "225000505"
+            ]
+          },
+          "225000505": {
+            "id": "225000505",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "稀释一些刺激性的成分…略微中和一下气味…",
+            "nextDialogs": [
+              "225000506"
+            ]
+          },
+          "225000506": {
+            "id": "225000506",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "话说回来，当时也真是没想到会收到璐璐的订单呢。",
+            "nextDialogs": [
+              "225000507"
+            ]
+          },
+          "225000507": {
+            "id": "225000507",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "情窦初开的年纪，回想一下真是令人脸红心跳啊，要是当时懂得再多一点的话…",
+            "nextDialogs": [
+              "225000508"
+            ]
+          },
+          "225000508": {
+            "id": "225000508",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "咳…好了，快点拿回去给璐璐吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250005",
+      "subQuestName": "寻找三株薄荷",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250006",
+      "subQuestName": "合成薄荷精油",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000601"
+        ],
+        "dialogs": {
+          "225000601": {
+            "id": "225000601",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，你拿到香膏了吗？",
+            "nextDialogs": [
+              "225000602"
+            ]
+          },
+          "225000602": {
+            "id": "225000602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "拿到了。",
+            "nextDialogs": [
+              "225000603"
+            ]
+          },
+          "225000603": {
+            "id": "225000603",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#谢谢{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，莺儿姐姐做的香膏可真好。",
+            "nextDialogs": [
+              "225000604"
+            ]
+          },
+          "225000604": {
+            "id": "225000604",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "不知道小蒙和阿飞闻到了之后会是什么反应…",
+            "nextDialogs": [
+              "225000605"
+            ]
+          },
+          "225000605": {
+            "id": "225000605",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "不过，不管他们是什么反应，应该都很好玩吧。",
+            "nextDialogs": [
+              "225000607",
+              "225000609"
+            ]
+          },
+          "225000607": {
+            "id": "225000607",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "这样就最好啦。",
+            "nextDialogs": [
+              "225000610"
+            ]
+          },
+          "225000610": {
+            "id": "225000610",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "#谢谢{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_BIGBROTHER|INFO_FEMALE_PRONOUN_BIGSISTER]}，我等会就回家试试看这盒香膏。",
+            "nextDialogs": [
+              "225000611"
+            ]
+          },
+          "225000611": {
+            "id": "225000611",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "如果合适的话，那我就可以一直用下去啦。"
+          },
+          "225000609": {
+            "id": "225000609",
+            "speakerId": 2074,
+            "speakerName": "璐璐",
+            "text": "唔？没有「最喜欢」喔，小蒙和阿飞，都是我最好的朋友。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250007",
+      "subQuestName": "等待莺儿熬制香膏",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250008",
+      "subQuestName": "与莺儿交谈",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001201"
+        ],
+        "dialogs": {
+          "225001201": {
+            "id": "225001201",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "完成了，这就是我专门给璐璐制作的薄荷香膏了，赶紧拿回去给她吧。",
+            "nextDialogs": [
+              "225001204"
+            ]
+          },
+          "225001204": {
+            "id": "225001204",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "这我可不知道，我也不会去问璐璐。",
+            "nextDialogs": [
+              "225001205"
+            ]
+          },
+          "225001205": {
+            "id": "225001205",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "每个女孩子的心底都会有一些自己的小秘密的，要做识趣的人才能招人喜欢呀。",
+            "nextDialogs": [
+              "225001206"
+            ]
+          },
+          "225001206": {
+            "id": "225001206",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "好了，快点把薄荷香膏带回去给璐璐吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250009",
+      "subQuestName": "把香膏交给璐璐",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2250010",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000801"
+        ],
+        "dialogs": {
+          "225000801": {
+            "id": "225000801",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "急什么呀，心急可吃不了热豆腐。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250002",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000201"
+        ],
+        "dialogs": {
+          "225000201": {
+            "id": "225000201",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "哎呀，又是你，这次来找我是想做什么呢？",
+            "nextDialogs": [
+              "225000202"
+            ]
+          },
+          "225000202": {
+            "id": "225000202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "来取璐璐的东西。",
+            "nextDialogs": [
+              "225000203"
+            ]
+          },
+          "225000203": {
+            "id": "225000203",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "那孩子的东西啊…我记起来了，她确实让我帮她做一份香膏…",
+            "nextDialogs": [
+              "225000204"
+            ]
+          },
+          "225000204": {
+            "id": "225000204",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "不过，你们来得有些不巧…不知道为什么，自从那天你们来找我之后，突然有很多人来找我预定香膏。",
+            "nextDialogs": [
+              "225000205"
+            ]
+          },
+          "225000205": {
+            "id": "225000205",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "那么多订单，我还得打理店里的生意，一个人都要处理不来了。",
+            "nextDialogs": [
+              "225000206"
+            ]
+          },
+          "225000206": {
+            "id": "225000206",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "而且璐璐还是个孩子，平常我们大人用的香膏如果直接给她用的话，未免有些不太合适。",
+            "nextDialogs": [
+              "225000207"
+            ]
+          },
+          "225000207": {
+            "id": "225000207",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "我之前在想怎么调整香膏的配方，才刚刚想出个方案来，还没开始做呢。",
+            "nextDialogs": [
+              "225000208"
+            ]
+          },
+          "225000208": {
+            "id": "225000208",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "如果要加急的话，倒也不是不行，可是…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250004",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000401"
+        ],
+        "dialogs": {
+          "225000401": {
+            "id": "225000401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "我来帮你。",
+            "nextDialogs": [
+              "225000402"
+            ]
+          },
+          "225000402": {
+            "id": "225000402",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "嗯，这样也好，你在这种事上的丰富经验…我再清楚不过了，呵呵。",
+            "nextDialogs": [
+              "225000403"
+            ]
+          },
+          "225000403": {
+            "id": "225000403",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "我这边还有之前没用完的原料，我会去卯师傅的厨房处理一下。",
+            "nextDialogs": [
+              "225000404"
+            ]
+          },
+          "225000404": {
+            "id": "225000404",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "你先去采三株薄荷，再把薄荷拿到合成台上去制成精油吧，制作的手法你应该很了解了吧？",
+            "nextDialogs": [
+              "225000405"
+            ]
+          },
+          "225000405": {
+            "id": "225000405",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "把薄荷精油拿给我，我来帮忙把璐璐的香膏做好。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250009",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225000901"
+        ],
+        "dialogs": {
+          "225000901": {
+            "id": "225000901",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "三千摩拉够了吗？",
+            "nextDialogs": [
+              "225000903"
+            ]
+          },
+          "225000903": {
+            "id": "225000903",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "唔，你身上的钱好像不够呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250010",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001001"
+        ],
+        "dialogs": {
+          "225001001": {
+            "id": "225001001",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "记住了，是薄荷精油哦。",
+            "nextDialogs": [
+              "225001003",
+              "225001007"
+            ]
+          },
+          "225001003": {
+            "id": "225001003",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "你已经全忘了？哼，明明之前才一起做过，居然忘得这么快…",
+            "nextDialogs": [
+              "225001004"
+            ]
+          },
+          "225001004": {
+            "id": "225001004",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "我再教你一次好了，先去采三株薄荷，再把薄荷拿到合成台上制成精油。",
+            "nextDialogs": [
+              "225001005"
+            ]
+          },
+          "225001005": {
+            "id": "225001005",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "把精油拿回来给我，其余的就交给我吧。"
+          },
+          "225001007": {
+            "id": "225001007",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "嗯…主要是中和一些刺激性的成分…",
+            "nextDialogs": [
+              "225001008"
+            ]
+          },
+          "225001008": {
+            "id": "225001008",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "不过，最重要的还是，薄荷的味道很适合璐璐这孩子。",
+            "nextDialogs": [
+              "225001009"
+            ]
+          },
+          "225001009": {
+            "id": "225001009",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "女孩子的香味可不应该仅仅是一种闻起来的味道而已…",
+            "nextDialogs": [
+              "225001010"
+            ]
+          },
+          "225001010": {
+            "id": "225001010",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "璐璐动人的活力，涉世未深的清纯，我会将它们都融进这一盒香膏中，呵呵。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001101"
+        ],
+        "dialogs": {
+          "225001101": {
+            "id": "225001101",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "薄荷的味道，应该很适合那孩子吧。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250013",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001301"
+        ],
+        "dialogs": {
+          "225001301": {
+            "id": "225001301",
+            "speakerId": 2083,
+            "speakerName": "莺儿",
+            "text": "虽然不知道璐璐为什么要香膏…不过，那孩子也在长大呢。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2250014",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "225001401"
+        ],
+        "dialogs": {
+          "225001401": {
+            "id": "225001401",
+            "speakerId": 12622,
+            "speakerName": "璐璐",
+            "text": "小蒙和阿飞，到底怎么了呢…"
+          }
+        }
+      }
+    }
+  ]
+}

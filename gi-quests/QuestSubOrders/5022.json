@@ -1,0 +1,243 @@
+{
+  "lineCounts": {
+    "\"The Captain\"": 3,
+    "Black Screen": 1,
+    "Paimon": 3,
+    "Player": 10
+  },
+  "subQuests": [
+    {
+      "subId": "502201",
+      "subQuestName": "Wait for two days",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "502203",
+      "subQuestName": "Return to the Weary Inn to rest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50220301"
+        ],
+        "dialogs": {
+          "50220301": {
+            "id": "50220301",
+            "speakerId": 1000,
+            "speakerName": "Black Screen",
+            "text": "You slowly fall asleep to the sound of Paimon's snoring..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "502205",
+      "subQuestName": "Return to the Weary Inn to rest",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "502204",
+      "subQuestName": "Explore the dreamscape",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50220401"
+        ],
+        "dialogs": {
+          "50220401": {
+            "id": "50220401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Where am I? Is this... the Night Kingdom?)",
+            "nextDialogs": [
+              "50220402"
+            ]
+          },
+          "50220402": {
+            "id": "50220402",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(How did I get here? I was just... Argh...)",
+            "nextDialogs": [
+              "50220403"
+            ]
+          },
+          "50220403": {
+            "id": "50220403",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I feel dizzy, like I can't think straight. Let me try to take a look around...)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "502206",
+      "subQuestName": "Explore up ahead",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "502207",
+      "subQuestName": "Approach the gathering of figures",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50220701"
+        ],
+        "dialogs": {
+          "50220701": {
+            "id": "50220701",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(When I passed through the wall of light, it felt like my whole body was frozen.)",
+            "nextDialogs": [
+              "50220702"
+            ]
+          },
+          "50220702": {
+            "id": "50220702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(I guess the Lord of the Night's protection can't reach this place. The cold and darkness are suffocating, and all I hear are cries of exhaustion and pain.)",
+            "nextDialogs": [
+              "50220703"
+            ]
+          },
+          "50220703": {
+            "id": "50220703",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(How long have these souls existed in torment? How much longer before it ends...?)",
+            "nextDialogs": [
+              "50220704"
+            ]
+          },
+          "50220704": {
+            "id": "50220704",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Huh? There's someone here...)",
+            "nextDialogs": [
+              "50220705"
+            ]
+          },
+          "50220705": {
+            "id": "50220705",
+            "speakerId": 14235,
+            "speakerName": "\"The Captain\"",
+            "text": "Though our homeland has become a distant memory, the flames of war continue to rage. We have long shed the last of our blood...",
+            "nextDialogs": [
+              "50220706"
+            ]
+          },
+          "50220706": {
+            "id": "50220706",
+            "speakerId": 14235,
+            "speakerName": "\"The Captain\"",
+            "text": "Stay strong, my soldiers...",
+            "nextDialogs": [
+              "50220707"
+            ]
+          },
+          "50220707": {
+            "id": "50220707",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(What is The Captain doing here? And what is he saying...?)",
+            "nextDialogs": [
+              "50220708"
+            ]
+          },
+          "50220708": {
+            "id": "50220708",
+            "speakerId": 14235,
+            "speakerName": "\"The Captain\"",
+            "text": "One day, I will deliver you to the place I promised."
+          }
+        }
+      }
+    },
+    {
+      "subId": "502209",
+      "subQuestName": "Approach the gathering of figures",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "502208",
+      "subQuestName": "Talk to Paimon",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "50220801"
+        ],
+        "dialogs": {
+          "50220801": {
+            "id": "50220801",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Morning, {NICKNAME}! Did you have a nightmare last night?",
+            "nextDialogs": [
+              "50220802"
+            ]
+          },
+          "50220802": {
+            "id": "50220802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon could hear you tossing and turning in your sleep. Maybe you're just nervous for the final battle?",
+            "nextDialogs": [
+              "50220803"
+            ]
+          },
+          "50220803": {
+            "id": "50220803",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(So, it was a dream? I can barely remember it.)",
+            "nextDialogs": [
+              "50220804"
+            ]
+          },
+          "50220804": {
+            "id": "50220804",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Everything that happened seems so hazy. Trying to remember is giving me a headache...)",
+            "nextDialogs": [
+              "50220805"
+            ]
+          },
+          "50220805": {
+            "id": "50220805",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "#Just shake it off, {NICKNAME}! We're supposed to meet with Mavuika today!"
+          }
+        }
+      }
+    }
+  ]
+}

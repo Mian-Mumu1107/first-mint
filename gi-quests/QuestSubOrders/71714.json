@@ -1,0 +1,82 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Yi Zhu": 5
+  },
+  "subQuests": [
+    {
+      "subId": "7171401",
+      "subQuestName": "Give the Almond Tofu to Yi Zhu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717140101"
+        ],
+        "dialogs": {
+          "717140101": {
+            "id": "717140101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Almond Tofu...",
+            "nextDialogs": [
+              "717140102"
+            ]
+          },
+          "717140102": {
+            "id": "717140102",
+            "speakerId": 2007,
+            "speakerName": "Yi Zhu",
+            "text": "Hi! Oh, you must've seen my commission. Have you prepared an Almond Tofu for me?",
+            "nextDialogs": [
+              "717140105"
+            ]
+          },
+          "717140105": {
+            "id": "717140105",
+            "speakerId": 2007,
+            "speakerName": "Yi Zhu",
+            "text": "Aw alright, just bring it to me as soon as it's ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7171402",
+      "subQuestName": "Talk to Yi Zhu",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717140201"
+        ],
+        "dialogs": {
+          "717140201": {
+            "id": "717140201",
+            "speakerId": 2007,
+            "speakerName": "Yi Zhu",
+            "text": "Yay, Almond Tofu! I'll take that.",
+            "nextDialogs": [
+              "717140202"
+            ]
+          },
+          "717140202": {
+            "id": "717140202",
+            "speakerId": 2007,
+            "speakerName": "Yi Zhu",
+            "text": "This is for you. Thanks for helping.",
+            "nextDialogs": [
+              "717140203"
+            ]
+          },
+          "717140203": {
+            "id": "717140203",
+            "speakerId": 2007,
+            "speakerName": "Yi Zhu",
+            "text": "I hope this Almond Tofu will keep Yi Xian happy..."
+          }
+        }
+      }
+    }
+  ]
+}

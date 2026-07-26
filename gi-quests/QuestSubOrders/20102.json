@@ -1,0 +1,809 @@
+{
+  "lineCounts": {
+    "Draff": 28,
+    "Grace": 45,
+    "Player": 24,
+    "Timmie": 26
+  },
+  "subQuests": [
+    {
+      "subId": "2010201",
+      "subQuestName": "Talk to Draff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020101"
+        ],
+        "dialogs": {
+          "201020101": {
+            "id": "201020101",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "*sigh* I wonder how the kid's getting along...",
+            "nextDialogs": [
+              "201020102"
+            ]
+          },
+          "201020102": {
+            "id": "201020102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's wrong?",
+            "nextDialogs": [
+              "201020103"
+            ]
+          },
+          "201020103": {
+            "id": "201020103",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Hmm...? Oh, hi. Perfect timing, do you still remember that letter from last time?",
+            "nextDialogs": [
+              "201020104"
+            ]
+          },
+          "201020104": {
+            "id": "201020104",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "If you can spare the time, please deliver this letter to Grace for me.",
+            "nextDialogs": [
+              "201020106",
+              "201020108"
+            ]
+          },
+          "201020106": {
+            "id": "201020106",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Thank you."
+          },
+          "201020108": {
+            "id": "201020108",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Well, I'm hardly going to trust those pigeons with it after what happened last time.",
+            "nextDialogs": [
+              "201020109"
+            ]
+          },
+          "201020109": {
+            "id": "201020109",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Also, if I take the letter to Mondstadt myself, I'll have to face that kid...",
+            "nextDialogs": [
+              "201020110"
+            ]
+          },
+          "201020110": {
+            "id": "201020110",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "*sigh* Don't ask... Just... Please. Do this for me."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010202",
+      "subQuestName": "Talk to Grace",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020301"
+        ],
+        "dialogs": {
+          "201020301": {
+            "id": "201020301",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Strange, it should be here by now... What if something's happened...",
+            "nextDialogs": [
+              "201020302"
+            ]
+          },
+          "201020302": {
+            "id": "201020302",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "A letter for you, from Draff.",
+            "nextDialogs": [
+              "201020303"
+            ]
+          },
+          "201020303": {
+            "id": "201020303",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Hmm? What are you doing here? You're not a carrier pigeon...",
+            "nextDialogs": [
+              "201020304"
+            ]
+          },
+          "201020304": {
+            "id": "201020304",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...Something happened to the pigeons? Goodness. Never a dull day in Springvale.",
+            "nextDialogs": [
+              "201020305"
+            ]
+          },
+          "201020305": {
+            "id": "201020305",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Well, thanks for bringing the letter. One second, I've got a little something for you in return...",
+            "nextDialogs": [
+              "201020306"
+            ]
+          },
+          "201020306": {
+            "id": "201020306",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the letter...",
+            "nextDialogs": [
+              "201020307"
+            ]
+          },
+          "201020307": {
+            "id": "201020307",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Oh, you read it? Not that it matters, it's nothing confidential.",
+            "nextDialogs": [
+              "201020308"
+            ]
+          },
+          "201020308": {
+            "id": "201020308",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "To put it in Draff's words, it's just something that happened a long time ago.",
+            "nextDialogs": [
+              "201020309"
+            ]
+          },
+          "201020309": {
+            "id": "201020309",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "But although it was long ago, it's something we will never forget.",
+            "nextDialogs": [
+              "201020310"
+            ]
+          },
+          "201020310": {
+            "id": "201020310",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Please continue...",
+            "nextDialogs": [
+              "201020311"
+            ]
+          },
+          "201020311": {
+            "id": "201020311",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "You really want to know? Well, you seem trustworthy enough... But promise me you will keep it a secret.",
+            "nextDialogs": [
+              "201020316",
+              "201020314"
+            ]
+          },
+          "201020316": {
+            "id": "201020316",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...Timmie's father is good friends with Draff. They do everything together — hunting, drinking, causing all sorts of trouble...",
+            "nextDialogs": [
+              "201020317"
+            ]
+          },
+          "201020317": {
+            "id": "201020317",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "I don't know how many times they've been warned by the Knights. Or been lectured by Sister Victoria.",
+            "nextDialogs": [
+              "201020318"
+            ]
+          },
+          "201020318": {
+            "id": "201020318",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Finally, when Timmie was born, his father reined it in. Went teetotal and everything. Started working hard to provide for his family and \"set an example\" for his son, as he puts it.",
+            "nextDialogs": [
+              "201020319"
+            ]
+          },
+          "201020319": {
+            "id": "201020319",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "He became so obsessed with not setting a bad example for Timmie that he even managed to get Draff to give up alcohol.",
+            "nextDialogs": [
+              "201020320"
+            ]
+          },
+          "201020320": {
+            "id": "201020320",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...Except that once in a while, when they just couldn't bear it anymore, they'd meet up and binge drink apple cider. I joined them for a drink too, once or twice.",
+            "nextDialogs": [
+              "201020321"
+            ]
+          },
+          "201020321": {
+            "id": "201020321",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Unfortunately, Timmie's father was seriously injured in a hunting accident one day...",
+            "nextDialogs": [
+              "201020322"
+            ]
+          },
+          "201020322": {
+            "id": "201020322",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Draff brought him here as quickly as he could, and we did everything within our power to save him... But sadly, he didn't make it.",
+            "nextDialogs": [
+              "201020323"
+            ]
+          },
+          "201020323": {
+            "id": "201020323",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Since then, Draff's asked me to look after Timmie while he returns to Springvale to be a hunter.",
+            "nextDialogs": [
+              "201020324"
+            ]
+          },
+          "201020324": {
+            "id": "201020324",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Each month he sends a letter and some money. But he can't face seeing Timmie.",
+            "nextDialogs": [
+              "201020325"
+            ]
+          },
+          "201020325": {
+            "id": "201020325",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Recently, he has started saying he wants to tell Timmie the truth about that fateful day... *sigh* I dread to think what he must have been through..."
+          },
+          "201020314": {
+            "id": "201020314",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "Ugh, you are insufferable...",
+            "nextDialogs": [
+              "201020315"
+            ]
+          },
+          "201020315": {
+            "id": "201020315",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...But go on then."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010203",
+      "subQuestName": "Talk to Timmie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020401"
+        ],
+        "dialogs": {
+          "201020401": {
+            "id": "201020401",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "...Still no news. Not even a word.",
+            "nextDialogs": [
+              "201020403",
+              "201020406"
+            ]
+          },
+          "201020403": {
+            "id": "201020403",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "I fed them already today. And I got them to fly away earlier, so they would be safe... from you.",
+            "nextDialogs": [
+              "201020404"
+            ]
+          },
+          "201020404": {
+            "id": "201020404",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Now I'm writing a letter.",
+            "nextDialogs": [
+              "201020407"
+            ]
+          },
+          "201020407": {
+            "id": "201020407",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Mommy says that Daddy will send a letter by pigeon when he has time.",
+            "nextDialogs": [
+              "201020408"
+            ]
+          },
+          "201020408": {
+            "id": "201020408",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "But I've waited and waited and I haven't had a single letter from him... Maybe Daddy's just too busy at work.",
+            "nextDialogs": [
+              "201020409"
+            ]
+          },
+          "201020409": {
+            "id": "201020409",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Since Daddy's too busy, I want to send him a letter first. With a nice gift inside. But what would make a good gift?",
+            "nextDialogs": [
+              "201020410"
+            ]
+          },
+          "201020410": {
+            "id": "201020410",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "...I got it! <color=#00E1FFFF>Dandelions</color>. Mommy says everyone in Mondstadt loves Dandelions.",
+            "nextDialogs": [
+              "201020411"
+            ]
+          },
+          "201020411": {
+            "id": "201020411",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Do you have time to find me some <color=#00E1FFFF>Dandelions</color>?"
+          },
+          "201020406": {
+            "id": "201020406",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Writing a letter to Daddy."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010204",
+      "subQuestName": "Find three Dandelions",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "2010205",
+      "subQuestName": "Give the Dandelions to Timmie",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020601"
+        ],
+        "dialogs": {
+          "201020601": {
+            "id": "201020601",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Did you get my Dandelions?",
+            "nextDialogs": [
+              "201020602"
+            ]
+          },
+          "201020602": {
+            "id": "201020602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Got them.",
+            "nextDialogs": [
+              "201020603"
+            ]
+          },
+          "201020603": {
+            "id": "201020603",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Yay! This is plenty.",
+            "nextDialogs": [
+              "201020604"
+            ]
+          },
+          "201020604": {
+            "id": "201020604",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "In go the Dandelion Seeds... now I seal the envelope...",
+            "nextDialogs": [
+              "201020605"
+            ]
+          },
+          "201020605": {
+            "id": "201020605",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "...And we're all set! Yay! Daddy's going to be so happy when he gets my letter.",
+            "nextDialogs": [
+              "201020606"
+            ]
+          },
+          "201020606": {
+            "id": "201020606",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "But... I heard that you need to use a proper trained carrier pigeon when you wanna send a letter. And I don't know Daddy's address...",
+            "nextDialogs": [
+              "201020607"
+            ]
+          },
+          "201020607": {
+            "id": "201020607",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Oh wait — I just remembered, Mommy says that Mr. Draff from Springvale keeps carrier pigeons.",
+            "nextDialogs": [
+              "201020608"
+            ]
+          },
+          "201020608": {
+            "id": "201020608",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "And she also says that Mr. Draff knows Daddy. He must be able to send this letter.",
+            "nextDialogs": [
+              "201020609"
+            ]
+          },
+          "201020609": {
+            "id": "201020609",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "So... Can you help me again? Take this letter to Mr. Draff and get him to send it to Daddy for me.",
+            "nextDialogs": [
+              "201020610"
+            ]
+          },
+          "201020610": {
+            "id": "201020610",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "One more thing — no peeking!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010206",
+      "subQuestName": "Give Timmie's letter to Draff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020701"
+        ],
+        "dialogs": {
+          "201020701": {
+            "id": "201020701",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "You're back? Did you deliver the letter?",
+            "nextDialogs": [
+              "201020702"
+            ]
+          },
+          "201020702": {
+            "id": "201020702",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Timmie wants you to send this letter to his daddy.",
+            "nextDialogs": [
+              "201020703"
+            ]
+          },
+          "201020703": {
+            "id": "201020703",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Timmie's still writing letters to his father... I assume you heard the whole story from Grace.",
+            "nextDialogs": [
+              "201020704"
+            ]
+          },
+          "201020704": {
+            "id": "201020704",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "I... I can't send this.",
+            "nextDialogs": [
+              "201020706",
+              "201020709",
+              "201020713"
+            ]
+          },
+          "201020706": {
+            "id": "201020706",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Well, yes... As much as I'd like to, I simply can't.",
+            "nextDialogs": [
+              "201020707"
+            ]
+          },
+          "201020707": {
+            "id": "201020707",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "There's nothing I can do. I suppose I'll just hold onto it for now.",
+            "nextDialogs": [
+              "201020717"
+            ]
+          },
+          "201020717": {
+            "id": "201020717",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Anyway, enough about that. I will keep the letter. Please consider it sent.",
+            "nextDialogs": [
+              "201020718"
+            ]
+          },
+          "201020718": {
+            "id": "201020718",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "He would understand... My dear old friend.",
+            "nextDialogs": [
+              "201020719"
+            ]
+          },
+          "201020719": {
+            "id": "201020719",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Thanks for your help and please, please don't tell Timmie about this. I can trust you with that, right? ...Considering, here's your payment..."
+          },
+          "201020709": {
+            "id": "201020709",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Hahaha... That's the adventurer in you talking! Decisive and efficient in all things.",
+            "nextDialogs": [
+              "201020710"
+            ]
+          },
+          "201020710": {
+            "id": "201020710",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "I'm no adventurer myself. Just a plain old hunter.",
+            "nextDialogs": [
+              "201020711"
+            ]
+          },
+          "201020711": {
+            "id": "201020711",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "I'm not going to burn this, or even open it. I'm just going to hold onto it for now."
+          },
+          "201020713": {
+            "id": "201020713",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "What for? Surely you don't think my old friend might still be alive...",
+            "nextDialogs": [
+              "201020714"
+            ]
+          },
+          "201020714": {
+            "id": "201020714",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "...Somewhere, out there, just waiting to be found...",
+            "nextDialogs": [
+              "201020715"
+            ]
+          },
+          "201020715": {
+            "id": "201020715",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Yes, I used to wonder the same thing myself. Even put it to the test, but...",
+            "nextDialogs": [
+              "201020716"
+            ]
+          },
+          "201020716": {
+            "id": "201020716",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "In the end I just had to accept the facts — my best friend is gone forever, never to return."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010202",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020201"
+        ],
+        "dialogs": {
+          "201020201": {
+            "id": "201020201",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "...I thought you were supposed to be delivering my letter?",
+            "nextDialogs": [
+              "201020203",
+              "201020206"
+            ]
+          },
+          "201020203": {
+            "id": "201020203",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "...It's about something that happened a long time ago. I take it you didn't read it last time, then?",
+            "nextDialogs": [
+              "201020204"
+            ]
+          },
+          "201020204": {
+            "id": "201020204",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Don't bother reading it. It's boring and long-winded."
+          },
+          "201020206": {
+            "id": "201020206",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "If you must know, I mean that little boy who's always feeding the pigeons on the bridge.",
+            "nextDialogs": [
+              "201020207"
+            ]
+          },
+          "201020207": {
+            "id": "201020207",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Yes, Timmie. For certain reasons... it would be best if I avoided him at the moment.",
+            "nextDialogs": [
+              "201020208"
+            ]
+          },
+          "201020208": {
+            "id": "201020208",
+            "speakerId": 1537,
+            "speakerName": "Draff",
+            "text": "Happy now? Now quickly, get this letter to Grace before she starts fretting."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010205",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020501"
+        ],
+        "dialogs": {
+          "201020501": {
+            "id": "201020501",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Anyway. Go get me some <color=#00E1FFFF>Dandelions</color>! You promised. And I've nearly finished writing my letter."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010208",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020801"
+        ],
+        "dialogs": {
+          "201020801": {
+            "id": "201020801",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...Lord Barbatos, if you've been watching...",
+            "nextDialogs": [
+              "201020802"
+            ]
+          },
+          "201020802": {
+            "id": "201020802",
+            "speakerId": 1429,
+            "speakerName": "Grace",
+            "text": "...Please tell me what I'm supposed to do."
+          }
+        }
+      }
+    },
+    {
+      "subId": "2010209",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "201020901"
+        ],
+        "dialogs": {
+          "201020901": {
+            "id": "201020901",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Remember, give it to Mr. Draff in Springvale. Don't give it to the wrong person!",
+            "nextDialogs": [
+              "201020902"
+            ]
+          },
+          "201020902": {
+            "id": "201020902",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Mommy says Daddy and him are best friends. He's sure to know how to get this letter to Daddy.",
+            "nextDialogs": [
+              "201020903"
+            ]
+          },
+          "201020903": {
+            "id": "201020903",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "But... Mommy also says that Mr. Draff and Daddy are both very busy in their work... Hmm, I wonder if I'll be busy like them when I grow up...",
+            "nextDialogs": [
+              "201020904"
+            ]
+          },
+          "201020904": {
+            "id": "201020904",
+            "speakerId": 1567,
+            "speakerName": "Timmie",
+            "text": "Ah, it doesn't matter — as long as I get to help Daddy, I don't mind if it's busy."
+          }
+        }
+      }
+    }
+  ]
+}

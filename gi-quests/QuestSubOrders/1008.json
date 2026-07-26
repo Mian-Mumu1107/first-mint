@@ -1,0 +1,758 @@
+{
+  "lineCounts": {
+    "Li Dang": 13,
+    "Li Ding": 28,
+    "Mountain Shaper": 22,
+    "Paimon": 15,
+    "Player": 13
+  },
+  "subQuests": [
+    {
+      "subId": "100801",
+      "subQuestName": "Seek out Mountain Shaper",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100802",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10080201"
+        ],
+        "dialogs": {
+          "10080201": {
+            "id": "10080201",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Have mercy, O mighty adeptus! I beg you... Show mercy upon me and my brother... Spare our lives!",
+            "nextDialogs": [
+              "10080202"
+            ]
+          },
+          "10080202": {
+            "id": "10080202",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What's wrong?",
+            "nextDialogs": [
+              "10080203"
+            ]
+          },
+          "10080203": {
+            "id": "10080203",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Who are you? What's going on?",
+            "nextDialogs": [
+              "10080204"
+            ]
+          },
+          "10080204": {
+            "id": "10080204",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "We asked you first!",
+            "nextDialogs": [
+              "10080205"
+            ]
+          },
+          "10080205": {
+            "id": "10080205",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "...Oh! You enjoy safe passage in Jueyun Karst... It can only mean one thing!",
+            "nextDialogs": [
+              "10080206"
+            ]
+          },
+          "10080206": {
+            "id": "10080206",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "You must be adepti messengers! Sent here to rescue me and my brother!",
+            "nextDialogs": [
+              "10080207"
+            ]
+          },
+          "10080207": {
+            "id": "10080207",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What is he talking about?",
+            "nextDialogs": [
+              "10080208"
+            ]
+          },
+          "10080208": {
+            "id": "10080208",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "...Oh, have mercy, mighty messengers of the illuminated adepti! I beg you to save us... My brother and I, we only came here because our family is poor, and we heard tell of treasures hidden in the amber of Mt. Hulao.",
+            "nextDialogs": [
+              "10080209"
+            ]
+          },
+          "10080209": {
+            "id": "10080209",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "It was stupid of us... but all we wanted to do was find enough treasure to sell and support our family...",
+            "nextDialogs": [
+              "10080210"
+            ]
+          },
+          "10080210": {
+            "id": "10080210",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "We followed <color=#00E1FFFF>the path up the mountain</color>, but suddenly, the amber... it swallowed up my brother, Li Dang!",
+            "nextDialogs": [
+              "10080211"
+            ]
+          },
+          "10080211": {
+            "id": "10080211",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "I ran away, and made it this far before it dawned on me: We were trespassers in the abode of the adepti, and this was our punishment...",
+            "nextDialogs": [
+              "10080212"
+            ]
+          },
+          "10080212": {
+            "id": "10080212",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "I had no idea how to rescue my brother, so I just started praying for the adepti to have mercy, right here on the spot. And now, at long last, two messengers come to my aid...",
+            "nextDialogs": [
+              "10080213"
+            ]
+          },
+          "10080213": {
+            "id": "10080213",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "What? We're not adepti messengers... We just wanna find the adepti, like everyone else!",
+            "nextDialogs": [
+              "10080214"
+            ]
+          },
+          "10080214": {
+            "id": "10080214",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "No no no, you must be messengers... You have to be!",
+            "nextDialogs": [
+              "10080215"
+            ]
+          },
+          "10080215": {
+            "id": "10080215",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "I have no idea which amber trapped him... Please, you have to rescue him! I beg you, show me some adepti mercy!",
+            "nextDialogs": [
+              "10080217",
+              "10080219"
+            ]
+          },
+          "10080217": {
+            "id": "10080217",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Thank you, thank you! O mighty messengers of the illuminated adepti, I promise that we will never be so foolish again..."
+          },
+          "10080219": {
+            "id": "10080219",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, check you out! When you speak like that, you actually make a pretty convincing adepti messenger.",
+            "nextDialogs": [
+              "10080220"
+            ]
+          },
+          "10080220": {
+            "id": "10080220",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Thanks be to the adeptus of Mt. Hulao, and to their messengers! Never will we be so foolish again..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100804",
+      "subQuestName": "Shatter the amber on the mountain road to save the trapped person",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "100805",
+      "subQuestName": "Talk to Li Dang",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10080501"
+        ],
+        "dialogs": {
+          "10080501": {
+            "id": "10080501",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "*coughing*",
+            "nextDialogs": [
+              "10080502"
+            ]
+          },
+          "10080502": {
+            "id": "10080502",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Wh—What happened? ...Y—You rescued me? Thank you...",
+            "nextDialogs": [
+              "10080503"
+            ]
+          },
+          "10080503": {
+            "id": "10080503",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Oh! And have you seen my brother? His name is Li Ding, we were climbing the mountain together.",
+            "nextDialogs": [
+              "10080504"
+            ]
+          },
+          "10080504": {
+            "id": "10080504",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "I just hope he didn't get trapped in amber too...",
+            "nextDialogs": [
+              "10080506",
+              "10080508"
+            ]
+          },
+          "10080506": {
+            "id": "10080506",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Phew... so he's safe then...?",
+            "nextDialogs": [
+              "10080509"
+            ]
+          },
+          "10080509": {
+            "id": "10080509",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Thank you! I will head up to find my brother now.",
+            "nextDialogs": [
+              "10080510"
+            ]
+          },
+          "10080510": {
+            "id": "10080510",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Here's hoping I don't run into any more amber on the way..."
+          },
+          "10080508": {
+            "id": "10080508",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "He made it to the top? That means he should be okay..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100806",
+      "subQuestName": "Talk to Li Ding and Li Dang",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10080601"
+        ],
+        "dialogs": {
+          "10080601": {
+            "id": "10080601",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Thank you for rescuing my brother, O mighty messengers of the illuminated adepti.",
+            "nextDialogs": [
+              "10080602"
+            ]
+          },
+          "10080602": {
+            "id": "10080602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Have you ever seen the adeptus here?",
+            "nextDialogs": [
+              "10080603"
+            ]
+          },
+          "10080603": {
+            "id": "10080603",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "What? No... I mean, like everyone else, we've heard that there's an adeptus living in Mt. Hulao.",
+            "nextDialogs": [
+              "10080604"
+            ]
+          },
+          "10080604": {
+            "id": "10080604",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "But regular folks like us would never have the chance to meet them. No way.",
+            "nextDialogs": [
+              "10080605"
+            ]
+          },
+          "10080605": {
+            "id": "10080605",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Unlike you guys... You're adepti messengers, so it's a whole different story.",
+            "nextDialogs": [
+              "10080606"
+            ]
+          },
+          "10080606": {
+            "id": "10080606",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Anyway, we have trespassed in the realm of the adeptus for long enough. We should get going. Thank you, mighty adepti messengers...",
+            "nextDialogs": [
+              "10080607"
+            ]
+          },
+          "10080607": {
+            "id": "10080607",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Yes, thank you, messengers...",
+            "nextDialogs": [
+              "10080608"
+            ]
+          },
+          "10080608": {
+            "id": "10080608",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Boy, it'd be super helpful if we actually were adepti messengers.",
+            "nextDialogs": [
+              "10080609"
+            ]
+          },
+          "10080609": {
+            "id": "10080609",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "'Cause it seems like this adeptus has got a real temper problem...",
+            "nextDialogs": [
+              "10080610"
+            ]
+          },
+          "10080610": {
+            "id": "10080610",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But it's not like we've done anything wrong, so... hopefully we'll be okay... hehe...",
+            "nextDialogs": [
+              "10089601"
+            ]
+          },
+          "10089601": {
+            "id": "10089601",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Who dares trespass on my mountain? Who is it that frees the thief from his incarceration?",
+            "nextDialogs": [
+              "10089602"
+            ]
+          },
+          "10089602": {
+            "id": "10089602",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Foolish mortal, come forth and receive your punishment at once!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100807",
+      "subQuestName": "Meet Mountain Shaper",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10080701"
+        ],
+        "dialogs": {
+          "10080701": {
+            "id": "10080701",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "...You intrude upon the sanctity of Mt. Hulao, you destroy the amber of my mountain, and you free a thief whose freedom is not yours to give.",
+            "nextDialogs": [
+              "10080702"
+            ]
+          },
+          "10080702": {
+            "id": "10080702",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "The thieves' ignorance was an affront to the adepti... but your actions are an abomination of the highest order!",
+            "nextDialogs": [
+              "10080703"
+            ]
+          },
+          "10080703": {
+            "id": "10080703",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Wait! We can explain...",
+            "nextDialogs": [
+              "10080705",
+              "10080707"
+            ]
+          },
+          "10080705": {
+            "id": "10080705",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "...A Sigil of Permission? One was unaware that such things still exist in the mortal realm.",
+            "nextDialogs": [
+              "10080708"
+            ]
+          },
+          "10080708": {
+            "id": "10080708",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Is this... a Sigil of Permission? One is surprised to find that such things still exist in the mortal realm.",
+            "nextDialogs": [
+              "10080709"
+            ]
+          },
+          "10080709": {
+            "id": "10080709",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "In the beginning, Rex Lapis cast them for the mortals with his own hand. Few were made then, and thousands of years on, fewer still remain...",
+            "nextDialogs": [
+              "10080710"
+            ]
+          },
+          "10080710": {
+            "id": "10080710",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Speak. One shall listen to the matter which brings you here, then one shall verify the truth thereof.",
+            "nextDialogs": [
+              "10080711"
+            ]
+          },
+          "10080711": {
+            "id": "10080711",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "You would be wise to speak the truth, for Liyue is not so far from here that one would be easily deceived.",
+            "nextDialogs": [
+              "10080712"
+            ]
+          },
+          "10080712": {
+            "id": "10080712",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Rex Lapis... Assassinated?",
+            "nextDialogs": [
+              "10080713"
+            ]
+          },
+          "10080713": {
+            "id": "10080713",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "At the Rite of Descension!?",
+            "nextDialogs": [
+              "10080714"
+            ]
+          },
+          "10080714": {
+            "id": "10080714",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "What mortal in Liyue— nay, in all the world, would conspire to commit such foul treason? Or perhaps the more pertinent question is, what power in this world could aspire to achieve it?",
+            "nextDialogs": [
+              "10080715"
+            ]
+          },
+          "10080715": {
+            "id": "10080715",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Rex Lapis charged the adepti with the protection of Liyue, and we have always honored this duty. As the people have prospered, so have we gradually withdrawn into the mountains. Indeed, this was a gesture of good will towards humanity.",
+            "nextDialogs": [
+              "10080716"
+            ]
+          },
+          "10080716": {
+            "id": "10080716",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "But now... Alas! Rex Lapis, gone...",
+            "nextDialogs": [
+              "10080717"
+            ]
+          },
+          "10080717": {
+            "id": "10080717",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Traveler, of the matter you have relayed, one has become aware. One now knows why Moon Carver has sent for us.",
+            "nextDialogs": [
+              "10080718"
+            ]
+          },
+          "10080718": {
+            "id": "10080718",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Once one has dealt with certain matters here that require my attention, one shall convene with the other adepti.",
+            "nextDialogs": [
+              "10080719"
+            ]
+          },
+          "10080719": {
+            "id": "10080719",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Can someone explain the amber situation to me?",
+            "nextDialogs": [
+              "10080720"
+            ]
+          },
+          "10080720": {
+            "id": "10080720",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Paimon can! Adepti always have magical powers in storybooks, seems it's true in real life too.",
+            "nextDialogs": [
+              "10080721"
+            ]
+          },
+          "10080721": {
+            "id": "10080721",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "You know, like how grass is actually adepti hair, and rivers are actually adepti saliva... There must be something similar going on with the amber."
+          },
+          "10080707": {
+            "id": "10080707",
+            "speakerId": 10257,
+            "speakerName": "Mountain Shaper",
+            "text": "Moon Carver... trusted a mere mortal as his messenger?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "100897",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10089701"
+        ],
+        "dialogs": {
+          "10089701": {
+            "id": "10089701",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "My brother told me everything... Thank you both so much for rescuing him!",
+            "nextDialogs": [
+              "10089702"
+            ]
+          },
+          "10089702": {
+            "id": "10089702",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "*sigh* Our family has nothing to live on... We heard tell of treasures hidden in the amber of Mt. Hulao, and with nowhere else to turn, we came looking for them...",
+            "nextDialogs": [
+              "10089703"
+            ]
+          },
+          "10089703": {
+            "id": "10089703",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "We weren't thinking straight... We thought that we could sneak up into the mountain and grab just enough treasure to sell and support our family with.",
+            "nextDialogs": [
+              "10089704"
+            ]
+          },
+          "10089704": {
+            "id": "10089704",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "As you can see, the adeptus punished us for our greed. The amber swallowed me up, and if you hadn't come to my rescue, who knows when I would've gotten out.",
+            "nextDialogs": [
+              "10089705"
+            ]
+          },
+          "10089705": {
+            "id": "10089705",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Luckily, the adeptus was merciful. They sent you two as their messengers to save us...",
+            "nextDialogs": [
+              "10089707",
+              "10089710"
+            ]
+          },
+          "10089707": {
+            "id": "10089707",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Yes! You two saved my brother just as I was praying for the adeptus' forgiveness, right here on top of the mountain.",
+            "nextDialogs": [
+              "10089708"
+            ]
+          },
+          "10089708": {
+            "id": "10089708",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "You are adepti messengers, no doubt about it.",
+            "nextDialogs": [
+              "10089712"
+            ]
+          },
+          "10089712": {
+            "id": "10089712",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "We are truly blessed to receive the mercy of the adeptus. We promise that we will change our ways and make an honest living from now on. Even if it means sweating it out down at the docks.",
+            "nextDialogs": [
+              "10089713"
+            ]
+          },
+          "10089713": {
+            "id": "10089713",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Anyway, we have trespassed in the realm of the adeptus for long enough. We should get going. Thank you, mighty adepti messengers...",
+            "nextDialogs": [
+              "10089714"
+            ]
+          },
+          "10089714": {
+            "id": "10089714",
+            "speakerId": 10260,
+            "speakerName": "Li Dang",
+            "text": "Yes, thank you, messengers...",
+            "nextDialogs": [
+              "10089715"
+            ]
+          },
+          "10089715": {
+            "id": "10089715",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "...Boy, it'd be super helpful if we actually were adepti messengers.",
+            "nextDialogs": [
+              "10089716"
+            ]
+          },
+          "10089716": {
+            "id": "10089716",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "'Cause it seems like this adeptus has got a real temper problem...",
+            "nextDialogs": [
+              "10089717"
+            ]
+          },
+          "10089717": {
+            "id": "10089717",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "But it's not like we've done anything wrong, so... hopefully we'll be okay... hehe..."
+          },
+          "10089710": {
+            "id": "10089710",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Whoa, your adepti messenger impression is really good. It's like this is the part you were born to play!",
+            "nextDialogs": [
+              "10089711"
+            ]
+          },
+          "10089711": {
+            "id": "10089711",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Thank you... yes, we are truly sorry, my brother and I have learned our lesson."
+          }
+        }
+      }
+    },
+    {
+      "subId": "100899",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "10089901"
+        ],
+        "dialogs": {
+          "10089901": {
+            "id": "10089901",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "Please, help me rescue my brother. I don't know which amber it was that took him...",
+            "nextDialogs": [
+              "10089902"
+            ]
+          },
+          "10089902": {
+            "id": "10089902",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "All I know is that we kept to <color=#00E1FFFF>the path the whole way up the mountain</color>. So the amber won't be far from the path.",
+            "nextDialogs": [
+              "10089903"
+            ]
+          },
+          "10089903": {
+            "id": "10089903",
+            "speakerId": 10259,
+            "speakerName": "Li Ding",
+            "text": "O mighty messengers of the illuminated adepti, please rescue him, I beg of you..."
+          }
+        }
+      }
+    }
+  ]
+}

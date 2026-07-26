@@ -1,0 +1,110 @@
+{
+  "lineCounts": {
+    "假山": 2,
+    "派蒙": 6
+  },
+  "subQuests": [
+    {
+      "subId": "7101901",
+      "subQuestName": "测试任务隐藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710190101"
+        ],
+        "dialogs": {
+          "710190101": {
+            "id": "710190101",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你看!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7101902",
+      "subQuestName": "派萌跳转$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710190201"
+        ],
+        "dialogs": {
+          "710190201": {
+            "id": "710190201",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "这个大盆子里面，有一大块石头…这应该就是「假山」了吧。",
+            "nextDialogs": [
+              "710190202"
+            ]
+          },
+          "710190202": {
+            "id": "710190202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "不过「假山」不一般是放在庭院啦园林啦之类的地方…放在这里又是做什么的呢？",
+            "nextDialogs": [
+              "710190203"
+            ]
+          },
+          "710190203": {
+            "id": "710190203",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "咦？这座假山的山顶上还放着个奇怪的东西，好像是在标记什么…唔，真让人在意…",
+            "nextDialogs": [
+              "710190204"
+            ]
+          },
+          "710190204": {
+            "id": "710190204",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "那个，反正我们也在旅行…在璃月的时候，就留意一下和这座假山类似的山吧。",
+            "nextDialogs": [
+              "710190205"
+            ]
+          },
+          "710190205": {
+            "id": "710190205",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "如果真能有什么发现的话，那就再好不过了。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7101903",
+      "subQuestName": "寻找宝藏$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "710190301"
+        ],
+        "dialogs": {
+          "710190301": {
+            "id": "710190301",
+            "speakerId": 1001,
+            "speakerName": "假山",
+            "text": "（一盆看起来是用来装饰的假山，假山的山顶上放着一个奇怪的标记。）",
+            "nextDialogs": [
+              "710190302"
+            ]
+          },
+          "710190302": {
+            "id": "710190302",
+            "speakerId": 1001,
+            "speakerName": "假山",
+            "text": "（在璃月旅行的时候留意一下相似的山，然后再去那座山的山顶上仔细搜索一下吧。也许会有什么意外收获…）"
+          }
+        }
+      }
+    }
+  ]
+}

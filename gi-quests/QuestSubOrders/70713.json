@@ -1,0 +1,91 @@
+{
+  "lineCounts": {
+    "Brook": 6,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7071301",
+      "subQuestName": "Give Brook six servings of Raw Meat",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707130101"
+        ],
+        "dialogs": {
+          "707130101": {
+            "id": "707130101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Do you need some Raw Meat?",
+            "nextDialogs": [
+              "707130102"
+            ]
+          },
+          "707130102": {
+            "id": "707130102",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Oh, you must have seen that commission of mine.",
+            "nextDialogs": [
+              "707130103"
+            ]
+          },
+          "707130103": {
+            "id": "707130103",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Well, do you have six servings of Raw Meat with you?",
+            "nextDialogs": [
+              "707130106"
+            ]
+          },
+          "707130106": {
+            "id": "707130106",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Well, I'll need them to research new recipes, so please pass them to me once you've gathered them all."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7071302",
+      "subQuestName": "Talk to Brook",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "707130201"
+        ],
+        "dialogs": {
+          "707130201": {
+            "id": "707130201",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Oh my, these cuts are very good indeed.",
+            "nextDialogs": [
+              "707130202"
+            ]
+          },
+          "707130202": {
+            "id": "707130202",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Thank you very much for your help. Here's a little something in return.",
+            "nextDialogs": [
+              "707130203"
+            ]
+          },
+          "707130203": {
+            "id": "707130203",
+            "speakerId": 1541,
+            "speakerName": "Brook",
+            "text": "Come over when I'm done with my research — you'll be the first to try my new dish, I promise."
+          }
+        }
+      }
+    }
+  ]
+}

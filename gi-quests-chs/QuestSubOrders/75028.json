@@ -1,0 +1,367 @@
+{
+  "lineCounts": {
+    "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+    "Black Screen": 1,
+    "Player": 8,
+    "夜猫子": 5,
+    "派蒙": 16,
+    "绒翼龙": 3,
+    "老鼠": 2
+  },
+  "subQuests": [
+    {
+      "subId": "7502801",
+      "subQuestName": "(test)击退埋伏的头套人$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280101"
+        ],
+        "dialogs": {
+          "750280101": {
+            "id": "750280101",
+            "speakerId": 21564,
+            "speakerName": "老鼠",
+            "text": "啧，敢情遇上硬茬子了。",
+            "nextDialogs": [
+              "750280102"
+            ]
+          },
+          "750280102": {
+            "id": "750280102",
+            "speakerId": 21565,
+            "speakerName": "夜猫子",
+            "text": "哎哟，今儿个这是什么日子，我又招谁惹谁了，给我一顿好打…",
+            "nextDialogs": [
+              "750280103"
+            ]
+          },
+          "750280103": {
+            "id": "750280103",
+            "speakerId": 21565,
+            "speakerName": "夜猫子",
+            "text": "#{M#大兄弟}{F#好姐姐}，您可得给我点拨一下，我这又是做了什么拂了您的心意，叫我知道知道，好今后不要再犯。",
+            "nextDialogs": [
+              "750280104"
+            ]
+          },
+          "750280104": {
+            "id": "750280104",
+            "speakerId": 21564,
+            "speakerName": "老鼠",
+            "text": "喂！你小子，对这凶神恶煞的魔头低声下气的，有没有点出息？",
+            "nextDialogs": [
+              "750280105"
+            ]
+          },
+          "750280105": {
+            "id": "750280105",
+            "speakerId": 21565,
+            "speakerName": "夜猫子",
+            "text": "出息？出息能当饭吃？我算是看清了，跟你混无非就是做些鸡鸣狗盗的营生，贩龙又有什么了不起的？",
+            "nextDialogs": [
+              "750280106"
+            ]
+          },
+          "750280106": {
+            "id": "750280106",
+            "speakerId": 21565,
+            "speakerName": "夜猫子",
+            "text": "#横竖都要被更强的煞星打劫，那我为什么不跟这边的{M#大兄弟}{F#好姐姐}混？",
+            "nextDialogs": [
+              "750280107"
+            ]
+          },
+          "750280107": {
+            "id": "750280107",
+            "speakerId": 21565,
+            "speakerName": "夜猫子",
+            "text": "#{M#大兄弟}{F#好姐姐}，不是我自夸，但我肯定比你带的这两个拖油瓶伶俐多了，有什么事您招呼我，保准给您安排得服服帖帖的。",
+            "nextDialogs": [
+              "750280108"
+            ]
+          },
+          "750280108": {
+            "id": "750280108",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "嗯？",
+            "nextDialogs": [
+              "750280110"
+            ]
+          },
+          "750280110": {
+            "id": "750280110",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你不会真想带着他吧？不行不行！我不同意！",
+            "nextDialogs": [
+              "750280112"
+            ]
+          },
+          "750280112": {
+            "id": "750280112",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#而且你们根本就是坏蛋吧！我们可是正派人士，才不会跟龙贩子为伍，对吧，{NICKNAME}？"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502807",
+      "subQuestName": "与可疑的部族战士对话",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502802",
+      "subQuestName": "查看受伤的龙",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280201"
+        ],
+        "dialogs": {
+          "750280201": {
+            "id": "750280201",
+            "speakerId": 21499,
+            "speakerName": "绒翼龙",
+            "text": "呜…",
+            "nextDialogs": [
+              "750280202"
+            ]
+          },
+          "750280202": {
+            "id": "750280202",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "很虚弱的样子，好可怜…肯定是之前吃了不少苦…",
+            "nextDialogs": [
+              "750280203"
+            ]
+          },
+          "750280203": {
+            "id": "750280203",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呜…呜呜…",
+            "nextDialogs": [
+              "750280207",
+              "750280206"
+            ]
+          },
+          "750280207": {
+            "id": "750280207",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "唔…呀！呀呀！",
+            "nextDialogs": [
+              "750280208"
+            ]
+          },
+          "750280208": {
+            "id": "750280208",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#怎么了？{REALNAME[ID(2)|SHOWHOST(true)]}，你有什么好点子吗？",
+            "nextDialogs": [
+              "750280209"
+            ]
+          },
+          "750280209": {
+            "id": "750280209",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！"
+          },
+          "750280206": {
+            "id": "750280206",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "但哪怕只是现在一小会儿也好，如果有什么办法能让它好过一点…"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502803",
+      "subQuestName": "跟随龙伙伴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280301"
+        ],
+        "dialogs": {
+          "750280301": {
+            "id": "750280301",
+            "speakerId": 21499,
+            "speakerName": "绒翼龙",
+            "text": "（看起来很虚弱的样子，要是有什么办法让它恢复就好了…）"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502804",
+      "subQuestName": "看看龙伙伴的发现",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280401"
+        ],
+        "dialogs": {
+          "750280401": {
+            "id": "750280401",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀呀！呀！",
+            "nextDialogs": [
+              "750280402"
+            ]
+          },
+          "750280402": {
+            "id": "750280402",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "你觉得烬芯花会对它有帮助吗？",
+            "nextDialogs": [
+              "750280403"
+            ]
+          },
+          "750280403": {
+            "id": "750280403",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750280404"
+            ]
+          },
+          "750280404": {
+            "id": "750280404",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "嗯，那我们就试试看吧！"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7502805",
+      "subQuestName": "尝试治疗绒翼龙",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "7502806",
+      "subQuestName": "查看绒翼龙的情况",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "750280601"
+        ],
+        "dialogs": {
+          "750280601": {
+            "id": "750280601",
+            "speakerId": 21499,
+            "speakerName": "绒翼龙",
+            "text": "……",
+            "nextDialogs": [
+              "750280602"
+            ]
+          },
+          "750280602": {
+            "id": "750280602",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀…呀！",
+            "nextDialogs": [
+              "750280603"
+            ]
+          },
+          "750280603": {
+            "id": "750280603",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "感觉好像恢复了一点精神？",
+            "nextDialogs": [
+              "750280605"
+            ]
+          },
+          "750280605": {
+            "id": "750280605",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "哎呀，居然就这样飞走了，果然还是不信任我们吗…",
+            "nextDialogs": [
+              "750280607",
+              "750280609"
+            ]
+          },
+          "750280607": {
+            "id": "750280607",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#说得也是，我们也是和{REALNAME[ID(2)|SHOWHOST(true)]}朝夕相处才会有这样的默契呢。",
+            "nextDialogs": [
+              "750280610"
+            ]
+          },
+          "750280610": {
+            "id": "750280610",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！呀呀！",
+            "nextDialogs": [
+              "750280611"
+            ]
+          },
+          "750280611": {
+            "id": "750280611",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#嗯，我们也不是为了让对方感恩才选择帮助它的，{REALNAME[ID(2)|SHOWHOST(true)]}也是这样想的吧？",
+            "nextDialogs": [
+              "750280612"
+            ]
+          },
+          "750280612": {
+            "id": "750280612",
+            "speakerId": 14662,
+            "speakerName": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+            "text": "呀！",
+            "nextDialogs": [
+              "750280613"
+            ]
+          },
+          "750280613": {
+            "id": "750280613",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#嘿嘿，看来{REALNAME[ID(2)|SHOWHOST(true)]}是只心胸宽广的小龙呢，就像我和{NICKNAME}一样！"
+          },
+          "750280609": {
+            "id": "750280609",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "#哦！确实，{REALNAME[ID(2)|SHOWHOST(true)]}的点子很奏效呢。"
+          }
+        }
+      }
+    }
+  ]
+}

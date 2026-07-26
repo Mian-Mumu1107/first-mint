@@ -1,0 +1,95 @@
+{
+  "lineCounts": {
+    "派蒙": 1,
+    "琴": 1,
+    "迪卢克": 2
+  },
+  "subQuests": [
+    {
+      "subId": "38101",
+      "subQuestName": "前往林中废墟",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3810101"
+        ],
+        "dialogs": {
+          "3810101": {
+            "id": "3810101",
+            "speakerId": 1006,
+            "speakerName": "琴",
+            "text": "身为骑士，我对「搜寻」这门技术很有自信。"
+          }
+        }
+      }
+    },
+    {
+      "subId": "38102",
+      "subQuestName": "进入林中废墟",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38103",
+      "subQuestName": "消灭守卫怪物",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38104",
+      "subQuestName": "获得风龙泪滴",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "38105",
+      "subQuestName": "(test)隐藏对话$HIDDEN",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "3800113"
+        ],
+        "dialogs": {
+          "3800113": {
+            "id": "3800113",
+            "speakerId": 1005,
+            "speakerName": "派蒙",
+            "text": "成功收集！真不容易啊。",
+            "nextDialogs": [
+              "3800114"
+            ]
+          },
+          "3800114": {
+            "id": "3800114",
+            "speakerId": 1009,
+            "speakerName": "迪卢克",
+            "text": "不要松懈。风魔龙的情况依然很危险。",
+            "nextDialogs": [
+              "3800115"
+            ]
+          },
+          "3800115": {
+            "id": "3800115",
+            "speakerId": 1009,
+            "speakerName": "迪卢克",
+            "text": "而且…「愚人众」那边说不定也会有动作。"
+          }
+        }
+      }
+    }
+  ]
+}

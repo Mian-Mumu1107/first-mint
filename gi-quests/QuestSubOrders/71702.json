@@ -1,0 +1,73 @@
+{
+  "lineCounts": {
+    "Herbalist Gui": 4,
+    "Player": 3
+  },
+  "subQuests": [
+    {
+      "subId": "7170201",
+      "subQuestName": "Give three Violetgrass to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717020101"
+        ],
+        "dialogs": {
+          "717020101": {
+            "id": "717020101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About Violetgrass...",
+            "nextDialogs": [
+              "717020102"
+            ]
+          },
+          "717020102": {
+            "id": "717020102",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Ah, you must've seen my commission. You've come just in time, can you find me three Violetgrass?",
+            "nextDialogs": [
+              "717020105"
+            ]
+          },
+          "717020105": {
+            "id": "717020105",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Please remember to bring them back as soon as you've found them."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7170202",
+      "subQuestName": "Talk to Herbalist Gui",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "717020201"
+        ],
+        "dialogs": {
+          "717020201": {
+            "id": "717020201",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Let me see... Yes, this Violetgrass will do nicely.",
+            "nextDialogs": [
+              "717020202"
+            ]
+          },
+          "717020202": {
+            "id": "717020202",
+            "speakerId": 2103,
+            "speakerName": "Herbalist Gui",
+            "text": "Here, these are for you. Thanks for your help."
+          }
+        }
+      }
+    }
+  ]
+}

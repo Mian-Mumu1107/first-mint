@@ -1,0 +1,140 @@
+{
+  "lineCounts": {
+    "Player": 3,
+    "Sieciech": 3,
+    "Yong'an": 3
+  },
+  "subQuests": [
+    {
+      "subId": "31001",
+      "subQuestName": "Talk to the shop owner",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "3100101",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "310010101"
+        ],
+        "dialogs": {
+          "310010101": {
+            "id": "310010101",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "About the cats...",
+            "nextDialogs": [
+              "310010102"
+            ]
+          },
+          "310010102": {
+            "id": "310010102",
+            "speakerId": 2002,
+            "speakerName": "Yong'an",
+            "text": "Come to think of it, I saw a girl trying to give them some milk while I was on morning patrol...ACHOO!",
+            "nextDialogs": [
+              "310010103"
+            ]
+          },
+          "310010103": {
+            "id": "310010103",
+            "speakerId": 2002,
+            "speakerName": "Yong'an",
+            "text": "Thank goodness I was able to stop her. Well, not that she meant them any ill, but cats will get upset stomachs from drinking milk!",
+            "nextDialogs": [
+              "310010104"
+            ]
+          },
+          "310010104": {
+            "id": "310010104",
+            "speakerId": 2002,
+            "speakerName": "Yong'an",
+            "text": "...Maybe it's because I've been around cats for so long, but I've also stopped liking milk myself. Here, you take them...ACHOO!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7651102",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "765110201"
+        ],
+        "dialogs": {
+          "765110201": {
+            "id": "765110201",
+            "speakerId": 15494,
+            "speakerName": "Sieciech",
+            "text": "Are you ready?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "7651103",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "765110301"
+        ],
+        "dialogs": {
+          "765110301": {
+            "id": "765110301",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Let's begin!",
+            "nextDialogs": [
+              "765110302"
+            ]
+          },
+          "765110302": {
+            "id": "765110302",
+            "speakerId": 15494,
+            "speakerName": "Sieciech",
+            "text": "Alright then. The finalist is about to take the stage..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "7651104",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "765110401"
+        ],
+        "dialogs": {
+          "765110401": {
+            "id": "765110401",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I'll come back in a bit.",
+            "nextDialogs": [
+              "765110402"
+            ]
+          },
+          "765110402": {
+            "id": "765110402",
+            "speakerId": 15494,
+            "speakerName": "Sieciech",
+            "text": "Sure. Let's do this when you're feeling ready — only then will it be truly exciting."
+          }
+        }
+      }
+    }
+  ]
+}

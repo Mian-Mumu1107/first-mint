@@ -1,0 +1,65 @@
+{
+  "lineCounts": {
+    "Chongyun": 1,
+    "Player": 2
+  },
+  "subQuests": [
+    {
+      "subId": "1902101",
+      "subQuestName": "Go to Liyue Harbor's wharf",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "19021011",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1902101191"
+        ],
+        "dialogs": {
+          "1902101191": {
+            "id": "1902101191",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(They all sound pretty farfetched, perhaps I should just tell him that.)",
+            "nextDialogs": [
+              "1902101192"
+            ]
+          },
+          "1902101192": {
+            "id": "1902101192",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "(Although they all seem farfetched, I'd better not tell him that. He seems like quite the persistent character.)"
+          }
+        }
+      }
+    },
+    {
+      "subId": "19021012",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "1902101235"
+        ],
+        "dialogs": {
+          "1902101235": {
+            "id": "1902101235",
+            "speakerId": 1023,
+            "speakerName": "Chongyun",
+            "text": "Um..."
+          }
+        }
+      }
+    }
+  ]
+}

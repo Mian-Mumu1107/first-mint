@@ -1,0 +1,958 @@
+{
+  "lineCounts": {
+    "Allpa": 8,
+    "Black Screen": 1,
+    "Bold Investigator": 12,
+    "Cautious Investigator": 4,
+    "Chasca": 14,
+    "Confused Investigator": 2,
+    "Curious Investigator": 4,
+    "Doubtful Investigator": 3,
+    "Elderly Merchant": 2,
+    "Inkanak": 12,
+    "Isidore": 8,
+    "NPC#21735": 1,
+    "Paimon": 4,
+    "Player": 9,
+    "Young Merchant": 3
+  },
+  "subQuests": [
+    {
+      "subId": "1502001",
+      "subQuestName": "Look for the on-site staff",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200101"
+        ],
+        "dialogs": {
+          "150200101": {
+            "id": "150200101",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Oh, hey there, Chasca. Did Elder Allpa send you?",
+            "nextDialogs": [
+              "150200102"
+            ]
+          },
+          "150200102": {
+            "id": "150200102",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Yeah, she's got other things on her plate right now. How are things looking here?",
+            "nextDialogs": [
+              "150200103"
+            ]
+          },
+          "150200103": {
+            "id": "150200103",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Hmm, well, the inspection revealed numerous blockages all over the trial arena. It looks like they're the result of ley line disorders caused by repeat Abyss invasions.",
+            "nextDialogs": [
+              "150200104"
+            ]
+          },
+          "150200104": {
+            "id": "150200104",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Theoretically, we just need to clear those obstacles, and the arena will fill up with gaseous phlogiston again. But that's proving difficult to achieve in practice, for all sorts of reasons...",
+            "nextDialogs": [
+              "150200105"
+            ]
+          },
+          "150200105": {
+            "id": "150200105",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Why don't you head on down and check things out for yourself? Feel free to ask the staff for more details."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502013",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201001"
+        ],
+        "dialogs": {
+          "150201001": {
+            "id": "150201001",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "Oh, are you here to help? Thank goodness! There's no way I could do this all by myself...",
+            "nextDialogs": [
+              "150201002"
+            ]
+          },
+          "150201002": {
+            "id": "150201002",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "The blockage here has to be cleared using a special bomb, but carrying explosives up that steep slope would be a recipe for disaster...",
+            "nextDialogs": [
+              "150201003"
+            ]
+          },
+          "150201003": {
+            "id": "150201003",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "If I dropped it, or slipped and fell, I'd be blown to bits in an instant. So my plan was to transport the bomb to the other side, then send it over in a hot air balloon...",
+            "nextDialogs": [
+              "150201004"
+            ]
+          },
+          "150201004": {
+            "id": "150201004",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "All I need now is for someone else to <color=#00E1FFFF>strike the balloon at the right moment, dropping the payload right on top of the spout...</color> and problem solved!",
+            "nextDialogs": [
+              "150201005"
+            ]
+          },
+          "150201005": {
+            "id": "150201005",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "What do you think? Simple enough, right?",
+            "nextDialogs": [
+              "150201006"
+            ]
+          },
+          "150201006": {
+            "id": "150201006",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "I think I can handle that.",
+            "nextDialogs": [
+              "150201007"
+            ]
+          },
+          "150201007": {
+            "id": "150201007",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Is that hot air balloon up there yours, too?",
+            "nextDialogs": [
+              "150201008"
+            ]
+          },
+          "150201008": {
+            "id": "150201008",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "Huh? Oh, THAT one... No, I've got no idea who that belongs to. Or how they got it up so high...",
+            "nextDialogs": [
+              "150201009"
+            ]
+          },
+          "150201009": {
+            "id": "150201009",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "I just wish I could fly up there and check out what kind of tech they're using... Ah well, getting the trial arena back in order is more important.",
+            "nextDialogs": [
+              "150201010"
+            ]
+          },
+          "150201010": {
+            "id": "150201010",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "I'll head over and set up now. Let me know when you're ready!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502009",
+      "subQuestName": "Clear out obstructions within the site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200901"
+        ],
+        "dialogs": {
+          "150200901": {
+            "id": "150200901",
+            "speakerId": 21709,
+            "speakerName": "Doubtful Investigator",
+            "text": "Whoa! Did you see that!? A tepetlisaur just showed up out of nowhere!",
+            "nextDialogs": [
+              "150200902"
+            ]
+          },
+          "150200902": {
+            "id": "150200902",
+            "speakerId": 21710,
+            "speakerName": "Confused Investigator",
+            "text": "How did it get here? Just passing by, or...? Huh. Well, not gonna argue with a good thing. The spout's clear, that's all that matters..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502010",
+      "subQuestName": "Clear out obstructions within the site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [],
+        "dialogs": {}
+      }
+    },
+    {
+      "subId": "1502011",
+      "subQuestName": "Clear out obstructions within the site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201101"
+        ],
+        "dialogs": {
+          "150201101": {
+            "id": "150201101",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "Huh? Why'd you guys follow me? You won't get a good enough view from here.",
+            "nextDialogs": [
+              "150201102"
+            ]
+          },
+          "150201102": {
+            "id": "150201102",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "Could you go over the plan with me again?",
+            "nextDialogs": [
+              "150201103"
+            ]
+          },
+          "150201103": {
+            "id": "150201103",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "Oh, sure. So, I'm gonna send the explosives over to the spout on the other side in a hot air balloon...",
+            "nextDialogs": [
+              "150201104"
+            ]
+          },
+          "150201104": {
+            "id": "150201104",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "All you have to do is <color=#00E1FFFF>hit the balloon at the right moment, so the bomb falls right on top of the spout.</color> Simple!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502012",
+      "subQuestName": "Clear out obstructions within the site",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201201"
+        ],
+        "dialogs": {
+          "150201201": {
+            "id": "150201201",
+            "speakerId": 1005,
+            "speakerName": "NPC#21735",
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502002",
+      "subQuestName": "",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200201"
+        ],
+        "dialogs": {
+          "150200201": {
+            "id": "150200201",
+            "speakerId": 21708,
+            "speakerName": "Cautious Investigator",
+            "text": "Hmm... I think it should be possible to clear this spout <color=#00E1FFFF>with just a few hard hits</color>.",
+            "nextDialogs": [
+              "150200202"
+            ]
+          },
+          "150200202": {
+            "id": "150200202",
+            "speakerId": 21708,
+            "speakerName": "Cautious Investigator",
+            "text": "But there are signs of strange life in here... Meddling with it might be dangerous..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502003",
+      "subQuestName": "Return to the vantage point and talk to Inkanak",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200301"
+        ],
+        "dialogs": {
+          "150200301": {
+            "id": "150200301",
+            "speakerId": 21708,
+            "speakerName": "Cautious Investigator",
+            "text": "Haha... I thought I was done for! This spout should be good now — thank you very much."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502004",
+      "subQuestName": "Talk to Inkanak",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200401"
+        ],
+        "dialogs": {
+          "150200401": {
+            "id": "150200401",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Wow, you took care of everything in no time at all... Incredible work!",
+            "nextDialogs": [
+              "150200402"
+            ]
+          },
+          "150200402": {
+            "id": "150200402",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Now, we just have to wait until the gaseous phlogiston is fully replenished. Then we can kick off the retrials.",
+            "nextDialogs": [
+              "150200403"
+            ]
+          },
+          "150200403": {
+            "id": "150200403",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Hmm... Actually, Inkanak, I'd like to do a test flight first, just to make sure we're not missing anything. Could you arrange that for me?",
+            "nextDialogs": [
+              "150200404"
+            ]
+          },
+          "150200404": {
+            "id": "150200404",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Huh? But... you only just finished getting the arena ready, there could still be other hazards we're unaware of...",
+            "nextDialogs": [
+              "150200405"
+            ]
+          },
+          "150200405": {
+            "id": "150200405",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "All the more reason to have me test it out. Think of it as another inspection.",
+            "nextDialogs": [
+              "150200406"
+            ]
+          },
+          "150200406": {
+            "id": "150200406",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Eh... I guess you're right — with your flying skills, you won't be in any serious danger, even if there are hazards we overlooked...",
+            "nextDialogs": [
+              "150200407"
+            ]
+          },
+          "150200407": {
+            "id": "150200407",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "The conditions in this area seem a little unstable, but a test-flight is the only way to catch any lingering issues.",
+            "nextDialogs": [
+              "150200408"
+            ]
+          },
+          "150200408": {
+            "id": "150200408",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Alright, I'll get things set up for you. Just let me know when you're ready."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502014",
+      "subQuestName": "Talk to Inkanak",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201401"
+        ],
+        "dialogs": {
+          "150201401": {
+            "id": "150201401",
+            "speakerId": 21716,
+            "speakerName": "Curious Investigator",
+            "text": "This is crazy... I put all of my strength into it, but it just won't break...",
+            "nextDialogs": [
+              "150201402"
+            ]
+          },
+          "150201402": {
+            "id": "150201402",
+            "speakerId": 21716,
+            "speakerName": "Curious Investigator",
+            "text": "Maybe Inkanak was right after all... If a stable structure has formed inside the solid phlogiston, I'll need to hit all the weak spots at the same time to break it...",
+            "nextDialogs": [
+              "150201403"
+            ]
+          },
+          "150201403": {
+            "id": "150201403",
+            "speakerId": 21716,
+            "speakerName": "Curious Investigator",
+            "text": "...But how am I supposed to do that?"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502005",
+      "subQuestName": "Complete the flying trial",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200501"
+        ],
+        "dialogs": {
+          "150200501": {
+            "id": "150200501",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Are you ready? This should be a piece of cake for Chasca, but still, try to be careful.",
+            "nextDialogs": [
+              "150200503"
+            ]
+          },
+          "150200503": {
+            "id": "150200503",
+            "speakerId": 6247,
+            "speakerName": "Inkanak",
+            "text": "Alright, then spread your wings and fly!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502006",
+      "subQuestName": "Talk to Chasca",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200601"
+        ],
+        "dialogs": {
+          "150200601": {
+            "id": "150200601",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "That was amazing! Paimon couldn't take her eyes off you!",
+            "nextDialogs": [
+              "150200602"
+            ]
+          },
+          "150200602": {
+            "id": "150200602",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "So, any further issues with the venue?",
+            "nextDialogs": [
+              "150200603"
+            ]
+          },
+          "150200603": {
+            "id": "150200603",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Hmm... No, nothing major. Give it a few days, and we should be able to conduct the trials.",
+            "nextDialogs": [
+              "150200604"
+            ]
+          },
+          "150200604": {
+            "id": "150200604",
+            "speakerId": 15005,
+            "speakerName": "Isidore",
+            "text": "Help... Help me!",
+            "nextDialogs": [
+              "150200605"
+            ]
+          },
+          "150200605": {
+            "id": "150200605",
+            "speakerId": 15005,
+            "speakerName": "Isidore",
+            "text": "...You're from the Flower-Feather Clan, right? Please, come quick, you've got to help us!",
+            "nextDialogs": [
+              "150200606"
+            ]
+          },
+          "150200606": {
+            "id": "150200606",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Catch your breath first. What's the situation?",
+            "nextDialogs": [
+              "150200607"
+            ]
+          },
+          "150200607": {
+            "id": "150200607",
+            "speakerId": 15005,
+            "speakerName": "Isidore",
+            "text": "W—We were... We got attacked, by a qucusaur!",
+            "nextDialogs": [
+              "150200608"
+            ]
+          },
+          "150200608": {
+            "id": "150200608",
+            "speakerId": 15005,
+            "speakerName": "Isidore",
+            "text": "My friends are still stranded in the middle of the road with the goods we were transporting... Please, I'm begging you, save them!",
+            "nextDialogs": [
+              "150200609"
+            ]
+          },
+          "150200609": {
+            "id": "150200609",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Huh? Are qucusaurs really that aggressive? Do they usually attack groups of people unprovoked?",
+            "nextDialogs": [
+              "150200610"
+            ]
+          },
+          "150200610": {
+            "id": "150200610",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "Not in my experience... but there are exceptions to every rule. Let's go check it out."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502007",
+      "subQuestName": "Go and rescue the caravan",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200701"
+        ],
+        "dialogs": {
+          "150200701": {
+            "id": "150200701",
+            "speakerId": 21709,
+            "speakerName": "Doubtful Investigator",
+            "text": "How strange... why is there so much solid phlogiston here?",
+            "nextDialogs": [
+              "150200702"
+            ]
+          },
+          "150200702": {
+            "id": "150200702",
+            "speakerId": 21710,
+            "speakerName": "Confused Investigator",
+            "text": "Could be from the Children of Echoes...? Maybe it got swept up here due to the Ley Line disturbances. <color=#00E1FFFF>And I did see those strange markings on the cliff...</color>",
+            "nextDialogs": [
+              "150200703"
+            ]
+          },
+          "150200703": {
+            "id": "150200703",
+            "speakerId": 21709,
+            "speakerName": "Doubtful Investigator",
+            "text": "Ugh, I can't think of a way to resolve this... Short of going all the way to the Children of Echoes to borrow a <color=#00E1FFFF>tepetlisaur</color>..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502008",
+      "subQuestName": "Talk to Allpa",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150200801"
+        ],
+        "dialogs": {
+          "150200801": {
+            "id": "150200801",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "#Hm? Chasca, {NICKNAME}? This is a surprise.",
+            "nextDialogs": [
+              "150200802"
+            ]
+          },
+          "150200802": {
+            "id": "150200802",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "Elder Allpa? Huh? So... where's this aggressive qucusaur we've heard about?",
+            "nextDialogs": [
+              "150200803"
+            ]
+          },
+          "150200803": {
+            "id": "150200803",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "Already flew away. Looks like it backed off once it realized that reinforcements were coming.",
+            "nextDialogs": [
+              "150200804"
+            ]
+          },
+          "150200804": {
+            "id": "150200804",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "So why do you think it attacked these people in the first place? Was it after the food?",
+            "nextDialogs": [
+              "150200805"
+            ]
+          },
+          "150200805": {
+            "id": "150200805",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "No, these merchants aren't even transporting food...",
+            "nextDialogs": [
+              "150200806"
+            ]
+          },
+          "150200806": {
+            "id": "150200806",
+            "speakerId": 21713,
+            "speakerName": "Young Merchant",
+            "text": "Ah! Thank goodness! The Phlogiston Wings are intact!",
+            "nextDialogs": [
+              "150200807"
+            ]
+          },
+          "150200807": {
+            "id": "150200807",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "...Phlogiston Wings?",
+            "nextDialogs": [
+              "150200808"
+            ]
+          },
+          "150200808": {
+            "id": "150200808",
+            "speakerId": 21712,
+            "speakerName": "Isidore",
+            "text": "Ahh, thank you so much for coming to our rescue. These Phlogiston Wings are our most prized goods. If anything happened to them, it would ruin us...",
+            "nextDialogs": [
+              "150200809"
+            ]
+          },
+          "150200809": {
+            "id": "150200809",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "...Wait a minute, are you the merchants that were looking to collaborate with us? Warmi told me about you.",
+            "nextDialogs": [
+              "150200810"
+            ]
+          },
+          "150200810": {
+            "id": "150200810",
+            "speakerId": 21712,
+            "speakerName": "Isidore",
+            "text": "Yeah, that's us! So... I take it you're Elder Allpa?",
+            "nextDialogs": [
+              "150200811"
+            ]
+          },
+          "150200811": {
+            "id": "150200811",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "I am. You must be exhausted from your journey, not to mention shaken up from the attack. Let me bring you back to our tribe to rest — we can talk business after you've recovered.",
+            "nextDialogs": [
+              "150200812"
+            ]
+          },
+          "150200812": {
+            "id": "150200812",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "But Elder Allpa, what about the qucusaur attack?",
+            "nextDialogs": [
+              "150200813"
+            ]
+          },
+          "150200813": {
+            "id": "150200813",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "Well, our guests here weren't seriously injured, and their goods are intact... Perhaps that qucusaur was just having a bad day.",
+            "nextDialogs": [
+              "150200814"
+            ]
+          },
+          "150200814": {
+            "id": "150200814",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "There are so many of them around here, you'd expect something like this every once in a while. I don't think we need to pursue it any further... More importantly, how are the preparations for the flying trials going? Is everything in order over at the arena?",
+            "nextDialogs": [
+              "150200817"
+            ]
+          },
+          "150200817": {
+            "id": "150200817",
+            "speakerId": 21712,
+            "speakerName": "Isidore",
+            "text": "Huh? Did you say... flying trials? Wow, what a coincidence! Sounds like a perfect use case for our Phlogiston Wings! You'll be pleasantly surprised by what they can do!",
+            "nextDialogs": [
+              "150200818"
+            ]
+          },
+          "150200818": {
+            "id": "150200818",
+            "speakerId": 21648,
+            "speakerName": "Allpa",
+            "text": "Oh, really? ...Now I'm intrigued.",
+            "nextDialogs": [
+              "150200819"
+            ]
+          },
+          "150200819": {
+            "id": "150200819",
+            "speakerId": 21712,
+            "speakerName": "Isidore",
+            "text": "Hehe, well then let's forget all about this qucusaur attack for now... We have some serious business to discuss!",
+            "nextDialogs": [
+              "150200820"
+            ]
+          },
+          "150200820": {
+            "id": "150200820",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "...",
+            "nextDialogs": [
+              "150200821"
+            ]
+          },
+          "150200821": {
+            "id": "150200821",
+            "speakerId": 1005,
+            "speakerName": "Paimon",
+            "text": "So that's it? That all went smoother than expected... Well, guess we'd better get going... Huh? Chasca?",
+            "nextDialogs": [
+              "150200822"
+            ]
+          },
+          "150200822": {
+            "id": "150200822",
+            "speakerId": -1,
+            "speakerName": "Player",
+            "text": "What are you looking at?",
+            "nextDialogs": [
+              "150200823"
+            ]
+          },
+          "150200823": {
+            "id": "150200823",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "...",
+            "nextDialogs": [
+              "150200824"
+            ]
+          },
+          "150200824": {
+            "id": "150200824",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "A bloodstained feather...",
+            "nextDialogs": [
+              "150200825"
+            ]
+          },
+          "150200825": {
+            "id": "150200825",
+            "speakerId": 1012,
+            "speakerName": "Black Screen",
+            "text": "The incident is forgotten about, and peace returns to the Flower-Feather Clan.\\nThe next few days are uneventful — except for the flying trial preparations, which continue at an accelerated pace..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502013",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201301"
+        ],
+        "dialogs": {
+          "150201301": {
+            "id": "150201301",
+            "speakerId": 21711,
+            "speakerName": "Bold Investigator",
+            "text": "From this angle, you can see more clearly just how high up that hot air balloon is... I wish I knew whose it was."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502015",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201501"
+        ],
+        "dialogs": {
+          "150201501": {
+            "id": "150201501",
+            "speakerId": 21716,
+            "speakerName": "Curious Investigator",
+            "text": "Ahh, so THAT'S how you do it... Amazing!"
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502016",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201601"
+        ],
+        "dialogs": {
+          "150201601": {
+            "id": "150201601",
+            "speakerId": 15006,
+            "speakerName": "Young Merchant",
+            "text": "Ouch...",
+            "nextDialogs": [
+              "150201602"
+            ]
+          },
+          "150201602": {
+            "id": "150201602",
+            "speakerId": 15007,
+            "speakerName": "Elderly Merchant",
+            "text": "I've never seen such an aggressive qucusaur..."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502017",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150201701"
+        ],
+        "dialogs": {
+          "150201701": {
+            "id": "150201701",
+            "speakerId": 17166,
+            "speakerName": "Inkanak",
+            "text": "Why don't you head on down and check things out for yourself? Feel free to ask the staff for more details."
+          }
+        }
+      }
+    },
+    {
+      "subId": "1502099",
+      "subQuestName": "Additional",
+      "sceneId": null,
+      "locations": [],
+      "dialogue": {
+        "startDialogs": [
+          "150209901"
+        ],
+        "dialogs": {
+          "150209901": {
+            "id": "150209901",
+            "speakerId": 1092,
+            "speakerName": "Chasca",
+            "text": "The gaseous phlogiston is being replenished... Looks like all the spouts have been unblocked. Let's head back up.",
+            "nextDialogs": [
+              "150209902"
+            ]
+          },
+          "150209902": {
+            "id": "150209902",
+            "speakerId": 15006,
+            "speakerName": "Young Merchant",
+            "text": "Ouch...",
+            "nextDialogs": [
+              "150209903"
+            ]
+          },
+          "150209903": {
+            "id": "150209903",
+            "speakerId": 15007,
+            "speakerName": "Elderly Merchant",
+            "text": "I've never seen such an aggressive qucusaur...",
+            "nextDialogs": [
+              "150209904"
+            ]
+          },
+          "150209904": {
+            "id": "150209904",
+            "speakerId": 21708,
+            "speakerName": "Cautious Investigator",
+            "text": "Haha... I thought I was done for! This spout should be good now — thank you very much."
+          }
+        }
+      }
+    }
+  ]
+}
