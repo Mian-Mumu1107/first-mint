@@ -1,5 +1,5 @@
 const CHAPTERS_FILE = "https://cdn.jsdelivr.net/gh/mian-mumu1107/first-mint@main/gi-data/generated/quests/chapters_with_quests.json";
-const NEW_CHAPTERS_FILE = "https://cdn.jsdelivr.net/gh/mian-mumu1107/first-mint@main/gi-data/generated/quests/chapters_with_quests_new.json";
+const NEW_CHAPTERS_FILE = "https://mian-mumu1107.github.io/first-mint/gi-data/generated/quests/chapters_with_quests_new.json";
 const MATERIALS_FILE = "https://cdn.jsdelivr.net/gh/mian-mumu1107/first-mint@main/gi-data/generated/materials/materials.json";
 const QUEST_SUBORDER_BASE = "https://cdn.jsdelivr.net/gh/mian-mumu1107/first-mint@main/gi-quests/QuestSubOrders";
 const QUEST_SUBORDER_CHS_BASE = "https://cdn.jsdelivr.net/gh/mian-mumu1107/first-mint@main/gi-quests-chs/QuestSubOrders";
